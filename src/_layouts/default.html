@@ -10,6 +10,11 @@
       以前は media="screen" が付いていて、印刷すると CSS が一切当たらず
       無装飾のまま出ていた。@media print はこのスタイルシートの中にある。
     {%- endcomment -%}
+    {%- comment -%}
+      favicon はブラウザが強く保存し続けるので、明示的に指す。?v= を付けて
+      おくと差し替えたときに拾い直される (bin/gen-favicon で作る)。
+    {%- endcomment -%}
+    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
 {% seo %}
