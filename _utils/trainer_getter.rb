@@ -128,7 +128,9 @@ class TrainerGetter
 
     # Second TD for [show] or [hide] text
     td_show_hide = doc.create_element('div', class: 'show-hide-container') # style: 'text-align: right;')
-    show_hide_text = doc.create_element('span', class: 'show-hide-text', style: 'cursor: pointer;')
+    # span のままだとキーボードでたどり着けないので、押せるものとして扱わせる。
+    show_hide_text = doc.create_element('span', class: 'show-hide-text', style: 'cursor: pointer;',
+                                                role: 'button', tabindex: '0')
     show_hide_text.content = JaNames.ui('[show]')
     # 開閉時のラベルは JavaScript 側で差し替わる。訳語の管理を _ja/ui.yml に
     # 一本化するため、文字列は data 属性で渡す。

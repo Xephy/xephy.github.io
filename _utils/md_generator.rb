@@ -1,5 +1,7 @@
 require_relative 'common'
+require_relative 'chapter_nav'
 require_relative 'affinity'
+require_relative 'spoiler'
 require_relative 'function_wrapper'
 
 # 見出し行末の Kramdown 属性 {#id}。bin/add-heading-ids が書き込む。
@@ -76,8 +78,14 @@ def generate_md_text(game = 'reborn', scripts_dir)
     text.to_s.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;')
   end
 
+  # 一枚版の冒頭に置く目次。
+  #
+  # 以前は章29本と節207本を平らな箇条書きで並べていたため、本文が始まる
+  # までに何画面も送る必要があった。章ごとに畳んで、開いた章だけ節が
+  # 見えるようにする。生のマークダウンではなく HTML で書き出すのは、
+  # details の中に入れると kramdown が中身の処理を止めてしまうため。
   def generate_toc_contents(game)
-    toc = ''
+    chapters = []
     ['main', 'para', 'rene', 'post', 'appendices'].each do |chapter_type|
       chapter_num = 1
       loop do
@@ -85,17 +93,41 @@ def generate_md_text(game = 'reborn', scripts_dir)
         break if !raw_md
         raw_md.each_line do |line|
           next unless line.start_with?('#')
-          next if line[/^#+/].length >= 3 # Only does 2 levels for TOC
-          indents = line[/^#+/].length - 1
-          title = line.strip[indents + 1..].strip # Remove the leading '#' and any extra spaces
-          anchor_link = anchor_for(title)
-          toc += "#{'  ' * indents}- [#{heading_text(title)}](##{anchor_link})\n"
+          level = line[/^#+/].length
+          next if level >= 3 # Only does 2 levels for TOC
+          title = line.strip[level..].strip
+          entry = { text: heading_text(title), anchor: anchor_for(title) }
+          if level == 1
+            chapters << entry.merge(sections: [])
+          elsif chapters.any?
+            chapters.last[:sections] << entry
+          end
         end
         chapter_num += 1
         break if chapter_type == "appendices"
       end
     end
-    toc + "\n"
+
+    return "\n" if chapters.empty?
+
+    blocks = chapters.map do |ch|
+      lis = ch[:sections].map do |sec|
+        %(<li><a href="##{sec[:anchor]}">#{escape_html(sec[:text])}</a></li>)
+      end.join("\n      ")
+      sections = ch[:sections].empty? ? '' : "\n    <ul>\n      #{lis}\n    </ul>"
+      <<~CHAPTER
+        <details class="book-toc-chapter">
+          <summary><a href="##{ch[:anchor]}">#{escape_html(ch[:text])}</a></summary>#{sections}
+        </details>
+      CHAPTER
+    end
+
+    <<~TOC
+      <nav class="book-toc book-toc-inline">
+      #{blocks.join}
+      </nav>
+
+    TOC
   end
 
   def generate_md_post_contents
@@ -119,7 +151,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
         res << function_result
       end
     end
-    Affinity.apply(res.join)
+    Spoiler.apply(Affinity.apply(res.join))
   end
 
   def generate_intelligent_slug(title, chapter_type, chapter_num)
@@ -170,6 +202,9 @@ def generate_md_text(game = 'reborn', scripts_dir)
   res = ''
   game_version = detect_game_version(game, scripts_dir)
   res += generate_md_pre_contents(game, game_version)
+  # 読んでいる最中も章を移動できるよう、章ページと同じ固定サイドバーを置く。
+  # 左に浮かせる要素なので、回り込ませたい中身より前に置く必要がある。
+  sidebar_anchor = res.length
   res += generate_toc_contents(game)
   
   chapters = []
@@ -191,6 +226,11 @@ def generate_md_text(game = 'reborn', scripts_dir)
     end
   end
   res += generate_md_post_contents
+
+  # 章の一覧を固定サイドバーとして差し込む。h1 が出そろってからでないと
+  # 作れないので、本文を組み終えたこの位置で入れる。挿入先は目次の直後。
+  sidebar = PageToc.build_top(res)
+  res = res[0...sidebar_anchor] + sidebar + res[sidebar_anchor..] unless sidebar.empty?
   
   # Return both monolithic and chapters
   index = <<~INDEX

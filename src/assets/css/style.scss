@@ -768,9 +768,75 @@ div#quote p {
     color: white
 }
 
+/* ネタバレの開閉。以前は色指定だけで余白も枠も無く、黒地に白文字の
+   ベタ塗りが本文に紛れていて「押せるもの」に見えなかった。 */
 .spoilerBtn {
-    color: #f2f2f2;
-    background: #222;
+  display: inline-block;
+  padding: 5px 14px 5px 12px;
+  border: 1px solid #c3ccd6;
+  border-radius: 999px;
+  background: #eef2f6;
+  color: #35536f;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  cursor: pointer;
+  user-select: none;
+}
+
+.spoilerBtn::before {
+  content: "\1F441";        /* 目のかたち。中身が隠れていることを示す */
+  margin-right: 6px;
+  font-size: 13px;
+}
+
+.spoilerBtn:hover  { background: #e2e9f1; border-color: #9fb0c2; }
+.spoilerBtn:active { background: #d6dfe9; }
+
+/* 開いた中身は本文と地続きだと境目が分からないので、枠に入れる。 */
+.spoilerText {
+  position: relative;
+  margin: 10px 0;
+  padding: 12px 16px 12px 14px;
+  border: 1px solid #c3ccd6;
+  border-left: 3px solid #7c8ea3;
+  border-radius: 0 6px 6px 0;
+  background: #f6f8fa;
+}
+
+/* 開いたあと閉じ直せるようにする。JavaScript が差し込む。 */
+.spoilerHide {
+  float: right;
+  margin: -4px -6px 0 10px;
+  padding: 2px 9px;
+  border: 1px solid #c3ccd6;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #55606e;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+
+.spoilerHide:hover { background: #eef2f6; color: #35536f; }
+
+body.night-mode .spoilerBtn {
+  background: #232a33;
+  border-color: #3a444f;
+  color: #a8c4de;
+}
+
+body.night-mode .spoilerBtn:hover { background: #2b333e; border-color: #4a5764; }
+
+body.night-mode .spoilerText {
+  background: #1b2027;
+  border-color: #333b45;
+  border-left-color: #5b6a7a;
+}
+
+body.night-mode .spoilerHide {
+  background: #232a33;
+  border-color: #3a444f;
+  color: #9aa5b1;
 }
 
 .header-th {
@@ -1153,6 +1219,41 @@ body.night-mode .chapter-nav-current > strong { color: #e0e0e0; }
 .book-toc-chapter li a { display: block; padding: 2px 0 2px 10px; border-left: 2px solid #e3e7ec; color: #55606e; }
 .book-toc-chapter li a:hover { border-left-color: #2b6cb0; color: #1a1a1a; text-decoration: none; }
 
+/* 一枚版 (/reborn/all/) の冒頭に置く目次。
+   以前は章29本と節207本を平らに並べていたので、本文が始まるまでに何画面も
+   送る必要があった。章ごとに畳み、読みたい章だけ節を開く形にする。
+   章の移動そのものは左の固定サイドバーが受け持つ。 */
+.book-toc-inline { columns: 2; }
+
+.book-toc-chapter > summary {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  cursor: pointer;
+  list-style: none;
+}
+
+.book-toc-chapter > summary::-webkit-details-marker { display: none; }
+
+.book-toc-chapter > summary::before {
+  content: "\25B8";
+  display: inline-block;
+  width: 1em;
+  color: #8b95a3;
+}
+
+.book-toc-chapter[open] > summary::before { content: "\25BE"; }
+.book-toc-chapter[open] > summary { margin-bottom: 8px; }
+
+.book-toc-chapter > summary a { color: #1a1a1a; }
+.book-toc-chapter > summary a:hover { color: #2b6cb0; text-decoration: none; }
+
+body.night-mode .book-toc-chapter > summary a { color: #f5f5f5; }
+body.night-mode .book-toc-chapter > summary a:hover { color: #7db1e8; }
+
+@media screen and (max-width: 900px) { .book-toc-inline { columns: 1; } }
+
 @media screen and (max-width: 1100px) { .book-toc { columns: 2; } }
 @media screen and (max-width: 700px)  { .book-toc { columns: 1; } }
 
@@ -1357,4 +1458,96 @@ body.night-mode .move-name[title] { text-decoration-color: #55606e; }
   .trainer_section td.mon-cell { min-width: 150px; }
   .move-list { min-width: 200px; }
   .type-badge { min-width: 0; }
+}
+
+/*******************************************************************************
+キーボード操作の現在位置
+*******************************************************************************/
+
+/* これまでフォーカスの指定が a:focus の色変えだけで、いま何を選んでいるのか
+   分からなかった。:focus-visible なのでマウス操作では出ない。 */
+:focus-visible {
+  outline: 2px solid #0973ca;
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+body.night-mode :focus-visible { outline-color: #7db1e8; }
+
+/* 見出しへ飛んだとき、固定ヘッダや行間に埋もれないよう手前に余白を取る。 */
+h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
+
+/*******************************************************************************
+印刷
+*******************************************************************************/
+
+@media print {
+  /* 画面専用の飾りと操作子は出さない。 */
+  #header_wrap,
+  #footer_wrap,
+  #banners,
+  #downloads,
+  #toTopButton,
+  .chapter-nav,
+  .book-toc-inline,
+  #main_content > .page-toc,
+  .show-hide-container,
+  .spoilerBtn,
+  .spoilerHide {
+    display: none !important;
+  }
+
+  /* サイドバーを消したぶん、本文の字下げも戻す。 */
+  #main_content:has(> .page-toc) > * { margin-left: 0 !important; }
+
+  body {
+    background: #ffffff;
+    color: #000000;
+    font-size: 10.5pt;
+    line-height: 1.6;
+  }
+
+  #main_content_wrap,
+  #main_content {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* トレーナー戦の表は画面では畳んであり、JavaScript が要素に直接
+     display:none を書く。紙では開いた状態でなければ意味がないので、
+     優先度を上げて戻す。 */
+  .trainer_section tbody,
+  .trainer_section .table-header tr,
+  .spoilerText {
+    display: table-row-group !important;
+  }
+
+  .trainer_section .table-header tr { display: table-row !important; }
+  .spoilerText { display: block !important; }
+
+  /* タイプの色分けは紙でも情報なので、背景色を落とさせない。 */
+  .type-badge,
+  th.table-header,
+  .table-header th,
+  th.table_header,
+  .table_header th,
+  .header-th,
+  .affinity-delta,
+  .affinity-label,
+  .affinity-list {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* 表と図が紙の切れ目で分断されないようにする。 */
+  table { page-break-inside: avoid; break-inside: avoid; }
+  tr, .mon-cell, .affinity-list, .spoilerText { page-break-inside: avoid; break-inside: avoid; }
+  .tabImage { max-height: 16cm; page-break-inside: avoid; break-inside: avoid; }
+
+  h1 { page-break-before: always; break-before: page; }
+  h1:first-of-type { page-break-before: auto; break-before: auto; }
+  h2, h3 { page-break-after: avoid; break-after: avoid; }
+
+  a { color: #000000; text-decoration: none; }
 }

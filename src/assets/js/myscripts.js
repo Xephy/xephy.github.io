@@ -26,12 +26,6 @@ $(document).ready(function () {
     $(this).attr("onclick", "window.open(this.src, '_blank');")
   });
 
-  // Enables spoiler buttons
-  $('.spoilerBtn').click(function() {
-    $(this).parent().find('.spoilerText').css('display', 'block');
-    $(this).hide();
-  })
-
   // When the user scrolls down 20px from the top of the document, show the button
   window.onscroll = () => {
     btn = document.getElementById("toTopButton")
@@ -53,6 +47,14 @@ $(document).ready(function() {
   // Hide additional header rows and content rows initially for each trainer_section
   $('.trainer_section .table-header tr:not(:first-child)').hide();
   $('.trainer_section tbody').hide();
+
+  // Enter と Space でも開閉できるようにする。role と tabindex は生成側で
+  // 付けてある。Space は既定だとページが送られるので抑える。
+  $('.trainer_section .show-hide-text').on('keydown', function (ev) {
+    if (ev.key !== 'Enter' && ev.key !== ' ' && ev.key !== 'Spacebar') return;
+    ev.preventDefault();
+    $(this).trigger('click');
+  });
 
   // Add click event handler to toggle visibility and update button text for each show-hide-text
   $('.trainer_section .show-hide-text').click(function() {
@@ -157,4 +159,57 @@ $(document).ready(function() {
 
   document.addEventListener('click', close);
   window.addEventListener('scroll', close, { passive: true });
+})();
+
+// ネタバレの開閉。
+//
+// 以前はクリックで開くだけで、閉じ直す手段が無いのに title には
+// 「表示/非表示」と書かれていた。また <a> に href が無いためキーボードでは
+// たどり着けなかった (role と tabindex は生成側で補っている)。
+(function () {
+  var buttons = document.querySelectorAll('.spoilerBtn');
+  if (!buttons.length) return;
+
+  buttons.forEach(function (btn) {
+    var box = btn.parentElement && btn.parentElement.querySelector('.spoilerText');
+    if (!box) return;
+
+    // 閉じ直すための小さな操作子。開くときに一度だけ作る。
+    var hide = null;
+
+    function open() {
+      box.style.display = 'block';
+      btn.style.display = 'none';
+      if (!hide) {
+        hide = document.createElement('span');
+        hide.className = 'spoilerHide';
+        hide.setAttribute('role', 'button');
+        hide.setAttribute('tabindex', '0');
+        hide.textContent = btn.dataset.hide || 'hide';
+        hide.addEventListener('click', close);
+        hide.addEventListener('keydown', activate(close));
+        box.insertBefore(hide, box.firstChild);
+      }
+      hide.focus();
+    }
+
+    function close() {
+      box.style.display = 'none';
+      btn.style.display = '';
+      btn.focus();
+    }
+
+    btn.addEventListener('click', open);
+    btn.addEventListener('keydown', activate(open));
+  });
+
+  // Enter と Space をクリックと同じ扱いにする。Space は既定だと
+  // ページが送られてしまうので抑える。
+  function activate(fn) {
+    return function (ev) {
+      if (ev.key !== 'Enter' && ev.key !== ' ' && ev.key !== 'Spacebar') return;
+      ev.preventDefault();
+      fn();
+    };
+  }
 })();

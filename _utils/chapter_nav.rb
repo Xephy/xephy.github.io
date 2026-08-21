@@ -110,6 +110,31 @@ module PageToc
     TOC
   end
 
+  # 一枚版 (/reborn/all/) 用。章の見出し (h1) だけを拾う。
+  #
+  # 一枚版は h1 が29本・h2 が207本あり、節まで並べるとサイドバーが本文より
+  # 長くなる。章だけに絞れば「今どのエピソードを読んでいるか」が常に分かり、
+  # 節の一覧は本文冒頭の畳んだ目次側で引ける。
+  CHAPTER_HEADING = /^\#[ \t]+(.+?)[ \t]*\{\#([^}]+)\}[ \t]*$/.freeze
+
+  def build_top(content)
+    items = content.to_s.scan(CHAPTER_HEADING)
+    return '' if items.length < 2
+
+    lis = items.map do |text, id|
+      %(<li class="page-toc-l2"><a href="##{id}">#{escape(text.strip)}</a></li>)
+    end.join("\n    ")
+
+    <<~TOC
+      <details class="page-toc" open>
+        <summary>#{JaNames.ui('Chapters')}</summary>
+        <ul>
+          #{lis}
+        </ul>
+      </details>
+    TOC
+  end
+
   def escape(text)
     text.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;')
   end
