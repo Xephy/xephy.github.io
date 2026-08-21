@@ -1,117 +1,53 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+# 日本語版を GitHub Pages へ公開する。
+#
+# 上流の版はゲームのデータを持つ非公開リポジトリを secrets 付きで clone し、
+# wt_generator.rb をここで走らせていた。そのリポジトリには触れないので、
+# 生成は手元で行い (bin/ja build)、生成物をコミットしてある。
+# ここは出来上がった src/ を Jekyll でビルドして配信するだけ。
+#
+#   手元:  bin/ja build  →  git commit  →  git push
+#   ここ:  jekyll build  →  deploy-pages
+name: Deploy Jekyll site to Pages
 
 on:
-  # Allows you to run this workflow manually from the Actions tab
+  push:
+    branches: ["main"]
   workflow_dispatch:
- 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# 走行中の配信は止めず、待たせる。
 concurrency:
   group: "pages"
   cancel-in-progress: false
- 
+
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.1'  # Specify the Ruby version you are using
-      - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install
 
-      - name: Read commit hashes
-        id: versions
-        run: |
-          REBORN=$(jq -r '.reborn' .scripts_versions.json)
-          REJUV=$(jq -r '.rejuv' .scripts_versions.json)
-          DESO=$(jq -r '.deso' .scripts_versions.json)
-          echo "reborn=$REBORN" >> $GITHUB_OUTPUT
-          echo "rejuv=$REJUV" >> $GITHUB_OUTPUT
-          echo "deso=$DESO" >> $GITHUB_OUTPUT
-
-      - name: Checkout private repository for Reborn scripts
-        env:
-          PRIVATE_REPO_PAT: ${{ secrets.PRIVATE_REPO_PAT }}
-          PRIVATE_REPO_GIT_URL: ${{ secrets.PRIVATE_REPO_GIT_URL }}
-          REBORN_COMMIT: ${{ steps.versions.outputs.reborn }}
-        run: |
-          git clone https://x-access-token:${PRIVATE_REPO_PAT}@${PRIVATE_REPO_GIT_URL} ./_scripts_reborn
-          cd _scripts_reborn
-          if [ -n "$REBORN_COMMIT" ]; then
-            echo "Checking out commit $REBORN_COMMIT for Reborn"
-            git checkout $REBORN_COMMIT
-          fi
-          cd ..
-
-      - name: Run wt_generator.rb for Reborn
-        run: ruby wt_generator.rb reborn ./_scripts_reborn src/reborn.md
-
-      - name: Checkout private repository for Rejuv scripts
-        env:
-          PRIVATE_REPO_PAT: ${{ secrets.PRIVATE_REPO_PAT }}
-          PRIVATE_REPO_GIT_URL: ${{ secrets.PRIVATE_REPO_GIT_URL }}
-          REJUV_COMMIT: ${{ steps.versions.outputs.rejuv }}
-        run: |
-          git clone https://x-access-token:${PRIVATE_REPO_PAT}@${PRIVATE_REPO_GIT_URL} ./_scripts_rejuv
-          cd _scripts_rejuv
-          if [ -n "$REJUV_COMMIT" ]; then
-            echo "Checking out commit $REJUV_COMMIT for Rejuv"
-            git checkout $REJUV_COMMIT
-          fi
-          cd ..
-
-      - name: Run wt_generator.rb for Rejuv
-        run: ruby wt_generator.rb rejuv ./_scripts_rejuv src/rejuv.md
-
-      - name: Checkout private repository for Deso scripts
-        env:
-          PRIVATE_REPO_PAT: ${{ secrets.PRIVATE_REPO_PAT }}
-          PRIVATE_REPO_GIT_URL: ${{ secrets.PRIVATE_REPO_GIT_URL }}
-          DESO_COMMIT: ${{ steps.versions.outputs.deso }}
-        run: |
-          git clone https://x-access-token:${PRIVATE_REPO_PAT}@${PRIVATE_REPO_GIT_URL} ./_scripts_deso
-          cd _scripts_deso
-          if [ -n "$DESO_COMMIT" ]; then
-            echo "Checking out commit $DESO_COMMIT for Deso"
-            git checkout $DESO_COMMIT
-          fi
-          cd ..
-
-      - name: Run wt_generator.rb for Deso
-        run: ruby wt_generator.rb deso ./_scripts_deso src/deso.md
-
+      # jekyll-build-pages は source 直下の _config.yml を読む。
+      # このリポジトリでは設定がルートにあるので写す。
       - name: Copy _config.yml into src
         run: cp ./_config.yml ./src/_config.yml
 
-      #- name: List files in src
-      #  run: ls -la src
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Build with Jekyll
-        if: success()  # Only run if all previous steps succeeded
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./src
           destination: ./_site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages

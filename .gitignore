@@ -9,7 +9,8 @@ _site
 vendor
 dummy*
 _*.md
-src/reborn.md*
+# Reborn の生成物は GitHub Pages の配信元なので追跡する。
+# (CI はゲームの Scripts を持てないため、手元で生成してコミットする)
 src/rejuv.md*
 src/deso.md*
 *old.md*
@@ -17,8 +18,9 @@ _scripts_reborn
 _scripts_rejuv
 _scripts_deso
 *_arch*
-src/reborn-chapters/
 src/rejuv-chapters/
 src/deso-chapters/
 # bundle install --path の局所設定（各自の環境依存）
 .bundle
+# CI がビルド時にルートから写す。中身が二重管理になるので追跡しない。
+src/_config.yml
