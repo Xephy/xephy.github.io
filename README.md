@@ -1,3 +1,45 @@
+# ポケモンリボーン 日本語攻略
+
+[BIGJRA](https://github.com/BIGJRA/BIGJRA.github.io) 氏の Pokémon Reborn 攻略を
+日本語化したフォークです。公開先は <https://xephy.github.io/> 。
+
+訳語は同じ作者による Pokémon Reborn 日本語化パッチから書き出しており、
+攻略サイトとパッチで食い違わないようにしています (`_ja/README.md`)。
+Rejuvenation と Desolation は日本語化していないため、ページを生成していません。
+
+## 更新のしかた
+
+```
+bin/ja build     # 手元のゲームの Scripts から src/reborn.md と章ページを生成
+git commit -a
+git push         # push すると Actions がビルドして公開する
+```
+
+`bin/ja serve` にすると生成後にローカルサーバーが立ち上がります。
+`bin/ja en` は英語版として生成し直すので、日本語化の回帰確認に使えます。
+
+生成物 (`src/reborn.md`、`src/reborn-chapters/`) をコミットしているのは、
+上流のワークフローが使う非公開のゲームデータリポジトリに触れないためです。
+CI はゲームの Scripts を持てないので、出来上がった `src/` をビルドして
+配信するだけになっています。**`bin/ja build` を忘れると原稿を直しても公開
+内容は変わりません。**
+
+## 補助スクリプト
+
+| | |
+|---|---|
+| `bin/ja` | 生成とローカル確認 |
+| `bin/verify-chapters` | 構造・見出し・リンク・数値の照合 |
+| `bin/check-terms` | 訳語をパッチの辞書と突き合わせる |
+| `bin/check-rendered` | 公開ページに未訳の英語が出ていないか調べる |
+| `bin/convert-images` | 攻略図を WebP に変換し、画素サイズ一覧を書き出す |
+| `bin/gen-mon-icons` | ゲームのシートからポケモンのアイコンを切り出す |
+| `bin/gen-favicon` | favicon を作る |
+
+---
+
+以下は上流のドキュメントです。
+
 # BIGJRA.github.io
 
 Welcome to the BIGJRA.github.io repository! This is my ever-evolving Pokemon Reborn, Rejuvenation, and Desolation walkthrough project, forged through years of experience with web development and learning new tips and tricks.
