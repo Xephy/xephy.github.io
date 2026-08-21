@@ -1,4 +1,5 @@
 require 'json'
+require 'set'
 require 'yaml'
 require 'nokogiri'
 require 'date'
@@ -9,6 +10,21 @@ ROOT_DIR = File.dirname(UTILS_DIR)
 CONFIG = YAML.safe_load(File.open(File.join(ROOT_DIR, '_config.yml')))
 
 VERSIONS = { 'reborn' => "19.5.18" , 'rejuv' => "14.0.15", 'deso' => "6.0.13" }
+
+# 種族×フォルムのアイコン。bin/gen-mon-icons がゲームのシートから切り出す。
+# トレーナー戦の表と出現ポケモンの表の双方から引くので、ここに置く。
+# 無ければ nil を返し、呼び出し側は画像なしで描く。
+MON_ICON_DIR = File.join(ROOT_DIR, 'src', 'assets', 'images', 'mon')
+MON_ICON_INDEX = (Dir.exist?(MON_ICON_DIR) ? Dir.children(MON_ICON_DIR) : []).to_set.freeze
+
+def mon_icon_src(species, form = 0)
+  return nil unless species
+
+  base = species.to_s.downcase
+  file = "#{base}_#{form.to_i}.png"
+  file = "#{base}_0.png" unless MON_ICON_INDEX.include?(file)
+  MON_ICON_INDEX.include?(file) ? "/assets/images/mon/#{file}" : nil
+end
 
 LONGNAMES = { 'reborn' => 'reborn', 'rejuv' => 'rejuvenation', 'deso' => 'desolation'}
 

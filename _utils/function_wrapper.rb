@@ -1,3 +1,5 @@
+require 'json'
+
 require_relative 'common'
 require_relative 'encounter_getter'
 require_relative 'shop_getter'
@@ -6,6 +8,12 @@ require_relative 'trainer_getter'
 # This is the magic class of the rewrite.
 # Each function should return a string of some kind (can be multiline)
 class FunctionWrapper
+  # 画像の画素サイズ一覧 (bin/convert-images が書き出す)。
+  IMAGE_SIZES = begin
+    path = File.join(__dir__, 'image_sizes.json')
+    File.exist?(path) ? JSON.parse(File.read(path)) : {}
+  end.freeze
+
 
   def initialize(game, scripts_dir)
     # I need to pass in game to basically all of the potential functions, so
@@ -72,8 +80,17 @@ class FunctionWrapper
     return res
   end
 
+  # 攻略図。元の PNG/JPG は bin/convert-images で WebP に変換してある
+  # (344MB -> 77MB)。width/height を必ず入れるのは、これが無いと画像が
+  # 読み込まれるたびに本文が下へ飛ぶため。画素サイズは変換時に書き出した
+  # 一覧から引く。
   def generate_image_markdown(filename)
-    "<img class=\"tabImage\" src=\"/assets/images/#{@game}/#{filename}\"/>"
+    name = filename.to_s.strip.sub(/\.(png|jpe?g)\z/i, '.webp')
+    size = IMAGE_SIZES.dig(@game, name)
+    warn "画素サイズが不明: #{@game}/#{name}" if size.nil?
+    dim = size ? %( width="#{size[0]}" height="#{size[1]}") : ''
+    %(<img class="tabImage" src="/assets/images/#{@game}/#{name}"#{dim} ) +
+      %(loading="lazy" decoding="async" alt="#{JaNames.ui('Map')}"/>)
   end
 
   def generate_mining_markdown

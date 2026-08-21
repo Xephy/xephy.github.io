@@ -1,4 +1,5 @@
 require_relative 'common'
+require_relative 'affinity'
 require_relative 'function_wrapper'
 
 # 見出し行末の Kramdown 属性 {#id}。bin/add-heading-ids が書き込む。
@@ -118,7 +119,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
         res << function_result
       end
     end
-    res.join
+    Affinity.apply(res.join)
   end
 
   def generate_intelligent_slug(title, chapter_type, chapter_num)

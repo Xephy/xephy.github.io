@@ -816,20 +816,6 @@ class TrainerGetter
     doc.to_html(encoding: 'UTF-8').gsub(/<td>\s*\n\s*<strong>/, '<td><strong>').split("\n")[1..].join("\n")
   end
 
-  # 種族×フォルムのアイコンの場所。無ければ nil を返し、画像なしで描画する。
-  def mon_icon_src(species, form)
-    return nil unless species
-
-    base = species.to_s.downcase
-    @icon_index ||= begin
-      dir = File.expand_path('../src/assets/images/mon', __dir__)
-      Dir.exist?(dir) ? Dir.children(dir).to_set : Set[]
-    end
-    file = "#{base}_#{form.to_i}.png"
-    file = "#{base}_0.png" unless @icon_index.include?(file)
-    @icon_index.include?(file) ? "/assets/images/mon/#{file}" : nil
-  end
-
   def report_missing_trainers
     puts 'UNUSED TRAINER IDs: '
     @trainerHash.each do |trainer_id, _data|

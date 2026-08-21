@@ -146,7 +146,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #0F79D0;
+  color: #0973CA;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -203,10 +203,16 @@ p img {
 }
 
 .tabImage {
+  // width/height 属性を入れたので、そのままだと max-height で縦だけ
+  // 詰まって歪む。auto に戻して縦横比を保たせる。属性は「読み込み前に
+  // 場所を確保する」役目だけを担う。
+  width: auto;
+  height: auto;
   max-height: 700px;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  cursor: zoom-in;
 }
 
 pre, code {
@@ -533,7 +539,7 @@ h1, h2, h3, h4, h5, h6) {
 .page-toc > summary {
   font-weight: 700;
   font-size: 13px;
-  color: #6b7684;
+  color: #687381;
   letter-spacing: 0.08em;
   margin-bottom: 10px;
   cursor: pointer;
@@ -899,7 +905,23 @@ body.night-mode h3 { color: #9fc0e0; }
 
 body.night-mode #main_content em,
 body.night-mode #main_content cite { color: #e0b46a; }
+/* ショップの表だけは全行が道具なので、橙色は何も区別しない。
+   ライトモード側と同じ扱いに揃える (詳細度でこちらが勝つ必要がある)。 */
+body.night-mode #main_content .shop_section em { color: inherit; }
 body.night-mode #main_content strong { color: #ffffff; }
+
+body.night-mode #main_content .affinity-label,
+body.night-mode #main_content .affinity-list {
+  background: #1b2430;
+  border-left-color: #4a86c8;
+}
+
+body.night-mode #main_content .affinity-label strong { color: #a8c4de; }
+
+body.night-mode .affinity-delta.is-up    { background: #1d3a28; color: #8ed6a6; }
+body.night-mode .affinity-delta.is-down  { background: #3c2124; color: #f0a0a2; }
+body.night-mode .affinity-delta.is-mixed { background: #3a2f1c; color: #e6c081; }
+body.night-mode .affinity-delta.is-none  { background: #262b31; color: #a4aeb8; }
 
 body.night-mode #main_content > .page-toc { border-right-color: #33383f; }
 body.night-mode .page-toc > summary { color: #8b95a3; }
@@ -921,6 +943,114 @@ body.night-mode .page-toc a.is-current {
 body.night-mode div#quote {
   background: #222222;
 }
+/*******************************************************************************
+出現ポケモンの表
+*******************************************************************************/
+
+/* 種族名の左にアイコンを置く。トレーナー戦の表と同じ絵なので、
+   どちらの表を見ていても同じ手掛かりで種族を追える。 */
+.enc-mon {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.enc-icon {
+  width: 32px;
+  height: 32px;
+  margin: -4px 4px -4px 0;
+  vertical-align: middle;
+}
+
+.enc-mon-name { vertical-align: middle; }
+
+/* 出現率と水準は数字を突き合わせて読むので、桁を揃える。 */
+.encounter_section td { font-variant-numeric: tabular-nums; }
+
+/*******************************************************************************
+ショップの表
+*******************************************************************************/
+
+/* 品名は左、値段は右。値段は桁を揃えて上下で比べられるようにする。 */
+.shop-item  { text-align: left; }
+.shop-price { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* 本文では橙色が「これは道具だ」という目印になるが、ショップの表は
+   全行が道具なので色が何も区別しない。地の色に戻して、代わりに
+   注目させたい品 (<strong>) だけが目立つようにする。 */
+#main_content .shop_section em {
+  color: inherit;
+  font-style: normal;
+}
+
+#main_content .shop_section strong { font-weight: 700; }
+
+/*******************************************************************************
+好感度の選択肢
+*******************************************************************************/
+
+/* 生の原稿ではラベル1行と1項目のリストが延々と積み重なっていた (227組の
+   うち107組が隣接)。生成側で隣接分を1組にまとめたうえで、ここでラベルと
+   リストを1枚のカードとして繋ぐ。 */
+
+#main_content .affinity-label {
+  /* 左マージンは #main_content:has(> .page-toc) > * が 284px を与えている。
+     margin の一括指定だとそれを 0 に潰してカードがサイドバーへ食い込む。 */
+  margin-top: 22px;
+  margin-bottom: 0;
+  padding: 7px 14px 5px;
+  background: #eef3f9;
+  border-left: 3px solid #2f6fab;
+  border-radius: 6px 6px 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#main_content .affinity-label strong {
+  color: #35536f;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+#main_content .affinity-label strong::before {
+  content: "\2665";
+  margin-right: 6px;
+  color: #b8607a;
+}
+
+#main_content .affinity-list {
+  margin-top: 0;
+  margin-bottom: 22px;
+  padding: 3px 14px 10px 32px;
+  background: #eef3f9;
+  border-left: 3px solid #2f6fab;
+  border-radius: 0 0 6px 6px;
+  list-style: disc;
+}
+
+#main_content .affinity-list li {
+  margin: 0;
+  padding: 3px 0;
+  line-height: 1.7;
+}
+
+/* 増減値。上げ下げが一目で分かるように色を分ける。数字の桁が揃うように
+   等幅の数字を使い、折り返さない。 */
+.affinity-delta {
+  display: inline-block;
+  margin-left: 0.35em;
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.affinity-delta.is-up    { background: #dff0e4; color: #1c6135; }
+.affinity-delta.is-down  { background: #fbe4e4; color: #97282a; }
+.affinity-delta.is-mixed { background: #fbeed8; color: #7c5310; }
+.affinity-delta.is-none  { background: #e6eaee; color: #4f5a64; }
+
 /*******************************************************************************
 Chapter navigation (Japanese split-by-episode pages)
 *******************************************************************************/
@@ -1162,7 +1292,7 @@ body.night-mode .book-toc-chapter li a:hover { color: #ffffff; border-left-color
   display: flex;
   align-items: baseline;
   gap: 6px;
-  color: #6b7684;
+  color: #687381;
   font-variant-numeric: tabular-nums;
   font-size: 12.5px;
 }
@@ -1193,23 +1323,23 @@ body.night-mode .book-toc-chapter li a:hover { color: #ffffff; border-left-color
 
 /* 背景は各タイプの慣用色を、白文字が読める明度まで落としたもの。
    もともと明るいでんき・こおり・フェアリーだけ文字色を反転させる。 */
-.type-normal   { background: #7d8085; }
+.type-normal   { background: #73767b; }
 .type-fighting { background: #bf3a3a; }
-.type-flying   { background: #6d81c6; }
+.type-flying   { background: #5f73b8; }
 .type-poison   { background: #96479a; }
-.type-ground   { background: #a9701f; }
-.type-rock     { background: #96854f; }
-.type-bug      { background: #6b921f; }
+.type-ground   { background: #a36a19; }
+.type-rock     { background: #86753f; }
+.type-bug      { background: #5b820f; }
 .type-ghost    { background: #55568f; }
 .type-steel    { background: #56798a; }
-.type-fire     { background: #d95d16; }
-.type-water    { background: #3b7fd0; }
-.type-grass    { background: #46963f; }
+.type-fire     { background: #cb4f08; }
+.type-water    { background: #3377c8; }
+.type-grass    { background: #36862f; }
 .type-psychic  { background: #d43a67; }
 .type-dragon   { background: #4640b8; }
 .type-dark     { background: #4b434f; }
 .type-shadow   { background: #3b3050; }
-.type-qmarks   { background: #55897c; }
+.type-qmarks   { background: #4b7f72; }
 
 .type-electric { background: #f0cc2a; color: #3c3100; text-shadow: none; }
 .type-ice      { background: #8fdcd2; color: #14453f; text-shadow: none; }
@@ -1217,6 +1347,8 @@ body.night-mode .book-toc-chapter li a:hover { color: #ffffff; border-left-color
 
 body.night-mode .move-list .move { border-bottom-color: #2b3038; }
 body.night-mode .move-meta { color: #8b95a3; }
+/* 暗い背景に #55606e のままだと 2.6:1 しかなく読めない。 */
+body.night-mode .mon-meta { color: #8b95a3; }
 body.night-mode .move-acc.is-sure { color: #7fc79b; }
 body.night-mode .move-name[title] { text-decoration-color: #55606e; }
 

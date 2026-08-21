@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+"""攻略図のスクリーンショットを WebP に変換する。
+
+元の PNG は 1枚あたり 2MB を超えるものがあり、136枚で 312MB あった。
+表示は最大 856x700px なので画素も容量も大きく余っている。
+
+変換は「ロスレスと非可逆の両方で符号化して小さい方を採る」方式。
+平面的なドット絵はロスレスの方が小さくなる (例: glass_espeon.png は
+非可逆だと元より大きくなり、ロスレスなら 27%)。写真的なマップ画像は
+非可逆が圧倒的に小さい (13-23%)。品質 88 は原本と見分けが付かないことを
+細い格子線と経路矢印で確認済み。
+
+同時に画素サイズの一覧を書き出す。<img> に width/height を入れないと
+読み込みのたびに本文が下へ飛ぶため、生成側がこの一覧を参照する。
+"""
+import json
+import os
+import sys
+from pathlib import Path
+
+from PIL import Image
+
+QUALITY = 88
+ROOT = Path(__file__).resolve().parent.parent
+MANIFEST = ROOT / '_utils' / 'image_sizes.json'
+SUFFIXES = {'.png', '.jpg', '.jpeg'}
+
+
+def encode(src: Path, dest: Path) -> str:
+    """ロスレスと非可逆で符号化し、小さい方を残す。採った方式を返す。"""
+    im = Image.open(src)
+    im = im.convert('RGBA' if im.mode in ('RGBA', 'LA', 'P') and _has_alpha(im) else 'RGB')
+
+    lossy, lossless = dest.with_suffix('.lossy.tmp'), dest.with_suffix('.lossless.tmp')
+    im.save(lossy, 'WEBP', quality=QUALITY, method=6)
+    im.save(lossless, 'WEBP', lossless=True, method=6)
+
+    if lossless.stat().st_size <= lossy.stat().st_size:
+        lossless.replace(dest)
+        lossy.unlink()
+        return 'lossless'
+    lossy.replace(dest)
+    lossless.unlink()
+    return f'q{QUALITY}'
+
+
+def _has_alpha(im: Image.Image) -> bool:
+    if im.mode == 'P':
+        return 'transparency' in im.info
+    return im.mode in ('RGBA', 'LA')
+
+
+def main(argv):
+    game = argv[1] if len(argv) > 1 else 'reborn'
+    delete = '--delete' in argv
+    d = ROOT / 'src' / 'assets' / 'images' / game
+    # maps_raw/ は _config.yml の "*_raw*" で公開対象外。触らない。
+    sources = sorted(p for p in d.iterdir() if p.is_file() and p.suffix.lower() in SUFFIXES)
+
+    sizes = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
+    sizes.setdefault(game, {})
+
+    before = after = 0
+    for src in sources:
+        dest = src.with_suffix('.webp')
+        o = src.stat().st_size
+        mode = encode(src, dest)
+        w = dest.stat().st_size
+        before += o
+        after += w
+        with Image.open(dest) as im:
+            sizes[game][dest.name] = list(im.size)
+        print(f'  {src.name:34s} {o // 1024:6d}KB -> {w // 1024:6d}KB '
+              f'({w * 100 // max(o, 1):3d}%, {mode})')
+        if delete:
+            src.unlink()
+
+    MANIFEST.parent.mkdir(parents=True, exist_ok=True)
+    MANIFEST.write_text(json.dumps(sizes, indent=1, sort_keys=True) + '\n')
+    print(f'\n  {len(sources)}枚: {before / 1048576:.0f}MB -> {after / 1048576:.0f}MB '
+          f'({after * 100 // max(before, 1)}%)')
+    print(f'  画素サイズ一覧: {MANIFEST.relative_to(ROOT)}')
+
+
+if __name__ == '__main__':
+    main(sys.argv)

@@ -54,7 +54,7 @@ class ShopGetter
       # Column 1: Item Name (italicized)
       # item は価格の検索キーでもあるので、表示用だけを訳す。
       item_label = JaNames.shop_item(item)
-      td_item = doc.create_element('td', style: 'text-align: center')
+      td_item = doc.create_element('td', class: 'shop-item')
       if bold_flag
         td_item.add_child(doc.create_element('strong', content = item_label))
       else
@@ -65,7 +65,7 @@ class ShopGetter
       # Column 2: Price
       price = price.nil? ? @priceLookup[item] : price
       price = price.is_a?(Integer) ? "$#{price}" : JaNames.shard_cost(price)
-      td_price = doc.create_element('td', style: 'text-align: center')
+      td_price = doc.create_element('td', class: 'shop-price')
       td_price.content = price
       raise "Missing price for item #{item}" if price == '' 
       content_row.add_child(td_price)

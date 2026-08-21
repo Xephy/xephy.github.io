@@ -79,6 +79,15 @@ class EncounterGetter
         mons[pokemon]['levels'] = set_to_range_string(mons[pokemon]['levels'])
       end
 
+      # 朝・昼・夜がすべて同率なら列を1本にまとめる。実測では出現表 90個の
+      # うち 42個 (46%) が全行同率で、同じ数字が3列並ぶために差のある表が
+      # 埋もれていた。釣り竿は「どの竿で釣れるか」自体が情報なのでまとめない。
+      if group == :Grass && types.length == 3 &&
+         mons.values.all? { |md| types.map { |t| md[t] }.uniq.length == 1 }
+        types = [types.first]
+        num_cols = 3
+      end
+
       # Creates the header for the table
       thead = doc.create_element('thead')
 
@@ -147,7 +156,7 @@ class EncounterGetter
         tr = doc.create_element('tr')
 
         # Add Pokemon's name to the first column
-        td_name = doc.create_element('td', style: 'text-align: center')
+        td_name = doc.create_element('td', class: 'enc-mon')
 
         # Newer scripts use [:mon, some kind of form object]. Find the base form first.
         form_representation = nil
@@ -157,10 +166,12 @@ class EncounterGetter
         
         base_form = @pokemonHash[mon].keys.find_all { |key| key.is_a?(String) }[0]
         pokemon_name_formatted = @pokemonHash[mon][base_form][:name]
+        form_index = 0
 
         if !(form_representation.nil?)
           # Only treat the integer forms for now. Potential enhancement
           if form_representation.is_a?(Integer)
+            form_index = form_representation
             form_key = @pokemonHash[mon].keys.find_all { |key| key.is_a?(String) }[form_representation]
             pokemon_name_formatted += " (#{JaNames.tr('form_names', form_key)})".sub(' Form', '')
           end
@@ -169,20 +180,32 @@ class EncounterGetter
         # If there is no form present then we fall back to the old method
         if form_representation.nil? && @encMapWrapper.get_enc_maps(mon) and @encMapWrapper.get_enc_maps(mon)[map_id]
           form = @encMapWrapper.get_enc_maps(mon)[map_id]
+          form_index = form.to_i
           form_key = @pokemonHash[mon].keys.find_all { |key| key.is_a?(String) }[form]
           
           pokemon_name_formatted += " (#{JaNames.tr('form_names', form_key)})".sub(' Form', '')
         end
 
-        # Bold if not detected in hash so far
-        if @encStore.include?(pokemon_name_formatted)
-          td_name.content = pokemon_name_formatted
-        else
-          bold = doc.create_element('strong')
-          bold.content = pokemon_name_formatted
-          td_name.add_child(bold)
-          @encStore.add(pokemon_name_formatted)
+        # 種族のアイコン。トレーナー戦の表と同じものを使い、目で種族を
+        # 見分けられるようにする。1ページに数百個並ぶので遅延読み込み。
+        icon_src = mon_icon_src(mon, form_index)
+        if icon_src
+          icon = doc.create_element('img')
+          icon['src'] = icon_src
+          icon['alt'] = ''          # 名前がすぐ隣にあるので読み上げは不要
+          icon['class'] = 'mon-icon enc-icon'
+          icon['loading'] = 'lazy'
+          icon['width'] = '32'
+          icon['height'] = '32'
+          td_name.add_child(icon)
         end
+
+        # 初出の種族は太字。以降は普通の字。
+        name_el = doc.create_element(@encStore.include?(pokemon_name_formatted) ? 'span' : 'strong')
+        name_el['class'] = 'enc-mon-name'
+        name_el.content = pokemon_name_formatted
+        @encStore.add(pokemon_name_formatted)
+        td_name.add_child(name_el)
         tr.add_child(td_name)
 
         # Add levels to the second column

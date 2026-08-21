@@ -57,6 +57,13 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - "*_raw*"
+  # Rejuvenation / Desolation は日本語化していないのでページを生成して
+  # いない。画像だけが 42MB 配信され続けていたので公開対象から外す。
+  # あとで翻訳するときのためにリポジトリには残す。
+  - assets/images/rejuv/
+  - assets/images/deso/
+  # 図の編集用ソース。閲覧には使わない。
+  - "*.drawio"
   - _utils/
   - "*.rb"
   - README.md
