@@ -130,6 +130,10 @@ class TrainerGetter
     td_show_hide = doc.create_element('div', class: 'show-hide-container') # style: 'text-align: right;')
     show_hide_text = doc.create_element('span', class: 'show-hide-text', style: 'cursor: pointer;')
     show_hide_text.content = JaNames.ui('[show]')
+    # 開閉時のラベルは JavaScript 側で差し替わる。訳語の管理を _ja/ui.yml に
+    # 一本化するため、文字列は data 属性で渡す。
+    show_hide_text['data-show'] = JaNames.ui('[show]')
+    show_hide_text['data-hide'] = JaNames.ui('[hide]')
     td_show_hide.add_child(show_hide_text)
 
     th.add_child(td_show_hide)
@@ -214,10 +218,17 @@ class TrainerGetter
         abText = abs.map {|a| @abilityHash[a][:name]}.join("/")
       end
 
+      # 性別とレベルは名前のすぐ横に置く。1つの塊として扱わないと、
+      # 列が狭いときに "Lv." と数字が別の行に割れてしまう。
+      mon_meta = [
+        mon[:gender] ? JaNames.ui(mon[:gender].to_s) : nil,
+        "#{JaNames.ui('Lv.')}#{mon[:level]}"
+      ].compact.join(' ')
+
+      # 以降は1行1項目。ラベルを付けて行頭を揃える。
       mon_details_parts = [
-        "#{mon[:gender] ? " (#{JaNames.ui(mon[:gender].to_s)})" : ''}, #{JaNames.ui('Lv.')} #{mon[:level]}",
         "#{form > 0 ? JaNames.tr('form_names', @pokemonHash[mon[:species]].keys.find_all { |key| key.is_a?(String) }[mon[:form]]) : ''}",
-        "#{mon[:item] ? "@#{@itemHash[mon[:item]][:name]}" : ''}",
+        "#{mon[:item] ? "#{JaNames.ui('Held item:')} #{@itemHash[mon[:item]][:name]}" : ''}",
         "#{JaNames.ui('Ability:')} #{abText}"
       ]
 
@@ -556,8 +567,43 @@ class TrainerGetter
       end
 
       mon_details_td = doc.create_element('td')
-      mon_details_td.add_child(doc.create_element('strong', pokemon_name))
-      mon_details_td.add_child(mon_details_parts.reject { |s| s.empty? }.join("\n"))
+      mon_details_td['class'] = 'mon-cell'
+
+      head = doc.create_element('div')
+      head['class'] = 'mon-head'
+
+      # 種族のアイコン。bin/gen-mon-icons がゲームのシートから切り出したもの。
+      # 1ページに数百個並ぶので loading="lazy" で画面に入るまで読ませない。
+      icon_src = mon_icon_src(mon[:species], form)
+      if icon_src
+        icon = doc.create_element('img')
+        icon['src'] = icon_src
+        icon['alt'] = ''            # 名前がすぐ隣にあるので読み上げは不要
+        icon['class'] = 'mon-icon'
+        icon['loading'] = 'lazy'
+        icon['width'] = '48'
+        icon['height'] = '48'
+        head.add_child(icon)
+      end
+
+      ident = doc.create_element('div')
+      ident['class'] = 'mon-id'
+      name_el = doc.create_element('strong', pokemon_name)
+      name_el['class'] = 'mon-name'
+      ident.add_child(name_el)
+      meta_el = doc.create_element('span', mon_meta)
+      meta_el['class'] = 'mon-meta'
+      ident.add_child(meta_el)
+      head.add_child(ident)
+      mon_details_td.add_child(head)
+
+      props = mon_details_parts.reject { |s| s.to_s.strip.empty? }
+      unless props.empty?
+        props_el = doc.create_element('div')
+        props_el['class'] = 'mon-props'
+        props.each { |line| props_el.add_child(doc.create_element('div', line)) }
+        mon_details_td.add_child(props_el)
+      end
       content_row.add_child(mon_details_td)
 
       # Create list of default moves
@@ -588,23 +634,78 @@ class TrainerGetter
         mon[:moves].push(boss_data[:chargeAttack])
       end
 
-      moves_edited = []
+      # わざは名前だけだと相性が判断できないので、タイプ・分類・威力を添える。
+      # データは movetext.rb に揃っているので、追加の素材は要らない。
+      moves_td = doc.create_element('td')
+      moves_ul = doc.create_element('ul')
+      moves_ul['class'] = 'move-list'
+      moves_td.add_child(moves_ul)
+
       mon[:moves].each do |move|
         next if move == nil
-        if move.class == Hash 
+
+        move_data = nil
+        if move.class == Hash
           if move[:turns] # is a charge attack
-            name = "Charge Attack (#{move[:turns]} turns)"
+            name = "#{JaNames.ui('Charge Attack')} (#{move[:turns]}#{JaNames.ui(' turns')})"
           else # is an intermediate attack
-            name = "#{move[:name]} (Intermediate attack)"
+            name = "#{move[:name]} (#{JaNames.ui('Intermediate attack')})"
           end
         else
-          name = @moveHash[move][:name]
+          move_data = @moveHash[move]
+          name = move_data[:name]
         end
         name = name + hp_str(name, mon[:hptype])
-        moves_edited.push(name)
+
+        li = doc.create_element('li')
+        li['class'] = 'move'
+
+        if move_data
+          # "めざめるパワー (ほのお)" のように、わざ側でタイプが変わる表記が
+          # ある。その場合は括弧の中を優先して色を決める。
+          type_sym = hp_type_override(name) || move_data[:type]
+          type_name = type_sym && @typeHash[type_sym] ? @typeHash[type_sym][:name] : nil
+          if type_name
+            badge = doc.create_element('span', type_name)
+            badge['class'] = "type-badge type-#{type_sym.to_s.downcase}"
+            li.add_child(badge)
+          end
+        end
+
+        name_span = doc.create_element('span', name)
+        name_span['class'] = 'move-name'
+        # 効果はパッチの説明文をそのまま出す。title 属性なので画像も JS も要らない。
+        if move_data && move_data[:desc] && !move_data[:desc].to_s.empty?
+          name_span['title'] = move_desc_tooltip(move_data)
+        end
+        li.add_child(name_span)
+
+        if move_data
+          # 分類・威力・命中を固定幅の3枠で出す。命中はバトル中に真っ先に
+          # 知りたい値なので、説明の中ではなく常に見える位置に置く。
+          meta_span = doc.create_element('span')
+          meta_span['class'] = 'move-meta'
+
+          cat = doc.create_element('span', JaNames.ui(move_data[:category].to_s))
+          cat['class'] = 'move-cat'
+          meta_span.add_child(cat)
+
+          power = move_data[:basedamage].to_i
+          pw = doc.create_element('span', power.positive? ? power.to_s : '—')
+          pw['class'] = 'move-power'
+          meta_span.add_child(pw)
+
+          acc = move_data[:accuracy].to_i
+          ac = doc.create_element('span', acc.zero? ? JaNames.ui('never misses') : "#{acc}%")
+          ac['class'] = acc.zero? ? 'move-acc is-sure' : 'move-acc'
+          meta_span.add_child(ac)
+
+          li.add_child(meta_span)
+        end
+
+        moves_ul.add_child(li)
       end
-      final = "- " + moves_edited.join("\n- ")
-      content_row.add_child(doc.create_element('td', final))
+      content_row.add_child(moves_td)
 
       # Handles stats next: base stats if applicable, IVs, Nature, EVs
       stat_details_parts = []
@@ -713,6 +814,20 @@ class TrainerGetter
     end 
 
     doc.to_html(encoding: 'UTF-8').gsub(/<td>\s*\n\s*<strong>/, '<td><strong>').split("\n")[1..].join("\n")
+  end
+
+  # 種族×フォルムのアイコンの場所。無ければ nil を返し、画像なしで描画する。
+  def mon_icon_src(species, form)
+    return nil unless species
+
+    base = species.to_s.downcase
+    @icon_index ||= begin
+      dir = File.expand_path('../src/assets/images/mon', __dir__)
+      Dir.exist?(dir) ? Dir.children(dir).to_set : Set[]
+    end
+    file = "#{base}_#{form.to_i}.png"
+    file = "#{base}_0.png" unless @icon_index.include?(file)
+    @icon_index.include?(file) ? "/assets/images/mon/#{file}" : nil
   end
 
   def report_missing_trainers

@@ -46,53 +46,98 @@ table {
 Theme Styles
 *******************************************************************************/
 
+/* 和文の長文を読むための土台。
+   - font-family に和文を明示する。指定が無いとブラウザ既定の和文フォントに
+     落ち、環境によっては明朝や游ゴシックの細字になって読みにくい。
+   - line-height は和文の本文で標準的な 1.8 台。欧文向けの 1.5 では
+     漢字の密度に対して行が詰まりすぎる。
+   - letter-spacing は僅かに開ける。ベタ組みだと仮名が繋がって見える。 */
+/* padding や border を幅に含める。元は body にしか指定が無く、
+   .inner の max-width: 100% に左右 10px の padding が加算されて
+   画面より広くなり、狭い画面で横スクロールが出ていた。 */
+*, *::before, *::after { box-sizing: border-box; }
+
 body {
   box-sizing: border-box;
-  color:#373737;
+  color: #2b2b2b;
   background: #212121;
-  font-size: 18px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans',
+               'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic Medium',
+               'Yu Gothic', Meiryo, sans-serif;
+  line-height: 1.85;
+  letter-spacing: 0.02em;
   -webkit-font-smoothing: antialiased;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* 見出しは font-family を本文と揃える。元は欧文専用の指定だったため
+   和文だけ別フォントに落ちて、本文との繋がりが切れていた。
+   letter-spacing: -1px も欧文向けの詰めで、和文だと字が重なって見える。 */
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
   font-weight: 700;
-  color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-  letter-spacing: -1px;
+  color: #1a1a1a;
+  font-family: inherit;
+  letter-spacing: 0.01em;
+  line-height: 1.45;
+  font-feature-settings: 'palt' 1;   /* 見出しの約物だけ詰める */
 }
 
+/* 章題。上に余白を置かず、ページの入口として大きく見せる。 */
 h1 {
-  font-size: 36px;
-  font-weight: 700;
+  margin: 0 0 28px;
+  font-size: 30px;
+  padding-bottom: 14px;
+  border-bottom: 3px solid #2b6cb0;
 }
 
+/* 節。1章に十数個あるので、区切りがはっきり分かる形にする。 */
 h2 {
-  padding-bottom: 10px;
-  font-size: 30px;
+  margin: 56px 0 18px;
+  font-size: 23px;
+  padding-left: 12px;
+  border-left: 5px solid #2b6cb0;
 }
 
 h3 {
-  font-size: 24px;
+  margin: 36px 0 14px;
+  font-size: 19px;
+  color: #2b4b6b;
 }
 
-h4 {
-  font-size: 21px;
-}
+h4 { margin: 28px 0 12px; font-size: 17px; }
+h5 { margin: 20px 0 10px; font-size: 16px; }
+h6 { margin: 20px 0 10px; font-size: 15px; }
 
-h5 {
-  font-size: 18px;
-}
-
-h6 {
-  font-size: 16px;
-}
+/* 見出し直後の段落だけ上の余白を詰める */
+h1 + p, h2 + p, h3 + p, h4 + p { margin-top: 0; }
 
 p {
-  margin: 10px 0 15px 0;
+  margin: 0 0 1.4em;
+}
+
+/* 攻略本文は「*どうぐ名*」「**ポケモン名**」が高頻度で出る。
+   斜体は和文で崩れるので、色と字面で区別する。 */
+#main_content em, #main_content cite {
+  font-style: normal;
+  font-weight: 600;
+  color: #9a5b00;
+}
+
+#main_content strong {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+/* 表の見出し帯は濃い青地なので、本文用の濃い文字色を持ち込ませない。
+   #main_content strong は id を含むぶん th の色より強く、そのままだと
+   「VS: …」「… 出現ポケモン」が黒地に近い色で青の上に乗ってしまう。
+   生成側に table-header と table_header の2つの綴りがあるため両方見る。 */
+#main_content th strong,
+#main_content .table-header strong,
+#main_content .table_header strong,
+#main_content .header-th strong {
+  color: inherit;
 }
 
 footer p {
@@ -135,10 +180,10 @@ strong {
 
 img {
   position: relative;
-  margin: 0 auto;
-  max-width: 900px;
+  margin: 10px 0;
+  max-width: 100%;
+  height: auto;
   padding: 5px;
-  margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
 
   box-shadow: 0 0 5px #ebebeb;
@@ -201,21 +246,31 @@ blockquote {
 }
 
 
+/* 「好感度の選択肢」「手順の箇条書き」が本文と地続きに見えないよう、
+   前後に段落と同じだけの余白を取り、項目間も少し開ける。
+   list-style-position は outside にする。inside だと折り返した2行目が
+   記号の下に潜り込み、和文の長い項目が読みにくい。 */
 ul, ol, dl {
-  margin-bottom: 15px
+  margin: 0 0 1.4em;
 }
 
 ul {
-  list-style-position: inside;
+  list-style-position: outside;
   list-style: disc;
-  padding-left: 20px;
+  padding-left: 1.6em;
 }
 
 ol {
-  list-style-position: inside;
+  list-style-position: outside;
   list-style: decimal;
-  padding-left: 20px;
+  padding-left: 1.8em;
 }
+
+li { margin: 0.35em 0; }
+li > ul, li > ol { margin: 0.35em 0 0; }
+
+/* 見出しのような太字1行のすぐ後に来る箇条書きは、間を詰めて一塊に見せる */
+p + ul, p + ol { margin-top: -0.9em; }
 
 dl dt {
   font-weight: bold;
@@ -231,25 +286,70 @@ dl p {
   font-style: italic;
 }
 
+/* 表は1章に最大128個あり、本文と同じ濃さで並ぶと切れ目が掴めない。
+   枠線を薄くし、行を縞にして、表そのものは本文より一段小さくする。 */
 table {
-  border: 1px solid #373737;
-  margin-bottom: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #d8dde3;
+  margin: 0;
   text-align: left;
- }
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0;
+}
 
 th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 10px;
-  background: #373737;
-  color: #fff;
-  border: 1px solid #6a6a6a;
- }
+  font-family: inherit;
+  padding: 8px 10px;
+  background: #eef1f5;
+  color: #1a1a1a;
+  border: 1px solid #d8dde3;
+  font-weight: 600;
+}
+
+/* 表の見出し行 (VS: トレーナー名 / 出現ポケモン: なみのり) は
+   その表が何の表かを示す帯なので、他のセルより強く出す。 */
+th.header-th, th.table-header, .table-header th,
+th.table_header, .table_header th {
+  background: #2b6cb0;
+  color: #ffffff;
+  border-color: #2b6cb0;
+  font-size: 15px;
+}
+
+th.header-th a, .table-header a { color: #ffffff; }
 
 td {
-  padding: 10px;
-  border: 1px solid #373737;
-  white-space: pre-line
- }
+  padding: 8px 10px;
+  border: 1px solid #e3e7ec;
+  white-space: pre-line;
+  vertical-align: top;
+}
+
+tbody tr:nth-child(even) td,
+table > tr:nth-child(even) td { background: #fafbfc; }
+
+/* 表を包む生成物のブロック。本文と間隔を空け、横に溢れたらスクロールさせる。 */
+.trainer_section, .encounter_section, .shop_section {
+  margin: 22px 0 26px;
+  overflow-x: auto;
+  border-radius: 6px;
+  border: 1px solid #d8dde3;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.trainer_section table,
+.encounter_section table,
+.shop_section table { border: none; }
+
+/* 列が3つあるので、狭い画面では潰すのではなく横スクロールさせる。
+   min-width を与えないと table { width: 100% } が勝ち、ステータス列が
+   1文字幅まで圧縮されて縦書きのようになってしまう。 */
+.trainer_section table { min-width: 640px; }
+.encounter_section table { min-width: 460px; }
+
+/* [表示] は押せることが分かるように。 */
 
 form {
   background: #f2f2f2;
@@ -283,6 +383,18 @@ Full-Width Styles
   max-width: 900px;
   padding: 20px 10px;
   margin: 0 auto;
+}
+
+/* 幅は全体で 1140px に揃える。ヘッダーだけ別の幅にすると、題字と本文の
+   開始位置が食い違って見えるため。
+   ただし節目次を持たないページ (トップ・目次・全文) は本文が横いっぱいに
+   広がってしまうので、文章を担う要素だけ読みやすい幅で頭打ちにする。
+   表と画像は対象外にして、広い幅をそのまま使わせる。 */
+.inner { max-width: 1140px; }
+
+#main_content:not(:has(> .page-toc)) > :is(p, ul, ol, dl, blockquote,
+h1, h2, h3, h4, h5, h6) {
+  max-width: 860px;
 }
 
 #banners {
@@ -363,21 +475,121 @@ Full-Width Styles
 #project_title {
   margin: 0;
   color: #fff;
-  font-size: 42px;
+  /* 42px 固定だと狭い画面で必ずはみ出す。ID 指定なのでメディアクエリの
+     h1 では上書きできず、ここで可変にする。 */
+  font-size: clamp(22px, 5.2vw, 40px);
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
   text-align: left;
+  letter-spacing: 0.01em;
 }
 
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #ffffff;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
 
+/* 本文と節目次を横に並べる。
+   ラップする div を作らないのは、その中のマークダウンを kramdown が
+   処理しなくなるため。生成物は #main_content の直下に兄弟として並ぶので、
+   グリッドの配置指定だけで2段組にする。 */
 #main_content {
   padding-top: 40px;
+}
+
+/* 2段組にするのは節目次を持つ章ページだけ。:has() を使うのは、
+   トップページや目次ページ (節目次が無い) まで2段組にしないため。
+   :has() が無いブラウザでは float が効かず、目次は本文の上に積まれた
+   普通のブロックとして出る。それで破綻しない形にしてある。
+   グリッドを使わないのは、子要素の数が章ごとに変わるので行を明示できず、
+   暗黙行では grid-row: 1 / -1 が全行に伸びないため (目次の高さのぶん
+   1行目が伸びて、章ナビと本文の間に大きな空白ができる)。 */
+#main_content:has(> .page-toc) {
+  display: flow-root;   /* 目次の float を包む。sticky は殺さない */
+  max-width: 1140px;
+}
+
+/* 目次のぶんだけ本文側を右に寄せる */
+#main_content:has(> .page-toc) > * { margin-left: 284px; }
+
+/* 目次は左に浮かせて、スクロールに追従させる */
+#main_content > .page-toc {
+  float: left;
+  width: 236px;
+  margin-left: 0;
+  position: sticky;
+  top: 16px;
+  max-height: calc(100vh - 32px);
+  overflow-y: auto;
+  padding: 14px 4px 14px 0;
+  border-right: 1px solid #e3e7ec;
+  font-size: 13.5px;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+.page-toc > summary {
+  font-weight: 700;
+  font-size: 13px;
+  color: #6b7684;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+  cursor: pointer;
+  list-style: none;
+}
+.page-toc > summary::-webkit-details-marker { display: none; }
+
+.page-toc ul { margin: 0; padding: 0; list-style: none; }
+.page-toc li { margin: 0; }
+
+.page-toc a {
+  display: block;
+  padding: 5px 10px 5px 12px;
+  color: #55606e;
+  border-left: 2px solid transparent;
+  border-radius: 0 4px 4px 0;
+}
+.page-toc a:hover { background: #f2f5f8; color: #1a1a1a; text-decoration: none; }
+
+.page-toc-l3 a { padding-left: 26px; font-size: 12.5px; }
+
+/* 読んでいる節。JavaScript が付ける (myscripts.js)。 */
+.page-toc a.is-current {
+  color: #2b6cb0;
+  font-weight: 700;
+  border-left-color: #2b6cb0;
+  background: #eef4fb;
+}
+
+/* 見出しへ飛んだとき、ヘッダーに潜り込まないよう余白を確保する */
+#main_content h2, #main_content h3 { scroll-margin-top: 16px; }
+
+/* 目次を畳める幅では1段組に戻す */
+@media screen and (max-width: 1100px) {
+  #main_content:has(> .page-toc) {
+    display: block;
+    max-width: 900px;
+  }
+  #main_content:has(> .page-toc) > * { margin-left: 0; }
+  #main_content > .page-toc {
+    float: none;
+    width: auto;
+    position: static;
+    max-height: none;
+    margin: 0 0 28px;
+    padding: 12px 16px;
+    border: 1px solid #e3e7ec;
+    border-radius: 6px;
+    background: #f8fafc;
+  }
+  .page-toc ul { columns: 2; column-gap: 24px; }
+  .page-toc li { break-inside: avoid; }
+}
+
+@media screen and (max-width: 640px) {
+  .page-toc ul { columns: 1; }
 }
 
 #footer_wrap {
@@ -398,16 +610,18 @@ Small Device Styles
 
 @media screen and (max-width: 480px) {
   body {
-    font-size:14px;
+    font-size: 15px;   /* 和文は 14px まで落とすと読みづらい */
   }
 
   #downloads {
     display: none;
   }
 
+  /* 元は max-width: 480px だったが、480px 未満の画面では
+     コンテナのほうが画面より広くなり、横スクロールが発生していた。 */
   .inner {
-    min-width: 320px;
-    max-width: 480px;
+    min-width: 0;
+    max-width: 100%;
   }
 
   h1 {
@@ -442,7 +656,7 @@ Small Device Styles
 
 @media screen and (max-width: 320px) {
   body {
-    font-size:14px;
+    font-size: 14px;
   }
 
   #downloads {
@@ -450,8 +664,8 @@ Small Device Styles
   }
 
   .inner {
-    min-width: 240px;
-    max-width: 320px;
+    min-width: 0;
+    max-width: 100%;
   }
 
   h1 {
@@ -479,8 +693,8 @@ Small Device Styles
   }
 
   code, pre {
-    min-width: 240px;
-    max-width: 320px;
+    min-width: 0;
+    max-width: 100%;
     font-size: 11px;
   }
 
@@ -493,14 +707,12 @@ Additions
 
 #main_content_wrap {
     width: 100%;
-    overflow: auto;
+    /* overflow: auto を外した。ここがスクロール容器になると、章内目次の
+       position: sticky が効かなくなる。横に溢れうるのは表だけなので、
+       表を包む .trainer_section 側の overflow-x で受け止める。 */
 }
 p img {
     object-fit: contain
-}
-
-ul, ol {
-    margin-bottom: 0px;
 }
 
 table img {
@@ -512,19 +724,14 @@ table img {
     -webkit-box-shadow: 0 0 0 #bebebe;
 }
 
-table {
-    width: 100%;
-    overflow-x: auto
-}
-
 #title-text {
-    margin: 10px 0;
+    margin: 0 0 20px;
     font-weight: 700;
-    color:#222222;
-    font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-    letter-spacing: -1px;
-    font-size: 36px;
-    font-weight: 700;
+    color: #1a1a1a;
+    font-family: inherit;
+    letter-spacing: 0.01em;
+    font-size: 28px;
+    line-height: 1.4;
 }
 
 div#quote {
@@ -581,8 +788,17 @@ div#quote p {
 
 .show-hide-text {
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
 }
+
+.show-hide-text:hover { background: rgba(255, 255, 255, 0.18); }
 
 .portfolio-item-container {
   display: flex;
@@ -629,7 +845,7 @@ body.night-mode #title-text {
 }
 
 body.night-mode a {
-  color: #bb86fc;
+  color: #7db1e8;   /* 見出しと目次の差し色に合わせる */
 }
 
 body.night-mode h1, 
@@ -649,10 +865,57 @@ body.night-mode footer a {
   color: #bb86fc;
 }
 
-body.night-mode table, 
-body.night-mode th, 
+body.night-mode table,
+body.night-mode th,
 body.night-mode td {
-  border-color: #424242;
+  border-color: #33383f;
+}
+
+body.night-mode th { background: #23272e; color: #e8eaed; }
+body.night-mode td { color: #d7dae0; }
+body.night-mode tbody tr:nth-child(even) td,
+body.night-mode table > tr:nth-child(even) td { background: #1a1d22; }
+
+body.night-mode th.header-th,
+body.night-mode th.table-header,
+body.night-mode .table-header th,
+body.night-mode th.table_header,
+body.night-mode .table_header th {
+  background: #2a4b73;
+  border-color: #2a4b73;
+  color: #ffffff;
+}
+
+body.night-mode .trainer_section,
+body.night-mode .encounter_section,
+body.night-mode .shop_section {
+  border-color: #33383f;
+  box-shadow: none;
+}
+
+body.night-mode h1 { border-bottom-color: #4a86c8; }
+body.night-mode h2 { border-left-color: #4a86c8; }
+body.night-mode h3 { color: #9fc0e0; }
+
+body.night-mode #main_content em,
+body.night-mode #main_content cite { color: #e0b46a; }
+body.night-mode #main_content strong { color: #ffffff; }
+
+body.night-mode #main_content > .page-toc { border-right-color: #33383f; }
+body.night-mode .page-toc > summary { color: #8b95a3; }
+body.night-mode .page-toc a { color: #a8b2bf; }
+body.night-mode .page-toc a:hover { background: #23272e; color: #ffffff; }
+body.night-mode .page-toc a.is-current {
+  color: #7db1e8;
+  border-left-color: #7db1e8;
+  background: #1d2836;
+}
+
+@media screen and (max-width: 1100px) {
+  body.night-mode #main_content > .page-toc {
+    background: #1a1d22;
+    border-color: #33383f;
+  }
 }
 
 body.night-mode div#quote {
@@ -714,3 +977,252 @@ body.night-mode .chapter-nav {
 
 body.night-mode .chapter-nav-toc { border-top-color: #424242; }
 body.night-mode .chapter-nav-current > strong { color: #e0e0e0; }
+
+/*******************************************************************************
+目次ページ (/reborn/)
+*******************************************************************************/
+
+/* 29章 × 各10節ほどあり、素のリストだと縦に 3,000px を超えて一覧性が無い。
+   章を1枚のまとまりとして段組に流す。 */
+.book-toc {
+  columns: 3;
+  column-gap: 28px;
+  margin-top: 28px;
+}
+
+.book-toc-chapter {
+  break-inside: avoid;
+  margin: 0 0 22px;
+  padding: 14px 16px;
+  border: 1px solid #e3e7ec;
+  border-radius: 8px;
+  background: #fbfcfd;
+}
+
+.book-toc-chapter h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+  color: #1a1a1a;
+  border: none;
+  padding: 0;
+}
+
+.book-toc-chapter h3 a { color: inherit; }
+.book-toc-chapter h3 a:hover { color: #2b6cb0; }
+
+.book-toc-chapter ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 13.5px;
+  line-height: 1.65;
+  letter-spacing: 0;
+}
+
+.book-toc-chapter li { margin: 0; }
+.book-toc-chapter li a { display: block; padding: 2px 0 2px 10px; border-left: 2px solid #e3e7ec; color: #55606e; }
+.book-toc-chapter li a:hover { border-left-color: #2b6cb0; color: #1a1a1a; text-decoration: none; }
+
+@media screen and (max-width: 1100px) { .book-toc { columns: 2; } }
+@media screen and (max-width: 700px)  { .book-toc { columns: 1; } }
+
+body.night-mode .book-toc-chapter { background: #1a1d22; border-color: #33383f; }
+body.night-mode .book-toc-chapter h3 { color: #f5f5f5; }
+body.night-mode .book-toc-chapter li a { color: #a8b2bf; border-left-color: #33383f; }
+body.night-mode .book-toc-chapter li a:hover { color: #ffffff; border-left-color: #7db1e8; }
+
+/*******************************************************************************
+トレーナー戦の表
+*******************************************************************************/
+
+/* 3列の表に文字を詰め込む形だと、1匹あたりの情報が読み取りにくい。
+   セルの中身をカードとして組み直し、種族アイコン・わざのタイプ・
+   物理特殊と威力を一目で拾えるようにする。
+   表の構造 (thead/tbody) は折りたたみの JS が使っているので変えない。 */
+
+.trainer_section td.mon-cell {
+  width: 24%;
+  min-width: 190px;
+  line-height: 1.6;
+  white-space: normal;
+}
+
+/* アイコンと名前を1行に。名前が折り返しても、行頭が揃うようにする。 */
+.mon-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+/* 名前とレベルは常に2行に分ける。同じ行に並べると、名前の長さや
+   レベルの桁数によって1行になったり2行になったりして、行数が
+   ポケモンごとに揺れる。 */
+.mon-id {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+/* 性別とレベルは1つの塊。列が狭いとき "Lv." と数字が
+   別の行に割れるのを防ぐ。 */
+.mon-meta {
+  white-space: nowrap;
+  color: #55606e;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* すがた・もちもの・とくせいは1行1項目。ラベル幅が違っても
+   行頭が揃うよう、ぶら下げインデントにする。 */
+.mon-props {
+  font-size: 13.5px;
+  line-height: 1.7;
+}
+
+.mon-props > div {
+  padding-left: 1em;
+  text-indent: -1em;
+  /* pre-line は各項目の中だけに効かせる。.mon-props に付けると、
+     生成 HTML の要素と要素の間の改行まで空行として描かれてしまう。 */
+  white-space: pre-line;
+}
+
+/* ステータス列は短い3行なので、わざの列に幅を回す */
+.trainer_section tr > td:last-child {
+  width: 21%;
+  line-height: 1.6;
+}
+
+/* タップで出すわざの説明 */
+.move-popup {
+  position: absolute;
+  z-index: 60;
+  max-width: min(320px, 88vw);
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: #23272e;
+  color: #f2f4f7;
+  font-size: 13px;
+  line-height: 1.7;
+  letter-spacing: 0;
+  white-space: pre-line;
+  box-shadow: 0 6px 20px rgba(16, 24, 40, 0.25);
+}
+
+/* 種族アイコン。ドット絵なので拡大時もぼかさない。 */
+.mon-icon {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  image-rendering: pixelated;
+  vertical-align: middle;
+}
+
+.mon-name { font-size: 15px; line-height: 1.4; }
+
+/* わざ一覧。行ごとに [タイプ] わざ名 …… 分類 威力 と並べる。 */
+.move-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  min-width: 260px;
+  /* 本文の行間 (1.85) のままだと4行のわざが間延びする */
+  line-height: 1.5;
+}
+
+.move-list .move {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0;
+  padding: 4px 0;
+  border-bottom: 1px dashed #e8ebef;
+}
+.move-list .move:last-child { border-bottom: none; }
+
+.move-name { flex: 1 1 auto; }
+/* 説明は title 属性。下線で「乗せると出る」ことを示す。 */
+.move-name[title] {
+  text-decoration: underline dotted #b8c0cb;
+  text-underline-offset: 3px;
+  cursor: help;
+}
+
+/* 分類・威力・命中。縦に読めるよう、それぞれ固定幅の枠に入れて
+   数値は右揃えにする。幅がばらつくと目で追えなくなる。 */
+.move-meta {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  color: #6b7684;
+  font-variant-numeric: tabular-nums;
+  font-size: 12.5px;
+}
+
+.move-cat   { flex: 0 0 2.4em; text-align: left; }
+.move-power { flex: 0 0 2.2em; text-align: right; }
+.move-acc   { flex: 0 0 3.1em; text-align: right; }
+
+/* 必中は「外れない」という情報そのものが要点なので、少し目立たせる */
+.move-acc.is-sure { color: #2f7d4f; font-weight: 600; }
+
+/* タイプは英語画像しか無いので、和名を色付きバッジで描く。
+   画像を持たないぶん、拡大・ダークモード・印刷に強い。 */
+.type-badge {
+  flex: 0 0 auto;
+  display: inline-block;
+  min-width: 4.6em;
+  padding: 1px 6px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+}
+
+/* 背景は各タイプの慣用色を、白文字が読める明度まで落としたもの。
+   もともと明るいでんき・こおり・フェアリーだけ文字色を反転させる。 */
+.type-normal   { background: #7d8085; }
+.type-fighting { background: #bf3a3a; }
+.type-flying   { background: #6d81c6; }
+.type-poison   { background: #96479a; }
+.type-ground   { background: #a9701f; }
+.type-rock     { background: #96854f; }
+.type-bug      { background: #6b921f; }
+.type-ghost    { background: #55568f; }
+.type-steel    { background: #56798a; }
+.type-fire     { background: #d95d16; }
+.type-water    { background: #3b7fd0; }
+.type-grass    { background: #46963f; }
+.type-psychic  { background: #d43a67; }
+.type-dragon   { background: #4640b8; }
+.type-dark     { background: #4b434f; }
+.type-shadow   { background: #3b3050; }
+.type-qmarks   { background: #55897c; }
+
+.type-electric { background: #f0cc2a; color: #3c3100; text-shadow: none; }
+.type-ice      { background: #8fdcd2; color: #14453f; text-shadow: none; }
+.type-fairy    { background: #f3a6ee; color: #56154f; text-shadow: none; }
+
+body.night-mode .move-list .move { border-bottom-color: #2b3038; }
+body.night-mode .move-meta { color: #8b95a3; }
+body.night-mode .move-acc.is-sure { color: #7fc79b; }
+body.night-mode .move-name[title] { text-decoration-color: #55606e; }
+
+/* 狭い画面では表そのものが横スクロールするので、最低幅は控えめにする */
+@media screen and (max-width: 700px) {
+  .trainer_section td.mon-cell { min-width: 150px; }
+  .move-list { min-width: 200px; }
+  .type-badge { min-width: 0; }
+}

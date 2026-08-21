@@ -21,7 +21,7 @@ opts = { port: 4000, upto: 19, postgame: 0, appendices: false, extra: false }
 OptionParser.new do |o|
   o.on('--port N', Integer) { |v| opts[:port] = v }
   o.on('--upto N', Integer) { |v| opts[:upto] = v } # 訳し終えた章まで
-  o.on('--postgame N', Integer) { |v| opts[:postgame] = v } # 訳し終えたポストゲームまで
+  o.on('--postgame N', Integer) { |v| opts[:postgame] = v } # 訳し終えたクリア後の話数まで
   o.on('--appendices') { opts[:appendices] = true }
   o.on('--extra') { opts[:extra] = true } # 目次・全文・404 も見る
 end.parse!

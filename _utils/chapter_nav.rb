@@ -76,3 +76,41 @@ module ChapterNav
     text.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;')
   end
 end
+
+# 章の中の節目次。1章が最大 8,700 行あるので、章ナビ (前後移動と全章一覧)
+# だけでは章の内部を移動できない。
+#
+# 見出しは "## ネオオパール区 {#neo-opal-ward}" の形で残っているので、
+# ここから拾う。ID を kramdown に自動採番させると数字始まりの見出しが
+# 壊れるため、生成側で明示 ID を振ってある。それをそのまま使う。
+module PageToc
+  module_function
+
+  HEADING = /^(\#{2,3})[ \t]+(.+?)[ \t]*\{\#([^}]+)\}[ \t]*$/.freeze
+
+  def build(content)
+    items = content.to_s.scan(HEADING).map do |hashes, text, id|
+      { level: hashes.length, text: text.strip, id: id }
+    end
+    return '' if items.length < 2
+
+    lis = items.map do |it|
+      %(<li class="page-toc-l#{it[:level]}"><a href="##{it[:id]}">#{escape(it[:text])}</a></li>)
+    end.join("\n    ")
+
+    # details にしておくと JavaScript が無くても畳める。既定は開いた状態で、
+    # 狭い画面だけ読み込み時に閉じる (myscripts.js)。
+    <<~TOC
+      <details class="page-toc" open>
+        <summary>#{JaNames.ui('In this chapter')}</summary>
+        <ul>
+          #{lis}
+        </ul>
+      </details>
+    TOC
+  end
+
+  def escape(text)
+    text.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;')
+  end
+end

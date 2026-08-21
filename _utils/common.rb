@@ -678,11 +678,36 @@ def load_pickup_data(game, scripts_dir)
   item_data.map { |item, odds| [item, odds.sort.reverse] }
 end
 
+# めざめるパワーのタイプ表記。movetext.rb を訳した時点で move は和名に
+# なるため、英語名との比較だけでは一致しなくなる。訳語も併せて見る。
+HIDDEN_POWER_NAMES = ['Hidden Power', JaNames.tr('moves', 'Hidden Power')].uniq.freeze
+
 def hp_str(move, hptype)
   return '' unless hptype
-  return '' unless move == 'Hidden Power'
+  return '' unless HIDDEN_POWER_NAMES.include?(move)
 
-  " (#{hptype.to_s.capitalize!})"
+  " (#{JaNames.tr('types', hptype.to_s.capitalize)})"
+end
+
+# "めざめるパワー (ほのお)" の括弧内から、色付けに使うタイプ記号を拾う。
+def hp_type_override(name)
+  m = name.to_s.match(/\(([^)]+)\)\z/)
+  return nil unless m
+
+  ja = m[1]
+  sym = TYPE_SYMBOLS.find { |s| JaNames.tr('types', s.to_s.capitalize) == ja }
+  sym
+end
+
+TYPE_SYMBOLS = %i[NORMAL FIGHTING FLYING POISON GROUND ROCK BUG GHOST STEEL
+                  FIRE WATER GRASS ELECTRIC PSYCHIC ICE DRAGON DARK FAIRY].freeze
+
+# わざ名に付けるツールチップ。命中は表に常時出しているので、
+# ここでは説明文と PP だけを添える。
+def move_desc_tooltip(move_data)
+  parts = [move_data[:desc].to_s.strip]
+  parts << "PP #{move_data[:maxpp]}" if move_data[:maxpp]
+  parts.reject { |s| s.to_s.empty? }.join("\n")
 end
 
 def get_iv_str(ivs)

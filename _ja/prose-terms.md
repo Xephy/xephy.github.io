@@ -78,7 +78,7 @@ bin/find-term "Team Meteor"                 # 会話データから対訳を探�
 | 18 | Void-Kissed | 虚無の口づけ | |
 | 19 | Pokemon Reborn | ポケモンリボーン | 作品名 |
 
-| ポストゲーム | 原文 | 訳 |
+| クリア後 | 原文 | 訳 |
 |---|---|---|
 | 1 | A Whole New World | まっさらな新世界 |
 | 2 | Fetch, Doggy! | 取ってこい、ワンちゃん! |

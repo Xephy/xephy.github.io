@@ -13,7 +13,7 @@ title: ポケモンリボーン 日本語攻略
 <div class="portfolio-item-container">
   <div class="portfolio-item-desc">
     <h1>ポケモンリボーン 攻略</h1>
-    本編エピソード1〜19、ポストゲーム全9話、付録（ものひろい表・採掘確率・パスワード全一覧）を収録しています。エピソードごとに分割したページと、検索しやすい全文1ページの両方を用意しました。
+    本編エピソード1〜19、クリア後全9話、付録（ものひろい表・採掘確率・パスワード全一覧）を収録しています。エピソードごとに分割したページと、検索しやすい全文1ページの両方を用意しました。
   </div>
   <div class="portfolio-item-link">
     <a class="portfolio-item-image" href="/reborn/">

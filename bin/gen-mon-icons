@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+"""ゲームのアイコンシートから、種族×フォルムごとの1コマを切り出す。
+
+Graphics/Icons/<species>.png は 64px 四方のコマを
+  横 = アニメーションの各コマ / 縦 = フォルム
+の並びで持つシート。攻略では静止画で足りるので、各フォルムの
+先頭コマ (左端) だけを取り出して individual PNG として書き出す。
+
+  bin/gen-mon-icons [../Reborn-19.5.0-windows]
+
+出力: src/assets/images/mon/<species>_<form>.png
+"""
+import os
+import re
+import sys
+
+try:
+    from PIL import Image
+except ImportError:
+    sys.exit('Pillow が要ります: pip install --user Pillow')
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+GAME = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, '..', 'Reborn-19.5.0-windows')
+ICONS = os.path.join(GAME, 'Graphics', 'Icons')
+MONTEXT = os.path.join(GAME, 'Scripts', 'Reborn', 'montext.rb')
+OUT = os.path.join(ROOT, 'src', 'assets', 'images', 'mon')
+
+if not os.path.isdir(ICONS):
+    sys.exit(f'アイコンが見つかりません: {ICONS}')
+
+os.makedirs(OUT, exist_ok=True)
+
+with open(MONTEXT, encoding='utf-8', errors='replace') as fh:
+    # ニドランのように :NIDORANfE と大小混在のシンボルがあるので
+    # 大文字だけに絞らない。絞ると、その種族のアイコンが丸ごと欠ける。
+    species = sorted(set(re.findall(r'^\s+:([A-Za-z0-9_]+) =>', fh.read(), re.M)))
+
+written = skipped = 0
+total_bytes = 0
+for name in species:
+    path = os.path.join(ICONS, name.lower() + '.png')
+    if not os.path.exists(path):
+        skipped += 1
+        continue
+    sheet = Image.open(path).convert('RGBA')
+    forms = max(1, sheet.size[1] // 64)
+    for form in range(forms):
+        frame = sheet.crop((0, form * 64, 64, form * 64 + 64))
+        if not frame.getbbox():        # 空のコマ (フォルム欠番) は書き出さない
+            continue
+        dest = os.path.join(OUT, f'{name.lower()}_{form}.png')
+        frame.save(dest, optimize=True)
+        total_bytes += os.path.getsize(dest)
+        written += 1
+
+print(f'書き出し {written} 枚 / 元が無い種族 {skipped} / 合計 {total_bytes // 1024} KB')
+print(f'出力先: {os.path.relpath(OUT, ROOT)}')

@@ -162,7 +162,7 @@ module JaNames
       when 'appendices' then '付録'
       when 'karma-files-paragon' then 'カルマファイル（パラゴン）'
       when 'karma-files-renegade' then 'カルマファイル（レネゲイド）'
-      when /\Apostgame-episode-(\d+)\z/ then "ポストゲーム エピソード#{Regexp.last_match(1)}"
+      when /\Apostgame-episode-(\d+)\z/ then "クリア後 エピソード#{Regexp.last_match(1)}"
       when /\Aepisode-(\d+)\z/ then "エピソード#{Regexp.last_match(1)}"
       when /\Achapter-(\d+)\z/ then "第#{Regexp.last_match(1)}章"
       else chapter_title

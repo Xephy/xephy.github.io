@@ -64,6 +64,11 @@ begin
     # 次へ進めるようにする。
     nav = ChapterNav.build(chapters, chapter_index, LONGNAMES[game])
 
+    # 章内の節目次。CSS グリッドで本文の横に固定表示するため、本文と同じ
+    # 階層 (#main_content の直下) に置く必要がある。ラップする div を挟むと
+    # kramdown が中のマークダウンを処理しなくなるので、兄弟のまま並べる。
+    toc = PageToc.build(chapter[:content])
+
     page_content = <<~PAGE_CONTENTS
       ---
       title: "#{page_title}"
@@ -71,6 +76,8 @@ begin
       ---
 
       #{nav}
+
+      #{toc}
 
       #{chapter[:content]}
 

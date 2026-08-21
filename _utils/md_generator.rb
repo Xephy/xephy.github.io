@@ -46,19 +46,33 @@ def generate_md_text(game = 'reborn', scripts_dir)
 
   # 章ページへ飛ぶ目次。トップから来た人が最初に着く /<game>/ はこれにする。
   # 一枚版は 3.6MB あり、最初の着地としては重すぎるため。
+  # 目次ページの本体。29章 × 各10節ほどあるので、章ごとに区切りを付けて
+  # CSS 側で段組にできるよう、素のリストではなく章単位の HTML で出す。
   def generate_index_contents(game, chapters)
-    lines = []
-    chapters.each do |chapter|
+    blocks = chapters.map do |chapter|
       base = "/#{LONGNAMES[game]}/#{chapter[:slug]}/"
-      lines << "- [#{heading_text(chapter[:title])}](#{base})"
-      chapter[:content].each_line do |line|
+      sections = chapter[:content].each_line.filter_map do |line|
         next unless line.start_with?('## ')
 
         title = line.strip[2..].strip
-        lines << "  - [#{heading_text(title)}](#{base}##{anchor_for(title)})"
+        %(<li><a href="#{base}##{anchor_for(title)}">#{escape_html(heading_text(title))}</a></li>)
       end
+
+      <<~BLOCK
+        <section class="book-toc-chapter">
+          <h3><a href="#{base}">#{escape_html(heading_text(chapter[:title]))}</a></h3>
+          <ul>
+            #{sections.join("\n    ")}
+          </ul>
+        </section>
+      BLOCK
     end
-    lines.join("\n") + "\n"
+
+    %(<div class="book-toc">\n#{blocks.join("\n")}</div>\n)
+  end
+
+  def escape_html(text)
+    text.to_s.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;')
   end
 
   def generate_toc_contents(game)

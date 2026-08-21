@@ -24,12 +24,12 @@ raw = File.join(root, 'src', '_raw', 'reborn')
 
 # 章タイトルの決定表。prose-terms.md の表から読む (記録と実物のずれを検出するため)。
 terms = File.read(File.join(root, '_ja', 'prose-terms.md'))
-# 本編とポストゲームで表が2つあり、どちらも 1..9 で番号が振られている。
+# 本編とクリア後で表が2つあり、どちらも 1..9 で番号が振られている。
 # 素直に読むと後の表が前の表を潰すので、見出し行でどちらの表かを判別する。
 titles = { 'ep' => {}, 'post' => {} }
 section = 'ep'
 terms.each_line do |line|
-  section = 'post' if line.include?('ポストゲーム')
+  section = 'post' if line.include?('クリア後')
   m = line.match(/\A\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|/)
   next unless m && m[2] =~ /[A-Za-z]/ && m[3] =~ /[^\x00-\x7F]|outlier/
 

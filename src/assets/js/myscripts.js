@@ -1,23 +1,23 @@
-// Check initial mode preference
-if (localStorage.getItem("nightMode") === "enabled") {
-  document.body.classList.add("night-mode");
-  document.getElementById("nightModeIcon").src = "/assets/images/night.png";
-}
+// 表示モードの切り替え。
+// 要素が無い場合に落とさないようにしてある。ここで例外が出ると、この
+// ファイルの以降の処理 (章内目次・わざの説明など) がまとめて動かなくなる。
+(function () {
+  var toggle = document.getElementById("nightModeToggle");
+  var icon = document.getElementById("nightModeIcon");
 
-// Toggle mode and icon
-document.getElementById("nightModeToggle").addEventListener("click", function() {
-  document.body.classList.toggle("night-mode");
-  
-  // Change icon based on mode
-  const icon = document.getElementById("nightModeIcon");
-  if (document.body.classList.contains("night-mode")) {
-    icon.src = "/assets/images/night.png";
-    localStorage.setItem("nightMode", "enabled");
-  } else {
-    icon.src = "/assets/images/day.png";
-    localStorage.setItem("nightMode", "disabled");
+  if (localStorage.getItem("nightMode") === "enabled") {
+    document.body.classList.add("night-mode");
+    if (icon) icon.src = "/assets/images/night.png";
   }
-});
+
+  if (!toggle) return;
+  toggle.addEventListener("click", function () {
+    document.body.classList.toggle("night-mode");
+    var on = document.body.classList.contains("night-mode");
+    if (icon) icon.src = on ? "/assets/images/night.png" : "/assets/images/day.png";
+    localStorage.setItem("nightMode", on ? "enabled" : "disabled");
+  });
+})();
 
 
 $(document).ready(function () {
@@ -62,11 +62,99 @@ $(document).ready(function() {
     if (headerRows.is(':visible') && tableBody.is(':visible')) {
       headerRows.hide();
       tableBody.hide();
-      $(this).text('[show]');
+      $(this).text($(this).data('show') || '[show]');
     } else {
       headerRows.show();
       tableBody.show();
-      $(this).text('[hide]');
+      $(this).text($(this).data('hide') || '[hide]');
     }
   });
 });
+
+// 章内の節目次。狭い画面では畳んでおき、広い画面では読んでいる節を印す。
+(function () {
+  var toc = document.querySelector('.page-toc');
+  if (!toc) return;
+
+  // 1段組に落ちる幅では、開いたままだと本文が下に押し出される
+  if (window.matchMedia('(max-width: 1100px)').matches) toc.open = false;
+
+  var links = Array.prototype.slice.call(toc.querySelectorAll('a[href^="#"]'));
+  if (!links.length) return;
+
+  // 見出しとリンクの対。IntersectionObserver ではなくスクロール位置で
+  // 判定する。見出しは1章あたり20前後しかないので総当たりで足り、
+  // 「帯に入っているか」ではなく「どこまで読み進めたか」を素直に表せる。
+  var items = [];
+  links.forEach(function (a) {
+    var el = document.getElementById(decodeURIComponent(a.hash.slice(1)));
+    if (el) items.push({ a: a, el: el });
+  });
+  if (!items.length) return;
+
+  var current = null;
+  function mark(a) {
+    if (current === a) return;
+    if (current) current.classList.remove('is-current');
+    if (a) a.classList.add('is-current');
+    current = a;
+  }
+
+  function update() {
+    // 画面上部から 1/3 の位置を「今読んでいる行」とみなし、
+    // そこを最後に通過した見出しを現在地とする。
+    var line = window.innerHeight / 3;
+    var found = null;
+    for (var i = 0; i < items.length; i++) {
+      if (items[i].el.getBoundingClientRect().top <= line) found = items[i].a;
+      else break;
+    }
+    mark(found);
+  }
+
+  var ticking = false;
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(function () { ticking = false; update(); });
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  update();
+})();
+
+// わざの説明。title 属性はマウスを乗せないと出ないので、タッチ環境向けに
+// タップでも同じ内容を出す。説明文を DOM に持たせるとページが重くなるため
+// (1ページに最大3千件ある)、title の中身をそのまま使い回す。
+(function () {
+  var moves = document.querySelectorAll('.move-name[title]');
+  if (!moves.length) return;
+
+  var pop = null;
+  function close() { if (pop) { pop.remove(); pop = null; } }
+
+  moves.forEach(function (el) {
+    el.addEventListener('click', function (ev) {
+      ev.stopPropagation();
+      var text = el.getAttribute('title');
+      var isSame = pop && pop.dataset.owner === text;
+      close();
+      if (isSame) return;
+
+      pop = document.createElement('div');
+      pop.className = 'move-popup';
+      pop.dataset.owner = text;
+      pop.textContent = text;
+      document.body.appendChild(pop);
+
+      var r = el.getBoundingClientRect();
+      var maxLeft = window.scrollX + document.documentElement.clientWidth - pop.offsetWidth - 8;
+      pop.style.top = (window.scrollY + r.bottom + 6) + 'px';
+      pop.style.left = Math.max(8, Math.min(window.scrollX + r.left, maxLeft)) + 'px';
+    });
+  });
+
+  document.addEventListener('click', close);
+  window.addEventListener('scroll', close, { passive: true });
+})();
