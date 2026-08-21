@@ -1,204 +1,204 @@
-# Episode 16: A City, Reborn
+# エピソード16: リボーン、よみがえる街 {#episode-16}
 
-Head outside the big top. Before we fly back to Reborn City and other previously inaccessible areas, we can snag a new more points.
+大テントの外へ出ます。リボーンシティやこれまで入れなかったエリアへ飛ぶ前に、好感度をいくつか稼げます。
 
-**Relationship Point Choices**:
-- Talk to Hardy on Route 4 (+1 Hardy)
+**好感度の選択肢**:
+- 4番道路でハーディに話しかける (+1 ハーディ)
 
-**Relationship Point Choices**:
-- Talk to Cain in Calcenon City (+1 Cain)
+**好感度の選択肢**:
+- カルセノンシティでカインに話しかける (+1 カイン)
 
-## Tanzan Cove Water Exploration
+## タンザン入り江の水中探索 {#tanzan-cove-water-exploration}
 
-So, we now have access to a ton of areas we've previously visited, plus we can now use Surf, Waterfall, and Dive. Despite what seems like an odd choice of initial destination, head first to Tanzan Cove via flying to the Belrose Manse.
+これまで訪れた大量のエリアへ入れるようになり、しかも *なみのり*、*たきのぼり*、*ダイビング* が揃いました。最初の目的地としては奇妙に思えるかもしれませんが、まずはベルローズ邸へ飛んでタンザン入り江へ向かってください。
 
-Dive underwater in the Tanzan Cove.
+タンザン入り江で水中に潜ります。
 
 !enc(607, nil, nil, "Tanzan Cove Underwater")
 
-Down here you'll find a *Metronome*, *Big Nugget*, and the *Flower Garden Field Readout* as well as hidden *Escape Rope*, *Potion*, *Repel*, *Awakening*, *Grass Gem*, *Burn Heal*, *Red Shard*, *Chesto Berry*, *X Sp. Atk*, and *Great Ball*. Talk to the bodies of the Meteor grunts down here to get a *Spooky Plate*, and *Hyper Potion*. In particular, make sure you talk to the body with the missing ID tag on the left side of the area.
+ここでは *メトロノーム*、*でかいきんのたま*、*花畑フィールドの資料* のほか、隠された *あなぬけのヒモ*、*キズぐすり*、*むしよけスプレー*、*ねむけざまし*、*くさのジュエル*、*やけどなおし*、*あかいかけら*、*カゴのみ*、*スペシャルアップ*、*スーパーボール* が手に入ります。ここに沈むメテオ団のしたっぱの遺体に話しかけると *もののけプレート* と *すごいキズぐすり* が手に入ります。特に、エリア左側にあるIDタグの欠けた遺体には必ず話しかけてください。
 
-Return to the surface and talk to the fisherman on the right side of the map. If you've done all the steps of Simon's quest so far, you'll be given the *Super Rod*! I brought us here first so I could list surfing and super rod encounters at the same time :\)
+水面に戻り、マップ右側の釣り人に話しかけます。サイモンのクエストをここまで進めていれば *すごいつりざお* がもらえます。なみのりとすごいつりざおの出現を同時にまとめられるよう、ここを最初に持ってきました :\)
 
 !enc(232, ["Surfing", "Fishing"], ["Super"])
 
-To continue Simon's quest, we'll need to donate 3 locally-caught Whiscash to this guy. Do so, and you'll get the *ID Tag*. We'll finish this quest a bit later.
+サイモンのクエストを進めるには、ここで釣った **ナマズン** を3匹この人物に渡す必要があります。渡すと *IDタグ* が手に入ります。このクエストの仕上げは少し後です。
 
-For now, surf onto the lake, and head towards the left side of the map. You'll find a hidden *Elemental Seed* on the southern point of the landmass here. Land in the center, grab the hidden *Calcium*, then go into the cave.
+ひとまず湖になみのりで出て、マップ左側へ向かいます。ここの陸地の南端で隠された *エレメンタルシード* が手に入ります。中央に上陸して隠された *リゾチウム* を拾い、洞窟へ入ってください。
 
 !enc(615, nil, nil, "Tanzan Mountain/Depths (Rock Climb)")
 
-Grab the *Pearl* and hidden *Blue Shard* in here, then exit.
+中で *しんじゅ* と隠された *あおいかけら* を回収したら外へ出ます。
 
-## Neo Opal Ward
+## ネオオパール区 {#neo-opal-ward}
 
-Ok, with that out of the way, we can finally begin to explore Neo Reborn City - The entire city actually was renovated while we were away. Neat. Go ahead and fly to "Neo" Opal Ward.
+それが済んだら、いよいよネオリボーンシティの探索です。留守の間に街全体が改修されていました。見事なものです。「ネオ」オパール区へ飛びましょう。
 
-If you want to blitz through the story, you can talk to Ame in the Grand Hall and tell her you're waiting for her, but there are tons of nice things we can get before we talk to her.
+ストーリーを一気に進めたいなら、大ホールのアメに話しかけて「待っている」と伝えれば済みますが、その前に手に入る良いものが山ほどあります。
 
-There are a ton of sidequests and main quests that will take us all over the city and to other areas. For now, I will take us through every neo-ward one-by-one to cover everything we can get right now. The streets are now crackless and transportation more seamless due to Fly, so movement around the city is easier.
+サイドクエストとメインクエストが多数あり、街中や他のエリアを巡ることになります。ここではまず、ネオ各区を1つずつ回って、現時点で手に入るものを網羅します。道はひび割れがなくなり、*そらをとぶ* のおかげで移動も滑らかになったので、街の行き来は楽になりました。
 
-With 13 Badges, the default shop inventory has updated: 
+バッジ13個で標準ショップの品揃えが更新されています。
 
 !shop("Default Mart (13-16 Badges)", ["Poke Ball", "Great Ball", "Ultra Ball", "Super Repel", "Max Repel", "Escape Rope", "Full Heal", "Ultra Potion"])
 
 !enc(519, ["Grass", "Headbutt"])
 
-Hidden in the ward are an *Elemental Seed*, *Dawn Stone*, *Mental Herb*, *Super Repel*, and *Hyper Potion*.
+この区には *エレメンタルシード*、*めざめいし*、*メンタルハーブ*、*シルバースプレー*、*すごいキズぐすり* が隠されています。
 
-## Neo Peridot Ward
+## ネオペリドット区 {#neo-peridot-ward}
 
-That's all for Opal right now, so head west into Peridot.
+オパールで今できるのは以上なので、西のペリドットへ向かいます。
 
 !enc(522, ["Grass", "Headbutt"])
 
-First, head up into the park to the right of the Pokemon Center to talk to Elder Seacrest. He will give us a quest: collect the four types of Mulch scattered about the city. Use your Itemfinder all around the lower part of the ward to get an *Ultra Potion*, *Super Repel*, *X Defend*, *Blue Shard*, *Eject Button*, as well as the *Damp Mulch*, which is in the park around where we once got Whismur and Gulpin. Head into the Lower Peridot Alleyway.
+まずポケモンセンターの右の公園へ上がり、シークレスト長老に話しかけてください。街中に散らばる4種類のこやしを集めるクエストを頼まれます。区の下部一帯でダウジングマシンを使うと *すごいキズぐすり*、*シルバースプレー*、*ディフェンダー*、*あおいかけら*、*だっしゅつボタン*、そして *じめじめこやし* が手に入ります。後者は、かつてゴニョニョとゴクリンを入手した辺りの公園にあります。下ペリドット路地へ入りましょう。
 
 !enc(531)
 
-Hidden here are *Dark Gem*, *Red Shard*, and *Flying Gem*.
+ここには *あくのジュエル*、*あかいかけら*、*ひこうのジュエル* が隠されています。
 
-Back outside, go to the right towards the underground railroad. Enter the area under the bridge and surf down and to the right to emerge onto the now-purified water of the Azurine Lake in Opal Ward.
+外に戻り、右の地下鉄道のほうへ進みます。橋の下のエリアに入り、下そして右へなみのりすると、浄化されたオパール区のアズリン湖に出ます。
 
 !enc(522, ["Surfing", "Fishing"], nil, "Azurine Lake")
 
-Follow this path through to South Obsidia Ward to get a *White Flute*. Return to Peridot.
+この道を南オブシディア区までたどると *しろいビードロ* が手に入ります。ペリドットへ戻ってください。
 
-Heading to the upper side of the ward, we can get a hidden *Ice Heal*, *Carbos*, *Guard Spec.*, *Escape Rope*, *Poke Ball*, *Purple Shard*, *Nugget*, *Green Shard*, *Ultra Ball*, and *Blast Powder*.
+区の上部へ向かうと、隠された *こおりなおし*、*インドメタシン*、*エフェクトガード*、*あなぬけのヒモ*、*モンスターボール*、*むらさきのかけら*、*きんのたま*、*みどりのかけら*、*ハイパーボール*、*ばくはつのこな* が手に入ります。
 
-In the plot of the former Mosswater Factory there is now a market.
+かつてのモスウォーター工場の跡地には、今は市場が立っています。
 
 !tutor("Mosswater Market Move Tutor: Max", [["Aqua Tail", "5 Blue Shards"], ["Icy Wind", "6 Green Shards"], ["Signal Beam", "5 Purple Shards"], ["Throat Chop", "6 Red Shards"]])
 
 !tutor("Mosswater Market Move Tutor: Myles", [["Drain Punch", "6 Blue Shards"], ["Tailwind", "7 Green Shards"], ["Zen Headbutt", "5 Purple Shards"], ["Stealth Rock", "7 Red Shards"]])
 
-There is also a guy selling a new item that will allow you to move all EV's from one stat into another.
+ある能力の努力値を別の能力へ丸ごと移せる、新しい道具を売っている男性もいます。
 
 !shop("Mosswater Market Tuners", [["5x EV Tuners", 40000]])
 
-Head up and enter the house where we once got Igglybuff. If you return it to her, you'll get a *Luck Incense* and a *Pixie Plate*.
+上へ進み、かつてププリンを入手した家に入ります。返してあげると *こううんのおこう* と *せいれいプレート* がもらえます。
 
-Outside her house and down, there is an orange tent. Hidden underneath this tent is an NPC who will give you the *Expert Belt*. I have played this game many times and only recently learned about this.
+彼女の家の外、そこから下にオレンジ色のテントがあります。このテントの下に隠れているNPCが *たつじんのおび* をくれます。何度も遊んでいるゲームですが、これを知ったのはつい最近のことです。
 
-Enter the building that Simon is in, to the east of the Industrial Factory, and show him the ID Tag we found inside of Whiscash. You'll be rewarded with *TM06 Toxic* for finishing Simon's quest.
+工業地区の東にあるサイモンのいる建物に入り、ナマズンの中から見つかった *IDタグ* を見せてください。サイモンのクエストが完了し、*わざマシン06 どくどく* がもらえます。
 
-Enter the former Blacksteam Factory. Inside, you'll find an NPC who'll give you the password *penniless*. In the room that once contained Muk, you can talk to a guy who will bet you $1000 increments for coin flips. If you beat him a few times, he'll run out of money but trade you *TM27 Return* for all the money you collected so far. You can put a Pokemon with Super Luck at the front of your party to always win, or simply save in front of him before you bet.
+かつてのブラックスチーム工場に入ります。中のNPCが *penniless* というパスワードを教えてくれます。かつてベトベトンがいた部屋では、1000ドル単位でコイン投げの賭けをしてくる男性がいます。何度か勝つと相手の金が尽き、それまでに集めた金額と引き換えに *わざマシン27 おんがえし* をくれます。*きょううん* を持つポケモンを先頭にすれば必ず勝てますし、単純に賭ける前にセーブしても構いません。
 
-Enter the North Peridot Alleyway outside.
+外の北ペリドット路地へ入ります。
 
 !enc(532)
 
-You can find a hidden *Revive*.
+隠された *げんきのかけら* が見つかります。
 
-## Neo Jasper Ward & Malchous Forest
+## ネオジャスパー区とマルコウス森林公園 {#neo-jasper-ward--malchous-forest}
 
-That wraps up Peridot, so head into Neo Jasper Ward.
+ペリドットはこれで終わりなので、ネオジャスパー区へ入ります。
 
 !enc(523)
 
-Hidden in the ward you'll find a *Cheri Berry*, *Rawst Berry*, and *Grass Gem*.
+この区には *クラボのみ*、*チーゴのみ*、*くさのジュエル* が隠されています。
 
-Inside the police station, talk to the chief to continue the stolen Pokemon quest. If you head back into Peridot Ward, to the right of the Igglybuff lady's house, you'll see a guy who looks like Corin Rouge that you can fight.
+警察署の中で署長に話しかけると、盗まれたポケモンのクエストが進みます。ペリドット区へ戻り、ププリンの女性の家の右手を見ると、コリン・ルージュに似た男がいて戦えます。
 
 !battle(["Carmen", :Casanova, 0])
 
-We'll find the other two later.
+残る2人は後ほど見つかります。
 
-Enter Malchous Forest to the left.
+左のマルコウス森林公園に入ります。
 
 !enc(533)
 
-Later on, we'll need a Male Lurantis and a Female Lurantis for a quest, so it might be a good opportunity to get those now.
+後々のクエストでオスとメスの **ラランテス** が必要になるので、今のうちに揃えておくとよいでしょう。
 
-You'll find a *Balm Mushroom*, 5 *Exp. Candy L*, and a hidden *Synthetic Seed*. Make sure you don't sell the former. The abandoned gym has been replaced with soft soil to grow berries in. To start, you can get *4 Enigma Berries*, *4 Starf Berries*, *2 Aguav Berries*, *2 Mago Berries*, *2 Micle Berries*, *2 Iapapa Berries*, *2 Figy Berries*, a *Leppa Berry*, and a *Wiki Berry*.
+*かおるキノコ*、*けいけんアメL* 5個、隠された *シンセティックシード* が手に入ります。かおるキノコは売らないよう注意してください。廃墟だったジムは、きのみを育てられる柔らかい土に変わっています。手始めに *ナゾのみ* 4個、*スターのみ* 4個、*バンジのみ* 2個、*マゴのみ* 2個、*ミクルのみ* 2個、*イアのみ* 2個、*フィラのみ* 2個、*ヒメリのみ* 1個、*ウイのみ* 1個が手に入ります。
 
-On the south side of the Forest Park, you'll also find another guy who looks like Corin Rouge!
+森林公園の南側にも、コリン・ルージュに似た男がもう1人います。
 
 !battle(["Claret", :Casanova, 0], "Forest Field")
 
-## Neo Beryl Ward
+## ネオベリル区 {#neo-beryl-ward}
 
-Head into Beryl next. Go right across the Beryl Bridge. If you show the Yureyu Key we got earlier to the tech guy near the power plant, you'll get a *Zap Plate*.
+次はベリルへ。ベリル大橋を渡って右へ進みます。発電所近くの技術者に、以前手に入れた *ユレユのカギ* を見せると *いかずちプレート* がもらえます。
 
 !enc(544, nil, nil, "Beryl Ward (Lower)")
 
-You'll notice that there are a ton of invisible obstacles all over Beryl and the surrounding areas, but we can't do anything about them right now. Still, we can maneuver around many of them to get some goodies.
+ベリルとその周辺には見えない障害物が大量にあることに気づきますが、今はどうにもできません。それでも多くは迂回でき、収穫は得られます。
 
-Hidden in Beryl you can get a *Poison Gem*, *Blue Shard*, *Magical Seed*, *Red Shard*, and the *Gooey Mulch* in the central park.
+ベリルには *どくのジュエル*、*あおいかけら*、*マジカルシード*、*あかいかけら* が隠されており、中央公園には *ねばねばこやし* があります。
 
 !enc(551, nil, nil, "Beryl Ward (Upper)")
 
-On the hill by Corey's gym you can find a hidden *Purple Shard* and *HP Up*.
+コーリーのジム脇の丘では、隠された *むらさきのかけら* と *マックスアップ* が手に入ります。
 
 !enc(552)
 
-Before we leave, there are a few more things to do in Beryl. Enter the library and pick up the *Library Application* at the desk. This is the first of many applications we can grab to help us complete a sidequest later on. Upstairs you'll learn about the *monowoke* password. At the southwest corner of town, there is a shop run by the Inspector guy.
+離れる前に、ベリルでできることがもう少しあります。図書館に入り、受付で *としょかんのもうしこみしょ* を回収してください。これは後々のサイドクエストで必要になる申込書の1枚目です。上階では *monowoke* というパスワードを教えてもらえます。町の南西の隅には、あの捜査官の男が営む店があります。
 
 !shop("The Emporium", ["Full Incense", "Lax Incense", "Luck Incense", "Odd Incense", "Pure Incense", "Rose Incense", "Sea Incense", "Wave Incense", "Rock Incense"])
 
-Next, enter Corey's gym. Use the card we got from behind Skuntank on the wall keypad to open a secret room containing 4 *EV Boosters* and a *Data Chip*.
+次にコーリーのジムへ入ります。スカタンクの奥で手に入れたカードを壁のキーパッドに使うと隠し部屋が開き、*どりょくちブースター* 4個と *データチップ* が手に入ります。
 
-## Neo Lapis Ward
+## ネオラピス区 {#neo-lapis-ward}
 
-That wraps up the things on the west side of Reborn City, so fly over to Lapis next.
+リボーンシティ西側でできることはこれで終わりなので、次はラピスへ飛びます。
 
 !enc(524)
 
-Hidden around Lapis you'll be able to find a *Genius Wing*, *X Attack*, *Peppermint*, *Great Ball*, *Purple Shard*, *Exp. Candy L*, as well as the *Stable Mulch* in the park at the top.
+ラピス各所では隠された *ちりょくのハネ*、*プラスパワー*、*ハッカキャンディ*、*スーパーボール*、*むらさきのかけら*、*けいけんアメL* のほか、上部の公園で *ながながこやし* が手に入ります。
 
-The flower shop on the left side has some new items for sale.
+左側の花屋に新しい品が並んでいます。
 
 !shop("Sweet Scent Flowers (Middle) (13+ Badges)", ["Red Nectar", "Yellow Nectar", "Pink Nectar", "Purple Nectar", "Elemental Seed", "Magical Seed", "Telluric Seed", "Synthetic Seed"])
 
 !shop("Sweet Scent Flowers (Bottom)", ["Durin Berry", "Watmel Berry", "Belue Berry", "Kee Berry", "Maranga Berry"])
 
-You can also talk to a girl near the top and show her the Budew that we once got after it fell off the wall, and she'll tell us about the password *budewit*.
+上のほうにいる少女に、かつて壁から落ちてきた **スボミー** を見せると、*budewit* というパスワードを教えてくれます。
 
-Enter Lapis Alleyway next. Inside, you'll find more soil containing *4 Rowap Berries*, *4 Ganlon Berries*, *4 Jaboca Berries*, and *2 Sitrus Berries*.
+次にラピス路地へ。中には土があり、*レンブのみ* 4個、*リュガのみ* 4個、*ジャポのみ* 4個、*オボンのみ* 2個が手に入ります。
 
-Make your way down to Seventh Street. There is a new move tutor here - the guy who sold us the Pokemon earlier.
+7番街まで下ります。ここには新しい技教え人——以前ポケモンを売っていた男——がいます。
 
 !tutor("Seventh Street Pokemon Seller Move Tutor", [["Knock Off", "8 Red Shards"], ["Iron Head", "7 Purple Shards"], ["Giga Drain", "6 Green Shards"], ["Liquidation", "6 Blue Shards"]])
 
-Enter the watering hole and go down the now-open ladder. This is a shortcut to the Water Treatment Center and also contains a *Black Flute*.
+水飲み場に入り、開通したはしごを下ります。これは浄水センターへの近道で、*くろいビードロ* もあります。
 
-You can also talk to your gang leader to learn the purpose of the applications we've been collecting. Regardless of your gang choice, you can't complete this quest yet, so we'll come back later.
+自分のギャングの頭に話しかけると、集めている申込書の用途が分かります。どちらのギャングでも、このクエストはまだ完了できないので、後ほど戻ります。
 
-## Neo Obsidia Ward
+## ネオオブシディア区 {#neo-obsidia-ward}
 
-Pop back up in Lapis and head east into North Obsidia. You can find a hidden *Full Heal* on the left side.
+ラピスへ戻り、東の北オブシディアへ進みます。左側で隠された *なんでもなおし* が手に入ります。
 
 !enc(527)
 
-Talk to the girl outside the nightclub to get a *Nightclub Application*.
+ナイトクラブの外の少女に話しかけると *ナイトクラブのもうしこみしょ* がもらえます。
 
-Enter the Spyce restaurant on the right. At the counter you can grab a *Spyce Application*. Once the chef pops out of the kitchen, talk to him to begin the chef's quest. He'll ask us to bring the following items: Honey, Tiny Mushroom, Balm Mushroom, Slowpoke Tail, White Herb, Stick, Sweet Heart, Moomoo Milk, Energy Root, Custap Berry, Whipped Dream, and Shoal Salt. A few of these we don't yet have.
+右のレストラン「ザ・スパイス」に入ります。カウンターで *スパイスのもうしこみしょ* を回収できます。厨房からシェフが出てきたら話しかけると、シェフのクエストが始まります。次の品を持ってくるよう頼まれます。*あまいミツ*、*ちいさなキノコ*、*かおるキノコ*、*おいしいシッポ*、*しろいハーブ*、*ながねぎ*、*ハートスイーツ*、*モーモーミルク*、*ちからのねっこ*、*イバンのみ*、*ホイップポップ*、*あさせのしお*。まだ手に入れていないものもいくつかあります。
 
-Enter the North Obsidia Alleyway next.
+次に北オブシディア路地へ入ります。
 
 !enc(529)
 
-You'll find a *Magical Seed* and hidden *Dusk Ball* and *Max Elixir*.
+*マジカルシード* と、隠された *ダークボール*、*ピーピーマックス* が手に入ります。
 
-Head south into Central Obsidia.
+南の中央オブシディアへ向かいます。
 
 !enc(520)
 
-Hidden around this part of the ward are an *HP Up*, *Pop Rocks*, *Green Shard*, *Elemental Seed*, as well as the *Growth Mulch* in the park on the bottom right side.
+この区の一帯には隠された *マックスアップ*、*パチパチキャンディ*、*みどりのかけら*、*エレメンタルシード* があり、右下の公園には *すくすくこやし* があります。
 
-Notice that means we have now found all four of the mulches, so talk to Seacrest in Lower Peridot to get the *Venusaurite* and an *Insect Plate*. The nearby assistant will give you the *Decidium-Z*.
+これで4種類のこやしがすべて揃ったので、下ペリドットのシークレストに話しかけると *フシギバナイト* と *たまむしプレート* がもらえます。近くの助手からは *ジュナイパーZ* ももらえます。
 
-Back in Obsidia, there are tons of shops we can access. Enter the Sweet Co. HQ in the former Yureyu building. Talk to someone behind the desk to get a *Sweet Application*.
+オブシディアに戻ると、利用できる店が山ほどあります。かつてのユレユビルにあるあまいキッス本社に入り、受付の人物に話しかけると *スイーツてんのもうしこみしょ* がもらえます。
 
-Enter the building to the right on Saffron Street. After seeing a conversation, talk to the girl to learn about the invisible obstacles in Beryl. We can't do anything about it yet though. The person at the top will give us the *Silph Application*.
+サフラン通りの右の建物に入ります。会話を見たあと少女に話しかけると、ベリルの見えない障害物について教えてくれます。ただし今はまだ何もできません。上部の人物が *シルフのもうしこみしょ* をくれます。
 
-In the building to the right you can get a *Medicine Application*.
+右の建物では *やっきょくのもうしこみしょ* が手に入ります。
 
 !shop("Madame Meganium", ["Energy Root", "Energy Powder", "Heal Powder", "Revival Herb", "Power Herb", "White Herb"])
 
-You can buy the Energy Root and White Herb for the Spyce if needed.
+必要なら、スパイス用の *ちからのねっこ* と *しろいハーブ* をここで買えます。
 
-While we were gone we got two stickers, so we can access some new floors of the Department Store.
+留守の間にシールを2枚手に入れていたので、デパートの新しい階に入れます。
 
 !shop("Department Store 9F (Left)", ["Fire Stone", "Water Stone", "Leaf Stone", "Thunder Stone", "Moon Stone", "Sun Stone", "Dusk Stone", "Dawn Stone", "Shiny Stone"])
 
@@ -208,58 +208,58 @@ While we were gone we got two stickers, so we can access some new floors of the 
 
 !shop("Department Store 10F (Right)", ["Liechi Berry", "Ganlon Berry", "Salac Berry", "Petaya Berry", "Apicot Berry", "Lum Berry", "Jaboca Berry", "Rowap Berry", "Custap Berry"])
 
-You can buy a Custap Berry for the Spyce if you need. You can also buy the good standard items, some decent berries, and tons of useful evolution items!
+必要ならスパイス用の *イバンのみ* もここで買えます。優秀な標準アイテム、まともなきのみ、そして有用な進化アイテムも大量に買えます。
 
-Enter the Obsidia Daycare. In exchange for $100000 you'll be able to use an incubator - which instantly generates and hatches eggs. Extremely useful. An NPC in the Pokemon Center will then tell you about the password *earlyincu*.
+オブシディア育て屋に入ります。100000ドルと引き換えに孵化装置を使えるようになります。タマゴを即座に生成して孵せる、極めて便利なものです。その後、ポケモンセンターのNPCが *earlyincu* というパスワードを教えてくれます。
 
-Inside the Cafe Salon, you can pick up a *Salon Application*.
+カフェサロンの中では *サロンのもうしこみしょ* を回収できます。
 
-Enter the Critical Capture building. You can pick up a *Critical Application*. There is also a new clerk here.
+クリティカルキャプチャーの建物に入ります。*クリティカルのもうしこみしょ* を回収できます。ここには新しい店員もいます。
 
 !shop("Critical Capture (Left)", ["Repeat Ball", "Luxury Ball", "Dusk Ball", "Heal Ball", "Quick Ball", "Dream Ball", "Cherish Ball", "Level Ball", "Lure Ball"])
 
-Talk to the other person in here and he will take the Corrupted Poke Ball we found a long time ago as well as a Magnet Powder. You'll get **Ralts**!
+ここのもう1人に話しかけると、ずっと前に見つけた *けがれたモンスターボール* と *じしゃくのこな* を受け取ってくれます。**ラルトス** が手に入ります。
 
-Enter the Sweet Kiss Candy store.
+あまいキッス菓子店に入ります。
 
 !shop("Sweet Kiss (Top) (13+ Badges)", ["Whipped Dream", "Peppermint", "Chewing Gum", "Pop Rocks", "Salt-Water Taffy", "Red-Hots", "Cotton Candy", "Sweet Heart"])
 
-Buy the Sweet Heart for Spyce.
+スパイス用に *ハートスイーツ* を買っておきましょう。
 
-Enter the Obsidia Alleyway next.
+次にオブシディア路地へ入ります。
 
 !enc(570)
 
-Inside you'll learn about the password *nuzlocke*. You can also find a hidden *Revive*.
+中で *nuzlocke* というパスワードを教えてもらえます。隠された *げんきのかけら* も見つかります。
 
-Head into South Obsidia.
+南オブシディアへ向かいます。
 
 !enc(528, ["Grass"])
 
-You'll be able to find hidden *PP Up* and *Blue Shard* in the ward. You can also enter the Glamazonia Salon to get a *Glamazonia Application*.
+この区では隠された *ポイントアップ* と *あおいかけら* が手に入ります。グラマゾニア美容室に入ると *グラマゾニアのもうしこみしょ* も手に入ります。
 
-## Neo Coral Ward
+## ネオコーラル区 {#neo-coral-ward}
 
-Go south into Coral.
+南のコーラルへ進みます。
 
 !enc(526, ["Grass"])
 
-You can find hidden *Green Shard*, *Fairy Gem*, *Magical Seed*, and *Max Repel*.
+隠された *みどりのかけら*、*ようせいジュエル*、*マジカルシード*、*ゴールドスプレー* が手に入ります。
 
-Enter the building in the upper right side. Danielle will give you another quiz! Feel free to go find the answers yourself if you'd like. Otherwise, here they are.
+右上の建物に入ります。ダニエールがまたクイズを出してきます。自分で答えを探したい場合はそうしてください。そうでなければ、以下が答えです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    15, 30, 23, 0, 42, any answer
+    15、30、23、0、42、どれでもよい
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for quiz answers</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">クイズの答えを表示</a>
 </div>
 
-Once you succeed, you'll get the *Fairy Tale Field Readout*.
+正解すると *おとぎ話フィールドの資料* がもらえます。
 
-Talk to one of the fisherman at the bottom of Coral Ward and agree to buy the *Slowpoke Tail* for the ridiculous price. Once he learns you're doing it for Spyce, you'll get it for free.
+コーラル区の下部にいる釣り人の1人に話しかけ、法外な値段で *おいしいシッポ* を買うことに同意してください。スパイスのためだと分かると、無料でくれます。
 
-Surf into the Coral Ward bay. We'll deal with Azurine Lake to the left later on, but for now, fight the trainers here. From bottom to top:
+コーラル区の湾になみのりで出ます。左のアズリン湖は後ほど扱うとして、ここではトレーナーと戦います。下から順に:
 
 !battle(["Owen", :SWIMMERBOI, 0], "Water Surface")
 
@@ -267,37 +267,37 @@ Surf into the Coral Ward bay. We'll deal with Azurine Lake to the left later on,
 
 !battle(["Jacob", :FISHERMAN, 0], "Misty Terrain")
 
-Behind the bottom lighthouse is a hidden dive spot.
+下側の灯台の裏には隠しダイビングスポットがあります。
 
 !enc(608, nil, nil, "Coral Ward Underwater")
 
-You can find a hidden *Elixir* and *Moon Ball* on this map. Follow the path and surface in the lighthouse. Up the ladder you can get a *Big Nugget*, *Jolly Mint*, and *Coral Key*. Make your way back to the bay and use the key on the other lighthouse door. Dive down and go left and prepare for a battle.
+このマップでは隠された *ピーピーエイダー* と *ムーンボール* が手に入ります。道をたどって灯台の中で浮上します。はしごを上ると *でかいきんのたま*、*ようきミント*、*コーラルのカギ* が手に入ります。湾に戻り、もう一方の灯台の扉にカギを使ってください。潜って左へ進み、バトルに備えます。
 
 !battle(["Predators", :PREDATORS, 0], "Underwater")
 
-This is a 6v2 fight that might kick your butt simply because Underwater Field allows these two to outspeed nearly every Pokemon you have and either hit hard with field boosted moves or set up with Shell Smash / Double Team. If you can control the speed somehow or have something bulky enough to hit back, you can find a way through this one.
+6対2の戦いですが、*水中* フィールドのおかげで相手2匹がこちらのほぼ全てを抜き、フィールド強化された技で強打するか *からをやぶる* / *かげぶんしん* で積んでくるため、痛い目に遭うかもしれません。どうにか素早さを制御するか、耐えて殴り返せる硬さがあれば、突破口は見つかります。
 
-Once you win, you'll get **Popplio**! Beyond, you'll find *TM68 Giga Impact* and a hidden *King's Rock*. There's also a slightly different encounter table here.
+勝つと **アシマリ** が手に入ります。その先では *わざマシン68 ギガインパクト* と隠された *おうじゃのしるし* が手に入ります。ここには少し異なる出現表もあります。
 
 !enc(610)
 
-## Neo Onyx Ward
+## ネオオニキス区 {#neo-onyx-ward}
 
-Next, fly into Onyx Ward. You can find a hidden *Burn Heal*, *X Defend*, and *Red Shard*. A person in the upper left corner will also give you a *Full Restore*.
+次はオニキス区へ飛びます。隠された *やけどなおし*、*ディフェンダー*、*あかいかけら* が手に入ります。左上の隅の人物も *かいふくのくすり* をくれます。
 
-Head up to the rooftop garden.
+屋上庭園へ上がります。
 
 !enc(573)
 
-Enter the Onyx Trainer School and go all the way to the left. Talk to the girl here to get a *Sweet Heart*. On the second floor, enter the open double doors then go up the stairs to the third floor. Talk to the girl on the left. Return to the first girl and you'll get a *Incinium-Z*!
+オニキストレーナー学校に入り、左端まで進みます。ここの少女に話しかけると *ハートスイーツ* がもらえます。2階では開いた両開きの扉に入り、階段で3階へ上がってください。左の少女に話しかけます。最初の少女のところへ戻ると *ガオガエンZ* が手に入ります。
 
-By now, we should be able to give all the ingredients to the Spyce. Once you do, you'll get 2 *Leftovers*!
+これでスパイスに材料をすべて渡せるはずです。渡すと *たべのこし* が2個もらえます。
 
-## Neo Spinel Town & Chrysolia Spring
+## ネオスピネルタウンとクリソリア温泉 {#neo-spinel-town--chrysolia-spring}
 
-That wraps up things in the city limits for right now, so fly over to Spinel Town. Enter the museum.
+市内でできることは今のところ以上なので、スピネルタウンへ飛びます。博物館に入ってください。
 
-Towards the top of the ground floor you'll see a new entrance to a gift shop.
+1階の上寄りに、みやげ物店への新しい入口があります。
 
 !shop("Spinel Museum Gifts (Left)", ["Black Belt", "Black Glasses", ["Charcoal", 9800], "Dragon Fang", ["Hard Stone", 9800], "Magnet", ["Metal Coat", 9800], "Miracle Seed", "Mystic Water", "Never-Melt Ice"])
 
@@ -305,191 +305,191 @@ Towards the top of the ground floor you'll see a new entrance to a gift shop.
 
 !shop("Spinel Museum Gifts (Right)", [["Dome Fossil", 9800], ["Root Fossil", 9800], ["Skull Fossil", 9800]])
 
-We also got a couple fossils while we were away - meaning upstairs we can now get the other one of **Archen** or **Tirtouga** as well as **Aerodactyl**!
+留守の間に化石をいくつか手に入れていたので、上階では **アーケン** と **プロトーガ** のうちまだ持っていないほう、そして **プテラ** も入手できます。
 
-Make your way down to Chrysolia Forest and enter the Chrysolia Spring.
+クリソリアの森まで下り、クリソリア温泉に入ります。
 
 !enc(238, ["Surfing", "Fishing"], ["Super"])
 
-Surf across and push the first boulder out of the way and grab a hidden *Common Candy*. Towards the top, you'll need to push a boulder onto a nearby water stream, when you do so, it will make the other one larger. Surf onto that larger jet to be pushed up on a ledge! Grab the hidden *Red Shard* and *X Defend* then push the boulder into the hole. Grab the *Red Card* then jump down.
+なみのりで渡り、最初の岩をどかして隠された *ふつうのアメ* を拾います。上のほうでは、岩を近くの水流に押し込む必要があります。そうするともう一方の水流が大きくなります。その大きな噴流になみのりで乗ると、段差の上へ押し上げられます。隠された *あかいかけら* と *ディフェンダー* を拾い、岩を穴に押し込んでください。*レッドカード* を回収したら飛び降ります。
 
 !enc(545)
 
-Head up and grab the *Exp. Candy XL*. Next, go all the way down and take the large jet back to the first floor. Grab the hidden *Psychic Gem* then head back to B1F.
+上へ進んで *けいけんアメXL* を拾います。次に下まで進み、大きな噴流で1階へ戻ります。隠された *エスパージュエル* を拾ったら、地下1階へ戻ってください。
 
-Essentially, this single boulder in the center can solve four different puzzles, each in a different corner of this room.
+要するに、中央にあるこの1つの岩で、この部屋の四隅それぞれにある4種類のパズルを解くことになります。
 
-I will start with the top left direction. For this direction, you'll essentially need to push this boulder onto the nearby water stream... but despite being only 2 tiles away, we will need to push it the long way all the way around the lake here.
+まずは左上の方向から。この方向では、岩を近くの水流へ押し込む必要があります……ただし距離は2マスしかないのに、ここの湖をぐるりと大回りして押していく必要があります。
 
-The boulder's path should look like the following, just note that you'll need to surf to reach certain positions to continue its progress. You can push it while it's on land and you're on the water.
+岩の経路は次の図のようになります。ただし、先へ進めるには特定の位置までなみのりで移動する必要がある点に注意してください。岩が陸にあり、自分が水上にいる状態でも押せます。
 
 !img("spring_b1nw.png")
 
-This area contains a hidden *Elixir*, *Green Shard*, and *Rock Gem*. Once you successfully push the boulder into the final spot, step onto the tall water jet to return to 1F.
+このエリアには隠された *ピーピーエイダー*、*みどりのかけら*、*いわのジュエル* があります。岩を最終地点まで押し込めたら、高い噴流に乗って1階へ戻ります。
 
-You can get a hidden *Water Gem* here. Push the boulder in the top right corner onto the jet in the bottom left corner, then hop up the ledge and enter the cave.
+ここでは隠された *みずのジュエル* が手に入ります。右上の隅の岩を左下の隅の噴流へ押し込み、段差を登って洞窟に入ってください。
 
 !img("spring_1fnw.png")
 
-Inside the sauna, if you want, you can blow away the steam with a wind-based move, but it's not necessary other than for visibility. You can get an *Exp. Candy XL*, *Timid Mint*, and the *Cameruptite* in here.
+サウナの中では、望むなら風系の技で蒸気を吹き払えますが、視界を確保する以外の意味はありません。ここでは *けいけんアメXL*、*おくびょうミント*、*バクーダナイト* が手に入ります。
 
-Make your way back to B1F. This time, push the boulder in the bottom left direction. Push it onto the jet in the bottom left, then go up the stream to the bottom right side. Grab the hidden *Super Potion* and move the nearby boulder onto the jet in the bottom right. Go up the tall jet to 1F.
+地下1階へ戻ります。今度は岩を左下の方向へ押します。左下の噴流に押し込み、水流を上って右下側へ向かってください。隠された *いいキズぐすり* を拾い、近くの岩を右下の噴流へ移します。高い噴流で1階へ上がります。
 
 !img("spring_b1sw.png")
 
-In this portion you can find a hidden *Blue Shard*. Push this boulder onto the jet in the bottom left corner, then hop up the jet. Jump down the hole.
+この区画では隠された *あおいかけら* が見つかります。この岩を左下の隅の噴流へ押し込み、噴流で上がってください。穴に飛び降ります。
 
 !img("spring_1fsw.png")
 
-Get the hidden *Red Shard*, then go into the nearby sauna. Grab the *Modest Mint* and hidden *Elixir*. There are three jets in this room - the bottom one is inaccessible by boulders. Push the two boulders onto the other two, then go up the tall jet. Grab the *Exp. Candy XL* and *TM50 Overheat* here.
+隠された *あかいかけら* を拾い、近くのサウナへ入ります。*ひかえめミント* と隠された *ピーピーエイダー* を回収してください。この部屋には噴流が3つあり、一番下のものは岩では届きません。残り2つに岩を2つ押し込み、高い噴流で上がります。ここでは *けいけんアメXL* と *わざマシン50 オーバーヒート* が手に入ります。
 
 !img("spring_b2sw.png")
 
-Return to B1F, this time pushing the boulder in the top right direction. Grab the hidden *Water Gem* here. You'll need to temporarily push the boulder up, surf across, and move another boulder out of the way in order to push the boulder down and onto the jet.
+地下1階へ戻り、今度は岩を右上の方向へ押します。ここでは隠された *みずのジュエル* が手に入ります。岩をいったん上へ押し、なみのりで渡って別の岩をどけたうえで、岩を下へ、そして噴流へ押し込む必要があります。
 
 !img("spring_b1ne.png")
 
-On 1F, grab the hidden *Dusk Ball*. Essentially 5 of these boulders are duds (in blue), and you'll need to get them out of the way of the single boulder (in green) that you can move onto the jet. Of the bottom right pair, it is the left one. Once you get it into place go up the jet and follow the path to the sauna.
+1階では隠された *ダークボール* を拾います。要は、この岩のうち5つ（青）はダミーで、噴流へ動かせる唯一の岩（緑）の進路から、それらをどける必要があります。右下の2つのうちでは、左のものが本命です。所定の位置に収めたら噴流で上がり、道をたどってサウナへ向かいます。
 
 !img("spring_1fne.png")
 
-In here, you can get a *Jolly Mint*, *Red Flute*, *Big Nugget*, and *Exp. Candy XL*.
+ここでは *ようきミント*、*あかいビードロ*、*でかいきんのたま*、*けいけんアメXL* が手に入ります。
 
-Make your way back to B1F, and finally push the boulder in the bottom right direction. You'll find a hidden *Big Pearl* and *Flame Plate* in this area. This puzzle should be straightforward by now, just note that you'll need to at some point surf across the rightmost pond and push the second boulder right to clear the path - see the yellow line. Use the big jet to reach 1F.
+地下1階へ戻り、最後に岩を右下の方向へ押します。このエリアでは隠された *おおきなしんじゅ* と *ひのたまプレート* が見つかります。このパズルはもう難しくないはずですが、途中で一番右の池をなみのりで渡り、2つ目の岩を右へ押して道を空ける必要がある点に注意してください（黄色の線を参照）。大きな噴流で1階へ上がります。
 
 !img("spring_b1se.png")
 
-Up here, you can get a hidden *Awakening*. To finish this puzzle, you'll need to push the boulder counter-clockwise around this area to reach the jet. Follow the path to the final sauna.
+ここでは隠された *ねむけざまし* が手に入ります。このパズルを終えるには、岩をこのエリアの周りに反時計回りで押して噴流まで届かせる必要があります。道をたどって最後のサウナへ向かいましょう。
 
 !img("spring_1fse.png")
 
-This room has a lot of ledges, and is a bit chaotic. You'll find an *Exp. Candy XL*, *Adamant Mint*, *TM61 Will-o-Wisp*, as well as a hidden *Fire Gem*.
+この部屋は段差が多く、やや混沌としています。*けいけんアメXL*、*いじっぱりミント*、*わざマシン61 おにび*、そして隠された *ほのおのジュエル* が手に入ります。
 
 !img("spring_b2se.png")
 
-Exit the Chrysolia Spring once you're done.
+済んだらクリソリア温泉を出ます。
 
-## Iolia Valley & Aventurine Woods Water Exploration
+## イオリア渓谷とアベンチュリンの森の水中探索 {#iolia-valley--aventurine-woods-water-exploration}
 
-Fly on over to the Vanhanen Castle and make your way to the Iolia Valley.
+バンハネン城へ飛び、イオリア渓谷へ向かいます。
 
 !enc(333, ["Water", "Fishing"], ["Super"])
 
-Climb the waterfall at the top of the area, grab the hidden *Nugget*, and follow the path to get a *Dark Material*. Next, surf your way all the way down the river in the valley. Use the green crystal beneath the waterfall to get *TM89 U-Turn*.
+エリア最上部の滝を登り、隠された *きんのたま* を拾って、道をたどると *ダークマテリアル* が手に入ります。次に、渓谷の川をなみのりで下まで下ります。滝の下にある緑の水晶を使うと *わざマシン89 とんぼがえり* が手に入ります。
 
-Exit the valley and return to Route 1. Grab a Tauros and head into the top right North Aventurine Woods entrance.
+渓谷を出て1番道路へ戻ります。ケンタロスに乗り、右上の北アベンチュリンの森の入口へ入ってください。
 
 !enc(289, ["Surfing", "Fishing"], ["Super"])
 
-At the top, you can surf across to get the *Sharpedonite*!
+最上部ではなみのりで渡ると *サメハダナイト* が手に入ります。
 
-Make your way all the way to the left to the entrance of North Aventurine Woods that leads to Celestinine Mountain 2F. Across the ice and in the bottom left corner we can now surf on this body of water. You'll find a *Shoal Shell* and hidden *Revive* directly across. Dive down to the right.
+セレスティナイン山2階へ通じる北アベンチュリンの森の入口まで、ずっと左へ進みます。氷を渡った左下の隅で、この水域をなみのりできるようになっています。真向かいでは *あさせのかいがら* と隠された *げんきのかけら* が手に入ります。右へ潜ってください。
 
-Down here, you'll find a hidden *Steel Gem*, 2 *Blue Shards*, *Ether*, and *Rare Candy*. You'll also find 5 *Exp. Candy XL* at the top. Towards the right, there is a door to a deeper cavern, surface to get a *Deep Sea Scale* and a *Big Nugget*.
+ここでは隠された *はがねのジュエル*、*あおいかけら* 2個、*ピーピーエイド*、*ふしぎなアメ* が手に入ります。上部では *けいけんアメXL* 5個も見つかります。右寄りにはさらに深い洞窟への扉があり、浮上すると *しんかいのウロコ* と *でかいきんのたま* が手に入ります。
 
-That's it for this area right now!
+このエリアで今できるのは以上です。
 
-## Neo Apophyll Beach
+## ネオアポフィルビーチ {#neo-apophyll-beach}
 
-Fly over to the Apophyll Academy and enter the academy. Talk to the girl in the first room to get the *Apophyll Application*. In the academy's center area you can find a hidden *Purple Shard*.
+アポフィルアカデミーへ飛び、アカデミーに入ります。最初の部屋の少女に話しかけると *アポフィルのもうしこみしょ* がもらえます。アカデミー中央のエリアでは隠された *むらさきのかけら* が手に入ります。
 
-Head down into the meditation spot where we once met Kiki.
+かつてキキと出会った瞑想の場へ下ります。
 
 !enc(563, nil, nil, "Apophyll Training Grounds")
 
-You'll find 4 hidden *Shoal Shells*. The trainers here are actually grind trainers that give 8 *Exp Candy XL* when you beat them.
+隠された *あさせのかいがら* が4個見つかります。ここのトレーナーは実はレベル上げ用で、倒すと *けいけんアメXL* を8個くれます。
 
 !battle(["Akane", :BATTLEGIRL, 0], "Ashen Beach")
 
 !battle(["Nathaniel", :BLACKBELT, 0], "Ashen Beach")
 
-Head up to the area surrounding the academy.
+アカデミー周辺のエリアへ上がります。
 
 !enc(565, ["Cave", "Rock Smash"])
 
-In the map surrounding the academy, you'll be able to find 3 hidden *Shoal Shells* and a *Protein*, as well as hidden *Shoal Shell* and *Health Wing* above the academy.
+アカデミー周辺のマップでは、隠された *あさせのかいがら* 3個と *タウリン*、さらにアカデミーの上で隠された *あさせのかいがら* と *たいりょくのハネ* が手に入ります。
 
-Head to the Apophyll Beach to the right side of the academy. On this map you'll be able to find a hidden *Calcium* and 5 *Shoal Shells*. Making our way to the map on the left side of the academy, we can get a hidden *Ultra Potion*, *Star Piece*, and *Rock Gem*.
+アカデミー右手のアポフィルビーチへ向かいます。このマップでは隠された *リゾチウム* と *あさせのかいがら* 5個が手に入ります。アカデミー左手のマップへ進むと、隠された *すごいキズぐすり*、*ほしのかけら*、*いわのジュエル* が手に入ります。
 
-Next, make your way all the way to the top of Pyrous Mountain. From the bottom of the lava crater we can actually fish...!
+次に、パイロス山の頂上までずっと向かいます。溶岩の火口の底では、実は釣りができます……!
 
 !enc(27, nil, nil, "Pyrous Mountain Crater")
 
-## Azurine Lake
+## アズリン湖 {#azurine-lake}
 
-Next it's time to cover the actual Azurine Lake! There are tons of things we can do in this gargantuan area. To start, surf up from the Apophyll Academy, and enter the cave in the rock formation (1).
+いよいよアズリン湖そのものを扱います。この広大なエリアでできることは山ほどあります。まずはアポフィルアカデミーからなみのりで上へ進み、岩場の洞窟 (1) に入ってください。
 
 !img("azurine_567_1.png")
 
 !enc(603, nil, nil, "Azurine Cave (South)")
 
-Pick up the *Underwater Field Readout* and the *Exp. Candy XL* as well as the hidden *Great Ball* and *Focus Sash*.
+*水中フィールドの資料* と *けいけんアメXL*、そして隠された *スーパーボール* と *きあいのタスキ* を回収します。
 
-Head down and to the right, following the yellow arrow in the above. This is a pretty huge map and only one of multiple, but we'll explore it all in due time.
+上図の黄色い矢印に沿って、下そして右へ進みます。かなり広いマップで、しかもこれが複数あるうちの1枚にすぎませんが、順を追ってすべて探索します。
 
 !img("azurine_565_1.png")
 
 !battle(["Tsuki", :SWIMMERGRIL, 0], "Water Surface")
 
-Fight the swimmer if you'd like. You'll see a narrow strip of sand, on which you can land on at the top. You can get a hidden *Shoal Shell* and *Ultra Ball* as well as a *Sun Stone* here. Dive down here to explore the Fairview Apartments area (2).
+必要ならスイマーと戦ってください。細長い砂地が見え、上部で上陸できます。隠された *あさせのかいがら* と *ハイパーボール*、そして *たいようのいし* が手に入ります。ここで潜るとフェアビュー集合住宅の区域 (2) を探索できます。
 
 !enc(558, nil, nil, "Azurine Lake Underwater")
 
 !img("azurine_547_1.png")
 
-My automated map screenshot tool hates seaweed tiles for some reason, so apologies for the blank tiles on the underwater maps.
+地図を自動生成する道具がなぜか海藻のタイルを嫌うので、水中マップの空白は大目に見てください。
 
-Hidden in this part of the large underwater area, you can find a *Shoal Shell*, *Awakening*, and *Purple Shard*. You'll notice that the buildings around here are numbered, and many of them are locked, but some are not. We won't be able to ever open some of them - I will note the locations of the ones we will so that they are easier to find later. Starting from the bottom, we will explore the open doors.
+この広い水中エリアのこの区画には、隠された *あさせのかいがら*、*ねむけざまし*、*むらさきのかけら* があります。ここの建物には番号が振られていて、多くは施錠されていますが、そうでないものもあります。中には決して開けられないものもあります。開けられるものについては場所を記しておくので、後で探しやすくなるはずです。下から順に、開いている扉を見ていきます。
 
-On the right side you can enter a house (marked 3) containing a *Relic Silver* as well as a hidden *Salt-Water Taffy* and the *F14 Key*. To the left and slightly up you'll find another unlocked building (4) containing 5 *Exp. Candy XL* as well as a hidden *Blue Shard*.
+右側では、*こだいのぎんか* と隠された *ソルトタフィー*、*F14のカギ* が入った家 (3) に入れます。左へ、そしてやや上には、*けいけんアメXL* 5個と隠された *あおいかけら* が入った別の建物 (4) があります。
 
 !img("azurine_553_1.png")
 
-Up from here, you can find hidden *Blue Shard*, *Ultra Potion*, and *Poke Ball*. On the left is Fairview 14, which we now have the key to! Inside, you can get a *Relic Gold* as well as the hidden *S9 Key*. Up from here you'll find an open house (5) containing a *Relic Copper* and the *F34 Key* hidden.
+ここから上では、隠された *あおいかけら*、*すごいキズぐすり*、*モンスターボール* が手に入ります。左手はフェアビュー14で、カギが手に入りました。中では *こだいのきんか* と、隠された *S9のカギ* が手に入ります。そこから上には、*こだいのどうか* と隠された *F34のカギ* がある開いた家 (5) があります。
 
 !img("azurine_567_2.png")
 
-Surface somewhere in the upper part of the underwater map. You can find a hidden *Paralyze Heal* and 2 *Shoal Shells*.
+水中マップの上寄りのどこかで浮上します。隠された *まひなおし* と *あさせのかいがら* 2個が手に入ります。
 
-Make your way to the very bottom of the underwater area and use your new key on Fairview 34. Inside you can get a *Relic Copper* as well as a hidden *Water Gem* and the *F1 Key*. Make your way all the way to the top of the underwater area now and use the key to get a *Blue Flute*.
+水中エリアの最下部まで進み、新しいカギをフェアビュー34に使います。中では *こだいのどうか* と、隠された *みずのジュエル*、*F1のカギ* が手に入ります。今度は水中エリアの最上部まで進み、カギを使うと *あおいビードロ* が手に入ります。
 
-That wraps up this section of the lake for now. Fly over to Coral Ward and surf west.
+湖のこの区画は当面これで終わりです。コーラル区へ飛び、西へなみのりしてください。
 
 !img("azurine_536_1.png")
 
-Once you see sand, you can get a hidden *Purple Shard* and *Hyper Potion* as well as a *Fist Plate*.
+砂地が見えたら、隠された *むらさきのかけら* と *すごいキズぐすり*、そして *こぶしのプレート* が手に入ります。
 
 !battle(["Xerciel", :SWIMMERGRIL, 0], "Water Surface")
 
-You'll also be able to battle the third guy who looks like Corin Rouge here!
+ここでは、コリン・ルージュに似た3人目とも戦えます。
 
 !battle(["Crimson", :Casanova, 0], "Ashen Beach")
 
-From here, go southwest, but not too far. You'll notice a 2-by-2 dive spot between some rocks (6). Dive down here to access the Faeward Apartment area. You can get a hidden *Green Shard* and *Big Pearl* down here.
+ここから南西へ、ただし行き過ぎないように進みます。岩の間に2×2のダイビングスポット (6) があるのが分かります。ここで潜るとフェイワード集合住宅の区域に入れます。ここでは隠された *みどりのかけら* と *おおきなしんじゅ* が手に入ります。
 
 !img("azurine_556_1.png")
 
-Inside the top house (7) you can get a *Relic Vase*, 2 *Exp. Candy XL*, and the *Primarium-Z*. Hidden here also are a *Purple Shard* and an *Ultra Potion*. Returning to the surface in the main part of the underwater section will lead you to a hidden *Weakness Policy* on the island (8).
+上の家 (7) の中では *こだいのツボ*、*けいけんアメXL* 2個、*アシレーヌZ* が手に入ります。ここには *むらさきのかけら* と *すごいキズぐすり* も隠されています。水中区画の本体で浮上すると、島 (8) の隠された *じゃくてんほけん* にたどり着けます。
 
-Return to the spot with the swimmer, then make your way west towards Apophyll (to the south is Azurine Island, which I'll cover later on).
+スイマーがいた場所へ戻り、そこから西のアポフィル方面へ向かいます（南はアズリン島で、後ほど扱います）。
 
 !img("azurine_567_3.png")
 
-Hopefully the layout of the Azurine Lake is starting to make a bit more sense - Peridot Ward is the northern edge, Apophyll Beach is in the southwest, Azurine Island is on the south side, and Coral Ward is the southeast edge.
+そろそろアズリン湖の地形が見えてきた頃でしょう。ペリドット区が北端、アポフィルビーチが南西、アズリン島が南側、コーラル区が南東端です。
 
-Once you hit a wall, a little bit down you'll see another strip of sand (9) that you can land on. Grab the hidden *Carbos* here and surf down and left. Before diving down, go to the left onto another sandy island (10) to get a hidden *X Speed* and *Elixir*. At the top left corner is another 2-by-2 dive spot, so go down here to get a hidden *Super Repel* and *TM16 Light Screen*.
+壁に突き当たったら、少し下にもう1つ上陸できる砂地 (9) が見えます。ここで隠された *インドメタシン* を拾い、下そして左へなみのりします。潜る前に、左のもう1つの砂の島 (10) へ向かうと、隠された *スピーダー* と *ピーピーエイダー* が手に入ります。左上の隅にはもう1つ2×2のダイビングスポットがあるので、ここで潜ると隠された *シルバースプレー* と *わざマシン16 ひかりのかべ* が手に入ります。
 
-Now, return to the larger dive spot we previously skipped to reach the Sunrise Apartments area. Hidden on the underwater map you'll find a *Green Shard*, *Blue Shard*, *Big Pearl*, and *Purple Shard*.
+では、先ほど飛ばした大きなダイビングスポットへ戻り、サンライズ集合住宅の区域へ向かいます。水中マップには *みどりのかけら*、*あおいかけら*、*おおきなしんじゅ*、*むらさきのかけら* が隠されています。
 
 !img("azurine_553_2.png")
 
-The building in the bottom right side (11) is unlocked, and you'll find a *Relic Copper* as well as a hidden *Green Shard* and the *S12 Key*. There is another unlocked house at the top (12) containing a *Relic Silver*, and a hidden *Paralyze Heal* and the *K33 Key*.
+右下側の建物 (11) は施錠されておらず、*こだいのどうか* と隠された *みどりのかけら*、*S12のカギ* が手に入ります。上部にも開いた家 (12) があり、*こだいのぎんか* と、隠された *まひなおし*、*K33のカギ* が入っています。
 
-Surface towards the top of the underwater area and go up and left to reach an island. Grab the *Water Stone* and hidden *Shoal Shell* it contains then surf up and to the right. You can get a hidden *Red Card* in the bottom right corner. Dive down here.
+水中エリアの上寄りで浮上し、上そして左へ進むと島に着きます。そこにある *みずのいし* と隠された *あさせのかいがら* を回収したら、上そして右へなみのりします。右下の隅では隠された *レッドカード* が手に入ります。ここで潜ってください。
 
-On this map you can get a hidden *Green Shard*, *X Speed*, and *Red Shard*. We can unlock the S12 house all the way to the right to get a *Relic Copper* as well as a hidden *Green Shard* and the *S4 Key*. A nearby building (13) is unlocked and contains a *Heart Scale* and hidden *Ice Heal*. Unlock the S9 building to the left to get the *Glalitite* and a hidden *Purple Shard*. You can unlock S4 in the bottom left to get *TM98 Power-Up-Punch* and a hidden *Escape Rope*.
+このマップでは隠された *みどりのかけら*、*スピーダー*、*あかいかけら* が手に入ります。右端のS12の家を開けると *こだいのどうか* と、隠された *みどりのかけら*、*S4のカギ* が手に入ります。近くの建物 (13) は開いていて、*ハートのウロコ* と隠された *こおりなおし* があります。左のS9の建物を開けると *オニゴーリナイト* と隠された *むらさきのかけら* が手に入ります。左下のS4を開けると *わざマシン98 グロウパンチ* と隠された *あなぬけのヒモ* が手に入ります。
 
-That's it for the Sunrise apartments. Fly to the Peridot Ward. East of the shelter (former site of PULSE Muk), you'll be able to surf south.
+サンライズ集合住宅はこれで終わりです。ペリドット区へ飛びます。避難所（かつての PULSE ベトベトンの跡地）の東から、南へなみのりできます。
 
 !img("azurine_522_1.png")
 
@@ -501,93 +501,93 @@ That's it for the Sunrise apartments. Fly to the Peridot Ward. East of the shelt
 
 !battle(["Leigh", :SWIMMERGRIL, 0], "Water Surface")
 
-Battle the trainers as you proceed down and right. Once you encounter a fork in Lower Peridot, go to the left all the way towards Apophyll Cave.
+下そして右へ進みながらトレーナーと戦います。下ペリドットで分岐に出たら、左へずっと進んでアポフィルどうくつへ向かってください。
 
 !img("azurine_538_1.png")
 
 !battle(["Wilson", :SWIMMERBOI, 0], "Water Surface")
 
-You'll be spit out right next to Apophyll Cave. Notice that there is a small path (14) you can surf through to go up from here, so take it.
+アポフィルどうくつのすぐ隣に出ます。そこから上へなみのりで抜けられる細い道 (14) があるので、通ってください。
 
 !img("azurine_522_2.png")
 
-At the very top you can get a *King's Rock*. Head down, following the right wall of rocks until you are able to pass through an opening (15). Surf to the various islands around the outside here to find a hidden *Sky Plate* and *Ether*. 
+最上部では *おうじゃのしるし* が手に入ります。下へ進み、右の岩壁沿いに進んで、通り抜けられる開口部 (15) まで行きます。外周の島々をなみのりで巡ると、隠された *あおぞらプレート* と *ピーピーエイド* が手に入ります。
 
-Head down (past the dotted green line). You can also get a hidden *Red Shard* and *X Sp. Atk* on the large central island.
+そこから下へ（緑の点線を越えて）進みます。中央の大きな島では隠された *あかいかけら* と *スペシャルアップ* も手に入ります。
 
 !battle(["Nhadala", :RANGERF, 0], "Water Surface")
 
-Dive down here into the Kingsbury Apartments area, and go all the way up.
+ここで潜ってキングスベリー集合住宅の区域へ入り、最上部まで進みます。
 
 !img("azurine_574_1.png")
 
-In the top left corner, a building is unlocked (16) and contains a *Glitter Ball*, which is a custom ball that either has a high catch rate on shiny Pokemon or has a normal catch rate but *turns the Pokemon it catches shiny*. Very cool. Head down from here onto technically a new map.
+左上の隅の建物が開いていて (16)、*グリッターボール* が手に入ります。これは独自のボールで、色違いに対して高い捕獲率を持つか、通常の捕獲率のかわりに*捕まえたポケモンを色違いに変える*かのどちらかです。実に洒落ています。ここから下へ進むと、厳密には新しいマップに入ります。
 
 !img("azurine_558_1.png")
 
-On this map, you'll find a hidden *Ultra Ball*, *Ether*, *Awakening*, and *Poke Ball*.
+このマップでは隠された *ハイパーボール*、*ピーピーエイド*、*ねむけざまし*、*モンスターボール* が手に入ります。
 
-In the top right corner, enter an unlocked building (17) to get the *Splash Plate* as well as hidden *Salt-Water Taffy* and a *Blue Shard*. Down and right from here you'll reach a large unlocked building (18) containing a *Relic Silver* as well as hidden *Red-Hots*, *PokeSnax*, and the *K22 Key*. We can unlock the K33 building to the left from here to get a *Relic Copper* as well as a hidden *Purple Shard* and *Common Candy*. In this building you can also talk to the upper left cabinet and use an antidote to get a **Mudkip**!
+右上の隅の開いた建物 (17) に入ると *しずくプレート* と、隠された *ソルトタフィー*、*あおいかけら* が手に入ります。そこから下そして右へ進むと、大きな開いた建物 (18) があり、*こだいのぎんか* と隠された *シナモンキャンディ*、*ポケスナック*、*K22のカギ* が入っています。そこから左のK33の建物を開けると *こだいのどうか* と、隠された *むらさきのかけら*、*ふつうのアメ* が手に入ります。この建物では左上の戸棚に話しかけ、*どくけし* を使うと **ミズゴロウ** も手に入ります。
 
-Enter the building to the left (19) to get a hidden *Blue Shard*, *Purple Shard* and the *K5 Key*. Left and up from here you can enter the K22 building to get a *Relic Copper* as well as a hidden *Blue Shard* and the *K2 Key*. Head all the way up in the underwater section and enter K2 to get the hidden *F10 Key*. Around to the right you can enter K5 and get a *Max Revive*. Nice.
+左の建物 (19) に入ると、隠された *あおいかけら*、*むらさきのかけら*、*K5のカギ* が手に入ります。そこから左そして上のK22の建物に入ると *こだいのどうか* と、隠された *あおいかけら*、*K2のカギ* が手に入ります。水中区画を最上部まで進んでK2に入ると、隠された *F10のカギ* が手に入ります。右へ回り込んでK5に入ると *げんきのかたまり* が手に入ります。ありがたい。
 
-Make your way all the way to the bottom left corner of the large underwater area. Enter the unlocked house at the bottom (20) to get a *Relic Copper*. Hidden here is a *Purple Shard* and the *Diamond Ring*, an item we will use for a sidequest in a few subsections. Back outside, surface in this corner of the underwater map. On the left you'll notice a 2-by-2 dive spot (21) that will lead you to the *Altarianite*.
+広い水中エリアの左下の隅までずっと進みます。下部の開いた家 (20) に入ると *こだいのどうか* が手に入ります。ここには *むらさきのかけら* と *ダイヤのゆびわ* が隠されており、後者は数節先のサイドクエストで使います。外に戻り、水中マップのこの隅で浮上します。左手に2×2のダイビングスポット (21) があり、その先で *チルタリスナイト* が手に入ります。
 
-Next, in the middle of the main underwater section, on the left side of the loop you'll notice a bright 2-by-2 spot (22). Surface here specifically and surf around to the other side, grabbing the hidden *Level Ball*. Enter this cave.
+次に、水中区画の本体の中央、環状の左側に明るい2×2の地点 (22) があります。ここでちょうど浮上し、なみのりで反対側へ回り込みながら、隠された *レベルボール* を拾ってください。この洞窟に入ります。
 
 !enc(605, nil, nil, "Azurine Cave North")
 
-Past a hidden *Genius Wing* you'll see a Pyukumuku atop a hill, who we can battle.
+隠された *ちりょくのハネ* の先で、丘の上に **ナマコブシ** がいて戦えます。
 
 !battle(["of the Pyukumuku", :PYUKMUK, 0], "Cave Field")
 
-An annoying set that might ruin your team if you're unprepared! Taunt and Toxic completely shut it down, however. You can also take the cave ceiling down!
+準備不足だと編成を壊されかねない厄介な型です。ただし *ちょうはつ* と *どくどく* で完全に沈黙させられます。洞窟の天井を落とす手もあります。
 
-Beyond, you'll get *TM59 Brutal Swing*. Head up the waterfall. You can get an *Exp. Candy XL* up here as well as a hidden *Hyper Potion*. Atop another waterfall is a hidden *Icicle Plate*. You'll notice that we can't access the other room thanks to a strong current - we'll need to transform the Water Surface into the Icy Field! You can use Blizzard yourself or surf until you find a wild Sealeo and hope that it uses it.
+その先で *わざマシン59 ぶんまわす* が手に入ります。滝を登ってください。ここでは *けいけんアメXL* と隠された *すごいキズぐすり* が手に入ります。別の滝の上には隠された *つららのプレート* があります。強い流れのせいでもう一方の部屋に入れないことに気づくはずです。*水面* を *氷のフィールド* に変える必要があります。自分で *ふぶき* を使うか、野生の **トドグラー** が出るまでなみのりして使ってくれるのを待ちましょう。
 
-Enter the cave once it freezes over and you can get the *Aloraichium-Z* as well as the *Audinite*. You can also get a hidden *Exp. Candy L* and *Level Ball*. Exit this cave.
+凍ったら洞窟に入れます。*アロライZ* と *タブンネナイト* が手に入ります。隠された *けいけんアメL* と *レベルボール* も手に入ります。この洞窟を出ましょう。
 
-There is one more thing we can do in these apartment areas: we have one key remaining. Fly back to the Apophyll Academy and make your way east onto the sand strip to re-enter the Fairview Apartments area. Towards the top on the right side underwater you'll find the F10 building which contains the *Beedrillite*!
+集合住宅の区域でできることがもう1つあります。カギが1本残っています。アポフィルアカデミーへ飛び戻り、東の砂地へ進んでフェアビュー集合住宅の区域に入り直してください。水中の右側、上寄りにF10の建物があり、中で *スピアナイト* が手に入ります。
 
-## Neo Azurine Island
+## ネオアズリン島 {#neo-azurine-island}
 
-To finish off our exploration of the Azurine Lake, we will next check out Azurine Island. Surf west from Coral Ward and go down when you're able to to reach Azurine Island once more.
+アズリン湖の探索を締めくくるため、次はアズリン島を見ていきます。コーラル区から西へなみのりし、行けるところで下へ進むと、再びアズリン島に着きます。
 
 !enc(569, ["Grass", "Headbutt"])
 
-Note that there are many Foongus and Amoonguss disguised as items, but fighting them now can save you some time for a later sidequest.
+アイテムに化けた **タマゲタケ** と **モロバレル** が多数いますが、今のうちに倒しておくと後のサイドクエストで時間を節約できます。
 
-Just for fun, I will change it up and do a counter-clockwise spiral inwards this time to get all the items.
+趣向を変えて、今回は反時計回りに内側へ螺旋を描きながら、アイテムをすべて回収します。
 
-Snag a *Tiny Mushroom* and hidden *Clever Wing* on the first island. Surfing to the left you can get a hidden *Big Mushroom*. Surf down from here and pick up the *Tiny Mushroom* towards the bottom left side of the area. Another *Tiny Mushroom* is to the right, and yet another *Tiny Mushroom* past the building to the right. You'll also find a hidden *X Sp. Def* here. Continuing our trip around the outside, you'll find a hidden *Elemental Seed* in a shrub. Above you can get a hidden *Blue Shard*. Towards the top of the loop, you can get a *Tiny Mushroom* and a hidden *Telluric Seed*.
+最初の島で *ちいさなキノコ* と隠された *せいしんのハネ* を回収します。左へなみのりすると隠された *おおきなキノコ* が手に入ります。そこから下へなみのりし、エリア左下寄りの *ちいさなキノコ* を拾ってください。右にもう1つ *ちいさなキノコ* が、さらに右の建物の先にもう1つ *ちいさなキノコ* があります。ここでは隠された *スペシャルガード* も手に入ります。外周を巡り続けると、茂みの中に隠された *エレメンタルシード* が見つかります。その上では隠された *あおいかけら* が手に入ります。環の上部では *ちいさなキノコ* と隠された *テルリックシード* が手に入ります。
 
-Now, head down to the middle island and cut the tree. Follow the path right, defeat the Foongus, and jump down the ledge. To the right you'll find a hidden *Resist Wing*. Head right more from here and surf down, defeating Foongus as you go. Head left from here. Pick up a *Tiny Mushroom* as well as a hidden *Tiny Mushroom* to the left in a rock. Left from here is a hidden *Repel*. That does it for this island, for now.
+では、中央の島へ下りて木を切ります。道を右へたどり、タマゲタケを倒して段差を飛び降りてください。右手には隠された *ていこうのハネ* があります。そこからさらに右へ進んで下へなみのりし、道中のタマゲタケを倒します。そこから左へ。*ちいさなキノコ* と、左手の岩に隠された *ちいさなキノコ* を回収します。そこから左には隠された *むしよけスプレー* があります。この島は当面これで終わりです。
 
-## Trading Sequence Quest
+## 交換の連鎖クエスト {#trading-sequence-quest}
 
-Now, it's time to do something with the Diamond Ring we found underwater. Fly over to Jasper Ward and enter the top left building. Inside, give the girl here the ring we found to get the *Classified Information*.
+さて、水中で見つけた *ダイヤのゆびわ* を活かすときです。ジャスパー区へ飛び、左上の建物に入ってください。中の少女に見つけた指輪を渡すと *きみつぶんしょ* が手に入ります。
 
-Next, head over to Peridot Ward and enter the building to the left of the North Peridot Alley.
+次に、ペリドット区へ向かい、北ペリドット路地の左隣の建物に入ります。
 
 !battle(["Seer", :PoliceOfficer, 0])
 
-Defeat the cop inside and after a conversation you'll get the *Pink Pearl*. Grab the *Mind Plate* behind.
+中の警官を倒すと、会話のあとに *ピンクのしんじゅ* がもらえます。奥の *ふしぎのプレート* も回収してください。
 
-Fly over to Coral Ward and enter the northern warehouse. Talk to the girl with Spoink to get the *Crystal Ball*.
+コーラル区へ飛び、北の倉庫に入ります。**バネブー** を連れた少女に話しかけると *すいしょうだま* が手に入ります。
 
-Fly over to Jasper once more and attempt to enter the building on the right side of the area.
+もう一度ジャスパーへ飛び、エリア右側の建物に入ろうとします。
 
 !dbattle(["Mattie", :AceTrainerM, 0], ["Maddie", :AceTrainerF, 0])
 
-Defeat the two trainers who challenge you, then enter the building. In the room at the top you can get a *Yellow Flute* and the *Starlight Arena Field Readout*. Head upstairs and talk to the lady to get the *'R' Key*! You can also talk to her again for some lore.
+挑んでくる2人のトレーナーを倒したら、建物に入ります。上の部屋では *きいろビードロ* と *星空アリーナの資料* が手に入ります。階段を上がって女性に話しかけると *「R」のカギ* がもらえます。もう一度話しかけると設定の話も聞けます。
 
-Head into the Blacksteam Shelter in Peridot Ward. In the room where we were once stuck in a cage, talk to Randall and return his key. In return, you'll get his **Klefki**!
+ペリドット区のブラックスチーム避難所へ入ります。かつて檻に閉じ込められていた部屋でランドールに話しかけ、カギを返してください。お礼に彼の **クレッフィ** がもらえます。
 
-You'll notice that our new Pokemon is actually holding the *Sanctum Key*. Head back down to Seventh Street with this key in your bag, and return to the subseven sanctum. In the mazelike room, enter the door on the left side with the key. Pick up the *Dark Material* and 3 *Exp. Candy XL*. Read the green books for some lore and note the colors of the Arceus statues on the left for later, then head out. That's it for this questline right now!
+新しく仲間になったポケモンが *せいいきのカギ* を持っていることに気づくはずです。このカギをバッグに入れたまま7番街へ戻り、サブセブン聖域を再訪します。迷路のような部屋で、左側の扉をカギで開けてください。*ダークマテリアル* と *けいけんアメXL* 3個を回収します。緑の本を読むと設定が読め、左のアルセウス像の色は後で使うので覚えておきましょう。済んだら外へ出ます。このクエストは今のところここまでです。
 
-## Agate Circus Fishing
+## アゲートサーカスの釣り {#agate-circus-fishing}
 
-With the Super Rod in our bag, there are some new Pokemon we can get in the circus-and-beyond area. Fly back to the Agate Circus. You can get a *Circus Application* towards the top of the area while you're here. For completeness here are all of the encounters:
+*すごいつりざお* が手に入ったので、サーカスとその先のエリアで新しく捕まえられるポケモンがいます。アゲートサーカスへ飛び戻ってください。ついでにエリア上部で *サーカスのもうしこみしょ* も手に入ります。網羅のため、出現データをすべて挙げておきます。
 
 !enc(359, ["Fishing"], ["Super"])
 
@@ -605,86 +605,86 @@ With the Super Rod in our bag, there are some new Pokemon we can get in the circ
 
 !enc(467, ["Fishing"], ["Super"])
 
-## Beldum Quest
+## ダンバル入手クエスト {#beldum-quest}
 
-Time for a weird one.
+ここからは少々変わった話です。
 
-Fly over to the Byxbysion Wasteland. Inside the hideout, drop all but 1 Pokemon in the PC - we are going to intentionally white out in a second, so this will save us a lot of time. If they have Memento or Explosion that's extra good, but make sure they are strong enough to also defeat a Level 47 Bouffalant.
+ビクスビジョン荒地へ飛びます。アジトの中で、ポケモンを1匹だけ残してあとはパソコンに預けてください。このあとわざと全滅するので、これで大幅に時間を短縮できます。*おきみやげ* や *だいばくはつ* を覚えていればなお良いのですが、レベル47の **バッフロン** を倒せる強さは確保しておいてください。
 
-Talk to the malfunctioning healing machine and plug in a data chip to fix it. Heal at this machine.
+故障した回復マシンに話しかけ、*データチップ* を差し込んで直します。このマシンで回復してください。
 
-Fly over to Route 1 Nature Center and defeat a Bouffalant to climb a Tauros. Next, you'll need to white out while riding Tauros.
+1番道路のネイチャーセンターへ飛び、バッフロンを倒してケンタロスに乗ります。次に、ケンタロスに乗ったまま全滅する必要があります。
 
-Once you reappear in Lana's house... you'll somehow still be on your Tauros, but I assure you this is not a bug but a feature.
+ラナの家で目を覚ますと……なぜかケンタロスに乗ったままです。これはバグではなく仕様なので安心してください。
 
-Exit the building and go down. Hop down the ledge beyond the rock smash, and climb up the nearby ledge. Enter the cave and go into the secret path behind the left canister. Follow this path to the left and climb the ledge and push the boulder to reach the area where we once found Squirtle.
+建物を出て下へ進みます。いわくだきの先の段差を飛び降り、近くの段差を登ってください。洞窟に入り、左のタンクの裏にある隠し通路へ進みます。この道を左へたどって段差を登り、岩を押すと、かつてゼニガメを見つけたエリアに着きます。
 
-From here, climb the ledges up and to the right to reach the previously unreachable cave entrance. Climb the ladder and go up the ledge. Grab the *Big Nugget*, save, and talk to the broken canister at the top for a battle with a Lv. 1 **Beldum**. You'll have to be careful to not let it knock itself out with Take Down. Its low catch rate will also complicate things, so reset if you need to.
+そこから段差を上そして右へ登っていくと、これまで届かなかった洞窟の入口に着きます。はしごを登って段差を上がってください。*でかいきんのたま* を回収してセーブし、上部の壊れたタンクに話しかけるとレベル1の **ダンバル** とのバトルになります。*とっしん* の反動で自滅させないよう注意が必要です。捕獲率も低くて厄介なので、必要ならリセットしましょう。
 
-Once you're done, head outside and ditch Tauros. Thanks, Tauros!
+済んだら外へ出てケンタロスを降ります。ありがとう、ケンタロス!
 
-## Mega Z-Ring Quest
+## メガZリングクエスト {#mega-z-ring-quest}
 
-There's one more major quest that we can take care of! If we skip this section and proceed with the story, this will actually be locked of for us for another two badges or so, so take care of this now if you don't wanna miss this excellent reward.
+もう1つ、大きなクエストを片付けられます。この節を飛ばして物語を進めると、あと2バッジほどの間ずっと解放されなくなってしまうので、この素晴らしい報酬を逃したくないなら今のうちに済ませてください。
 
-Head over to the Nightclub in North Obsidia. You'll see DJ Arclight inside if you've bought all of the Pokemon from the Seventh Street Pokemon seller. If not, now's a good time to get them all. Anyways, we'll be tasked with returning five of the Pokemon that we found then.
+北オブシディアのナイトクラブへ向かいます。7番街のポケモン売りからポケモンをすべて買っていれば、中にDJアークライトがいます。まだなら今がすべて揃える好機です。ともあれ、当時見つけたポケモンのうち5匹を返す仕事を任されます。
 
-Head to Jasper Ward and take the Loudred out of the PC. Talk to a girl in the bottom left building two times and she will take back her Loudred.
+ジャスパー区へ向かい、ドゴームをパソコンから引き出します。左下の建物の少女に2回話しかけると、ドゴームを引き取ってくれます。
 
-Next, take Jigglypuff out of the PC and head over to the North Peridot Alley. Talk to the bottom guy a few times.
+次にプリンをパソコンから引き出し、北ペリドット路地へ向かいます。下にいる男に数回話しかけてください。
 
 !battle(["Santiago", :CUEBALL, 0])
 
-After defeating him, return to the Jasper Ward and give the Jigglypuff to the Loudred girl.
+倒したら、ジャスパー区へ戻ってドゴームの少女にプリンを渡します。
 
-Fly over to the Apophyll Academy and get Makuhita out of the PC next. Talk to the girl in the middle of the rooms on the left side of the outside area. Fly back to North Obsidia and talk to Arc to get the *DJ Arc Autograph* and give it to the girl at Apophyll. Talk to her again to give her Makuhita, then once more after that.
+アポフィルアカデミーへ飛び、次はマクノシタをパソコンから引き出します。外エリア左側の部屋の中央にいる少女に話しかけてください。北オブシディアへ飛び戻ってアークに話しかけると *DJアークのサイン* がもらえるので、アポフィルの少女に渡します。もう一度話しかけてマクノシタを渡し、さらにもう一度話しかけてください。
 
-Fly over to Spinel Town next and grab Roggenrola from the PC. Two buildings from the left of the museum, you'll find a guy who you can give Roggenrola back to. Talk to him again to get the *McKrezzy Autograph*. Return to the PC and prep your full team for battle, then talk to McKrezzy for a fight.
+次にスピネルタウンへ飛び、パソコンからダンゴロを引き出します。博物館から左に2つ目の建物に、ダンゴロを返せる男がいます。もう一度話しかけると *マクレジーのサイン* がもらえます。パソコンへ戻ってバトル用にフルパーティを整えたら、マクレジーに話しかけてバトルです。
 
 !battle(["McKrezzy", :MCKREZZY, 0])
 
-He has a strong team but with no field, it shouldn't be too much to devise a strategy to defeat him. Note that his Staraptor can use a Z-Crystal.
+強力な編成ですが、フィールドがないぶん、倒す戦略を組み立てるのはさほど難しくないはずです。ムクホークがZクリスタルを使ってくる点には注意してください。
 
-For winning, you'll get *TM15 Hyper Beam*.
+勝つと *わざマシン15 はかいこうせん* がもらえます。
 
-Fly back to Apophyll and give Makuhita girl the autograph to get the *Headphones*, then go to Jasper Ward once more and give them to the Loudred girl.
+アポフィルへ飛び戻ってマクノシタの少女にサインを渡すと *ヘッドホン* が手に入るので、もう一度ジャスパー区へ行ってドゴームの少女に渡します。
 
-Fly to Lapis Ward and enter the house to the left of the Pokemart. You'll learn that the lady's son has been kidnapped! Head back to the North Peridot Alley and talk to the Jigglypuff guy once more.
+ラピス区へ飛び、フレンドリィショップの左隣の家に入ります。この女性の息子が誘拐されたと分かります。北ペリドット路地へ戻り、プリンの男にもう一度話しかけてください。
 
-Fly over to Onyx Ward, prepare your team and save, then head to the rooftop.
+オニキス区へ飛び、編成を整えてセーブしたら、屋上へ向かいます。
 
 !dbattle(["Colin", :CUEBALL, 0], ["Matthew", :CUEBALL, 0])
 
-This battle isn't particularly tough and a few fast sweepers can probably bowl through them. The problem is that you don't get to heal before the next fight, so try to limit your casualties as much as possible for this fight.
+このバトル自体は特に厳しくはなく、素早いエースが数匹いれば押し切れるでしょう。問題は次の戦いの前に回復できないことなので、この戦いでの損害はできるだけ抑えてください。
 
 !battle(["Eustace", :MASTERMIND, 0])
 
-His Pokemon are pretty much all of the fast sweeper variety, meaning Trick Room or Tailwind support for a strong attacker may be the key here. Watch out for Bullet Punch on Scizor.
+手持ちはほぼ全員が素早いアタッカーなので、*トリックルーム* や *おいかぜ* で強力なアタッカーを支えるのが鍵になりそうです。ハッサムの *バレットパンチ* には注意してください。
 
-Once you win this gauntlet, fly back to Lapis Ward and put Vanillite into your party. Give it back to Eustace upstairs.
+この連戦に勝ったら、ラピス区へ飛び戻ってバニプッチを手持ちに入れます。上階のユースタスに返してください。
 
-With all five Pokemon returned, return to DJ Arclight. Your prize will be the *Mega-Z Ring* - meaning we can now use the collection of Z-Crystals and Mega Stones that we've been building up. We will be getting more of these as well.
+5匹すべてを返したら、DJアークライトのもとへ戻ります。褒美は *メガZリング* です。つまり、これまで集めてきたZクリスタルとメガストーンをついに使えるようになります。今後さらに増えていきます。
 
-**Relationship Point Choices**:
-- Complete the Mega-Z Ring Quest (+2 Arclight)
+**好感度の選択肢**:
+- メガZリングクエストを完了する (+2 アークライト)
 
-## Devon Corporation
+## デボンコーポ {#devon-corporation}
 
-With all of that content out of the way, we can finally proceed with the story! Return to the Grand Hall and talk to Ame. She'll task us with finding Arc, Victoria, and Adrienn.
+これだけの寄り道を片付ければ、ようやく物語を進められます。大ホールへ戻ってアメに話しかけてください。アーク、ヴィクトリア、アドリエンヌを探すよう頼まれます。
 
-Arc can be found outside his nightclub, Victoria in the Beryl Cemetery, and Adrienn outside their gym in Coral. Talk to Ame again once you've gathered them.
+アークはナイトクラブの外、ヴィクトリアはベリル墓地、アドリエンヌはコーラルのジムの外にいます。全員を集めたら、もう一度アメに話しかけてください。
 
-Enter the Underground Railnet and make your way to the room with the tracks that can be manipulated, then go into the second from the top path that leads to the room containing Aron - you'll know you're on the right track when you see an Absol.
+地下鉄道網に入り、線路を操作できる部屋まで進んだら、ココドラのいる部屋へ通じる上から2番目の道へ入ります。アブソルが見えたら道は合っています。
 
-**Relationship Point Choices**:
-- Tell Arclight you're ready to infiltrate Devon (+1 Victoria)
-- Tell Arclight you're not ready to infiltrate Devon (-1 Victoria, -1 Arclight)
+**好感度の選択肢**:
+- デボンへ潜入する準備ができたとアークライトに伝える (+1 ヴィクトリア)
+- デボンへ潜入する準備ができていないとアークライトに伝える (-1 ヴィクトリア, -1 アークライト)
 
-Talk to Arc and Victoria when you're ready, then go up the stairs and defeat the grunts! Note that your battle partner is decided by how many points with each character you have right now: you'll get Victoria if her score is at least two points higher than Arclights, and him otherwise.
+準備ができたらアークとヴィクトリアに話しかけ、階段を上がって団員を倒してください。なお、どちらが相棒になるかは現時点の好感度で決まります。ヴィクトリアの値がアークライトより2ポイント以上高ければヴィクトリア、そうでなければアークライトです。
 
-**Relationship Point Choices**:
-- Battle with Victoria in the Devon Basement (+1 Victoria)
-- Battle with Arclight in the Devon Basement (+1 Arclight)
+**好感度の選択肢**:
+- デボン地下でヴィクトリアと組んで戦う (+1 ヴィクトリア)
+- デボン地下でアークライトと組んで戦う (+1 アークライト)
 
 !partner(["Victoria", :Victoria2, 0])
 
@@ -692,9 +692,9 @@ Talk to Arc and Victoria when you're ready, then go up the stairs and defeat the
 
 !dbattle(["Allyssa", :NWOrderlyF, 0], ["Bishop", :NWOrderly, 0], "Factory Field")
 
-We can't get the Mega Stone in the corner quite yet. Up the stairs, head out the door into the main area and talk to the shining spot to get a *Radio Transceiver*.
+隅にあるメガストーンはまだ取れません。階段を上がり、扉から主要エリアへ出て、光っている場所に話しかけると *むせんき* が手に入ります。
 
-Up the stairs, you'll see an electric floor mat. If the tile is lit it is safe to walk on, otherwise, your non Ground type Pokemon will take some damage when you step on it. You can use the A key to cycle between 3 sets of lit tiles. That's all you really need to know to scale this building. Note that it is always possible to clear each floor without taking damage.
+階段を上がると、電気の床マットが見えます。タイルが点灯していれば安全に歩けますが、そうでなければじめんタイプ以外のポケモンが踏んだときにダメージを受けます。Aキーで点灯パターンを3種類切り替えられます。この建物を登るのに必要な知識はそれだけです。各フロアは必ず無傷で突破できるようになっています。
 
 !dbattle(["Howaya", :NWOrderly, 0], ["Callie", :NWOrderlyF, 0], "Factory Field")
 
@@ -704,121 +704,121 @@ Up the stairs, you'll see an electric floor mat. If the tile is lit it is safe t
 
 !battle(["David", :NWOrderly, 0], "Factory Field")
 
-Scale the building until you find yourself in a strange new place.
+奇妙な新天地に出るまで建物を登り続けます。
 
-Heal and prepare your team as necessary, then proceed to the right.
+必要に応じて回復と編成の準備をしたら、右へ進みます。
 
 !battle(["Victoria", :Victoria2, 1], "Factory Field")
 
-Time for another fight with Victoria, the first in a while. You'll notice that she has a full and varied team this time, with lots of faster Pokemon but also a few bulkier options in the back. Hopefully you're well acquainted with the Factory Field by this point, so you can exploit that to win if you're stuck. Overwhelm her with a coherent singles strategy like Amplifield Rock + Trick Room or a set-up sweeper with speed support.
+久しぶりに、ヴィクトリアとの再戦です。今回は多彩な6匹をそろえており、素早いポケモンが多い一方で、後衛には耐久型も控えています。この時点で工場フィールドには十分慣れているはずなので、行き詰まったらそれを活かして勝ちましょう。アンプリフィールドロック＋*トリックルーム* や、素早さ補助つきの積みエースなど、筋の通ったシングル戦略で押し切ってください。
 
-Once you win, proceed to the next room at the top. Our A-button transceiver will still work in this area, so keep that in mind before you step on floor tiles that push you into unlit tiles. In this part of the dungeon we'll need to activate wall panels to switch the direction of the floortiles.
+勝ったら、上の次の部屋へ進みます。このエリアでもAボタンの無線機は使えるので、点灯していないタイルへ押し出す床タイルを踏む前に思い出してください。ダンジョンのこの区画では、壁のパネルを起動して床タイルの向きを切り替える必要があります。
 
 !img("devon_001.png")
 
-Activate monitor #1, then go up and activate monitor #2 above. Use the purple pads to go back down and reactivate monitor #1, then go left. You'll be forced up here: activate monitor #3 then go towards the right.
+モニター#1を起動し、上へ進んで上のモニター#2を起動します。紫のパッドで下へ戻ってモニター#1を再起動したら、左へ進みます。ここでは上へ進むしかないので、モニター#3を起動して右へ向かいます。
 
-In the rectangular mazelike area, you can go up then right as soon as possible to heal at a Light Shard (yellow path), but you'll need to make your way all the way back to the mazelike area. To proceed, go right, up, up, then right and down to monitor #4. From here, simply go to the left until you're forced down, then left and up to the top left corner of the room.
+長方形の迷路エリアでは、できるだけ早く上そして右へ進めば *光のかけら* で回復できますが、迷路エリアまで戻ってくる必要があります。先へ進むには、右、上、上、そして右、下と進んでモニター#4へ向かいます。そこからは、進めなくなるまで左へ進み、左そして上へ向かって部屋の左上の隅を目指します。
 
-At the top left corner of the area you'll see some familiar four-direction spinners. Essentially you can just cram yourself in at the top entrance of the top left spinner over and over until you emerge at the top right. Just be sure to change the transceiver to the correct setting corresponding to where you will land.
+エリアの左上の隅には、おなじみの四方向回転盤があります。要は、左上の回転盤の上側の入口に何度も突っ込み続ければ、いずれ右上から出てきます。着地先に応じて無線機を正しい設定に切り替えるのだけは忘れないでください。
 
-You can turn off the electric tiles in the top right side of the area at monitor #5 and proceed to the next section.
+エリア右上のモニター#5で電気タイルを止め、次の区画へ進めます。
 
 !shop("Devon Dungeon Vending", ["Common Candy"])
 
-**Relationship Point Choices**:
-- Tell Arclight you will fight (+1 Victoria, +1 Arclight)
-- Tell Arclight you refuse (+2 Adrienn, -1 Victoria, -1 Arclight)
+**好感度の選択肢**:
+- 戦うとアークライトに伝える (+1 ヴィクトリア, +1 アークライト)
+- 断るとアークライトに伝える (+2 アドリエンヌ, -1 ヴィクトリア, -1 アークライト)
 
-Either way you have to fight.
+どちらにせよ戦うことになります。
 
 !battle(["Arclight", :ARCLIGHT, 0], "Factory Field")
 
-Time for our first fight with the DJ. This one has a bit more synergy with Factory Field out of the box thanks to four Electric type Pokemon, though he might change the field to Electric Terrain. Most of his Pokemon are fast and use mostly Special Moves - Luxray being the sole counterexample to the latter and Ampharos being the sole counterexample to the former. The common attacking types of Ground, Ice, and Fighting cover all of his weaknesses.
+DJとの初戦です。でんきタイプが4匹いるぶん、工場フィールドとの相性は素の状態でもやや良好ですが、*エレキフィールド* に張り替えてくる可能性もあります。手持ちの大半は素早く、技も特殊主体です。後者の唯一の例外がレントラー、前者の唯一の例外がデンリュウです。じめん・こおり・かくとうという定番の攻撃タイプで、彼の弱点はすべてカバーできます。
 
 !img("devon_002.png")
 
-Pro tip: there is a light shard later on in the next room, so you can ignore using the transponder for now and eat the electric damage.
+コツ: 次の部屋の先に光のかけらがあるので、今は無線機を使わず電気ダメージを受け入れてしまう手もあります。
 
-Start by taking the right path up to monitor #1 (path A). Backtrack down a bit and follow the path to the right. The spinner will take you down and right - do a loop by going up and back to the right (path B). Using this spinner to go down and right now, go right, right, left, and left to get the *PULSE Readout 1* (path C).
+まずは右の道を上ってモニター#1へ向かいます (経路A)。少し下へ戻って道を右へたどってください。回転盤で下そして右へ運ばれるので、上へ、そして右へ戻って一周します (経路B)。この回転盤で下そして右へ進んだら、右、右、左、左と動いて *パルスの資料1* を回収します (経路C)。
 
 !img("devon_003.png")
 
-You'll be forced to go down into the spinner again, so do the B-loop from before once more and then go down and right. Move right, right, up, and up to enter the upper spinner from the bottom, then go left and down to return to the central spinner (path D). Do another B-loop then go down towards the bottom-right spinner and make your way around it a few times so that you end up on its right side. Go up from here until you can go left, then cross the spinner to use monitor #2 (path E). Head left and down to reach the central spinner once more.
+また回転盤へ下ろされるので、先ほどのB周回をもう一度行い、下そして右へ進みます。右、右、上、上と動いて上の回転盤に下から入り、左そして下へ進んで中央の回転盤へ戻ります (経路D)。もう一度B周回をしたら、下へ進んで右下の回転盤へ向かい、何周かして右側に出るようにします。そこから上へ進み、左へ行けるようになったら回転盤を渡ってモニター#2を使ってください (経路E)。左そして下へ進むと、また中央の回転盤に戻ります。
 
 !img("devon_004.png")
 
-Go down and right as before, using the bottom right spinner to reach the bottom right corner of the room, then go straight up (path F). Activate monitor #3, then make your way back towards the left side of the room and go up when you can (path G). Activate monitors #4 and #5 beyond, then follow the path to the stairs.
+先ほどと同じく下そして右へ進み、右下の回転盤で部屋の右下の隅に着いたら、まっすぐ上へ進みます (経路F)。モニター#3を起動したら、部屋の左側へ戻り、行けるところで上へ進みます (経路G)。その先のモニター#4と#5を起動し、道をたどって階段へ向かってください。
 
-In the next room... well, may lord Budew have mercy on her soul.
+次の部屋は……まあ、スボミー様のご加護があらんことを。
 
 !img("devon_005.png")
 
-One more puzzle room for now. Follow the ropes to go up and pop out at the top on the left side, then go right back into the maze on the right side, going down, left, and up to the monitor. Follow the green path to the right. Use the spinner to reach the bottom, and use the Light Shard.
+今のところ最後のパズル部屋です。ロープをたどって上へ進み、左側の上部から出たら、右側から迷路へ戻り、下、左、上と進んでモニターへ向かいます。緑の経路を右へたどってください。回転盤で最下部へ行き、光のかけらを使います。
 
-Activate monitor #2, go up to activate monitor #3, then go back down to turn off monitor #2. From here, all you need to do is go up onto the green tile path left into the bottom spinner - it will send you into chain reactions of spinners. Activate monitor #4 when you reach it, then go back to the left. Do the same for monitor #5. Turn the electric tiles to blue before continuing, then make your way up the massive chain to monitor #6. Go right and activate monitor #7, then go up. Activate monitor #8 and head into the next room when you are ready.
+モニター#2を起動し、上へ進んでモニター#3を起動したら、下へ戻ってモニター#2を切ります。あとは緑のタイル道を上へ進み、左の下側の回転盤へ入るだけで、回転盤の連鎖に運ばれていきます。モニター#4に着いたら起動し、左へ戻ります。モニター#5も同様です。先へ進む前に電気タイルを青に切り替え、長大な連鎖を上ってモニター#6へ向かいます。右へ進んでモニター#7を起動したら、上へ進みます。モニター#8を起動し、準備ができたら次の部屋へ入ってください。
 
-**Relationship Point Choices**:
-- Say you did come to destroy everything here (-1 Eve, -1 Lumi)
-- Say you didn't come to destroy everything here (+1 Eve, +1 Lumi)
+**好感度の選択肢**:
+- ここのすべてを壊しに来たと言う (-1 イヴ, -1 ルミ)
+- ここのすべてを壊しに来たのではないと言う (+1 イヴ, +1 ルミ)
 
 !battle(["ZEL", :ZEL, 4], "Factory Field")
 
-ZEL has a decently well rounded core of Ice and Psychic type special attackers, with various boosting held items to increase their potency and Electric and Ghost moves to take advantage of both Factory and Short-Circuit. If a physical sweeper can get around Aurorus' sash and outspeed these four you'll be in a good  position. Umbreon can be tricky however, as it will punish said physical attacker with Foul Play, heal itself with Wish and watch you die slowly of poison while it uses Double Team to dodge your attacks. The icing on top is Magnezone, who has an incredible special attack stat and two different types of field boosted moves that can destroy most Pokemon with ease. Its biggest weakness in Ground is pretty much patched out thanks to it gaining the Levitate Ability.
+ゼルはこおり・エスパータイプの特殊アタッカーを軸にバランス良くまとめており、火力を底上げする各種の持ち物に加え、工場フィールドとショートフィールドの双方を活かすでんき技・ゴースト技も備えています。物理エースがアマルルガの *きあいのタスキ* を貫き、この4匹を上回る素早さで動ければ有利になります。ただしブラッキーは厄介で、その物理アタッカーを *イカサマ* で咎め、*ねがいごと* で自己回復し、*かげぶんしん* で攻撃をかわしながら、こちらが毒でじわじわ倒れるのを眺めてきます。極めつけはジバコイルで、圧倒的な特攻に加え、フィールド強化された2種類の技でたいていのポケモンを容易に葬ります。最大の弱点であるじめんも、*ふゆう* を得たことでほぼ埋められています。
 
-To win this one, I recommend splitting your team into the anti-PULSE Magnezone segment and the anti-everything else segment, though these may overlap. With only 70 base speed and no speed EV's, you'll find yourself likely able to outspeed. Placing one or two strong hits will really be the key, so 2-3 Pokemon on your team with super-effective moves can do this job. For example, if you want to take it out with Special Fire-moves, figure out which Pokemon to use to get the sun out beforehand and which Pokemon you can use to knock it out. If you want to use Earthquake, get Gravity on the field or use Smack Down on it. The rest of your team can then consist of a Pokemon to handle Umbreon and a physical sweeper or two to deal with the rest!
+勝つには、編成を対PULSEジバコイル班とそれ以外班に分けるのがおすすめです（重なっても構いません）。種族値70の素早さで努力値も振られていないので、上を取れることが多いはずです。強力な一撃を1〜2発当てられるかが鍵なので、こうかばつぐんの技を持つポケモンを2〜3匹用意すれば役目を果たせます。たとえば特殊のほのお技で落とすつもりなら、事前に晴れを起こす担当と、仕留める担当をそれぞれ決めておきましょう。*じしん* を使うなら、*じゅうりょく* を張るか *うちおとす* を当ててください。残りの枠は、ブラッキー対策と、その他を片付ける物理エース1〜2匹で構成できます。
 
-Talk to ZEL in the bottom left corner, then head out, use monitor #9, and go left. Talk to this monitor to release your allies, then exit.
+左下の隅のゼルに話しかけ、外へ出てモニター#9を使い、左へ進みます。このモニターに話しかけて仲間を解放したら、外へ出ましょう。
 
-## Silvon Scope Quest
+## シルボンスコープクエスト {#silvon-scope-quest}
 
-With all that out of the way we can proceed to the next badge. One more quest is open however; I'll cover that first.
+これで次のバッジへ進めますが、もう1つクエストが開いています。先にそちらを扱います。
 
-Reenter the actual Devon Corp. building in Obsidia, and make your way upstairs. Now the floor tiles will be going crazy and you can't control them. Honestly, I recommend grabbing some potions and just healing once we reach the top, since we will only have to deal with a single battle against 3 Pokemon. You can even challenge yourself to see if you can win with 6 Pokemon at 1 HP.
+オブシディアの本物のデボンコーポの建物に入り直し、上階へ進みます。今度は床タイルが暴走していて操作できません。正直なところ、キズぐすりを持ち込んで最上部に着いてから回復するのがおすすめです。相手は3匹とのバトル1回だけだからです。6匹全員がHP1の状態で勝てるか挑戦してみるのも一興です。
 
 !battle(["Alphonso", :StreetRat, 0], "Factory Field")
 
-You can pick up a *Devon Scope Model* as well as the *Electric Memory* and *TM81 X-Scissor*.
+*デボンスコープしさくひん* に加えて、*エレクトロメモリ* と *わざマシン81 シザークロス* が手に入ります。
 
-Exit Devon and enter the Silph building. Talk to the lady here to get the *Silvon Scope*!
+デボンを出てシルフの建物に入ります。ここの女性に話しかけると *シルボンスコープ* がもらえます。
 
-Fly on over to the Beryl Ward. We can finally expose Kecleon, so if you ever get stopped by one feel free to destroy it for being in the way. Enter Rhodochrine Jungle next. If you head all the way to the west of the jungle to the cage where we potentially were once caught by Nuzleaf, you can get a *Dread Plate*. 
+ベリル区へ飛びます。ついにカクレオンを暴けるようになったので、道を塞がれたら遠慮なく倒してしまいましょう。次にロドクラインジャングルに入ります。ジャングルの最西端、かつてコノハナに捕まりかけた檻まで進むと *こわもてプレート* が手に入ります。
 
-Next, make your way down to the Underroot. Head left underneath the waterfall, and continue going left until you run into *TM33 Reflect*!
+次に、アンダールートまで下ります。滝の下を左へ進み、そのまま左へ進み続けると *わざマシン33 リフレクター* にたどり着きます。
 
 !enc(153, ["Surfing", "Fishing"], ["Super"])
 
-Via following the path on the right side down, reach the large pool of water, then surf across. You'll find the *Blastoisinite* while you're here!
+右側の道を下へたどって大きな水場に出たら、なみのりで渡ります。ここでは *カメックスナイト* が手に入ります。
 
-Climb the waterfall and grab the hidden *Rock Gem*. Prepare your team and talk to the invisible object at the bottom of the stairs.
+滝を登り、隠された *いわのジュエル* を拾います。編成を整えて、階段の下にある透明な物体に話しかけてください。
 
 !dbattle(["Runaways", :KECLEONS, 0], ["Refugees", :KECLEONS, 0], "Cave Field")
 
-So yeah, you'll have to fight 12 of these guys. They're just Kecleon so there's a good chance you can just one shot all of them, especially if you're using field-boosted Rock Slide. Be careful of their types changing and the seemingly endless uses of Fake Out and Sucker Punch, however.
+そう、12匹を相手取ることになります。とはいえ所詮カクレオンなので、特にフィールド強化された *いわなだれ* を使えば一撃で沈められる見込みは高いでしょう。ただしタイプが変わることと、*ねこだまし* と *ふいうち* が延々と飛んでくることには注意してください。
 
 !battle(["Kecleon", :KECLEON, 0], "Cave Field")
 
-The cherry on top is that we have to fight a custom variant Kecleon as the final Pokemon in our 13v6 gauntlet. If you use a Fighting move on it, be careful as then it will have STAB with Drain Punch. I recommend having two or three Pokemon prepared  to deal with the first doubles fight, and the rest saved up to deal with this one, just in case.
+極めつけに、13対6の連戦の最後には独自個体のカクレオンが控えています。かくとう技を使うとタイプ一致の *ドレインパンチ* を撃たれるので注意してください。最初のダブルバトル用に2〜3匹を用意し、残りをこちらに備えて温存しておくことをおすすめします。
 
-Past here you can get a hidden *Repel* as well as **Treecko**!
+この先では隠された *むしよけスプレー* と **キモリ** が手に入ります。
 
-Return to Beryl Ward. With the Kecleon gone, we can now access the library once more. Enter the left room and press the books in a familiar order.
+ベリル区へ戻ります。カクレオンがいなくなったので、図書館にまた入れるようになりました。左の部屋に入り、見覚えのある順番で本を押してください。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-        That is, the order of the Arceus Statues in the Subseven Sanctum! So, Green, Red, Purple, Yellow, Blue, White  </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the answer to the puzzle</a>
+        つまり、サブセブン聖域のアルセウス像の順番です。緑、赤、紫、黄、青、白  </div>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">パズルの答えを表示</a>
 </div>
 
-Enter the secret door here to get *TM30 Shadow Ball* as well as the *Catching Charm: Amethyst*, a new item which increases our odds of capturing Pokemon.
+ここの隠し扉に入ると *わざマシン30 シャドーボール* と、捕獲率を上げる新アイテム *ゆれないおまもり・アメジスト* が手に入ります。
 
-One more quick thing if you'd like: Fly on over to Calcenon City and go to Route 4. Hop across the rocks at the lake during the nighttime to catch Ame's Absol.
+やりたければもう1つ手短に。カルセノンシティへ飛び、4番道路へ向かいます。夜間に湖の岩を渡っていくと、アメのアブソルを捕まえられます。
 
-## Grand Hall Trainers 6
+## 大ホールのトレーナー その6 {#grand-hall-trainers-6}
 
-Now that we are back in Reborn City, trainers in the Grand Hall have gotten stronger once more. Defeating them will now yield 6 *Exp. Candy L*. The updated teams are as follows:
+リボーンシティへ戻ってきたことで、大ホールのトレーナーがまた強化されました。倒すと *けいけんアメL* を6個くれるようになります。更新後の編成は以下のとおりです。
 
-**Sunday**:
+**日曜日**:
 
 !battle(["Carol", :COOLTRAINER_Female, 4])
 
@@ -826,27 +826,27 @@ Now that we are back in Reborn City, trainers in the Grand Hall have gotten stro
 
 !battle(["Fawkes", :COOLTRAINER_Male, 4])
 
-**Monday**:
+**月曜日**:
 
 !battle(["Jonah", :YOUNGSTER, 4])
 
-**Tuesday**:
+**火曜日**:
 
 !battle(["Jace", :COOLTRAINER_Male, 4])
 
-**Wednesday**:
+**水曜日**:
 
 !battle(["Silva", :PSYCHIC_Male, 4])
 
-**Thursday**:
+**木曜日**:
 
 !battle(["JB", :EXPERT_Male, 4])
 
-**Friday**:
+**金曜日**:
 
 !battle(["Will", :TechNerd, 4])
 
-**Saturday**:
+**土曜日**:
 
 !battle(["Anthony", :EXPERT_Male, 4])
 
@@ -854,44 +854,44 @@ Now that we are back in Reborn City, trainers in the Grand Hall have gotten stro
 
 !dbattle(["Zach", :Casanova, 4], ["Beau", :LADY, 4])
 
-## Amaranth Badge
+## アマランサスバッジ {#amaranth-badge}
 
-That's it for the side content, so head down to the Coral Ward and talk to Adrienn in their gym.
+寄り道はこれで終わりなので、コーラル区へ下り、ジムのアドリエンヌに話しかけてください。
 
-**Relationship Point Choices**:
-- Say you will become the champion (+1 Adrienn)
-- Say you will not become the champion (-2 Adrienn)
+**好感度の選択肢**:
+- チャンピオンになると言う (+1 アドリエンヌ)
+- チャンピオンにはならないと言う (-2 アドリエンヌ)
 
-They will then ask us to help out with a quest. It's optional but pretty easy and gives you some rewards, so why not. We have to search Reborn City looking for volunteers to help out with city cleanup efforts. There are 15 people we can get in total:
+すると、あるクエストの手伝いを頼まれます。任意ですがかなり簡単で報酬ももらえるので、やらない手はありません。市の清掃活動に協力してくれる有志を、リボーンシティ中から探すことになります。集められるのは全部で15人です。
 
-1. Coral Ward tunnel, brown-haired girl
-2. Obsidia Ward Park, blue-haired girl against the right wall
-3. Onyx Arcade, yellow-haired guy wandering around on the right side
-4. South Obsidia Ward, yellow-haired guy in the bottom left corner
-5. Obsidia Alleyway, yellow-haired girl wandering around
-6. North Obsidia Ward, blue-haired glasses guy near the stairway
-7. Lapis Ward, silver-haired woman in the park south of the PokeMart
-8. Lower Peridot Ward, brown-haired guy wandering around east of the train station
-9. Lower Peridot Ward, blue-hatted guy in the last building before the railnet
-10. Lower Peridot Alleyway, black-haired girl
-11. Blacksteam Shelter, black-haired guy on the couch on 1F in the bottom left corner
-12. Jasper Ward, light brown-haired girl in the building to the left of the police station
-13. Beryl Bridge, girl with blue ribbons on the left side of the bridge
-14. Beryl Ward, tan-hatted guy left of the gym
-15. Beryl Library, pink-haired child just above the entrance
+1. コーラル区のトンネル、茶髪の少女
+2. オブシディア区公園、右の壁際にいる青髪の少女
+3. オニキスゲームセンター、右側をうろついている黄髪の男
+4. 南オブシディア区、左下の隅にいる黄髪の男
+5. オブシディア路地、うろついている黄髪の少女
+6. 北オブシディア区、階段近くにいる青髪の眼鏡の男
+7. ラピス区、フレンドリィショップの南の公園にいる銀髪の女性
+8. 下ペリドット区、駅の東をうろついている茶髪の男
+9. 下ペリドット区、鉄道網の手前にある最後の建物にいる青い帽子の男
+10. 下ペリドット路地、黒髪の少女
+11. ブラックスチーム避難所、1階左下の隅のソファにいる黒髪の男
+12. ジャスパー区、警察署の左隣の建物にいる薄茶髪の少女
+13. ベリル橋、橋の左側にいる青いリボンの少女
+14. ベリル区、ジムの左にいる日焼け帽子の男
+15. ベリル図書館、入口のすぐ上にいるピンク髪の子ども
 
-Return to Adrienn after finding as many volunteers as you like. For finding at least 10, you'll get *Wise Glasses*! For finding all 15, you'll also get an *Ability Capsule* and a *Star Piece*!
+好きなだけ有志を見つけたら、アドリエンヌのもとへ戻ります。10人以上で *ものしりメガネ*、15人全員なら加えて *とくせいカプセル* と *ほしのかけら* がもらえます。
 
-**Relationship Point Choices**:
-- Find 10-14 volunteers (+1 Adrienn)
-- Find all 15 volunteers (+2 Adrienn)
+**好感度の選択肢**:
+- 有志を10〜14人見つける (+1 アドリエンヌ)
+- 有志を15人全員見つける (+2 アドリエンヌ)
 
-With that out of the way, it's time for our 14th gym battle.
+以上を済ませたら、14回目のジム戦です。
 
 !battle(["Adrienn", :ADRIENN, 0], "Misty Terrain atop Fairy Tale Field")
 
-Adrienn battles us in Doubles, and their team is quite formidable. The fight will start on the Misty Terrain, which notably boosts their Dazzling Gleam offensively, and boosts the Sp. Def of all of their Pokemon by 1.5x. Combine this with two Pokemon that have Intimidate, and you'll be having a very hard time scoring knockouts. Granbull, Gardevoir, Togekiss, and the overlevelled Florges all function how you'd expect, but it's worth noting that Nature Power is activated via Prankster meaning Whimsicott can use Mist Ball with priority for free. You'll also notice that it has Tailwind - meaning it can change the field altogether to the Fairy Tale Field, upon which all the Fairy type and Steel type attacks will be boosted and Whimsicott gets Prankster boosted Sacred Sword. Mega Mawile becomes even more of a threat as a result, as well.
+アドリエンヌはダブルバトルで挑んできますが、その編成はかなり手強いものです。バトルはミストフィールドから始まり、これは相手の *マジカルシャイン* を攻撃面で強化するうえ、相手全員の特防を1.5倍にします。そこに *いかく* 持ちが2匹加わるので、倒し切るのは相当に難しくなります。グランブル、サーナイト、トゲキッス、そしてレベルの高いフラージェスはおおむね予想どおりの動きをしますが、*しぜんのちから* が *いたずらごころ* で発動するため、エルフーンが *ミストボール* を先制でタダ撃ちできる点は要注目です。さらに *おいかぜ* も持っているので、フィールドごとおとぎ話フィールドへ張り替えられます。そうなるとフェアリー技とはがね技がすべて強化され、エルフーンはいたずらごころ強化の *せいなるつるぎ* を使えるようになります。結果としてメガクチートの脅威度も一段と増します。
 
-Although this team on these fields is particularly stacked, you do have some options. For one, you can usually get a free boost on the first turn with Wide Guard thanks to Rock Slide/Earthquake and Dazzling Gleam being oft used moves. Consider changing the field at first to Corrosive Mist Field if you can - it will cripple their team, but you do have to use Clear Smog, Poison Gas, or Smog twice to make that work. What tends to work better though is leaning fully into the Fairy Tale Field - you can blow the mist away yourself, then utilize boosted Steel moves to tear their team apart. Mawile is still a difficult threat to deal with, so if you can get around Mawile with some Steel attackers in the back, that may be a winning strategy.
+このフィールド構成では相当に完成された編成ですが、こちらにも手はあります。まず、*いわなだれ*／*じしん* と *マジカルシャイン* が多用されるおかげで、初手 *ワイドガード* でたいてい無償の起点を作れます。可能なら最初に腐食ミストフィールドへ張り替えるのも一案で、相手の編成を大きく損ないますが、*クリアスモッグ*、*どくガス*、*スモッグ* のいずれかを2回使う必要があります。ただ、より有効なのはおとぎ話フィールドに全面的に乗ることです。自分で霧を吹き飛ばし、強化されたはがね技で相手の編成を切り崩せます。それでもクチートは対処の難しい脅威なので、後衛のはがねアタッカーでクチートを何とかできれば勝ち筋になり得ます。
 
-For winning, you'll get the Amaranth Badge which boosts our cap to 85. You'll also get *TM99 Dazzling Gleam*!
+勝つとアマランサスバッジが手に入り、レベル上限が85に上がります。*わざマシン99 マジカルシャイン* も手に入ります。

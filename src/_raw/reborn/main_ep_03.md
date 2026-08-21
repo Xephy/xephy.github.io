@@ -1,349 +1,349 @@
-# Episode 3: Domino
+# エピソード3: ドミノ {#episode-3}
 
-Exit Florinia's Arena. There are a few things we can do now that we have 2 badges before we continue the story.
+フロリニアのアリーナを出ます。バッジが2個になったので、ストーリーを進める前にできることがいくつかあります。
 
-## 2 Badge Quests
+## バッジ2個で解禁されるクエスト {#badge-quests-1}
 
-First, head to the room containing the nurse in the Trainer School. A girl towards the left side will trade you battle advice for *TM100 Confide*!
+まずトレーナー学校の、看護師がいる部屋へ向かいます。左寄りにいる少女がバトルの助言と引き換えに *わざマシン100 ないしょばなし* をくれます。
 
-Now that we have 2 badges, the Pokemarts and candy store have updated inventory now:
+バッジが2個になったので、ショップと菓子店の品揃えが更新されています。
 
 !shop("Default Mart (2-5 Badges)", ["Super Potion", "Antidote", "Paralyze Heal", "Burn Heal", "Escape Rope", "Super Repel", "Poke Ball"])
 
 !shop("Sweet Kiss (Bottom) (2-3 Badges)", ["Common Candy", ["Exp. Candy XS", 500], ["Exp. Candy S", 2000], "Rare Candy"])
 
-Head into the Obsidia Slums. Nearby where we first entered on the first floor, you'll see a doctor talking to a child. Talk to him to get the *Itemfinder*! Note that this is a limited time event, so if you don't want to have to wait until we get four more badges to get the Itemfinder, act now! Since I assume you can use the itemfinder now, going forward in this guide, I will not describe exact locations of hidden items. You'll also find an *Exp. Candy M* here.
+オブシディアスラムへ向かいます。1階の最初に入った場所の近くで、医者が子どもと話しています。話しかけると *ダウジングマシン* がもらえます。これは期間限定のイベントなので、バッジ4個分あとまで待ちたくなければ今のうちに取ってください。以降この攻略では、ダウジングマシンが使える前提で、隠しアイテムの正確な位置は記載しません。ここでは *けいけんアメM* も手に入ります。
 
-Head left and take the elevator down to B1F. Immediately head left and go up, following the path. If you have snax in your bag, you can catch **Makuhita**!
+左へ進み、エレベーターで地下1階へ。すぐ左へ行って上へ、道なりに進みます。ポケスナックを持っていれば **マクノシタ** を捕まえられます。
 
-Back in Opal Ward, specifically if you randomly got Clamperl earlier in Onyx Ward, a person near the water at the bottom will give you a *Deep Sea Tooth* or a *Deep Sea Scale*, randomly determined.
+オパール区に戻ると、先ほどオニキス区でパールルを引いていた場合に限り、下部の水辺近くの人物が *しんかいのキバ* か *しんかいのウロコ* をランダムでくれます。
 
-There is also a new trainer on the Opal Bridge:
+オパール大橋にも新しいトレーナーがいます。
 
 !battle(["Bart", :YOUNGSTER, 0])
 
-Finally, head to the apartment in the top left corner of Peridot Ward. Now that we have two badges we can finally take home **Snubbull** or **Stufful**, randomly determined.
+最後に、ペリドット区の左上の角にある集合住宅へ。バッジが2個になったことで、ようやく **ブルー** か **ヌイコグマ** をランダムで連れて帰れます。
 
-## Jasper Ward & Malchous Forest Park
+## ジャスパー区とマルコウス森林公園 {#jasper-ward--malchous-forest-park}
 
-Leave this house, and head into the Jasper gate to your right. Talk to the guard here and head into Jasper Ward.
+この家を出て、右手のジャスパーのゲートへ向かいます。ここの警備員に話しかけ、ジャスパー区へ入ります。
 
 !enc(130)
 
-It's worth noting that when we have like 11 more badges we will eventually want a Carnivine for an in-game trade.
+なお、バッジがあと11個ほど揃った頃に、交換イベントで **マスキッパ** が必要になります。
 
-Talk to Corey and Heather here, then head into the police station. Talk to the chief here, who will tell you about his missing officers. You don't have to find them, but doing so is the first step to doing the more exclusive postgame story route. If you'd like to play the route of the game that involves not finding the officers in time, you can skip finding one of the officers until you complete up to the end of this section, then find them afterwards to get the quest rewards.
+ここでコーリーとヘザーに話しかけ、警察署へ入ります。署長に話しかけると、行方不明の署員たちについて教えてくれます。探し出す義務はありませんが、これはより限定的なポストゲームのルートへ進む第一歩です。署員を間に合わずに見つけられなかった側のルートを遊びたい場合は、この節を最後まで進めるまで1人だけ見つけずにおき、その後で見つけてクエスト報酬だけ受け取るという手もあります。
 
-In general, I will mention story splits and how choices affect post-game route availability just so you can keep your options open.
+この攻略では、ストーリーの分岐と、選択がポストゲームのルートにどう影響するかを随時記載します。選択肢を残しておけるようにするためです。
 
-Outside, you'll find a Meteor Grunt to the right.
+外に出ると、右手にチームメテオのしたっぱがいます。
 
 !battle(["Simon", :MeteorGrunt, 1])
 
-To the left, grab a hidden *Super Potion*. At night only, you can fight a cop.
+左手では隠された *いいキズぐすり* が手に入ります。夜のみ、警官と戦えます。
 
 !battle(["Joe", :PoliceOfficer, 0])
 
-Enter the building here.
+ここの建物に入ります。
 
 !battle(["Ross", :COOLTRAINER_Male, 0])
 
 !battle(["Morrison", :StreetRat, 0])
 
-Exit through the top right, where you'll find a Pokemon Center as well as a hidden *Antidote* and *Ether*. During a clear morning or day, you can talk to an **Emolga** to battle and catch it.
+右上から出るとポケモンセンターがあり、隠された *どくけし* と *ピーピーエイド* も見つかります。快晴の朝か昼には **エモンガ** に話しかけてバトルし、捕まえられます。
 
-Head back down into the building below the Pokemon Center and exit to the left. Pick up a hidden *Pecha Berry* and continue into the next building.
+ポケモンセンターの下の建物へ戻り、左から出ます。隠された *モモンのみ* を拾って次の建物へ進みます。
 
 !battle(["Tara", :MeteorGrunt_090, 1])
 
-Head outside at the bottom.
+下から外へ出ます。
 
-**Relationship Point Choices**:
-- Yes (+1 Heather)
-- No (-1 Heather)
+**好感度の選択肢**:
+- はい (+1 ヘザー)
+- いいえ (-1 ヘザー)
 
-Head to the left into the Forest Park.
+左へ進んで森林公園へ入ります。
 
 !enc(132)
 
-Head towards the center of the area, and chop the wiggly tree nearby. Following the path that this opens up below, you can grab hidden *X Speed*, *Full Heal*, and *Telluric Seed*. Chop the wiggly tree to the right nearby and receive a *Super Potion* from Heather, then chop the wiggly tree immediately to the left.
+エリア中央へ向かい、近くの揺れる木を切ります。開いた下の道をたどると、隠された *スピーダー*、*なんでもなおし*、*テルリックシード* が手に入ります。近くの右にある揺れる木を切るとヘザーから *いいキズぐすり* をもらえるので、続いてすぐ左の揺れる木も切ります。
 
-From here, backtrack to the entrance of the forest. Go up and left, choosing to go left instead of climbing the two-tile wide set of stairs. Follow this path up and climb three sets of stairs: you'll see a Meteor Grunt here.
+ここから森の入口まで戻ります。上へ、そして左へ進み、2マス幅の階段を上らずに左へ行ってください。この道を上って階段を3つ上ると、チームメテオのしたっぱがいます。
 
 !battle(["Ringo", :MeteorGrunt, 1], "Forest Field")
 
-Chop down the wiggly tree here. Down just one set of stairs, you can now head left to find another grunt.
+ここの揺れる木を切ります。階段を1つ下りたところから左へ進むと、別のしたっぱがいます。
 
 !battle(["Rod", :MeteorGrunt, 1], "Forest Field")
 
-Down from here you'll find some stairs leading to some grunts - but there is a secret passageway hidden to the left behind a tree. Follow this path to get a hidden *Revive* and *Exp. Candy S* as well as an egg. When it hatches it will be **Deerling**, **Skiddo**, **Girafarig**, or **Nincada**, randomly determined. Head back from here and fight the grunts.
+ここから下るとしたっぱのいる階段がありますが、左手の木の裏に隠し通路があります。この道をたどると隠された *げんきのかけら* と *けいけんアメS*、そしてタマゴが手に入ります。孵化すると **シキジカ**、**メェークル**、**キリンリキ**、**ツチニン** のいずれかがランダムで生まれます。戻ってしたっぱと戦いましょう。
 
 !dbattle(["Regina", :MeteorGrunt_090, 0], ["Gretchen", :MeteorGrunt_090, 0], "Forest Field")
 
-Go right and down from here. You'll find a hidden *Purple Shard* and the *PULSE Readout 5B*.
+ここから右、そして下へ。隠された *むらさきのかけら* と *パルスの資料5B* が見つかります。
 
-Head back up, talk to Heather for a heal, then climb the vines on the nearby pillar, hop over to the main building, and head in. Jump on down. Grab a hidden *Red Shard* and *Exp. Candy M* (missable if you don't grab them right now). Head up for a battle.
+上に戻ってヘザーに話しかけて回復し、近くの柱のツタを登り、本館へ飛び移って中に入ります。下へ飛び降りたら、隠された *あかいかけら* と *けいけんアメM* を回収してください（今取らないと二度と取れません）。上へ進むとバトルです。
 
 !battle(["Taka", :Taka, 0], "Rocky Field")
 
-Taka will fight you on the Rocky Field. We don't have the notes for this field yet, but you will observe that Rock Tomb will be stronger here. The Telluric Seed can be helpful here: by testing it you'll notice that it raises Defense but does Stealth Rock damage. Since Exeggcute doesn't hit that hard you can take the chance to set up offenses on it, then you can hit the slow PULSE Tangrowth hard. Also, this entire team is weak to Ice.
+タカとは *岩場フィールド* で戦います。このフィールドの資料はまだ持っていませんが、*がんせきふうじ* が強化されることは分かるはずです。*テルリックシード* が有効で、試してみると、ぼうぎょが上がる代わりに *ステルスロック* のダメージを受けると分かります。**タマタマ** は火力が低いので、その隙に積んでおけば、鈍足の PULSE **モジャンボ** に大打撃を与えられます。加えて、この編成は全員こおりタイプが弱点です。
 
-After the battle, you'll be sent outside. Answer Corey how you like here, then grab hidden *X Defend* and *Green Shard* as well as a *Big Root*.
+バトル後、外へ出されます。コーリーには好きに答えて構いません。その後、隠された *ディフェンダー* と *みどりのかけら*、そして *おおきなねっこ* を回収してください。
 
-Exit Malchous Forest Park in the top right corner. In the first house, you'll find a grunt.
+マルコウス森林公園を右上の角から出ます。最初の家にはしたっぱがいます。
 
 !battle(["Ray", :MeteorGrunt, 1])
 
-Defeat him to free Police Officer #1. In the building next door, head up to 5F via the elevator, and talk to the girl inside so she'll leave.
+倒すと警官1人目を解放できます。隣の建物ではエレベーターで5階へ上がり、中の少女に話しかけると立ち去ります。
 
-Head back to the main part of Jasper via the bottom right exit of Malchous. On your way back to the Pokemon Center area, you can now grab a hidden *PokeSnax*.
+マルコウスの右下の出口からジャスパーの本道へ戻ります。ポケモンセンターのエリアへ戻る途中で、隠された *ポケスナック* が拾えるようになっています。
 
-Past the Pokemon Center, enter the first building you see. Talk to the guy here to activate a quest. You can also enter the elevator room here to get the *Forest Field Readout*.
+ポケモンセンターを過ぎたら、最初に見える建物に入ります。中の男性に話しかけるとクエストが発生します。ここのエレベーター室に入ると *森林フィールドの資料* も手に入ります。
 
-Outside, you can now grab a *Paralyze Heal* and save Police Officer #2. Grab a hidden *Super Potion* and *Green Shard* outside and head into the small building here. If you have snax and talked to the panicking guy earlier, you can get **Mareep**!
+外では *まひなおし* を拾い、警官2人目を救出できます。外の隠された *いいキズぐすり* と *みどりのかけら* を回収し、ここの小さな建物へ入ってください。ポケスナックを持っていて、先ほど慌てていた男性に話しかけていれば **メリープ** が手に入ります。
 
-Before we continue into the next ward, there's a quick thing we can do. Exit Jasper Ward to the south (there's a shortcut below the Mareep building) and head to the right. Enter the first house you see in Peridot Ward, and talk to the girls inside for *Department Store Sticker: Tangela* as well as *TM88 Sleep Talk*.
+次の区へ進む前に、ひとつ手短に済ませられることがあります。ジャスパー区を南へ抜け（メリープの建物の下に近道があります）、右へ進みます。ペリドット区で最初に見える家に入り、中の少女たちに話しかけると *デパートシール: モンジャラ* と *わざマシン88 ねごと* がもらえます。
 
 !shop("Department Store 3F (Left)", ["Sticky Barb", "Lagging Tail", "Iron Ball", "Binding Band", "Float Stone", "Eject Button", "Red Card", "Ring Target", "Metronome"])
 
 !shop("Department Store 3F (Right)", ["Heat Rock", "Icy Rock", "Smooth Rock", "Damp Rock", "Grip Claw", "Light Clay", "Everstone"])
 
-Since money is still tight, I wouldn't recommend binging too many of these items for now, especially since most of them suck. We'll be able to get tons of the weather extending rocks, Iron Ball, and Light Clay after the next badge for free, but if your strategy involves weather or screens they are pretty cheap right now so it might be worth it for those.
+資金はまだ厳しいので、今の時点でこれらを買い込むのはおすすめしません。役に立たないものが大半です。天候延長用の各種いわ、*くろいてっきゅう*、*ひかりのねんど* は次のバッジのあとに無料で大量に手に入ります。ただし天候や壁を軸にした戦い方をするなら、今の値段は安いので買っておく価値はあります。
 
-Back in Jasper, return to the top-right corner and head up to access the next ward.
+ジャスパーに戻り、右上の角から上へ進んで次の区へ入ります。
 
-## Rhodochrine Jungle & The Underroot
+## ロドクラインジャングルとアンダールート {#rhodochrine-jungle--the-underroot}
 
-Enter the Beryl Ward. We can't really explore much of this ward itself right now. Head to the right to access the Beryl Bridge. Hidden on the bridge you'll find a *Heart Scale*, *X Speed*, and *PokeSnax*.
+ベリル区に入ります。この区自体は今はほとんど探索できません。右へ進んでベリル大橋へ向かいましょう。橋の上には *ハートのウロコ*、*スピーダー*、*ポケスナック* が隠されています。
 
-While it is windy, at the end of the bridge you can catch **Drifloon**! Talk to the kid here and he will go home.
+風の強いときには、橋の端で **フワンテ** を捕まえられます。ここの子どもに話しかけると帰っていきます。
 
-Back in Beryl, head left.
+ベリルに戻り、左へ。
 
 !enc(149)
 
-Grab a hidden *Red Shard* outside, then an *X Attack* in the house. Make your way left, grab the hidden *Poke Ball*, and enter the jungle.
+外で隠された *あかいかけら* を拾い、家の中で *プラスパワー* を回収します。左へ進んで隠された *モンスターボール* を拾い、ジャングルへ入ります。
 
 !enc(150)
 
-Catch a Ledian for an in-game trade later, and a Farfetch'd to trade for a fossil later on as well.
+後の交換イベント用に **レディアン** を、化石との交換用に **カモネギ** も捕まえておきましょう。
 
-Grab a hidden *Exp. Candy XS* here, then head up and get a hidden *Rawst Berry* and *Rare Candy*, being careful to avoid stepping on the suspicious patch of grass. Head down and to the left, you'll see Meteor Grunts. You'll actually have a choice now on how to proceed - you can either step on the suspicious patch of grass or step on tall grass near the grunts to end up in a trap, or carefully sneak around the grunts and head up.
+ここで隠された *けいけんアメXS* を拾い、上へ進んで隠された *チーゴのみ* と *ふしぎなアメ* を回収します。怪しい草むらを踏まないよう注意してください。下って左へ進むとチームメテオのしたっぱがいます。ここで進み方を選べます。怪しい草むらか、したっぱ近くの高い草を踏んで罠にかかるか、あるいはしたっぱを慎重に避けて上へ進むかです。
 
-The jungle is huge, so I explain the results of this choice first, guide both routes to the same location, then explore the jungle after this convergence.
+ジャングルは広大なので、まずこの選択の結果を説明し、両方のルートを同じ場所まで案内してから、合流後のジャングル探索を扱います。
 
-### Cage Trap Route
+### 檻に捕まったルート {#cage-trap-route}
 
-If you were trapped in a cage, read on, otherwise, [jump to the next section](#snuck-around-route).
+檻に捕まった場合はこのまま読み進めてください。そうでなければ[次の節へ進んでください](#snuck-around-route)。
 
-Roughly, you'll want to follow the blue path in the following image:
+大まかには、次の画像の青い経路をたどります。
 
 !img("cagepath.png")
 
-You'll wake up in a cage and Fern will taunt you here.
+檻の中で目を覚まし、ファーンに煽られます。
 
-**Relationship Point Choices**:
-- Reject begging Fern (-1 Fern)
-- Beg Fern once, then reject him (Neutral)
-- Beg Fern twice, then reject him (+1 Fern)
-- Beg Fern three times, then reject him (+2 Fern)
-- Beg Fern four times (+5 Fern)
+**好感度の選択肢**:
+- ファーンに懇願せず拒否する (-1 ファーン)
+- 1回懇願してから拒否する (増減なし)
+- 2回懇願してから拒否する (+1 ファーン)
+- 3回懇願してから拒否する (+2 ファーン)
+- 4回懇願する (+5 ファーン)
 
-If you do reject him, eventually you will be let out anyways.
+拒否した場合でも、結局は出してもらえます。
 
-Head up and to the right to free Cain from his cage.
+上へ、そして右へ進み、檻からカインを助け出します。
 
-**Relationship Point Choices**:
-- Freed Cain from the cage (+1 Cain)
+**好感度の選択肢**:
+- 檻からカインを助け出す (+1 カイン)
 
-Head down from here and talk to the lever. Heather will show up and pull the switch to activate these bridges.
+ここから下へ進んでレバーに話しかけます。ヘザーが現れてスイッチを引き、橋が架かります。
 
-**Relationship Point Choices**:
-- Got stuck in a cage (-1 Heather)
+**好感度の選択肢**:
+- 檻に捕まった (-1 ヘザー)
 
-Head east from here, and go slightly south once you reach a Meteor Grunt. Continue south until you hit a Gentleman, then go straight east and follow the path up the hill via stairs. The house here is a healing house, should you need it.
+ここから東へ進み、チームメテオのしたっぱのところまで来たら少し南へ。紳士に行き当たるまで南下し、そこから東へまっすぐ進んで階段で丘を上ります。ここの家は回復所なので、必要なら使ってください。
 
-### Snuck Around Route
+### 避けて通ったルート {#snuck-around-route}
 
-If you managed to carefully sneak around the grunts, read on, otherwise [jump to the next section](#exploring-the-jungle).
+したっぱを慎重に避けられた場合はこのまま読み進めてください。そうでなければ[次の節へ進んでください](#exploring-the-jungle)。
 
-Head up the stairs on the right, and you'll find Fern.
+右の階段を上るとファーンがいます。
 
-**Relationship Point Choices**:
-- Talked to Fern atop the hill (+1 Fern)
+**好感度の選択肢**:
+- 丘の上でファーンに話しかける (+1 ファーン)
 
-The building to your right is a healing house, should you need it.
+右手の建物は回復所なので、必要なら使ってください。
 
-### Exploring the Jungle
+### ジャングルの探索 {#exploring-the-jungle}
 
-All players following along should now be in the same place: next to the healing house.
+ここからは、どちらのルートでも同じ地点――回復所の隣にいるはずです。
 
 !img("rhodo1.png")
 
-Itemfind here for an *Exp. Candy S* then head down the hill, pick up hidden *Full Heal* and go down from here. The grunts around the fire will be gone now, so you can pick up a hidden *Guard Spec* to the west.
+ここでダウジングして *けいけんアメS* を拾い、丘を下りて隠された *なんでもなおし* を回収し、そこから下へ。焚き火の周りのしたっぱはいなくなっているので、西側で隠された *エフェクトガード* が拾えます。
 
 !img("rhodo2.png")
 
-Head back up and go left. Here you'll see a gentleman.
+上に戻って左へ進むと、紳士がいます。
 
 !battle(["Ben", :GENTLEMAN, 0], "Forest Field")
 
 !battle(["Coleman", :MeteorGrunt, 1], "Forest Field")
 
-In this area you can find a hidden *Liechi Berry* and *Great Ball*. To the right of the grunt, climb the hill and chop a wiggly tree.
+このエリアでは隠された *チイラのみ* と *スーパーボール* が見つかります。したっぱの右手から丘を登り、揺れる木を切ってください。
 
 !img("rhodo3.png")
 
-Head back down the hill after the scene and go to the left.
+イベントのあと丘を下り、左へ進みます。
 
 !battle(["Kenneth", :MeteorGrunt, 0], "Forest Field")
 
-On this next hill you can obtain a hidden *X Speed*. Climbing stairs to the northeast will lead to a hidden *Antidote*. We'll get to the cave entrance at the top of this area later, for now, sneak around the building in the bottom left and pick up a hidden *Dark Gem*. You can actually enter the felled building to the right, inside you'll find *TM77 Psych Up*.
+次の丘では隠された *スピーダー* が手に入ります。北東の階段を上ると隠された *どくけし* があります。このエリア上部の洞窟入口には後ほど向かいます。今は左下の建物の裏を回り込んで、隠された *あくのジュエル* を拾ってください。右手の倒壊した建物には実際に入ることができ、中で *わざマシン77 じこあんじ* が手に入ります。
 
 !img("rhodo4.png")
 
-Back outside, head up the ramp to the left and pick up the hidden *Green Shard*. Cross the wooden bridge to the left and head up. Here you can find a hidden *Salac Berry*, *Paralyze Heal*, and an *Antidote*. Head back down the stairs but this time follow the narrow path up and to the right. You'll cross a bridge over land here, grab a hidden *Blue Shard* and carefully pick up the *PULSE Readout 5A* without stepping on the shifty 2-by-2 patch of land. *After* you grab the readout, step on the trap.
+外に出て左の坂を上り、隠された *みどりのかけら* を拾います。左の木の橋を渡って上へ。ここでは隠された *カムラのみ*、*まひなおし*、*どくけし* が見つかります。階段を下りたら、今度は細い道を右上へたどってください。陸の上に架かった橋を渡り、隠された *あおいかけら* を拾い、怪しい2×2の地面を踏まないよう慎重に *パルスの資料5A* を回収します。資料を取った*あと*で、罠を踏んでください。
 
-This brings us to the Underroot - but we will explore this area fully in a little bit. For now, grab the hidden *Exp. Candy S* in a rock to the right, jump down the ledge and take the stairs here to return to a familiar part of the jungle.
+これでアンダールートに来ますが、このエリアの本格的な探索は少し後です。今は右の岩で隠された *けいけんアメS* を拾い、崖を飛び降り、階段を使ってジャングルの見覚えのある場所へ戻ります。
 
-Our next move is going to be to head all the way back to the healing house from earlier by going down, right at the gentleman, then up the hill to the right. Heal if you'd like.
+次は先ほどの回復所まで戻ります。下へ進み、紳士のところで右へ、そこから右手の丘を上ってください。必要なら回復しておきましょう。
 
 !img("rhodo5.png")
 
-Go straight down from here and follow the path across the bridge.
+ここからまっすぐ下り、道なりに橋を渡ります。
 
 !battle(["Mary", :MeteorGrunt_090, 1], "Forest Field")
 
-Grab a hidden *Blue Shard* as you make your way left. Head up as soon as you can, here is a Light Shard and a building. Inside, you'll find a PC as well as a in-game trade: your Sunkern for either **Carbink**, **Mime Jr.**, **Cryogonal**, or **Furfrou**, determined randomly. Perhaps more importantly, it will be holding the *Exp. Share*!
+左へ進みながら隠された *あおいかけら* を拾います。行けるようになったらすぐ上へ。ここには *光のかけら* と建物があります。中にはパソコンと、交換イベントがあります。**ヒマナッツ** と引き換えに **メレシー**、**マネネ**、**フリージオ**、**トリミアン** のいずれかがランダムで手に入ります。それ以上に重要なのは、その個体が *がくしゅうそうち* を持っていることです。
 
 !img("rhodo6.png")
 
-Head outside and follow the path left. You'll find a hidden *Red Shard*. At the next fork, go up, where you'll find a hidden *Super Potion* and a *Telluric Seed*. Take the other path of the fork now.
+外に出て道なりに左へ進むと、隠された *あかいかけら* があります。次の分岐では上へ進み、隠された *いいキズぐすり* と *テルリックシード* を回収します。そのあと分岐のもう一方へ。
 
 !battle(["Endow", :PkMnRANGER_Male, 0], "Forest Field")
 
-You'll find a hidden *Calcium* here. Head to the left across the bridge and pick up an *Exp. Candy M*. Specifically on sunny days, you can battle and catch **Tropius** here as well. It's very strong for this point in the game, so be careful.
+ここでは隠された *リゾチウム* が手に入ります。左へ橋を渡って *けいけんアメM* を拾ってください。晴れの日に限り、ここで **トロピウス** とバトルして捕まえられます。この時点ではかなり強いので注意してください。
 
-Head back across the bridge, and from here go down to find a hidden *Purple Shard* and a *Great Ball*. That pretty much covers the part of the jungle we have been able to access for now, so it's time to explore the Underroot. Nearby you'll see a trap spot on the ground, step on it to fall in.
+橋を戻り、そこから下へ進むと隠された *むらさきのかけら* と *スーパーボール* があります。現時点で入れるジャングルの範囲はこれでほぼ網羅したので、アンダールートを探索しましょう。近くの地面に罠があるので、踏んで落ちてください。
 
-### Exploring the Underroot
+### アンダールートの探索 {#exploring-the-underroot}
 
-Hidden here is an *Exp. Candy S*. We can't do anything with these glowy rocks for a while, so head out of this area.
+ここには *けいけんアメS* が隠されています。光る岩はしばらく手を出せないので、このエリアから出ましょう。
 
 !enc(153, ["Grass", "Fishing"], ["Old"])
 
-Head to the right first. You'll find a hidden *Chesto Berry* here. Take the nearby stairs to reach a new area of the jungle. You can find a hidden *Red Shard* and *Exp. Candy S* here. You can also battle and catch **Taillow** at the top.
+まず右へ。ここには隠された *カゴのみ* があります。近くの階段からジャングルの新しいエリアへ出られます。ここでは隠された *あかいかけら* と *けいけんアメS* が見つかります。上部では **スバメ** とバトルして捕まえることもできます。
 
-Back in the Underroot, take the path up from here and cut the wiggly tree. Take the nearby stairs to access another section of jungle. Go up here to find a hidden *Ether* and **Stantler**.
+アンダールートに戻り、ここから上へ進んで揺れる木を切ります。近くの階段から、また別のジャングル区画へ出られます。上へ進むと隠された *ピーピーエイド* と **オドシシ** がいます。
 
-Follow the path all the way down and to the right. Inside a house here is a lady. She will tutor us a pretty good move... but only if you have a Grass type starter. Since Grass type starters kinda suck compared to Fire type and Water type starters, here's a bit of compensation.
+道なりにずっと下って右へ進みます。ここの家には女性がいて、なかなか優秀な技を教えてくれます……ただし、くさタイプの最初のパートナーを選んでいる場合に限ります。くさタイプはほのお・みずと比べて分が悪いので、その埋め合わせというわけです。
 
 !tutor("Rhodochrine Move Tutor (Grass-type Starter Only)", [["Giga Drain", "Free"]])
 
-Before we leave this section of jungle, there is a broken building with some lights on to the left.
+このジャングル区画を離れる前に、左手に明かりの点いた壊れかけの建物があります。
 
 !battle(["Bruno", :MeteorGrunt, 1], "Forest Field")
 
-Defeat him to free Police Officer #3.
+倒すと警官3人目を解放できます。
 
-Back in the Underroot, go up and grab a hidden *Purple Shard*. To the left you'll find a hidden *Exp. Candy S* and a stationary **Seviper**.
+アンダールートに戻り、上へ進んで隠された *むらさきのかけら* を拾います。左手には隠された *けいけんアメS* と、動かない **ハブネーク** がいます。
 
-Up and to the right you can get a hidden *Energy Root* and *Red Shard*, and free Police Officer #4. Head down and pass under the waterfall to the right. Head right for a hidden *Dire Hit* and *Poke Ball*. Back left from here, head up. This was an area we visited earlier - you can access the main part of the jungle via these stairs.
+上へ、そして右へ進むと隠された *ちからのねっこ* と *あかいかけら* が手に入り、警官4人目を救出できます。下へ進み、右の滝の裏をくぐってください。右へ行くと隠された *クリティカット* と *モンスターボール* があります。そこから左に戻って上へ。ここは先ほど訪れたエリアで、この階段からジャングル本体へ出られます。
 
-Still in the Underroot, head down from here and take the stairs downward on the east side of the waterfall. Hug the left wall as you go down. You'll find a *Potion*, *Blue Shard*, *Energy Powder*, *Heavy Ball*, and an *Elemental Seed* on the ground. Use the Light Shard if you need it and head back up.
+アンダールートに残ったまま、ここから下へ進み、滝の東側にある下り階段を使います。下りながら左の壁沿いを進んでください。*キズぐすり*、*あおいかけら*、*ちからのこな*、*ヘビーボール*、*エレメンタルシード* が地面に落ちています。必要なら *光のかけら* を使い、上へ戻りましょう。
 
-At the first fork, now go to the right. Grab a hidden *Oran Berry* and a *Hyper Potion* on the ground. Back up from here, take a right at the next fork.
+最初の分岐では、今度は右へ。隠された *オレンのみ* と、地面の *すごいキズぐすり* を拾います。そこから戻り、次の分岐で右へ進んでください。
 
-Go to the right when you can, get a hidden *Ice Heal*, and continue right to emerge into the jungle once more.
+行けるようになったら右へ進み、隠された *こおりなおし* を拾って、さらに右へ進むと再びジャングルに出ます。
 
-### Finishing Up in the Jungle
+### ジャングルの仕上げ {#finishing-up-in-the-jungle}
 
-Head out and to the right, and you'll actually pop out in Beryl Ward. There is a hidden *Super Potion* and a *PP Up* here. Head into this library.
+外に出て右へ進むと、実はベリル区に出ます。ここには隠された *いいキズぐすり* と *ポイントアップ* があります。この図書館に入りましょう。
 
-You can walk on the tops of bookshelves in here, do so to get *TM20 Safeguard* in the bottom-left corner as well as the *Corrosive Field Readout*. Enter the door on the right. Inside you'll find an *Ill-Fated Doll* and by talking to Growlithe and then the crevasse you find will find out what happened to Police Officer #5. Reading on the job: never again.
+中では本棚の上を歩けます。これを使って左下の隅で *わざマシン20 しんぴのまもり* と *腐食フィールドの資料* を回収してください。右の扉から中へ入ると *ふきつなにんぎょう* があり、**ガーディ** に話しかけてから見つかる裂け目を調べると、警官5人目の顛末が分かります。勤務中の読書は二度とすまい、というわけです。
 
-Enter the left room of the library if you'd like. Inside you'll meet a man.
+よければ図書館の左の部屋にも入ってみてください。中で男性に会えます。
 
-**Relationship Point Choices**:
-- Talk to Radomus in the library (+1 Radomus)
+**好感度の選択肢**:
+- 図書館でラドマスに話しかける (+1 ラドマス)
 
-Back outside, chop the tree to your left and enter the felled building.
+外に戻り、左の木を切って倒壊した建物に入ります。
 
 !battle(["Brenna", :MeteorGrunt_090, 0])
 
-Re-enter the jungle to the left. Grab a hidden *Exp. Candy S* and *Burn Heal*. You can talk to Amaria here, the second time she'll heal your party even.
+左からジャングルに入り直します。隠された *けいけんアメS* と *やけどなおし* を拾ってください。ここではアマリアに話しかけられ、2回目には手持ちを回復してくれます。
 
-**Relationship Point Choices**:
-- Talk to Amaria in the jungle (+1 Amaria)
+**好感度の選択肢**:
+- ジャングルでアマリアに話しかける (+1 アマリア)
 
-Cut down the wiggly tree nearby, then head back through the path through Beryl by the library, the jungle, and the underroot to return to the healing house in the eastern side of the jungle. It's time to finish up in this area. 
+近くの揺れる木を切ったら、図書館脇のベリルの道、ジャングル、アンダールートを通って、ジャングル東側の回復所まで戻ります。このエリアもいよいよ仕上げです。
 
-**NOTE: Reborn has multiple story splits throughout the game. There are multiple routes in the postgame based on decisions in the main game - one of these routes is more exclusive. That said, you actually get MORE story and context in the "normal" postgame route, so I personally recommend pursuing the exclusive route only on a second playthrough. Though for completion, I will still list all of the prerequisites for entering this route throughout this guide.**
+**注意: リボーンには物語の分岐が複数あります。本編での選択によってポストゲームのルートが分かれ、そのうち一方はより限定的なものです。ただし、実際には「通常」ルートのほうが物語も背景説明も多く読めるため、限定ルートは2周目以降で狙うことを個人的にはおすすめします。とはいえ網羅のため、このルートに入る条件はこの攻略で随時記載します。**
 
-**In order to access the exclusive postgame route, you need to save all five officers by this point.**
+**限定ルートに入るには、この時点までに5人の警官全員を救出しておく必要があります。**
 
-Prepare your team as necessary, and head up.
+必要に応じて手持ちを整え、上へ進みます。
 
 !battle(["Ace of Clubs", :ACECLUBS, 0], "Forest Field")
 
-Finally we get to battle Meteor's Ace themselves. I wish there was a way to not spoil the surprise of their first Pokemon in this guide, but that Pokemon and many more on their team have Grass moves that feed off of the terrain's 1.5x boost. Braixen can steal your items and hit pretty hard with Psybeam and Fire Spin, and Roselia, as we've seen with Fern, is a hard hitting and healing monster in the early game. Be extra careful with the ultimate PULSE Tangrowth: it likes to get boosts from double-strength Growth and Stamina, then hit hard with Stored Power.
+ついにチームメテオのエース本人との戦いです。この攻略では手持ち1匹目の意外性を隠す方法がないのが残念ですが、そのポケモンを含め編成の多くが、フィールドの1.5倍補正を受けるくさ技を持っています。**テールナー** は道具を奪ってくるうえ、*サイケこうせん* と *ほのおのうず* でそれなりの火力を出します。**ロゼリア** はファーンのときと同様、序盤では高火力かつ回復を備えた難敵です。最も警戒すべきは究極体の PULSE **モジャンボ** で、2倍効果の *せいちょう* と *じきゅうりょく* で積んでから *アシストパワー* で大打撃を与えてきます。
 
-One thing to consider is that, past Braixen, a Bug type can do pretty well here against their team, especially a special attacker or one with Swarm. Cut will also hit for double damage on Roselia and Tangrowth. If you're holding a Telluric Seed, it gives you a free Spiky Shield on its holder's first turn, so in a pinch you can abuse that to set up one of your own Pokemon so that Tangrowth goes down before it can boost too much. Or, you can simply use Slugma or Numel to transform the field to Burning and watch the majority of their team burn passively each turn.
+考慮に値するのは、テールナーさえ越えれば、むしタイプがこの編成にかなり有効だという点です。特に特殊アタッカーか *むしのしらせ* 持ちが良いでしょう。*いあいぎり* もロゼリアとモジャンボに2倍で通ります。*テルリックシード* を持たせておけば、持ち主の最初のターンに *ニードルガード* が無料で発動するので、いざというときはそれを利用して自分のポケモンを積ませ、モジャンボが積み切る前に倒し切ることもできます。あるいは単純に **マグマッグ** や **ドンメル** でフィールドを *燃えるフィールド* に変え、相手の大半が毎ターン受動的に焼かれるのを眺めるという手もあります。
 
-Once you win, you can find a hidden *Super Repel* in the next area. Head down. Here, you'll see a scene involving Corey.
+勝つと、次のエリアで隠された *シルバースプレー* が見つかります。下へ進むと、コーリーに関するイベントが起こります。
 
-**Relationship Point Choices**:
-- Find all five officers before fighting Ace (+1 Heather, +1 Anna, +1 Shade)
+**好感度の選択肢**:
+- エースと戦う前に5人の警官全員を見つけておく (+1 ヘザー、+1 アンナ、+1 シェイド)
 
-## Beryl Ward & Beryl Cemetery
+## ベリル区とベリル墓地 {#beryl-ward--beryl-cemetery}
 
-With that out of the way, we now can actually explore the main part of Beryl Ward.
+これでようやくベリル区の本体を探索できます。
 
 !enc(151)
 
-Before we do anything else, talk to the backpacker nearby a dumpster down from the Pokemart. If you give him $5000 he will give you the *Magnetic Lure*, an amazing item that, when equipped by your party leader, guarantees you will encounter a Pokemon you haven't caught yet in an area. No more do you have to aimlessly wander around an area looking for that 4% encounter!
+何より先に、ショップから下ったゴミ箱の近くにいるバックパッカーに話しかけてください。5000ドルを渡すと *じしゃくルアー* をくれます。これは先頭のポケモンに持たせると、そのエリアでまだ捕まえていないポケモンとの遭遇が確定するという破格の道具です。出現率4%の相手を求めて当てもなく歩き回る必要はもうありません。
 
-Nearby, on clear days, you'll find another snax vendor.
+近くでは、快晴の日にスナックの露店も出ています。
 
 !shop("Beryl Ward Snax", [["PokeSnax", 200]])
 
-Enter the building up and to the left from this guy. On a sunny day, go onto the rooftop to be able to obtain **Helioptile** in exchange for some snax. Inside the Pokemon center, an NPC will tell you a password: *easyhms*.
+この人物から上、そして左の建物に入ります。晴れの日に屋上へ上がると、ポケスナックと引き換えに **エリキテル** が手に入ります。ポケモンセンターの中では、NPCがパスワード *easyhms* を教えてくれます。
 
-Around the town, you can find 2 hidden *Blue Shards*, *Escape Rope*, *Fighting Gem*, *Potion*, *Red Shard*, and *HP Up*. 
+町の各所には、隠された *あおいかけら* 2個、*あなぬけのヒモ*、*かくとうジュエル*、*キズぐすり*、*あかいかけら*、*マックスアップ* があります。
 
-Continuing to the left into the cemetery area, you can find hidden *Elemental Seed* and *Poke Ball*.
+そのまま左の墓地エリアへ進むと、隠された *エレメンタルシード* と *モンスターボール* が見つかります。
 
 !enc(152)
 
-Next, we're gonna head back through the jungle to get to the library. In the left room you can find a *TwistedSpoon*. Could be useful soon.
+次に、ジャングルを通って図書館へ戻ります。左の部屋では *まがったスプーン* が手に入ります。近いうちに役立つはずです。
 
-Back in the jungle, explore around the area where we fought Ace. You'll find a hidden *Petaya Berry*, *Red Shard* as well as a *Great Ball*.
+ジャングルに戻り、エースと戦ったあたりを探索してください。隠された *ヤタピのみ*、*あかいかけら*、そして *スーパーボール* が見つかります。
 
-That about wraps up everything we can do for now, so head to the top of the hill in Beryl.
+現時点でできることはこれでほぼ全部なので、ベリルの丘の上へ向かいましょう。
 
-## VS. Agent Borealis
+## VS. ボレアリス捜査官 {#vs-agent-borealis}
 
-Head into the gym.
+ジムに入ります。
 
-### Didn't Save Police Route
+### 警官を救出しなかったルート {#didnt-save-police-route}
 
-If you saved the officers before fighting Ace, [jump to the next section](#saved-police-officers-route).
+エースと戦う前に警官を救出していた場合は、[次の節へ進んでください](#saved-police-officers-route)。
 
-If you want to access Corey's bedroom, you can turn all the pillars red.
+コーリーの寝室に入りたい場合は、柱をすべて赤にしてください。
 
-Head up and into the battle room.
+上へ進み、バトルの部屋へ入ります。
 
 !battle(["Corey", :Corey, 0], "Corrosive Field")
 
-As you can probably tell from the Corrosive Field notes, you'll be worn down by Poison type entry damage. Grass types have a really rough time here, and many special Ground moves otherwise super-effective against his team are cancelled out by a Poison type modifier. Thankfully half of his team isn't too dreadful: Skrelp and Nidorina don't hit too hard, and Croagunk isn't too threatening aside from his priority Sucker Punch. Mareanie hits hard with Merciless and Venoshock both always activated, but it's slow and not too bulky. His Skuntank however can hit decently hard by stacking Acid Sprays, and with its bulk, it can be a threat. You also need to be careful of Aftermath, which can knock out your sweeper. Most difficult of all is his Crobat, since it outspeeds almost every Pokemon you can have by this point and hits like a truck on this field with activated Venoshock.
+*腐食フィールド* の資料から察しがつくとおり、どくタイプの登場時ダメージでじわじわ削られます。くさタイプは非常に苦しく、相手の編成に本来抜群のはずの特殊じめん技も、どくタイプ補正で相殺されてしまいます。幸い、編成の半分はさほど恐ろしくありません。**クズモー** と **ニドリーナ** は火力が低く、**グレッグル** も先制の *ふいうち* を除けば脅威ではありません。**ヒドイデ** は *ひとでなし* と *ベノムショック* が常時発動して火力が出ますが、鈍足で耐久も高くありません。ただし **スカタンク** は *アシッドボム* を重ねればそこそこ痛く、耐久もあるため脅威になり得ます。*ゆうばく* でこちらのエースを倒されないよう注意も必要です。最も厄介なのは **クロバット** で、この時点で用意できるほぼ全てのポケモンを抜き、*ベノムショック* が乗ったこのフィールドでは凄まじい火力を出します。
 
-The key here is putting yourself in a position to be able to deal with Crobat. Thankfully, it's frail enough to die to one or two strong super-effective hits, so by either raising your speed or sending in something with some bulk, you may find success. Your own Poison types and Steel types are immune to a lot of the field's shenanigans, hence are good options. Psychic types are good as long as you can play around Sucker Punch. As long as you aren't going with Mud Shot and Mud Bomb, Ground types can be good at sweeping the weaker members of the team. You can also try to use the field to your advantage to some extent: Sleep Powder becomes 100% accurate here, and the Telluric Seed gives any Pokemon a free turn of protect. Unfortunately unless you're using your own Poison type strategies there isn't really much else you can do to exploit this field yourself, so bring a strong team and you can prevail.
+鍵はクロバットに対処できる態勢を作ることです。幸い耐久は低く、抜群の強打1〜2発で落ちるので、素早さを上げるか、耐久のあるポケモンを繰り出せば道が開けます。こちらのどくタイプ・はがねタイプはフィールドの悪さの多くを無効化できるため有力です。エスパータイプも *ふいうち* さえ捌ければ有効です。*マッドショット* や *どろばくだん* を選ばない限り、じめんタイプは弱い相手を薙ぎ払うのに向いています。フィールドをある程度こちらに利用することもできます。*ねむりごな* は命中100%になり、*テルリックシード* はどのポケモンにも1ターンの守りを与えます。残念ながら、自分でどくタイプ主体の戦術を取らない限りこのフィールドを活かす手段は多くないので、単純に強い編成で臨めば勝てるはずです。
 
-### Saved Police Officers Route
+### 警官を救出したルート {#saved-police-officers-route}
 
-If you didn't make this choice, [jump to the next section](#episode-4-aftershocks).
+この選択をしていない場合は、[次の節へ進んでください](/reborn/episode-4/#episode-4)。
 
-Talk to the chief to get the *Corrosive Mist Field Readout*.
+署長に話しかけて *腐食ミストフィールドの資料* を受け取ります。
 
 !battle(["Jameson", :PoliceOfficer, 0])
 
@@ -351,12 +351,12 @@ Talk to the chief to get the *Corrosive Mist Field Readout*.
 
 !battle(["Blackwell", :PoliceOfficer, 0])
 
-Turn all of the pillars blue. Each one will also change its neighbors, so keep that in mind while you solve this puzzle.
+柱をすべて青にします。1本を変えると隣も変わるので、それを踏まえて解いてください。
 
-Talk to the agent in his room, then head up into the arena once you're ready.
+自室にいる捜査官に話しかけ、準備ができたらアリーナへ上がります。
 
 !battle(["Borealis", :Corey, 0], "Corrosive Mist Field atop Corrosive Field")
 
-The Corrosive Mist Field notes explain that your non Poison and Steel types will be Poisoned by the field. Your special flying moves and bubble-based attacks will be nerfed against him as well. Thankfully half of his team isn't too dreadful: Skrelp and Nidorina don't hit too hard, and Croagunk isn't too strong, though it's Sucker Punch does have priority. Mareanie hits hard with Merciless and Venoshock exploiting your team being poisoned, but it is slow and not too bulky. However, Skuntank can hit decently hard by stacking Acid Sprays and hitting with boosted Flamethrower, and with its bulk it can stick around for a bit. It's Aftermath ability can also knock out your sweeper, so be careful. The biggest threat on his team is Crobat: it outspeeds almost every Pokemon you can have by this point and hits like a truck on this field with activated Venoshock. If you let it boost with Nasty Plot, it's very hard to win from there.
+*腐食ミストフィールド* の資料にあるとおり、どく・はがね以外のポケモンはフィールドによってどく状態にされます。特殊のひこう技と泡系の攻撃も、相手に対して威力が下がります。幸い、編成の半分はさほど恐ろしくありません。**クズモー** と **ニドリーナ** は火力が低く、**グレッグル** も強くはありません（ただし *ふいうち* は先制です）。**ヒドイデ** はこちらがどく状態であることを突いて *ひとでなし* と *ベノムショック* で火力を出しますが、鈍足で耐久も高くありません。一方 **スカタンク** は *アシッドボム* を重ね、強化された *かえんほうしゃ* でそこそこ痛く、耐久もあるため居座られます。*ゆうばく* でこちらのエースを落とされることもあるので注意してください。最大の脅威は **クロバット** です。この時点で用意できるほぼ全てのポケモンを抜き、*ベノムショック* が乗ったこのフィールドでは凄まじい火力を出します。*わるだくみ* を積ませてしまうと、そこから勝つのは非常に困難です。
 
-On this field, you really have to go fast so you're not worn down by Poison. On top of this, your goal has to be finding a way to deal with Crobat, since it likes to revenge kill your Pokemon that have already taken tons of Poison damage and sweep. However, it's frail enough to die to one or two well strong super-effective hits, so keeping a sturdy Rock, Electric, Ice, or Psychic type in the back holding the Atk/SpA boosting Elemental Seed may lead you to success. Your own Poison types and Steel types are immune to a lot of the field's shenanigans, hence are good options. Psychic types are good as long as you can play around Sucker Punch. I recommend using Fire moves since they're boosted by the field - only Skrelp and Mareanie resist them and they can hit hard in the right circumstances. A unique thing you can do is exploit the fact that Incinerate, Flame Burst, and Self-Destruct will knock out both active Pokemon and switch you to Corrosive Field (suggestions for that, if needed, are in the previous subsection), so if you are having trouble with Crobat or Skuntank you can send in a full health Slugma or Numel and try to do a kill from the grave.
+このフィールドでは、どくで削り切られる前に速攻を仕掛ける必要があります。そのうえで、クロバットへの対処法を見つけることが目標になります。どくダメージを大量に受けたこちらのポケモンを狩り取って、そのまま全抜きを狙ってくるからです。とはいえ耐久は低く、抜群の強打1〜2発で落ちるので、こうげき／とくこうを上げる *エレメンタルシード* を持たせた頑丈ないわ・でんき・こおり・エスパータイプを後方に控えさせておくと勝機が見えます。こちらのどくタイプ・はがねタイプはフィールドの悪さの多くを無効化できるため有力です。エスパータイプも *ふいうち* さえ捌ければ有効です。ほのお技はフィールドで強化されるのでおすすめします。半減できるのはクズモーとヒドイデだけで、条件が噛み合えば大きな火力になります。ひとつ独特な手として、*やきつくす*、*はじけるほのお*、*じばく* は場の両者を倒したうえでフィールドを *腐食フィールド* に変える性質があります（その場合の攻略は前の節を参照してください）。クロバットやスカタンクに手を焼いているなら、満タンの **マグマッグ** か **ドンメル** を繰り出して、相討ち覚悟の一撃を狙う手もあります。

@@ -4,6 +4,7 @@
 
 require 'fileutils'
 require_relative '_utils/md_generator'
+require_relative '_utils/chapter_nav'
 
 # Check for correct number of arguments
 if ARGV.length != 3
@@ -56,25 +57,12 @@ begin
   paginated_dir = File.join(chapters_dir, "#{game}-chapters")
   FileUtils.mkdir_p(paginated_dir)
 
-  chapters.each do |chapter|
-    page_title = if chapter[:slug] == 'appendices'
-                   "#{LONGNAMES[game].capitalize} Appendices"
-                 elsif chapter[:slug] == 'karma-files-paragon'
-                   "#{LONGNAMES[game].capitalize} Karma Files (Paragon)"
-                 elsif chapter[:slug] == 'karma-files-renegade'
-                   "#{LONGNAMES[game].capitalize} Karma Files (Renegade)"
-                 elsif chapter[:slug].start_with?('postgame-episode-')
-                   episode_num = chapter[:slug].sub('postgame-episode-', '')
-                   "#{LONGNAMES[game].capitalize} Postgame Episode #{episode_num}"
-                 elsif chapter[:slug].start_with?('episode-')
-                   episode_num = chapter[:slug].sub('episode-', '')
-                   "#{LONGNAMES[game].capitalize} Episode #{episode_num}"
-                 elsif chapter[:slug].start_with?('chapter-')
-                   chapter_num = chapter[:slug].sub('chapter-', '')
-                   "#{LONGNAMES[game].capitalize} Chapter #{chapter_num}"
-                 else
-                   "#{LONGNAMES[game].capitalize} #{chapter[:title]}"
-                 end
+  chapters.each_with_index do |chapter, chapter_index|
+    page_title = JaNames.page_title(LONGNAMES[game], chapter[:slug], chapter[:title])
+
+    # 前後移動と全章一覧。上下に同じものを置いて、読み終わった位置からも
+    # 次へ進めるようにする。
+    nav = ChapterNav.build(chapters, chapter_index, LONGNAMES[game])
 
     page_content = <<~PAGE_CONTENTS
       ---
@@ -82,14 +70,22 @@ begin
       permalink: /#{LONGNAMES[game]}/#{chapter[:slug]}/
       ---
 
+      #{nav}
+
       #{chapter[:content]}
+
+      #{nav}
     PAGE_CONTENTS
 
     page_file = File.join(paginated_dir, "#{chapter[:slug]}.md")
     File.write(page_file, page_content.strip)
   end
 
+  # 目次ページ。permalink が /<game>/ なので、トップからの着地点はこれになる。
+  File.write(File.join(paginated_dir, 'contents.md'), result[:index].strip)
+
   puts "Generated #{chapters.length} paginated chapter files in #{paginated_dir}"
+  puts "Generated contents page at /#{LONGNAMES[game]}/"
 rescue => e
   STDERR.puts "Error writing paginated chapter files: #{e.message}"
   exit 1

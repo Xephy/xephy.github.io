@@ -1,0 +1,116 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# 生マークダウンの見出しに Kramdown の {#id} を書き込む。
+#
+# 見出しを日本語に訳すと、英語から機械的に作っていたアンカーと URL スラッグが
+# 両方壊れる (英字以外が捨てられるので空文字列に潰れる)。訳す前に ID を明示して
+# おけば、見出しの文言と識別子を切り離せる。
+#
+#   ## Grand Hall            ->  ## Grand Hall {#grand-hall}
+#   （翻訳後）                    ## グランドホール {#grand-hall}
+#
+# 冪等。既に {#id} がある見出しは触らない。
+#
+#   bin/add-heading-ids [--game reborn] [--dry-run]
+
+require 'optparse'
+
+opts = { game: 'reborn', dry_run: false, reset: false }
+OptionParser.new do |o|
+  o.on('--game GAME') { |v| opts[:game] = v }
+  o.on('--dry-run')   { opts[:dry_run] = true }
+  o.on('--reset')     { opts[:reset] = true }
+end.parse!
+
+root = File.expand_path('..', __dir__)
+dir = File.join(root, 'src', '_raw', opts[:game])
+abort "生マークダウンが見つかりません: #{dir}" unless Dir.exist?(dir)
+
+# 章の並び順。h1 の ID は wt_generator の URL スラッグと一致させる必要があるので、
+# ファイル名から決める (訳した見出し文からは復元できないため)。
+def chapter_slug(basename)
+  case basename
+  when /\Amain_ep_(\d+)\z/    then "episode-#{Regexp.last_match(1).to_i}"
+  when /\Apost_ep_(\d+)\z/    then "postgame-episode-#{Regexp.last_match(1).to_i}"
+  when /\Apara_ep_(\d+)\z/    then "chapter-#{Regexp.last_match(1).to_i}"
+  when 'appendices'           then 'appendices'
+  end
+end
+
+# Kramdown の auto_ids と同一手順で ID を作る。独自の整形を混ぜると、本文中に
+# 既に手書きされている ](#...) リンクの行き先とずれる。先頭の非英字を落とすので
+# 結果は必ず英字始まりになり、IAL としても正しく解釈される。
+def base_slug(text)
+  text
+    .sub(/\A[^a-zA-Z]+/, '')
+    .gsub(/[^a-zA-Z0-9 -]/, '')
+    .tr(' ', '-')
+    .downcase
+end
+
+def valid_id?(id)
+  !id.empty? && id.match?(/\A[a-zA-Z]/)
+end
+
+files = Dir.children(dir).grep(/\.md\z/).sort_by do |f|
+  b = File.basename(f, '.md')
+  [b.start_with?('main') ? 0 : b.start_with?('para') ? 1 : b.start_with?('post') ? 2 : 3, b]
+end
+
+seen = {}
+changed = 0
+touched = []
+
+files.each do |file|
+  path = File.join(dir, file)
+  base = File.basename(file, '.md')
+  lines = File.readlines(path)
+  file_changed = false
+
+  lines.each_with_index do |line, i|
+    m = line.match(/\A(\#{1,6})\s+(.*?)\s*\z/)
+    next unless m
+
+    hashes, text = m[1], m[2]
+
+    if (existing = text.match(/\A(.*?)\s*\{#([^}]+)\}\z/))
+      if opts[:reset]
+        text = existing[1] # 剥がして下で付け直す
+      elsif valid_id?(existing[2])
+        seen[existing[2]] = 0 unless seen.key?(existing[2])
+        next
+      else
+        # Kramdown は英字始まりでない ID を IAL と認めず {#...} を本文に晒す。
+        text = existing[1]
+      end
+    end
+
+    id =
+      if hashes.length == 1 && chapter_slug(base)
+        chapter_slug(base)
+      else
+        base_slug(text)
+      end
+    id = "section-#{i}" unless valid_id?(id) # 記号だけの見出しへの保険
+
+    # ページをまたいだ重複も避ける。一枚版 (/all/) では全章が同居するため。
+    if seen.key?(id)
+      seen[id] += 1
+      id = "#{id}-#{seen[id]}"
+    end
+    seen[id] = 0 unless seen.key?(id)
+
+    lines[i] = "#{hashes} #{text} {##{id}}\n"
+    file_changed = true
+    changed += 1
+  end
+
+  next unless file_changed
+
+  touched << file
+  File.write(path, lines.join) unless opts[:dry_run]
+end
+
+puts "#{opts[:dry_run] ? '[dry-run] ' : ''}#{changed} 個の見出しに ID を付与 (#{touched.length} ファイル)"
+puts "重複のため連番を付けた ID: #{seen.count { |_, v| v.positive? }} 件"

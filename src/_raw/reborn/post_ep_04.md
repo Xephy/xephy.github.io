@@ -1,488 +1,488 @@
-# Postgame Episode 4: Across Space & Time
+# ポストゲーム エピソード4: 時空を越えて {#postgame-episode-4}
 
-Back in the Nightclub, we can pick from a large number of quests.
+ナイトクラブに戻ると、たくさんのクエストから選べるようになっています。
 
-## Twilight Desert (Part 1)
+## たそがれの砂漠 (前編) {#twilight-desert-part-1}
 
-First, talk to Marcello on the left for a new quest. He'll also sell us some Lemonade!
+まずは左手のマルチェロに話しかけ、新しいクエストを受けます。ミックスオレも売ってくれます!
 
 !shop("Marcello's Lemonade (Nightclub)", [["Lemonade", 350], ["Blue Moon Lemonade", 100000000]])
 
-We actually can't progress to the end of postgame without buying a Blue Moon.... just kidding.
+実はブルームーンレモネードを買わないとポストゲームを最後まで進められません……というのは冗談です。
 
-Make your way to the Grandview Station, then head to the desert. As soon as you get off the train, go up a few tiles from the train station then go straight to the right. You'll find a New World Door!
+グランドビュー駅へ向かい、砂漠へ出ます。列車を降りたらすぐ、駅から数マス上へ進み、そのまままっすぐ右へ向かいます。新世界の扉が見つかります!
 
 !enc(841)
 
 !img("twilight.png")
 
-This map actually loops back onto itself from its west and east ends, so is a bit tricky to navigate. The map above should help you get a feel for which parts of the map connect. Hope you like Zygarde Cells, by the way. If you don't care about collecting them, you can just go straight up in this area.
+このマップは実は東西の端でつながって一周しているので、少し進みにくくなっています。上の地図があれば、どの区画がどこにつながっているか把握しやすいはずです。ちなみに、ジガルデセルはお好きですか。集めるつもりがなければ、このエリアはまっすぐ上へ進んでも構いません。
 
-Start by going straight to the left (path 5), hugging the bottom wall. You'll eventually find:
+まずは下の壁沿いに、まっすぐ左へ進みます（経路5）。やがて次が見つかります。
 
-**ZCell 05: Twilight Desert**
+**Zセル05: たそがれの砂漠**
 
 !img("zcell_05.jpg")
 
-Make your way back to the entrance area, and go up into the next horizontal section. Go right, then down and left (path 6) to reach:
+入口のエリアまで戻り、上へ進んで次の横方向の区画に入ります。右へ、続いて下そして左へ進むと（経路6）、次にたどり着きます。
 
-**ZCell 06: Twilight Desert**
+**Zセル06: たそがれの砂漠**
 
 !img("zcell_06.jpg")
 
-Make your way back to the "middle" of the map, and go up into the next horizontal section once more. To your right is a narrow pathway, but it leads to a dead end. Instead, go slightly up and follow the path (7) left. You'll see two cells we can't get quite yet - keep following the path left for now. Eventually, you'll reach:
+マップの「中央」まで戻り、もう一度上へ進んで次の横方向の区画に入ります。右手には細い道がありますが、行き止まりです。代わりに少し上へ進み、道を左へたどります（経路7）。まだ取れないセルが2つ見えますが、今はそのまま道を左へたどり続けてください。やがて次にたどり着きます。
 
-**ZCell 07: Twilight Desert**
+**Zセル07: たそがれの砂漠**
 
 !img("zcell_07.jpg")
 
-Backtrack all the way to just southeast of the two cells separated by the palm tree above. Go up to the next horizontal section (follow path 8). Left from here, you'll find:
+上でヤシの木に隔てられた2つのセルの、すぐ南東までずっと引き返します。上へ進んで次の横方向の区画に入ります（経路8をたどります）。そこから左に、次が見つかります。
 
-**ZCell 08: Twilight Desert**
+**Zセル08: たそがれの砂漠**
 
 !img("zcell_08.jpg")
 
-Next, go straight to the right, and follow the twisting path (9) to the right. You'll eventually reach the other cell we saw earlier:
+次に、まっすぐ右へ進み、曲がりくねった道を右へたどります（経路9）。やがて先ほど見えたもう1つのセルにたどり着きます。
 
-**ZCell 09: Twilight Desert**
+**Zセル09: たそがれの砂漠**
 
 !img("zcell_09.jpg")
 
-Head all the way back to the middle. Hopefully we're starting to understand how this area works! Go up then left (path 10):
+中央までずっと戻ります。このエリアの仕組みがそろそろ掴めてきたのではないでしょうか。上へ、そして左へ進みます（経路10）。
 
-**ZCell 10: Twilight Desert**
+**Zセル10: たそがれの砂漠**
 
 !img("zcell_10.jpg")
 
-Going all the way right (path 11) will lead you to:
+そこからずっと右へ進むと（経路11）、次にたどり着きます。
 
-**ZCell 11: Twilight Desert**
+**Zセル11: たそがれの砂漠**
 
 !img("zcell_11.jpg")
 
-Back in the middle, climb the first set of dunes to go up a tier, but don't climb up the second quite yet. Follow the narrow path (12) to the right to:
+中央に戻り、最初の砂丘を登って1段上がりますが、2つ目はまだ登らないでください。細い道を右へたどると（経路12）、次が見つかります。
 
-**ZCell 12: Twilight Desert**
+**Zセル12: たそがれの砂漠**
 
 !img("zcell_12.jpg")
 
-Back at the fork, climb the final set of dunes. Going up from here, you'll see a large structure. Start by going to the left (path 13). You'll see a lever (A) at the top of some stairs - pull it. Head left from here, and you'll find:
+分岐に戻り、最後の砂丘を登ります。そこから上へ進むと、大きな構造物が見えます。まずは左へ進みます（経路13）。階段の上にレバー (A) が見えるので、引いてください。そこから左へ進むと、次が見つかります。
 
-**ZCell 13: Twilight Desert**
+**Zセル13: たそがれの砂漠**
 
 !img("zcell_13.jpg")
 
-From here, continue going around the loop until you see an open door up some stairs (gamma). Head in. Inside, you'll find two screens. Talk to each screen, then head back out.
+そこから環状路を回り続けると、階段の上に開いた扉（γ）が見えます。入りましょう。中には画面が2つあります。それぞれに話しかけたら、外へ戻ります。
 
-Go left from here, and you'll find a path up that leads to another lever (B) and a door (beta). The door is currently a dead end, so pull the lever, then left once more. Pull the first lever (A) once more, then go left again. Enter the now-open door (delta) that you'll see. Talk to the green machine on the left to get:
+そこから左へ進むと、上へ続く道があり、その先に別のレバー (B) と扉（β）があります。この扉は今のところ行き止まりなので、レバーを引いてからもう一度左へ進みます。最初のレバー (A) をもう一度引き、また左へ進みます。開いている扉（δ）が見えるので入ってください。左手の緑の機械に話しかけると、次が手に入ります。
 
-**ZCell 14: Twilight Desert**
+**Zセル14: たそがれの砂漠**
 
 !img("zcell_14.jpg")
 
-Talk to the machine on the right, and you'll be able to merge ten of the cells we've found so far into **Zygarde 10%**. You can deconstruct this Zygarde, if you want.
+右手の機械に話しかけると、ここまでに見つけたセル10個を合体させて **ジガルデ（10%フォルム）** にできます。望むなら、このジガルデを分解して戻すこともできます。
 
-Head outside, and go to the right. Past the first lever, there will be a new opened door (alpha, above). One of the monitors in here will give you as many Zygarde Cells as you've found so far in *Cell Imprints*, the game's ONLY way of increasing IV's on our Pokemon. As you might guess, the Cells are limited in total number, so be sure when you use these on your Pokemon. You can come back here anytime to get more as you get more Cells. Anyways, talk to the other machine then head back outside.
+外へ出て右へ進みます。最初のレバーの先に、新しく開いた扉（上図のα）があります。ここのモニターの1つが、これまでに見つけたセルの数だけ *セルのこくいん* をくれます。これはこのゲームで唯一、ポケモンの個体値を上げられる手段です。ご想像のとおりセルの総数には限りがあるので、どのポケモンに使うかはよく考えてください。セルが増えたら、いつでもここへ戻って追加でもらえます。ともあれ、もう一方の機械にも話しかけたら外へ戻ります。
 
-From here, go right, then up. Enter the door here (beta). The gate inside is now gone, so you can head up. Talk to Florinia.
+そこから右へ、そして上へ進みます。ここの扉（β）に入ります。中の門は無くなっているので上へ進めます。フロリニアに話しかけてください。
 
-That's all we have to do here for now. If you pull the first lever outside to the left (A), the stairs to the left that lead into a room we previously checked out (gamma) will reappear. Inside, you can trade Cell Imprints for *Negative Imprints*, which instead turn an IV to 0. Helpful for maximizing a Trick Room or Gyro Ball user's effectiveness.
+ここでやることは今のところ以上です。外の左手にある最初のレバー (A) を引くと、先ほど見た部屋（γ）へ通じる左の階段がまた現れます。中では *セルのこくいん* を *ネガティブのこくいん* と交換できます。こちらは個体値を0にするもので、*トリックルーム* 要員や *ジャイロボール* 使いの性能を最大化するのに役立ちます。
 
-Feel free to return for more Cell and Negative Imprints when you need to, but for now return to the Nightclub!
+必要になったらいつでもセルのこくいんとネガティブのこくいんを取りに戻って構いませんが、今のところはナイトクラブへ戻りましょう!
 
-## Anomaly at Chrysolia Springs
+## クリソリア温泉のアノマリー {#anomaly-at-chrysolia-springs}
 
-Talk to your gang leader on the right side, and they'll tell you about something going down at the Chrysolia Springs. Head over to Spinel Town, make your way into the forest, then enter the Springs on the left side.
+右側にいる自分の団のリーダーに話しかけると、クリソリア温泉で何かが起きていると教えてくれます。スピネルタウンへ向かい、森を抜けて、左側から温泉に入ります。
 
-Surf across, push the boulder out of the way, then jump down to the basement floor. Head up once you're ready!
+なみのりで渡り、岩を押しのけて、地下の階へ飛び降ります。準備ができたら上へ進みましょう!
 
 !battle(["Volcanion", :VOLCANION, 0], "Super-Heated Field")
 
-Another anomaly fight. Field boosted Steam Eruption, Heat Wave, Surf, etc. can all be potentially deadly, so watch out for those.
+またアノマリー戦です。フィールド強化された *スチームバースト*、*ねっぷう*、*なみのり* などはいずれも致命的になり得るので注意してください。
 
-After winning, you'll be able to fight **Volcanion**. Exit and return to the Nightclub once you're done.
+勝つと **ボルケニオン** と戦えます。済んだら外へ出てナイトクラブへ戻ります。
 
-## Chrysolia Deepwoods Poachers
+## クリソリア深林の密猟者 {#chrysolia-deepwoods-poachers}
 
-Next, talk to Smeargle to get a new quest. Head outside and talk to Arclight, then fly over to Spinel Town. Enter the forest and enter the Lost Railcave in the bottom-right corner.
+次にドーブルに話しかけて新しいクエストを受けます。外に出てアークライトに話しかけたら、スピネルタウンへ飛びます。森に入り、右下の隅の廃線どうくつに入ってください。
 
-In each room, enter the door that has two rocks closest to it. Eventually you will reach a room containing Arclight. After the conversation, enter the New World Door in the next path.
+どの部屋でも、最も近くに岩が2つある扉に入ります。やがてアークライトのいる部屋にたどり着きます。会話のあと、次の道にある新世界の扉に入ります。
 
 !enc(847, nil, nil, "New World (Chrysolia Railcave)")
 
-Make your way to the top right side of the area. By going behind the tree, you'll be able to sneak around the top of the map to the top left corner. Follow this path there then all the way down to the bottom left side to reach:
+エリアの右上側へ向かいます。木の裏を通ると、マップ上部をこっそり回り込んで左上の隅まで行けます。この道をたどり、そこから左下側までずっと下ると、次にたどり着きます。
 
-**ZCell 15: New World (Chrysolia Railcave)**
+**Zセル15: 新世界（クリソリア廃線どうくつ）**
 
 !img("zcell_15.jpg")
 
-Back in the center, climb the stairs on the hill and interact with the tall pillar at the top of the hill to create some electric platforms at the bottom right. If you're on Lin Route, you'll get taunted as you activate the pillars. Anyways, follow the new path.
+中央に戻り、丘の階段を上って頂上の高い柱を調べると、右下に電気の足場ができます。リンルートの場合、柱を起動するたびに煽られます。ともあれ、新しくできた道をたどりましょう。
 
-Activate pillars on these islands, then follow the paths they create. One of the islands towards the bottom has a *Max Repel* on it. Eventually you'll have to backtrack to reach the next set of electric platforms, proceed to the left once you backtrack enough.
+これらの島で柱を起動し、そのたびにできる道をたどります。下寄りの島の1つには *ゴールドスプレー* があります。次の電気の足場にたどり着くには途中で引き返す必要があるので、十分に戻ったら左へ進んでください。
 
-On Lin Route, you'll be given a prompt to release some of your Pokemon. This event is huge and branching... but aside from tons of great dialogue, the only thing that 'matters' aside from your morals is that if you release a lot of Pokemon, you'll get a *Sacred Ash*. You can back out of the PC a bunch of times if you don't want to release anything.
+リンルートでは、ポケモンを何匹か逃がすかどうかを尋ねられます。このイベントは大がかりで分岐も多いのですが……素晴らしい会話が大量にある点を除けば、倫理観の問題を別にして「結果に関わる」のは、多くのポケモンを逃がすと *せいなるはい* がもらえることだけです。何も逃がしたくなければ、パソコンの操作を何度もキャンセルして構いません。
 
-Once the pillar is activated, cross the bridge to the right, then again to a new landmass. In the top right, corner, you can find:
+柱を起動したら、右の橋を渡り、さらにもう一度渡って新しい陸地へ向かいます。右上の隅では、次が見つかります。
 
-**ZCell 16: New World (Chrysolia Railcave)**
+**Zセル16: 新世界（クリソリア廃線どうくつ）**
 
 !img("zcell_16.jpg")
 
-Enter the New World Door at the bottom to return to the Chrysolia Deepwoods. Talk to Arclight here, then make your way through the Deepwoods to defeat the poachers. Arclight will heal you, if you need it. The first is up from Arclight:
+下部の新世界の扉に入り、クリソリア深林へ戻ります。ここでアークライトに話しかけたら、深林を巡って密猟者を倒しましょう。必要ならアークライトが回復してくれます。1人目はアークライトから上へ進んだところにいます。
 
 !battle(["Margo", :POACHERF, 0], "Forest Field")
 
-The second can be found where the Reveal Glass was, on the top right side of the large structure.
+2人目は、大きな構造物の右上側、*うつしかがみ* があった場所で見つかります。
 
 !battle(["Atreus", :POACHERM, 0], "Forest Field")
 
-The third can be found on top of the bridge, accessible via the bottom right side of the map.
+3人目は橋の上にいて、マップの右下側から行けます。
 
 !battle(["Willow", :POACHERF, 0], "Forest Field")
 
-Head to the top right corner once you're ready to fight the Commissioner.
+準備ができたら右上の隅へ向かい、ちょうかんと戦います。
 
 !battle(["Shannon", :SHANNON, 0], "Forest Field")
 
-Nothing too crazy here, though there is a good mix of fast and slow, bulky and hard-hitting. Once you win, talk to **Zeraora** to obtain it! Accept the fast travel back to the Nightclub.
+とりわけ無茶な相手ではありませんが、速いポケモンと遅いポケモン、硬いポケモンと高火力のポケモンがうまく混ざっています。勝ったら **ゼラオラ** に話しかけると手に入ります! 高速移動でナイトクラブへ戻りましょう。
 
-## Aegir Cave
+## エーギルどうくつ {#aegir-cave}
 
-Talk to Randall in the Nightclub, and accept his quest. Fly over to the Victory Road Pokemon Center.
+ナイトクラブでランドールに話しかけ、クエストを受けます。ロード前ポケモンセンターへ飛びます。
 
-Enter Victory Road, then follow Victini up. Enter the room directly up, and follow Bennett into the next room... I audibly gasped when I saw what was next.
+チャンピオンロードに入り、ビクティニを追って上へ進みます。すぐ上の部屋に入り、ベネットを追って次の部屋へ……次に何が出てくるかを見て、思わず声が出ました。
 
-Another LOGIC PUZZLE! As always, I will recommend using the [spreadsheet](..\assets\vr_logic_puzzle_sheets.xlsx).
+またも論理パズルです! 例によって[スプレッドシート](..\assets\vr_logic_puzzle_sheets.xlsx)の使用をおすすめします。
 
-The clues:
+手がかりは次のとおりです。
 
-1. No two crystals share any same quality.
-2. The Purity of the 'Coxcomb' gem is less than the Purity of the 'Miniscule' gem, which is less than the Purity of the 'Vitreous' gem.
-3. The Hardness of the 'Eminent' gem is less than the Hardness of the 'Perfect' gem, which is less than the Hardness of the 'Cubic' gem.
-4. The Purity of the gem with a Hardness of 5 is less than the Purity of the gem with 'Perfect' Foliation, which is less than the Purity of the 'Pearly' gem.
-5. The Luster of the 'Tabular' gem is less than the luster of the 'Cubic' gem, which is less than the Luster of the gem with 'Indistinct' Foliation.
-6. The Size of the 'Coxcomb' gem is less than the Size of the 'Indistinct' gem, which is less than the Size of the gem with a Hardness of 8.
-7. The Foliation of the 'Hexagonal' gem is less than the Foliation of the 'Large' gem, which is less than the Foliation of the gem with a Hardness of 7.
-8. The Habit of the 'Flawless' gem is less than the Habit of the 'Pearly' gem, which is less than the Habit of the 'Silky' gem.
+1. 同じ特性を共有する宝石は2つとない。
+2. 晶癖「鶏冠状」の宝石の純度は「極小」の宝石の純度より低く、「極小」の宝石の純度は「ガラス状」の宝石の純度より低い。
+3. 片理「顕著」の宝石の硬度は片理「完全」の宝石の硬度より低く、「完全」の宝石の硬度は「立方状」の宝石の硬度より低い。
+4. 硬度5の宝石の純度は、片理「完全」の宝石の純度より低く、その宝石の純度は「真珠状」の宝石の純度より低い。
+5. 晶癖「板状」の宝石の光沢は「立方状」の宝石の光沢より弱く、「立方状」の宝石の光沢は片理「不明瞭」の宝石の光沢より弱い。
+6. 晶癖「鶏冠状」の宝石のサイズは「不明瞭」の宝石のサイズより小さく、「不明瞭」の宝石のサイズは硬度8の宝石のサイズより小さい。
+7. 晶癖「六角状」の宝石の片理は「大」の宝石の片理より少なく、「大」の宝石の片理は硬度7の宝石の片理より少ない。
+8. 純度「完璧」の宝石の晶癖は「真珠状」の宝石の晶癖より小さく、「真珠状」の宝石の晶癖は「絹糸状」の宝石の晶癖より小さい。
 
-You'll also notice that there are rocks on some of the tracks for the gems: this provides us more information for our puzzle. I have blocked out the corresponding spaces in the spreadsheet.
+宝石のレールの一部に岩が置かれていることにも気づくはずです。これもパズルの手がかりになります。対応するマスは、スプレッドシート上で塗り潰しておきました。
 
-The solution:
+解答はこちらです。
 
 !img("vr_puzzle_5.jpg")
 
-Bennett will just do it for you if you fail too many times.
+何度も失敗すると、ベネットが代わりに解いてくれます。
 
-**Relationship Point Choices**:
-- Solve Logic Puzzle 5 in five or fewer tries (+1 Bennett)
+**好感度の選択肢**:
+- 論理パズル5を5回以内で解く (+1 ベネット)
 
-Once you succeed, head up. Grab the hidden *Exp. Candy XL* and proceed. Enter the New World Door.
+成功したら上へ進みます。隠された *けいけんアメXL* を拾って先へ進み、新世界の扉に入ります。
 
 !enc(852, nil, nil, "New World (Victory Road)")
 
-Follow the path to the next area.
+道をたどって次のエリアへ進みます。
 
 !enc(850)
 
 !enc(849, ["Headbutt"])
 
-Head to the left and talk to Bennett and Serra. Bennett will ask us to gather 7 ingredients: Sweet Apple, Tart Apple, Balm Mushroom, Pecha Berry, Berry Juice, Stick, and Rage Powder. He'll also offer to teach Headbutt to one of our Pokemon, if we need it.
+左へ進んでベネットとセラに話しかけます。ベネットから食材を7つ集めるよう頼まれます。*あまーいりんご*、*すっぱいりんご*、*かおるキノコ*、*モモンのみ*、*きのみジュース*、*ながねぎ*、*いかりのこな* です。必要なら、手持ちの1匹に *ずつき* を教えるとも申し出てくれます。
 
-Time to wander around the area looking for these things. On this floor you can find a hidden *Ultra Ball*, *Net Ball*, and *Ability Capsule*. Start by jumping into the hole towards the left side, down a muddy slope. On this bottom level, you can talk to a tree to get the *Sweet Apple*.
+これらを探してエリアを歩き回りましょう。この階では隠された *ハイパーボール*、*ネットボール*、*とくせいカプセル* が見つかります。まずは左寄りの穴に飛び込み、泥の斜面を下ります。この最下層では、木に話しかけると *あまーいりんご* が手に入ります。
 
-Jump down the muddy slope to the left. Towards the top of this area, hop across the pillars to get a hidden *Blue Shard*, *Stardust*, and *Full Heal*. You can also grab the *Tart Apple* in a nearby tree. Backtrack to the left side of the lake, and go down to find a hidden *Ultra Ball*. Going to the right past some trees will lead us to red trees where we can grab some *Rage Powder*. Climb the ladder to the left.
+左の泥の斜面を飛び降ります。このエリアの上部では、柱を飛び移ると隠された *あおいかけら*、*ほしのすな*、*なんでもなおし* が手に入ります。近くの木では *すっぱいりんご* も取れます。湖の左側まで引き返し、下へ進むと隠された *ハイパーボール* が見つかります。右へ、木々の先へ進むと赤い木があり、*いかりのこな* が手に入ります。左のはしごを登ってください。
 
-Back on the upper level, go up to find a hidden *Pecha Berry* in a rock. You can also steal them from wild Wurmple if you lose this one, somehow. On the bottom right of this area are some pillars, leading to a hidden *Dusk Ball* as well as:
+上の階に戻り、上へ進むと岩に隠された *モモンのみ* が見つかります。万一これを失っても、野生のケムッソから盗む手もあります。このエリアの右下には柱があり、その先に隠された *ダークボール* と、次が見つかります。
 
-**ZCell 17: Aegir Cave**
+**Zセル17: エーギルどうくつ**
 
 !img("zcell_17.jpg")
 
-Return to the bottom floor and take the ladder up, in the top left. Make your way back to Bennett, then jump in the hole above him. Grab the *Ultra Ball*, then climb down the rocks and get onto the water. Grab the hidden *Nugget* below the pillars, as well as:
+最下層に戻り、左上のはしごを登ります。ベネットのところまで戻り、その上の穴に飛び込みます。*ハイパーボール* を拾ったら、岩を下って水面に出ます。柱の下の隠された *きんのたま* と、次を回収してください。
 
-**ZCell 18: Aegir Cave**
+**Zセル18: エーギルどうくつ**
 
 !img("zcell_18.jpg")
 
-Hop down the mudslide then return to the upper level. All the way in the bottom right corner, you can jump across a stone and into a hole. Climb the waterfall to reach:
+泥の滑り台を下り、上の階へ戻ります。右下の隅までずっと進むと、石を飛び越えて穴に入れます。滝を登ると次にたどり着きます。
 
-**ZCell 19: Aegir Cave**
+**Zセル19: エーギルどうくつ**
 
 !img("zcell_19.jpg")
 
-Head back down and dive.
+下へ戻って潜ります。
 
 !enc(851, nil, nil, "Aegir Cave Underwater")
 
-You'll find a hidden *Max Repel*, *Super Potion*, and *Net Ball* down here. Surface at the end, grabbing the hidden *Berry Juice* in this room. You can steal these from wild Shuckle if you lose this one.
+ここでは隠された *ゴールドスプレー*、*いいキズぐすり*、*ネットボール* が見つかります。突き当たりで浮上し、この部屋で隠された *きのみジュース* を拾います。万一これを失っても、野生のツボツボから盗めます。
 
-Exit from here at the bottom, grab the hidden *Dusk Ball*, and hop down onto the lake. Pick up the *Ultra Ball* in the middle of the lake, then climb the waterfall at the top of the area. Inside the cave is a *Balm Mushroom*.
+ここから下部を通って出て、隠された *ダークボール* を拾い、湖へ飛び降ります。湖の中央の *ハイパーボール* を拾ったら、エリア上部の滝を登ります。洞窟の中には *かおるキノコ* があります。
 
-Back down on the large lake, dive down. You'll be able to find a hidden *Blue Shard*, *Rawst Berry*, *Exp. Candy XL*, and *Elixir*. Enter the cave here to find:
+大きな湖へ戻って潜ります。隠された *あおいかけら*、*チーゴのみ*、*けいけんアメXL*、*ピーピーエイダー* が見つかります。ここの洞窟に入ると、次が見つかります。
 
-**ZCell 20: Aegir Cave**
+**Zセル20: エーギルどうくつ**
 
 !img("zcell_20.jpg")
 
-Surface, then talk to Serra near the bottom of the lake. Head right and climb the ladder. Back on the upper level, go to the top right corner and use the ladder here to reach a *Stick*. That's all the ingredients, so return to Bennett. Once you're ready, talk to **Victini** for a battle!
+浮上して、湖の下部近くのセラに話しかけます。右へ進んではしごを登ります。上の階に戻り、右上の隅へ行ってここのはしごを使うと *ながねぎ* が手に入ります。これで食材はすべて揃ったので、ベネットのもとへ戻りましょう。準備ができたら **ビクティニ** に話しかけるとバトルです!
 
-Agree to walk back with them.
+一緒に歩いて帰る申し出を受けます。
 
-## Agate Circus Ferris Wheel
+## アゲートサーカスの観覧車 {#agate-circus-ferris-wheel}
 
-Talk to Cass in the Nightclub, then fly over to the Agate Circus. The Ferris Wheel area is finally open, so make your way there.
+ナイトクラブでキャスに話しかけ、アゲートサーカスへ飛びます。観覧車のエリアがついに開放されたので、そこへ向かいます。
 
-Grab the hidden *Beast Ball* to the left.
+左手で隠された *ウルトラボール* を拾います。
 
 !shop("Agate Circus Ferris Wheel", [["Beast Ball", 9000]])
 
-You can buy a couple more of these to make bagging the Ultra Beasts easier, if you want.
+よければ、ウルトラビーストを捕まえやすくするために、もう何個か買っておいてもいいでしょう。
 
-Once the crowd clears, you can pick up a hidden *Full Restore* and *Purple Shard*. Talk to the ringmaster to get signed up for the tournament, then talk to the clowns when you're ready. It's a 3v3 tournament on random fields.
+人混みがはけたら、隠された *かいふくのくすり* と *むらさきのかけら* を拾えます。サーカスだんちょうに話しかけてトーナメントに登録し、準備ができたらピエロたちに話しかけます。ランダムフィールドでの3対3のトーナメントです。
 
 !battle(["McKrezzy", :MCKREZZY, 1], "Random Field")
 
-Nothing crazy here, just be careful of the Kommo-o sweep.
+とりわけ無茶な相手ではありませんが、ジャラランガの一掃にだけ注意してください。
 
-The hidden *Max Revive* will be accessible after this one. Talk to the Ringmaster to get the next pairings.
+隠された *げんきのかたまり* は、この戦いのあとに取れるようになります。サーカスだんちょうに話しかけて次の組み合わせを聞きます。
 
 !battle(["Julia", :JULIA, 3], "Random Field")
 
-Especially with a non-electric Field Effect, shouldn't be too hard.
+とりわけでんき以外のフィールド効果になれば、さほど難しくないはずです。
 
-The third pairing:
+3戦目の組み合わせです。
 
 !battle(["CL:4R1-C3", :BRELOOM, 1], "Random Field")
 
-This one is surprisingly tough. Even with a field effect that is beneficial, you still have to contend with the raw power of Magnezone, easy boosting potential of Magearna, and especially the absolute unit that is CL:4R1-C3 Breloom. Consider setting up on Magnezone somehow in order to oneshot the latter two. You can always save and reset for a more beneficial field, in a pinch.
+これは意外と手強いです。有利なフィールド効果を引いたとしても、ジバコイルの純粋な火力、マギアナの積みやすさ、そして何よりCL:4R1-C3キノガッサという規格外の存在に対処しなければなりません。どうにかジバコイルに対して積んで、残る2匹を一撃で倒せるようにするのも一案です。いざとなれば、より有利なフィールドが出るまでセーブとリセットを繰り返す手もあります。
 
 !battle(["Alistasia", :RINGMASTER, 1], "Random Field")
 
-Shouldn't be too ridiculous as long as you're aware of the horrors these three are capable of.
+この3匹に何ができるかさえ把握していれば、とんでもない相手ではないはずです。
 
-Finally, the last match is with Cass. If we pet Glaceon way back in the glass workstation, we will get to fight the first team:
+そして最終戦はキャスとの一戦です。ずっと前のガラス工房でグレイシアを撫でていた場合、こちらの編成と戦うことになります。
 
 !battle(["Cass", :CASS, 1], "Random Field")
 
-Nothing too impossible here. If we didn't pet Glaceon, however.......
+とても勝てないというほどではありません。ただし、グレイシアを撫でなかった場合は……
 
 !battle(["Cass", :CASS, 2], "Random Field")
 
-Ouch. Win however you can, but you deserve this.
+痛い。何とかして勝ってください。とはいえ自業自得です。
 
-Talk to the Ringmaster once you're done, and Meloetta will run over to the battle wheel.
+終わったらサーカスだんちょうに話しかけます。すると、メロエッタがバトル用の観覧車へ駆け出していきます。
 
 !dbattle(["Meloetta", :MELOETTA, 0], ["Multilyrical Melody", :ANTICS, 0], "Random Field")
 
-Another 12v6. Oh boy. Although the field is random, there is a good chance that one of the Malamars will try to use Topsy-Turvy, transforming the field into Inverse Field. Just like on New World, that will activate all of the Magical Seeds, turning them into omniboosts. They have lots of coverage in the types made extra good on this field - Ice, Bug, etc., which means you'll be taking a lot of damage real fast. Either you can try to roll with this field, bringing moves that will be able to hit super effectively on Inverse and using seed omniboosts, or you can suppress it by knocking out both Malamar's before it's too late. This can be especially beneficial if you end up on a field effect that your team likes and you want to preserve it - in a worst case scenario, you can always reset until you get a good one for your team. 
+またも12対6です。やれやれ。フィールドはランダムですが、カラマネロの片方が *ひっくりかえす* を使ってフィールドを反転フィールドに変える可能性が高いです。新世界のときと同じで、これで *マジカルシード* がすべて発動し、全能力上昇に化けます。相手はこのフィールドで有利になるこおり技やむし技などの技範囲を広く備えているので、あっという間に大ダメージを受けることになります。このフィールドに乗って、反転でこうかばつぐんを取れる技を持ち込みシードの全能力上昇を活かすか、手遅れになる前にカラマネロ2匹を倒して封じるか、どちらかです。特に、自分の編成に噛み合うフィールド効果を引いてそれを維持したい場合は、後者が有効です。最悪の場合、自分の編成に合うフィールドが出るまでリセットする手もあります。
 
-Head back to the Nightclub!
+ナイトクラブへ戻りましょう!
 
-## Manyworld Forest
+## 多世界の森 {#manyworld-forest}
 
-Next, we're going to talk to Simon. He'll tell us about something happening in Agate City, so fly on over there. Dive down to reach the area where Lin got her Relic Stone, then enter the New World Door.
+次はサイモンに話しかけます。アゲートシティで何かが起きていると教えてくれるので、そこへ飛びます。潜って、リンが *いにしえのいし* を手に入れたエリアへ向かい、新世界の扉に入ります。
 
 !enc(869)
 
-Hidden right behind the door is:
+扉のすぐ裏に隠れているのが次です。
 
-**ZCell 21: Manyworld Pool**
+**Zセル21: 多世界の池**
 
 !img("zcell_21.jpg")
 
-You can also find a hidden *Max Revive*, *Exp. Candy XL*, and a *Dusk Ball*. Surface on the other end.
+隠された *げんきのかたまり*、*けいけんアメXL*、*ダークボール* も見つかります。反対側で浮上します。
 
 !enc(848)
 
-This map is huge but mostly empty. Make your way to the bottom left corner to find:
+このマップは巨大ですが、ほとんど何もありません。左下の隅へ向かうと、次が見つかります。
 
-**ZCell 22: Manyworld Forest**
+**Zセル22: 多世界の森**
 
 !img("zcell_22.jpg")
 
-Towards the top of the area, you'll be able to hop across some space platforms. In the center only on Anna Route, you'll find a *Fresh Water*. Don't waste it. Go to the left to find:
+エリアの上部では、宇宙の足場を飛び移っていけます。アンナルートに限り、中央で *おいしいみず* が手に入ります。無駄にしないでください。左へ進むと、次が見つかります。
 
-**ZCell 23: Manyworld Forest**
+**Zセル23: 多世界の森**
 
 !img("zcell_23.jpg")
 
-Down from here, you can hop across some platforms to grab the *Tapunium-Z*. Back up from here, you'll occasionally see a moving platform. Use it to reach a *Sacred Ash* at the top. Go back to the center.
+そこから下では、足場を飛び移ると *カプZ* が手に入ります。そこから上に戻ると、ときどき動く足場が見えます。それを使って上部の *せいなるはい* を回収します。中央へ戻りましょう。
 
-Going as far to the right as possible, you'll be able to ride another moving platform to reach:
+行ける限り右へ進むと、別の動く足場に乗って次にたどり着けます。
 
-**ZCell 24: Manyworld Forest**
+**Zセル24: 多世界の森**
 
 !img("zcell_24.jpg")
 
-Back in the middle, go up. On Lin Route, now you'll get a *Fresh Water*. Pour the Fresh Water onto the Celebi.
+中央に戻り、上へ進みます。リンルートの場合は、ここで *おいしいみず* が手に入ります。セレビィに *おいしいみず* をかけてください。
 
-Climb through the New World Door to emerge next to the Pokemon League. If Taka is currently alive for you, he'll be here, otherwise it will be Elias. Whomever is here will give you another *Fresh Water*. Prepare your best team, stock up on healing items, etc. as if you were locking yourself into an Elite Four challenge. Don't be afraid to eat a loss and change up your team if one of the following battles is too much for now.
+新世界の扉を抜けると、ポケモンリーグの隣に出ます。タカが存命のルートなら彼が、そうでなければイライアスがここにいます。いずれにせよ *おいしいみず* をもう1本くれます。四天王への挑戦に臨むつもりで、最良の編成を整え、回復アイテムを十分に買い込んでおいてください。この先の戦いのどれかが今の実力に厳しすぎるなら、あえて一度負けて編成を組み直すことも恐れないでください。
 
-Give the Fresh Water to Celebi. In the past, talk to Taube at the top for a battle.
+*おいしいみず* をセレビィに渡します。過去では、上部のタウベに話しかけるとバトルです。
 
 !battle(["Taube", :TAUBE, 0], "Holy Field")
 
-Ame made Bibarel competent! Nothing too crazy here though, basically a Doubles version of Elias' Elite Four fight, with 100% less Ditto. Trick Room works wonders here... as expected.
+アメがビーダルを一人前にしてしまいました! とはいえ無茶な相手ではなく、基本的にはイライアスの四天王戦のダブル版で、メタモンは100%いません。*トリックルーム* が例によって驚くほどよく効きます。
 
 !battle(["Celebi", :CELEBI, 0], "Flower Garden")
 
-A bunch of illegal Celebi on the most broken field in the game. Joy. Plus, the first Celebi in particular is extremely annoying, with speedy Spore and moves to boost and grow the field. That said, you still are facing six Pokemon with the exact same weaknesses, including a double weakness to Bug. A Chesto Berry to deal with Spore, a speed boosting move, and a strong Bug type move like TM X-Scissor are pretty much all you'll need!
+非合法なセレビィの群れが、ゲーム最凶のフィールドで待ち構えています。喜ばしい限りです。しかも1匹目のセレビィは特に厄介で、素早い *キノコのほうし* と、フィールドを強化・成長させる技を備えています。とはいえ、相手は6匹とも弱点がまったく同じで、むしタイプには4倍弱点です。*キノコのほうし* 対策の *カゴのみ*、素早さを上げる技、そして *わざマシン シザークロス* のような強力なむし技があれば、ほぼそれで十分です!
 
-Talk to Celebi to jump into the future.
+セレビィに話しかけると未来へ跳びます。
 
 !battle(["Elena", :ELENA, 0], "Mountain Field")
 
-Very similar to Heather's Elite Four battle, Elena also uses the Mountain Field and Tailwind to set up Strong Winds, neutralizing Flying's weaknesses. Dragonite likes to set screens - on top of Multiscale, this makes it annoyingly tanky, so consider Brick Break for this fight. Trick Room is good as usual, and turning the field into a Snowy Mountain can allow you to overpower with Ice moves. Just watch out for Marowak in both cases. Anyways, lots of options to win this one.
+ヘザーの四天王戦とよく似ていて、エレナも山フィールドと *おいかぜ* で強い風を起こし、ひこうの弱点を打ち消してきます。カイリューは壁を張りたがり、*マルチスケイル* と合わせて腹立たしいほど硬くなるので、この戦いでは *かわらわり* を検討してください。*トリックルーム* は例によって有効ですし、フィールドを雪山に変えればこおり技で押し切れます。ただしどちらの場合もガラガラには注意してください。ともあれ、勝ち筋は多くあります。
 
-Talk to Celebi to proceed to the next area.
+セレビィに話しかけて次のエリアへ進みます。
 
 !battle(["Amethyst", :AME, 0], "Starlight Arena")
 
-I wonder if Amethyst likes Alolan Ninetales? And Fairy and Dark types? Boosted on the Starlight Arena? With the wrinkle of Mega Lopunny to consider, this shouldn't be too insane for anyone who could beat Anna earlier.
+アメジストはアローラキュウコンが好きなのでしょうか。それにフェアリータイプとあくタイプも? しかも星空アリーナで強化された状態で? メガミミロップという一癖はあるものの、先にアンナを倒せた人にとっては、そこまで無茶ではないはずです。
 
-Celebi will take you ahead in time once more.
+セレビィがさらに時を進めてくれます。
 
 !battle(["Shelly", :FUTURESHELLY, 0], "Fairy Tale Field")
 
-What would be a gauntlet of four trainers without healing or switching your Pokemon without a Champion fight at the end? At this point in the game, her Yanmega, Leavanny, and Primarina are nothing we can't handle. Alolan Muk gets free defenses on this field thanks to its ability, and can boost its Atk and Def further on its free first turn from seed. Then there are the two demons. Mega Scizor is, by now, at least a known demon. It can boost to +3 with Swords Dance then hit like an absolute menace with Bullet Punch. The first time we have to fight a Xerneas is here however... and there's a reason this thing is regarded as so good. If you're not careful it will get +2 in SpA, SpD, and Spe then sweep you with field boosted Moonblast and Secret Sword. Ouch!
+回復も編成変更もなしのトレーナー4連戦に、最後のチャンピオン戦が無いはずがありません。この時点なら、彼女のメガヤンマ、ハハコモリ、アシレーヌは対処できないほどではありません。アローラベトベトンは特性のおかげでこのフィールドで無償の防御上昇を得ますし、シードによる初手の自由な1ターンで攻撃と防御をさらに上げられます。そして2匹の悪魔です。メガハッサムはもう既知の悪魔でしょう。*つるぎのまい* で+3まで積み、*バレットパンチ* で凶悪な一撃を放ってきます。そしてゼルネアスと戦うのはここが初めてですが……この存在がこれほど高く評価されるのには理由があります。油断すると特攻・特防・素早さが+2になり、フィールド強化された *ムーンフォース* と *しんぴのつるぎ* で一掃されます。痛い!
 
-A well chosen sweeper can deal with everything barring these two. If you're stuck on them, consider something with a Fire move for Scizor and a physical boosted Steel move for Xerneas. Using Magical Seeds on your own Pokemon will extend the "free turn" effect to them as well, so that may just be the key to overcoming Reborn's future champion.
+この2匹を除けば、うまく選んだエースで全部片付けられます。この2匹で行き詰まったら、ハッサム用にほのお技、ゼルネアス用に物理の強化されたはがね技を持つポケモンを検討してください。*マジカルシード* をこちらのポケモンに持たせれば「無償の1ターン」の効果も得られるので、リボーンの未来のチャンピオンを打ち破る鍵はそこにあるかもしれません。
 
-Talk to Shelly once you're done here. You'll be taken back to your time... and you can talk to **Celebi** to take it with you! Hooray! Return to the Nightclub.
+済んだらシェリーに話しかけます。元の時代へ戻され……**セレビィ** に話しかけると連れていけます! やった! ナイトクラブへ戻りましょう。
 
-## The Train Heist
+## 列車強盗事件 {#the-train-heist}
 
-Next, talk to Zero in the Nightclub and accept his quest. Proceed to Peridot and enter the train station. Talk to Adrienn at the top of the station and state that you're ready to proceed.
+次はナイトクラブでゼロに話しかけ、クエストを受けます。ペリドットへ進んで駅に入ります。駅の上部にいるアドリエンヌに話しかけ、準備ができたと伝えます。
 
-After talking to the chief, feel free to talk to the other passengers of the train. Return to the chief. Once the orbs disappear, head to the front of the train. From here, we will talk to all the passengers of the train to try to solve the mystery.
+署長と話したあとは、よければ列車の他の乗客にも話しかけてみてください。署長のところへ戻ります。宝珠が消えたら、列車の先頭へ向かいます。そこから、列車の乗客全員に話しかけて謎を解いていきます。
 
-Return to the chief and state that you're done with the investigation when you're ready.
+準備ができたら署長のもとへ戻り、捜査を終えたと伝えます。
 
-You can now accuse one of the culprits. Each will battle you once accused. You can also talk to the chief multiple times to accuse them. Afterwards, you'll need to check your bag and "Use" the Blue Orb that you find inside to continue.
+これで犯人の1人を告発できます。告発された相手は、その場でバトルを仕掛けてきます。署長に何度も話しかけて複数を告発することもできます。そのあと、バッグを確認して中にある *あいいろのたま* を「つかう」と先へ進めます。
 
-**Relationship Point Choices**:
-- Accuse Julia of stealing the orbs (-1 Julia)
+**好感度の選択肢**:
+- 宝珠を盗んだとしてジュリアを告発する (-1 ジュリア)
 
-However, there is one more option: you can check your bag to find the Blue Orb inside *before* making any accusation: this will cause everyone to fight you in a gauntlet, with Anomaly Hoopa as your partner.
+ただし、もう1つの手があります。誰も告発する *前に* バッグを確認して中の *あいいろのたま* を見つけるという方法です。この場合、全員が連戦で挑んでくることになり、アノマリーのフーパが相棒になります。
 
 !partner(["Hoopa", :HOOPA, 0])
 
 !dbattle(["John", :NWOrderly, 1], ["Eustace", :MASTERMIND, 1])
 
-The second battle will be Julia and the opposing gang leader, depending on your gang choice:
+2戦目はジュリアと、自分が選ばなかったほうの団のリーダーです。
 
 !dbattle(["Julia", :JULIA, 2], ["Archer", :Archer, 2])
 
 !dbattle(["Julia", :JULIA, 2], ["Maxwell", :Maxwell, 2])
 
-And finally, the last battle of the gauntlet:
+そして最後、連戦の締めくくりです。
 
 !dbattle(["Craudburry", :HARRIDAN, 1], ["Sandy", :SANDY, 1])
 
-Whether you win the gauntlet or choose a different option, climb through the ring once you're in the engine room.
+連戦に勝っても別の選択肢を選んでも、機関室に着いたら輪をくぐります。
 
 !enc(866, nil, nil, "New World (Train)")
 
-Hug the left side to reach:
+左側沿いに進むと、次にたどり着きます。
 
-**ZCell 25: New World (Train)**
+**Zセル25: 新世界（列車）**
 
 !img("zcell_25.jpg")
 
-Head to the top of the hill once you're ready.
+準備ができたら丘の頂上へ向かいます。
 
 !dbattle(["Corin-Rouge", :CORINROUGE, 1], ["Hoopa", :HOOPA, 0], "New World")
 
-Another New World field 12v6. Joy. It's worth noting that Hoopa's team is entirely Trick Room based and slow, while Corin-Rouge's team is a bit speedier altogether. Therefore I recommend either focusing on knocking out Hoopa's team so you can run with the Trick Room yourself, or focusing on knocking out Corin-Rouge first and suppressing/reversing Trick Room whenever possible. By now we also have a lot of legendaries whose signature moves are boosted on this field and Ultra Beasts who can sweep with some momentum, so despite how stacked against you this is, we do have some tools that we can use going forward.
+またも新世界フィールドの12対6です。やれやれ。注目すべきは、フーパの編成が完全に *トリックルーム* 依存で全員遅い一方、コリン・ルージュの編成は全体にやや速いことです。そこで、フーパの編成を先に倒して *トリックルーム* をこちらが利用するか、コリン・ルージュを先に倒しつつ *トリックルーム* をできる限り封じるか逆手に取るか、どちらかをおすすめします。この頃には、専用技がこのフィールドで強化される伝説ポケモンも、勢いに乗れば一掃できるウルトラビーストも多数手元にあるので、圧倒的に不利に見えても、今後に使える手札は揃っています。
 
-Jump through the portal. You'll find yourself back in the Route 4 New World - follow the path all the way to the portal up top where Corin Rouge is.
+ポータルに飛び込みます。すると4番道路の新世界に戻るので、道をずっとたどってコリン・ルージュのいる上部のポータルへ向かいます。
 
-You'll next find yourself in the Vanhanen Castle New World - straight up from here is the portal. Follow the path in the New World Route 2 until the fork, then go left. Enter the door to find the next ring.
+次はバンハネン城の新世界に出ます。そこからまっすぐ上がポータルです。2番道路の新世界では分岐まで道をたどり、そこで左へ進みます。扉に入ると次の輪が見つかります。
 
-You'll find yourself now in New World Route 3. Prepare yourself, then make your way to the Keldeo beach fight area. You now get to fight:
+今度は3番道路の新世界に出ます。準備を整えたら、ケルディオと戦った浜辺のエリアへ向かいます。ここで戦うことになります。
 
 !battle(["Terra", :UMBTERRA, 0], "Ashen Beach")
 
-PULSE 2 Mega Garchomp, Unaware Quagsire, and tanky Palossand are annoying as always. Ashen Beach providing boosts to Surf, Strength, and Focus Blast doesn't help. But we're a champion of beating numerous 12v6 fights by now - surely this one won't be too intense, right? Enter the next ring and follow the path. LOL!
+PULSE2のメガガブリアス、*てんねん* のヌオー、硬いシロデスナは相変わらず厄介です。灰の浜辺が *なみのり*、*かいりき*、*きあいだま* を強化してくれるのも困りものです。とはいえ、ここまで12対6を何度も制してきた猛者なのですから、この程度は大したことないはずですよね? 次の輪に入って道をたどりましょう。ははは!
 
-Back in the train station, talk with the group here.
+駅に戻り、ここの一同と話します。
 
-**Relationship Point Choices**:
-- Tell Adrienn you had to bring Terra back (+1 Terra)
+**好感度の選択肢**:
+- テラを連れ戻すしかなかったとアドリエンヌに伝える (+1 テラ)
 
-You'll also be given **Hoopa**! Walk on back to the nightclub.
+**フーパ** ももらえます! 歩いてナイトクラブへ戻りましょう。
 
-## Aiding and Abetting Bladestar
+## ブレードスターへの加担 {#aiding-and-abetting-bladestar}
 
-Finally, talk to Danielle in the Nightclub and accept the quest. Head south from Obsidia Ward into Opal Ward. You'll see a few characters from Rejuvenation as a cameo here and can get a *Cotton Candy*!
+最後に、ナイトクラブでダニエールに話しかけてクエストを受けます。オブシディア区から南のオパール区へ向かいます。ここには『Rejuvenation』のキャラクターが数人カメオ出演していて、*わたあめ* も手に入ります!
 
-Anyways, fly over to Agate and make your way to the Glass Workstation. The glass is all gone so you can easily get to the back room. Talk to the girl in here. You can choose which PULSE Machine to go to - once you do, accept the fast travel to where you fought it once upon a time. Check out all the machines that the game expects you to.
+ともあれ、アゲートへ飛んでガラス工房へ向かいます。ガラスはすべて無くなっているので、奥の部屋まで簡単に行けます。ここの少女に話しかけます。どのPULSEの機械へ向かうか選べます。選ぶと、かつてそれと戦った場所へ高速移動できます。ゲームが求めてくる機械をすべて見て回りましょう。
 
-Once you emerge in Labradorra, you'll have to fight her.
+ラブラドラに出たら、彼女と戦うことになります。
 
 !battle(["Flora", :FLORA, 0])
 
-No "Bewitched Field" in this game!
+このゲームに「ビウィッチドフィールド」はありません!
 
-Once you win, she'll head to Ametrine City, so follow her and enter the former house of Lumi and Eve. After the conversation, fly on over to the Pokemon League.
+勝つと彼女はアメトリンシティへ向かうので、追いかけて、かつてのルミとイヴの家に入ります。会話のあと、ポケモンリーグへ飛びます。
 
-I sure hope you like fighting the Elite Four, because we're about to do it again... with Flora as an ally! Each of you will get to use only 3 Pokemon per fight. In general for these fights, it may be smarter to try to support Flora than to try to do your own thing. Keep that in mind as you plan your team of six.
+四天王と戦うのがお好きだといいのですが。これからまた戦います……今度はフローラを味方につけて! 各戦とも、それぞれが3匹しか使えません。これらの戦いでは概して、自分で好き勝手に動くよりフローラを支える立ち回りのほうが賢明かもしれません。6匹を選ぶときはその点も踏まえてください。
 
 !partner(["Flora", :FLORA, 1])
 
 !battle(["Heather", :HEATHER, 1], "Mountain Field")
 
-Trick Room is the perfect choice here - turning Heather's Tailwind into a bad thing and letting Flora's Ferrothorn have the advantage.
+ここでは *トリックルーム* が最適の選択です。ヘザーの *おいかぜ* を裏目に変え、フローラのナットレイに利を与えられます。
 
 !partner(["Flora", :FLORA, 2])
 
 !battle(["Laura", :LAURA, 0], "Flower Garden")
 
-Our first fight against just Laura is mostly the same old shenanigans with the Flower Garden. Flora's team is benefitted by this field just as much as Laura though, so if you can identify the threats to Flora's team and focus on just them, there's a good chance Flora will do the heavy lifting here.
+ローラ単独との初戦は、おおむねいつもの花畑フィールドの厄介事です。とはいえフローラの編成もローラと同じくらいこのフィールドの恩恵を受けるので、フローラの編成にとっての脅威を見極めてそこだけ狙えば、あとはフローラが力仕事をこなしてくれる見込みが高いです。
 
-**Relationship Point Choices**:
-- Say "You Honor Me" (+1 Elias)
-- Say "Bow Before Me" (-1 Elias)
+**好感度の選択肢**:
+- 「光栄です」と答える (+1 イライアス)
+- 「ひれ伏せ」と答える (-1 イライアス)
 
 !partner(["Flora", :FLORA, 3])
 
 !battle(["Elias", :ELIAS, 1], "Holy Field")
 
-Dragonite likes to absolutely shred Flora's team with Extremespeed, so consider neutralizing it by putting it to sleep, using Reflect, etc. Otherwise it's basically Elias' old team on doubles, so you can find a way through. Dazzling Gleam is a fantastic opening move!
+カイリューは *しんそく* でフローラの編成を完膚なきまでに切り裂きたがるので、眠らせる、*リフレクター* を張るなどして無力化することを検討してください。それ以外は基本的にイライアスのいつもの編成のダブル版なので、突破口は見つかります。*マジカルシャイン* は初手として実に優秀です!
 
 !partner(["Flora", :FLORA, 4])
 
 !battle(["Bennett", :BENNETT2, 0], "Rainbow Field atop Forest Field")
 
-First time we have to fight Bennett solo since he became an Elite Four member, as well. He uses Rainbow Field, where 5 of his Pokemon get a boost to SpA and a Wish with their seeds. There are also tons of boosts to many of his moves. The field's Serene Grace effect also means that there is a high chance that Silver Wind will omniboost - if Pheromosa gets this, it's likely a game over. Flora's team being weak to Bug and Fire doesn't help.
+ベネットが四天王になってから、単独で戦うのもこれが初めてです。彼は虹のフィールドを使い、そこでは5匹がシードによって特攻上昇と *ねがいごと* を得ます。多くの技にも大量の強化がかかります。このフィールドの *てんのめぐみ* 効果により、*ぎんいろのかぜ* で全能力が上がる確率も高く、フェローチェがこれを引いたら、ほぼ試合終了です。フローラの編成がむしとほのおに弱いのも困りものです。
 
-To win, I will once again recommend Trick Room - Volcarona, Delphox, Pheromosa, Ribombee are all fast and frail, so your own slow Pokemon with Flora's Ferrothorn can potentially be key here. Other options exist too, like making it rain and sweeping with Swift Swim users, for example.
+勝つには、ここでもやはり *トリックルーム* をおすすめします。ウルガモス、マフォクシー、フェローチェ、アブリボンはいずれも速くて打たれ弱いので、こちらの遅いポケモンとフローラのナットレイが鍵になり得ます。他にも、雨を降らせて *すいすい* 持ちで一掃するといった手もあります。
 
-Talk to Bennett before proceeding if you'd like.
+先へ進む前に、よければベネットに話しかけてください。
 
-**Relationship Point Choices**:
-- Tell Bennett he is creepy (-1 Bennett)
-- Tell Bennett he is not creepy (+2 Bennett)
+**好感度の選択肢**:
+- ベネットに気持ち悪いと伝える (-1 ベネット)
+- ベネットに気持ち悪くないと伝える (+2 ベネット)
 
-Talk to Flora in front of PULSE Abra, then proceed to the room in the back. We never actually talked to the Hall of Fame machine... so now we get the chance to do so. Register your team of six!
+PULSEケーシィの前でフローラに話しかけ、奥の部屋へ進みます。実は殿堂入りの機械にはまだ一度も話しかけていませんでした……というわけで、ここでその機会が巡ってきます。6匹の編成を登録しましょう!
 
-Sweet. There's just one more thing to do - finish catching the next legendary! Fly back to Agate and make your way to the back room of the Glass Workstation.
+素晴らしい。あとは1つだけ、次の伝説を捕まえに行きます! アゲートへ飛び戻り、ガラス工房の奥の部屋へ向かいます。
 
-Climb the convenient ladder to grab an *Exp. Candy XL*, then go around the right. When you're ready, head up for an Anomaly!
+都合よく置かれたはしごを登って *けいけんアメXL* を拾い、右へ回り込みます。準備ができたら上へ進むとアノマリーです!
 
 !battle(["Magearna", :MAGEARNA, 0], "Factory Field")
 
-Good ol' Factory Field. CL:4R1-C3 Breloom is back, this time with 5 other Pokemon to support it. Ferrothorn will make your Trick Room strategy tricky though not impossible to manage, so that's not an easy one-and-done thing either. With Roserade and Cinccino granting wide coverage, and Klinklang and Magearna getting really powerful on this field, you're going to need to be careful not to be swept here. You can turn it to Short-Circuit Field if you want, or just overpower them with your own speedy team. As long as you have something that can deal with CL:4R1-C3 somehow, the rest of the team will go down to Fire, Ground, and Fighting moves.
+おなじみの工場フィールドです。CL:4R1-C3キノガッサの再来で、今回はそれを支える5匹を引き連れています。ナットレイのせいで *トリックルーム* 戦法は厄介になりますが、不可能ではありません。とはいえ一筋縄でもいきません。ロズレイドとチラチーノが広い技範囲を担い、ギギギアルとマギアナはこのフィールドで非常に強力になるので、一掃されないよう注意が必要です。望むならショートフィールドに変えてもよいですし、こちらの素早い編成で押し切っても構いません。CL:4R1-C3を何とかできる手立てさえあれば、残りはほのお技・じめん技・かくとう技で崩せます。
 
-Afterwards, you'll be able to catch **Magearna**!
+そのあと **マギアナ** を捕まえられます!
 
-Head back to the nightclub. If you talk to Eve here, you can get **Aevian Misdreavus**, a cameo from Pokemon Rejuvenation. A Leaf Stone will evolve it into **Aevian Mismagius**.
+ナイトクラブへ戻ります。ここでイヴに話しかけると **エイヴィアン ムウマ** が手に入ります。『ポケモンRejuvenation』からのカメオ出演です。*リーフのいし* で **エイヴィアン ムウマージ** に進化します。
 
-## Champion Defense
+## チャンピオン防衛戦 {#champion-defense}
 
-This section is entirely optional - you can skip ahead [to the next section](#postgame-episode-5-wish-upon-a-star) if you wish.
+この節は完全に任意なので、望むなら[次の節](/reborn/postgame-episode-5/#postgame-episode-5)へ飛ばして構いません。
 
-After finishing Flora's quest and talking to Eve, we can actually challenge the Reborn Elite Four anytime we wish. Notably, they have new teams! Note also that when fighting them, both sets of Pokemon are clamped to Lv. 100.
+フローラのクエストを終えてイヴに話しかけたあとは、いつでもリボーン四天王に挑戦できるようになります。しかも編成が新しくなっています! なお、戦うときは双方のポケモンがレベル100に固定されます。
 
 !battle(["Heather", :HEATHER, 2], "Mountain Field")
 
@@ -492,4 +492,4 @@ After finishing Flora's quest and talking to Eve, we can actually challenge the 
 
 !battle(["Bennett", :BENNETT2, 1], "Rainbow Field atop Forest Field")
 
-Once we finish the Four, we will actually need to *defend* our title in the Champion room. You even get to choose the format between Singles and Doubles, and even choose your own Field Effect! The possible opponents are actually just a subset of the [Theme Team trainers](#battle-pavilion-facilities) from the Battle Pavilion: Shelly, Adrienn, Fern, Charlotte, Lumi, Saphira, Titania, Bennett, Cal, Cain, Victoria, and Heather. Any team of any of these trainers may be randomly chosen, except those named "Boss Rush" or "Boss Rush 2".
+四天王を倒したあとは、チャンピオンの部屋で自分の座を *防衛* する必要があります。しかもシングルとダブルの形式を選べ、フィールド効果まで自分で決められます! 対戦相手は、実はバトルパビリオンの[テーマチームのトレーナー](/reborn/postgame-episode-1/#battle-pavilion-facilities)の一部です。シェリー、アドリエンヌ、ファーン、シャルロット、ルミ、サファイラ、ティタニア、ベネット、キャル、カイン、ヴィクトリア、ヘザーが該当します。これらのトレーナーのどの編成もランダムに選ばれる可能性がありますが、「Boss Rush」と「Boss Rush 2」という名前のものだけは除かれます。

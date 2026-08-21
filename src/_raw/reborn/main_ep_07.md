@@ -1,90 +1,90 @@
-# Episode 7: Poison In Vain
+# エピソード7: 地に毒を {#episode-7}
 
-Take the yacht to Azurine Island.
+ヨットに乗ってアズリン島へ向かいます。
 
-## Azurine Island
+## アズリン島 {#azurine-island}
 
 !enc(206, nil, ["Old"])
 
-With that, we can start to explore this island. Note that many item balls are Foongus in disguise.
+さっそく島の探索です。なお、アイテムボールの多くは **タマゲタケ** の擬態です。
 
-The first island has a *Potion* and hidden *Pretty Wing*. The next area contains a *Great Ball* and hidden *Hyper Potion*. Before cutting the tree go to the left across the moss to get a hidden *Red Shard* and *TM83 Infestation*.
+最初の島には *キズぐすり* と、隠された *きれいなハネ* があります。次のエリアには *スーパーボール* と、隠された *すごいキズぐすり* があります。木を切る前に、苔の上を左へ渡って隠された *あかいかけら* と *わざマシン83 まとわりつく* を回収してください。
 
-Cut the tree and go right. Before going down the ledge you can get an *Antidote* as well as hidden *Ice Gem*, *Resist Wing* and 2 *TinyMushrooms*. You'll find a hidden *Purple Shard* below.
+木を切って右へ。段差を降りる前に *どくけし* のほか、隠された *こおりのジュエル*、*ていこうのハネ*、*ちいさなキノコ* 2個が手に入ります。下では隠された *むらさきのかけら* が見つかります。
 
-On the next island to the right, you can find a hidden *Green Shard*, *Tiny Mushroom*, *Red Shard*, and *Synthetic Seed*. Following the path behind the Foongus in the bottom left you can get a *Shiny Stone*.
+右隣の島では、隠された *みどりのかけら*、*ちいさなキノコ*、*あかいかけら*、*シンセティックシード* が見つかります。左下のタマゲタケの裏の道をたどると *ひかりのいし* が手に入ります。
 
-Back up from here, cross to the right. You can find a hidden *Green Shard* on this island. At the top left there is a path across the water that will lead to a hidden *Thunderstone*.
+そこから戻って右へ渡ります。この島には隠された *みどりのかけら* があります。左上には水面を渡る道があり、その先に隠された *かみなりのいし* があります。
 
-Head down the ledge on the east island. You can find a hidden *Swift Wing* here and follow the ivy up from here to get the *Swamp Field Readout*. Briefly stopping on the middle island, head down using the ivy to pick up a hidden *Tiny Mushroom* then head left.
+東の島で段差を降ります。ここには隠された *しゅんぱつのハネ* があり、そこからツタを上ると *沼地フィールドの資料* が手に入ります。中央の島に一度立ち寄り、ツタで下りて隠された *ちいさなキノコ* を拾ったら左へ。
 
-You can head down as soon as you touch land to get a *Miracle Seed*. Back on land, you'll find a hidden *Great Ball* and *Guard Spec.* Use the Light Shard and head left. Before continuing left to the next island, you can go down via the ivy to find one hidden *Dusk Ball* and one non-hidden *Dusk Ball*. Head up and left when you're ready.
+陸に着いたらすぐ下へ行くと *きせきのタネ* があります。陸に戻ると、隠された *スーパーボール* と *エフェクトガード* が見つかります。*光のかけら* を使って左へ進みましょう。次の島へ左に進む前に、ツタで下りると隠された *ダークボール* 1個と、隠されていない *ダークボール* 1個が手に入ります。準備ができたら上、そして左へ。
 
 !dbattle(["Aster", :AsterKnight, 3], ["Eclipse", :EclipseDame, 3], "Swamp Field")
 
-Another battle with Aster and Eclipse, this time featuring a full team. Solrock and Lunatone are somewhat slow and have many weaknesses. The Lycanrocs and Passimian are speedy and hit hard, but after a few turns they'll all become slowed down by the field, allowing you to capitalize on their low bulk. Oranguru likes to use Instruct and/or hit both of your Pokemon with Nature Power into field-boosted Muddy Water, so be careful of that.
+アスターとエクリプスとの再戦で、今回は6匹揃っています。**ソルロック** と **ルナトーン** はやや鈍足で弱点も多め。**ルガルガン** 2匹と **ナゲツケサル** は素早く火力もありますが、数ターン経てばフィールドで鈍足化するので、低い耐久を突けます。**ヤレユータン** は *さいはい* を使ったり、*しぜんのちから* からフィールド強化された *だくりゅう* でこちら2匹をまとめて狙ったりしてくるので注意してください。
 
-Left from here you'll grab a hidden *Potion*, *Tiny Mushroom*, *Ether*, and *Escape Rope*. Cut the tree up from here to get another hidden *Tiny Mushroom*. Go down from here. You'll find a *Magical Seed* and hidden *Purple Shard*. Head down and right to grab a hidden *Tiny Mushroom* and a hidden *Green Shard* a bit further... and we can finally enter the building here.
+そこから左へ進むと、隠された *キズぐすり*、*ちいさなキノコ*、*ピーピーエイド*、*あなぬけのヒモ* が手に入ります。上の木を切ると、隠された *ちいさなキノコ* がもう1個。そこから下へ進むと *マジカルシード* と隠された *むらさきのかけら* があります。下、そして右へ進んで隠された *ちいさなキノコ* を、もう少し先で隠された *みどりのかけら* を回収したら――ようやくここの建物に入れます。
 
-Pick up the *PULSE Readout 6* and talk to the machine in the top to reveal a secret passageway. Heal or switch up your team and go up.
+*パルスの資料6* を拾い、上の機械に話しかけると隠し通路が現れます。回復するか手持ちを入れ替えて、上へ進んでください。
 
 !battle(["Taka", :Taka, 1], "Factory Field")
 
-Time to fight Taka again. Although he has added Klefki and Gligar to his team, neither should be too threatening. Just be careful of Exeggutor hitting hard with its STABs and Nature Power -> Gear Grind, and also Chatot setting up on you.
+タカとの再戦です。**クレッフィ** と **グライガー** が加わっていますが、どちらもさほど脅威ではありません。**ナッシー** のタイプ一致技と *しぜんのちから* からの *ギアソーサー*、そして **ペラップ** の積みにだけ気をつけてください。
 
-Accept Cain's fast travel request.
+カインの高速移動の申し出を受けます。
 
-## The Battle for Apophyll
+## アポフィル防衛戦 {#the-battle-for-apophyll}
 
-Once you're back on Apophyll, prepare your team. It's worth pointing out that winning the upcoming boss battle  is optional, but there are strategies to win if you're interested. Head down to Pyrous Mountain.
+アポフィルに戻ったら手持ちを整えます。この先のボス戦は**勝たなくても進行します**が、勝ちを狙う戦法もあるので触れておきます。パイロス山へ向かってください。
 
-Head in and you'll be partnered up with Victoria.
+中へ入るとヴィクトリアと組むことになります。
 
 !partner(["Victoria", :Victoria, 5])
 
-**Relationship Point Choices**:
-- Try to leave Pyrous while partnered with Victoria (-2 Victoria)
+**好感度の選択肢**:
+- ヴィクトリアと同行中にパイロスから出ようとする (-2 ヴィクトリア)
 
 !dbattle(["Ama", :MeteorGrunt, 1], ["Christopher", :MeteorGrunt, 1], "Super-Heated Field")
 
-Anyways, if you haven't explored Pyrous yet now you'll have to, so follow the directions in the above Pyrous section if you'd like. If you have, you just have to make it back up to the peak using the straightforward path, beating grunts as you go. To the left:
+パイロス山をまだ探索していなければ、ここで攻略することになります。上のパイロスの節の手順に従ってください。探索済みなら、素直な道を通って頂上まで戻りつつ、道中のしたっぱを倒していくだけです。まずは左へ。
 
 !dbattle(["Antoine", :MeteorGrunt, 1], ["Demian", :MeteorGrunt, 1], "Super-Heated Field")
 
-On B1F:
+地下1階では:
 
 !dbattle(["Minta", :MeteorGrunt_090, 1], ["Chad", :MeteorGrunt, 1], "Super-Heated Field")
 
-Back on 1F, following the path up the mountain:
+1階に戻り、山道を上りながら:
 
 !dbattle(["Michaela", :MeteorGrunt_090, 1], ["Winter", :MeteorGrunt, 1], "Super-Heated Field")
 
 !dbattle(["Regina", :MeteorDame, 0], ["Gretchen", :MeteorDame, 0], "Super-Heated Field")
 
-Once you reach the peak, Victoria will separate from us as a partner. It's time for that boss battle I was talking about.
+頂上に着くとヴィクトリアが同行から外れます。先ほど触れたボス戦です。
 
-**In order to access the exclusive postgame route, you need to win this battle.**
+**限定ルートに入るには、この戦闘に勝つ必要があります。**
 
 !battle(["Solaris", :Solaris, 0], "Super-Heated Field")
 
-This is an "impossible battle" in the normal sense that the story will progress if you lose, but it actually does acknowledge your success with being a precondition for one of the postgame routes as well as some points. For that reason I will hide the text on my recommendations.
+これは通常の意味では「負けイベント」で、敗北しても物語は進みます。ただし勝利は正しく認識され、ポストゲームの片方のルートの前提条件になるほか、好感度も動きます。そのため、こちらの推奨戦法は伏せておきます。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    You won't have an easy time with status conditions thanks to the Full Heals. There are still numerous things you can do here. The Focus Sash is always an option - putting it on a Counter Pokemon or something with attack-lowering moves can open it up to not kill some of your Pokemon. For an easier time, Bastiodon and Sudowoodo both get Sturdy and Metal Burst / Counter, Sharpedo can Speed Boost and use Destiny Bond, Murkrow can use Prankster Perish Song... the possibilities for this fight are vast.  </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Garchomp strategies</a>
+    *なんでもなおし* を持たれているため、状態異常での搦め手は通りにくい。それでも手はいくつもある。*きあいのタスキ* は常に選択肢で、*カウンター* 持ちや攻撃を下げる技を持つポケモンに持たせれば、こちらの被害を抑えられる。より楽に済ませたいなら、**トリデプス** と **ウソッキー** はどちらも *がんじょう* と *メタルバースト* / *カウンター* を両立でき、**サメハダー** は *かそく* から *みちづれ*、**ヤミカラス** は *いたずらごころ* の *ほろびのうた* が使える。この戦いの選択肢は実に幅広い。  </div>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">ガブリアス対策を表示</a>
 </div>
 
-**Relationship Point Choices**:
-- Defeat Solaris on Pyrous (+1 Cain, +1 Victoria, +1 Cal, +1 Shade, +1 Anna, +3 Taka)
+**好感度の選択肢**:
+- パイロスでソラリスに勝つ (+1 カイン、+1 ヴィクトリア、+1 キャル、+1 シェイド、+1 アンナ、+3 タカ)
 
-Return to Reborn City after the scenes here conclude.
+ここでのイベントが終わったらリボーンシティへ戻ります。
 
-## Grand Hall Trainers 4
+## 大ホールのトレーナー その4 {#grand-hall-trainers-4}
 
-Once more, trainers in the Grand Hall have gotten stronger. Defeating them will now yield 5 *Exp. Candy L*, so grinding weaker team members is much easier. The updated teams are as follows:
+またも大ホールのトレーナーが強化されました。倒すと *けいけんアメL* を5個くれるようになるので、育っていないポケモンのレベル上げがぐっと楽になります。更新後の編成は以下のとおりです。
 
-**Sunday**:
+**日曜日**:
 
 !battle(["Carol", :COOLTRAINER_Female, 1])
 
@@ -92,27 +92,27 @@ Once more, trainers in the Grand Hall have gotten stronger. Defeating them will 
 
 !battle(["Fawkes", :COOLTRAINER_Male, 1])
 
-**Monday**:
+**月曜日**:
 
 !battle(["Jonah", :YOUNGSTER, 1])
 
-**Tuesday**:
+**火曜日**:
 
 !battle(["Jace", :COOLTRAINER_Male, 1])
 
-**Wednesday**:
+**水曜日**:
 
 !battle(["Silva", :PSYCHIC_Male, 1])
 
-**Thursday**:
+**木曜日**:
 
 !battle(["JB", :EXPERT_Male, 1])
 
-**Friday**:
+**金曜日**:
 
 !battle(["Will", :TechNerd, 1])
 
-**Saturday**:
+**土曜日**:
 
 !battle(["Anthony", :EXPERT_Male, 1])
 
@@ -120,80 +120,80 @@ Once more, trainers in the Grand Hall have gotten stronger. Defeating them will 
 
 !dbattle(["Zach", :Casanova, 1], ["Beau", :LADY, 1])
 
-## Byxbysion Wasteland
+## ビクスビジョン荒地 {#byxbysion-wasteland}
 
-Head to the eastern side of the South Obsidia Ward. Talk to Cain to enter the Byxbysion Wasteland.
+南オブシディア区の東側へ向かいます。カインに話しかけるとビクスビジョン荒地へ入れます。
 
 !enc(209)
 
-In this first area you can find 2 hidden *Blue Shards*, *Green Shard*, *Potion*, *Telluric Seed*, and *Poison Gem*. Follow the ledge at the bottom and pick up a hidden *Full Heal* and *Red Shard*. A nearby slide will take you to a hidden *Green Shard* and *Escape Rope*. Read the grave while you're here to initiate a quest.
+最初のエリアでは、隠された *あおいかけら* 2個、*みどりのかけら*、*キズぐすり*、*テルリックシード*、*どくのジュエル* が見つかります。下の段差沿いに進み、隠された *なんでもなおし* と *あかいかけら* を拾ってください。近くの滑り台を使うと、隠された *みどりのかけら* と *あなぬけのヒモ* に行けます。ここにある墓を読むとクエストが始まります。
 
-Enter the building and emerge at the top. On this upper platform you can find a hidden *Green Shard*. The slide to the left leads us back to the first area, so don't take that. Instead, go up from the statue and hop down the ledge, in the top left corner. You'll find hidden *Genius Wing*, *Ability Capsule*, *Green Shard*, *Ultra Ball*, and *Carbos*. In the top right side there is a canister you can talk to that will turn red - we will need to do this to multiple canisters across the wasteland to access a secret area. In the top left corner of this area you can enter a cave. Following it to the left and out you can get a hidden *Cotton Candy*. Back through the cave, go down and left, then down the ledge. Make your way back down the ledge and slide to reach the building with the stairs and emerge at the top.
+建物に入り、上から出ます。この上の足場では隠された *みどりのかけら* が見つかります。左の滑り台は最初のエリアに戻ってしまうので使わないでください。代わりに像から上へ進み、左上の隅で段差を降ります。隠された *ちりょくのハネ*、*とくせいカプセル*、*みどりのかけら*、*ハイパーボール*、*インドメタシン* が手に入ります。右上には話しかけると赤くなるタンクがあります。荒地の各所にあるこれらを全部赤にすると、隠しエリアに入れるようになります。このエリアの左上の隅からは洞窟に入れます。左へ抜けて外に出ると、隠された *わたあめ* が手に入ります。洞窟を戻り、下、そして左へ進んで段差を降ります。段差と滑り台で戻って階段のある建物にたどり着き、上から出てください。
 
-Take the slide to the right now. You can find hidden *X Defend*, *X Speed*, *Hyper Potion*, *Exp. Candy L*, *Poke Ball*, *Purple Shard*, *Green Shard*, *Poison Barb*, *Purple Shard*, and *Protein*. Up from here you can find another canister to turn red. Up and to the left you can go through a building to find a hidden *Black Sludge*. Head to the bottom left of this segment. Hop down one ledge. Here you'll find another canister to turn red, the *Wasteland Field Readout* hiding behind a rock as well as hidden *Blue Shard* and *Peppermint*. From here you'll have to go back through the building and down the right slide to return to this area.
+今度は右の滑り台へ。隠された *ディフェンダー*、*スピーダー*、*すごいキズぐすり*、*けいけんアメL*、*モンスターボール*、*むらさきのかけら*、*みどりのかけら*、*どくバリ*、*むらさきのかけら*、*タウリン* が見つかります。ここから上に、赤くするタンクがもう1つあります。上、そして左の建物を抜けると隠された *くろいヘドロ* があります。この区画の左下へ向かい、段差を1つ降りてください。ここにも赤くするタンクがあり、岩の陰に *荒野フィールドの資料* が隠れているほか、隠された *あおいかけら* と *ハッカキャンディ* も手に入ります。ここからは建物を通り、右の滑り台を下りてこのエリアへ戻る必要があります。
 
-In the bottom right section, use the Light Shard and talk to Ace for a battle.
+右下の区画で *光のかけら* を使い、エースに話しかけるとバトルです。
 
 !battle(["Ace of Diamonds", :ACEDIAMONDS, 0], "Wasteland Field")
 
-Ace has a full team but it isn't particularly bolstered by the field. Be careful not to let Honchkrow or Clefable sweep you and you can find a way through this fight!
+エースは6匹揃っていますが、フィールドの後押しは強くありません。**ドンカラス** と **ピクシー** に全抜きされないよう気をつければ、突破口は見つかります。
 
-Talk to the screen beyond them to unlock a door down and to the right. Exit the building at the top and go down the first slide. You'll find a *Lax Incense* up here. Go down the slide to the left. You'll find a hidden *Green Shard*, *Heart Scale*, and *Calcium*, as well as another canister to turn red. Down the ledge, you'll need to go through the building again. Take the slide on the right now, and grab the hidden *Potion*.
+その奥のモニターに話しかけると、右下の扉が開きます。建物の上から出て最初の滑り台を下ります。この上には *のんきのおこう* があります。左の滑り台を下りると、隠された *みどりのかけら*、*ハートのウロコ*、*リゾチウム* と、赤くするタンクがもう1つ見つかります。段差を降りたら、また建物を通る必要があります。今度は右の滑り台を下り、隠された *キズぐすり* を拾ってください。
 
-In the top right corner of the area, you can find hidden *Ground Gem*, *Purple Shard*, *Ether*, and *Ice Heal*. Talk to the final canister to turn red.
+エリアの右上の隅では、隠された *じめんのジュエル*、*むらさきのかけら*、*ピーピーエイド*、*こおりなおし* が見つかります。最後のタンクに話しかけて赤にします。
 
-Talk to Cain if you'd like then enter the building. Heal and prepare your team, save, then enter the room on the left.
+必要ならカインに話しかけてから建物へ入ります。回復して手持ちを整え、セーブしたら左の部屋に入ってください。
 
 !battle(["Fern", :Hotshot, 4], "Wasteland Field")
 
-Fern is back with a full team. His general strategies remain the same: Krookodile will try to sweep, Roserade will hit hard and fast with Giga Drain to heal itself, and Decidueye will try to Sucker Punch you and/or sweep with Swords Dance. Scyther hits fairly hard with its STABs, especially Technician Wing Attack. Fraxure and Rhydon aren't as bad but you still have to be careful.
+ファーンが6匹揃えて戻ってきました。基本的な戦法は変わりません。**ワルビアル** は全抜きを狙い、**ロズレイド** は *ギガドレイン* で高速かつ高火力に殴りながら自己回復し、**ジュナイパー** は *ふいうち* を仕掛けるか *つるぎのまい* で全抜きを狙ってきます。**ストライク** はタイプ一致技、特に *テクニシャン* の *つばさでうつ* でそれなりの火力を出します。**オノンド** と **サイドン** はまだ楽ですが、油断はできません。
 
-Past the Ground types, a Poison type can abuse the field to sweep the fight. Nature Power turns into Gunk Shot and, as an added bonus, is immune to Sucker Punch. Once you can get past Roserade he doesn't have an incredible amount of speed so a boosted sweeper can probably succeed here.
+じめんタイプさえ越えれば、どくタイプがフィールドを利用して全抜きできます。*しぜんのちから* が *ダストシュート* に変わり、おまけに *ふいうち* を透かせます。ロズレイドを越えてしまえば相手の素早さは大したことがないので、積んだエースならまず通ります。
 
-**Relationship Point Choices**:
-- Defeat Fern on the first try (+1 Aya, +1 Hardy)
+**好感度の選択肢**:
+- 1回目でファーンに勝つ (+1 アヤ、+1 ハーディ)
 
-Before doing the gym battle, there is some side content. Turn all the canisters in the wasteland red if you want to explore the Byxbysion Tunnels.
+ジム戦の前にサイドコンテンツがあります。ビクスビジョン坑道を探索したいなら、荒地のタンクをすべて赤にしてください。
 
-## Byxbysion Tunnels
+## ビクスビジョン坑道 {#byxbysion-tunnels}
 
-Head down from the wasteland hideout, smash the rock and go down the ledge. You'll see that the left building door is now open.
+荒地のアジトから下へ進み、岩を砕いて段差を降ります。左の建物の扉が開いているはずです。
 
 !enc(214, nil, nil, "Byxbysion Tunnels 1")
 
-The tunnel is straightforward - enter the cave entrance at the end to reach another tunnel.
+坑道は一本道です。突き当たりの洞窟入口に入ると次の坑道へ出ます。
 
 !enc(215, nil, nil, "Byxbysion Tunnels 2")
 
-Emerge on the other side and go down the slide. Grab a hidden *Synthetic Seed* and go down the next slide. Here a guy will tell you about the password *nodamageroll*. Grab a hidden *Red Shard* and enter the next cave. Follow the path through to the outside. The next area will have a hidden *Sticky Barb* and *Full Heal*, and a *Poison Barb* to the right. Enter the next cave entrance.
+反対側に出たら滑り台を下ります。隠された *シンセティックシード* を拾い、次の滑り台へ。ここでは男性がパスワード *nodamageroll* を教えてくれます。隠された *あかいかけら* を拾って次の洞窟へ入り、道なりに外へ抜けてください。次のエリアには隠された *くっつきバリ* と *なんでもなおし*、そして右手に *どくバリ* があります。次の洞窟入口へ入りましょう。
 
-Interact with both canisters to move the bookshelf at the top, revealing a secret room. Inside it, you can find a hidden *Sun Stone*.
+2つのタンクを両方調べると上の本棚が動き、隠し部屋が現れます。中には隠された *たいようのいし* があります。
 
 !enc(217, nil, nil, "Byxbysion Grotto / Hidden Tunnel")
 
-Inside the room to the left, you can use an Odd Keystone if you've found one via mining to get **Spiritomb**. The second room contains *TM66 Payback*. Prepare yourself and enter the third room.
+左の部屋では、採掘で *かなめいし* を見つけていれば **ミカルゲ** が手に入ります。2つ目の部屋には *わざマシン66 しっぺがえし* があります。備えを整えて3つ目の部屋へ。
 
 !battle(["Horde", :BUGCATCHER, 0], "Wasteland Field")
 
-Mr. Bigglesworth is tough and also our first opponent that is EV trained. You can set up while the Trubbish are out with your own Steel or Poison type then destroy him. Sad :(
+ミスター・ビグルスワースは手強く、しかも**努力値調整された初めての相手**です。**ヤブクロン** が出ているうちに、こちらのはがねタイプかどくタイプで積んでから叩き潰しましょう。気の毒ですが。
 
-Behind you'll find *TM09 Venoshock* as well as the *PULSE Readout 0*.
+奥では *わざマシン09 ベノムショック* と *パルスの資料0* が手に入ります。
 
-That's it for this area, so return to the room with the two canisters. Hidden behind the left one is another tunnel. As you follow the path you can get a hidden *Focus Sash*. Nice.
+このエリアはこれで終わりなので、2つのタンクがある部屋へ戻ります。左のタンクの裏には、もう1本の坑道が隠れています。道なりに進むと隠された *きあいのタスキ* が手に入ります。ありがたい。
 
-Once you appear outside, go down the slide here and grab a hidden *Moon Stone*. Go in the cave and head up the ladder, then go right back down this ladder to reach a new area...? This doesn't really make sense, but neither does much of the wasteland, really. The mining rock here is all we can get right now, so head up the ladder, go down the slide, and then make your way all the way back to the Wasteland hideout.
+外に出たらここの滑り台を下り、隠された *つきのいし* を拾います。洞窟に入ってはしごを上り、そのまま同じはしごを下りると新しいエリアに出ます……理屈は通りませんが、この荒地では大抵のことが理屈を超えています。ここで得られるのは採掘用の岩だけなので、はしごを上って滑り台を下り、荒地のアジトまで戻ってください。
 
-## Blight Badge
+## ブライトバッジ {#blight-badge}
 
-Enter the gym room, save, and talk to Aya.
+ジムの部屋に入り、セーブしてアヤに話しかけます。
 
 !battle(["Aya", :AYA, 0], "Wasteland Field")
 
-Aya is another difficult doubles gym leader. For one, the field boosts her all-target Sludge Waves as well as Venusaur's Power Whip. Entry Hazards are all turned into end-of-turn effects: Toxic Spikes and Stealth Rocks will do damage and the former will Poison your Pokemon. With the speedy Nidoqueen and Salazzle, the bulky Toxapex and Dragalge, and Venusaur and Drapion for coverage, her team is well suited to deal with many of the strategies you might think to use. Plus, while you'd immediately think Earthquake is a good answer, the move's damage is quartered on this field, so that's not really an option.
+アヤもまた手強いダブルバトルのジムリーダーです。まずフィールドが、全体攻撃の *ヘドロウェーブ* と **フシギバナ** の *パワーウィップ* を強化します。設置技はすべてターン終了時の効果に変わり、*どくびし* と *ステルスロック* はダメージを与え、前者はこちらをどく状態にします。素早い **ニドクイン** と **エンニュート**、硬い **ドヒドイデ** と **ドラミドロ**、そして補完役の **フシギバナ** と **ドラピオン**。この編成は、こちらが思いつきやすい戦法の多くに耐えられるよう組まれています。しかも *じしん* が有効に見えて、このフィールドではダメージが4分の1になるため選択肢になりません。
 
-The key to this battle in my experience is letting Toxapex hang out on the left side, especially if you can lower its Special Attack or put it to sleep.  Toxapex does have Merciless which is always on, but still doesn't hit incredibly hard and will probably be going last unless it has gotten off a lot of Icy Wind. With two moves per turn focusing on the Pokemon to its right, you may be able to preserve momentum long enough to come out on top. For that reason, putting Psychic type attackers, and/or Steel/Poison type defenders on the field and letting them tank attacks and knock out the threats will probably pay out. Ice is also a pretty good offensive type here, note that Freeze Dry can take four of her Pokemon super-effectively and the other two neutrally. You can also use your own entry hazard spam, standard doubles strategies like Wide Guard and Protect, or the Telluric seed to boost a sweeper.
+経験上この戦いの鍵は、**ドヒドイデ** を左側に居座らせることです。とくこうを下げるか眠らせられればなお良し。ドヒドイデは *ひとでなし* が常時発動しますが、それでも火力は極端ではなく、*こごえるかぜ* を何度も撃たれていない限り後攻に回ります。毎ターン2回の攻撃をその右隣のポケモンに集中させれば、主導権を保ったまま押し切れる可能性があります。そのため、エスパータイプのアタッカーや、はがね／どくタイプの受けを場に出し、攻撃を受け止めながら脅威を落としていく形が有効でしょう。こおりも攻撃タイプとして優秀で、*フリーズドライ* は相手6匹のうち4匹に抜群、残り2匹にも等倍で通ります。こちらから設置技を撒く、*ワイドガード* や *まもる* といったダブルの定石を使う、*テルリックシード* でエースを補助する、といった手もあります。
 
-**Relationship Point Choices**:
-- Beat Aya on the first try (-1 Hardy, -1 Fern)
+**好感度の選択肢**:
+- 1回目でアヤに勝つ (-1 ハーディ、-1 ファーン)
 
-Once you win you'll get the *Blight Badge*, *TM34 Sludge Wave*, and get a Level 50 cap finally. We also get to use Strength in the field, finally!
+勝利すると *ブライトバッジ* と *わざマシン34 ヘドロウェーブ* が手に入り、ようやくレベル上限が50になります。フィールドで *かいりき* も使えるようになります。

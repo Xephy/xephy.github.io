@@ -1,0 +1,58 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# 日本語化パッチの会話データから、ある英語表現を含む行を探して対訳を並べる。
+#
+# 辞書 (dict.json) はゲームのデータ定義から作られているので、施設名や俗称のように
+# 「NPC のセリフの中にしか出てこない呼び名」は引けない。攻略本文の訳語をゲームに
+# 揃えるには、会話そのものを当たる必要がある。
+#
+#   bin/find-term "Critical Capture"
+#   bin/find-term --max 20 "Move Tutor"
+
+require 'json'
+require 'optparse'
+
+opts = { max: 8 }
+OptionParser.new do |o|
+  o.on('--max N', Integer) { |v| opts[:max] = v }
+end.parse!
+
+needle = ARGV.join(' ')
+abort '探す英語表現を指定してください' if needle.empty?
+
+root = File.expand_path('..', __dir__)
+src = File.join(root, '..', 'Reborn-19.5.0-windows', 'jp_translation', 'work', 'src')
+abort "パッチの翻訳データが見つかりません: #{src}" unless Dir.exist?(src)
+
+hits = []
+Dir.glob(File.join(src, '*.jsonl')).sort.each do |path|
+  File.foreach(path) do |line|
+    row = begin
+      JSON.parse(line)
+    rescue StandardError
+      next
+    end
+    en = row['en'].to_s
+    next unless en.downcase.include?(needle.downcase)
+    next if row['ja'].to_s.empty? || row['ja'] == en
+
+    hits << [File.basename(path, '.jsonl'), en, row['ja']]
+  end
+end
+
+if hits.empty?
+  puts "「#{needle}」を含む対訳は見つかりませんでした。"
+  puts 'ゲーム内に登場しない呼び名の可能性があります (攻略側の造語など)。'
+  exit
+end
+
+# 短い行ほど呼び名そのものに近いので先に見せる
+hits.sort_by! { |_, en, _| en.length }
+puts "「#{needle}」を含む対訳: #{hits.length} 件"
+hits.first(opts[:max]).each do |file, en, ja|
+  puts "\n  [#{file}]"
+  puts "  EN: #{en.gsub("\n", ' ')}"
+  puts "  JA: #{ja.gsub("\n", ' ')}"
+end
+puts "\n  (ほか #{hits.length - opts[:max]} 件)" if hits.length > opts[:max]

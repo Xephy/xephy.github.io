@@ -319,10 +319,6 @@ Full-Width Styles
   width: auto;
 }
 
-#discord_banner {
-  background-color: #5865F2;
-}
-
 #forkme_banner {
   background-color: #0090ff;
 }
@@ -373,14 +369,6 @@ Full-Width Styles
   text-align: left;
 }
 
-#project_tagline {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 300;
-  background: none;
-  text-shadow: #111 0px 0px 10px;
-  text-align: left;
-}
 
 #main_content_wrap {
   background: #f2f2f2;
@@ -670,3 +658,59 @@ body.night-mode td {
 body.night-mode div#quote {
   background: #222222;
 }
+/*******************************************************************************
+Chapter navigation (Japanese split-by-episode pages)
+*******************************************************************************/
+
+.chapter-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 16px;
+  margin: 24px 0;
+  padding: 12px 16px;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  background: #f7f7f7;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.chapter-nav-prev { grid-column: 1; text-align: left; }
+.chapter-nav-next { grid-column: 2; text-align: right; }
+
+.chapter-nav-toc {
+  grid-column: 1 / -1;
+  border-top: 1px solid #dddddd;
+  padding-top: 8px;
+}
+
+.chapter-nav-toc > summary {
+  cursor: pointer;
+  font-weight: bold;
+  /* 一覧は普段畳んでおく。29章あるので開きっぱなしだと本文が遠くなる。 */
+}
+
+.chapter-nav-toc ol {
+  margin: 8px 0 0 0;
+  padding-left: 1.6em;
+  columns: 2;
+  column-gap: 24px;
+}
+
+.chapter-nav-toc li { margin: 2px 0; break-inside: avoid; }
+.chapter-nav-current > strong { color: #333333; }
+
+/* 章が多いので、狭い画面では1列に落とす */
+@media screen and (max-width: 640px) {
+  .chapter-nav { grid-template-columns: 1fr; }
+  .chapter-nav-prev, .chapter-nav-next { grid-column: 1; text-align: left; }
+  .chapter-nav-toc ol { columns: 1; }
+}
+
+body.night-mode .chapter-nav {
+  background: #222222;
+  border-color: #424242;
+}
+
+body.night-mode .chapter-nav-toc { border-top-color: #424242; }
+body.night-mode .chapter-nav-current > strong { color: #e0e0e0; }

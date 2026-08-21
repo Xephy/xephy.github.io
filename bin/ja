@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+# 日本語版のローカル確認用。
+#
+#   bin/ja build   … ローカルのゲーム Scripts から src/reborn.md を生成
+#   bin/ja serve   … 生成してから Jekyll を立ち上げる (既定)
+#   bin/ja en      … 英語版として生成（回帰確認用）
+#
+# 上流の Rakefile の generate_reborn は BIGJRA の非公開リポジトリを clone する
+# ため使えない。代わりに手元のゲームの Scripts/ を直接読ませる。
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+SCRIPTS_DIR="${SCRIPTS_DIR:-../Reborn-19.5.0-windows/Scripts}"
+PORT="${PORT:-4000}"
+
+[ -d "$SCRIPTS_DIR/Reborn" ] || {
+  echo "ゲームの Scripts が見つかりません: $SCRIPTS_DIR" >&2
+  echo "SCRIPTS_DIR=... で指定してください。" >&2
+  exit 1
+}
+
+generate() {
+  # wt_generator.rb は既存の出力を _arch/ に退避するが mkdir はしない。
+  mkdir -p src/_arch
+  echo "==> 生成中 (${1:-ja})  Scripts: $SCRIPTS_DIR"
+  ruby wt_generator.rb reborn "$SCRIPTS_DIR" src/reborn.md
+}
+
+case "${1:-serve}" in
+  build) generate ja ;;
+  en)    WT_LANG=en generate en ;;
+  serve)
+    generate ja
+    echo "==> http://127.0.0.1:$PORT/reborn/"
+    # --source を渡すと Jekyll がルートの _config.yml を読まなくなる
+    # (テーマとプラグインが効かない)。設定側に source: ./src がある。
+    exec bundle exec jekyll serve --host 127.0.0.1 --port "$PORT" --livereload
+    ;;
+  *) echo "使い方: bin/ja [build|serve|en]" >&2; exit 1 ;;
+esac

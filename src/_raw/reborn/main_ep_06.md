@@ -1,8 +1,8 @@
-# Episode 6: Poison In Vein
+# エピソード6: 血に毒を {#episode-6}
 
-Head out from the Abandoned Power Plant and return to Jasper Ward and attempt to enter Peridot. You'll meet up with Cain here, so follow him into the Police Station and watch the scene.
+廃発電所を出てジャスパー区へ戻り、ペリドットへ入ろうとします。ここでカインと合流するので、あとについて警察署へ入り、イベントを見てください。
 
-Before we continue with the story, head over to the Opal Ward. Once more, there are new trainers on the bridge.
+ストーリーを進める前にオパール区へ。橋にはまたトレーナーが増えています。
 
 !battle(["Rin", :PSYCHIC_Female, 0])
 
@@ -10,103 +10,103 @@ Before we continue with the story, head over to the Opal Ward. Once more, there 
 
 !battle(["Caleb", :TechNerd, 0])
 
-Head over to the Lapis Alleyway during a windy night. There, you'll find **Murkrow**!
+風の強い夜にラピス路地へ向かうと、**ヤミカラス** が見つかります。
 
-## Blacksteam Factory
+## ブラックスチーム工場 {#blacksteam-factory}
 
-Head to the factory on the west side of Peridot. We can talk to the characters here for some points.
+ペリドット西側の工場へ向かいます。ここの登場人物に話しかけると好感度が動きます。
 
-**Relationship Point Choices**:
-- Tell Cain we can trust Ace (+1 Ace, +1 Amaria, -1 Cain)
-- Tell Cain we cannot trust Ace (+1 Cain, -1 Ace)
+**好感度の選択肢**:
+- エースは信用できるとカインに言う (+1 エース、+1 アマリア、-1 カイン)
+- エースは信用できないとカインに言う (+1 カイン、-1 エース)
 
-Talk to Ace and tell them your favorite nature, and they'll give you the respective *Mint*.
+エースに話しかけて好きな性格を伝えると、対応する *ミント* をくれます。
 
-**Relationship Point Choices**:
-- Get a mint from Ace (+1 Ace)
+**好感度の選択肢**:
+- エースからミントをもらう (+1 エース)
 
-Talk to Amaria to get on top of the building, and head in.
+アマリアに話しかけると建物の上に上がれるので、そのまま中へ入ります。
 
 !partner(["Amaria", :Fiancee, 0])
 
 !dbattle(["Ricardo", :MeteorGrunt, 1], ["Hilda", :MeteorGrunt_090, 1], "Factory Field")
 
-Seems like our partner is actually the 16th gym leader. Defeat the grunts with her, grab a hidden *Antidote*, then go down the stairs.
+どうやら同行者は16人目のジムリーダーのようです。彼女と組んでしたっぱを倒し、隠された *どくけし* を拾ったら階段を下ります。
 
-**Relationship Point Choices**:
-- Tell Amaria you trust her (+1 Amaria)
-- Tell Amaria you don't trust her (-1 Amaria)
+**好感度の選択肢**:
+- アマリアを信用すると伝える (+1 アマリア)
+- アマリアを信用しないと伝える (-1 アマリア)
 
-**Relationship Point Choices**:
-- Tell Ace you think they might be a double double agent (+1 Ace)
-- Tell Ace you don't think they could be a double double agent (-1 Ace)
+**好感度の選択肢**:
+- エースに「二重の二重スパイかもしれない」と言う (+1 エース)
+- エースに「二重の二重スパイではないと思う」と言う (-1 エース)
 
-With that, we'll be plunked into a cage with a bunch of Pokemon. Essentially we need to combine Loudred's powers of deafening, Jigglypuff's powers of putting the guard to sleep, and Abra's powers of teleportation to move Pokemon around and attack the cages. In the top left if we saved the day-care couple and talked to the Meteor in Coral Ward, you'll see a Ditto, and we can get some goodies with it. To get all the goodies and escape from the cage, talk to the Pokemon in this order:
+そのあと、大勢のポケモンと一緒に檻へ放り込まれます。要するに、**ドゴーム** の耳をつんざく声、**プリン** の眠らせる力、**ケーシィ** のテレポートを組み合わせてポケモンを動かし、檻を攻撃させるパズルです。左上には、育て屋夫婦を助けていてコーラル区のメテオ団員に話しかけていれば **メタモン** がいて、これを使うと余得があります。すべての品を回収して檻から脱出するには、次の順で話しかけてください。
 
-1. Get a *Rare Candy*: Loudred, Abra, Vanillite/Ditto, Abra, Lickitung, Lickitung/Ditto.
-2. Obtain **Ditto**: Abra, Lickitung/Ditto, Abra, Makuhita, Makuhita/Ditto.
-3. Heat up the bars via Flamethrower: Abra, Vanillite, Abra, Cyndaquil, Loudred, Jigglypuff, Cyndaquil
-4. Freeze the bars via Ice Beam: Loudred, Abra, Cyndaquil, Abra, Vanillite, Loudred, Jigglypuff, Vanillite
-5. Break the bars via Rock Blast: Loudred, Abra, Vanillite, Abra, Roggenrola, Loudred, Jigglypuff, Roggenrola
-6. Bonus: wake up the guard for a battle: Loudred
+1. *ふしぎなアメ* を入手: ドゴーム、ケーシィ、バニプッチ／メタモン、ケーシィ、ベロリンガ、ベロリンガ／メタモン
+2. **メタモン** を入手: ケーシィ、ベロリンガ／メタモン、ケーシィ、マクノシタ、マクノシタ／メタモン
+3. *かえんほうしゃ* で鉄格子を熱する: ケーシィ、バニプッチ、ケーシィ、ヒノアラシ、ドゴーム、プリン、ヒノアラシ
+4. *れいとうビーム* で鉄格子を凍らせる: ドゴーム、ケーシィ、ヒノアラシ、ケーシィ、バニプッチ、ドゴーム、プリン、バニプッチ
+5. *ロックブラスト* で鉄格子を破壊する: ドゴーム、ケーシィ、バニプッチ、ケーシィ、ダンゴロ、ドゴーム、プリン、ダンゴロ
+6. おまけ: 見張りを起こしてバトルする: ドゴーム
 
-Now you can escape and talk to the guard for a fight.
+これで脱出でき、見張りに話しかけると戦えます。
 
 !battle(["Sanchez", :MeteorGrunt, 1], "Factory Field")
 
-One more bonus: use Abra to teleport the guard into a cage. Nice.
+もうひとつおまけがあります。ケーシィで見張りを檻の中へテレポートさせられます。愉快です。
 
-Pick up a hidden *Dire Hit* on this floor, then go down the stairs to the left. In this room you can find a *Magnet Powder*, *Exp. Candy L*, *TM49 Echoed Voice* and the *PULSE Readout 4*.
+この階で隠された *クリティカット* を拾ったら、左の階段を下ります。この部屋では *じしゃくのこな*、*けいけんアメL*、*わざマシン49 エコーボイス*、そして *パルスの資料4* が手に入ります。
 
-Head back upstairs and take the stairs on the right to 1F.
+上階へ戻り、右の階段で1階へ。
 
 !battle(["Naoman", :TechNerd, 0], "Factory Field")
 
-Grab the *Super Potion*.
+*いいキズぐすり* を回収します。
 
 !battle(["Devin", :MeteorGrunt, 1], "Factory Field")
 
 !battle(["Kenan", :MeteorKnight, 0], "Factory Field")
 
-Beat the grunts and activate the wall panel in the top right corner. This allows you to enter and exit the factory freely, on the right side of the room. Pick up hidden *Purple Shard* and *Super Repel* on this floor.
+したっぱを倒し、右上の隅の壁パネルを起動します。これで部屋の右側から工場を自由に出入りできるようになります。この階では隠された *むらさきのかけら* と *シルバースプレー* を拾ってください。
 
 !battle(["Diana", :MeteorDame, 0], "Factory Field")
 
-Towards the bottom of the area you'll find more stairs, so take these to go up to 2F.
+エリア下部にさらに階段があるので、これで2階へ上がります。
 
 !battle(["Steven", :MeteorKnight, 0], "Factory Field")
 
-Grab the hidden *Revive* to the left, then go to the right here. Talk to the machine with some green lights on it to get *Exp. Candy L*.
+左手で隠された *げんきのかけら* を拾ったら、そこから右へ。緑のランプが点いた機械に話しかけると *けいけんアメL* がもらえます。
 
 !battle(["Deryl", :TechNerd, 0], "Factory Field")
 
-You can find a *Thunderstone* here.
+ここでは *かみなりのいし* が手に入ります。
 
 !battle(["Avril", :MeteorDame, 0], "Factory Field")
 
-Activate the panel at the top right and go back downstairs. To the left, you'll see an open door. Get ready for battle.
+右上のパネルを起動して階下へ戻ります。左手に開いた扉があるので、バトルに備えてください。
 
 !battle(["ZEL", :ZEL, 2], "Factory Field")
 
-This time ZEL comes at us with both a PULSE and three Eeveelutions. The first three members of the team aren't particularly tough - something with a bit of physical bulk and a healing option can take Umbreon, while a fast physical attacker or two can deal with Glaceon and Espeon.
+今回の ZEL は PULSE に加えてイーブイの進化系を3匹連れてきます。最初の3匹はさほど厄介ではありません。物理耐久と回復手段があるポケモンなら **ブラッキー** を受けられますし、素早い物理アタッカーが1〜2匹いれば **グレイシア** と **エーフィ** に対処できます。
 
-The PULSE Muk can be difficult to deal with. It has a bit more speed than Tangrowth, but still not enough that you won't be able to outspeed it with most Pokemon. It's Protean ability gives it STAB on field boosted Discharge and Muddy Water and makes it a bit hard to plan your offense since it changes types. While its 97 Sp. Atk isn't monumental, with 105 HP, 250 Special Defense, and Leftovers, you won't really be able to do anything to it with special moves. Knock Off is a good idea here to prevent it's recovery, or you can opt to hit really hard with two or three physical attackers that are able to capitalize on Protean with moves super effective against Poison / Ground / Water / Electric depending on what it's used last.
+問題は PULSE **ベトベトン** です。モジャンボよりは素早いものの、たいていのポケモンなら上を取れる程度です。*へんげんじざい* によってフィールド強化された *ほうでん* と *だくりゅう* にタイプ一致が乗り、しかもタイプが変わり続けるのでこちらの攻めを組み立てにくくなります。とくこう97は突出していませんが、HP105・とくぼう250・*たべのこし* という数値のため、特殊技ではまず何もできません。回復を止める *はたきおとす* が有効です。あるいは、直前に使った技に応じてどく／じめん／みず／でんきの弱点を突ける物理アタッカーを2〜3匹並べ、力ずくで押し切る手もあります。
 
-Once you win, you'll get the *Harbor Key*.
+勝つと *みなとのカギ* が手に入ります。
 
-## Apophyll Beach
+## アポフィルビーチ {#apophyll-beach}
 
-Make your way towards the Coral Ward and enter the locked warehouse in the top left. Inside, you can take the boat to Apophyll Beach!
+コーラル区へ向かい、左上の施錠された倉庫に入ります。中から船に乗ってアポフィルビーチへ行けます。
 
-As soon as you enter, go straight left and weave between the hills to get a *Wave Incense*.
+着いたらまっすぐ左へ進み、丘の間を縫って *さざなみのおこう* を回収してください。
 
 !enc(18, nil, ["Old"])
 
-You can also catch **Pyukumuku** chilling all around the beach.
+浜辺の各所でくつろいでいる **ナマコブシ** も捕まえられます。
 
-Hidden along this part of the beach you can find a *Green Shard*, 4 *Shoal Shells*, 2 *Red Shards*, *Hyper Potion*, 2 *Stardusts*, 2 *PokeSnax*, *Common Candy*, *Full Heal*, *Blue Shard*.
+この一帯には *みどりのかけら*、*あさせのかいがら* 4個、*あかいかけら* 2個、*すごいキズぐすり*、*ほしのすな* 2個、*ポケスナック* 2個、*ふつうのアメ*、*なんでもなおし*、*あおいかけら* が隠されています。
 
-Trainers on this part of the beach:
+この一帯のトレーナーは以下のとおりです。
 
 !battle(["Jerry", :FISHERMAN, 0], "Ashen Beach")
 
@@ -116,11 +116,11 @@ Trainers on this part of the beach:
 
 !battle(["Mauve", :BATTLEGIRL, 0], "Ashen Beach")
 
-You'll enter the Apophyll Academy map by going to the left at the top. Go all the way around the academy sticking to this map: hidden here are *Super Potion*, *Shoal Shell*, *Blue Shard*, *Full Heal*, and *Soft Sand*.
+上部から左へ進むとアポフィルアカデミーのマップに入ります。このマップに沿ってアカデミーを一周してください。ここには *いいキズぐすり*、*あさせのかいがら*、*あおいかけら*、*なんでもなおし*、*やわらかいすな* が隠されています。
 
 !battle(["Daniel", :FISHERMAN, 0], "Ashen Beach")
 
-Back down at the academy's front entrance, go down from here.
+アカデミー正面まで戻り、そこから下へ進みます。
 
 !battle(["Paul", :BLACKBELT, 0], "Ashen Beach")
 
@@ -128,29 +128,29 @@ Back down at the academy's front entrance, go down from here.
 
 !battle(["Tina", :BATTLEGIRL, 0], "Ashen Beach")
 
-You'll find hidden *Red Shard*, *Hyper Potion*, *Great Ball*, *Red-Hots*.
+隠された *あかいかけら*、*すごいキズぐすり*、*スーパーボール*、*シナモンキャンディ* が見つかります。
 
 !enc(16, nil, nil, "Apophyll Training Grounds")
 
-Before we continue the story, head to the left side of the academy to reach a new section of beach. Go down and left from here.
+ストーリーを進める前に、アカデミーの左側から新しい浜辺の区画へ向かいます。そこから下、そして左へ。
 
 !battle(["Jack", :HIKER, 0], "Rocky Field")
 
-You'll see the entrance to Pyrous Mountain here - we won't be entering quite yet. Make your way up the western part of the beach from here.
+ここにパイロス山の入口がありますが、まだ入りません。ここから西側の浜辺を上っていきます。
 
 !battle(["Ici", :NatureGirl, 0], "Ashen Beach")
 
 !battle(["Juan", :PSYCHIC_Male, 0], "Ashen Beach")
 
-On the western beach, you can find hidden items: *Swift Wing*, *Green Shard*, *Star Piece*, *Telluric Seed*, 3 *Shoal Shells*, 2 *Stardusts*, 2 *Purple Shards*, *Exp. Candy L*, *X Sp. Def*, and *Red Shard*.
+西の浜辺では隠しアイテムとして *しゅんぱつのハネ*、*みどりのかけら*、*ほしのかけら*、*テルリックシード*、*あさせのかいがら* 3個、*ほしのすな* 2個、*むらさきのかけら* 2個、*けいけんアメL*、*スペシャルガード*、*あかいかけら* が手に入ります。
 
-If it is storming, you can find a **Corsola** on the left side of the area who will join you in exchange for snax.
+嵐のときには、エリア左側に **サニーゴ** がいて、ポケスナックと引き換えに仲間になります。
 
-The Apophyll Cave is up from here, but we will return in a bit. Head back to the Apophyll Academy. Now, we're going to head inside.
+アポフィルどうくつはここから上ですが、そちらへは後ほど戻ります。アポフィルアカデミーへ戻り、いよいよ中へ入りましょう。
 
 !shop("Apophyll Academy", ["Super Potion", "Common Candy", "Antidote", "Awakening", "Paralyze Heal", "Burn Heal", "Escape Rope", "Super Repel", "Poke Ball"])
 
-Head up to reach the middle part of the area.
+上へ進んでエリア中央部へ。
 
 !battle(["Ryan", :BLACKBELT, 0], "Ashen Beach")
 
@@ -160,103 +160,103 @@ Head up to reach the middle part of the area.
 
 !battle(["Lisa", :BATTLEGIRL, 0], "Ashen Beach")
 
-Pick up a hidden *Guard Spec*. Now we are going to enter the six doors in this area: the top left has a *Black Belt*, the girl in the bottom left wants us to steal a TV for her (in a bit), the Dudebro in the top right wants Protein in exchange for his *Ashen Beach Field Readout*, the guy in the middle right will give us *Pure Incense*, the bottom right room contains a person who will tell us about the *unrealtime* password and a person who judges Hidden Power types.
+隠された *エフェクトガード* を拾います。次にこのエリアの6つの扉へ入ります。左上には *くろおび* があり、左下の少女はテレビを盗んできてほしいと頼んできます（これは後ほど）。右上の兄ちゃんは *タウリン* と引き換えに *灰の浜辺フィールドの資料* をくれます。右中央の男性は *きよめのおこう* をくれます。右下の部屋には *unrealtime* というパスワードを教えてくれる人物と、*めざめるパワー* のタイプを判定してくれる人物がいます。
 
-Enter the area at the top, then go up the stairs. Talk to every NPC here and agree to study with those who ask. One is a tutor.
+上部のエリアに入り、階段を上ります。ここのNPC全員に話しかけ、勉強に誘われたら応じてください。1人は技教え人です。
 
 !tutor("Apophyll Academy Move Tutor", [["Gastro Acid", "1 Blue Shard"], ["Recycle", "2 Purple Shards"], ["Endeavor", "3 Green Shards"], ["Pain Split", "3 Red Shards"]])
 
-Head out the door on the bottom right, then walk across the roof. In the next room, talk to the NPCs again and study with them. Head out the door to the left, and talk to the girl on the roof to get **Meditite**.
+右下の扉から出て屋根を渡ります。次の部屋でもNPCに話しかけて勉強しましょう。左の扉から出て屋上の少女に話しかけると **アサナン** が手に入ります。
 
-Relationship Point Chocies:
-- Obtain Meditite (+1 Victoria)
+**好感度の選択肢**:
+- アサナンを入手する (+1 ヴィクトリア)
 
-Back down from here, attempt to steal the TV.
+そこから下りて、テレビを盗みにかかります。
 
 !battle(["Kacey", :NatureGirl, 0])
 
-Once you win, return to the girl who requested it to get *Department Store Sticker: Meditite*.
+勝ったら依頼主の少女のところへ戻ると *デパートシール: アサナン* がもらえます。
 
 !shop("Department Store 6F (Left)", ["Kebia Berry", "Shuca Berry", "Coba Berry", "Haban Berry", "Kasib Berry", "Colbur Berry", "Babiri Berry", "Chilan Berry", "Roseli Berry"])
 
 !shop("Department Store 6F (Right)", ["Occa Berry", "Passho Berry", "Wacan Berry", "Rindo Berry", "Yache Berry", "Payapa Berry", "Tanga Berry", "Charti Berry", "Chople Berry"])
 
-The type berries are all pretty useful when you need them, but I would recommend only stocking up when you know you need some because of the price.
+半減きのみはどれも必要な場面では役立ちますが、値が張るので、要ると分かってから買い揃えることをおすすめします。
 
-Anyways, back in Apophyll, we are next going to explore the optional area Apophyll Cave at the very top-left corner of the beach.
+さてアポフィルに戻り、次は任意エリアであるアポフィルどうくつを探索します。浜辺の左上の角にあります。
 
-## Apophyll Cave
+## アポフィルどうくつ {#apophyll-cave}
 
 !enc(30, nil, nil, "Apophyll Cave 1F")
 
-We will eventually be able to trade Stunfisk later on, so get one if you can.
+後々 **マッギョ** を交換に出せるので、捕まえられるうちに確保しておきましょう。
 
 !battle(["Dillon", :BATTLEGIRL, 0], "Cave Field")
 
-In item balls you can find the *Oval Charm*, and *Dragon Memory*. Hidden on the first floor is a *Heat Rock*, *Blue Shard*, *Super Potion*, and *Exp. Candy M*.
+アイテムボールからは *まるいおまもり* と *ドラゴンメモリ* が手に入ります。1階には *あついいわ*、*あおいかけら*、*いいキズぐすり*、*けいけんアメM* が隠されています。
 
-The NPC in the top right will do an in-game trade: your Ledian for his **Shieldon**.
+右上のNPCが交換に応じてくれます。こちらの **レディアン** と、相手の **タテトプス** です。
 
 !enc(31, ["Cave"])
 
-On the second floor you can find in item balls *Exp. Candy L*, *Water Stone*, and *Zoom Lens*, while hidden items include *Red Shard*, *Ether*, *Potion*, *Paralyze Heal*, and *Burn Heal*.
+2階のアイテムボールには *けいけんアメL*、*みずのいし*、*フォーカスレンズ* があり、隠しアイテムは *あかいかけら*、*ピーピーエイド*、*キズぐすり*、*まひなおし*、*やけどなおし* です。
 
-## Pyrous Mountain
+## パイロス山 {#pyrous-mountain}
 
-Now we can continue with the story. Head into the meditation area to the south of the academy and talk to the pink haired lady.
+ここからストーリーに戻ります。アカデミー南の瞑想エリアへ入り、ピンク髪の女性に話しかけてください。
 
-**Relationship Point Choices**:
-- Tell Kiki you are a new student (+1 Cal, +1 Victoria)
+**好感度の選択肢**:
+- キキに新入生だと伝える (+1 キャル、+1 ヴィクトリア)
 
-Head into the back room of the academy and talk to Kiki again. She will tell us that we have to battle Victoria or we have to battle Cal. We actually can do both of them, so I will cover both fights. If you feel like skipping one of them, you can.
+アカデミー奥の部屋に入り、もう一度キキに話しかけます。ヴィクトリアかキャルのどちらかと戦うよう告げられますが、実際には両方と戦えるので、この攻略では両方を扱います。片方を飛ばしても構いません。
 
-To fight Victoria, head into the courtyard of the academy.
+ヴィクトリアと戦うには、アカデミーの中庭へ向かいます。
 
 !battle(["Victoria", :Victoria, 4], "Ashen Beach")
 
-Victoria has a tougher team than last time. She picked up a Mienfoo and finally evolved her other four team members, so they can actually deal significant damage now. You'll notice from the field notes that Strength and Meditate are boosted on this field, so watch out for those. With good coverage and/or exploiting the field you can win this battle!
+ヴィクトリアの編成は前回より手強くなっています。**コジョフー** を加え、残り4匹も進化させたので、まともな火力が出るようになりました。フィールドノートを見れば分かるとおり、このフィールドでは *かいりき* と *ヨガのポーズ* が強化されるので警戒してください。攻撃範囲を広く取るか、フィールドを利用するかすれば勝てます。
 
-**Relationship Point Choices**:
-- Defeat Victoria at Apophyll Academy (+1 Victoria)
+**好感度の選択肢**:
+- アポフィルアカデミーでヴィクトリアに勝つ (+1 ヴィクトリア)
 
-Cal is on the top of Pyrous Mountain. We aren't required to go up here yet as you only need to fight one of them, but we will need to climb it eventually, so I do it now. Make your way to the mountain via the bottom left corner of Apophyll Beach.
+キャルはパイロス山の頂上にいます。どちらか一方と戦えばよいので今すぐ登る必要はありませんが、いずれ登ることになるので、この攻略ではここで済ませます。アポフィルビーチの左下の角から山へ向かってください。
 
 !enc(33, nil, nil, "Pyrous Mountain 1F/2F/3F/B1F")
 
-You can also find Magcargo by smashing the nearby pillars. Anyways, nothing to do on 1F so go to B1F via the ladder. You'll see a pillar glowing, which means we can drain lava by rock smashing it. Do so, then go down the ladder to the left to B2F.
+近くの柱を砕くと **マグカルゴ** も出てきます。1階ではやることがないので、はしごで地下1階へ。柱が光っているのが見えるはずで、これを *いわくだき* で砕くと溶岩を抜けます。抜いたら左のはしごで地下2階へ下ります。
 
 !enc(200)
 
-Grab a hidden *Red Shard* and drain the lava. Head up the ladder and immediately come back down. If it is still glowing, you can smash the pillar to get **Turtonator**. This is one of two possibilities of a randomly determined event.
+隠された *あかいかけら* を拾い、溶岩を抜きます。はしごを上ってすぐ下りてください。まだ光っていれば、柱を砕くと **バクガメス** が手に入ります。これは2択のランダムイベントの片方です。
 
-Back on B1F, you'll see that the lava has drained, so go into the empty pool and go down. Head down the ladder here, and you'll find a hidden *Charcoal* and a *Fire Stone*. If you didn't get Turtonator earlier, there will be a **Heatmor** here to catch. Back upstairs, jump down the hole in the floor to get a *Flame Orb* as well as the *Super-Heated Field Readout*.
+地下1階に戻ると溶岩が抜けているので、空になった溜まりに入って下へ進みます。ここのはしごを下りると、隠された *もくたん* と *ほのおのいし* が見つかります。先ほどバクガメスが出なかった場合は、ここで **クイタラン** を捕まえられます。上階に戻り、床の穴に飛び降りると *かえんだま* と *超高温フィールドの資料* が手に入ります。
 
-Head back to 1F, where the lava will now be drained as well. Follow the path up to 3F. A lava pool will force you to the left back to 2F, where you can drain the lava. Take the ladder to 1F then head to the left to drain it again. Finally, return to B1F then B2F to finish draining the lava as we did before.
+1階へ戻ると、こちらの溶岩も抜けています。道なりに3階まで上ってください。溶岩溜まりに阻まれて左の2階へ戻されるので、そこで溶岩を抜きます。はしごで1階へ下りたら左へ進んでもう一度抜き、最後に地下1階、地下2階と戻って、先ほどと同じ要領で残りの溶岩を抜き切ります。
 
-Make your way back to 3F, then go across the empty pool. On 4F you can find a hidden *X Defend* before exiting to the peak. The peak hides a *Exp. Candy L*.
+3階まで戻り、空になった溜まりを渡ります。4階では、頂上へ出る前に隠された *ディフェンダー* が拾えます。頂上には *けいけんアメL* が隠れています。
 
 !battle(["Cal", :Exleader, 0], "Super-Heated Field")
 
-Cal now has a full team of six and gets the full benefit of the field. It boosts Scald as well as the Fire moves, and can turn into the Burning Field if Magmortar gets to use Lava Plume. Aside from Scald your own Water types will have a tougher time on this field. Luckily, he still makes some suboptimal moves - his Typhlosion hits hardest with Solar Beam and his Charizard is physical, for example. Past Hakamo-o a Rock type or two can pretty much destroy his whole team.
+キャルの手持ちは6匹に増え、フィールドの恩恵を最大限に受けます。このフィールドはほのお技に加えて *ねっとう* も強化し、**ブーバーン** に *ふんえん* を通されると *燃えるフィールド* に変わります。*ねっとう* を除けば、こちらのみずタイプもこのフィールドでは苦しくなります。幸い、相手の技選択にはまだ甘さがあります。たとえば **バクフーン** の最大火力は *ソーラービーム* ですし、**リザードン** は物理型です。**ジャランゴ** さえ越えれば、いわタイプが1〜2匹いれば編成をほぼ壊滅させられます。
 
-**Relationship Point Choices**:
-- Defeat Cal atop Pyrous Mountain (+2 Cal)
+**好感度の選択肢**:
+- パイロス山頂でキャルに勝つ (+2 キャル)
 
-Return to Kiki's room once you're done with your chosen battle(s) and talk to them inside.
+選んだバトルを終えたら、キキの部屋へ戻って中の人物に話しかけてください。
 
-**Relationship Point Choices**:
-- Tell Victoria you cannot keep a secret (-1 Victoria)
+**好感度の選択肢**:
+- ヴィクトリアに「秘密は守れない」と言う (-1 ヴィクトリア)
 
-## VS. The Sensei
+## VS. しはん {#vs-the-sensei}
 
-To finish off this section, we have to battle Kiki in the main courtyard. Prepare your team because this is a toughie. Make sure to save before, just in case.
+この節の締めくくりとして、中央の中庭でキキと戦います。相当な難敵なので手持ちを整えてください。念のため、事前のセーブを忘れずに。
 
 !battle(["Kiki", :Sensei, 0], "Ashen Beach")
 
-Man this fight kicks my butt on at least half of my replays. Ashen Beach field has so many little things that help her team of six fully evolved Fighting types, so you really have to be on your toes to survive this battle. Her lead either will go straight for a field boosted Strength or will set up +3 Attack on the first turn, so it is hard to immediately get momentum. In the back is Toxicroak who loves setting up and punishing you with Sucker Punch, Hitmonlee, who will outspeed everything thanks to the combo of Normal Gem, Fake Out, and Unburden, Gallade who... is just OK but still strong, Lucario who is the sole special attacker and loves to get a double boost with field-boosted Calm Mind, and Medicham, who hits like a truck and always crits thanks to its seed. Medicham and Lucario also ignore accuracy and evasion with their abilities!
+正直なところ、この戦いは何周やっても半分は返り討ちに遭います。*灰の浜辺* には、完全進化したかくとうタイプ6匹の編成を後押しする細かい要素が詰まっているので、生き残るには相当気を張る必要があります。先発はフィールド強化された *かいりき* を撃ってくるか、初手でこうげきを3段階積んでくるかのどちらかで、こちらが主導権を取りにくい立ち上がりです。控えには、積んで *ふいうち* で咎めてくる **ドクロッグ**、*ノーマルジュエル* と *ねこだまし* と *かるわざ* の組み合わせで全てを抜いてくる **サワムラー**、性能は並ながら地力のある **エルレイド**、唯一の特殊アタッカーでフィールド強化された *めいそう* を2段階積みたがる **ルカリオ**、そしてシードのおかげで常に急所に当てつつ強烈な火力を出す **チャーレム** が控えています。しかもチャーレムとルカリオは、特性によって命中率と回避率の変化を無視します。
 
-This field can't be changed naturally, but you there are powerful tricks you can use to exploit it. Psychic, Zen Headbutt, and Calm Mind get boosts here, so if you can get around Hitmonlee and Toxicroak's priority/speedy dark moves, a Psychic type can do heavy damage. The Sand and Mud moves also get boosted here as do Muddy Water and Surf, so if you need extra damage, they're great options especially under Rain. Otherwise, it's really all just about countering the priority moves and building momentum. If you're able to bait out Toxicroak's 5 Sucker Punches, you can use those turns to set up a sweeper of your own. Exploit Nature Power too: since it turns into Meditate, it can turn many physical attackers into potential sweepers. 
+このフィールドは自然には変えられませんが、逆手に取る強力な手はあります。*サイコキネシス*、*しねんのずつき*、*めいそう* が強化されるので、サワムラーとドクロッグの先制技・高速のあく技さえ捌ければ、エスパータイプで大きな打撃を与えられます。すな系とどろ系の技、それに *だくりゅう* と *なみのり* も強化されるため、火力が足りないときは、特に雨下で有力な選択肢になります。それ以外は、結局のところ先制技への対策と主導権の確立に尽きます。ドクロッグの *ふいうち* を5回撃たせられれば、そのターンを使ってこちらのエースを積ませられます。*しぜんのちから* の利用も忘れずに。このフィールドでは *ヨガのポーズ* に変わるので、多くの物理アタッカーを全抜き要員に化けさせられます。
 
-**Relationship Point Choices**:
-- Defeat Kiki on your first try (+1 Victoria)
-- Defeat Kiki on the second, third, etc. try (-2 Victoria)
+**好感度の選択肢**:
+- 1回目でキキに勝つ (+1 ヴィクトリア)
+- 2回目以降でキキに勝つ (-2 ヴィクトリア)

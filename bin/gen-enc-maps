@@ -1,0 +1,118 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# _ja/enc-maps.yml を生成する。
+#
+# !enc(...) の第4引数は、出現ポケモン表の見出しに使うマップ名を著者が手で
+# 上書きしたもの。ゲームデータには存在しないので辞書では引けず、そのままだと
+# 「Celestinine Cascade East 出現ポケモン: なみのり」のように英語が露出する。
+#
+# 大半はゲームのマップ名に階層や区画の但し書きを足した形なので、
+# パッチのマップ名辞書を当てたうえで、残りの部品を訳して組み立てる。
+#
+#   bin/gen-enc-maps
+
+require 'json'
+
+root = File.expand_path('..', __dir__)
+raw = File.join(root, 'src', '_raw', 'reborn')
+
+# パッチのマップ名 (英語 -> 日本語)
+map_src = File.join(root, '..', 'Reborn-19.5.0-windows', 'jp_translation', 'work', 'src',
+                    '20_map_names.jsonl')
+maps = {}
+File.foreach(map_src) do |line|
+  row = JSON.parse(line)
+  next if row['ja'].to_s.empty? || row['ja'] == row['en']
+
+  maps[row['en']] ||= row['ja']
+end
+
+# 但し書きに使われる部品。地名そのものはマップ名辞書に任せる。
+PARTS = {
+  'Underwater' => '水中', 'Caves' => 'どうくつ', 'Cave' => 'どうくつ',
+  'Tunnels' => '坑道', 'Tunnel' => '坑道', 'Grotto' => '洞', 'Depths' => '深部',
+  'Clearing' => '開けた場所', 'Training Grounds' => '修練場', 'Pool' => '池',
+  'Lake' => '湖', 'Rooftop' => '屋上', 'Backroom' => '奥の部屋', 'Entrance' => '入口',
+  'Crystal Room' => 'クリスタルの部屋', 'Hidden Tunnel' => '隠し坑道',
+  'Playground' => '遊び場', 'Narrow Path' => '細道', 'Tracks Area' => '線路区画',
+  'Obsidia Side' => 'オブシディア側', 'Deepwoods' => '深林', 'Train' => '列車',
+  'East' => '東', 'West' => '西', 'North' => '北', 'South' => '南',
+  'Northeast' => '北東', 'Northwest' => '北西', 'Southeast' => '南東', 'Southwest' => '南西',
+  'Dark Cave' => '暗い洞窟', 'Slums' => 'スラム', 'Mountains' => '山',
+  'Power Plant' => '発電所', 'Wasteland' => '荒地', 'Valley' => '渓谷',
+  'Mountain' => '山', 'Cascade' => '滝', 'Forest' => 'の森', 'Castle' => '城',
+  'Victory Road' => 'チャンピオンロード', 'Railcave' => '線路洞窟',
+  'New World' => '新世界', 'Aegir' => 'エーギル', 'Railnet' => '鉄道網',
+  # 地名の単独形。マップ名辞書には「〜山1階」のような形でしか載っていない。
+  'Ametrine' => 'アメトリン', 'Celestinine' => 'セレスティナイン', 'Citrine' => 'シトリン',
+  'Apophyll' => 'アポフィル', 'Peridot' => 'ペリドット', 'Teknite' => 'テクナイト',
+  'Tourmaline' => 'トルマリン', 'Agate' => 'アゲート', 'Chrysolia' => 'クリソリア',
+  'Beryl' => 'ベリル', 'Glitch' => 'グリッチ', 'Aggron' => 'ボスゴドラ',
+  'Amethyst' => 'アメジスト', 'Emerald' => 'エメラルド', 'Ruby' => 'ルビー',
+  'Sapphire' => 'サファイア', 'Crater' => '火口', 'Ridge' => '尾根',
+  # 但し書き
+  'Back Room' => '奥の部屋', 'Entry Room' => '入口の部屋', 'Middle Room' => '中央の部屋',
+  'Final Rooms' => '最終区画', 'Fire & Ice Room' => '炎と氷の部屋', 'Forest Room' => '森の部屋',
+  'Gem Caves' => '宝石のどうくつ', 'Aggron Nest' => 'ボスゴドラの巣',
+  'Post-Renovation' => '改修後', 'Rock Climb' => 'ロッククライム',
+  'Across the Beam' => '鉄骨の先', 'Central Creek Map' => '中央の小川',
+  'Forest Maps' => '森側', 'Mountain Maps' => '山側', 'Snowy Mountain Maps' => '雪山側',
+  'North of Agate' => 'アゲートの北', 'Route 3 Back' => '3番道路の奥',
+  'Layout' => '配置', 'Only' => 'のみ', 'Side' => '側', 'Lower' => '下部', 'Upper' => '上部',
+  'Crystals' => 'クリスタルあり', 'No Crystals' => 'クリスタルなし',
+  'Mirage' => '蜃気楼', 'Dirty' => '汚れた状態', 'Hubs' => '中継点', 'Room' => '部屋',
+  'Nest' => '巣', 'Back' => '奥'
+}.freeze
+
+def floors(text)
+  text.gsub(/\bB(\d+)F\b/) { "地下#{Regexp.last_match(1)}階" }
+      .gsub(/\b(\d+)F\b/) { "#{Regexp.last_match(1)}階" }
+end
+
+def translate(name, maps)
+  return maps[name] if maps.key?(name)
+
+  s = name.dup
+  # 長い地名から順に当てる (Celestinine Mountain を Mountain より先に)
+  maps.keys.sort_by { |k| -k.length }.each do |en|
+    next if en.length < 5
+
+    s = s.gsub(/(?<![A-Za-z])#{Regexp.escape(en)}(?![A-Za-z])/, maps[en])
+  end
+  PARTS.keys.sort_by { |k| -k.length }.each do |en|
+    s = s.gsub(/(?<![A-Za-z])#{Regexp.escape(en)}(?![A-Za-z])/, PARTS[en])
+  end
+  floors(s).gsub(/\s+(?=[^\x00-\x7F])/, '').gsub(/\s{2,}/, ' ').strip
+end
+
+names = []
+Dir.children(raw).grep(/\.md\z/).sort.each do |file|
+  File.foreach(File.join(raw, file)) do |line|
+    next unless line.start_with?('!enc')
+
+    m = line.strip.match(/,\s*"((?:[^"\\]|\\.)*)"\s*\)\z/)
+    names << m[1] if m
+  end
+end
+names = names.uniq.sort
+
+header = <<~HEAD
+  # 出現ポケモン表の見出しに使うマップ名の対訳。bin/gen-enc-maps が生成する。
+  #
+  # !enc(...) の第4引数で著者が手書きしたもので、ゲームデータには存在しない。
+  # 地名はパッチのマップ名辞書から、但し書きは生成器の PARTS から当てている。
+  # 直したい訳は、このファイルではなく bin/gen-enc-maps を修正して再生成すること。
+
+HEAD
+body = names.map { |n| "#{n.to_json}: #{translate(n, maps).to_json}" }.join("\n")
+File.write(File.join(root, '_ja', 'enc-maps.yml'), header + body + "\n")
+
+left = names.reject { |n| translate(n, maps) !~ /[A-Za-z]{3}/ }
+puts "#{names.length} 件を書き出しました"
+if left.empty?
+  puts '英語が残った項目: なし'
+else
+  puts "英語が残った項目: #{left.length} 件"
+  left.each { |n| puts "  #{n}  ->  #{translate(n, maps)}" }
+end

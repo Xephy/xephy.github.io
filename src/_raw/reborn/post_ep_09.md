@@ -1,87 +1,86 @@
-# Postgame Episode 9: Pokemon Reborn, Reborn!
+# ポストゲーム エピソード9: ポケモンリボーン、リボーン! {#postgame-episode-9}
 
-Boom. Level cap has reached its peak at Lv. 150.
+やりました。レベル上限は最高値の150に到達しました。
 
-## Preparing for the Final Battle
+## 最終決戦への備え {#preparing-for-the-final-battle}
 
-Head into the Nightclub and talk to Aster. All the anomalies have been taken care of! Yay! Head out of the Nightclub, and Heather will tell you to go to the top of the treehouse.
+ナイトクラブに入り、アスターに話しかけます。アノマリーはすべて片付きました! やった! ナイトクラブを出ると、ヘザーがツリーハウスの頂上へ行くよう告げてきます。
 
-Make your way there, and talk to Noel. We'll need to bring Giratina to the meteor, and Fern to the tree. First, add Giratina to your party, then make your way via Beryl Cave to Citae Prisma. Talk to the meteor to steal it.
+そこまで向かい、ノエルに話しかけます。ギラティナを隕石のもとへ、ファーンを樹のもとへ連れていく必要があります。まずギラティナを手持ちに入れ、ベリルどうくつ経由でキタエ・プリズマへ向かいます。隕石に話しかけて奪い取ってください。
 
-Next, slog through Tanzan Mountain to reach the Neoteric Isle once more. Talk to Florinia and Fern in the back room when you're ready.
+次に、タンザン山を延々と抜けて、もう一度ネオテリック島へ向かいます。準備ができたら、奥の部屋のフロリニアとファーンに話しかけます。
 
 !battle(["Fern", :UMBFERN, 0], "Holy Field")
 
-One more bout with our friend, Fern. No Mega Scizor this time - it's Mega Mawile, instead. Entei's Extremespeed and Mawile's Sucker Punch are potent anti-sweep options, while his Serperior and Kartana both attempt to sweep themselves. Everything here is weak to Fire, Ground, or both, so if you're stuck, orienting your team around moves of those types might be key.
+友たるファーンとの、もう一戦です。今回はメガハッサムではなく、メガクチートです。エンテイの *しんそく* とクチートの *ふいうち* は、こちらの一掃を止める強力な手段ですし、ジャローダとカミツルギはどちらも自ら一掃を狙ってきます。ここにいる全員がほのお技かじめん技、あるいはその両方に弱いので、行き詰まったら編成をそれらのタイプの技中心に組むのが鍵になるかもしれません。
 
-Accept the fast travel back to the Nightclub. Make your way up to the top of the Rhodochrine Tree and talk to Noel. Once the door opens, talk to Fern for a heal and 100 *Exp. Candy XL*. Head on in when you're ready.
+高速移動を受けてナイトクラブへ戻ります。ロドクラインの樹の頂上まで進み、ノエルに話しかけます。扉が開いたら、ファーンに話しかけると回復と *けいけんアメXL* 100個がもらえます。準備ができたら中へ入ってください。
 
-## New World Asylum
+## 新世界の収容所 {#new-world-asylum}
 
-This area will be different, depending if you're on Lin or Anna Route. Using your hopping and exploring skills, enter the jail cells with gold chains on the outsides and talk to the inhabitants inside. Climb the chains to reach the sides. Collect six total keys - each key will open one of the locks at the bottom.
+このエリアは、リンルートかアンナルートかによって内容が変わります。飛び移りと探索の腕を活かして、外側に金の鎖がかかった牢に入り、中の住人に話しかけてください。鎖を登ると側面に行けます。カギを全部で6つ集めます。各カギは下部の錠の1つを開けます。
 
-On Lin Route, buy some *Lemonade* or get some free *Honey* if you want.
+リンルートでは、よければ *ミックスオレ* を買ったり、*あまいミツ* を無料でもらったりできます。
 
-Anyways, once you've explored the area, prepare for what's to come at the top...
+ともあれ、エリアを探索し終えたら、最上部に控えるものに備えてください……
 
-A THREE. FIGHT. GAUNTLET. AGAINST ALL PULSE2. WITH NO HEALING. Did you expect anything less from Reborn's grand finale?
+すなわち、PULSE2 だらけの、回復なしの3連戦です。リボーンの大団円が、これ以下で済むと思いましたか?
 
-### Final Gauntlet (Lin Route)
+### 最終連戦 (リンルート) {#final-gauntlet-lin-route}
 
 !battle(["Terra", :ANAMTERRA, 0], "Big Top Arena")
 
-The gauntlet's structure being as it is basically means one thing - you HAVE TO SET UP SWEEP. There really isn't another option. Thankfully, in this first fight, only Lycanroc has priority, so Evoboost, Shell Smash, etc. are valid options that should be able to carry you through this one.
+この連戦の構造上、やるべきことは1つです。積んで一掃するしかありません。ほかに手はほぼありません。ありがたいことに、この1戦目で先制技を持つのはルガルガンだけなので、*ナインエボルブースト* や *からをやぶる* などが有効な選択肢となり、これで押し切れるはずです。
 
 !battle(["Lin", :CHILDLIN, 2], "New World")
 
-This second fight is in doubles, and the whole team is slow. Necrozma and Lunala each have Trick Room and will try to set it up - so making sure you have Taunt is pretty essential for this one. Everything is weak to Ground or Dark, so with field boosted Earth Power, Dark type moves, and maybe a Z-move in a pinch, you should then be able to find a combination of sweepers that is able to take this team out.
+2戦目はダブルバトルで、相手は全員遅い編成です。ネクロズマとルナアーラがそれぞれ *トリックルーム* を持ち、張ろうとしてくるので、*ちょうはつ* の用意はほぼ必須です。全員がじめんかあくに弱いので、フィールド強化された *だいちのちから* とあく技、いざとなればZワザを組み合わせれば、この編成を倒せるエースの組み合わせが見つかるはずです。
 
 !battle(["Arceus", :ARCEUS, 0], "New World")
 
-Finally, the big one. Tornadus has a nasty habit of U-Turning into Rayquaza, who will instantly get the seed effect and Mega Evolve. We don't want that, so either anticipate the U-Turn with your lead and use an Ice or Fairy type move to oneshot Rayquaza, or do something to prevent Tornadus from living long enough to U-Turn. Yveltal has a Z-move and Sucker Punch, both of which get massive boosts in power, so you'll need to make sure you have a Pokemon that can outplay it here. Ho-oh is pretty chill comparably, though its Sacred Fire is boosted too.
+そしてついに大詰めです。トルネロスは *とんぼがえり* でレックウザに交代する厄介な癖があり、レックウザは出た瞬間にシードの効果を得てメガシンカします。それは避けたいので、先発で *とんぼがえり* を読んでこおり技かフェアリー技でレックウザを一撃で落とすか、トルネロスが *とんぼがえり* を撃つ前に倒し切るかしてください。イベルタルはZワザと *ふいうち* を持ち、どちらも大幅に威力が上がるので、それを上回れるポケモンを用意する必要があります。ホウオウは比較的おとなしいほうですが、*せいなるほのお* はやはり強化されています。
 
-Tornadus and Cresselia both have Sashes - the latter will always use Lunar Dance to give Arceus an extra omniboost on top of the seed it already has. Again, a twice omniboosted Arceus is absolutely brutal to take out - so I recommend hazards like Stealth Rocks to break Cresselia's sash and hopefully one shot it. Pretty much no matter what, you'll need a massively boosted sweeper in order to win this one, so take advantage of the fact Arceus has to recharge for a turn to hit it with two well chosen +6 Field boosted moves if you can, and hopefully that will be enough. Good luck!
+トルネロスとクレセリアはどちらもタスキ持ちで、後者は必ず *みかづきのまい* を使い、すでにシードを持つアルセウスにさらに全能力上昇を与えてきます。繰り返しますが、全能力上昇を2回分積んだアルセウスは倒すのが極めて困難なので、*ステルスロック* などの設置技でクレセリアのタスキを潰し、できれば一撃で倒すことをおすすめします。いずれにせよ、この戦いに勝つには大幅に強化されたエースがほぼ必須なので、アルセウスが1ターン反動で動けないことを利用して、フィールド強化された+6の技を2発、よく選んで叩き込みましょう。それで足りることを祈ります。幸運を!
 
-Once you finally make it through all that, you'll be able to talk to Lin, hanging on the edge, or Arceus.
+これらをすべて突破すると、崖にしがみつくリンか、アルセウスに話しかけられるようになります。
 
-**Relationship Point Choices**:
-- Talk to Arceus before Lin (-3 Terra)
+**好感度の選択肢**:
+- リンより先にアルセウスに話しかける (-3 テラ)
 
-In either case, you can now catch **Arceus**, finally.
+いずれの場合も、ついに **アルセウス** を捕まえられます。
 
-Talk to Lin, either letting her come with you, or not. Exit the area!
+リンに話しかけ、同行させるかどうかを選びます。エリアを出ましょう!
 
-### Final Gauntlet (Anna Route)
+### 最終連戦 (アンナルート) {#final-gauntlet-anna-route}
 
 !battle(["Shade", :ANAMSHADE, 0], "Glitch Field")
 
-Arguably harder than the Lin Gauntlet, Anna's gauntlet is three fights that all take place on the Glitch Field, with a cool new background! The first fight is hard in part thanks to the lead being Lugia, who is able to nuke almost everything with Psyshock, heal with Giga Drain, and use other coverage moves. Mimikyu's Disguise and Shadow Sneak make it hard to set up a fast frail sweeper. With Four Assault Vests, you're going to have a hard time breaking them Specially without a lot of set up. Then there are four other Pokemon pretty much optimized for Glitch Field. In this fight, and frankly the rest of them, I recommend abusing the Synthetic Seed yourself, and going all out with a move like Stockpile or Cosmic Power.
+リンの連戦より難しいと言ってよいでしょう。アンナの連戦は3戦ともグリッチフィールドで行われ、格好いい新背景つきです! 1戦目が難しい理由の一端は先発のルギアで、*サイコショック* でほぼ何でも吹き飛ばし、*ギガドレイン* で回復し、他の補完技も使ってきます。ミミッキュの *ばけのかわ* と *かげうち* のせいで、素早く打たれ弱いエースを積むのも困難です。*とつげきチョッキ* が4枚もあるので、積みを重ねずに特殊で崩すのは至難です。さらに残る4匹も、グリッチフィールド向けにほぼ最適化されています。この戦いでは、そして正直なところ残りの戦いでも、こちらも *シンセティックシード* を活用し、*たくわえる* や *コスモパワー* のような技で全力を出すことをおすすめします。
 
 !battle(["Anna", :ANNA2, 0], "Glitch Field")
 
-Advice from the last fight generally holds here, but you'll need to be extra careful of Xurkitree, who can counter your set up with it's own, as well as paralyze you. Thankfully, you'll probably have a bit more success on this one with a Special sweeper. Watch out for the hazards and status conditions of this team, and make sure Jirachi doesn't snowball too much.
+前の戦いの助言はおおむねここでも通用しますが、デンジュモクには特に注意が必要です。こちらの積みに自分の積みで対抗してきますし、麻痺も撒いてきます。ありがたいことに、この戦いでは特殊エースのほうがいくらか通りやすいでしょう。この編成の設置技と状態異常に気をつけ、ジラーチに勢いをつけさせすぎないようにしてください。
 
 !battle(["Arceus", :ARCEUS, 1], "Glitch Field")
 
-One more fight, and as you can tell, this one isn't easy, either. Again you'll need some way to use only 1 or 2 of your Pokemon to snowball into a sweep. The big problem here is that PULSE Arceus can heal itself as well as ignore the downsides of Roar of Time and Overheat, and becomes ??? type to negate its weaknesses. You can't easily muscle your way around it, and even a +6 boosted Pokemon might not be able to take it out in one hit. At least you can look at this fight and the previous two for team member inspirations... I guess. Good luck!
+もう1戦、そしてご覧のとおり、これも簡単ではありません。ここでも1〜2匹だけで一掃へ雪だるま式に持ち込む手立てが必要です。大きな問題は、PULSEアルセウスが自己回復できるうえ、*ときのほうこう* と *オーバーヒート* の反動や能力低下を無視し、しかも ??? タイプになって弱点を打ち消してくることです。力押しでは簡単に崩せませんし、+6まで積んだポケモンでも一撃で倒せないかもしれません。せめて、この戦いと前の2戦を編成の参考にはできる……と思います。幸運を!
 
-Once you're done, you'll be immediately thrust into battle with **Arceus**, who you can finally catch.
+決着がつくと、そのまま **アルセウス** との戦いに突入し、ついに捕まえられます。
 
-## Epilogue
+## エピローグ {#epilogue}
 
-Reborn's credits will then play! Lin or Anna will interject with some comments as the credits roll. Interrupting the credits are character endings, corresponding to the characters for which you have an adequate amount of relationship points!
+そしてリボーンのクレジットが流れます! クレジットの間、リンかアンナが折々に言葉を挟んできます。クレジットの合間には、十分な好感度を得たキャラクターに対応するエンディングが挿入されます!
 
-See if you can spot me in the credits.
+クレジットの中に筆者を見つけられるか、探してみてください。
 
-With that taken care of, you'll get to play out the section in "Another Time" - Agate City of the future. Feel free to talk to the people here to learn how they grew over the years, then talk to Shelly to return to the present.
+これを見届けると、「別の時間」――未来のアゲートシティの場面を遊べます。ここの人々に話しかけて、彼らが年月を経てどう成長したかを知ってから、シェリーに話しかけると現在へ戻れます。
 
-Congratulations!
+おめでとうございます!
 
-## Bee's Pokedex Completion Quest (Part 4)
+## ビーの図鑑完成クエスト (第4部) {#bees-pokedex-completion-quest-part-4}
 
-With Arceus bagged, we have all 807 Pokemon. Fly over to Agate City and talk to Bee if you've caught 'em all. You'll get the *Game Certificate*, as well as the *Ebony Stonepiece*.
+アルセウスを手に入れたことで、807匹すべてが揃いました。すべて捕まえたら、アゲートシティへ飛んでビーに話しかけましょう。*ゲームの認定証* と *エボニーのいしのかけら* がもらえます。
 
-Remember the Arc underneath the Grand Stairway? Make your way there via the room where we met Solaris so long ago. Make your way through the arc as we did after beating the Elite Four. Use the stonepiece on the door and head in to watch a scene. Nice!
+大階段の地下にあったアークを覚えていますか。遠い昔にソラリスと出会った部屋を通ってそこへ向かいます。四天王を倒したあとと同じ要領でアークを進みます。扉に石のかけらを使って中へ入り、場面を見届けてください。素晴らしい!
 
-One final note: now that we've fully beaten the game, we can return to the Developer Room in the Grand Hall to learn even more about the game's full development process!
-
+最後に1つ。ゲームを完全に攻略したので、大ホールの開発者の部屋へ戻ると、このゲームの開発過程についてさらに詳しく知ることができます!

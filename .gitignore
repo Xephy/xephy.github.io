@@ -20,3 +20,5 @@ _scripts_deso
 src/reborn-chapters/
 src/rejuv-chapters/
 src/deso-chapters/
+# bundle install --path の局所設定（各自の環境依存）
+.bundle

@@ -39,9 +39,9 @@ class TrainerGetter
     if !fight_is_boss
       trainer_data = @trainerHash[trainer_id]
       second_trainer_data = second_trainer_id ? @trainerHash[second_trainer_id] : nil
-      trainer_name = "#{@trainerTypeHash[trainer_id[1]][:title]} #{trainer_id[0]}"
+      trainer_name = JaNames.trainer_label(@trainerTypeHash[trainer_id[1]][:title], trainer_id[0])
       trainer_name += " #{name_ext}" unless name_ext.nil?
-      second_trainer_name = second_trainer_id ? "#{@trainerTypeHash[second_trainer_id[1]][:title]} #{second_trainer_id[0]}" : nil
+      second_trainer_name = second_trainer_id ? JaNames.trainer_label(@trainerTypeHash[second_trainer_id[1]][:title], second_trainer_id[0]) : nil
     else
       trainer_data = @bossHash[trainer_id]
       trainer_name = trainer_data[:name]
@@ -75,6 +75,7 @@ class TrainerGetter
 
     # Creates nokogiri HTML
     doc = Nokogiri::HTML::Document.new
+    doc.encoding = 'UTF-8'
     div = doc.create_element('div', class: 'trainer_section')
     doc.add_child(div)
 
@@ -97,13 +98,13 @@ class TrainerGetter
 
     bold = doc.create_element('strong')
     bold.content =  if fight_is_boss
-                      "VS Boss: #{trainer_name}"
+                      "VS #{JaNames.ui('Boss ').strip}: #{trainer_name}"
                     elsif second_trainer_name
-                      "VS: #{trainer_name} & #{second_trainer_name}"
+                      "#{JaNames.ui('VS:')} #{trainer_name} & #{second_trainer_name}"
                     elsif type_mod == 0
-                      "VS: #{trainer_name}"
+                      "#{JaNames.ui('VS:')} #{trainer_name}"
                     elsif type_mod == 1
-                      "Partner: #{trainer_name}"
+                      "#{JaNames.ui('Partner:')} #{trainer_name}"
                     elsif type_mod == 2
                       "POV Trainer: #{name_ext != "" ? name_ext : trainer_name}"
                     end
@@ -112,14 +113,14 @@ class TrainerGetter
 
     if type_mod == 0 # we don't need field for partners or selves
       field_div = doc.create_element('div')
-      field_div.content = "Field: #{field || 'No Field'}"
+      field_div.content = "#{JaNames.ui('Field:')} #{field ? JaNames.field(field) : JaNames.ui('No Field')}"
       td_main_content.add_child(field_div)
     end
 
     if type_mod == 0 && !item_symbols.empty? # Adds count of enemy trainer items
       item_str = item_symbols.map { |sym, count| "#{@itemHash[sym][:name]}#{count > 1 ? " (#{count})" : ''}" }
       items_div = doc.create_element('div')
-      items_div.content = "Items: #{item_str.join(', ')}"
+      items_div.content = "#{JaNames.ui('Items:')} #{item_str.join(', ')}"
       td_main_content.add_child(items_div)
     end
 
@@ -128,7 +129,7 @@ class TrainerGetter
     # Second TD for [show] or [hide] text
     td_show_hide = doc.create_element('div', class: 'show-hide-container') # style: 'text-align: right;')
     show_hide_text = doc.create_element('span', class: 'show-hide-text', style: 'cursor: pointer;')
-    show_hide_text.content = '[show]'
+    show_hide_text.content = JaNames.ui('[show]')
     td_show_hide.add_child(show_hide_text)
 
     th.add_child(td_show_hide)
@@ -138,7 +139,7 @@ class TrainerGetter
     # Header Row 2: Actual table headers
     thead_row = doc.create_element('tr')
 
-    ['Pokemon', 'Moves', 'Stat Info'].each do |col|
+    ['Pokemon', 'Moves', 'Stat Info'].map { |c| JaNames.ui(c) }.each do |col|
       thead_row.add_child(doc.create_element('th', col, style: 'text-align: center;vertical-align : middle'))
     end
     table_header.add_child(thead_row)
@@ -193,9 +194,9 @@ class TrainerGetter
         end
       end
 
-      pokemon_name = "#{mon[:shadow] ? "Shadow " : ""}#{@pokemonHash[mon[:species]][form_1_key][:name]}"
+      pokemon_name = "#{mon[:shadow] ? JaNames.ui("Shadow ") : ""}#{@pokemonHash[mon[:species]][form_1_key][:name]}"
       if fight_is_boss || mon[:boss]
-        pokemon_name = "#{mon[:boss] ? "Boss " : "SOS "}#{pokemon_name}"
+        pokemon_name = "#{mon[:boss] ? JaNames.ui("Boss ") : JaNames.ui("SOS ")}#{pokemon_name}"
       end
 
       # Some mons, like alt color Joltik, are custom forms without form data...
@@ -214,10 +215,10 @@ class TrainerGetter
       end
 
       mon_details_parts = [
-        "#{mon[:gender] ? " (#{mon[:gender]})" : ''}, Lv. #{mon[:level]}",
-        "#{form > 0 ? @pokemonHash[mon[:species]].keys.find_all { |key| key.is_a?(String) }[mon[:form]] : ''}",
+        "#{mon[:gender] ? " (#{JaNames.ui(mon[:gender].to_s)})" : ''}, #{JaNames.ui('Lv.')} #{mon[:level]}",
+        "#{form > 0 ? JaNames.tr('form_names', @pokemonHash[mon[:species]].keys.find_all { |key| key.is_a?(String) }[mon[:form]]) : ''}",
         "#{mon[:item] ? "@#{@itemHash[mon[:item]][:name]}" : ''}",
-        "Ability: #{abText}"
+        "#{JaNames.ui('Ability:')} #{abText}"
       ]
 
       custom_form_bool = is_custom_form(form_key)
@@ -226,9 +227,9 @@ class TrainerGetter
         type1 = form_data[:Type1] ? @typeHash[form_data[:Type1]][:name] : @typeHash[form_1_data[:Type1]][:name]
         type2 = form_data[:Type2] ? @typeHash[form_data[:Type2]][:name] : (form_1_data[:Type2] ? @typeHash[form_1_data[:Type2]][:name] : nil)
         if type2.nil? || type1 == type2
-          typeStr = "Typing: #{type1}"
+          typeStr = "#{JaNames.ui('Typing:')} #{type1}"
         else
-          typeStr = "Typing: #{type1}/#{type2}"
+          typeStr = "#{JaNames.ui('Typing:')} #{type1}/#{type2}"
         end
         mon_details_parts.push(typeStr)
       end
@@ -319,7 +320,7 @@ class TrainerGetter
             end
             formKey = @pokemonHash[monKey].to_a[form][0]
             if formKey != "Normal Form"
-              eff_strs.push("Boss becomes #{@pokemonHash[monKey][@pokemonHash[monKey].to_a[0][0]][:name]} (#{formKey})")
+              eff_strs.push("Boss becomes #{@pokemonHash[monKey][@pokemonHash[monKey].to_a[0][0]][:name]} (#{JaNames.tr('form_names', formKey)})")
             else
               eff_strs.push("Boss becomes #{@pokemonHash[monKey][formKey][:name]}")
             end
@@ -608,10 +609,12 @@ class TrainerGetter
       # Handles stats next: base stats if applicable, IVs, Nature, EVs
       stat_details_parts = []
       if custom_form_bool # Only add base stats when custom form
-        base_stats_str = 'Base Stats: ' + base_stats.zip(EV_ARRAY).map { |stat, position| "#{stat} #{position}" }.join(', ')
+        base_stats_str = JaNames.ui('Base Stats:') + ' ' + base_stats.zip(EV_ARRAY).map { |stat, position| "#{stat} #{position}" }.join(', ')
         stat_details_parts.push(base_stats_str) 
       end
-      stat_details_parts.push(mon[:nature] ? "#{mon[:nature].capitalize} Nature" : 'Hardy Nature',)
+      # 性格は naturetext.rb ではなくシンボルを capitalize して作られる (:TIMID -> "Timid")。
+      nature = (mon[:nature] || :HARDY).capitalize.to_s
+      stat_details_parts.push("#{JaNames.ui('Nature')}: #{JaNames.tr('natures', nature)}")
 
       stat_details_parts.push(get_ev_str(mon[:ev], mon[:level]))
       stat_details_parts.push(get_iv_str(mon[:iv]))
@@ -709,7 +712,7 @@ class TrainerGetter
       teff_row.add_child(teff_td)
     end 
 
-    doc.to_html.gsub(/<td>\s*\n\s*<strong>/, '<td><strong>').split("\n")[1..].join("\n")
+    doc.to_html(encoding: 'UTF-8').gsub(/<td>\s*\n\s*<strong>/, '<td><strong>').split("\n")[1..].join("\n")
   end
 
   def report_missing_trainers

@@ -18,10 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: BIGJRA's Walkthroughs
+title: ポケモンリボーン 日本語攻略
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  In-depth 100% guides for Pokemon Reborn, Rejuvenation, and Desolation
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -32,9 +30,6 @@ destination: ./_site
 
 github:
   is_project_page: true
-
-discord:
-  url: https://discord.gg/3r83avH4sv
 
 # Build settings
 theme: jekyll-theme-slate

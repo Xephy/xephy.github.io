@@ -1,348 +1,348 @@
-# Episode 10: Into Darkness
+# エピソード10: 闇の中へ {#episode-10}
 
-Back inside, talk to the crew here.
+中に戻り、ここの面々に話しかけます。
 
-**Relationship Point Choices**:
-- Talk to Laura on the couch (+1 Laura)
+**好感度の選択肢**:
+- ソファのローラに話しかける (+1 ローラ)
 
-Next, talk to Noel in the stairs room. You'll hear a (non-Julia induced) boom, indicating it's time to return to Tanzan Mountain once more.
+次に階段の部屋のノエルに話しかけます。（ジュリアのせいではない）爆音が聞こえ、またタンザン山へ戻る合図となります。
 
-## Tanzan Mountain Boom and Goodies
+## タンザン山の爆発と収穫 {#tanzan-mountain-boom-and-goodies}
 
-Enter Tanzan Mountain and this time go to the left. You'll see a barrier is now destroyed, so follow the path. Snag a hidden *Potion*, *Green Shard*, and *Hyper Potion* then go up into the next room. Grab the *X Sp. Atk* and go up to find Saphira.
+タンザン山に入り、今度は左へ進みます。障壁が破壊されているので道をたどってください。隠された *キズぐすり*、*みどりのかけら*、*すごいキズぐすり* を拾ったら、上の次の部屋へ。*スペシャルアップ* を回収して上へ進むとサファイラがいます。
 
-You'll get the *Ruby Ring* and *Amethyst Pendant*! Sweet.
+*ルビーのゆびわ* と *アメジストのペンダント* が手に入ります。素晴らしい。
 
-There are also hidden *Ice Heal*, *Red Shard*, and *Revive* in this room. Meeting Saphira allows us to access a few more goodies in Tanzan Mountain before we proceed through the door at the top.
+この部屋には隠された *こおりなおし*、*あかいかけら*、*げんきのかけら* もあります。サファイラに会ったことで、最上部の扉へ進む前にタンザン山でいくつか追加の収穫が得られるようになります。
 
-Make your way back to the meteor base on the right side and follow the path. In this first room you can find 2 hidden *Green Shards*, *Burn Heal*, *Potion*, and *Clever Wing*. Exit at the bottom left. This is the room where Steelix was tunneling previously. Going straight to the right, you'll find a *Metal Coat* - meaning you can now get your own Steelix!
+右側のメテオ基地まで戻り、道をたどります。最初の部屋では隠された *みどりのかけら* 2個、*やけどなおし*、*キズぐすり*、*せいしんのハネ* が手に入ります。左下から出ましょう。ここは以前ハガネールが掘り進んでいた部屋です。まっすぐ右へ進むと *メタルコート* があります。つまり自分の **ハガネール** も作れるということです。
 
-Head left, up, and left again. You'll see a new cave entrance here. Inside you'll find the *Thick Club* as well as some mining rocks. Back outside this room, go up and walk across the iron girder, and enter the door to the next room.
+左、上、そしてまた左へ。新しい洞窟の入口が見えます。中では *ふといホネ* と採掘用の岩が手に入ります。この部屋の外に戻ったら上へ進み、鉄骨を渡って次の部屋の扉へ入ってください。
 
 !enc(260, nil, nil, "Tanzan Depths (Across the Beam)")
 
-Here you can grab an *Upgrade*.
+ここでは *アップグレード* が手に入ります。
 
-That's all for Tanzan Depths for now, so you can Dig or Escape Rope to get back to Tanzan Mountain proper and go up from the area where you got the jewelry from Saphira.
+タンザン深部は当面これで終わりなので、*あなをほる* か *あなぬけのヒモ* でタンザン山の本体へ戻り、サファイラから装身具をもらったエリアから上へ進みます。
 
-## Route 1
+## 1番道路 {#route-1}
 
-We actually start in the South Aventurine Woods, however.
+とはいえ、実際に出るのは南アベンチュリンの森です。
 
 !enc(282)
 
-You'll find hidden *Purple Shard* and *Green Shard* here, but we can't go left or right in this area quite yet. Instead, head up and enter Route 1 proper... but prepare yourself.
+ここでは隠された *むらさきのかけら* と *みどりのかけら* が見つかりますが、このエリアではまだ左右へ進めません。上へ進んで1番道路本体へ入りましょう……ただし、備えを忘れずに。
 
 !battle(["Fern", :Hotshot, 5], "Grassy Terrain")
 
-It's almost like Fern was just waiting on the very edge of the map with Grassy Terrain to fight us! His Roserade and Decidueye are as always a tough combo: Roserade will put you to sleep, Decidueye will try to sweep, and both will sit back, passively heal, and enjoy the field boosts. His Rhydon is annoyingly tanky thanks to its Eviolite and has wide coverage but doesn't hit too hard. His Haxorus and Krookodile (and Scyther, I guess) will try to sweep you with attack / speed boosts.
+まるでファーンが *グラスフィールド* を張ってマップの端で待ち構えていたかのようです。**ロズレイド** と **ジュナイパー** の組み合わせは相変わらず厄介で、ロズレイドは眠らせ、ジュナイパーは全抜きを狙い、どちらも居座って受動的に回復しながらフィールドの恩恵を享受します。**サイドン** は *しんかのきせき* のおかげで腹立たしいほど硬く、攻撃範囲も広いものの火力はさほどではありません。**オノノクス** と **ワルビアル**（あと **ストライク** も）は、こうげきや素早さを積んで全抜きを狙ってきます。
 
-A good sweeper can find some success if they resist Haxorus or Rhydon's attacks, but you'll have to watch out for Shadow Sneak. You can also mutate the field to Burning if you want, obviously neutering his Grass types instead of helping them. I'd make the case that Noel is overall a harder fight than Fern in general so by making it here you should be able to succeed.
+オノノクスかサイドンの攻撃を半減できるエースなら道は開けますが、*かげうち* には注意が必要です。フィールドを *燃えるフィールド* に変えてしまうのも手で、当然ながら相手のくさタイプを助けるどころか無力化できます。個人的にはノエルのほうがファーンより総じて厳しい相手だと思うので、ここまで来られたなら勝てるはずです。
 
-So, now we get to explore Route 1. Only in Pokemon Reborn do we finally reach Route 1 after getting 7 badges.
+さて、1番道路を探索できます。バッジを7個取ってからようやく1番道路に着くのは、ポケモンリボーンくらいのものでしょう。
 
 !enc(285)
 
-You'll also find pairs of **Tauros** and **Bouffalant** all over the route. If you fight Tauros, the Bouffalant will go running off in the direction it's facing, which means that any logs in the way will be pushed. If you fight Bouffalant, Tauros will let you ride it, meaning you can now go up ledges. Game changer.
+道路の各所に **ケンタロス** と **バッフロン** の組が見つかります。ケンタロスと戦うと、バッフロンが向いている方向へ走り出し、進路上の丸太が押しのけられます。バッフロンと戦うと、ケンタロスに乗せてもらえるようになり、段差を登れるようになります。これは大きな変化です。
 
-As a note: there are a bunch of entrances to the North and South Aventurine Woods scattered about Route 1. I'll take us into the woods to explore a bit later and focus on Route 1 for now.
+なお、北アベンチュリンの森と南アベンチュリンの森への入口が1番道路のあちこちにあります。森の探索は後ほど扱うので、今は1番道路に集中します。
 
 !img("route1_1.png")
 
-Start by going left. Before hopping up or down any edges, you can find a hidden *Nugget* here. Head down one ledge to the left, in this "level" of the route, you can find hidden *Blue Shard*, *Red Shard*, and *Purple Shard*. Defeat the two circled Tauros here to cause Bouffalant to clear some paths for us, which will come in handy later on.
+まず左へ。段差を上り下りする前に、ここで隠された *きんのたま* が手に入ります。左の段差を1つ下ります。この「段」では隠された *あおいかけら*、*あかいかけら*、*むらさきのかけら* が見つかります。ここで丸で囲んだケンタロス2匹を倒すと、バッフロンが道を切り開いてくれます。これが後々役立ちます。
 
 !battle(["Elliot", :YOUNGSTER, 0], "Grassy Terrain")
 
-Head down the ledge to the left. On this level, you'll find hidden *X Sp. Atk*, *Elemental Seed*, and *Blue Shard*. Defeat the next circled Tauros to clear another path in the Aventurine Woods, then go down the next ledge. Up from here, defeat the Tauros (top left of the above image) to open a shortcut. You'll also find a hidden *Carbos* here.
+左の段差を下ります。この段では隠された *スペシャルアップ*、*エレメンタルシード*、*あおいかけら* が手に入ります。次の丸で囲んだケンタロスを倒してアベンチュリンの森の道をもう1本開けたら、次の段差を下ります。そこから上へ進み、ケンタロス（上図の左上）を倒すと近道が開きます。ここでは隠された *インドメタシン* も見つかります。
 
 !img("route1_2.png")
 
-Hidden to the left are a *Green Shard* and *Great Ball*. Hop down the ledge to the left to get hidden *Escape Rope*, *Blue Shard*, and *Grass Gem*. The Miltank around here will do a trade with us: one Oran Berry for its *Moomoo Milk*. Make sure you have at least one Moomoo Milk in your bag for a quest way later.
+左手には隠された *みどりのかけら* と *スーパーボール* があります。左の段差を下りると、隠された *あなぬけのヒモ*、*あおいかけら*、*くさのジュエル* が手に入ります。この辺りの **ミルタンク** は交換に応じてくれます。*オレンのみ* 1個と、相手の *モーモーミルク* です。ずっと後のクエストで使うので、*モーモーミルク* は必ず1個は持っておいてください。
 
 !battle(["Armin", :TechNerd, 0], "Grassy Terrain")
 
-Anyways, head inside the building here.
+ともあれ、ここの建物に入りましょう。
 
-Someone on the first floor will give us 8 *Honeys*. Useful for a quest we'll embark on in a bit. Upstairs someone will give us the password *allfieldapp*, and another person will tell us they lost their glasses. This will also be our main healing hub for now. Upstairs, you can do an in-game trade: our Dunsparce for **Tyrogue**. This is repeatable actually, so if you want to get more Tyrogue at higher levels for evolution purposes, you can do so. The first time you do this trade, you will get an *Electirizer*! Grab the *Wide Lens* here as well.
+1階の人物が *あまいミツ* を8個くれます。もうすぐ始めるクエストで役に立ちます。上階では *allfieldapp* というパスワードを教えてくれる人物と、眼鏡を失くしたという人物がいます。ここは当面の回復拠点にもなります。上階では交換もできます。こちらの **ノコッチ** と、相手の **バルキー** です。これは繰り返し可能なので、進化目的で高レベルのバルキーを増やしたい場合にも使えます。初回の交換では *エレキブースター* がもらえます。ここで *こうかくレンズ* も回収しておきましょう。
 
-Back outside, head down the ledge here. You'll find a hidden *Dragon Gem*. Down another ledge, you can grab a *Lax Mint* as well as a hidden *Magical Seed*.
+外に戻り、ここの段差を下ります。隠された *ドラゴンジュエル* が見つかります。もう1つ段差を下りると *のうてんきミント* と、隠された *マジカルシード* が手に入ります。
 
 !battle(["Cameron", :TechNerd, 0], "Grassy Terrain")
 
-Defeat the Tauros to the right to open another shortcut. Jump down once more.
+右のケンタロスを倒すと、もう1つ近道が開きます。もう一度飛び降りましょう。
 
 !battle(["Oltan", :HIKER, 0], "Grassy Terrain")
 
-You can find hidden *Ice Heal* and *PokeSnax* here. Finally, on the bottom level, you can find hidden *Red Shard*, *Purple Shard*, and *Poke Ball*.
+ここでは隠された *こおりなおし* と *ポケスナック* が見つかります。最下段では隠された *あかいかけら*、*むらさきのかけら*、*モンスターボール* が手に入ります。
 
 !battle(["Nelly", :RANGERF, 0], "Grassy Terrain")
 
-You'll notice inside the gate at the bottom we can't do anything, so head back out. Knock out a Bouffalant to get a Tauros mount, which we can use to climb the ledges back up Route 1! Make your way back to where we fought Fern. You'll notice as you go that you will be unable to go through tall grass on your Tauros. The path through this section of woods on Tauros looks like the following:
+下のゲートの中では何もできないので、外へ戻ります。バッフロンを倒してケンタロスに乗り、段差を登って1番道路を戻りましょう。ファーンと戦った場所まで戻ってください。進むうちに気づくとおり、ケンタロスに乗ったままでは高い草を通れません。この森の区画をケンタロスで抜ける経路は次のとおりです。
 
 !img("route1_3.png")
 
-Note that this means we do have to briefly enter the North Aventurine Woods to keep our mount - alternatively you could also climb the ledge near the youngster, dismount, then get a new Tauros mount to the right. This takes more time however, so I recommend the woods when traversing Route 1 here.
+つまり、乗ったままにするには北アベンチュリンの森を少しだけ通る必要があります。あるいは、たんぱんこぞうの近くの段差を登って降り、右で新しいケンタロスに乗り直す手もあります。ただし時間がかかるので、ここでは森を通る経路をおすすめします。
 
 !enc(289, ["Grass", "Headbutt"])
 
-You can also find a hidden *Poke Ball* in here. Make your way out to the right and back onto Route 1, then proceed east.
+ここでは隠された *モンスターボール* も見つかります。右へ抜けて1番道路に戻り、東へ進みます。
 
 !img("route1_4.png")
 
-To progress to the right while still on your Tauros, you'll need to have the top left Bouffalant move a log, so defeat Tauros. Hop up the ledge to the right.
+ケンタロスに乗ったまま右へ進むには、左上のバッフロンに丸太を動かしてもらう必要があるので、ケンタロスを倒してください。右の段差を登ります。
 
 !battle(["Steve", :PkMnRANGER_Male, 0], "Grassy Terrain")
 
 !battle(["Hark", :COOLTRAINER_Male, 0], "Grassy Terrain")
 
-You can find an *Exp. Candy L* as well as 2 hidden *Green Shards*, and *Electric Gem*. Note while you're here that you can pet Flareon, the first of many Eeveelutions we'll need to pet for that sidequest.
+*けいけんアメL* と、隠された *みどりのかけら* 2個、*でんきのジュエル* が手に入ります。ここでは **ブースター** を撫でられます。例のサイドクエストで撫でる必要があるイーブイの進化形の1匹目です。
 
-On the next ledge to the right you'll find a *Great Ball*, *Ether*, and *Tiny Mushroom*.
+右隣の段には *スーパーボール*、*ピーピーエイド*、*ちいさなキノコ* があります。
 
 !battle(["Rufus", :HIKER, 0], "Grassy Terrain")
 
 !battle(["Brian", :COOLTRAINER_Male, 0], "Grassy Terrain")
 
-Defeat the two Tauros here to get Bouffalant to push more logs out of the way.
+ここのケンタロス2匹を倒すと、バッフロンがさらに丸太を押しのけてくれます。
 
 !img("route1_5.png")
 
-To the right you'll need to use the bottom of three ledges to make it to the right on your Tauros. Up here you'll find hidden *Great Ball* and *Super Potion*. The ledge to the right is the only one on the route that goes downwards. Jump down it.
+右へ進むには、3つある段差のうち一番下を使ってケンタロスのまま進む必要があります。この上では隠された *スーパーボール* と *いいキズぐすり* が手に入ります。右の段差は、この道路で唯一下りになっているものです。飛び降りてください。
 
 !battle(["Montgomery", :HIKER, 0], "Grassy Terrain")
 
 !battle(["Sully", :RANGERF, 0], "Grassy Terrain")
 
-You can find hidden *Chewing Gum*, *Telluric Seed*, *PP Up*, *Red Shard*, and *Heart Scale* in this area. You'll notice we can't access the walled off area at the bottom-right while on a Tauros, so we'll come back here later on. Knock out the Tauros in the top area and progress up the next hill.
+このエリアでは隠された *チューインガム*、*テルリックシード*、*ポイントアップ*、*あかいかけら*、*ハートのウロコ* が見つかります。右下の壁で囲まれた場所へはケンタロスに乗ったままでは入れないので、後ほど戻ります。上のエリアのケンタロスを倒し、次の丘へ進みましょう。
 
-On the next hill you can get a hidden *PokeSnax*, and *Purple Shard*.
+次の丘では隠された *ポケスナック* と *むらさきのかけら* が手に入ります。
 
 !img("route1_6.png")
 
-Grab the hidden *Poke Ball* to the right. Use the bottom of two ledges to head up and grab a hidden *Dire Hit*, then head up once more. Pick up the hidden *Poke Ball*, *Red Shard*, and *Zinc*.
+右手の隠された *モンスターボール* を拾います。2つある段差のうち下を使って上へ進み、隠された *クリティカット* を拾ってから、もう一度上へ。隠された *モンスターボール*、*あかいかけら*、*キトサン* を回収します。
 
 !battle(["Medius", :RANGERF, 0], "Grassy Terrain")
 
 !battle(["Rosch", :HIKER, 0], "Grassy Terrain")
 
-Grab the hidden *Ghost Gem*, 2 *Purple Shards*, and *Synthetic Seed*. In the bottom corner you can use Strength to get a *Protector*.
+隠された *ゴーストジュエル*、*むらさきのかけら* 2個、*シンセティックシード* を回収します。下の角では *かいりき* を使うと *プロテクター* が手に入ります。
 
-With that out of the way, dismount off your Tauros with 'A' and jump down the ledges down and to the left until we reach the secluded part we skipped earlier. Beat this final Tauros to move one more log, then grab the hidden *Super Repel*. Up above you should find another pair of fighting bulls - beat Bouffalant to get another Tauros mount, then return all the way to the right. We can't do anything in the top area for now, so head down and into the Vanhanen Labyrinth.
+これが済んだら 'A' でケンタロスから降り、先ほど飛ばした人里離れた区画まで、左下へ段差を飛び降りながら向かいます。この最後のケンタロスを倒して丸太をもう1本動かし、隠された *シルバースプレー* を拾ってください。その上には争っている牛の組がもう1つあるはずなので、バッフロンを倒してケンタロスに乗り直し、右端まで戻ります。上のエリアでは当面何もできないので、下ってバンハネン迷宮へ入りましょう。
 
-## Vanhanen Castle
+## バンハネン城 {#vanhanen-castle}
 
 !enc(292)
 
-You can get the *Chess Board Field Readout* as well as hidden *Ice Gem*, *Red Shard*, *Nugget*, *Blue Shard*, *Exp. Candy XL*, *Timer Ball*, *Dusk Ball*, *Tiny Mushroom*, *Purple Shard*, *Health Wing*, *Magical Seed*, and *Quick Ball* all throughout the labyrinth. Grab the *Purple Shard* in a nearby rock then enter the castle.
+迷宮の各所で *チェスボードの資料* と、隠された *こおりのジュエル*、*あかいかけら*、*きんのたま*、*あおいかけら*、*けいけんアメXL*、*タイマーボール*、*ダークボール*、*ちいさなキノコ*、*むらさきのかけら*、*たいりょくのハネ*、*マジカルシード*、*クイックボール* が手に入ります。近くの岩の *むらさきのかけら* を拾ったら城へ入ってください。
 
-Heal and prep your team, then enter the next room. Here we can pet Umbreon for the quest, but make sure you do this now since this is a limited time petting opportunity!
+回復して手持ちを整え、次の部屋へ進みます。ここでは例のクエスト用に **ブラッキー** を撫でられますが、これは期間限定なので必ず今のうちに済ませてください。
 
-**Relationship Point Choices**:
-- Pet Luna's Umbreon (+1 Luna)
+**好感度の選択肢**:
+- ルナのブラッキーを撫でる (+1 ルナ)
 
-Anyways, talk to Luna.
+ともあれルナに話しかけます。
 
 !battle(["Cain", :Cain, 5], "Chess Board")
 
-This battle features the new Chess Board Field. While fields like Grassy Terrain and Super-Heated Field are fairly intuitive, you really should read up about Chess Board field as much as possible and use this battle to learn the ins-and-outs. Essentially, each team member will get a chess board piece rank that will affect various things like stat boosts and even priority. They are fixed for each ordered team, although some will change depending on ordering, so keep that in mind as you make a chess board team. Luckily, this means that the opponents' teams will always predictably use the same ranks, so I will list them for each major chess fight.
+このバトルでは新しい *チェスボード* が登場します。*グラスフィールド* や *超高温フィールド* が直感的なのに対し、*チェスボード* は可能な限り読み込んだうえで、この戦いで細部を把握しておくべきです。要は、手持ちの各メンバーにチェスの駒の位が割り当てられ、能力上昇から優先度まで様々な要素に影響します。並び順ごとに固定で、並べ替えによって変わるものもあるので、チェスボード用の編成を組むときは念頭に置いてください。幸い、これは相手の編成も常に同じ位になるということなので、主要なチェス戦ごとに一覧を載せます。
 
-Anyways, with all that said, Cain doesn't really have a ton of optimization here with his team, although it is getting better. He now uses Mimikyu, which is always a bit annoying to fight thanks to its ability and optimal moveset. His Muk and Nidoking are strong as ever, and his Primarina and Marowak may be slow but will hit you really hard. The key to winning this one is probably just consistent fast offense with a couple of things in the back to deal with Mimikyu and Nidoking if need be.
+とはいえカインの編成は、良くなってきてはいるものの、ここではさほど最適化されていません。**ミミッキュ** を使うようになり、特性と隙のない技構成のおかげで相変わらず面倒な相手です。**ベトベトン** と **ニドキング** は相変わらず強力で、**アシレーヌ** と **ガラガラ** は鈍足ながら強烈な火力を出します。勝ち筋はおそらく、安定した高速の攻めを続けつつ、必要に応じてミミッキュとニドキングに対処できる駒を控えに置くことです。
 
-Anyways, once you win, we can talk to Luna.
+勝ったらルナに話しかけましょう。
 
-**Relationship Point Choices**:
-- Talk to Luna after G. Gardevoir is captured (+1 Luna)
+**好感度の選択肢**:
+- G.サーナイトが捕らわれたあとルナに話しかける (+1 ルナ)
 
-Head back out and talk to Radomus and Cain again. Then exit via the labyrinth, hop on a Tauros and make your way all the way down the route to the Grand Stairway that was empty earlier. Note that we will need to win another one of those "impossible story battles" coming up soon to keep open our options for a postgame route, so plan your team accordingly.
+外へ戻り、ラドマスとカインにもう一度話しかけます。そのあと迷宮から出てケンタロスに乗り、道路をずっと下って、先ほど空だった大階段まで向かってください。なお、ポストゲームのルートの選択肢を残すには、この先の「勝てない物語バトル」をもう1つ勝つ必要があるので、手持ちはそのつもりで整えておきましょう。
 
-## Citae Astrae
+## キタエ・アストラエ {#citae-astrae}
 
-Once you enter, you'll see El run to the left. Follow him, then talk to Radomus to jump down. You can find a hidden *Star Piece*. Talk to Radomus and go down. Grab the hidden *Stardust* and go down the ladder.
+入るとエルが左へ走っていきます。追いかけてラドマスに話しかけると飛び降りられます。隠された *ほしのかけら* が見つかります。ラドマスに話しかけて下へ。隠された *ほしのすな* を拾い、はしごを下ります。
 
-Hey look! We made it to another chunk of the grand stairway that we couldn't access earlier. Grab hidden *Burn Heal*, *Repel*, *Big Pearl*, *Full Heal*, and *Super Repel* as you make your way right. In the next room, pick up 3 hidden *Purple Shards*, then exit to the left. Grab a hidden *Exp. Candy L* and go down the ladder. In this room you can find a hidden *Stardust* and 3 *Star Pieces*. Go up and into the new area.
+見てのとおり、以前は入れなかった大階段の別区画にたどり着きました。右へ進みながら隠された *やけどなおし*、*むしよけスプレー*、*おおきなしんじゅ*、*なんでもなおし*、*シルバースプレー* を回収します。次の部屋では隠された *むらさきのかけら* 3個を拾い、左から出ます。隠された *けいけんアメL* を拾ってはしごを下ります。この部屋では隠された *ほしのすな* と *ほしのかけら* 3個が見つかります。上へ進んで新しいエリアに入りましょう。
 
-After a scene, you'll be free to explore.
+イベントのあと、自由に探索できます。
 
 !enc(305)
 
-In this area, you can find 5 hidden *Star Pieces*, *Shoal Shell*, and *Shiny Stone*. Say that ten times fast.
+このエリアでは隠された *ほしのかけら* 5個、*あさせのかいがら*、*ひかりのいし* が手に入ります。
 
-Enter the building here. We can use our Ruby Ring to access a door. Inside, you'll find the first of many of Reborn's logic-by-contradiction puzzles. The ones in here shouldn't be too crazy, so I recommend solving these yourself. Anyways, the answer:
+ここの建物に入ります。*ルビーのゆびわ* を使うと扉を開けられます。中では、リボーンに数多くある「矛盾から解く論理パズル」の最初のものに出会います。ここのものはさほど難しくないので、自力で解くことをおすすめします。ともあれ、答えはこちらです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Chimchar Dark, Monferno Dark, Infernape Light </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the Chimchar puzzle answer</a>
+    ヒコザル=闇、モウカザル=闇、ゴウカザル=光 </div>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">ヒコザルのパズルの答えを表示</a>
 </div>
 
-After the puzzle, go through the teleporter. You can actually make your way back through the purple teleporter to grab a *Exp. Candy XL*. With that, head up and into the door.
+パズルを解いたらテレポーターを通ります。紫のテレポーターを通って戻れば *けいけんアメXL* も回収できます。それが済んだら上へ進んで扉に入ります。
 
-**Relationship Point Choices**:
-- Agree to give Adrienn the ring (+1 Adrienn, -1 Cain)
-- Refuse to give Adrienn the ring (-1 Adrienn, +1 Cain)
+**好感度の選択肢**:
+- アドリエンヌに指輪を渡すことに同意する (+1 アドリエンヌ、-1 カイン)
+- アドリエンヌに指輪を渡すのを断る (-1 アドリエンヌ、+1 カイン)
 
-**Relationship Point Choices**:
-- Speak to Adrienn about the pronouns when the player is Non-binary (+1 Adrienn)
+**好感度の選択肢**:
+- 主人公がノンバイナリーのとき、代名詞についてアドリエンヌと話す (+1 アドリエンヌ)
 
-Note that we will eventually get points for free for being the other genders too. Enter the red door for another logic puzzle.
+なお、他の性別を選んでいる場合も、いずれ無償で好感度が得られます。赤い扉に入るともう1つ論理パズルがあります。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Hitmonchan: Dark, Hitmonlee: Light, Tyrogue: Light, Hitmontop: Dark
+    エビワラー=闇、サワムラー=光、バルキー=光、カポエラー=闇
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the Tyrogue puzzle answer</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">バルキーのパズルの答えを表示</a>
 </div>
 
-Use the Light Shard (or wait till we catch a few Pokemon) and head out.
+*光のかけら* を使って（あるいは何匹か捕まえるまで待って）外へ出ます。
 
 !enc(306, nil, nil, "Citae Astrae Rooftop")
 
-Once you're ready, talk to El at the top. You will have to choice between siding with El, or Radomus. If you choose the former, you're allowed to lose the upcoming battle, but if you choose the latter, you must win to progress.
+準備ができたら最上部のエルに話しかけます。エルの側につくか、ラドマスの側につくかを選ぶことになります。前者を選べば次のバトルは負けても構いませんが、後者を選んだ場合は勝たなければ先へ進めません。
 
-**In order to access the exclusive postgame route, you need to side with Radomus and win.**
+**限定ルートに入るには、ラドマスの側について勝つ必要があります。**
 
 !battle(["El", :EL, 0], "Crystal Cavern")
 
-One thing to note is that Judgement will cycle between gaining Fire, Water, Grass, and Psychic type bonus damage. Using that fact, lowering its special attack, or using one of the strategies we've seen so far to deal with these 6v1 "impossible" fights should suffice if you want to win.
+留意すべき点として、*さばきのつぶて* はほのお・みず・くさ・エスパーのタイプ相性ボーナスを順に切り替えます。この性質を利用するか、とくこうを下げるか、あるいはここまで見てきた6対1の「勝てない」戦いへの戦法のいずれかを使えば、勝ちを狙えます。
 
-**Relationship Point Choices**:
-- Side with El and lose (+3 Elias, +1 Adrienn, -3 Gardevoir, -2 Luna, -2 Radomus)
-- Side with El and win (+1 Cain, +2 Elias, +2 Adrienn, -2 Gardevoir, -2 Luna, -2 Radomus)
-- Side with Radomus and win (+2 Radomus, +2 Luna, +3 Gardevoir, +1 Anna, +1 Shade, +1 Cain, -1 Adrienn, -2 Elias)
+**好感度の選択肢**:
+- エルの側について負ける (+3 イライアス、+1 アドリエンヌ、-3 サーナイト、-2 ルナ、-2 ラドマス)
+- エルの側について勝つ (+1 カイン、+2 イライアス、+2 アドリエンヌ、-2 サーナイト、-2 ルナ、-2 ラドマス)
+- ラドマスの側について勝つ (+2 ラドマス、+2 ルナ、+3 サーナイト、+1 アンナ、+1 シェイド、+1 カイン、-1 アドリエンヌ、-2 イライアス)
 
-With that, agree to leave together. Exit out of the Grand Gate, then make your way to Coral Ward. Talk to Adrienn here, then accept fast travel if you wish back to Vanhanen Castle. I will recommend not doing that so we can prep for an upcoming sidequest.
+そのあと、一緒に出ることに同意します。大門から出たらコーラル区へ向かってください。ここでアドリエンヌに話しかけ、望むならバンハネン城への高速移動を受けます。ただしこの先のサイドクエストの準備をしたいので、受けないことをおすすめします。
 
-We're gonna need about 30 Honeys for the next section - I recommend buying only about 5 honeys and then making sure you have 8-9 candies/ice creams in your bag, as we will be able to trade them for honey later. A single Blue Moon Ice Cream can also be exchanged for tons of Honey if you happen to have one.
+次の節では *あまいミツ* が30個ほど必要になります。おすすめは、あまいミツを5個だけ買い、お菓子かアイスを8〜9個持っておくことです。後でミツと交換できるからです。*ブルームーンアイス* が1個あれば、それだけで大量のミツと交換できます。
 
-Not that you should spend your money on them, but the Sweet Kiss now sells higher-tier Exp. Candies!
+お金を使うべきではありませんが、あまいキッスで上位の経験値アメも売られるようになりました。
 
 !shop("Sweet Kiss (Bottom) (7+ Badges)", ["Common Candy", ["Exp. Candy XS", 500], ["Exp. Candy S", 2000], ["Exp. Candy M", 5000], ["Exp. Candy L", 10000], ["Exp. Candy XL", 20000], "Rare Candy"])
 
-There is also one new trainer on the Opal Bridge. By defeating him, you'll learn about the password *minlevel*.
+オパール大橋にもトレーナーが1人増えています。倒すと *minlevel* というパスワードを教えてもらえます。
 
 !battle(["Kaz", :COOLTRAINER_Male, 0])
 
-## North Aventurine Woods Exploration
+## 北アベンチュリンの森の探索 {#north-aventurine-woods-exploration}
 
-Once you're ready, head to the Route 1 Nature Center, grab a Tauros mount, and go right.
+準備ができたら1番道路のネイチャーセンターへ向かい、ケンタロスに乗って右へ進みます。
 
 !img("route1_7.png")
 
-Enter 1N, the first entrance to the forest that you see. This will simply spit us out at 2N. To the right, enter 3N.
+最初に見える森の入口 1N に入ります。ここは 2N に出るだけです。右へ進んで 3N に入ります。
 
 !img("naw_1.png")
 
-Go up and you'll find a hidden *Paralyze Heal* and a *Potion*. A web will block us from proceeding, so we'll have to dismount up here and walk through the tall grass to the left. You can talk to the tree (A) here to slather it with honey - when you do, Heracross and Pinsir will show up and fight for it. If you need a nearby web broken, defeat Pinsir and Heracross will do it for you. If you need a nearby log broken, defeat Heracross, and Pinsir will do it for you. Note that throughout the woods we cannot catch these two bugs. Anyways, defeat the Pinsir here.
+上へ進むと隠された *まひなおし* と *キズぐすり* が見つかります。クモの巣に阻まれるので、ここで降りて左の高い草を歩いて抜ける必要があります。ここの木 (A) に話しかけるとミツを塗れます。塗ると **ヘラクロス** と **カイロス** が現れて奪い合います。近くのクモの巣を壊したいならカイロスを倒せばヘラクロスが壊してくれ、近くの丸太を壊したいならヘラクロスを倒せばカイロスが壊してくれます。なお森の中では、この2匹は捕まえられません。ここではカイロスを倒してください。
 
-Head to the right from here and go through another set of tall grass, but don't go down this ledge just yet. Throughout our adventures in the woods, if you appear to be stuck, step on the Red and White flower tile - don't pull out the Floral Charm just set, I'm saving that for a specific flower later on - and you'll be sent back to Route 1.
+そこから右へ進み、もう1つ高い草を抜けますが、この段差はまだ下りないでください。森を歩き回っていて行き詰まったように見えたら、赤と白の花のマスを踏んでください——*はなのおまもり* はまだ出さないように。あれは後で特定の花に使います——1番道路へ戻されます。
 
-Down from here, you'll find a hidden *Mental Herb* and another honey tree (B). Interact with it twice and defeat both bugs to get a *Leaf Stone* and *TM86 Grass Knot*. Exit back to Route 1, hop on a Tauros, and head back into 3N. Pass tree A and climb the ledge, then dismount. Grab the hidden *Oran Berry* and *Elemental Seed* then enter Celestinine Mountain here.
+そこから下へ進むと、隠された *メンタルハーブ* と、もう1つのミツの木 (B) があります。2回作用させて両方の虫を倒すと *リーフのいし* と *わざマシン86 くさむすび* が手に入ります。1番道路へ戻ってケンタロスに乗り、3N へ入り直します。木 A を過ぎて段差を登り、降りてください。隠された *オレンのみ* と *エレメンタルシード* を拾い、ここからセレスティナイン山へ入ります。
 
 !enc(387, ["Cave", "Fishing"], ["Old", "Good"], "Celestinine Mountain B2F - 3F")
 
-Note that we will eventually want a Qwilfish for an in-game trade.
+なお、後々の交換イベントで **ハリーセン** が必要になります。
 
-Grab the hidden *Ether* and *Repel*, then make your way to the ice puzzle. Slide your way to the center, then slide left and up from the top left part of the center to get the *Icy Field Readout*. Oh, and the Icy Rock to evolve Eevee into Glaceon is here as well. Slide to the left and down to head down some stairs from here.
+隠された *ピーピーエイド* と *むしよけスプレー* を拾い、氷のパズルへ向かいます。中央まで滑り、中央の左上部分から左そして上へ滑ると *氷のフィールドの資料* が手に入ります。それと、イーブイを **グレイシア** に進化させる「つめたいいわ」もここにあります。左そして下へ滑ると、そこから階段を下りられます。
 
-Pick up an *Ice Stone* up here as well as a hidden *Potion*. You can also find *TM23 Smack Down* in here. Do some fishing if you'd like, then exit out to the woods the way we came in and return to Route 1.
+ここでは *こおりのいし* と、隠された *キズぐすり* を拾えます。*わざマシン23 うちおとす* もここにあります。必要なら釣りもして、来た道を通って森へ出て1番道路へ戻ってください。
 
 !img("route1_8.png")
 
-Grab a Tauros mount and head east from 3N in search for 4N. Once you find it, head in.
+ケンタロスに乗り、3N から東へ進んで 4N を探します。見つけたら入りましょう。
 
 !img("naw_2.png")
 
-Grab the hidden *Dire Hit* and *Big Mushroom*. If you go up and left, "To C" on the map, you can reach a tree (C) from the previous map under which we can fight a Pinsir to open a shortcut, though this one isn't required to get any rewards. Head back to the right and go up, then dismount. Past the tall grass, you'll find some soil to plant berries in if you'd like as well as the *Pikanium-Z* and a *Green Shard*. Enter the building here.
+隠された *クリティカット* と *おおきなキノコ* を拾います。上そして左へ進むと（地図の「To C」）、ひとつ前のマップの木 (C) にたどり着けます。ここでカイロスを倒すと近道が開きますが、報酬を得るのに必須ではありません。右へ戻って上へ進み、ケンタロスから降ります。高い草の先には、望むならきのみを植えられる土と、*ピカチュウZ*、*みどりのかけら* があります。ここの建物に入ってください。
 
-A Pikachu on the ground floor is actually a tutor.
+1階の **ピカチュウ** は、実は技教え人です。
 
 !tutor("Nyu's Pikachu Move Tutor", [["Volt Tackle", "Free"]])
 
-Talk to the guy upstairs - he will tell us he is the PC administrator, and also heal our Pokemon! You can also talk to him with candy or ice cream in your bag - he will give us 3 *Honeys* for each. If we give him *Blue Moon Ice Cream*, we'll get *40 Honeys*.
+上階の男性に話しかけると、パソコンの管理者だと名乗り、ポケモンも回復してくれます。お菓子かアイスを持った状態で話しかけると、1個につき *あまいミツ* を3個くれます。*ブルームーンアイス* を渡すと *あまいミツ40個* がもらえます。
 
-Back outside, go down then right. You'll see another Honey tree (D) - defeat Pinsir to clear some webs. Unless you really like the animation of Pinsir smashing logs, we can ignore the nearby short log. Grab the hidden *Burn Heal* and go up - we'll be blocked by long log for now! Exit to Route 1.
+外に戻り、下そして右へ。もう1つミツの木 (D) があります。カイロスを倒すとクモの巣がいくつか片付きます。カイロスが丸太を砕く演出がよほど好きでない限り、近くの短い丸太は無視して構いません。隠された *やけどなおし* を拾って上へ——長い丸太に阻まれます。1番道路へ出ましょう。
 
 !img("route1_9.png")
 
-Hop on a Tauros, and enter 5N to the right. Pick up the hidden *Red Shard*, and witness the conversation to the right.
+ケンタロスに乗り、右の 5N に入ります。隠された *あかいかけら* を拾い、右手の会話を目撃してください。
 
-**Relationship Point Choices**:
-- Say you did see that just now (-1 Titania)
-- Say you didn't see that just now (-2 Titania)
+**好感度の選択肢**:
+- 「今のを見た」と答える (-1 ティタニア)
+- 「今のは見ていない」と答える (-2 ティタニア)
 
-To the right, 6N will spit us back out onto Route 1, so enter 7N to the east. Pick up the hidden *Paralyze Heal* and dismount, then go left and up. You'll find Honey tree E here - beat Heracross to clear a log to the left. Head back down and to the right here, then go up through the tall grass. There's another Honey tree (F) - beat Heracross again to clear a log.
+右の 6N は1番道路へ戻されるだけなので、東の 7N に入ります。隠された *まひなおし* を拾って降り、左そして上へ。ミツの木 E があるので、ヘラクロスを倒して左の丸太を片付けます。下って右へ戻り、高い草を抜けて上へ。もう1つミツの木 (F) があるので、またヘラクロスを倒して丸太を片付けます。
 
-Head back out to Route 1, and pick up a Tauros mount. Head right back in to 7N and go up the ledge at the top. Grab the *Sharp Beak* as well as hidden *Synthetic Seed* and *Tiny Mushroom*.
+1番道路へ戻ってケンタロスに乗り、7N へ入り直して最上部の段差を登ります。*するどいくちばし* と、隠された *シンセティックシード*、*ちいさなキノコ* が手に入ります。
 
 !enc(289, ["Fishing"], ["Old", "Good"])
 
-Finally, head back to Route 1, pick up a Tauros mount (if there are none, go west through 6N to 5N) and enter 4N once more. Follow the path to the right and go up the ledge here. Grab the *Exp. Candy XL*, *Calm Mint*, *Careful Mint*, and 2 *Lum Berries*. Also you can find hidden *Great Ball* and *Red Shard*. Return to Route 1.
+最後に1番道路へ戻ってケンタロスに乗り（いなければ 6N から西へ抜けて 5N へ）、もう一度 4N に入ります。道を右へたどって段差を登り、*けいけんアメXL*、*おだやかミント*、*しんちょうミント*、*ラムのみ* 2個を回収します。隠された *スーパーボール* と *あかいかけら* も手に入ります。1番道路へ戻りましょう。
 
-## South Aventurine Woods Exploration
+## 南アベンチュリンの森の探索 {#south-aventurine-woods-exploration}
 
-Getting everything in the South Aventurine Woods is a bit more complicated, so to make things easier, we will start at the rightmost entrance to the South Aventurine Woods first.
+南アベンチュリンの森で全てを回収するのはやや込み入るので、話を単純にするため、まず南アベンチュリンの森の一番右の入口から始めます。
 
 !img("route1_9.png")
 
-Head east on Route 1 and enter 8S in the above map, noting that you'll have to dismount in order to reach this woods entrance.
+1番道路を東へ進み、上図の 8S に入ります。この森の入口に着くには、ケンタロスから降りる必要があります。
 
 !img("saw_3.png")
 
-Inside, grab the hidden *Revive* then use the Honey tree (Q) two times to destroy both of the nearby obstacles. Exit out of 8S, then go left to 7S. You can get a *Water Gem* here and exit on the other side at 6S. Our next destination is all the way to the west, so stop by the Route 1 Nature Center to heal if you'd like.
+中で隠された *げんきのかけら* を拾ったら、ミツの木 (Q) を2回使って近くの障害物を両方壊します。8S から出て左へ進み 7S へ。ここでは *みずのジュエル* が手に入り、反対側の 6S から出られます。次の目的地はずっと西なので、必要なら1番道路のネイチャーセンターで回復してください。
 
 !img("route1_7.png")
 
-Enter 1S on the far west side of Route 1.
+1番道路の最西端にある 1S に入ります。
 
 !img("saw_1.png")
 
-Grab a hidden *Clever Wing* then go up the ledge and follow the path. Dismount, then talk to Honey tree (G) and beat the Pinsir. Down this ledge is 2S, which we can take to emerge onto Route 1. Find a Tauros mount and return to 2S.
+隠された *せいしんのハネ* を拾って段差を登り、道をたどります。降りてミツの木 (G) に話しかけ、カイロスを倒してください。この段差の下が 2S で、そこから1番道路に出られます。ケンタロスを見つけて 2S へ戻りましょう。
 
-Up the ledge to the right you'll find a hidden *Max Repel*. Dismount up here, then go down through the patch of tall grass. Use the Honey tree (I) and fight Pinsir. Make your way back to Route 1, grab a Tauros, then reenter 2S yet again. 
+右の段差を登ると隠された *ゴールドスプレー* が見つかります。ここで降り、高い草の茂みを抜けて下へ。ミツの木 (I) を使ってカイロスと戦います。1番道路へ戻ってケンタロスに乗り、また 2S へ入り直してください。
 
-Go right at this fork, staying on Tauros to climb the ledge below tree (I). Dismount up here and go down through the tall grass. Use the Honey tree (H) and fight Heracross this time, then return to Route 1. One more time, get a Tauros and re-enter 2S.
+この分岐では右へ進み、ケンタロスに乗ったまま木 (I) の下の段差を登ります。ここで降りて高い草を抜けて下へ。ミツの木 (H) を使い、今度はヘラクロスと戦ってから1番道路へ戻ります。もう一度ケンタロスに乗り、2S へ入り直します。
 
-This time, go down at the first fork. Follow the path and jump up the ledge at the bottom. Pick up the *Link Stone*, 2 *Sitrus Berries*, and hidden *Magical Seed*. Drop down and go up the ledge immediately to the right, then dismount. Pick up the hidden *Revive* in the next area, then use the Honey tree (J) and fight Heracross. Exit out of 3S above, get a Tauros mount, and return to 3S.
+今度は最初の分岐で下へ。道をたどり、下の段差を登ります。*リンクストーン*、*オボンのみ* 2個、隠された *マジカルシード* を回収してください。降りてすぐ右の段差を登り、そこで降ります。次のエリアで隠された *げんきのかけら* を拾い、ミツの木 (J) を使ってヘラクロスと戦います。上の 3S から出てケンタロスに乗り、3S へ戻ります。
 
-Go up the ledge at the bottom, use the Honey tree (K) and fight Pinsir. Grab the hidden *Purple Shard*. You'll notice we can't progress this way any further. Return to Route 1.
+下の段差を登り、ミツの木 (K) を使ってカイロスと戦います。隠された *むらさきのかけら* を拾いましょう。この先へは進めないので、1番道路へ戻ります。
 
 !img("route1_8.png")
 
-Next, we'll be entering 4S - you'll know you're in the right place if you recognized where we fought Fern.
+次は 4S に入ります。ファーンと戦った場所だと気づけば、正しい場所です。
 
 !img("saw_2.png")
 
-Anyways, lather the Honey tree closest to you (N) and fight Pinsir, then make your way right and dismount - don't go down the ledge to 5S though. Grab hidden *Escape Rope*, *Purple Shard*, and *Potion* then make your way down through the tall grass. At the bottom is another Honey tree (P); defeat Heracross here. Make your way back up partway through the tall grass and you'll notice an opening (orange in the above image). Pull out the Floral Charm when prompted to to battle **Flabebe**! Head straight to the right and grab the hidden *Oddishweed* in the bush. Head back and get lulled into a daze to return to Route 1.
+まず一番手前のミツの木 (N) に塗ってカイロスと戦い、右へ進んで降ります——ただし 5S への段差は下りないでください。隠された *あなぬけのヒモ*、*むらさきのかけら*、*キズぐすり* を拾い、高い草を抜けて下へ。一番下にもう1つミツの木 (P) があるので、ここではヘラクロスを倒します。高い草を途中まで戻ると、開けた場所（上図のオレンジ）があります。促されたら *はなのおまもり* を出すと **フラベベ** とバトルできます。まっすぐ右へ進み、茂みの隠された *ナゾノクサのはっぱ* を拾ってください。戻ってまどろみに誘われると1番道路へ帰されます。
 
-Again, enter 4S, this time not needing a Tauros mount, and head down. Use the nearby Honey tree (M) two times to clear both obstacles. Go down and immediately to the right, use another Honey tree (O) and fight Heracross. Finally, head left and down the ledge and use the Honey tree nearest Tanzan (L) and fight Heracross. Follow the path to the left, and you'll emerge at 3S. 
+もう一度 4S に入ります。今度はケンタロスは不要です。下へ進み、近くのミツの木 (M) を2回使って障害物を両方片付けます。下ってすぐ右へ進み、もう1つのミツの木 (O) を使ってヘラクロスと戦います。最後に左へ進んで段差を下り、タンザンに一番近いミツの木 (L) を使ってヘラクロスと戦います。道を左へたどると 3S に出ます。
 
-Get a Tauros mount and reenter 3S, this time, going down and following the newly opened path. At a fork, you'll get *TM51*, 2 *Custap Berries*, and a hidden *Telluric Seed*. Make sure you save one of these Custap Berries for a quest later on.
+ケンタロスに乗って 3S へ入り直し、今度は下へ進んで新しく開いた道をたどります。分岐では *わざマシン51*、*イバンのみ* 2個、隠された *テルリックシード* が手に入ります。この *イバンのみ* は後々のクエスト用に1個必ず取っておいてください。
 
-Follow the path to the right and up. You'll find a hidden *Purple Shard* and *Star Piece* along the way. Go left at the fork and pick up the *Tech Glasses* as well as a hidden *Repel* and *Link Stone*, then head right.
+道を右そして上へたどります。途中で隠された *むらさきのかけら* と *ほしのかけら* が見つかります。分岐では左へ進んで *テックグラス* と、隠された *むしよけスプレー*、*リンクストーン* を回収し、右へ向かいます。
 
 !img("saw_3.png")
 
-Grab the hidden *Fire Gem*. Down the ledge you'll finally see why I had us do 8S first... anyways follow the path right then go up. Get the hidden *PP Up* and finally dismount, then head up into the grass.
+隠された *ほのおのジュエル* を拾います。段差を下りると、なぜ 8S を先に済ませたのかがようやく分かります……ともあれ道を右へたどって上へ。隠された *ポイントアップ* を拾い、ここでようやく降りて、草の中へ上がります。
 
-Here, you can grab a *Razor Claw* and *TM40 Aerial Ace* as well as hidden *Silver Powder* and *Magical Seed*. You'll also find a Heracross and a Pinsir here, but you need to choose. To get **Heracross** defeat the Pinsir, and to get **Pinsir** defeat the Heracross. We'll be able to obtain the other later.
+ここでは *するどいツメ* と *わざマシン40 つばめがえし*、隠された *ぎんのこな* と *マジカルシード* が手に入ります。**ヘラクロス** と **カイロス** もいますが、どちらか一方を選ぶことになります。**ヘラクロス** が欲しければカイロスを、**カイロス** が欲しければヘラクロスを倒してください。もう一方は後で入手できます。
 
-That wraps up our exploration of the woods!
+これで森の探索は完了です。
 
-Return to the Route 1 Nature Center and talk to the guy on the second floor who lost his specs. In exchange for the Tech Glasses we will get *Department Store Sticker: Heracross*!
+1番道路のネイチャーセンターへ戻り、眼鏡を失くした2階の男性に話しかけます。*テックグラス* と引き換えに *デパートシール: ヘラクロス* がもらえます。
 
 !shop("Department Store 8F (Left)", ["X Attack", "X Defend", "X Sp. Atk", "X Speed", "X Sp. Def", "Guard Spec.", "X Accuracy", "Dire Hit"])
 
-I've never used any of these in my entire life, but if you want to, go for it.
+これらを人生で一度も使ったことがありませんが、使いたければどうぞ。
 
 !shop("Department Store 8F (Right)", ["Big Root", "Focus Band", "Zoom Lens", "Scope Lens", "Bright Powder", "Quick Claw", "Protective Pads"])
 
-We've gotten some of these already but sheesh finally some mildly decent non-consumable held items for sale.
+すでに手に入れているものもありますが、まともな非消耗の持ち物がようやく買えるようになりました。
 
-## Grand Hall Trainers 5
+## 大ホールのトレーナー その5 {#grand-hall-trainers-5}
 
-By defeating Noel, trainers in the Grand Hall have gotten stronger once more. Defeating them will now yield 6 *Exp. Candy L.* The updated teams are as follows:
+ノエルを倒したことで、大ホールのトレーナーがまた強化されました。倒すと *けいけんアメL* を6個くれるようになります。更新後の編成は以下のとおりです。
 
-**Sunday**:
+**日曜日**:
 
 !battle(["Carol", :COOLTRAINER_Female, 2])
 
@@ -350,27 +350,27 @@ By defeating Noel, trainers in the Grand Hall have gotten stronger once more. De
 
 !battle(["Fawkes", :COOLTRAINER_Male, 2])
 
-**Monday**:
+**月曜日**:
 
 !battle(["Jonah", :YOUNGSTER, 2])
 
-**Tuesday**:
+**火曜日**:
 
 !battle(["Jace", :COOLTRAINER_Male, 2])
 
-**Wednesday**:
+**水曜日**:
 
 !battle(["Silva", :PSYCHIC_Male, 2])
 
-**Thursday**:
+**木曜日**:
 
 !battle(["JB", :EXPERT_Male, 2])
 
-**Friday**:
+**金曜日**:
 
 !battle(["Will", :TechNerd, 2])
 
-**Saturday**:
+**土曜日**:
 
 !battle(["Anthony", :EXPERT_Male, 2])
 
@@ -378,76 +378,76 @@ By defeating Noel, trainers in the Grand Hall have gotten stronger once more. De
 
 !dbattle(["Zach", :Casanova, 2], ["Beau", :LADY, 2])
 
-With that out of the way, you can use the Tauros shortcut just north of the Grand Gate to make your way to Vanhanen Castle once more.
+これが済んだら、大門のすぐ北にあるケンタロスの近道を使って、もう一度バンハネン城へ向かえます。
 
-## Millenium Badge
+## ミレニアムバッジ {#millenium-badge}
 
-After talking to the group at the entrance, go up two rooms. Radomus will explain the puzzle. Enter the room on the left and grab a *Psychic Memory*.
+入口の一団に話しかけたら、2部屋分上へ進みます。ラドマスがパズルの説明をしてくれます。左の部屋に入り *サイキックメモリ* を回収してください。
 
-Talk to Elias here for more details on the puzzle, etc.
+ここのイライアスに話しかけると、パズルの詳細などを教えてくれます。
 
-**Relationship Point Choices**:
-- Ask Elias about himself (+1 Elias)
+**好感度の選択肢**:
+- イライアス自身について尋ねる (+1 イライアス)
 
-The screen in here will also tell us what our current team chess piece ranks would be in its current ordering, useful for planning for the upcoming fight.
+ここの画面では、今の並び順で手持ちがどのチェスの駒の位になるかも分かります。この先の戦いの準備に役立ちます。
 
-Anyways, it's time to clear all the chess puzzles. I will spoiler the solutions.
+それでは、チェスのパズルをすべて解いていきます。解答は伏せておきます。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Rook up 7; king up 5, and right 2.
+    ルークを上に7、キングを上に5、右に2。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to Chess Puzzle #1</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">チェスパズル1の解答を表示</a>
 </div>
 
-**Relationship Point Choices**:
-- Get the first chess puzzle right on your first try (+1 Radomus)
+**好感度の選択肢**:
+- 1つ目のチェスパズルを1回目で正解する (+1 ラドマス)
 
 !battle(["Parsley", :PSYCHIC_Female, 0], "Chess Board")
 
-Move on to the next room. Note that the Bishops must be talked to first from one direction, then you choose its diagonal direction afterwards. So, to go up-left you talk to it from the right then press up, or talk to it from below and press left.
+次の部屋へ進みます。なお、ビショップはまず一方向から話しかけ、そのあとで斜めの方向を選ぶ仕組みです。左上へ動かしたいなら、右から話しかけて上を押すか、下から話しかけて左を押します。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Knight up 3, and right 3; Rook right 1, up 7, right 1; Bishop up-left 2, down-left 1, up-left 1.
+    ナイトを上に3、右に3。ルークを右に1、上に7、右に1。ビショップを左上に2、左下に1、左上に1。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to Chess Puzzle #2</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">チェスパズル2の解答を表示</a>
 </div>
 
 !battle(["Sage", :PSYCHIC_Male, 0], "Chess Board")
 
-Enter room 3. Luna's trick can help us out here.
+3つ目の部屋に入ります。ルナのコツがここで役立ちます。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Rightmost Pawn up 1; Second-rightmost Pawn up 6, promote to Knight, down 4, left 6, up 2; Rightmost Knight up 3, left 5, up 2.
+    一番右のポーンを上に1。右から2番目のポーンを上に6、ナイトに昇格、下に4、左に6、上に2。一番右のナイトを上に3、左に5、上に2。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to Chess Puzzle #3</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">チェスパズル3の解答を表示</a>
 </div>
 
 !battle(["Rosemary", :PSYCHIC_Female, 0], "Chess Board")
 
-Enter room 4. This is a harder one but you can use the trick from the last room to figure it out.
+4つ目の部屋に入ります。難度は上がりますが、前の部屋のコツを使えば解けます。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Pawn up 5, promote to Queen, down 5, right 1; Rightmost Knight left 1, up 2, left 3, up 3, right 3, down 1; Bishop up-left 2, Leftmost Knight up 2.
+    ポーンを上に5、クイーンに昇格、下に5、右に1。一番右のナイトを左に1、上に2、左に3、上に3、右に3、下に1。ビショップを左上に2。一番左のナイトを上に2。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to Chess Puzzle #4</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">チェスパズル4の解答を表示</a>
 </div>
 
 !battle(["Thyme", :PSYCHIC_Male, 0], "Chess Board")
 
-Head up and into the next room when you are ready for your gym battle.
+ジム戦の準備ができたら、上へ進んで次の部屋に入ります。
 
 !battle(["Radomus", :RADOMUS, 0], "Chess Board")
 
-Especially if you've played previous versions, you'll notice that Radomus' team on top of his field is able to get up 8-Turn Trick Room almost always, since his two leads both have it and get a Focus Sash effect as pawns. Then, with their low speed advantage, Malamar will then usually go for its Contrary Superpower set up, while Reuniclus will try to hit insanely hard  with Psychic/Rock type boosted Psychic. His Gallade gets attack on switch in, has lots of coverage, and can use a boosted Rock type Strength, while his Metagross gets free +1 Priority on all of its hard-hitting attacks including Strength and Meteor Mash. Slowking gets defensive boosts upon switch in and can even set up Nasty Plot, and essentially outspeeds everything under Trick Room, which it has as a backup. Finally, his Gardevoir is EV trained, a bit tanky thanks to Queen bonuses, has a berry,  hits really hard with boosted Psychic, and can also set up on you. A stacked team that has a tendency to completely steamroll the unprepared under Trick Room.
+以前の版を遊んだことがあるなら特に気づくはずですが、ラドマスの編成はフィールドと相まって、ほぼ確実に8ターンの *トリックルーム* を張ってきます。先発2匹がどちらもこれを持ち、ポーンとして *きあいのタスキ* 相当の効果を得るためです。そのうえで低速の利を活かし、**カラマネロ** は *あまのじゃく* の *ばかぢから* で積み、**ランクルス** はエスパー／いわ強化の乗った *サイコキネシス* で凄まじい火力を出してきます。**エルレイド** は交代時にこうげきが上がり、攻撃範囲も広く、強化されたいわタイプの *かいりき* を使えます。**メタグロス** は *かいりき* や *コメットパンチ* を含む高火力技すべてに優先度+1が無償で付きます。**ヤドキング** は交代時に防御面が上がり、*わるだくみ* も積め、控えの *トリックルーム* 下では実質すべてを抜きます。そして **サーナイト** は努力値調整済みで、クイーンの恩恵でやや硬く、きのみを持ち、強化された *サイコキネシス* で強烈に殴りつつ積むこともできます。準備のない相手を *トリックルーム* 下で完封しがちな、極めて完成度の高い編成です。
 
-One strategy you can try to use to win is to shut down Trick Room altogether. Using moves like Fake Out, Taunt, Spore, etc. will allow you to stall the Trick Room users long enough that you can hopefully knock them out on the second or third turn with super-effective Bug/Dark/Ghost moves. Successfully defeating both leads before Trick Room allows you to exploit the low speeds! Metagross will still have priority and Slowking can use Trick Room when it comes in, so be careful of that. If that isn't working, you can also bring an Oranguru from the forest and use Trick Room yourself to cancel it at any time. Alternatively, aside from Slowking and Reuniclus, the rest of his team has respectable base speed, so you can potentially win (lose?) the speed race and bring your own super slow team. Knocking out Reuniclus turn one or two will then mean your slower Pokemon may go first over everything except Metagross and Slowking. A Pokemon like Escavalier is great in this context.
+勝ち筋のひとつは、*トリックルーム* そのものを封じることです。*ねこだまし*、*ちょうはつ*、*キノコのほうし* などを使えば、トリックルーム使いを足止めしているうちに、2〜3ターン目に抜群のむし／あく／ゴースト技で落とせるはずです。トリックルーム前に先発2匹を倒し切れれば、相手の低速を逆に突けます。ただしメタグロスは依然として優先度を持ち、ヤドキングも出てきたら *トリックルーム* を使えるので注意してください。それがうまくいかない場合は、森で **ヤレユータン** を捕まえて、こちらから *トリックルーム* を使えばいつでも打ち消せます。あるいは、ヤドキングとランクルスを除けば相手はそれなりの素早さを持つので、素早さ勝負に勝つ（負ける?）形で、こちらも極端に鈍足な編成を組む手もあります。1〜2ターン目にランクルスを落とせば、メタグロスとヤドキング以外にはこちらの鈍足ポケモンが先に動けます。この文脈では **シュバルゴ** のようなポケモンが優秀です。
 
-Your team composition with respect to chess pieces is going to important regardless of your speed strategies. For your leads, take two Pokemon that can get you momentum for your strategy, keeping in mind that they're guaranteed to live one hit each as Pawns. Then, you're going to want your hardest hitting Pokemon or one that desperately needs priority to be a King if possible, though without a King's Rock at this point, this can be tough to arrange. The rest of your team will naturally fall into Rook/Bishop/Queen - save a bulky but strong attacker for the latter, and consider a Synthetic Seed if you have a special-attacking Bishop. If you happen to have a Pokemon with speed as its best stat, it will become a Knight and can be a great choice to OHKO Queen Gardevoir. Using the field notes, rearrange your team with respect to chess pieces accordingly.
+素早さの戦略がどうであれ、チェスの駒を意識した編成は重要になります。先発には、こちらの戦略の主導権を握れる2匹を置きます。ポーンとして必ず1発は耐えることを念頭に置いてください。次に、最も火力の高いポケモン、あるいは優先度がどうしても必要なポケモンを、可能ならキングに据えたいところですが、この時点では *おうじゃのしるし* がないので調整は難しいかもしれません。残りは自然にルーク／ビショップ／クイーンに収まります。クイーンには硬めで強い攻撃役を残し、特殊型のビショップがいるなら *シンセティックシード* も検討してください。素早さが最高能力のポケモンがいればナイトになるので、クイーンのサーナイトを一撃で落とす役として有力です。フィールドノートを見ながら、駒を意識して並び順を組み替えましょう。
 
-You can exploit the Chess Board in other ways as well: you can use Strength/Secret Power yourself for a field boost. These moves will shoot through the roof in power if you can confuse your opponents with something like Teeter Dance first. You also get a boost when using Shadow Sneak and Sucker Punch, which you can use to ignore Trick Room speed tiers entirely and net some easy KO's against his frail Psychic types. Defensively, you can use Pokemon with Adaptability, Telepathy, Anticipation, or Synchronize to eat Radomus' Psychic and Strength attacks. And of course, there is always the angry child approach of using Stomping Tantrum to flip the board and go to a neutral field.
+*チェスボード* は他にも利用できます。こちらも *かいりき* や *ひみつのちから* を使えばフィールド強化が乗ります。*フラフラダンス* などで先に相手を混乱させられれば、これらの技の威力は跳ね上がります。*かげうち* と *ふいうち* にも強化が乗るので、*トリックルーム* の速度帯を完全に無視して、打たれ弱いエスパータイプを楽に落とせます。守りの面では、*てきおうりょく*、*テレパシー*、*きけんよち*、*シンクロ* を持つポケモンで、ラドマスの *サイコキネシス* と *かいりき* を受けられます。そしてもちろん、*じだんだ* で盤面をひっくり返してフィールドを無効化するという、駄々っ子めいた手も常にあります。
 
-Once you win, you'll get the *Millenium Badge* which pushes our cap up to Lv. 65 as well as *TM92 Trick Room*. Trick Room is a top 5 TM in the game due to its ability to reverse the sweeping power of speedy enemy field-boosted threats, so it's fantastic that we get it for the rest of the game!
+勝利すると *ミレニアムバッジ* が手に入り、上限が Lv.65 に上がります。*わざマシン92 トリックルーム* ももらえます。トリックルームは、フィールド強化された素早い相手の全抜き性能を反転させられるため、このゲームでも5本の指に入るわざマシンです。以降ずっと使えるのは実にありがたいことです。

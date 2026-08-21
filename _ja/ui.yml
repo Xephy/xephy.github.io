@@ -1,0 +1,106 @@
+# 表の枠組みに出る文字列の対訳。ゲームデータではなく _utils/*.rb に
+# 直接書かれているものなので、パッチ側の辞書ではなくここで管理する。
+#
+# キーは生成側のコードに書かれている英語そのもの。call site では
+# JaNames.ui('Ability:') のように英語を渡して引く。ここに無いキーは
+# 英語のまま素通りする。
+
+# --- 見出し・ラベル ---
+"VS:":            "VS:"          # 万国共通なので訳さない
+"Partner:":       "味方:"
+"Items:":         "使用アイテム:"
+"Field:":         "フィールド:"
+"No Field":       "フィールドなし"
+"Shop:":          "ショップ:"
+"Encounters:":    "出現ポケモン:"
+"Ability:":       "とくせい:"
+"Typing:":        "タイプ:"
+"Base Stats:":    "種族値:"
+"IVs:":           "個体値:"
+"EVs:":           "努力値:"
+"Nature":         "せいかく"
+"All":            "すべて"
+"Lv.":            "Lv."         # 日本語のゲーム内表記も Lv.
+
+# --- 表のヘッダ ---
+"Pokemon":        "ポケモン"
+"Moves":          "わざ"
+"Stat Info":      "ステータス"
+"Stat Details":   "ステータス"
+"Shadow Moves":   "シャドウわざ"
+"Level":          "レベル"
+"Rate":           "出現率"
+"Item":           "どうぐ"
+"Price":          "ねだん"
+
+# --- 開閉ボタン ---
+"[show]":         "[表示]"
+"[hide]":         "[閉じる]"
+
+# --- ポケモン名につく接頭辞（末尾の空白は日本語では不要） ---
+"Shadow ":        "シャドウ"
+"Boss ":          "ボス"
+"SOS ":           "SOS"
+
+# --- 出現方法 ---
+"Grass":          "くさむら"
+"Cave":           "どうくつ"
+"Surfing":        "なみのり"
+"Headbutt":       "ヘッドバット"
+"Rock Smash":     "いわくだき"
+"Fishing":        "つり"
+
+# --- 能力値の略称（種族値・個体値・努力値の表示で使う） ---
+"HP":             "HP"
+"Atk":            "攻撃"
+"Def":            "防御"
+"SpA":            "特攻"
+"SpD":            "特防"
+"Spe":            "素早さ"
+
+# --- その他 ---
+"Badges":         "バッジ"
+"Common":         "よく出る"
+"Uncommon":       "たまに出る"
+"Rare":           "レア"
+
+# --- 後から見つかった箇所 ---
+"Wild Pokemon Held Item Chances": "やせいポケモンの持ち物"
+"M":              "♂"
+"F":              "♀"
+
+# --- 章ナビゲーション ---
+"Previous":       "前"
+"Next":           "次"
+"Contents":       "目次"
+"Single page":    "全文を1ページで読む"
+"Top":            "トップ"
+"Walkthrough last updated": "最終更新"
+"Based on game ver.":       "対象バージョン"
+"Read by episode":          "エピソードごとに読む"
+
+# --- ゲーム本体に存在しない、攻略側だけで使うフィールド名 ---
+"Random Field":   "ランダムフィールド"
+
+# --- 出現アイコンの alt（読み上げ・画像欠落時に見える） ---
+"morning":        "朝"
+"day":            "昼"
+"night":          "夜"
+"oldrod":         "ボロのつりざお"
+"goodrod":        "いいつりざお"
+"superrod":       "すごいつりざお"
+
+# --- 技教え人の料金に使うかけらの色 ---
+"Red Shard":      "あかいかけら"
+"Blue Shard":     "あおいかけら"
+"Green Shard":    "みどりのかけら"
+"Purple Shard":   "むらさきのかけら"
+"Free":           "無料"
+
+# --- 攻略側の表記ゆれ（ゲームデータは性別を分けていない） ---
+"Nidoran M":      "ニドラン♂"
+"Nidoran F":      "ニドラン♀"
+"EXP All Upgrade": "みんなのがくしゅうそうちアップグレード"
+"Mining Probabilities": "採掘の確率"
+"Pickup Odds":     "ものひろいの確率"
+"Walkthrough":     "攻略"

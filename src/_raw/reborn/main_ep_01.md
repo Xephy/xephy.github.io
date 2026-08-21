@@ -1,179 +1,178 @@
-# Episode 1: Reborn, the City of Ruin
+# エピソード1: リボーン、廃墟の街 {#episode-1}
 
-Welcome to my 100% walkthrough of Pokemon Reborn.
+ポケモンリボーンの100%攻略へようこそ。
 
-My aim with this document is to provide a complete route through the game including every single item including hidden ones, available Pokemon, some tips for battle strategies, shop and tutor details, and more. To summarize my approach: if you're the type of person that doesn't really like having tons of tabs open at once while you're trying to 100% complete this game, hopefully my guide may be useful for you.
+この文書が目指すのは、隠しアイテムを含むすべてのアイテム、入手できるポケモン、バトルの戦術、ショップや技教え人の情報までを網羅した、完全なルート案内です。ひとことで言えば――100%クリアを目指している最中にタブを何枚も開きっぱなしにするのが好きではない人にこそ、役立つ内容にしたつもりです。
 
-Since this guide is complete, there are some parts that may spoil events that happen later in the game. I try to be vague about story details, but you may want to consider playing the game once first without referencing this walkthrough if this is a concern.
+この攻略は最後まで書き終えているため、ゲーム後半の出来事に触れてしまう箇所があります。ストーリーの詳細はぼかすようにしていますが、気になるようなら、まず攻略を見ずに一周してみることをおすすめします。
 
-## All Aboard!
+## 出発進行! {#all-aboard}
 
-The game will first ask you to choose a player character and gender. It will then ask you if you want to view controls. You can actually rebind controls with F1 and even add controller support if you'd like! Once you've gotten acquainted with your chosen controls, you'll find yourself on the train.
+ゲームを始めると、まず主人公の見た目と性別を選びます。続いて操作方法を確認するか聞かれます。操作は F1 で自由に割り当て直せますし、コントローラーにも対応させられます。操作に慣れたところで、列車の中から物語が始まります。
 
-Ame will ask you if you have any special instructions or passwords. From the game's readme:
+アメから「特別な指示」――パスワードの入力を求められます。ゲーム付属の readme より:
 
 <div id="quote">
-    <p> At the start of the game, you will be prompted for special instructions, or passwords. Below is a list of applicable passwords. Please note that these are features are considered a bonus, and may have some  unexpected interactions at times...
+    <p> ゲーム開始時に「特別な指示」、すなわちパスワードの入力を求められます。以下は使用できるパスワードの一覧です。これらはあくまでおまけの機能であり、ときに予期しない挙動を示すことがある点にご注意ください……
     </p><br><br>
-    <p>Implement a hard EXP cap when maxed on badges, similar to Pokemon Rejuvenation: </p><br>
-        <ul><li>Password: hardcap</li></ul><br>
-    <p>Cause randomized early game Pokemon events to bias towards a specific type:</p>
+    <p>バッジがカンストしたときの経験値上限を厳格にする（ポケモンリジュビネーションと同様）: </p><br>
+        <ul><li>パスワード: hardcap</li></ul><br>
+    <p>序盤のランダムなポケモン入手イベントを、特定のタイプに寄せる:</p>
         <ul>
-            <li>Password: mononormal</li>
-            <li>Password: monofire</li>
-            <li>Password: monowater</li>
-            <li>Password: monograss</li>
-            <li>Password: monoelectric</li>
-            <li>Password: monoice</li>
-            <li>Password: monofighting</li>
-            <li>Password: monopoison</li>
-            <li>Password: monoground</li>
-            <li>Password: monoflying</li>
-            <li>Password: monobug</li>
-            <li>Password: monopsychic</li>
-            <li>Password: monorock</li>
-            <li>Password: monoghost</li>
-            <li>Password: monodragon</li>
-            <li>Password: monodark</li>
-            <li>Password: monosteel</li>
-            <li>Password: monofairy</li>
+            <li>パスワード: mononormal</li>
+            <li>パスワード: monofire</li>
+            <li>パスワード: monowater</li>
+            <li>パスワード: monograss</li>
+            <li>パスワード: monoelectric</li>
+            <li>パスワード: monoice</li>
+            <li>パスワード: monofighting</li>
+            <li>パスワード: monopoison</li>
+            <li>パスワード: monoground</li>
+            <li>パスワード: monoflying</li>
+            <li>パスワード: monobug</li>
+            <li>パスワード: monopsychic</li>
+            <li>パスワード: monorock</li>
+            <li>パスワード: monoghost</li>
+            <li>パスワード: monodragon</li>
+            <li>パスワード: monodark</li>
+            <li>パスワード: monosteel</li>
+            <li>パスワード: monofairy</li>
         </ul><br>
-    <p>Prevent Pokemon from being healed after their HP drops to 0:</p>
-        <ul><li>Password: nuzlocke</li></ul><br>
-    <p>Randomly reshuffles species and moves as rolled at game start:</p>
-        <ul><li>Password: randomizer</li></ul><br>
-    <p>Pokemon do not need to know HM (TMX) moves in order to use them in the field:</p>
-        <ul><li>Password: easyhms</li></ul><br>
-    <p>Prohibits the player's use of items in trainer battles:</p>
-        <ul><li>Password: noitems</li></ul><br>
-    <p>Sets all opposing trainer Pokemon to have 252 EVs and 31 IVs in all stats:</p>
-        <ul><li>Password: fullevs</li></ul><br>
-    <p>Sets all opposing trainer Pokemon to have 0 EVs and IVs in all stats:</p>
-        <ul><li>Password: litemode</li></ul><br>
-    <p>Makes all Field	Notes visible immediately</p>
-        <ul><li>Password: allfieldapp</li></ul><br>
-    <p>Remove some randomness by making all attacks do consistent damage rather than a roll:</p>
-        <ul><li>Password: nodamageroll</li></ul><br>
-    <p>Multiple passwords, including differing monotypes, may be used in tandem with
-    each other, but progress at your own risk~</p><br><br>
-    <p>Other hidden passwords may be able to be found in the game.</p>
+    <p>HPが0になったポケモンを回復できなくする:</p>
+        <ul><li>パスワード: nuzlocke</li></ul><br>
+    <p>ゲーム開始時の抽選で、種族と技をランダムに入れ替える:</p>
+        <ul><li>パスワード: randomizer</li></ul><br>
+    <p>ひでんわざ（TMX）を覚えていなくてもフィールドで使えるようにする:</p>
+        <ul><li>パスワード: easyhms</li></ul><br>
+    <p>トレーナー戦でのプレイヤーの道具使用を禁止する:</p>
+        <ul><li>パスワード: noitems</li></ul><br>
+    <p>相手トレーナーの全ポケモンを、全能力に努力値252・個体値31とする:</p>
+        <ul><li>パスワード: fullevs</li></ul><br>
+    <p>相手トレーナーの全ポケモンを、全能力の努力値・個体値ともに0とする:</p>
+        <ul><li>パスワード: litemode</li></ul><br>
+    <p>フィールドノートをすべて最初から閲覧可能にする</p>
+        <ul><li>パスワード: allfieldapp</li></ul><br>
+    <p>ダメージ乱数をなくし、技のダメージを常に一定にする:</p>
+        <ul><li>パスワード: nodamageroll</li></ul><br>
+    <p>複数のパスワードは、異なる mono[タイプ] 同士も含めて併用できます。ただし、その先は自己責任で〜</p><br><br>
+    <p>ほかにも、ゲーム中で見つかる隠しパスワードがあります。</p>
 </div>
 
-If this is your first time playing, don't worry too much about passwords - in fact, you can activate passwords later on into the game if you change your mind or discover a new password.
+初プレイならパスワードはあまり気にしなくて大丈夫です。実際、あとから気が変わったり新しいパスワードを見つけたりした場合、途中で有効にすることもできます。
 
-- If you want to do a challenge run, try one of the *mono\[type\]* passwords. Note that it doesn't enforce any explicit rules for battle; it simply guarantees you suitable Pokemon for random events. I really recommend trying one of these especially for a second playthrough.
-- You can do *nuzlocke* or *randomizer* if you'd like, just note that Nuzlocke doesn't enforce a first-Pokemon-per-area rule explicitly. You can even do both at the same time.
-- *hardcap* prevents you from leveling past your current cap, and *easyhms* allows you to use HMs without teaching them to your Pokemon. Reborn was originally built with the disobedience system and normal HM mechanics, but these passwords are highly recommended for quality of life.
-- *noitems* makes it so you can't use in battle items like Potion and X-Attack. I prefer this for the extra difficulty it provides and how it increases the value of moves like Recover.
-- *nodamagerolls* makes it so moves will always roll the same damage. There are some fights in this game you practically must reset for a couple times at least, so minimizing the randomness is in my opinion pretty handy.
-- *fullevs* ramps up the difficulty significantly by making every Pokemon both hit hard and have some bulk. Reborn is already a tough game without this password, so tread carefully with this one.
-- *allfieldapp* lets you see data about fields from the start. If you're following this guide I'll be picking up all the notes naturally anyways, so unless you really want to know right away how each field works you'll be ok skipping this one.
-- *litemode* is a good choice if you are struggling or want to experience the wonderful characters, world, and puzzles without spending too much time on the battles.
+- 縛りプレイをしたいなら *mono\[type\]* 系を試してみてください。バトルに明示的なルールを課すものではなく、ランダムイベントで手に入るポケモンがそのタイプに寄る、というだけの効果です。特に2周目には、ぜひ一度試してほしいパスワードです。
+- *nuzlocke* や *randomizer* も好みで使えます。ただし nuzlocke は「エリアごとに最初の1匹だけ」といったルールまで強制するわけではない点に注意してください。両方を同時に使うこともできます。
+- *hardcap* は現在の上限を超えてレベルが上がるのを防ぎます。*easyhms* はひでんわざを覚えさせなくてもフィールドで使えるようにします。リボーンはもともと「言うことを聞かない」システムと通常のひでんわざ仕様を前提に作られていますが、快適さの面でこの2つは強くおすすめします。
+- *noitems* を使うと、バトル中に *キズぐすり* や *プラスパワー* といった道具を使えなくなります。難易度が上がることに加えて、*じこさいせい* のような技の価値が高まるので、筆者はこちらを好んでいます。
+- *nodamagerolls* を使うと、技のダメージが常に同じ値になります。このゲームには最低でも数回はリセットを強いられる戦闘があるので、乱数を減らせるのはかなり便利だと思います。
+- *fullevs* は、あらゆるポケモンが高い火力と耐久を持つようになるため、難易度が大きく上がります。リボーンはこのパスワードなしでも十分に難しいゲームなので、使うなら覚悟して臨んでください。
+- *allfieldapp* は、フィールドの情報を最初から見られるようにします。この攻略に沿って進めればノートは自然にすべて集まるので、各フィールドの仕様を今すぐ知りたいという場合を除けば、飛ばしても問題ありません。
+- *litemode* は、苦戦している場合や、バトルに時間をかけずに素晴らしいキャラクター・世界・パズルを味わいたい場合に向いています。
 
-Regardless, *this guide will be from the perspective of a player who is using no passwords.*
+いずれにせよ、*この攻略はパスワードを一切使わないプレイヤーの視点で書かれています。*
 
-After you're done inputting passwords, enjoy the rest of your train ride!
+パスワードの入力が終わったら、あとは列車の旅を楽しんでください。
 
-## Grand Hall
+## 大ホール {#grand-hall}
 
-As soon as you're off the train, you'll have a conversation with Ame and Julia. Note that I won't be summarizing story events much in this walkthrough aside from gameplay implications.
+列車を降りてすぐ、アメとジュリアとの会話が入ります。なお、この攻略ではゲーム進行に関わる部分を除き、ストーリーの内容はあまり要約しません。
 
-This conversation does quietly show off a mechanic in Pokemon Reborn: relationship points! Certain dialogue triggers and events will make certain characters like you more or less, interally stored as integer values per character. See [Ame's Devblog post](https://www.rebornevo.com/pr/development/records/about-relationship-points-r83/) for an explanation of them; they won't lock you out of any Pokemon, Items, or the like.
+この会話では、ポケモンリボーンの仕組みのひとつが静かに顔を出しています――好感度ポイントです。特定の会話やイベントによって、各キャラクターからの好感度が上下し、内部的にはキャラクターごとの整数値として記録されます。詳しくは[アメの開発ブログの記事](https://www.rebornevo.com/pr/development/records/about-relationship-points-r83/)を参照してください。これによってポケモンやアイテムが入手できなくなることはありません。
 
-**Relationship Point Choices**:
-- Yes (+1 Julia)
+**好感度の選択肢**:
+- はい (+1 ジュリア)
 
-(Whenever a dialogue choice is not listed, it has no effect on the points.)
+（選択肢が記載されていない場合は、好感度に影響しません。）
 
 !img("hidden001.png")
 
-Immediately down from your starting position, in a rock you'll find a hidden *Normal Gem* (A). There are tons of hidden items in this game, and we won't get the Itemfinder for another two badges or so.
+開始位置のすぐ下、岩の中に隠された *ノーマルジュエル* があります (A)。このゲームには隠しアイテムが大量にありますが、ダウジングマシンが手に入るのはバッジ2個ほど先です。
 
-More hidden items:
-- (B): *Poke Ball*
-- (C): *Red Shard*
+そのほかの隠しアイテム:
+- (B): *モンスターボール*
+- (C): *あかいかけら*
 
-It's worth noting that shards are useful in Reborn for obtaining Ability Capsules and Pokemon as well as learning moves via tutors.
+かけらはリボーンにおいて、*とくせいカプセル* やポケモンの入手、技教え人による技の習得に使える重要な素材です。
 
-Proceed to the right into Opal Ward. A girl at the bottom of the area will give you a *Potion*. In general, talk to as many people in Reborn as you can - they offer helpful tips for battles, give you useful items, etc.
+右へ進んでオパール区へ。エリア下部にいる女性が *キズぐすり* をくれます。リボーンでは、とにかく多くの人に話しかけることを心がけてください。バトルのヒントをくれたり、役に立つ道具を渡してくれたりします。
 
-If the weather is sunny you will see an Ice Cream Cart here.
+天気が晴れていれば、ここにアイスクリームの屋台が出ています。
 
 !shop("Opal Ward Ice Cream", ["Vanilla Ice Cream", "Choc Ice Cream", "Berry Ice Cream", "Blue Moon Ice Cream"])
 
-Every day the Ice Cream Shop appears, there is a 1 in 21 chance that they will be selling the rare Blue Moon Ice Cream. Note that talking to the vendor when they are not selling the ice cream activates a cooldown timer of one day, during which time they will not sell Blue Moon Ice Cream not matter how many times you reset. However, if you save *before* speaking to them, you can reset the game until they are carrying Blue Moon Ice Cream. It is too expensive for us right now by far, but should you ever want to buy it, keep this trick in mind.
+アイス屋が出ている日には、21分の1の確率でレアな *ブルームーンアイス* を売っています。ただし、売っていないときに店主へ話しかけてしまうと1日のクールダウンが発生し、その間は何度リセットしてもブルームーンアイスは並びません。逆に、話しかける*前*にセーブしておけば、並ぶまでリセットを繰り返せます。今の所持金ではとても手が届きませんが、いつか買いたくなったときのために覚えておいてください。
 
-Talk to the girl in front of the big building here, and you'll head in. Welcome to the Grand Hall.
+ここの大きな建物の前にいる女性に話しかけると、中へ入ることになります。大ホールへようこそ。
 
-Upstairs, you'll be asked which starter Pokemon you'd like to get. You actually get to choose between 21 starters, or you can let fate decide by using the computer at the top of the room. One amazing thing about Reborn is that you can obtain every single Pokemon in the first seven generations within a single save file of Reborn without trading, and that includes the starters. So, regardless of which you pick, you'll be able to get the other 20 eventually. Your choices are:
+2階へ上がると、最初のパートナーとしてどのポケモンを選ぶか聞かれます。実に21種類から選べるほか、部屋の奥にあるコンピューターで運任せにすることもできます。リボーンの素晴らしい点のひとつは、通信交換なしに、ひとつのセーブデータの中で第7世代までの全ポケモンを揃えられることです。これは最初のパートナーについても同じで、どれを選んでも残り20種はいずれ入手できます。選択肢は以下のとおりです。
 
-- The Grass types: **Bulbasaur**, **Chikorita**, **Treecko**, **Turtwig**, **Snivy**, **Chespin**, **Rowlet**
-- The Fire types: **Charmander**, **Cyndaquil**, **Torchic**, **Chimchar**, **Tepig**, **Fennekin**, **Litten**
-- The Water types: **Squirtle**, **Totodile**, **Mudkip**, **Piplup**, **Oshawott**, **Froakie**, **Popplio**
+- くさタイプ: **フシギダネ**、**チコリータ**、**キモリ**、**ナエトル**、**ツタージャ**、**ハリマロン**、**モクロー**
+- ほのおタイプ: **ヒトカゲ**、**ヒノアラシ**、**アチャモ**、**ヒコザル**、**ポカブ**、**フォッコ**、**ニャビー**
+- みずタイプ: **ゼニガメ**、**ワニノコ**、**ミズゴロウ**、**ポッチャマ**、**ミジュマル**、**ケロマツ**、**アシマリ**
 
-Another feature that Pokemon Reborn has is that it doesn't lock each Pokemon's 'hidden' ability behind special methods of obtaining: every Pokemon has an equal chance of having its hidden ability as its normal abilities. That means you can get Intimidate Litten, Sheer Force Totodile, Contrary Snivy, etc. as your starter!
+もうひとつリボーンの特徴として、隠れ特性が特別な入手方法に紐づいていません。どのポキモンも、通常特性と同じ確率で隠れ特性を持ちます。つまり *いかく* のニャビー、*ちからずく* のワニノコ、*あまのじゃく* のツタージャなども、最初のパートナーとして狙えるということです。
 
-It is ultimately up to you what you choose. Many players recommend Torchic due to its Speed Boost ability, but each starter can be useful in its own way.
+最終的にどれを選ぶかは自由です。*かそく* を持つアチャモを勧めるプレイヤーが多いものの、どのポケモンにもそれぞれの活かし方があります。
 
-If you save in front of the starters (quicksave is, by default, 'D'), you can reset (resetting is, by default, F12. You will become very familiar with this button.) until you get one with satisfactory nature, ability, IV's, and even shininess. The shiny rate in this game is roughly 1 in 91 in this game, so you might just end up with a shiny starter on your first try!
+パートナーの前でセーブしておけば（クイックセーブは初期設定で D）、納得のいく性格・特性・個体値、さらには色違いが出るまでリセットできます（リセットは初期設定で F12。このキーとは長い付き合いになります）。このゲームの色違い出現率はおよそ91分の1なので、一発で色違いのパートナーを引き当てることもあり得ます。
 
-Talk to Ame as soon as you're done, and you'll be taken downstairs and fight your first battle! Don't worry quite yet about the "No Field" note.
+決まったらアメに話しかけてください。1階へ連れて行かれ、最初のバトルが始まります。「フィールドなし」の表示は、今はまだ気にしなくて構いません。
 
 !battle(["Cain", :Cain, 0])
 
-Note that when one number is listed for EVs and for IVs, it means all six stats have this value.
+努力値と個体値の欄に数値がひとつだけ書かれている場合、6つの能力すべてがその値であることを意味します。
 
-Thanks to Hustle, Nidoran has a chance to miss. Use your starter's stat lowering move once if you'd like then spam your attacking move and hopefully you can win. Note that winning this one is not required.
+*はりきり* のおかげで、ニドランの攻撃は外れることがあります。パートナーの能力下降技を1回使ってから攻撃技を連打すれば、勝てるはずです。なお、この戦闘は勝てなくても進行に支障はありません。
 
-**Relationship Point Choices**:
-- Defeat Cain in battle (+1 Cain)
+**好感度の選択肢**:
+- カインに勝利する (+1 カイン)
 
-Once you are done with that battle, you'll be healed, then thrust into another battle. This is the first of what are generally referred to in this game as "gauntlets". Although not necessarily intended by the game, it is worth noting that if you spam the quicksave key while a character is moving in the mid-gauntlet cutscenes, you can save between gauntlet battles.
+このバトルが終わると回復が入り、続けて次の戦闘に放り込まれます。このゲームで一般に「連戦（ガントレット）」と呼ばれるものの最初の一つです。おそらく想定された挙動ではありませんが、連戦の合間のイベントシーンでキャラクターが動いている最中にクイックセーブを連打すると、戦闘と戦闘の間でセーブできます。
 
 !battle(["Victoria", :Victoria, 0])
 
-You'll be Lv. 6 now if you won the last one. Use a similar strategy and hopefully you'll come out on top. Note that again winning this one is not required.
+先ほど勝っていれば、こちらは Lv.6 になっているはずです。同じような戦い方で勝ちを狙いましょう。この戦闘も、勝てなくても支障はありません。
 
-**Relationship Point Choices**:
-- Defeat Victoria in battle (+1 Victoria)
+**好感度の選択肢**:
+- ヴィクトリアに勝利する (+1 ヴィクトリア)
 
-After the battle, Ame will give you the *Pokedex*, the *Pokegear*, and the *Running Shoes*! Plus, Victoria will give you 5 *Poke Balls*.
+バトル後、アメから *ポケモン図鑑*、*ポケギア*、*ランニングシューズ* をもらえます。さらにヴィクトリアが *モンスターボール* を5個くれます。
 
-Now, we can explore the Grand Hall. This is the region's hub building - we will be checking back here often.
+これで大ホールを探索できるようになりました。ここは地方の拠点となる建物で、この先も何度も戻ってくることになります。
 
-Talk to the guy in the top left - he will tell us about the password *litemode*. We can't enter new passwords right now, but we will be able to later.
+左上にいる男性に話しかけると、パスワード *litemode* について教えてくれます。今はまだパスワードを入力できませんが、後ほど可能になります。
 
-A guy behind the desk will allow us to bring in grinding trainers to the grand hall. Let them in if you'd like, but note that right now they're a bit too tough for us. We can come back a bit before the gym leader to grind against them later.
+カウンターの奥にいる男性に頼むと、レベル上げ用のトレーナーを大ホールに呼び入れてもらえます。呼んでおいても構いませんが、今の手持ちには少々手強い相手です。ジムリーダーに挑む少し前に戻ってきて、レベル上げに使いましょう。
 
-Talk to a guy next to some display cases if you'd like to buy some candy.
+陳列ケースのそばにいる男性からは、アメを買えます。
 
 !shop("Grand Hall Candy", [["Common Candy", 75]])
 
-As you might guess, Common Candies are the opposite of rare candies - they'll decrease your Pokemon's level. Reborn's disobedience system means that Pokemon above the level cap will not always obey your commands, so these are essential to fix that issue. The current level cap is 20 - until we beat the gym leader, Pokemon won't obey at Lv. 21 and beyond. We shouldn't need any common candies right now though. To his right is another shop:
+名前から察しがつくとおり、*ふつうのアメ* は *ふしぎなアメ* の逆で、ポケモンのレベルを下げます。リボーンには、レベル上限を超えたポケモンが指示に従わなくなる仕組みがあるため、これはその対処に欠かせません。現在のレベル上限は20で、ジムリーダーを倒すまでは Lv.21 以上のポケモンは言うことを聞きません。とはいえ今すぐ必要になることはないでしょう。その右にはもう一つショップがあります。
 
 !shop("Default Mart (0 Badges)", ["Potion", "Antidote", "Poke Ball"])
 
-In this guide I will be catching every single Pokemon as soon as it becomes available, so if you're going to do the same you're gonna need a lot of balls. Note that you get a *Premier Ball* with every 10 balls you purchase. Reborn is tight on money, so especially if you're not interested in using healing items during battles, you might be better off not spending your cash on Potions and Antidotes and running back to Pokemon Centers when needed instead.
+この攻略では、入手可能になったポケモンをその都度すべて捕まえていきます。同じように進めるつもりなら、ボールが大量に要ります。なお、ボールを10個買うごとに *プレミアボール* が1個おまけで付きます。リボーンは金銭的にかなり厳しいゲームなので、特に戦闘中に回復アイテムを使わない方針であれば、*キズぐすり* や *どくけし* に散財せず、必要なときにポケモンセンターへ戻るほうが得策かもしれません。
 
-On your way out the door, you'll see two people right by the exit. One of them will offer you a Pokemon for $500. But when you do, someone will steal it! If you want to skip this event for now until you have more money you can - we won't actually get to have this Pokemon for... 14 more badges.
+出口へ向かうと、扉のすぐそばに2人組がいます。片方が500ドルでポケモンを売ろうと持ちかけてきますが、買った瞬間に横取りされてしまいます。所持金に余裕ができるまで、このイベントを後回しにしても構いません。どのみち、このポケモンが実際に手に入るのは……バッジ14個ぶん先のことです。
 
-That's all we can really do in the Grand Hall for now, so head outside.
+大ホールでできることは今のところこれで全部なので、外へ出ましょう。
 
-## Opal Ward
+## オパール区 {#opal-ward}
 
-To the right is a trainer.
+右手にトレーナーがいます。
 
 !battle(["Jonathan", :TechNerd, 0])
 
-Anyways, there is grass here, which means we can obtain new team members!
+さて、ここには草むらがあります。つまり新しい仲間を迎えられるということです。
 
 !enc(29, ["Grass"])
 
-Specifically I recommend training up Bidoof as soon as possible - it gets Headbutt at Level 13, which allows you to catch Pokemon in trees. We will also be able to trade away Bibarel for a different Pokemon pretty soon, so that's something to keep in mind. There is also an in-game trade for Watchog a little bit down the road, so you may want to consider at least catching a Patrat for now.
+特に **ビッパ** は、できるだけ早く育てておくことをおすすめします。Lv.13 で *ずつき* を覚え、木を揺らしてポケモンを捕まえられるようになるからです。また、進化させた **ビーダル** は、この先わりと早い段階で別のポケモンと交換に出せます。少し先には **ミルホッグ** との交換もあるので、今のうちに **ミネズミ** を捕まえておくのも手です。
 
-On the left side of the area, in the left broken statue you'll find a hidden *Green Shard*.
+エリア左側、左の壊れた像の中に *みどりのかけら* が隠されています。
 
-Talk to the trainer here with the Snubbull or Stufful, and they will leave. Back at the bottom of the area, you'll now be able to fight trainers to get onto Opal Bridge. The trainers, going clockwise starting to the left:
+**ブルー** か **ヌイコグマ** を連れたトレーナーに話しかけると、その場を離れます。エリア下部に戻ると、オパール大橋へ向かうためのトレーナー戦が解禁されています。左から時計回りに:
 
 !battle(["Paul", :YOUNGSTER, 0])
 
@@ -185,171 +184,171 @@ Talk to the trainer here with the Snubbull or Stufful, and they will leave. Back
 
 !battle(["Eric", :COOLTRAINER_Male, 0])
 
-For beating both of the trainers at the bottom of the stairs, you'll get an *Exp. Candy XS*. There are also some hidden items on the bridge:
+階段下の2人を両方倒すと *けいけんアメXS* がもらえます。橋の上にも隠しアイテムがあります。
 
 !img("hidden002.png")
 
-- (A): *Awakening*
-- (B): *Blue Shard*
-- (C): *Antidote*
+- (A): *ねむけざまし*
+- (B): *あおいかけら*
+- (C): *どくけし*
 
-In the top right, you'll find three bullies.
+右上には、3人のいじめっ子がいます。
 
 !battle(["Randy", :YOUNGSTER, 0])
 
-You'll need two Pokemon to be able to fight the last two, so catch a second if you haven't yet.
+残る2人と戦うにはポケモンが2匹必要なので、まだなら2匹目を捕まえておいてください。
 
 !dbattle(["Jackson", :COOLTRAINER_Male, 0], ["Mack", :StreetRat, 0])
 
-When you win, you'll get **Pachirisu** or **Zigzagoon**, randomly determined. Note that whenever there is a random event like this, you will be able to get the other Pokemon later in the game (here is where the monotype passwords would come into play: the *monoelectric* password would guarantee Pachirisu, for example, while *mononormal* would guarantee Zigzagoon).
+勝つと **パチリス** か **ジグザグマ** が、ランダムで手に入ります。この手のランダムイベントでは、もう一方のポケモンも後々かならず入手できます（ここで monotype 系のパスワードが効いてきます。たとえば *monoelectric* ならパチリス、*mononormal* ならジグザグマが確定します）。
 
-If you got Zigzagoon, you can train that up instead of Bidoof if you'd like for Headbutt, which it learns at level 11. Also, it might be worthwhile to save before you get the Pokemon: both of these can have the Pickup ability, which can be incredible in Pokemon Reborn. [Click here for details about Pickup in Reborn.](#pickup-table)
+ジグザグマを引いた場合は、*ずつき* 要員としてビッパの代わりに育てても構いません。こちらは Lv.11 で覚えます。また、入手前にセーブしておく価値もあります。どちらも *ものひろい* を持つ可能性があり、この特性はポケモンリボーンにおいて非常に強力だからです。[リボーンにおける「ものひろい」の詳細はこちら。](/reborn/appendices/#pickup-table)
 
-That's it for Opal Ward for now, so head back towards the train station.
+オパール区でできることは一旦これで終わりなので、駅の方へ戻りましょう。
 
-## Lower Peridot Ward
+## 下ペリドット区 {#lower-peridot-ward}
 
-In the Lower Peridot Ward, things have opened up! To the left is a trainer.
+下ペリドット区は、行動範囲がぐっと広がっています。左手にはトレーナーがいます。
 
 !battle(["Lindsey", :Doxy, 0])
 
-Next, head right then up as soon as you can.
+次に、右へ進んでから可能な限り早く上へ向かいます。
 
 !img("hidden003.png")
 
-A rock on the left side will contain a hidden *Escape Rope* (A). Talk to the guy here, and give him $150 total. We can't do anything in the house behind him quite yet, so head up from here.
+左側の岩の中に *あなぬけのヒモ* が隠されています (A)。ここにいる男性に話しかけ、合計150ドルを渡してください。その後ろの家ではまだ何もできないので、ここから上へ進みます。
 
-You'll find a gym here. We can't go in yet, but if you go up and around to the right, you'll find a *Gift Box*.
+ジムがありますが、まだ入れません。上へ回り込んで右へ進むと *プレゼントボックス* があります。
 
-Also, specifically when the weather is thunderstorming, you'll find **Blitzle** here. Since it's Lv. 15 it might be a bit too tough to deal with right now, so you can come back later. Note that this is the first encounter that is only possible with the right weather - if you'd like to avoid having to wait you can use the *weathermod* password at your next opportunity.
+また、雷雨のときに限り、ここに **シママ** が出現します。Lv.15 と今の手持ちには少し荷が重いので、後で戻ってきても構いません。これは天候が合っていないと成立しない最初の出現例です。待つのが煩わしければ、機会があり次第 *weathermod* パスワードを使うとよいでしょう。
 
-To the left, there is a Pokemon Center, and some hidden items outside.
+左にはポケモンセンターがあり、その外にも隠しアイテムがあります。
 
-- (B): *Paralyze Heal*
-- (C): *Elemental Seed*
+- (B): *まひなおし*
+- (C): *エレメンタルシード*
 
-Hang on to the latter for now - it will be useful later on. There is another trainer to the left:
+後者は後々役に立つので、取っておいてください。さらに左にはもう1人トレーナーがいます。
 
 !battle(["Andy", :Casanova, 0])
 
-A riveting moveset.
+実に痺れる技構成です。
 
-In the nearby house, you can take a quiz to find out what types of Pokemon you'd be. It's quite long, but a fun time. You'll also be given a *Type Gem* corresponding to the type you get, as well as learn about the *mono[type]* password.
+近くの家では、自分がどのタイプのポケモンかを診断するクイズを受けられます。かなり長いですが、なかなか楽しい内容です。結果に応じた *タイプのジュエル* がもらえるほか、*mono[タイプ]* パスワードについても教えてもらえます。
 
-Anyways, go down and right from here.
+ともあれ、ここから下へ、そして右へ進みます。
 
 !battle(["Hera", :Doxy, 0])
 
 !battle(["Saad", :Casanova, 0])
 
-During a clear daytime, you'll find a Teddiursa! It will run off and we'll have to chase it.
+晴れた昼間には **ヒメグマ** が現れます。逃げてしまうので、追いかけることになります。
 
-Go left from this area and enter the first house that you can. Inside, you'll find a *PokeSnax*! This item is crucial for getting certain Pokemon.
+このエリアから左へ進み、入れる最初の家に入ってください。中で *ポケスナック* が手に入ります。これは特定のポケモンを入手するのに不可欠な道具です。
 
-More hidden items around here include:
+この付近の隠しアイテムは以下のとおりです。
 
-- (D): *Purple Shard*
-- (E): *Exp. Candy XS*
-- (F): *Common Candy*
+- (D): *むらさきのかけら*
+- (E): *けいけんアメXS*
+- (F): *ふつうのアメ*
 
-With the PokeSnax in our bag, we can talk to the northernmost dumpster here to catch **Gulpin**. Inside the house, also thanks to the snax, you'll be able to catch **Whismur**.
+ポケスナックを持った状態で、ここの最も北にあるゴミ箱に話しかけると **ゴクリン** を捕まえられます。同じくスナックのおかげで、家の中では **ゴニョニョ** も捕まえられます。
 
-Return to the guy we gave money to - behind him in a house you will find **Minccino** or **Espurr**, randomly determined. With the snax in your bag, it will join you!
+先ほどお金を渡した男性のところへ戻ってください。その後ろの家で **チラーミィ** か **ニャスパー** がランダムで出現し、スナックを持っていれば仲間になります。
 
-On the left side of the Pokemon Center, you can find a hidden *Poison Gem* in some trash paper (G). In a house below, a guy will give you the *Old Rod*!
+ポケモンセンターの左手、紙くずの中に *どくのジュエル* が隠されています (G)。下の家では、男性が *ボロのつりざお* をくれます。
 
-Back outside, we can actually fish in the dirty water.
+外に戻れば、汚れた水面でも釣りができます。
 
 !enc(37, ["Fishing"], ["Old"])
 
-You can talk to the group below if you'd like, but you can't do anything here quite yet. To the right, you'll find a building to the left and up of the snax house. Inside, you'll be able to battle a guy.
+下にいる集団には話しかけても構いませんが、ここではまだ何もできません。右へ進むと、スナックの家から左上に建物があります。中の男性とバトルできます。
 
 !battle(["Morey", :FISHERMAN, 0])
 
-If you win, he'll let you into his pool, where you can find a *Sea Incense*.
+勝つと彼のプールに入れてもらえ、*うしおのおこう* が手に入ります。
 
 !enc(46, nil, ["Old"], "Lower Peridot Pool")
 
-Head out, and back up past the rod guy's house. You'll find the Name Rater's house here... made obsolete by being able to change a Pokemon's nickname from your party!
+外に出て、つりざおの男性の家を通り過ぎて上へ。ここには「なまえ判定人」の家がありますが……手持ちの画面からニックネームを変更できるため、完全に用済みです。
 
 !img("hidden004.png")
 
-- (A): *Heart Scale*
-- (B): *Purple Shard*
+- (A): *ハートのウロコ*
+- (B): *むらさきのかけら*
 
-If it is still a clear daytime, here you'll be able to talk to Teddiursa again, who will run off to a random location. I will cover all the locations later on, but keep in mind finding it three times from here will allow you to battle and catch it.
+まだ晴れた昼間であれば、ここでもう一度ヒメグマに話しかけられます。話しかけるとランダムな場所へ逃げていきます。出現場所は後ほどまとめますが、ここからさらに3回見つければ、バトルして捕まえられるようになります。
 
-Enter the building here and talk to the old man for a battle.
+ここの建物に入り、老人に話しかけるとバトルになります。
 
 !battle(["Seacrest", :SEACREST, 0])
 
-If you win, you'll be able to enter his garden.
+勝つと、彼の庭に入れるようになります。
 
 !enc(37, ["Grass"])
 
-There is a trade for Sunkern we can do later on, so I recommend catching one. The topmost bush in this garden contains a hidden *Grass Gem*.
+後々 **ヒマナッツ** との交換ができるので、捕まえておくことをおすすめします。この庭の一番上の茂みには *くさのジュエル* が隠されています。
 
-Back in the main part of the ward, head to the right. Enter the first building here. You'll find out about an injured Skitty - when we get an Oran Berry we will be back. Head outside and go right.
+ワードの本道に戻り、右へ進みます。最初の建物に入ってください。傷ついた **エネコ** の話が聞けます。*オレンのみ* を手に入れたら、また戻ってきましょう。外に出て右へ。
 
 !battle(["Marigold", :Doxy, 0])
 
-Once you beat her, talk to her again for a *Rose Incense*! More hidden items:
+倒したあともう一度話しかけると *おはなのおこう* がもらえます。さらに隠しアイテム:
 
-- (C): *Antidote*
-- (D): *Paralyze Heal*
+- (C): *どくけし*
+- (D): *まひなおし*
 
-Up from here, enter the building on the right. Talk to the guy here and give him the Gift Box we found earlier, and you'll obtain a **Delibird**! The building to the right of this one contains an ailing **Kricketot** which you can obtain by talking to the person here.
+ここから上へ進み、右の建物に入ります。中の男性に、先ほど手に入れた *プレゼントボックス* を渡すと **デリバード** が手に入ります。その右隣の建物には弱った **コロボーシ** がいて、ここの人物に話しかけると譲ってもらえます。
 
-**Relationship Point Choices**:
-- Accept Kricketot (+1 Shelly)
-- Reject Kricketot (-1 Shelly)
+**好感度の選択肢**:
+- コロボーシを受け取る (+1 シェリー)
+- コロボーシを断る (-1 シェリー)
 
-Kricketune with its Fury Cutter attack and Technician ability can be incredible in the early game, so consider using it.
+**コロトック** は *れんぞくぎり* と *テクニシャン* の組み合わせが序盤で非常に強力なので、採用を検討してみてください。
 
-Back outside, talk to the yellow haired guy for a battle.
+外に戻り、金髪の男性に話しかけるとバトルになります。
 
 !battle(["Seth", :COOLTRAINER_Male, 0])
 
-When you beat him you can access the Lower Peridot Alley.
+倒すと下ペリドット路地に入れるようになります。
 
 !enc(52)
 
-Poochyena evolves early and can have the Moxie ability, so it can be fantastic in the early game.
+**ポチエナ** は進化が早く、*じしんかじょう* を持つ個体もいるため、序盤では大いに活躍します。
 
 !battle(["Macy", :Punk, 0])
 
-There is a *Super Potion* here as well as some hidden items:
+ここには *いいキズぐすり* のほか、隠しアイテムもあります。
 
 !img("hidden005.png")
 
-- (A): *Dark Gem*
-- (B): *Potion*
+- (A): *あくのジュエル*
+- (B): *キズぐすり*
 
-During thunderstorms specifically, you'll be able to get **Tynamo** by talking to the beam.
+雷雨のときに限り、光の柱に話しかけると **シビシラス** が手に入ります。
 
-Head outside and go to the right under the bridge.
+外に出て、橋の下を右へ進みます。
 
 !battle(["Bob", :StreetRat, 0])
 
-When the weather is rainy, you'll find **Pansear** or **Panpour**, randomly determined. The second from the right box on the bottom row contains a *Purple Shard*. Head to the right.
+雨のときは **バオップ** か **ヒヤップ** がランダムで出現します。下段の右から2番目の箱には *むらさきのかけら* が入っています。右へ進みましょう。
 
 !enc(41)
 
-Woobat can be pretty solid thanks to its Simple ability, and you can evolve it early with enough friendship.
+**コロモリ** は *たんじゅん* のおかげでかなり優秀で、なつき度を上げれば早い段階で進化させられます。
 
-A rock at the top left contains a hidden *Guard Spec*. Once you're done here, head back to the left and go up past Seacrest's Garden to enter the northern part of Peridot Ward.
+左上の岩には *エフェクトガード* が隠されています。ここでの用が済んだら、左へ戻ってシークレストの庭を通り過ぎ、ペリドット区北部へ入りましょう。
 
-## Peridot Ward
+## ペリドット区 {#peridot-ward}
 
 !img("hidden006.png")
 
-- (A): *Poke Ball*
-- (B): *Oran Berry*
-- (C): *Ability Capsule*
+- (A): *モンスターボール*
+- (B): *オレンのみ*
+- (C): *とくせいカプセル*
 
-The Ability Capsule will become unobtainable after some more story events, so grab it while you can. In Reborn, you get to choose the Pokemon's target ability when you use one, including hidden abilities.
+*とくせいカプセル* は、この先のストーリー進行によって入手不可能になります。取れるうちに取っておいてください。リボーンでは、使用時に変更先の特性を自分で選べます。隠れ特性も対象です。
 
-Choosing to save this Oran Berry for the first gym isn't a bad idea... though we can instead now enter the house immediately on the right back in Lower Peridot Ward to get **Skitty**. Back up from here there are some trainers.
+この *オレンのみ* を最初のジム戦まで取っておくのも悪くない判断です……もっとも、下ペリドット区に戻ってすぐ右の家に入れば **エネコ** が手に入ります。そこから上に戻るとトレーナーがいます。
 
 !battle(["Sid", :YOUNGSTER, 0])
 
@@ -357,17 +356,17 @@ Choosing to save this Oran Berry for the first gym isn't a bad idea... though we
 
 !battle(["Tony", :YOUNGSTER, 0])
 
-Also, another few hidden items:
+さらに隠しアイテムがいくつか:
 
-- (D): *Burn Heal*
-- (E): *Red Shard*
+- (D): *やけどなおし*
+- (E): *あかいかけら*
 
-The in-game trade I mentioned earlier is in the nearby house, but we probably aren't quite ready for it yet, so head up.
+先ほど触れた交換イベントは近くの家にありますが、まだ準備が整っていないはずなので、上へ進みます。
 
 !img("hidden007.png")
 
-- (A): *Blue Shard*
-- (B): *Paralyze Heal*
+- (A): *あおいかけら*
+- (B): *まひなおし*
 
 !battle(["Craig", :StreetRat, 0])
 
@@ -377,37 +376,37 @@ The in-game trade I mentioned earlier is in the nearby house, but we probably ar
 
 !battle(["Shawna", :Doxy, 0])
 
-Talk to the fountain while it is raining to battle **Surskit**!
+雨が降っているときに噴水へ話しかけると **アメタマ** とバトルになります。
 
 !img("hidden008.png")
 
-The rock behind the dumpster in the bottom left corner of this plaza contains a *Calcium* (A). I really recommend selling it for a clean $4900 - if you haven't noticed the trainers in this area don't give you much money. Also hidden:
+この広場の左下隅、ゴミ箱の裏にある岩には *リゾチウム* が入っています (A)。これは売って4900ドルにしてしまうことを強くおすすめします。お気づきかもしれませんが、この一帯のトレーナーは大した賞金をくれません。ほかの隠しアイテム:
 
-- (B): *Ether*
-- (C): *Potion*
-- (D): *Red Shard*
+- (B): *ピーピーエイド*
+- (C): *キズぐすり*
+- (D): *あかいかけら*
 
-Enter the house near the youngsters. Talk to the lady here to begin a quest, then head outside.
+たんぱんこぞうたちの近くの家に入ってください。中の女性に話しかけるとクエストが始まります。話が済んだら外へ。
 
-Up from here, when the weather is clear or sunny and you have a Rose Incense in your bag, you can talk to **Budew** on the wall to obtain it.
+ここから上へ進み、天気が快晴か晴れで、かつ *おはなのおこう* を持っていれば、壁にいる **スボミー** に話しかけて入手できます。
 
-Enter the top left house when you're ready for a battle with the guy who stole our $500 Pokemon! Not just him though, you gotta fight both him and the initial salesman. What a snake!
+準備ができたら左上の家へ。500ドルのポケモンを横取りした男とのバトルです。しかも相手は1人ではなく、最初に売りつけてきた男とセットで戦うことになります。とんだ食わせ者です。
 
 !dbattle(["Arnie", :StreetRat, 0], ["Milhouse", :FISHERMAN, 0])
 
-However, they don't actually have our purchased Pokemon, so we'll just have to continue this quest later.
+ただし、買ったポケモンを実際に持っているわけではないので、このクエストの続きは後回しになります。
 
-Head down and enter the tall building to your right. Inside, two suspicious people will see you and run off. Back in the Igglybuff lady's house you'll have to defeat them.
+下へ進み、右手にある背の高い建物に入ります。中で怪しい2人組に見つかり、逃げられます。ププリンの女性の家に戻ると、その2人と戦うことになります。
 
 !dbattle(["Geoff", :MeteorGrunt, 0], ["Audrey", :MeteorGrunt_090, 0])
 
-Once you do, you can get **Igglybuff**! It's worth noting that she will eventually ask for this specific Igglybuff back later in the game; for a reward, you'll need to give it back. So, consider breeding it once we get daycare access if you want to use Wigglytuff.
+倒すと **ププリン** が手に入ります。なお、この個体は後々、彼女から返してほしいと頼まれます。報酬を受け取るには返す必要があるため、**プクリン** を使いたい場合は、育て屋を利用できるようになった時点でタマゴを作っておくことを検討してください。
 
-Anyways, head to the right from the tall building where the Team Meteor Grunts were hiding.
+それでは、チームメテオのしたっぱが隠れていた背の高い建物から右へ進みます。
 
 !battle(["Roger", :COOLTRAINER_Male, 0])
 
-Enter the North Peridot Alleyway behind him.
+その奥の北ペリドット路地に入ります。
 
 !enc(58)
 
@@ -417,166 +416,166 @@ Enter the North Peridot Alleyway behind him.
 
 !img("hidden009.png")
 
-- (A): *Repel*
-- (B): *Green Shard*
+- (A): *むしよけスプレー*
+- (B): *みどりのかけら*
 
-Our first *Data Chip* is above. You can use it to add a password at any PC!
+上には最初の *データチップ* があります。これを使えば、どのパソコンからでもパスワードを追加できます。
 
-Head outside. Enter the small building to the left and pickup the *Potion*. 
+外へ出て、左の小さな建物に入り *キズぐすり* を拾ってください。
 
-Outside, head straight to the left. We will traverse this loop clockwise. Enter the first building you come upon. At night, you can catch **Grubbin** or **Joltik**, randomly determined. Note that this will use up one of your snax, so you'll need to buy more to do other snax-related events. Inside the next building to the left is another *Common Candy*.
+外に出たら、まっすぐ左へ。この一帯は時計回りに一周します。最初に行き当たる建物に入ってください。夜であれば **アゴジムシ** か **バチュル** がランダムで捕まえられます。なお、これはポケスナックを1つ消費するため、ほかのスナック関連イベントを進めるには買い足す必要があります。さらに左隣の建物には、もう1つ *ふつうのアメ* があります。
 
 !battle(["Charlie", :StreetRat, 0])
 
-To the left is a Pokemart. The "Default Shops" in this game operate similarly to main Pokemon game shops in that they update their inventory based on how many badges you have - the Peridot Ward shop will have the same inventory as the Grand Hall shop until we get a badge, then they will both upgrade, for example.
+左にはショップがあります。このゲームの「標準ショップ」は本編のポケモンと同様、バッジの数に応じて品揃えが変化します。たとえばペリドット区の店は、バッジを1つ取るまでは大ホールの店と同じ品揃えで、バッジを取ると両方が同時に更新されます。
 
-Anyways, a small house up from here contains a *Protein*, which again I recommend selling for more ball money.
+ここから上の小さな家には *タウリン* があります。これもボール代のために売ってしまうことをおすすめします。
 
 !battle(["Marshall", :YOUNGSTER, 0])
 
-In the building up and left from here, you can talk to a guy to get a *Common Candy*. Outside, during clear or sunny days, there is a shop.
+そこから左上の建物では、男性に話しかけると *ふつうのアメ* がもらえます。外では、快晴か晴れの日中に店が出ています。
 
 !shop("Peridot Ward Snax", [["PokeSnax", 200]])
 
-If you use up your PokeSnax and need more, this is the place. Head to the right and enter the "Jasper" gate. You can find a *Genius Wing* in a rock but otherwise can't proceed. Back in Peridot, go right.
+ポケスナックを使い切って補充したいときは、ここで買えます。右へ進んでジャスパー区のゲートへ。岩の中に *ちりょくのハネ* がありますが、それ以外はまだ先へ進めません。ペリドットに戻って右へ。
 
 !battle(["Trill", :Punk, 0])
 
 !img("hidden010.png")
 
-- (A): *Common Candy*
-- (B): *Potion*
-- (C): *Clever Wing*
-- (D): *Green Shard*
-- (E): *Purple Shard*
-- (F): *Blue Shard*
-- (G): *Common Candy*
+- (A): *ふつうのアメ*
+- (B): *キズぐすり*
+- (C): *せいしんのハネ*
+- (D): *みどりのかけら*
+- (E): *むらさきのかけら*
+- (F): *あおいかけら*
+- (G): *ふつうのアメ*
 
-When you're ready, talk to the green haired guy for a battle.
+準備ができたら、緑髪の男に話しかけてバトルです。
 
 !battle(["Fern", :Hotshot, 0])
 
-This one is a bit harder than the first two rival fights! Watch out for his Budew, who likes to heal, and his Sandile who can rip through your team of six thanks to Moxie if you're not careful. His Rowlet also may juggernaut with a couple of Ominous Wind boosts, so be cautious of those as well. The Delibird we got earlier can shine in this battle (and arguably only this battle...)!
+これまでの2回のライバル戦より、いくらか手強い相手です。回復してくる **スボミー**、そして油断すると *じしんかじょう* で6匹まとめて薙ぎ払ってくる **メグロコ** に注意してください。**モクロー** も *あやしいかぜ* の能力上昇が重なると手が付けられなくなるので、こちらも警戒が必要です。先ほど手に入れた **デリバード** は、この戦いでこそ輝きます（そして、おそらくこの戦いでしか輝きません……）。
 
-Around this time, your Zigzagoon/Bidoof will be able to learn Headbutt, so there are a few Pokemon you can now obtain. First, head to the garden:
+このあたりで、ジグザグマかビッパが *ずつき* を覚えられるようになります。これで新たに入手できるポケモンが増えるので、まずは庭へ向かいましょう。
 
 !enc(37, ["Headbutt"])
 
-Note that we will eventually want a Mothim for an in-game trade, so ensure you catch a Male Burmy at some point. Next, head back to Opal Ward.
+なお、後々の交換イベントで **ガーメイル** が必要になるので、どこかで必ずオスの **ミノムッチ** を捕まえておいてください。次に、オパール区へ戻ります。
 
 !enc(29, ["Headbutt"])
 
-Now is a good time to finish the Teddiursa quest if you haven't already. Keep in mind this has to be done on a clear day. After talking to it in the bottom part of the Lower Peridot Ward and then again on the left side near the Name Rater's house, you'll need to find it three more times. It can be found in one of the following locations, then will be found in the two after it in the list (cyclically).
+まだであれば、ここでヒメグマのクエストを片付けておくとよいでしょう。これは快晴の日中でなければ進みません。下ペリドット区下部で話しかけ、次になまえ判定人の家の近くで話しかけたあと、さらに3回見つける必要があります。出現場所は以下のいずれかで、一度見つかると、そのあとはリスト順に続く2か所に（循環して）現れます。
 
-1. Nearby the train station, where we started the game.
-2. Under the Opal Bridge, nearby Panpour/Pansear.
-3. Above Mosswater Industrial in between two buildings.
-4. Next to the Upper Peridot Ward Pokemart.
-5. Next to the rock containing the Calcium near the fountain.
-6. Nearby the dumpster where we got Gulpin.
-7. In the bottom left corner of Seacrest's garden.
+1. ゲーム開始地点である駅の近く。
+2. オパール大橋の下、ヒヤップ／バオップの出るあたり。
+3. モスウォーター工業区の上、2つの建物の間。
+4. 上ペリドット区ワードのショップの隣。
+5. 噴水近くの、リゾチウムが入っている岩の隣。
+6. ゴクリンを入手したゴミ箱の近く。
+7. シークレストの庭の左下隅。
 
-**Teddiursa** will then battle you.
+3回目のあと、**ヒメグマ** とのバトルになります。
 
-With that out of the way, time to progress the story. Make sure you have your best team for some battles coming up.
+これが片付いたら、いよいよストーリーを進めます。この先の戦闘に備えて、手持ちを万全にしておいてください。
 
-You have to two choices: you can head straight to the Mosswater Industrial above Seacrest's Garden, or take a detour first to the Lower Peridot Ward gym. In either case, talk to the character standing in front of the factory when you're ready.
+進み方は2通りあります。シークレストの庭の上にあるモスウォーター工業区へ直行するか、先にペリドットジムへ寄り道するかです。いずれにせよ、準備ができたら工場の前に立っている人物に話しかけてください。
 
-**Relationship Point Choices**:
-- Headed straight to Mosswater Industrial (Fern +1)
-- Detoured to Lower Peridot Gym before going to Mosswater (Julia +1)
+**好感度の選択肢**:
+- モスウォーター工業区へ直行する (ファーン +1)
+- 先にペリドットジムへ寄ってから向かう (ジュリア +1)
 
-## Mosswater Industrial
+## モスウォーター工業区 {#mosswater-industrial}
 
-Time for our first dungeon proper! Fern will join us as a partner. Leaving your partner and exiting dungeons tend to have negative effects:
+いよいよ本格的なダンジョンです。ファーンが仲間として同行します。同行者を置き去りにしてダンジョンを出る行為は、たいてい好感度に悪影響を与えます。
 
-**Relationship Point Choices**:
-- Leave Fern and exit the factory (-1 Fern, just once)
+**好感度の選択肢**:
+- ファーンを置いて工場から出る (-1 ファーン、初回のみ)
 
-However, talking to your partner while they're walking with you tends to have positive effects:
+逆に、同行中の相手に話しかけると、たいてい好感度が上がります。
 
-**Relationship Point Choices**:
-- Talk to Fern while you are together (+1 Fern, just once)
+**好感度の選択肢**:
+- 同行中にファーンに話しかける (+1 ファーン、初回のみ)
 
-Partners also fully heal your team after every battle, which can be useful for grinding.
+同行者は戦闘のたびに手持ちを全回復してくれるので、レベル上げにも活用できます。
 
 !partner(["Fern", :Hotshot, 3])
 
-Enter the next room and talk with Ace. We'll be wandering around the factory, defeating Team Meteor Grunts and looking for codes. Start by going left.
+次の部屋に入り、エースと話します。この工場ではチームメテオのしたっぱを倒しながら、暗証番号を探して回ることになります。まずは左へ。
 
 !dbattle(["Mary", :MeteorGrunt_090, 0], ["Coleman", :MeteorGrunt, 0], "Factory Field")
 
-Across the bridge, you'll see one flashing terminal: XX7X. Continue up from here.
+橋を渡ると、点滅している端末が1つあります: XX7X。ここから上へ進みます。
 
 !dbattle(["Hilda", :MeteorGrunt_090, 0], ["Ricardo", :MeteorGrunt, 0], "Factory Field")
 
-In the top left you'll find another terminal: X1XX. The three terminals nearby give us some lore that will be relevant later. Head right.
+左上にもう1つ端末があります: X1XX。近くの3つの端末では、後に関わってくる設定が読めます。右へ進みましょう。
 
 !dbattle(["Sanchez", :MeteorGrunt, 0], ["Devin", :MeteorGrunt, 0], "Factory Field")
 
-A terminal to the right shows 3XXX. Down from here are more grunts.
+右手の端末には 3XXX と表示されます。ここから下にもしたっぱがいます。
 
 !dbattle(["Bruno", :MeteorGrunt, 0], ["Ray", :MeteorGrunt, 0], "Factory Field")
 
-Head to the top right corner of the room to fight more grunts.
+部屋の右上隅へ向かうと、さらにしたっぱと戦えます。
 
 !dbattle(["Simon", :MeteorGrunt, 0], ["Tara", :MeteorGrunt_090, 0], "Factory Field")
 
-Read the nearby terminal, which shows XXX9. Read the other two terminals nearby for more lore, then head down to the elevator and type in our now completed password (3179).
+近くの端末には XXX9 と表示されます。周囲の残り2つの端末でも設定を読んだら、エレベーターへ向かい、揃った暗証番号 (3179) を入力してください。
 
-**Relationship Point Choices**:
-- Push the same elevator button as the floor you are on (-1 Fern)
+**好感度の選択肢**:
+- 今いる階と同じ階のボタンを押す (-1 ファーン)
 
-On the second floor, Rini will start us off with part of the second password: XX6X. Before we proceed, head out the door on the bottom right and follow the path to get a *Data Chip*! Back in the main room, head out to the right and cross the bridge.
+2階では、リニが2つ目の暗証番号の一部を教えてくれます: XX6X。先へ進む前に、右下のドアから出て道なりに進み *データチップ* を回収しておきましょう。中央の部屋に戻ったら、右へ出て橋を渡ります。
 
 !dbattle(["Winter", :MeteorGrunt, 0], ["Michaela", :MeteorGrunt_090, 0], "Factory Field")
 
-Interact with the terminal here to get the hint XXX2, and the other for lore. Head out to the left, and down at the first opportunity.
+ここの端末を調べると XXX2 が、もう一方では設定が読めます。左へ出て、最初の分岐で下へ。
 
 !dbattle(["Demian", :MeteorGrunt, 0], ["Antoine", :MeteorGrunt, 0], "Factory Field")
 
-In this room, use the terminal to discover the hint X8XX. Back outside, go left.
+この部屋の端末で X8XX が判明します。外に戻って左へ。
 
 !dbattle(["Janis", :MeteorGrunt_090, 0], ["Grant", :MeteorGrunt, 0], "Factory Field")
 
-In here is another terminal: 4XXX, plus one more with some lore. You can also get a hidden *Super Potion* in a box at the bottom. Back outside again, go up at the bridge, pickup *Paralyze Heal*, type in the code (4862) and head in.
+ここにも端末があり 4XXX、さらに設定用の端末が1つあります。下の箱からは *いいキズぐすり* も入手できます。再び外に出たら橋のところで上へ進み、*まひなおし* を拾って暗証番号 (4862) を入力し、中へ。
 
 !dbattle(["Rod", :MeteorGrunt, 0], ["Ringo", :MeteorGrunt, 0], "Factory Field")
 
-Pickup the explosives! Back in the central room, choose which of the two characters to talk to.
+爆薬を回収してください。中央の部屋に戻り、2人のうちどちらに話しかけるかを選びます。
 
-**Relationship Point Choices**:
-- Talk to Julia after getting the boomies (+1 Julia, -1 Florinia)
-- Talk to Florinia after getting the boomies (-1 Julia, +1 Florinia)
+**好感度の選択肢**:
+- 爆薬を手に入れたあとジュリアに話しかける (+1 ジュリア、-1 フロリニア)
+- 爆薬を手に入れたあとフロリニアに話しかける (-1 ジュリア、+1 フロリニア)
 
-Either way, head in to the room at the top when you're ready for a fight.
+どちらを選んでも、準備ができたら最上部の部屋へ入ってバトルです。
 
 !dbattle(["Aster", :AsterKnight, 1], ["Eclipse", :EclipseDame, 1], "Factory Field")
 
-Depending on what Pokemon you have this can be a bit difficult since they like to one-shot Fern's Budew, but your sheer numbers can probably overwhelm them regardless.
+手持ち次第では苦戦します。相手はファーンのスボミーを一撃で落としにかかりますが、こちらの数の力で押し切れるはずです。
 
-Outside the factory, Florinia will ask you a question.
+工場を出ると、フロリニアから質問されます。
 
-**Relationship Point Choices**:
-- Yes (+1 Florinia)
+**好感度の選択肢**:
+- はい (+1 フロリニア)
 
-You will then be given the Field Notes App in your Pokegear, and offered to turn on a graphical feature that shows off field effect boosts in battle. I recommend doing this! You will also be given the *Electric Terrain Readout*. You may have noticed we were battling on the Factory Field inside Mosswater. Most of the important trainers in this game we will be fighting on these custom field effects, so the Field Notes will be very helpful.
+その後、ポケギアに *フィールドノート* アプリが追加され、戦闘中にフィールド効果による補正を視覚的に表示する機能を有効にするか聞かれます。これは有効にすることをおすすめします。あわせて *エレキフィールドの資料* ももらえます。モスウォーターの中では *工場フィールド* の上で戦っていたことにお気づきかもしれません。このゲームの重要なトレーナー戦の多くは、こうした独自のフィールド効果の上で行われるため、フィールドノートは大いに役立ちます。
 
-Before we continue with the story, there are a couple quests we can take care of now.
+ストーリーを進める前に、今のうちに片付けられるクエストがいくつかあります。
 
-Go to the factory area where we first met Fern, and talk to the scientist guy on the right side of the factory. He will give us the *Factory Field Readout*, so now we have more details whenever we have battles on the Factory Field that was in Mosswater.
+ファーンと最初に出会った工場エリアへ行き、工場の右側にいる科学者風の男性に話しかけてください。*工場フィールドの資料* がもらえるので、モスウォーターにあった *工場フィールド* での戦闘について、より詳しい情報が見られるようになります。
 
-Head down and talk to the purple haired guy above the destroyed train station. A hotshot will steal his painkillers! Follow him inside the North Peridot Alley, where you can fight him.
+下へ向かい、破壊された駅の上にいる紫髪の男性に話しかけます。やり手のトレーナーが彼の鎮痛剤を奪っていくので、北ペリドット路地まで追いかけてバトルです。
 
 !battle(["Stiles", :COOLTRAINER_Male, 0])
 
-Return to the purple haired guy in Lower Peridot, who will give you 5 *Exp. Candy S*. Nice.
+下ペリドット区の紫髪の男性のところへ戻ると、*けいけんアメS* を5個くれます。ありがたい話です。
 
-## Grand Hall Trainers 1
+## 大ホールのトレーナー その1 {#grand-hall-trainers-1}
 
-Now is a good time to mention the Grand Hall repeatable grinding trainers in the top right corner. Each day of the week, different trainers will be available for grinding. At set points in the game, the trainers will get stronger and their rewards better. For now, each trainer will give you 2 *Exp. Candy S* when you defeat them, useful for bringing your levels up. The game will also heal your party after defeating one to save time! The trainers are as follows:
+ここで、大ホール右上にいる再戦可能なレベル上げ用トレーナーについて触れておきます。曜日ごとに異なるトレーナーが登場し、ゲームの節目ごとに相手は強く、報酬は良くなっていきます。現時点では、倒すたびに *けいけんアメS* を2個くれるので、レベルを上げるのに便利です。1人倒すごとに手持ちが自動で回復するのも、時間の節約になります。トレーナーは以下のとおりです。
 
-**Sunday**:
+**日曜日**:
 
 !battle(["Carol", :COOLTRAINER_Female, 3])
 
@@ -584,27 +583,27 @@ Now is a good time to mention the Grand Hall repeatable grinding trainers in the
 
 !battle(["Fawkes", :COOLTRAINER_Male, 3])
 
-**Monday**:
+**月曜日**:
 
 !battle(["Jonah", :YOUNGSTER, 3])
 
-**Tuesday**:
+**火曜日**:
 
 !battle(["Jace", :COOLTRAINER_Male, 3])
 
-**Wednesday**:
+**水曜日**:
 
 !battle(["Silva", :PSYCHIC_Male, 3])
 
-**Thursday**:
+**木曜日**:
 
 !battle(["JB", :EXPERT_Male, 3])
 
-**Friday**:
+**金曜日**:
 
 !battle(["Will", :TechNerd, 3])
 
-**Saturday**:
+**土曜日**:
 
 !battle(["Anthony", :EXPERT_Male, 3])
 
@@ -612,13 +611,13 @@ Now is a good time to mention the Grand Hall repeatable grinding trainers in the
 
 !dbattle(["Zach", :Casanova, 3], ["Beau", :LADY, 3])
 
-Use the trainers as you'd like to prepare for the gym.
+ジム戦に備えて、必要なだけ活用してください。
 
-By now hopefully you've been able to evolve your Bidoof into **Bibarel** at Lv. 15. If so, head into the house across from Mosswater, in Upper Peridot, to do an in-game trade for **Munna**!
+この頃には、ビッパが Lv.15 で **ビーダル** に進化しているはずです。進化させたら、上ペリドット区のモスウォーター向かいの家へ向かい、**ムンナ** との交換を済ませましょう。
 
-## Volt Badge
+## ボルトバッジ {#volt-badge}
 
-Enter the Neo-Circuit Power-Plant gym when you're ready. The puzzle is simple: beat a trainer, talk to Voltorb, talk to the metal grate standing in your way.
+準備ができたら、ネオサーキット発電所ジムに入ります。仕掛けは単純で、トレーナーを倒す、**ビリリダマ** に話しかける、行く手を塞ぐ金網に話しかける、の繰り返しです。
 
 !battle(["Ivan", :TechNerd, 0], "Factory Field")
 
@@ -628,12 +627,12 @@ Enter the Neo-Circuit Power-Plant gym when you're ready. The puzzle is simple: b
 
 !battle(["Yan", :TechNerd, 0], "Factory Field")
 
-Study the Electric Terrain Field Notes and talk to the gym leader when you're ready.
+*エレキフィールド* のフィールドノートに目を通し、準備が整ったらジムリーダーに話しかけてください。
 
 !battle(["Julia", :JULIA, 0], "Electric Terrain")
 
-Pokemon Reborn's first gym leader is live! Julia's team centers around two strategies: stacking Special Attack with Electric Terrain boosted Charge Beam, and wearing out your low maximum-HP Pokemon quickly with Sonic Boom. Her Electrode is very fast, and can employ both of these strategies effectively and then take out another chunk of HP on its way out with Aftermath. Geodude and Voltorb also like to explode, and since the former's is boosted by STAB, Galvanize, and the field... it's gonna hurt. Oricorio is on the team for coverage: it can hit hard and boost the speed of the entire team for a few turns, and also punishes your Grass-type starter.
+ポケモンリボーン最初のジムリーダーの登場です。ジュリアの構築は2つの軸から成り立っています。*エレキフィールド* で威力の上がった *チャージビーム* でとくこうを積み上げる形と、最大HPの低いポケモンを *ソニックブーム* で削り切る形です。**マルマイン** は非常に素早く、この2つをどちらも実行できるうえ、退場時にも *ゆうばく* でHPを持っていきます。**イシツブテ** と **ビリリダマ** も自爆を狙ってきますが、前者の *だいばくはつ* はタイプ一致・*エレキスキン*・フィールド補正が乗るため……相当な痛手になります。**オドリドリ** は補完要員で、高い火力に加えて数ターンのあいだ味方全体の素早さを上げてくる存在であり、くさタイプのパートナーを咎める役割も担っています。
 
-Luckily, the team isn't super bulky, so trying to get something going with your own sweepers might be the key. Kricketune and Mightyena can really shine here, as well as your second stage starter especially with Torrent / Blaze / Overgrow. Elemental Seeds boost speed on this field, which can be key to getting momentum with your sweeper. *Reborn doesn't always force you to keep the default field around*, however: if you have Zigzagoon, you can use Mud Sport to destroy the Electric Terrain field entirely!
+幸い、相手の耐久はさほど高くないので、こちらのエースで攻め立てるのが突破口になります。**コロトック** や **グラエナ**、そして *げきりゅう* / *もうか* / *しんりょく* を活かせる第2進化のパートナーが特に輝きます。*エレメンタルシード* はこのフィールドで素早さを上げるので、エースに流れを渡すうえで鍵になります。ただし、*リボーンでは初期フィールドをそのまま維持しなければならないわけではありません*。ジグザグマがいるなら、*どろあそび* で *エレキフィールド* そのものを消し飛ばせます。
 
-Once you emerge victorious, you'll be given the *Volt Badge* as well as *TM57 Charge Beam*. TMs are infinite-use, so feel free to slap it on anything that can learn it. You also get to go up to Lv. 25 now! Great job completing Episode 1 of Pokemon Reborn!
+勝利すると *ボルトバッジ* と *わざマシン57 チャージビーム* がもらえます。わざマシンは無限に使えるので、覚えられるポケモンには気軽に使って構いません。これでレベル上限も25まで引き上げられました。ポケモンリボーン エピソード1、クリアおめでとうございます。

@@ -1,0 +1,112 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# _ja/shops.yml を生成する。
+#
+# ショップ名と技教え人の名前は !shop(...) / !tutor(...) の第1引数として著者が
+# 手で書いた文字列で、ゲームデータには存在しない。指示行そのものを訳すと上流との
+# マージが壊れるため、表示の直前に差し替える方式を取っている。
+#
+# 生成物は手で直してよい。再生成すると上書きされるので、恒久的な修正は
+# 下の PLACES / TOKENS に入れること。
+#
+#   bin/gen-shop-names [--game reborn]
+
+require 'json'
+require 'optparse'
+
+opts = { game: 'reborn' }
+OptionParser.new { |o| o.on('--game GAME') { |v| opts[:game] = v } }.parse!
+
+root = File.expand_path('..', __dir__)
+dir = File.join(root, 'src', '_raw', opts[:game])
+abort "生マークダウンが見つかりません: #{dir}" unless Dir.exist?(dir)
+
+# 場所の名前。パッチ側の訳 (デパート / 大ホール / 7番街 …) に揃えてある。
+PLACES = {
+  'Default Mart' => '標準ショップ', 'Department Store' => 'デパート',
+  'Critical Capture' => 'クリティカルキャプチャー', 'Devon Corporation' => 'デボンコーポ',
+  'Sweet Kiss' => 'あまいキッス', 'Obsidia Slums' => 'オブシディアスラム',
+  'Onyx Arcade' => 'オニキスゲームセンター', 'Nightclub BP Rewards' => 'ナイトクラブ BP交換',
+  "Marcello's Lemonade" => 'マルチェロのミックスオレ', 'Agate Circus' => 'アゲートサーカス',
+  'Seventh Street' => '7番街', 'Department Store Penthouse' => 'デパート最上階',
+  'Bouffalant Bill' => 'バッフロンビル', 'Mosswater Market' => 'モスウォーターマーケット',
+  'The Emporium' => 'エンポリアム', 'Sweet Scent Flowers' => 'あまいかおり花屋',
+  'Madame Meganium' => 'メガニウム夫人', 'Spinel Museum Gifts' => 'スピネル博物館 みやげ',
+  'Devon Dungeon' => 'デボンコーポ地下', 'Apophyll Academy' => 'アポフィルアカデミー',
+  'Beryl Ward' => 'ベリル区', 'Beryl & Jasper Staircases' => 'ベリル／ジャスパー階段',
+  'The Spyce' => 'ザ・スパイス', 'Opal Ward' => 'オパール区', 'Grand Hall' => '大ホール',
+  'Peridot Ward' => 'ペリドット区', 'Chrysolia Pokemart' => 'クリソリアショップ',
+  'OTS' => 'オニキストレーナー学校', 'Lapis Ward' => 'ラピス区', 'Rhodochrine' => 'ロドクライン',
+  "Nyu's Pikachu" => 'ニュウのピカチュウ', 'Move Tutor Lykos' => '技教え ライコス'
+}.freeze
+
+# 場所名に続く共通語。人名はパッチの会話データで確認済み。
+TOKENS = {
+  'Pledge Move Tutor' => 'ちかい技教え', 'Fake Samson Move Tutor' => '偽サムソン 技教え',
+  'Pokemon Seller Move Tutor' => 'ポケモン売り 技教え', 'Move Tutor' => '技教え',
+  'Friendship Berries' => 'なつき度きのみ', 'Cotton Candy' => 'わたあめ',
+  'General Goods' => '雑貨', 'Power Items' => 'パワー系アイテム', 'Ferris Wheel' => '観覧車',
+  'Ice Cream' => 'アイスクリーム', 'Misc. Wares' => '雑貨',
+  'Blast Powder Shop' => 'ばくはつのこな屋', 'Staircases' => '階段', 'Vending' => '自販機',
+  'Balloon' => '風船', 'Candy' => 'お菓子', 'Snax' => 'ポケスナック', 'Coins' => 'コイン',
+  'TMs' => 'わざマシン', 'Pokemon' => 'ポケモン', 'Tuners' => '調律師', 'Herbs' => '薬草',
+  'Gifts' => 'みやげ', 'Elder' => 'ちょうろう', 'Max' => 'マックス', 'Myles' => 'マイルズ',
+  'Tim' => 'ティム', 'Snooze' => 'スヌーズ'
+}.freeze
+
+SUFFIXES = {
+  '(Left)' => '（左）', '(Right)' => '（右）', '(Middle)' => '（中央）',
+  '(Top)' => '（上段）', '(Bottom)' => '（下段）', '(Nightclub)' => '（ナイトクラブ）',
+  '(Grass-type Starter Only)' => '（くさタイプのパートナー限定）'
+}.freeze
+
+def badge_label(body)
+  return "（バッジ#{body.chomp('+')}個以上）" if body.end_with?('+')
+
+  "（バッジ#{body.tr('-', '〜')}個）"
+end
+
+def translate(title)
+  s = title.gsub(/\((\d+(?:-\d+)?\+?)\s+Badges?\)/) { badge_label(Regexp.last_match(1)) }
+  s = s.gsub(/\bDepartment Store (\d+)F\b/) { "デパート#{Regexp.last_match(1)}階" }
+  SUFFIXES.each { |k, v| s = s.gsub(k, v) }
+  PLACES.keys.sort_by { |k| -k.length }.each { |k| s = s.gsub(k, PLACES[k]) }
+  TOKENS.keys.sort_by { |k| -k.length }.each { |k| s = s.gsub(/\b#{Regexp.escape(k)}\b/, TOKENS[k]) }
+  s.gsub(/\s+(?=（)/, '').gsub(/\s{2,}/, ' ').strip
+end
+
+# Ruby の文字列リテラルとして正しく読む。タイトルには \"Snooze\" のように
+# エスケープされた引用符が入るものがあり、素朴な正規表現では途中で切れる。
+titles = []
+Dir.children(dir).grep(/\.md\z/).sort.each do |file|
+  File.foreach(File.join(dir, file)) do |line|
+    m = line.match(/\A!(?:shop|tutor)\("((?:[^"\\]|\\.)*)"/)
+    titles << m[1].gsub('\\"', '"').gsub('\\\\', '\\') if m
+  end
+end
+titles = titles.uniq.sort
+
+header = <<~HEAD
+  # ショップ名・技教え人名の対訳。bin/gen-shop-names が生成する。
+  #
+  # これらは !shop(...) / !tutor(...) の第1引数として著者が手で書いた文字列で、
+  # ゲームデータには存在しない。指示行を書き換えると上流とのマージが壊れるため、
+  # 表示の直前に差し替える。場所名はパッチの訳に揃えてある。
+  #
+  # 恒久的に直したい訳は、このファイルではなく bin/gen-shop-names の
+  # PLACES / TOKENS に入れること。再生成すると上書きされる。
+
+HEAD
+
+body = titles.map { |t| "#{t.to_json}: #{translate(t).to_json}" }.join("\n")
+File.write(File.join(root, '_ja', 'shops.yml'), header + body + "\n")
+
+remaining = titles.reject { |t| translate(t) !~ /[A-Za-z]{3}/ }
+puts "#{titles.length} 件を書き出しました"
+if remaining.empty?
+  puts '英語が残った項目: なし'
+else
+  puts "英語が残った項目: #{remaining.length} 件"
+  remaining.each { |t| puts "  #{t}  ->  #{translate(t)}" }
+end

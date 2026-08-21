@@ -1,177 +1,177 @@
-# Postgame Episode 3: The Umbral Issue
+# ポストゲーム エピソード3: 影の一件 {#postgame-episode-3}
 
-Back in the Nightclub, there are new quests we can pursue. The level cap has also been raised to Lv. 115.
+ナイトクラブに戻ると、新しいクエストが受けられます。レベル上限も115へ上がっています。
 
-## Route 3 New World
+## 3番道路の新世界 {#route-3-new-world}
 
-Talk to Sandy and accept her quest to check out Route 3.
+サンディに話しかけ、3番道路を見てくるクエストを受けます。
 
-Fly over to Calcenon, then go down the stairs and right onto the route. Head east and into the first cave, where you'll find a New World Door.
+カルセノンへ飛び、階段を下って右へ進み、道路へ出ます。東へ進んで最初の洞窟に入ると、新世界の扉があります。
 
 !enc(835, nil, nil, "New World (Route 3)")
 
-Head up and talk to the Ringmaster. Once Virizion runs off, follow it left. You'll be attacked with gusts of wind, so it might be smart to turn off super speed. Once Virizion runs off again, the gusts will stop.
+上へ進んでサーカスだんちょうに話しかけます。ビリジオンが逃げ出したら、左へ追いかけます。突風に襲われるので、倍速は切っておくのが賢明でしょう。ビリジオンがまた逃げると、突風は止まります。
 
-Head down and right when you're ready.
+準備ができたら下そして右へ進みます。
 
 !partner(["Alistasia", :RINGMASTER, 0])
 
 !dbattle(["One for All", :MUSKETEER1, 0], ["for One", :MUSKETEER2, 0], "New World")
 
-Ringmaster Alistasia will be your ally, meaning you do have a numbers advantage in this one. If you can keep her Primarina alive and give it Trick Room support, it can fairly easily deal with Cobalion's trio. Focus on knocking these out first since alone the Silvally trio is not very threatening.
+サーカスだんちょうのアリスタシアが味方につくので、この戦いでは数の有利があります。彼女のアシレーヌを生かしたまま *トリックルーム* で支えれば、コバルオンの3匹組をかなり容易に処理できます。シルヴァディの3匹組は単独ではさほど脅威ではないので、まずはコバルオン側から倒すことに集中しましょう。
 
-With the battle done, two of the three will run off to allow you to catch them. **Virizion** can be caught to the left in the grassy area. On the right side of the area, you'll find **Cobalion**.
+戦いが終わると、3体のうち2体が逃げ出し、捕まえられるようになります。**ビリジオン** は左の草地で捕まえられます。エリアの右側では **コバルオン** が見つかります。
 
-Head outside of the New World. Make your way through the Route 3 Cave system towards the LCCC. In the Sapphire Cave you'll find **Terrakion** up some rocks.
+新世界の外へ出ます。3番道路の洞窟群を抜けて LCCC の方向へ進みます。サファイアの洞窟では、岩を登った先に **テラキオン** がいます。
 
-But wait, there's more! Return to the New World Door in the Ruby Cave and talk to the Ringmaster at the top of the area. Head in to the next area.
+しかし、まだ続きがあります! ルビーの洞窟の新世界の扉へ戻り、エリア上部のサーカスだんちょうに話しかけます。次のエリアへ入ってください。
 
 !enc(839, nil, nil, "New World (Route 3 Back)")
 
-Head up when you're ready for one heck of a battle.
+とんでもない一戦の準備ができたら、上へ進みます。
 
 !dbattle(["Keldeo", :KELDEO, 0], ["Swords of Justice", :MUSKETEER3, 0], "Ashen Beach")
 
-We once had an optional Victoria battle on Ashen Beach, then the Kiki fight. One of the Victory Road spirits battled on it too, but this is the fourth significant battle in the whole game here. May take a bit of time to get used to it again!
+かつて灰の浜辺では任意のヴィクトリア戦があり、続いてキキ戦がありました。チャンピオンロードの霊の1体もこのフィールドで戦いましたが、ゲーム全体を通してこれが4回目の主要な戦いです。感覚を取り戻すのに少し時間がかかるかもしれません!
 
-Anyways, this is the hardest fight in the Postgame so far. 12 Pokemon that are all threats, inherently or because of the field, against you and an ally that loves to make terrible decisions sometimes (COME ON PRIMARINA TARGET KELDEO IT'S THE OBVIOUS THREAT). You have to have some kind of plan for the opener: Weavile uses Beat Up on Cobalion, granting it +5 attack by the turn's end. Not good. On top of that, all the field boosted mud attacks, Surf, and Focus Blast will deal heavy damage. I recommend first stopping Weavile, getting up Trick Room and doing everything in your power to defeat the right side first, then hoping you end up in a position where Alistasia's Hawlucha is alive, since it can OHKO all three of the Swords of Justice and Mega Lucario. Psychic moves are generally good here - boosted Calm Mind and Psychic with speed support may be one way to sweep. 
+ともあれ、これはここまでのポストゲームで最も難しい戦いです。素の性能でもフィールドのおかげでも脅威となる12匹が相手で、こちらは自分と、ときどきひどい判断をしたがる味方1人（頼むからアシレーヌ、ケルディオを狙ってくれ、どう見てもあれが脅威だろう）です。先発への対策は必ず用意してください。マニューラはコバルオンに *ふくろだたき* を使い、そのターンの終わりには攻撃+5になっています。まずいです。加えて、フィールド強化された泥系の技、*なみのり*、*きあいだま* が大ダメージを与えてきます。まずマニューラを止め、*トリックルーム* を張り、全力で右側から倒しにいくことをおすすめします。そのうえで、アリスタシアのルチャブルが生き残っている状況に持ち込めれば理想的です。ルチャブルはせいけんし3体とメガルカリオをいずれも一撃で倒せます。エスパー技は概して有効で、強化された *めいそう* と *サイコキネシス* に素早さ補助を添えるのも、一掃の一案です。
 
-Afterwards, you'll be able to battle and catch **Keldeo**! Thankfully your team will be healed beforehand.
+そのあと **ケルディオ** と戦って捕まえられます! ありがたいことに、その前に手持ちは回復されます。
 
-If you refused to give Blake the Ruby Ring, you'll have another fight now.
+ブレイクに *ルビーのゆびわ* を渡さなかった場合、ここでもう1戦あります。
 
 !battle(["Samson", :UMBSAMSON, 0], "Ashen Beach")
 
-An interesting team for Samson, focusing this time on feminity in particular. Be careful of the numerous Focus Blasts, particularly on his Ultra Beast Pheromosa, which can easily set up on you. Lots of speed here so as usual I will suggest Trick Room.
+サムソンにしては面白い編成で、今回は特に女性らしさを軸にしています。*きあいだま* が多用される点、とりわけ簡単に積んでくるウルトラビーストのフェローチェには注意してください。素早いポケモンが多いので、例によって *トリックルーム* をおすすめします。
 
-**Relationship Point Choices**:
-- After refusing to give Blake the ring, defeat Umbral Samson (+1 Samson)
+**好感度の選択肢**:
+- ブレイクに指輪を渡さなかったうえで、かげのサムソンを倒す (+1 サムソン)
 
-Accept Alistasia's offer to return to the Nightclub.
+アリスタシアの申し出を受けてナイトクラブへ戻ります。
 
-## Route 4 New World
+## 4番道路の新世界 {#route-4-new-world}
 
-Talk to Aster and accept his quest to head over to Route 4 via Calcenon City. 
+アスターに話しかけ、カルセノンシティ経由で4番道路へ向かうクエストを受けます。
 
-### Purple Zone
+### 紫の区画 {#purple-zone}
 
-Climb the rocks, then at the fork go up. Go left from here to find a New World Door.
+岩を登り、分岐では上へ進みます。そこから左へ進むと新世界の扉があります。
 
 !enc(836, nil, nil, "New World (Route 4)")
 
-The lower floor looks like this:
+下の階はこのようになっています。
 
 !img("nw4_purple_lower.png")
 
-And the upper floor looks like this:
+上の階はこのようになっています。
 
 !img("nw4_purple_upper.png")
 
-Follow the path up, and down, taking ladders A, B, C, D. From above, you'll see light bridges shining from the level down below - keep track of where these are. Once you go down the fourth ladder (D), you'll need to hop across to the north, then follow the path. Use the first invisible bridge right, down, and left to continue.
+道を上へ、そして下へたどり、はしご A、B、C、D を進みます。上からは、下の階に光の橋が輝いているのが見えるので、その位置を覚えておいてください。4本目のはしご (D) を下りたら、北へ飛び移って道をたどります。最初の見えない橋を右、下、左と使って先へ進みます。
 
-You'll reach a fork here: go to the left, follow the ladders E, F, G up and down, then interact with the orb.
+ここで分岐に出ます。左へ進み、はしご E、F、G を上り下りして、オーブを調べます。
 
-Backtrack to the fork, this time, going across the narrow path on the bottom right. Traverse two ladders H, I. Here, hug the right wall and follow the green path right to reach:
+分岐まで引き返し、今度は右下の細い道を渡ります。はしご H、I を2本進みます。ここでは右の壁沿いに進み、緑の道を右へたどると次が見つかります。
 
-**ZCell 03: New World (Route 4)**
+**Zセル03: 新世界（4番道路）**
 
 !img("zcell_03.jpg")
 
-Continue following the path from here, hopping to the north and traversing ladders J, K. You'll reach what appears to be a dead end: there is an invisible bridge on the right side that will bring us back to a landmass with two ladders (B, C) we visited previously. Take the bottom ladder (B, then A) and follow the path to exit this section of the New World.
+そこから道をたどり続け、北へ飛び移ってはしご J、K を進みます。行き止まりに見える場所に着きますが、右側に見えない橋があり、以前訪れたはしご2本 (B、C) のある陸地へ戻れます。下のはしご (B、続いて A) を使い、道をたどってこの新世界の区画から出ます。
 
-### Gray Zone
+### 灰の区画 {#gray-zone}
 
-Back on Route 4, make your way past the first lake map, on route to the Glass Workstation, but go right on the next map instead, down the rocks. You'll see another New World Door, so head in.
+4番道路に戻り、最初の湖のマップを過ぎてガラス工房へ向かう道中、次のマップでは右へ進んで岩を下ります。別の新世界の扉が見えるので入ってください。
 
 !img("nw4_grey.png")
 
-Follow the path, then climb the ladder L. It will take you up to see some light bridges below - note these, then head back down and follow the light bridge to the left. Continue following the light bridges in the bottom right side of the area. Climb the next ladder (M) to note some more light bridges near the entrance that we didn't see before.
+道をたどり、はしご L を登ります。上から下の光の橋が見えるので位置を覚え、下りて左の光の橋をたどります。エリア右下側の光の橋をたどり続けます。次のはしご (M) を登ると、入口付近のまだ見ていなかった光の橋がさらに分かります。
 
-Head all the way back to nearby the New World Door, and go left across the invisible bridge. Going up the next ladder (N) will give you more information about light bridges: follow the path across invisible bridge after invisible bridge from here, hopping across to other landmasses when necessary. Eventually you'll reach a ladder (O), where you can find another orb! You can now hop up from here and go left to reach a warp that will take you back to the New World Door.
+新世界の扉の近くまでずっと戻り、見えない橋を渡って左へ進みます。次のはしご (N) を登ると、光の橋の情報がさらに得られます。そこからは見えない橋を次々と渡り、必要に応じて他の陸地へ飛び移りながら道をたどります。やがてはしご (O) に着き、そこで別のオーブが見つかります! そこから上へ飛び移って左へ進むと、新世界の扉へ戻れるワープがあります。
 
-### Blue Zone
+### 青の区画 {#blue-zone}
 
-Back on Route 4, make your way to the map containing the Glass Workstation. Surf on the lake, and take the waterfall at the bottom of the map. Enter the New World Door on this next map.
+4番道路に戻り、ガラス工房のあるマップへ向かいます。湖をなみのりで渡り、マップ下部の滝を下ります。次のマップで新世界の扉に入ってください。
 
 !img("nw4_blue.png")
 
-This map is the simplest of the three: use the two ladders (P, Q) to discover light bridges below that you can use to reach the top right ladder (R). Talk to the third orb!
+このマップは3つの中で最も単純です。はしご2本 (P、Q) で下の光の橋を把握し、それを使って右上のはしご (R) にたどり着きます。3つ目のオーブを調べましょう!
 
-Head up, and cross the bridge to the right. You'll now notice hop platforms going up from here, so follow this path up when you're ready.
+上へ進み、右の橋を渡ります。そこから上へ続く飛び石が見えるので、準備ができたらこの道を上へたどります。
 
 !battle(["Anomaly", :GENIES, 0], "New World")
 
-Trick Room + Ice Move = Profit.
+*トリックルーム* ＋ こおり技 ＝ 勝利。
 
-Once you defeat this team, the three will split up. Hopping across the rocks in all three directions, you can catch **Tornadus**, **Thundurus**, and **Landorus**.
+この編成を倒すと、3体は散り散りになります。3方向すべてで岩を飛び移っていくと、**トルネロス**、**ボルトロス**、**ランドロス** を捕まえられます。
 
-Once you're done and try to head out of this area, if you gave Blake the Ruby Ring, you'll have a battle here.
+済んでこのエリアを出ようとしたとき、ブレイクに *ルビーのゆびわ* を渡していた場合は、ここでバトルになります。
 
 !battle(["Ciel", :UMBCIEL, 0], "New World")
 
-Ciel uses a team full of Flying types on New World Field, meaning they'll all have a speed advantage over grounded Pokemon but have weakened defenses. Celesteela will probably give you flashbacks to the Lin fight - it's as cruel as ever, this time with a Magical Seed to really amplify the Beast Boost shenanigans. With a Special Landorus Set, mega Pinsir with Priority, boosted Darkinium-Z Zapdos, and more... this is a tough team. I recommend abusing Power Gem / Rockinium-Z boosts, Magical Seeds of your own, and Trick Room for this one.
+シエルは新世界フィールドでひこうタイプ尽くしの編成を使うので、全員が地に足のついたポケモンに対して素早さで有利になる一方、防御は下がります。テッカグヤはリン戦を思い出させるでしょう。相変わらず容赦がなく、今回は *マジカルシード* まで持っているので *ビーストブースト* の暴れっぷりが一段と増しています。特殊型のランドロス、先制技持ちのメガカイロス、*アクZ* で強化されたサンダーなど……厳しい編成です。ここでは *パワージェム*／*イワZ* の強化、こちらの *マジカルシード*、そして *トリックルーム* を活用することをおすすめします。
 
-**Relationship Point Choices**:
-- After giving Blake the ring, defeat Umbral Ciel (+1 Ciel)
+**好感度の選択肢**:
+- ブレイクに指輪を渡したうえで、かげのシエルを倒す (+1 シエル)
 
-Head down from here, use the warp, and return to the Nightclub.
+そこから下へ進み、ワープを使ってナイトクラブへ戻ります。
 
-## Chrysolia Deepwoods
+## クリソリア深林 {#chrysolia-deepwoods}
 
-Talk to Nyu in the Nightclub and accept his quest.
+ナイトクラブでニュウに話しかけ、クエストを受けます。
 
-Fly over to Spinel Town, then make your way to the train in the south side of the Chrysolia Forest. Enter the New World Door to the right.
+スピネルタウンへ飛び、クリソリアの森の南側にある列車へ向かいます。右の新世界の扉に入ります。
 
 !enc(838, nil, nil, "New World (Chrysolia Forest)")
 
-The rest of the Ultra Beasts are wild-only in this game, so keep an eye out. Magnetic Lure makes getting one easier.
+このゲームでは残りのウルトラビーストは野生でしか出ないので、注意して探してください。*じしゃくルアー* があると見つけやすくなります。
 
-Follow the path and exit through the New World Door on the other side.
+道をたどり、反対側の新世界の扉から出ます。
 
 !enc(840)
 
-On this map, you can find a hidden *Purple Shard*, *Great Ball*, *Max Repel*, *Zinc*, *Quick Ball*, *Exp. Candy XL*, *Red-Hots*, *Dusk Ball*, *Super Repel*, *Oran Berry*, *Iron*, *Red Shard*, and *Ultra Ball*. 
+このマップでは、隠された *むらさきのかけら*、*スーパーボール*、*ゴールドスプレー*、*キトサン*、*クイックボール*、*けいけんアメXL*、*シナモンキャンディ*、*ダークボール*、*シルバースプレー*、*オレンのみ*、*ブロムヘキシン*、*あかいかけら*、*ハイパーボール* が見つかります。
 
-There are also some trainers on this map:
+このマップにはトレーナーもいます。
 
 !battle(["Trevor", :AceTrainerM, 0], "Forest Field")
 
 !battle(["Tac", :PkMnRANGER_Male, 0], "Forest Field")
 
-Once you've finished exploring the woods, head to the large structure in the center.
+森の探索が済んだら、中央の大きな構造物へ向かいます。
 
-Follow the arrows to the statue to the right and press the button. Talk to Smeargle. He was kind enough to write instructions for us in this next area! How nice. Essentially, you'll need follow the numbered instructions one by one in this area. Note that once you complete the first 6 steps you can go to the far top right corner and grab the *Reveal Glass*.
+矢印をたどって右の像へ行き、ボタンを押します。ドーブルに話しかけてください。彼は親切にも、次のエリアの手順を書いておいてくれました! ありがたい。要するに、このエリアでは番号の付いた指示に1つずつ従っていくことになります。なお、最初の6手順を終えると、右上の奥まで行って *うつしかがみ* を回収できます。
 
-Once you succeed at solving Smeargle's helpful instructions, enter the New World Door at the top. Hug the right wall as you proceed.
+ドーブルの親切な指示を解き終えたら、上部の新世界の扉に入ります。進むときは右の壁沿いを進んでください。
 
-**ZCell 04: New World (Chrysolia Forest)**
+**Zセル04: 新世界（クリソリアの森）**
 
 !img("zcell_04.jpg")
 
-Head up when you're ready.
+準備ができたら上へ進みます。
 
 !battle(["Regigigas", :REGIGIGAS, 0], "New World")
 
-This one isn't too bad really, again it's a Trick Room Team that relies entirely upon it's lead, meaning if you can prevent Trick Room, cancel it out, or stall it out, you'll be just fine. Everything is weak to Fighting type moves, too!
+これは実のところそこまで厳しくありません。またも *トリックルーム* 頼みの編成で、しかも完全に先発任せなので、*トリックルーム* を防ぐか、打ち消すか、ターンを稼いで切らせば問題ありません。しかも全員がかくとう技に弱いです!
 
-Afterwards, you'll be challenged to a battle, where you can catch **Regigigas**. Head out once you're done...
+そのあと勝負を挑まれ、**レジギガス** を捕まえられます。済んだら出ましょう……
 
-## Umbral Battle at Vanhanen Castle
+## バンハネン城での影のバトル {#umbral-battle-at-vanhanen-castle}
 
-Your level cap is now Lv. 120, by the way.
+ちなみに、レベル上限は120になりました。
 
-Back in the Nightclub, talk to Seacrest, and accept the quest. Head over to Vanhanen Castle when you're ready... Oh boy.
+ナイトクラブに戻り、シークレストに話しかけてクエストを受けます。準備ができたらバンハネン城へ向かってください……覚悟はいいですか。
 
 !dbattle(["Radomus", :UMBRADOMUS, 0], ["Gardevoir", :ANOMGARDEVOIR, 0], "Chess Board")
 
-12V6 NOOOOOOOOOOOOOOOOOOOOOOOO
+12対6、やめてくれええええええええええええ
 
-So yeah this one is really hard. Two megas! Two entire teams that are specifically designed with basically the best candidates for every chess piece, including the best non-legendary Pokemon in the game in Aegislash! It's just... brutal. Even if you go for Stomping Tantrum or Tectonic Rage to destroy the board... you're still stuck fighting all of these guys. Trying Trick Room? Aegislash, Aggron, and Escavalier are slow, while Kartana and Lopunny are super fast.
+ええ、これは本当に難しいです。メガシンカが2体! しかもチェスの各駒に、事実上の最適候補をそろえた編成が丸ごと2つで、伝説以外では最強格のギルガルドまでいます! もう……ただただ容赦がありません。*じだんだ* や *ランドオーバー* で盤面を破壊しにいっても、結局この面々全員と戦うことに変わりはありません。*トリックルーム* を試す? ギルガルド、ボスゴドラ、シュバルゴは遅い一方、カミツルギとミミロップは非常に速いです。
 
-Anyways, I think there are two strategies to consider. The first, while not that simple as mentioned earlier, is simply to smash the field and just overwhelm your opponents with a very well prepared doubles team. Setting up a sweeper or two with speed and good coverage can be difficult to pull off, but can make it work. A lot of the team relies on Physical moves this time, so if you can deal with Kartana's Brick Break, Reflect can be helpful here.
+ともあれ、検討に値する戦略は2つあると思います。1つ目は、先ほど触れたとおり単純ではありませんが、フィールドを壊し、入念に準備したダブル編成で相手を圧倒することです。素早さと広い技範囲を持つエースを1〜2匹積むのは難しいものの、決まれば通ります。今回は相手の多くが物理技に依存しているので、カミツルギの *かわらわり* に対処できるなら *リフレクター* が有効です。
 
-Alternatively, you can try to use the Chess Board to your own benefit. Having two pawns means you get free Focus Sashes to try to develop some momentum, though Cloyster's multi-hit moves do make this difficult. Setting up a good hard-hitting King via the King's Rock can be crucial, especially if they are on the slower side.
+もう1つは、チェスボードをこちらの利益のために使う手です。ポーンが2つあれば無償の *きあいのタスキ* が手に入り、勢いをつける足がかりになります（もっともパルシェンの連続技のせいで簡単ではありません）。*おうじゃのしるし* で高火力のキングを仕立てるのも、特にそのポケモンが遅めなら重要になり得ます。
 
-Either approach may yield you results but don't be afraid to try, try again, try again more times, cry, and try again. Eventually you'll probably succeed.
+どちらの方針でも成果は出ますが、何度でも挑み、また挑み、さらに何度も挑み、泣いて、また挑むことを恐れないでください。いずれきっと勝てます。
 
-Accept the warp once you win back to the Nightclub. That's it for this section.
+勝ったらワープを受けてナイトクラブへ戻ります。この節は以上です。

@@ -2,6 +2,7 @@ require 'json'
 require 'yaml'
 require 'nokogiri'
 require 'date'
+require_relative 'ja_names'
 
 UTILS_DIR = File.dirname(File.expand_path(__FILE__))
 ROOT_DIR = File.dirname(UTILS_DIR)
@@ -11,7 +12,8 @@ VERSIONS = { 'reborn' => "19.5.18" , 'rejuv' => "14.0.15", 'deso' => "6.0.13" }
 
 LONGNAMES = { 'reborn' => 'reborn', 'rejuv' => 'rejuvenation', 'deso' => 'desolation'}
 
-FIELDS = {
+# 英語名は !battle の第2引数がこの綴りで書かれているため、訳す前の値も残す。
+FIELDS_EN = {
   RANDOM: 'Random Field',
   ELECTERRAIN: 'Electric Terrain',
   GRASSY: 'Grassy Terrain',
@@ -71,12 +73,14 @@ FIELDS = {
   DEEPEARTH: 'Deep Earth Field',
   BACKALLEY: 'Back Alley Field',
   CITY: 'City Field',
-}
+}.freeze
+FIELDS = JaNames.localize_fields(FIELDS_EN).freeze
 
 TYPE_IMGS = { LandMorning: 'morning', LandDay: 'day', LandNight: 'night', OldRod: 'oldrod',
               GoodRod: 'goodrod', SuperRod: 'superrod' }
 
-EV_ARRAY = %w[HP Atk Def SpA SpD Spe]
+# 表示専用。他の用途に使われていないのでここで訳して構わない。
+EV_ARRAY = %w[HP Atk Def SpA SpD Spe].map { |s| JaNames.ui(s) }
 
 ENCOUNTER_MAPS = {
   RATTATA: { 1 => 'Rattata' },
@@ -434,6 +438,20 @@ module PBStats
   ACCURACY = "Acc"
 end
 
+# 表示するバージョンは、渡された Scripts から実際に読む。VERSIONS 定数は
+# 上流が手で更新しているものなので、手元のゲームと食い違いうる (19.5.18 と
+# 表示しながら中身は 19.5.43 という状態になっていた)。読めなければ定数に戻す。
+def detect_game_version(game, scripts_dir)
+  bootstrap = File.join(scripts_dir, game.capitalize, 'Bootstrap.rb')
+  if File.exist?(bootstrap)
+    m = File.read(bootstrap, encoding: 'utf-8').match(/GAMEVERSION\s*=\s*['"]([^'"]+)['"]/)
+    return m[1] if m
+  end
+  VERSIONS[game]
+rescue StandardError
+  VERSIONS[game]
+end
+
 def get_game_contents_dir(game)
   File.join(ROOT_DIR, 'src', '_raw', game)
 end
@@ -478,7 +496,7 @@ end
 
 def load_item_hash(game, scripts_dir)
   data = File.read(file_path(game, scripts_dir, 'itemtext.rb'))
-  eval(data)
+  JaNames.localize_flat!(eval(data), 'items', 'item_descs')
 end
 
 def load_enc_hash(game, scripts_dir)
@@ -539,27 +557,27 @@ end
 
 def load_trainer_type_hash(game, scripts_dir)
   data = File.read(file_path(game, scripts_dir, 'ttypetext.rb'))
-  eval(data)
+  JaNames.localize_flat!(eval(data), 'trainer_types', nil, :title)
 end
 
 def load_type_hash(game, scripts_dir)
   data = File.read(file_path(game, scripts_dir, 'typetext.rb'))
-  eval(data)
+  JaNames.localize_flat!(eval(data), 'types')
 end
 
 def load_ability_hash(game, scripts_dir)
   data = File.read(file_path(game, scripts_dir, 'abiltext.rb'))
-  eval(data)
+  JaNames.localize_flat!(eval(data), 'abilities', 'ability_descs')
 end
 
 def load_move_hash(game, scripts_dir)
   data = File.read(file_path(game, scripts_dir, 'movetext.rb'))
-  eval(data)
+  JaNames.localize_flat!(eval(data), 'moves', 'move_descs')
 end
 
 def load_pokemon_hash(game, scripts_dir)
   data = File.read(file_path(game, scripts_dir, 'montext.rb'))
-  eval(data)
+  JaNames.localize_nested!(eval(data), 'species')
 end
 
 def load_field_hash(game, scripts_dir)
@@ -621,7 +639,7 @@ def load_maps_hash(game, scripts_dir)
       ret[key] = name
     end
   end
-  ret
+  JaNames.localize_maps!(ret)
 end
 
 
@@ -668,18 +686,20 @@ def hp_str(move, hptype)
 end
 
 def get_iv_str(ivs)
-  return 'IVs: All 10' if !ivs
-  return ivs == 32 ? 'IVs: All 31 (0 Spe)' : "IVs: All #{ivs}" if ivs.class == Integer
-  return "IVs: All #{ivs[0]}" if (ivs && ivs.uniq.length == 1)
-  return 'IVs: ' + ivs.zip(EV_ARRAY).reject do |iv, _|
+  iv_label = "#{JaNames.ui('IVs:')} #{JaNames.ui('All')}"
+  return "#{iv_label} 10" if !ivs
+  return ivs == 32 ? "#{iv_label} 31 (0 #{JaNames.ui('Spe')})" : "#{iv_label} #{ivs}" if ivs.class == Integer
+  return "#{iv_label} #{ivs[0]}" if (ivs && ivs.uniq.length == 1)
+  return JaNames.ui('IVs:') + ' ' + ivs.zip(EV_ARRAY).reject do |iv, _|
     iv.zero?
   end.map { |iv, position| "#{iv} #{position}" }.join(', ')
 end
 
 def get_ev_str(evs, level=0)
-  return "EVs: All #{[85, level * 3 / 2].min}" if !evs
-  return "EVs: All #{evs[0]}" if (evs && evs.uniq.length == 1)
-  return 'EVs: ' + evs.zip(EV_ARRAY).reject do |ev, _|
+  ev_label = "#{JaNames.ui('EVs:')} #{JaNames.ui('All')}"
+  return "#{ev_label} #{[85, level * 3 / 2].min}" if !evs
+  return "#{ev_label} #{evs[0]}" if (evs && evs.uniq.length == 1)
+  return JaNames.ui('EVs:') + ' ' + evs.zip(EV_ARRAY).reject do |ev, _|
                 ev.zero?
               end.map { |ev, position| "#{ev} #{position}" }.join(', ')
 end

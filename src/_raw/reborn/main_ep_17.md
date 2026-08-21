@@ -1,765 +1,765 @@
-# Episode 17: Rust Thicker Than Water
+# エピソード17: 錆は水よりも濃し {#episode-17}
 
-Before we leave the gym, head to the top of the room. You'll find a hidden *Heart Scale* up here. Heal up if you need to - if you've progressed the quest up to this point, you can also talk to the left side of the flowery 'X' to find Corin Rouge! Battle him.
+ジムを出る前に、部屋の最上部へ向かってください。ここには隠された *ハートのウロコ* があります。必要なら回復しましょう。ここまでクエストを進めていれば、花で描かれた「X」の左側に話しかけるとコリン・ルージュが見つかります。彼とバトルです。
 
 !battle(["Carmen", :Casanova, 1], "Fairy Tale Field")
 
-Return to the north side of Peridot Ward and talk to the Corin Rouge lookalike here. He will jump on a train to escape! Darn.
+ペリドット区の北側へ戻り、ここにいるコリン・ルージュそっくりの男に話しかけます。すると列車に飛び乗って逃げてしまいます。残念。
 
-Head into Jasper Ward now to talk to the Police Chief, who will give you *Safety Goggles*. This massive quest quest will be over soon, I swear.
+続いてジャスパー区へ入り、警察署長に話しかけると *ぼうじんゴーグル* がもらえます。この長大なクエストももうすぐ終わります。本当です。
 
-Head down to the Lower Peridot Ward. On a clear day, if we previously did the Onix quest and got the Hiker moved into a new house, we'll find him southeast of the Pokemon Center, and he'll give us a *Choice Band* if we joined the Aqua Gang, and a *Choice Specs* if we joined the Magma Gang. Sweet!
+下ペリドット区へ下ります。晴れた日に、以前イワークのクエストを済ませて山男を新しい家へ引っ越させていれば、ポケモンセンターの南東で彼が見つかり、アクア団に入っていれば *こだわりハチマキ*、マグマ団に入っていれば *こだわりメガネ* をくれます。ありがたい。
 
-Now that we've defeated Adrienn there is one more move tutor in Peridot Ward's Mosswater Market:
+アドリエンヌを倒したことで、ペリドット区のモスウォーターマーケットに技教え人がもう1人増えています。
 
 !tutor("Mosswater Market Move Tutor: \"Snooze\"", [["Gunk Shot", "6 Blue Shards"], ["Dragon Pulse", "6 Green Shards"], ["Seed Bomb", "6 Purple Shards"], ["Foul Play", "7 Red Shards"]])
 
-## Reborn Restoration Project 1
+## リボーン復興プロジェクト その1 {#reborn-restoration-project-1}
 
-Head over to the Grand Hall. One of the guys behind the desk will be accepting donations for one of three projects.
+大ホールへ向かいます。受付の奥にいる男の1人が、3つの計画のいずれかへの寄付を受け付けています。
 
-We can only choose to fund one right now, then each of the other two as soon as we get the fifteenth and sixteenth gym badges respectively. You won't be missing out on anything in the long term depending on your choice here. If you want to make a more informed choice, read the following three subsections to see what the rewards are for each.
+今すぐ出資できるのは1つだけで、残る2つはそれぞれ15個目と16個目のジムバッジを手に入れた時点で出資できます。長い目で見れば、ここでの選択によって取り逃すものはありません。判断材料が欲しければ、次の3つの小節を読んで、それぞれの報酬を確かめてください。
 
-As soon as you fully fund a project, you will be able to access the Grand Hall basement, so head down there. The bottom room on the right contains an *Adamant Mint*, a *Modest Mint*, and 3 *Exp. Candy XL*. Next door you'll find 2 *EV Boosters*.
+いずれかの計画に必要額を出し切ると、大ホールの地下に入れるようになるので、下りてみましょう。右手の一番下の部屋には *いじっぱりミント*、*ひかえめミント*、*けいけんアメXL* 3個があります。隣の部屋では *どりょくちブースター* 2個が手に入ります。
 
-**Relationship Point Choices**:
-- Talk to Victoria in the Grand Hall basement (+1 Victoria)
+**好感度の選択肢**:
+- 大ホールの地下でヴィクトリアに話しかける (+1 ヴィクトリア)
 
-If you enter the room at the very top and talk to the computer, you can get a *Lopunnite* and unleash Vulpix. Do it even if you don't like Mega Lopunny, trust me. There is one more quest we can start in the basement but I will cover it a bit later.
+一番上の部屋に入ってコンピュータに話しかけると、*ミミロップナイト* が手に入り、ロコンが解放されます。メガミミロップが好みでなくても、とにかくやっておいてください。地下ではもう1つクエストを始められますが、それは後ほど扱います。
 
-**Relationship Point Choices**:
-- Fund Project #1 (+1 Adrienn)
+**好感度の選択肢**:
+- 計画その1に出資する (+1 アドリエンヌ)
 
-Anyways, the three options:
+さて、3つの選択肢です。
 
-- [Affordable Living in Obsidia](#affordable-living-in-obsidia-project) ($60000)
-- [Railnet Reconstruction](#railnet-reconstruction-project) ($100000)
-- [Azurine Nature Center](#azurine-nature-center-project) ($80000)
+- [オブシディアの手頃な住まい](#affordable-living-in-obsidia-project) ($60000)
+- [鉄道網再建](#railnet-reconstruction-project) ($100000)
+- [アズリンネイチャーセンター](#azurine-nature-center-project) ($80000)
 
-### Affordable Living in Obsidia Project
+### オブシディアの手頃な住まい計画 {#affordable-living-in-obsidia-project}
 
-Donate the $60000 to fund this project. Head down to the South Obsidia Ward once you complete it, you'll notice that the whole area has been revamped and the Slums are no more.
+$60000 を寄付してこの計画に出資します。完了したら南オブシディア区へ下りてみてください。一帯がすっかり改装され、スラムが無くなっているのが分かります。
 
 !enc(585, ["Grass"])
 
-You'll be able to find Berries growing at the bottom, namely 2 *Lansat Berries*, 2 *Apicot Berries*, 2 *Petaya Berries*, 2 *Salac Berries*, 2 *Ganlon Berries*, and 2 *Liechi Berries*.
+下部ではきのみが育っており、*サンのみ* 2個、*ズアのみ* 2個、*ヤタピのみ* 2個、*カムラのみ* 2個、*リュガのみ* 2個、*チイラのみ* 2個が手に入ります。
 
-Enter the building and talk to a guy behind the counter to get a *GUM Key*. You can also grab a *SOLICE Application* here, which we will need if we're doing the Magma Gang application quest.
+建物に入り、カウンターの奥の男に話しかけると *GUMのカギ* がもらえます。ここでは *SOLICEのもうしこみしょ* も回収できます。マグマ団の申込書クエストをやるなら必要になります。
 
-Outside, talk to the girl up and to the right of the SOLICE office and agree to help with her quest.
+外に出て、SOLICE事務所の右上にいる少女に話しかけ、クエストの手伝いを引き受けます。
 
-Fly over to Jasper and enter the Malchous Forest Park. Talk to Sandy when you're ready.
+ジャスパーへ飛び、マルコウス森林公園に入ります。準備ができたらサンディに話しかけてください。
 
 !partner(["Sandy", :SANDY, 0])
 
 !dbattle(["Raph", :HARDHAT, 0], ["Manwe", :HARDHAT, 0], "Forest Field")
 
-Thanks to Lv. 100 Farfetch'd, lots of Forest Field boosted Cuts, and Sandy's team being weak to a lot of their moves and Rain making it harder to burn the forest down, this team might come as more of a challenge than you might expect, but some good physically defensive Pokemon will be helpful here.
+レベル100のカモネギ、森林フィールドで強化された *いあいぎり* の連発、サンディの手持ちが相手の技に軒並み弱いこと、さらに雨で森を焼き払いにくいことが重なり、この編成は思いのほか手強い相手になり得ます。物理耐久の高いポケモンがいると助かります。
 
-Once you succeed, your next destination will be the Water Treatment Center.
+突破すると、次の目的地は浄水センターになります。
 
 !battle(["Stoplettes", :GULPIN, 0], "Factory Field")
 
-These things are tough but a powerful Ground type sweeper can probably do the trick. Once you win, Sandy will leave.
+こいつらは硬いのですが、強力なじめんタイプのエースがいればおそらく片付きます。勝つとサンディは去っていきます。
 
-While we're down here, we can use the GUM Key that we got earlier. In the upper-right hand side of the Central Obsidia Water Grid you'll notice a locked door which we can now open. There is a puzzle beyond. There are a few hidden items in this room: *Dusk Ball*, *5 Exp. Candy XL*, and *Ether*.
+ここまで来たついでに、先ほど手に入れた *GUMのカギ* を使えます。中央オブシディア水路網の右上に施錠された扉があり、これを開けられるようになっています。その先はパズルです。この部屋には隠しアイテムがいくつかあり、*ダークボール*、*けいけんアメXL* 5個、*ピーピーエイド* が手に入ります。
 
-Essentially, we will need to move green sections of pipe into place so that they will complete the entire pipe circuit such that we end up in the upper right hand corner. This is a fun one to solve yourself, in my opinion, but here is a solution:
+要は、緑色のパイプ区画を所定の位置へ動かして配管の回路をつなぎ、右上の隅にたどり着けるようにします。個人的には自力で解くのが楽しいパズルだと思いますが、解法を挙げておきます。
 
 !img("gum_room.png")
 
-- In the bottom left corner, move the vertical pipe (1) to the right one tile, into place.
-- Head down from here and move the horizontal pipe (2) up two tiles, into place.
-- Head all the way to the right side, as far right as you can go without moving more pipes. Up from here, push a horizontal pipe (3) up two, out of its place for now. Grab *TM84 Poison Jab* here.
-- From here go straight down. Push the rightmost horizontal pipe (4) down two spaces, again out of its final place for now.
-- Down from here, the left of the two vertical pipes (5) can be pushed left two spaces, into place.
-- The pipe to the right, the other vertical pipe (6), can be pushed two spaces left as well, into place.
-- Up and slightly left from here you'll see a column of horizontal pipes. You can safely push the bottom-most one (7) down four spaces, into place.
-- Go up and push the second-from-the-bottom horizontal pipe (8) down four tiles, into place.
-- From here, up and left a few tiles is a vertical pipe (9). Pushing it four tiles would put it in place - push it six to the left for now to keep the corridor open.
-- For each of the next three horizontal pipes in the column (10, 11, and 12), push them down two tiles each, into their respective places.
-- Next, make your way to the top-left side of the room. You'll notice two vertical pipes (18, 17) in a row at the top of the room, and below the right of the pair is another vertical pipe (13). Push this one (13) left six times, into place.
-- Down from here is a horizontal pipe (14) you can push three tiles down, into place.
-- The vertical pipe currently against the left wall (13) is the first in a long row of vertical pipes. You can now safely push the second vertical pipe in this row (15) left 8 times, into place.
-- Down and right from here you'll find a horizontal pipe (16) that can be pushed down four times, into place.
-- Go straight up, and push the two vertical pipes along the top wall (17, 18) right four tiles respectively, into place for both.
-- You can now safely push the third in the long row of vertical pipes (19) left six spaces, into place.
-- Go right and down. You'll see a horizontal pipe (20) that you can push down four spaces into place.
-- Down from here you can push another horizontal pipe (21) up two spaces, into place.
-- Go up from here to return to the right side of the area. Up from the long column you'll find a U shaped alcove. Push the top-left vertical pipe (22) two tiles right, out of place for now.
-- You'll now be able to push the fourth vertical pipe (23) in the long row left four tiles, into place.
-- Head down to the bottom right corner. Push the bottom right pipe (4, previously moved two tiles down) up two tiles, into place.
-- To escape from here, go up and left. Push the vertical pipe here (9, previously moved two extra tiles left) right now two spaces, into place.
-- Go up and back into the U-shaped alcove. Push the third and second vertical pipes from the right in the long row (24, 25) left four times respectively, into place.
-- Push the final two horizontal pipes remaining nearby (26, 27) down twice, into place.
-- Push the vertical pipe in the top left corner (22, previously moved right twice) left twice, into place.
-- To escape the alcove, push the vertical pipe on the right side (28) right twice.
-- Only two pipes (3, 28) remain out of place: push them down twice and left twice respectively to finish the puzzle!
+- 左下の隅で、縦向きのパイプ (1) を右に1マス動かし、所定の位置へ収めます。
+- そこから下へ進み、横向きのパイプ (2) を上に2マス動かし、所定の位置へ収めます。
+- ずっと右側へ、パイプを動かさずに行ける限り右まで進みます。そこから上へ行き、横向きのパイプ (3) を上に2マス押して、いったん定位置から外します。ここで *わざマシン84 どくづき* が手に入ります。
+- そこからまっすぐ下へ進みます。一番右の横向きパイプ (4) を下に2マス押し、これもいったん最終位置から外します。
+- そこから下では、2本ある縦向きパイプのうち左のもの (5) を左に2マス押し、所定の位置へ収められます。
+- その右隣、もう1本の縦向きパイプ (6) も同じく左に2マス押して、所定の位置へ収められます。
+- そこから上、やや左に、横向きパイプが縦に並んでいるのが見えます。一番下のもの (7) は安全に下へ4マス押して、所定の位置へ収められます。
+- 上へ進み、下から2番目の横向きパイプ (8) を下に4マス押します。
+- そこから上へ、左へ数マス進むと縦向きパイプ (9) があります。4マス押せば所定の位置ですが、通路を空けておくため、いまは左に6マス押しておきます。
+- この列にある次の3本の横向きパイプ (10、11、12) は、それぞれ下に2マス押して、それぞれの所定の位置へ収めます。
+- 次に、部屋の左上側へ向かいます。部屋の上部に縦向きパイプが2本並んでいるのが見え (18、17)、その右側の下にもう1本の縦向きパイプ (13) があります。これ (13) を左に6回押して、所定の位置へ収めます。
+- そこから下には横向きパイプ (14) があり、下に3マス押して所定の位置へ収められます。
+- いま左の壁際にある縦向きパイプ (13) は、長い縦向きパイプの列の1本目です。この列の2本目の縦向きパイプ (15) を、安全に左へ8回押して所定の位置へ収められます。
+- そこから下そして右には横向きパイプ (16) があり、下に4回押して所定の位置へ収められます。
+- まっすぐ上へ進み、上の壁沿いの縦向きパイプ2本 (17、18) をそれぞれ右に4マス押して、どちらも所定の位置へ収めます。
+- これで、長い列の3本目の縦向きパイプ (19) を安全に左へ6マス押して、所定の位置へ収められます。
+- 右そして下へ進みます。横向きパイプ (20) が見えるので、下に4マス押して所定の位置へ収めます。
+- そこから下では、もう1本の横向きパイプ (21) を上に2マス押して、所定の位置へ収められます。
+- そこから上へ進んでエリアの右側へ戻ります。長い縦列の上にU字型のくぼみがあります。左上の縦向きパイプ (22) を右に2マス押して、いったん定位置から外します。
+- これで、長い列の4本目の縦向きパイプ (23) を左に4マス押して、所定の位置へ収められます。
+- 右下の隅へ下ります。右下のパイプ (4、先ほど下に2マス動かしたもの) を上に2マス押して、所定の位置へ収めます。
+- ここから抜けるには、上そして左へ進みます。ここの縦向きパイプ (9、先ほど余分に2マス左へ動かしたもの) を右に2マス押して、所定の位置へ収めます。
+- 上へ進んでU字型のくぼみへ戻ります。長い列の右から3本目と2本目の縦向きパイプ (24、25) を、それぞれ左に4回押して所定の位置へ収めます。
+- 近くに残っている最後の横向きパイプ2本 (26、27) を、それぞれ下に2回押して所定の位置へ収めます。
+- 左上の隅の縦向きパイプ (22、先ほど右に2回動かしたもの) を左に2回押して、所定の位置へ収めます。
+- くぼみから抜けるには、右側の縦向きパイプ (28) を右に2回押します。
+- 定位置から外れているのは2本 (3、28) だけです。それぞれ下に2回、左に2回押せばパズルは完成です。
 
-Talk to the computer in this area to get a **Goomy**!
+このエリアのコンピュータに話しかけると **ヌメラ** が手に入ります。
 
-If you push the nearby vertical pipe left two times to re-enter the U-shaped alcove, you can talk to the pipe on the wall to return to the front of the room.
+近くの縦向きパイプを左に2回押してU字型のくぼみに入り直せば、壁のパイプに話しかけて部屋の入口へ戻れます。
 
-With that out of the way, return to the Grand Hall basement. In the bottom right room, you'll find Sandy again. Talk to her in here... and after everything plays out, you'll get the *Waterium-Z*. Nice.
+以上を済ませたら、大ホールの地下へ戻ります。右下の部屋でまたサンディに会えます。ここで話しかけると……一連の出来事のあと、*ミズZ* が手に入ります。良いですね。
 
-That's it for this restoration project.
+この復興プロジェクトはこれで終わりです。
 
-Jump back to the correct section:
-[14 Badges](#gang-application-sidequest) | [15 Badges](#torrent-badge) | [16 Badges](#starter-egg-quest-part-2)
+該当する節へ戻ってください:
+[14バッジ](#gang-application-sidequest) | [15バッジ](#torrent-badge) | [16バッジ](/reborn/episode-18/#starter-egg-quest-part-2)
 
-### Railnet Reconstruction Project
+### 鉄道網再建計画 {#railnet-reconstruction-project}
 
-Donate the $100000 to fund this project.
+$100000 を寄付してこの計画に出資します。
 
-Essentially, this project funds a revamp of the Underground Railnet, so most of the things we can now get surround that. To start, head to Peridot Ward and head east into the Underground Railnet entrance under Opal Ward.
+この計画は要するに地下鉄道網の刷新に出資するもので、手に入るものの大半もその周辺にあります。まずはペリドット区へ向かい、東のオパール区の下にある地下鉄道網の入口へ入ってください。
 
-This area is the "Lost and Found". Always obtainable here are the *Assault Vest* and *Iron Plate*. If you realize that you missed out on getting any important items due to story progression such as Key Items, PULSE and Field Readouts, or TMs, check back here and they might just be here!
+このエリアは「落とし物センター」です。ここでは常に *とつげきチョッキ* と *こうてつプレート* が手に入ります。大切なもの、パルスやフィールドの資料、わざマシンなど、物語の進行によって取り逃したものがあると気づいたら、ここを覗いてみてください。あるかもしれません。
 
-Next, enter the Devon Co. building and head down the stairs. The basement stairs will be blocked off, allowing us to grab the *Steelixite*!
+次に、デボンコーポの建物に入って階段を下ります。地下への階段が塞がれているので、*ハガネールナイト* を回収できます。
 
-Enter the railnet building to the left of the Pokemon Center in Obsidia. This is now the Goldenrod Station of the functioning railnet - we will be visiting each station to see what's new there. We don't lose money buying tickets, but the subway isn't really any more useful than Fly, which we already have, so this is really just for exploration.
+オブシディアのポケモンセンターの左隣にある鉄道の建物に入ります。ここは稼働を再開した鉄道網のコガネ駅です。各駅を巡って、何が新しくなったのかを見ていきます。切符を買ってもお金は減りませんが、地下鉄はすでに持っている「そらをとぶ」以上に便利というわけでもないので、これは純粋に探索目的です。
 
-Anyways, the Grandview Station is just the building we used to get to the desert previously, so there's nothing new there. The Ivyline Station is in the basement of the Onyx Trainer School, but we also aren't getting anything other than NPC dialogue there. Same for the Sunset Station, which is just outside in Northern Peridot Ward. Continuing the bad luck of no rewards is the Heatherhill Station which brings us to the Jasper Ward Pokemon Center, and the Peony Station, which brings us to a random building in the Lapis Ward.
+さて、グランドビュー駅は以前砂漠へ行くのに使った建物そのものなので、新しいものはありません。アイビーライン駅はオニキストレーナー学校の地下にありますが、ここもNPCの会話以外は何も手に入りません。北ペリドット区のすぐ外にあるサンセット駅も同様です。ジャスパー区のポケモンセンターに通じるヘザーヒル駅と、ラピス区のどこかの建物に通じるピオニー駅も、報酬なしの不運が続きます。
 
-The Kingsbury Station though? It brings us to a random building in Beryl Ward, but an NPC inside will give us the *Weakness Policy*. Insert world's longest "yea boi" here. But the Shantyport Station in Coral Ward? That's where the real reward is at. Bring an NPC in here a Probopass for an in-game trade for his **Togepi** egg. Nice.
+ではキングスベリー駅はどうでしょう。ベリル区のどこかの建物に通じますが、中のNPCが *じゃくてんほけん* をくれます。ここに世界一長い「よっしゃー」を入れてください。ではコーラル区のシャンティポート駅は? 本命の報酬はそこにあります。ここのNPCにダイノーズを持っていくと、**トゲピー** のタマゴとゲーム内交換ができます。良いですね。
 
-I jest, but there is one more reward we can get out of doing this renovation project. In the Grand Hall basement, a nerdy NPC in the bottom left corner will tell us about an issue with the railnet renovation. Prepare your team as needed and head over to the Byxbysion Wasteland.
+冗談はさておき、この改修計画からはもう1つ報酬が得られます。大ホールの地下、左下の隅にいるオタクっぽいNPCが、鉄道網の改修にまつわる問題を教えてくれます。必要に応じて編成を整え、ビクスビジョン荒地へ向かってください。
 
-Via climbing through the building as we have before, hop down a ledge at the top to reach the upper left corner of the wasteland, and enter the cave. Go left, and follow the path into a building which contains a hidden *Telluric Seed* and *Exp. Candy XL*. Proceeding left, you can enter one final section of the underground railnet. Be prepared for a mini-gauntlet.
+これまでと同じように建物を登り、上部の段差を飛び降りて荒地の左上の隅にたどり着き、洞窟に入ります。左へ進み、道をたどって建物に入ると、隠された *テルリックシード* と *けいけんアメXL* が手に入ります。さらに左へ進むと、地下鉄道網の最後の区画に入れます。小さな連戦に備えてください。
 
 !battle(["Refugees", :AGGRON, 0], "Cave Field")
 
-This fight exploits the cave field to collapse in on your Pokemon - instantly KO'ing most Pokemon. The Sturdy + Custap Berry combo makes it common for each Pokemon to get two attacks against you, so one collapse each. Without preparedness... that means you will lose all six of your Pokemon before the other fight! There are lots of strategies you can use to succeed here, however. Moldbreaker or multi-hit moves like Bullet Seed solve the Sturdy issue, allowing you to easily win. You can also use Power Gem constantly to change the field and prevent a collapse, or have a Bulletproof or Rock Head Pokemon do the whole fight since they are immune to the collapses. The Aron and Lairon will collapse themselves, so you could also just have something spam Wide Guard since you'll be safe from the collapse damage.
+このバトルは洞窟フィールドを利用して落盤を起こし、こちらのポケモンをたいてい一撃で倒してきます。*がんじょう* と *イバンのみ* の組み合わせにより、相手は1匹につき2回行動しやすく、つまり1匹あたり1回の落盤が起きます。無策で挑むと……次の戦いを迎える前に6匹全滅ということになります。とはいえ、勝つ手立てはいろいろあります。*かたやぶり* や *タネマシンガン* のような連続技なら *がんじょう* を無効化でき、楽に勝てます。*パワージェム* を撃ち続けてフィールドを変え、落盤自体を防ぐ手もありますし、*ぼうだん* や *いしあたま* のポケモンは落盤ダメージを受けないので、1匹で戦い切らせることもできます。ココドラとコドラは自分から落盤を起こすので、落盤ダメージが無効な状態で *ワイドガード* を連打させるだけでも構いません。
 
 !dbattle(["Refugees", :AGGRON, 1], ["Refugees", :AGGRON, 2], "Cave Field")
 
-Possibly benefitting from the collapses your team suffer in the first battle, this doubles team goes all in on a similar strategy, this time with Rock Head to prevent any of the Aggron from taking collapse damage. With their Seeds, they'll gain defense, so your physical moves won't easily take them down in time. Wide Guard is even better this time, as your second active Pokemon can then focus on knocking out the Aggron. You can also just point-blank sweep them with two Pokemon running Aura Sphere, Focus Blast, Earth Power, Surf, and the like, so that's an option too. Again Bulletproof and Rock Head trivialize this fight.
+1戦目で受けた落盤の傷が響くかもしれませんが、このダブル編成も同様の戦略に全振りしており、今度は *いしあたま* でボスゴドラ側が落盤ダメージを受けないようにしています。シードで防御も上がるので、物理技では時間内に倒しきれません。今回は *ワイドガード* がいっそう有効で、もう1匹をボスゴドラを倒すことに専念させられます。あるいは、*はどうだん*、*きあいだま*、*だいちのちから*、*なみのり* などを持たせた2匹で真正面から薙ぎ払うのも手です。ここでも *ぼうだん* と *いしあたま* があれば戦いは一気に楽になります。
 
-Once you succeed in here, you can get the *Aggronite* and a hidden *Ultra Ball* and *Max Repel*. There are also encounters down here.
+ここを突破すると *ボスゴドラナイト* と、隠された *ハイパーボール*、*ゴールドスプレー* が手に入ります。ここには野生のポケモンも出ます。
 
 !enc(760, nil, nil, "Underground Railnet Aggron Nest")
 
-Return to the guy in the Grand Hall basement who gave us this quest to get the *Firium-Z*.
+このクエストをくれた大ホール地下の男のもとへ戻ると *ホノオZ* がもらえます。
 
-That's it for this restoration project.
+この復興プロジェクトはこれで終わりです。
 
-Jump back to the correct section:
-[14 Badges](#gang-application-sidequest) | [15 Badges](#torrent-badge) | [16 Badges](#starter-egg-quest-part-2)
+該当する節へ戻ってください:
+[14バッジ](#gang-application-sidequest) | [15バッジ](#torrent-badge) | [16バッジ](/reborn/episode-18/#starter-egg-quest-part-2)
 
-### Azurine Nature Center Project
+### アズリンネイチャーセンター計画 {#azurine-nature-center-project}
 
-Donate the $80000 to fund this project.
+$80000 を寄付してこの計画に出資します。
 
-Surf on down to the Azurine Island once more from Coral Ward, and make your way to the building at the bottom. This will then be added as a Fly location, so you can easily get back here in the future.
+コーラル区からもう一度アズリン島へなみのりで下り、最下部の建物へ向かいます。するとここが「そらをとぶ」の行き先に追加されるので、今後は簡単に戻ってこられます。
 
-Inside the building, you can get a *Toxic Plate*. You can also learn about the password *weathermod*. Upstairs, you'll find 5 *Exp. Candy XL*, as well as an *EV Booster* and *Max Ether*. If you didn't do the Chikorita event earlier, you can get it on the roof now.
+建物の中では *もうどくプレート* が手に入ります。*weathermod* というパスワードも教えてもらえます。上階では *けいけんアメXL* 5個に加えて、*どりょくちブースター* と *ピーピーリカバー* が手に入ります。先にチコリータのイベントをやっていなければ、屋上で今もらえます。
 
-In front of the building, a person will offer you an in-game trade: your Carnivine for a **Chimchar** egg. Nice.
+建物の前では、こちらのマスキッパと **ヒコザル** のタマゴとのゲーム内交換を持ちかけてくる人物がいます。良いですね。
 
-The Azurine Island itself has been renovated as well, and we can get a few limited-choice Pokemon now!
+アズリン島そのものも改装され、選択式で何匹かのポケモンを入手できるようになりました。
 
 !enc(586, nil, nil, "Azurine Island (Post-Renovation)")
 
-Time to finally comb the Azurine Island for items one last time. We're also going to encounter more Foongus and Amoonguss in disguise, make sure you defeat or run from them to get them out of the way for a quest here.
+いよいよアズリン島のアイテムを最後にもう一度さらう時です。化けた **タマゲタケ** と **モロバレル** にもさらに出くわすので、ここでのクエストのために倒すか逃げるかして片付けておきましょう。
 
-This time I'll go left from the building to start. Grab the hidden *Big Mushroom* here, then another *Big Mushroom* to the left. Defeat the nearby Amoonguss, then head right. You'll find a hidden *Big Mushroom* in a rock, and a non-hidden *Big Mushroom* below. To the right and down is another hidden *Big Mushroom* in a bush. Going up from here you can find, shocker, a hidden *Big Mushroom* left of the water.
+今回は建物から左へ進んで始めます。ここで隠された *おおきなキノコ* を拾い、さらに左でもう1個 *おおきなキノコ* を拾います。近くのモロバレルを倒したら右へ向かいます。岩に隠された *おおきなキノコ* と、その下に隠れていない *おおきなキノコ* があります。右そして下には、茂みに隠された *おおきなキノコ* がもう1個。そこから上へ進むと、驚くことに、水の左に隠された *おおきなキノコ* が見つかります。
 
-Up the river is another hidden *Big Mushroom* in a rock, and one out in the open to the left. Here you can meet the guy asking us to eradicate the Foongus and Amoonguss - once we finish we will return to him. To the left of him you'll find... a hidden *Blue Shard*! Surprise! Anyways, surf up and to the left from here to get a hidden *Big Mushroom* in a rock, and a hidden *Common Candy* in a bush below. Another *Big Mushroom* is hidden on the same island where we once landed for the first time. Down and to the left you can get a hidden *Tiny Mushroom*. Across the water on the largest island, you can pick up another *Big Mushroom*, and a hidden *Full Heal* to the right.
+川を上ると、岩に隠された *おおきなキノコ* がもう1個、その左には隠れていないものが1個あります。ここではタマゲタケとモロバレルの駆除を頼んでくる男に会えます。片付いたら彼のもとへ戻ります。彼の左には……隠された *あおいかけら* があります。驚きですね。ともあれ、ここから上そして左へなみのりすると、岩に隠された *おおきなキノコ* と、その下の茂みに隠された *ふつうのアメ* が手に入ります。かつて初めて上陸したのと同じ島にも *おおきなキノコ* が隠されています。下そして左では隠された *ちいさなキノコ* が手に入ります。水を渡った先の最も大きな島では、もう1個 *おおきなキノコ* と、右手に隠された *なんでもなおし* が手に入ります。
 
-Down the ledge and across the water, talk to the nature guy once more to get a *Rocky Helmet*. Sweet.
+段差を下りて水を渡り、自然保護の男にもう一度話しかけると *ゴツゴツメット* がもらえます。ありがたい。
 
-There is one more thing we can do for this restoration project. Fly over to the Grand Hall and go to the basement. In the top right hallway, you can talk to a guy who will tell you that they are looking for sample Pokemon at Azurine Island. Fly back there.
+この復興プロジェクトでできることがもう1つあります。大ホールへ飛び、地下へ向かってください。右上の通路で男に話しかけると、アズリン島で見本となるポケモンを探していると教えてくれます。アズリン島へ飛び戻りましょう。
 
-A lady on the left will give us 2 *Leaf Stones* and a mission: to donate a male and female each of Lurantis and Simisage. I recommend just breeding each using the incubator until you get the desired gender, then leveling the Fomantis up to get Lurantis and using the Leaf Stones on Pansage to get **Simisage**. Donate all four and return to the Grand Hall to get the *Grassium-Z*.
+左にいる女性が *リーフのいし* 2個と任務をくれます。ラランテスとヤナッキーのオスとメスを1匹ずつ寄贈するというものです。孵化装置で目当ての性別が出るまで孵し、カリキリを育ててラランテスにし、ヤナップに *リーフのいし* を使って **ヤナッキー** にするのがおすすめです。4匹すべてを寄贈して大ホールへ戻ると *クサZ* がもらえます。
 
-That's it for this restoration project.
+この復興プロジェクトはこれで終わりです。
 
-Jump back to the correct section:
-[14 Badges](#gang-application-sidequest) | [15 Badges](#torrent-badge) | [16 Badges](#starter-egg-quest-part-2)
+該当する節へ戻ってください:
+[14バッジ](#gang-application-sidequest) | [15バッジ](#torrent-badge) | [16バッジ](/reborn/episode-18/#starter-egg-quest-part-2)
 
-## Gang Application Sidequest
+## 団の申込書サイドクエスト {#gang-application-sidequest}
 
-The train station in Lower Peridot where we started our journey is now open. Inside, someone will give you the *Construction Application*.
+旅の始まりの地である下ペリドットの駅が開通しました。中で、ある人物が *けんせつぎょうのもうしこみしょ* をくれます。
 
-Make your way down to Seventh Street and find your corresponding gang leader. He'll ask us to give matching job applications to each of the members of their gang. Note that the blast powder salesmen will still sell to you on their respective jobsites. Anyways, the correct applications:
+7番街へ下り、自分の所属する団のリーダーを探します。団員それぞれに対応する求人の申込書を渡すよう頼まれます。なお、ばくはつのこなの売り手は、それぞれの職場でも変わらず売ってくれます。ともあれ、正しい対応は次のとおりです。
 
-|Magma Gang Member |Application        |
+|マグマ団員          |申込書              |
 |------------------|-------------------|
-|Darm              |Circus             |
-|Nihil             |Nightclub          |
-|Break             |Medicine           |
-|Kriz              |Spyce              |
-|Maxwell           |SOLICE             |
+|ダーム              |サーカス             |
+|ニヒル              |ナイトクラブ          |
+|ブレーク             |やっきょく            |
+|クリズ              |スパイス             |
+|マクスウェル          |SOLICE             |
 
-Note that if you haven't fixed the slums yet, you won't be able to finish this quest with the Magma Gang yet. For completing it all you'll be given **Oshawott** holding a *Choice Band*.
+なお、スラムをまだ再開発していない場合、マグマ団ではこのクエストを完了できません。すべて達成すると、*こだわりハチマキ* を持った **ミジュマル** がもらえます。
 
-|Aqua Gang Member |Application        |
+|アクア団員         |申込書              |
 |-----------------|-------------------|
-|Razzy            |Sweet              |
-|Defacto          |Library            |
-|Pierce           |Apophyll           |
-|Mannie           |Construction       |
-|Archer           |Silph              |
+|ラジー            |スイーツてん          |
+|デファクト          |としょかん            |
+|ピアース           |アポフィル            |
+|マニー            |けんせつぎょう         |
+|アーチャー          |シルフ              |
 
-For completing this quest, you'll be given a **Litten** holding *Choice Specs*.
+このクエストを完了すると、*こだわりメガネ* を持った **ニャビー** がもらえます。
 
-## Starter Egg Quest (Part 1)
+## 最初のパートナーのタマゴクエスト (前編) {#starter-egg-quest-part-1}
 
-Head into the Grand Hall basement and enter the middle room on the left side. Kanaya will task us with donating one egg of each of the 21 starter Pokemon!
+大ホールの地下へ入り、左側の中央の部屋に入ります。カナヤから、21種類すべての最初のパートナーポケモンのタマゴを1個ずつ寄贈するよう頼まれます。
 
-Regardless of choices, it is guaranteed that you will have been able to obtain Charmander, Squirtle, Chikorita, Cyndaquil, Totodile, Treecko, Mudkip, Turtwig, Piplup, Tepig, Chespin, Fennekin, and Popplio, bringing our total to a minimum of 13 starters so far. You can search the page for these events if you'd like to get them now.
+選択に関わらず、ヒトカゲ、ゼニガメ、チコリータ、ヒノアラシ、ワニノコ、キモリ、ミズゴロウ、ナエトル、ポッチャマ、ポカブ、ハリマロン、フォッコ、アシマリは必ず入手できているはずなので、この時点で最低13種になります。今すぐ集めたければ、このページ内でそれぞれのイベントを検索してみてください。
 
-You may have Oshawott or Litten if you completed a gang sidequest, and you may also have Bulbasaur and Chimchar if you upgraded Azurine Island. Potentially you may also have one more starter, chosen at the very beginning, but for now I will just assume we have only the ones every player is guaranteed to have. Feel free to also donate these if you have them as well.
+団のサイドクエストを完了していればミジュマルかニャビーも、アズリン島を改装していればフシギダネとヒコザルも持っているかもしれません。さらに、ゲーム開始時に選んだ1匹もいる可能性がありますが、ここでは全プレイヤーが必ず持っているものだけを前提にします。持っていれば、それらも遠慮なく寄贈してください。
 
-If you have the incubator, doing this breeding shouldn't take too much time, so get eggs of these 13+ Pokemon now. For donating 3, 6, 9, and 12, we'll get the *Reset Disc- HP*, *Reset Disc- ATK*, *Reset Disc- DEF*, and *Reset Disc- SPATK*. These will help us reset EV's to zero, helpful if you want to completely change up how you're running a Pokemon or get rid of junk EV's from the beginning of the game. As we get more (guaranteed) starters, we'll come back.
+孵化装置があれば、この繁殖にさほど時間はかからないはずなので、この13種以上のタマゴを今のうちに用意しましょう。3個、6個、9個、12個の寄贈で、それぞれ *リセットディスク・HP*、*リセットディスク・こうげき*、*リセットディスク・ぼうぎょ*、*リセットディスク・とくこう* がもらえます。これらは努力値をゼロに戻せるもので、ポケモンの育成方針を根本から変えたいときや、序盤に付いた無駄な努力値を消したいときに役立ちます。（確実に手に入る）最初のパートナーが増えたら、また戻ってきます。
 
-## Tourmaline Desert
+## トルマリン砂漠 {#tourmaline-desert}
 
-Make your way to the train station in Lower Peridot Ward, and take the train out to the Tourmaline Desert.
+下ペリドット区の駅へ向かい、列車でトルマリン砂漠へ出ます。
 
-### Reshiram Route Taka Fight
+### レシラムルート: タカ戦 {#reshiram-route-taka-fight}
 
-If you already fought Taka at the WTC, skip ahead to the next section.
+浄水センターですでにタカと戦っていれば、次の節まで読み飛ばしてください。
 
-If you didn't fight Taka at the WTC, now will be the time to fight him!
+浄水センターでタカと戦わなかった場合、ここが彼と戦うときです。
 
 !battle(["Taka", :Taka, 4], "Desert Field")
 
-You'll notice that Taka's team is actually decently built for the Desert Field and sand, but again an Ice type can shatter him once Klefki goes down. As before, beware of a Shell Smash Minior sweep.
+タカの編成は砂漠フィールドと *すなあらし* に合わせてよく組まれていますが、ここでもクレッフィさえ落とせばこおりタイプで崩せます。これまでどおり、*からをやぶる* を積んだメテノの一掃には注意してください。
 
-**Relationship Point Choices**:
-- Tell Taka that you will not keep on winning (+1 Taka)
+**好感度の選択肢**:
+- 勝ち続けるつもりはないとタカに伝える (+1 タカ)
 
-Once you win, Taka will ask if you will let him join your party while you travel through the desert. There are gameplay reasons to doing this - he will heal your party after every fight and also has tons and tons of dialogue at the various subareas of the desert. You will have to be careful that he doesn't knock out wild Pokemon you want to catch, though you can return later once he is no longer with you.
+勝つと、砂漠を旅する間だけ同行させてほしいとタカが頼んできます。同行させるゲーム上の利点もあります。バトルのたびに手持ちを回復してくれますし、砂漠の各所で非常に多くの会話が発生します。ただし、捕まえたい野生ポケモンを彼が倒してしまわないよう注意が必要です。もっとも、彼が離れたあとに戻ってくることもできます。
 
-**In order to access the exclusive postgame route, you need to allow Taka to join you.**
+**ポストゲーム限定ルートに入るには、タカの同行を認める必要があります。**
 
-It's worth noting that refusing him here sends you down a different story path than the Reshiram and Zekrom routes, often called the "Hell Route" by the community. (I've never played this route so if you notice inconsistencies with the guide on Hell Route please let me know.)
+なお、ここで断るとレシラムルートやゼクロムルートとは別の物語筋に入ります。コミュニティでは「ヘルルート」と呼ばれることが多いものです。（筆者はこのルートを遊んだことがないので、ヘルルートで攻略と食い違う点に気づいたら教えてください。）
 
-**Relationship Point Choices**:
-- Don't allow Taka to come with you in the desert (-3 Taka)
+**好感度の選択肢**:
+- 砂漠でタカの同行を認めない (-3 タカ)
 
-If he does join you, you'll lose points for leaving the desert while he's with you.
+同行させた場合、彼を連れたまま砂漠を出ると好感度が下がります。
 
-**Relationship Point Choices**:
-- Leave the desert while Taka is your partner (-2 Taka)
+**好感度の選択肢**:
+- タカを連れたまま砂漠を出る (-2 タカ)
 
 !partner(["Taka", :Taka2, 0])
 
-Once you make your choice, it's time to start exploring the desert...
+選択を済ませたら、いよいよ砂漠の探索です……
 
-### Greater Tourmaline Desert
+### トルマリン砂漠 本体 {#greater-tourmaline-desert}
 
-If you want to just blaze through the story, head straight up in the desert until you reach an area with tons of trains, then complete the 1R253 Scrapyard section and proceed from there. There are tons and tons of actually good Pokemon and items that become available around the desert, so we'll spend a while exploring side areas for now.
+物語だけを一気に進めたいなら、砂漠をまっすぐ上へ進んで列車が大量にあるエリアまで行き、1R253廃品置き場の節をこなしてそこから先へ進んでください。とはいえ砂漠周辺では有力なポケモンとアイテムが山ほど手に入るので、しばらくは周辺エリアの探索に時間を使います。
 
-Tourmaline Desert is HUGE: I'll briefly explain my approach to 100% completion in the desert. Note that this doesn't matter much if you're not going out of your way to collect all the hidden items, so you can just grab the items and Pokemon that you want and ignore the complications.
+トルマリン砂漠は極めて広大です。ここでは砂漠を100%回収するための方針を簡単に説明します。隠しアイテムを全部集めるつもりがなければあまり関係ないので、欲しいアイテムとポケモンだけ取って、細かい話は無視して構いません。
 
-There are actually 4 versions of the main, large Desert map depending on where the desert's oasis currently is, which is randomly determined to start. Each of these four maps has its own set of hidden items as well.
+実は、砂漠の中心となる大マップは、オアシスが現在どこにあるかによって4種類あり、開始時にランダムで決まります。この4つのマップにはそれぞれ固有の隠しアイテムもあります。
 
-What I recommend is exploring the map you have landed on first without touching any of the oases - touching the light shard nearby the oasis will switch the map you're on. Doing this exactly 3 times will switch a DIFFERENT desert map between two versions, *but we don't want to do this just yet*. I will number the four maps 1, 2, 3, 4. Note that when you switch the map you're on you'll go to a random, different number, so to be sure you'll have to search for the oasis every time.
+おすすめは、まず今いるマップをオアシスに一切触れずに探索することです。オアシス付近の光のかけらに触れると、いるマップが切り替わってしまいます。これをちょうど3回行うと、*別の* 砂漠マップが2種類の間で切り替わるのですが、*まだそれをやりたくはありません*。4つのマップをそれぞれ1、2、3、4と呼ぶことにします。なお、マップを切り替えると別の番号にランダムで移るので、確実を期すには毎回オアシスを探す必要があります。
 
-To find the map you're on to start, you'll want to find your oasis. I provide images of each oasis below.
+いま自分がどのマップにいるかを知るには、オアシスを見つけましょう。以下にそれぞれのオアシスの画像を載せます。
 
-Oasis 1: On the upper/middle of the left side of the desert
+オアシス1: 砂漠の左側、中央より上
 !img("oasis1.jpg")
 
-Oasis 2: Middle of the right side of the desert
+オアシス2: 砂漠の右側の中央
 !img("oasis2.jpg")
 
-Oasis 3: On the lower/middle of the left side of the desert
+オアシス3: 砂漠の左側、中央より下
 !img("oasis3.jpg")
 
-Oasis 4: Bottom of the right side of the desert
+オアシス4: 砂漠の右側の最下部
 !img("oasis4.jpg")
 
-So, once you find the map you're on, now we can start getting things!
+いるマップが分かったら、いよいよ回収開始です。
 
-Constant throughout the desert are the water encounters:
+砂漠全体で共通なのが水上の出現ポケモンです。
 
 !enc(694, ["Surfing", "Fishing"])
 
-You'll also find many stationary **Exeggutor-Alola** around the desert.
+砂漠のあちこちには、動かない **ナッシー（アローラのすがた）** も多数います。
 
-For what it's worth, there are transitions from each map into two OTHER maps... which we will explore later. For now, keep in mind you don't want to go more north than these two images, the northwest and northeast borders:
+念のため書いておくと、各マップからは他の2つのマップへ移動できます……そちらは後ほど探索します。今のところ、次の2枚の画像より北、つまり北西と北東の境界より先へは行かないようにしてください。
 
 !img("td_nw_border.jpg")
 
 !img("td_ne_border.jpg")
 
-For now, don't enter any train cars yet, either.
+今はまだ、どの車両にも入らないでください。
 
-First, I'll start by covering all the items that you can get only once and are available on all the maps. These are all generally worth getting and I'll point you roughly towards them. This is also a good time to get acquainted with the layout of the desert! For the sake of grabbing all these items, I will generally travel along the outside of the desert starting in the upper left corner, going counter clockwise along the outside of the desert, with occasional dips into the center of the map. Note that the large opening in a sand dune is Sugiline Cave. We'll explore there later.
+まずは、1回しか取れず、かつ全マップ共通で手に入るアイテムをすべて扱います。いずれもおおむね取る価値があるので、おおよその場所を案内します。砂漠の地形に慣れる良い機会でもあります。これらをすべて回収するため、基本的には砂漠の外周を左上の隅から反時計回りに進み、ときどき中央へ寄り道する形で移動します。なお、砂丘に大きく開いた口はスギラインどうくつです。そこは後ほど探索します。
 
-Note that Taka often has something to say when you find these if he is with you.
+タカが同行していると、これらを見つけたときに彼が何か言うことが多い点も覚えておいてください。
 
-For now, grab the items available on all four maps plus those on the specific oasis variety you are on; we will grab the rest later.
+今は4マップ共通のアイテムと、いま自分がいるオアシスのマップのアイテムを回収します。残りは後ほど回収します。
 
-**On all maps (only obtainable once)**
+**全マップ共通（1回のみ入手）**
 
 !img("tourmaline_items_main.png")
 
-- In the top left corner up on a hill, you can get hidden 3 *Exp. Candy XL*.
-- As you climb down the top left hill, go slightly right as you head down. You'll see a *Stone Plate* on top of a hill.
-- As you head down the left wall of the desert, you'll see one wide green tree. Head east from here across a dune, you'll see a broken statue. The main statue is too faded to read, but the broken off gargoyle contains a hidden *Max Elixir*.
-- Continuing to follow the left wall down, you can hop across some blocks after defeating some Exeggutor-Alola to get *TM72 Volt Switch*!
-- In the bottom left corner of the desert, you'll be able to pick up a *Focus Sash*.
-- On the very bottom-middle of the desert you can find 6 *Poke Balls*, one is hidden. Especially with Taka in your party, you may realize where these six balls came from...
-- Hugging the right wall of the desert, you'll find a *Relic Copper*.
-- Past Sugiline Cave, hugging the right wall and going up, you'll find a *Max Elixir* near some dead trees.
-- Up and to the right of the previous Max Elixir, you can find a hidden *Star Piece* in a rock.
-- In the far northeast side of the desert, you can climb a sand dune to get onto a hill. Up and to the right you'll find a hidden *Synthetic Seed*.
+- 左上の隅の丘の上で、隠された *けいけんアメXL* 3個が手に入ります。
+- 左上の丘を下りながら、やや右へ寄って進みます。丘の上に *がんせきプレート* が見えます。
+- 砂漠の左の壁沿いに下っていくと、横に広い緑の木が1本見えます。そこから砂丘を越えて東へ向かうと、壊れた石像があります。本体の像は摩耗して読めませんが、折れたガーゴイルには隠された *ピーピーマックス* があります。
+- そのまま左の壁沿いに下り続け、アローラナッシーを何匹か倒すとブロックを渡っていけて、*わざマシン72 ボルトチェンジ* が手に入ります。
+- 砂漠の左下の隅では *きあいのタスキ* を拾えます。
+- 砂漠の最下部の中央では *モンスターボール* 6個が手に入り、うち1個は隠されています。特にタカを連れていると、この6個のボールがどこから来たのか察しがつくかもしれません……
+- 砂漠の右の壁沿いに進むと *こだいのどうか* が見つかります。
+- スギラインどうくつを過ぎて、右の壁沿いに上へ進むと、枯れ木の近くに *ピーピーマックス* があります。
+- 先ほどのピーピーマックスから上そして右では、岩に隠された *ほしのかけら* が見つかります。
+- 砂漠の北東のずっと奥では、砂丘を登って丘の上に出られます。そこから上そして右で、隠された *シンセティックシード* が見つかります。
 
-Aside from all these items, each of the four maps has its own list of hidden items. These aren't even particularly worth searching for... but for completeness I list them here.
+これらとは別に、4つのマップにはそれぞれ固有の隠しアイテム一覧があります。正直わざわざ探す価値は薄いのですが……網羅のためここに挙げておきます。
 
-**Map 1**
+**マップ1**
 
 !enc(694, ["Cave"], nil, "Tourmaline Desert (Layout 1)")
 
-Map 1 has this trainer, north of the train station from Peridot Ward:
+マップ1には、ペリドット区からの駅の北にこのトレーナーがいます。
 
 !battle(["Addison", :RANGERF, 0], "Desert Field")
 
 !img("tourmaline_items_1.png")
 
-- On the hill where we found the 3 Exp. Candies, you can find a hidden *Magical Seed*.
-- A hidden *Green Shard* is in a skull above the oasis.
-- A hidden *Liechi Berry*, *Elixir*, *Red Shard*, and *Resist Wing* are nearby the oasis, in the upper left side of the map below the hill.
-- East of the oasis in a dead tree is a *Telluric Seed*.
-- Down from the oasis is a cactus, containing a *Leaf Stone*.
-- Head straight east and you'll find a *Dire Hit* in a patch of green.
-- Left and down from here, along the left wall, you'll find a hidden *Blue Shard*. Straight east of here is the train station where we can return to Reborn City. Hidden on the station is *Red-Hots*.
-- Down and left from here you'll see a tall pillar. Northwest of it, you can get a hidden *Common Candy* in a dead tree.
-- North and slightly west of the pile of Poke Balls in the south desert, you'll find a hidden *X Speed*.
-- Hugging the right side of the desert and going up, you'll see a small hill and a few patches of green. One contains a hidden *Great Ball*.
-- On the east side of the map, southeast of the Sugiline Cave, you'll find a hidden *Purple Shard* in a desert rose flower. You'll know you're close when you see a bunch of desert rose trees.
-- Straight west and slightly up from the previous item, you can find a hidden *Tiny Mushroom* between some palm trees.
-- East of Sugiline Cave, you can find an *Exp. Candy XL*.
-- In the northeast side of the desert map north of where we previously found the hidden Star Piece, you can get a hidden *Rawst Berry*.
-- Slightly up and left you'll find a large hill: at its base is a skull containing a *Rare Bone*.
-- Go up and slightly right from here. You'll see a hidden *Full Heal* in a rock.
-- A decent bit west of the previous item, you'll find a hidden *Fire Gem*.
-- West of the here, you can find a *Dawn Stone* hidden in a rock.
-- Go down, around the right side of the large hill and go down past the tracks. You'll find a hidden *Fairy Gem* in a desert rose.
+- けいけんアメ3個を拾った丘の上で、隠された *マジカルシード* が見つかります。
+- オアシスの上のドクロには、隠された *みどりのかけら* があります。
+- オアシス付近、マップ左上側の丘の下には、隠された *チイラのみ*、*ピーピーエイダー*、*あかいかけら*、*ていこうのハネ* があります。
+- オアシスの東の枯れ木には *テルリックシード* があります。
+- オアシスから下にはサボテンがあり、*リーフのいし* が入っています。
+- まっすぐ東へ進むと、緑の一角に *クリティカット* があります。
+- そこから左そして下、左の壁沿いに、隠された *あおいかけら* が見つかります。そこからまっすぐ東がリボーンシティへ戻れる駅です。駅には *シナモンキャンディ* が隠されています。
+- そこから下そして左に、背の高い柱が見えます。その北西の枯れ木で、隠された *ふつうのアメ* が手に入ります。
+- 南の砂漠のモンスターボールの山から北、やや西に、隠された *スピーダー* があります。
+- 砂漠の右側沿いに上へ進むと、小さな丘といくつかの緑の一角が見えます。そのうち1つに、隠された *スーパーボール* があります。
+- マップの東側、スギラインどうくつの南東では、砂漠のバラの花に隠された *むらさきのかけら* が見つかります。砂漠のバラの木が群生しているのが目印です。
+- 前のアイテムからまっすぐ西、やや上では、ヤシの木の間に隠された *ちいさなキノコ* が見つかります。
+- スギラインどうくつの東では *けいけんアメXL* が手に入ります。
+- 砂漠マップの北東側、先ほど隠された *ほしのかけら* を見つけた場所の北で、隠された *チーゴのみ* が手に入ります。
+- やや上そして左に大きな丘があります。その麓のドクロに *きちょうなホネ* が入っています。
+- そこから上、やや右へ進みます。岩に隠された *なんでもなおし* が見えます。
+- 前のアイテムからかなり西で、隠された *ほのおのジュエル* が見つかります。
+- そこから西では、岩に隠された *めざめいし* が見つかります。
+- 下へ進み、大きな丘の右側を回って線路を越えて下ります。砂漠のバラに隠された *ようせいジュエル* が見つかります。
 
 
-**Map 2**
+**マップ2**
 
 !enc(703, ["Cave"], nil, "Tourmaline Desert (Layout 2)")
 
-Map 2 has this trainer, near the oasis:
+マップ2には、オアシス付近にこのトレーナーがいます。
 
 !battle(["Erebus", :AceTrainerM, 0], "Desert Field")
 
 !img("tourmaline_items_2.png")
 
-- On the hill where we found the 3 Exp. Candies, you can find a hidden *Chewing Gum*.
-- South of the hill, you can get a hidden *Poke Snax* between some rock pillars.
-- On the left side of the desert you'll see a clump of desert roses and cacti. Nearby is a hidden *Oval Stone*. 
-- Go straight east from the desert roses to find a hidden *Bug Gem* on top of a dune.
-- Hugging the left wall of the desert and continuing down, you'll find a hidden *Green Shard* in a bush.
-- Across the desert, north of where we found the Relic Copper earlier, you can find a hidden *Green Shard* and *Purple Shard* near desert rose trees.
-- Near the oasis on the right side of the desert, you can find hidden *Ability Capsule*, *Petaya Berry*, and *Carbos*. The Ability Capsule requires surfing, which you cannot do while with Taka.
-- Slightly south and west from the oasis, you can find a hidden *Green Shard* in a skull by a hill.
-- Left from the previous item you'll find train tracks. Follow these up to get a hidden *Purple Shard*.
-- In the northeastern corner of the desert you can find a hidden *Ultra Ball* and *Exp. Candy XL* in some rocks.
+- けいけんアメ3個を拾った丘の上で、隠された *チューインガム* が見つかります。
+- 丘の南では、岩の柱の間に隠された *ポケスナック* が手に入ります。
+- 砂漠の左側に、砂漠のバラとサボテンの群れが見えます。その近くに隠された *まんまるいし* があります。
+- 砂漠のバラからまっすぐ東へ進むと、砂丘の上に隠された *むしのジュエル* が見つかります。
+- 砂漠の左の壁沿いにさらに下ると、茂みに隠された *みどりのかけら* が見つかります。
+- 砂漠の反対側、先ほど *こだいのどうか* を拾った場所の北では、砂漠のバラの木の近くに隠された *みどりのかけら* と *むらさきのかけら* が見つかります。
+- 砂漠の右側のオアシス付近では、隠された *とくせいカプセル*、*ヤタピのみ*、*インドメタシン* が見つかります。*とくせいカプセル* はなみのりが必要で、タカと同行中は使えません。
+- オアシスからやや南そして西では、丘のそばのドクロに隠された *みどりのかけら* が見つかります。
+- 前のアイテムから左に線路があります。これを上へたどると、隠された *むらさきのかけら* が手に入ります。
+- 砂漠の北東の隅では、岩に隠された *ハイパーボール* と *けいけんアメXL* が見つかります。
 
-**Map 3**
+**マップ3**
 
 !enc(704, ["Cave"], nil, "Tourmaline Desert (Layout 3)")
 
-Map 3 has this trainer, northwest of Sugiline Cave:
+マップ3には、スギラインどうくつの北西にこのトレーナーがいます。
 
 !battle(["Altimis", :AceTrainerM, 0], "Desert Field")
  
 !img("tourmaline_items_3.png")
 
-- Just below the hill where we found the 3 Exp. Candies, you can find a hidden *Heart Scale* and *Red-Hots*.
-- Following the left wall down, you can get a *Blue Shard* in a bush.
-- Further down the left wall, nearby a desert rose patch you can get a *Calcium* and a *Dragon Gem*.
-- Follow the left wall down, on the other side of the bend in the wall you can find a hidden *Peppermint* near a dead tree.
-- Nearby the oasis on the left side of the map, you can find a hidden *Relic Gold*, *Salac Berry*, and *Protein*. The Relic Gold can only be obtained via surfing when Taka is not a partner.
-- To the right and slightly up from the oasis, you'll find a hidden *Red Shard*.
-- On the train platform down and to the right of the oasis you can get a hidden *Sun Stone*.
-- Across the tracks from the station and slightly down you'll find a hidden *Red Shard* near a pillar.
-- Slightly to the left of the pile of Poke Balls, you'll be able to find a hidden *Pop Rocks* under the tracks.
+- けいけんアメ3個を拾った丘のすぐ下では、隠された *ハートのウロコ* と *シナモンキャンディ* が見つかります。
+- 左の壁沿いに下ると、茂みで *あおいかけら* が手に入ります。
+- 左の壁をさらに下り、砂漠のバラの群れの近くで *リゾチウム* と *ドラゴンジュエル* が手に入ります。
+- 左の壁沿いに下り、壁の曲がり角の反対側では、枯れ木の近くに隠された *ハッカキャンディ* が見つかります。
+- マップ左側のオアシス付近では、隠された *こだいのきんか*、*カムラのみ*、*タウリン* が見つかります。*こだいのきんか* はタカが同行していないときになみのりでしか取れません。
+- オアシスから右、やや上に、隠された *あかいかけら* があります。
+- オアシスから下そして右の列車のホームでは、隠された *たいようのいし* が手に入ります。
+- 駅から線路を越えて、やや下では、柱の近くに隠された *あかいかけら* が見つかります。
+- モンスターボールの山のやや左では、線路の下に隠された *パチパチキャンディ* が見つかります。
 
-For some reason, just on this map, you can give a guy in the bottom right corner some Fresh Water in exchange for a new password: *gen5weather*. Anyways, back to the items:
+なぜかこのマップだけ、右下の隅の男に *おいしいみず* を渡すと、新しいパスワード *gen5weather* を教えてもらえます。ともあれ、アイテムの続きです。
 
-- In the bottom right side of the desert, a rock will hide a *Nugget*. Just up from here in a patch of green is another rock containing a *Grass Gem*.
-- Go up from here, passing between a small hill and a pillar. Up from here you'll find a desert rose containing a hidden *Ultra Ball*.
-- Up from the Ultra Ball you'll see a bunch of bushes and cacti. Going right around the mountain, you'll find a hidden *Blast Powder*.
-- Head way up from here. Follow the tracks to a junction to get a *Stardust*. 
-- To the east, in a patch of green, you can find a *Purple Shard*, and a *Poison Gem* just above here near a train car.
-- Up and right from here, just before you reach the top right corner of the desert, beneath a mountain is a  broken statue head containing a *Steel Gem*.
-- Hidden in a pile of rocks in the north east of here is a *Nugget*, and a *Green Shard* to the northeast in a bush.
-- Go straight left from this area into the area with many train tracks. In a rock pile you'll be able to find a hidden *Protein*.
-- Continuing left from here, slightly up is a hidden *Water Stone* fittingly in a cactus.
-- Going straight left from here once more, you'll find a hidden *Poke Snax* in a rock.
+- 砂漠の右下側では、岩に *きんのたま* が隠されています。そのすぐ上の緑の一角には、別の岩に *くさのジュエル* が入っています。
+- そこから上へ、小さな丘と柱の間を抜けて進みます。その上に、隠された *ハイパーボール* が入った砂漠のバラがあります。
+- ハイパーボールの上には、茂みとサボテンが群生しています。山の右を回り込むと、隠された *ばくはつのこな* が見つかります。
+- そこからずっと上へ向かいます。線路をたどって分岐点まで行くと *ほしのすな* が手に入ります。
+- 東の緑の一角では *むらさきのかけら* が、そのすぐ上の車両の近くでは *どくのジュエル* が見つかります。
+- そこから上そして右、砂漠の右上の隅の手前で、山の下にある壊れた石像の頭に *はがねのジュエル* が入っています。
+- そこから北東の岩の山には *きんのたま* が、さらに北東の茂みには *みどりのかけら* が隠されています。
+- このエリアからまっすぐ左へ、線路が多数あるエリアへ進みます。岩の山では隠された *タウリン* が見つかります。
+- そこからさらに左、やや上には、いかにもという感じでサボテンに隠された *みずのいし* があります。
+- そこからもう一度まっすぐ左へ進むと、岩に隠された *ポケスナック* が見つかります。
 
-**Map 4**
+**マップ4**
 
 !enc(705, ["Cave"], nil, "Tourmaline Desert (Layout 4)")
 
-Map 4 has this trainer, near the tracks on the west side:
+マップ4には、西側の線路の近くにこのトレーナーがいます。
 
 !battle(["Red", :HIKER, 0], "Desert Field")
 
 !img("tourmaline_items_4.png")
 
-- On the hill where we found the 3 Exp. Candies, you can find a hidden *Common Candy*.
-- Down from the hill, you'll find a bush containing another hidden *Common Candy*.
-- Right from here, at the bend in the first track you'll find a rock containing a *Rock Gem*.
-- Follow this track eastward. Below the first palm tree east of the bend, you'll find a hidden *Poke Ball*.
-- Back at the bend to the left, go straight down. At the base of a medium-sized hill is a skull containing a hidden *Blast Powder*.
-- There is a desert rose patch down and to the left from here, containing a hidden *Zinc*.
-- Down from here you'll find a rock containing a *Cotton Candy*.
-- Much further down the wall on the left side, in two rocks are a *Magical Seed* and *Salt-Water Taffy*.
-- From the area where we got the Volt Switch TM, go straight east across the tracks to find a hidden *Iron*.
-- Slightly to the northeast of the pile of Poke Balls, you'll find a hidden *Purple Shard*.
-- Around the oasis in the bottom right corner, you can find a hidden *Sitrus Berry*, *Dusk Ball*, and *Relic Copper*.
-- Just before the Sugiline Cave on the east side of the desert you'll find an area with a lot of cacti and bushes. Nearby are 3 hidden *Green Shards*.
-- Straight to the left, you'll find a small grove of wide trees near a train track. You'll find a hidden *Escape Rope*.
-- Up and left from here is a patch of green containing another hidden *Green Shard*.
-- Follow the nearby tracks straight down to find a hidden *Fire Stone*.
-- Go up and you hug the right wall, past Sugiline Cave. Near the dead trees, we can find a hidden *Purple Shard*.
-- Continue north and slightly left from here. In a green patch with bushes and a cactus you can find another hidden *Purple Shard*. Following the nearby tracks left, you'll find a hidden *Ultra Ball*.
-- Slightly up and to the right, you'll find a hidden *Burn Heal* in a statue head at the base of a mountain and a hidden *Big Pearl* in a bush to the right.
-- In the northeast corner of the map, you'll find a hidden *Escape Rope* and *X Accuracy*.
-- Left from here, in a rock beneath a hill, you can find a hidden *Purple Shard*.
-- Go left from here. Nearby the train cars, you can find a hidden *Blue Shard* in a rock.
-- Continue going farther to the left. Just before the final vertical train tracks is a rock containing a hidden *Awakening*.
+- けいけんアメ3個を拾った丘の上で、隠された *ふつうのアメ* が見つかります。
+- 丘から下ると、隠された *ふつうのアメ* がもう1個入った茂みが見つかります。
+- そこから右、最初の線路の曲がり角では、*いわのジュエル* が入った岩が見つかります。
+- この線路を東へたどります。曲がり角から東にある最初のヤシの木の下で、隠された *モンスターボール* が見つかります。
+- 左の曲がり角まで戻り、まっすぐ下へ進みます。中くらいの丘の麓のドクロに、隠された *ばくはつのこな* が入っています。
+- そこから下そして左に砂漠のバラの群れがあり、隠された *キトサン* が入っています。
+- そこから下では、*わたあめ* が入った岩が見つかります。
+- 左側の壁をさらにずっと下ると、2つの岩に *マジカルシード* と *ソルトタフィー* があります。
+- ボルトチェンジのわざマシンを拾ったエリアから、線路を越えてまっすぐ東へ進むと、隠された *ブロムヘキシン* が見つかります。
+- モンスターボールの山のやや北東では、隠された *むらさきのかけら* が見つかります。
+- 右下の隅のオアシス周辺では、隠された *オボンのみ*、*ダークボール*、*こだいのどうか* が見つかります。
+- 砂漠の東側、スギラインどうくつの手前に、サボテンと茂みが多いエリアがあります。その近くに隠された *みどりのかけら* が3個あります。
+- まっすぐ左へ進むと、線路の近くに横に広い木の小さな林があります。ここで隠された *あなぬけのヒモ* が見つかります。
+- そこから上そして左の緑の一角には、隠された *みどりのかけら* がもう1個あります。
+- 近くの線路をまっすぐ下へたどると、隠された *ほのおのいし* が見つかります。
+- 上へ進み、スギラインどうくつを過ぎて右の壁沿いに進みます。枯れ木の近くで、隠された *むらさきのかけら* が手に入ります。
+- そこからさらに北、やや左へ進みます。茂みとサボテンのある緑の一角で、隠された *むらさきのかけら* がもう1個見つかります。近くの線路を左へたどると、隠された *ハイパーボール* が見つかります。
+- やや上そして右では、山の麓の石像の頭に隠された *やけどなおし* が、その右の茂みに隠された *おおきなしんじゅ* が見つかります。
+- マップの北東の隅では、隠された *あなぬけのヒモ* と *ヨクアタール* が見つかります。
+- そこから左、丘の下の岩には、隠された *むらさきのかけら* があります。
+- そこから左へ進みます。車両の近くの岩で、隠された *あおいかけら* が見つかります。
+- さらに左へ進み続けます。最後の縦向きの線路の手前の岩に、隠された *ねむけざまし* が入っています。
 
-Phew! That's everything we can grab in the Greater Tourmaline Desert.
+ふう! トルマリン砂漠本体で回収できるものは以上です。
 
-Note that if Taka is with you:
+タカが同行している場合の話をもう1つ。
 
-**Relationship Point Choices**:
-- Talk to Taka in the Tourmaline Desert while he's with you (+1 Taka)
+**好感度の選択肢**:
+- タカの同行中にトルマリン砂漠で話しかける (+1 タカ)
 
-It's also worth noting that Taka has 36 different dialogues, some changing depending on your current location. If you talk to him in any location and he asks if you hate his father, you'll potentially get another point.
+なお、タカには36種類もの会話があり、一部は現在地によって変わります。どこであれ話しかけたときに父を憎んでいるかと尋ねられたら、もう1ポイント得られる可能性があります。
 
-**Relationship Point Choices**:
-- Tell Taka you don't hate Solaris (+1 Taka)
+**好感度の選択肢**:
+- ソラリスを憎んではいないとタカに伝える (+1 タカ)
 
-### Northwest Tourmaline Desert
+### 北西トルマリン砂漠 {#northwest-tourmaline-desert}
 
-Next, we're going to explore the northwest side of the Tourmaline Desert. Thankfully there is only one map this time and it is relatively narrow. Make your way to the northwest side of the greater desert and start following the tracks up. As before, don't enter any of the traincars quite yet.
+次はトルマリン砂漠の北西側を探索します。ありがたいことに今回はマップが1つだけで、しかも比較的細長い形です。砂漠本体の北西側へ向かい、線路を上へたどっていきましょう。これまでどおり、車両にはまだ入らないでください。
 
 !enc(687)
 
-The map:
+マップは次のとおりです。
 
 !img("tourmaline_nw.png")
 
-From bottom to top (ordered roughly) you can find hidden: *Blue Shard*, *Red Shard*, *Green Shard*, *PokeSnax*, *Stardust*, *Fairy Gem*, *Synthetic Seed*, *Red Shard*, *Blue Shard*, *Purple Shard*, *Common Candy*, *Super Potion*, *Max Repel*, *Poke Ball*, *PP Up*, *Water Gem*, *Green Shard*, *Great Ball*, *Ghost Gem*, and *Potion*.
+下から上へ（おおよその順で）、隠された *あおいかけら*、*あかいかけら*、*みどりのかけら*、*ポケスナック*、*ほしのすな*、*ようせいジュエル*、*シンセティックシード*、*あかいかけら*、*あおいかけら*、*むらさきのかけら*、*ふつうのアメ*、*いいキズぐすり*、*ゴールドスプレー*、*モンスターボール*、*ポイントアップ*、*みずのジュエル*、*みどりのかけら*、*スーパーボール*、*ゴーストジュエル*、*キズぐすり* が見つかります。
 
-You'll also notice a few non-hidden items: along the right side you can get a *Relic Copper* and a *Max Ether*. On the left side, you'll be ambushed by a dangerous trainer:
+隠れていないアイテムもいくつかあります。右側沿いでは *こだいのどうか* と *ピーピーリカバー* が手に入ります。左側では危険なトレーナーの奇襲を受けます。
 
 !battle(["Maximus", :HIKER, 0], "Desert Field")
 
-Beyond him, you'll be able to get *TM08 Bulk Up*.
+その先では *わざマシン08 ビルドアップ* が手に入ります。
 
-Note that at the very top of the area we won't be able to move on thanks to an intense sandstorm - this is actually the region's border, so don't worry about trying to pass here as we will not be able to. You'll also notice a cave entrance in the top left corner - this is the Teknite Cave. I am gonna explore here later on, but you can jump to that section if you want to explore it now.
+なお、このエリアの最上部は激しい砂嵐のせいで先へ進めません。ここは実は地方の境界なので、通ろうとしなくて大丈夫です。左上の隅に洞窟の入口も見えます。これがテクナイトどうくつです。ここは後ほど探索しますが、今すぐ見たければその節へ飛んでください。
 
-### Northeast Tourmaline Desert
+### 北東トルマリン砂漠 {#northeast-tourmaline-desert}
 
-Next, we're gonna checkout the final part of the outside desert area. Make your way to the upper right hand corner of the greater desert area we've explored so far.
+次は、砂漠の屋外エリアの最後の部分を見ていきます。ここまで探索してきた砂漠本体の右上の隅へ向かってください。
 
-So, there are also multiple maps going on in the Northeast Tourmaline Desert, but thankfully there are only two and it's pretty easy to tell where you are. If you haven't messed with any oases yet, you'll be on the dirty version, which I will explore first.
+北東トルマリン砂漠にも複数のマップがありますが、ありがたいことに2種類だけで、どちらにいるかも簡単に分かります。まだオアシスに一切触れていなければ「汚れた」版にいるはずなので、まずはそちらを探索します。
 
 !enc(695, nil, nil, "Northeast Tourmaline Desert (Dirty)")
 
-The map:
+マップは次のとおりです。
 
 !img("tourmaline_ne.png")
 
-Roughly from bottom to top, you can find a hidden *Repel*, *Calcium*, *Blue Shard*, *Stardust*, *Purple Shard*, *Pop Rocks*, *Great Ball*, *Red Shard*, *Elixir*, *Purple Shard*, *Blue Shard*, *Tiny Mushroom*, *Poke Ball*, *Shiny Stone*, *Green Shard*, *Pearl*, *Telluric Seed*, and *Rare Bone*.
+おおよそ下から上へ、隠された *むしよけスプレー*、*リゾチウム*、*あおいかけら*、*ほしのすな*、*むらさきのかけら*、*パチパチキャンディ*、*スーパーボール*、*あかいかけら*、*ピーピーエイダー*、*むらさきのかけら*、*あおいかけら*、*ちいさなキノコ*、*モンスターボール*、*ひかりのいし*、*みどりのかけら*、*しんじゅ*、*テルリックシード*、*きちょうなホネ* が見つかります。
 
-At the wasteland at the top you can get *TM36 Sludge Bomb*!
+最上部の荒地では *わざマシン36 ヘドロばくだん* が手に入ります。
 
-With this map fully explored, now we can finally proceed to mess with the oases. Essentially, as explained before, each time you touch a light shard at a mirage, the map will switch to a different one. If you've done this any multiple of three times, the map on the northeast will transform from the dirty map to the clean map. So, go search for three mirages, grab the hidden items on the respective Greater Tourmaline map you land on if you'd like, then return here to explore the Mirage version.
+このマップを回収し切ったら、ようやくオアシスをいじれます。前に説明したとおり、蜃気楼の光のかけらに触れるたび、マップが別のものへ切り替わります。これを3の倍数回行うと、北東のマップが「汚れた」版から「澄んだ」版へ変わります。つまり、蜃気楼を3つ探し、移った先の砂漠本体のマップで欲しい隠しアイテムを回収したうえで、ここへ戻って蜃気楼版を探索するわけです。
 
 !enc(688, nil, nil, "Northeast Tourmaline Desert (Mirage)")
 
-The layout is the mostly same as before, but there are new items. Again roughly from bottom to top, you can find a hidden *Iron*, *Red Shard*, *Green Shard*, *Great Ball*, *PokeSnax*, *Purple Shard*, *Elixir*, *Red Shard*, *Oran Berry*, *Blast Powder*, *Aspear Berry*, *Repel*, *Magical Seed*, *Poke Ball*, and *Custap Berry*. By surfing you can find hidden *Star Piece*, *Full Restore*, and *Dusk Stone*.
+地形はおおむね同じですが、アイテムが新しくなっています。こちらもおおよそ下から上へ、隠された *ブロムヘキシン*、*あかいかけら*、*みどりのかけら*、*スーパーボール*、*ポケスナック*、*むらさきのかけら*、*ピーピーエイダー*、*あかいかけら*、*オレンのみ*、*ばくはつのこな*、*ナナシのみ*、*むしよけスプレー*、*マジカルシード*、*モンスターボール*、*イバンのみ* が見つかります。なみのりを使うと、隠された *ほしのかけら*、*かいふくのくすり*、*やみのいし* も見つかります。
 
-Before we enter the Mirage Tower, there's another thing we can do out here if Taka is not a partner - otherwise, return here later. Surf around the back of the tower. There's a hidden stairs directly behind the tower we can use to get onto the mountainside. Follow this path to get a hidden *Stardust*, *Swift Wing*, and *Blue Shard*.
+しんきろうの塔に入る前に、タカが同行していない場合にできることがもう1つあります。同行中なら後ほど戻ってきてください。塔の裏側へなみのりで回り込みます。塔の真裏に隠し階段があり、これで山肌に上がれます。この道をたどると、隠された *ほしのすな*、*しゅんぱつのハネ*、*あおいかけら* が手に入ります。
 
-You can pet Leafeon here for the Eeveelution petting quest. By defeating the Lv. 100 Exeggutor-Alola in the pot, you can talk to the pot to get the *Dragonium-Z*! There is also a top tier NPC and shop here.
+ここではイーブイの進化形を撫でるクエストのため、リーフィアを撫でられます。壺の中のレベル100のアローラナッシーを倒したあと壺に話しかけると *ドラゴンZ* が手に入ります。ここには最高のNPCと店もあります。
 
 !shop("Marcello's Lemonade", ["Lemonade"])
 
-After buying as much lemonade as you can carry if you'd like, head into the Mirage Tower.
+持てるだけミックスオレを買ったら、しんきろうの塔へ入ります。
 
-## Mirage Tower
+## しんきろうの塔 {#mirage-tower}
 
-Welcome to the Mirage Tower, one of my favorite side areas in the game. We can either climb the tower or access the secret basement. I will go with the basement first.
+しんきろうの塔へようこそ。このゲームでも指折りに気に入っている寄り道エリアです。ここでは塔を登るか、隠し地下へ入るかを選べます。まずは地下から行きます。
 
-To reach the basement, you'll need to smash every mirror along the top wall with Rock Smash. Doing this will hurt your party members, so healing them if you don't have Taka may be smart. Speaking of Taka:
+地下へ行くには、上の壁沿いの鏡をすべて *いわくだき* で割る必要があります。これを行うと手持ちがダメージを受けるので、タカがいない場合は回復しておくのが賢明かもしれません。タカといえば――
 
-**Relationship Point Choices**:
-- Talk to Taka in the Mirage Tower while he's with you (+1 Taka)
+**好感度の選択肢**:
+- タカの同行中にしんきろうの塔で話しかける (+1 タカ)
 
-Anyways, head through the opened door to the basement.
+ともあれ、開いた扉から地下へ向かいます。
 
 !enc(669)
 
 !img("mirage_b1f.png")
 
-This is a dark, mazelike room. To progress you will sorta have to do a clockwise spiral outward, grabbing items as you go. Hidden in the basement you can find a *Super Potion*, 2 *Red Shards*, *Purple Shard*, *Ultra Ball*, *Green Shard*, *Cotton Candy*, *Ghost Gem*, *Great Ball*, and *Heart Scale*.
+ここは暗い迷路のような部屋です。先へ進むには、時計回りに外へ向かって螺旋を描くように進みながら、アイテムを回収していくことになります。地下には *いいキズぐすり*、*あかいかけら* 2個、*むらさきのかけら*、*ハイパーボール*、*みどりのかけら*、*わたあめ*、*ゴーストジュエル*、*スーパーボール*、*ハートのウロコ* が隠されています。
 
-Towards the top of the area, you'll notice a **Mimikyu** that you can battle and catch! Nearby it, you'll find the *Poison Memory* and a hidden *Elemental Seed*.
+エリアの上部には、戦って捕まえられる **ミミッキュ** がいます。その近くでは *ポイズンメモリ* と隠された *エレメンタルシード* が手に入ります。
 
-Return to the Mirage Tower proper. Next, we will climb the tower, solving puzzles as we go! Note that your actions on the block will affect the other, but the blocks won't move if pushed against a barrier. I will put the solutions in invisible text.
+しんきろうの塔の本体へ戻ります。次は塔を登り、道中のパズルを解いていきます。なお、一方のブロックへの操作はもう一方にも影響しますが、障害物に押し当てられたブロックは動きません。解答は隠し文字で載せておきます。
 
-Puzzle 1:
-
-<div class="spoilerDiv">
-  <div class="spoilerText" style="display:none">
-    U3 R2
-  </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Puzzle 1 solution</a>
-</div>
-
-Puzzle 2:
+パズル1:
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    U2 L2 D4 R2
+    上3 右2
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Puzzle 2 solution</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">パズル1の解答を表示</a>
 </div>
 
-Puzzle 3:
+パズル2:
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    D L D3 L4 D R D3 R4 D
+    上2 左2 下4 右2
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Puzzle 3 solution</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">パズル2の解答を表示</a>
 </div>
 
-Puzzle 4:
+パズル3:
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    D3 R U R3 D R D2 R
+    下 左 下3 左4 下 右 下3 右4 下
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Puzzle 4 solution</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">パズル3の解答を表示</a>
 </div>
 
-You'll need to go back the way you came and go up at the fork in the stairs to progress.
-
-Puzzle 5:
-<div class="spoilerDiv">
-  <div class="spoilerText" style="display:none">
-    R5 D3 R2 D3 R L2 U L4 R3
-  </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Puzzle 5 solution</a>
-</div>
-
-To progress from here, go up through the hole in the glass that will be created.
-
-Puzzle 6:
+パズル4:
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    R5 L D6 L3 U4 L D U2
+    下3 右 上 右3 下 右 下2 右
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Puzzle 6 solution</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">パズル4の解答を表示</a>
 </div>
 
-Follow the path back from here... into the Tourmaline Desert once more?
+先へ進むには、来た道を戻り、階段の分岐で上へ進む必要があります。
+
+パズル5:
+<div class="spoilerDiv">
+  <div class="spoilerText" style="display:none">
+    右5 下3 右2 下3 右 左2 上 左4 右3
+  </div>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">パズル5の解答を表示</a>
+</div>
+
+ここから先へ進むには、開いたガラスの穴を上へ抜けます。
+
+パズル6:
+
+<div class="spoilerDiv">
+  <div class="spoilerText" style="display:none">
+    右5 左 下6 左3 上4 左 下 上2
+  </div>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">パズル6の解答を表示</a>
+</div>
+
+ここから道を戻ると……またトルマリン砂漠?
 
 !enc(675, nil, nil, "Northeast Tourmaline Desert?")
 
-So, we can get another legendary here, if you can call it that!
+ここでもう1匹、伝説と呼べるかは微妙なポケモンが手に入ります。
 
-Although you might be tempted to head back into the tower, try heading down from here...
+塔へ戻りたくなるところですが、ここから下へ進んでみてください……
 
-Following this path will lead us to the top of Mirage Tower! Here we can pick up the *Normalium-Z*, *TM04 Calm Mind*, and **Honedge**. Excellent rewards, and I recommend training this thing up right away if one of your team members is falling off, as Aegislash is one of the best Pokemon in this game!
+この道をたどると、しんきろうの塔の最上部に出ます。ここでは *ノーマルZ*、*わざマシン04 めいそう*、そして **ヒトツキ** が手に入ります。素晴らしい報酬です。手持ちの誰かが力不足になってきているなら、これはすぐ育てることをおすすめします。ギルガルドはこのゲーム屈指の強ポケモンです。
 
-That's it for the Mirage Tower for now.
+しんきろうの塔は当面これで終わりです。
 
-## Sugiline Cave
+## スギラインどうくつ {#sugiline-cave}
 
-Next, I'll take us to the Sugiline Cave. Head over to the east side of the greater desert and hug the right wall until you see a massive opening in a dune, then head in.
+次はスギラインどうくつへ向かいます。砂漠本体の東側へ行き、右の壁沿いに進んで砂丘に大きく開いた口が見えたら、中へ入ってください。
 
-As in the other areas:
+他のエリアと同じく――
 
-**Relationship Point Choices**:
-- Talk to Taka while he's with you in the Sugiline Cave (+1 Taka)
+**好感度の選択肢**:
+- タカの同行中にスギラインどうくつで話しかける (+1 タカ)
 
 !enc(651)
 
-Essentially Sugiline Cave has two floors: 1F, and B1F. Falling down a sand vortex on 1F leads you to B1F, but falling down a vortex in B1F brings you all the way back to the beginning of the cave. For this reason, I recommend quick-saving like crazy in here so you don't waste time and repels getting back to where you are.
+スギラインどうくつは実質2層構造で、1階と地下1階があります。1階の砂の渦に落ちると地下1階へ行きますが、地下1階の渦に落ちると洞窟の最初まで戻されます。そのため、ここではこまめにクイックセーブして、元の場所へ戻る時間とむしよけスプレーを無駄にしないことをおすすめします。
 
-On this first map, you can get a hidden *X Sp. Atk*, *Pop Rocks*, *Blue Shard*, and *Ultra Potion*. Drop down the bottom-left vortex first to B1F.
+最初のマップでは、隠された *スペシャルアップ*、*パチパチキャンディ*、*あおいかけら*、*すごいキズぐすり* が手に入ります。まずは左下の渦から地下1階へ落ちてください。
 
-Grab the hidden *Elemental Seed* and *Big Mushroom* and take the ladder to 1F.
+隠された *エレメンタルシード* と *おおきなキノコ* を拾い、はしごで1階へ上がります。
 
-On this map you can get a hidden *Elemental Seed*, *Red Shard*, *Great Ball*, and *Ultra Ball*. Step into the bottom-left most vortex to get a *Max Elixir*. Unfortunately from here we have no choice but to step into the vortex to return to the front of the dungeon, so take the bottom left vortex and follow the path to where we were before.
+このマップでは、隠された *エレメンタルシード*、*あかいかけら*、*スーパーボール*、*ハイパーボール* が手に入ります。一番左下の渦に入ると *ピーピーマックス* が手に入ります。残念ながらここからはダンジョンの入口へ戻る渦に入るしかないので、左下の渦を使い、道をたどって先ほどの場所まで戻ってください。
 
-This time, take the vortex up and slightly right from the pot that contained the Great Ball. In this area of B1F you can find a hidden *Cheri Berry*, *Protein*, and *Ether*. Again, we'll have to jump in a vortex from here and return to the 1F level above.
+今度は、スーパーボールが入っていた壺から上、やや右の渦に入ります。この地下1階の区画では、隠された *クラボのみ*、*タウリン*、*ピーピーエイド* が見つかります。ここでもまた渦に飛び込み、上の1階へ戻ることになります。
 
-This time, take the top right vortex, then climb the ladder in the area you land in. Up here, pick up the *Draco Plate* and hidden *Super Repel*. Again jump into the vortices and make your way back to 1F.
+今度は右上の渦に入り、着いたエリアではしごを登ります。ここでは *りゅうのプレート* と隠された *シルバースプレー* を拾います。また渦に飛び込んで1階へ戻ってください。
 
-Jump in the top left vortex this time. You can find a hidden *PokeSnax* in this room. Void out and return for the final time, in this section of the dungeon, at least!
+今度は左上の渦に入ります。この部屋では隠された *ポケスナック* が見つかります。ここで落ちて戻るのは、少なくともこの区画では最後です。
 
-Finally, jump into the vortex on the left side of the pot. Climb the ladder at the top of the rocky path.
+最後に、壺の左側の渦に飛び込みます。岩の道の上部ではしごを登ってください。
 
-In this next room, you can find a hidden *X Speed* and *Dark Gem*. Be extra careful here, as all vortices but the correct one will immediately yeet you back to the starting point. The correct one is the one in the middle of the top three, so head down it.
+次の部屋では、隠された *スピーダー* と *あくのジュエル* が見つかります。ここは特に注意が必要で、正解以外の渦はすべて即座に開始地点へ飛ばしてきます。正解は上部の3つのうち真ん中なので、そこへ下りてください。
 
-On B1F, be careful to not fall in again and pick up hidden *Telluric Seed*, *Super Potion*, and *Red Shard*, then climb the ladder on the right side.
+地下1階では落ちないよう注意しながら、隠された *テルリックシード*、*いいキズぐすり*、*あかいかけら* を拾い、右側のはしごを登ります。
 
-Grab the hidden *Purple Shard* and proceed into the room on the right. Push the button in the Arceus statue to finish the left section of the cave! Make your way back to the entrance.
+隠された *むらさきのかけら* を拾い、右の部屋へ進みます。アルセウス像のボタンを押すと、洞窟の左側の区画は完了です。入口まで戻ってください。
 
-Next, step into the bottom right vortex in the entry room.
+次は、入口の部屋の右下の渦に入ります。
 
-In this room, you can get a hidden *Carbos*, *Pecha Berry*, and *Blue Shard*. Climb the ladder at the top.
+この部屋では、隠された *インドメタシン*、*モモンのみ*、*あおいかけら* が手に入ります。上部のはしごを登ります。
 
-In this next room, you can find 2 hidden *Elemental Seeds*, *PokeSnax*, and *Green Shard*. Jump into the vortex on the middle of the right side of the room, below a cactus. Pick up a *Link Stone* then void out and return to the previous room.
+次の部屋では、隠された *エレメンタルシード* 2個、*ポケスナック*、*みどりのかけら* が見つかります。部屋の右側の中央、サボテンの下の渦に飛び込みます。*リンクストーン* を拾ったら、落ちて元の部屋へ戻ります。
 
-Next, jump into the middle of the top three vortices. Be careful here as you grab hidden *Ice Heal*, *Antidote*, and *Star Piece*. Climb the ladder on the left side and push the button in the Arceus statue. Return to the front of the dungeon.
+次は、上部の3つの渦のうち真ん中に飛び込みます。ここでは注意しながら、隠された *こおりなおし*、*どくけし*、*ほしのかけら* を拾ってください。左側のはしごを登り、アルセウス像のボタンを押します。ダンジョンの入口へ戻りましょう。
 
-Next, enter the vortex at the very top of the entrance room. Down here you can find a hidden *X Speed* and *PP Up*. Climb the ladder to get a *Magical Seed* and hidden *Star Piece*, then return to the front of the dungeon.
+次は、入口の部屋の最上部の渦に入ります。ここでは隠された *スピーダー* と *ポイントアップ* が見つかります。はしごを登ると *マジカルシード* と隠された *ほしのかけら* が手に入るので、またダンジョンの入口へ戻ります。
 
-Finally, hop down the vortex straight up from the cave's entrance. Here, you can find a hidden *Synthetic Seed*, *Blue Shard*, *Great Ball*, and *Common Candy*.
+最後に、洞窟の入口からまっすぐ上の渦に飛び降ります。ここでは、隠された *シンセティックシード*、*あおいかけら*、*スーパーボール*、*ふつうのアメ* が見つかります。
 
-In the next room, grab a hidden *Genius Wing* and *Exp. Candy XL*, then proceed into the next room. You might wanna save here - all the Garchomp statues can come alive and fight you!
+次の部屋では隠された *ちりょくのハネ* と *けいけんアメXL* を拾い、その次の部屋へ進みます。ここでセーブしておくとよいでしょう。ガブリアスの像がすべて動き出し、襲いかかってくることがあります。
 
 !battle(["Statuary", :GARCHOMP, 0])
 
-While a fast Ice type can one-shot them, they can wear most teams down quickly. Technically you can actually get through this room without having a single battle with very careful movement!
+素早いこおりタイプなら一撃で倒せますが、たいていの編成はあっという間に削られます。実は、慎重に動けばこの部屋を一度も戦わずに抜けることも技術的には可能です。
 
 !enc(661)
 
-Explore this room. You can find 2 hidden *Red Shards*, *Elemental Seed*, *Ultra Ball*, *Great Ball*, *Blast Powder*, *Purple Shard*, and *Iron*. At the top, you can get *TM71 Stone Edge*!
+この部屋を探索します。隠された *あかいかけら* 2個、*エレメンタルシード*、*ハイパーボール*、*スーパーボール*、*ばくはつのこな*、*むらさきのかけら*、*ブロムヘキシン* が見つかります。上部では *わざマシン71 ストーンエッジ* が手に入ります。
 
-Talk to the Arceus statue at the top, and vortices will show up all around. Hop down any one of them to reach Sugiline Ruin B1F.
+上部のアルセウス像に話しかけると、周囲一帯に渦が現れます。どれでもよいので飛び込むと、スギライン遺跡地下1階に着きます。
 
-On this floor, you can find the *Medichamite*, an *Impish Mint*, *Bold Mint*, and 3 *Exp. Candy XL* as well as a hidden *Super Potion*, *Escape Rope*, 2 *Green Shards*, *Dragon Gem*, and *Muscle Wing*.
+この階では *チャーレムナイト*、*わんぱくミント*、*ずぶといミント*、*けいけんアメXL* 3個に加えて、隠された *いいキズぐすり*、*あなぬけのヒモ*、*みどりのかけら* 2個、*ドラゴンジュエル*、*きんりょくのハネ* が手に入ります。
 
-You can also interact with the basins around the area and put in some snax. Head up the ladder, then jump down the corresponding vortex above that basin. You'll be able to battle and catch **Gible**! Very nice. Head out of the dungeon via a nearby vortex and return to the desert.
+このエリアにある水盤を調べて、スナックを入れることもできます。はしごを登り、その水盤の上にある対応した渦に飛び降りてください。**フカマル** と戦って捕まえられます。実に良いですね。近くの渦からダンジョンを出て、砂漠へ戻りましょう。
 
-## Teknite Cave & Teknite Ridge
+## テクナイトどうくつとテクナイト尾根 {#teknite-cave--teknite-ridge}
 
-Next, we're going to take a trip to the Teknite Cave in the northwest corner of the Tourmaline Desert. You can save some time by having Pokemon in your party with Power Gem, a ground-shaking move (TM Bulldoze works), and Tailwind, but we can proceed without these moves by having wild Pokemon use them in battle. Enter the cave.
+次は、トルマリン砂漠の北西の隅にあるテクナイトどうくつへ足を運びます。*パワージェム*、地面を揺らす技（わざマシンの *じならし* で構いません）、*おいかぜ* を覚えたポケモンを連れていくと時間を節約できますが、これらが無くても野生ポケモンにバトル中で使わせれば進めます。洞窟に入りましょう。
 
-As in the other areas:
+他のエリアと同じく――
 
-**Relationship Point Choices**:
-- Talk to Taka while he's with you in the Teknite Cave/Ridge (+1 Taka)
+**好感度の選択肢**:
+- タカの同行中にテクナイトどうくつ／尾根で話しかける (+1 タカ)
 
 !enc(638, nil, nil, "Teknite Cave 1F, 2F, 3F, 4F")
 
-In the first room, grab the hidden *Tamato Berry* then proceed to 2F. In the next, grab the *Mountain Field Readout*, *Dawn Stone*, and hidden *Magical Seed*.
+最初の部屋では隠された *マトマのみ* を拾い、2階へ進みます。次の部屋では *山フィールドの資料*、*めざめいし*、隠された *マジカルシード* を拾います。
 
-You'll notice that the "stones shimmer with light" when you enter. As we know by now that means we have to change the field somehow to proceed - we'll need to transform the Cave Field into Crystal Cavern Field. The only way we can right now is via use of Power Gem - note that wild Carbink can use this move, so if you don't have it on you, you can just encounter one and hope it uses this move. After the cave is transformed, use the red crystal to create a rock smash wall, and proceed to 3F.
+入ると「石が光を帯びて輝いている」のが分かります。ここまで来れば察しがつくとおり、先へ進むにはフィールドを変える必要があります。どうくつフィールドをクリスタルのどうくつフィールドに変えなければなりません。今できる唯一の手段は *パワージェム* です。野生のメレシーもこの技を使えるので、手持ちに無ければ遭遇して使ってくれるのを待つ手もあります。洞窟が変化したら、赤い水晶を使っていわくだき用の壁を作り、3階へ進みます。
 
-Grab the hidden *Purple Shard* then transform the field to Crystal Cavern. Use the green crystal to remove the obstacle. Note that we won't be able to proceed - you'll need to use Bulldoze, Earthquake, Magnitude, or Fissure to switch back to Cave from here. If you don't have these moves, wild Sandslash, Dugtrio, and maybe others should have one of these moves. Once the field is changed and a gem is destroyed to clear a path, move to the top of this room then switch to Crystal Cavern once more. Use the crystal, smash the wall, and proceed to 4F.
+隠された *むらさきのかけら* を拾い、フィールドをクリスタルのどうくつに変えます。緑の水晶を使って障害物を取り除いてください。なお、そのままでは先へ進めません。ここから *じならし*、*じしん*、*マグニチュード*、*じわれ* のいずれかで、どうくつに戻す必要があります。これらの技が無い場合、野生のサンドパンやダグトリオ、あるいは他のポケモンがどれかを持っているはずです。フィールドを変えて宝石を壊し道を開いたら、この部屋の最上部へ移動し、もう一度クリスタルのどうくつに変えます。水晶を使い、壁を割って4階へ進みます。
 
-Switch to Crystal Cavern, then remove the obstacle. Grab the hidden *Iron* and *Potion*. Switch back to Cave and grab a hidden *Burn Heal* at the top and *Mental Herb* at the bottom. Enter the bottom left room to re-enter 3F, grab the hidden *Synthetic Seed*, and proceed to the room on the left.
+クリスタルのどうくつに変えて障害物を取り除きます。隠された *ブロムヘキシン* と *キズぐすり* を拾います。どうくつに戻し、上部で隠された *やけどなおし*、下部で *メンタルハーブ* を拾ってください。左下の部屋に入って3階へ戻り、隠された *シンセティックシード* を拾ったら、左の部屋へ進みます。
 
 !enc(645, nil, nil, "Teknite Cave 3-4F (No Crystals)")
 
 !enc(649, ["Cave"], nil, "Teknite Cave 3-4F (Crystals)")
 
-Surf to a hidden *Repel* unless Taka is with you. Switch to Crystal Cavern Field and use the blue crystal at the bottom to cross the water. Grab a hidden *Magical Seed* and proceed. Grab the *Buginium-Z* and the hidden *Blue Shard*. Return to 4F, this time going through the top left exit.
+タカが同行していなければ、なみのりで隠された *むしよけスプレー* を取りに行けます。クリスタルのどうくつフィールドに変え、下部の青い水晶を使って水を渡ります。隠された *マジカルシード* を拾って先へ進みます。*ムシZ* と隠された *あおいかけら* を回収してください。4階へ戻り、今度は左上の出口から進みます。
 
 !enc(642)
 
-Pushing the strength boulders out of the way, hop across to the bottom left corner to get a hidden *Relic Copper*. Hopping to the top right, you can get a hidden *Health Wing*. Finally, hop to the top left to re-enter Teknite Cave. Grab a hidden *Paralyze Heal* and proceed to the next Teknite Ridge map.
+かいりきの岩を押しのけながら、左下の隅へ飛び移ると隠された *こだいのどうか* が手に入ります。右上へ飛び移ると隠された *たいりょくのハネ* が手に入ります。最後に左上へ飛び移るとテクナイトどうくつに戻れます。隠された *まひなおし* を拾い、次のテクナイト尾根のマップへ進みます。
 
-On this map, you can find a hidden *Green Shard*, *Roseli Berry*, *Potion*, *Escape Rope*, *Quick Ball* as well as 3 *Exp. Candy XL* and *TM75 Swords Dance*. Hop across some rocks to the left to get a hidden *Nugget* and the *Mawilite*!
+このマップでは、隠された *みどりのかけら*、*ロゼルのみ*、*キズぐすり*、*あなぬけのヒモ*、*クイックボール* に加えて、*けいけんアメXL* 3個と *わざマシン75 つるぎのまい* が見つかります。左へ岩を伝って飛び移ると、隠された *きんのたま* と *クチートナイト* が手に入ります。
 
-Return to the 4F map with branching paths, this time going up and right. On this map, fully exploring will require using Tailwind in a battle. This will allow you to now jump three horizontal spaces instead of two! Wild Pidgeot and Talonflame may use this move if you don't have it on you.
+道が分岐する4階のマップへ戻り、今度は上そして右へ進みます。このマップを隅々まで探索するには、バトル中に *おいかぜ* を使う必要があります。これで横方向に2マスではなく3マス跳べるようになります。手持ちに無ければ、野生のピジョットやファイアローが使ってくれるかもしれません。
 
-Hop your way to the next by the entrance to get the *Pidgeotite*. Hopping to the right from here you'll find the *Ice Memory*. Back nearby the entrance, hop slightly up and left to get a hidden *Hyper Potion* in a rock. Hop to the landmass to your right, and grab the hidden *Leppa Berry*. Hugging the top left as much as possible, hop across to the top-left corner of the map. Jump down just one ledge, then go right. Hop to a nearby rock for a hidden *Level Ball*, then grab the *PP Max* at the top.
+入口のそばから次へ飛び移ると *ピジョットナイト* が手に入ります。そこから右へ飛び移ると *アイスメモリ* が見つかります。入口付近へ戻り、やや上そして左へ飛ぶと、岩に隠された *すごいキズぐすり* が手に入ります。右手の陸地へ飛び移り、隠された *ヒメリのみ* を拾います。できるだけ左上寄りに進みながら、マップの左上の隅へ飛び移ります。段差を1つだけ飛び降りて右へ進みます。近くの岩へ飛び移ると隠された *レベルボール* があり、上部では *ポイントマックス* が手に入ります。
 
-Hop back to the central landmass, this time climbing a bit higher and hopping to the right. It's a bit hard to spot, but to proceed, you'll need to hop at the top left corner of the next landmass up and around to the next landmass at the top. Hopping down one ledge, go right and hop up and around. Follow this path to the top of the hill to get a **Rowlet** egg!
+中央の陸地へ飛び戻り、今度は少し高く登ってから右へ飛び移ります。少し見つけにくいのですが、先へ進むには、次の陸地の左上の隅から上そして回り込むように、最上部の陸地へ飛ぶ必要があります。段差を1つ飛び降りて右へ進み、上そして回り込むように飛びます。この道を丘の頂上までたどると **モクロー** のタマゴが手に入ります。
 
-That's it for the Teknite Range, so make your way back to the Tourmaline Desert.
+テクナイト山地はこれで終わりなので、トルマリン砂漠へ戻りましょう。
 
-## 1R253 Scrapyard
+## 1R253廃品置き場 {#r253-scrapyard}
 
-If you have Taka with you and want him to stay with you for more points, conversations, and free heals, save this area for later, as once we get a fair bit in, he will leave our side.
+タカを同行させていて、好感度や会話、無料の回復のためにもう少し一緒にいてほしいなら、このエリアは後回しにしてください。ある程度進んだところで、彼はこちらのもとを離れてしまいます。
 
-As in the other areas:
+他のエリアと同じく――
 
-**Relationship Point Choices**:
-- Talk to Taka while he's with you in the 1R253 Scrapyard (+1 Taka)
+**好感度の選択肢**:
+- タカの同行中に1R253廃品置き場で話しかける (+1 タカ)
 
-Time to proceed to the next story area! You've probably seen a large area surrounded by tons of traincars in the central northern desert - this is our destination. Actually, to start, make your way to the Northwestern Tourmaline Desert to start.
+いよいよ次の物語のエリアへ進みます。砂漠の中央北部で、大量の車両に囲まれた広いエリアを見かけたはずです。そこが目的地です。ただし手始めに、北西トルマリン砂漠へ向かってください。
 
-At the bottom right of this map but before you enter the Greater Tourmaline map, you will find a entrance to a train car. Go through this train car, and you'll emerge in the 1R253 Scrapyard!
+このマップの右下、砂漠本体のマップに入る手前に、車両への入口があります。この車両を抜けると、1R253廃品置き場に出ます。
 
 !enc(663)
 
 !img("scrapyard_main.png")
 
-Towards the bottom of the area you'll see a green train (1) with an open door - getting inside, we can use it to move forward, unless there is a Rock Smash boulder on the track. This puzzle is a pretty fun one in my opinion, so feel free to skip ahead until the next section if you'd like to try to solve it all yourself.
+エリアの下部に、扉が開いた緑の列車 (1) が見えます。乗り込むと前進に使えますが、線路上にいわくだき用の岩があると進めません。個人的にはなかなか面白いパズルなので、自力で解きたければ次の節まで読み飛ばしても構いません。
 
-So, use this train (1) to go forward, pushing a different train onto some vertical tracks. From here, go straight up and into a train car. Follow the path through many different cars until you emerge once more. Smash the rock in front of a train (2), then backtrack through the cars to where we entered.. Going down then left and back up, you can now use the train at the top (2) to go right.
+さて、この列車 (1) で前進し、別の列車を縦の線路へ押し出します。そこからまっすぐ上へ進み、車両に入ります。いくつもの車両を抜ける道をたどると、また外に出ます。列車 (2) の前の岩を割ったら、車両を戻って入ってきた場所まで引き返します。下そして左、また上へ進むと、上部の列車 (2) を使って右へ進めます。
 
-From here, you'll be... railroaded... into going to the right and down. Once you hop down a horizontal ledge look to the right to smash a rock in front of a train (7), then continue down your path. Finally, you'll be spit out in the main area of the scrapyard. If you enter the train cars at the very bottom, you can return to the Greater Tourmaline Desert, so if you need to fly out of here to heal, that's where you'll return.
+そこからは……レールに乗せられるまま……右そして下へ進むことになります。横向きの段差を飛び降りたら右を見て、列車 (7) の前の岩を割り、そのまま道を下ります。最後に廃品置き場の主要エリアに出ます。最下部の車両に入ると砂漠本体へ戻れるので、回復のために「そらをとぶ」で出た場合も、そこへ戻ってくることになります。
 
-Head up and enter the nearby train (3), then hop down the ledge to the left. Smash two rocks below and to the left, in front of trains (4, 5). Continuing left and down, enter the middle train (4). On top of the hill, grab the *Max Repel* and *Steel Memory*, then jump down. Head left around this hill and smash the rock in front of a train (6), then go back down below the hill, and enter the nearest green train to the right (5). This will drop you off near another green train (6), which you can now ride west.
+上へ進んで近くの列車 (3) に入り、左の段差を飛び降ります。下そして左の、列車 (4、5) の前にある岩を2つ割ります。さらに左そして下へ進み、真ん中の列車 (4) に入ります。丘の上で *ゴールドスプレー* と *スチールメモリ* を拾ったら、飛び降ります。この丘の左を回り込んで列車 (6) の前の岩を割り、丘の下へ戻って、右にある一番近い緑の列車 (5) に入ります。これで別の緑の列車 (6) の近くに降ろされ、それに乗って西へ進めます。
 
-From here, go down as far as you can, then head right. We are going to exit this area via the train cars at the bottom. Back on the outside of the scrapyard (see the bottom of the above map), head to the right, and you'll see another traincar entrance to the scrapyard. Use this entrance to re-enter the scrapyard.
+そこからは行ける限り下へ進み、右へ向かいます。このエリアからは下部の車両で出ます。廃品置き場の外に戻ったら（上の地図の下部を参照）、右へ向かうと、廃品置き場へのもう1つの車両の入口が見えます。この入口から廃品置き場に入り直します。
 
-This path will take you to a train (7), which you can now ride all the way left. Once it bumps a train out of the way, go down from here and enter the vertical train (8) to go up to enter a new map!
+この道を進むと列車 (7) に着き、これで一番左まで乗っていけます。列車を1台押しのけたら、そこから下へ進んで縦向きの列車 (8) に入り、上へ進むと新しいマップに入れます。
 
-Grab the hidden *Dire Hit* and *Synthetic Seed* on the map. Enter the horizontal train in the bottom left (9), then climb the hill. Hop down the ledges to climb down the hill. Follow the new path (in red) far to the southwest to get 3 *Exp. Candy XL*, then jump in the nearby train (10) and ride it left. Head back to the top right and take the vertical train (11) for a ride downward!
+このマップでは隠された *クリティカット* と *シンセティックシード* を拾います。左下の横向きの列車 (9) に入り、丘を登ります。段差を飛び降りて丘を下ります。新しい道（赤）を南西へずっとたどると *けいけんアメXL* 3個が手に入るので、近くの列車 (10) に乗って左へ進みます。右上へ戻り、縦向きの列車 (11) に乗って下へ向かいます。
 
-Grab the hidden *Big Mushroom* and enter the nearby train car. Follow the path through these cars until you emerge once more into the outside air.
+隠された *おおきなキノコ* を拾い、近くの車両に入ります。これらの車両を抜ける道をたどると、また外の空の下に出ます。
 
-This area, sometimes referred to as Train Town, is a flying destination thankfully, so feel free to go do preps. If he has been with you so far, Taka leaves your party here as well.
+このエリアは「トレインタウン」と呼ばれることもあり、ありがたいことに「そらをとぶ」の行き先なので、遠慮なく準備に出かけて構いません。ここまで同行していれば、タカもここでこちらのもとを離れます。
 
-Around this area, you can pick up a *Max Repel* as well as hidden *Common Candy*, *Purple Shard*, *Synthetic Seed*, *Aspear Berry*, *Red Shard*, *Poke Ball*, *Purple Shard*, and *PokeSnax*.
+このエリア一帯では、*ゴールドスプレー* に加えて、隠された *ふつうのアメ*、*むらさきのかけら*、*シンセティックシード*、*ナナシのみ*、*あかいかけら*、*モンスターボール*、*むらさきのかけら*、*ポケスナック* が手に入ります。
 
-If Taka is with you, he will take a rest and lie down in a train car on the bottom right side of the area. Talk to Europa before you follow him if you like.
+タカが同行している場合、彼はエリア右下側の車両で横になって休みます。追いかける前に、よければエウロパに話しかけてください。
 
-**Relationship Point Choices**:
-- Tell Europa Taka is your boyfriend (+1 Taka)
+**好感度の選択肢**:
+- タカは恋人だとエウロパに伝える (+1 タカ)
 
-You can talk to the residents of the Train Town and learn about them. In the bottom left train, if you've been to Mirage Tower, you'll see a warp that will bring you there. Handy.
+トレインタウンの住人に話しかけて、それぞれの事情を知ることもできます。左下の列車では、しんきろうの塔を訪れていれば、そこへ通じるワープが見つかります。便利ですね。
 
-Depending on the time of day, Bouffalant Bill will be either outside or in a train car on the upper right side of the area that contains a healing machine. He will sell us some stuff.
+時間帯によって、バッフロンビルはエリア右上側の外か、回復マシンのある車両の中にいます。いろいろ売ってくれます。
 
 !shop("Bouffalant Bill", ["Poke Ball", "Great Ball", "Ultra Ball", "Max Repel", "Escape Rope", "Full Heal", "Ultra Potion"])
 
-In a train car at the top of the area you can access a PC and meet Stephoscope. Talking to her twice after visiting Teknite Ridge, you'll be given the *Houndoominite*. Excellent.
+エリア上部の車両ではパソコンが使え、ステフォスコープに会えます。テクナイト尾根を訪れたあとに2回話しかけると *ヘルガナイト* がもらえます。素晴らしい。
 
-More importantly than all that though... by talking to *him* on the east side of Train Town, we can finally finish *the* quest. You know the one - we started it 5 minutes into the game when the fisherman and his buddy sold us a Pokemon and then stole it from us. We've watched our Pokemon by rights get taken by a guy in the slums, stolen by both the Magma Gang and Aqua Gang, and taken into the possession of an associate of the slimy Seventh Street Pokemon salesman. Next it was stolen by Corin Rouge, who had three of his associates bamboozle us long enough to escape into the desert. We paid the *gold* price for the Pokemon sixteen episodes ago. But now it's time for Corin Rouge to pay the *iron* price by being defeated once and for all.
+しかしそれ以上に重要なのは……トレインタウンの東側で *あの男* に話しかけることで、ついに *あの* クエストに決着をつけられることです。そう、あれです。ゲーム開始5分で釣り人とその相棒にポケモンを売りつけられ、その直後に奪われたところから始まったものです。正当な持ち物であるはずのポケモンは、スラムの男に持ち去られ、マグマ団にもアクア団にも盗まれ、7番街の胡散臭いポケモン売りの仲間の手にも渡りました。次にはコリン・ルージュに盗まれ、仲間3人にこちらを足止めさせて砂漠へ逃げられました。16エピソード前、あのポケモンには *金* の代価を払いました。今度はコリン・ルージュに、完膚なきまでに敗れるという *鉄* の代価を払ってもらう番です。
 
 !battle(["Corin-Rouge", :CORINROUGE, 0], "Desert Field")
 
-This cruel thief has a Z-move and some Pokemon with Desert Field synergy, but they shouldn't be too tough to take out. Just be careful of the sixth, who can easily sweep your team if you aren't careful.
+この非道な盗人はZワザと砂漠フィールドを活かす手持ちを備えていますが、倒すのはさほど難しくないはずです。ただし6匹目には注意してください。油断すると簡単に一掃されます。
 
-By defeating him we can finally get our hands on our legendary weapon: **Magikarp**. I jest, but Gyarados is one of the strongest Pokemon in the game, so it is indeed worth it.
+彼を倒すことで、ついに伝説の武器を手にできます。すなわち **コイキング** です。冗談はさておき、ギャラドスはこのゲーム屈指の強ポケモンなので、実際その価値はあります。
 
-Make your way out of the Train Town via the train car at the bottom. In the next area you can get a hidden *X Sp. Atk* and *X Speed*. You'll notice an entrance to a train car in the top right corner, which is where we'll go to continue the story. For now there are a couple goodies in the scrapyard that we couldn't access before, so I'll get those first.
+最下部の車両からトレインタウンを出ます。次のエリアでは、隠された *スペシャルアップ* と *スピーダー* が手に入ります。右上の隅に車両の入口が見えます。物語を進めるにはそこへ向かうのですが、その前に、これまで入れなかった廃品置き場のお宝がいくつかあるので、先にそちらを回収します。
 
-Down and right from here you can find the *Amulet Coin* and a hidden *Blue Shard*. Left of here you'll find a *Max Repel* and a hidden *Heart Scale* and *Green Shard*. Enter the train at the end of the path, picking up the *Exp. Candy XL* and *Star Piece* in the pit. Climb out via the railroad tracks, and follow the track that this train just took up to get *TM19 Roost*.
+そこから下そして右では *おまもりこばん* と隠された *あおいかけら* が見つかります。その左では *ゴールドスプレー* と、隠された *ハートのウロコ*、*みどりのかけら* が手に入ります。道の突き当たりの列車に入り、くぼみにある *けいけんアメXL* と *ほしのかけら* を拾います。線路づたいに登り、この列車が今たどってきた線路を上へ追っていくと *わざマシン19 はねやすめ* が手に入ります。
 
-Next, head down from here, then left as soon as you're able. Make your way to the top left corner of the area, where you'll now be able to pick up a *Max Elixir*.
+次に、そこから下へ、行けるようになったらすぐ左へ進みます。エリアの左上の隅まで進むと、*ピーピーマックス* を拾えるようになっています。
 
-Now that Taka has left our party, we can grab the goodies that require Surf - notably the Dragonium-Z.
+タカが離れたので、なみのりが必要なお宝、特に *ドラゴンZ* も回収できます。
 
-That wraps up all we can get in the scrapyard, so fly back over to Train Town, exit out the bottom and enter the train car in the top right corner of the next area.
+これで廃品置き場で手に入るものはすべてです。トレインタウンへ飛び戻り、下から出て、次のエリアの右上の隅の車両に入ってください。
 
-Follow the path through a ton of train cars until you emerge... what?
+大量の車両を抜ける道をたどっていくと、その先には……何だこれは?
 
-## Once Upon a Somewhere
+## むかしむかしどこかで {#once-upon-a-somewhere}
 
-You'll find yourself in a new location entirely. Not what you expected, huh?
+まったく新しい場所に出ます。予想外でしょう?
 
 !enc(697)
 
-It seems like this first map is an infinite maze - it essentially is. Try biking in random directions until you see a set of stairs ascending upwards, then take those. It usually takes a minute or so.
+この最初のマップは無限迷路のように見えますが、実質そのとおりです。自転車で適当な方向へ走り回り、上へ続く階段が見えたらそこを上ってください。だいたい1分ほどかかります。
 
-On the next map, you can find a hidden *Green Shard* and *Sitrus Berry*. Proceed into the castle. Here, you'll have to fight some Knights as you proceed.
+次のマップでは、隠された *みどりのかけら* と *オボンのみ* が見つかります。城へ進みます。ここでは進みながら騎士たちと戦うことになります。
 
 !battle(["Xander", :KNIGHT, 0], "Fairy Tale Field")
 
@@ -771,161 +771,161 @@ On the next map, you can find a hidden *Green Shard* and *Sitrus Berry*. Proceed
 
 !battle(["Rylin", :KNIGHT, 0], "Fairy Tale Field")
 
-You'll wake up in a tower. Read the placards at each floor as you go up or down the stairs until you see a pile of books leading out of a window.
+目を覚ますと塔の中にいます。窓の外へ続く本の山が見つかるまで、階段を上り下りしながら各階の掲示を読んでください。
 
-On the exterior of the tower, climb the vines. On the left at the top you'll see the *Dragon's Den Field Readout*. As you head right, Titania will talk to you.
+塔の外壁では、蔦をよじ登ります。上部の左手には *りゅうのあなの資料* が見えます。右へ進むと、ティタニアが話しかけてきます。
 
-**Relationship Point Choices**:
-- Tell Titania you trust her, while you have >= 0 points with her (+1 Titania)
-- Tell Titania you trust her, while you have < 0 points with her (-1 Titania)
-- Tell Titania you don't trust her, while you have >= 0 points with her (-1 Titania)
-- Tell Titania you don't trust her, while you have < 0 points with her (Titania's total becomes *min(0, c + 4)*), where *c* is the current number of points you have with her.
+**好感度の選択肢**:
+- ティタニアの好感度が0以上のときに、信じていると伝える (+1 ティタニア)
+- ティタニアの好感度が0未満のときに、信じていると伝える (-1 ティタニア)
+- ティタニアの好感度が0以上のときに、信じていないと伝える (-1 ティタニア)
+- ティタニアの好感度が0未満のときに、信じていないと伝える（ティタニアの合計が *min(0, c + 4)* になります。*c* は現在の彼女の好感度）
 
-Complicated, but anyways, she'll give you the *Sapphire Bracelets*. Proceed right.
+ややこしいですが、ともあれ *サファイアのブレスレット* がもらえます。右へ進みます。
 
-Grab the hidden *Super Potion*, *Ultra Potion*, and non-hidden *Dragon Fang* in the Belly of the Beast, then prepare for a battle. Depending on your choices, it'll be different.
+「獣の腹の中」で隠された *いいキズぐすり*、*すごいキズぐすり*、そして隠れていない *りゅうのキバ* を拾ったら、バトルに備えてください。選択によって相手が変わります。
 
-If you're on, well, Reshiram Route, you'll get this:
+レシラムルートなら、こうなります。
 
 !battle(["Dragon", :STATRESHIRAM, 0], "Dragon's Den")
 
-Whereas, surprise, if you're on Zekrom Route, you'll get this:
+一方、驚くことに、ゼクロムルートならこうなります。
 
 !battle(["Dragon", :STATZEKROM, 0], "Dragon's Den")
 
-At least now you know why the routes are named as they are. Win your conquest with whatever clever tactics or raw strength you need to slay a dragon, and proceed.
+これで、ルートの名前の由来も分かったはずです。竜を討つのに必要な知略でも力技でも、好きな手で征服を成し遂げ、先へ進みましょう。
 
-Pick up the hidden *Health Wing*, *Revive*, and *Lava Cookie* beyond, and watch the scenes play out at the top of the room.
+その先で隠された *たいりょくのハネ*、*げんきのかけら*、*フエンせんべい* を拾い、部屋の最上部で場面が進むのを見届けます。
 
-Head up at the top to Titania's arena!
+最上部から上へ進むと、ティタニアの闘技場です。
 
-## Alloy Badge
+## アロイバッジ {#alloy-badge}
 
-Before starting the battle, you can jump into the blue hole at the top and go left from here if you want a shortcut to Train Town for some prep - there's a good chance your team won't be good enough for the upcoming gym fight. Anyways, up from here is a hole you can jump into to return to the tower. Along the way back to the gym, you'll even find a *Rare Candy*!
+バトルを始める前に、上部の青い穴に飛び込んで左へ進めば、トレインタウンへの近道になります。準備を整えたければ使ってください。これから戦うジムには、手持ちが力不足である可能性が高いです。ともあれ、そこから上には塔へ戻れる穴があります。ジムへ戻る道中では *ふしぎなアメ* まで見つかります。
 
 !battle(["Titania", :TITANIA1, 0], "Fairy Tale Field")
 
-The Fairy Tale Field boosts Fairy and Dragon moves, along with giving Fire moves a Dragon sub-typing. It also boosts Steel moves and gives them effectiveness on Dragon. Defensively, Steel types already resist Fairy and Dragon, so with the nerf to Fire moves, Titania definitely uses the type best positioned on this field. Instead of Sandstorm, this fight is accompanied by Hail, which allows her Sandslash to outspeed and set up Aurora Veil if it likes. Past that, Empoleon, Excadrill, and Mega Scizor are all very strong steel types with lots of coverage, the latter even having a very nasty Technician, field boosted, priority Bullet Punch, and Excadrill a nasty boosted Smart Strike. Klefki is very annoying as usual thanks to prankster Paralysis on command but also humorously can sweep you with Calm Mind and boosted Draining Kiss to heal. As you'd expect, her Aegislash five levels above the cap with insane boosts on three of its moves is no slouch - bulking up when it uses King's Shield and getting stronger when it attacks, priority or otherwise. On top of this, Excadrill and Aegislash have Magical Seeds, protecting their Pokemon for a turn, lowering your stats if you try to attack them, and allowing them each to set up a +3 Swords Dance. Scary!
+おとぎ話フィールドはフェアリー技とドラゴン技を強化し、さらにほのお技にドラゴンの副タイプを付与します。はがね技も強化し、ドラゴンにも効果があるようにします。守備面では、はがねタイプはもともとフェアリーとドラゴンに耐性があるので、ほのお技が弱体化することも合わせて、ティタニアがこのフィールドで最も有利なタイプを使っているのは間違いありません。この戦いは *すなあらし* ではなく *あられ* を伴い、おかげでサンドパンが上を取って *オーロラベール* を張れるようになっています。それ以外でも、エンペルト、ドリュウズ、メガハッサムはいずれも技範囲の広い強力なはがねタイプで、特に後者は *テクニシャン* とフィールド強化の乗った先制 *バレットパンチ* を、ドリュウズは強化された *スマートホーン* を備えています。クレッフィはいつもどおり厄介で、*いたずらごころ* で好きなときに麻痺を撒いてきますが、笑えることに *めいそう* と強化された *ドレインキッス* での回復で一掃してくることもあります。ご想像のとおり、レベル上限より5高く、3つの技に凄まじい強化が乗ったギルガルドも侮れません。*キングシールド* で守りを固め、先制であれ何であれ攻撃するたびに強くなります。さらにドリュウズとギルガルドは *マジカルシード* を持っており、1ターン身を守り、こちらが攻撃すれば能力を下げ、そのうえで両者とも+3の *つるぎのまい* を積めます。恐ろしい。
 
-There are a good number of strategies that remain for you to use, thankfully. A Pokemon with Protect, Swords Dance, and a move like Earthquake or Brick Break can probably sweep through most of the team with a bit of speed control support as long as they can live a priority attack or two. There are a ton of abilities and moves that allow you to gain Defense, so if you're able to deal with Klefki and Empoleon there may be a working strategy involving going all in on Defense boosts to neutralize her attack boosts and such. There are also some boosts to attacks and abilities: Mystical Fire / Magician and Sparkling Aria / Oceanic Operetta do get boosted here if you want to try to sweep with your starter Delphox or Primarina! Queenly Majesty gives a boost to damage, combine this with its natural ability to cancel out Bullet Punch and Shadow Sneak, and Tsareena may end up being very helpful here. The Magical Seed giving a free turn can also be used by you, with the added bonus of you being able to hard switch in to a contact move to force a stat lower on one of her party members if need be. If you're really stuck, you can literally consider going 6 Magical Seeds held to grant yourself 6 free turns - this is what I did once upon a time to win this fight with a Fairy monotype.
+ありがたいことに、こちらにも有効な戦略はいくつも残されています。*まもる*、*つるぎのまい*、そして *じしん* や *かわらわり* のような技を持つポケモンなら、素早さ補助が少しあり、先制技を1〜2発耐えられる限り、相手のほとんどを薙ぎ払える見込みがあります。防御を上げる特性や技は数多くあるので、クレッフィとエンペルトさえ処理できれば、防御上昇に全振りして相手の攻撃上昇を打ち消す戦略も成立するかもしれません。技や特性にも強化があります。*マジカルフレイム*／*マジシャン*、*うたかたのアリア*／*わだつみのシンフォニア* はここで強化されるので、最初のパートナーのマフォクシーやアシレーヌで一掃を狙うのも手です。*じょおうのいげん* はダメージを上げてくれるうえ、本来の *バレットパンチ* や *かげうち* を無効化する性質と合わせて、アマージョがここでは大いに役立つかもしれません。1ターンの猶予をくれる *マジカルシード* はこちらも使えますし、必要なら接触技へあえて交代して、相手の1匹の能力を下げさせるという追加の利点もあります。本当に手詰まりなら、いっそ6匹全員に *マジカルシード* を持たせて6ターンの猶予を作るのも本気で検討に値します。筆者はかつて、フェアリー単タイプ縛りでこの戦いに勝つのにこれをやりました。
 
-For winning, you'll get the *Alloy Badge*, boosting the level cap to 90. You also get *TM91 Flash Cannon*.
+勝つと *アロイバッジ* が手に入り、レベル上限が90に上がります。*わざマシン91 ラスターカノン* も手に入ります。
 
-Jump down the pit at the top and go left to return to Train Town.
+上部の穴に飛び降り、左へ進むとトレインタウンへ戻れます。
 
-## Reborn Restoration Project 2
+## リボーン復興プロジェクト その2 {#reborn-restoration-project-2}
 
-Pokemon Reborn Episode 17 actually came out and allowed players to get two badges, so there is still a bit of content left in the chapter. First is some optional content.
+ポケモンリボーンのエピソード17は、実際にはバッジを2つ取れる形で公開されたので、この章にはまだ少し内容が残っています。まずは任意の内容から。
 
-**Relationship Point Choices**:
-- Talk to Hardy in Calcenon City after defeating Titania (+1 Hardy)
+**好感度の選択肢**:
+- ティタニアを倒したあとにカルセノンシティでハーディに話しかける (+1 ハーディ)
 
-If you haven't yet gotten the Mega-Z Ring, the quest will now be opened back up if you'd like to complete it now. Head over to the Nightclub and talk to Arclight to get started, then checkout the respective [section of the walkthrough](#mega-z-ring-quest) for steps. 
+まだメガZリングを手に入れていない場合、ここでクエストが再度開放されるので、今のうちに完了できます。ナイトクラブへ向かってアークライトに話しかけると始まるので、手順は[攻略の該当節](/reborn/episode-16/#mega-z-ring-quest)を参照してください。
 
-Even if you have completed this part, fly over to the Nightclub anyways, where you can pet Jolteon for the quest.
+すでに完了している場合でも、ナイトクラブへは飛んでおきましょう。クエストのためにサンダースを撫でられます。
 
-Now that we've defeated Titania, there is one more move tutor in Peridot Ward's Mosswater Market:
+ティタニアを倒したことで、ペリドット区のモスウォーターマーケットに技教え人がもう1人増えています。
 
 !tutor("Mosswater Market Move Tutor: Tim", [["Superpower", "8 Blue Shards"], ["Earth Power", "9 Green Shards"], ["Outrage", "8 Purple Shards"], ["Heat Wave", "9 Red Shards"]])
 
-Head over to the Grand Hall. Now that we've beaten Titania, we can fund another restoration project.
+大ホールへ向かいます。ティタニアを倒したので、もう1つの復興プロジェクトに出資できます。
 
-**Relationship Point Choices**:
-- Fund Project #2 (+1 Adrienn)
+**好感度の選択肢**:
+- 計画その2に出資する (+1 アドリエンヌ)
 
-If you'd like to complete another one, the choices and corresponding references are here:
+もう1つ完了させたい場合、選択肢と対応する参照先は次のとおりです。
 
-- [Affordable Living in Obsidia](#affordable-living-in-obsidia-project) ($60000)
-- [Railnet Reconstruction](#railnet-reconstruction-project) ($100000)
-- [Azurine Nature Center](#azurine-nature-center-project) ($80000)
+- [オブシディアの手頃な住まい](#affordable-living-in-obsidia-project) ($60000)
+- [鉄道網再建](#railnet-reconstruction-project) ($100000)
+- [アズリンネイチャーセンター](#azurine-nature-center-project) ($80000)
 
-## Torrent Badge
+## トレントバッジ {#torrent-badge}
 
-With that out of the way, we can pretty much head right to the next gym. Fly to the Celestinine Cascade and enter the Fiore Mansion. You can pet Vaporeon for that quest, and talk to Julia for some A+ gym advice. Enter the gym room at the back.
+以上を済ませたら、ほぼそのまま次のジムへ向かえます。セレスティナイン滝へ飛び、フィオレ屋敷に入ります。クエストのためにシャワーズを撫でられますし、ジュリアに話しかけると極上のジム攻略助言がもらえます。奥のジムの部屋に入ってください。
 
-### Reshiram Route: Fiore Gym
+### レシラムルート: フィオレジム {#reshiram-route-fiore-gym}
 
-If you're on the Zekrom Route, [jump to the next section](#zekrom-route-fiore-gym).
+ゼクロムルートの場合は[次の節へ飛んでください](#zekrom-route-fiore-gym)。
 
-Unfortunately this gym's layout is super confusing, but I will guide us through. For now, dive down here and then make your way down at the three-way fork. Thankfully this way is very linear, so go straight. Once you have two waterfalls to choose from, go up the left to get a hidden *Heart Scale* then proceed.
+残念ながらこのジムの構造は非常にややこしいのですが、順を追って案内します。まずはここで潜り、三叉路では下へ進みます。ありがたいことにこの道は一本道なので、まっすぐ進んでください。滝を2つから選べるようになったら、左を上って隠された *ハートのウロコ* を拾い、先へ進みます。
 
-Surface in the gym room, then talk to Amaria. Use the warp to return to the front of the gym, for it's time to look for Amaria. You'll need to find her three times.
+ジムの部屋で浮上し、アマリアに話しかけます。ワープでジムの入口へ戻ります。アマリアを探す時間です。3回見つける必要があります。
 
-This time, head right at the underwater fork. When you surface, you can get a hidden *Full Restore*. The path from here is linear. When you surface next, you can get a hidden *Ultra Potion* on the left. Continuing, when you encounter a fork, go down instead of left. Amaria #1 is encountered in the next room, on the left side of the loop.
+今度は水中の分岐で右へ進みます。浮上すると、隠された *かいふくのくすり* が手に入ります。ここからの道は一本道です。次に浮上したら、左で隠された *すごいキズぐすり* が手に入ります。さらに進んで分岐に出たら、左ではなく下へ進みます。次の部屋、環状路の左側でアマリア1人目に会えます。
 
-Continue into the next room in the bottom right. Going right at the fork will lead you to an *Elemental Seed*. Follow the path through, surfacing. Continue to follow the path at the next dive spot. At the fork, go left instead of right.
+右下の次の部屋へ進みます。分岐で右へ進むと *エレメンタルシード* にたどり着きます。道をたどって浮上します。次のダイビング地点でもそのまま道をたどります。分岐では右ではなく左へ進みます。
 
-Exit this next room at the top and surface to get a *Max Revive*. Dive back down, this time exiting the large room in the southeast exit. Exit this room on the northeast side.
+次の部屋は上から出て浮上すると *げんきのかたまり* が手に入ります。また潜り、今度は大きな部屋を南東の出口から出ます。その部屋は北東側から出てください。
 
-Go left at the first fork to reach the *Slowbronite*! Back at the fork head straight up, and then left as soon as you can to surface. There's a hidden *Ability Capsule* at the base of the waterfall. Grab it, then head back up the waterfall and dive down into the room we were just in. In the southeast is Amaria #2. From here, head into the room we previously visited in the southwest corner.
+最初の分岐で左へ進むと *ヤドランナイト* にたどり着きます。分岐へ戻ってまっすぐ上へ進み、行けるようになったらすぐ左へ進んで浮上します。滝の下に隠された *とくせいカプセル* があります。それを拾ったら滝を登り直し、さっきまでいた部屋へ潜ります。南東にアマリア2人目がいます。そこから、先ほど訪れた南西の隅の部屋へ向かいます。
 
-You'll find Amaria #3 in the pocket towards the center of the room.
+部屋の中央寄りのくぼみにアマリア3人目がいます。
 
-**Relationship Point Choices**:
-- Find Amaria #3 and say no (-4 Amaria)
-- Find Amaria #3 and say yes (-3 Amaria)
+**好感度の選択肢**:
+- アマリア3人目を見つけて「いいえ」と答える (-4 アマリア)
+- アマリア3人目を見つけて「はい」と答える (-3 アマリア)
 
-After the scenes that play out here, you'll end up in the Fiore Mansion. Prepare yourself, then return to the gym when ready.
+ここでの場面が終わると、フィオレ屋敷に着きます。準備を整えて、よければジムへ戻ってください。
 
-Take the teleporter to the gym arena and talk to Amaria.
+転送装置でジムの闘技場へ行き、アマリアに話しかけます。
 
-Amaria will ask you if you want to battle in Singles or Doubles - but she'll actually challenge you in the format opposite of what you request!
+アマリアはシングルとダブルのどちらで戦うか尋ねてきますが、実際にはこちらが希望した形式と逆の形式で挑んできます。
 
-**The Singles Team**:
+**シングルの編成**:
 
 !battle(["Amaria", :AMARIA2, 0], "Water Surface")
 
-Surprise, the Water gym leader has a team built for the Water Surface and Underwater Fields. These fields, especially the latter, are pretty suffocating for most Pokemon, drastically slowing them down and allowing Amaria to hit hard with Whirlpool, Dive, etc. On the surface Electric types and maybe Grass types can get away with their usual tricks somewhat, although with Ludicolo, Kingdra, and Swampert you won't have the easiest time sweeping and the group all have lots of coverage, and on Reshiram route only, the latter can Mega Evolve! These three also have Swift Swim, which is always on for these two fields. Wishiwashi doesn't stop schooling, so keep that in mind. Lapras with its seed and Curse can set up on you and is also immune to status conditions on these fields, so you might be in for a shock if it sets up and is unkillable. This team isn't super complicated, just hits hard and is prepared to deal with most of what you throw at it.
+驚くまでもなく、みずタイプのジムリーダーは水面フィールドと水中フィールドに合わせた編成です。これらのフィールド、とりわけ後者は大半のポケモンにとって非常に息苦しく、素早さを大きく削がれる一方、アマリアは *うずしお* や *ダイビング* などで手痛く攻めてきます。水面ではでんきタイプ、場合によってはくさタイプがある程度いつもの動きをできますが、ルンパッパ、キングドラ、ラグラージがいるので一掃は簡単ではなく、全員が広い技範囲を備えています。しかもレシラムルートに限り、ラグラージはメガシンカします。この3匹は *すいすい* も持っており、この2つのフィールドでは常時発動します。ヨワシは魚群を解かないので、その点も頭に入れておいてください。シードと *のろい* を持つラプラスは積んでくるうえ、これらのフィールドでは状態異常も無効なので、積まれたうえに倒せないと驚くことになります。この編成は特別に凝ってはいませんが、火力が高く、こちらの手をおおむね想定できています。
 
-You can consider trying to change up the field - Murkwater Surface can wear down her Pokemon with chip damage... although she can change it back with half of her team's Whirlpool. Icy Surface can allow you to actually use hazards and ignore all the speed shenanigans... although she can change it back with Swampert's Earthquake or two uses of Kingdra's Scald. You can also create a team specifically for one of the fields. Raichu-Alola for example does great on the Water Surface, and Dhelmise can be really powerful Underwater. Any Pokemon with Water Absorb, Dry Skin, or Storm Drain such as Heliolisk and Cradily can also neutralize many of the attacks she will try to use and let you wear out her Pokemon, potentially to Toxic stall or take away her PP with the non-Water type moves. Especially Underwater, your own Water types with Swift Swim can be very useful here as well - if you can get past her Kingdra, your own Ludicolo can be particularly good here. There are lots of strategies that you can use here once you get around how solid her team is in the the Water / Underwater fields.
+フィールドを変えるのも一案です。濁った水面なら削りダメージで相手を消耗させられます……もっとも、手持ちの半数が持つ *うずしお* で戻されてしまいます。氷の水面なら設置技を実際に使えるようになり、素早さのごたごたも無視できます……こちらもラグラージの *じしん* かキングドラの *ねっとう* 2回で戻されます。どれか1つのフィールドに特化した編成を組む手もあります。たとえばライチュウ（アローラのすがた）は水面で大活躍しますし、ダダリンは水中で非常に強力です。*ちょすい*、*かんそうはだ*、*よびみず* を持つポケモン、たとえばエレザードやユレイドルも、相手の技の多くを無力化して消耗させられるので、*どくどく* で粘ったり、みず以外の技のPPを枯らしたりできます。特に水中では、*すいすい* を持つ自分のみずタイプも非常に有用です。キングドラさえ突破できれば、自分のルンパッパは特に強力です。水面と水中で相手の編成がどれほど堅牢かを踏まえたうえでなら、使える戦略はいくらでもあります。
 
-**The Doubles Team**:
+**ダブルの編成**:
 
 !battle(["Amaria", :AMARIA2, 1], "Water Surface")
 
-Amaria's Doubles team is built well around the Water Surface and the spread of Surf to your party while taking little/no damage from the spread to her party members, as Vaporeon and Seismitoad both have Water Absorb. This means your own Water types will potentially have a harder time on this fight than the singles fight. With Primarina'and Blastoise's coverage, Lanturn to check your Electric types and no-status condition Lapras to potentially ruin a sweeper's day thanks to Perish Song and Protect, she has a pretty bulky team that can deal with lots of teams you attempt to use. On Zekrom Route only, her Blastoise can mega-evolve, making its Aura Sphere a bit stronger and raising its stats somewhat.
+アマリアのダブル編成は水面フィールドを軸によく組まれており、*なみのり* の全体攻撃をこちらの手持ちに撒きつつ、シャワーズとガマゲロゲがどちらも *ちょすい* を持つため、味方への巻き込みはほとんど、あるいはまったく問題になりません。つまり、こちらのみずタイプはシングル戦より苦しくなる可能性があります。アシレーヌとカメックスの技範囲、こちらのでんきタイプを抑えるランターン、状態異常無効に加えて *ほろびのうた* と *まもる* でエースを台無しにしかねないラプラスと、相当に硬い編成で、こちらのさまざまな編成に対応してきます。ゼクロムルートに限り、カメックスがメガシンカでき、*はどうだん* がやや強化され、能力もいくらか上がります。
 
-As with the singles fight you may consider transforming the field. Murkwater Surface will deal passive damage to her team members each turn... but Lanturn and Blastoise may change it back with Whirlpool. Icy Field helps alleviate the speed issues, boosts, etc... but can be changed back with Seismitoad's Earthquake. The latter is potentially a good route to go with if you have a fast special-attacking Grass type who can one shot Seismitoad on turn 1. You can also try using the Water Surface or Underwater to your advantage - without Swift Swim on any of her Pokemon, bringing some Swift Swimmers of your own might let you outspeed and crush her with the right setups. Raichu-Alola can do ok on the Water Surface in this fight, and Dhelmise can be really powerful Underwater. Any Pokemon with Water Absorb, Dry Skin, or Storm Drain such as Heliolisk and Cradily can also neutralize many of the attacks she will try to use and let you wear out her Pokemon, potentially to Toxic stall or take away her PP with the non-Water type moves. There are lots of strategies that you can use here once you get around how solid her team is in the the Water / Underwater fields.
+シングル戦と同様、フィールドの変更も検討に値します。濁った水面なら毎ターン相手に受動ダメージを与えられます……ただしランターンとカメックスが *うずしお* で戻すかもしれません。氷のフィールドは素早さや強化の問題を和らげてくれますが……ガマゲロゲの *じしん* で戻されます。1ターン目にガマゲロゲを一撃で倒せる、素早い特殊くさタイプがいるなら後者は良い選択肢になり得ます。水面や水中を逆に利用する手もあります。相手には *すいすい* 持ちが1匹もいないので、こちらが *すいすい* 持ちを連れていけば、うまく組めば上を取って叩き潰せるかもしれません。ライチュウ（アローラのすがた）はこの戦いの水面でもそれなりに戦えますし、ダダリンは水中で非常に強力です。*ちょすい*、*かんそうはだ*、*よびみず* を持つポケモン、たとえばエレザードやユレイドルも、相手の技の多くを無力化して消耗させられるので、*どくどく* で粘ったり、みず以外の技のPPを枯らしたりできます。水面と水中で相手の編成がどれほど堅牢かを踏まえたうえでなら、使える戦略はいくらでもあります。
 
-Regardless of which fight you chose, you'll be rewarded with the *Torrent Badge* and *TM55 Scald*. Sweet.
+どちらの戦いを選んでも、報酬は *トレントバッジ* と *わざマシン55 ねっとう* です。ありがたい。
 
-### Zekrom Route: Fiore Gym
+### ゼクロムルート: フィオレジム {#zekrom-route-fiore-gym}
 
-If you're on the Reshiram Route, [jump to the next section](#episode-18-void-kissed).
+レシラムルートの場合は[次の節へ飛んでください](/reborn/episode-18/#episode-18)。
 
-Unfortunately this gym's layout is super confusing, but I will guide us through. For now, dive down here and then make your way down at the three-way fork. Thankfully this way is very linear, so go straight. Once you have two waterfalls to choose from, go up the left to get a hidden *Heart Scale* then proceed.
+残念ながらこのジムの構造は非常にややこしいのですが、順を追って案内します。まずはここで潜り、三叉路では下へ進みます。ありがたいことにこの道は一本道なので、まっすぐ進んでください。滝を2つから選べるようになったら、左を上って隠された *ハートのウロコ* を拾い、先へ進みます。
 
-Surface in the gym room, then talk to Titania. Use the warp to return to the front of the gym, for it's time to look for Amaria. You'll need to find her three times.
+ジムの部屋で浮上し、ティタニアに話しかけます。ワープでジムの入口へ戻ります。アマリアを探す時間です。3回見つける必要があります。
 
-This time, head right at the underwater fork. When you surface, you can get a hidden *Full Restore*. The path from here is linear. When you surface next, you can get a hidden *Ultra Potion* on the left. Continuing, when you encounter a fork, go down instead of left. Enter the next room.
+今度は水中の分岐で右へ進みます。浮上すると、隠された *かいふくのくすり* が手に入ります。ここからの道は一本道です。次に浮上したら、左で隠された *すごいキズぐすり* が手に入ります。さらに進んで分岐に出たら、左ではなく下へ進みます。次の部屋に入ってください。
 
-Continue into the next room in the bottom right. Going right at the fork will lead you to an *Elemental Seed*. Follow the path through, surfacing. Continue to follow the path at the next dive spot. At the fork, go left instead of right. The next room contains Amaria #1 swimming around the upper loop.
+右下の次の部屋へ進みます。分岐で右へ進むと *エレメンタルシード* にたどり着きます。道をたどって浮上します。次のダイビング地点でもそのまま道をたどります。分岐では右ではなく左へ進みます。次の部屋では、上の環状路をアマリア1人目が泳いでいます。
 
-Exit this room at the top and surface to get a *Max Revive*. Dive back down, this time exiting the large room in the southeast exit. In a loop to the right, you'll find Amaria #2. Exit this room on the northeast side.
+この部屋を上から出て浮上すると *げんきのかたまり* が手に入ります。また潜り、今度は大きな部屋を南東の出口から出ます。右手の環状路にアマリア2人目がいます。その部屋は北東側から出てください。
 
-Go left at the first fork to reach the *Slowbronite*! Back at the fork head straight up, and then left as soon as you can to surface. There's a hidden *Ability Capsule* at the base of the waterfall. Grab it, then head back up the waterfall and dive down into the room we were just in. In the northeast is Amaria #3. From here, head into the room we previously visited in the southwest corner.
+最初の分岐で左へ進むと *ヤドランナイト* にたどり着きます。分岐へ戻ってまっすぐ上へ進み、行けるようになったらすぐ左へ進んで浮上します。滝の下に隠された *とくせいカプセル* があります。それを拾ったら滝を登り直し、さっきまでいた部屋へ潜ります。北東にアマリア3人目がいます。そこから、先ほど訪れた南西の隅の部屋へ向かいます。
 
-Continue through this room and follow the path to the next in the bottom left corner. Exit the next room via the left-most exit, and at the fork in the next room, go right. Surface here, then follow the path at the next dive spot. This is the fork where we started our diving, so enter the door at the top and surface, then leave. Prepare yourself, then return to the gym when ready.
+この部屋を抜けて道をたどり、左下の隅の次の部屋へ進みます。次の部屋は一番左の出口から出て、その次の部屋の分岐では右へ進みます。ここで浮上し、次のダイビング地点で道をたどります。ここが最初に潜った分岐なので、上の扉に入って浮上し、外へ出てください。準備を整えて、よければジムへ戻りましょう。
 
-Take the teleporter to the gym arena and talk to Titania, then to Amaria.
+転送装置でジムの闘技場へ行き、ティタニア、次いでアマリアに話しかけます。
 
-Amaria will ask you if you want to battle in Singles or Doubles.
+アマリアはシングルとダブルのどちらで戦うか尋ねてきます。
 
-**The Singles Team**:
+**シングルの編成**:
 
 !battle(["Amaria", :AMARIA1, 0], "Water Surface")
 
-Surprise, the Water gym leader has a team built for the Water Surface and Underwater Fields. These fields, especially the latter, are pretty suffocating for most Pokemon, drastically slowing them down and allowing Amaria to hit hard with Whirlpool, Dive, etc. On the surface Electric types and maybe Grass types can get away with their usual tricks somewhat, although with Ludicolo, Kingdra, and Swampert you won't have the easiest time sweeping and the group all have lots of coverage, and on Zekrom route only, she'll have a Dragon type Z-move. The first two also have Swift Swim, which is always on for these two fields. Wishiwashi doesn't stop schooling, so keep that in mind. Lapras with its seed and Curse can set up on you and is also immune to status conditions on these fields, so you might be in for a shock if it sets up and is unkillable. This team isn't super complicated, just hits hard and is prepared to deal with most of what you throw at it.
+驚くまでもなく、みずタイプのジムリーダーは水面フィールドと水中フィールドに合わせた編成です。これらのフィールド、とりわけ後者は大半のポケモンにとって非常に息苦しく、素早さを大きく削がれる一方、アマリアは *うずしお* や *ダイビング* などで手痛く攻めてきます。水面ではでんきタイプ、場合によってはくさタイプがある程度いつもの動きをできますが、ルンパッパ、キングドラ、ラグラージがいるので一掃は簡単ではなく、全員が広い技範囲を備えています。しかもゼクロムルートに限り、ドラゴンタイプのZワザを持ってきます。前の2匹は *すいすい* も持っており、この2つのフィールドでは常時発動します。ヨワシは魚群を解かないので、その点も頭に入れておいてください。シードと *のろい* を持つラプラスは積んでくるうえ、これらのフィールドでは状態異常も無効なので、積まれたうえに倒せないと驚くことになります。この編成は特別に凝ってはいませんが、火力が高く、こちらの手をおおむね想定できています。
 
-You can consider trying to change up the field - Murkwater Surface can wear down her Pokemon with chip damage... although she can change it back with half of her team's Whirlpool. Icy Surface can allow you to actually use hazards and ignore all the speed shenanigans... although she can change it back with Swampert's Earthquake or two uses of Kingdra's Scald. You can also create a team specifically for one of the fields - Raichu-Alola for example does great on the Water Surface, and Dhelmise can be really powerful Underwater. Any Pokemon with Water Absorb, Dry Skin, or Storm Drain such as Heliolisk and Cradily can also neutralize many of the attacks she will try to use and let you wear out her Pokemon, potentially to Toxic stall or take away her PP with the non-Water type moves. Especially Underwater, your own Water types with Swift Swim can be very useful here as well - if you can get past her Kingdra, your own Ludicolo can be particularly good here. There are lots of strategies that you can use here once you get around how solid her team is in the the Water / Underwater fields.
+フィールドを変えるのも一案です。濁った水面なら削りダメージで相手を消耗させられます……もっとも、手持ちの半数が持つ *うずしお* で戻されてしまいます。氷の水面なら設置技を実際に使えるようになり、素早さのごたごたも無視できます……こちらもラグラージの *じしん* かキングドラの *ねっとう* 2回で戻されます。どれか1つのフィールドに特化した編成を組む手もあります。たとえばライチュウ（アローラのすがた）は水面で大活躍しますし、ダダリンは水中で非常に強力です。*ちょすい*、*かんそうはだ*、*よびみず* を持つポケモン、たとえばエレザードやユレイドルも、相手の技の多くを無力化して消耗させられるので、*どくどく* で粘ったり、みず以外の技のPPを枯らしたりできます。特に水中では、*すいすい* を持つ自分のみずタイプも非常に有用です。キングドラさえ突破できれば、自分のルンパッパは特に強力です。水面と水中で相手の編成がどれほど堅牢かを踏まえたうえでなら、使える戦略はいくらでもあります。
 
-**The Doubles Team**:
+**ダブルの編成**:
 
 !battle(["Amaria", :AMARIA1, 1], "Water Surface")
 
-Amaria's Doubles team is built well around the Water Surface and the spread of Surf to your party while taking little/no damage from the spread to her party members, as Vaporeon and Seismitoad both have Water Absorb. This means your own Water types will potentially have a harder time on this fight than the singles fight. With Primarina'and Blastoise's coverage, Lanturn to check your Electric types and no-status condition Lapras to potentially ruin a sweeper's day thanks to Perish Song and Protect, she has a pretty bulky team that can deal with lots of teams you attempt to use. On Zekrom Route only, her Blastoise has a Fighting type Z-move, as well.
+アマリアのダブル編成は水面フィールドを軸によく組まれており、*なみのり* の全体攻撃をこちらの手持ちに撒きつつ、シャワーズとガマゲロゲがどちらも *ちょすい* を持つため、味方への巻き込みはほとんど、あるいはまったく問題になりません。つまり、こちらのみずタイプはシングル戦より苦しくなる可能性があります。アシレーヌとカメックスの技範囲、こちらのでんきタイプを抑えるランターン、状態異常無効に加えて *ほろびのうた* と *まもる* でエースを台無しにしかねないラプラスと、相当に硬い編成で、こちらのさまざまな編成に対応してきます。ゼクロムルートに限り、カメックスはかくとうタイプのZワザも備えています。
 
-As with the singles fight you may consider transforming the field. Murkwater Surface will deal passive damage to her team members each turn... but Lanturn and Blastoise may change it back with Whirlpool. Icy Field helps alleviate the speed issues, boosts, etc... but can be changed back with Seismitoad's Earthquake. The latter is potentially a good route to go with if you have a fast special-attacking Grass type who can one shot Seismitoad on turn 1. You can also try using the Water Surface or Underwater to your advantage - without Swift Swim on any of her Pokemon, bringing some Swift Swimmers of your own might let you outspeed and crush her with the right setups. Raichu-Alola can do ok on the Water Surface in this fight, and Dhelmise can be really powerful Underwater. Any Pokemon with Water Absorb, Dry Skin, or Storm Drain such as Heliolisk and Cradily can also neutralize many of the attacks she will try to use and let you wear out her Pokemon, potentially to Toxic stall or take away her PP with the non-Water type moves. There are lots of strategies that you can use here once you get around how solid her team is in the the Water / Underwater fields.
+シングル戦と同様、フィールドの変更も検討に値します。濁った水面なら毎ターン相手に受動ダメージを与えられます……ただしランターンとカメックスが *うずしお* で戻すかもしれません。氷のフィールドは素早さや強化の問題を和らげてくれますが……ガマゲロゲの *じしん* で戻されます。1ターン目にガマゲロゲを一撃で倒せる、素早い特殊くさタイプがいるなら後者は良い選択肢になり得ます。水面や水中を逆に利用する手もあります。相手には *すいすい* 持ちが1匹もいないので、こちらが *すいすい* 持ちを連れていけば、うまく組めば上を取って叩き潰せるかもしれません。ライチュウ（アローラのすがた）はこの戦いの水面でもそれなりに戦えますし、ダダリンは水中で非常に強力です。*ちょすい*、*かんそうはだ*、*よびみず* を持つポケモン、たとえばエレザードやユレイドルも、相手の技の多くを無力化して消耗させられるので、*どくどく* で粘ったり、みず以外の技のPPを枯らしたりできます。水面と水中で相手の編成がどれほど堅牢かを踏まえたうえでなら、使える戦略はいくらでもあります。
 
 
-Regardless of which fight you chose, you'll be rewarded with the *Torrent Badge* and *TM55 Scald*. Sweet.
+どちらの戦いを選んでも、報酬は *トレントバッジ* と *わざマシン55 ねっとう* です。ありがたい。

@@ -20,28 +20,23 @@
     <div id="header_wrap" class="outer">
         <header class="inner">
           <div id="banners">
-            <a id="discord_banner" href="{{ site.discord.url }}">
-              <img src="/assets/images/discord_logo.png" alt="Discord Logo" class="banner-icon">
-              Join the Discord
-            </a>
             {% if site.github.is_project_page %}
               <a id="forkme_banner" href="{{ site.github.repository_url }}">
-                <img src="/assets/images/blacktocat.png" alt="Fork Me Logo" class="banner-icon">
-                View on GitHub
+                <img src="/assets/images/blacktocat.png" alt="GitHub ロゴ" class="banner-icon">
+                GitHubで見る
               </a>
             {% endif %}
             <button id="nightModeToggle">
-              <img src="/assets/images/day.png" alt="Day Mode Icon" class="banner-icon" id="nightModeIcon">
+              <img src="/assets/images/day.png" alt="表示モード切替" class="banner-icon" id="nightModeIcon">
             </button>          
           </div>
           
           <a href = "/"><h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1></a>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
           {% if site.show_downloads %}
             <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
+              <a class="zip_download_link" href="{{ site.github.zip_url }}">このプロジェクトを .zip でダウンロード</a>
+              <a class="tar_download_link" href="{{ site.github.tar_url }}">このプロジェクトを tar.gz でダウンロード</a>
             </section>
           {% endif %}
         </header>
@@ -53,15 +48,15 @@
         {{ content }}
       </section>
     </div>
-    <button onclick="topFunction()" id="toTopButton" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="toTopButton" title="先頭へ戻る">先頭へ</button>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p class="copyright">{{ site.title | default: site.github.repository_name }}（管理: <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>）</p>
         {% endif %}
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+        <p>原文: <a href="https://bigjra.github.io/">BIGJRA's Walkthroughs</a> ／ <a href="https://pages.github.com">GitHub Pages</a> で公開</p>
       </footer>
     </div>
   </body>

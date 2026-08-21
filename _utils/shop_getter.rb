@@ -15,6 +15,7 @@ class ShopGetter
   def generate_shop_markdown(shop_title, shop_items)
     # Creates nokogiri HTML
     doc = Nokogiri::HTML::Document.new
+    doc.encoding = 'UTF-8'
     div = doc.create_element('div', class: 'shop_section')
     doc.add_child(div)
 
@@ -32,7 +33,7 @@ class ShopGetter
     thead.add_child(table_header)
 
     bold = doc.create_element('strong')
-    bold.content = "Shop: #{shop_title}"
+    bold.content = "#{JaNames.ui('Shop:')} #{JaNames.shop(shop_title)}"
     table_header.add_child(bold)
     table_header['class'] = 'table-header'
     table_header['style'] = 'text-align: center;'
@@ -51,24 +52,26 @@ class ShopGetter
       table.add_child(content_row)
 
       # Column 1: Item Name (italicized)
+      # item は価格の検索キーでもあるので、表示用だけを訳す。
+      item_label = JaNames.shop_item(item)
       td_item = doc.create_element('td', style: 'text-align: center')
       if bold_flag
-        td_item.add_child(doc.create_element('strong', content = item))
+        td_item.add_child(doc.create_element('strong', content = item_label))
       else
-        td_item.add_child(doc.create_element('em', content = item))
+        td_item.add_child(doc.create_element('em', content = item_label))
       end
       content_row.add_child(td_item)
 
       # Column 2: Price
       price = price.nil? ? @priceLookup[item] : price
-      price = "$#{price}" if price.is_a?(Integer)
+      price = price.is_a?(Integer) ? "$#{price}" : JaNames.shard_cost(price)
       td_price = doc.create_element('td', style: 'text-align: center')
       td_price.content = price
       raise "Missing price for item #{item}" if price == '' 
       content_row.add_child(td_price)
     end
 
-    html_output = doc.to_html
+    html_output = doc.to_html(encoding: 'UTF-8')
     html_output.split("\n")[1..].join("\n")
   end
 
@@ -163,7 +166,10 @@ class ShopGetter
   def load_price_lookup
     prices = {}
     @itemHash.each do |_symbol, contents|
-      prices[contents[:name].gsub("é", "e")] = contents[:price]
+      # 価格表は英語の道具名で引く。!shop(...) の品目が英語で書かれているため、
+      # :name を訳した後もここは英語のままでなければ引けない。
+      english = contents[:name_en] || contents[:name]
+      prices[english.gsub("é", "e")] = contents[:price]
     end
     prices
   end

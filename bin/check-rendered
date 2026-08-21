@@ -1,0 +1,144 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# 配信されているページを実際に取得し、利用者の目に入る英語を数える。
+#
+# これまでの検査は生マークダウンと用語しか見ていなかったため、
+#   - スポイラーボタンの title 属性 (ツールチップ)
+#   - 出現アイコンの alt 属性
+#   - 技教え人の技名と料金
+#   - ショップで売られるポケモンやわざマシンの名前
+# といった、生成側 で組み立てられる文字列の未訳を取りこぼしていた。
+# 画面に出るものを画面から数えるのが確実なので、こちらでも見る。
+#
+#   bin/check-rendered [--port 4000] [--upto 11]
+
+require 'net/http'
+require 'optparse'
+require 'set'
+
+opts = { port: 4000, upto: 19, postgame: 0, appendices: false, extra: false }
+OptionParser.new do |o|
+  o.on('--port N', Integer) { |v| opts[:port] = v }
+  o.on('--upto N', Integer) { |v| opts[:upto] = v } # 訳し終えた章まで
+  o.on('--postgame N', Integer) { |v| opts[:postgame] = v } # 訳し終えたポストゲームまで
+  o.on('--appendices') { opts[:appendices] = true }
+  o.on('--extra') { opts[:extra] = true } # 目次・全文・404 も見る
+end.parse!
+
+# 意図して英語のまま残すもの。パスワードは入力する文字列なので訳せない。
+# 全一覧は付録の「パスワード全一覧」にあるので、そこから直接読む。
+# (訳文側の `- **name / alias**:` という行から拾う)
+APPENDIX = File.expand_path('../src/_raw/reborn/appendices.md', __dir__)
+PASSWORD_LIST = File.exist?(APPENDIX) ? File.read(APPENDIX).scan(/^- \*\*([^*]+)\*\*:/).flatten
+                                            .flat_map { |s| s.split('/') }.map(&:strip)
+                                            .flat_map { |s| s.scan(/[A-Za-z][A-Za-z'.\- ]{2,}|[A-Za-z]+/) }
+                                            .map(&:strip).to_set
+                                      : Set.new
+PASSWORDS = %w[
+  hardcap easyhms allfieldapp litemode nuzlocke randomizer noitems nodamagerolls
+  nodamageroll fullevs monoelectric mononormal weathermod stopitems leveloffset
+  percentlevel stablweather unrealtime minlevel aishou mono[type]
+  mono monofire monowater monograss monoice monofighting monopoison monoground
+  monoflying monobug monopsychic monorock monoghost monodragon monodark monosteel
+  monofairy monoelectric readme
+  penniless monowoke budewit earlyincu gen5weather gen weather eeveeplease
+].freeze
+
+JAPANESE = /[\p{Hiragana}\p{Katakana}\p{Han}]/
+# 意図して英語のまま残す語。Lv. はゲーム内表記、LCCC は施設名、
+# larr/rarr/amp は HTML 実体参照の残骸。
+KEEP = ['Lv.', 'LCCC', 'larr', 'rarr', 'amp', 'HP', 'VS', 'BP', 'PULSE',
+        'outlier.corruption', 'Reborn'].freeze
+# グリッチシティのバグポケモン風の名前は、文字化けそのものが演出。
+# パッチ側も意図的に英語のまま残しているので、未訳として数えない。
+# グリッチシティのバグポケモン風の名前。文字化けそのものが演出で、パッチ側も
+# 意図的に英語のまま残している。数字混じりなので断片に割れやすい。
+GLITCH = /M1SS1NGO|MIS5INGN0|PKMNPKMNT|OPKMN4X|M3G4|PULSE|0x[0-9A-F]|
+          \A(?:MIS|INGN|NGO|OPKMN|GAT|ZEL|PKMN|X\ PKMN|NGO\ PC|Ng'Mp|Mt\.b)\z/x
+# 訳さないことに意味がある語。
+# NPC / TMX はゲーム内でもそのまま、VS. は万国共通、To C は地図画像の記号、
+# Pok / mon は Pokémon の é で分断された断片、BRUH 等はグリッチ風トレーナー名。
+KEEP_MORE = %w[NPC TMX VS. type monotype To\ C Pok mon mon\ LEGENDS
+               Twitch\ Plays\ Pok BRUHCHAMP BRUH SAWKONDEEZ DEEZ
+               DEEPTHROH DEEP XXX SOLICE GUM min Pokemon\ Showdown FEAR LykosHand
+               Patreon Discord Rejuvenation MDE Scripts btpokemon.rb bttrainers.rb
+               blast-powder-and-crystal-key-goodies SHUTTER\ SYSTEM MODE\ A
+               OTS NGO\ MRMR eaclyincu GMT DOCTYPE\ html].freeze
+# 未訳の章がナビの目次に並ぶのは当然なので数えない
+NAV = /\A(Episode|Postgame|Appendices)/
+# 未踏の地の暗号パズルは英単語の綴りを1文字ずつ記号へ置き換えるものなので、
+# 感情名と暗号文は英語のまま残す必要がある (訳すとパズルが成立しない)。
+EMOTIONS = %w[
+  Shock Anxiety Grief Sorrow Fear Envy Guilt Passion Confidence Emptiness
+  Pride Joy Love Disgust Anger Apathy
+  SHOCK ANXIETY GRIEF SORROW FEAR ENVY GUILT PASSION CONFIDENCE EMPTINESS
+  PRIDE JOY LOVE DISGUST ANGER APATHY
+  GMKR YGFFX
+].freeze
+# テーマチーム名はゲーム本体の TrainerSelect.rb にある英語の固有名で、
+# 日本語化パッチも訳していない (ゲーム内メニューでも英語のまま表示される)。
+# 訳すと攻略の表とゲーム内の選択肢が突き合わせられなくなるので、英語のまま残す。
+# 記号で断片に割れても拾えるよう、本文と同じ切り出し方で断片化しておく。
+THEME_TEAM_NAMES = File.read(File.expand_path('../_utils/common.rb', __dir__))
+                       .scan(/name: (?:'([^']*)'|"([^"]*)")/).flatten.compact
+                       .flat_map { |n| n.scan(/[A-Za-z][A-Za-z'.\- ]{2,}/).map(&:strip) }
+                       .to_set
+
+def fetch(port, path)
+  # Net::HTTP は ASCII-8BIT で返すため、UTF-8 として読み直さないと
+  # 日本語の判定で例外になる。
+  Net::HTTP.get(URI("http://127.0.0.1:#{port}#{path}")).force_encoding('UTF-8')
+rescue StandardError => e
+  warn "取得できません #{path}: #{e.message}"
+  nil
+end
+
+findings = Hash.new { |h, k| h[k] = [] }
+
+paths = (1..opts[:upto]).map { |n| ["ep#{n}", "/reborn/episode-#{n}/"] }
+paths += (1..opts[:postgame]).map { |n| ["post#{n}", "/reborn/postgame-episode-#{n}/"] }
+paths << ['appx', '/reborn/appendices/'] if opts[:appendices]
+if opts[:extra]
+  paths << ['目次', '/reborn/']
+  paths << ['全文', '/reborn/all/']
+  paths << ['404', '/404.html']
+end
+
+paths.each do |label, path|
+  n = label
+  html = fetch(opts[:port], path) or next
+  body = html.split('id="main_content"', 2).last.to_s.split('<footer', 2).first.to_s
+  body = body.gsub(%r{<script.*?</script>}m, '')
+
+  body.scan(/\b(?:title|alt)="([^"]+)"/).flatten.each do |attr|
+    next if attr.empty? || attr.match?(JAPANESE)
+
+    findings["[属性] #{attr}"] << n
+  end
+
+  # 日本語を含む行は丸ごと除外していたため、
+  #   「Celestinine Cascade East 出現ポケモン: なみのり」
+  # のような混在行の未訳を取りこぼしていた。断片単位で見る。
+  body.scan(/>([^<>]+)</).flatten.each do |text|
+    text.scan(/[A-Za-z][A-Za-z'.\- ]{2,}/).each do |fragment|
+      t = fragment.strip
+      next if t.length < 3 || t.match?(NAV) || t.match?(GLITCH)
+      next if PASSWORDS.include?(t) || KEEP.include?(t) || KEEP_MORE.include?(t)
+      next if PASSWORD_LIST.include?(t)
+      next if THEME_TEAM_NAMES.include?(t) || EMOTIONS.include?(t)
+
+      findings[t] << n
+    end
+  end
+end
+
+if findings.empty?
+  puts '画面に出る未訳の英語: なし'
+else
+  total = findings.values.sum(&:length)
+  puts "画面に出る未訳の英語: #{findings.size} 種 / 延べ #{total}"
+  findings.sort_by { |_, v| -v.length }.first(30).each do |text, chapters|
+    puts format('  %3d  %-7s %s', chapters.length, chapters.first, text[0, 72])
+  end
+end

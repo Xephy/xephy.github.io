@@ -1,196 +1,196 @@
-# Episode 19: Pokemon Reborn
+# エピソード19: ポケモンリボーン {#episode-19}
 
-Ok, there is no official episode title for the final chapter of the main game, so I defer to the classic: simply giving it the name of the game.
+本編最終章には公式の章題がないので、ここは定番に倣い、単純に作品名をそのまま章題とします。
 
-Anyways, exit Hardy's gym.
+ともあれ、ハーディのジムを出ましょう。
 
-First, a new default mart inventory update:
+まずは、既定のショップ品揃えの更新です。
 
 !shop("Default Mart (17 Badges)", ["Poke Ball", "Great Ball", "Ultra Ball", "Super Repel", "Max Repel", "Escape Rope", "Full Heal", "Ultra Potion", "Max Potion"])
 
-Now that we've defeated Hardy, there is one final move tutor in Peridot Ward's Mosswater Market:
+ハーディを倒したことで、ペリドット区のモスウォーターマーケットに最後の技教え人が増えています。
 
 !tutor("Mosswater Market Move Tutor: Elder", [["Hydro Cannon", "3 Blue Shards"], ["Frenzy Plant", "3 Green Shards"], ["Blast Burn", "3 Red Shards"], ["Draco Meteor", "9 Red Shards"]])
 
-## Labradorra City
+## ラブラドラシティ {#labradorra-city}
 
-Fly over to Calcenon City. Talk to Hardy on the west side of the city.
+カルセノンシティへ飛びます。街の西側にいるハーディに話しかけてください。
 
-**Relationship Point Choices**:
-- Tell Hardy you're ready to fight Meteor (+1 Hardy)
-- Tell Hardy you're not ready to fight Meteor (-1 Hardy)
+**好感度の選択肢**:
+- メテオ団と戦う準備ができたとハーディに伝える (+1 ハーディ)
+- メテオ団と戦う準備ができていないとハーディに伝える (-1 ハーディ)
 
-**Relationship Point Choices**:
-- Tell Hardy that you'll trust Bennett (+2 Bennett, +2 Laura, +1 Eve, -2 Saphira)
-- Tell Hardy that you won't trust Bennett (+2 Saphira, -2 Bennett, -1 Laura)
+**好感度の選択肢**:
+- ベネットを信じるとハーディに伝える (+2 ベネット, +2 ローラ, +1 イヴ, -2 サファイラ)
+- ベネットを信じないとハーディに伝える (+2 サファイラ, -2 ベネット, -1 ローラ)
 
-After the conversation concludes, you'll regain control. There are more optional conversations we can have for points.
+会話が終わると操作に戻ります。好感度のために交わせる任意の会話がまだあります。
 
-**Relationship Point Choices**:
-- Talk to Charlotte in the story apartment, answering "Yes" (+1 Saphira, -1 Laura)
-- Talk to Charlotte in the story apartment, answering "No" (+1 Laura, -1 Saphira)
-- Talk to Charlotte in the story apartment, pressing 'B' to not answer (+1 Charlotte)
+**好感度の選択肢**:
+- 物語の集合住宅でシャルロットに話しかけ「はい」と答える (+1 サファイラ, -1 ローラ)
+- 物語の集合住宅でシャルロットに話しかけ「いいえ」と答える (+1 ローラ, -1 サファイラ)
+- 物語の集合住宅でシャルロットに話しかけ、Bを押して答えない (+1 シャルロット)
 
-**Relationship Point Choices**:
-- Talk to Julia in Calcenon (+1 Julia)
+**好感度の選択肢**:
+- カルセノンでジュリアに話しかける (+1 ジュリア)
 
-**Relationship Point Choices**:
-- On Reshiram route only, talk to Amaria in Calcenon (-1 Julia)
+**好感度の選択肢**:
+- レシラムルートのみ: カルセノンでアマリアに話しかける (-1 ジュリア)
 
-**Relationship Point Choices**:
-- Talk to *Cal* in *Cal*cenon City (+1 Cal)
+**好感度の選択肢**:
+- *キャル* セノンシティで *キャル* に話しかける (+1 キャル)
 
-**Relationship Point Choices**:
-- Talk to Noel in Calcenon, answering "decide" (+1 Noel)
-- Talk to Noel in Calcenon, answering "feel" (-1 Noel)
+**好感度の選択肢**:
+- カルセノンでノエルに話しかけ「決める」と答える (+1 ノエル)
+- カルセノンでノエルに話しかけ「感じる」と答える (-1 ノエル)
 
-Anyways, once you're ready, talk to Bennett on the west side of the city to finally begin our infiltration into Labradorra City.
+ともあれ、準備ができたら街の西側のベネットに話しかけ、いよいよラブラドラシティへの潜入を始めます。
 
-Grab the hidden *Health Wing*, *Potion*, and *Nugget* here. Prepare yourself for the first battle of this chapter... I wiped here on my first time! So did apparently many of the other beta testers, so don't feel too bad.
+ここで隠された *たいりょくのハネ*、*キズぐすり*、*きんのたま* を拾います。この章の最初のバトルに備えてください……筆者は初回でここで全滅しました! 他のベータテスターの多くも同様だったようなので、あまり気に病まないでください。
 
 !battle(["Kenan", :MeteorAceM, 1])
 
-This battle hopefully makes it apparent how threatening the endgame full of PULSE2 will be. Even though Kenan is just a generic Meteor Ace, expect to see fights like this going forward.
+このバトルで、PULSE2だらけの終盤がどれほど脅威かがはっきり分かるはずです。キーナンはただの一般的なメテオだんエースにすぎませんが、この先はこの水準の戦いが続くと思ってください。
 
-Grab the hidden *Purple Shard* and continue.
+隠された *むらさきのかけら* を拾って先へ進みます。
 
 !battle(["Diana", :MeteorAceF, 1])
 
-Defeat the next Meteor Ace and head up to watch the scene. Before we continue, head back up to the Pokemon Center. Up and to the right is a path to a hidden *Max Repel* and a now-opened building. Talking to Noel inside will get you the *PULSE Readout 10*.
+次のメテオだんエースを倒し、上へ進んで場面を見届けます。先へ進む前に、ポケモンセンターまで戻ってください。上そして右には、隠された *ゴールドスプレー* と、新たに開いた建物へ続く道があります。中のノエルに話しかけると *パルスの資料10* が手に入ります。
 
-**Relationship Point Choices**:
-- Get the PULSE 10 Notes before defeating this PULSE (+1 Eve)
+**好感度の選択肢**:
+- このPULSEを倒す前に PULSE10 の資料を入手する (+1 イヴ)
 
-In the bottom left side of the city, a newly-opened path will lead to a building. Inside is a double battle with Victoria as a partner.
+街の左下側では、新しく開いた道が建物へ続いています。中ではヴィクトリアを相棒にしたダブルバトルです。
 
 !partner(["Victoria", :Victoria2, 2])
 
 !dbattle(["Steven", :MeteorAceM, 0], ["Avril", :MeteorAceF, 0])
 
-Head up and see who's in the back of this building.
+上へ進み、この建物の奥に誰がいるのかを確かめましょう。
 
-**Relationship Point Choices**:
-- Reshiram Route Only: Tell Solaris you wish him dead (+1 Victoria, -1 Cal)
-- Reshiram Route Only: Tell Solaris you don't wish him dead (+1 Cal, -1 Victoria)
+**好感度の選択肢**:
+- レシラムルートのみ: ソラリスに死んでほしいと伝える (+1 ヴィクトリア, -1 キャル)
+- レシラムルートのみ: ソラリスに死んでほしくないと伝える (+1 キャル, -1 ヴィクトリア)
 
-Head outside and go left. Grab the hidden *Full Heal*, and *Max Potion*. Fight the next Meteor.
+外に出て左へ進みます。隠された *なんでもなおし* と *まんたんのくすり* を拾い、次のメテオ団員と戦います。
 
 !battle(["Audrey", :MeteorAceF, 1])
 
-Grab the hidden *Blue Shard* and *Burn Heal* then go up. Enter the nearby open building, and Sigmund will run off. Open the green case in the back to get a *PP Up*. Back outside, go up.
+隠された *あおいかけら* と *やけどなおし* を拾ったら上へ進みます。近くの開いた建物に入るとシグムンドが逃げていきます。奥の緑のケースを開けると *ポイントアップ* が手に入ります。外に戻って上へ進みます。
 
-**Relationship Point Choices**:
-- On Reshiram Route only, tell Amaria you still trust her (+1 Amaria)
-- On Reshiram Route only, tell Amaria you don't trust her (-1 Amaria)
+**好感度の選択肢**:
+- レシラムルートのみ: まだアマリアを信じていると伝える (+1 アマリア)
+- レシラムルートのみ: アマリアを信じていないと伝える (-1 アマリア)
 
-On Reshiram Route Amaria will also join us as a partner for this fight. 
+レシラムルートでは、この戦いにアマリアも相棒として加わります。
 
 !partner(["Amaria", :AMARIA2, 2])
 
 !dbattle(["Arcturus", :NWCultist, 2], ["Angela", :NWCultistF, 1])
 
-On Zekrom Route, you will get this (slightly different) doubles fight instead:
+ゼクロムルートでは、代わりに（少し内容の異なる）このダブルバトルになります。
 
 !dbattle(["Arcturus", :NWCultist, 3], ["Angela", :NWCultistF, 2])
 
 
-After you defeat them, grab the hidden *Revive* and *Ice Heal*. Enter the nearby building. Follow the path inside.
+倒したら、隠された *げんきのかけら* と *こおりなおし* を拾います。近くの建物に入り、中の道をたどってください。
 
 !dbattle(["Deryl", :TechNerd, 3], ["Naoman", :TechNerd, 3])
 
-Head up the ladder prepared for a tough battle.
+厳しい戦いに備えて、はしごを登ります。
 
 !battle(["Zero", :ZEL2, 0])
 
-No field to worry about this time, just a fantastically put together mono-dark team of five with a PULSE monstrosity hiding in the back. Defeating Luna in the Glass Gauntlet should be adequate preparation for Zero's Pokemon: by now the core of Honchkrow, Weavile, and Umbreon should be familiar. Abusing Sucker Punch timing or faster priority to prevent a Honchkrow sweep, surviving a Weavile Ice Shard to kill it with something faster, and using a bulky Steel type to counter Umbreon are good places to start with these. Spiritomb plays a similar role to Umbreon, being bulky and punishing your physical attackers, but isn't too intense and can't do much to your own physical walls. Houndoom has a sash and likes to set up but isn't too bulky, meaning you can dent it then knock it out with some priority if you are able.
+今回はフィールドの心配は不要で、見事に組み上げられたあく単タイプの5匹と、後衛に潜むPULSEの怪物との戦いです。ガラスの連戦でルナを倒していれば、ゼロの手持ちへの備えとしては十分でしょう。ドンカラス、マニューラ、ブラッキーの軸はもう見慣れているはずです。*ふいうち* の読み合いか、より速い先制技でドンカラスの一掃を止めること、マニューラの *こおりのつぶて* を耐えて素早い相手で倒すこと、硬いはがねタイプでブラッキーを受けること――このあたりから始めるとよいでしょう。ミカルゲはブラッキーと似た役割で、硬くこちらの物理アタッカーを咎めてきますが、それほど激しくはなく、こちらの物理受けには大したことができません。ヘルガーはタスキ持ちで積みたがりますが、耐久は高くないので、削ってから先制技で仕留められます。
 
-PULSE Clawitzer makes this fight a bit harder - he'll always send it out last. Although you may have a Pokemon able to withstand one base 120 Special-based attack, one use of any of three of its attacks will double its special attack thanks to Contrary. Another boost will basically allow it to eradicate any Pokemon you have. With its 252 base speed, you will not be able to outspeed it under normal circumstances at all, so it basically steamrolls most teams pretty easily. Therefore, the key to defeating Clawitzer is by taking advantage of the turns you have beforehand fighting Zero's other Pokemon to proactively put yourself into a winning condition. The obvious one you may think of by now is Trick Room - even if you're trading blow for blow, two or three really strong Dragon or Fairy type attacks will be able to knock it out, and you're basically guaranteed to go first in Trick Room, thanks to Clawitzer's insane speed stat. You can also take advantage of the first turn it is out, before it has any boosts, to suppress or change its ability: thereafter all of its moves except Origin Pulse will actually harm it, instead of helping it. Sturdy or Sash + Mirror Coat on a Pokemon with lots of HP may work too, just keep in mind it does have 252 base and max EV's in HP.
+PULSEブロスターがこの戦いを一段と難しくします。彼は必ず最後にこれを繰り出してきます。威力120の特殊技を1発なら耐えられるポケモンがいるかもしれませんが、こいつの3種類の技のいずれか1回で、*あまのじゃく* により特攻が2倍になります。もう一段上がれば、こちらのどのポケモンも消し飛ばせるようになります。素早さ種族値252のため、通常の状況では絶対に上を取れず、たいていの編成は易々と轢き潰されます。したがってブロスターを倒す鍵は、ゼロの他のポケモンと戦っている間のターンを使って、先んじて勝ち筋を作っておくことです。もう思い浮かんでいるであろう分かりやすい答えが *トリックルーム* です。殴り合いになったとしても、強力なドラゴン技かフェアリー技を2〜3発当てれば倒せますし、ブロスターの異常な素早さのおかげで、*トリックルーム* 下ではほぼ確実に先手を取れます。また、能力上昇がまだ無い最初のターンを使って、特性を無効化するか書き換えるのも有効です。そうすれば、*こんげんのはどう* を除くすべての技が、こいつにとって利益ではなく不利益になります。HPの高いポケモンによる *がんじょう* かタスキ＋*ミラーコート* も通るかもしれませんが、相手はHPも種族値252かつ努力値最大である点には注意してください。
 
-Once you defeat Zero, make your way back through the previous building. You'll notice some of the screens on the walls have changed, so keep in mind what they indicate. There are two secret numbers here: one is obvious, the other, not quite as much.
+ゼロを倒したら、先ほどの建物を通って戻ります。壁の画面のいくつかが変わっているので、そこに示された内容を覚えておいてください。ここには秘密の数字が2つあり、1つは明らかですが、もう1つはそれほどでもありません。
 
-Back outside, talk to Taka and Solaris down from here if you are on Zekrom Route if you'd like.
+外に戻り、ゼクロムルートなら、よければそこから下のタカとソラリスに話しかけてください。
 
-**Relationship Point Choices**:
-- On Zekrom Route only, talk to Taka and Solaris after PULSE Clawitzer (+2 Taka)
+**好感度の選択肢**:
+- ゼクロムルートのみ: PULSEブロスターのあとにタカとソラリスに話しかける (+2 タカ)
 
-Anyways, head to the center of the city next. After this scene, head to the bottom-left side of the city. A path to a building at the bottom will now be open. Grab the hidden *Dire Hit* and head in. Talk to Eve in here to get some information about the next PULSE battle we'll be doing if you'd like.
+ともあれ、次は街の中央へ向かいます。この場面のあと、街の左下側へ向かってください。下部の建物への道が開いています。隠された *クリティカット* を拾って中に入ります。中のイヴに話しかけると、よければ次に控えるPULSE戦の情報を教えてくれます。
 
-**Relationship Point Choices**:
-- Talk to Eve about the upcoming PULSE battle (+1 Eve)
+**好感度の選択肢**:
+- 次のPULSE戦についてイヴに聞く (+1 イヴ)
 
-## Scarborough Quest
+## スカーボローのクエスト {#scarborough-quest}
 
-Before continuing, we can actually do one more quick quest. If you don't want to break up the current pace of the Labradorra siege you can come back to this quest, but I recommend it for some potentially helpful rewards for the next fight. Head to the building in the bottom-right side of Labradorra. Inside is a screen that we can use to enter passwords (we found these earlier). The first password is:
+先へ進む前に、実はもう1つ手短なクエストができます。ラブラドラ包囲戦の流れを崩したくなければ後で戻ってきても構いませんが、次の戦いで役立ちそうな報酬があるのでおすすめです。ラブラドラの右下側の建物へ向かいます。中には、以前見つけたパスワードを入力できる画面があります。1つ目のパスワードはこちらです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
     2368
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the first password</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">1つ目のパスワードを表示</a>
 </div>
 
-As a reward for inputting it, we can get the *Swampertite*! Very nice tool for a rain team. The second, harder to spot password is:
+入力の報酬として *ラグラージナイト* が手に入ります。雨パにとって実に有用な一品です。2つ目の、より見つけにくいパスワードはこちらです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
     3862
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the second password</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">2つ目のパスワードを表示</a>
 </div>
 
-For inputting this one, we'll get a Sylveon, holding a *Ribbon Collar*.
+こちらを入力すると、*リボンのくびわ* を持ったニンフィアがもらえます。
 
-Fly over to Jasper Ward and enter the second apartment from the left, on the bottom street. Talk to the attendant here to get access to the above floors. Head all the way to the top floor to get the *Fairium-Z*. Back down on the second floor, enter Apt. 2 and talk to the Gardevoir. Next, give the ribbon collar to Lottie to get the final one: *Department Store Sticker: Eevee*! Quite a sad story but hey, a nice reward.
+ジャスパー区へ飛び、下の通りにある左から2番目の集合住宅に入ります。ここの係員に話しかけると上の階に入れるようになります。最上階まで進むと *フェアリーZ* が手に入ります。2階へ戻って2号室に入り、サーナイトに話しかけます。次に *リボンのくびわ* をロッティに渡すと、最後の1枚 *デパートのシール・イーブイ* が手に入ります。かなり切ない話ですが、報酬は立派です。
 
 !shop("Department Store Penthouse", ["Eviolite", "Leftovers", "Life Orb", "Focus Sash", "Exp. Share", "Weakness Policy", "Sitrus Berry", "Leppa Berry", "Reset Disc- ALL"])
 
-There is also a person up here who will max out a Pokemon's friendship for $5000, which is nice.
+ここには、$5000 でポケモンのなつき度を最大にしてくれる人物もいます。ありがたいですね。
 
-In exchange for a Fresh Water, Soda Pop, and Lemonade, a child here will give you *TM25 Thunder*, *TM14 Blizzard*, and *TM38 Fire Blast*. Sweet.
+*おいしいみず*、*サイコソーダ*、*ミックスオレ* と引き換えに、ここの子どもが *わざマシン25 かみなり*、*わざマシン14 ふぶき*、*わざマシン38 だいもんじ* をくれます。ありがたい。
 
-In the bottom right side of the penthouse, there's a poor employee forced to battle us with a team of six Blissey, and you'll also get 20 *Exp. Candy XL* for each victory. You'll never need to grind anywhere else!
+最上階の右下側には、ハピナス6匹の編成で戦わされている気の毒な従業員がいて、勝つたびに *けいけんアメXL* が20個もらえます。もうレベル上げに他の場所へ行く必要はありません!
 
 !battle(["Priscilla", :BEAUTY, 0])
 
-## LCCC Second Visit
+## LCCC 再訪 {#lccc-second-visit}
 
-With that quest out of the way, fly on back to Labradorra City. Make your way to a building in the bottom left corner, where you will have a brief chat with Lin. Inside the building, climb down the ladder to enter the LCCC once more.
+このクエストを片付けたら、ラブラドラシティへ飛び戻ります。左下の隅の建物へ向かうと、リンと短い会話があります。建物の中ではしごを下り、もう一度 LCCC に入ります。
 
-At the first fork, head up to get a hidden *Elixir* and 7 *Fairy Gems*. Back down from here, go down once you reach the next fork. Along this path you can get a hidden *Revive*, *Max Repel*, and *HP Up*. Talk to the computer here with a Data Chip in your bag to turn it on. Back in the area with the Fairy Gems, talk to the now-lit computer screen to open a door.
+最初の分岐では上へ進むと、隠された *ピーピーエイダー* と *ようせいジュエル* 7個が手に入ります。そこから戻り、次の分岐に着いたら下へ進みます。この道では隠された *げんきのかけら*、*ゴールドスプレー*、*マックスアップ* が手に入ります。*データチップ* をバッグに入れた状態でここのコンピュータに話しかけると起動できます。ようせいジュエルのあったエリアに戻り、明かりのついたコンピュータ画面に話しかけると扉が開きます。
 
-Back in the main hallway, proceed to the right until you come to a four-way junction. Up from here is a hidden *Oran Berry*. Follow the path down from here. By talking to the computer screens here we can follow this path into the Calcenon side of the LCCC. Up the ladder, grab the *Charizardite Y* and open a shortcut to Calcenon City.
+主要な通路に戻り、十字路に着くまで右へ進みます。そこから上には隠された *オレンのみ* があります。そこから下へ道をたどります。ここのコンピュータ画面に話しかけていくと、この道をたどって LCCC のカルセノン側へ行けます。はしごを登り、*リザードナイトY* を回収して、カルセノンシティへの近道を開通させます。
 
-Head back down to the LCCC, this time, going right at the four-way junction. Grab the hidden *Ultra Potion* and *Friend Ball* along the path, and prepare before proceeding. Time for yet another PULSE fight...
+LCCC へ戻り、今度は十字路で右へ進みます。道中で隠された *すごいキズぐすり* と *フレンドボール* を拾い、準備を整えてから先へ進みます。またしてもPULSE戦です……
 
 !dbattle(["Mime", :MIME, 0], ["Sigmund Connal", :FRIEND, 0], "Short-Circuit Field")
 
-What a gut punch on a first playthrough - both in battle, and just in general! Ok, so the good news is: once the PULSE is dead, then you'll be able to 2v1 Sigmund's team. The bad news is, well, as you can see there are quite a lot of shenanigans going on here! The obvious one is that Mr. Mime has Wonder Guard and is Dark/Ghost type. Thankfully we're not in Gen 5 anymore and this means it's weak to Fairy type moves, but just that one type - everything else will clink off of him like an Iron Sword on an Armor Knight. On top of this, it has very high defensive stats and a healing move, meaning even if you are using Fairy-moves they may not be able to easily do the job. What's more: it also has Entrainment, and will almost always use it on Sigmund's ally Pokemon when it gets a chance, meaning Aromatisse and potentially more Pokemon will also get immunity from most moves. Although Mime has no attack power of its own, it just uses Instruct, granting Sigmund's Pokemon two uses total of his various field-boosted Electric, Ghost, and Fairy moves, so you'll likely be worn down and unable to really do anything against either Pokemon on the first attempt!
+初回プレイでは、バトル面でも物語面でも、心に来る一戦です。さて、良い知らせは、PULSEさえ倒せばシグムンドの編成に2対1で挑めることです。悪い知らせは、ご覧のとおり厄介な仕掛けが山ほどあることです。分かりやすいのは、バリヤードが *ふしぎなまもり* を持ち、あく・ゴーストタイプだという点です。ありがたいことにもう第5世代ではないので、フェアリー技には弱くなっていますが、弱点はその1つだけで、他の技はすべて、鎧の騎士に鉄の剣を打ち込んだように弾かれます。加えて防御系の能力が非常に高く回復技も持つので、フェアリー技を使っても簡単には仕留められません。さらに *なかまづくり* も持っており、機会があればほぼ必ずシグムンド側の味方に使うため、フレフワン、場合によってはさらに多くのポケモンまで、大半の技に対して無敵になってしまいます。バリヤード自身に攻撃力はありませんが、*さいはい* を使ってシグムンドのポケモンに、フィールド強化されたでんき技・ゴースト技・フェアリー技を合計2回ずつ撃たせてくるので、初挑戦ではじわじわ削られ、どちらにも手が出せずに終わる可能性が高いでしょう。
 
-In my opinion, your first priority should be taking out the PULSE at all costs. Aromatisse does hit fairly hard, but a couple Pokemon with some special bulk should be able to stick around for a few turns to help you accomplish a win condition. The next issue is actually killing Mime. You can opt for some kind of set-up move or Fake Tears / Screech + Moonblast / Play Rough or similar strategies potentially, and may be able to outpace its healing capacities and bring it down. With the Fairy Gems we picked up and more notably the Fairy Z-Crystal, you can boost these attacks to get extra damage out of them that may do the trick. It is also susceptible to status and weather, so I recommend using Toxic on Mime during the first turn, and Aromatisse the second. Keep a sizable chunk of your team alive from here, and you'll eventually watch both of your opponents perish, then you can focus on taking out the rest of Sigmund's team. Mega Alakazam is particularly threatening as are Raichu and Electivire if you're unprepared for them.
+個人的には、まず何としてもPULSEを倒すことを最優先にすべきだと思います。フレフワンはそれなりの火力がありますが、特殊耐久のあるポケモンを数匹用意すれば、勝ち筋を作るまで数ターン持ちこたえられるはずです。次の課題はバリヤードを実際に倒すことです。何らかの積み技を使うか、*うそなき*／*いやなおと* と *ムーンフォース*／*じゃれつく* のような組み合わせを狙えば、相手の回復力を上回って倒しきれるかもしれません。先ほど拾った *ようせいジュエル* や、とりわけフェアリーのZクリスタルを使えば、これらの技を強化して追加ダメージを稼げるので、それが決め手になり得ます。状態異常と天候も通るので、1ターン目にバリヤード、2ターン目にフレフワンへ *どくどく* を入れるのがおすすめです。ここから手持ちをそれなりに残せれば、やがて相手2匹は倒れるので、そのあとはシグムンドの残りを片付けることに集中できます。メガフーディンは特に脅威ですし、備えがなければライチュウとエレキブルも同様です。
 
-Once you defeat this harrowing PULSE fight, exit the LCCC back into Labradorra. In the house where we previously talked to Eve, you can get the just-a-bit-too-late *PULSE Readout 9*.
+この過酷なPULSE戦を制したら、LCCC を出てラブラドラへ戻ります。以前イヴと話した家では、少しばかり遅すぎる *パルスの資料9* が手に入ります。
 
-Enter the building up and right from the LCCC, where we previously saw Sigmund run away from us. On the ground is a sparkling object, the *Orphanage Key*!
+LCCC から上そして右の建物、以前シグムンドが逃げていった場所に入ります。地面には光るものがあり、*ようごしせつのカギ* です!
 
-Flying over to the Lapis Ward, you can now access the Orphanage once again. Making your way to the top, you'll find the *Alakazite*.
+ラピス区へ飛べば、養護施設にもう一度入れるようになっています。最上部まで進むと *フーディナイト* が手に入ります。
 
-## Labradorra Tournament of Booty
+## ラブラドラ争奪トーナメント {#labradorra-tournament-of-booty}
 
-Make preparations for a sequence of battles, noting that you won't be able to leave during. Fly back to Labradorra once you're ready, and enter the large building at the top-left side of the city.
+連戦に備えて準備してください。途中で外に出ることはできません。準備ができたらラブラドラへ飛び戻り、街の左上側の大きな建物に入ります。
 
-After a scene explaining what we're in for, well, I just hope you're ready. Note that you can buy vending machine drinks and Common Candies here if you need to. Talk to folks around the lobby if you'd like.
+これから何が起きるかを説明する場面のあと、まあ、覚悟しておいてください。なお、ここでは必要なら自動販売機の飲み物と *ふつうのアメ* を買えます。よければロビーの人々にも話しかけてみましょう。
 
-**Relationship Point Choices**
-- Tell Victoria you think the tournament is wrong (+1 Victoria)
-- Tell Victoria you think the tournament is not wrong (-1 Victoria)
+**好感度の選択肢**
+- トーナメントは間違っていると思うとヴィクトリアに伝える (+1 ヴィクトリア)
+- トーナメントは間違っていないと思うとヴィクトリアに伝える (-1 ヴィクトリア)
 
-**Relationship Point Choices**:
-- Talk to Titania again, after she tells you to leave her alone (-1 Titania)
+**好感度の選択肢**:
+- 放っておいてと言われたあとに、もう一度ティタニアに話しかける (-1 ティタニア)
 
-**Relationship Point Choices**:
-- Talk to Noel in the lobby (+1 Noel)
+**好感度の選択肢**:
+- ロビーでノエルに話しかける (+1 ノエル)
 
-Enter your open door, prepare your team, then head in for our first fight. Your partner will be Cal on Reshiram Route or Florinia in Zekrom Route.
+開いている自分の扉に入り、編成を整えたら、最初の戦いへ向かいます。相棒はレシラムルートならキャル、ゼクロムルートならフロリニアです。
 
 !partner(["Cal", :REBORN, 3])
 
@@ -198,40 +198,40 @@ Enter your open door, prepare your team, then head in for our first fight. Your 
 
 !dbattle(["Lumi", :LUMI, 0], ["Eve", :EVE, 0], "Inverse Field")
 
-This is likely your first fight on the Inverse Field - a very straightforward field with two main effects: one, that the Magical Seed will boost all five stats and make you recharge, and two, that the type chart is inverted, explaining some of the weirder moveset choices on your opponents. Take care to think ahead in this fight about inverse type matchups, using TMs on your team if necessary to change up your movesets. Consider abusing the seed yourself if you're having a tough time.
+反転フィールドでの戦いは、おそらくこれが初めてでしょう。効果は主に2つと非常に単純です。1つは *マジカルシード* が5つの能力すべてを上げるかわりに反動で動けなくなること、もう1つはタイプ相性表が反転することです。相手の技構成に奇妙なものが混じっているのはそのためです。この戦いでは反転相性を先読みして考え、必要ならわざマシンで自分の技構成も組み替えてください。苦戦するようなら、こちらもシードを活用するのも手です。
 
-Once you succeed, follow the path to the next area.
+突破したら、道をたどって次のエリアへ進みます。
 
-**Relationship Point Choices**:
-- On Reshiram Route only, talk to Cal, when the player is male (+1 Cal)
+**好感度の選択肢**:
+- レシラムルートかつ主人公が男性の場合のみ: キャルに話しかける (+1 キャル)
 
-Prepare and head in to the next fight. The following two fights are fought in a different order depending on your route. Anyways:
+準備を整えて次の戦いへ向かいます。続く2戦は、ルートによって順番が入れ替わります。ともあれ――
 
-If you're on Reshiram fight, this will be the first battle, on Zekrom, the second.
+レシラムルートならこちらが1戦目、ゼクロムルートなら2戦目になります。
 
 !battle(["Cal", :REBORN, 2], "Dragon's Den")
 
-For our next fight with our pal Cal we get another glimpse at the Dragon's Den field, which boosts his Fire and Dragon moves and weakens your Water and Ice moves. You can still use Rock and Ground type moves to deal with his Fire types, just be careful of a Kommo-o setup and Mega Medicham.
+友であるキャルとの次の戦いでは、りゅうのあなフィールドを再び拝むことになります。彼のほのお技とドラゴン技が強化され、こちらのみず技とこおり技が弱体化します。いわ技やじめん技なら彼のほのおタイプに通るので、ジャラランガの積みとメガチャーレムにだけ気をつけてください。
 
-If you're on Zekrom route, you'll get this fight next, and on Reshiram route you'll get it second:
+ゼクロムルートならこちらが次の戦い、レシラムルートなら2戦目になります。
 
 !battle(["Florinia", :FLORINIA, 3], "Glitch Field")
 
-Ah, the Glitch Field makes a return. Grass and Ground types generally have pretty good synergy with this field, and again you'll see familiar strategies here like Synthetic Seed bulk and Amnesia + Leaf Storm to ignore drops. Ferrothorn and Cradily can actually use their Special Defense as an attacking stat, so be cautious of those things. As with the Terra fight, curate a team specifically for success on Glitch, and you should be able to find a way through this one.
+ああ、グリッチフィールドの再来です。くさタイプとじめんタイプは概してこのフィールドと相性が良く、ここでも *シンセティックシード* による耐久や、能力低下を無視するための *ドわすれ* ＋ *リーフストーム* といった見覚えのある戦法が出てきます。ナットレイとユレイドルは特防を攻撃の能力値として使えるので、そこには注意してください。テラ戦のときと同様、グリッチで勝つことに特化した編成を組めば、突破口は見つかるはずです。
 
-Once you've finished both fights, make your way further into the tournament, where Saphira's gym will become open!
+2戦とも終えたら、トーナメントの奥へ進みます。サファイラのジムが開きます!
 
-## Treasure Badge
+## トレジャーバッジ {#treasure-badge}
 
-Enter Saphira's gym to the left, and talk to her in the corner. Next, familiarize yourself with the gym layout, and get the hidden *Quick Ball*, *Heart Scale*, and *PP Max* within. Proceed to the top of the area and talk to the chest.
+左手のサファイラのジムに入り、隅にいる彼女に話しかけます。次にジムの構造を把握し、中にある隠された *クイックボール*、*ハートのウロコ*、*ポイントマックス* を拾ってください。エリアの最上部へ進み、宝箱に話しかけます。
 
-**Relationship Point Choices**:
+**好感度の選択肢**:
 
-This conversation has tons of branches, so I made a flowchart. Note that all points here are for or against Saphira.
+この会話は分岐が非常に多いので、フローチャートを作りました。なお、ここでの好感度はすべてサファイラに対するものです。
 
 !img("saphira_points.jpg")
 
-Next, you'll have to defend the chest against a barrage of Pokemon and Knight trainers. Between battles, you'll have time to open your bag and heal, so keep your PP and HP fresh so that you can successfully win every battle. As far as strategy to protect the chest, I recommend staying close to the chest at all times, and engaging foes as they come near you. In particular, watch out for Blaziken, who will appear almost out of nowhere from the bottom, and Zoroark, who sneaks in from the top. Some Pokemon will fly, and some will run at you. The Knights are slow, but have 3 Pokemon apiece, so make sure you are able to defeat them. Also, save often!
+次に、押し寄せるポケモンとナイトのトレーナーから宝箱を守らなければなりません。バトルとバトルの間にはバッグを開いて回復する時間があるので、PPとHPを万全に保ち、すべての戦いに勝てるようにしてください。宝箱を守る立ち回りとしては、常に宝箱の近くに留まり、近づいてきた相手を迎え撃つことをおすすめします。特に、下からほぼ突然現れるバシャーモと、上から忍び寄るゾロアークには注意してください。飛んでくるポケモンもいれば、走ってくるポケモンもいます。ナイトは遅いものの1人3匹を連れているので、確実に倒せるようにしておきましょう。あと、こまめにセーブを!
 
 !battle(["Dan", :KNIGHT, 0], "Dragon's Den")
 
@@ -241,774 +241,774 @@ Next, you'll have to defend the chest against a barrage of Pokemon and Knight tr
 
 !battle(["Kalezis", :KNIGHT, 0], "Dragon's Den")
 
-**Relationship Point Choices**:
-- Lose the chest challenge the first time (-1 Saphira)
+**好感度の選択肢**:
+- 宝箱の試練に初回で失敗する (-1 サファイラ)
 
-**Relationship Point Choices**:
-- Exit the gym during the chest challenge (-1 Saphira)
+**好感度の選択肢**:
+- 宝箱の試練の最中にジムを出る (-1 サファイラ)
 
-Once you make it past the challengers in the gauntlet, you'll have one more:
+連戦の挑戦者たちを凌ぎ切ると、もう1戦が控えています。
 
 !battle(["Gargantuan", :Steelix, 1], "Dragon's Den")
 
-This guy is bulkier than normal: the 3252 EV's in HP is not a typo. A move like Endeavor can help solve that problem if you are really stuck here. Alternatively, Subzero Slammer transforms the field into Cave, where you can use Earthquake twice to end the fight.
+こいつは通常より硬く、HPの努力値3252は誤植ではありません。どうしても行き詰まったら、*がむしゃら* のような技が解決策になります。あるいは *ジオフリーズ* でフィールドをどうくつに変え、*じしん* を2回使って決着をつける手もあります。
 
-Once you beat it, the path to Saphira will open. Time for our eighteenth and final gym battle!
+倒すとサファイラへの道が開きます。18回目、そして最後のジム戦です!
 
 !battle(["Saphira", :SAPHIRA, 0], "Dragon's Den")
 
-Saphira's team doesn't pull punches: six of the best Dragon types in the game all boosted by the field effect. The Dragon Dances have double effectiveness, the Fire and Dragon moves have their effects doubled, and Noivern's seed boosts its Special Attack and gives it extra strong Flamethrower. On the defensive side, Dragonite's Multiscale takes away its Dragon weakness and all six of her Pokemon have 1.3x defense, on top of weakening your Ice moves. Two Sashes and Multiscale also make it near-impossible to one shot her Pokemon, as well. Garchomp will outspeed your team thanks to its Scarf, and not a single Pokemon is a slacker that will let you easily set up on it.
+サファイラの編成は容赦がありません。ゲーム屈指のドラゴンタイプ6匹が、そろってフィールド効果で強化されています。*りゅうのまい* の効果は2倍、ほのお技とドラゴン技の効果も2倍、オンバーンのシードは特攻を上げ、極めて強力な *かえんほうしゃ* を撃たせます。守備面では、カイリューの *マルチスケイル* がドラゴン弱点を打ち消し、6匹全員が防御1.3倍、そのうえこちらのこおり技は弱体化します。タスキ2個と *マルチスケイル* により、相手を一撃で倒すこともほぼ不可能です。ガブリアスは *こだわりスカーフ* でこちらの上を取ってきますし、悠々と積ませてくれるような手抜きの1匹もいません。
 
-Since Dragon is super effective against Dragon, you can also take advantage of the field and try to beat her with your own Dragon types. A single Dragon Dance boost can often turn one of your Pokemon into a sweeper, and with the help of one layer of Stealth Rocks, Multiscale and Sashes will be broken, allowing you a clean sweep. Trick Room is helpful as always, as her Dragons are all pretty fast, so a slower Pokemon with Dragon moves could be the trick. You can also change the field to cave to wear her down with Rock moves, if you'd prefer.
+ドラゴンはドラゴンにこうかばつぐんなので、フィールドを活かしてこちらのドラゴンタイプで勝ちにいくこともできます。*りゅうのまい* を1回積むだけで自分のポケモンがエースに化けることも多く、*ステルスロック* を1層撒いておけば *マルチスケイル* とタスキが潰れ、きれいな一掃が狙えます。彼女のドラゴンは全員そこそこ速いので、*トリックルーム* も例によって有効で、ドラゴン技を持つ遅いポケモンが決め手になり得ます。お好みなら、フィールドをどうくつに変えていわ技で削り倒す手もあります。
 
-Once you win, head down to the chest to get the *Treasure Badge* and *TM02 Dragon Claw*! That makes 18 badges and all 100 (+9) TMs. The cap also becomes Lv. 100!
+勝ったら宝箱まで下りて *トレジャーバッジ* と *わざマシン02 ドラゴンクロー* を回収します。これでバッジ18個、わざマシンも100（+9）本すべてが揃いました。レベル上限も100になります!
 
-## Escaping the Tournament
+## トーナメントからの脱出 {#escaping-the-tournament}
 
-Talk to Florinia back in the lobby, in the top right corner. After a long scene, Terra will delete your fonts.
+ロビーに戻り、右上の隅のフロリニアに話しかけます。長い場面のあと、テラがフォントを消去してきます。
 
 !battle(["T3RR4", :TERRA, 1], "Glitch Field")
 
-First of all... the fonts are gone! Better hope you know which moveslot contains which move. Anyways, its the return of Terra's epic meme team, this time unshackled by the mono-ground restriction. Her Excadrill, Quagsire and Garchomp work as before basically. Chansey actually can attack on Glitch Field, and Porygon-Z likes to get an omniboost with its Z-Conversion. Then you have FEAR Donphan cleverly hiding its level behind the lack of fonts. 
+まず何より……フォントが消えています! どの技欄にどの技が入っているか、覚えていることを祈りましょう。ともあれ、テラの伝説的なネタ編成の再来です。今回はじめん単タイプの縛りから解き放たれています。ドリュウズ、ヌオー、ガブリアスの動きは基本的に以前と同じです。ラッキーはグリッチフィールドでは実際に攻撃でき、ポリゴンZは *Zテクスチャー* で全能力を上げたがります。そしてフォントが無いのをいいことに、自分のレベルを巧妙に隠したFEARドンファンまでいます。
 
-Once you beat M3G4 T3RR4 once more, exit the tournament building via the path in the top left.
+M3G4 T3RR4 をもう一度倒したら、左上の道からトーナメント会場を出ます。
 
-Some routes have a scene that plays here. Either way, you can now pet Sylveon for the quest. In fact, this is the last of the Eeveelutions, so if you've pet all of them so far, you can fly over to Spinel Town and talk to a girl in the right apartment building to get a *Choice Scarf* and the password *eeveeplease*.
+ルートによってはここで場面が入ります。いずれにせよ、クエストのためにニンフィアを撫でられるようになります。しかもこれがイーブイの進化形の最後なので、ここまで全員を撫でていれば、スピネルタウンへ飛んで右の集合住宅の少女に話しかけると *こだわりスカーフ* とパスワード *eeveeplease* がもらえます。
 
-Fly back to Victory Road. Inside the Pokemon Center, talk to an NPC who will send us on a quest. He'll give us the *Spirit Tracker*.
+チャンピオンロードへ飛び戻ります。ポケモンセンターの中でNPCに話しかけると、クエストを頼まれます。*スピリットトラッカー* をくれます。
 
-Before we enter Victory Road, there's actually one more tutor that we now have access to. Fly over to the Grand Hall and talk to the guy to your right.
+チャンピオンロードに入る前に、実はもう1人、新たに利用できる技教え人がいます。大ホールへ飛び、右手の男に話しかけてください。
 
 !tutor("Move Tutor Lykos", [["Celebrate", "Free"], ["Happy Hour", "Free"]])
 
-Fun fact: this NPC was put in the game in honor of forum user LykosHand, who frequently wishes users a happy birthday! I have probably received 5 or 6 of these messages to date; they always make me celebrate. Thanks, Lykos.
+余談ですが、このNPCは、利用者の誕生日をよく祝ってくれるフォーラム利用者 LykosHand に敬意を表して実装されたものです。筆者もこれまでに5〜6回はそのメッセージを受け取っていて、そのたびに祝いたい気持ちになります。ありがとう、リュコス。
 
-With all 18 badges, there is one more Default Mart update as well:
+バッジ18個が揃ったことで、既定のショップ品揃えももう一度更新されます。
 
 !shop("Default Mart (18 Badges)", ["Poke Ball", "Great Ball", "Ultra Ball", "Super Repel", "Max Repel", "Escape Rope", "Full Heal", "Hyper Potion", "Ultra Potion", "Max Potion", "Full Restore", "Revive"])
 
-## Victory Road
+## チャンピオンロード {#victory-road}
 
-Fly on back, and head into the Victory Road.
+飛び戻って、チャンピオンロードに入ります。
 
 !enc(783, nil, nil, "Victory Road (Entrance & Hubs)")
 
-### Logic Puzzle 1
+### 論理パズル1 {#logic-puzzle-1}
 
-In the first room, you can get a hidden *Hyper Potion*, *HP Up*, and *Big Nugget*.
+最初の部屋では、隠された *すごいキズぐすり*、*マックスアップ*、*でかいきんのたま* が手に入ります。
 
-Enter the next room at the top. You'll notice a flashing sound and animation when you walk in this room - this indicates that there are still spirits on this map that we can fight. We will do the spirit fighting itself in a bit.
+上部の次の部屋に入ります。この部屋に入ると音と演出が光ります。これは、このマップにまだ戦える *さまよえるたましい*（以降「霊」と表記します）がいることを示しています。霊との戦い自体は少し後で扱います。
 
-Head up the stairs to the right and pick up the hidden *Protein*. Talk to the map at the top of the hill to get a sneak peek on what, and who, awaits us on the right side of the room. When you're ready, push the nearby boulder onto the pressure pad. Head down the stairs, dodging Blake's Icicle Crash attacks as you go, then head to the top left of the room. Talk to the map here for another sneak peek at the rest of this large room, then enter the next room at the top.
+右の階段を上がり、隠された *タウリン* を拾います。丘の上の地図に話しかけると、この部屋の右側に何が、そして誰が待ち受けているかを先に覗けます。準備ができたら、近くの岩を圧力板の上へ押してください。階段を下り、ブレイクの *つららおとし* をかわしながら進み、部屋の左上へ向かいます。ここの地図に話しかけると、この広い部屋の残りも先に覗けます。上部の次の部屋へ進んでください。
 
-Around the outsides of this room, you can find a hidden *Ice Gem* and *Blue Shard*. By sneaking around the bottom side of the room, you'll find the first of the spirits, who we can optionally fight. I won't post detailed strategy notes for these fights: use your knowledge of the fields and the Pokemon in your roster to grasp victory!
+この部屋の外周では、隠された *こおりのジュエル* と *あおいかけら* が見つかります。部屋の下側を忍び歩くと、最初の霊が見つかり、任意で戦えます。これらの戦いについては詳しい攻略は載せません。フィールドの知識と手持ちのポケモンで勝利をつかんでください!
 
 !battle(["Diana", :SPIRITF, 0], "Holy Field")
 
-Defeating these spirits as we find them will allow us to obtain some decent rewards later on.
+見つけた霊を倒していくと、後ほど相応の報酬が得られます。
 
-Anyways, to progress the story, talk to the machine in the upper left corner. We'll learn about our next task: Victory Road's first gem logic puzzle. You could use Pen & Paper to solve these - I find that a spreadsheet works the best for me. You can download my go-to logic puzzle [spreadsheet](..\assets\vr_logic_puzzle_sheets.xlsx). I will provide each solution as well as explain how logically to reach them.
+ともあれ、物語を進めるには左上の隅の機械に話しかけます。次の課題が分かります。チャンピオンロードで最初の宝石の論理パズルです。紙と鉛筆で解いても構いませんが、筆者には表計算ソフトが一番合っています。愛用の論理パズル用[スプレッドシート](..\assets\vr_logic_puzzle_sheets.xlsx)を配布しておきます。各解答に加えて、論理的にそこへたどり着く筋道も説明します。
 
-The clues this round are:
+今回の手がかりは次のとおりです。
 
-1. No two crystals share the same quality.
-2. The Hardness of Ruby is 7.
-3. Ruby is larger than Amethyst, but it is not the largest.
-4. Amethyst's Purity is 'Middling.
-5. The 'Pure' gem is Medium-sized.
-6. Emerald is less pure than Ruby, but more pure than Sapphire.
-7. The smallest gem is also the softest.
-8. Sapphire's Hardness is less than Emerald's Hardness.
-9. The largest gem is the least pure.
+1. 同じ特性を共有する宝石は2つとない。
+2. ルビーの硬度は7である。
+3. ルビーはアメジストより大きいが、最も大きくはない。
+4. アメジストの純度は「中程度」である。
+5. 「純粋」な宝石はサイズが「中」である。
+6. エメラルドはルビーより純度が低く、サファイアより純度が高い。
+7. 最も小さい宝石は、最も柔らかい宝石でもある。
+8. サファイアの硬度はエメラルドの硬度より低い。
+9. 最も大きい宝石は、最も純度が低い。
 
-So, we can get to work. The [spreadsheet](..\assets\vr_logic_puzzle_sheets.xlsx) can help you with this process.
+では取りかかりましょう。この作業には[スプレッドシート](..\assets\vr_logic_puzzle_sheets.xlsx)が役立ちます。
 
-Some of these hints are straightforward, but there are a few things that might not be as obvious here:
+手がかりの中には素直なものもありますが、ここではそれほど自明でない点もいくつかあります。
 
-- From Clue 3, we notice that Ruby is larger than Amethyst, hence Ruby cannot be size 5, and Amethyst cannot be size 8. Since Ruby is not the largest, Ruby also cannot be size 8, so it is at most 7, meaning Amethyst cannot be size 7. Look for opportunities like these to rule out pairings.
-- Clues 4 and 6 can actually entirely tell us the purity of the four gems. Clues comparing three gems are very helpful.
-- Clues like 7 appear to not help us figure out which color is which property at first, but it also means you can automatically know that if Ruby is Small, then it is 5, and vice versa. On the spreadsheet, you can create a rectangle of "O"s, with a top line across the gem section at the top, and a bottom line going from the diagonal line to the final node. When you're stuck, try filling these in.
-- You'll also notice throughout that in each 4-by-4 box, if any row or column has only 1 non-X space, you can automatically fill it in with an O.
+- 手がかり3から、ルビーはアメジストより大きいので、ルビーはサイズ5になり得ず、アメジストはサイズ8になり得ません。さらにルビーは最も大きくないので、ルビーはサイズ8にもなり得ず、つまり最大でも7です。したがってアメジストはサイズ7にもなり得ません。このように組み合わせを消せる箇所を探しましょう。
+- 手がかり4と6だけで、4つの宝石の純度がすべて決まります。3つの宝石を比較する手がかりは非常に有用です。
+- 手がかり7のようなものは、一見どの色がどの特性かを決める助けにならないように見えますが、ルビーが「小」ならその硬度は5であり、逆もまた然り、ということが自動的に分かります。スプレッドシート上では、上部の宝石の欄を横切る上辺と、対角線から末端の枠へ向かう下辺を持つ「O」の長方形を作れます。行き詰まったら、これを埋めてみてください。
+- また全体を通して、4×4の各枠内で、ある行または列にXでない空きが1つしか残っていなければ、そこは自動的にOで埋められます。
 
-Putting these steps together should get you a solution.
+これらを組み合わせれば、解にたどり着けるはずです。
 
-The solution for the first puzzle:
+最初のパズルの解答はこちらです。
 
 !img("vr_puzzle_1.jpg")
 
-Once you finish, talk to Cal and show him the solution. Grab the hidden *X Sp. Atk* and proceed to the next room.
+解き終えたらキャルに話しかけ、解答を見せます。隠された *スペシャルアップ* を拾い、次の部屋へ進んでください。
 
-### The First Rail Puzzles
+### 最初のレールパズル {#the-first-rail-puzzles}
 
-Be careful, as Blake will again drop Icicles on you that can harm your Pokemon. Climb the stairs to the right and follow the path to fight another spirit.
+ブレイクがまたつららを落としてきて、手持ちが傷つくので注意してください。右の階段を上り、道をたどると別の霊と戦えます。
 
 !battle(["Jonathan", :SPIRITM, 0], "Big Top Arena")
 
-Back down the stairs, follow the path down this time. You'll see the first railcart puzzle of this section, this one is pretty easy to get you into it.
+階段を下り、今度は道を下へたどります。この区画で最初のトロッコパズルが見えます。導入なので、これはかなり簡単です。
 
-- Talk to the filled minecart at the top. It will move down and left.
-- Switch both levers.
-- Talk to the minecart again. It will go left and dump out its rocks, creating a shortcut to the start of the dungeon.
-- Switch the left lever, then jump in the minecart and enter the next room.
+- 上部の、荷を積んだトロッコに話しかけます。下そして左へ動きます。
+- レバーを両方切り替えます。
+- もう一度トロッコに話しかけます。左へ進んで岩を降ろし、ダンジョンの入口への近道ができます。
+- 左のレバーを切り替え、トロッコに飛び乗って次の部屋へ進みます。
 
 !enc(786, nil, nil, "Victory Road (B1F & B2F)")
 
-You can check out the map in this next room if you'd like.
+次の部屋では、よければ地図を確認できます。
 
 !img("vr_mines_1.png")
 
-Jump into this minecart (1) to proceed to the main part of this room, then go right to talk to Charlotte. Head left after the conversation to grab a hidden *Revive*. Time for another minecart puzzle.
+このトロッコ (1) に飛び乗ってこの部屋の主要部へ進み、右へ行ってシャルロットに話しかけます。会話のあと左へ進み、隠された *げんきのかけら* を拾います。またトロッコパズルの時間です。
 
-- Jump into the minecart (3) towards the bottom left of the area. Switch the lever here (A).
-- Jump back in the minecart (4). Pick up a hidden *Super Repel* and jump in the left minecart (6).
-- Switch this lever (B) and jump back in the minecart (7).
-- Follow the path down and right, then switch this lever (C).
-- Jump back in the minecart (8), and reverse the steps until you reach the right side of the area (B, 7, 5).
-- If you'd like, cross the tracks at the gold spots on the ground, and follow the Rock Climb path for a spirit fight (path in green).
+- エリア左下寄りのトロッコ (3) に飛び乗ります。ここのレバー (A) を切り替えます。
+- トロッコ (4) に乗り直します。隠された *シルバースプレー* を拾い、左のトロッコ (6) に飛び乗ります。
+- このレバー (B) を切り替え、トロッコ (7) に乗り直します。
+- 道を下そして右へたどり、このレバー (C) を切り替えます。
+- トロッコ (8) に乗り直し、エリアの右側に着くまで手順を逆にたどります (B、7、5)。
+- よければ、地面の金色の地点で線路を渡り、ロッククライムの道をたどると霊と戦えます（緑の経路）。
 
 !battle(["Lexi", :SPIRITF, 0], "Rainbow Field")
 
-Anyways,
+ともあれ――
 
-- Jump into the lower minecart (11) to reach the next area. Use Rock Climb here.
-- You'll need to push this Strength boulder onto the pressure pad by going left, up, right, and up (save often).
-- Go up through this new path, and switch the lever (D). Back down, jump into the top minecart (10).
-- Switch this lever (E), then jump back into this minecart (13).
-- Head back up above the pressure pad and switch this lever back (D), then go down and once more jump into the top minecart, following the path (10, 14).
-- Push this strength boulder up twice.
-- Head left between the two sets of stairs here. Follow this path to a hidden *Green Shard* and the *Tyranitarite*.
-- From here, we'll actually need to back track all the way to the top left corner of the room. Aside from the boulder moving, you'll need to reverse all the steps we took to get here (15, 9, D, 10, E, 13, D, 10, 14, 6, B, 7, C, 8, B, 7, 5, A, 4).
-- Push the boulder left, up, and onto the pressure pad.
-- Switch the lever (F) in the newly opened path.
-- Jump in the nearby minecart (2) to exit this room.
+- 下のトロッコ (11) に飛び乗って次のエリアへ向かいます。ここでロッククライムを使います。
+- 左、上、右、上と進んで、この *かいりき* の岩を圧力板の上へ押す必要があります（こまめにセーブを）。
+- この新しい道を上へ進み、レバー (D) を切り替えます。下へ戻り、上のトロッコ (10) に飛び乗ります。
+- このレバー (E) を切り替え、このトロッコ (13) に乗り直します。
+- 圧力板の上へ戻ってこのレバー (D) を元に戻し、下へ行ってもう一度上のトロッコに乗り、道をたどります (10、14)。
+- この *かいりき* の岩を上へ2回押します。
+- ここの2つの階段の間を左へ進みます。この道をたどると、隠された *みどりのかけら* と *バンギラスナイト* が手に入ります。
+- ここからは、実は部屋の左上の隅までずっと引き返す必要があります。岩を動かした分を除き、ここまでの手順をすべて逆にたどってください (15、9、D、10、E、13、D、10、14、6、B、7、C、8、B、7、5、A、4)。
+- 岩を左、上、そして圧力板の上へ押します。
+- 新しく開いた道のレバー (F) を切り替えます。
+- 近くのトロッコ (2) に飛び乗って、この部屋から出ます。
 
-We'll be back in the main room from here. Again, Blake will be trying to hit us with Icicles, so be careful. Climb down the stairs, pushing boulders aside as you go. Climb up some rocks to get a hidden *Synthetic Seed*.
+これで主要な部屋に戻ります。ここでもブレイクがつららを当ててこようとするので注意してください。岩を押しのけながら階段を下ります。岩をいくつか登ると、隠された *シンセティックシード* が手に入ります。
 
-When you reach the section with tons of rocks, your goal will be to push the bottom right one to the right, to where the item ball containing the *Escape Rope* is. If you can do this, then you can walk down and push a rock onto a pressure pad. To do this, go down and right first, then slalom down and left, then finally go down and right again. Save beforehand to make sure you don't get stuck and have to actually use the Escape Rope! It should look something like this:
+岩が大量にある区画に着いたら、右下の岩を右へ、*あなぬけのヒモ* の入ったアイテムボールの位置まで押すのが目標です。これができれば、下へ歩いて岩を圧力板の上へ押せます。そのためには、まず下そして右へ、次に下へ左へと蛇行し、最後にもう一度下そして右へ進みます。詰んで本当に *あなぬけのヒモ* を使う羽目にならないよう、事前にセーブしておきましょう。おおよそ次のようになります。
 
 !img("vr_hub_1.png")
 
-Follow the opened path downward, pushing a boulder one tile right onto the pad. Going up and around, push another boulder out of the way to its left, then go back up, left, and down to reach the bottom left. Grab the hidden *Ultra Potion* and jump into the minecart here. Push this lever, then jump back into this minecart.
+開いた道を下へたどり、岩を1マス右の圧力板の上へ押します。上へ回り込み、別の岩をその左へ押しのけたら、上、左、下と進んで左下へ向かいます。隠された *すごいキズぐすり* を拾い、ここのトロッコに飛び乗ります。このレバーを押したら、またこのトロッコに飛び乗ります。
 
-Before we enter the door at the bottom, climb the rocks to the right and follow the path to another spirit.
+下部の扉に入る前に、右の岩を登って道をたどると、また別の霊がいます。
 
 !battle(["Fezz", :SPIRITM, 0], "Swamp Field")
 
-Head back down and enter the door at the bottom. This puts us in the higher level of the previous room. Check out the map if you want, then exit through the door at the top.
+下へ戻り、下部の扉に入ります。これで先ほどの部屋の上層に出ます。よければ地図を確認して、上部の扉から出てください。
 
-### Exploding the Pillar
+### 柱の爆破 {#exploding-the-pillar}
 
 !enc(792, nil, nil, "Victory Road (2F & Charous Mountain)")
 
-Talk to Charlotte, then head up. You can find a hidden *Calcium* here. Check the map if you like.
+シャルロットに話しかけ、上へ進みます。ここでは隠された *リゾチウム* が見つかります。よければ地図も確認してください。
 
 !img("vr_2f_1.png")
 
-Go right and down from the map and follow this path (blue). At the fork, use Blast Powder on the rock blocking the rock climb path, then follow the path all the way to a *PP All*.
+地図から右そして下へ進み、この道（青）をたどります。分岐では、ロッククライムの道を塞ぐ岩に *ばくはつのこな* を使い、そのまま道の突き当たりまで進むと *ピーピーオール* が手に入ります。
 
-Backtrack to the fork, this time going left (green). On the hill is a spirit.
+分岐まで引き返し、今度は左へ進みます（緑）。丘の上には霊がいます。
 
 !battle(["Kamina", :SPIRITM, 0], "Chess Board")
 
-Backtrack to the center of the room.
+部屋の中央まで引き返します。
 
-Up and left from the map, you'll see another rock climb path fork. Climb the rocks to your right (yellow). Grab the hidden *Blue Shard* and climb up to fight another spirit.
+地図から上そして左へ進むと、もう1つロッククライムの道の分岐が見えます。右手の岩を登ります（黄）。隠された *あおいかけら* を拾い、登っていくと別の霊と戦えます。
 
 !battle(["Cloud", :SPIRITM, 0], "Underwater Field")
 
-Back at the fork, go left (orange), picking up the hidden *Swift Wing* along the way. You'll see another fork as you go - go left again. Follow the path to the *Kommonium-Z*!
+分岐に戻り、左へ進みます（橙）。道中で隠された *しゅんぱつのハネ* を拾います。進むともう1つ分岐があるので、また左へ。道をたどると *ジャラランガZ* が手に入ります!
 
-Back at the fork, cross the tracks (red). Follow the path to a hidden *Heart Scale* and another spirit.
+分岐に戻り、線路を渡ります（赤）。道をたどると、隠された *ハートのウロコ* と、また別の霊がいます。
 
 !battle(["Trevor", :SPIRITM, 0], "Rainbow Field")
 
-Return to the center of the room, and make your way to the right. There are four minecarts here - we will need to take all four of these, though we can do it in any order. I will start by jumping in the bottom minecart (D).
+部屋の中央に戻り、右へ進みます。ここにはトロッコが4台あり、4台すべてに乗る必要がありますが、順番は自由です。ここでは下のトロッコ (D) から始めます。
 
-When you land, Blake will be shooting Icicles at us once more. Start by pushing the nearby boulder up as much as it will go, then hop into the minecart. Push the boulder left and up onto the pressure pad, hop back in the minecart, switch the lever, and hop in the minecart again.
+着地すると、ブレイクがまたつららを撃ってきます。まずは近くの岩を行けるところまで上へ押し、トロッコに飛び乗ります。岩を左そして上へ、圧力板の上へ押し、トロッコに乗り直し、レバーを切り替えて、またトロッコに飛び乗ります。
 
-In the basement, our goal will be to successfully push the minecart full of explosives into the pillar in the top left corner. To accomplish this, we'll need a straight track from the start to the pillar, since any intermediate positions will cause it to bounce back. The steps for this room are:
+地下では、爆薬を満載したトロッコを左上の隅の柱に突っ込ませるのが目標です。そのためには出発点から柱まで一直線の線路が必要です。途中で止まる位置があると跳ね返ってしまうからです。この部屋の手順は次のとおりです。
 
 !img("vr_mines_se.png")
 
-- Push the nearby boulder up and out of the way. You can grab a hidden *Electric Gem* via the Rock Climb path. Don't jump down the ledge though, climb back down.
-- Switch the bottom lever (A). Go around the bottom of the tracks, then proceed up from here. Smash the rock and push the left boulder to the left.
-- Head back down to the bottom and switch the second and third levers from the bottom (B, C).
-- Go up and left, and press the top-left lever (E).
-- Cross the tracks to the left, go down, and follow the now-opened path to the right. Push the right boulder down twice. Switch the nearby lever (D).
-- Switch off the lever in the top left (E).
-- Following the left path, head back to the bottom of this area. Flip the bottom switch (A).
-- Talk to the minecart. It should explode the pillar. Switch the bottom lever (A) once more and make the long way around to return to the rock climb spot. Follow the path down, around, and out - grabbing the hidden *Purple Shard* along the way.
+- 近くの岩を上へ押しのけます。ロッククライムの道から、隠された *でんきのジュエル* を拾えます。ただし段差は飛び降りず、登って戻ってください。
+- 一番下のレバー (A) を切り替えます。線路の下側を回り込み、そこから上へ進みます。岩を割り、左の岩を左へ押します。
+- 下まで戻り、下から2番目と3番目のレバー (B、C) を切り替えます。
+- 上そして左へ進み、左上のレバー (E) を押します。
+- 左へ線路を渡って下へ進み、開いた道を右へたどります。右の岩を下へ2回押します。近くのレバー (D) を切り替えます。
+- 左上のレバー (E) を元に戻します。
+- 左の道をたどってこのエリアの下部へ戻ります。一番下のスイッチ (A) を切り替えます。
+- トロッコに話しかけます。柱が爆破されるはずです。もう一度一番下のレバー (A) を切り替え、遠回りしてロッククライムの地点へ戻ります。道を下へ、回り込んで外へ出ます。道中で隠された *むらさきのかけら* も拾ってください。
 
-That's it for this portion - head up and return to Charlotte's room. We have to pick another minecart: I will do the left one (L) this time. Once again, beware of Blake's Icicles when you land.
+この区画は以上です。上へ進んでシャルロットの部屋へ戻ります。もう1台トロッコを選ぶ必要があるので、今度は左のもの (L) にします。ここでも着地したらブレイクのつららに注意してください。
 
-In the bottom left, you can get a hidden *Blue Shard* by Rock Climb. Don't jump down the ledge though. There is a boulder in the right side, we will need to push it onto the pressure pad at the bottom. Unfortunately the gems and rocks in the center of the room are in the way - you'll need to push it to the top left corner before it can successfully go down and onto the pressure pad. Jump into the minecart.
+左下では、ロッククライムで隠された *あおいかけら* が手に入ります。ただし段差は飛び降りないでください。右側に岩があり、これを下部の圧力板の上へ押す必要があります。あいにく部屋中央の宝石と岩が邪魔になるので、下へ進んで圧力板に乗せる前に、まず左上の隅まで押す必要があります。トロッコに飛び乗ります。
 
-This room has a similar puzzle to the previous, though this time the explosives can stop at intermediate points. The solution:
+この部屋は先ほどと似たパズルですが、今回は爆薬が途中の地点で止まれます。解答は次のとおりです。
 
 !img("vr_mines_sw.png")
 
-- Switch the top left lever (A) then push the minecart. Switch this lever back.
-- Switch the bottom left lever (B), then go right and switch the bottom right lever (C).
-- Switch the now-opened lever in the top right (D), then the top middle lever (E).
-- Push the minecart. Switch the bottom-right lever (B) and push the minecart again.
-- Switch the bottom left lever (B) in order to switch off the bottom right lever (C), then push the minecart. Switch off the bottom right lever (C).
-- Switch off the top right lever (D), then push the minecart and switch the lever (D) back.
-- Switch both of the leftmost levers on top (A, E) and push the minecart. Follow it up, going around the right side of the room to reach the cart.
-- Switch the first lever you reach (F) and push the cart. Repeat this for the top lever (G) by going all the way around, and the pillar will explode once more.
-- Climb down the rocks on the left side to exit.
+- 左上のレバー (A) を切り替えてトロッコを押します。このレバーを元に戻します。
+- 左下のレバー (B) を切り替え、右へ行って右下のレバー (C) を切り替えます。
+- 新しく開いた右上のレバー (D)、続いて上中央のレバー (E) を切り替えます。
+- トロッコを押します。右下のレバー (B) を切り替え、もう一度トロッコを押します。
+- 右下のレバー (C) を切るために左下のレバー (B) を切り替え、トロッコを押します。右下のレバー (C) を切ります。
+- 右上のレバー (D) を切り、トロッコを押して、レバー (D) を元に戻します。
+- 上部の左寄りのレバー2つ (A、E) を切り替えてトロッコを押します。部屋の右側を回り込んでトロッコを追い、上へ進みます。
+- 最初にたどり着くレバー (F) を切り替えてトロッコを押します。ぐるりと回って上のレバー (G) でも同じことをすると、また柱が爆破されます。
+- 左側の岩を下って外へ出ます。
 
-Make your way back to Charlotte's room and choose a new minecart: I will do the one on the right (R).
+シャルロットの部屋へ戻り、新しいトロッコを選びます。今度は右のもの (R) にします。
 
-There is a substantial puzzle in Blake's Icicle hell, so be careful. The steps:
+ブレイクのつらら地獄の中に手応えのあるパズルがあるので注意してください。手順は次のとおりです。
 
-- Jump in the cart and flip the nearby lever. Jump in the cart to the left.
-- Push the boulder to the right, and grab a hidden *Max Repel* up above.
-- Jump back into the minecart at the bottom. Transfer to the other minecart.
-- From here, push the filled cart. Make your way back to the top left corner.
-- Flip the nearby switch and talk to the filled cart. Use Rock Climb on the path that opens to reach the basement once more.
+- トロッコに飛び乗り、近くのレバーを切り替えます。左のトロッコに飛び乗ります。
+- 岩を右へ押し、上で隠された *ゴールドスプレー* を拾います。
+- 下のトロッコに乗り直します。もう一方のトロッコへ乗り換えます。
+- そこから、荷を積んだトロッコを押します。左上の隅まで戻ります。
+- 近くのスイッチを切り替え、荷を積んだトロッコに話しかけます。開いた道でロッククライムを使い、もう一度地下へ向かいます。
 
 !img("vr_mines_ne.png")
 
-Time for another "strength puzzle that takes way longer than it seems it should". This time, you'll need to move the boulder that starts on top into the center of the track loop. To do this, continually move it clockwise around the loop, pushing it inward whenever you can without it getting stuck. You'll need to do a lot of track-crossing to succeed. The good news is: once you get it onto the pressure pad, the explosives will ram into the pillar with a simple push. Exit in the bottom right.
+また「見た目よりずっと時間のかかるかいりきパズル」の時間です。今回は、最初に上にある岩を線路の環の中央へ移動させる必要があります。そのためには環に沿って時計回りに動かし続け、詰まらない範囲で機会があるたびに内側へ押し込みます。成功させるには線路を何度も渡ることになります。良い知らせは、圧力板の上に乗せさえすれば、あとは一押しで爆薬が柱に突っ込んでくれることです。右下から出ます。
 
-One more path to go down: take the top minecart (U) in Charlotte's room.
+残る道は1つです。シャルロットの部屋で上のトロッコ (U) に乗ります。
 
-In this next room, you'll need to push both boulders to the left: one above, one below. The final move for each has to be made from the other side. Solve each rock fully one-at-a-time, then climb down into the pit.
+次の部屋では、岩を2つとも左へ押す必要があります。1つは上、もう1つは下です。それぞれ最後の一押しは反対側から行う必要があります。1つずつ完全に片付けてから、穴へ下りてください。
 
 !img("vr_mines_nw.png")
 
-In this room, you'll need to load carts with rocks, dumping it to create climbing paths. The solution:
+この部屋では、トロッコに岩を積み、それを降ろして登れる道を作る必要があります。解答は次のとおりです。
 
-- Switch the first lever (A) and jump in the cart. Fill it with rocks. Switch the lever (A) back and push the cart down.
-- Head down and take the cart back up. Fill it with rocks once more.
-- Switch the two levers below (A, B). Push the cart again, then follow it down and ride it back up. Fill it up!
-- Switch the bottom lever (C), then make your way back up to the cart. Push it down.
-- Climb down all the rocks and push the explosives into the pillar.
+- 最初のレバー (A) を切り替えてトロッコに飛び乗ります。岩を積みます。レバー (A) を元に戻し、トロッコを下へ押します。
+- 下へ進み、トロッコに乗って戻ります。もう一度岩を積みます。
+- 下の2つのレバー (A、B) を切り替えます。もう一度トロッコを押し、追って下へ行き、乗って戻ります。また岩を積みます!
+- 一番下のレバー (C) を切り替え、トロッコまで戻ります。下へ押します。
+- 岩をすべて下りて、爆薬を柱へ押し込みます。
 
-Climb down to the left, then go up and talk to Charlotte. We have successfully destroyed the pillar!
+左へ下り、上へ進んでシャルロットに話しかけます。柱の破壊に成功しました!
 
-### Logic Puzzle 2
+### 論理パズル2 {#logic-puzzle-2}
 
-Make your way down two rooms, to the large room where Icicles rained down. Take the cart up, then go slightly up and to the right over the rock climbs. After talking to Charlotte, go right. Grab the hidden *Purple Shard*. Enter the next cave. After seeing a conversation and avoiding Fern's arrows, enter the cave at the top.
+2部屋分下へ進み、つららが降り注いだ大きな部屋へ向かいます。トロッコで上へ行き、少し上そして右へ、ロッククライムを越えて進みます。シャルロットと話したら右へ進みます。隠された *むらさきのかけら* を拾います。次の洞窟に入ります。会話を見てファーンの矢をかわしたら、上部の洞窟に入ってください。
 
-There is a hidden *Max Potion* and *Green Shard* in this room. Anyways, time for our second logic puzzle. The hints and [spreadsheet](..\assets\vr_logic_puzzle_sheets.xlsx) from the previous puzzle should be useful here as well, note that there are more categories this time.
-The clues:
+この部屋には隠された *まんたんのくすり* と *みどりのかけら* があります。ともあれ、2つ目の論理パズルです。前のパズルのコツと[スプレッドシート](..\assets\vr_logic_puzzle_sheets.xlsx)はここでも役立ちますが、今回はカテゴリーが増えている点に注意してください。
+手がかりは次のとおりです。
 
-1. No two crystals share any same quality.
-2. The second hardest gem is 'Pure'.
-3. Ruby has more Foliation than, and is larger than, Sapphire.
-4. Sapphire is more pure than Amethyst.
-5. The third hardest gem is of 'Middling' Purity.
-6. Neither Emerald nor Amethyst is either the least or most pure.
-7. The hardest gem has the most Foliation.
-8. Sapphire has less Foliation than the 'Pure' gem, which has less Foliation than Amethyst.
-9. The softest gem is the smallest one.
-10. Emerald is smaller than Ruby, which is smaller than Amethyst.
+1. 同じ特性を共有する宝石は2つとない。
+2. 2番目に硬い宝石は「純粋」である。
+3. ルビーはサファイアより片理が多く、かつサファイアより大きい。
+4. サファイアはアメジストより純度が高い。
+5. 3番目に硬い宝石は純度が「中程度」である。
+6. エメラルドもアメジストも、最も純度が低くも高くもない。
+7. 最も硬い宝石は、最も片理が多い。
+8. サファイアは「純粋」な宝石より片理が少なく、その「純粋」な宝石はアメジストより片理が少ない。
+9. 最も柔らかい宝石は、最も小さい宝石である。
+10. エメラルドはルビーより小さく、ルビーはアメジストより小さい。
 
-The solution:
+解答はこちらです。
 
 !img("vr_puzzle_2.jpg")
 
-Grab the hidden *Muscle Wing* in the bottom right corner and return to the arrow hell room. In here, you'll need to push boulders out of the way. Save often, and turning off super speed for your sanity. Note that when you reach two pressure pads, push the boulder up once, climb around, then push it down twice to proceed. Along this path you'll get a *Max Revive* and hidden *X Sp. Def* and *Ultra Potion*.
+右下の隅の隠された *きんりょくのハネ* を拾い、矢が飛び交う部屋へ戻ります。ここでは岩を押しのけながら進む必要があります。こまめにセーブし、精神衛生のために倍速も切っておきましょう。なお、圧力板が2つある場所に着いたら、岩を1回上へ押し、回り込んでから2回下へ押すと先へ進めます。この道中では *げんきのかたまり* と、隠された *スペシャルガード*、*すごいキズぐすり* が手に入ります。
 
-You'll need to push boulders along the path into specific places and push one more onto a pressure pad and... yeah. We trap ourselves. Thankfully we get rescued by cart! Grab the hidden *Green Shard* and enter the next room.
+道中の岩を所定の位置へ押し、さらにもう1つを圧力板の上へ押す必要があり、そして……ええ、自分で自分を閉じ込めることになります。ありがたいことにトロッコが助けに来てくれます! 隠された *みどりのかけら* を拾い、次の部屋へ進みます。
 
-### The Final Rail Puzzle
+### 最後のレールパズル {#the-final-rail-puzzle}
 
-Pick up the hidden *Red-Hots* and *Fire Gem* in this area. Time for yet another massive rail puzzle. 
+このエリアで隠された *シナモンキャンディ* と *ほのおのジュエル* を拾います。またしても巨大なレールパズルです。
 
 !img("vr_mines_final.png")
 
-- Jump into the railcart on the bottom (1). Climb the nearby rocks to get a hidden *Red Shard*.
-- There will now be three railcarts all in the same area. Jump into the middle one (3) to reach a spirit.
+- 下のトロッコ (1) に飛び乗ります。近くの岩を登ると、隠された *あかいかけら* が手に入ります。
+- これでトロッコ3台が同じエリアに揃います。真ん中のもの (3) に飛び乗ると、霊のところへ行けます。
 
 !battle(["Leo", :SPIRITM, 0], "Chess Board")
 
-Anyways, back to the puzzle.
+ともあれ、パズルに戻ります。
 
-- Take this minecart back (4), then jump into the top minecart (5). Smash the nearby rock but ignore the boulder for now.
-- Take the minecart (6) back up, and jump into the bottom of three minecarts (2). From here, jump into the other minecart, on the upper right side (7). Grab the hidden *Red Shard*.
-- Push the boulder down and right onto the pressure pad, then take the minecart (8) back to the right. 
-- There is a path to the left across some tracks that lead to a lever (A): switch it.
-- Jump into the bottom minecart (1), and it will take you to another lever (B): switch it.
-- Use the cart (9) to go back down, then switch off the first lever (A).
-- Jump into the bottom cart (1) one more, then into the top of three minecarts (5). To your right is a lever (C): switch it.
-- Jump back into this minecart (6), then into the middle of three minecarts (3). This will take you to a pile of rocks (10) - fill the cart, then push it.
-- Climb down the rocks and jump into the top minecart (5). Switch off the lever (C) to your right. 
-- Go up from the boulder in the bottom left corner, and cross the long line of tracks (yellow arrows). This will lead you to another lever (D) - switch it. Head left and up from here to get a hidden *PP Up*.
-- Jump back in the minecart in the bottom left (6), then push the cart full of rocks (3).
-- Jump into the top minecart (5), then follow the path up and left from the boulder across the tracks (yellow arrows) once more. You'll now see a new climbable path - take it, then talk to the explosives.
-- Push the cart full of explosives (11), then push the lever (D) across the tracks on the right.
-- Make your way to the bottom left corner. Jump into the minecart (6) to return to the top left corner. Talk to the filled cart to make an explosion!
-- Jump into the bottom minecart (2). From here, go left and up, pushing the lever (A). Take the minecart (1) to reach the top right side of the area, where you can finally exit (12)!
+- このトロッコで戻り (4)、上のトロッコ (5) に飛び乗ります。近くの岩を割りますが、大岩は今は無視してください。
+- トロッコ (6) で上へ戻り、3台のうち一番下のトロッコ (2) に飛び乗ります。そこから、右上側のもう1台のトロッコ (7) に飛び乗ります。隠された *あかいかけら* を拾います。
+- 岩を下そして右へ、圧力板の上へ押し、トロッコ (8) で右へ戻ります。
+- 左へ線路を渡るとレバー (A) に通じる道があるので、これを切り替えます。
+- 下のトロッコ (1) に飛び乗ると、別のレバー (B) のところへ運ばれるので、これを切り替えます。
+- トロッコ (9) で下へ戻り、最初のレバー (A) を切ります。
+- もう一度下のトロッコ (1) に乗り、続いて3台のうち一番上のトロッコ (5) に乗ります。右手にレバー (C) があるので切り替えます。
+- このトロッコ (6) に乗り直し、続いて3台のうち真ん中のトロッコ (3) に乗ります。これで岩の山 (10) に着くので、トロッコに積んでから押します。
+- 岩を下り、上のトロッコ (5) に飛び乗ります。右手のレバー (C) を切ります。
+- 左下の隅の大岩から上へ進み、長い線路を渡ります（黄色の矢印）。これで別のレバー (D) に着くので切り替えます。そこから左そして上へ進むと、隠された *ポイントアップ* が手に入ります。
+- 左下のトロッコ (6) に乗り直し、岩を積んだトロッコ (3) を押します。
+- 上のトロッコ (5) に飛び乗り、もう一度大岩から上そして左へ、線路を渡る道をたどります（黄色の矢印）。新しく登れる道が見えるので、そこを通って爆薬に話しかけます。
+- 爆薬を積んだトロッコ (11) を押し、右手の線路を渡ってレバー (D) を押します。
+- 左下の隅へ向かいます。トロッコ (6) に飛び乗って左上の隅へ戻ります。荷を積んだトロッコに話しかけると爆発します!
+- 下のトロッコ (2) に飛び乗ります。そこから左そして上へ進み、レバー (A) を押します。トロッコ (1) に乗るとエリアの右上側に着き、ついに外へ出られます (12)!
 
-### Introduction to the Gem Chambers
+### 宝石の間の導入 {#introduction-to-the-gem-chambers}
 
-The next room I will call the "central gem room". In the central gem room, climb down either rock. You can get a hidden *Elemental Seed* here. Climb the rocks on the left side of this area. You can get a hidden *Max Repel*. Enter the Sapphire area in the top left corner.
+次の部屋を、ここでは「中央の宝石部屋」と呼ぶことにします。中央の宝石部屋では、どちらの岩を下ってもかまいません。ここでは隠された *エレメンタルシード* が手に入ります。このエリアの左側の岩を登ります。隠された *ゴールドスプレー* が手に入ります。左上の隅のサファイアのエリアに入ってください。
 
 !enc(800, nil, nil, "Victory Road (Sapphire B3F)")
 
-Grab the hidden *Chewing Gum*. You'll notice a rock climb path on the left side of the room - follow it to reach a spirit.
+隠された *チューインガム* を拾います。部屋の左側にロッククライムの道が見えるので、それをたどると霊のところへ行けます。
 
 !battle(["Savage", :SPIRITM, 0], "Water Surface")
 
-Fun fact about this one: apparently when Savage challenged the Reborn League back in the day, Shade used a Shedinja. Wonder why Savage went mad.
+余談ですが、サベージがかつてリボーンリーグに挑んだとき、シェイドはヌケニンを使ったそうです。彼が正気を失ったのも無理はありませんね。
 
-Use the Blue Crystal Key atop the central hill to create a path in the ice puzzle. Cross this path (D L U R D L D) and grab a hidden *Cheri Berry*. Proceed to the next room.
+中央の丘の上で青のクリスタルのカギを使うと、氷のパズルに道ができます。この道を渡り（下 左 上 右 下 左 下）、隠された *クラボのみ* を拾います。次の部屋へ進んでください。
 
 !enc(801, nil, nil, "Victory Road (Emerald B3F)")
 
-Pick up the hidden *Green Shard* and *Cotton Candy*, then use the Green Crystal Key atop the central hill. Climb up to the right and exit back into the central gem room.
+隠された *みどりのかけら* と *わたあめ* を拾い、中央の丘の上で緑のクリスタルのカギを使います。右へ登り、中央の宝石部屋へ戻ります。
 
-Grab a hidden *Hyper Potion*, then use Strength to push the boulder onto the pressure pad. After this is done, make your way to the right side of the central gem room, grab the hidden *Red Shard*, and enter the Ruby room.
+隠された *すごいキズぐすり* を拾い、*かいりき* で岩を圧力板の上へ押します。済んだら中央の宝石部屋の右側へ向かい、隠された *あかいかけら* を拾って、ルビーの部屋に入ります。
 
 !enc(799, nil, nil, "Victory Road (Ruby B3F)")
 
-Use the Red Crystal Key and follow the path. You can get a hidden *Zinc* on your way out.
+赤のクリスタルのカギを使い、道をたどります。出る途中で隠された *キトサン* が手に入ります。
 
 !enc(802, nil, nil, "Victory Road (Amethyst B3F)")
 
-Grab the hidden *Telluric Seed* and *Fairy Gem*, then use the Purple Crystal Key. Climb up and out to the left.
+隠された *テルリックシード* と *ようせいジュエル* を拾い、紫のクリスタルのカギを使います。登って左へ出ます。
 
-Back in the central gem room, push the boulder into place then pick up the hidden *Swift Wing*. Climb to the center of the central gem room and go down through the now-opened gates. Use the levers to open some shortcuts. Follow this path to the next room.
+中央の宝石部屋に戻り、岩を所定の位置へ押したら、隠された *しゅんぱつのハネ* を拾います。中央の宝石部屋の中心へ登り、開いた門を通って下へ進みます。レバーを使って近道をいくつか開通させます。この道をたどって次の部屋へ進みます。
 
-### Logic Puzzle 3
+### 論理パズル3 {#logic-puzzle-3}
 
-We're back in the room with the massive rail puzzle - but worry not, as we don't have to do any more railing for now. Pick up the hidden *Ultra Ball*, *Heart Scale*, *Star Piece*, and *Max Elixir* as you proceed through the path and into the next room.
+巨大なレールパズルのあった部屋に戻りますが、心配は無用です。今のところ、もうレールをいじる必要はありません。道を進んで次の部屋へ向かいながら、隠された *ハイパーボール*、*ハートのウロコ*、*ほしのかけら*、*ピーピーマックス* を拾ってください。
 
-We'll find ourselves on an upper path of the room where Fern tried to hit us with arrows. Grab a hidden *Red Shard* and proceed to the next room.
+ファーンが矢で狙ってきた部屋の上層に出ます。隠された *あかいかけら* を拾い、次の部屋へ進みます。
 
-We'll find ourselves in Charous Mountain. After a conversation, proceed through this room. Grab a hidden *Ice Heal* along the way.
+シャルース山に出ます。会話のあと、この部屋を通り抜けます。道中で隠された *こおりなおし* を拾ってください。
 
-Enter the next room and grab the hidden *Magical Seed*. Pick up the hidden *Max Elixir* and *Purple Shard* in the rest of the room after another conversation.
+次の部屋に入り、隠された *マジカルシード* を拾います。もう1つ会話を挟んだあと、部屋の残りで隠された *ピーピーマックス* と *むらさきのかけら* を拾います。
 
-Oh boy, it's time for another logic puzzle - this time with five categories. Download the [spreadsheet](..\assets\vr_logic_puzzle_sheets.xlsx) if you'd like. Hope you're ready.
+さあ、またしても論理パズルです。今回はカテゴリーが5つあります。よければ[スプレッドシート](..\assets\vr_logic_puzzle_sheets.xlsx)をダウンロードしてください。覚悟はいいですか。
 
-The clues:
+手がかりは次のとおりです。
 
-1. No two crystals share the same quality.
-2. Ruby is bigger than Sapphire.
-3. Sapphire's Purity is less than Ruby's Purity, which is less than Amethyst's Purity.
-4. Amethyst does not have 'Vitreous' Luster.
-5. Ruby is more lustrous than Amethyst, which is more lustrous than Sapphire.
-6. Amethyst is not 'Miniscule'.
-7. Ruby has less Foliation than Sapphire.
-8. The largest gem is more lustrous than the smallest gem.
-9. The gem with 'Difficult' Foliation is smaller than Emerald.
-10. Amethyst has 'Eminent' Foliation.
-11. The gems are, in order of ascending hardness: the 'Medium' gem, the 'Middling' Purity gem, the gem with the least foliation, and the 'Pearly' gem.
-12. The 'Indistinct' gem is also the least pure.
+1. 同じ特性を共有する宝石は2つとない。
+2. ルビーはサファイアより大きい。
+3. サファイアの純度はルビーの純度より低く、ルビーの純度はアメジストの純度より低い。
+4. アメジストの光沢は「ガラス状」ではない。
+5. ルビーはアメジストより光沢が強く、アメジストはサファイアより光沢が強い。
+6. アメジストは「極小」ではない。
+7. ルビーはサファイアより片理が少ない。
+8. 最も大きい宝石は、最も小さい宝石より光沢が強い。
+9. 片理が「困難」の宝石は、エメラルドより小さい。
+10. アメジストの片理は「顕著」である。
+11. 硬度の低い順に並べると、「中」の宝石、純度「中程度」の宝石、片理が最も少ない宝石、「真珠状」の宝石となる。
+12. 「不明瞭」の宝石は、最も純度が低い宝石でもある。
 
-The solution:
+解答はこちらです。
 
 !img("vr_puzzle_3.jpg")
 
-Enter the door at the bottom to return to Charous Mountain once you're done.
+解き終えたら、下部の扉に入ってシャルース山へ戻ります。
 
-Grab the hidden *Elemental Seed*. At the fork, go down to grab a hidden *Calcium* and fight another spirit.
+隠された *エレメンタルシード* を拾います。分岐では下へ進むと、隠された *リゾチウム* を拾えて、また別の霊とも戦えます。
 
 !battle(["Owen", :SPIRITM, 0], "Desert Field")
 
-Head back up to the fork and go right. After a few more climbs you'll find another fork. Going right will lead you to another spirit.
+分岐まで戻って右へ進みます。何度か登ると、また分岐があります。右へ進むと別の霊のところへ行けます。
 
 !battle(["Duster", :SPIRITM, 0], "Big Top Arena")
 
-Continue along the path from here. Grab the hidden *Max Ether* along the way. Exit the mountain to reach Charous Path.
+そこから道を進み続けます。道中で隠された *ピーピーリカバー* を拾います。山を出るとシャルース小道に着きます。
 
 !enc(794)
 
-Another mostly linear path. At the fork, go left to get a hidden *Ultra Potion* and fight a spirit.
+ここもおおむね一本道です。分岐では左へ進むと、隠された *すごいキズぐすり* を拾えて、霊とも戦えます。
 
 !battle(["Jonah", :SPIRITM, 0], "Fairy Tale Field")
 
-Back at the fork, go up and left. Grab a hidden *Ultra Ball* as you proceed. Enter the next room for another logic puzzle!
+分岐に戻り、上そして左へ進みます。進みながら隠された *ハイパーボール* を拾います。次の部屋に入ると、また論理パズルです!
 
-### Logic Puzzle 4
+### 論理パズル4 {#logic-puzzle-4}
 
-Grab a hidden *X Attack* in here. If you follow a path on the right side up and over the machines, you can find the *Gengarite* as well as another spirit.
+ここでは隠された *プラスパワー* を拾います。右側の道を上へ、機械を越えて進むと、*ゲンガナイト* と、また別の霊が見つかります。
 
 !battle(["Zippo", :SPIRITM, 0], "Icy Field")
 
-Head back down to the main part of the room: there is another logic puzzle waiting for us... And this one, is a doozy. If you have managed to avoid using the [spreadsheet](..\assets\vr_logic_puzzle_sheets.xlsx) by now, I recommend it.
+部屋の主要部へ戻ります。また論理パズルが待っています……しかも今度のは相当な難物です。ここまで[スプレッドシート](..\assets\vr_logic_puzzle_sheets.xlsx)を使わずに来たなら、そろそろ使うことをおすすめします。
 
-The clues:
+手がかりは次のとおりです。
 
-1. No two crystals share any same quality.
-2. The Habit of the second hardest gem is less than the Habit of the 'Pure' gem, which is less than the Habit of the Emerald.
-3. The Purity of the 'Vitreous' gem is less than the Purity of Emerald, which is less than the Purity of the 'Pearly' gem.
-4. The Luster of the 'Miniscule' gem is less than the Luster of the 'Medium' gem, which is less than the Luster of the 'Hexagonal' gem.
-5. The Hardness of the 'Small' gem is less than the Hardness of the Amethyst, which is less than the Hardness of the 'Pure' gem.
-6. The 'Middling' Purity gem's Luster is less than the Luster of the 'Medium' gem.
-7. The Foliation of the 'Pearly' gem is less than the Foliation of the 'Vitreous' gem which is less than the Foliation of the 'Silky' gem.
-8. The Habit of the 'Silky' gem is less than the Habit of the most pure gem.
-9. The Size of the 'Impure' gem is less than the Size of the 'Perfect' Foliation gem, which is less than the Size of the Sapphire.
-10. The Foliation of Amethyst is less than the Foliation of the second hardest gem, which is less than the Foliation of the Sapphire.
+1. 同じ特性を共有する宝石は2つとない。
+2. 2番目に硬い宝石の晶癖は「純粋」な宝石の晶癖より小さく、その「純粋」な宝石の晶癖はエメラルドの晶癖より小さい。
+3. 「ガラス状」の宝石の純度はエメラルドの純度より低く、エメラルドの純度は「真珠状」の宝石の純度より低い。
+4. 「極小」の宝石の光沢は「中」の宝石の光沢より弱く、「中」の宝石の光沢は「六角状」の宝石の光沢より弱い。
+5. 「小」の宝石の硬度はアメジストの硬度より低く、アメジストの硬度は「純粋」な宝石の硬度より低い。
+6. 純度「中程度」の宝石の光沢は、「中」の宝石の光沢より弱い。
+7. 「真珠状」の宝石の片理は「ガラス状」の宝石の片理より少なく、「ガラス状」の宝石の片理は「絹糸状」の宝石の片理より少ない。
+8. 「絹糸状」の宝石の晶癖は、最も純度の高い宝石の晶癖より小さい。
+9. 「不純」の宝石のサイズは片理が「完全」の宝石のサイズより小さく、その宝石のサイズはサファイアのサイズより小さい。
+10. アメジストの片理は2番目に硬い宝石の片理より少なく、その宝石の片理はサファイアの片理より少ない。
 
-The solution:
+解答はこちらです。
 
 !img("vr_puzzle_4.jpg")
 
-**Relationship Point Choices**:
-- Solve Logic Puzzle 4 in five or fewer tries (+1 Radomus)
-- Attempt the logic puzzle incorrectly six times, causing Radomus to solve it (-1 Radomus)
+**好感度の選択肢**:
+- 論理パズル4を5回以内で解く (+1 ラドマス)
+- 論理パズルを6回間違え、ラドマスに解かせる (-1 ラドマス)
 
-Grab the hidden *Max Revive* beyond the gate and proceed to the next room.
+門の先で隠された *げんきのかたまり* を拾い、次の部屋へ進みます。
 
-### Dropping the Stalactite
+### 鍾乳石を落とす {#dropping-the-stalactite}
 
-We'll find ourselves back in the previous hub room where Fern is, but on the highest level. Go down the path and talk to Hardy here, and the stalactite will be dropped. Back to the left, a new path will be opened up. Left and up from here, you can get a hidden *Synthetic Seed* and fight a spirit.
+ファーンのいた先ほどの中継部屋に、今度は最上層で出ます。道を下ってここのハーディに話しかけると、鍾乳石が落とされます。左へ戻ると、新しい道が開いています。そこから左そして上へ進むと、隠された *シンセティックシード* を拾えて、霊とも戦えます。
 
 !battle(["Quinn", :SPIRITM, 0], "Inverse Field")
 
-Head down from here, and you'll find yourself in the left side of this large room. Down from here you can find rocks to climb to proceed to the right. Grab a hidden *Dusk Ball* here, then go down the rocks on the bottom. The cave entrance here is just a shortcut to a previous area, so go to the right instead. Pick up the hidden *Magical Seed* and fight another spirit.
+そこから下へ進むと、この広い部屋の左側に出ます。そこから下には、右へ進むために登れる岩があります。ここで隠された *ダークボール* を拾い、下部の岩を下ります。ここの洞窟の入口は以前のエリアへの近道にすぎないので、代わりに右へ進んでください。隠された *マジカルシード* を拾い、また別の霊と戦います。
 
 !battle(["Troy", :SPIRITM, 0], "Mountain Field")
 
-Make your way back to the center of the room and continue climbing rocks up and to the right. To the right of where Fern trapped us, get a hidden *Ultra Potion* then climb up and grab the hidden *Muscle Wing*. Exit out to a lower section of Charous Path.
+部屋の中央へ戻り、岩を上そして右へ登り続けます。ファーンに閉じ込められた場所の右で隠された *すごいキズぐすり* を拾い、登って隠された *きんりょくのハネ* を回収します。シャルース小道の下層へ出ます。
 
-When you reach a fork, go down the rocks to get the *Metagrossite*! Back on the main path is a hidden *Synthetic Seed*, *Calcium*, and *PokeSnax*.
+分岐に着いたら、岩を下ると *メタグロスナイト* が手に入ります! 本道に戻ると、隠された *シンセティックシード*、*リゾチウム*、*ポケスナック* があります。
 
-At the bridge, on Zekrom route, you'll see a story sequence play out. On Reshiram route, you'll obtain Taka's Chatot. Grab the *Purple Shard* and continue into the next room.
+橋では、ゼクロムルートなら物語の場面が入ります。レシラムルートならタカのペラップが手に入ります。*むらさきのかけら* を拾い、次の部屋へ進んでください。
 
-### Fire & Ice Room
+### 炎と氷の部屋 {#fire--ice-room}
 
 !enc(796, nil, nil, "Victory Road (Final Rooms)")
 
-I'll call this room the 7-gem puzzle room. grab the hidden *Iron*, *Full Restore*, and *Rare Candy*. Before proceeding with the main path of Victory Road, there is one side area we can go to. On the right side of this room, you'll see a path that leads to the bottom right corner, where you can fight a spirit.
+この部屋は「7つの宝石のパズル部屋」と呼ぶことにします。隠された *ブロムヘキシン*、*かいふくのくすり*、*ふしぎなアメ* を拾ってください。チャンピオンロードの本道を進む前に、寄り道できるエリアが1つあります。この部屋の右側に、右下の隅へ続く道が見え、そこで霊と戦えます。
 
 !battle(["King", :SPIRITM, 0], "Desert Field")
 
-Climb the nearby rocks to enter the side area.
+近くの岩を登って、寄り道エリアに入ります。
 
 !enc(797, nil, nil, "Victory Road (Fire & Ice Room)")
 
-Grab the hidden *Burn Heal* and *Fairy Gem* in the starting area.
+最初のエリアで隠された *やけどなおし* と *ようせいジュエル* を拾います。
 
-Make your way onto the ice on the left side of the area, and loop your way all the way around to activate the Blue Crystal. 
+エリア左側の氷の上に進み、ぐるりと大回りして青のクリスタルを起動します。
 
-Back on the land, head to the right side of the area and grab the three *Glitter Balls*, then activate the Red Crystal.
+陸に戻り、エリアの右側へ向かって *グリッターボール* 3個を回収したら、赤のクリスタルを起動します。
 
-Next, proceed through the red rock and ice bridge path that is now to your right. Push the nearby strength boulder down so it is out of the way, then return to the Red Crystal and activate it again.
+次に、右手に現れた赤い岩と氷の橋の道を進みます。近くの *かいりき* の岩を下へ押しのけたら、赤のクリスタルまで戻ってもう一度起動します。
 
-Down and left, a new path will be opened up. Climb down onto the ice, grab hidden *Ice Heal* at the bottom, then use the rightmost Rock Climb spot to go up and left to activate another Blue Crystal. Return to the left side of the room to grab the *Lucarionite* and fight another spirit.
+下そして左に、新しい道が開きます。氷の上へ下り、下部で隠された *こおりなおし* を拾ったら、一番右のロッククライム地点から上そして左へ進み、別の青のクリスタルを起動します。部屋の左側へ戻ると *ルカリオナイト* が手に入り、また別の霊とも戦えます。
 
 !battle(["Franz", :SPIRITM, 0], "Chess Board")
 
-With that, return to the 7-gem puzzle room.
+以上を済ませたら、7つの宝石のパズル部屋へ戻ります。
 
-### The Ruby Chamber
+### ルビーの間 {#the-ruby-chamber}
 
-Step on the panel towards the top and talk to Florinia. Heading down from here, a warp tile will appear. Take it to return to the central gem room from earlier.
+上部のパネルを踏み、フロリニアに話しかけます。そこから下へ進むとワープタイルが現れます。それに乗って、先ほどの中央の宝石部屋へ戻ります。
 
-We need to return to each of the four gem rooms we were in earlier. I will start with Ruby, in the top right corner.
+先ほど訪れた4つの宝石部屋に、それぞれ戻る必要があります。ここでは右上の隅のルビーから始めます。
 
-Use the Red Crystal Key and go up. Grab the hidden *Tiny Mushroom*. Proceed to the next room.
+赤のクリスタルのカギを使って上へ進みます。隠された *ちいさなキノコ* を拾います。次の部屋へ進んでください。
 
 !enc(803, nil, nil, "Victory Road (Ruby B4F & B5F)")
 
-Pick up the hidden *HP Up* here. As you might expect, it's time for a larger puzzle involving the Red Crystals that move rock climb spots around.
+ここで隠された *マックスアップ* を拾います。ご想像のとおり、ロッククライム地点を動かす赤のクリスタルを使った、より大きなパズルの時間です。
 
 !img("vr_ruby.png")
 
-- Climb to the right and push the boulder left, out of the way. Climb back down, activate the first red crystal (1), then go right and follow the path.
-- Activate the crystal on the hill (2), then go right and activate the next crystal (3). Reset the previous one (2) so you can go left up both rocks.
-- Follow this path to the left. You'll reach another crystal (4): activate it. To proceed, you'll need to double back around the bottom side of the room (through 1, 2, 3)
-- Activate both crystals (5, 6) you find in the next area. Follow the path this creates, then use the left crystal again (5) to create a new path to the left. Follow it up.
-- Push the boulder down twice to get it out of the way here, then activate the nearby crystal (7). You'll have to go down, activate the left crystal (5) again, then and make your way back up. Past the boulder, there should be a new path in the top left to follow (7, using the rock climb near 9). Down from here is a spirit.
+- 右へ登り、岩を左へ押しのけます。下りて最初の赤のクリスタル (1) を起動し、右へ進んで道をたどります。
+- 丘の上のクリスタル (2) を起動し、右へ進んで次のクリスタル (3) を起動します。左へ岩を2つとも登れるように、先ほどのもの (2) を元に戻します。
+- この道を左へたどります。別のクリスタル (4) に着くので起動します。先へ進むには、部屋の下側を回って戻る必要があります（1、2、3 を経由）。
+- 次のエリアで見つかるクリスタル2つ (5、6) を両方起動します。これでできた道をたどり、左のクリスタル (5) をもう一度使って左への新しい道を作ります。それを上へたどります。
+- ここで岩を下へ2回押しのけたら、近くのクリスタル (7) を起動します。下りて左のクリスタル (5) をもう一度起動し、また上へ戻る必要があります。岩の先、左上に新しい道ができているのでたどってください (7、9の近くのロッククライムを使用)。そこから下には霊がいます。
 
 !battle(["Godot", :SPIRITM, 0], "Burning Field")
 
-Continuing with the puzzle:
+パズルの続きです。
 
-- Up and left, activate another crystal (8). Once more, we'll have to drop down and make our way all the way back around the bottom right side of the room (using the climbs 1, 2, 3, 4, 6, 5, 7, 9)...
-- Climb the new set of rocks (8), but don't go up the one to the left quite yet, instead, head up and rock climb towards the center of the room. Activate the crystal on the left (9).
-- Back down and left (towards 8), climb up on the left side, going clockwise around the room. Down a rock climb, activate a crystal (10).
-- Make your way back to the left side of the room via going towards the previous climbs (past 9 and 8) and go up to get 3 *Glitter Balls*!
-- Heading back up towards the top of the room (above 8 and below 9), take the rocks generated previously by using the crystal (9) to go down towards the center of the room. 
-- Use the two crystals here (11, then 12 twice from two different angles, then 11 again) to navigate around the center of the area, grabbing a hidden *Dragon Gem* in the middle, then go right. Grab the hidden *Escape Rope*.
-- Climb down the lower rocks (at 13) to push the rock onto the pressure pad, then activate the crystal (13). Follow the path to the right side of the area.
-- Again, you'll use two sets of two crystals each to maneuver through this area (14, 6, 14 again).
-- Climb up from here. You'll need to activate two crystals here (15, 16), then head up and down the ledge. Backtrack through the center using the crystal by the pressure plate (13) to return to the bottom right side.
-- Activate the crystal in the way (15), then follow the path made earlier (16). Creep along the right side as you go up, and grab a hidden *Purple Shard*. Before entering the cave, follow the path on the right side down to reach another spirit.
+- 上そして左で、別のクリスタル (8) を起動します。またも下りて、部屋の右下側からぐるりと回って戻る必要があります（1、2、3、4、6、5、7、9 のロッククライムを使用）……
+- 新しくできた岩 (8) を登りますが、左のものはまだ登らず、上へ進んで部屋の中央方向へロッククライムします。左のクリスタル (9) を起動します。
+- 下そして左へ戻り (8 の方向)、左側を登って部屋を時計回りに進みます。ロッククライムを下り、クリスタル (10) を起動します。
+- 先ほどの登り口 (9 と 8 の先) へ向かって部屋の左側まで戻り、上へ進むと *グリッターボール* 3個が手に入ります!
+- 部屋の上部 (8 の上、9 の下) へ戻り、先ほどクリスタル (9) で生成した岩を使って、部屋の中央方向へ下ります。
+- ここの2つのクリスタル (11、続いて 12 を別々の方向から2回、そして再び 11) を使ってエリア中央を回り込み、中央で隠された *ドラゴンジュエル* を拾ったら右へ進みます。隠された *あなぬけのヒモ* も拾ってください。
+- 下の岩 (13 のあたり) を下りて岩を圧力板の上へ押し、クリスタル (13) を起動します。道をたどってエリアの右側へ向かいます。
+- ここでもクリスタル2つずつの組を2回使って、このエリアを進みます (14、6、そして再び 14)。
+- そこから登ります。ここではクリスタルを2つ (15、16) 起動し、上へ進んで段差を下ります。圧力板のそばのクリスタル (13) を使って中央を通り、右下側へ引き返します。
+- 邪魔なクリスタル (15) を起動し、先ほど作った道 (16) をたどります。上りながら右側を這うように進み、隠された *むらさきのかけら* を拾います。洞窟に入る前に、右側の道を下へたどると、また別の霊のところへ行けます。
 
 !battle(["Allan", :SPIRITM, 0], "Psychic Terrain")
 
-This is the first fight in the game with natural Psychic Terrain. Thankfully it's not too crazy for now... just wait until the postgame!
+これは、素の *サイコフィールド* で行われるゲーム初の戦いです。ありがたいことに今はまだ大したことはありません……ポストゲームまでお待ちください!
 
-Anyways, return to the top right corner to enter B5F. Prepare for a fight.
+ともあれ、右上の隅へ戻って地下5階へ入ります。バトルに備えてください。
 
 !battle(["Sirius", :Sirius, 2], "Dragon's Den")
 
-Our final fight with this guy is a toughie. His leads employ double strategies like Intimidate + Lightning Rod + Discharge. Notably his Tyrantrum makes amazing use of the field - one Dragon Dance will boost it to +2, making it able to OHKO most of your Pokemon with ease. However, with good doubles strategies and/or a bit of Dragon move spam, you can surely defeat Paul Clark from accounting.
+この男との最後の戦いは厄介です。先発は *いかく* ＋ *ひらいしん* ＋ *ほうでん* のような、ダブル向けの組み合わせを仕掛けてきます。特にガチゴラスはこのフィールドを見事に活かし、*りゅうのまい* 1回で実質+2まで上がり、こちらのポケモンの大半を容易に一撃で倒せるようになります。とはいえ、しっかりしたダブルの戦術か、ドラゴン技の連打があれば、経理部のポール・クラーク氏を打ち負かすことは十分可能です。
 
-After winning, you'll be free to explore this room. Make sure you grab the 3 *Ruby Stars* before leaving, as we'll need those. Oh, and get the hidden *Big Nugget* too. Take the warp point back to the central gem room!
+勝ったら、この部屋を自由に探索できます。出る前に *ルビーのほし* 3個を必ず回収してください。後で必要になります。ああ、隠された *でかいきんのたま* も忘れずに。ワープ地点で中央の宝石部屋へ戻りましょう!
 
-### The Sapphire Chamber
+### サファイアの間 {#the-sapphire-chamber}
 
-Use one of the three conveniently placed Light Shards if you want, and make your way to the Sapphire room in the top left. Pick up the hidden *Max Ether* and proceed into the door at the top.
+よければ、都合よく置かれた3つの光のかけらのどれかを使い、左上のサファイアの部屋へ向かいます。隠された *ピーピーリカバー* を拾い、上部の扉に入ってください。
 
 !enc(804, nil, nil, "Victory Road (Sapphire B4F & B5F)")
 
-In this room, we have to use Blue Crystals to open up spots on the ice for navigation. There's a crystal to the left: use it to make a path across the ice, then cross (L D L) and climb up.
+この部屋では、青のクリスタルを使って氷の上に進める地点を作る必要があります。左にクリスタルがあるので、それで氷を渡る道を作り、渡って（左 下 左）登ります。
 
 !img("vr_sapphire_1.png")
 
-Grab the hidden *Magical Seed* then enter the next ice puzzle. You'll need to first make your way to the very bottom of the ice (L D R U R D R U L D L D), climb up, and activate the crystal. Before proceeding, there is a sneaky rock climb path on the right side here leading to a spirit.
+隠された *マジカルシード* を拾い、次の氷のパズルに入ります。まず氷の一番下まで進み（左 下 右 上 右 下 右 上 左 下 左 下）、登ってクリスタルを起動する必要があります。先へ進む前に、ここの右側には見つけにくいロッククライムの道があり、その先に霊がいます。
 
 !battle(["Josh", :SPIRITM, 0], "Big Top Arena")
 
-Anyways, back down on the puzzle, we can now reach the top middle to activate another crystal (R U R D L U). This lets you get to the top left and escape (D L D R D L U L).
+ともあれパズルに戻り、これで上部中央へ行って別のクリスタルを起動できます（右 上 右 下 左 上）。これで左上へ行って脱出できます（下 左 下 右 下 左 上 左）。
 
-Head right, picking up the hidden *Blue Shard*. This next ice sheet is massive, so here's a step by step guide for this part:
+右へ進み、隠された *あおいかけら* を拾います。次の氷の面は非常に広いので、この区間は手順を追って案内します。
 
 !img("vr_sapphire_2.png")
 
-- L U L D R D R U L, activate the crystal (1) at the top of the hill, then climb back down.
-- R D L U L U2 L U L U L D R U L U L D L, activate crystal (2).
-- D R U R D, activate crystal (3).
-- U R D L U R U R D R D R D R D R (now at the starting tile) U L D L U R U L U R D L U R, activate crystal (4).
-- L D R U L U L D R D L U R U R D R D R D R D R (now at the starting tile) U L D L U L U L U L D, activate crystal (5).
-- R D L2 U L U R D L D R U R, climb up. Grab the hidden *Guard Spec*.
+- 左 上 左 下 右 下 右 上 左 と進み、丘の上のクリスタル (1) を起動して、また下ります。
+- 右 下 左 上 左 上2 左 上 左 上 左 下 右 上 左 上 左 下 左 と進み、クリスタル (2) を起動します。
+- 下 右 上 右 下 と進み、クリスタル (3) を起動します。
+- 上 右 下 左 上 右 上 右 下 右 下 右 下 右 下 右（開始タイルに戻ります）上 左 下 左 上 右 上 左 上 右 下 左 上 右 と進み、クリスタル (4) を起動します。
+- 左 下 右 上 左 上 左 下 右 下 左 上 右 上 右 下 右 下 右 下 右 下 右（開始タイルに戻ります）上 左 下 左 上 左 上 左 上 左 下 と進み、クリスタル (5) を起動します。
+- 右 下 左2 上 左 上 右 下 左 下 右 上 右 と進み、登ります。隠された *ガードスペック* を拾います。
 
-Head into the next room when you're ready.
+準備ができたら次の部屋へ入ります。
 
-**Relationship Point Choices**:
-- Tell Blake you will get in his way (-1 Blake)
-- Tell Blake you won't get in his way (+1 Blake)
+**好感度の選択肢**:
+- ブレイクの邪魔をすると伝える (-1 ブレイク)
+- ブレイクの邪魔はしないと伝える (+1 ブレイク)
 
 !battle(["Blake", :BLAKE, 2], "Icy Field")
 
-One more round with this guy too. Unfortunately for us, his team of Water and Ice types doesn't mess around, combining two of the best offensive types with a field effect that lets them stack speed on you, power up their attacks, neutralize Fire and Rock moves easily, and more. This time, the field isn't stacked on top of a Water Surface, so you can't burn it away. Fighting and Electric moves are generally good keys to victory for this fight, especially if you have some priority moves that help you boost your speed and Brick Break to knock out his screens.
+この男とももう一戦です。あいにく、彼のみず・こおりタイプの編成は生半可ではありません。攻撃面で屈指の2タイプに、こちらに対して素早さを積み上げ、技威力を上げ、ほのお技といわ技を容易に無力化するなどのフィールド効果が組み合わさっています。今回はフィールドが水面の上に重なっていないので、焼き払うこともできません。この戦いではかくとう技とでんき技が概して勝ち筋になります。特に、素早さを上げられる先制技や、壁を壊す *かわらわり* があると有効です。
 
-Grab the hidden *Heart Scale* and *Protein* as well as the three *Sapphire Stars*, then warp back.
+隠された *ハートのウロコ* と *タウリン*、そして *サファイアのほし* 3個を回収したら、ワープで戻ります。
 
-### The Emerald Chamber
+### エメラルドの間 {#the-emerald-chamber}
 
-Enter the Emerald room in the bottom left next.
+次は左下のエメラルドの部屋に入ります。
 
-Grab the hidden *Max Elixir* and exit at the bottom.
+隠された *ピーピーマックス* を拾い、下から出ます。
 
-In this next room, pick up the hidden *Repel* and *Ultra Ball*. There is a path along the bottom that will take you to a Green Crystal: activate it.
+次の部屋では、隠された *むしよけスプレー* と *ハイパーボール* を拾います。下部には緑のクリスタルへ続く道があるので、それを起動します。
 
 !img("vr_emerald.png")
 
-Head to the middle of the room and climb down, then activate the Green Crystal. Fern will start firing arrows at us. Once you get control, turn off speed up for your sanity, then start avoiding the arrows. If you get hit by one, it will drag you backwards, and deal damage to your team. There is a Light Shard at the bottom of the room. Since your Pokemon won't die from the arrows, might as well solve most of the puzzle before using the Shard. Oh, and there's a hidden *Genius Wing* on the left side if you have an opportunity to grab it.
+部屋の中央へ向かって下り、緑のクリスタルを起動します。ファーンが矢を撃ってきます。操作できるようになったら、精神衛生のために倍速を切り、矢を避け始めてください。当たると後ろへ引き戻され、手持ちもダメージを受けます。部屋の下部には光のかけらがあります。矢でポケモンが倒れることはないので、かけらを使う前にパズルをあらかた片付けてしまうのがよいでしょう。ああ、機会があれば左側の隠された *ちりょくのハネ* も拾ってください。
 
-On the left side of the area, climb the ivy (1) to follow the path we made earlier to a spirit.
+エリアの左側では、蔦 (1) を登ると、先ほど作った道をたどって霊のところへ行けます。
 
 !battle(["Nate", :SPIRITM, 0], "Desert Field")
 
-To defeat Fern in this room:
+この部屋でファーンを倒す手順は次のとおりです。
 
-- Back down in the main area, follow the ground-level path (2) on the left side. Push the boulder up, right, and up, onto the pressure pad.
-- Next, follow the second ground-level path (4) from the left up, and pull the lever.
-- Climb the ivy between these two paths (3) and go up. Push the lever, then talk to the Crystal to deal the first blow to Decidueye.
-- Climb the next ivy to the right (5), and activate this lever.
-- Go to the third ground-level path from the left (6) and go up. Pull the lever at its end.
-- Head over to the rightmost ground-level path (12), go up, and switch the lever.
-- Climb the second-from-the-right ivy (9), and switch the lever.
-- In the bottom left side of the area, there is a boulder. You'll need to push it right and up the second from the right ground-level path (10) onto a pressure plate at the top.
-- This will open up the path up from the rightmost ivy (11). Follow it, switch the lever, and activate the crystal to deal the second blow to Decidueye.
-- Finally, the middle ivy path (7) will be open. Follow it to the crystal and deliver the last blow to Decidueye.
+- 主要エリアへ戻り、左側の地上の道 (2) をたどります。岩を上、右、上と押して、圧力板の上へ乗せます。
+- 次に、左から2番目の地上の道 (4) を上へたどり、レバーを引きます。
+- この2本の道の間の蔦 (3) を登って上へ進みます。レバーを押し、クリスタルに話しかけると、ジュナイパーに一撃目を与えられます。
+- その右隣の蔦 (5) を登り、このレバーを起動します。
+- 左から3番目の地上の道 (6) へ行き、上へ進みます。突き当たりのレバーを引きます。
+- 一番右の地上の道 (12) へ向かい、上へ進んでレバーを切り替えます。
+- 右から2番目の蔦 (9) を登り、レバーを切り替えます。
+- エリアの左下側に岩があります。これを右へ、そして右から2番目の地上の道 (10) を上へ押し、最上部の圧力板に乗せる必要があります。
+- これで一番右の蔦 (11) から上への道が開きます。たどってレバーを切り替え、クリスタルを起動すると、ジュナイパーに二撃目を与えられます。
+- 最後に、中央の蔦の道 (7) が開きます。たどってクリスタルへ向かい、ジュナイパーに最後の一撃を与えます。
 
-With that out of the way, now is a great chance to use the Light Shard! You can now take the long path (8) up to the top of the room. Grab the hidden *Grass Gem*, then climb the rocks on the right side of the top of the room to reach another spirit.
+これを片付ければ、光のかけらを使う絶好の機会です! これで長い道 (8) を上って部屋の最上部まで行けます。隠された *くさのジュエル* を拾い、部屋の上部の右側の岩を登ると、また別の霊のところへ行けます。
 
 !battle(["Taro", :SPIRITM, 0], "Ashen Beach")
 
-Back down the rocks, enter the door at the top.
+岩を下り、上部の扉に入ります。
 
 !enc(809, nil, nil, "Victory Road (Emerald B5F)")
 
-Grab the hidden *Max Repel*, *Magical Seed*, *Green Shard*, and the 3 *Emerald Stars*. You can also find one more spirit by climbing a hill in the middle and using the Green Crystal Key.
+隠された *ゴールドスプレー*、*マジカルシード*、*みどりのかけら*、そして *エメラルドのほし* 3個を回収します。中央の丘を登って緑のクリスタルのカギを使うと、さらにもう1体の霊も見つかります。
 
 !battle(["Tenshi", :SPIRITM, 0], "Grassy Terrain")
 
-Use the warp tile to return to the central gem room.
+ワープタイルで中央の宝石部屋へ戻ります。
 
-### The Amethyst Chamber
+### アメジストの間 {#the-amethyst-chamber}
 
-Finally, head over to the Amethyst room in the bottom right corner. Pickup the hidden *Max Ether* and proceed into the room at the bottom.
+最後に、右下の隅のアメジストの部屋へ向かいます。隠された *ピーピーリカバー* を拾い、下部の部屋へ進んでください。
 
-Grab the hidden *Calcium* near the start, then prepare yourself for what's to come! Basically, you'll need to dodge the void, which aims for you. Getting hit by it will send you back to the start, unfortunately. To proceed in each area, look for the Purple Crystal and get the void to land on top of it.
+開始地点付近で隠された *リゾチウム* を拾ったら、これから起きることに備えてください。要するに、こちらを狙ってくる虚無をかわす必要があります。当たると、あいにく開始地点まで戻されます。各エリアで先へ進むには、紫のクリスタルを探し、その上に虚無を落とさせます。
 
-More tips: don't use speedup, don't use repels, since the "another?" message will actually cause you to be a sitting duck for the void; there aren't wild Pokemon here. Create straight lines for the void to follow onto the crystals to make it more predictable. Finally, save often!
+さらにコツを挙げると、倍速は使わないこと、そしてむしよけスプレーも使わないことです。「もう一度?」のメッセージが出ると、虚無に対して完全に無防備になってしまいます。ここに野生ポケモンはいません。虚無がクリスタルへ向かうよう直線を作ってやると、動きが読みやすくなります。最後に、こまめにセーブを!
 
-Once you exit the room at the bottom successfully, you can return to the previous room, where you will no longer be chased. In here we can find a hidden *Protein* and *Carbos*.
+下部の部屋から無事に出られたら、先ほどの部屋に戻れます。そこではもう追われません。ここでは隠された *タウリン* と *インドメタシン* が見つかります。
 
 !img("vr_amethyst.png")
 
-Towards the top of the room, you can follow a rock climb path to the *Salamencite*!
+部屋の上部では、ロッククライムの道をたどると *ボーマンダナイト* が手に入ります!
 
-In the bottom left side of the room, we can access a path that takes us up some rocks and to a spirit.
+部屋の左下側では、岩を登って霊のところへ行ける道に入れます。
 
 !battle(["Ikaru", :SPIRITM, 0], "Psychic Terrain")
 
-Once you're done, enter the room at the bottom right.
+済んだら、右下の部屋に入ります。
 
 !enc(810, nil, nil, "Victory Road (Amethyst B5F)")
 
-Pick up the hidden *PP Up*, *Max Revive*, *Hyper Potion*, and the 3 *Amethyst Stars*. Return to the central gem room via the new warp.
+隠された *ポイントアップ*、*げんきのかたまり*、*すごいキズぐすり*、そして *アメジストのほし* 3個を回収します。新しいワープで中央の宝石部屋へ戻ります。
 
-### Victory over Victory Road
+### チャンピオンロード制覇 {#victory-over-victory-road}
 
-Back in the central gem room, take the warp back to Florinia. You'll need to place 7 of the 12 stars into the slots, then step on the tile above. On the left side, you'll see gems light up gold corresponding to the number of correct stars you've picked. On the right, you'll see gems light up silver corresponding to the correct orientation of the gems.
+中央の宝石部屋に戻り、ワープでフロリニアのもとへ向かいます。12個の星のうち7個をはめ込み、上のタイルを踏む必要があります。左側では、選んだ星のうち正解の数だけ宝石が金色に光ります。右側では、宝石の配置が正しい数だけ銀色に光ります。
 
-And... it's actually random what the correct answer is per save file, so I can't just give you the solution this time.
+そして……実は正解はセーブデータごとにランダムなので、今回ばかりは解答をお見せできません。
 
-Solving this thankfully isn't too bad (especially compared to the last Logic Puzzle we did...) since we have infinite tries. What I like to do is place all 3 Ruby Stars in, and see how many light up. Take away all but that number of Ruby Stars, then move them around until the right side lights up with the same number. Repeat this for Sapphire Stars next, knowing that the Ruby gems are correct. Emerald can then assume Ruby and Sapphire are correct... so it's pretty simple from here. Soon you'll be done!
+とはいえ、試行回数に制限がないので、解くこと自体はありがたいことにそこまで大変ではありません（少なくとも直前の論理パズルに比べれば……）。筆者のやり方は、まず *ルビーのほし* 3個をすべてはめ込み、いくつ光るかを見ることです。その数だけルビーの星を残して他を外し、右側が同じ数だけ光るまで位置を入れ替えます。次にサファイアの星でも同じことを、ルビーが正しいと分かった状態で繰り返します。エメラルドではルビーとサファイアが正しい前提で進められるので、ここからは簡単です。じきに終わります!
 
-Enter the next room and pick up the hidden *Full Heal*. Once you're ready for a tough fight, head up and right.
+次の部屋に入り、隠された *なんでもなおし* を拾います。厳しい戦いの準備ができたら、上そして右へ進んでください。
 
 !battle(["Fern", :Hotshot, 7], "Crystal Cavern")
 
-One more round with our favorite Swag Jockey. His team is pimped out for maximal pain on the field, which... aside from an early game Aster & Eclipse fight and Ditto-Arceus, we haven't gotten to fight any significant trainers on. Three of his Pokemon have Rock Tomb, which gets a 2.25x power boost here and alternate hitting with Fire, Water, Grass, then Psychic sub-typing, cyclically. Any Pokemon's use of a Rock move, Multi-Attack, Strength, or Rock Climb will cause the sub-typing to move to the next, in fact. Dragon moves are also boosted here, so Haxorus (perhaps after a Dragon Dance), Krookodile (who will outspeed with its Scarf) and Serperior (perhaps after a Contrary Leaf Storm) will tear through you with theirs. Rhyperior's Rock Polish actually also boosts both attacking stats on this field, so if you can't take it out in the first turn, it might sweep you. It's also worth noting that Krookodile's Earthquake will turn the field to a Cave, where this move can now hit Flying type Pokemon you were hoping to switch in on it. Oh, and he has a Bullet Punch machine in Mega Scizor and a Z-Move 'roided Decidueye with priority.
+お気に入りのキザなジョッキーともう一戦です。彼の編成はこのフィールドで最大限の苦痛を与えられるよう飾り立てられています。このフィールドは……序盤のアスター＆エクリプス戦とメタモン・アルセウスを除けば、主要なトレーナー戦で戦う機会がありませんでした。手持ちのうち3匹が *がんせきふうじ* を持っており、ここでは威力2.25倍になるうえ、撃つたびに副タイプがほのお、みず、くさ、エスパーと循環していきます。実際、どのポケモンであれ、いわ技、*マルチアタック*、*かいりき*、*ロッククライム* を使うと副タイプが次へ移ります。ドラゴン技もここでは強化されるので、オノノクス（*りゅうのまい* を積んだ後なら特に）、ワルビアル（*こだわりスカーフ* で上を取ってきます）、ジャローダ（*あまのじゃく* の *リーフストーム* 後なら特に）が、ドラゴン技でこちらを切り裂いてきます。ドサイドンの *ロックカット* も、このフィールドでは攻撃系の能力を両方上げるので、初手で倒せないと一掃されかねません。さらに、ワルビアルの *じしん* はフィールドをどうくつに変えるので、それを受けようと出そうとしていたひこうタイプにも当たるようになる点にも注意が必要です。ああ、加えてメガハッサムという *バレットパンチ* 製造機と、Zワザで増強された先制技持ちのジュナイパーもいます。
 
-By now, I know you can win this one! Aside from a generally well-built team, Pokemon that make careful use of the moves I mentioned earlier to gain beneficial sub-typings and ruin Fern's sub-typings can be useful here. Dragon types can fairly easily sweep here if you can get some momentum and Stealth Rocks going, as well. Transform it into the Dark Crystal Cavern or Cave if you like those options better.
+ここまで来れば、この戦いに勝てるはずです。全体に完成度の高い編成に加えて、先ほど触れた技をうまく使い、こちらに有利な副タイプを取りつつファーンの副タイプを崩せるポケモンが役に立ちます。勢いをつけて *ステルスロック* を撒ければ、ドラゴンタイプでの一掃も比較的容易です。そちらのほうが好みなら、暗黒クリスタルのどうくつやどうくつに変えてしまう手もあります。
 
-Once you win, proceed to the right. Before we leave though, there is one last spirit that we can fight - hug the bottom wall as you go right to reach them. Grab the hidden *Ultra Potion* while you're here.
+勝ったら右へ進みます。ただし出る前に、最後の霊ともう1体だけ戦えます。右へ進むときに下の壁沿いを進むと会えます。ついでに隠された *すごいキズぐすり* も拾ってください。
 
 !battle(["Saya", :SPIRITF, 0], "Glitch Field")
 
-Make your way to the exit, grabbing the final hidden item of Victory Road... a *Blue Shard*. Exciting.
+出口へ向かい、チャンピオンロード最後の隠しアイテム……*あおいかけら* を回収します。胸が躍りますね。
 
-In the outside area in which you emerge, hug the bottom wall to pick up the *New World Field Readout*. Study up!
+外に出たエリアでは、下の壁沿いに進むと *新世界フィールドの資料* が手に入ります。しっかり予習しましょう!
 
-Head into the Pokemon Center up and to the right, and talk to the girl behind the counter to learn a bit about Reborn's Elite Four.
+上そして右のポケモンセンターに入り、カウンターの奥の少女に話しかけると、リボーンの四天王について少し教えてもらえます。
 
-Before we do that, however, fly on over to the other side of Victory Road, just north of Labradorra. If you've been fighting the spirits, we can get rewards for doing so! Talk to Azer.
+ただしその前に、チャンピオンロードの反対側、ラブラドラのすぐ北へ飛びましょう。霊と戦ってきたなら、その報酬が受け取れます! アザーに話しかけてください。
 
-|Reward                                             |Number of Spirits Collected    |
+|報酬                                             |集めた霊の数    |
 |---------------------------------------------------|-------------------------------|
-|*Choice Specs*, *Steelium-Z*                       |5+                             |
-|*Choice Band*, *Flyinium-Z*                        |10+                            |
-|*Choice Scarf*, *Fightinium-Z*                     |15+                            |
-|*Assault Vest*, *Focus Sash*                       |20+                            |
-|*Catching Charm: Emerald*, *Life Orb*, *Leftovers* |25                             |
+|*こだわりメガネ*、*ハガネZ*                       |5体以上                             |
+|*こだわりハチマキ*、*ヒコウZ*                        |10体以上                             |
+|*こだわりスカーフ*、*カクトウZ*                     |15体以上                             |
+|*とつげきチョッキ*、*きあいのタスキ*                       |20体以上                             |
+|*ゆれないおまもり・エメラルド*、*いのちのたま*、*たべのこし* |25体                             |
 
-You'll also get the *Exp. All* for catching all the spirits if you haven't obtained it yet.
+まだ入手していなければ、霊をすべて集めたことで *みんなのがくしゅうそうち* も手に入ります。
 
-With that taken care of... that's really it. Every Pokemon, Mega Stone, Z-Crystal, hold item, TM... aside from those that relate to Legendary Pokemon, we now have 'em all. Nothing else is holding us back from finally doing this thing. Fly on back to Charous Mountain in the top right corner of the region and prepare yourself as best you can for what's to come.
+これで……本当に終わりです。ポケモン、メガストーン、Zクリスタル、持ち物、わざマシン――伝説のポケモンに関わるものを除けば、すべてが揃いました。ついに挑むのを阻むものは、もう何もありません。地方の右上の隅にあるシャルース山へ飛び戻り、これから起きることに備えて万全の準備を整えてください。
 
-## Reborn Elite Four & Champion
+## リボーン四天王とチャンピオン {#reborn-elite-four--champion}
 
-Enter the Charous Hall, to the right of the Pokemon Center. Reminisce on the eighteen gyms you've beaten as you head up! Once you pass into the door at the top, you'll be unable to return, so make sure you're ready.
+ポケモンセンターの右にあるシャルースホールに入ります。上へ進みながら、打ち破ってきた18のジムを思い返してください! 最上部の扉をくぐると戻れなくなるので、準備は万全にしておきましょう。
 
 !battle(["Heather", :HEATHER, 0], "Mountain Field")
 
-Do you remember when we fought Corey, obtained the Silver Ring, and later found five of his six Pokemon? Now we know where his Crobat went. Fittingly, Heather uses Flying and Poison type Pokemon.
+コーリーと戦って *ぎんのゆびわ* を手に入れ、後に彼の6匹のうち5匹を見つけたのを覚えているでしょうか。彼のクロバットの行方が、これで分かります。それにふさわしく、ヘザーはひこうタイプとどくタイプを使います。
 
-On this field, Tailwind lasts for five turns and sets up Strong Winds. Crobat's speed and its Sash means you're not going to be able to easily steamroll with Ice, Electric, and Rock type moves once it gets off Tailwind. Archeops, another fast Pokemon, also has this move for support. Flying moves and Rock moves are all boosted here, meaning Crobat, Archeops, Gyarados with its Z-Crystal, and Salamence will all hit like trucks. Additionally, her Gengar's Icy Wind and Ominous Wind are boosted by 1.5x on this field, then again by 1.5x whenever Strong Winds are present. Oh, and Thunder never misses. A very tough optimized fight, but nothing too unexpected for Reborn's Elite Four.
+このフィールドでは *おいかぜ* が5ターン持続し、強い風を巻き起こします。クロバットの素早さとタスキのせいで、いったん *おいかぜ* を通されると、こおり技・でんき技・いわ技で一気に薙ぎ払うのは難しくなります。もう1匹の速いポケモンであるアーケオスも、補助としてこの技を持っています。ひこう技といわ技はどちらもここで強化されるので、クロバット、アーケオス、Zクリスタル持ちのギャラドス、ボーマンダはいずれもトラックのような一撃を放ちます。加えて、ゲンガーの *こごえるかぜ* と *あやしいかぜ* はこのフィールドで1.5倍になり、強い風が吹いている間はさらに1.5倍になります。ああ、*かみなり* も必中です。非常に厳しく、最適化された戦いですが、リボーンの四天王としては想定の範囲内でしょう。
 
-It's hard to recommend changing up your team specifically for this fight, because you have to bring the same team through the entire Elite Four. Still, if you are stuck on this fight, there are a lot of things you can use. For example, while Strong Winds do neutralize Flying type weaknesses, you can use the Thunder, Icy Wind, Hyper Voice, and Rock move boosts yourself to narrow the gap. Especially once Crobat and Archeops are down, that may be the way to victory. Trick Room will also help you turn Tailwind on its head if need be, where a Pokemon like Decidueye with a 1.5x attack boost from Long Reach may be able to sweep. You can also use your own Flying types to deal massive damage: Talonflame's Gale Wings is always on while Strong Winds are on, for example. Alternatively, you could consider switching the field to Snowy Mountain via the Blizzard TM if you want to use Ice moves more effectively.
+四天王は同じ編成で通しで戦う必要があるため、この戦いだけのために編成を組み替えるのはあまりおすすめできません。とはいえ行き詰まったなら、使える手はいくつもあります。たとえば、強い風はひこうタイプの弱点を打ち消しますが、*かみなり*、*こごえるかぜ*、*ハイパーボイス*、いわ技の強化はこちらも使えるので、差を詰められます。特にクロバットとアーケオスを落としたあとなら、それが勝ち筋になり得ます。必要なら *トリックルーム* で *おいかぜ* を逆手に取る手もあり、*えんかく* で攻撃1.5倍のジュナイパーのようなポケモンなら一掃も狙えます。こちらのひこうタイプで大ダメージを狙うのも有効です。たとえばファイアローの *はやてのつばさ* は、強い風の間は常時発動します。あるいは、こおり技をより有効に使いたければ、*ふぶき* のわざマシンでフィールドを雪山に変えるのも検討できます。
 
-Once you win, you'll get the *Ruby Ring*. Proceed to the next room.
+勝つと *ルビーのゆびわ* が手に入ります。次の部屋へ進みましょう。
 
 !battle(["Bennett & Laura", :BENNETTLAURA, 0], "Flower Garden")
 
-Good news: it's not a 12v6. Bad news: Bennett and Laura use Bug and Grass types on the most broken field effect in the game that we haven't yet seen even once: Flower Garden, with natural Rain to boot. Flower Garden has 5 stages, each stage essentially being more beneficial for their team than the last. It starts at Stage 1, but the Synthetic Seeds on the leads will automatically bump it up to Stage 3. Three more seeds in the back, Venusaur's Bloom Doom, Lilligant's Growth, and three Pokemons' Nature Power (which becomes Growth) will each up the stage. Swarm will always be on, boosting Volcarona and Galvantula's Bug Buzz, and gets an additional boost on Stages 3 and 5. If used at Stage 1 or 3, Growth will get powered up, so watch out for that. Grass moves get increasingly powerful as the stage increases, and Bug moves have boosts specifically on Stages 2 and 4. The five Synthetic Seeds also boost Special Defense and grant Ingrain, which is four times as powerful on Stage 4 specifically. Oh, and in Stages 4 and 5, Chlorophyll will always be on, meaning half of their Pokemon will consistently outspeed and destroy your team with their field-boosted moves.
+良い知らせは、12対6ではないことです。悪い知らせは、ベネットとローラがむしタイプとくさタイプを使い、しかも舞台がこれまで一度も戦ったことのない、ゲーム最凶のフィールド効果――しかも天候は雨つきの花畑フィールドだということです。花畑フィールドには5段階あり、段階が上がるほど相手の編成に有利になります。開始はステージ1ですが、先発のシンセティックシードで自動的にステージ3まで上がります。後衛のシード3個、フシギバナの *ブルームシャイン*、ドレディアの *せいちょう*、そして3匹の *しぜんのちから*（*せいちょう* になります）が、それぞれ段階を1つずつ上げます。*むしのしらせ* は常時発動でウルガモスとデンチュラの *むしのさざめき* を強化し、ステージ3と5ではさらに上乗せされます。ステージ1か3で使われた *せいちょう* は威力が上がるので、その点も注意してください。くさ技は段階が上がるほど強力になり、むし技はステージ2と4で特に強化されます。5個のシンセティックシードは特防も上げ、*ねをはる* 状態も付与します。これはステージ4では効果が4倍になります。ああ、ステージ4と5では *ようりょくそ* が常時発動するので、相手の半数が常にこちらの上を取り、フィールド強化された技で編成を壊しにきます。
 
-One thing to consider is just using the field yourself. If you can spare a party slot or two, you can bring a few Pokemon optimized for Stage 5 Flower Field and go off. Bennett and Laura only take advantage of maybe half of the boosts this field provides, so you can try using the other half. For example, Sweet Scent at Stage 5 lowers Evasion, Def, and SpD by 3 stages each, so using this move with something fast can set up your other Pokemon for easy knockouts. Flower Shield and Flower Veil grant massive defense boosts to your Pokemon and Grass type allies, meaning you can just out-tank your Grass type opponents by targeting the Bug types first. Infestation does a massive 1/3 HP each turn, so if you can get this move out and wait out a few turns, you can easily clean up that way. Nature Power is Growth up until Stage 5, when it becomes Petal Blizzard, meaning this move will allow your Pokemon to set up and sweep all in one! You can also use your own offensive Bug moves - fighting Swarm users with Swarm users may be smart, or you can carefully keep the field at Stage 4 in order to benefit from those boosts.
+一案は、こちらもフィールドを使ってしまうことです。手持ち枠を1〜2つ割けるなら、ステージ5の花畑フィールドに最適化したポケモンを連れていって暴れられます。ベネットとローラはこのフィールドの恩恵の半分ほどしか活かしていないので、残りの半分をこちらが使えばよいのです。たとえばステージ5の *あまいかおり* は回避・防御・特防を3段階ずつ下げるので、素早いポケモンでこれを使えば、他のポケモンが楽に倒せる状況を作れます。*フラワーガード* と *フラワーベール* は、自分のポケモンとくさタイプの味方に大きな防御上昇を与えるので、むしタイプから先に狙えば、相手のくさタイプを耐久で上回れます。*まとわりつく* は毎ターンHPの3分の1という大ダメージを与えるので、これを入れて数ターン待てば、それだけで簡単に片付けられます。*しぜんのちから* はステージ5になるまでは *せいちょう*、ステージ5では *はなふぶき* になるので、この技1つで積みと一掃の両方をこなせます! こちらもむし技で攻めるのも手で、*むしのしらせ* 持ちには *むしのしらせ* 持ちをぶつけるのが賢明かもしれませんし、その強化を得るためにあえてステージ4を維持するという手もあります。
 
-Or, you can try to fight the Flower Field directly. Cut gets a 1.5x boost and deals an additional 2x damage to Grass types, meaning it can effectively hit with 150 Power against the Grass types. It and X-Scissor cut down the stage by one, meaning once all the seeds are exhausted, you may be able to keep the Stage relatively low by spamming these. Using the Poisonium-Z to fire off a Acid Downpour will instantly take the field back to Stage 1. With good timing, this will allow you to halt their momentum and hopefully get some of your own going.
+あるいは、花畑フィールドそのものに真っ向から挑む道もあります。*いあいぎり* は1.5倍の強化を受け、くさタイプにはさらに2倍のダメージを与えるので、くさタイプに対して実質威力150で当たります。*いあいぎり* と *シザークロス* は段階を1つ下げるので、シードを使い切らせたあとは、これらの連打で段階を比較的低く保てるかもしれません。*ドクZ* で *アシッドポイズン* を撃てば、フィールドは即座にステージ1へ戻ります。うまく合わせれば、相手の勢いを止め、こちらが勢いを得る足がかりになります。
 
-Perhaps you could just change the field altogether: Sun will turn the field into the Rainbow Field for a little while, so you can try to devise a strategy involving that field if you want. What's better though is Burning Field. The Rain will stop you from turning the field to Burning Field, as would Sand. It's a bit tricky to set up, but Hail (we have the TM) followed up by a burning move like Lava Plume or Inferno Overdrive (we have the Z-Crystal) will succeed at this task! You can probably guess how well your opponents team will do on the Burning Field.
+いっそフィールドごと変えてしまう手もあります。晴れにすればしばらく虹のフィールドになるので、そちらを軸にした戦略を組んでも構いません。ただ、それ以上に有効なのが燃えるフィールドです。雨のせいで燃えるフィールドには変えられず、砂でも同様です。少し手間はかかりますが、*あられ*（わざマシンがあります）に続けて *ふんえん* や *ダイナミックフルフレイム*（Zクリスタルがあります）のような燃やす技を使えば成功します! 燃えるフィールドで相手の編成がどうなるかは、想像がつくでしょう。
 
-**Relationship Point Choices**:
-- Tell Bennett you know what Apolysis is (+1 Bennett)
+**好感度の選択肢**:
+- アポリシスが何か知っているとベネットに伝える (+1 ベネット)
 
-You'll get the *Sapphire Bracelets* for winning. Proceed to the next room, and ride the tile elevators upward.
+勝つと *サファイアのブレスレット* が手に入ります。次の部屋へ進み、タイルのエレベーターで上へ向かいます。
 
 !battle(["Elias", :ELIAS, 0], "Holy Field")
 
-We finally get to fight Arceus' favorite holy man. He uses Normal and Dragon types on the Holy Field. Notably, Normal moves become super effective against Ghost and Dark types, and special Normal moves like Noivern's Boomburst get a power boost. Dragon and Psychic moves also get boosts, making Noivern, Kommo-o, Dragonite, and Drampa even more powerful. On the Physical side, Dragonite's Extremespeed and Mega Kangaskhan's Return also get boosted on this field. With Mega Kangaskhan's double Power-Up-Punch, Noivern's SpA boosting seed, and Kommo-o's omniboosting Z-Move, there are a lot of threats that can set up on you, making the aforementioned moves even more powerful. Oh, and he has a Choice Scarf Imposter Ditto that loves to swap in as soon as any of your sweepers set up to outspeed and kill.
+ついに、アルセウスお気に入りの聖職者と戦えます。彼は聖なるフィールドでノーマルタイプとドラゴンタイプを使います。特筆すべきは、ノーマル技がゴーストタイプとあくタイプにこうかばつぐんになること、そしてオンバーンの *ばくおんぱ* のような特殊ノーマル技が威力上昇を受けることです。ドラゴン技とエスパー技も強化され、オンバーン、ジャラランガ、カイリュー、ジジーロンがいっそう強力になります。物理面では、カイリューの *しんそく* とメガガルーラの *おんがえし* もこのフィールドで強化されます。メガガルーラの2回分の *グロウパンチ*、オンバーンの特攻上昇シード、ジャラランガの全能力上昇Zワザにより、積んでくる脅威が多く、前述の技はさらに強力になります。ああ、*こだわりスカーフ* を持った *かわりもの* のメタモンもいて、こちらのエースが積んだ瞬間に繰り出され、上を取って倒しにきます。
 
-There are no built in field switches for this one, but it does leave you a few great options. Notably, special Fairy type moves and your own Dragon type moves are boosted here, so if you're able to get them off, you can potentially sweep Noivern, Drampa, Kommo-O, and Dragonite after hazards. You can also abuse Nature Power Judgement, Return, and Extremespeed for massive power boosts. Rock and Steel types can switch in on Banded Dragonite doing a power trip with Extremespeed, giving them a chance to turn momentum in your favor. Just have a plan for Scarf Impostor Ditto!
+この戦いにはフィールド変更の仕込みはありませんが、有力な選択肢はいくつもあります。特に、特殊フェアリー技とこちらのドラゴン技が強化されるので、これを通せれば、設置技のあとオンバーン、ジジーロン、ジャラランガ、カイリューを一掃できる可能性があります。*しぜんのちから*（*さばきのつぶて* になります）、*おんがえし*、*しんそく* の大幅な威力上昇をこちらが使う手もあります。*こだわりハチマキ* のカイリューが *しんそく* で調子に乗っているところへ、いわタイプやはがねタイプを繰り出せば、流れをこちらへ引き戻す機会になります。ただし、*こだわりスカーフ* の *かわりもの* メタモンへの対策だけは用意しておきましょう!
 
-Take the *Emerald Brooch* and proceed to the next room.
+*エメラルドのブローチ* を受け取り、次の部屋へ進みます。
 
 !battle(["Anna", :ANNA, 0], "Starlight Arena")
 
-The last Elite Four member is a child who will destroy your team with her Psychic and Fairy types on top of the Starlight Arena. Psychic and Fairy moves are boosted here, and Dark moves get a Fairy subtyping, taking away one of Metagross' weaknesses. There are further boosts for Ninetales' Aurora Beam, Gardevoir's Signal Beam, Starmie's Flash Cannon, Gardevoir and Ninetales' Moonblast, Sylveon's Swift, and a massive boost for Mega Metagross' Meteor Mash that shreds almost any Pokemon that doesn't resist it. Starmie with its seed and ability gets +3 SpA upon switch in, which paired with its high speed and coverage moves, means danger. Defensively, Cosmic Power and Wish are boosted, so Sylveon and Jirachi can potentially tank you. Ninetales' Aurora Veil is also always enabled.
+四天王最後の1人は、星空アリーナの上でエスパータイプとフェアリータイプを操り、こちらの編成を壊滅させてくる子どもです。ここではエスパー技とフェアリー技が強化され、あく技にフェアリーの副タイプが付くので、メタグロスの弱点が1つ消えます。さらにキュウコンの *オーロラビーム*、サーナイトの *シグナルビーム*、スターミーの *ラスターカノン*、サーナイトとキュウコンの *ムーンフォース*、ニンフィアの *スピードスター* にも上乗せがあり、メガメタグロスの *コメットパンチ* は凄まじく強化され、耐性のないポケモンはほぼ何でも粉砕されます。スターミーはシードと特性により繰り出し時に特攻+3となり、高い素早さと広い技範囲と相まって非常に危険です。守備面では *コスモパワー* と *ねがいごと* が強化されるので、ニンフィアとジラーチに受け切られる可能性があります。キュウコンの *オーロラベール* も常時有効です。
 
-If you want to win this one, as usual I think you can get away with taking advantage of the field yourself. Your own Meteor Mash, Mirror Shot, and Moonblast can all be potentially viable here. Wish and Moonlight heal more than usual, and Cosmic Power works for you too, so you can take advantage of the lack of priority aside from Bullet Punch to set up a tank of your own. Any weather condition will turn off the type boosts and the Fairy subtyping for Dark moves, so if you want to neuter her offensive power to some extent you can change the weather. We can't destroy the field or change it naturally, so make use of your teams synergy and the field effect to win this one.
+ここで勝ちたいなら、例によってフィールドを自分で活かす手が通ると思います。こちらの *コメットパンチ*、*ミラーショット*、*ムーンフォース* はいずれも十分候補になります。*ねがいごと* と *つきのひかり* は通常より多く回復し、*コスモパワー* もこちらで機能するので、*バレットパンチ* 以外に先制技が無いことを利用して、こちらが耐久型を積む手もあります。天候を発生させればタイプ強化とあく技のフェアリー副タイプが無効になるので、相手の攻撃力をある程度削ぎたければ天候を変えるのも有効です。フィールドを破壊したり自然に変えたりはできないので、編成の噛み合わせとフィールド効果を活かして勝ちにいきましょう。
 
-You'll get the *Amethyst Pendant*. Proceed to the Champion room when you're ready.
+*アメジストのペンダント* が手に入ります。準備ができたら、チャンピオンの部屋へ進んでください。
 
-You knew this was coming:
+来ると分かっていたはずです。
 
-**If you didn't give Blake the Ruby Ring**:
+**ブレイクに *ルビーのゆびわ* を渡さなかった場合**:
 
 !battle(["Lin", :LIN, 0])
 
-**If you gave Blake the Ruby Ring**:
+**ブレイクに *ルビーのゆびわ* を渡した場合**:
 
 !battle(["Lin", :LIN, 1])
 
-So, a Champion fight. If you look carefully, you'll notice that this team is almost entirely comprised of Pokemon stolen from Lin's victims... Ninetales from Ame, Gossip Gardevoir, Garchomp from Solaris, Conkeldurr/Togekiss from Samson/Ciel, and Delphox from Ace... So that's something. No field this time, so compared to the previous four fights this one generally won't be as bad. There is PULSE Abra in the back, this time not using Hyper Beam every turn, so you have to find a way to live its high powered special moves and hit back hard after defeating the other five Pokemon. You can take out the champion, I believe in you!
+さて、チャンピオン戦です。よく見ると、この編成がほぼ全員、リンの犠牲者から奪ったポケモンで構成されていることに気づくはずです。アメのキュウコン、ゴシップのサーナイト、ソラリスのガブリアス、サムソンとシエルのローブシンとトゲキッス、そしてエースのマフォクシー……なんとも言えません。今回はフィールドが無いので、直前の4戦に比べれば概して厳しくはありません。後衛にはPULSEケーシィがいますが、今回は毎ターン *はかいこうせん* を撃ってくるわけではないので、他の5匹を倒したあと、その高威力の特殊技を耐えて強く殴り返す手立てを見つけましょう。チャンピオンは倒せます。信じています!
 
-Once you regain control, head up and through the path. You'll need to use the Emerald Brooch on the first floor and solve a quick logic puzzle.
+操作に戻ったら、上へ進んで道を抜けます。1階では *エメラルドのブローチ* を使い、短い論理パズルを解く必要があります。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Or so it would seem. All four are Dark.
+    そう見えるだけです。4つとも「あく」です。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the puzzle solution</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">パズルの解答を表示</a>
 </div>
 
-In the Sapphire Bracelet room ahead is... another puzzle? Just choose an answer for each one. Proceeding from here, you can get the *PULSE Readout 11*. Oh boy.
+この先のサファイアのブレスレットの部屋には……またパズル? それぞれ答えを選ぶだけで構いません。そこから進むと *パルスの資料11* が手に入ります。いよいよです。
 
-Make your way to the top of the Arc and talk to Lin. Prepare your team and head in... Reborn's REAL champion fight is ahead.
+アークの最上部まで進み、リンに話しかけます。編成を整えて入りましょう……リボーンの *本当の* チャンピオン戦が待っています。
 
-Across this guide I've mentioned various choices that you can make to reach an exclusive postgame route - known by the community as the Anna Route. If you do not complete any one of the requirements for the Anna route, you will instead be on the Lin Route for the postgame. However, I actually think the first time player will get MORE out of the Lin Route than the Anna Route as far as the story goes, so don't feel like you're left out if you have missed one of the requirements. The Lin Route is still great and you should consider doing it first, going back for the Anna Route in a second playthrough. There is still one 'choice' left to make, so you can still opt out of the Anna Route if you'd like.
+この攻略では随所で、限定のポストゲームルート――コミュニティで「アンナルート」と呼ばれるもの――へ進むための選択に触れてきました。アンナルートの条件を1つでも満たしていない場合、ポストゲームは代わりにリンルートになります。ただ筆者としては、物語の面では初回プレイヤーはアンナルートよりリンルートのほうが得るものが多いと思うので、条件を取りこぼしていても損したとは思わないでください。リンルートも素晴らしいので、まずはそちらを進め、2周目でアンナルートを取りにいくのも十分ありです。まだ「選択」が1つ残っているので、望むならここでアンナルートから降りることもできます。
 
-A summary of the Anna Route requirements till now:
+ここまでのアンナルートの条件をまとめておきます。
 
-1. Find all the police officers before fighting Ace in the Jungle
-2. Defeat Solaris atop Pyrous Mountain
-3. Refuse to fight Sigmund at Yureyu
-4. Stop the doctor at Belrose
-5. Side with Radomus at Citae Astrae, then defeat El
-6. Don't give Blake the Ruby Ring
-7. Refuse to fight Taka at the WTC
-8. Allow Taka to join you in the desert
+1. ジャングルでエースと戦う前に、警官を全員見つける
+2. パイロス山の頂上でソラリスを倒す
+3. ユレユでシグムンドとの戦いを拒否する
+4. ベルローズで医者を止める
+5. キタエ・アストラエでラドマスの側につき、エルを倒す
+6. ブレイクに *ルビーのゆびわ* を渡さない
+7. 浄水センターでタカとの戦いを拒否する
+8. 砂漠でタカの同行を認める
 
-**Lin Route Fight**:
+**リンルートの戦い**:
 
 !battle(["Lin", :LIN, 2], "New World")
 
-**Anna Route Fight**:
+**アンナルートの戦い**:
 
 !battle(["Lin", :LIN, 3], "New World")
 
-If you thought Lin's earlier fight was a bit too easy... well... there's this... a fitting end to the main game of Pokemon Reborn... and it's just brutal.
+先ほどのリン戦が少し物足りないと感じたなら……ええ……これがあります。ポケモンリボーン本編の締めくくりにふさわしい、ただただ容赦のない一戦です。
 
-Let me first pause to make fun of some of you. Did you create your team largely around utilizing a specific weather condition? Or, are you even more crafty and use Pledge moves to create your own field, or perhaps the Lycanium-Z to destroy fields you don't like? Do you like the move Earthquake? Well, surprise, none of those things work here. Weather effects and generated fields simply do not work, so you'll always be fighting on New World without weather. And to lose against this fight means you'll have to go all the way back through the previous five. Your team is complete trash without your weather or field? Sucks for you! Remake it and battle your way all the way back. By the way, when I said "some of you", I meant me in the past, marching on in with a Rain Mono-Water team. Pelipper literally died in one shot to every single one of Lin's Pokemon no matter what I did. Sad. But I did eventually win!
+まずは少しばかり、皆さんを笑わせてください。特定の天候を軸に編成を組んできませんでしたか? あるいはもっと器用に、*ちかい* 技で自前のフィールドを作ったり、*ルガルガンZ* で気に入らないフィールドを破壊したりしていませんか? *じしん* が好きですか? 残念ながら、ここではそのどれも通用しません。天候効果も生成したフィールドも単純に機能せず、常に天候なしの新世界で戦うことになります。しかもこの戦いに負ければ、直前の5戦をまた最初からやり直しです。天候やフィールドが無いと編成が使い物にならない? お気の毒に! 組み直して、また戦い抜いてください。ちなみに「皆さん」と言いましたが、実は過去の筆者のことです。雨のみず単タイプ編成で乗り込んだ結果、ペリッパーは何をしてもリンのポケモン全員に文字どおり一撃で沈みました。悲しい。それでも最後には勝ちましたが!
 
-So, onto the fight itself. Power Gem, Earth Power, Draco Meteor, Dazzling Gleam, Flash Cannon, and Dark type moves are all boosted here. All of her Pokemon have at least one of these. The New World Field also has this thing where grounded Pokemon have three-quarters speed and levitating Pokemon have slightly lowered Defenses. Lin having 4/5 non-grounded Pokemon essentially means unless you have a lot of them too, you're going to basically be losing speed battles you'd otherwise win. The defense drop is cancelled out on her Pokemon by virtue of the PULSE2 adding defenses to the sweepers anyways.
+さて、戦いそのものについてです。ここでは *パワージェム*、*だいちのちから*、*りゅうせいぐん*、*マジカルシャイン*、*ラスターカノン*、そしてあく技が強化されます。彼女の手持ちは全員、このうち少なくとも1つを持っています。新世界フィールドにはさらに、地に足のついたポケモンの素早さが4分の3になり、浮いているポケモンの防御がわずかに下がるという性質があります。リンの5匹中4匹が地に足がついていないので、こちらにも同様のポケモンが多くない限り、本来なら勝てるはずの素早さ勝負に基本的に負けることになります。防御低下のほうは、PULSE2がエースに防御を上乗せしているおかげで、相手側では実質相殺されています。
 
-As for the team itself, it's real good. Mismagius is a cruel lead, taking advantage of the field boosts and speed nerf to hit fast and hard. Honchkrow is there to ruin your sweeper's day, getting off Sucker Punch to probably knock you out and snowball into a sweep. Clefable does usual Clefable things: saying NOPE to your boosts, getting double Cosmic Power boosts, and laughing in your crying face. Flygon (on Anna Route) and Hydreigon like to mercilessly overwhelm your Pokemon with their wide coverage. She also has the first enemy Ultra Beast... ugh. This thing is super tanky, has a STAB boosted move in Flash Cannon and good coverage in Flamethrower and Giga Drain, and also carries Leech Seed just in case you thought you were smart about using a tanky Pokemon of some kind. And the most cursed ability ever: Beast Boost, which will raise its SpA in this case.
+編成そのものも実に優秀です。ムウマージは残酷な先発で、フィールド強化と素早さ低下を活かして速く重く殴ってきます。ドンカラスはこちらのエースを潰す役割で、*ふいうち* で仕留めては雪だるま式に一掃へつなげます。ピクシーはいつものピクシーで、こちらの積みに「ダメです」と言い、*コスモパワー* を2回積み、泣き顔を笑ってきます。フライゴン（アンナルート）とサザンドラは、広い技範囲で容赦なくこちらを圧倒したがります。さらに、敵として初めてのウルトラビーストも登場します……厄介です。こいつは非常に硬く、タイプ一致で強化された *ラスターカノン* に加え、*かえんほうしゃ* と *ギガドレイン* という優れた技範囲を持ち、しかも耐久型で受けようという浅知恵に備えて *やどりぎのタネ* まで携えています。そして史上最も呪わしい特性、*ビーストブースト*――この場合は特攻が上がります。
 
-You'll notice that I haven't mentioned the puppy in the room. It seems like the route that so far is harder to get into has an easier time with this fight, and that's true... sorta. While Anna Route gets PULSE Arceus replaced by Flygon, winning the first, easier fight will actually send you right into another fight. No healing or switching your team around in between.
+部屋にいるあの子犬に触れていないことに気づいたはずです。ここまで到達条件の厳しかったルートのほうが、この戦いは楽に見えます。実際そのとおりです……ある意味では。アンナルートではPULSEアルセウスがフライゴンに差し替わりますが、この易しいほうの1戦目に勝つと、そのまま次の戦いへ直行します。間に回復も編成変更もありません。
 
 !battle(["Lin", :CHILDLIN, 0], "New World")
 
-So, yeah. With a 975 Base Stat Total, Perfect IVs, and a PULSE 2, no matter your route, you get to fight this thing, and if you're fighting it separately, you don't get to carry any momentum like stat boosts or hazards over from fighting the other six Pokemon. For that reason, doing the two-fight gauntlet version is strictly harder than the one-fight version, so I will give some advice for doing the gauntlet version.
+そう、そういうことです。種族値合計975、個体値完璧、PULSE2持ち。ルートに関わらずこいつと戦うことになり、しかも単独で戦う場合は、他の6匹との戦いから能力上昇や設置技といった勢いを持ち越せません。そのため、2連戦版のほうが1戦版より明確に難しいので、ここでは2連戦版に向けた助言を書いておきます。
 
-It's worth noting that this is actually the 9th and final Anna Route requirement:
+なお、これが実は9つ目にして最後のアンナルート条件です。
 
-**Once you win the first fight, if you lose the second fight, you will be kicked out of Anna Route.**
+**1戦目に勝ったあと2戦目に負けると、アンナルートから外れます。**
 
-You'll also have to fight the first New World Lin fight again, this time, it will be the version without Flygon and with Arceus. (If you still want to go to Anna Route, you can restore a backup if you want - there's actually one automatically created for you in the saves folder.)
+さらに、新世界でのリン戦の1戦目からやり直しになり、今度はフライゴンではなくアルセウスがいる版になります。（それでもアンナルートへ行きたければバックアップを復元できます。実はセーブフォルダに自動で作られています。）
 
-Anyways, onto the strategy. Really, these fights come down to choreographing every single move pretty much. If you don't know whether Honchkrow is going to Sucker Punch or use its Z-move, you will probably lose. If a random attack of yours misses, it will likely throw off the whole fight and you will lose. Lots and lots of trial and error will probably be key here. I recommend setting your Z-move to Steel, Poison, or Rock in most cases. Clefable is usually the most annoying Pokemon to take out aside from Arceus, so having either a super-effective nuke or a field-boosted Continental Crush to take it out is usually a good idea. You may instead want to use it on Celesteela, in which case Fire, Electric, or field-boosted Dark are good bets. Even though all the other stuff like field changes and weather are out, ol' reliable TRICK ROOM is here to save the day - it even gets an automatic 8 turns on this field, freeing up your Trick Room user to hold something else like Light Clay. A Z-move of one of the aforementioned types or Mold Breaker on a slow set-up sweeper under Trick Room can barrel through the bulk of the team, freeing you up to worry about Arceus!
+ともあれ戦略です。正直なところ、この戦いはほぼすべての行動を事前に振り付けるかどうかにかかっています。ドンカラスが *ふいうち* を撃つのかZワザを撃つのかが読めなければ、たぶん負けます。こちらの技がたまたま外れれば、それだけで戦い全体が崩れて負けます。膨大な試行錯誤が鍵になるでしょう。Zワザははがね、どく、いわのいずれかに設定するのが多くの場合おすすめです。アルセウスを除けば、たいていピクシーが最も厄介なので、こうかばつぐんの高火力技か、フィールド強化された *ワールズエンドフォール* で仕留められるようにしておくのは良い考えです。代わりにテッカグヤに使いたい場合は、ほのお、でんき、フィールド強化されたあくが有力です。フィールド変更も天候も封じられていますが、頼れる *トリックルーム* だけは健在です。しかもこのフィールドでは自動的に8ターン持続するので、*トリックルーム* 役に *ひかりのねんど* 以外の持ち物を持たせられます。前述のいずれかのタイプのZワザか、*かたやぶり* を持つ遅い積みエースを *トリックルーム* 下で動かせば、編成の大半を押し潰し、アルセウスへの対処に専念できます!
 
-One more fun tech is that the Magical Seed grants an omniboost while causing you to recharge. If you hard switch, the Pokemon that comes out gets the recharge turn cancelled out as part of the switching turn, so that's nice. If you have a Pokemon with Recycle, it will cause the seed to be regenerated and consumed, but the recharge turn will again be done on that turn... meaning you can literally omniboost all the way to +6 if you have some way to not die in the meantime. A fun thing to turn to if all else seems lost.
+もう1つ面白い小技として、*マジカルシード* は全能力を上げるかわりに反動で動けなくなります。ここで手動交代すると、出てきたポケモンは交代ターンの一環として反動ターンが打ち消されるので好都合です。*リサイクル* を持つポケモンがいれば、シードが再生成されて消費され、その反動ターンもまたそのターンで消化されます。つまり、その間に倒れずにいられる手段さえあれば、文字どおり+6まで全能力を上げ切れます。万策尽きたときに試す価値のある小技です。
 
-Then there's Arceus. In the easier version, it is holding a Life Orb, so poisoning it then hiding behind Substitutes can be a funny way to watch it knock itself out. Unfortunately the harder version has a Z-Crystal and you don't get the time to set up anything on it, so you're going to have to use whatever scraps of your team remain after the previous fight to do... some cheap crap, pretty much. My first time it was just double Protect on Speed Boost Sharpedo followed by Destiny Bond. This time it was Accelerock for some chip plus a Sturdy Metal Burst. Some people will call strategies like these cheap, but what else can you really do against a Pokemon with 975 BST, full EV's, and IV's, and field boosts too? Do what you must and win both fights if you want to stay on Anna Route, or defeat just the one-team version to proceed to Lin Route.
+そしてアルセウスです。易しいほうの版では *いのちのたま* を持っているので、毒にして *みがわり* の裏に隠れていれば、勝手に自滅するのを眺めるという愉快な手が使えます。あいにく難しいほうの版はZクリスタル持ちで、しかも積む時間も与えられないので、前の戦いで残った手持ちの切れ端で……まあ、せこい手を使うしかありません。筆者の初回は、*かそく* のサメハダーで *まもる* を2回使ってからの *みちづれ* でした。今回は *アクセルロック* で少し削ってからの *がんじょう* ＋ *メタルバースト* です。こういう戦法をせこいと呼ぶ人もいるでしょうが、種族値合計975、努力値も個体値も満載、さらにフィールド強化まで乗ったポケモンに対して、他に何ができるでしょうか。アンナルートに残りたいなら手段を選ばず2戦とも勝ち、リンルートへ進むなら1編成版だけを倒してください。
 
-**Relationship Point Choices**:
-- Defeat the 2-fight Lin Gauntlet and advance to Anna Route (-2 Terra)
+**好感度の選択肢**:
+- リンの2連戦を制してアンナルートへ進む (-2 テラ)
 
-Either way, once you complete this fight, you're like, done? You've completed the main game of Pokemon Reborn! Congratulations! I am proud of you! And thanks for reading so far :)
+いずれにせよ、この戦いを終えれば、もう……終わりです。ポケモンリボーンの本編を完走しました! おめでとうございます! 誇りに思います! そしてここまで読んでくださって、ありがとうございました :)
 
-Head to any PC if you want to look at your Hall of Fame progress!
+殿堂入りの記録を見たければ、どこでもいいのでパソコンへ向かいましょう!

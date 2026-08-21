@@ -1,164 +1,164 @@
-# Episode 9: Sister's Keeper
+# エピソード9: 妹の番人 {#episode-9}
 
-**Relationship Point Choices**:
-- Talk to Serra on the couch after the battle (+1 Serra)
+**好感度の選択肢**:
+- バトル後、ソファのセラに話しかける (+1 セラ)
 
-Now that the Pokemart is gone from the roof, head upstairs and walk out onto said roof. You'll find a *Mirror Lure* here! This item, when held by a lead Pokemon, will force encounters to match the species of your lead if applicable. Useful for shiny hunting or catching dupes with better IVs or to save on Mints and Ability Capsules.
+屋上からショップが消えたので、上階へ行って屋上に出てください。ここで *ミラールアー* が手に入ります。先頭のポケモンに持たせると、その種族に該当する出現が優先されるようになる道具です。色違い探しや、より良い個体値の同種を狙うとき、あるいはミントととくせいカプセルを節約したいときに便利です。
 
-Exit the gym.
+ジムを出ます。
 
-## Two Herbal Extracts
+## 2つのやくそうエキス {#two-herbal-extracts}
 
-Make your way out of Spinel Town, through the woods, and head back towards Tanzan Mountain. You'll finally be able to enter the Pokemart here! One person sells the now-updated default items, but there is another vendor.
+スピネルタウンを出て森を抜け、タンザン山へ戻ります。ここでようやくショップに入れます。1人は更新された標準の品を売っていますが、もう1人別の売り手がいます。
 
 !shop("Default Mart (6-9 Badges)", ["Super Potion", "Antidote", "Paralyze Heal", "Burn Heal", "Escape Rope", "Super Repel", "Poke Ball", "Great Ball"])
 
 !shop("Chrysolia Pokemart Herbs", ["Herbal Extract", "Energy Powder", "Heal Powder"])
 
-The Powders aren't really worth it unless you're going for a Frustration build, but we will need two Herbal Extracts: one for a sidequest and one to continue the story.
+こな類は *やつあたり* を軸にした構成でもない限り割に合いませんが、*やくそうエキス* は2つ必要になります。1つはサイドクエスト用、もう1つはストーリー進行用です。
 
-If you chose to go to Spinel Town before Belrose Manse, you can [read the above section on Tanzan Cove](#tanzan-cove) for encounters, items, etc.
+ベルローズ邸より先にスピネルタウンへ行った場合は、[上のタンザン入り江の節](/reborn/episode-8/#tanzan-cove)で出現ポケモンやアイテムを確認してください。
 
-**Relationship Point Choices**:
-- Defeated Serra and got Herbal Medicine before entering the Belrose Manse (+1 Charlotte)
+**好感度の選択肢**:
+- セラを倒し、やくそうエキスを入手してからベルローズ邸に入る (+1 シャルロット)
 
-Anyways, head to Belrose Manse and go upstairs.
+ともあれベルローズ邸へ向かい、上階へ上がります。
 
-**Relationship Point Choices**:
-- Talk to Noel without Herbal Extract in your inventory (-1 Noel)
+**好感度の選択肢**:
+- やくそうエキスを持たずにノエルに話しかける (-1 ノエル)
 
-Give the medicine to Anna and she will feel better. Head outside.
+薬をアンナに渡すと容体が良くなります。外へ出ましょう。
 
-**Relationship Point Choices**:
-- Talk to Shelly while Noel wants to battle you (+1 Shelly)
+**好感度の選択肢**:
+- ノエルがバトルを望んでいる間にシェリーに話しかける (+1 シェリー)
 
-We can talk to Noel to advance the plot, but we can actually use the second Herbal Extract we got right now to get a nice reward, so I'll take care of that now.
+ノエルに話しかければ話は進みますが、2つ目の *やくそうエキス* を今すぐ使って良い報酬を得られるので、先にそちらを片付けます。
 
-Head over to the Chrysolia Forest and go up. You'll find the lady that was teleported off the bench here. Give her the Herbal Extract to get *Department Store Sticker: Chansey*.
+クリソリアの森へ向かい、上へ進みます。ベンチから飛ばされた女性がここにいます。やくそうエキスを渡すと *デパートシール: ラッキー* がもらえます。
 
 !shop("Department Store 7F (Left)", ["Psychic Gem", "Bug Gem", "Rock Gem", "Ghost Gem", "Dark Gem", "Dragon Gem", "Steel Gem", "Ice Gem", "Fairy Gem"])
 
 !shop("Department Store 7F (Right)", ["Fire Gem", "Water Gem", "Normal Gem", "Grass Gem", "Electric Gem", "Poison Gem", "Ground Gem", "Fighting Gem", "Flying Gem"])
 
-You can grab some gems if you have a strategy that relies on them such as Flying-gem Acrobatics or Unburden Normal-gem Fake Out.
+*ひこうのジュエル* と *アクロバット*、*かるわざ* と *ノーマルジュエル* の *ねこだまし* のように、ジュエルを前提とした戦法を使うなら買っておくとよいでしょう。
 
-With that out of the way, head back to the Tanzan Cove. Prepare your team for a battle and talk to Noel...
+それが済んだらタンザン入り江へ戻ります。手持ちをバトルに備えて整え、ノエルに話しかけてください。
 
-## Defending Belrose Manse
+## ベルローズ邸の防衛 {#defending-belrose-manse}
 
-**Relationship Point Choices**:
-- Tell Saphira you don't understand (-1 Saphira)
+**好感度の選択肢**:
+- サファイラに「理解できない」と伝える (-1 サファイラ)
 
-**Relationship Point Choices**:
-- Tell Charlotte you want to beat Meteor faces (+1 Charlotte)
+**好感度の選択肢**:
+- シャルロットに「メテオの連中を殴りたい」と伝える (+1 シャルロット)
 
-The story will diverge a little bit depending on what our choice was at Yureyu. This section gets a bit hairy since there are FOUR different story splits.
+ユレユでの選択によって、ここから物語が少し分かれます。分岐が**4通り**あるため、この節はやや込み入ります。
 
-### Fought Sigmund at Yureyu Route Part 2
+### ユレユでシグムンドと戦ったルート 後編 {#fought-sigmund-at-yureyu-route-part-2}
 
-If you didn't fight Sigmund at Yureyu and instead fought Sirius, [jump to the next section](#didnt-fight-sigmund-at-yureyu-part-2).
+ユレユでシグムンドと戦わず、シリウスと戦った場合は[次の節へ進んでください](#didnt-fight-sigmund-at-yureyu-part-2)。
 
-Anyways, you'll have to first fight two orderlies.
+まず看護人2人と戦うことになります。
 
 !dbattle(["John", :Orderly, 2], ["David", :Orderly, 1])
 
-Afterwards, you'll be healed but thrust into another battle.
+そのあと回復は入りますが、続けて次の戦闘に放り込まれます。
 
 !battle(["Sirius", :Sirius, 1])
 
-On this route this is our first battle with Sirius, and we don't get a partner. His team is all about hitting hard with well-rounded coverage. In particular you have to watch out for his Chandelure, who is fast and can hit most types super effectively. Minior can set up if you have a bad lead against it, and Manectric uses fast offense and pivot moves. The rest are fairly slow. No field effect to worry about here, so pick your best counters to his team and you can overcome.
+このルートではシリウスとの初戦で、しかも味方はいません。相手は広い攻撃範囲で高火力を押し付けてくる編成です。特に **シャンデラ** が要注意で、素早いうえに大半のタイプに抜群を取れます。**メテノ** は先発の相性が悪いと積んでくる可能性があり、**ライボルト** は高速の攻撃と交代技で立ち回ってきます。残りは比較的鈍足です。フィールド効果は絡まないので、相手の編成に対する最善の受け手を選べば突破できます。
 
-Afterwards, the game will give us another choice that affects the story! Either we will go upstairs or stay downstairs.
+そのあと、物語に影響する選択がもう一度あります。上階へ行くか、下階に留まるかです。
 
-**Relationship Point Choices**:
-- Go Upstairs after fighting Sirius (+1 Charlotte, +1 Shelly, +1 Noel, -1 Saphira, -1 Laura, -1 Sigmund)
-- Stay Downstairs after fighting Sirius (+1 Charlotte, +1 Shelly, +1 Saphira)
+**好感度の選択肢**:
+- シリウス戦のあと上階へ行く (+1 シャルロット、+1 シェリー、+1 ノエル、-1 サファイラ、-1 ローラ、-1 シグムンド)
+- シリウス戦のあと下階に留まる (+1 シャルロット、+1 シェリー、+1 サファイラ)
 
-If you chose to stay downstairs the Twins will be captured. Talk to the group in the kitchen to the right.
+下階に留まると双子が連れ去られます。右のキッチンにいる一団に話しかけてください。
 
-If you go upstairs, this results in Laura being captured. Talk to Saphira downstairs.
+上階へ行くとローラが連れ去られます。下階のサファイラに話しかけましょう。
 
-### Didn't Fight Sigmund at Yureyu Part 2
+### ユレユでシグムンドと戦わなかったルート 後編 {#didnt-fight-sigmund-at-yureyu-part-2}
 
-If you fought Sigmund at Yureyu, [jump to the next section](#tanzan-meteor-base).
+ユレユでシグムンドと戦った場合は[次の節へ進んでください](#tanzan-meteor-base)。
 
-Anyways, it's time for another battle with the doc.
+さて、またも博士との一戦です。
 
 !battle(["Sigmund Connal", :DOCTOR, 1])
 
-This fight can be tough thanks to his usage of the very broken Psychic Terrain - it will double Musharna's speed, boost his Psychic attacks plus Hex, and make Hypnosis actually reliable. Consider knocking out Musharna, then trying to stall out the terrain to neutralize this strategy; alternatively, you can use Hex yourself to deal heavy damage. In the back is his Electivire, who is fast and hits hard with Ice Punch, so be careful with your Ground types. A well rounded team will be able to succeed with the right approach.
+極めて強力な *サイコフィールド* を使ってくるため、厳しい戦いになり得ます。**ムシャーナ** の素早さが2倍になり、エスパー技と *たたりめ* が強化され、*さいみんじゅつ* が実用的な命中率になります。ムシャーナを落としてからフィールドが切れるのを待ってこの軸を潰すか、逆にこちらが *たたりめ* を使って大打撃を狙う手も考えられます。控えの **エレキブル** は素早く *れいとうパンチ* の火力も高いので、じめんタイプの扱いには注意してください。バランスの取れた編成で、正しく攻めれば勝てます。
 
-Afterwards, you will make another choice that will affect the game!
+そのあと、ゲームに影響する選択がもう一度あります。
 
-**In order to access the exclusive postgame route, you need to stop Sigmund after fighting him.**
+**限定ルートに入るには、シグムンドと戦ったあと彼を止める必要があります。**
 
-**Relationship Point Choices**:
-- Choose to stop Sigmund after fighting him (+1 Saphira, +1 Shelly, +1 Charlotte, +1 Noel, +1 Anna, +1 Shade, -1 Laura, -2 Sigmund)
-- Choose to stop Sirius after fighting Sigmund (+1 Laura, -2 Saphira, -1 Noel)
+**好感度の選択肢**:
+- シグムンドと戦ったあと、彼を止めることを選ぶ (+1 サファイラ、+1 シェリー、+1 シャルロット、+1 ノエル、+1 アンナ、+1 シェイド、-1 ローラ、-2 シグムンド)
+- シグムンドと戦ったあと、シリウスを止めることを選ぶ (+1 ローラ、-2 サファイラ、-1 ノエル)
 
-If Saphira was abducted, you'll also see a hole in the wall that opens up. You can actually use the hole instead of the door to enter and exit.
+サファイラが連れ去られた場合は、壁に穴が開いているのも見えます。扉の代わりにこの穴から出入りできます。
 
-**Relationship Point Choices**:
-- Exit or enter the Belrose Manse through the hole in the wall (-1 Laura)
+**好感度の選択肢**:
+- 壁の穴からベルローズ邸を出入りする (-1 ローラ)
 
-## Tanzan Meteor Base
+## タンザンメテオ基地 {#tanzan-meteor-base}
 
-With that, we can now enter the Tanzan Mountain and take back whoever you ended up getting kidnapped by Team Meteor.
+これでタンザン山に入り、チームメテオに連れ去られた人物を取り戻せます。
 
-Head into Tanzan Mountain and go to the right as soon as you can. Depending on your earlier choices either Laura or Saphira will be here. Talk to them and you will be able to use the rock to nicely remove the barrier or freely pass through it after Dragonite destroys it.
+タンザン山へ入り、行けるようになったらすぐ右へ進みます。それまでの選択に応じて、ローラかサファイラのどちらかがここにいます。話しかけると、岩を使って障壁を綺麗に取り除くか、**カイリュー** が破壊したあとを自由に通り抜けるかできます。
 
-The next room contains a hidden *Green Shard*, *Pecha Berry*, and *Blue Shard*. Enter the base.
+次の部屋には隠された *みどりのかけら*、*モモンのみ*、*あおいかけら* があります。基地へ入りましょう。
 
-There will be a lot of these rotary thingies all over the base. Essentially they will send you 90 degrees in the indicated direction, but once you use it, it'll send you in the opposite direction next time. So, you'll only be able to go left for now.
+基地の各所に回転装置があります。要は示された方向へ90度送り出す仕掛けですが、一度使うと次は逆方向へ送るようになります。そのため、今のところ左にしか行けません。
 
 !battle(["Kenneth", :MeteorGrunt, 2], "Factory Field")
 
-Head up and into the room. This next room has tiles that will teleport you to the same color equivalent in a different room - and those in that room will teleport you back. You'll need to reach the top of each room to deactivate a panel. To succeed, one strategy is this:
+上へ進んで部屋に入ります。次の部屋には、別の部屋の同じ色のタイルへ飛ばすタイルがあり、飛んだ先のタイルは元へ戻します。各部屋の最上部まで到達してパネルを解除する必要があります。攻略法のひとつは次のとおりです。
 
-Use the left panel, then go left, down, up, up and use the computer. Spam down and eventually you can return to the bottom of the room. Ensuring we are starting in the right room this time, use the right panel, then go right, down, up, up, and use this computer. Spam down, again use the white panels at the bottom to pop out in the right side.
+左のパネルを使い、左、下、上、上と進んでコンピューターを操作します。下を連打すれば部屋の下部へ戻れます。今度は正しい部屋から始まるようにして、右のパネルを使い、右、下、上、上と進んでこちらのコンピューターを操作します。また下を連打し、下部の白いタイルを使って右側に出ます。
 
 !battle(["Brenna", :MeteorGrunt_090, 2], "Factory Field")
 
-Head up via the rotary and go in the door at the top. Use the next rotary to go left.
+回転装置で上へ進み、最上部の扉に入ります。次の回転装置で左へ。
 
 !battle(["Hilda", :MeteorGrunt_090, 3], "Factory Field")
 
-Head into the room at the bottom.
+下の部屋に入ります。
 
 !battle(["Regina", :MeteorDame, 1], "Factory Field")
 
-Grab *PULSE Readout 7* and return to the previous room. Enter the room to the left.
+*パルスの資料7* を回収し、ひとつ前の部屋に戻ります。左の部屋へ入りましょう。
 
-If anyone except Saphira was abducted earlier, you can fight a few trainers as well as get relationship points here.
+サファイラ以外が連れ去られていた場合は、ここでトレーナーと戦えるうえ好感度も得られます。
 
 !dbattle(["Kenan", :MeteorKnight, 1], ["Diana", :MeteorDame, 1], "Factory Field")
 
-**Relationship Point Choices**:
-- After Noel and Anna are abducted, talk to them in the cage (+2 Noel)
-- After Charlotte and Shelly are abducted, talk to them in the cage (+1 Shelly, +1 Charlotte)
-- After Laura is abducted, talk to her in the cage (+1 Laura)
+**好感度の選択肢**:
+- ノエルとアンナが連れ去られた場合、檻の中の2人に話しかける (+2 ノエル)
+- シャルロットとシェリーが連れ去られた場合、檻の中の2人に話しかける (+1 シェリー、+1 シャルロット)
+- ローラが連れ去られた場合、檻の中の彼女に話しかける (+1 ローラ)
 
-Return to the previous room, then go up.
+ひとつ前の部屋に戻り、上へ進みます。
 
 !battle(["Coleman", :MeteorGrunt, 3], "Factory Field")
 
-Follow the path down from the rotary.
+回転装置から下へ道をたどります。
 
 !battle(["Gretchen", :MeteorDame, 1], "Factory Field")
 
-Continue down. You'll see a purple tile, step on it and you'll end up in the left side of the base again. Once more, go up, this time, you'll be sent up via the rotary. Go left onto the blue tile for now, then the rotary will send you down again. In the next room you'll go to the right this time. You'll get an *Exp. Candy L*! Use the nearby purple tile and you'll emerge on the right side of the area.
+さらに下へ。紫のタイルが見えるので踏むと、また基地の左側に出ます。もう一度上へ進むと、今度は回転装置で上へ送られます。ひとまず左の青いタイルへ乗ると、回転装置がまた下へ送ります。次の部屋では今度は右へ進み、*けいけんアメL* が手に入ります。近くの紫のタイルを使うと、エリアの右側に出ます。
 
 !battle(["Ricardo", :MeteorGrunt, 3], "Factory Field")
 
-Enter the room above.
+上の部屋へ入ります。
 
 !battle(["Mary", :MeteorGrunt_090, 3], "Factory Field")
 
-Nothing else to do above, so head back down. Enter the room on the right, pick up the *Revive* at the bottom, then talk to Saphira. You'll have to fight two grunts.
+上ではほかにやることがないので下へ戻ります。右の部屋に入り、下部の *げんきのかけら* を拾ってからサファイラに話しかけてください。したっぱ2人と戦うことになります。
 
 !dbattle(["Avril", :MeteorDame, 1], ["Steven", :MeteorKnight, 1], "Factory Field")
 
-Head back to the left and take the rotary to go up.
+左へ戻り、回転装置で上へ進みます。
 
 !battle(["Ringo", :MeteorKnight, 1], "Factory Field")
 
@@ -168,51 +168,51 @@ Head back to the left and take the rotary to go up.
 
 !battle(["Naoman", :TechNerd, 1], "Factory Field")
 
-Talk to the grunts and scientists up here and talk to the computers to open up the door at the top as well as a shortcut in the bottom-left corner. Talk to Simon here (he won't fight you) to start up a sidequest later.
+ここのしたっぱと科学者に話しかけ、コンピューターを操作して最上部の扉と、左下の近道を開けます。ここのサイモンに話しかけておくと（戦闘にはなりません）、後々のサイドクエストが始まります。
 
-Enter the door at the top!
+最上部の扉へ入りましょう。
 
-## Tanzan Depths
+## タンザン深部 {#tanzan-depths}
 
-If Saphira was abducted, you'll be here with Laura.
+サファイラが連れ去られていた場合は、ここにはローラと一緒に来ることになります。
 
-**Relationship Point Choices**:
-- Talk to Laura in the depths (+2 Laura)
+**好感度の選択肢**:
+- 深部でローラに話しかける (+2 ローラ)
 
-Go out and head up. 
+外へ出て上へ進みます。
 
 !enc(247)
 
-You'll see some dialogue. Head down from here, you'll see a new path open up. Follow the new paths that keep opening up until you have to participate in a battle!
+会話が入ります。ここから下へ進むと、新しい道が開けます。次々に開く道をたどっていくと、バトルになります。
 
 !battle(["Gargantuan", :Steelix, 0], "Rocky Field")
 
-Another single Pokemon boss, this time with a Mega Steelix. Since it's slow you can wear it down with Special moves. Counter also works well if you can take a hit.
+またも単体のボス戦で、今回はメガ **ハガネール** です。鈍足なので特殊技で削り切れます。一撃耐えられるなら *カウンター* もよく効きます。
 
-**Relationship Point Choices**:
-- Beat Steelix on the first try (+3 Saphira, +1 Laura)
-- Beat Steelix on the second, third, etc. try (+2 Saphira)
+**好感度の選択肢**:
+- 1回目でハガネールに勝つ (+3 サファイラ、+1 ローラ)
+- 2回目以降でハガネールに勝つ (+2 サファイラ)
 
-Once you emerge, make your way back into the base and head to the back room. Once you do it will be time for another fight!
+外に出たら基地へ戻り、奥の部屋へ向かいます。着くとまた一戦です。
 
 !battle(["ZEL", :ZEL, 3], "Factory Field")
 
-Seriously. Thankfully, when you're only fighting one Pokemon with very low HP that has to deal with recharge, you can find a way to open an opportunity to knock it out. Disabling Dark Pulse will let your Ghost type easily win. Alternatively Mirror Coat and Metal Burst can work great here. There's lots of options for this one.
+またお前か、という感じです。幸い、HPが非常に低く反動で動けなくなるターンもある1匹だけが相手なので、倒し切る隙は必ず作れます。*あくのはどう* を封じればゴーストタイプで楽に勝てます。*ミラーコート* や *メタルバースト* もよく刺さります。この戦いは選択肢が豊富です。
 
-Head all the way back to Tanzan Cove and talk to Anna inside. It's time for another gym battle!
+タンザン入り江までずっと戻り、中のアンナに話しかけます。またジム戦の時間です。
 
-## Standard Badge
+## スタンダードバッジ {#standard-badge}
 
 !battle(["Noel", :NOEL, 0], "Grassy Terrain")
 
-Shocker, another tough gym leader in Pokemon Reborn. You'll notice that Noel uses Normal types on a field that doesn't really benefit most of his moves, instead, he'll mainly profit off of the free healing each turn. His seeded Clefable, Girafarig, and Bewear in particular are all fairly bulky and have good coverage to mess up your team. With the addition of a Porygon-Z who gets extra bulk thanks to its seed and hits like a truck and the demon spawn known as King's Rock Cinccino, you're in for a tough fight against a well-rounded Normal type team (ok, 5/6 of a Normal type team plus Clefable).
+驚くべきことに、ポケモンリボーンのジムリーダーはまた手強いです。ノエルはノーマルタイプを使いますが、フィールドは彼の技の大半を後押ししません。代わりに、毎ターンの無償回復を主な恩恵としています。特にシードを持った **ピクシー**、**キリンリキ**、**キテルグマ** はいずれも硬く、攻撃範囲も広くてこちらの編成を崩してきます。加えて、シードで耐久を得つつ凄まじい火力を出す **ポリゴンZ**、そして *おうじゃのしるし* を持つ悪魔のごとき **チラチーノ**。バランスの取れたノーマル編成（正確には6匹中5匹がノーマル、プラスピクシー）との厳しい一戦です。
 
-Clefable's Magic Guard is an annoying ability that means you need to overwhelm it physically despite its seed boost or get it before it can Calm Mind too much, but thankfully it means it doesn't have Unaware. This means you can get your own sweeper set up potentially against Bewear or Girafarig and maybe steamroll his team. Fighting types can potentially destroy the Cinccino but won't see a ton of success against the rest of the team. Since Normal types have no other weaknesses, you might have to turn to using the field to your benefit. Although Girafarig has Sap Sipper to absorb Grass type moves, you can go with a hyper-offensive Grass type strategy, keeping Swellow in mind. Coil and Growth are boosted on this field, so it shouldn't be impossible to set up. You can also take advantage of the boost to Fire-moves - in particular Bewear will get crushed by them. Keep in mind too that the Elemental Seed can potentially allow you to more easily survive Cinccino and/or get your own tank set up.
+ピクシーの *マジックガード* は厄介な特性で、シードで耐久が上がっていても物理で押し切るか、*めいそう* を積まれる前に落とす必要があります。ただし裏を返せば *てんねん* ではないということなので、キテルグマやキリンリキを相手にこちらが積み、そのまま編成を薙ぎ払える可能性があります。かくとうタイプはチラチーノを潰せますが、それ以外にはあまり通りません。ノーマルタイプには他に弱点がないので、フィールドをこちらに利用する方向へ切り替える必要があるかもしれません。キリンリキは *そうしょく* でくさ技を吸収しますが、**オオスバメ** を念頭に置きつつ、くさタイプの超攻撃的な構成で押す手はあります。*とぐろをまく* と *せいちょう* はこのフィールドで強化されるので、積むこと自体は難しくありません。ほのお技への強化も利用でき、特にキテルグマはこれで崩せます。*エレメンタルシード* を使えば、チラチーノの攻撃を耐えやすくしたり、こちらの受けを整えたりもできます。
 
-In a pinch, this fight becomes much easier if you change the field to the Burning Field or the Corrosive Field. However, Laura doesn't like you destroying her flower garden!
+いざとなれば、フィールドを *燃えるフィールド* か *腐食フィールド* に変えると、この戦いはずっと楽になります。ただしローラは、自分の花畑を壊されるのを快く思いません。
 
-**Relationship Point Choices**:
-- Beat Noel on Burning Field (-2 Laura)
-- Beat Noel on Corrosive Field (-1 Laura)
+**好感度の選択肢**:
+- 燃えるフィールドでノエルに勝つ (-2 ローラ)
+- 腐食フィールドでノエルに勝つ (-1 ローラ)
 
-For winning, you'll get the *Standard Badge* which boosts our cap to 60. We'll also get *TM10 Hidden Power*!
+勝利すると *スタンダードバッジ* が手に入り、上限が60に上がります。*わざマシン10 めざめるパワー* ももらえます。

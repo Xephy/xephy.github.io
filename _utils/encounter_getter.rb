@@ -37,6 +37,7 @@ class EncounterGetter
 
     # Creates nokogiri HTML
     doc = Nokogiri::HTML::Document.new
+    doc.encoding = 'UTF-8'
     div = doc.create_element('div', class: 'encounter_section')
     doc.add_child(div)
 
@@ -86,7 +87,10 @@ class EncounterGetter
 
       th = doc.create_element('th', colspan: num_cols)
       bold = doc.create_element('strong')
-      bold.content = "#{custom_map_name || map_name} Encounters: #{group}"
+      # custom_map_name は !enc の第4引数で著者が手書きした名前。ゲームデータに
+        # 無いので辞書では引けず、_ja/enc-maps.yml で対訳を持つ。
+        bold.content = "#{JaNames.enc_map(custom_map_name) || map_name} " \
+                       "#{JaNames.ui('Encounters:')} #{JaNames.ui(group.to_s)}"
       th.add_child(bold)
       th['class'] = 'table-header'
       th['style'] = 'text-align: center;'
@@ -99,14 +103,14 @@ class EncounterGetter
 
       th_pokemon = doc.create_element('th', colspan: 1, class: 'table-header',
                                             style: 'text-align: center;vertical-align : middle')
-      th_pokemon.content = 'Pokemon'
+      th_pokemon.content = JaNames.ui('Pokemon')
 
       th_levels = doc.create_element('th', colspan: 1, class: 'table-header',
                                            style: 'text-align: center;vertical-align : middle')
-      th_levels.content = 'Level'
+      th_levels.content = JaNames.ui('Level')
 
       th_rate = doc.create_element('th', colspan: num_cols - 2, class: 'table-header', style: 'text-align: center;')
-      th_rate.content = 'Rate'
+      th_rate.content = JaNames.ui('Rate')
 
       if num_cols > 3 || group == :Fishing # need to use two rows in one if Morning/Day/Nite
         th_pokemon['rowspan'] = 2
@@ -125,7 +129,9 @@ class EncounterGetter
 
         types.each do |type|
           th = doc.create_element('th', class: 'table_header', style: 'text-align: center')
-          image = doc.create_element('img', class: 'encounter_image', alt: TYPE_IMGS[type])
+          # alt は読み上げと画像欠落時に利用者へ出る。訳さないと英語が露出する。
+          image = doc.create_element('img', class: 'encounter_image',
+                                            alt: JaNames.ui(TYPE_IMGS[type]))
           image['src'] = "/assets/images/#{TYPE_IMGS[type]}.png"
           th.add_child(image)
           thead_row_extended.add_child(th)
@@ -156,7 +162,7 @@ class EncounterGetter
           # Only treat the integer forms for now. Potential enhancement
           if form_representation.is_a?(Integer)
             form_key = @pokemonHash[mon].keys.find_all { |key| key.is_a?(String) }[form_representation]
-            pokemon_name_formatted += " (#{form_key})".sub(' Form', '')
+            pokemon_name_formatted += " (#{JaNames.tr('form_names', form_key)})".sub(' Form', '')
           end
         end
 
@@ -165,7 +171,7 @@ class EncounterGetter
           form = @encMapWrapper.get_enc_maps(mon)[map_id]
           form_key = @pokemonHash[mon].keys.find_all { |key| key.is_a?(String) }[form]
           
-          pokemon_name_formatted += " (#{form_key})".sub(' Form', '')
+          pokemon_name_formatted += " (#{JaNames.tr('form_names', form_key)})".sub(' Form', '')
         end
 
         # Bold if not detected in hash so far
@@ -202,7 +208,7 @@ class EncounterGetter
 
     throw "No encounter tables found for #{map_id}, #{include_list}" unless found_group
 
-    html_output = doc.to_html
+    html_output = doc.to_html(encoding: 'UTF-8')
     html_output.split("\n")[1..].join("\n")
   end
 end

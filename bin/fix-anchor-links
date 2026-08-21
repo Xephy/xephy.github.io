@@ -1,0 +1,95 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# 本文に手書きされている ](#anchor) 形式のリンクを、分割ページでも成立する形に直す。
+#
+# 直す対象は2種類。
+#
+#  1. 章をまたぐリンク。一枚版では同一ページなので飛べたが、章ごとにページを
+#     分けると別ページになるため届かない。/reborn/<章>/#anchor に書き換える。
+#
+#  2. h1 を指すリンク。章の見出し ID を URL スラッグと揃えて短くした
+#     (episode-4-aftershocks -> episode-4) ため、旧 ID を指したままの参照が残る。
+#
+# 解決できないリンクは書き換えず報告する (上流から壊れているものが1件ある)。
+#
+#   bin/fix-anchor-links [--game reborn] [--dry-run]
+
+require 'optparse'
+
+opts = { game: 'reborn', dry_run: false }
+OptionParser.new do |o|
+  o.on('--game GAME') { |v| opts[:game] = v }
+  o.on('--dry-run')   { opts[:dry_run] = true }
+end.parse!
+
+root = File.expand_path('..', __dir__)
+dir = File.join(root, 'src', '_raw', opts[:game])
+abort "生マークダウンが見つかりません: #{dir}" unless Dir.exist?(dir)
+
+def chapter_slug(basename)
+  case basename
+  when /\Amain_ep_(\d+)\z/ then "episode-#{Regexp.last_match(1).to_i}"
+  when /\Apost_ep_(\d+)\z/ then "postgame-episode-#{Regexp.last_match(1).to_i}"
+  when /\Apara_ep_(\d+)\z/ then "chapter-#{Regexp.last_match(1).to_i}"
+  when 'appendices'        then 'appendices'
+  end
+end
+
+def kramdown_id(text)
+  text.sub(/\A[^a-zA-Z]+/, '').gsub(/[^a-zA-Z0-9 -]/, '').tr(' ', '-').downcase
+end
+
+files = Dir.children(dir).grep(/\.md\z/).sort
+
+# id -> 章スラッグ。あわせて h1 の旧 ID (見出し全文から作られていたもの) も引けるようにする。
+id_chapter = {}
+legacy = {}
+files.each do |file|
+  chapter = chapter_slug(File.basename(file, '.md'))
+  next unless chapter
+
+  File.foreach(File.join(dir, file)) do |line|
+    m = line.match(/\A(\#{1,6})\s+(.*?)\s*\{#([^}]+)\}\s*\z/)
+    next unless m
+
+    id_chapter[m[3]] = chapter
+    legacy[kramdown_id(m[2])] = m[3] if m[1].length == 1
+  end
+end
+
+rewritten = 0
+unresolved = []
+
+files.each do |file|
+  chapter = chapter_slug(File.basename(file, '.md'))
+  next unless chapter
+
+  path = File.join(dir, file)
+  body = File.read(path)
+
+  updated = body.gsub(/\]\(#([A-Za-z0-9_-]+)\)/) do
+    anchor = Regexp.last_match(1)
+    target = id_chapter[anchor] ? anchor : legacy[anchor]
+
+    if target.nil?
+      unresolved << "#{file}: ##{anchor}"
+      next Regexp.last_match(0)
+    end
+
+    owner = id_chapter[target]
+    replacement = owner == chapter ? "](##{target})" : "](/#{opts[:game]}/#{owner}/##{target})"
+    rewritten += 1 if replacement != Regexp.last_match(0)
+    replacement
+  end
+
+  File.write(path, updated) if updated != body && !opts[:dry_run]
+end
+
+puts "#{opts[:dry_run] ? '[dry-run] ' : ''}書き換え: #{rewritten} 件"
+if unresolved.empty?
+  puts '解決できないリンク: なし'
+else
+  puts "解決できないリンク: #{unresolved.length} 件 (書き換えていません)"
+  unresolved.each { |u| puts "  #{u}" }
+end

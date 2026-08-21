@@ -1,457 +1,457 @@
-# Postgame Episode 6: Lights Out
+# ポストゲーム エピソード6: 消灯 {#postgame-episode-6}
 
-Rejoice, for the Level Cap is now Lv. 130!
+喜んでください。レベル上限が130になりました!
 
-## Triskeline Toybox
+## トリスケリンの玩具箱 {#triskeline-toybox}
 
-Accept Randall's quest. Fly over to the Tanzan Cove and enter the Tanzan Mountain. Enter the room on the west side of the mountain and follow (the path onto the Wasteland Wall)[#blast-powder-and-crystal-key-goodies]. Proceed through the strength puzzles and enter the room hidden behind the blue canister on the right once you're prepared for a fight.
+ランドールのクエストを受けます。タンザン入り江へ飛び、タンザン山に入ります。山の西側の部屋に入り、(荒地の壁への道)[#blast-powder-and-crystal-key-goodies]をたどります。かいりきのパズルを抜け、バトルの準備ができたら、右手の青いタンクの裏に隠れた部屋に入ります。
 
 !battle(["Fern", :FERN2, 0], "Wasteland")
 
-Fern finally replaces his annoying Roserade... with a Buzzwole! Is that fitting or what! Speaking of, Buzzwole can go on a rampage with Power-Up Punch on top of Beast Boost, so watch out for that. Otherwise, it's same ol' Fern doing the same ol' Fern things.
+ファーンがついに、あの鬱陶しいロズレイドを入れ替えました……マッシブーンに! これ以上ないほど似合っていますね。そのマッシブーンですが、*ビーストブースト* に加えて *グロウパンチ* で暴れ回れるので注意してください。それ以外は、いつもどおりのファーンがいつもどおりのことをしてきます。
 
-Enter the New World Door once you beat him.
+倒したら新世界の扉に入ります。
 
-Welcome to the Triskeline Toybox. Jump across the pink balls to the next area. 
+トリスケリンの玩具箱へようこそ。ピンクのボールを飛び移って次のエリアへ進みます。
 
 !img("toybox.png")
 
-Head up three sets of stairs from here to find:
+そこから階段を3つ分上がると、次が見つかります。
 
-**ZCell 34: Triskeline Toybox**
+**Zセル34: トリスケリンの玩具箱**
 
 !img("zcell_34.jpg")
 
-You can actually open the two pink-and-blue chests to the left to get 3 *EV Boosters* and an *Ability Capsule*. Head up another set of stairs to open 2 more chests, containing a *Jolly Mint* and a *Timid Mint*. Down and right from here you can open 2 more chests to get a *PP All* and the *Mewnium-Z*. To the right:
+左手のピンクと青の宝箱2つは実際に開けられ、*どりょくちブースター* 3個と *とくせいカプセル* が手に入ります。さらに階段を1つ上がると宝箱を2つ開けられ、*ようきミント* と *おくびょうミント* が入っています。そこから下そして右で宝箱をさらに2つ開けると、*ピーピーオール* と *ミュウZ* が手に入ります。右手には次があります。
 
-**ZCell 35: Triskeline Toybox**
+**Zセル35: トリスケリンの玩具箱**
 
 !img("zcell_35.jpg")
 
-Down from here, hop across the pink balls to reach:
+そこから下へ、ピンクのボールを飛び移ると、次にたどり着きます。
 
-**ZCell 36: Triskeline Toybox**
+**Zセル36: トリスケリンの玩具箱**
 
 !img("zcell_36.jpg")
 
-Hop to the left, make your way to the bottom left corner, and hop to the left once more. Follow this path.
+左へ飛び移り、左下の隅へ向かって、もう一度左へ飛び移ります。この道をたどってください。
 
-**ZCell 37: Triskeline Toybox**
+**Zセル37: トリスケリンの玩具箱**
 
 !img("zcell_37.jpg")
 
-Snorlax and Charizard block two of the chests, but you can open the one on the left to get 3 *Exp. Candy XL*. Head up from here:
+カビゴンとリザードンが宝箱を2つ塞いでいますが、左のものは開けられて *けいけんアメXL* 3個が手に入ります。そこから上へ進みます。
 
-**ZCell 38: Triskeline Toybox**
+**Zセル38: トリスケリンの玩具箱**
 
 !img("zcell_38.jpg")
 
-Open the chest to the right to find 8 *Glitter Balls*. Go down the stairs below and go right to open another chest, containing an *EV Tuner*. Climb back up the stairs to the left and hop across the pink balls:
+右手の宝箱を開けると *グリッターボール* 8個が手に入ります。下の階段を下りて右へ進むと、もう1つ宝箱があり、*どりょくちチューナー* が入っています。左の階段を登り直して、ピンクのボールを飛び移ります。
 
-**ZCell 39: Triskeline Toybox**
+**Zセル39: トリスケリンの玩具箱**
 
 !img("zcell_39.jpg")
 
-Hop across to the right, then go down and left. You'll see a Lapras plush: hop up from here.
+右へ飛び移り、下そして左へ進みます。ラプラスのぬいぐるみが見えるので、そこから上へ飛び移ります。
 
 !battle(["Mewtwo", :MEWTWO, 0], "Starlight Arena")
 
-A decently tough fight on the Starlight Arena, but nothing you shouldn't be able to handle.
+星空アリーナでのそこそこ手強い戦いですが、対処できないほどではないはずです。
 
-We'll need to chase Mew around after this. 
+このあとはミュウを追いかけ回すことになります。
 
 !img("toybox.png")
 
-You can first find it in the bottom left side of the area, disguised as Cubone (A, above). Next, you'll find it disguised as the middle of three Jigglypuff on the right side of the area (B). Next is as a Chikorita on a table near the entrance (C). Finally, return to where we fought the Anomaly and talk to Mew once more. Go through the New World Door!
+最初はエリアの左下側で、カラカラに化けています（上図のA）。次はエリア右側のプリン3匹の真ん中に化けています (B)。その次は入口近くのテーブルの上のチコリータです (C)。最後に、アノマリーと戦った場所へ戻り、もう一度ミュウに話しかけます。新世界の扉を抜けましょう!
 
 !enc(875, nil, nil, "Chrysolia Deepwoods Cave")
 
-In this cave, you'll find a hidden *Green Shard*, *Pecha Berry*, *Red Hots*, *Ultra Ball*, *Ultra Potion*, and *Exp. Candy XL*. Halfway up the stairs, follow the path to a hidden *Dusk Ball* and:
+この洞窟では、隠された *みどりのかけら*、*モモンのみ*、*シナモンキャンディ*、*ハイパーボール*、*すごいキズぐすり*、*けいけんアメXL* が見つかります。階段の途中で道をたどると、隠された *ダークボール* と、次が見つかります。
 
-**ZCell 40: Chrysolia Deepwoods Cave**
+**Zセル40: クリソリア深林どうくつ**
 
 !img("zcell_40.jpg")
 
-Follow the path out of the cave and into the Deepwoods. Grab a hidden *Normal Gem* and hop down the ledge. Cross the bridge to the left, and Fern will get trapped in a cage. Down at the lever above the cage:
+道をたどって洞窟を出て、深林へ入ります。隠された *ノーマルジュエル* を拾い、段差を飛び降ります。左の橋を渡ると、ファーンが檻に閉じ込められます。檻の上のレバーのところで――
 
-**Relationship Point Choices**:
-- Let Fern out right away (+1 Fern)
-- Make Fern beg once, then let him out (-1 Fern)
-- Make Fern beg twice, then let him out (-2 Fern)
-- Make Fern beg three times, then let him out (-3 Fern)
-- Make Fern beg four times, then let him out (-6 Fern)
+**好感度の選択肢**:
+- すぐにファーンを出してやる (+1 ファーン)
+- 1回懇願させてから出してやる (-1 ファーン)
+- 2回懇願させてから出してやる (-2 ファーン)
+- 3回懇願させてから出してやる (-3 ファーン)
+- 4回懇願させてから出してやる (-6 ファーン)
 
-That's all we can do in the Mew/Mewtwo quest for now. Accept the fast travel request to return to the Nightclub.
+ミュウ／ミュウツーのクエストで今できるのは以上です。高速移動の申し出を受けてナイトクラブへ戻ります。
 
-## The Return of Kiki?
+## キキの帰還? {#the-return-of-kiki}
 
-Accept Simon's quest and fly over to Apophyll Academy. Talk to Victoria in the courtyard. We'll need to talk to various people in the courtyard that she points out, and battle them. Talk to the guy in the center a few times.
+サイモンのクエストを受け、アポフィルアカデミーへ飛びます。中庭のヴィクトリアに話しかけます。彼女が指し示す中庭の人々に順に話しかけ、戦うことになります。まずは中央の男に数回話しかけてください。
 
 !battle(["Makami", :BLACKBELT, 0])
 
-The next target is someone on the second floor walkway, left side. 
+次の相手は2階の通路、左側にいます。
 
 !battle(["Cocoa", :NatureGirl, 1])
 
-Finally, talk to the person in the middle of the top arc of people. If you joined the Aqua Gang and gave an Apophyll application to Pierce, you'll battle him now, otherwise, it'll be Battle Girl Candy.
+最後に、上側に並ぶ人々の中央にいる人物に話しかけます。アクア団に入っていて、ピアースにアポフィルのもうしこみしょを渡していれば彼と戦うことになり、そうでなければバトルガールのキャンディが相手です。
 
 !battle(["Pierce", :AQUA2, 2])
 
 !battle(["Candy", :BATTLEGIRL, 0])
 
-Once you're ready, head up.
+準備ができたら上へ進みます。
 
 !battle(["Kiki", :UMBKIKI, 0], "Ashen Beach")
 
-A tough fight on the Ashen Beach field. Suicune has double-strength Calm Mind with Rest, so will try to sweep you. Mega Gallade is absurdly powerful as well. Garchomp, Sniper Kingdra, and Palossand are each threatening in their own way. Finally, Marshadow is in the back, prepared to steal your stat boosts, use its Z-Move, and sweep. If you're struggling on this one, I recommend baiting out a heal from Suicune and setting up a physical sweeper in the meantime. Even with one or two Calm Minds, its moves don't have that much Base Power, so you might be able to set up and 2HKO Suicune and snowball into a sweep.
+灰の浜辺フィールドでの厳しい戦いです。スイクンは効果2倍の *めいそう* と *ねむる* を備え、一掃を狙ってきます。メガエルレイドも理不尽なほど強力です。ガブリアス、*スナイパー* のキングドラ、シロデスナも、それぞれの形で脅威です。そして後衛にはマーシャドーが控え、こちらの能力上昇を奪い、Zワザを撃ち、一掃する構えです。この戦いで苦戦するなら、スイクンに回復を吐かせ、その隙に物理エースを積むことをおすすめします。*めいそう* を1〜2回積まれても技自体の威力はさほど高くないので、積んでスイクンを2発で倒し、そのまま一掃へ雪だるま式に持ち込める見込みがあります。
 
-Head into the back room once you're done and catch **Marshadow**! Return to the Nightclub.
+済んだら奥の部屋に入り、**マーシャドー** を捕まえましょう! ナイトクラブへ戻ります。
 
-## Neo Blacksteam Fabrication
+## ネオブラックスチーム製造所 {#neo-blacksteam-fabrication}
 
-Talk to Ringmaster and accept the quest. Head over to the Blacksteam Shelter and enter the room in the back on 1F.
+サーカスだんちょうに話しかけ、クエストを受けます。ブラックスチーム避難所へ向かい、1階の奥の部屋に入ります。
 
-Talk to all the named characters in here. Head outside and talk to Aya, then return to the concert room and talk to her again. Next, head to the basement of the shelter. You'll find a New World Door!
+ここの名前付きのキャラクター全員に話しかけます。外に出てアヤに話しかけ、コンサートの部屋へ戻ってもう一度話しかけます。次に避難所の地下へ向かいます。新世界の扉が見つかります!
 
 !partner(["Aya", :AYA, 2])
 
 !dbattle(["Genesect", :GENESECT, 0], ["Genesect", :GENESECT, 1], "Short-Circuit Field")
 
-With Aya as your partner, it won't be too bad. Keep her Salazzle and Naganadel alive, supporting their Heat Waves.
+アヤが相棒なので、そこまで厳しくはありません。彼女のエンニュートとアーゴヨンを生かしたまま、*ねっぷう* を支えてください。
 
-Head up from here. Once Aya presses the switch, you can explore this area a bit. Head straight up and talk to Aya near the Genesects.
+そこから上へ進みます。アヤがスイッチを押したら、このエリアを少し探索できます。まっすぐ上へ進み、ゲノセクトのそばのアヤに話しかけます。
 
 !img("genesect1.png")
 
-A pretty huge puzzle room awaits us. From the center of the room, go right (path 1) and use the panel. Go up from here and team up with Arclight for a fight.
+かなり大がかりなパズル部屋が待っています。部屋の中央から右へ進み（経路1）、パネルを使います。そこから上へ進み、アークライトと組んでバトルです。
 
 !partner(["Arclight", :ARCLIGHT, 2])
 
 !dbattle(["Genesect", :GENESECT, 2], ["Genesect", :GENESECT, 3], "Short-Circuit Field")
 
-A decently tough battle with a lot of Electric types, themed around Shock Drive Genesect. Ground types will generally do well here if you can cover their weaknesses. Tailwind is a good choice to support the already speedy team that Arclight has. Just be prepared for the Genesects - Fire moves are obviously great here. Win to get the *Shock Drive*. 
+でんきタイプが多く、イナズマカセットのゲノセクトを軸にした、そこそこ手強い戦いです。弱点さえ補えれば、じめんタイプが概して活躍します。*おいかぜ* は、もともと素早いアークライトの編成を支える良い選択です。ゲノセクトへの備えだけはしておきましょう。ほのお技が明らかに有効です。勝つと *イナズマカセット* が手に入ります。
 
-Return to the center - one of the computer terminals will allow us to insert the Shock Drive, which causes the room to light up. Do so, then head straight left, going down and right to activate a panel (path 2). The path down from here is closed while the power is on.
+中央へ戻ります。コンピュータ端末の1つで *イナズマカセット* を挿入でき、部屋に明かりが灯ります。挿入したらまっすぐ左へ進み、下そして右へ進んでパネルを起動します（経路2）。そこから下への道は、電源が入っている間は閉じています。
 
-Return to the center and remove the Shock Drive. Return to the left and go down (path 3), then open a shutter at the bottom.
+中央へ戻って *イナズマカセット* を取り出します。左へ戻って下へ進み（経路3）、下部のシャッターを開けます。
 
-Return to the center and use the henceforth called Shutter Terminal on the bottom (it says "SHUTTER SYSTEM--MODE A/B"). Going down from the center will require one setting of the Shutter Terminal, while going up, left, or right requires the other setting. With the Shutter Terminal changed and no Drives in the computer, go down, left and up (path 4) to reach another fight.
+中央へ戻り、下部にある、以後「シャッター端末」と呼ぶ装置（「SHUTTER SYSTEM--MODE A/B」と表示されています）を使います。中央から下へ進むにはシャッター端末を一方の設定にする必要があり、上・左・右へ進むにはもう一方の設定が必要です。シャッター端末を切り替え、コンピュータにカセットを入れていない状態で、下、左、上と進むと（経路4）、別のバトルにたどり着きます。
 
 !partner(["Cain", :Cain, 7])
 
 !dbattle(["Genesect", :GENESECT, 4], ["Genesect", :GENESECT, 5], "Short-Circuit Field")
 
-This one is themed around the Chill Drive - Alolan Ninetales is a familiar lead by now. It helps that all but Aurorus and Porygon-Z are weak to Fire, so exploit this weakness to win. Emerge victorious to get the *Chill Drive*. 
+こちらはフリーズカセットを軸にした編成で、アローラキュウコンはもう見慣れた先発でしょう。アマルルガとポリゴンZ以外は全員ほのおに弱いので、そこを突けば勝てます。勝つと *フリーズカセット* が手に入ります。
 
-Return to the center. Activate Shutter Terminal (to be able to go up) and insert both the Shock and Chill Drives. Head up and talk to Aya. Follow the path (5) up and to the left and activate the shutter.
+中央へ戻ります。シャッター端末を（上へ進める設定に）切り替え、*イナズマカセット* と *フリーズカセット* を両方挿入します。上へ進んでアヤに話しかけます。道（経路5）を上そして左へたどり、シャッターを起動します。
 
 !img("genesect2.png")
 
-Return to the center. With both Drives still in the computer, go right to activate another panel (6).
+中央へ戻ります。カセットを両方入れたまま、右へ進んで別のパネルを起動します（経路6）。
 
-Return to the center again. Remove the Shock Drive, leaving in the Chill Drive, and activate the Shutter Terminal. Go down, left, then all the way up to the top left corner of the room (path 7) for another fight, with Titania as a partner.
+もう一度中央へ戻ります。*イナズマカセット* を取り出して *フリーズカセット* だけを残し、シャッター端末を起動します。下、左、そして部屋の左上の隅までずっと上へ進むと（経路7）、ティタニアを相棒にした別のバトルにたどり着きます。
 
 !partner(["Titania", :TITANIA1, 1])
 
 !dbattle(["Genesect", :GENESECT, 6], ["Genesect", :GENESECT, 7], "Short-Circuit Field")
 
-The Burn Drive team. Although Titania is weak to Fire on paper, her team is pretty solid for this fight... maybe because her team is so solid in general. Anyways, Water, Rock, and Ground type moves will do great here, or you can double down and run your own Fire types under Sun.
+ブレイズカセットの編成です。ティタニアは理屈の上ではほのおに弱いのですが、この戦いでの彼女の編成はかなり堅実です……もっとも、彼女の編成はもともと総じて堅実なのですが。ともあれ、みず技・いわ技・じめん技がここでは大活躍します。あるいは逆に振り切って、晴れ下で自分のほのおタイプを使う手もあります。
 
-You'll get the *Burn Drive* once you win. Make your way back to the center. Insert the Burn Drive, leaving in the Chill Drive but holding on to the Shock Drive, and activate the Shutter Terminal. Head up to talk to Aya once more then go right and down (path 8) to activate another panel.
+勝つと *ブレイズカセット* が手に入ります。中央まで戻ります。*ブレイズカセット* を挿入し、*フリーズカセット* も入れたまま、*イナズマカセット* は手元に持ったまま、シャッター端末を起動します。上へ進んでアヤにもう一度話しかけたら、右そして下へ進んで（経路8）別のパネルを起動します。
 
-Back at the center, leave the Drives as is: Burn and Chill in the computer, Shock in the bag. Make your way right, down, then left to activate another panel (path 9).
+中央に戻り、カセットはそのまま（ブレイズとフリーズをコンピュータに、イナズマはバッグに）にします。右、下、そして左へ進み、別のパネルを起動します（経路9）。
 
-Return to the center. Leaving the Drives as is again, activate the Shutter Terminal. Go down, follow the path right and up, and talk to a panel at the end of this path (10). 
+中央へ戻ります。カセットはそのままで、シャッター端末を起動します。下へ進み、道を右そして上へたどり、この道の突き当たりのパネルに話しかけます（経路10）。
 
-Return to the center. Activate the Shutter Terminal and insert the Shock Drive, meaning all three Drives are in the computer. Go right and follow the path (11) to the top right. Talk to the machine here and activate combustion power. This will open up a path above to a tag battle with Hardy.
+中央へ戻ります。シャッター端末を起動し、*イナズマカセット* を挿入して、3つのカセットすべてがコンピュータに入った状態にします。右へ進んで道をたどり（経路11）、右上へ向かいます。ここの機械に話しかけて燃焼動力を起動します。すると上へ、ハーディとのタッグバトルへ通じる道が開きます。
 
 !partner(["Hardy", :HARDY, 2])
 
 !dbattle(["Genesect", :GENESECT, 8], ["Genesect", :GENESECT, 9], "Factory Field")
 
-Finally, the Douse Drive themed team. This one is a bit harder in my opinion than the previous few just because Rain is the best weather condition. There are FOUR Bug/Steel types in this battle, so if you can change the weather to Sun or at least away from Rain, Fire types can be very useful here. Just note that Hardy's Pokemon are generally fast and frail and will die to the Water type moves, so look out for that.
+最後はアクアカセットの編成です。個人的には、雨が最良の天候である以上、これまでの数戦よりやや難しいと思います。この戦いにはむし・はがねタイプが4匹もいるので、天候を晴れに、少なくとも雨以外に変えられれば、ほのおタイプが非常に有用です。ただしハーディのポケモンは概して速くて打たれ弱く、みず技で落とされる点には注意してください。
 
-Once you win, you'll get the *Douse Drive*. Head back to the center, then go up from here and talk to Hardy if you'd like.
+勝つと *アクアカセット* が手に入ります。中央へ戻り、そこから上へ進んで、よければハーディに話しかけてください。
 
-**Relationship Point Choices**:
-- Talk to Hardy when he's with Aya in the Neo Blacksteam Fabrication (+1 Aya)
+**好感度の選択肢**:
+- ネオブラックスチーム製造所でアヤと一緒にいるハーディに話しかける (+1 アヤ)
 
 !img("genesect3.png")
 
-Make your way to the center, remove the Chill Drive and Shock Drive, insert the Douse Drive (and leave in the Burn Drive), and use the Shutter Terminal. Go down, right, and all the way up to the top right of the room (path 12) to reach a machine. Activate the steam power system - in a nearby capsule, you'll find:
+中央へ向かい、*フリーズカセット* と *イナズマカセット* を取り出して *アクアカセット* を挿入し（*ブレイズカセット* は入れたまま）、シャッター端末を使います。下、右、そして部屋の右上までずっと上へ進むと（経路12）、機械にたどり着きます。蒸気動力系を起動すると、近くのカプセルで次が見つかります。
 
-**ZCell 41: Neo Blacksteam Fabrication**
+**Zセル41: ネオブラックスチーム製造所**
 
 !img("zcell_41.jpg")
 
-Return to the center. Remove the Burn Drive, and put in the Chill Drive. The Shock Drive should remain in your bag, while the Douse Drive should remain in the computer. Go to the bottom right corner of the room (path 13) where there is another machine. Activate the supercooling system here - in the capsule, you'll find:
+中央へ戻ります。*ブレイズカセット* を取り出し、*フリーズカセット* を入れます。*イナズマカセット* はバッグに、*アクアカセット* はコンピュータに入ったままにします。部屋の右下の隅（経路13）へ向かうと、別の機械があります。ここで超冷却系を起動すると、カプセルで次が見つかります。
 
-**ZCell 42: Neo Blacksteam Fabrication**
+**Zセル42: ネオブラックスチーム製造所**
 
 !img("zcell_42.jpg")
 
-Back in the center, add the Shock Drive to the Douse Drive and Chill Drive already in the computer, but hold onto the Burn Drive. Make your way to the bottom left corner (path 14), and activate hydroelectric power. In the capsule:
+中央に戻り、すでにコンピュータに入っている *アクアカセット* と *フリーズカセット* に *イナズマカセット* を加え、*ブレイズカセット* は手元に持ったままにします。左下の隅（経路14）へ向かい、水力発電を起動します。カプセルには次があります。
 
-**ZCell 43: Neo Blacksteam Fabrication**
+**Zセル43: ネオブラックスチーム製造所**
 
 !img("zcell_43.jpg")
 
-Make your way back to the center. Remove the Shock Drive and Burn Drive, make sure the Chill and Douse Drives are inserted, then make your way around the bottom, up the left side, and to the top of the room (path 15). You'll find a **Genesect** to catch up here!
+中央まで戻ります。*イナズマカセット* と *ブレイズカセット* を取り出し、*フリーズカセット* と *アクアカセット* が挿入されていることを確認したら、部屋の下部を回り、左側を上って最上部へ向かいます（経路15）。ここで捕まえられる **ゲノセクト** が見つかります!
 
-Make your way back to the center of the room, remove the remaining Drives, then exit at the bottom. Talk to Aya to view a scene, then go to the right. On Lin Route, you'll have an extra straightforward step to do here. Return to the Nightclub!
+部屋の中央まで戻り、残りのカセットを取り出して、下から出ます。アヤに話しかけて場面を見届けたら、右へ進みます。リンルートの場合、ここでもう1つ単純な手順があります。ナイトクラブへ戻りましょう!
 
-## Idyll of Pestilence & Panaceance
+## 疫病と万能薬の楽園 {#idyll-of-pestilence--panaceance}
 
-Accept Zero's quest, then head over to the Peridot Ward. In Seacrest's garden, you'll find a New World Door!
+ゼロのクエストを受け、ペリドット区へ向かいます。シークレストの庭に新世界の扉があります!
 
 !enc(878)
 
 !img("idyll01.png")
 
-Make your way around the right side of the large hill. You'll see stairs here that let us climb up. Make your way to the top.
+大きな丘の右側を回り込みます。ここには登れる階段が見えます。頂上まで進んでください。
 
-**Relationship Point Choices**:
-- Agree to stop Eve (+1 Lumi)
-- Refuse to stop Eve (+1 Eve)
+**好感度の選択肢**:
+- イヴを止めることに同意する (+1 ルミ)
+- イヴを止めることを拒む (+1 イヴ)
 
-If you choose to stop Eve, you'll have to battle her, else, you'll have to fight Lumi.
+イヴを止めることを選ぶと彼女と、そうでなければルミと戦うことになります。
 
 !battle(["Lumi", :LUMI, 1], "Wasteland")
 
 !battle(["Eve", :EVE, 1], "Wasteland")
 
-Either way, once you win, you'll get your next objective: collecting 5 Shaymin. The first one is right above you - they look like bushes.
+いずれにせよ勝つと、次の目標が示されます。シェイミ5匹を集めることです。1匹目はすぐ上にいます。茂みのように見えます。
 
 !img("idyll02.png")
 
-Make your way up and right. In this area, you can find an *Ultra Ball*. Navigate through the massive hop rock maze at the top, then interact with the orb on the next island. At the bottom of this island is a springy grass - step on it to reach another island with the second Shaymin. Use the springy grass to return to the center.
+上そして右へ進みます。このエリアでは *ハイパーボール* が手に入ります。上部の巨大な飛び石迷路を抜け、次の島のオーブを調べます。この島の下部には弾む草があるので、踏むと2匹目のシェイミがいる別の島に着きます。弾む草で中央へ戻ります。
 
 !img("idyll03.png")
 
-Make your way around the center to the top left. Use the springy grass here to hop between hills - the green arrows in the above image indicate direction. Following the red numbers 1-5 first, our first objective is an orb. Once you reach a choice, use the leftmost one; at the next, use the bottom one.
+中央を回り込んで左上へ向かいます。ここの弾む草で丘の間を跳んでいきます。上図の緑の矢印が方向を示しています。まずは赤の番号1〜5をたどります。最初の目標はオーブです。選択肢に出たら一番左のものを、その次は下のものを使ってください。
 
-Our next objective is Shaymin: follow the yellow numbers 6-11. Use the bottom springy grass to return to the hill with three. Again, use the left one, and at the next hill, use the top one by the tree. At the next fork, go up to reach the third Shaymin!
+次の目標はシェイミです。黄色の番号6〜11をたどります。下の弾む草で、3つある丘へ戻ります。ここでもまた左のものを使い、次の丘では木のそばの上のものを使います。次の分岐で上へ進むと、3匹目のシェイミにたどり着きます!
 
-We can actually surf here - climb the waterfall to reach an *EV Booster* and a *Max Revive*. Follow the blue numbers 12-15 to return to the center of the Idyll: starting with the springy grass near Shaymin to reach the center again.
+ここでは実はなみのりが使えます。滝を登ると *どりょくちブースター* と *げんきのかたまり* が手に入ります。青の番号12〜15をたどって楽園の中央へ戻ります。シェイミの近くの弾む草から始めれば、また中央に戻れます。
 
 !img("idyll04.png")
 
-Next, go to the bottom right, where the hedge maze is. At the first fork, go left (yellow) to reach an orb. Make your way through the rest of the maze (blue) to get the fourth Shaymin in the bottom right corner, then return to the center.
+次は右下、生け垣の迷路へ向かいます。最初の分岐で左へ進むと（黄色）、オーブにたどり着きます。迷路の残りを抜け（青）、右下の隅で4匹目のシェイミを回収したら、中央へ戻ります。
 
 !img("idyll05.png")
 
-Finally, make your way to the bottom left corner, where the mushrooms are. Walk under the first two mushrooms to clear a path forward. Go to the top left, stand under the mushroom, and grab the nearby *Telluric Seed* (blue path). If you go up from this mushroom, you can reach a springy grass that will take you to:
+最後に、キノコのある左下の隅へ向かいます。最初の2本のキノコの下を歩くと、先への道が開けます。左上へ行ってキノコの下に立ち、近くの *テルリックシード* を拾います（青の経路）。このキノコから上へ進むと弾む草にたどり着き、そこから次へ行けます。
 
-**ZCell 44: Idyll of Pestilence**
+**Zセル44: 疫病の楽園**
 
 !img("zcell_44.jpg")
 
-Return to the mushroom area. Follow the left edge of this area down (yellow path), then go right, using three mushrooms along the way. Talk to the orb at the end here. Use some mushrooms (red path) to reach the bottom right side of the area. Talk to the fifth Shaymin! Return to the top of the hill in the center.
+キノコのエリアへ戻ります。このエリアの左端に沿って下り（黄色の経路）、右へ進みながら道中で3本のキノコを使います。突き当たりのオーブに話しかけます。いくつかキノコを使って（赤の経路）エリアの右下側へ向かいます。5匹目のシェイミに話しかけましょう! 中央の丘の頂上へ戻ります。
 
-Talk to Eve once, then again for a battle.
+イヴに一度話しかけ、もう一度話しかけるとバトルです。
 
 !partner(["Eve", :EVE, 1])
 
 !dbattle(["Shaymin", :SHAYMIN1, 0], ["Friends", :SHAYMIN2, 0], "Wasteland")
 
-Eve will be your ally. The opponents team largely relies on hazard damage, corrosion damage, and switching your Pokemon out with things like Whirlwind and Red Cards. Sticky Hold and Suction Cups can help alleviate these issues, as can Rapid Spin and Defog. Shaymin will also frequently transform the field to Grassy Terrain, so keep that in mind.
+イヴが味方につきます。相手の編成は、設置ダメージ、腐食ダメージ、そして *ふきとばし* や *レッドカード* によるこちらの強制交代に大きく依存しています。*ねんちゃく* や *きゅうばん* があればこれらを緩和できますし、*こうそくスピン* や *きりばらい* も有効です。シェイミはフィールドを *グラスフィールド* に変えてくることも多いので、その点も頭に入れておいてください。
 
-Once you win, the Shaymin will purify the area! This area has the same basic layout as the wasteland version, but has new puzzles in each quadrant.
+勝つと、シェイミたちがこのエリアを浄化してくれます! ここは荒地版と基本的な地形は同じですが、各区画に新しいパズルがあります。
 
 !enc(879)
 
 !img("idyll06.png")
 
-Our first destination is the hedge maze in the bottom right corner. Follow the path up, escape the maze, and go around (the red path). Activate the orb at the end. Make your way back around and go through the now-open hedge path (green). Activate the next orb (yellow path). Follow the final path (pink) to reach the first of four *Gracidea* in the bottom right!
+最初の目的地は右下の隅の生け垣迷路です。道を上へたどり、迷路を抜けて回り込みます（赤の経路）。突き当たりのオーブを起動します。回り込んで戻り、開いた生け垣の道を通ります（緑）。次のオーブを起動します（黄色の経路）。最後の道（ピンク）をたどると、右下で4つある *グラシデアのはな* の1つ目にたどり着きます!
 
-Next, head to the mushroom forest area in the bottom left. Activate the red mushroom. We can't actually progress in this corner yet but we need this mushroom activated to continue elsewhere.
+次は左下のキノコの森エリアへ向かいます。赤いキノコを起動します。この隅は実はまだ先へ進めませんが、別の場所を進めるためにこのキノコを起動しておく必要があります。
 
 !img("idyll07.png")
 
-Head to the top left corner next, with all the springy grass. You'll see a mushroom near the entrance glowing red. Following the path (yellow numbers 1-10), use the bottom of two grasses at all three of the first forks. At the choice of three grasses, use the one on the left, then the top right in the next choice. Finally, choose the top grass to reach the second *Gracidea*. Climb back up this waterfall to get the *Soul Dew*! Return to the center of the Idyll (using the pink numbers 11-14).
+次は、弾む草だらけの左上の隅へ向かいます。入口付近のキノコが赤く光っているのが見えます。道（黄色の番号1〜10）をたどり、最初の3つの分岐ではいずれも2つのうち下の草を使います。3つの草から選ぶ場面では左のものを、その次では右上のものを使います。最後に上の草を選ぶと、2つ目の *グラシデアのはな* にたどり着きます。この滝を登り直すと *こころのしずく* が手に入ります! 楽園の中央へ戻ります（ピンクの番号11〜14を使用）。
 
-Make your way back to the mushroom area in the bottom left corner. Proceed past the red mushroom, using a springy grass towards the top, till you reach a purple mushroom. Step under it. We can't proceed any further down here, so take the bottom springy grass to escape this quadrant for now.
+左下の隅のキノコのエリアへ戻ります。赤いキノコを過ぎ、上寄りの弾む草を使って進むと、紫のキノコにたどり着きます。その下に立ってください。ここから下へはこれ以上進めないので、下の弾む草でいったんこの区画から抜けます。
 
 !img("idyll08.png")
 
-Make your way to the top right corner next. Hop to the left (blue path) to get a *Full Restore*. Hop your way up and left in order to ultimately go down and right (green path) to get:
+次は右上の隅へ向かいます。左へ飛び移ると（青の経路）*かいふくのくすり* が手に入ります。上そして左へ飛び移っていき、最終的に下そして右へ向かうと（緑の経路）、次が手に入ります。
 
-**ZCell 45: Idyll of Panaceance**
+**Zセル45: 万能薬の楽園**
 
 !img("zcell_45.jpg")
 
-Hop to the island in the top right corner (pink path). Talk to the orb then use the springy grass to reach the third *Gracidea*.
+右上の隅の島へ飛び移ります（ピンクの経路）。オーブに話しかけ、弾む草を使うと3つ目の *グラシデアのはな* にたどり着きます。
 
 !img("idyll09.png")
 
-Finally, return to the mushrooms in the bottom left corner. Follow the path through activating the purple mushroom as before, but take the top springy grass this time. Use the blue mushroom, then go down. Activate mushrooms as you go, making sure to go left once you use the red mushroom. Talk to the orb at the end of the path.
+最後に、左下の隅のキノコへ戻ります。先ほどと同じように紫のキノコを起動して道を進みますが、今回は上の弾む草を使います。青いキノコを使い、下へ進みます。進みながらキノコを起動し、赤いキノコを使ったら必ず左へ進んでください。道の突き当たりのオーブに話しかけます。
 
-Use the blue mushroom down and left from here, then follow the opened path. Use a red mushroom once more, then the blue mushroom in the bottom right corner. Grab the final *Gracidea*!
+そこから下そして左の青いキノコを使い、開いた道をたどります。もう一度赤いキノコを使い、続いて右下の隅の青いキノコを使います。最後の *グラシデアのはな* を回収しましょう!
 
-Return to the center and climb the hill. Craudburry will show up... and we have a bit of an interesting battle-based quest to take care of!
+中央へ戻って丘を登ります。クラウドバリーが現れ……バトルを軸にした、なかなか面白いクエストが始まります!
 
 !battle(["Craudburry", :HARRIDAN, 2], "Flower Garden Field")
 
-Winning this battle isn't hard. However, the catch here is that we actually need to end the battle with the Flower Garden Field at Stage 5... and Craudburry does everything in her power to ruin this mission.
+このバトルに勝つこと自体は難しくありません。しかし肝心なのは、花畑フィールドがステージ5の状態でバトルを終える必要があることで……クラウドバリーは全力でそれを妨害してきます。
 
-To succeed, you'll have to keep a few things in mind. First of all: any temporary field changes are bad, since they will reset your Flower Garden to progress. This means that Sun + Rain together is a bad idea thanks to Rainbow Field. Heat Waves on Heatmor, Torkoal, and Crobat will turn the field into Burning Field when it is not raining, and one use of Amoonguss' Grassy Terrain will switch the field as well. Even within the Flower Garden, its Acid Downpour will reset the field to Stage 1, so you'll need to either knock out Amoonguss in one turn or worry about building up the field after the Z-Move is used. Finally, Cut and X-Scissor cut the field down a stage for each use, so you probably want to make sure Victreebel and Qwilfish don't use it much. Using a Nature Power Growth sweeper and/or giving your entire party Synthetic Seeds should then net you the win condition.
+成功させるには、いくつか気をつける点があります。まず、一時的なフィールド変化はすべて厄介です。花畑の進行度がリセットされてしまうからです。つまり晴れと雨の組み合わせは、虹のフィールドになるので悪手です。クイタラン、コータス、クロバットの *ねっぷう* は、雨が降っていないときにフィールドを燃えるフィールドに変えてしまいますし、モロバレルの *グラスフィールド* 一発でもフィールドが変わります。花畑の中にいても、モロバレルの *アシッドポイズン* はフィールドをステージ1に戻すので、モロバレルを1ターンで倒すか、Zワザを撃たれたあとに積み直すことを考える必要があります。さらに *いあいぎり* と *シザークロス* は使うたびにステージを1つ下げるので、ウツボットとハリーセンにあまり使わせないようにしたいところです。そのうえで、*しぜんのちから* の *せいちょう* で積むエースを使うか、手持ち全員に *シンセティックシード* を持たせるかすれば、勝利条件を満たせるはずです。
 
-Talk to the nearby **Shaymin** once you're done to take it with you! To the right is a *Gracidea* that you can keep. Return to the Nightclub once you're done!
+済んだら近くの **シェイミ** に話しかけると連れていけます! 右手には持ち帰れる *グラシデアのはな* があります。済んだらナイトクラブへ戻りましょう!
 
-## Anomalies at Subseven Sanctum
+## サブセブン聖域のアノマリー {#anomalies-at-subseven-sanctum}
 
-Accept Danielle's quest. Make your way to the Subseven Sanctum and enter the room on the left side of the maze. Talk to Luna then enter the door.
+ダニエールのクエストを受けます。サブセブン聖域へ向かい、迷路の左側の部屋に入ります。ルナに話しかけてから扉に入ってください。
 
 !dbattle(["Tiala", :CultistF, 0], ["Tanner", :Cultist, 1], "Holy Field")
 
-Defeat the acolytes. You'll wake up in a cage - you can talk to the Arceus statue to walk through walls for a finite number of tiles. The 'A' key brings you back to the last statue you have used, if you get stuck.
+信者たちを倒します。目を覚ますと檻の中です。アルセウス像に話しかけると、決まったマス数だけ壁を通り抜けられます。行き詰まったら「A」キーで、最後に使った像の位置に戻れます。
 
-Start by using this statue and going straight up. Talk to the Blue Statue to the left, then return to your cell. Talk to Lukah in his, then go up the stairs yourself.
+まずはこの像を使ってまっすぐ上へ進みます。左の青い像に話しかけたら、自分の牢へ戻ります。ルカの牢で彼に話しかけたら、自分も階段を上ります。
 
-In this hallway, go up and left to enter the room with the New World Door we were previously in. If you talk to any of the statues on the left side, you can walk through the wall to reach the Red Statue. Return to the previous room.
+この通路では、上そして左へ進むと、先ほど新世界の扉があった部屋に入れます。左側のどの像に話しかけても壁を通り抜けられ、赤い像にたどり着けます。先ほどの部屋へ戻ります。
 
 !img("subseven_path_1.jpg")
 
-This main room is a huge maze. Note that you can get up to two 'extra steps' by talking to the statue from above, in certain situations, so if it seems like it's impossible to reach the next area, try doing that. 
+この主要な部屋は巨大な迷路です。なお、状況によっては像に上から話しかけることで「追加の2歩」まで得られるので、次のエリアにどうしても届かないように見えたら、これを試してみてください。
 
 !battle(["Mirian", :CultistF, 0], "Holy Field")
 
 !battle(["Arcturus", :Cultist, 1], "Holy Field")
 
-Activate the Purple Statue next.
+次に紫の像を起動します。
 
-Undo your steps to return to the entrance of the room.
+手順を巻き戻して、部屋の入口へ戻ります。
 
 !img("subseven_path_2.jpg")
 
-The next path you have to take will lead you to the Green Statue. Note that if you mess up and end up in some of the rooms on the left side, you'll have to go back to the beginning and start again.
+次にたどる道は緑の像へ通じています。なお、しくじって左側の部屋のどれかに入ってしまうと、最初からやり直しになります。
 
 !battle(["Presley", :Cultist, 0], "Holy Field")
 
-Once you activate the green statue, go right via two phasing statues and then go down the long vertical hallway.
+緑の像を起動したら、2つの通り抜け像を使って右へ進み、長い縦の通路を下ります。
 
 !battle(["Ioletta", :CultistF, 0], "Holy Field")
 
-Return to the entrance area once more by going down. 
+下へ進んで、もう一度入口のエリアへ戻ります。
 
 !img("subseven_path_3.jpg")
 
-Finally, we simply have to make it to the top of this room and climb the stairs. Note that three statues before the end you can take a detour to fight one more trainer, if you'd like:
+最後は、単純にこの部屋の最上部まで進んで階段を上るだけです。なお、終点の3つ手前の像から寄り道すると、よければもう1人トレーナーと戦えます。
 
 !battle(["Ezra", :Cultist, 1], "Holy Field")
 
-Make your way to the top of the room and climb the stairs. Use the Light Shard if necessary and talk to the space deity in the room for a battle.
+部屋の最上部まで進んで階段を上ります。必要なら光のかけらを使い、部屋の空間の神に話しかけるとバトルです。
 
 !battle(["Palkia", :PALKIA, 0], "Holy Field")
 
-A lot of Ground weaknesses here, so taking advantage of the fact that your allies won't be hurt by Earthquake on this field might be the key. Note that Magearna gets stronger for every knockout, so targeting it first may be helpful. Trick Room is also great for this one.
+じめん弱点が多いので、このフィールドでは味方が *じしん* で傷つかないことを活かすのが鍵になるかもしれません。マギアナは倒すたびに強くなるので、優先して狙うと有利でしょう。*トリックルーム* もこの戦いでは実に有効です。
 
-Afterwards, you can catch **Palkia**!
+そのあと **パルキア** を捕まえられます!
 
-With that taken care of, the maze below will now be fixed. Head into the door on the right side and use the Light Shard. Time to battle the time deity next.
+これを片付けると、下の迷路も元に戻ります。右側の扉に入り、光のかけらを使います。次は時間の神と戦います。
 
 !battle(["Dialga", :DIALGA, 0], "Holy Field")
 
-Another Holy Field doubles battle. A fast Bug type or two can solve the problem of the leads. The rest of the team is pretty diverse, but taking advantage of the field or getting a sweeper set up should work.
+またも聖なるフィールドのダブルバトルです。素早いむしタイプが1〜2匹いれば、先発の問題は解決できます。残りの編成はかなり多彩ですが、フィールドを活かすか、エースを積めば通ります。
 
-Catch **Dialga** once you win!
+勝ったら **ディアルガ** を捕まえましょう!
 
-If you beat Solaris at Pyrous and are on Reshiram Route, you'll get a battle here:
+パイロスでソラリスを倒していて、かつレシラムルートの場合、ここでバトルになります。
 
 !battle(["Taka", :UMBTAKA, 0], "Holy Field")
 
-Well, the field will instantly change to Grassy Terrain, then likely to Burning Field thanks to Heat Wave and Eruption. Rock, Water, and Ground moves make this simple once you can take out Tapu Bulu.
+さて、フィールドは即座に *グラスフィールド* に変わり、そのあと *ねっぷう* と *ふんか* でおそらく燃えるフィールドになります。カプ・ブルルさえ倒せれば、いわ技・みず技・じめん技で簡単に片付きます。
 
-**Relationship Point Choices**:
-- If you beat Solaris at Pyrous and are on Reshiram Route, finish the sanctum quest (+2 Luna)
+**好感度の選択肢**:
+- パイロスでソラリスを倒し、かつレシラムルートで、聖域のクエストを完了する (+2 ルナ)
 
-Anyways, return to the Nightclub!
+ともあれ、ナイトクラブへ戻ります!
 
-While you're here, if you're on Reshiram Route, Taka will ask you to see his Chatot. We got this back in Victory Road.
+ついでに、レシラムルートの場合、タカが自分のペラップを見せてほしいと頼んできます。これはチャンピオンロードで手に入れています。
 
-**Relationship Point Choices**:
-- Show Taka his Chatot in Reshiram Route (+2 Taka)
+**好感度の選択肢**:
+- レシラムルートでタカに彼のペラップを見せる (+2 タカ)
 
-## Endgame
+## 終局 {#endgame}
 
-This next one has some hard fights, so prep your team accordingly.
+次のクエストには厳しい戦いがあるので、それに応じて編成を整えてください。
 
-Accept the final quest at the Nightclub with Cass. Stock up on healing items and prepare your best team, then fly over to Agate City. Head down to Route 1, climb the rocks to reach Iolia Valley, then climb the waterfall at the top of the area to reach a cave. Use the Purple Crystal to enter a New World Door.
+ナイトクラブでキャスから最後のクエストを受けます。回復アイテムを買い込み、最良の編成を整えたら、アゲートシティへ飛びます。1番道路へ下り、岩を登ってイオリア渓谷へ向かい、エリア上部の滝を登って洞窟にたどり着きます。紫のクリスタルを使って新世界の扉に入ります。
 
 !battle(["Hypno", :HYPNO2, 1], "Chess Board")
 
-Another fight with PULSE Hypno, this time with the support of a full team on the Chess Board. I recommend Quick Guard for this fight - you'll be able to block First Impression, all of the King Rhyperior's moves, and Sucker Punch. You'll also be at the mercy of Hypno's Dark Void, so Safeguard, Chesto Berries, Sleep Talk, etc. can all be useful in keeping your momentum here. If you don't already have a Z-Move planned out, the Buginium-Z can be crucial to taking out Hypno. Bring your own King for some priority shenanigans if needed.
+PULSEスリーパーとの再戦で、今回はチェスボードで6匹の支援つきです。この戦いでは *ファストガード* をおすすめします。*であいがしら*、キングのドサイドンの全技、そして *ふいうち* を防げます。またスリーパーの *ダークホール* にも翻弄されるので、*しんぴのまもり*、*カゴのみ*、*ねごと* などが主導権を保つのに役立ちます。Zワザをまだ決めていなければ、*ムシZ* がスリーパーを仕留める切り札になり得ます。必要なら、こちらもキングを立てて先制技で遊ぶ手もあります。
 
 !enc(894)
 
-There's something all of these wild Pokemon have in common... hmm...
+この野生ポケモンたちには何か共通点がありますね……ふむ……
 
-Anyways, we'll get our quest above. Collecting three Nanab Berries? Simple!
+ともあれ、上でクエストを受けます。*ナナのみ* を3個集める? 簡単ですね!
 
-Start by following the path around to the left, and grab the hidden *Pretty Wing*. Proceed and you'll see... oh god.
+まずは道を左へ回り込んでたどり、隠された *きれいなハネ* を拾います。進んでいくと……ああ、なんてことでしょう。
 
 !battle(["Mime", :MIME2, 1], "Glitch Field")
 
-Five PULSEs in one battle, on a field that makes this fight very interesting. First out is PULSE Abra, with three special moves that trade massive power for a recharge turn, and Metronome. While the latter isn't really an issue, this field makes it so recharge moves don't waste a turn whenever they secure knockouts, meaning whenever the powerful Abra can one shot you, it doesn't ever recharge. Clawitzer works basically the same as before with Contrary boosts and massive speed, though needs to recharge when using Hydro Cannon. Magnezone has Bolt Strike for damage, Core Enforcer for coverage, and Parabolic Charge and Recover for healing, on top of Levitate, meaning it is hard to take down. PULSE Muk is mostly a special set with Protean Giga Drain and Fire Blast, but can use priority Shadow Sneak as well as Explosion, which is a nuke on this field. Finally there is PULSE Mr. Mime, who has only Psycho Boost. The 1 base SpA and Psycho Boost SpA drops get ignored in favor of Mime's 190 SpD, so it can fire off this move over and over for massive damage. Note that its Wonder Guard ability plus the fact that Fairy moves are turned into Normal on this field means... you can't even damage it with attacking moves!
+1回のバトルにPULSEが5体、しかもこの戦いを非常に興味深いものにするフィールドの上でです。先発はPULSEケーシィで、絶大な威力と引き換えに反動ターンを伴う特殊技3つと *メトロノーム* を持っています。後者は大した問題ではありませんが、このフィールドでは反動技が相手を倒したときにターンを無駄にしない仕様なので、高火力のケーシィが一撃で倒せる限り、反動が発生しません。ブロスターは *あまのじゃく* の強化と圧倒的な素早さで以前と基本的に同じですが、*ハイドロカノン* を使うときは反動が必要です。ジバコイルは火力の *らいげき*、範囲補完の *コアパニッシャー*、回復の *パラボラチャージ* と *じこさいせい* を持ち、そのうえ *ふゆう* なので、倒すのが困難です。PULSEベトベトンはほぼ特殊型で、*へんげんじざい* の *ギガドレイン* と *だいもんじ*、加えて先制技の *かげうち*、さらにこのフィールドでは核兵器と化す *だいばくはつ* まで使えます。最後にPULSEバリヤードは *サイコブースト* しか持ちません。特攻種族値1と *サイコブースト* の特攻低下は、バリヤードの特防190に置き換えられて無視されるので、この技を何度も撃って大ダメージを与えてきます。しかも *ふしぎなまもり* に加え、このフィールドではフェアリー技がノーマルに変わるため……攻撃技では傷一つ付けられません!
 
-One thing to try is just changing the field outright - with the Tapus, various weather conditions, pledge moves, etc. Without Glitch Field, most of the PULSE team's strategies will be dampened significantly. If you do play on the field, I recommend some combination of the following: either something fast with a Choice Scarf that can one-shot Abra or a Dark type with a lot of SpD, such as Umbreon. A fast Pokemon with Smack Down plus another with a physical Ground move to take care of Magnezone, or perhaps the Fightinium-Z. Mirror Coat, Gastro Acid, Topsy-Turvy, Haze, etc. are all good moves to counter Clawitzer's strategy if you're having trouble, or you can use the Dragonium-Z to nuke it. A Dark type with Toxic is my recommended strategy to deal with Mime since it can't touch a Dark type, bonus points if you have a set up move to help deal with the rest of the team. Anything with decent SpD can probably handle Muk; bonus points if you can bait it's Explosion with Protect!
+一案は、いっそフィールドごと変えてしまうことです。カプたち、各種の天候、*ちかい* 技などが使えます。グリッチフィールドさえ無ければ、PULSE編成の戦術の大半は大きく削がれます。フィールド上で戦うなら、次のような組み合わせをおすすめします。*こだわりスカーフ* を持つ素早いポケモンでケーシィを一撃で倒すか、ブラッキーのような特防の高いあくタイプを用意すること。ジバコイル対策に、*うちおとす* を持つ素早いポケモンと物理じめん技を持つポケモン、あるいは *カクトウZ* を用意すること。ブロスター対策に困ったら *ミラーコート*、*いえき*、*ひっくりかえす*、*くろいきり* などが有効ですし、*ドラゴンZ* で吹き飛ばす手もあります。バリヤードには、こちらに手が出せないあくタイプに *どくどく* を持たせるのが筆者のおすすめで、積み技も持たせられれば残りの編成にも対応できて一石二鳥です。ベトベトンは特防がそれなりにあるポケモンならたいてい受けられます。*まもる* で *だいばくはつ* を誘えれば言うことなしです!
 
-Once you win, you'll get the first *Nanab Berry*!
+勝つと1個目の *ナナのみ* が手に入ります!
 
-Back in the center, you'll find Anna, who can heal your team. Anyways, proceed to the right side next. Grab the hidden *Health Wing* then go down for another fight.
+中央に戻るとアンナがいて、手持ちを回復してくれます。ともあれ、次は右側へ進みます。隠された *たいりょくのハネ* を拾い、下へ進むと別のバトルです。
 
 !battle(["Camerupt", :CAMERUPT, 0], "New World")
 
-The PULSE we never actually got to fight is here at last... It has Shedinja's 1 HP gimmick on top of Sturdy, meaning it just shrugs off every attack! On top of its Lum Berry and the rest of the team having Safeguard and Rage Powder, the team makes every attempt to prevent you from simply poisoning it. The New World field prevents weather chip damage as well. With field-boosted Earth Power and always max power Eruption, it hits hard too, so trying to stall out its PP may result in your team dead. The rest of the team is a solid Double's support team.
+ついに戦う機会のなかったPULSEが登場します……こいつは *がんじょう* に加えてヌケニンのHP1という仕掛けを持つので、あらゆる攻撃を平然と受け流します! さらに *ラムのみ* を持ち、残りの編成も *しんぴのまもり* と *いかりのこな* を備えているため、単純に毒にすることすら全力で妨害してきます。新世界フィールドは天候の削りダメージも無効にします。フィールド強化された *だいちのちから* と常に最大威力の *ふんか* で火力も高いので、PPを枯らそうとすれば先にこちらが全滅しかねません。残りの編成も、堅実なダブル向けの支援要員です。
 
-How DO you beat it, then? Camerupt's ONLY good stat is SpA, so if you get up Light Screen and get out some Pokemon with good SpD, you might be able to just eat its attacks and focus on the rest of the team, all of which aren't really dedicated attackers. Eventually you can use Toxic on it once the support is dead! "Easy mode" is just to send out a Pokemon with Mold Breaker, Gastro Acid, Worry Seed, Skill Swap, etc., which the team has no answers for, since Camerupt can then be literally knocked out with any non-immune attacking move. Then the rest of the fight is fairly simple.
+では、どうやって倒すのでしょうか。バクーダの唯一まともな能力は特攻なので、*ひかりのかべ* を張って特防の高いポケモンを出せば、攻撃を耐えつつ、専任アタッカーとは言い難い残りの編成の処理に集中できます。支援役を倒し切ってしまえば、そのあと *どくどく* を入れられます! 「イージーモード」は、*かたやぶり*、*いえき*、*なやみのタネ*、*スキルスワップ* などを持つポケモンを出すことです。相手にはこれへの答えが無く、そうすればバクーダは無効タイプ以外のどんな攻撃技でも普通に倒せるようになります。あとの戦いはかなり単純です。
 
-Get the second *Nanab Berry* for winning.
+勝つと2個目の *ナナのみ* が手に入ります。
 
-Back in the center, head up. On a small path to the right is a hidden *Swift Wing*. Past ??? is a hidden *Muscle Wing*. Up from here is a hidden *Resist Wing*, and a *Genius Wing* and *Clever Wing* are to the left.
+中央に戻り、上へ進みます。右手の小道には隠された *しゅんぱつのハネ* があります。??? の先には隠された *きんりょくのハネ* が。そこから上には隠された *ていこうのハネ*、左手には *ちりょくのハネ* と *せいしんのハネ* があります。
 
 !battle(["Tangrowth", :TANGROWTH, 0], "Swamp Field")
 
-We already fought the "absurdly strong PULSEs who are good on Glitch Field" so now it's time for the "absurdly tanky PULSEs who are good on the Swamp Field". As you can probably tell, these PULSEs are dedicated to bulk, healing, and gradually wearing you down. They also use Trick Room to take advantage of their generally low speed. On top of this, their Poison and Mud-based Water and Ground moves are all powered up here.
+「グリッチフィールドで強い、理不尽に強力なPULSE」とはすでに戦ったので、今度は「沼地フィールドで強い、理不尽に硬いPULSE」の番です。ご想像のとおり、こいつらは耐久・回復・じわじわ削ることに徹しています。全体に素早さが低いので、*トリックルーム* も活用してきます。加えて、どく技と泥系のみず・じめん技がここでは強化されます。
 
-As in the other fight, you can use the various generated fields we've collected by now if you want to take some of the wind out of their strategy. You can also stick it out on the Swamp Field if you want. One thing to try would be to set up your own tanks - Steel and Poison types can use the Telluric Seed to great effect here, for example. Sludge Wave and Gunk Shot get a 2.25x boost on this field, so you can try to set up and use that move to overwhelm your opponents - only Swalot resists Poison. Sleep Powder has perfect accuracy on this field - so I recommend using this move liberally to prevent Trick Room, allow your partner to set up, etc. You can also use Toxic on half of the team, or consider something like the Ghost type version of Curse to rapidly drain HP.
+先ほどの戦いと同様、ここまでに集めた各種の生成フィールドを使って、相手の戦術の勢いを削ぐこともできます。あるいは沼地フィールドのまま押し通しても構いません。一案は、こちらも耐久型を立てることです。たとえばはがねタイプやどくタイプなら、ここで *テルリックシード* を大いに活かせます。*ヘドロウェーブ* と *ダストシュート* はこのフィールドで2.25倍になるので、積んでからこれらの技で相手を圧倒するのも手です。どく耐性があるのはマルノームだけです。*ねむりごな* はこのフィールドでは必中になるので、これを惜しみなく使って *トリックルーム* を防ぎ、相棒に積ませるといった立ち回りをおすすめします。編成の半分に *どくどく* を入れる手もありますし、ゴーストタイプ版の *のろい* でHPを一気に削るのも一案です。
 
-Win to nab the third *Nanab Berry*, then return to the ??? guy. Up and to the right, you'll be able to follow a new path. Hug the bottom wall to reach:
+勝って3個目の *ナナのみ* を手に入れたら、??? の男のところへ戻ります。上そして右へ進むと、新しい道をたどれます。下の壁沿いに進むと、次にたどり着きます。
 
-**ZCell 46: Endgame**
+**Zセル46: 終局**
 
 !img("zcell_46.jpg")
 
-Go through the door to escape... or so it would seem. Talk to Shiv up from here for a battle!
+扉を抜けて脱出……と思いきや。そこから上のシヴに話しかけるとバトルです!
 
 !battle(["Shiv", :SHIV, 0], "Forest Field")
 
-Oh. Your team is all set to Lv. 1 and you can't use bag items. Oh no.
+あら。手持ちが全員レベル1に設定され、バッグのアイテムも使えません。まずいですね。
 
-Unlike Solaris at Pyrous, this battle truly is intended to be lost, and there is no reward other than a few lines of dialogue for winning. There are technically ways to win, but I'll leave that as an exercise to the reader.
+パイロスのソラリスとは違い、この戦いは本当に負けることを前提にしていて、勝っても数行の会話以外に報酬はありません。技術的には勝つ方法もありますが、それは読者への課題としておきます。
 
-Head back up and talk to Shiv again. With all that taken care of, you'll receive Darkrai! Return to the Nightclub.
+上へ戻ってシヴにもう一度話しかけます。これらを片付けると、ダークライがもらえます! ナイトクラブへ戻りましょう。
 
-## Water Treatment Center Anomaly
+## 浄水センターのアノマリー {#water-treatment-center-anomaly}
 
-Talk to Smeargle and accept the quest. Head on down to the Water Treatment Center and make your way to the room in the top right corner, the Onyx Water Grid. Enter the New World Door!
+ドーブルに話しかけてクエストを受けます。浄水センターへ下り、右上の隅の部屋、オニキス水路網へ向かいます。新世界の扉に入ってください!
 
 !battle(["Corey", :UMBCOREY, 0])
 
-A fight with Umbral Corey! Nothing much to say here, you can beat him.
+かげのコーリーとの戦いです! 特に言うことはありません。勝てます。
 
-Head on back to the Nightclub and OH GOD
+ナイトクラブへ戻ると、ああ、なんてことでしょう。
 
-Ok, so we were actually still dreaming. Head down from here and talk to Luna again. To progress, reverse course and go up instead - you'll see Shiv again and have to fight him!
+さて、実はまだ夢の中でした。そこから下へ進み、ルナにもう一度話しかけます。先へ進むには、進路を反転させて逆に上へ進みます。するとシヴがまた現れ、戦うことになります!
 
 !battle(["Shiv", :SHIV, 1], "Starlight Arena")
 
-Thankfully, this fight isn't too bad with your team actually at their normal levels.
+ありがたいことに、今回は手持ちが本来のレベルなので、この戦いはさほど厳しくありません。
 
-Once you awaken in a new area, use the Light Shard and head up from here for one more battle!
+新しいエリアで目を覚ましたら、光のかけらを使い、そこから上へ進んでもう1戦です!
 
 !battle(["Darkrai", :DARKRAI, 0], "New World")
 
-A pretty annoying team that relies on, well, putting you to sleep constantly. Every single one is weak to Fairy moves, however, so a couple speedy Dazzling Gleam users trivialize this fight.
+こちらを絶えず眠らせることに依存した、なかなか鬱陶しい編成です。とはいえ全員がフェアリー技に弱いので、素早い *マジカルシャイン* 使いが数匹いればこの戦いは造作もありません。
 
-Once you win, you'll be able to catch **Darkrai**, for real this time. I mean it. Return to the Nightclub!
+勝つと、今度こそ本当に **ダークライ** を捕まえられます。念のため、本当です。ナイトクラブへ戻りましょう!

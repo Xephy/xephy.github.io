@@ -1,49 +1,35 @@
 ---
-title: BIGJRA's Website
+title: ポケモンリボーン 日本語攻略
 ---
 
-# Welcome to my site! 
+# ポケモンリボーン 日本語攻略
 
-I'm BIGJRA - a software engineer and a fan of the Reborn-verse! The walkthroughs on this site are a product of over five years of hard work and love for the following games, their developers, and their communities! Thank you for visiting my site!
+『ポケモンリボーン』を100%クリアするための攻略サイトです。隠しアイテムを含む全アイテム、入手できるポケモン、トレーナーの手持ちと対策、ショップや技教え人の情報、サイドクエストの手順まで、必要なことを一通りまとめてあります。
 
-<hr/>
-
-<div class="portfolio-item-container">
-  <div class="portfolio-item-desc">
-    <h1>Pokemon Reborn Walkthrough</h1>
-    I began work on the Pokemon Reborn walkthrough began shortly after the release of Episode 19 of the game back in 2022. The walkthrough details everything you need to know in order to complete <strong>100%</strong> of the game's content, including full trainer battle details, item locations, Pokemon locations, quest instructions and screenshots, and more. This walkthrough is currently <strong> completely up to date </strong> with the current 19.5 beta version.
-  </div>
-  <div class="portfolio-item-link">
-    <a class="portfolio-item-image" href="/reborn">
-      <img alt="Pokemon Reborn Walkthrough" src="/assets/images/reborn_title.jpg" />
-    </a>
-  </div>
-</div>
-
-<hr/>
-
-<div class="portfolio-item-container">
-  <div class="portfolio-item-link">
-    <a class="portfolio-item-image" href="/rejuvenation">
-      <img alt="Pokemon Rejuvenation Walkthrough" src="/assets/images/rejuv_title.jpg" />
-    </a>
-  </div>
-  <div class="portfolio-item-desc">
-    <h1>Pokemon Rejuvenation Walkthrough</h1>
-    I began work on the Pokemon Rejuvenation walkthrough all the way back in 2018 during the game's V9 version. Originally a 400+ page Google Document, I have done tons of work to put evolve the walkthrough to its current state. I am midway through updating it for V14 content - the game up to Act 1 contents are updated!
-  </div>
-</div>
+ゲーム内の固有名詞（ポケモン名・わざ・どうぐ・地名など）は、日本語化パッチと同じ対訳を使っています。パッチを当てた状態のゲーム画面と、そのまま読み比べながら進められます。
 
 <hr/>
 
 <div class="portfolio-item-container">
   <div class="portfolio-item-desc">
-    <h1>Pokemon Desolation Walkthrough</h1>
-    The Pokemon Desolation walkthrough is a newer project, intending to round out my walkthrough series of the Reborn-universe of games. I'm least familiar with this game and this text is still a major work-in-progress and is based on the newest game version <strong>V6</strong>.
+    <h1>ポケモンリボーン 攻略</h1>
+    本編エピソード1〜19、ポストゲーム全9話、付録（ものひろい表・採掘確率・パスワード全一覧）を収録しています。エピソードごとに分割したページと、検索しやすい全文1ページの両方を用意しました。
   </div>
   <div class="portfolio-item-link">
-    <a class="portfolio-item-image" href="/desolation">
-      <img alt="Pokemon Desolation Walkthrough" src="/assets/images/deso_title.png" />
+    <a class="portfolio-item-image" href="/reborn/">
+      <img alt="ポケモンリボーン 攻略" src="/assets/images/reborn_title.jpg" />
     </a>
+    <p style="text-align:center;font-size:14px;margin-top:8px;">
+      <a href="/reborn/episode-1/">エピソードごとに読む</a> /
+      <a href="/reborn/all/">全文を1ページで読む</a>
+    </p>
   </div>
 </div>
+
+<hr/>
+
+## このサイトについて
+
+本文は <a href="https://bigjra.github.io/">BIGJRA's Walkthroughs</a>（BIGJRA 氏）の Pokémon Reborn 攻略を翻訳したものです。原文の構成・画像・攻略方針はそのまま引き継いでいます。
+
+原典のサイトには Pokémon Rejuvenation と Pokémon Desolation の攻略もありますが、こちらは翻訳の予定がないため掲載していません。英語版は上のリンクから読めます。

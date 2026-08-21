@@ -1,24 +1,24 @@
-# Episode 2: Reap What's Been Sewn
+# エピソード2: 蒔いた種は刈り取るもの {#episode-2}
 
-Head outside, and talk to Victoria outside the gym. She'll tell us our next destination is to the east of the Grand Hall.
+外に出て、ジムの前にいるヴィクトリアに話しかけます。次の目的地は大ホールの東だと教えてくれます。
 
-Before we continue though, there are a couple quests we can complete before we proceed to the next area.
+先へ進む前に、いま片付けられるクエストがいくつかあります。
 
-## 1 Badge Quests
+## バッジ1個で解禁されるクエスト {#badge-quests}
 
-Head nearby the train station in Lower Peridot. While it is raining, if you have a snax in your bag you can give it away to get **Numel**!
+下ペリドット区の駅の近くへ向かいます。雨が降っているときにポケスナックを持っていれば、それを渡して **ドンメル** が手に入ります。
 
-Nearby you'll find a hiker. Talk to him, then talk to the person in the house containing Whismur earlier on. Return to the hiker and follow him to the house to receive **Onix**!
+近くに登山家がいます。話しかけたあと、以前ゴニョニョがいた家の人物に話しかけてください。登山家のところへ戻って家までついていくと、**イワーク** をもらえます。
 
-Next, enter the Grand Hall. The Common Candy salesman near the shop is now gone, but in his place is a person with glasses who will give us the *Rainbow Field Readout*. Keep this field in mind for later.
+次に大ホールへ。ショップ近くにいた *ふつうのアメ* の売り子はいなくなっていますが、代わりに眼鏡の人物が *虹のフィールドの資料* をくれます。このフィールドは後々のために覚えておいてください。
 
-Now that we have a badge, Pokemarts will be updated:
+バッジを1つ取ったので、ショップの品揃えが更新されます。
 
 !shop("Default Mart (1 Badge)", ["Potion", "Antidote", "Paralyze Heal", "Burn Heal", "Escape Rope", "Repel", "Poke Ball"])
 
-Having a couple repels never hurts, but money is still scarce and catching them all is an expensive task, so I still recommend focusing mostly on balls.
+*むしよけスプレー* を数本持っておいて損はありませんが、資金はまだ乏しく、全種を捕まえるのは金のかかる作業です。やはりボールを優先することをおすすめします。
 
-You'll also notice that there are more trainers on Opal Bridge. Again clockwise:
+オパール大橋にトレーナーが増えていることにも気づくはずです。こちらも時計回りに:
 
 !battle(["Zane", :COOLTRAINER_Male, 0])
 
@@ -26,91 +26,91 @@ You'll also notice that there are more trainers on Opal Bridge. Again clockwise:
 
 !battle(["Elio", :Casanova, 0])
 
-## Obsidia Ward
+## オブシディア区 {#obsidia-ward}
 
-When you're ready, talk to Victoria on the right side of Opal Bridge.
+準備ができたら、オパール大橋の右側にいるヴィクトリアに話しかけます。
 
-Head into the Central Salon. Inside, you'll find a friendship checker as well as a groomer who will raise your Pokemon's friendship for $1500. Do this once if you have the money.
+中央オブシディア美容室に入ります。中にはなつき度チェッカーと、1500ドルでポケモンのなつき度を上げてくれるトリマーがいます。所持金に余裕があれば一度受けておきましょう。
 
-**Relationship Point Choices**:
-- Get at least one massage at the Central Salon (+1 Serra)
+**好感度の選択肢**:
+- 中央オブシディア美容室でマッサージを1回以上受ける (+1 セラ)
 
-A lady on the right will ask to see a Pokemon with maximum friendship. Your starter is likely here by now if it's stayed in your party the whole game so far, you've done all the sidequests, and you haven't let it faint too much. If you do show her one, you'll get the *Soothe Bell*! Helpful if you want to accelerate the evolution of your Igglybuff, Woobat, etc.
+右手の女性は、なつき度が最大のポケモンを見せてほしいと言ってきます。ここまで手持ちに入れっぱなしで、サイドクエストをこなし、あまり瀕死にさせていなければ、最初のパートナーがおそらく該当します。見せると *やすらぎのすず* がもらえます。ププリンやコロモリなどの進化を早めたいときに便利です。
 
-The building to the right is Critical Capture, where you can buy custom balls.
+右隣の建物はクリティカルキャプチャーで、特殊なボールを買えます。
 
 !shop("Critical Capture (Right)", ["Heavy Ball", "Moon Ball", "Fast Ball", "Love Ball", "Nest Ball", "Net Ball", "Dive Ball", "Timer Ball", "Friend Ball"])
 
-Most of these are really not too worth it right now compared to the regular variety (especially Friend Ball... yikes) but I recommend picking up a few Love Balls - their 4x catch rate can be activated fairly easily on-genderless Pokemon, helpful for Pokemon with lower catch rates we may encounter.
+現時点では通常のボールと比べて割に合わないものが大半ですが（特に *フレンドボール* は……）、*ラブラブボール* だけは何個か買っておくことをおすすめします。性別不明でないポケモンには4倍の捕獲率が比較的簡単に乗るため、捕まえにくい相手に効きます。
 
-Outside, head right and up.
+外に出たら右へ、そして上へ。
 
 !battle(["Franklin", :StreetRat, 0])
 
-Enter the Pokemon Center, and talk to both the girl on the left and the mother on the right to activate some quests.
+ポケモンセンターに入り、左の少女と右の母親の両方に話しかけてクエストを発生させます。
 
-Enter the building to the right, and talk to the daycare couple one-by-one over and over until they drop their facade and battle you.
+右の建物に入り、育て屋の夫婦に一人ずつ、何度も繰り返し話しかけてください。やがて化けの皮が剥がれ、バトルになります。
 
 !dbattle(["Grant", :MeteorGrunt, 1], ["Janis", :MeteorGrunt_090, 1])
 
-Eventually, we will be freeing the real daycare couple! In a house to the left, we'll learn about an in-game trade we can't complete just yet. Head outside, and to the left, grab a hidden *Steel Gem* in the rock. Go down the stairs to access a new part of the railnet.
+いずれ本物の育て屋夫婦を助け出すことになります。左の家では、まだ成立しない交換イベントの話が聞けます。外に出て左へ進み、岩の中の *はがねのジュエル* を拾ってください。階段を下りると地下鉄道網の新しい区画に入れます。
 
 !enc(103, nil, nil, "Underground Railnet (Obsidia Side)")
 
-Klink is pretty good on the Factory Field, which we'll be seeing a lot in this game. There is also an *Escape Rope* hidden in the leftmost rock.
+**ギアル** は *工場フィールド* でかなり優秀で、このゲームではそのフィールドに何度も遭遇します。一番左の岩には *あなぬけのヒモ* も隠されています。
 
-Head back out and enter the Devon Corp building on the main street.
+外に出て、大通りにあるデボンコーポの建物に入ります。
 
 !shop("Devon Corporation", ["Potion", "Repel", "Poke Ball"])
 
-Nothing special here for sale, but if you talk to the mysterious salesman, he'll give you a free *Premier Ball* the first time.
+売り物に目新しいものはありませんが、謎めいた店員に話しかけると、初回だけ *プレミアボール* を無料でくれます。
 
-The next building in line is the Sweet Kiss Candy Shop building. In the top left corner, you can complete a puzzle to get **Swirlix**! The completed puzzle looks like this:
+隣の建物はあまいキッス菓子店です。左上の隅でパズルを解くと **ペロッパフ** が手に入ります。完成形は次のとおりです。
 
 !img("swirlix.jpg")
 
-At the top, a kid really wants some Vanilla Ice Cream. Since he's blocking the machine though we can't get any here - you'll have to wait until it's sunny and buy some from Opal Ward. Give it to this kid and then buy a Vanilla Ice Cream for $1000 from the vending machine - it will be a **Vanillite** in disguise! After this the vending machine will be normal again.
+上階では、子どもが *バニラアイス* を欲しがっています。ただし彼が機械を塞いでいるためここでは買えません。晴れるのを待ってオパール区で買ってくる必要があります。それを子どもに渡してから、自動販売機で1000ドルの *バニラアイス* を買うと――それは化けていた **バニプッチ** です。この後、自動販売機は通常どおりに戻ります。
 
 !shop("Sweet Kiss Vending", ["Vanilla Ice Cream", "Choc Ice Cream", "Berry Ice Cream"])
 
-There is a 1% chance you will actually get a *Blue Moon Ice Cream* whenever you buy any one of these. Choc and Berry are more expensive here than in Opal Ward, so there's really no reason to buy these here ever.
+どれを買っても1%の確率で *ブルームーンアイス* が出ます。*チョコアイス* と *きのみアイス* はオパール区より高いので、ここで買う理由は基本的にありません。
 
 !shop("Sweet Kiss (Top) (0-12 Badges)", ["Whipped Dream", "Peppermint", "Chewing Gum", "Pop Rocks", "Salt-Water Taffy", "Red-Hots", "Cotton Candy"])
 
-If you're planning on evolving Swirlix, grab a Whipped Dream. We will eventually need another Whipped Dream for a quest. Cotton Candy functions as a Revive, but is very expensive. The rest are just expensive versions of the status healing items, but all raise friendship.
+ペロッパフを進化させるつもりなら *ホイップポップ* を買っておいてください。後々クエストでもう1つ必要になります。*わたあめ* は *げんきのかけら* と同じ効果ですが非常に高価です。残りは状態異常回復アイテムの高級版にすぎませんが、いずれもなつき度が上がります。
 
 !shop("Sweet Kiss (Bottom) (0-1 Badges)", ["Common Candy", ["Exp. Candy XS", 500], "Rare Candy"])
 
-Since grinding trainers give them every time you beat them, you don't need to spend your precious money on Exp. Candy or the expensive Rare Candies.
+レベル上げ用トレーナーは倒すたびに経験値アメをくれるので、貴重な資金を *けいけんアメ* や高価な *ふしぎなアメ* に使う必要はありません。
 
-Back outside, follow Victoria to the right. If you'd like to get to battle Victoria and potentially get a point with her in a bit, talk to Florinia.
+外に戻り、ヴィクトリアについて右へ進みます。この後ヴィクトリアと戦って好感度を得たい場合は、フロリニアに話しかけておいてください。
 
 !img("hidden011.png")
 
-- (A): *PokeSnax*
-- (B): *PokeSnax*
+- (A): *ポケスナック*
+- (B): *ポケスナック*
 
-Head left and down.
+左へ、そして下へ進みます。
 
 !battle(["Davinson", :COOLTRAINER_Male, 0])
 
-Grab the hidden *Potion* (C), then proceed into South Obsidia Ward.
+隠された *キズぐすり* (C) を拾ったら、南オブシディア区へ進みます。
 
-Enter the building here and talk to the guy here. His Lillipup will run off - we will have to chase it. I will come back to this quest once we can access all the locations. For now, exit the building and follow the path down.
+ここの建物に入り、中の男性に話しかけてください。彼のヨーテリーが逃げ出すので、追いかけることになります。このクエストは、全ての場所へ行けるようになってから改めて扱います。ひとまず建物を出て、道を下ります。
 
 !battle(["Wayne", :StreetRat, 0])
 
 !img("hidden012.png")
 
-- (A): *Dire Hit*
-- (B): *Blue Shard*
-- (C): *Green Shard*
+- (A): *クリティカット*
+- (B): *あおいかけら*
+- (C): *みどりのかけら*
 
-While it's windy, you can catch wild **Hoppip** here! Anyways, enter the slums.
+風が強いときには、ここで野生の **ハネッコ** を捕まえられます。それではスラムへ入りましょう。
 
-## Obsidia Slums
+## オブシディアスラム {#obsidia-slums}
 
-Grab a *Potion* (A, below) in the trash can to the left and head up.
+左のゴミ箱にある *キズぐすり* (下図A) を拾って上へ。
 
 !battle(["Rafe", :StreetRat, 0])
 
@@ -118,38 +118,38 @@ Grab a *Potion* (A, below) in the trash can to the left and head up.
 
 !img("hidden013.png")
 
-- (B): *Great Ball*
-- (C): *PokeSnax*
-- (D): *Red Shard*
+- (B): *スーパーボール*
+- (C): *ポケスナック*
+- (D): *あかいかけら*
 
 !battle(["Ulf", :StreetRat, 0])
 
 !battle(["Gregory", :StreetRat, 0])
 
-To the left you'll find a Light Shard, which heals your party but disappears after.
+左手には *光のかけら* があります。手持ちを回復してくれますが、使うと消えます。
 
-If you talked to Victoria near the park earlier, head up and talk to Victoria for a battle. If you didn't or you want to skip her battle, talk to the fridge in the upper right corner to delete the barrier. Talk to the nearby trashcan to get a *PokeSnax*.
+先ほど公園の近くでヴィクトリアに話しかけていれば、上へ進んで彼女に話しかけるとバトルになります。話しかけていない場合や、戦いを飛ばしたい場合は、右上隅の冷蔵庫に話しかけると障害物が消えます。近くのゴミ箱に話しかけると *ポケスナック* がもらえます。
 
 !battle(["Victoria", :Victoria, 1])
 
-Her Torracat likes to try to set up on you, so be careful of that. Otherwise her team isn't anything too crazy - Ralts and Pichu are pretty weak and you can set up on them.
+**ニャヒート** は積み技を狙ってくるので注意してください。それ以外の手持ちは特別厄介ではなく、**ラルトス** と **ピチュー** は非力なので、逆にこちらが積む余地があります。
 
-**Relationship Point Choices**:
-- Defeat Victoria in the Slums (+1 Victoria)
+**好感度の選択肢**:
+- スラムでヴィクトリアに勝利する (+1 ヴィクトリア)
 
-After that's done, head down the escalator to the right. There are encounters in this area.
+済んだら右のエスカレーターで下ります。このエリアには野生ポケモンが出ます。
 
 !enc(88)
 
-A long time from now you can trade Pidove away for something much better, so catch one if you like.
+**マメパト** はずっと先で格上のポケモンと交換に出せるので、必要なら捕まえておいてください。
 
 !img("hidden014.png")
 
-- (A): *Oran Berry*
-- (B): *Great Ball*, not hidden
-- (C): *Max Repel*
+- (A): *オレンのみ*
+- (B): *スーパーボール*（隠しではありません）
+- (C): *ゴールドスプレー*
 
-Sneak between the escalators to reach the latter and a *Carbos* in the next room. Head back up the escalator and go up to proceed.
+エスカレーターの間をすり抜けると (C) に届き、隣の部屋では *インドメタシン* も手に入ります。エスカレーターで戻り、上へ進みます。
 
 !enc(90)
 
@@ -159,149 +159,149 @@ Sneak between the escalators to reach the latter and a *Carbos* in the next room
 
 !img("hidden015.png")
 
-- (A): *Pop Rocks*
-- (B): *Rawst Berry*
+- (A): *パチパチキャンディ*
+- (B): *チーゴのみ*
 
-Head upstairs.
+上の階へ。
 
 !enc(91)
 
-Head to the left, then go up the stairs once more. Talk to Corey here, then pick up a hidden *Exp. Candy S* in a jar below. Grab the *Zinc* at the top and head back downstairs and follow the path clockwise around the room, picking up items:
+左へ進み、もう一度階段を上ります。ここでコーリーに話しかけ、下の壺に隠れている *けいけんアメS* を拾ってください。最上部の *キトサン* を回収したら階段を下り、部屋を時計回りに一周しながらアイテムを集めます。
 
 !img("hidden016.png")
 
-- (A): *Moon Stone*. You need to be up against the bottom fence to hop across to reach this one.
-- (B): *Exp. Candy XS*
-- (C): *Potion*
-- (D): *Ice Heal*
+- (A): *つきのいし*。下の柵に密着していないと飛び移れません。
+- (B): *けいけんアメXS*
+- (C): *キズぐすり*
+- (D): *こおりなおし*
 
 !battle(["Mason", :StreetRat, 0])
 
-One of Ame's stated goals with Reborn was to ensure every Pokemon appeared in at least one enemy team. Here's to Cascoon!
+アメがリボーンで掲げた目標のひとつが、すべてのポケモンを最低1つの敵チームに登場させることでした。**マユルド** に乾杯。
 
-Head left and emerge onto the roof. There's another Light Shard here - usually they mean either "you're halfway through a dungeon" or "there's a super hard fight coming up". Anyways, follow the path and talk to Mankey in the elevator. Take it to 1F to open a shortcut, then take it to B1F.
+左へ進んで屋上に出ます。ここにも *光のかけら* があります。これが置かれているのは、たいてい「ダンジョンの折り返し地点」か「この先に難敵がいる」のどちらかです。道なりに進み、エレベーターの **マンキー** に話しかけてください。1階へ行って近道を開通させたら、地下1階へ向かいます。
 
 !shop("Obsidia Slums Vending", ["Fresh Water"])
 
-Sometimes you even get two! Talk to the guy at the bottom of the area... turns out this is the guy who stole our $1000 Pokemon from the thieves in Peridot!
+ときには2本出てくることもあります。エリア下部の男性に話しかけると――ペリドットで泥棒から1000ドルのポケモンを横取りしたのは、この男だと判明します。
 
 !battle(["Kai", :YOUNGSTER, 0])
 
-But, alas, he sold it to someone else. This quest to be continued once more!
+しかし彼はすでに別の誰かに売り払っていました。このクエストはまたも持ち越しです。
 
 !img("hidden017.png")
 
-- (A): *Normal Gem*
-- (B): *Exp. Candy S*
-- (C): *Red-Hots*
-- (D): *Green Shard*
-- (E): *Purple Shard*
+- (A): *ノーマルジュエル*
+- (B): *けいけんアメS*
+- (C): *シナモンキャンディ*
+- (D): *みどりのかけら*
+- (E): *むらさきのかけら*
 
-Enter the gap on the left and pick up the *Friend Ball*. Head back out.
+左の隙間に入って *フレンドボール* を拾い、外に戻ります。
 
-Talk to the box in front of the elevator to watch it scurry away. Enter the elevator and go to 1F. Grab the *Net Ball* and talk to the kid here to make him move, opening a shortcut. In the elevator again, go to 2F to grab *TM60 Quash*. Quash!!!!!
+エレベーター前の箱に話しかけると逃げていきます。エレベーターで1階へ。*ネットボール* を拾い、ここの子どもに話しかけて移動させると近道が開きます。もう一度エレベーターで2階へ行き、*わざマシン60 さきおくり* を回収してください。さきおくり!!!!!
 
-Back on B1F, enter the big door and head up.
+地下1階に戻り、大きな扉から中へ入って上へ進みます。
 
 !battle(["Dax", :StreetRat, 0])
 
 !img("hidden018.png")
 
-- (A): *Oran Berry*
-- (B): *Poke Ball*
+- (A): *オレンのみ*
+- (B): *モンスターボール*
 
-In the next room, it's time for a battle!
+次の部屋でバトルです。
 
 !battle(["Gang", :Pokemon, 0])
 
-As long as you are able to bully Scrafty when it comes out you should be able to make this work with a team of six.
+**ズルズキン** が出てきたときに押さえ込めれば、6匹編成でなんとかなるはずです。
 
 !img("hidden019.png")
 
-- (A): *Potion*
-- (B): *Blue Shard*
+- (A): *キズぐすり*
+- (B): *あおいかけら*
 
-Proceed to the next room.
+次の部屋へ進みます。
 
 !img("hidden020.png")
 
-- (A): *Potion*
-- (B): *Exp. Candy S*
+- (A): *キズぐすり*
+- (B): *けいけんアメS*
 
-We're back in the large basement area for the third time. Lots of items to get here; follow the path down and to the right.
+これで3度目の大きな地下エリアです。取れるアイテムが多いので、下へ、そして右へ道なりに進みます。
 
 !img("hidden021.png")
 
-- (A): *Cotton Candy*, between escalators
-- (B): *Burn Heal*
-- (C): *Antidote*
-- (D): *Cheri Berry*
-- (E): *Super Potion*, not hidden
-- (F): *Exp. Candy S*
+- (A): *わたあめ*（エスカレーターの間）
+- (B): *やけどなおし*
+- (C): *どくけし*
+- (D): *クラボのみ*
+- (E): *いいキズぐすり*（隠しではありません）
+- (F): *けいけんアメS*
 
-This is a dead end without Rock Smash. Backtrack your way to the escalators and go up. Talk to the backpacker below to get the grate opened for a shortcut.
+ここは *いわくだき* がないと行き止まりです。エスカレーターまで戻って上へ。下にいるバックパッカーに話しかけると、近道用に格子を開けてもらえます。
 
-Immediately up and to the right, you'll find a box containing an *Awakening*. Head to the right and jump your way through this path, pick up a hidden *Exp. Candy XS* and an *Antidote* in rocks on the right side, and go down. Here you'll find an abandoned egg. When it hatches it will be **Bronzor**, **Ducklett**, or **Drowzee**, determined randomly.
+すぐ上、そして右手に *ねむけざまし* の入った箱があります。右へ進んでこの道を飛び移りながら進み、右側の岩に隠された *けいけんアメXS* と *どくけし* を拾って下へ。ここには捨てられたタマゴがあります。孵化すると **ドーミラー**、**コアルヒー**、**スリープ** のいずれかがランダムで生まれます。
 
-Backtrack to the previous room and follow the path up. Talk to the Spoink hiding under some beams here to begin a quest, then emerge into daylight!
+ひとつ前の部屋まで戻り、道なりに上へ進みます。梁の下に隠れている **バネブー** に話しかけるとクエストが始まります。そこから日の当たる場所へ出ましょう。
 
 !img("hidden022.png")
 
-Grab the hidden *Repel* (A) and enter Coral Ward at the bottom.
+隠された *むしよけスプレー* (A) を拾い、下からコーラル区に入ります。
 
-## Coral Ward
+## コーラル区 {#coral-ward}
 
-Welcome to Coral Ward.
+コーラル区へようこそ。
 
 !img("hidden023.png")
 
-- (A): *Potion*
-- (B): *Ultra Potion*
-- (C): *Purple Shard*
-- (D): *Chewing Gum*
-- (E): *Repel*
-- (F): *Aspear Berry*
+- (A): *キズぐすり*
+- (B): *すごいキズぐすり*
+- (C): *むらさきのかけら*
+- (D): *チューインガム*
+- (E): *むしよけスプレー*
+- (F): *ナナシのみ*
 
 !enc(109, nil, ["Old"])
 
-Inside the apartment complex at the top, you'll meet Danielle who will give you a quiz. Feel free to go find the answers yourself if you'd like. Otherwise, here they are.
+上部の集合住宅の中でダニエールに会うと、クイズを出されます。自分で答えを探したい場合はそうしてください。そうでなければ、以下が答えです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
     4, 7, 31
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Coral Quiz Answers</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">コーラル区クイズの答えを表示</a>
 </div>
 
-As a reward for completing the quiz you'll get the *Misty Terrain Readout*. Useful, since Coral Ward is covered in mist.
+クイズを解いた報酬として *ミストフィールドの資料* がもらえます。コーラル区は霧に覆われているので、役に立ちます。
 
-In a house below, there is an in-game trade. Raise your Patrat to Lv. 20 to get **Watchog**, then trade it for a **Nosepass**.
+下の家では交換イベントがあります。**ミネズミ** を Lv.20 まで育てて **ミルホッグ** にしてから、**ノズパス** と交換してください。
 
-On the dock, if it is raining and you have Snax, you can obtain **Lotad**.
+桟橋では、雨が降っていてポケスナックを持っていれば **ハスボー** が手に入ります。
 
 !battle(["Wade", :FISHERMAN, 0], "Misty Terrain")
 
-Talk to the blue haired girl towards the top.
+上のほうにいる青髪の少女に話しかけます。
 
 !battle(["Cain", :Cain, 1], "Misty Terrain")
 
-This one isn't too crazy. Notice that Popplio's Icy Wind is boosted by the field, so watch out if you were planning on using anything weak to Ice. Nidorino hits somewhat hard but a Steel type can wall it.
+こちらはさほど厄介ではありません。**アシマリ** の *こごえるかぜ* がフィールドで強化される点に注意し、こおりが弱点のポケモンを出す予定なら気をつけてください。**ニドリーノ** はそこそこ火力がありますが、はがねタイプで受け止められます。
 
-After the battle, you'll be given *TMX1 Cut*!
+バトル後、*ひでんマシン1 いあいぎり* がもらえます。
 
-## Obsidia Park
+## オブシディア公園 {#obsidia-park}
 
-Return to South Obsidia Ward and use your new field move to chop down the tree. Thankfully in this game an HM, or "TMX", can be deleted from your Pokemon at will.
+南オブシディア区へ戻り、手に入れた技で木を切り倒します。ありがたいことに、このゲームではひでんマシン（TMX）の技をいつでも忘れさせられます。
 
 !battle(["Carter", :StreetRat, 0])
 
-Enter the Glazamonia Salon here. Furfrou can later be groomed here, they also offer massages for $2000. A lady here will ask us to investigate the Central Salon for them - we will do so later.
+ここのグラマゾニア美容室に入ります。後々 **トリミアン** のカットができるようになるほか、2000ドルのマッサージも受けられます。ここの女性から、中央オブシディア美容室の様子を見てきてほしいと頼まれますが、これは後ほど対応します。
 
-Back in Obsidia Ward, head up from here. You'll be back in the area in front of the park - we can actually access one more side area before we proceed into the park. At the left end of the ward, down from the Cafe Salon, cut down the tree and go south.
+オブシディア区に戻り、ここから上へ。公園前のエリアに戻りますが、公園に入る前にもう1か所、寄れる場所があります。区の左端、カフェサロンから下へ進み、木を切って南へ向かってください。
 
 !battle(["Vinny", :COOLTRAINER_Male, 0])
 
-Defeating this trainer gives us access to the Obsidia Alleyway.
+このトレーナーを倒すとオブシディア路地に入れるようになります。
 
 !enc(105)
 
@@ -311,129 +311,129 @@ Defeating this trainer gives us access to the Obsidia Alleyway.
 
 !battle(["Brittnay", :Punk, 0])
 
-There is a hidden *Potion* in the top rock immediately upon entering the area, and a *Green Shard* in the box in the top right.
+エリアに入ってすぐ上の岩に *キズぐすり* が隠れており、右上の箱には *みどりのかけら* があります。
 
-At the top of the area during the morning and day, you'll find a Litleo, who will run off.
+朝と昼には、エリア上部に **シシコ** が現れて逃げていきます。
 
-At night, you'll see two Mightyena's bullying **Electrike**, who will join you if you can defeat them.
+夜には、2匹の **グラエナ** が **ラクライ** をいじめている場面に出くわします。倒せばラクライが仲間になります。
 
 !battle(["Strays", :MIGHTYENA, 0])
 
-To the left of the area, a **Minun** or a **Plusle** will pop out and join you if you give it snax. You can get both by exiting and re-entering.
+エリア左手では **マイナン** か **プラスル** が飛び出してきて、ポケスナックを渡すと仲間になります。一度出て入り直せば両方入手できます。
 
-If this is a bit too hard for now feel free to skip this one, but if you enter the Underground Railnet from the Obsidia entrance you'll find Litleo and have to fight a strong Pokemon.
+今の戦力では厳しければ飛ばして構いませんが、オブシディア側の入口から地下鉄道網に入ると、シシコがいて強力なポケモンと戦うことになります。
 
 !battle(["Mechanightmare", :KLINKLANG, 0], "Cave Field")
 
-If you're able to defeat this thing, you'll get **Litleo**!
+これを倒せれば **シシコ** が手に入ります。
 
-With all that out of the way, return to the park area and talk to Victoria, Amaria, and Florinia. Head into Obsidia Park. Note that once we are done here we can't re-enter, so if you want the hidden items and such grab them while we're here. All of the Pokemon will be available later, though.
+以上を済ませたら公園エリアへ戻り、ヴィクトリア、アマリア、フロリニアに話しかけてオブシディア公園へ入ります。なお、ここを出ると再入場できないので、隠しアイテムなどは滞在中に回収してください。ポケモンについては、いずれ別の場所でも入手できます。
 
 !enc(269)
 
 !img("hidden024.png")
 
-You can start by grabbing a hidden *Oran Berry* (A) in the third bush to the left.
+まずは左から3番目の茂みにある *オレンのみ* (A) を拾いましょう。
 
 !battle(["Chad", :MeteorGrunt, 0], "Forest Field")
 
-Pick up some more items:
+さらにアイテムを回収します。
 
-- (B): *Poke Ball*, not hidden
-- (C): *Chesto Berry*
+- (B): *モンスターボール*（隠しではありません）
+- (C): *カゴのみ*
 
-Cut wiggly tree #1, then make your way back to the entrance.
+揺れる木その1を切ったら、入口まで戻ります。
 
 !img("hidden025.png")
 
-Cut wiggly tree #2 near the entrance, and follow the new path down and to the right. Pick up the *Leppa Berry* (D) then cut wiggly tree #3. From here, return to the entrance by going right, down, then back to the left.
+入口近くの揺れる木その2を切り、新しくできた道を下って右へ。*ヒメリのみ* (D) を拾ったら、揺れる木その3を切ります。ここからは右、下、そして左へ戻れば入口です。
 
 !img("hidden026.png")
 
-Up from here, cut down wiggly tree #4. This opens up a path to the left, so follow the path left from the entrance of the area. Grab a *Pecha Berry* (E) in a bush, then head right to cut wiggly tree #5 to open up a shortcut. Go right to cut wiggly tree #6.
+そこから上へ進み、揺れる木その4を切ります。これで左への道が開くので、エリア入口から左へ進んでください。茂みの *モモンのみ* (E) を拾い、右へ進んで揺れる木その5を切ると近道が開きます。さらに右へ進んで揺れる木その6を切ります。
 
-Follow the path to the right from here.
+ここから道なりに右へ。
 
 !img("hidden027.png")
 
 !battle(["Minta", :MeteorGrunt_090, 0], "Forest Field")
 
-Straight down from here is a hidden *Super Potion* (F). Follow the path to watch a scene, cut wiggly tree #7, then take the paved road upwards. Grab the hidden *Green Shard* (G).
+ここからまっすぐ下に *いいキズぐすり* (F) が隠されています。道なりに進んでイベントを見たら、揺れる木その7を切り、舗装された道を上へ。隠された *みどりのかけら* (G) も拾ってください。
 
 !dbattle(["Christopher", :MeteorGrunt, 0], ["Ama", :MeteorGrunt, 0], "Forest Field")
 
 !img("hidden028.png")
 
-Cut wiggly trees #8 and #9. Follow the blue line from here to reach a building: inside, you'll find *TM54 False Swipe* and the *Warehouse Key*. Back outside, follow a path straight to the left to obtain an *X Sp. Def*.
+揺れる木その8と9を切ります。ここから青い線をたどると建物に着きます。中では *わざマシン54 みねうち* と *そうこのカギ* が手に入ります。外に出てまっすぐ左へ進むと *スペシャルガード* があります。
 
-Back down from here, follow the yellow path to the left. In the second rock you'll find an *Antidote* (H). Use the Light Shard if you'd like, then prepare for a battle!
+そこから下り、黄色い道を左へたどります。2つ目の岩には *どくけし* (H) があります。必要なら *光のかけら* を使い、バトルに備えてください。
 
 !battle(["ZEL", :ZEL, 0], "Forest Field")
 
-This is our first battle with a PULSE! For this, and all custom Pokemon forms in this game, I provide a reference for base stats, typing, and other data [in the appendices](#custom-pokemon-form-lookup). The Field Notes app in game also has you covered, minus specific numbers.
+いよいよ PULSE との初戦です。これを含め、このゲームの独自フォルムについては、種族値やタイプなどの資料を[付録](#custom-pokemon-form-lookup)にまとめてあります。ゲーム内のフィールドノートアプリでも、具体的な数値を除けば同じ情報を確認できます。
 
-As you can see from its stats, Tangrowth is pretty slow, which luckily means you can take the chance to cripple it with paralysis or stat debuffs. It doesn't hit ridiculously hard either, so your Pokemon will likely be able to live a few turns before being knocked out, but you do have to be cautious of field-boosted Grass moves. The difficulty lies in its combination of Acid Spray and Mega Drain, as it likes to weaken you then heal back to full. Making sure that you're dealing more damage than it is able to heal will be the key here.
+数値を見れば分かるとおり **モジャンボ** は非常に鈍足なので、まひや能力下降で機能停止させる余地があります。火力も極端に高いわけではないため、こちらのポケモンも数ターンは耐えられるはずです。ただしフィールドで強化されたくさ技には注意が必要です。厄介なのは *アシッドボム* と *メガドレイン* の組み合わせで、こちらを弱らせてから全回復してきます。相手の回復量を上回るダメージを出し続けられるかが鍵になります。
 
-Once you succeed, the vines will recede and we'll be back in the park.
+倒すとツタが引き、公園に戻ります。
 
 !enc(36)
 
-Catch a Sentret and add it to your team for an in-game trade in a bit if you'd like.
+必要であれば **オタチ** を捕まえて手持ちに加えておいてください。この先の交換イベントで使います。
 
-There are some hidden items in this area as well:
+このエリアにも隠しアイテムがあります。
 
 !img("hidden029.png")
 
-- (A): *Heart Scale*
-- (B): *Exp. Candy M*
-- (C): *Super Potion*
+- (A): *ハートのウロコ*
+- (B): *けいけんアメM*
+- (C): *いいキズぐすり*
 
-To the left of the Super Potion is a trainer.
+*いいキズぐすり* の左にはトレーナーがいます。
 
 !battle(["Eilee", :COOLTRAINER_Female, 0])
 
-Pick up the last few hidden items here:
+残りの隠しアイテムも回収します。
 
-- (D): *Cotton Candy*
-- (E): *Red Shard*
+- (D): *わたあめ*
+- (E): *あかいかけら*
 
-The building on the left is Silph Co., but we can't do much here for now. The right building here is the Department Store. Time for Shopping!
+左の建物はシルフカンパニーですが、今はまだできることがありません。右の建物はデパートです。買い物の時間です。
 
 !shop("Department Store 1F (Left)", ["Poke Ball", "Escape Rope", "Common Candy", "Repel", "PokeSnax"])
 
 !shop("Department Store 1F (Right)", ["Potion", "Antidote", "Awakening", "Burn Heal", "Paralyze Heal", "Ice Heal"])
 
-We can also talk to an employee to get the *Membership Card* and the *Department Store Sticker: Porygon*. Each time we get a sticker, we can access another floor of the building. We'll be slowly getting these across our adventure.
+従業員に話しかけると *メンバーズカード* と *デパートシール: ポリゴン* がもらえます。シールを1枚手に入れるごとに、上の階へ行けるようになります。冒険を通じて少しずつ集めていくことになります。
 
 !shop("Department Store 2F (Left)", ["Oran Berry", "Cheri Berry", "Pecha Berry", "Rawst Berry", "Chesto Berry", "Aspear Berry", "Persim Berry"])
 
 !shop("Department Store 2F (Right)", ["Pomeg Berry", "Kelpsy Berry", "Qualot Berry", "Tamato Berry", "Hondew Berry", "Grepa Berry"])
 
-Our Pokemon have been getting random EV's so far - if you in the future want to EV train your Pokemon, you can buy these to make the process easier. In Reborn, 20 EVs per berry are lowered instead of the canon 10. Don't worry about them for now - EV training will become a lot easier later on.
+ここまで手持ちの努力値はランダムに振られてきました。今後きちんと調整したくなったら、これらのきのみを買うと作業が楽になります。リボーンではきのみ1個あたり、本家の10ではなく20の努力値が下がります。今は気にしなくて構いません。努力値調整は後々ずっと簡単になります。
 
-Next, head south from Obsidia Park to re-enter South Obsidia Ward. To the left of the Glamazonia Salon, talk to the kid here. Return to the Obsidia Pokemon Center and talk to the mom near the PC and tell her where her son is to get an *Ability Capsule*!
+次に、オブシディア公園から南へ抜けて南オブシディア区に戻ります。グラマゾニア美容室の左にいる子どもに話しかけ、オブシディアポケモンセンターに戻ってパソコン近くの母親に息子の居場所を伝えると、*とくせいカプセル* がもらえます。
 
-If you're interested in a trade, evolve Sentret we got earlier by raising it to Lv. 15 to get **Furret**. In the house left from the Pokemon Center, you can trade it to get **Castform**!
+交換に興味があれば、先ほどの **オタチ** を Lv.15 まで育てて **オオタチ** にしてください。ポケモンセンターの左の家で **ポワルン** と交換できます。
 
-Take another visit to the Central Salon and talk to the people inside. Then return to the Glamazonia Salon and talk to the lady, who'll let you take home **Glameow**. They'll also lower their massage price to $1400. That's not all for this quest though, no. Take your Glameow to the Central Salon and show it to the lady on the right; she'll allow us to battle her.
+もう一度中央オブシディア美容室を訪ね、中の人々に話しかけます。その後グラマゾニア美容室に戻って女性に話しかけると、**ニャルマー** を連れて帰れます。マッサージ料金も1400ドルに下がります。ただしクエストはこれで終わりではありません。そのニャルマーを中央オブシディア美容室へ連れて行き、右の女性に見せると、バトルを受けてもらえます。
 
 !battle(["Suzy", :BEAUTY, 0])
 
-Obviously this is a pretty tough fight for this point in the game, feel free to return to it later. Maybe a fire type might be able to lower its stats or something since it resists both of its attack moves?
+現時点ではかなり厳しい相手なので、後回しにしても構いません。相手の攻撃技2種をどちらも半減するほのおタイプなら、能力を下げるなどして糸口をつかめるかもしれません。
 
-If you're able to win, you'll get **Bounsweet**!
+勝てれば **アマカジ** が手に入ります。
 
-That's pretty much all we can do in Obsidia for now, but before we continue the story we can take a brief detour back to Coral Ward for some goodies.
+オブシディアでできることはこれでほぼ全部ですが、ストーリーを進める前にコーラル区へ少し寄り道して収穫を得ておきましょう。
 
-The warehouse key we got earlier works on three of the warehouses here. In the left one, you'll find the real daycare couple! By freeing them, the daycare will now be in service for all your Pokemon breeding needs.
+先ほどの *そうこのカギ* は、ここの倉庫3つに使えます。左の倉庫では本物の育て屋夫婦が見つかります。助け出せば、育て屋がタマゴ作りに利用できるようになります。
 
-The second warehouse contains a *Macho Brace* as well as **Spoink** randomly hiding in one of the boxes. The third warehouse contains a Meteor Grunt. Talking to him allows us to get a Pokemon later on. Also in here is a **Happiny**!
+2つ目の倉庫には *きょうせいギプス* と、箱のどれかに隠れた **バネブー** がいます。3つ目の倉庫にはチームメテオのしたっぱがいます。彼に話しかけておくと、後でポケモンを1匹入手できます。ここには **ピンプク** もいます。
 
-## Onyx Ward
+## オニキス区 {#onyx-ward}
 
-Head up into Onyx Ward from the northeastern corner of Obsidia. Onyx Ward is pretty small, but there are some things we can do here before challenging the gym.
+オブシディアの北東の角からオニキス区へ入ります。オニキス区はかなり狭いですが、ジムに挑む前にできることがいくつかあります。
 
-First, we'll do a counter-clockwise loop of the area. Trainers include:
+まずはエリアを反時計回りに一周します。トレーナーは以下のとおりです。
 
 !battle(["Baxter", :YOUNGSTER, 0])
 
@@ -445,87 +445,87 @@ First, we'll do a counter-clockwise loop of the area. Trainers include:
 
 !battle(["Jacee", :COOLTRAINER_Female, 0])
 
-There are hidden items too:
+隠しアイテムもあります。
 
 !img("hidden030.png")
 
-- (A): *Cheri Berry*
-- (B): *Antidote*
-- (C): *Carbos*
-- (D): *PokeSnax*
+- (A): *クラボのみ*
+- (B): *どくけし*
+- (C): *インドメタシン*
+- (D): *ポケスナック*
 
-The bottom left building is the Move Relearner house, but we can't enter it yet. Head in to the apartment to the right and talk to the girl on the left twice; for saving the Daycare couple, she'll give us an egg! It will be one of the following, determined randomly: **Clauncher**, **Seel**, **Remoraid**, **Spheal**, **Clamperl**, or **Frillish**. That's all here for now, so head next door to the game corner.
+左下の建物はわざ思い出しの家ですが、まだ入れません。右の集合住宅に入り、左の少女に2回話しかけてください。育て屋夫婦を助けた礼にタマゴをくれます。中身は **ウデッポウ**、**パウワウ**、**テッポウオ**、**タマザラシ**、**パールル**、**プルリル** のいずれかがランダムで決まります。ここでの用は済んだので、隣のゲームコーナーへ向かいます。
 
 <div class="shop_section"><table>
-<thead><tr><th colspan="2" class="table-header" style="text-align: center;"><strong>Onyx Arcade Loto Attendant</strong></th></tr></thead>
+<thead><tr><th colspan="2" class="table-header" style="text-align: center;"><strong>オニキスゲームセンター 宝くじ係</strong></th></tr></thead>
 <tbody><tr>
-<td style="text-align: center"><em>Reborn Ball</em></td>
-<td style="text-align: center">5 Digits Matched</td>
+<td style="text-align: center"><em>リボーンボール</em></td>
+<td style="text-align: center">5桁一致</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>PP Max</em></td>
-<td style="text-align: center">4 Digits Matched</td>
+<td style="text-align: center"><em>ポイントマックス</em></td>
+<td style="text-align: center">4桁一致</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>PP Up</em></td>
-<td style="text-align: center">3 Digits Matched</td>
+<td style="text-align: center"><em>ポイントアップ</em></td>
+<td style="text-align: center">3桁一致</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>Max Revive</em></td>
-<td style="text-align: center">2 Digits Matched</td>
+<td style="text-align: center"><em>げんきのかたまり</em></td>
+<td style="text-align: center">2桁一致</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>Full Restore</em></td>
-<td style="text-align: center">1 Digits Matched</td>
+<td style="text-align: center"><em>かいふくのくすり</em></td>
+<td style="text-align: center">1桁一致</td>
 </tr>
 </tbody></table></div>
 
-We can play the lottery once a day, though without a Coin Case, there's not much else to do yet. 
+宝くじは1日1回引けますが、*コインケース* がないと、ここでできることは他にありません。
 
-Enter the trainer school at the top left entrance. Fern will lock us out, so head outside and defeat the trainer to enter the school at the top right entrance.
+左上の入口からトレーナー学校に入ります。ファーンに締め出されるので、外へ出てトレーナーを倒し、右上の入口から入ってください。
 
 !battle(["Blane", :COOLTRAINER_Male, 0])
 
-This area is mostly linear with a few detours. Talk to every green bookshelf and stray green book that you find lying around - they'll give us lore as well as the answers to some questions we'll need to answer later on.
+このエリアはおおむね一本道で、少し寄り道がある程度です。緑の本棚と、床に落ちている緑の本にはすべて話しかけてください。設定に加えて、後で答える必要のある問題の答えが手に入ります。
 
 !dbattle(["Tristy", :COOLTRAINER_Female, 0], ["Jojo", :YOUNGSTER, 0])
 
 !battle(["Noah", :COOLTRAINER_Male, 0])
 
-In the first door upstairs, a guy will give you the *Coin Case*!
+2階の最初の扉では、男性が *コインケース* をくれます。
 
 !battle(["Landon", :EXPERT_Male, 0])
 
-The next room contains *Protective Pads*.
+次の部屋には *ぼうごパット* があります。
 
 !battle(["Terry", :COOLTRAINER_Male, 0])
 
 !battle(["Susan", :COOLTRAINER_Female, 0])
 
-The third room contains a *Quick Claw*. Talk to a guy staring at the wall in the hallway from the right to open up a door to the left.
+3つ目の部屋には *せんせいのツメ* があります。廊下で壁を見つめている男性に右側から話しかけると、左の扉が開きます。
 
-In this door, go to the left. Here you'll find the first tutors.
+その扉から左へ進むと、最初の技教え人がいます。
 
 !tutor("OTS Move Tutor 1", [["Iron Defense", 1000], ["Snore", 500], ["Bind", 500], ["Spite", 250]])
 
 !tutor("OTS Move Tutor 2", [["Magic Coat", 500], ["Magic Room", 500], ["Wonder Room", 500], ["Telekinesis", 100]])
 
-It's worth noting that every tutor in the game will only charge you once per move - so don't feel bad about deleting a tutor move once you've learned it once since you can go get it back for free.
+なお、このゲームの技教え人はどれも、同じ技につき料金を取るのは1回だけです。一度覚えた技なら忘れさせても無料で教え直してもらえるので、遠慮なく整理して構いません。
 
-In the room above there are more tutors!
+上の部屋にはさらに技教え人がいます。
 
 !tutor("OTS Move Tutor 3", [["Gravity", 500], ["Magnet Rise", 500], ["Block", 500], ["Worry Seed", 1000]])
 
 !tutor("OTS Move Tutor 4", [["Snatch", 500], ["Helping Hand", 500], ["Ally Switch", 250], ["After You", 250]])
 
-Head upstairs to grab the *Desert Field Readout*!
+上の階へ行き、*砂漠フィールドの資料* を回収してください。
 
-Head downstairs from here, head out to the main hall and go downstairs again.
+そこから階段を下り、メインホールに出て、もう一度下ります。
 
-**Relationship Point Choices**:
-- Yes (+1 Hardy)
+**好感度の選択肢**:
+- はい (+1 ハーディ)
 
-Enter the door above and to the right and talk to the girl for a *Telluric Seed*. Unlock this gate for a backtrack shortcut. Head to the left.
+上の右手にある扉から入り、少女に話しかけて *テルリックシード* をもらいます。この門を開けておくと戻るときの近道になります。左へ進みましょう。
 
 !battle(["Trey", :YOUNGSTER, 0])
 
@@ -535,77 +535,77 @@ Enter the door above and to the right and talk to the girl for a *Telluric Seed*
 
 !battle(["Skye", :COOLTRAINER_Male, 0])
 
-Proceed to the left a few rooms for another rival battle.
+いくつか部屋を左へ進むと、またライバル戦です。
 
 !battle(["Fern", :Hotshot, 1])
 
-Fern can be tough to defeat now that his Budew and Rowlet have evolved. Roselia likes to try to tank your attacks and heal back thanks to Leech Seed and Mega Drain, while Dartrix tries to hit hard with its STABs or go for an omniboost. Sandile can sweep with Moxie if you're not careful, so lead with something that can handle it and you should be fine.
+スボミーとモクローが進化したことで、ファーンは手強くなっています。**ロゼリア** は *やどりぎのタネ* と *メガドレイン* でこちらの攻撃を受け止めつつ回復を狙い、**フクスロー** はタイプ一致技で押すか全能力上昇を狙ってきます。**メグロコ** は油断すると *じしんかじょう* で崩されるので、対処できるポケモンを先頭に置いておけば問題ないでしょう。
 
-Before we continue to the gym, now is a good time to wrap up a couple of quests and areas.
+ジムへ向かう前に、クエストとエリアをいくつか片付けておくとよいタイミングです。
 
-First, head on over to the Arcade. With our Coin Case, we can now go to town here. Note that by interacting with NPC's and random tiles throughout, you can pick up 1205 Coins for free.
+まずゲームセンターへ。*コインケース* を手に入れたので、ここで本格的に遊べます。なお、NPCや各所のマスを調べると、無料で1205コインを集められます。
 
 !shop("Onyx Arcade Coins", [["50 Coins", 1000], ["500 Coins", 10000]])
 
-Unless you're coming back here really late in the game, don't buy coins. They're way too expensive, and starting with the free coins you can get up to the magic number needed to get all the rewards: 23900 coins.
+終盤に戻ってくるのでもない限り、コインを買うのはやめましょう。値段が高すぎます。無料で手に入るコインから始めれば、報酬をすべて得るのに必要な数――23900コインに到達できます。
 
-You can play the slots, roulette, or Voltorb Flip. Previous versions of the guide recommended Voltorb Flip to grind all your coins, but I've since realized that the fastest strategy by far is the 100 coin Roulette board.
+スロット、ルーレット、ビリリダマフリップで遊べます。以前の版ではコイン稼ぎにビリリダマフリップを勧めていましたが、圧倒的に速いのは100コインのルーレット台だと分かりました。
 
-All you need to do is save before playing the board, pick any spot (12x payout), and play all seven balls. Note that you need to switch to a new spot if you get a jackpot on your current pick. Reset if you don't get a single jackpot on any of the seven balls, otherwise, save after all seven balls have been played. Even if you only hit one spot, you'll net 500 coins per round, a payout which only gets better the more jackpots you manage to get. You'll reach your target in no time.
+やり方は単純です。台に着く前にセーブし、任意のマス（配当12倍）を選んで7球すべて回します。当たったマスは次から別のマスに変える必要があります。7球で1度も当たらなければリセット、当たれば7球撃ち終えた時点でセーブします。1マスしか当たらなくても1周あたり500コインの利益で、当たりが増えるほど効率は上がります。目標額にはすぐ届きます。
 
 !shop("Onyx Arcade TMs", [["TM45 Attract", "1000 Coins"], ["TM42 Facade", "4000 Coins"], ["TM90 Substitute", "7000 Coins"]])
 
-These TMs have very wide pools of candidates, so grabbing them will generally be helpful in the early game when your movesets aren't complete yet.
+これらのわざマシンは覚えられるポケモンの範囲が非常に広いので、技構成が整っていない序盤ではおおむね役に立ちます。
 
 !shop("Onyx Arcade Pokemon", [["Snover", "600 Coins", true], ["Slugma", "1000 Coins", true], ["Mantyke", "1800 Coins", true], ["Nidoran M", "3500 Coins", true], ["Shinx", "5000 Coins", true]])
 
-All of these Pokemon have something going for them:
+ここのポケモンにはいずれも見どころがあります。
 
-- If the egg we previously got was Remoraid, you can get Mantyke and immediately evolve it into Mantine, which is really overpowered at this point in the game.
-- Nidoran M also can immediately evolve twice with the Moon Stone we got earlier, and Nidoking tears through this part of the game.
-- Snover can generate Snow Warning, our first weather ability.
-- Slugma
-- Shinx is one of the first Intimidate users we can get and evolves quickly.
+- 先ほどのタマゴが **テッポウオ** だった場合、**タマンタ** を買えばすぐ **マンタイン** に進化させられます。この時点ではかなり破格の性能です。
+- **ニドラン♂** も、先ほどの *つきのいし* ですぐ2段階進化でき、**ニドキング** はこのあたりの難所を薙ぎ払ってくれます。
+- **ユキカブリ** は *ゆきふらし* を持ち、最初に手に入る天候特性です。
+- **マグマッグ**。
+- **コリンク** は最初期に手に入る *いかく* 持ちのひとつで、進化も早めです。
 
-Back outside, head into the building to the left. Fern's friend will feel bad and let us access the rooftop garden. Up here you'll find *TM63 Embargo*.
+外に戻り、左の建物に入ります。ファーンの友人が気の毒に思って屋上庭園に入れてくれます。ここでは *わざマシン63 さしおさえ* が手に入ります。
 
 !enc(128)
 
-When the weather is clear up here, you can also find a **Pichu** behind a tree if you have snax in your bag.
+ここで天気が快晴のとき、ポケスナックを持っていれば木の裏に **ピチュー** も見つかります。
 
-There is another event we can do, but it only works on certain weekday nights. For now, we have access to three alleyways. You'll need to go to any one of the following:
+もうひとつイベントがありますが、特定の曜日の夜にしか成立しません。現時点で3つの路地に入れます。次のいずれかへ向かってください。
 
-- Obsidia Alleyway, on a Monday night
-- North Peridot Alleyway, on a Thursday night
-- Lower Peridot Alleyway, on a Friday night
+- オブシディア路地、月曜の夜
+- 北ペリドット路地、木曜の夜
+- 下ペリドット路地、金曜の夜
 
-Whichever you go to at the right time, you'll find a **Zangoose** digging through the trash that you can catch.
+適切な時間帯に行けば、ゴミを漁っている **ザングース** がいて捕まえられます。
 
-Finally, now is a good time to go finish the search for Lillipup.
+最後に、ヨーテリー探しを片付けておくとよいでしょう。
 
-After talking to it in the apartment in South Obsidia Ward it will randomly go to one of these five places:
+南オブシディア区の集合住宅で話しかけたあと、次の5か所のいずれかにランダムで移動します。
 
-- On the second pier from the top in Coral Ward
-- To the left and up from the Central Salon in Obsidia Ward
-- Between the Panpour / Pansear area and the Railnet in Opal Ward
-- At the very north point of Peridot Ward by the closed gate
-- In the northwest corner of Peridot Ward, nearby the apartment containing Snubbull / Stufful
+- コーラル区の上から2番目の桟橋
+- オブシディア区の中央オブシディア美容室から左上
+- オパール区の、ヒヤップ／バオップのエリアと地下鉄道網の間
+- ペリドット区の最北端、閉ざされた門のそば
+- ペリドット区の北西の角、ブルー／ヌイコグマがいた集合住宅の近く
 
-Once you find it, head back to the Onyx Ward. To the left of the Move Relearner house, you'll see the owner with it. You can then obtain **Lillipup**.
+見つけたらオニキス区へ戻ります。わざ思い出しの家の左で飼い主が一緒にいるので、**ヨーテリー** を入手できます。
 
-## Rainbow Scent Quest
+## にじいろのかおりクエスト {#rainbow-scent-quest}
 
-One more large sidequest has now opened up! This is a limited-time quest, so its best to get started on it now. If the battles are a bit too hard for now, the final time you can complete this quest is immediately after defeating the Bug-type gym leader.
+大型のサイドクエストがもうひとつ解禁されました。これは期限付きなので、今のうちに着手しておくのが得策です。バトルが今は厳しいようなら、最後に受けられるのはむしタイプのジムリーダーを倒した直後までです。
 
-Head down to the Obsidia Park area. Talk to the pink-haired girl if you are ready for a battle.
+オブシディア公園エリアへ向かいます。準備ができたらピンク髪の少女に話しかけてください。
 
 !battle(["Swarm", :RAINBOWSWARM, 0])
 
-Combee and Venonat are fairly weak, allowing you to get set up. This is also our first encounter with Enemy Z-Moves: Pineco is holding the Buginium-Z.
+**ミツハニー** と **コンパン** は非力なので、積む余裕があります。ここは敵のZワザとの初対面でもあります。**クヌギダマ** が *ムシZ* を持っています。
 
-Laura tells us that she is looking for three Pokemon with flowers on their bodies. Talk to her again to learn there is a Comfey with a gentleman somewhere in Peridot Ward. Head over to the Upper Peridot Alleyway when you are ready for a little gauntlet...
+ローラは、体に花をつけたポケモンを3匹探していると言います。もう一度話しかけると、ペリドット区のどこかにいる紳士が **キュワワー** を連れていると分かります。準備ができたら上ペリドット路地へ向かってください。ちょっとした連戦になります。
 
-Note that all of the following are custom forms, where the only difference is their otherwise illegal movesets and abilities:
+なお、以下はすべて独自フォルムで、違いは本来ありえない技構成と特性だけです。
 
 !battle(["BRUHCHAMP", :QCHAMP, 0])
 
@@ -613,25 +613,25 @@ Note that all of the following are custom forms, where the only difference is th
 
 !battle(["DEEPTHROH", :QTHROH, 0])
 
-Because these are all separate battles, you can't set up and steamroll the gauntlet. A fast Flying or Psychic type will probably be your best bet here if they can OHKO, though a full team of six can probably take down three Pokemon if the matchups are favorable enough.
+これらは別々のバトルなので、積んで一気に押し切ることはできません。一撃で倒せるなら素早いひこうタイプかエスパータイプが有力ですが、相性さえ噛み合えば6匹編成で3匹を削り切ることもできるでしょう。
 
-After the scenes have concluded, you can get **Comfey**! 
+イベントが終わると **キュワワー** が手に入ります。
 
-**Relationship Point Choices**:
-- Get Comfey with Laura (+1 Laura)
+**好感度の選択肢**:
+- ローラからキュワワーを受け取る (+1 ローラ)
 
-Laura wants to check out three Pokemon total: this Comfey works as one of them. Two more can be pulled from the following list: Ivysaur, Venusaur, Gloom, Vileplume, Bellossom, Meganium, Skiploom, Cherrim, Maractus, Roselia, Roserade, Flabebe, Floette, Florges, Shaymin, Aromatisse, Munna, Deerling, Sawsbuck (Spring), Wormadam (Plant), and Lilligant. At this point in the game though, we don't have most of these: unless you picked Bulbasaur as a starter, the easiest Pokemon to get at this point are **Gloom**, **Roselia**, and **Skiploom**, all obtained via evolution.
+ローラが見たがっているのは合計3匹で、このキュワワーがそのうちの1匹になります。残り2匹は次の中から選べます。フシギソウ、フシギバナ、クサイハナ、ラフレシア、キレイハナ、メガニウム、ポポッコ、チェリム、マラカッチ、ロゼリア、ロズレイド、フラベベ、フラエッテ、フラージェス、シェイミ、フレフワン、ムンナ、シキジカ、メブキジカ（春）、ミノマダム（くさきのミノ）、ドレディア。ただし現時点ではその多くを入手できません。最初のパートナーにフシギダネを選んでいない場合、いま最も手に入れやすいのは進化で得られる **クサイハナ**、**ロゼリア**、**ポポッコ** の3匹です。
 
-Completing this quest rewards you with the *Rainbow Scent*, an item that controls the rate at which wild Pokemon are attracted to you, as well as a **Petilil**!
+このクエストを完了すると、野生ポケモンの寄ってきやすさを調整する道具 *にじいろのかおり* と、**チュリネ** がもらえます。
 
-**Relationship Point Choices**:
-- Complete the Rainbow Scent quest (+1 Laura, +1 Saphira)
+**好感度の選択肢**:
+- にじいろのかおりクエストを完了する (+1 ローラ、+1 サファイラ)
 
-## Grand Hall Trainers 2
+## 大ホールのトレーナー その2 {#grand-hall-trainers-2}
 
-After defeating Julia, the trainers in the Grand Hall have gotten stronger. Defeating them will now yield 4 *Exp. Candy S*! The updated teams are as follows:
+ジュリアを倒したことで、大ホールのトレーナーが強化されました。倒すと *けいけんアメS* を4個くれるようになります。更新後の編成は以下のとおりです。
 
-**Sunday**:
+**日曜日**:
 
 !battle(["Carol", :COOLTRAINER_Female, 5])
 
@@ -639,27 +639,27 @@ After defeating Julia, the trainers in the Grand Hall have gotten stronger. Defe
 
 !battle(["Fawkes", :COOLTRAINER_Male, 5])
 
-**Monday**:
+**月曜日**:
 
 !battle(["Jonah", :YOUNGSTER, 5])
 
-**Tuesday**:
+**火曜日**:
 
 !battle(["Jace", :COOLTRAINER_Male, 5])
 
-**Wednesday**:
+**水曜日**:
 
 !battle(["Silva", :PSYCHIC_Male, 5])
 
-**Thursday**:
+**木曜日**:
 
 !battle(["JB", :EXPERT_Male, 5])
 
-**Friday**:
+**金曜日**:
 
 !battle(["Will", :TechNerd, 5])
 
-**Saturday**:
+**土曜日**:
 
 !battle(["Anthony", :EXPERT_Male, 5])
 
@@ -667,23 +667,23 @@ After defeating Julia, the trainers in the Grand Hall have gotten stronger. Defe
 
 !dbattle(["Zach", :Casanova, 5], ["Beau", :LADY, 5])
 
-## Canopy Badge
+## キャノピーバッジ {#canopy-badge}
 
-With all that out of the way we can head back to the gym. In order to battle Florinia, we're gonna need to answer all the quiz questions. The answers are here, from right to left:
+これらを片付けたらジムへ戻れます。フロリニアと戦うには、クイズにすべて答える必要があります。答えは右から左の順に以下のとおりです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    1, 367, True, 410, True, 37, 15, True
+    1、367、正しい、410、正しい、37、15、正しい
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Onyx Gym Quiz Answers</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">オニキスジムのクイズの答えを表示</a>
 </div>
 
-Head to the left and enter the gym room for a battle.
+左へ進み、ジムの部屋に入るとバトルです。
 
 !battle(["Florinia", :FLORINIA, 0], "Desert Field")
 
-This is a pretty neat and out of the ordinary team that helps teach the player about the versatility of field effects. In general, the Desert Field actually doesn't really benefit Grass types or most grass type moves. Regardless, Florinia's team is mostly built around using the field successfully. Specifically, most of her team have at least one of Needle Arm, Pin Missile, and Sand Tomb, which are all boosted by the field. Cacnea's Sand Veil is always activated here, and Ferroseed's Telluric Seed allows it to gain a bit more bulk and speed in exchange for being trapped by Sand Tomb. Sandstorm lasts for eight turns on the field, and Ferroseed, Cacnea, and Cradily will all be immune to its damage while you may not. Cradily also gets a Special Defense boost from the sand, adding to its already strong bulk with Stockpile and Recover. On top of all that, Nature Power turns into boosted Sand Tomb, and Cottonee has priority with this move due to Prankster!
+フィールド効果の応用範囲の広さをプレイヤーに教えてくれる、なかなか変わった編成です。そもそも *砂漠フィールド* は、くさタイプやくさ技をさして優遇しません。それでもフロリニアの編成は、フィールドを活かし切る形に組まれています。具体的には、手持ちの大半が *ニードルアーム*、*ミサイルばり*、*すなじごく* のいずれかを持っており、これらはすべてフィールドで強化されます。**サボネア** の *すながくれ* はここでは常時発動し、**テッシード** の *テルリックシード* は、*すなじごく* で拘束される代わりに耐久と素早さを底上げします。すなあらしはこのフィールドで8ターン持続し、テッシード、サボネア、**ユレイドル** はその削りを受けませんが、こちらは受けます。ユレイドルは砂でとくぼうも上がるため、*たくわえる* と *じこさいせい* による元々高い耐久がさらに増します。加えて *しぜんのちから* は強化された *すなじごく* に変わり、**モンメン** は *いたずらごころ* によってこれを先制で使ってきます。
 
-All that goes to show how even fields that aren't as *obviously* beneficial like Electric Terrain for Julia can lead to difficult challenges. Aside from Pin Missile Linoone you don't really have many options to get boosts from the field yourself yet, so the key will be to overwhelming her otherwise. Fury Cutter is a pretty great move for this fight - you can get around Ferroseed's Iron Barbs with the Protective Pads we found earlier, and after a few uses the move will tear through Cradily before it can bulk up. Snover is also a good option if you want to cancel out the Sandstorm with a different weather condition, or you could use Sunny Day with Castform or Cherrim to sweep with Fire moves under the 8-turn Desert Field sun. You could also try to run a Flying type offensive core, which ignores Sand Tomb and can pretty easily deal with everything except Cradily. A great example of having to think outside the box in Reborn; you can do it!
+ジュリアの *エレキフィールド* のように*見るからに*有利とは限らないフィールドでも、これだけの難所になり得るという好例です。*ミサイルばり* の **マッスグマ** を除けば、こちらがフィールドの恩恵を受ける手段はまだ多くないので、それ以外の形で押し切るのが鍵になります。*れんぞくぎり* はこの戦いで非常に有効です。テッシードの *てつのトゲ* は先ほど手に入れた *ぼうごパット* で無効化でき、数回重ねればユレイドルが積み切る前に倒し切れます。**ユキカブリ** で天候を上書きしてすなあらしを打ち消す手もありますし、*にほんばれ* を **ポワルン** や **チェリム** と組み合わせ、8ターンの砂漠フィールドの日照下でほのお技を通す形も狙えます。*すなじごく* を無視できてユレイドル以外に幅広く対応できる、ひこうタイプ中心の攻撃編成も有力です。リボーンで求められる発想の柔軟さを示す好例と言えます。きっと突破できます。
 
-After winning you'll get the *Canopy Badge* as well as *TM96 Nature Power*. You'll also receive the *PULSE Dex* as well as the *PULSE Readout 5C*. The level cap also shoots up to 35!
+勝利すると *キャノピーバッジ* と *わざマシン96 しぜんのちから* がもらえます。あわせて *パルス図鑑* と *パルスの資料5C* も手に入ります。レベル上限も35まで一気に上がります。

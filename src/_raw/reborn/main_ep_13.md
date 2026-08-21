@@ -1,146 +1,146 @@
-# Episode 13: Cascade
+# エピソード13: 奔流 {#episode-13}
 
-With 10 badges in hand, there is another default shop update.
+バッジが10個になったので、標準ショップの品揃えがまた更新されます。
 
 !shop("Default Mart (10-12 Badges)", ["Poke Ball", "Great Ball", "Ultra Ball", "Super Repel", "Max Repel", "Escape Rope", "Full Heal", "Hyper Potion"])
 
-Return to the Celestinine Cascade and talk to Titania inside. You'll get *TMX3 Surf*! Finally.
+セレスティナイン滝へ戻り、中のティタニアに話しかけます。*ひでんマシン3 なみのり* が手に入ります。ようやくです。
 
-**Relationship Point Choices**:
-- Tell Titania you were reading the journal (Neutral)
-- Tell Titania you weren't reading the journal (-1 Titania)
+**好感度の選択肢**:
+- ティタニアに「日誌を読んでいた」と伝える (増減なし)
+- ティタニアに「日誌は読んでいない」と伝える (-1 ティタニア)
 
-**Relationship Point Choices**:
-- Tell Amaria that Titania is wrong (+2 Amaria, -2 Titania)
-- Tell Amaria that Titania is right (-2 Amaria, +2 Titania)
+**好感度の選択肢**:
+- アマリアに「ティタニアが間違っている」と伝える (+2 アマリア、-2 ティタニア)
+- アマリアに「ティタニアが正しい」と伝える (-2 アマリア、+2 ティタニア)
 
-## Mountain Range Surfin'
+## 山脈をなみのりで巡る {#mountain-range-surfin}
 
-We can't follow them down the waterfall yet, but we can now explore with Surf! One quick note:
+滝を下って追いかけることはまだできませんが、*なみのり* での探索は可能になりました。ひとつ補足しておきます。
 
-**Relationship Point Choices**:
-- Read Titania's diary once she is down the cascade (-1 Titania)
+**好感度の選択肢**:
+- ティタニアが滝を下ったあと、彼女の日記を読む (-1 ティタニア)
 
-I'll start by exploring the rest of the area we are currently in, the Celestinine Cascade.
+まずは今いるエリア、セレスティナイン滝の残りを探索します。
 
-Surf to the left. 
+左へなみのりします。
 
 !enc(359, ["Surfing"], nil, "Celestinine Cascade East")
 
 !enc(372, nil, nil, "Celestinine Cascade West")
 
-Hidden are *Water Gem*, 2 *PokeSnax*, *Potion*, *Calcium*, *Genius Wing*, *Dire Hit*, *Poke Ball*, *Blue Shard*, *Rock Gem*, *Green Shard*, *Awakening*, *Ultra Potion*, *Elixir*, 2 *Red Shards*, *Aspear Berry*, and *Ice Heal* all throughout the left side of this area. Hop your way to the cliff on the upper right side to get a *Reaper Cloth*. Towards the left side you can hop to an *Ultra Potion*.
+このエリアの左側一帯には、隠された *みずのジュエル*、*ポケスナック* 2個、*キズぐすり*、*リゾチウム*、*ちりょくのハネ*、*クリティカット*、*モンスターボール*、*あおいかけら*、*いわのジュエル*、*みどりのかけら*、*ねむけざまし*、*すごいキズぐすり*、*ピーピーエイダー*、*あかいかけら* 2個、*ナナシのみ*、*こおりなおし* があります。右上の崖へ飛び移ると *れいかいのぬの* が手に入ります。左寄りには *すごいキズぐすり* へ飛び移れる場所もあります。
 
-Talk to the clown with the Politoed and Torkoal for a battle.
+**ニョロトノ** と **コータス** を連れたピエロに話しかけるとバトルです。
 
 !battle(["Bindra", :INDRA, 0], "Rainbow Field atop Rocky Field")
 
-🅱️indra. Once you win against his super sketchy Rainbow team you will get a *Full Heal*! Talk to him again and say yes! Then again and say no! Finally he will give you *TM39 Rock Tomb*.
+🅱️インドラです。実に胡散臭い虹編成に勝つと *なんでもなおし* がもらえます。もう一度話しかけて「はい」と答え、さらにもう一度話しかけて「いいえ」と答えてください。最後に *わざマシン39 がんせきふうじ* をくれます。
 
-Up from here is another clown.
+ここから上にはもう1人ピエロがいます。
 
 !battle(["Aaron", :Clown, 0], "Rocky Field")
 
-Head up to enter Citrine Mountain! We've actually been in this mountain once before, but from a different side.
+上へ進んでシトリン山へ入ります。実はこの山には以前も来ていますが、そのときとは別の側からです。
 
 !enc(381, ["Cave", "Water", "Fishing"], ["Old", "Good"], "Citrine Mountain 1F / 3F")
 
-Hidden on this floor you'll find 7 *Shoal Salts*, *Green Shard*, *Ultra Potion*, *Revive*, *Normal Gem*, and *Heart Scale*, though the latter requires use of a Blast Powder.
+この階には隠された *あさせのしお* 7個、*みどりのかけら*、*すごいキズぐすり*、*げんきのかけら*、*ノーマルジュエル*、*ハートのウロコ* があります。ただし最後のものは *ばくはつのこな* が必要です。
 
-On the top there is a ladder that will take us to a different side of the familiar 2F. Up here you'll find a hidden *Zinc*, and *Ultra Ball* but that's about it. Back on 1F, surf to the upper right corner to enter Celestinine Mountain 1F.
+最上部のはしごから、見覚えのある2階の別の側へ行けます。ここには隠された *キトサン* と *ハイパーボール* がありますが、それくらいです。1階に戻り、右上の隅へなみのりするとセレスティナイン山1階に入れます。
 
 !enc(380, ["Surfing"], "Celestinine Mountain")
 
-Hidden on this map are a *Super Potion*, and a *Full Heal*. Cross the ice to the top right, and surf to the right and grab a hidden *Ultra Ball*. Note that the bottom of this map will lead you out to the cascade we saw earlier, so use this shortcut to heal if you like.
+このマップには *いいキズぐすり* と *なんでもなおし* が隠されています。氷を渡って右上へ行き、右へなみのりして隠された *ハイパーボール* を拾ってください。なお、このマップの下部は先ほどの滝へ抜けるので、回復したいときの近道に使えます。
 
-Anyways, without Dive and Waterfall there isn't much else to do in Celestinine Mountain 1F, so go up the ladder in the top right corner.
+ともあれ *ダイビング* と *たきのぼり* がない今、セレスティナイン山1階でできることは多くないので、右上の隅のはしごを上ります。
 
-Cross the ice puzzle to get to the left. Precisely:
+氷のパズルを渡って左へ向かいます。正確には次のとおりです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Up, Left, Down, Left, Up, Left, Down, Left to go from the right side to the left side<br/>
-    Right, Down, Left, Up, Right, Down, Right, Up, Right, Down to go from the left side to the right side
+    右側から左側へ: 上、左、下、左、上、左、下、左<br/>
+    左側から右側へ: 右、下、左、上、右、下、右、上、右、下
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for ice puzzle movements</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">氷のパズルの動き方を表示</a>
 </div>
 
-Follow the body of water up from here to enter Ametrine Mountain 2F.
+ここから水路を上へたどるとアメトリン山2階に入れます。
 
 !enc(364, ["Surfing"], nil, "Ametrine Mountain")
 
-You'll eventually notice on the right the area connected to Route 2. Now we know how all three of these mountains are connected to each other and the greater Route 2 area! We're actually going to take a quick detour back to the circus while we're so close to it.
+やがて右手に、2番道路と繋がっているエリアが見えます。これで3つの山が互いに、そして2番道路一帯とどう繋がっているかが分かりました。せっかく近いので、ここでサーカスへ少し寄り道します。
 
-**Relationship Point Choices**:
-- Talk to Blake at the bottom of the circus (+1 Blake)
+**好感度の選択肢**:
+- サーカス下部のブレイクに話しかける (+1 ブレイク)
 
-There's also a Pokemon and a few items we can get right now using Surf, albeit in a bit of an odd way. You can get them later with Rock Climb super easily, but I'll cover it now. Head back to Route 2, and grab some rage powder. Enter Ametrine Mountain 2F, then make your way all the way backwards and exit out of Celestinine Mountain into the cascade. Go to the right and use the powder on the first Crustle you see.
+*なみのり* を使えば、やや変則的な手順ですが、今すぐ入手できるポケモンとアイテムもあります。後で *ロッククライム* を使えば遥かに簡単に取れますが、ここで扱っておきます。2番道路へ戻り、*いかりのこな* を取ってください。アメトリン山2階に入り、ずっと逆順に戻ってセレスティナイン山から滝へ出ます。右へ進み、最初に見える **イワパレス** にこなを使います。
 
-Inside this cave you can get an *Elemental Seed* as well as the *Aerodactylite* and a hidden *Exp. Candy XL*. You can also talk to the rock at the top to battle **Salandit**!
+この洞窟の中では *エレメンタルシード* と *プテラナイト*、隠された *けいけんアメXL* が手に入ります。最上部の岩に話しかけると **ヤトウモリ** とも戦えます。
 
-Unfortunately this makes it impossible to go from Celestinine Cascade to the other side of Route 2 for now. If you want to reopen this shortcut, you'll need to head back through the mountain onto Route 2 to move another Crustle into that place.
+残念ながら、これによってセレスティナイン滝から2番道路の反対側へ抜けることが当面できなくなります。この近道を再び開けたい場合は、山を通って2番道路へ戻り、別のイワパレスをその位置まで動かす必要があります。
 
-Anyways, return to Ametrine 2F, surf to the left, and cross the simple ice puzzle. Talk to Aya near the iceberg. After this scene, follow the path up and right to emerge onto Route 3.
+ともあれアメトリン山2階へ戻り、左へなみのりして簡単な氷のパズルを渡ります。氷山の近くのアヤに話しかけてください。このイベントのあと、道を上そして右へたどると3番道路に出ます。
 
-## Route 3 & LCCC
+## 3番道路とLCCC {#route-3--lccc}
 
 !enc(361)
 
-Grab the hidden *Potion*. Head right from here. And... so much for entering Calcenon City. Make your way right, picking up hidden *Ultra Potion* and *Green Shard* along the way. Aya will join us as a partner!
+隠された *キズぐすり* を拾います。ここから右へ。そして……カルセノンシティへの入城はお預けです。右へ進みながら、道中の隠された *すごいキズぐすり* と *みどりのかけら* を回収してください。アヤが同行者になります。
 
-**Relationship Point Choices**:
-- Return to Ametrine while Aya is your partner (-1 Aya, -1 Hardy)
+**好感度の選択肢**:
+- アヤと同行中にアメトリンへ戻る (-1 アヤ、-1 ハーディ)
 
-**Relationship Point Choices**:
-- Wipe out at any point with Aya as your partner (-1 Aya, -1 Hardy)
+**好感度の選択肢**:
+- アヤと同行中に全滅する (-1 アヤ、-1 ハーディ)
 
-**Relationship Point Choices**:
-- Talk to Aya while you are partnered (+1 Aya for each of 4 dialogues, +4 total)
+**好感度の選択肢**:
+- 同行中にアヤに話しかける (会話4種それぞれ +1 アヤ、合計 +4)
 
 !partner(["Aya", :AYA, 1])
 
 !enc(405, nil, nil, "Route 3 Caves")
 
-Inside this cave you can find a hidden *Hyper Potion*, *Red Shard*, 2 *Repels*, *Antidote*, *Ground Gem*. There's a door you can go through at the top to reach a green machine containing a *Metal Coat*!
+この洞窟には隠された *すごいキズぐすり*、*あかいかけら*、*むしよけスプレー* 2個、*どくけし*、*じめんのジュエル* があります。最上部の扉を抜けると、*メタルコート* が入った緑の機械にたどり着けます。
 
-Exit the door at the bottom. Outside, you can find a hidden *Max Elixir*, *Resist Wing*, and *Exp. Candy XL*.
+下の扉から出ます。外では隠された *ピーピーマックス*、*ていこうのハネ*、*けいけんアメXL* が手に入ります。
 
-Enter the next cave. Inside you can find hidden *PokeSnax*, and *Potion*, as well as Team Meteor!
+次の洞窟に入ります。中では隠された *ポケスナック* と *キズぐすり*、そしてチームメテオが待っています。
 
 !dbattle(["Geoff", :MeteorGrunt, 1], ["Audrey", :MeteorGrunt_090, 1], "Cave Field")
 
-Beyond you can find a hidden *Max Potion* and *Tiny Mushroom*. In the next room, use the panel and follow the path.
+その先では隠された *まんたんのくすり* と *ちいさなキノコ* が見つかります。次の部屋ではパネルを使って道をたどってください。
 
-In this room, you can get hidden *Repeat Ball*, *Fire Gem*, and *Great Ball*.
+この部屋では隠された *リピートボール*、*ほのおのジュエル*、*スーパーボール* が手に入ります。
 
 !dbattle(["Demian", :MeteorKnight, 0], ["Antoine", :MeteorDame, 0], "Cave Field")
 
-Continue into the next room.
+次の部屋へ進みます。
 
 !dbattle(["Kenan", :MeteorKnight, 2], ["Diana", :MeteorDame, 2], "Cave Field")
 
-Pick up the hidden *Super Repel* and *Poke Ball*. Head outside and go right. Pick up a hidden *X Defend* along the way.
+隠された *シルバースプレー* と *モンスターボール* を拾います。外へ出て右へ進みましょう。道中で隠された *ディフェンダー* も拾えます。
 
 !dbattle(["Steven", :MeteorKnight, 2], ["Avril", :MeteorDame, 2], "Rocky Field")
 
-Right before the hop rocks you can get a hidden *Green Shard*. Hop down and enter the next cave.
+飛び石の直前で隠された *みどりのかけら* が手に入ります。飛び降りて次の洞窟に入ってください。
 
-In here, you can get a hidden *Blast Powder*, *Ultra Potion*, and *Blue Shard*. Enter the next room, change up your team if necessary, then head in to the next room.
+ここでは隠された *ばくはつのこな*、*すごいキズぐすり*、*あおいかけら* が手に入ります。次の部屋に入り、必要なら手持ちを入れ替えてから、その次の部屋へ進みます。
 
 !dbattle(["Aster", :AsterKnight, 0], ["Eclipse", :EclipseDame, 0], "Factory Field")
 
-Time for another round with Aster and Eclipse! This time you'll have Aya as your partner, and thankfully her team actually puts in a decent amount of work in this fight, with lots of Water and Grass moves to deal with their numerous Water, Rock, and Ground type Pokemon. Aster and Eclipse like to set up screens against you with their leads, so you could consider bringing Brick Break or Psychic Fangs if these are annoying. Generally I find that Lunatone doesn't hit very hard, so if you are struggling with this one, you can continuously target the right side and get the battle to a 2-on-1 to make it simple.
+アスターとエクリプスとの次の一戦です。今回はアヤが同行者で、ありがたいことに彼女の編成はこの戦いでしっかり働いてくれます。みず技とくさ技を多く持っており、相手に多いみず・いわ・じめんタイプに刺さるからです。アスターとエクリプスは先発で壁を張ってきたがるので、煩わしければ *かわらわり* や *サイコファング* を用意するとよいでしょう。総じて **ルナトーン** の火力は高くないので、苦戦するようなら右側を集中的に狙い続けて2対1に持ち込むと単純になります。
 
-**Relationship Point Choices**:
-- Aya gets kidnapped (-2 Aya. This is not a choice, actually.)
+**好感度の選択肢**:
+- アヤが連れ去られる (-2 アヤ。これは選択肢ではありません)
 
-After the fight, go to the left and grab *TM43 Flame Charge* in the storage room. Return to the previous room and head out from the door on the right side. In this next cave, you can get a hidden *Great Ball* and *Aspear Berry*. Head outside, pick up a hidden *Purple Shard*, *Magical Seed*, and *Blast Powder* then proceed to Route 4.
+戦闘後、左へ進んで倉庫で *わざマシン43 ニトロチャージ* を回収します。ひとつ前の部屋に戻り、右側の扉から出てください。次の洞窟では隠された *スーパーボール* と *ナナシのみ* が手に入ります。外に出て隠された *むらさきのかけら*、*マジカルシード*、*ばくはつのこな* を拾い、4番道路へ進みます。
 
-## Route 4
+## 4番道路 {#route-4}
 
 !enc(412, ["Grass"])
 
-Going up the left path first:
+まず左の道を上ります。
 
 !battle(["Odin", :HIKER, 0], "Forest Field")
 
@@ -148,95 +148,95 @@ Going up the left path first:
 
 !battle(["Ellen", :NatureGirl, 0], "Forest Field")
 
-Before going up the stairs to the left and to the right, go to the right and down to fight another trainer:
+左右の階段を上る前に、右そして下へ進んでもう1人と戦います。
 
 !battle(["Goro", :HIKER, 0], "Forest Field")
 
-Climbing the stairs up and to the right, you'll find another trainer:
+階段を上って右へ進むと、もう1人トレーナーがいます。
 
 !battle(["Lassie", :RANGERF, 0], "Forest Field")
 
-Finally, up the hill to the left is the last trainer here.
+最後に、左の丘を上るとここ最後のトレーナーがいます。
 
 !battle(["George", :COOLTRAINER_Male, 0], "Forest Field")
 
-Throughout Route 4 you can find 2 hidden *Heart Scales*, *Super Potion*, 2 *PokeSnax*, *Purple Shard*, *Synthetic Seed*, *Red Shard*, 2 *Telluric Seeds*, *Grass Gem*, *X Attack*, and *Potion*. If you bring a Pokemon with Lava Plume, Heat Wave, Incinerate, Eruption, Fire Pledge, or Flame Burst, use it in battle. This will allow you to get the *Fire Memory* in the campfire at the center of the bottom half of the map.
+4番道路の各所には隠された *ハートのウロコ* 2個、*いいキズぐすり*、*ポケスナック* 2個、*むらさきのかけら*、*シンセティックシード*、*あかいかけら*、*テルリックシード* 2個、*くさのジュエル*、*プラスパワー*、*キズぐすり* があります。*ふんえん*、*ねっぷう*、*やきつくす*、*ふんか*、*ほのおのちかい*、*はじけるほのお* のいずれかを覚えたポケモンを連れて戦闘で使うと、マップ下半分の中央にある焚き火から *ファイヤーメモリ* を入手できます。
 
-Enter Calcenon City to the west.
+西のカルセノンシティへ入ります。
 
-## Calcenon City
+## カルセノンシティ {#calcenon-city}
 
-Inside the Pokemon Center, a person will tell you about the password *noitems*. Another person in here will offer an in-game trade: your Qwilfish for **Munchlax**!
+ポケモンセンターの中では、人物が *noitems* というパスワードを教えてくれます。もう1人は交換に応じてくれます。こちらの **ハリーセン** と、相手の **ゴンベ** です。
 
-In a building to the right of the gym you can trade the Electirizer for an **Elekid**!
+ジムの右隣の建物では、*エレキブースター* と **エレキッド** を交換できます。
 
-Enter the gym at the top of the city.
+町の最上部のジムに入ります。
 
-Talk to Hardy in the left side of the city for some points if you'd like.
+好感度が欲しければ、町の左側でハーディに話しかけてください。
 
-**Relationship Point Choices**:
-- Talk to Hardy and Fern on the left side of the city (+1 Fern)
+**好感度の選択肢**:
+- 町の左側でハーディとファーンに話しかける (+1 ファーン)
 
-Talk to Saphira here twice.
+ここでサファイラに2回話しかけます。
 
-**Relationship Point Choices**:
-- Tell Charlotte you would throw her to the dogs for the ring, while Saphira Points > 0 (+2 Charlotte, -1 Hardy, +1 Saphira)
-- Tell Charlotte you would throw her to the dogs for the ring, while Saphira Points <= 0 (+2 Charlotte, -1 Hardy, -1 Saphira)
-- Tell Charlotte you would not throw her to the dogs (-2 Charlotte, +1 Hardy)
+**好感度の選択肢**:
+- サファイラの好感度が0より大きい状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える (+2 シャルロット、-1 ハーディ、+1 サファイラ)
+- サファイラの好感度が0以下の状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える (+2 シャルロット、-1 ハーディ、-1 サファイラ)
+- シャルロットに「彼女を見捨てはしない」と伝える (-2 シャルロット、+1 ハーディ)
 
-Anyways, walk over to the Route 4 exit and talk to Charlotte inside. She'll tell us it's time for a gym battle, so head back into Calcenon.
+ともあれ4番道路への出口まで歩き、中のシャルロットに話しかけます。ジム戦の時間だと告げられるので、カルセノンへ戻ってください。
 
-**Relationship Point Choices**:
-- Talk to Saphira and Sigmund on the west side of the city (-1 Sigmund)
+**好感度の選択肢**:
+- 町の西側でサファイラとシグムンドに話しかける (-1 シグムンド)
 
-## Cinder Badge
+## シンダーバッジ {#cinder-badge}
 
-Enter Charlotte's gym when you are ready. The puzzle here is basically the same as Wallace's from generation 3: you have to carefully step on every gray tile exactly once and make it to the other side's stairs. For precise solutions:
+準備ができたらシャルロットのジムに入ります。ここのパズルは第3世代のミクリのものとほぼ同じで、灰色のマスすべてをちょうど1回ずつ踏んで、反対側の階段までたどり着く必要があります。正確な解答はこちらです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Puzzle 1: U2 L2 U3 R D R D R D R U2 L U L U
+    パズル1: 上2 左2 上3 右 下 右 下 右 下 右 上2 左 上 左 上
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the first puzzle solution</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">1つ目のパズルの解答を表示</a>
 </div>
 
 !battle(["Iroh", :EXPERT_Male, 0], "Super-Heated Field")
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Puzzle 2: U2 R U R2 D R U4 L2 D R D L2 U L D2 L U L D2 L2 U R U2 L U R4 U
+    パズル2: 上2 右 上 右2 下 右 上4 左2 下 右 下 左2 上 左 下2 左 上 左 下2 左2 上 右 上2 左 上 右4 上
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the second puzzle solution</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">2つ目のパズルの解答を表示</a>
 </div>
 
 !battle(["Karus", :AceTrainerM, 0], "Super-Heated Field")
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Puzzle 3: U2 L U L2 D L2 U R U L U R U2 L U2 R3 D2 L D R D2 R U R D R D2 R U R U R D2 R U3 L3 U L2 U L U R2 D R2 D R2 U3 L D L U L3 U
+    パズル3: 上2 左 上 左2 下 左2 上 右 上 左 上 右 上2 左 上2 右3 下2 左 下 右 下2 右 上 右 下 右 下2 右 上 右 上 右 下2 右 上3 左3 上 左2 上 左 上 右2 下 右2 下 右2 上3 左 下 左 上 左3 上
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the third puzzle solution</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">3つ目のパズルの解答を表示</a>
 </div>
 
 !battle(["Nova", :AceTrainerF, 0], "Super-Heated Field")
 
-Head up to where Charlotte is.
+シャルロットのいる場所まで上がります。
 
-**Relationship Point Choices**:
-- Open the secret room in Charlotte's gym while she is present (+1 Charlotte)
+**好感度の選択肢**:
+- シャルロットがいる状態でジムの隠し部屋を開ける (+1 シャルロット)
 
-Technically you shouldn't know how to open the secret room by this point... So if you want to respect the fact accessing this room and getting this point is more of an easter egg for players on their second run, you can skip to the fight.
+本来、この時点で隠し部屋の開け方を知っているはずはありません……この部屋に入って好感度を得るのは2周目以降のプレイヤー向けの隠し要素だという点を尊重するなら、そのまま戦闘まで飛ばして構いません。
 
-If you do want to open the secret room, you'll need to make the top area tiles look exactly like this:
+隠し部屋を開けたい場合は、上部エリアのタイルをちょうど次のような配置にする必要があります。
 
 !img("calcsecret.jpg")
 
-When you're ready, take on the Fire type gym leader!
+準備ができたら、ほのおタイプのジムリーダーに挑みましょう。
 
 !battle(["Charlotte", :CHARLOTTE, 0], "Super-Heated Field")
 
-Time for another of Reborn's double battle gym leaders. Her two leads, Darmanitan and Typhlosion, are incredibly fast and hit like trucks with their Fire moves. Eruption will turn the field to Burning Field, potentially making things more difficult. In the back she has a seeded Ninetales, who will amplify her Fire type moves even more thanks to Drought. With a bulky Rotom that can counter Water and Ground types and the speedy Heat Wave + coverage moves sets she has on her Delphox and Volcarona, Charlotte has a pretty frail but speedy and strong team that can overwhelm unprepared teams by their sheer field-boosted power.
+リボーンのダブルバトルのジムリーダー、その次の1人です。先発の **ヒヒダルマ** と **バクフーン** は凄まじく速く、ほのお技で強烈に殴ってきます。*ふんか* はフィールドを *燃えるフィールド* に変えるため、状況がさらに厳しくなることもあります。控えにはシードを持った **キュウコン** がいて、*ひでり* によってほのお技をさらに増幅します。みず・じめんタイプに対抗できる硬い **ロトム**、そして *ねっぷう* と補完技を備えた素早い **マフォクシー** と **ウルガモス**。シャルロットの編成は打たれ弱いものの速くて強く、フィールド強化された純粋な火力で、準備不足の相手を押し潰してきます。
 
-Both the Super-Heated Field and Burning Field benefit Charlotte a lot, but they could benefit you as well. One hilarious strategy you can try is just using your own Fire types to obliterate her: use your own Eruption, Heat Wave, etc. As long as you can control for speed such as by using the Telluric Seed this tends to be reliable. If you find yourself stuck, Trick Room is an incredible strategy here - paired with Wide Guard, you can reliably set up Trick Room on the first turn with many different Pokemon. Under Trick Room, her entire team will crumple to slow Rock moves, Ground moves on top of Gravity, or Water moves if you can keep it on Burning to avoid the Super-Heated Field damage suppression. There are tons of other crafty doubles strategies you can use on this fight especially if you buy yourself some turns with Wide Guard, so get creative!
+*超高温フィールド* も *燃えるフィールド* もシャルロットに大きく味方しますが、こちらも同じだけ利用できます。試して愉快なのは、こちらもほのおタイプで殴り返す戦法です。自前の *ふんか* や *ねっぷう* を使いましょう。*テルリックシード* などで素早さを制御できていれば、これは案外安定します。行き詰まったら *トリックルーム* が絶大な効果を発揮します。*ワイドガード* と組み合わせれば、様々なポケモンで初手に安定して *トリックルーム* を張れます。トリックルーム下では、相手の編成は鈍足のいわ技、*じゅうりょく* と合わせたじめん技、あるいは *超高温フィールド* のダメージ抑制を避けるために *燃えるフィールド* を維持できるならみず技で、まとめて崩れます。*ワイドガード* でターンを稼げば、ほかにも工夫の余地は山ほどあります。自由に組み立ててください。
 
-Once you win, you'll get the *Cinder Badge* which allows us to use Dive in the field and boosts the cap to Lv. 75. You'll also get *TM35 Flamethrower*! Very nice.
+勝利すると *シンダーバッジ* が手に入り、フィールドで *ダイビング* が使えるようになって上限が Lv.75 に上がります。*わざマシン35 かえんほうしゃ* ももらえます。実にありがたい。

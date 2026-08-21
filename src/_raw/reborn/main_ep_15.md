@@ -1,205 +1,205 @@
-# Episode 15: Never After
+# エピソード15: めでたくもなし {#episode-15}
 
-Head back outside. Before we proceed with the story, there's some more mountain action we can do. We've actually only seen like 30% of the massive three-mountain complex; much more of it is now accessible thanks to Waterfall. So, I will cover that in the next section.
+外へ戻ります。ストーリーを進める前に、山でできることがまだあります。実のところ、巨大な三山地帯のうち30%ほどしか見ておらず、*たきのぼり* のおかげで大部分に入れるようになりました。次の節でそれを扱います。
 
-## Mountain Range Waterfallin'
+## 山脈をたきのぼりで巡る {#mountain-range-waterfallin}
 
-Enter Ametrine Mountain 2F via the Route 3 entrance. Surf and climb the nearby waterfall. Upstairs on 3F, you can get a hidden *Green Shard* and *Never-Melt Ice*. Across the ice you can find a hidden *Potion*. On the ice puzzle to the left, creep along the tiles above the ice, then go down onto a rock, left, and up. Grab a hidden *Super Potion*. Head up the waterfall to 4F.
+3番道路側の入口からアメトリン山2階へ入ります。なみのりして近くの滝を登ってください。3階では隠された *みどりのかけら* と *とけないこおり* が手に入ります。氷の向こうには隠された *キズぐすり* があります。左の氷のパズルでは、氷の上にあるタイルの上を伝って進み、岩へ降りて左そして上へ。隠された *いいキズぐすり* を拾います。滝を登って4階へ。
 
-At the top you can grab a hidden *Escape Rope*. Sadly we can't proceed on this route without Rock Climb, so hop down the ledge and make your way down two flights to 2F.
+最上部では隠された *あなぬけのヒモ* が手に入ります。残念ながら *ロッククライム* がないとこのルートは進めないので、段差を飛び降りて2階まで2つ分下ります。
 
-From here, make your way to the waterfall down and left from the Route 2 entrance, then ride down it to Ametrine Mountain 1F. To the right, you'll find a hidden *Purple Shard*, *Escape Rope*, and *Exp. Candy L*. By smashing its favorite rock, you can catch a **Sneasel**.
+ここから、2番道路側の入口から下そして左にある滝へ向かい、乗って下るとアメトリン山1階に着きます。右手では隠された *むらさきのかけら*、*あなぬけのヒモ*、*けいけんアメL* が手に入ります。お気に入りの岩を砕くと **ニューラ** を捕まえられます。
 
-Surf down the waterfall to the left, then pick up a hidden *Full Heal* on the right. Land on the left side and make your way across the ice. Grab a hidden *Red Shard* and push the boulder to the left. Head back up the waterfall, go left, pick up hidden *Paralyze Heal* and *Purple Shard*, then go down at the dive spot.
+左の滝をなみのりで下り、右手で隠された *なんでもなおし* を拾います。左側に上陸して氷を渡ってください。隠された *あかいかけら* を拾い、岩を左へ押します。滝を登り直して左へ進み、隠された *まひなおし* と *むらさきのかけら* を拾ったら、ダイビングスポットで潜ります。
 
-You'll find a hidden *Blue Shard* in the first room. Notice that there's a hard-to-spot door on the right side of the area - it's a lit alcove you enter from above. These signify going down in level within the mountain (you can check the level you're on by initiating a save from the menu). Inside it, you can find a hidden *Antidote* and *Red Shard*. Surface at the end of the path, and you'll emerge into Ametrine Mountain B1F.
+最初の部屋には隠された *あおいかけら* があります。エリア右側に見つけにくい扉があることに注意してください。上から入る、明かりの灯った窪みです。これは山の中で階層が下がる目印になります（メニューからセーブを開始すれば現在の階層を確認できます）。中では隠された *どくけし* と *あかいかけら* が手に入ります。道の終わりで浮上すると、アメトリン山地下1階に出ます。
 
-Grab a hidden *Full Heal* and *Health Wing* then proceed to the ice. Make your way to the top right corner of this area, and surf down. Grab a hidden *Water Gem* and climb down the fall to B2F.
+隠された *なんでもなおし* と *たいりょくのハネ* を拾って氷へ進みます。このエリアの右上の隅まで進んでなみのりで下ってください。隠された *みずのジュエル* を拾い、滝を下って地下2階へ。
 
-In this next room, go left across the ice. Pick up a hidden *Green Shard* and *Pretty Wing*, then climb the waterfalls to the left. In the pool at the top, you can find **Totodile** jumping around. Talk to it while it's in the air for a battle.
+次の部屋では氷を渡って左へ。隠された *みどりのかけら* と *きれいなハネ* を拾い、左の滝を登ります。最上部の水たまりには **ワニノコ** が跳ねています。空中にいるときに話しかけるとバトルになります。
 
-Back at the ice puzzle in the room, go up this time. Grab hidden *Stardust* and cross this ice. Before going down the dive spot, go down the fall to get a hidden *Full Restore*. Dive down up above. Grab a hidden *X Sp. Def* on this map and enter the hidden alcove door towards the bottom. In the next room you can get a hidden *Purple Shard* and *Dark Gem*. Surface at the other end and emerge on B3F.
+部屋の氷のパズルに戻り、今度は上へ進みます。隠された *ほしのすな* を拾ってこの氷を渡ってください。ダイビングスポットで潜る前に、滝を下って隠された *かいふくのくすり* を拾っておきます。上へ戻って潜りましょう。このマップでは隠された *スペシャルガード* を拾い、下寄りの隠し窪みの扉に入ります。次の部屋では隠された *むらさきのかけら* と *あくのジュエル* が手に入ります。反対の端で浮上すると地下3階に出ます。
 
-You can get a hidden *Pearl* and *Red Shard* in the next room, as well as *TM01 Work Up* and a *Razor Fang*. Backtrack all the way back to B1F.
+次の部屋では隠された *しんじゅ* と *あかいかけら* のほか、*わざマシン01 ふるいたてる* と *するどいキバ* が手に入ります。地下1階までずっと戻ってください。
 
-This time, cross the ice to the top left. Grab the hidden *Poke Ball* then dive down. Hidden in here are a *Green Shard*, *Genius Wing*, and *Red Shard*. We can also get a *Deep Sea Tooth*. Enter the alcove door at the bottom.
+今度は氷を渡って左上へ。隠された *モンスターボール* を拾って潜ります。ここには *みどりのかけら*、*ちりょくのハネ*、*あかいかけら* が隠されています。*しんかいのキバ* も手に入ります。下部の窪みの扉に入りましょう。
 
 !enc(402, nil, nil, "Celestinine & Ametrine Mountains Underwater (B2F Only)")
 
-In this large room you can get an *Exp. Candy XL* and the *Snorlium-Z* as well as a hidden *Green Shard*, *Water Stone*, and *Super Potion*. Also, specifically on Friday, you can find a **Lapras** roaming around this room!
+この広い部屋では *けいけんアメXL* と *カビゴンZ*、隠された *みどりのかけら*、*みずのいし*、*いいキズぐすり* が手に入ります。また金曜日に限り、この部屋を **ラプラス** が徘徊しています。
 
-Enter the hidden alcove door in the lower left side. In the next room you can find a hidden *Green Shard* and *Link Stone*, as well as the *Abomasite*!
+左下側の隠し窪みの扉に入ります。次の部屋では隠された *みどりのかけら* と *リンクストーン*、そして *ユキノオナイト* が手に入ります。
 
-With that, backtrack all the way to Ametrine Mountain 1F where we pushed the boulder earlier - using an Escape Rope or Dig may be faster here. In any case, make your way back to the water and ride down some waterfalls until you reach Celestinine Mountain 1F.
+これが済んだら、先ほど岩を押したアメトリン山1階までずっと戻ります。*あなぬけのヒモ* か *あなをほる* を使うほうが速いかもしれません。いずれにせよ水辺まで戻り、滝をいくつか下ってセレスティナイン山1階まで進んでください。
 
-From here, go down the waterfall in the bottom right to reach B1F. At the split, go up and grab the hidden *Repel* then dive down.
+ここから右下の滝を下って地下1階へ。分岐では上へ進んで隠された *むしよけスプレー* を拾い、潜ります。
 
-Underwater, pick up a hidden *Ultra Ball*, *Exp. Candy XL*, *Iron*, and *Clever Wing*. Surface in the bottom left corner and cross the ice to get *TM47 Low Sweep*, then backtrack to the B1F fork.
+水中では隠された *ハイパーボール*、*けいけんアメXL*、*ブロムヘキシン*、*せいしんのハネ* を拾います。左下の隅で浮上して氷を渡ると *わざマシン47 ローキック* が手に入るので、地下1階の分岐まで戻ってください。
 
-Go down this time. Pick up a hidden *PP Up* by going up and left, then surf down the waterfall at the bottom. In the right corner you can get a *Potion*, but unfortunately that's all we can do here without Rock Climb.
+今度は下へ進みます。上そして左へ進んで隠された *ポイントアップ* を拾い、下部の滝をなみのりで下ります。右の隅では *キズぐすり* が手に入りますが、残念ながら *ロッククライム* がないとここでできるのはそこまでです。
 
-Backtrack to Celestinine Mountain 1F, then go up the ladder in the upper right side to return to 2F. Follow the path left and  dive down at the crescent shaped spot and surface at the spot in the upper right side. Climb the waterfall here to reach 3F.
+セレスティナイン山1階まで戻り、右上のはしごを上って2階へ。道を左へたどり、三日月形のスポットで潜って右上のスポットで浮上します。ここの滝を登ると3階に着きます。
 
-On this floor, you'll need to push boulders into the dead ends in order to skate around the entire area. Make sure you're not pushing them into the path - always choose the dead end, and you'll figure this one out. You'll find a hidden *Aspear Berry* within, and a *Exp. Candy L* and hidden *Nugget* in the top left corner. Climb the waterfall to 4F.
+この階では、エリア全体を滑って回れるように、岩を行き止まりへ押し込む必要があります。道の側へ押さないよう注意し、必ず行き止まりを選んでください。それが分かれば解けます。中では隠された *ナナシのみ* が、左上の隅では *けいけんアメL* と隠された *きんのたま* が手に入ります。滝を登って4階へ。
 
 !enc(396, ["Fishing"], ["Old", "Good"], "Celestinine Mountain 4F")
 
-We can fish up an ugly fish on this floor! This room contains a hidden *Flying Gem* and *Green Shard* as well as *TM03 Psyshock*, a *Dragon Scale*, *Timid Mint*, *Water Memory*, and *Exp. Candy XL*.
+この階では不細工な魚が釣れます。この部屋には隠された *ひこうのジュエル* と *みどりのかけら* のほか、*わざマシン03 サイコショック*、*りゅうのウロコ*、*おくびょうミント*、*ウオーターメモリ*、*けいけんアメXL* があります。
 
-Backtrack all the way to Celestinine 1F. Go left across the ice to enter Citrine Mountain 1F. Surf straight down, ride down the small waterfall, and pick up a hidden *Green Shard*, *Shoal Salt*, and *PokeSnax*. Push the nearby boulder to the left, then go up the waterfall and cross the now open ice patch.
+セレスティナイン1階までずっと戻ります。氷を渡って左へ進むとシトリン山1階に入れます。まっすぐ下へなみのりし、小さな滝を下って、隠された *みどりのかけら*、*あさせのしお*、*ポケスナック* を拾ってください。近くの岩を左へ押し、滝を登って、開いた氷の区画を渡ります。
 
-With the Silver Ring in hand, we can catch Corey's **Skuntank** here! Behind it, pick up the *Silver Card*.
+*ぎんのゆびわ* があれば、ここでコーリーの **スカタンク** を捕まえられます。その奥では *シルバーカード* が手に入ります。
 
-Make your way to Citrine Mountain 2F by climbing the ladder in the top left corner, and climb the waterfall. Pick up the *Prism Scale* and hidden *Common Candy*. Climb the waterfall at the top to reach 3F. Here, you'll find 3 *Exp. Candy XL*, *Amplifield Rock*, *Grass Memory*, *TM74 Gyro Ball*, hidden *Super Repel*, *Great Ball*, *Guard Spec.* and *Shoal Salt*. Oh, and you can get Corey's **Mareanie** here!
+左上の隅のはしごを上ってシトリン山2階へ向かい、滝を登ります。*きれいなウロコ* と隠された *ふつうのアメ* を拾ってください。最上部の滝を登ると3階です。ここでは *けいけんアメXL* 3個、*アンプリフィールドロック*、*グラスメモリ*、*わざマシン74 ジャイロボール*、隠された *シルバースプレー*、*スーパーボール*、*エフェクトガード*、*あさせのしお* が手に入ります。それと、コーリーの **ヒドイデ** もここで入手できます。
 
-That wraps up our massive collection effort in the mountain complex. Return to Celestinine Cascade and head down the waterfall when you're ready.
+これで三山地帯の大がかりな回収は完了です。セレスティナイン滝へ戻り、準備ができたら滝を下ってください。
 
-## Water Treatment Center
+## 浄水センター {#water-treatment-center}
 
-Talk to Titania here, then enter the North Obsidia Water Grid at the bottom.
+ここでティタニアに話しかけ、下部から北オブシディア水路網へ入ります。
 
 !enc(467, nil, ["Old", "Good"])
 
-In this area, we can hop across piles of trash if they're 2 spaces away. Make your way to the machine to the left - this is a water level machine. Pressing it will lower the water, letting us move trash around and progress. For now, lower the water and make your way to the right. In the very bottom right corner, in the mud behind a girder, you'll find the *Murkwater Surface Field Readout* hidden behind a pillar. Go up and right to enter the Central Obsidia Water Grid.
+このエリアでは、2マス離れていればゴミの山を飛び移れます。左の機械まで進んでください。これは水位を操作する機械です。押すと水位が下がり、ゴミを動かして先へ進めるようになります。ひとまず水位を下げて右へ進みます。右下の隅、鉄骨の裏の泥の中で、柱の陰に *濁った水面フィールドの資料* が隠れています。上そして右へ進むと中央オブシディア水路網に入れます。
 
-Talk to Titania then hop down. If you go left, you can use a panel to open a shortcut.
+ティタニアに話しかけて飛び降ります。左へ行くとパネルで近道を開けられます。
 
-Talk to Titania a few times in the center if you want.
+必要なら中央でティタニアに何度か話しかけてください。
 
-**Relationship Point Choices**:
-- Give Titania some candy when she says she is hungry (+1 Titania)
+**好感度の選択肢**:
+- 空腹だと言うティタニアにお菓子を渡す (+1 ティタニア)
 
-Lower the water level, then head down into the mud at the top. Push each of the trash to the right such that you'll be able to hop across them into the upper right area once the water level rises again. Importantly, keep in mind that when the water level rises, the trash will end up one tile higher than they appear to be on when the water level is lowered. Here, the solution is just to push them each right four tiles. Raise the water level when you're done and hop across. Use a panel to make a shortcut and enter the Onyx Water Grid on the right.
+水位を下げ、上部の泥へ下ります。水位を戻したときに飛び移って右上のエリアへ行けるよう、ゴミをそれぞれ右へ押してください。重要な点として、水位が上がるとゴミは、水位を下げた状態で見えていた位置より1マス高い場所に来ます。ここでの正解は、それぞれ右へ4マス押すことです。済んだら水位を上げて飛び移ります。パネルで近道を作り、右のオニキス水路網へ入ってください。
 
-In this next room, Titania will be stranded on an island and the water level will be lowered. Push the trash into a position such that Titania will be able to jump across it to the right, then make your way up and to the right.
+次の部屋では、ティタニアが島に取り残され、水位が下がった状態になっています。ティタニアが右へ飛び移れる位置にゴミを押し、上そして右へ進みます。
 
 !battle(["Kaiden", :NWCultist, 0], "Factory Field")
 
-Raise the water. Once Titania clears the way, lower the water once more and go down into the Coral Water Grid.
+水位を上げます。ティタニアが道を開けたら、もう一度水位を下げてコーラル水路網へ下ります。
 
 !partner(["Titania", :TITANIA, 0])
 
 !dbattle(["Angela", :NWCultistF, 0], ["Wes", :NWCultist, 0], "Factory Field")
 
-From here, go up and head down into the mud. Push the garbage above Titania so she can hop across, then go to the platform in the top left.
+ここから上へ進み、泥へ下ります。ティタニアが飛び移れるよう彼女の上のゴミを押し、左上の足場へ向かってください。
 
 !battle(["Gretchen", :MeteorDame, 2], "Factory Field")
 
-Raise the water, watch Titania move into a new spot, then lower the water and move the trash to help her go down. Raise the water. Once Titania opens the way, lower the water and go down and left to cross back into the Central Obsidia Water Grid.
+水位を上げ、ティタニアが新しい位置へ移るのを見届けたら、水位を下げてゴミを動かし、彼女が下りられるようにします。水位を上げます。ティタニアが道を開けたら水位を下げ、下そして左へ進んで中央オブシディア水路網へ戻ります。
 
-Open the gate here. Lower the water level at the center and return to the bottom right corner, going down the stairs and following the path. Push the garbage into place so you can hop across, then raise the water and hop across. Use the panel up here, then lower the water level once more, then enter the door at the bottom left side to enter the Opal Water Grid.
+ここの門を開けます。中央で水位を下げ、右下の隅へ戻り、階段を下りて道をたどってください。飛び移れる位置にゴミを押し、水位を上げて渡ります。ここでパネルを使い、もう一度水位を下げてから、左下の扉に入るとオパール水路網です。
 
-Proceed to the left to enter the Peridot Water Grid. Use the panel here, then lower the water level to the left. Return to Opal Water Grid, go up into the North Obsidia Water Grid, and lower the water level if it is not down already. Move the two piles of trash from their current locations to the left side of the machine so that you can hop to the door at the left. Raise the water level and enter the Peridot Water Grid at this entrance.
+左へ進むとペリドット水路網に入れます。ここでパネルを使い、左の水位を下げます。オパール水路網へ戻り、上へ進んで北オブシディア水路網へ入り、まだ下げていなければ水位を下げてください。ゴミの山2つを現在地から機械の左側へ移動させ、左の扉へ飛び移れるようにします。水位を上げて、この入口からペリドット水路網へ入りましょう。
 
-Exit out of the door at the top right. Enter the next door and go up to get a *Hyper Potion*. Go back down and left into the Peridot Water Grid. You'll be able to hop across some trash here to get a *Quick Ball* and the *PULSE Readout 3*. You can also talk to the shutter here to open a door at the top of this room.
+右上の扉から出ます。次の扉に入って上へ進むと *すごいキズぐすり* が手に入ります。下って左へ進み、ペリドット水路網へ。ここではゴミを飛び移って *クイックボール* と *パルスの資料3* を回収できます。ここのシャッターに話しかけると、この部屋の上部の扉が開きます。
 
-Enter this new room in the top right corner, and grab a hidden *Cell Battery*. In the top right is an *Electirizer*. Exit and re-enter, and now there will be an Electrode in the corner. Battle it and transform the Short-Circuit Field into Factory Field. Talk to the nearby machine to get **Fennekin**!
+右上の隅の新しい部屋に入り、隠された *じゅうでんち* を拾います。右上には *エレキブースター* があります。一度出て入り直すと、隅に **マルマイン** が現れます。これと戦って *ショートフィールド* を *工場フィールド* に変えてください。近くの機械に話しかけると **フォッコ** が手に入ります。
 
-**Relationship Point Choices**:
-- Read the note that comes with Fennekin (+1 Ace)
+**好感度の選択肢**:
+- フォッコに添えられた手紙を読む (+1 エース)
 
-Return to the previous room. Enter the Lapis Water Grid via the door to the left, then head up the left side.
+ひとつ前の部屋に戻ります。左の扉からラピス水路網へ入り、左側を上へ進んでください。
 
 !battle(["Ezra", :NWCultist, 0], "Factory Field")
 
-Make your way to the water machine and go down the stairs directly below you to the mud. If you sneak past the trash to the bottom left you can get a *Smoke Ball*. Next, push the four rightmost trash to be all in a line, separated by two between each and such that the middle two surround the white pipe.
+水位の機械まで進み、真下の階段から泥へ下ります。左下のゴミの脇を抜けると *けむりだま* が手に入ります。次に、右寄りのゴミ4つを一列に並べ、それぞれ2マスずつ空けて、中央の2つが白いパイプを挟むようにしてください。
 
 !img("wtc001.png")
 
-Raise the water level, and you should now be able to hop across them altogether. Head to the top right corner.
+水位を上げると、これらをまとめて飛び移れるようになります。右上の隅へ向かいましょう。
 
 !battle(["Arcturus", :NWCultist, 0], "Factory Field")
 
-Unlock the shutter, lower the water, and grab the *Beryl Grid Key*.
+シャッターを開け、水位を下げて *ベリルはいでんもうのカギ* を回収します。
 
-Return to the Peridot Grid and cross the mud. On the bottom left side of the map, you'll stairs leading onto the mud, which eventually lead you to a hidden *Black Sludge*. Cross to the left into the Jasper Water Grid.
+ペリドット水路網へ戻り、泥を渡ります。マップ左下側には泥へ下りる階段があり、たどると隠された *くろいヘドロ* が手に入ります。左へ渡ってジャスパー水路網へ入ってください。
 
-Head left, then follow the path when the water is lowered. Go down onto the bottom section of the mud and go left to get a hidden *Full Heal*. Back on the land, go left. Titania will join you once again if you fed her earlier, otherwise you'll do this fight alone.
+左へ進み、水位が下がったら道をたどります。泥の下段へ下りて左へ進むと、隠された *なんでもなおし* が手に入ります。陸に戻って左へ。先ほどお菓子を渡していればティタニアがまた同行し、渡していなければこの戦いは単独になります。
 
 !dbattle(["Ichorus", :NWCultist, 0], ["Lyla", :NWCultistF, 0], "Factory Field")
 
-Proceed into the door to the Beryl Water Grid at the top with your key. Go to the right, and Titania will get trapped. Head left and go down the stairs. Move the two trashes such that you can hop across up and right. Titania will help us out by raising and lowering the water level as we go, so don't worry. In the next area, push the garbage such that you can go across to the left.
+カギを使って上部のベリル水路網への扉に入ります。右へ進むとティタニアが閉じ込められます。左へ進んで階段を下り、上そして右へ飛び移れるようゴミを2つ動かしてください。以降はティタニアが進行に合わせて水位を上げ下げしてくれるので、心配は要りません。次のエリアでは、左へ渡れるようゴミを押します。
 
-Go down from here and follow the path through some rooms to the right, opening shutters for shortcuts as you go.
+ここから下へ進み、いくつかの部屋を右へたどりながら、近道用のシャッターを開けていきます。
 
 !battle(["Stopple", :SWALOT, 0], "Murkwater Field")
 
-PULSE Swalot is slow but extremely bulky, and also has not 1, not 2, but 3 separate ways to heal - Recover, Black Sludge, and healing via its ability on the field. It also is Poison type, so you can't use Toxic and wait like you could with Avalugg. It also hits respectably hard, and thanks to Discharge paralysis and Infestation flat damage, so you're likely going to have a hard time trying to get your own tank set up against it.
+PULSE **マルノーム** は鈍足ですが極めて硬く、しかも回復手段を1つでも2つでもなく**3つ**持ちます。*じこさいせい*、*くろいヘドロ*、そしてフィールド上での特性による回復です。どくタイプなので、クレベースのときのように *どくどく* を入れて待つ手も使えません。火力もそれなりにあり、*ほうでん* のまひと *まとわりつく* の固定ダメージがあるため、こちらが受けを固めるのも難しいでしょう。
 
-I recommend trying to neutralize its healing - Knock Off or Trick with a Sticky Barb, Gastro Acid or Entrainment, Heal Block or Taunt are all options that can successfully prevent it from getting HP back. Then, you can exploit the fact that Electric moves are boosted on this field to finally knock it out!
+まずは回復を封じることをおすすめします。*くっつきバリ* を絡めた *はたきおとす* や *トリック*、*いえき* や *なかまづくり*、*かいふくふうじ* や *ちょうはつ* が、いずれもHPを取り戻させない手段になります。そのうえで、このフィールドででんき技が強化される点を突けば、ついに倒し切れます。
 
-Once you win, the Water Treatment Center's purification mechanisms will get fixed, but we'll need to make the water level in every single room rise to make it clean again. To start, raise the water level nearby! You'll see the room change to blue on the nearby map.
+勝つと浄水センターの浄化機構が復旧しますが、水を綺麗に戻すには全部屋の水位を上げる必要があります。まずは近くで水位を上げてください。近くの地図で、その部屋が青く変わるのが分かります。
 
-Note that the normal water can be surfed on! Head east into the Central Obsidia Grid and fix the water level in here. Note you can surf to the right now to get *TM67 Smart Strike*.
+なお、通常の水面はなみのりで進めます。東の中央オブシディア水路網へ向かい、ここの水位を直してください。ここから右へなみのりすると *わざマシン67 スマートホーン* が手に入ります。
 
-Enter the Coral Water Grid in the bottom right. Fix the water, then enter the Onyx Grid at the top. Fix the water in here, then surf to the top of the room to get *TM93 Wild Charge*. Walk all the way back to the North Obsidia Grid.
+右下のコーラル水路網に入ります。水位を直したら上部のオニキス水路網へ。ここの水位を直し、部屋の最上部までなみのりすると *わざマシン93 ワイルドボルト* が手に入ります。歩いて北オブシディア水路網まで戻ってください。
 
-Fix the water here, head left into the Peridot Water Grid, and raise the water level once more. Head up into the Lapis Grid and fix the water. Fix the Jasper Grid's water, grab the *Scope Lens*, and finally return to the Beryl grid. Talk to Titania in the upper right corner. Surf to the top left corner of the room and proceed through all the barriers, then free Titania below. Use the Light Shard and go in.
+ここの水位を直し、左のペリドット水路網へ進んでもう一度水位を上げます。上のラピス水路網へ進んで水位を直し、ジャスパー水路網の水位も直して *ピントレンズ* を回収したら、最後にベリル水路網へ戻ります。右上の隅のティタニアに話しかけてください。部屋の左上の隅までなみのりし、障壁をすべて抜けて、下のティタニアを解放します。*光のかけら* を使って中へ入りましょう。
 
-You'll have a decision to make.
+ここで選択を迫られます。
 
-**In order to access the exclusive postgame route, you need to NOT battle Taka.**
+**限定ルートに入るには、タカと戦わないことを選ぶ必要があります。**
 
-All of the other choices we've made so far actually pale in comparison to the butterfly effect that comes following this choice. For reasons that will become clearer later on, the results of choosing to fight Taka are called the *Zekrom Route* and the results of choosing to not fight Taka are called the *Reshiram Route* by the community. This guide will also use these conventions.
+ここまでの選択はどれも、この選択が生む波及効果には及びません。理由は後々はっきりしますが、タカと戦うことを選んだ結果を *ゼクロムルート*、戦わないことを選んだ結果を *レシラムルート* とコミュニティでは呼んでいます。この攻略でもこの呼び方に従います。
 
-**Relationship Point Choices**:
-- Fight Taka (+2 Taka, +1 Ace, -1 Titania)
-- Don't Fight Taka (+1 Anna, +1 Shade, -1 Ace, -2 Taka)
+**好感度の選択肢**:
+- タカと戦う (+2 タカ、+1 エース、-1 ティタニア)
+- タカと戦わない (+1 アンナ、+1 シェイド、-1 エース、-2 タカ)
 
-If you chose to fight Taka and enter the Zekrom Route:
+タカと戦うことを選び、ゼクロムルートに入った場合:
 
 !battle(["Taka", :Taka, 3], "Factory Field")
 
-Time for another fight with Taka, but he doesn't have a particularly tough team this time. If you have something to deal with his lead, an Ice type or two can basically steamroll his team.
+タカとの再戦ですが、今回はさほど厳しい編成ではありません。先発に対処できる駒があれば、こおりタイプが1〜2匹いるだけで編成をほぼ薙ぎ払えます。
 
-Regardless of your route you'll have to fight Ace.
+どちらのルートでも、エースとは戦うことになります。
 
 !battle(["Ace of Spades", :ACESPADES, 0], "Factory Field")
 
-Time for another fight with Ace. This time they use a field that's fairly well designed for the Factory and Short-Circuit fields, thanks to multiple Steel and Electric moves. They also have Roserade, Zoroark, and Delphox to complete the well rounded squad. Flying and Ground moves together hit 5/6 of their Pokemon super-effectively, so if you can manage speed and exploit these weaknesses, you will likely find a way to succeed.
+エースとの再戦です。今回ははがね技とでんき技を複数持ち、*工場フィールド* と *ショートフィールド* に十分適した編成を使ってきます。加えて **ロズレイド**、**ゾロアーク**、**マフォクシー** がバランスの良い布陣を完成させています。ひこう技とじめん技を合わせれば6匹中5匹に抜群を取れるので、素早さを管理しつつこれらの弱点を突けば、道は開けるはずです。
 
-After this fight, return to the front of the Water Treatment Center and climb the waterfall.
+この戦闘のあと、浄水センターの正面へ戻って滝を登ります。
 
-## Fiore Mansion Gauntlet
+## フィオレ屋敷の連戦 {#fiore-mansion-gauntlet}
 
-Make your way towards the Fiore Mansion, and you'll meet up with some old characters and obtain *TMX2 Fly*! About time. Heal and prepare your team and then head in... we have a huge Gauntlet coming up! Thankfully, this one will heal us between each fight.
+フィオレ屋敷へ向かうと、旧知の面々と合流し *ひでんマシン2 そらをとぶ* が手に入ります。待ちかねました。回復して手持ちを整えたら中へ……大規模な連戦が待っています。ありがたいことに、今回は各戦闘の間に回復が入ります。
 
 !partner(["Florinia", :FLORINIA, 1])
 
 !dbattle(["Kenan", :MeteorAceM, 0], ["Diana", :MeteorAceF, 0])
 
-This first fight is a 12v9 against some grunts. Florinia is pretty helpful here, and none of their Pokemon are too strong. It's more of a warmup fight.
+最初の戦闘はしたっぱ相手の12対9です。フロリニアがよく働いてくれますし、相手のポケモンもさほど強くありません。準備運動といったところです。
 
 !dbattle(["Blake", :BLAKE, 1], ["Fern", :Hotshot, 6])
 
-This battle in the gauntlet is a bit harder. Florinia has a lot of good matchups damage-wise against Fern and Blake, you just have to make sure she's able to attack them before they take her out. Since Florinia's team is so slow, I really recommend using Trick Room in this fight. If you can ensure Scizor and Weavile get knocked out, you won't have to worry about priority, so you can generally overrun their teams with strong super-effective moves. You might also want to consider screens to keep your side safe from OHKOs.
+連戦のこの一戦はやや厳しくなります。フロリニアはファーンとブレイクに対してダメージ面で有利な相性を多く持つので、倒される前に攻撃できる状況を作るのが肝心です。フロリニアの編成は非常に鈍足なので、この戦いでは *トリックルーム* を強くおすすめします。**ハッサム** と **マニューラ** を確実に倒せれば先制技を警戒せずに済むので、抜群の強力な技で総じて押し切れます。一撃で落とされないよう、壁を張ることも検討してください。
 
-**Relationship Point Choices**:
-- Florinia joins your team after you did not defeat Solaris on Pyrous (+1 Florinia)
-- Julia joins your team after you did defeat Solaris on Pyrous (+1 Julia, -1 Fern)
+**好感度の選択肢**:
+- パイロスでソラリスを倒していない状態でフロリニアが仲間になる (+1 フロリニア)
+- パイロスでソラリスを倒した状態でジュリアが仲間になる (+1 ジュリア、-1 ファーン)
 
 !partner(["Julia", :JULIA, 1])
 
 !dbattle(["Solaris", :Solaris, 1], ["John", :NWOrderly, 0])
 
-The hardest battle in this gauntlet is the last one. On one hand, Solaris' team basically consists of six classic OU threats. On the other hand, John's team consists of some slower and less powerful Pokemon, but which have wider coverage, a bit higher defensive stats, and some support moves. Nothing on their side is entirely dead weight really, and since you only get to control the actions of one of two of the Pokemon on your side, it is tougher to use doubles strats to gain momentum.
+この連戦で最も厳しいのが最後の一戦です。一方でソラリスの編成は、要するに古典的な強豪6匹です。他方でジョンの編成は、鈍足で火力も控えめながら、攻撃範囲が広く、防御面の数値がやや高く、補助技も備えています。相手側に本当の無駄駒はなく、しかもこちらは2匹のうち1匹の行動しか操作できないため、ダブルの戦術で主導権を取るのが難しくなります。
 
-If you defeated Solaris on Pyrous, you'll have Julia as a partner, who sadly doesn't have a very good time overall against the pair thanks to their numerous Ground and Electric types, though she can help against some of the Flying types. Not to mention her Rotom Fan, who holds an Air Balloon... Otherwise, you'll have Florinia as a partner once more, making Trick Room more potent and allowing her to do a decent amount of the work. With the 12v12 format, things can change dramatically depending on what the pairings happen to be at any given moment, so it may require some luck to have the right one of your partner's Pokemon out at the right time. If you have to quit to change up your team, you'll have to fight the first two trainers again, so keep that in mind.
+パイロスでソラリスを倒していた場合はジュリアが同行者になりますが、相手にじめん・でんきタイプが多いため、残念ながら総じて分が悪い相手です（ひこうタイプ相手には力になります）。*ふうせん* を持たせた **ロトム**（ファン）のこともあります。倒していなかった場合はフロリニアが再び同行者となり、*トリックルーム* の効力が高まって、彼女が相応に働いてくれます。12対12という形式上、そのときどきの組み合わせ次第で状況が大きく変わるので、味方の適切なポケモンが適切なタイミングで場に出るかどうかは運も絡みます。手持ちを変えるために中断した場合、最初の2人とまた戦い直しになる点は覚えておいてください。
 
-After these events finish playing out, head outside of the building and talk to Titania. Return to the circus!
+一連の出来事が終わったら、建物の外へ出てティタニアに話しかけます。サーカスへ戻りましょう。
 
-## Suspension Badge
+## サスペンションバッジ {#suspension-badge}
 
-Talk to Samson. You'll be given the *Battle Pass - Suspension*. Sweet. Save, then talk to Ciel when you're ready for another gym battle!
+サムソンに話しかけます。*バトルパス・サスペンション* がもらえます。ありがたい。セーブして、準備ができたらシエルに話しかけると、またジム戦です。
 
 !battle(["Ciel", :CIEL, 0], "Big Top Arena")
 
-Ciel is the first fight for a badge that repeats a field used by another, but the fight plays out very differently. Many of the strategies I recommended to beat Samson are employed by Ciel against you in this fight. The emphasis is no longer on High Striker moves - Altaria, Minior, and Gliscor have Earthquake, and that's it. Instead, she relies on super-boosted Acrobatics, Revelation Dance, and sound-based moves that dazzle the crowd and gain power. Oh, and she has the first enemy Mega Pokemon we have to face in Mega Altaria.
+シエルは、他のリーダーが使ったフィールドを再利用する初のバッジ戦ですが、戦いの様相はまったく異なります。サムソン攻略で勧めた戦法の多くを、今度はシエルがこちらに向けて使ってきます。重点はもはやハイストライカー技ではありません。**チルタリス**、**メテノ**、**グライオン** が *じしん* を持つ程度です。代わりに、強く強化された *アクロバット* と *めざめるダンス*、そして観客を沸かせて威力が上がる音技を軸にしています。おまけに、初めて相手にするメガシンカ——メガチルタリスも控えています。
 
-Similarly to Samson, you can win by just exploiting this field's many effects. Just as I recommended using Acrobatics and Revelation Dance against Samson, it could be really funny to use your own High Strikin' Pokemon with Smack Down and Earthquake, since her team past Gliscor doesn't have a ton of defense. Nothing on her team resists Acrobatics, so you can beat her with her own strategy. Electric type Revelation Dance can rip through all but Gliscor and Altaria pretty easily if you have an Oricorio yourself. You can also just use Trick Room and a couple slower Ice and Rock types to bowl over her team.
+サムソンと同様、このフィールドの数々の効果を突けば勝てます。サムソンに *アクロバット* と *めざめるダンス* を勧めたのと同じく、こちらも *うちおとす* と *じしん* でハイストライカーを狙うと痛快です。グライオンから先は耐久が高くないからです。相手の編成に *アクロバット* を半減できるものはいないので、彼女の戦法をそのまま返して勝てます。**オドリドリ** がいれば、でんきタイプの *めざめるダンス* でグライオンとチルタリス以外を容易に薙ぎ払えます。あるいは単純に *トリックルーム* と、鈍足のこおり・いわタイプを数匹用意して押し潰す手もあります。
 
-**Relationship Point Choices**:
-- Defeat Ciel on your first try (+2 Samson)
-- Defeat Ciel on your second, third, etc. try (-1 Samson)
+**好感度の選択肢**:
+- 1回目でシエルに勝つ (+2 サムソン)
+- 2回目以降でシエルに勝つ (-1 サムソン)
 
-For winning, you'll get the Suspension Badge, boosting our cap to a whopping Lv. 80! You'll also get *TM62 Acrobatics*. Useful. Most importantly though, we can now Fly, meaning we can once more return to Reborn City.
+勝利すると *サスペンションバッジ* が手に入り、上限が驚異の Lv.80 まで上がります。*わざマシン62 アクロバット* ももらえます。有用です。そして何より、これで *そらをとぶ* が使えるようになり、再びリボーンシティへ戻れるようになります。

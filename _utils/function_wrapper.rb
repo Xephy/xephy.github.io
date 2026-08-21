@@ -80,6 +80,10 @@ class FunctionWrapper
     mining_hash = load_mining_hash(@game, @scriptsDir)
     # Creates nokogiri HTML
     doc = Nokogiri::HTML::Document.new
+    # 生の String を add_child すると Nokogiri は HTML フラグメントとして
+    # 再パースする。文書のエンコーディングが未設定だと UTF-8 の日本語が
+    # Latin-1 として解釈されて文字化けするので、生成時に必ず宣言する。
+    doc.encoding = 'UTF-8'
     div = doc.create_element('div', class: 'mining_table')
     doc.add_child(div)
 
@@ -94,7 +98,7 @@ class FunctionWrapper
     thead.add_child(table_header)
 
     bold = doc.create_element('strong')
-    bold.content = 'Mining Probabilities'
+    bold.content = JaNames.ui('Mining Probabilities')
     table_header.add_child(bold)
     table_header['class'] = 'table-header'
     table_header['style'] = 'text-align: center;'
@@ -115,7 +119,7 @@ class FunctionWrapper
       content_row.add_child(td_price)
     end
 
-    html_output = doc.to_html
+    html_output = doc.to_html(encoding: 'UTF-8')
     html_output.split("\n")[1..].join("\n")
   end
 
@@ -136,6 +140,7 @@ class FunctionWrapper
 
     # Creates nokogiri HTML
     doc = Nokogiri::HTML::Document.new
+    doc.encoding = 'UTF-8'
     div = doc.create_element('div', class: 'mining_table')
     doc.add_child(div)
 
@@ -150,7 +155,7 @@ class FunctionWrapper
     thead.add_child(table_header)
 
     bold = doc.create_element('strong')
-    bold.content = 'Wild Pokemon Held Item Chances'
+    bold.content = JaNames.ui('Wild Pokemon Held Item Chances')
     table_header.add_child(bold)
     table_header['class'] = 'table-header'
     table_header['style'] = 'text-align: center;'
@@ -177,14 +182,14 @@ class FunctionWrapper
           form_1_data = @pokemonHash[pokemon][form_1_key]
           pokemon_name = "#{@pokemonHash[pokemon][form_1_key][:name]}"
           if form == 'Alolan Form'
-            "#{pokemon_name} (#{form})"
+            "#{pokemon_name} (#{JaNames.tr('form_names', form)})"
           else
             pokemon_name.to_s
           end
         end.join(', ')
 
         # Concatenate the rarity and Pokemon string
-        result << "- #{rarity.capitalize} (#{{ 'common' => 50, 'uncommon' => 5,
+        result << "- #{JaNames.ui(rarity.capitalize)} (#{{ 'common' => 50, 'uncommon' => 5,
                                                'rare' => 1 }[rarity]}%): #{pokemon_string}\n"
       end
       result = result.chomp
@@ -203,7 +208,7 @@ class FunctionWrapper
       content_row.add_child(td_price)
     end
 
-    html_output = doc.to_html
+    html_output = doc.to_html(encoding: 'UTF-8')
     html_output.split("\n")[1..].join("\n")
   end
 
@@ -211,6 +216,7 @@ class FunctionWrapper
     pickup_data = load_pickup_data(@game, @scriptsDir)
   
     doc = Nokogiri::HTML::Document.new
+    doc.encoding = 'UTF-8'
     div = doc.create_element('div', class: 'pickup_table')
     doc.add_child(div)
   
@@ -226,7 +232,7 @@ class FunctionWrapper
   
     # Single header for Pickup Odds
     table_header = doc.create_element('th', colspan: 2)
-    table_header.add_child(doc.create_element('strong', 'Pickup Odds'))
+    table_header.add_child(doc.create_element('strong', JaNames.ui('Pickup Odds')))
     table_header['class'] = 'table-header'
     table_header['style'] = 'text-align: center;'
     header_row.add_child(table_header)
@@ -257,7 +263,7 @@ class FunctionWrapper
       content_row.add_child(td_odds)
     end
   
-    html_output = doc.to_html
+    html_output = doc.to_html(encoding: 'UTF-8')
     html_output.split("\n")[1..].join("\n")  # Format output similar to your example
   end
   
@@ -341,6 +347,7 @@ class FunctionWrapper
   def generate_tutor_markdown(tutor_title, moves)
     # Creates nokogiri HTML
     doc = Nokogiri::HTML::Document.new
+    doc.encoding = 'UTF-8'
     div = doc.create_element('div', class: 'tutor_table')
     doc.add_child(div)
 
@@ -355,7 +362,7 @@ class FunctionWrapper
     thead.add_child(table_header)
 
     bold = doc.create_element('strong')
-    bold.content = tutor_title
+    bold.content = JaNames.shop(tutor_title)
     table_header.add_child(bold)
     table_header['class'] = 'table-header'
     table_header['style'] = 'text-align: center;'
@@ -366,17 +373,17 @@ class FunctionWrapper
 
       # Column 1: Move Name (bolded)
       td_move = doc.create_element('td', style: 'text-align: center')
-      td_move.add_child(doc.create_element('strong', content = move))
+      td_move.add_child(doc.create_element('strong', content = JaNames.tr('moves', move)))
       content_row.add_child(td_move)
 
       # Column 2: Price
-      price = "$#{price}" if price.is_a?(Integer)
+      price = price.is_a?(Integer) ? "$#{price}" : JaNames.shard_cost(price)
       td_price = doc.create_element('td', style: 'text-align: center')
       td_price.content = price
       content_row.add_child(td_price)
     end
 
-    html_output = doc.to_html
+    html_output = doc.to_html(encoding: 'UTF-8')
     html_output.split("\n")[1..].join("\n")
   end
 
@@ -387,6 +394,7 @@ class FunctionWrapper
 
       # Create a Nokogiri document
       doc = Nokogiri::HTML::Document.new
+      doc.encoding = 'UTF-8'
       div = doc.create_element('div', class: 'den_table')
       doc.add_child(div)
     
@@ -404,7 +412,7 @@ class FunctionWrapper
       thead_row = doc.create_element('tr')
 
       # Add table headers for Pokemon, Shadow Moves, Stat Details, and %
-      ['Pokemon', 'Shadow Moves', 'Stat Details', 'Rate'].each do |col|
+      ['Pokemon', 'Shadow Moves', 'Stat Details', 'Rate'].map { |c| JaNames.ui(c) }.each do |col|
         th = doc.create_element('th', col)
         th['style'] = 'text-align: center; vertical-align: middle;'
         thead_row.add_child(th)
@@ -413,7 +421,7 @@ class FunctionWrapper
       thead.add_child(thead_row)  # Add the header row to thead
     
       bold = doc.create_element('strong')
-      bold.content = "Encounters: Den \##{den_num} (#{num_badges} Badges): #{rarity.to_s.capitalize}"
+      bold.content = "#{JaNames.ui('Encounters:')} Den \##{den_num} (#{num_badges} #{JaNames.ui('Badges')}): #{JaNames.ui(rarity.to_s.capitalize)}"
       table_header.add_child(bold)
       table_header['class'] = 'table-header'
       table_header['style'] = 'text-align: center;'
@@ -434,14 +442,14 @@ class FunctionWrapper
 
         if atts[:Form] != 0
           form_key = @pokemonHash[pokemon_lookup_key].keys.find_all { |key| key.is_a?(String) }[atts[:Form]]
-          pokemon_name_formatted += " (#{form_key})".sub(' Form', '')
+          pokemon_name_formatted += " (#{JaNames.tr('form_names', form_key)})".sub(' Form', '')
         end
-        pokemon_name_formatted = "Shadow #{pokemon_name_formatted}"
+        pokemon_name_formatted = "#{JaNames.ui('Shadow ')}#{pokemon_name_formatted}"
 
         # Column 1: Pokémon Name & Details
         td_pokemon = doc.create_element('td')
         td_pokemon.add_child(doc.create_element('strong', pokemon_name_formatted))
-        mon_details_parts = [", Lv. #{atts[:level]}"]
+        mon_details_parts = [", #{JaNames.ui('Lv.')} #{atts[:level]}"]
         if atts[:Ability] 
           mon_details_parts.push("Ability: #{atts[:Ability]}")
         end
@@ -483,7 +491,7 @@ class FunctionWrapper
       end
     
       # Convert to HTML and format
-      html_output = doc.to_html
+      html_output = doc.to_html(encoding: 'UTF-8')
       res.push(html_output.split("\n")[1..].join("\n"))
     end
     res = res.join("\n\n")

@@ -1,122 +1,122 @@
-# Postgame Episode 2: Fetch, Doggy!
+# ポストゲーム エピソード2: 取ってこい、ワンちゃん! {#postgame-episode-2}
 
-Time for some more legendary quests. Note that your level cap has silently gone up to Lv. 110. Note that within each section, these quests can be done in any order, so feel free to bounce around if you'd like.
+さらに伝説クエストの時間です。なお、レベル上限が密かに110へ上がっています。また、各節の中ではこれらのクエストを好きな順で進められるので、自由に行き来して構いません。
 
-## Fetching the Legendary Birds
+## 伝説の鳥ポケモンを回収 {#fetching-the-legendary-birds}
 
-Talk to Cass behind the counter once more. She'll tell us about three birds that we have to find in thematically-relevant locations. Hmm...
+カウンターの奥のキャスにもう一度話しかけます。テーマに合った場所で見つかる3匹の鳥について教えてくれます。ふむ……
 
-Fly over to Ametrine City, then climb the mountain. Where we once fought Blake, you can fight and catch **Articuno**.
+アメトリンシティへ飛び、山を登ります。かつてブレイクと戦った場所で、**フリーザー** と戦って捕まえられます。
 
-Fly over to Beryl Ward, and go across the bridge to the east. In the factory where Shade once was, we can catch **Zapdos**.
+ベリル区へ飛び、橋を渡って東へ進みます。かつてシェイドがいた工場で、**サンダー** を捕まえられます。
 
-Finally, fly over to Apophyll Academy, and climb Pyrous Mountain. At the top of the volcano is **Moltres**.
+最後にアポフィルアカデミーへ飛び、パイロス山を登ります。火山の頂上に **ファイヤー** がいます。
 
-As of Gen VII, 9.6% of all Pokemon were legendaries... too many, perhaps, GF? Anyways, that's why not every quest could realistically be a huge affair. There are fantastic quests are still to come.
+第7世代の時点で、全ポケモンの9.6%が伝説でした……いくらなんでも多すぎませんか、GF? ともあれ、だからこそ全部のクエストを大がかりにするのは現実的でなかったわけです。素晴らしいクエストはこの先にちゃんと控えています。
 
-Return to the Nightclub. If you want, get Articuno out of the PC and talk to Lumi a few times.
+ナイトクラブへ戻ります。よければパソコンからフリーザーを引き出し、ルミに数回話しかけてください。
 
-**Relationship Point Choices**:
-- Show Lumi your Articuno (+1 Lumi)
+**好感度の選択肢**:
+- ルミにフリーザーを見せる (+1 ルミ)
 
-## Fetching the Lake Spirits
+## 湖の精霊を回収 {#fetching-the-lake-spirits}
 
-Back in the Nightclub, talk to Seacrest. He will tell us that the Lake Spirits, fittingly, can be found in and around the lake.
+ナイトクラブに戻り、シークレストに話しかけます。湖の精霊は、それにふさわしく湖とその周辺で見つかると教えてくれます。
 
-Fly to Coral Ward, then go west. Head left at the fork, then follow the rocks along the bottom left and down until you reach a sandbank - inside is the *Fairview Apartments*. Go right, dive down, go up, then surface. You'll find **Azelf** chilling at the top.
+コーラル区へ飛び、西へ進みます。分岐では左へ進み、左下の岩沿いに下って砂州にたどり着きます。その中が *フェアビュー集合住宅* です。右へ進んで潜り、上へ行って浮上します。上部で **アグノム** がくつろいでいます。
 
-From here, retrace your steps until you reach the sandbar. From here, go straight up and hug the left wall until you reach another sandbar, then go left towards the *Sunrise Apartments*. Dive down here, go up, surface, go up and left, cross the sand, and dive down once more. You'll find **Uxie** in the top right corner.
+そこから、砂州に着くまで来た道を引き返します。そこからまっすぐ上へ進み、左の壁沿いに進んで別の砂州に着いたら、左の *サンライズ集合住宅* へ向かいます。ここで潜り、上へ行って浮上し、上そして左へ進み、砂地を渡ってもう一度潜ります。右上の隅に **ユクシー** がいます。
 
-Surface, and fly to Apophyll Academy. From here, follow the path up towards the Apophyll Cave, surfing up and following the small path right towards the dive spot and *Kingsbury Apartments*. Dive down. A bit down and right from the top left corner is a small 2x2 spot to surface - do so here. Enter Apophyll Cave. You'll need to freeze the water here in a battle by using Blizzard or Subzero Slammer. Enter the cave up and to the left to find **Mesprit**!
+浮上して、アポフィルアカデミーへ飛びます。そこからアポフィルどうくつへ向かって道を進み、なみのりで上へ、細い道を右へたどってダイビング地点と *キングスベリー集合住宅* へ向かいます。ここで潜ります。左上の隅からやや下そして右に、浮上できる2×2の小さな地点があるので、そこで浮上してください。アポフィルどうくつに入ります。ここではバトル中に *ふぶき* か *ジオフリーズ* を使って水を凍らせる必要があります。上そして左の洞窟に入ると **エムリット** が見つかります!
 
-## Route 1 New World
+## 1番道路の新世界 {#route-1-new-world}
 
-Head back to the Nightclub. Talk to Randall this time and get the quest to visit Route 1 next.
+ナイトクラブへ戻ります。今度はランドールに話しかけ、次は1番道路を訪ねるクエストを受けます。
 
-Fly over to the Route 1 Nature Center, and talk to Sandy outside. We are looking for three anomalies. The first is actually on the roof of this building, so climb the stairs inside and enter.
+1番道路のネイチャーセンターへ飛び、外のサンディに話しかけます。探すのはアノマリー3体です。1体目は実はこの建物の屋上にいるので、中の階段を上がって入ってください。
 
 !enc(833, nil, nil, "New World (Route 1 West)")
 
-Only Unown in Entei's realm? Sounds like a Pokemon Third Movie reference! Anyways, follow the path here.
+エンテイの領域にアンノーンだけ? ポケモン映画第3作への言及ですね! ともあれ、ここの道をたどります。
 
 !battle(["Entei", :ENTEI, 0], "New World")
 
-Another 8-turn Trick Room oriented New World team. This time Aromatisse has a Sash, so OHKO'ing it is not an option. Thankfully, it is the only Trick Room user. Ursaring, Primarina, and especially Mega Camerupt are extremely strong under the Trick Room, so stalling it out may be ideal. Entei is last and is actually fast, so watch out for that. Speedy power should be able to take care of the majority of the team after Trick Room, then a bulky Rock/Ground type can handle Entei.
+またも8ターンの *トリックルーム* を軸にした新世界の編成です。今回はフレフワンがタスキを持っているので、一撃で倒すという手は使えません。ありがたいことに、*トリックルーム* を使うのはこの1匹だけです。リングマ、アシレーヌ、そしてとりわけメガバクーダは *トリックルーム* 下で極めて強力なので、ターンを稼いで切らすのが理想でしょう。エンテイは最後に出てきますが、実は速いので注意してください。*トリックルーム* が切れたあとは、素早く高火力のポケモンで大半を片付けられるはずなので、あとは硬いいわ・じめんタイプでエンテイを受ければ大丈夫です。
 
-You can catch **Entei** afterwards.
+そのあと **エンテイ** を捕まえられます。
 
-Return to Route 1, and take a Tauros to the east. If you haven't solved the [South Aventurine Woods](#south-aventurine-woods-exploration) puzzles... you'll have to now. 
+1番道路へ戻り、ケンタロスに乗って東へ向かいます。[南アベンチュリンの森](/reborn/episode-10/#south-aventurine-woods-exploration)のパズルをまだ解いていなければ、ここで解く必要があります。
 
 !img("route1_7.png")
 
-Anyways, use a Tauros to follow the long path (beginning in "3S" and going east) in South Aventurine Woods to the southeast, where you'll find a New World Door.
+ともあれ、ケンタロスで南アベンチュリンの森の長い道（「3S」から始まり東へ続く道）を南東までたどると、新世界の扉があります。
 
 !enc(834, ["Surfing", "Fishing"], nil, "New World (Route 1 South)")
 
-Surf up. While you're going up, hug the right wall. You'll get a *Max Revive* and find:
+なみのりで上へ進みます。上りながら右の壁沿いを進むと、*げんきのかたまり* が手に入り、さらに次が見つかります。
 
-**ZCell 01: New World (Route 2 South)**
+**Zセル01: 新世界（2番道路 南）**
 
 !img("zcell_01.jpg")
 
-Head left and up for another Anomaly battle.
+左そして上へ進むと、また別のアノマリー戦です。
 
 !battle(["Suicune", :SUICUNE, 0], "Water Surface")
 
-Don't worry: not all Anomalies will be on New World. Not that that makes this fight any better. All six Pokemon have Elemental Seeds, granting SpD and Aqua Ring. The team is particularly bulky, sporting all kinds of Def/SpD boosting moves, healing moves, Toxic, etc. Goodra serves as a blocker to Electric and Grass moves, too. If you are able to turn the field to Murkwater, they can't change it back, meaning all their Elemental Seeds will now Poison them, making their stall strategies much less effective. You can also use a set-up sweeper of some kind that uses Water type's weaknesses, as long as you have a strategy for Ludicolo and Goodra.
+ご安心を。アノマリーが全部新世界で戦うわけではありません。もっとも、それでこの戦いが楽になるわけでもありませんが。6匹全員が *エレメンタルシード* を持ち、特防上昇と *アクアリング* を得ます。編成は非常に硬く、あらゆる防御・特防上昇技、回復技、*どくどく* などを備えています。ヌメルゴンはでんき技とくさ技への受けも務めます。フィールドを濁った水面に変えられれば、相手はそれを戻せないので、*エレメンタルシード* が今度は相手を毒にし、耐久戦術の効果が大幅に落ちます。あるいは、ルンパッパとヌメルゴンへの対策さえあれば、みずタイプの弱点を突く積みエースを使うのも有効です。
 
-Once you win, you'll be able to battle and catch **Suicune**. Return to Route 1. 
+勝つと **スイクン** と戦って捕まえられます。1番道路へ戻りましょう。
 
-If you haven't done [North Aventurine Woods](#north-aventurine-woods-exploration) puzzles, you'll need to now. 
+[北アベンチュリンの森](/reborn/episode-10/#north-aventurine-woods-exploration)のパズルをまだ解いていなければ、ここで解く必要があります。
 
 !img("route1_8.png")
 
-Towards the east side of Route 1, grab a Tauros and enter the fourth entrance (4N) to North Aventurine Woods. There's a ledge right and up you can climb to reach a New World Door.
+1番道路の東寄りでケンタロスに乗り、北アベンチュリンの森の4番目の入口（4N）に入ります。右そして上に登れる段差があり、その先に新世界の扉があります。
 
 !enc(834, ["Grass"], nil, "New World (Route 1 North)")
 
-As you climb the stairs, hug the left wall and follow the path.
+階段を上りながら左の壁沿いに進み、道をたどります。
 
-**ZCell 02: New World (Route 2 North)**
+**Zセル02: 新世界（2番道路 北）**
 
 !img("zcell_02.jpg")
 
 !battle(["Raikou", :RAIKOU, 0], "Mountain Field")
 
-Rotom will usually use its Z-Move to transform the field to Snowy Mountain. You can dampen the team's strategies somewhat by preventing this from happening by OHKO'ing Rotom, if you want. These two field effects are pretty stacked, damage-wise, so read up on the Field Manual if you're stuck on it. Trick Room can also help out here, preventing Sandslash and Raikou from going on killing streaks.
+ロトムはたいていZワザでフィールドを雪山に変えてきます。望むなら、ロトムを一撃で倒してこれを防ぎ、相手の戦術をある程度鈍らせられます。この2つのフィールド効果はダメージ面でかなり盛られているので、行き詰まったらフィールドの資料を読み込んでください。ここでも *トリックルーム* が役立ち、サンドパンとライコウの連続撃破を防げます。
 
-Once you win, you can battle and catch **Raikou**.
+勝つと **ライコウ** と戦って捕まえられます。
 
-Return to the Nightclub once you're done.
+済んだらナイトクラブへ戻ります。
 
-## Route 2 New World
+## 2番道路の新世界 {#route-2-new-world}
 
-Back in the Nightclub, talk to Zero and accept his quest. Fly over to the Celestinine Cascade and go right onto Route 2. If the leftmost Crustle is still in the way, climb some nearby rocks to get some Red Powder, then remove the Crustle. Enter this cave and the New World Door.
+ナイトクラブに戻り、ゼロに話しかけてクエストを受けます。セレスティナイン滝へ飛び、右へ進んで2番道路へ出ます。一番左のイワパレスがまだ道を塞いでいる場合は、近くの岩を登って *いかりのこな* を取り、イワパレスをどかしてください。この洞窟に入り、新世界の扉に入ります。
 
 !enc(825, nil, nil, "New World (Route 2)")
 
-Talk to Amaria inside to the right. You'll need to find someone who can read Braille to help.
+中の右手にいるアマリアに話しかけます。点字を読める人を探して助けてもらう必要があります。
 
-Fly over to Coral Ward, and enter the apartment on the upper side. Talk to Danielle inside, who will agree to meet you in the Route 2 New World.
+コーラル区へ飛び、上側の集合住宅に入ります。中のダニエールに話しかけると、2番道路の新世界で落ち合ってくれます。
 
-Talk to her, and we'll have to play Simon Says. Follow the instructions that "Simon" says precisely, and a new door will open. Follow it.
+彼女に話しかけると、サイモン・セッズ（「サイモンが言いました」と付いた指示にだけ従う遊び）をすることになります。「サイモン」が言ったとおりに正確に従うと、新しい扉が開きます。そこを進みます。
 
 !battle(["Anomaly", :REGIS, 0], "New World")
 
-This team generally relies upon Stakataka's Trick Room, which can be shut down by OHKO'ing it. The move Earth Power can do the trick. Regirock and Regice eat up Physical and Special moves, and hold a Band and Specs, respectively. Registeel gets an Omniboost with its seed and will try to stall you out with Toxic and Seismic Toss. The Tyranitar is a special set, benefitting from the field effect with most of its moves, and Mega Mawile rounds out the team with very strong Sucker Punch, potentially boosted by Power-Up-Punch. If you can take out the Trick Room, set up a Sweeper (ideally with a Fighting type move), and have a plan to deal with Sucker Punch, you're golden.
+この編成はおおむねツンデツンデの *トリックルーム* に依存しているので、一撃で倒せば封じられます。*だいちのちから* なら仕留められます。レジロックとレジアイスはそれぞれ物理技と特殊技を受け止め、*こだわりハチマキ* と *こだわりメガネ* を持っています。レジスチルはシードで全能力を上げ、*どくどく* と *ちきゅうなげ* で粘ってきます。バンギラスは特殊型で、技の大半がフィールド効果の恩恵を受けます。メガクチートが締めで、非常に強力な *ふいうち* を、場合によっては *グロウパンチ* で強化して撃ってきます。*トリックルーム* を潰し、（できればかくとう技を持つ）積みエースを用意し、*ふいうち* への対策があれば万全です。
 
-With that out of the way, we'll be free to explore from here in three directions. I start by going left. Talk to the braille tablet here, then to Danielle when you're ready. Time for more Simon Says. Note that you will have to move yourself to move the boulders as instructed - this is ok and won't ruin your attempt. Enter the opened door, where you can find and catch **Regirock**.
+これを片付ければ、そこから3方向に探索できます。ここではまず左から始めます。ここの点字の石板に話しかけ、準備ができたらダニエールに話しかけます。またサイモン・セッズです。なお、指示どおりに岩を動かすには自分も移動する必要がありますが、それで失敗扱いにはならないので大丈夫です。開いた扉に入ると **レジロック** が見つかり、捕まえられます。
 
-Back out in the main room, go up at the fork. Talk to the Braille, then Danielle to get instructions. Here, we'll have to do 5 slides across the ice to break all five tiles, but never stepping over one incorrectly. We need to slide: Left, Right, Left, Up, Right. The key here is that you can slide on the other spots of ice just as long as you don't hit the same spot twice. With the ice spots numbered 1-5, top to bottom:
+主要な部屋に戻り、分岐で上へ進みます。点字に話しかけ、続いてダニエールに話しかけて指示を受けます。ここでは氷の上を5回滑って5枚のタイルをすべて割る必要がありますが、割ったタイルの上を誤って通ってはいけません。滑る順は、左、右、左、上、右です。ポイントは、同じ場所を2回踏まない限り、他の氷の上は滑って構わないということです。氷の地点を上から順に1〜5と番号を振ると、次のようになります。
 
-- Go left to break 2
-- Go right to break 3
-- Go left to break 1, then go up, right, down to sneak your way back to the right side of the ice
-- Go up to break 4, then go right, down, left across the ice, down across the ice.
-- From here, go right to break 5.
+- 左へ進んで2を割る
+- 右へ進んで3を割る
+- 左へ進んで1を割り、上、右、下と進んで氷の右側へこっそり戻る
+- 上へ進んで4を割り、右、下、左と氷を渡り、さらに下へ氷を渡る
+- そこから右へ進んで5を割る
 
-Head in to catch **Regice**.
+中に入って **レジアイス** を捕まえます。
 
-Make your way to the right side of the main room now, talk to the Braille once more. Danielle will make us play Danielle Says this time. Ignore her when Simon says, but listen when Danielle says. Once you succeed, head through the door to catch **Registeel**!
+今度は主要な部屋の右側へ向かい、もう一度点字に話しかけます。ダニエールは今度は「ダニエール・セッズ」をやらせてきます。「サイモンが」と言ったときは無視し、「ダニエールが」と言ったときにだけ従ってください。成功したら扉を抜けて **レジスチル** を捕まえます!
 
-Make your way out of the New World.
+新世界から出ましょう。

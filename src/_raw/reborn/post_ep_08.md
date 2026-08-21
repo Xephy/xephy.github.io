@@ -1,259 +1,259 @@
-# Postgame Episode 8: A Canvas of Cyclical Conflict
+# ポストゲーム エピソード8: 巡る争いのカンバス {#postgame-episode-8}
 
-Word. Level cap up to Lv. 145.
+いいですね。レベル上限は145に上がりました。
 
-## Citae Prisma
+## キタエ・プリズマ {#citae-prisma}
 
-Accept Randall's quest, then fly over to Beryl. Enter Beryl Cave and make your way through until you reach the New World Door. Head on in.
+ランドールのクエストを受け、ベリルへ飛びます。ベリルどうくつに入り、新世界の扉にたどり着くまで進みます。中へ入りましょう。
 
-Talk to Serra above. There are some encounters here in the water - notably, one of the strongest Ultra Beasts.
+上のセラに話しかけます。ここの水には野生ポケモンが出ます。特筆すべきは、屈指の強さを誇るウルトラビーストがいることです。
 
 !enc(896)
-Head up and talk to Luna and Elias. Talking to them will make the room dark or light, respectively. Study the puzzle in the light, then turn it dark to complete it.
+上へ進んでルナとイライアスに話しかけます。それぞれに話しかけると、部屋が暗くなったり明るくなったりします。明るいうちにパズルをよく観察し、暗くしてから解いてください。
 
-Essentially, we will want to make a beam in the center of the room hit one of the four crystals in the corners. Our first goal will be hitting the Blue Crystal. Start by moving the mirror up to hit it:
+要するに、部屋の中央から出る光線を、四隅の4つのクリスタルのいずれかに当てるのが目的です。最初の目標は青いクリスタルです。まずは鏡を上へ動かして当てましょう。
 
 !img("citae_prisma_1.jpg")
 
-Use the crystal, cross the bridge above, and talk to the orb.
+クリスタルを使い、上の橋を渡ってオーブに話しかけます。
 
-You'll notice that there are now two mirrors. Move them in the light, switch it in the dark, then move them again in the darkness. You'll see outlines of the mirrors left over, and using the activated Purple Crystal will move all mirrors from their current locations to their previous locations. Keep this in mind as we solve the future puzzles.
+鏡が2枚になっているのが分かります。明るいうちに動かし、暗くしてから、もう一度暗闇の中で動かします。すると鏡の輪郭が残っており、起動した紫のクリスタルを使うと、すべての鏡が現在位置から前の位置へ移動します。この先のパズルを解くときも、これを覚えておいてください。
 
-Our next goal will be hitting Green, but to do so, we need to make use of the Purple Crystal. Position the crystals in the light, then move them like so:
+次の目標は緑ですが、そのためには紫のクリスタルを使う必要があります。明るいうちに鏡を配置し、次のように動かします。
 
 !img("citae_prisma_2.jpg")
 
-This should light up the purple crystal - don't activate it yet though. Using the Purple Crystal will reset the mirrors to the positions of their shadows from the light, but requires timing: you'll want to move one mirror into place such that a well timed Purple Crystal activation will allow the light to reach Green. The image below shows the direction the light will travel - you must time your use of the Purple Crystal while the light is in the red zone in order to succeed. I recommend turning off speed up for these puzzles.
+これで紫のクリスタルが点灯するはずですが、まだ起動しないでください。紫のクリスタルを使うと、鏡は明るいときの影の位置へ戻りますが、タイミングが重要です。うまく合わせた紫のクリスタルの起動で光が緑まで届くよう、鏡を1枚所定の位置へ動かしておく必要があります。下の画像は光の進む向きを示しています。成功させるには、光が赤い区域にある間に紫のクリスタルを使わなければなりません。これらのパズルでは倍速を切ることをおすすめします。
 
 !img("citae_prisma_3.jpg")
 
-Activate the Green Crystal, then smash the debris on the puzzle board. Our next mission will be to activate the Blue and Green crystals at the same time - note that using the prism in the center will reset all crystals but Purple. We now have a beam that goes left out of the prism, so that's useful. First, you'll need to place the mirrors in the light, then move them into place in the dark. First, you'll need to charge Purple like before, so set it up like this:
+緑のクリスタルを起動したら、パズル盤上の瓦礫を砕きます。次の目標は、青と緑のクリスタルを同時に起動することです。なお、中央のプリズムを使うと、紫以外のすべてのクリスタルがリセットされます。今回はプリズムから左へ出る光線があるので、それが役立ちます。まず明るいうちに鏡を置き、暗くしてから所定の位置へ動かします。先ほどと同様、まず紫を充填する必要があるので、次のように配置します。
 
 !img("citae_prisma_4.jpg")
 
-Activate Purple. Next, move the mirror into place and solve like before, using Purple while BOTH lights are in their respective 'red zone':
+紫を起動します。次に鏡を所定の位置へ動かし、先ほどと同じ要領で、*両方の* 光がそれぞれの「赤い区域」にあるときに紫を使って解きます。
 
 !img("citae_prisma_5.jpg")
 
-Activate both Blue and Green, then follow the path to the right to reach another orb. Also, just across the ice bridge, attempt to walk into the bottom right corner to find:
+青と緑の両方を起動したら、右へ道をたどって別のオーブへ向かいます。また、氷の橋を渡ってすぐの右下の隅へ歩き込もうとすると、次が見つかります。
 
-**ZCell 65: Citae Prisma**
+**Zセル65: キタエ・プリズマ**
 
 !img("zcell_65.jpg")
 
-Our next mission will be to activate Green, Red, and Blue all at the same time. Set up the mirrors in the light, activate Purple as usual, then set up the mirrors to complete the puzzle, which thankfully isn't too different from the previous. Set them up and solve:
+次の目標は、緑・赤・青の3つを同時に起動することです。明るいうちに鏡を配置し、いつもどおり紫を起動してから、パズルを完成させる位置に鏡を配置します。ありがたいことに、これは前回とさほど変わりません。配置して解いてください。
 
 !img("citae_prisma_6.jpg")
 
-IMPORTANT: Before activating the crystals, move the leftmost mirror down one tile, as otherwise it will get stuck on top of a rock after activating the Red Crystal. Once you do this, activate all three crystals, then make your way to the left to reach another orb. You can also now go up from the puzzle to get:
+重要: クリスタルを起動する前に、一番左の鏡を1マス下へ動かしてください。そうしないと、赤のクリスタルを起動したあと岩の上で動かせなくなります。これを済ませたら3つすべてを起動し、左へ進んで別のオーブへ向かいます。またパズルから上へ進めるようになり、次が手に入ります。
 
-**ZCell 66: Citae Prisma**
+**Zセル66: キタエ・プリズマ**
 
 !img("zcell_66.jpg")
 
-Talk to Serra in the puzzle, and you'll notice that the final mirror we get is broken. Use the light at the middle, and it will actually go through Serra towards the direction she's facing, so she's essentially a rotatable mirror. We can't teleport her anywhere using the Purple Crystal, though. Our final goal is to have all four crystals activated at once. Again, we can activate Purple beforehand, but we need to set it up so that once we use the prism in the middle, all four beams of light eventually find a respective crystal.
+パズルの中のセラに話しかけると、最後に得られる鏡が壊れていることに気づきます。中央の光を使うと、実はセラを通り抜けて彼女の向いている方向へ進むので、彼女は事実上、向きを変えられる鏡というわけです。ただし紫のクリスタルで彼女をどこかへ移すことはできません。最終目標は、4つのクリスタルすべてを同時に起動することです。ここでも事前に紫を起動できますが、中央のプリズムを使ったときに4本の光がそれぞれのクリスタルへたどり着くよう配置しておく必要があります。
 
-First, set up all the crystals and Serra into their final positions, then turn it light, and dark again.
+まず、すべての鏡とセラを最終位置に配置し、明るくして、また暗くします。
 
 !img("citae_prisma_7.jpg")
 
-Using the prism will activate Purple, so do that next. From here, move the crystals into their next positions. The timing is really tight on this one, so save/reset if needed. Use the Purple Crystal as soon as the light passes both of the circled mirrors.
+プリズムを使うと紫が起動するので、次にそれを行います。そこから鏡を次の位置へ動かします。これはタイミングが実に厳しいので、必要ならセーブとリセットを使ってください。光が丸で囲まれた2枚の鏡を通過した直後に、紫のクリスタルを使います。
 
 !img("citae_prisma_8.jpg")
 
-You'll get confirmation from Serra once you're successful. Activate Blue again to cross the ice bridge and enter the door above. Time for an Anomaly battle once you're ready.
+成功するとセラが教えてくれます。もう一度青を起動して氷の橋を渡り、上の扉に入ります。準備ができたらアノマリー戦です。
 
 !battle(["Necrozma", :NECROZMA, 0], "Rainbow Field upon Crystal Cavern Field")
 
-All six members of the confusing Solgaleo, Lunala, and Necrozma fusion bunch are here for a fight, including Ultra Necrozma in all its 754 BST glory. Not to mention some field boosts and seeds to make them even stronger! However, all six of them share the Psychic type, so sweeping with Ghost/Dark moves is the way to go.
+ややこしいソルガレオ・ルナアーラ・ネクロズマの合体組6体が勢揃いし、種族値合計754を誇るウルトラネクロズマまでいます。しかもフィールド強化とシードでさらに強化されています! とはいえ6体とも共通してエスパータイプなので、ゴースト技かあく技で一掃するのが正解です。
 
-Once you win, you can catch **Necrozma**! Exit back to the Nightclub once you're done.
+勝つと **ネクロズマ** を捕まえられます! 済んだらナイトクラブへ戻ります。
 
-## Chasing the Super High-Speed Pokemon
+## 超高速ポケモンを追え {#chasing-the-super-high-speed-pokemon}
 
-Accept Danielle's quest, then fly over to the Pokemon League on Charous Mountain. Head down to the large dragon statue here for a battle.
+ダニエールのクエストを受け、シャルース山のポケモンリーグへ飛びます。ここの大きなドラゴンの像まで下るとバトルです。
 
 !battle(["Rayquaza", :RAYQUAZA, 0], "Snowy Mountain")
 
-Another tough double battle with a lot of hard hitting Pokemon. I recommend Light Screen and Trick Room - combined, your Pokemon will get slower with every use of Icy Wind, allowing them to hit first. You can switch the field to Mountain if you'd like.
+高火力のポケモンが多い、またも厳しいダブルバトルです。*ひかりのかべ* と *トリックルーム* をおすすめします。組み合わせれば、*こごえるかぜ* を使われるたびにこちらが遅くなり、先手を取れるようになります。望むならフィールドを山に変えても構いません。
 
-Once you win, Rayquaza will run off... and roam the Reborn region! It functions pretty similarly to the main series roamers - when you switch areas, Rayquaza probably will, too. And, just like the main series games, simply using your Reborn Ball on it is the easiest thing to do. I generally run around Reborn City and check the map until Rayquaza happens to be in the same ward as you, then use Repels to weed out everything else except Rayquaza, who is at Lv. 145.
+勝つとレックウザは逃げ出し……リボーン地方を徘徊するようになります! 本編シリーズの徘徊ポケモンとほぼ同じ仕組みで、エリアを移動するとレックウザもたいてい移動します。そして本編シリーズと同じく、*リボーンボール* を投げるのが一番手っ取り早い方法です。筆者は基本的にリボーンシティ中を走り回って地図を確認し、レックウザが同じ区に来たところで、むしよけスプレーを使ってレベル145のレックウザ以外を排除します。
 
-Anyways, succeed and catch **Rayquaza**, then return to the Nightclub.
+ともあれ、**レックウザ** を捕まえたらナイトクラブへ戻ります。
 
-## Umbral Battles in Aegir Cave (Part 2)
+## エーギルどうくつでの影のバトル (後編) {#umbral-battles-in-aegir-cave-part-2}
 
-Now that we have Rayquaza, we can go help out the OTS squad over in the Aegir Cave. Make your way there. Add Rayquaza to your party, then talk to Florinia. She'll then let you access the PC one more time before the gauntlet of sheer pain that follows.
+レックウザが手に入ったので、エーギルどうくつのOTS隊を助けに行けます。そこまで向かってください。レックウザを手持ちに入れ、フロリニアに話しかけます。すると、この先の純然たる苦行の連戦の前に、もう一度パソコンを使わせてくれます。
 
 !dbattle(["Amaria", :UMBAMARIA, 1], ["Titania", :UMBTITANIA, 1], "Cave Field")
 
-This battle isn't that crazy - you'll notice that most of their Pokemon have moves that indiscriminately damage all Pokemon, including their allies. Bulky Pokemon, Wide Guard, etc. will help here. You'll also notice that if Kyogre and Groudon come in at the same time, the field will change to the Rainbow Field. Rock Slide gets power on the Cave Field and extra flinch chance on the Rainbow Field, so I recommend using it for this fight.
+このバトル自体はさほど無茶ではありません。相手のポケモンの多くが、味方も含めて無差別に全体を攻撃する技を持っているのが分かるはずです。硬いポケモンや *ワイドガード* などが役立ちます。また、カイオーガとグラードンが同時に場に出ると、フィールドが虹のフィールドに変わる点にも気づくでしょう。*いわなだれ* はどうくつフィールドで威力が上がり、虹のフィールドではひるみ率も上がるので、この戦いにはおすすめです。
 
-If you're on Lin Route, you get fully healed here... otherwise on Anna Route ONLY the non-fainted Pokemon get healed. Yikes!
+リンルートならここで全回復しますが……アンナルートでは瀕死でないポケモンだけが回復します。恐ろしい。
 
-The second battle of this gauntlet is determined by:
+この連戦の2戦目は次の条件で決まります。
 
-- Anna Route, Titania RP >= Amaria RP: Fight Amaria
-- Anna Route, Titania RP < Amaria RP: Fight Titania
-- Lin Route, Titania RP > Amaria RP: Fight Titania
-- Lin Route, Titania RP <= Amaria RP: Fight Amaria
+- アンナルートで、ティタニアの好感度 >= アマリアの好感度: アマリアと戦う
+- アンナルートで、ティタニアの好感度 < アマリアの好感度: ティタニアと戦う
+- リンルートで、ティタニアの好感度 > アマリアの好感度: ティタニアと戦う
+- リンルートで、ティタニアの好感度 <= アマリアの好感度: アマリアと戦う
 
-Battle whichever gym leader plus anomaly:
+いずれかのジムリーダーとアノマリーの組と戦います。
 
 !dbattle(["Amaria", :UMBAMARIA, 2], ["Kyogre", :KYOGRE, 0], "Water Surface")
 
-This fight is absolute suffering. Even if you get your team fully healed... it's still a 12v6 against a Water Surface team. Your fast grounded Pokemon will get easily outsped, Surf will roll you over, your weather will be overwritten with Heavy Rain... etc. Even if you use Trick Room, there are a few slower opponents poised to take advantage of it like Toxapex. There are a few things we can try to take advantage of: Murkwater Field, Underwater, and Icy Field can all be potentially better to fight on than Water Surface, so changing the field is often smart. One other important thing to note is that Mega Swampert and Black Kyurem are the *only* Pokemon with physical attacking moves, meaning a Special Defense tank or two is going to be particularly well suited to this fight, especially with a Water resistance.
+この戦いは純然たる苦しみです。手持ちが全回復していたとしても、水面フィールドの編成を相手にした12対6であることに変わりはありません。こちらの素早い地に足のついたポケモンは易々と上を取られ、*なみのり* に轢かれ、天候は「おおあめ」に上書きされます……。*トリックルーム* を使っても、ドヒドイデのようにそれを逆手に取れる遅い相手が何匹かいます。こちらが利用できる点もいくつかあります。濁った水面、水中、氷のフィールドは、いずれも水面より戦いやすくなる可能性があるので、フィールドを変えるのはたいてい賢明です。もう1つ重要な点として、物理攻撃技を持つのはメガラグラージとブラックキュレム *だけ* なので、特防型の耐久ポケモンを1〜2匹用意すると、とりわけこの戦いに向いています。みず耐性があればなおさらです。
 
 !dbattle(["Titania", :UMBTITANIA, 2], ["Groudon", :GROUDON, 0], "Grassy Terrain")
 
-Thankfully I generally think this fight is much nicer than the Amaria fight, but it is still a very tough 12v6. There are a lot of Fire types here, so a sweeper with Ground and Rock moves might be good here. You can transform the Grassy Terrain into Corrosive Field potentially if that will help you. Burning Field activates Elemental Seeds and boosts their many Fire type moves, so it might not be the best choice. I will shoutout Mega Tyranitar for this fight, who basically turns off the strategy of the lead Ninetales and Venusaur, allowing a Dragon Dance sweep.
+ありがたいことに、こちらはアマリア戦よりずっと優しいと思いますが、それでも非常に厳しい12対6です。ほのおタイプが多いので、じめん技といわ技を持つエースが良いかもしれません。役立つなら、*グラスフィールド* を腐食フィールドに変える手もあります。燃えるフィールドは *エレメンタルシード* を発動させ、相手の多いほのお技も強化してしまうので、最良の選択とは言えないかもしれません。この戦いではメガバンギラスを推しておきます。先発のキュウコンとフシギバナの戦術を実質封じ、*りゅうのまい* での一掃を可能にしてくれます。
 
-Once you win, you can catch **Kyogre**/**Groudon**, who holds the *Blue Orb*/*Red Orb*!
+勝つと **カイオーガ**／**グラードン** を捕まえられ、*あいいろのたま*／*べにいろのたま* を持っています!
 
-Head into the New World via surfing up the waterfalls, where you'll be able to find and catch **Groudon**/**Kyogre**, who holds the *Red Orb*/*Blue Orb*!
+滝をなみのりで登って新世界へ入ると、**グラードン**／**カイオーガ** を見つけて捕まえられます。こちらは *べにいろのたま*／*あいいろのたま* を持っています!
 
-Head back down into Aegir Cave to talk to the group, then return to the Nightclub!
+エーギルどうくつへ下りて一同と話したら、ナイトクラブへ戻ります!
 
-## The Mysterious Battle Pavilion Challenger
+## バトルパビリオンの謎の挑戦者 {#the-mysterious-battle-pavilion-challenger}
 
-Accept the Ringmaster's quest next. We'll actually need to win a few Battle Tower-style battles in the Battle Pavilion on the left side of the Nightclub to proceed, so prepare your best team of 3. You can't use Megas or Z-Moves, nor the strong legendaries... so keep that in mind.
+次はサーカスだんちょうのクエストを受けます。先へ進むには、ナイトクラブ左側のバトルパビリオンでバトルタワー形式の勝負に何度か勝つ必要があるので、最良の3匹を用意してください。メガシンカもZワザも使えず、強力な伝説も使えないので、その点は踏まえておきましょう。
 
-Once you beat 4 trainers, you'll face off against this one:
+トレーナー4人を倒すと、この相手と対峙します。
 
 !battle(["Mewtwo", :DEFNOT, 1000], "Rainbow Field")
 
-You do have to fight one of the strongest Mega Evolutions without being able to use the same feature, but I think you can find a team that will be able to manage. 4 randomized fights beforehand shouldn't be too terrible, I hope.
+同じ手段を使えないまま、屈指の強さを誇るメガシンカと戦うことになりますが、対処できる編成はきっと見つかるはずです。その前の4戦はランダムなので、そこまでひどいことにはならない……と願いましょう。
 
-Well, our challenger flies away after we win.
+さて、勝つと挑戦者は飛び去っていきます。
 
-## Neoteric Isle
+## ネオテリック島 {#neoteric-isle}
 
-Head over to talk to the Ringmaster once more. Head over to Tanzan Mountain, make your way all the way down to the New World Door beneath the Steelix tunnel room, then head in.
+もう一度サーカスだんちょうに話しかけます。タンザン山へ向かい、ハガネールの坑道の部屋の下にある新世界の扉までずっと下って、中へ入ります。
 
 !enc(511)
 
-Our final Ultra Beast is located here! Anyways, at the first fork, head down and surf to reach the *N-Lunarizer* as well as:
+最後のウルトラビーストがここにいます! ともあれ、最初の分岐では下へ進み、なみのりで渡ると *ネクロプラスルナ* に加えて次も手に入ります。
 
-**ZCell 67: Neoteric Isle**
+**Zセル67: ネオテリック島**
 
 !img("zcell_67.jpg")
 
-Continuing on the path, you'll see another:
+道を進み続けると、もう1つ見つかります。
 
-**ZCell 68: Neoteric Isle**
+**Zセル68: ネオテリック島**
 
 !img("zcell_68.jpg")
 
-There is one more outside - follow the path to the left of the first tall tower to reach:
+外にもう1つあります。最初の高い塔の左の道をたどると、次にたどり着きます。
 
-**ZCell 69: Neoteric Isle**
+**Zセル69: ネオテリック島**
 
 !img("zcell_69.jpg")
 
-Head back to the first tall tower and enter. Prepare yourself however you can and attempt to enter the door at the top: you'll have to fight **Alter Clone**, a trainer that copies your team and makes them PULSE 2!
+最初の高い塔まで戻って入ります。できる限り準備を整えて、最上部の扉に入ろうとすると、**オルタクローン** と戦うことになります。こちらの編成をそっくり複製し、PULSE2にしてくるトレーナーです!
 
-An interesting gimmick fight - you have to fight your team, but with PULSE 2. So, your sweepers will be bulkier than usual and your tanks will have more offensive power. One obvious answer to this fight is Trick Room - all of your alter will have 252 in Speed, but you don't have to. Then you can try to get a set up sweep going. There are also ways to cheese this fight with one Pokemon if you're really stuck.
+面白い趣向の一戦で、自分の編成と、しかもPULSE2の状態で戦うことになります。つまり、こちらのエースは普段より硬く、耐久型は攻撃力が増しているわけです。この戦いの分かりやすい答えは *トリックルーム* です。複製された相手は全員素早さに252振りですが、こちらはそうする必要がありません。そのうえで積みエースで一掃を狙えます。どうしても行き詰まったら、1匹だけで搦め手を使って勝つ方法もあります。
 
-Enter this room. On the left wall you'll see one tile that doesn't look right - walk into it to reach another door. Inside, you can get:
+この部屋に入ります。左の壁に1マスだけ様子のおかしいタイルがあるので、そこへ歩き込むと別の扉にたどり着きます。中では次が手に入ります。
 
-**ZCell 70: Neoteric Isle**
+**Zセル70: ネオテリック島**
 
 !img("zcell_70.jpg")
 
-Head up and talk to Fern, then enter the door to the right. You'll find the *N-Solarizer* as well as:
+上へ進んでファーンに話しかけたら、右の扉に入ります。*ネクロプラスソル* に加えて次も見つかります。
 
-**ZCell 71: Neoteric Isle**
+**Zセル71: ネオテリック島**
 
 !img("zcell_71.jpg")
 
-Back at the fork, go up for one heck of a battle.
+分岐に戻り、上へ進むととんでもない一戦です。
 
 !dbattle(["Mewtwo", :MEWTWO, 1], ["Mew", :MEW, 0], "Holy Field")
 
-This fight is rough: it's a 12v6 on the Holy Field, with the potential for Mew's Z-move transforming the field into Psychic Terrain. They have a good mix of super powerful single target moves and field-supported spread moves that make it hard to capitalize too much with standard doubles strategies. Terrakion is a bit weird in that it doesn't have many Attack EV's, so you may be able to one shot Tyranitar with a Fighting move and set up with your other Pokemon on Turn 1. The leads are weak to Ground too, so you can take advantage of the field protecting your teammates and use Earthquake. Field boosted Dazzling Gleam is particularly potent here - only Groudon and Magearna resist it. The team is also quite weak to Psychic moves overall, so you may be able to use Psychic Terrain and/or run with Mew's Z-move to try to sweep on that field. In general, Extremespeed is also extremely potent here and will hit Lunala and Necrozma super-effectively, though hazards are recommended to circumvent Shadow Shield.
+この戦いは厳しいものです。聖なるフィールドでの12対6で、しかもミュウのZワザでフィールドが *サイコフィールド* に変わる可能性があります。極めて強力な単体技と、フィールドに支えられた全体技をうまく取り混ぜてくるので、標準的なダブルの戦術で優位を取り続けるのは難しくなっています。テラキオンは攻撃の努力値があまり振られていないという妙な構成なので、かくとう技でバンギラスを一撃で倒しつつ、1ターン目に別のポケモンで積める可能性があります。先発はじめんにも弱いので、このフィールドが味方を守ってくれることを活かして *じしん* を使う手もあります。フィールド強化された *マジカルシャイン* はここでは特に強力で、耐性があるのはグラードンとマギアナだけです。編成全体がエスパー技にもかなり弱いので、*サイコフィールド* を使うか、ミュウのZワザに乗って、そのフィールドで一掃を狙うこともできます。全般に *しんそく* も極めて強力で、ルナアーラとネクロズマにこうかばつぐんを取れますが、*ファントムガード* を回避するために設置技をおすすめします。
 
-Once you regain control, talk to **Mew** and **Mewtwo** for a chance to catch each. Nothing we can do to help out our friend here for now, so return to the Nightclub.
+操作に戻ったら、**ミュウ** と **ミュウツー** に話しかけると、それぞれ捕まえる機会が得られます。ここで友のためにできることは今のところないので、ナイトクラブへ戻ります。
 
-## Twilight Desert (Part 2)
+## たそがれの砂漠 (後編) {#twilight-desert-part-2}
 
-With all 71 Zygarde Cells collected, it's a great time to head on back to the Twilight Desert! Talk to Marcello in the Nightclub and then enter the New World Door in the Tourmaline Desert to the right of the train platform.
+ジガルデセル71個をすべて集めたので、たそがれの砂漠へ戻る絶好の機会です! ナイトクラブでマルチェロに話しかけたら、トルマリン砂漠の駅のホームの右にある新世界の扉に入ります。
 
-First, if you'd like to, talk to the machine in one of the side rooms to exchange your Zygarde Cells for more Cell Imprints, and exchange some for Negative Imprints if you'd like.
+まずは、よければ脇部屋の1つにある機械に話しかけて、ジガルデセルをさらに *セルのこくいん* と交換し、望むなら一部を *ネガティブのこくいん* とも交換しておきましょう。
 
-Head into the main building and talk to Terra here. If you have collected least 50 cells, the path will be opened here, Terra will give you two *Beast Balls*, and a decent reward will be available later. If not, Terra will ask you if you want to go collect the rest. If not, you'll instead have to fight some battles:
+主要な建物に入り、ここのテラに話しかけます。セルを50個以上集めていれば道が開き、テラが *ウルトラボール* を2個くれて、後ほどまずまずの報酬も得られます。そうでなければ、残りを集めに行くかどうかを尋ねられます。行かない場合は、代わりにいくつかバトルをこなす必要があります。
 
-If you have fewer than 10 Cells, you'll fight:
+セルが10個未満の場合、この相手と戦います。
 
 !battle(["5Sj", :GLITCH1, 0], "Glitch Field")
 
-Then, if you have fewer than 20 Cells, you'll fight:
+続いて、セルが20個未満の場合、この相手と戦います。
 
 !battle(["HHHHH", :GLITCH2, 0], "Glitch Field")
 
-Then, if you have fewer than 30 Cells, you'll fight:
+続いて、セルが30個未満の場合、この相手と戦います。
 
 !battle(["404", :GLITCH3, 0], "Glitch Field")
 
-If you have fewer than 40 Cells, you'll fight:
+セルが40個未満の場合、この相手と戦います。
 
 !battle(["0x5656", :GLITCH4, 0], "Glitch Field")
 
-Finally, for having fewer than 50 Cells, you'll fight:
+最後に、セルが50個未満の場合、この相手と戦います。
 
 !battle(["MRMR2", :GLITCH4, 0], "Glitch Field")
 
-Either by fighting or by simply walking, proceed up from here. If you had at least 50 cells before, you'll need to enhance your Zygarde at this machine, to create **Zygarde 50%**. Otherwise, you'll simply need to create a Zygarde 10% via the other machine, so you'll still need a minimum of 10 cells. Once you have the desired Zygarde Form, show it to Terra.
+戦うにせよ、そのまま歩くにせよ、そこから上へ進みます。事前にセルを50個以上持っていた場合は、この機械でジガルデを強化して **ジガルデ（50%フォルム）** を作る必要があります。そうでなければ、もう一方の機械でジガルデ（10%フォルム）を作るだけですが、それでも最低10個のセルは必要です。目当てのジガルデのフォルムができたら、テラに見せます。
 
-Hilariously, on Lin Route, you can just... opt out of fighting Anomaly Zygarde here. If you are on Anna Route or opt in:
+笑えることに、リンルートではアノマリーのジガルデ戦を……そのまま辞退できます。アンナルートの場合、あるいは自分から挑む場合は次のとおりです。
 
 !battle(["Zygarde", :ZYGARDE, 0], "Glitch Field")
 
-Glitch Field team that maximizes the shenanigans of the field. Set up a physical sweeper on Toxapex or something to win this one.
+このフィールドの悪ふざけを最大限に引き出したグリッチフィールドの編成です。ドヒドイデあたりを起点に物理エースを積めば勝てます。
 
-Once you win, or if you skipped the fight, you'll get **Zygarde 100%**. Neat.
+勝った場合も、戦いを飛ばした場合も、**ジガルデ（パーフェクトフォルム＝100%）** が手に入ります。良いですね。
 
-Before we leave, Walk to the right onto the green tile, then go left down the path. Solve the puzzle at this monitor. When finished, it will look like:
+出る前に、右の緑のタイルへ歩き、そこから左へ道を下ります。このモニターでパズルを解いてください。完成すると次のようになります。
 
 !img("zygarde.jpg")
 
-As for actually solving it, you'll notice that you are essentially dragging rows and columns. This is actually very similar to solving the magic square puzzle once you know where everything goes - if we're solving top to bottom, left to right, simply drag the column down so that the target space is in line with the target piece, move the row containing it over so it fits, then move the column back into place. If you could figure out that other puzzle, this one won't be too bad.
+実際の解き方ですが、行と列をドラッグする形式だと気づくはずです。これはどこに何を置くか分かってしまえば、魔方陣のパズルとよく似ています。上から下、左から右の順に解くなら、目的のマスが目的の駒と同じ行になるように列を下へずらし、それを含む行を横へずらして収め、列を元の位置へ戻すだけです。あのパズルを解けたなら、これもさほど難しくありません。
 
-Head back to the right to pick up the *DNA Splicers*. Anyways, return to Reborn City.
+右へ戻って *いでんしのくさび* を回収します。ともあれ、リボーンシティへ戻りましょう。
 
-## Rhodochrine Tree (Part 2)
+## ロドクラインの樹 (後編) {#rhodochrine-tree-part-2}
 
-With 100% Zygarde in your party, talk to Shelly in the Underroot. If you had gotten at least 50 Cells in the previous quest, you'll now get Elias' 6IV Ditto. Helpful for some late game breeding.
+ジガルデ（パーフェクトフォルム＝100%）を手持ちに入れて、アンダールートのシェリーに話しかけます。前のクエストでセルを50個以上集めていれば、ここでイライアスの6Vメタモンがもらえます。終盤の育成に便利です。
 
-Talk to Heather at the base of the tree and accept her offer for a lift to the top. The barriers will be gone now, so we can explore the top. Going up and left, then crossing under a waterfall, you can find the *Diancite*.
+樹の根元のヘザーに話しかけ、頂上まで運んでもらう申し出を受けます。障壁が無くなっているので、頂上を探索できます。上そして左へ進み、滝の下をくぐると *ディアンシナイト* が見つかります。
 
-Continuing along this path, you'll see Anomaly Xerneas. Talk to it when you're ready.
+この道を進み続けると、アノマリーのゼルネアスが見えます。準備ができたら話しかけてください。
 
 !dbattle(["Xerneas", :XERNEAS, 0], ["Noel", :UMBNOEL, 0], "Psychic Terrain")
 
-This fight is wild... not the least because they decided to make the literally useless Cosmoem into an actually contributing Pokemon! The team essentially works via the Psych Up boost for Psychic Terrain - if Cosmoem is allowed to live, Noel will copy the defenses, double his Pokemon's SpA, and go H.A.M. If you want to avoid this, taking out or using Taunt on Cosmoem is a good idea. Your own Pokemon (potentially, with Psych Up) can then do a counter-sweep by cleaning up the right side first!
+この戦いは強烈です。何しろ、文字どおり役立たずだったコスモウムを、実際に貢献するポケモンに仕立ててきたのですから! この編成は本質的に、*サイコフィールド* 用の *じこあんじ* による強化で動きます。コスモウムを生かしておくと、ノエルがその防御をコピーし、自分のポケモンの特攻を2倍にして大暴れします。これを避けたければ、コスモウムを倒すか *ちょうはつ* を入れるのが良策です。そのうえで（できれば *じこあんじ* を使って）こちらのポケモンで、右側から片付けつつ逆に一掃を狙えます!
 
-Once you win, Noel will give you **Xerneas**!
+勝つと、ノエルが **ゼルネアス** をくれます!
 
-Make your way to the bottom right corner of the area for another fight.
+エリアの右下の隅へ向かうと、また別のバトルです。
 
 !battle(["Yveltal", :YVELTAL, 0], "Starlight Arena")
 
-Boosted Dark moves are pretty incredible here - pair a sweeper with something to deal with Xerneas and Yveltal, and you should be ok. Yveltal in particular is annoying thanks to its Dark Aura field boosted Sucker Punches, so keep that in mind.
+強化されたあく技がここでは実に凄まじいので、エースと、ゼルネアス・イベルタル対策を組み合わせれば問題ないはずです。特にイベルタルは、*ダークオーラ* とフィールドの両方で強化された *ふいうち* のせいで厄介なので、その点は覚えておいてください。
 
-Once you win, you can catch **Yveltal**.
+勝つと **イベルタル** を捕まえられます。
 
-Talk to Noel towards the top, then attempt to exit once you're ready for one more fight.
+上寄りのノエルに話しかけ、もう1戦の準備ができたら外へ出ようとしてください。
 
 !battle(["Eclipse", :UMBECLIPSE, 0], "Rainbow Field")
 
-The Magical Seeds grant a wish as well as a defense boost to the holder, so a lot of these Pokemon will be a pain to take out... unless you can knock them all out in one shot. A special sweeper, especially with Rainbow Field boosted moves, will be likely to succeed if you can set them up right.
+*マジカルシード* は持ち主に *ねがいごと* と防御上昇の両方を与えるので、これらのポケモンの多くは倒すのが面倒です。ただし一撃で全員倒せるなら話は別です。特殊エース、とりわけ虹のフィールドで強化される技を持つものなら、うまく積めれば勝てる見込みが高いでしょう。
 
-Once you win, accept the fast travel request to return to the Nightclub. Now that we have rescued Eclipse, fly over to Calcenon City and enter her father's house. After a scene inside, Eclipse will give you the *Mewtwonite X* and the *Mewtwonite Y*! You can also talk to the father to get the password: *shinycharm*. Nice.
+勝ったら高速移動の申し出を受けてナイトクラブへ戻ります。エクリプスを救出したので、カルセノンシティへ飛んで彼女の父の家に入ります。中での場面のあと、エクリプスが *ミュウツナイトX* と *ミュウツナイトY* をくれます! 父親に話しかけると、パスワード *shinycharm* も教えてもらえます。良いですね。
 
-## Bee's Pokedex Completion Quest (Part 3)
+## ビーの図鑑完成クエスト (第3部) {#bees-pokedex-completion-quest-part-3}
 
-Oh, and there's one more thing we can do. Head over to talk to Bee in Agate City.
+そうそう、もう1つできることがあります。アゲートシティのビーに話しかけに行きましょう。
 
-We'll learn that she wants to see all of the Ultra Beasts. If you've gotten Nihilego, Buzzwole, Pheromosa, Xurkitree, Celesteela, Kartana, Guzzlord, Poipole, Naganadel, Stakataka, and Blacephalon, talk to her to get the *Ultranecrozium-Z*!
+彼女はウルトラビーストを全部見たいと言ってきます。ウツロイド、マッシブーン、フェローチェ、デンジュモク、テッカグヤ、カミツルギ、アクジキング、ベベノム、アーゴヨン、ツンデツンデ、ズガドーンを揃えていれば、話しかけると *ウルトラネクロZ* がもらえます!
 
-She'll tell us what she wants to see next - full Pokedex completion. If you've been keeping up with the guide so far, we'll already be 806/807 of the way there... so we'll return soon, don't worry.
+彼女は次に見たいものも教えてくれます。図鑑の完全制覇です。ここまで攻略に沿って進めてきたなら、すでに807匹中806匹まで到達しているはずなので……じきに戻ってきます。ご心配なく。

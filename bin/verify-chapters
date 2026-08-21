@@ -1,0 +1,113 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# 訳した章を、現時点のすべての観点で一括検査する。
+#
+# 検査ツールは作りながら育てたので、初期に訳した章は古い版でしか通っていない。
+# 内容もその後の一括修正で変わっている。全章を同じ基準で当て直すための入口。
+#
+# 見るのは5点:
+#   1. 構造    指示行・見出しID・見出しレベル・リンクが原文と一致するか
+#   2. 順方向  原文の用語がパッチの訳で訳文に現れるか
+#   3. 逆方向  訳文の用語が原文に対応を持つか
+#   4. 文字    日本語・英数記号以外が紛れていないか (下書き時の混入対策)
+#   5. 表題    章タイトルが _ja/prose-terms.md の決定と一致するか
+#
+#   bin/verify-chapters <英語版の置き場>
+#   例: bin/verify-chapters /tmp/claude-1000
+
+require 'json'
+
+backup_dir = ARGV[0] or abort '英語版を置いたディレクトリを指定してください'
+root = File.expand_path('..', __dir__)
+raw = File.join(root, 'src', '_raw', 'reborn')
+
+# 章タイトルの決定表。prose-terms.md の表から読む (記録と実物のずれを検出するため)。
+terms = File.read(File.join(root, '_ja', 'prose-terms.md'))
+# 本編とポストゲームで表が2つあり、どちらも 1..9 で番号が振られている。
+# 素直に読むと後の表が前の表を潰すので、見出し行でどちらの表かを判別する。
+titles = { 'ep' => {}, 'post' => {} }
+section = 'ep'
+terms.each_line do |line|
+  section = 'post' if line.include?('ポストゲーム')
+  m = line.match(/\A\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|/)
+  next unless m && m[2] =~ /[A-Za-z]/ && m[3] =~ /[^\x00-\x7F]|outlier/
+
+  titles[section][m[1].to_i] = m[3].strip
+end
+
+def directives(t) = t.each_line.select { |l| l.start_with?('!') }
+def heading_ids(t) = t.scan(/\{#([^}]+)\}/).flatten
+def heading_levels(t) = t.scan(/^(\#{1,6})\s/).flatten.map(&:length)
+def links(t) = t.scan(/\]\(([^)]+)\)/).flatten.sort
+
+problems = 0
+checked = 0
+
+Dir.children(raw).grep(/\.md\z/).sort.each do |file|
+  num = file[/\d+/]
+  kind = file.start_with?('main') ? 'ep' : file.start_with?('post') ? 'post' : nil
+  backup = File.join(backup_dir, "#{kind}#{num}_en_backup.md")
+  next unless File.exist?(backup)
+
+  checked += 1
+  ja = File.read(File.join(raw, file))
+  en = File.read(backup)
+  issues = []
+
+  # 1. 構造
+  {
+    '指示行' => method(:directives), '見出しID' => method(:heading_ids),
+    '見出しレベル' => method(:heading_levels), 'リンク' => method(:links)
+  }.each do |label, fn|
+    a = fn.call(en)
+    b = fn.call(ja)
+    next if a == b
+
+    diff = a.zip(b).find { |x, y| x != y }
+    issues << "#{label}が不一致 (#{a.length}/#{b.length}) #{diff&.first.to_s[0, 50]}"
+  end
+
+  # 3.5 数値: 原文に出る数字がすべて訳文にあるか。
+  #
+  # レベル・個数・確率・金額の打ち間違いは、攻略記事ではそのまま誤情報になる。
+  # 用語の照合では絶対に捕まらないので、別に見る。
+  #
+  # 逆向き (訳文にあって原文に無い) は見ない。英語が six と綴る所を「6匹」と
+  # 書くのは正しい訳なので、訳文側の数字は増えて当然。
+  en_prose = en.each_line.reject { |l| l.start_with?('!') }.join
+  ja_prose = ja.each_line.reject { |l| l.start_with?('!') }.join
+  en_nums = en_prose.scan(/\d[\d,]*/).map { |n| n.delete(',') }.tally
+  ja_nums = ja_prose.scan(/\d[\d,]*/).map { |n| n.delete(',') }.tally
+  missing = en_nums.reject { |n, count| ja_nums.fetch(n, 0) >= count }
+  unless missing.empty?
+    detail = missing.map { |n, c| "#{n}(原文#{c}回/訳文#{ja_nums.fetch(n, 0)}回)" }
+    issues << "数値が訳文で不足: #{detail.join(', ')}"
+  end
+
+  # 4. 文字種: ひらがな/カタカナ/漢字/英数/記号以外が混じっていないか
+  # 絵文字は原文にも出てくる (🅱️indra など)。原文に無いものだけを疑う。
+  # ギリシャ文字は攻略の地図画像 (twilight.png など) に α β γ δ として
+  # 描かれている記号なので、原文が gamma と綴っていても訳文で使ってよい。
+  stray = (ja.scan(/[^\p{Hiragana}\p{Katakana}\p{Han}\p{Latin}\p{Greek}\p{Common}\p{Punct}\s]/).uniq -
+           en.scan(/[^\p{Latin}\p{Common}\p{Punct}\s]/).uniq)
+  issues << "想定外の文字: #{stray.join(', ')}" unless stray.empty?
+
+  # 5. 表題
+  if kind && (want = titles[kind][num.to_i])
+    pattern = kind == 'ep' ? /\A#\s+エピソード\d+:\s*(.+?)\s*\{#/ : /\A#\s+.*?\d+:\s*(.+?)\s*\{#/
+    got = ja[pattern, 1]
+    issues << "章タイトルが決定表と不一致: 表=「#{want}」 実物=「#{got}」" if got && got != want
+  end
+
+  if issues.empty?
+    puts "  OK  #{file}"
+  else
+    problems += issues.length
+    puts "  !!  #{file}"
+    issues.each { |i| puts "        #{i}" }
+  end
+end
+
+puts "\n構造・文字・表題: #{checked} 章を検査 / 指摘 #{problems} 件"
+puts '用語の照合は bin/check-terms を章ごとに実行してください。'

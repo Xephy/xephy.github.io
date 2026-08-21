@@ -1,31 +1,31 @@
-# Episode 8: Of Fathers Forgotten
+# エピソード8: 忘れられし父たち {#episode-8}
 
-Make your way all the way back out of the Wasteland. You'll find Cain near the exit. Prepare for a fight.
+荒地をずっと戻って外へ出ます。出口の近くにカインがいるので、バトルに備えてください。
 
-**Relationship Point Choices**:
-- If Cain ran away from home earlier, say you know what he means (+1 Cain)
+**好感度の選択肢**:
+- 以前カインが家出をしていた場合、「言いたいことは分かる」と答える (+1 カイン)
 
 !battle(["Cain", :Cain, 3], "Wasteland Field")
 
-Another fight with Cain, this time on a field that benefits his team to some extent. Most of his Pokemon aren't very fast, so a fast sweeper or two can probably clean house. Just watch out for Muk who hits like a truck and also has Minimize for extra shenanigans.
+またもカインとの戦いで、今回はある程度相手に有利なフィールドです。手持ちの多くは素早くないので、速いエースが1〜2匹いれば掃除できます。ただし **ベトベトン** だけは火力が高く、*ちいさくなる* で厄介な動きもしてくるので注意してください。
 
-Return to South Obsidia Ward.
+南オブシディア区へ戻ります。
 
-**Relationship Point Choices**:
-- Say you believe Cal (+1 Cal)
-- Say you don't believe Cal (-1 Cal)
+**好感度の選択肢**:
+- キャルを信じると答える (+1 キャル)
+- キャルを信じないと答える (-1 キャル)
 
-Cal will give you *TMX4 Strength*!
+キャルが *ひでんマシン4 かいりき* をくれます。
 
-## Strength Exploration
+## かいりきでの探索 {#strength-exploration}
 
-Having Strength means there is a lot of exploration that we can now do. First of all, put Chingling into your party with the Soothe Bell attached. We'll need it evolved for a quest soon, so might as well take advantage of all the walking we are about to do.
+*かいりき* が使えるようになったことで、探索できる場所が一気に増えます。まず **リーシャン** に *やすらぎのすず* を持たせて手持ちに入れてください。近いうちのクエストで進化させた個体が必要になるので、これから大量に歩くついでに進めておきます。
 
-First, note that the candy store has new inventory now.
+まず、菓子店の品揃えが更新されています。
 
 !shop("Sweet Kiss (Bottom) (5-6 Badges)", ["Common Candy", ["Exp. Candy XS", 500], ["Exp. Candy S", 2000], ["Exp. Candy M", 5000], ["Exp. Candy L", 10000], "Rare Candy"])
 
-Back in Opal Ward, there are new trainers on the bridge.
+オパール区に戻ると、橋にトレーナーが増えています。
 
 !battle(["Owen", :StreetRat, 0])
 
@@ -33,50 +33,50 @@ Back in Opal Ward, there are new trainers on the bridge.
 
 !battle(["Lulu", :BEAUTY, 0])
 
-Next, make your way all the way up to Citrine Mountain 2F via Beryl Bridge.
+次に、ベリル大橋を通ってシトリン山2階まで上ります。
 
 !img("citrine2f2.png")
 
-Go down and right (1). You'll see a strength boulder. Push it from the top so it goes down. Then, make your way around to the left (2) and step across the ice path that is now open. You will find a hidden *Shoal Salt* and *Red Shard* as well as *TM94 Secret Power*. Exit the mountain.
+下、そして右へ進みます (1)。かいりき用の岩があるので、上から押して下へ落としてください。そのあと左へ回り込み (2)、開通した氷の道を渡ります。隠された *あさせのしお* と *あかいかけら*、そして *わざマシン94 ひみつのちから* が手に入ります。山を出ましょう。
 
-Make your way west to the Beryl Cemetery. Victoria is down from here.
+西のベリル墓地へ向かいます。そこから下にヴィクトリアがいます。
 
-**Relationship Point Choices**:
-- Talk to Victoria in the cemetery (+2 Victoria)
+**好感度の選択肢**:
+- 墓地でヴィクトリアに話しかける (+2 ヴィクトリア)
 
-Next, we're gonna return to Byxbysion Wasteland. Make your way to the right, going down the slide as before. After exiting the tall building, head up over the ledge and enter the cave at the top. Push the boulder into the hole and follow it, then go into the now accessible cave. Prepare for a fight and talk to the grave.
+次はビクスビジョン荒地へ戻ります。右へ進み、以前と同じように滑り台を下ります。背の高い建物を出たら、段差を越えて上へ進み、上部の洞窟に入ってください。岩を穴へ押し込んで自分も続き、入れるようになった洞窟へ進みます。バトルに備えて墓に話しかけましょう。
 
 !battle(["Kiki", :Spectral, 0], "Wasteland Field")
 
-Another tough fight with a single Pokemon, but you have some cheese strategies in your back pocket if need be.
+またも単体との厳しい戦いですが、いざとなれば奥の手が使えます。
 
-Win and you'll obtain **Misdreavus**.
+勝つと **ムウマ** が手に入ります。
 
-Back outside in the wasteland, make your way to the tunnels area and enter the room with two canisters. Head through the secret path to the left. When you get outside, go down the slide and enter the next room. Take the ladder up then immediately back down. Now we can move this boulder aside! Jump down the hidden ledge and move the next boulder to the left, then go up.
+荒地の外に戻り、坑道エリアへ向かって2つのタンクがある部屋に入ります。左の隠し通路を抜けてください。外に出たら滑り台を下り、次の部屋へ入ります。はしごを上ってすぐ下りると、この岩を動かせるようになっています。隠れた段差を飛び降り、次の岩を左へ動かして上へ進みましょう。
 
-Here, you can find an *Exp. Candy L*, *TM12 Taunt*, and hidden *Ability Capsule* and *Nugget*. On rainy days you can also find a **Squirtle** chilling in the fountain, which we can catch. This is the first of the starters we can obtain aside from the starter table at the beginning of the game.
+ここでは *けいけんアメL*、*わざマシン12 ちょうはつ*、隠された *とくせいカプセル* と *きんのたま* が手に入ります。雨の日には噴水でくつろぐ **ゼニガメ** も見つかり、捕まえられます。ゲーム開始時の選択を除けば、最初のパートナー系で入手できる最初の1匹です。
 
-Return to the wasteland proper, and enter the tall building with stairs on the left side of the map. Show the Squirtle we caught to the guy inside for a *Data Chip*.
+荒地の本体へ戻り、マップ左側の階段のある背の高い建物に入ります。捕まえたゼニガメを中の男性に見せると *データチップ* がもらえます。
 
-Next, take the boat to Apophyll. Head inside Pyrous Mountain and make your way up to 3F. Carefully maneuver the boulder into the hole here and follow it down. You'll find Tepig here, but talk to it and it will flee. Next, make your way to B1F and go to the right. Move the boulder and talk to Tepig again. Grab *TM37 Sandstorm* while you're here. Finally, make your way to the peak. Talk to **Tepig** and you'll be able to catch it!
+次はアポフィル行きの船に乗ります。パイロス山に入って3階まで上り、岩を慎重に穴へ落として自分も続いてください。ここに **ポカブ** がいますが、話しかけると逃げます。次に地下1階へ向かって右へ。岩を動かしてもう一度ポカブに話しかけます。ここで *わざマシン37 すなあらし* も回収しておきましょう。最後に頂上へ向かいます。**ポカブ** に話しかけると、今度こそ捕まえられます。
 
-Exit and take the boat to Azurine Island. At night, if your Chingling has enough friendship, it will evolve into **Chimecho**. Take Chimecho into the building where we battled Taka and show it to a guy here to obtain **Chikorita**.
+外に出てアズリン島行きの船に乗ります。夜になり、リーシャンのなつき度が十分なら **チリーン** に進化します。チリーンを連れてタカと戦った建物へ入り、中の男性に見せると **チコリータ** が手に入ります。
 
-## Yureyu Building
+## ユレユビル {#yureyu-building}
 
-With that out of the way, head into the Underground Railnet and use Strength to reach the top. Grab the now-accessible hidden *Red Shard* and enter the door with the Y. This room has a hidden *Great Ball* and *Dragon Gem*. Upstairs is a hidden *Exp. Candy M* and outside you can find a hidden *Link Stone* and *Exp. Candy L*. Head into the Yureyu building.
+これが済んだら地下鉄道網へ入り、*かいりき* で最上部まで進みます。行けるようになった隠しの *あかいかけら* を拾い、Y のマークがある扉へ入ってください。この部屋には隠された *スーパーボール* と *ドラゴンジュエル* があります。上階には隠された *けいけんアメM* が、外には隠された *リンクストーン* と *けいけんアメL* があります。ユレユの建物へ入りましょう。
 
-You'll be partnered with Cain.
+カインと組むことになります。
 
-**Relationship Point Choices**:
-- Talk with Cain while you're in Yureyu (+1 Cain)
+**好感度の選択肢**:
+- ユレユの中でカインに話しかける (+1 カイン)
 
-**Relationship Point Choices**:
-- Try to leave Yureyu while partnered with Cain (-1 Cain)
+**好感度の選択肢**:
+- カインと同行中にユレユから出ようとする (-1 カイン)
 
 !partner(["Cain", :Cain, 4])
 
-It's a very straightforward area: defeat all the Meteor grunts as you make your way up.
+構造は非常に素直で、上へ進みながらメテオ団のしたっぱを倒していくだけです。
 
 !dbattle(["Hilda", :MeteorGrunt_090, 2], ["Ricardo", :MeteorGrunt, 2], "Short-Circuit Field")
 
@@ -88,185 +88,185 @@ It's a very straightforward area: defeat all the Meteor grunts as you make your 
 
 !dbattle(["Ringo", :MeteorKnight, 0], ["Rod", :MeteorKnight, 0], "Short-Circuit Field")
 
-Once we reach the floor that Sigmund is on, we'll have a story choice to make.
+シグムンドのいる階に着くと、物語上の選択を迫られます。
 
-**In order to access the exclusive postgame route, you need to refuse fighting Sigmund at Yureyu.**
+**限定ルートに入るには、ユレユでシグムンドとの戦いを断る必要があります。**
 
-**Relationship Point Choices**:
-- Say Yes to Sigmund asking if you'll fight him (+1 Heather, -1 Sigmund)
-- Say No to Sigmund asking if you'll fight him (+1 Sigmund, -1 Heather, -1 Cain)
+**好感度の選択肢**:
+- シグムンドの「戦うか」という問いに「はい」と答える (+1 ヘザー、-1 シグムンド)
+- シグムンドの「戦うか」という問いに「いいえ」と答える (+1 シグムンド、-1 ヘザー、-1 カイン)
 
-### Fought Sigmund at Yureyu Route
+### ユレユでシグムンドと戦ったルート {#fought-sigmund-at-yureyu-route}
 
-If you said no to Sigmund, [jump to the next section](#didnt-fight-sigmund-at-yureyu-route)
+シグムンドに「いいえ」と答えた場合は[次の節へ進んでください](#didnt-fight-sigmund-at-yureyu-route)。
 
 !battle(["Sigmund Connal", :DOCTOR, 0], "Short-Circuit Field")
 
-Thanks to the assistance of Cain, this one shouldn't be too bad. Musharna will use Psychic Terrain like last time, and his Electric and Psychic core will try to wear you down. The Short-Circuit Field will boost the former and the Psychic Terrain the latter, so make sure you neutralize the most threatening of your two opponents is each turn and you'll probably win.
+カインの援護があるので、それほど苦しくはないはずです。**ムシャーナ** は前回同様 *サイコフィールド* を張り、でんき＋エスパーの軸でこちらを削りにきます。*ショートフィールド* は前者を、*サイコフィールド* は後者を強化するので、毎ターン2体のうち脅威の大きいほうを確実に潰していけば勝てるでしょう。
 
-### Didn't Fight Sigmund at Yureyu Route
+### ユレユでシグムンドと戦わなかったルート {#didnt-fight-sigmund-at-yureyu-route}
 
-If you said yes to Sigmund, [jump to the next section](#underground-railnet-east)
+シグムンドに「はい」と答えた場合は[次の節へ進んでください](#underground-railnet-east)。
 
 !battle(["Sirius", :Sirius, 0], "Short-Circuit Field")
 
-Thanks to the assistance of Cain, this one shouldn't be too tough. You'll have to be careful of Minior setting up. Otherwise his Pokemon are generally fast and strong but frail, so if you have good type advantages and basic doubles strategies you can certainly do it.
+こちらもカインの援護があるので、さほど厳しくありません。**メテノ** の積みにだけ注意してください。それ以外は全体に速くて火力もありますが打たれ弱いので、相性を取ってダブルの基本を押さえれば十分勝てます。
 
-## Underground Railnet East
+## 地下鉄道網 東 {#underground-railnet-east}
 
-Back on the ground floor, head east to enter another part of the railnet.
+1階に戻り、東へ進んで地下鉄道網の別区画に入ります。
 
 !img("railnet_east.png")
 
-This room is pretty huge - scattered around you can find a hidden *Awakening*, *Revive*, *Super Potion*, *Resist Wing*, *Red-Hots*, *Swift Wing*, *Purple Shard*, *Protein*, *Cheri Berry*, 3 *Blue Shards*, 2 *PokeSnaxs*, and *Super Repel*. These items are roughly nearby the yellow marks on the map.
+この部屋はかなり広く、各所に隠された *ねむけざまし*、*げんきのかけら*、*いいキズぐすり*、*ていこうのハネ*、*シナモンキャンディ*、*しゅんぱつのハネ*、*むらさきのかけら*、*タウリン*、*クラボのみ*、*あおいかけら* 3個、*ポケスナック* 2個、*シルバースプレー* があります。おおよそ上の地図の黄色い印のあたりです。
 
-You can also find a bunch more of those shallow walls that you can use Rock Smash on - indicated by green arrows above. Behind these are *House Key*, *Iron Ball*, *Corrupted Poke Ball*, and *TM44 Rest*. You can also open the gate to the left (circled in blue) to create a shortcut to the Aron room.
+*いわくだき* で壊せる薄い壁も多数あります（上図の緑の矢印）。その奥には *いえのカギ*、*くろいてっきゅう*、*けがれたモンスターボール*、*わざマシン44 ねむる* があります。左のゲート（青い丸）を開けると、ココドラの部屋への近道も作れます。
 
-Talk to Shelly on the right side of the area, then enter the train at the bottom of the map. Back outside, you'll need to use levers to connect this train to the exit area on the right. Essentially you can just follow the tracks until you hit a roadblock, then backtrack and click the lever and follow the new path until you are all done.
+エリア右側のシェリーに話しかけ、マップ下部の列車に入ります。外に戻ったら、レバーを使ってこの列車を右の出口エリアへ繋ぐ必要があります。要は、線路をたどって行き止まりに当たったら戻ってレバーを操作し、新しい経路をたどる——これを繰り返すだけです。
 
-If you get stuck, set up the tracks such that the train would follow the orange arrow in the above image.
+詰まったら、上図のオレンジの矢印どおりに列車が進むよう線路を組んでください。
 
-Talk to Noel when you have the correct layout. Re-enter the train. Talk to Shelly if you'd like.
+正しく組めたらノエルに話しかけます。もう一度列車に入り、必要ならシェリーにも話しかけましょう。
 
-**Relationship Point Choices**:
-- Tell Shelly she was helpful (+1 Shelly)
-- Tell Shelly she was not helpful (-1 Shelly)
+**好感度の選択肢**:
+- シェリーに「助かった」と伝える (+1 シェリー)
+- シェリーに「役に立たなかった」と伝える (-1 シェリー)
 
-Talk to Charlotte. CHOO CHOO!
+シャルロットに話しかけます。しゅっぱーつ!
 
-## Tanzan Cove
+## タンザン入り江 {#tanzan-cove}
 
-We will emerge in a new area. Here, you'll find a *Purple Shard*, *Full Heal*, *Normal Gem*, and *Elemental Seed*. If it's raining, a guy on this map will tell us about the password *stablweather*. You can actually choose whether to go to the Belrose Manse via Tanzan Mountain first, or to go to Spinel Town via the forest first. Here, we will go to Belrose first, but you can skip this section and come back to it after Spinel if you'd like.
+新しいエリアに出ます。ここでは *むらさきのかけら*、*なんでもなおし*、*ノーマルジュエル*、*エレメンタルシード* が手に入ります。雨のとき、このマップの男性が *stablweather* というパスワードを教えてくれます。ここからは、タンザン山を通ってベルローズ邸へ先に行くか、森を抜けてスピネルタウンへ先に行くかを選べます。この攻略ではベルローズを先にしますが、この節を飛ばしてスピネルの後に戻ってきても構いません。
 
 !enc(231)
 
-On the left as you walk in, you'll see whichever of **Solrock** and **Lunatone** that you didn't get to catch earlier.
+入ってすぐ左手に、先ほど捕まえられなかったほうの **ソルロック** か **ルナトーン** がいます。
 
-On this map, you'll find hidden *X Speed*, *PokeSnax*, *Hyper Potion*, 2 *Blue Shards*, *Revive*, *Ground Gem*, *Steel Gem*, *Escape Rope*, *Ultra Ball*, *Purple Shard*, and a visible *Exp. Candy XL*.
+このマップでは隠された *スピーダー*、*ポケスナック*、*すごいキズぐすり*、*あおいかけら* 2個、*げんきのかけら*、*じめんのジュエル*、*はがねのジュエル*、*あなぬけのヒモ*、*ハイパーボール*、*むらさきのかけら* と、見えている *けいけんアメXL* が手に入ります。
 
-Talk to Charlotte then emerge at the top into Tanzan Cove.
+シャルロットに話しかけ、上へ抜けてタンザン入り江へ出ます。
 
 !enc(232, ["Grass", "Fishing"], ["Old"])
 
-In this area you can find a hidden *Escape Rope*, *Green Shard*, *Guard Spec.*, *Blue Shard*, *Peppermint*, *PokeSnax*, *Heart Scale*, *Rose Incense*, and *Elemental Seed*.
+このエリアでは隠された *あなぬけのヒモ*、*みどりのかけら*、*エフェクトガード*、*あおいかけら*、*ハッカキャンディ*、*ポケスナック*、*ハートのウロコ*、*おはなのおこう*、*エレメンタルシード* が見つかります。
 
-Enter the house at the top.
+上の家に入ります。
 
-**Relationship Point Choices**:
-- Enter Belrose Manse before going to Voclain Estate (+1 Noel, +1 Laura)
+**好感度の選択肢**:
+- ボクレイン邸より先にベルローズ邸へ入る (+1 ノエル、+1 ローラ)
 
-To the left you can see something glowing in a bookshelf. Interact with it to get the *Family Picture* for a sidequest way down the road. Anyways, talk to everyone in the house then head out.
+左手の本棚で何かが光っています。調べると *かぞくのしゃしん* が手に入り、ずっと後のサイドクエストで使います。ともあれ家の全員に話しかけてから外へ出ましょう。
 
-**Relationship Point Choices**:
-- Talk to Shelly in Belrose Manse (+1 Shelly)
+**好感度の選択肢**:
+- ベルローズ邸でシェリーに話しかける (+1 シェリー)
 
-## Chrysolia Forest
+## クリソリアの森 {#chrysolia-forest}
 
-Make your way back through Tanzan Mountain and exit at the bottom. Enter the forest on the bottom right side of this map.
+タンザン山を通って戻り、下から出ます。このマップの右下から森へ入ってください。
 
 !enc(234)
 
-Make your way forward and follow the path up and around to the left.
+道なりに進み、上から左へ回り込みます。
 
 !battle(["Elizabeth", :RANGERF, 0], "Forest Field")
 
-You'll see a cave entrance hidden behind a tree - walk up to this tree and it will teleport away.
+木の陰に隠れた洞窟の入口があります。この木に近づくとテレポートして消えます。
 
 !enc(238, ["Cave", "Fishing"], ["Old"])
 
-More importantly, you'll find a *Mystic Water* and hidden *Link Stone* inside.
+それ以上に重要なのは、中で *しんぴのしずく* と隠された *リンクストーン* が手に入ることです。
 
-Back outside, head to the left and down, and attempt to exit the forest. A nearby tree will disappear, so follow the newly created path downwards. By now you've noticed that stuff is teleporting in and out. While this is confusing, the good news is that the path is mostly linear from here.
+外に戻り、左そして下へ進んで森を出ようとします。近くの木が消えるので、できた道を下へたどってください。ここまでで気づいたとおり、あちこちがテレポートで出入りします。ややこしいものの、ここから先はほぼ一本道なのが救いです。
 
 !battle(["Christian", :Casanova, 0], "Forest Field")
 
-Go up, right, and down. You'll notice a single tree blocking off an open path below; approaching the tree will make it disappear. Follow this new path to find a hidden *Synthetic Seed*, *Exp. Candy L*, and *Heart Scale*. To the right, you can talk to someone for the *Grassy Terrain Field Readout* and pick up a *Mild Mint* and a *Hasty Mint*. Enter the train to the left, and pick up the egg. It'll be **Cacnea** or **Maractus**, randomly determined.
+上、右、下と進みます。下に開けた道を塞ぐ木が1本だけあるので、近づけば消えます。この道をたどると、隠された *シンセティックシード*、*けいけんアメL*、*ハートのウロコ* が見つかります。右手では、人物に話しかけると *グラスフィールドの資料* がもらえ、*おっとりミント* と *せっかちミント* も拾えます。左の列車に入ってタマゴを回収してください。**サボネア** か **マラカッチ** がランダムで決まります。
 
-Head back up and go left, continuing our linear travel through the teleporting tree forest. You'll go up towards the entrance, then go right.
+上へ戻って左へ進み、テレポートする木の森を一本道でたどり続けます。入口のほうへ上がってから右へ。
 
 !battle(["Ceratisa", :BEAUTY, 0], "Forest Field")
 
-In the bottom right part of the forest you'll see a lone tree guarding an open path - you know what to do. Follow this path to reach a cave.
+森の右下で、開けた道を1本の木が守っているのが見えます。やることは同じです。この道をたどると洞窟に着きます。
 
 !enc(251)
 
-Inside the railcave, there are two secret paths to goodies. First, you'll notice that each room has train tracks that point to three out of the four directions: start by entering the entrance that is not being pointed to by the tracks. Repeat this process over and over until you reach a room containing an *Ill-Fated Doll* and **Eevee**! You can read the Captain's Log here as well.
+この線路の洞窟には、宝物への隠し通路が2本あります。まず、各部屋の線路が四方向のうち三方向を指していることに気づくはずです。**線路が指していない入口**へ入ってください。これを繰り返すと、*ふきつなにんぎょう* と **イーブイ** のある部屋に着きます。ここでは *船長日誌* も読めます。
 
-Back in the main area of the railcave, you'll notice that each room contains three rocks. In each room two of these rocks are close to one of the four directions - enter this direction. Repeat this process over and over until you reach a room containing a hidden *Ability Capsule*, the *Psychic Terrain Field Readout*, and *TM32 Double Team*.
+線路の洞窟の本道に戻ると、今度は各部屋に岩が3つあることに気づきます。各部屋で、そのうち2つが四方向のいずれかに寄っています。**その方向**へ入ってください。これを繰り返すと、隠された *とくせいカプセル*、*サイコフィールドの資料*、*わざマシン32 かげぶんしん* のある部屋に着きます。
 
-Back in the forest, continue your circles by going left instead of up. Once you reach the upper right side of the area you'll see a path leading to the right.
+森に戻り、今度は上ではなく左へ進んで周回を続けます。エリアの右上に着くと、右へ延びる道が見えます。
 
 !battle(["Aurelia", :LADY, 0], "Forest Field")
 
-Here you'll find a hidden *Ability Capsule*. Head into the clearing here.
+ここでは隠された *とくせいカプセル* が手に入ります。この先の開けた場所へ入りましょう。
 
 !enc(465, nil, nil, "Chrysolia Forest (Clearing)")
 
-You'll find a hidden *Elemental Seed* as well as the *Burning Field Readout*, a *Quiet Mint* and an *Exp. Candy L*. This is also the Mossy Rock where you can get Leafeon.
+隠された *エレメンタルシード* のほか、*燃えるフィールドの資料*、*れいせいミント*、*けいけんアメL* が見つかります。ここは **リーフィア** に進化させられる「こけむした岩」がある場所でもあります。
 
-Continue your circles by going up and left. You'll finally be able to enter Spinel Town at the clearing in the top right side!
+上へ、そして左へ進んで周回を続けます。右上の開けた場所から、ついにスピネルタウンへ入れます。
 
-## Spinel Town
+## スピネルタウン {#spinel-town}
 
-You'll notice that everything is chaos here, teleporting like crazy. Enter an apartment building on the left side and a girl's furniture will all disappear. She'll ask us to get it back, so head out of her house.
+町中が混乱状態で、あらゆるものが激しくテレポートしています。左側の集合住宅に入ると、少女の家具がすべて消えてしまいます。取り戻してほしいと頼まれるので、家を出ましょう。
 
-Down from here, there's a tree in front of a house. The tree will move when you approach it. Inside, you can return the Kadabra girl's bed, and pick up the *Good Rod*! Outside, the fountain will disappear as you approach. Heading towards the center of town, you'll see the Kadabra girl's TV on top of a building. Trying to enter the Pokemart will cause it to teleport as well. To the right, you'll see Kadabra girl's bookshelf.
+そこから下に、家の前に木があります。近づくと動きます。中では **ユンゲラー** の少女のベッドを返せるほか、*いいつりざお* が手に入ります。外に出ると、近づいた噴水が消えます。町の中央へ向かうと、建物の上にユンゲラー少女のテレビが見えます。ショップに入ろうとすると、こちらもテレポートします。右手にはユンゲラー少女の本棚があります。
 
-Enter the left tall apartment building. Inside, you'll find Kadabra girl's table. In the building to the right, a person inside will offer to trade your Shelmet and Karrablast for their respective evolutions. You will also be asked to pet every Eeveelution: new long sidequest!
+左の高い集合住宅に入ります。中にはユンゲラー少女のテーブルがあります。右隣の建物では、**チョボマキ** と **カブルモ** をそれぞれの進化形と交換してくれる人物がいます。さらに、イーブイの進化形すべてを撫でてほしいとも頼まれます。長いサイドクエストの始まりです。
 
-Talk to a lady sitting on the bench, and she will completely disappear. Ok then. Go down and to the right: a house here will also disappear. Beyond it you will find Kadabra girl's first chair. Her second chair is up and to the right of the Pokemon Center. Speaking of, a guy inside the center will tell us a password: *hardcap*.
+ベンチに座っている女性に話しかけると、完全に消えます。まあ、そういうこともあります。下、そして右へ進むと、ここの家も消えます。その奥にユンゲラー少女の椅子の1脚目があります。2脚目はポケモンセンターの右上です。ちなみにセンターの中の男性は、*hardcap* というパスワードを教えてくれます。
 
-Enter the museum. Unfortunately every time we enter here it will cost $500. You can explore the museum to learn a bunch of lore. Upstairs is a person who will revive our fossils! So, that means depending on what you've found mining it is now possible to get **Omanyte**, **Kabuto**, **Lileep**, **Anorith**, **Cranidos**, and **Shieldon**. Unfortunately to finish the revival you have to leave the museum and pay the fee again! I will note that if you only have a single Helix Fossil, there is a quest later on that requires us to have one, so consider saving it for now if you aren't dying to have an Omanyte right now.
+博物館に入ります。残念ながら、入るたびに500ドルかかります。館内を巡ると設定を多く知れます。上階には化石を復元してくれる人物がいます。つまり採掘で何を掘り当てたかに応じて、**オムナイト**、**カブト**、**リリーラ**、**アノプス**、**ズガイドス**、**タテトプス** が手に入るということです。ただし復元を完了させるには一度博物館を出る必要があり、入り直すのにまた入館料がかかります。なお *かいのカセキ* が1つしかない場合、後々それを必要とするクエストがあります。今すぐオムナイトが欲しいのでなければ、取っておくことを検討してください。
 
-Anyways, head down and out of the door upstairs here and into the door on the other side to pick up the *Eevium-Z*. We can't use Mega Stones or Z-Crystals yet. Kadabra girl's nightstand is also in here, as well as a standard Ice Cream vending machine that contains a **Vanillite** like in the Sweet Co.
+ともあれ、上階の扉から下りて外へ出て、反対側の扉から入ると *イーブイZ* が手に入ります。メガストーンとZクリスタルはまだ使えません。ここにはユンゲラー少女のナイトテーブルもあり、あまいキッスと同じく **バニプッチ** が入っているアイスの自動販売機もあります。
 
-In the downstairs area of the museum at night, you'll see two Meteor grunts. Talk to them and they will flee to Tanzan Mountain. We will get to them in a bit. Oh, and there's a *Luxury Ball* in the trash to the right.
+夜、博物館の下階に行くとメテオ団のしたっぱが2人います。話しかけるとタンザン山へ逃げるので、後ほど追います。ちなみに右手のゴミ箱には *ゴージャスボール* があります。
 
-Outside, attempt to enter the Voclain Estate in the top right corner. Before you talk to Serra, talk to Bennett if you want points.
+外に出て、右上のボクレイン邸に入ろうとします。セラに話しかける前に、好感度が欲しければベネットに話しかけてください。
 
-**Relationship Point Choices**:
-- Tell Bennett you knew Cascoon had perfect memories (+1 Bennett)
+**好感度の選択肢**:
+- ベネットに「マユルドが完全な記憶を持っていると知っていた」と伝える (+1 ベネット)
 
-I hope they remember me killing 15 of them with Fire type moves in Pokemon Legends Arceus.
+『Pokémon LEGENDS アルセウス』でほのお技を使って15匹ほど葬った件も、覚えていてくれると嬉しいのですが。
 
-**Relationship Point Choices**:
-- Talk to Bennett a second time (+1 Bennett)
+**好感度の選択肢**:
+- ベネットにもう一度話しかける (+1 ベネット)
 
-In the upstairs rooms, you can find *Silk Scarf*, the *Mirror Arena Field Readout*, *TM85 Dream Eater*, *Bug Memory*, and *Weakness Policy*. You'll also find Kadabra girl's last bookshelf in Bennett's room.
+上階の部屋では *シルクのスカーフ*、*ミラーアリーナの資料*、*わざマシン85 ゆめくい*、*バグメモリ*、*じゃくてんほけん* が手に入ります。ベネットの部屋にはユンゲラー少女の最後の本棚もあります。
 
-With that, we should now have all of the furniture back, so return to the girl to get the *Exp. All*. An excellent item that levels your whole team and prevents leveling over the cap.
+これで家具はすべて揃ったはずなので、少女のところへ戻ると *みんなのがくしゅうそうち* がもらえます。手持ち全員のレベルを上げつつ、上限を超えないようにしてくれる優れた道具です。
 
-## Good Rod Encounters and Other Things
+## いいつりざおでの出現とその他 {#good-rod-encounters-and-other-things}
 
-We could now go for the next badge, though there are many new Pokemon and items we can now get after visiting Spinel Town.
+次のバッジに挑むこともできますが、スピネルタウンを訪れたことで入手できるポケモンとアイテムが多く増えています。
 
-Grab your Male Burmy from the PC and level it to 20 so it evolves into **Mothim**.
+パソコンからオスの **ミノムッチ** を取り出し、Lv.20 まで育てて **ガーメイル** に進化させてください。
 
-Return to Chrysolia Forest - you'll have to basically do the circles in reverse to exit the forest. On your way you'll find the house that teleported earlier. A guy inside will do an in-game trade: your Mothim for his **Bruxish**.
+クリソリアの森へ戻ります。森を出るには、周回を逆順にたどることになります。その途中で、先ほどテレポートしていた家が見つかります。中の男性が交換に応じてくれます。こちらのガーメイルと、相手の **ハギギシリ** です。
 
-Down from here, you'll find the teleported fountain. **Remoraid** will jump out for you to battle.
+そこから下には、テレポートした噴水があります。**テッポウオ** が飛び出してきてバトルになります。
 
-Return to Tanzan Mountain. Inside, you'll find the grunts from earlier.
+タンザン山へ戻ります。中で先ほどのしたっぱがいます。
 
 !dbattle(["Devin", :MeteorGrunt, 2], ["Sanchez", :MeteorGrunt, 2], "Cave Field")
 
-Defeat them here - we will return to the museum later to claim our reward. 
+ここで倒しておきます。報酬は後ほど博物館で受け取ります。
 
-Now that we have a new rod there are a lot of encounters we can now get.
+新しいつりざおを手に入れたので、釣れるポケモンが大きく増えています。
 
 !enc(238, ["Fishing"], ["Good"])
 
 !enc(232, ["Fishing"], ["Good"])
 
-Make sure you catch a Luvdisc for an in-game trade we'll get to in a bit.
+近いうちの交換イベント用に **ラブカス** を必ず捕まえておいてください。
 
-Once you return to Reborn City via the railnet, we can now snag the other gang mascot than ours. If you joined Magma Gang, head over to Lapis Alleyway.
+地下鉄道網でリボーンシティへ戻ると、自分が入らなかったほうのギャングのマスコットも入手できます。マグマ団に入っていたなら、ラピス路地へ向かいます。
 
 !enc(170, ["Fishing"], ["Good"])
 
-If you joined Aqua Gang, head over to North Obsidia Alleyway, where you will be able to find **Houndour** inside.
+アクア団に入っていたなら、北オブシディア路地へ向かうと、中で **デルビル** が見つかります。
 
-Anyways, some more encounters await: whether you go fishing from the Peridot side, Coral Side, Azurine Island, or Apophyll Beach side:
+ほかにも、ペリドット側、コーラル側、アズリン島、アポフィルビーチ側と、釣る場所ごとに出現があります。
 
 !enc(97, ["Fishing"], ["Good"], "Azurine Lake")
 
@@ -274,24 +274,24 @@ Anyways, some more encounters await: whether you go fishing from the Peridot sid
 
 !enc(153, ["Fishing"], ["Good"])
 
-Head on over to Onyx Ward and return the House Key to the girl on the west side to get a *Heart Scale*. She is the **Move Relearner** and will trade us relearned moves for Heart Scales... which we have in spades thanks to mining. Juice up your movesets if you'd like.
+オニキス区へ向かい、西側の少女に *いえのカギ* を返すと *ハートのウロコ* がもらえます。彼女は**わざ思い出し**の担当で、ハートのウロコと引き換えに技を思い出させてくれます。採掘のおかげで山ほど持っているはずなので、技構成を整えておきましょう。
 
-Now that we've found the second Ill-Fated Doll, you can head into the Rhodochrine Jungle via the Beryl Cave to access the totem and get the second of **Elgyem**, **Baltoy**, and **Golett**.
+2個目の *ふきつなにんぎょう* が手に入ったので、ベリルどうくつを通ってロドクラインジャングルへ行けば、トーテムで **リグレー**、**ヤジロン**、**ゴビット** のうち2匹目が手に入ります。
 
-Take the Coral Ward boat to Apophyll. Grab Luvdisc from the PC, then head along the outer right wall of the academy to find someone who'll do an in-game trade: your Luvdisc for their **Darumaka**.
+コーラル区の船でアポフィルへ。パソコンからラブカスを取り出し、アカデミーの右外周に沿って進むと交換に応じてくれる人物がいます。こちらのラブカスと、相手の **ダルマッカ** です。
 
-Finally, head all the way back through the railnet and the forest to Spinel Town. Talk to the museum curator to get your choice of *Plume Fossil* or *Cover Fossil*, which you can revive for **Archen** or **Tirtouga** respectively.
+最後に、地下鉄道網と森を通ってスピネルタウンまで戻ります。博物館の館長に話しかけると、*はねのカセキ* か *ふたのカセキ* を選んでもらえます。それぞれ **アーケン**、**プロトーガ** に復元できます。
 
-## Rime Badge
+## しものバッジ {#rime-badge}
 
-Return to Voclain Estate. Enter the room towards the back to reach the gym. In each room, you'll have to look for something that's wrong on one of the two sides. It could be a misplaced or miscolored item or something thematically tied to the gym. Anyways, once you find this discrepancy, smash the wall immediately above. If you're wrong, your party will take some damage, but you can always heal.
+ボクレイン邸へ戻ります。奥の部屋に入るとジムに着きます。各部屋では、左右どちらかにある「おかしなもの」を探すことになります。置き場所や色が違うもの、あるいはジムの主題に絡んだものです。見つけたら、その真上の壁を割ってください。外れると手持ちがダメージを受けますが、回復すれば済みます。
 
-For each of the three puzzle rooms (so, a max of +3), you can get the following:
+3つのパズル部屋それぞれで（最大+3）、次の好感度が動きます。
 
-**Relationship Point Choices**:
-- Smash the correct mirror on the first try (+1 Serra)
-- Smash 2-5 incorrect mirrors before finding the answer (-1 Serra)
-- Smash 6-7 incorrect mirrors before finding the answer (-2 Serra)
+**好感度の選択肢**:
+- 1回目で正しい鏡を割る (+1 セラ)
+- 正解までに2〜5枚割る (-1 セラ)
+- 正解までに6〜7枚割る (-2 セラ)
 
 !battle(["Lydia", :BEAUTY, 0], "Mirror Arena")
 
@@ -301,29 +301,29 @@ For each of the three puzzle rooms (so, a max of +3), you can get the following:
 
 !battle(["Layla", :BEAUTY, 0], "Mirror Arena")
 
-Save before you enter the third room.
+3つ目の部屋に入る前にセーブしてください。
 
 !battle(["Bennett", :BENNETT, 0], "Mirror Arena")
 
-It's time for our first battle with Bennett. Despite mainly using the crappy early game bugs, he has a highly optimized team for the Mirror Arena. All of the accuracy and evasion items and abilities raise his team's chance to get critical hits. With field boosted moves like Signal Beam, his Pokemon hit hard and fast. Five of six have Quiver Dance, so they'll probably try to set up on you. That said, his Bugs are all pretty frail and have lots of weaknesses - simply loading up on Rock moves will probably solve most of the problem. It's a good opportunity to try out your own Mirror Arena boosts - read the field notes.
+ベネットとの初戦です。序盤の弱いむしポケモンばかり使っているように見えて、*ミラーアリーナ* に極めて最適化された編成です。命中率・回避率を上げる道具と特性がすべて、急所率の上昇にも働きます。フィールド強化された *シグナルビーム* などで、素早く高い火力を出してきます。6匹中5匹が *ちょうのまい* を持つので、積んでくる可能性も高いでしょう。とはいえ、どのむしポケモンも打たれ弱く弱点も多いので、いわ技を積み込むだけで大半は解決します。こちらも *ミラーアリーナ* の恩恵を試す好機なので、フィールドノートに目を通しておいてください。
 
-**Relationship Point Choices**:
-- Beat Bennett on the first try (+1 Elias, -1 Bennett)
-- Beat Bennett on the second, etc. try (+1 Bennett, -1 Elias)
+**好感度の選択肢**:
+- 1回目でベネットに勝つ (+1 イライアス、-1 ベネット)
+- 2回目以降でベネットに勝つ (+1 ベネット、-1 イライアス)
 
-Break the last mirror and head into the gym arena when you're ready.
+最後の鏡を割り、準備ができたらジムのアリーナへ進みます。
 
 !battle(["Serra", :SERRA, 0], "Mirror Arena")
 
-Serra is a tough gym leader that operates on the back of her very unique field effect. Instead of thinking about how to beat a Hail-team like you normally would, you have to play around the fields various Accuracy and Evasion shenanigans. Her Bright Powder, Wide Lens, and Synthetic Seeds as well as Snow Cloak abilities all raise accuracy or evasion and boost critical-hit rate. For that reason you won't really be able to pull off a Special Defense boosting strategy nor use screens. In general, physical attackers will have a much harder time here since when they miss, they take damage. Special attackers, of which Serra has five, have a chance to hit anyways even when they miss - some of their attacks are even boosted in this case. Her Jynx, Froslass, and Sandslash under Hail are all incredibly fast as well. On the flip side, Glaceon, Alola-tales, and Lapras are a bit tankier. The latter two like to set up 8-turn Aurora Veil to further support their defensive strategy. All in all this is a tough fight that doubles down on the weaknesses of the Ice type and uses the Mirror Arena to great effect.
+セラは、極めて独特なフィールド効果を土台に戦う難敵です。あられ編成への通常の対策を考えるのではなく、フィールドの命中率・回避率まわりの仕掛けを捌く必要があります。*ひかりのこな*、*こうかくレンズ*、*シンセティックシード*、そして *ゆきがくれ* が、いずれも命中率か回避率を上げ、同時に急所率も上げます。そのため、とくぼうを上げる戦法も壁も機能しません。全般に物理アタッカーは苦しく、外すとダメージを受けます。特殊アタッカー——セラの手持ちは5匹がこれです——は外しても当たる可能性があり、その場合に威力が上がる技すらあります。あられ下の **ルージュラ**、**ユキメノコ**、**サンドパン** はいずれも凄まじく速く、一方で **グレイシア**、**キュウコン（アローラのすがた）**、**ラプラス** はやや硬めです。後者2匹は8ターンの *オーロラベール* を張って守りを固めたがります。総じて、こおりタイプの弱点を突き詰めつつ *ミラーアリーナ* を最大限に活かした、手強い一戦です。
 
-As you would assume just looking at the team, non-hail weather, and Brick Break / Psychic Fangs are generally good things to bring. Luckily, as stacked the Mirror Arena is for Serra, you can pretty easily use it to your benefit as well. There is a list of abilities that you can use to get Accuracy or Evasion, and we also have access to the Lax Incense and Zoom Lens at this point. All of these will allow you to get a boosted critical hit ratio - with priority, that means you can pick up some easy one shots on the glass cannons. The accuracy ones in particular will allow your physical attackers to overcome the misses + recoil damage and capitalize on the low Defense on Serra's Pokemon. Mirror Coat is a good option that you can use situationally to boost your defensive stats and knock out a threat like Lapras.
+編成を見れば察しがつくとおり、あられ以外の天候と、*かわらわり* や *サイコファング* は有効です。幸い、*ミラーアリーナ* はセラに有利に働く一方で、こちらも同じくらい簡単に利用できます。命中率か回避率を上げる特性の一覧がありますし、この時点で *のんきのおこう* と *フォーカスレンズ* も手に入ります。いずれも急所率を上げるので、先制技と組み合わせれば打たれ弱い相手を安く落とせます。特に命中率を上げる手段は、物理アタッカーの「外して反動」を克服させ、セラの手持ちの低いぼうぎょを突かせてくれます。*ミラーコート* も状況次第で有効で、耐久を上げつつラプラスのような脅威を落とせます。
 
-All of these things are nice, but it turns out there's something *even better* that you can use. Nature Power turns into Mirror Shot, which is boosted by two times and will always lower accuracy. That means any Special Attacker with access to Nature Power can use a 130 BP Steel type move that will never miss... against a team full of Ice types - only Lapras and Sandslash take neutral damage from it. On top of Chlorophyll, this allows even a team of all Grass types to effortlessly sweep the team of Ice types!
+ここまでも良い手ですが、実は**さらに強力なもの**があります。*しぜんのちから* が *ミラーショット* に変わり、威力2倍かつ必ず命中率を下げるようになります。つまり *しぜんのちから* を覚える特殊アタッカーなら、威力130のはがね技を絶対に外さずに撃てるということです——しかも相手はこおりタイプだらけで、等倍で受けられるのはラプラスとサンドパンだけ。*ようりょくそ* と併せれば、くさタイプだけの編成でもこおり編成を苦もなく薙ぎ払えます。
 
-It's worth noting that there are a list of moves in the Field Notes that can destroy the Mirror Arena entirely. This can be another viable strategy to force Serra onto a more even playing field. However:
+なお、フィールドノートには *ミラーアリーナ* そのものを破壊できる技の一覧も載っています。セラを対等な土俵に引きずり出す手として、これも有効です。ただし——
 
-**Relationship Point Choices**:
-- Break the Mirror Field in the gym fight (-1 Serra)
+**好感度の選択肢**:
+- ジム戦でミラーアリーナを破壊する (-1 セラ)
 
-Once you win, you'll get the *Rime Badge* which boosts our cap to Lv. 55. You'll also get *TM70 Aurora Veil*.
+勝利すると *しものバッジ* が手に入り、上限が Lv.55 に上がります。*わざマシン70 オーロラベール* ももらえます。

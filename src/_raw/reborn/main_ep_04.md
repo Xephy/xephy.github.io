@@ -1,39 +1,39 @@
-# Episode 4: Aftershocks
+# エピソード4: 余震 {#episode-4}
 
-No gym badge or TM is awarded to you after this fight.
+この戦闘のあと、ジムバッジもわざマシンももらえません。
 
-To continue the story, you can either head to Beryl Bridge and watch the intense scene, or make your way south through Jasper to Peridot to skip it. Regardless our next story destination will be the North Obsidia Ward, but there are some very worthwhile quests we can do in the meantime.
+ストーリーを進めるには、ベリル大橋へ行って緊迫したイベントを見るか、ジャスパーを南へ抜けてペリドットへ回り、それを飛ばすかを選べます。いずれにせよ次の目的地は北オブシディア区ですが、その前にこなしておく価値の高いクエストがいくつかあります。
 
-## The Mystery Egg and Other Quests
+## 謎のタマゴとその他のクエスト {#the-mystery-egg-and-other-quests}
 
-First, after the events at the bridge, enter Corey's gym and enter his bedroom area. Here you'll find the *Silver Ring*, which will help us get some familiar Pokemon! Speaking of which, make your way to the Underroot and head to the bottom right section, then go left and up to reach the large pool in the center. You'll find a **Skrelp** here who will see the Silver Ring and join your team.
+まず、橋での出来事のあとにコーリーのジムへ入り、寝室エリアへ向かいます。ここで *ぎんのゆびわ* が手に入ります。これは見覚えのあるポケモンを仲間にするのに役立ちます。というわけでアンダールートへ向かい、右下の区画から左、そして上へ進んで中央の大きな水たまりへ行ってください。**クズモー** がいて、ぎんのゆびわを見て仲間になります。
 
-Next, head to the Beryl Library. Talk to the Gothitelle here, then pick up trash and stray books all around the library by spamming the action button. Once you finish, talk to Gothitelle for a *Soul Candle*. You can also talk to one of the **Gothita** to obtain it.
+次にベリル図書館へ。ここの **ゴチルゼル** に話しかけたら、館内のゴミと落ちている本を、決定ボタンを連打しながら片付けて回ります。終わったらゴチルゼルに話しかけると *たましいのロウソク* がもらえます。**ゴチム** のどれかに話しかけても入手できます。
 
-**Relationship Point Choices**:
-- Clean up the Library (+1 Adrienn)
+**好感度の選択肢**:
+- 図書館を片付ける (+1 アドリエンヌ)
 
-Head on over to the Beryl Cemetery at night. Talk to one of the pumpkins with a Soul Candle in your bag and you can catch **Pumpkaboo**.
+夜になったらベリル墓地へ向かいます。たましいのロウソクを持った状態でカボチャのどれかに話しかけると、**バケッチャ** を捕まえられます。
 
-An NPC in both sides of the Jasper Ward will sell Repels.
+ジャスパー区の両側にいるNPCが、むしよけスプレーを売ってくれます。
 
 !shop("Beryl & Jasper Staircases", ["Repel"])
 
-Head down into Jasper Ward and go left. You'll see a kid being bullied by some Venipede and Scolipede.
+ジャスパー区へ下りて左へ。**フシデ** と **ペンドラー** にいじめられている子どもがいます。
 
 !battle(["Swarm", :Swarm, 0])
 
-Defeat them, and the kid will head back to his home.
+倒すと、子どもは家に帰っていきます。
 
-Next, it's time for the big one. Head back to the Jasper Police Station and talk to the chief, then talk to the female **Growlithe**. That alone is a decent reward, but we can take this Growlithe and any male Pokemon in its egg group to the daycare to produce an egg. Bring an egg back to the police station and we can trade it with the guy at the bottom to get what the community calls the Mystery Egg.
+さて、いよいよ本命です。ジャスパー警察署に戻って署長に話しかけ、続いてメスの **ガーディ** に話しかけてください。それだけでも十分な報酬ですが、このガーディと、同じタマゴグループのオスのポケモンを育て屋に預けるとタマゴができます。そのタマゴを警察署へ持ち帰り、下にいる男性と交換すると、コミュニティで「謎のタマゴ」と呼ばれているものが手に入ります。
 
-The Mystery Egg can actually hatch to be one of 18 different Pokemon - all of which are pretty solid team members in an early-game scenario where a lot of the available Pokemon suck. You'll get one of the following, randomly determined: **Azurill**, **Mareanie**, **Staryu**, **Togepi**, **Sneasel**, **Shroomish**, **Gastly**, **Axew**, **Vulpix-Alola**, **Pawniard**, **Litwick**, **Trapinch**, **Cottonee**, **Vulpix**, **Elekid**, **Starly**, **Rockruff**, **Larvesta**.
+謎のタマゴからは、なんと18種類のいずれかが孵ります。しかもどれも、使えるポケモンが少ない序盤ではかなり有力な戦力です。次のいずれかがランダムで決まります。**ルリリ**、**ヒドイデ**、**ヒトデマン**、**トゲピー**、**ニューラ**、**キノココ**、**ゴース**、**キバゴ**、**ロコン（アローラのすがた）**、**コマタナ**、**ヒトモシ**、**ナックラー**、**モンメン**、**ロコン**、**エレキッド**、**ムックル**、**イワンコ**、**メラルバ**。
 
-We can get the other 17 at a later time.
+残る17種も、後々入手できます。
 
-## North Obsidia Ward
+## 北オブシディア区 {#north-obsidia-ward}
 
-With that taken care of, we're going back to Opal Ward to head up at the bridge. You'll enter North Obsidia Ward.
+これが済んだら、オパール区へ戻って橋のところから上へ進みます。北オブシディア区に入ります。
 
 !battle(["Inuki", :PSYCHIC_Male, 0])
 
@@ -41,36 +41,36 @@ With that taken care of, we're going back to Opal Ward to head up at the bridge.
 
 !battle(["Akemi", :COOLTRAINER_Female, 0])
 
-One more trainer is to the right at the stairs.
+階段の右手にもう1人トレーナーがいます。
 
 !battle(["Waldon", :StreetRat, 0])
 
-You'll find hidden *Zinc*, *X Sp. Def*, *Super Potion*, *Ether*, *Common Candy*, *Synthetic Seed*, *Ability Capsule*, *Chewing Gum*, and *Great Ball* around the ward.
+区の各所には、隠された *キトサン*、*スペシャルガード*、*いいキズぐすり*、*ピーピーエイド*、*ふつうのアメ*、*シンセティックシード*、*とくせいカプセル*、*チューインガム*、*スーパーボール* があります。
 
-Finding this last item will put us in front of the nightclub: from 8PM to 4AM you can enter. You can get one of the best TMs in the game here: *TM17 Protect*!
+最後のアイテムを見つけると、ちょうどナイトクラブの前に出ます。20時から翌4時までの間なら入れます。ここではゲーム屈指の優秀なわざマシン、*わざマシン17 まもる* が手に入ります。
 
-Outside, the building to your right contains a *Telluric Seed*. There's an alleyway outside containing some gang members nearby.
+外に出ると、右手の建物に *テルリックシード* があります。近くの外には、ギャングのたむろする路地があります。
 
 !enc(165)
 
-Don't talk to the guys here yet though - we'll be making a choice involving them soon.
+ただし、ここの連中にはまだ話しかけないでください。彼らに関わる選択がもうすぐあります。
 
-Next, enter the Spyce restaurant below and to the right. A guy inside will give you a *Full Incense*. In a nearby trash can you can find *TM56 Fling*.
+次に、右下にあるレストラン「スパイス」へ入ります。中の男性が *まんぷくおこう* をくれます。近くのゴミ箱では *わざマシン56 なげつける* が見つかります。
 
 !shop("The Spyce", ["Fresh Water", "Soda Pop", "Lemonade"])
 
-Back in the main part of the ward, talk to the people here and in the nearby buildings if you'd like.
+区の本道に戻り、ここや近くの建物にいる人々に、必要なら話しかけてください。
 
-**Relationship Point Choices**:
-- Talk to Fern in North Obsidia Ward (+1 Fern)
+**好感度の選択肢**:
+- 北オブシディア区でファーンに話しかける (+1 ファーン)
 
-## Lapis Ward
+## ラピス区 {#lapis-ward}
 
-Head up the stairs to your left to enter the final ward of the city we've yet to explore!
+左手の階段を上ると、市内でまだ探索していない最後の区に入れます。
 
 !battle(["Lenore", :LADY, 0])
 
-Talk to the girl with the colorful hair in front of the very tall building, then head left.
+とても高い建物の前にいる、カラフルな髪の少女に話しかけたら左へ進みます。
 
 !battle(["Cole", :COOLTRAINER_Male, 0])
 
@@ -78,206 +78,206 @@ Talk to the girl with the colorful hair in front of the very tall building, then
 
 !battle(["Anastasia", :LADY, 0])
 
-Make your way to the very top of the area to talk to the purple haired girl and the guy with red hair. After this conversation we'll be free to explore the area. On the right:
+エリアの最上部まで進み、紫髪の少女と赤髪の男性に話しかけます。この会話のあと、自由に探索できるようになります。右手には:
 
 !battle(["Murray", :GENTLEMAN, 0])
 
-Hidden around the ward you can find *Great Ball*, *Blue Shard*, *Pecha Berry*, *Salt-Water Taffy*, *Poke Ball*, *X Defend*, and *Exp. Candy M*.
+区内の隠しアイテムとして *スーパーボール*、*あおいかけら*、*モモンのみ*、*ソルトタフィー*、*モンスターボール*、*ディフェンダー*、*けいけんアメM* があります。
 
-You can enter the Alleyway towards the middle of the ward, but we won't talk to the guys in here yet.
+区の中ほどから路地に入れますが、中の連中にはまだ話しかけません。
 
 !enc(170, ["Cave"])
 
-Enter the building in the middle of the top row of buildings, just to the left of the gym. The guy inside will teach your starter the pledge moves for some shards.
+建物が並ぶ最上段の中央、ジムのすぐ左の建物に入ります。中の男性が、かけらと引き換えに最初のパートナーへ「ちかい」技を教えてくれます。
 
 !tutor("Lapis Ward Move Tutor", [["Grass Pledge", "3 Green Shards"], ["Fire Pledge", "3 Red Shards"], ["Water Pledge", "3 Blue Shards"]])
 
-Enter the flower shop on the left side of the ward. Someone inside will give you the *Wailmer Pail*. In the top left corner, you can complete a puzzle to get **Spritzee**! The completed puzzle looks like this:
+区の左側にある花屋に入ります。中の人物が *ホエルコじょうろ* をくれます。左上の隅でパズルを解くと **シュシュプ** が手に入ります。完成形は次のとおりです。
 
 !img("spritzee.jpg")
 
 !shop("Sweet Scent Flowers (Top)", ["Honey", "Oran Berry", "Rose Incense", "Floral Charm", "Sachet", "PokeSnax"])
 
-We will eventually need 2 Floral Charms and around 25-30 Honeys for sidequests later. There is a cheaper option to get the honey later on, however.
+後々のサイドクエストで *はなのおまもり* が2個と、*あまいミツ* が25〜30個ほど必要になります。ただし、あまいミツはもっと安く手に入る方法が後で見つかります。
 
 !shop("Sweet Scent Flowers (Middle) (0-12 Badges)", ["Red Nectar", "Yellow Nectar", "Pink Nectar", "Purple Nectar"])
 
-If you're planning on switching around your Oricorio a lot, this is the shop for you.
+**オドリドリ** のすがたを頻繁に切り替えるつもりなら、ここが役に立ちます。
 
-Enter a small house on the left side of the ward and talk to a guy to get *TM21 Frustration*. In the Pokemart to your right, talk to a guy with a hood to get *TM07 Hail*. Next, enter the building to the right. For saving the kid from Scolipede, the mom here will give you the *Department Store Sticker: Drifloon*.
+区の左側にある小さな家に入り、男性に話しかけると *わざマシン21 やつあたり* がもらえます。右手のショップでは、フードをかぶった男性から *わざマシン07 あられ* がもらえます。次に右の建物へ。ペンドラーから子どもを救った礼に、ここの母親が *デパートシール: フワンテ* をくれます。
 
 !shop("Department Store 4F (Left)", ["Air Balloon", "White Herb", "Mental Herb", "Power Herb", "Absorb Bulb", "Snowball"])
 
-Some consumables that may be useful in a pinch. We will much later on need a White Herb for a quest.
+いざというときに役立つ消耗品が並びます。後々クエストで *しろいハーブ* が1つ必要になります。
 
 !shop("Department Store 4F (Right)", ["Smoke Ball", "Destiny Knot", "Power Weight", "Power Bracer", "Power Belt", "Power Anklet", "Power Lens", "Power Band", ["TM48 Round", 9000]])
 
-Finally some good things for sale in this building. The Power Items raise 32 EV's per defeated Pokemon and cancel out other EV's. Meaning if you catch a new Pokemon you simply have to defeat any 8 Pokemon with a Power Item to max out - or 17 total for a usual 252/252/4 spread. This is so incredibly fast that there is virtually no reason not to EV train in this game given how tough the fights can be. These are probably a bit too pricey for us right now, but keep in mind that they're here so when we have the cash we can immediately max out our EV's. If you're planning on breeding you can get a Destiny Knot.
+この建物でようやく良い品が並びました。パワー系アイテムは、倒したポケモン1匹につき努力値を32上げ、他の努力値を打ち消します。つまり新しく捕まえたポケモンでも、パワー系アイテムを持たせて8匹倒せば1つの能力を上限まで振れ、通常の252/252/4なら合計17匹で済みます。とてつもなく速いので、戦闘の厳しいこのゲームで努力値調整をしない理由はほぼありません。今の資金では少々高価ですが、ここにあることを覚えておけば、金ができ次第すぐ振り切れます。孵化厳選をするつもりなら *あかいいと* も買っておきましょう。
 
-Anyways, that's all we can do in Lapis for now, so head to the North Obsidia Ward.
+ともあれラピスでできることは以上なので、北オブシディア区へ向かいます。
 
-## The Grand Stairway
+## 大階段 {#the-grand-stairway}
 
-Talk to Cain here, and he will distract an officer so you can slip by.
+ここでカインに話しかけると、警官の気を引いてくれるので、その隙にすり抜けられます。
 
-**Relationship Point Choices**:
-- Talk to the guard 4 times while Cain is distracting him (-1 Cain)
+**好感度の選択肢**:
+- カインが気を引いている間に警備員へ4回話しかける (-1 カイン)
 
-You can find a hidden *Rock Gem* on the stairs. Head on down the ladder. You can find a *Green Shard* hidden in this first area. Head down the stairs again.
+階段では隠された *いわのジュエル* が見つかります。はしごを下りましょう。最初のエリアには *みどりのかけら* が隠れています。さらに階段を下ります。
 
 !enc(178)
 
-We will eventually need both a Chimecho and a Dunsparce for some sidequests, so get them here.
+後々のサイドクエストで **チリーン** と **ノコッチ** の両方が必要になるので、ここで捕まえておいてください。
 
-On this floor you'll find a hidden *Ghost Gem*. Head down the ladder.
+この階には隠された *ゴーストジュエル* があります。はしごを下ります。
 
 !enc(179)
 
-Pick up a hidden *Red Shard* and a *Dire Hit* to the right. Below here, you'll notice that there are some ledges we can hop down. If you hop down exactly four times, you can find a hidden *Focus Sash* here. Consider saving this for a situation that you really need it.
+隠された *あかいかけら* と、右手の *クリティカット* を拾います。ここから下には飛び降りられる段差がいくつかあります。ちょうど4回飛び降りると、隠された *きあいのタスキ* が見つかります。本当に必要な場面まで取っておくとよいでしょう。
 
-Down from here there are essentially four paths we can take down the ledges. I start by heading down the rightmost path first. Pick up a hidden *Guard Spec* then take the ladder. In the next room you can grab a hidden *Star Piece* then head into the small cave here. 
+ここから先、段差の下り方は大きく4通りあります。まずは一番右の道から。隠された *エフェクトガード* を拾ってはしごへ。次の部屋では隠された *ほしのかけら* を拾い、ここの小さな洞窟へ入ります。
 
 !enc(512, nil, nil, "Grand Stairway Crystal Room")
 
-"The Crystals glimmer with fissures" is a clue related to field effects - see if you can figure it out.
+「クリスタルに亀裂が走って輝いている」はフィールド効果に関する手がかりです。自分で解けるか試してみてください。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    The solution: use Magnitude or Bulldoze here on the field. Many of the wild Pokemon have one of these moves.
+    答え: このフィールドで *マグニチュード* か *じならし* を使う。野生ポケモンの多くがどちらかを覚えている。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the answer</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">答えを表示</a>
 </div>
 
-Once you do so, you can grab the *Crystal Cavern Field Readout*. Head back out then go up the ladder at the top. You can find a hidden *Heart Scale* as well as a *Magical Seed* and a *Exp. Candy M*. Can't do anything else here so head up the next ladder. In here you can pick up an *Ability Capsule* and hidden *Exp. Candy M* and *Red-Hots*.
+解くと *クリスタルのどうくつフィールドの資料* が手に入ります。外に戻り、上のはしごを上ってください。隠された *ハートのウロコ* のほか、*マジカルシード* と *けいけんアメM* が見つかります。他にできることはないので、次のはしごを上ります。ここでは *とくせいカプセル* と、隠された *けいけんアメM*、*シナモンキャンディ* が手に入ります。
 
-You'll notice that we're back on B1F, so head back down the ladder below to reach the ledges on B2F. This time we are going to take the ledges down to go all the way to the left. You'll reach a ladder. Upstairs, you can find a hidden *Ground Gem* and *Super Repel*. Head down the ledge - again we'll find ourselves at the familiar area of B1F.
+地下1階に戻ってきたことに気づくはずなので、下のはしごを下りて地下2階の段差まで戻ります。今度は段差を伝って一番左まで進みましょう。はしごに着きます。上の階では隠された *じめんのジュエル* と *シルバースプレー* が見つかります。段差を下りると、また見慣れた地下1階に戻ります。
 
-Head down to the sequence of ledges again. This time we will take the second-path from the left. Use your itemfinder as you're going down and you can obtain a *Green Shard*. Head to the left and go straight up. A guy will give you 3 *Exp. Candy M*. Nearby is a hidden *Blue Shard*. Go down the first set of stairs from here. You'll see a little pool of water coming out of the wall - head to the left from here, past some rocks to the left, to obtain *TM69 Rock Polish*! Head back down until you can go to the right. Climb these stairs - you'll find a hidden *Psychic Gem*, *X Speed*, and *PokeSnax* along the way.
+もう一度、段差の連なりまで下ります。今度は左から2番目の道です。下りながらダウジングマシンを使えば *みどりのかけら* が手に入ります。左へ進んでまっすぐ上へ。男性が *けいけんアメM* を3個くれます。近くには隠された *あおいかけら* があります。ここから最初の階段を下ります。壁から小さな水たまりが流れ出ているのが見えるので、そこから左へ、岩の脇を抜けて進むと *わざマシン69 ロックカット* が手に入ります。右へ行けるところまで下りてください。この階段を上る途中で、隠された *エスパージュエル*、*スピーダー*、*ポケスナック* が見つかります。
 
-Finally, we can take the huge series of ledges to take the third path from the left. Grab the hidden *X Sp. Atk* then head down the ladder here.
+最後に、長い段差の連なりを使って左から3番目の道へ。隠された *スペシャルアップ* を拾い、ここのはしごを下ります。
 
 !enc(180)
 
-Talk to the guy in the center here, then head to the left and talk to the two here for a battle. Victoria will partner with us:
+中央の男性に話しかけたら、左へ進んで2人に話しかけるとバトルです。ヴィクトリアが味方になります。
 
 !partner(["Victoria", :Victoria, 2])
 
 !dbattle(["Aster", :AsterKnight, 2], ["Eclipse", :EclipseDame, 2], "Crystal Cavern")
 
-Their four rock types have their attacks boosted on the field. They're all pretty fast, especially Midday Lycanroc, so you have to have a bit of bulk to live. With the help of Victoria's fighting type moves though you will probably be able to find a way through this with a team of six.
+相手のいわタイプ4匹は、このフィールドで攻撃が強化されます。全員それなりに素早く、特に **ルガルガン**（まひるのすがた）は速いので、耐えるにはある程度の耐久が必要です。とはいえヴィクトリアのかくとう技の援護もあるので、6匹編成なら突破口は見つかるはずです。
 
-You can accept Victoria's fast travel request afterwards. Back in North Obsidia Ward, Victoria will request that you battle her.
+その後、ヴィクトリアの高速移動の申し出は受けておきましょう。北オブシディア区に戻ると、ヴィクトリアからバトルを申し込まれます。
 
-**Relationship Point Choices**:
-- Say No to Victoria's battle request (-1 Victoria)
+**好感度の選択肢**:
+- ヴィクトリアのバトルの申し出を断る (-1 ヴィクトリア)
 
 !battle(["Victoria", :Victoria, 3])
 
-Since last time, Victoria has evolved some of her team, but she shouldn't be too much of a threat if you've been able to defeat all the gym leaders to this point. She has a bit of diversity on her team: Kirlia and Pikachu can hit moderately hard with their STAB Special moves. Torracat will dampen your physical sweeper and fight get some lucky flinches with Bite or Fire Fang. Ultimately, you can probably find a way to set up on Pancham or just overwhelm her in a 6v4.
+前回から手持ちが何匹か進化していますが、ここまでのジムリーダーを倒せているなら大した脅威ではないはずです。編成にはそれなりの幅があります。**キルリア** と **ピカチュウ** はタイプ一致の特殊技でそこそこ火力を出し、**ニャヒート** はこちらの物理エースを削りつつ、*かみつく* や *ほのおのキバ* のひるみを狙ってきます。最終的には **ヤンチャム** あたりで積むか、6対4の数の差で押し切れるでしょう。
 
-This is part of another gauntlet: time for another battle right after, though you do get healed.
+これも連戦の一部で、この直後にもう1戦あります。ただし回復は入ります。
 
 !battle(["Fern", :Hotshot, 2])
 
-Since last time, Fern has evolved his Roselia into Roserade, picked up a Rhyhorn, and evolved his Sandile. Thankfully, Rhyhorn and Dartrix aren't too incredible and each have exploitable 4x weaknesses. You don't want to let Krokorok sweep you, but it isn't too strong until it gets it's first boost, so a good switch can help against it. The big threat here is 31 IV Roserade - it's really fast and likes to pickup one-shots with Giga Drain and heal off whatever damage you've managed to get on it. Thankfully Rhyhorn isn't really a threat to most Pokemon, so the key to this fight is figuring out how to put yourself in a position to knock out Roserade before it comes out.
+前回からファーンはロゼリアを **ロズレイド** に進化させ、**サイホーン** を加え、メグロコも進化させています。幸いサイホーンと **フクスロー** はさほど強力ではなく、それぞれ4倍弱点を突けます。**ワルビル** に全抜きされたくはありませんが、最初の能力上昇までは大した火力ではないので、うまく交代すれば対処できます。最大の脅威は個体値31のロズレイドです。非常に素早く、*ギガドレイン* で一撃を狙いつつ、こちらが与えたダメージを回復してしまいます。幸いサイホーンはほとんどのポケモンにとって脅威ではないので、ロズレイドが出てくる前に倒せる態勢をどう作るかがこの戦いの鍵になります。
 
-After winning, you'll be given *TMX7 Rock Smash*. We can't use it in the field yet, however.
+勝つと *ひでんマシン7 いわくだき* がもらえます。ただし、まだフィールドでは使えません。
 
-Head to the nightclub up and to the right. You'll see a guy outside who you can talk to.
+右上のナイトクラブへ向かいます。外に男性がいるので話しかけられます。
 
-**Relationship Point Choices**:
-- Meet DJ Arclight outside the nightclub (+1 Arclight)
+**好感度の選択肢**:
+- ナイトクラブの外でDJアークライトに会う (+1 アークライト)
 
-Head back to Lapis Ward and attempt to enter the gym. Time for a battle!
+ラピス区へ戻り、ジムに入ろうとしてください。バトルです。
 
 !battle(["Cal", :OLDCAL, 0], "Rainbow Field atop No Field")
 
-The game forces rain on the overworld before this fight, so Drought Torkoal will cause it to be a Rainbow Field battle for eight turns. This makes Nature Power turn into boosted Aurora Beam, interestingly giving Ice type coverage to a Fire monotype team. Anyways, his team is fairly strong for this point under sun, so you're gonna have to be careful not to let his Houndoom and Magmortar destroy you with powered up Fire moves. The Rainbow field will also increase chances to burn, so your physical attackers may become crippled. One strategy you can use is changing the weather to something else; Rain will dampen his attacks, while the other two will cancel the Rainbow Field and deal chip damage. If you can knock out Torkoal he has no way to set up Sun after the first time, so you can use the Protect and Substitute TMs we now have to stall out the sun if you need to.
+この戦闘の前、ゲーム側でフィールドの天候が強制的に雨になります。そのため *ひでり* の **コータス** によって、8ターンのあいだ *虹のフィールド* での戦いになります。これにより *しぜんのちから* が強化された *オーロラビーム* に変わり、ほのお単タイプの編成に、こおりタイプの攻撃範囲が加わるという面白いことになります。ともあれ、日照下の相手はこの時点ではかなり強力なので、**ヘルガー** と **ブーバーン** の強化されたほのお技で壊滅させられないよう注意してください。虹のフィールドはやけどの確率も上げるため、こちらの物理アタッカーが機能停止させられることもあります。有効な戦法のひとつは天候を別のものに変えることです。雨なら相手の攻撃を弱められますし、残り2つの天候なら虹のフィールドを打ち消したうえで削りダメージも入ります。コータスさえ倒せば相手は二度目の日照を用意できないので、必要なら手に入れた *まもる* と *みがわり* のわざマシンで日照が切れるまで粘る手もあります。
 
-Head into the gym and go upstairs. Talk to the group here, then head outside and attempt to enter the orphanage in the center of Lapis Ward. A girl will leave. Head in. Inside, you'll have to defeat an Orderly.
+ジムに入って2階へ上がります。ここの一団に話しかけたら外へ出て、ラピス区中央の孤児院に入ろうとしてください。少女が出ていきます。中へ入ると、看護人と戦うことになります。
 
 !battle(["John", :Orderly, 0])
 
-After you leave, head back to the gym and go upstairs. We have our next main mission: challenging Shelly for a badge. We can talk to Victoria here as well.
+出たらジムへ戻り、2階へ上がります。次の目標が決まりました。シェリーにバッジを懸けて挑むことです。ここではヴィクトリアにも話しかけられます。
 
-**Relationship Point Choices**:
-- Talk to Victoria after Shelly tells you to have a battle with her (+1 Cal)
+**好感度の選択肢**:
+- シェリーからバトルを勧められたあとヴィクトリアに話しかける (+1 キャル)
 
-## Joining a Gang
+## ギャングへの加入 {#joining-a-gang}
 
-Before fighting Shelly, time for a quest. We are required to join a gang to finish the game. Technically we can do this later, but we might as well start now since there are some nice rewards. You get to choose which gang to join: the Magma Gang in the North Obsidia Alleyway, or the Aqua Gang in the Lapis Alleyway. Head over to your choice of alleyway.
+シェリーと戦う前にクエストです。ゲームをクリアするにはギャングへの加入が必須になります。厳密には後回しにもできますが、良い報酬があるので今のうちに始めておきましょう。どちらに入るかは選べます。北オブシディア路地のマグマ団か、ラピス路地のアクア団です。選んだほうの路地へ向かってください。
 
-### The Magma Gang Route (Part 1)
+### マグマ団ルート（前編） {#the-magma-gang-route-part-1}
 
-If you chose the Aqua Gang, [jump to the next section](#the-aqua-gang-route-part-1)
+アクア団を選んだ場合は[次の節へ進んでください](#the-aqua-gang-route-part-1)。
 
-Talk to the guys guarding the North Obsidia alleyway for a battle.
+北オブシディア路地を見張っている連中に話しかけるとバトルです。
 
 !dbattle(["Nihil", :MAGMA1, 0], ["Kriz", :MAGMA1, 0])
 
-Once you make it in, you'll find *TM46 Thief* as well as a hidden *Red-Hots*. Talk to Maxwell in the back.
+中に入ると *わざマシン46 どろぼう* と、隠された *シナモンキャンディ* が見つかります。奥のマクスウェルに話しかけてください。
 
-Make your way to the shack to the right of the flower shop in Lapis Ward. Talk to Maxwell here. Then make your way to Ms. Craudburry's house down from the Pokemon Center. Head into the backroom.
+ラピス区の花屋の右にある小屋へ向かいます。ここでマクスウェルに話しかけたら、ポケモンセンターから下ったクラウドバリー夫人の家へ向かい、奥の部屋に入ります。
 
 !battle(["Pierce", :AQUA2, 0])
 
 !battle(["DeFacto", :AQUA2, 0])
 
-You'll find a *Fire Stone* as well as **Buizel**. Talk to Maxwell inside, then head back to the Lapis Alleyway to talk to him again.
+*ほのおのいし* と **ブイゼル** が手に入ります。中でマクスウェルに話しかけたら、ラピス路地へ戻ってもう一度話しかけてください。
 
-We can now continue our ongoing stolen Pokemon quest as well. Just south of the North Obsidia alleyway you can find a Magma Gang member. He will tell you he already lost the Pokemon to an Aqua Gang member, but will give you a *Metronome*.
+これで、盗まれたポケモンを追うクエストも進められます。北オブシディア路地のすぐ南にマグマ団員がいます。話しかけると、ポケモンはすでにアクア団員に取られたと告げられ、*メトロノーム* をくれます。
 
-Head over to the Lapis Ward. To the west of the gym you'll find the Aqua Gang member.
+ラピス区へ向かいます。ジムの西にアクア団員がいます。
 
 !battle(["Jakob", :AQUA1, 0])
 
-Defeat him... only to learn he already sold the Pokemon to someone in 7th Street. That's all we can do for now.
+倒しても……ポケモンはすでに7番街の誰かに売られたと分かるだけです。今できるのはここまでです。
 
-### The Aqua Gang Route (Part 1)
+### アクア団ルート（前編） {#the-aqua-gang-route-part-1}
 
-If you chose the Magma Gang, [jump to the next section](#getting-the-bicycle-and-zorua)
+マグマ団を選んだ場合は[次の節へ進んでください](#getting-the-bicycle-and-zorua)。
 
-Talk to the guys guarding the Lapis alleyway for a battle.
+ラピス路地を見張っている連中に話しかけるとバトルです。
 
 !dbattle(["Mannie", :AQUA1, 0], ["Razzy", :AQUA1, 0])
 
-Once you make it in, you'll find *TM41 Torment*. Talk to Archer in the back.
+中に入ると *わざマシン41 いちゃもん* が見つかります。奥のアーチャーに話しかけてください。
 
-Make your way to the shack to the right of the flower shop in Lapis Ward. Talk to Archer here.
+ラピス区の花屋の右にある小屋へ向かい、ここでアーチャーに話しかけます。
 
-Just for completeness, Archer won't be blocking the pond in the alleyway anymore so we can fish here now.
+念のため触れておくと、アーチャーが路地の池を塞がなくなるので、ここで釣りができるようになります。
 
 !enc(170, ["Fishing"], ["Old"])
 
-Anyways, make your way to Ms. Craudburry's house, which is south of the Lapis Pokemon Center. Head into the backroom.
+さて、ラピスポケモンセンターの南にあるクラウドバリー夫人の家へ向かい、奥の部屋に入ります。
 
 !battle(["Darm", :MAGMA2, 0])
 
 !battle(["Break", :MAGMA2, 0])
 
-You'll find a *Water Stone* as well as **Ponyta**. Talk to Archer inside, then head back to the North Obsidia Alleyway to talk to him again.
+*みずのいし* と **ポニータ** が手に入ります。中でアーチャーに話しかけたら、北オブシディア路地へ戻ってもう一度話しかけてください。
 
-We can now continue our ongoing stolen Pokemon quest as well. Just south of the North Obsidia alleyway you can find a Magma Gang member.
+これで、盗まれたポケモンを追うクエストも進められます。北オブシディア路地のすぐ南にマグマ団員がいます。
 
 !battle(["Bunson", :MAGMA1, 0])
 
-Defeat him, and he will tell you an Aqua Gang member has the Pokemon already.
+倒すと、ポケモンはすでにアクア団員が持っていると教えてくれます。
 
-Head over to the Lapis Ward. To the west of the gym you'll find the Aqua Gang member. You'll learn that he already sold the Pokemon to someone in 7th Street, but he'll give you a *Metronome*. That's all we can do for now.
+ラピス区へ向かいます。ジムの西にアクア団員がいて、ポケモンはすでに7番街の誰かに売られたと分かりますが、*メトロノーム* をくれます。今できるのはここまでです。
 
-### Getting the Bicycle and Zorua
+### じてんしゃとゾロアの入手 {#getting-the-bicycle-and-zorua}
 
-Regardless of your gang choice, head over to Madame Craudburry's house once more. Inside, she'll try to get you arrested, but if you have saved all the Jasper Ward police officers, they'll trust that you are not a gang member. Hehehe.
+どちらのギャングを選んだ場合でも、もう一度クラウドバリー夫人の家へ向かってください。中で彼女はこちらを逮捕させようとしますが、ジャスパー区の警官を全員救出していれば、ギャングではないと信じてもらえます。してやったり、です。
 
-Head outside and try to leave, and the cop will even give you a *Bike Voucher*! Enter the building below and trade it away to get the *Bicycle*! Heck yes.
+外に出ようとすると、警官が *ひきかえけん* までくれます。下の建物に入って交換すると *じてんしゃ* が手に入ります。最高です。
 
-Now that we have our fancy bicycle, we can very quickly get all the way to Beryl Ward from Lapis Ward... so let's do that. Go onto the rooftop of the building where we once captured Helioptile on a clear night, and you'll see... Corey? Make your way to Peridot Ward next, where you'll encounter him near the Pokemart. Finally, head to North Obsidia Ward and enter the building to the left of the alleyway. Inside you'll find him once more... and be able to catch **Zorua**!
+立派な自転車を手に入れたので、ラピス区からベリル区まで一気に移動できます。というわけで実際にやってみましょう。以前エリキテルを捕まえた建物の屋上へ、快晴の夜に上がると……コーリーがいます。次にペリドット区へ向かうと、ショップの近くで彼に出くわします。最後に北オブシディア区へ行き、路地の左の建物に入ってください。中でもう一度彼に会い、**ゾロア** を捕まえられます。
 
-## Grand Hall Trainers 3
+## 大ホールのトレーナー その3 {#grand-hall-trainers-3}
 
-After defeating Corey, the trainers in the Grand Hall have gotten stronger once again. Defeating them will now yield 5 *Exp. Candy M*! The updated teams are as follows:
+コーリーを倒したことで、大ホールのトレーナーがまた強化されました。倒すと *けいけんアメM* を5個くれるようになります。更新後の編成は以下のとおりです。
 
-**Sunday**:
+**日曜日**:
 
 !battle(["Carol", :COOLTRAINER_Female, 0])
 
@@ -285,27 +285,27 @@ After defeating Corey, the trainers in the Grand Hall have gotten stronger once 
 
 !battle(["Fawkes", :COOLTRAINER_Male, 0])
 
-**Monday**:
+**月曜日**:
 
 !battle(["Jonah", :YOUNGSTER, 0])
 
-**Tuesday**:
+**火曜日**:
 
 !battle(["Jace", :COOLTRAINER_Male, 0])
 
-**Wednesday**:
+**水曜日**:
 
 !battle(["Silva", :PSYCHIC_Male, 0])
 
-**Thursday**:
+**木曜日**:
 
 !battle(["JB", :EXPERT_Male, 0])
 
-**Friday**:
+**金曜日**:
 
 !battle(["Will", :TechNerd, 0])
 
-**Saturday**:
+**土曜日**:
 
 !battle(["Anthony", :EXPERT_Male, 0])
 
@@ -313,44 +313,44 @@ After defeating Corey, the trainers in the Grand Hall have gotten stronger once 
 
 !dbattle(["Zach", :Casanova, 0], ["Beau", :LADY, 0])
 
-## Cocoon Badge
+## まゆバッジ {#cocoon-badge}
 
-Now it's time to go for our badge. Head into Shelly's gym and go to the right.
+いよいよバッジを取りに行きます。シェリーのジムに入って右へ進んでください。
 
 !battle(["Eugene", :TechNerd, 0], "Forest Field")
 
 !battle(["Eve", :LADY, 0], "Forest Field")
 
-In the back, accessible by using either of the two monitors behind the trainers:
+奥のエリアへは、トレーナーの背後にある2つのモニターのどちらかを使って入れます。
 
 !battle(["Charlie", :TechNerd, 0], "Forest Field")
 
 !battle(["Lily", :LADY, 0])
 
-There is a front area, a back area, and upstairs - your goal is to turn every single monitor that is in the area on and still successfully get to the upstairs area and cross the bookshelves. You can only cross from the front to the back area if one of the red, blue, and yellow stacks is exactly 1 unit tall.
+手前のエリア、奥のエリア、そして2階があります。目標は、全エリアのモニターをすべて点灯させたうえで、2階まで到達して本棚を渡り切ることです。手前から奥へ渡れるのは、赤・青・黄のいずれかの積み重ねがちょうど1段の高さのときだけです。
 
-Using this information, it can be fun to try to solve this puzzle yourself. The game actually has a cheeky secret way to solve it though:
+この情報をもとに、自力で解いてみるのも楽しいでしょう。ただしゲーム側には、ちょっとずるい解法が用意されています。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Simply check monitors for a light above or below it. If it is yellow, ignore it, if it is green, click that one next.  </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the secret to the Lapis Gym puzzle</a>
+    モニターの上下にあるランプを見るだけでよい。黄色なら無視し、緑ならそのモニターを次に押す。  </div>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">ラピスジムのパズルの解法を表示</a>
 </div>
 
-Whichever way you solve the puzzle, click the final monitor that you can find upstairs, then cross the bookshelves. You can find a *Leaf Stone* nearby.
+どちらの方法で解いた場合でも、最後は2階で見つかるモニターを押してから本棚を渡ります。近くには *リーフのいし* があります。
 
-Head up, and save before you fight Shelly.
+上へ進み、シェリーと戦う前にセーブしておきましょう。
 
 !battle(["Shelly", :SHELLY, 0], "Forest Field")
 
-I think this fight is wonderful because it sweeps the feet out from under new players that think Bug is a terrible type. The Forest Field, as we've seen, powers up Struggle Bug. It also gives Anorith a free Spiky Shield due to its seed. There is yet more synergy with Prankster Illumise's eight turn Rain Dance - it prevents you from burning the forest down, activates Anorith's Swift Swim, weakens your Fire types, and boosts the various Water moves she uses. Plus, it's the first gym that fights in doubles and the combination of Intimidate and Struggle Bug can make your attacks weak - all this combines to making a difficult fight that your team might not immediately be prepared for.
+この戦いは、むしタイプを弱いと思っている新規プレイヤーの足元をすくう点で、実に見事だと思います。これまで見てきたとおり *森林フィールド* は *むしのていこう* を強化します。さらに **アノプス** はシードによって *ニードルガード* を無料で得ます。加えて *いたずらごころ* の **イルミーゼ** による8ターンの *あまごい* との噛み合いも見事で、こちらが森を焼き払うのを防ぎ、アノプスの *すいすい* を発動させ、こちらのほのおタイプを弱め、相手が使う各種みず技を強化します。しかもダブルバトルで戦う最初のジムであり、*いかく* と *むしのていこう* の組み合わせでこちらの攻撃が弱体化します。これらが噛み合って、準備なしでは苦しい戦いになります。
 
-To win, you'll have to come up with a solid doubles strategy. We have some solid TMs like Substitute and Protect that can help with this fight, for one. There are also field manipulation tactics we can use here. The simplest and cheesiest option is to use Castform/Cherrim's Sunny Day or mystery egg Vulpix's Drought to make it sunny, which turns the field to Rainbow Field. You can then exploit the Rainbow Field by using Nature Power which becomes boosted Aurora Beam, and/or 140 flat damage Sonicboom to win. You can also switch up the weather to Hail or Sandstorm - this allows you to use specific Fire type moves to turn the field to the Burning Field, which is basically game over for Shelly if Illumise is knocked out.
+勝つには、しっかりしたダブルバトルの戦略が要ります。まず、この戦いには *みがわり* や *まもる* といった手持ちのわざマシンが役立ちます。フィールドを操作する手もあります。最も単純かつ露骨なのは、**ポワルン**／**チェリム** の *にほんばれ* か、謎のタマゴの **ロコン** の *ひでり* で晴れにし、*虹のフィールド* へ変えてしまうことです。そのうえで *しぜんのちから* が強化された *オーロラビーム* に変わる点を突いたり、固定140ダメージの *ソニックブーム* で押し切ったりできます。天候をあられやすなあらしに変える手もあり、この場合は特定のほのお技でフィールドを *燃えるフィールド* に変えられるので、イルミーゼさえ倒せていればシェリー側はほぼ詰みです。
 
-Another generally solid strategy is just abusing the field with your own Bug types - Joltik, Vespiquen, and all of the early-evolving stage 3 bugs can shine here. You can use Telluric Seeds if you have them as well to essentially buy your Pokemon a safe turn on switch in to generate some momentum or knock out a particular threat. Alternatively, bring your own Swift Swim team to abuse the rain and outspeed her team. Or, perhaps consider the funny Rock Slide button! Tons of options here if you think ahead about what your strategy will be.
+もうひとつ手堅いのは、こちらもむしタイプでフィールドを利用することです。**バチュル**、**ビークイン**、そして早い段階で最終進化するむしポケモンたちがここで輝きます。*テルリックシード* があれば、繰り出したターンを実質安全に使えるので、流れを作ったり特定の脅威を落としたりできます。あるいは自分の側で *すいすい* 編成を組み、雨を利用して相手を上から叩く手もあります。あるいはいっそ、*いわなだれ* という愉快なボタンを押すのも一興です。あらかじめ戦略を練っておけば、選択肢はいくらでもあります。
 
-**Relationship Point Choices**:
-- Defeat Shelly on your first try (+1 Victoria)
-- Defeat Shelly on a second, third, etc. try (-1 Victoria)
+**好感度の選択肢**:
+- 1回目でシェリーに勝つ (+1 ヴィクトリア)
+- 2回目以降でシェリーに勝つ (-1 ヴィクトリア)
 
-After you succeed, you will get the *Cocoon Badge* as well as *TM76 Struggle Bug*, you get to use Lv. 40 Pokemon, and you can now use Rock Smash in the field.
+勝利すると *まゆバッジ* と *わざマシン76 むしのていこう* がもらえ、Lv.40 までのポケモンが使えるようになり、フィールドで *いわくだき* が使えるようになります。

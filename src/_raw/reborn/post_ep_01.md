@@ -1,14 +1,14 @@
-# Postgame Episode 1: A Whole New World
+# ポストゲーム エピソード1: まっさらな新世界 {#postgame-episode-1}
 
-Bear with me: postgame is less episodically structured than the main game, and there aren't chapter names. So, I came up with my own names, with help from the Patreon Discord.
+ご了承ください。ポストゲームは本編ほど章立てがはっきりしておらず、章題もありません。そこで、Patreon の Discord の力を借りて、筆者が独自に名前を付けました。
 
-## The Developer Room
+## 開発者の部屋 {#the-developer-room}
 
-If this is the kind of thing that would interest you, enter the developer's room by talking to Ame's computer in the Grand Hall Basement. You can talk to the developers in here, though note that nothing in here is canon to Reborn.
+こういうものに興味があるなら、大ホールの地下でアメのコンピュータに話しかけると開発者の部屋に入れます。中では開発者たちに話しかけられますが、ここの内容はリボーンの正史ではない点にご注意ください。
 
-Anyways, the first thing we're going to do is grab the fourth Catching Charm. Make a beeline to the room in the top right corner to grab the *Catching Charm: Sapphire*!
+ともあれ、まず最初にやるのは4つ目のゆれないおまもりの回収です。右上の隅の部屋へ一直線に向かい、*ゆれないおまもり・サファイア* を手に入れましょう!
 
-There is a case to be made that you should save actually talking to all these NPC's and reading the content here until after you've also beaten the postgame, though I will cover the currently available contents here regardless. You can battle the folks here optionally just for fun they'll give us BP for the Nightclub, which we'll get to in a bit. - they don't give any EXP and lock all levels to 100. They also use a ton of illegal movesets and some have custom abilities and typings.
+ここのNPCすべてに話しかけて内容を読むのは、ポストゲームを終えてからにするという考え方もありますが、ここでは現時点で見られる内容をひととおり扱います。ここの面々とは任意で戦えます。純粋に楽しみのためでもありますし、後ほど扱うナイトクラブ用のBPももらえます。経験値は入らず、レベルはすべて100に固定されます。また、非合法な技構成を多用し、独自の特性やタイプを持つ者もいます。
 
 !battle(["Autumn", :AUTUMN, 0], "Rainbow Field")
 
@@ -18,7 +18,7 @@ There is a case to be made that you should save actually talking to all these NP
 
 !battle(["Jan", :JAN, 0], "Glitch Field")
 
-Jan? Wait, I know that guy from Rejuvenation!
+ジャン? 待ってください、『Rejuvenation』のあの人ですよね!
 
 !battle(["Marcello", :MARCELLO, 0])
 
@@ -26,7 +26,7 @@ Jan? Wait, I know that guy from Rejuvenation!
 
 !battle(["Vulpes", :VULPES, 0], "Fairy Tale Arena OR Starlight Arena")
 
-You can also talk to Vulpes to unlock an alternate fight with their Animations team.
+ウルペスに話しかけると、アニメーション班の編成との別バトルも解放されます。
 
 !battle(["Vulpes", :VULPES, 1], "Fairy Tale Arena OR Starlight Arena")
 
@@ -36,15 +36,15 @@ You can also talk to Vulpes to unlock an alternate fight with their Animations t
 
 !battle(["Cass", :CASS, 3])
 
-You can talk to Cass about Ame to talk to Ame and battle her as well:
+キャスにアメのことを尋ねると、アメ本人と話し、戦うこともできます。
 
 !battle(["Amethyst", :AME, 1])
 
-Of course, the one and only:
+もちろん、唯一無二のあの人も。
 
 !battle(["Kyra", :KYRA, 0])
 
-Talking to the graves and papers in the backroom will also allow us to fight more former developers:
+奥の部屋の墓や書類に話しかけると、かつての開発者たちとも戦えます。
 
 !battle(["Lia", :SPIRITF, 0])
 
@@ -62,86 +62,86 @@ Talking to the graves and papers in the backroom will also allow us to fight mor
 
 !battle(["Koyo", :SPIRITF, 0])
 
-It's also worth noting at this point that the level cap has silently gone up to Lv. 105!
+なお、この時点でレベル上限が密かに105へ上がっていることも触れておく価値があります!
 
-## The Nightclub
+## ナイトクラブ {#the-nightclub}
 
-Head over to North Obsidia Ward - we can finally enter the nightclub!
+北オブシディア区へ向かいます。ついにナイトクラブに入れます!
 
-Once you talk to Arclight, you'll be free to move around. If you talk to the machine to the left of the nerd at the top, you can turn the chaotic lights off, if you'd like. Talk to the nerd here to record Pokemon's movesets - by doing this, you can save time (and Heart Scales) from having to visit tutors.
+アークライトに話しかけると自由に動けるようになります。上部のオタクっぽい人物の左にある機械に話しかけると、よければ騒がしい照明を消せます。ここのオタクに話しかけると、ポケモンの技構成を記録できます。これで技教え人のもとへ通う手間（とハートのウロコ）を節約できます。
 
-Talk to the various characters around the nightclub, if you'd like.
+よければ、ナイトクラブのあちこちにいる面々にも話しかけてみてください。
 
-In the top left corner, there are various battle facilities. Winning them grants you Battle Points (BP) which can be exchanged for items.
+左上の隅にはさまざまなバトル施設があります。勝つとバトルポイント（BP）がもらえ、アイテムと交換できます。
 
 !shop("Nightclub BP Rewards (Bottom)", [    ["Lonely Mint", "1 BP"], ["Brave Mint", "1 BP"], ["Adamant Mint", "1 BP"], ["Naughty Mint", "1 BP"], ["Bold Mint", "1 BP"], ["Relaxed Mint", "1 BP"], ["Impish Mint", "1 BP"], ["Lax Mint", "1 BP"], ["Timid Mint", "1 BP"], ["Hasty Mint", "1 BP"], ["Serious Mint", "1 BP"], ["Jolly Mint", "1 BP"], ["Naive Mint", "1 BP"], ["Modest Mint", "1 BP"], ["Mild Mint", "1 BP"], ["Quiet Mint", "1 BP"], ["Rash Mint", "1 BP"], ["Calm Mint", "1 BP"], ["Gentle Mint", "1 BP"], ["Sassy Mint", "1 BP"], ["Careful Mint", "1 BP"]])
 
 !shop("Nightclub BP Rewards (Middle)", [["Choice Band", "24 BP"], ["Choice Specs", "24 BP"], ["Choice Scarf", "27 BP"], ["Assault Vest", "24 BP"], ["Focus Sash", "5 BP"], ["EXP All Upgrade", "1 BP"], ["Remote PC", "14 BP"], ["5 Cell Batteries", "5 BP"]])
 
-Note that the Remote PC is only available after buying the EXP All Upgrade, and the batteries only after the PC.
+なお、リモートPCは「みんなのがくしゅうそうちアップグレード」を買ったあとにのみ、じゅうでんちはリモートPCを買ったあとにのみ購入できます。
 
 !shop("Nightclub BP Rewards (Top)", [["8 Exp. Candy XL", "1 BP"], ["50 Exp. Candy XL", "5 BP"], ["Ability Capsule", "1 BP"], ["2 Heart Scales", "2 BP"], ["Rare Candy", "1 BP"], ["3 EV Tuners", "2 BP"], ["2 EV Boosters", "3 BP"], ["PP All", "4 BP"], ["Reborn Ball", "9 BP"], ["10 Glitter Balls", "5 BP"], ["Sacred Ash", "13 BP"]])
 
-To win BP, you can participate in the Nightclub's Battle Pavilion: Battle Tower and Battle Factory-style competitions, Theme Teams, and Mix N' Match. Try out these options and earn some BP if you'd like, or skip ahead to [the next section](#vanhanen-castle-new-world) to continue the postgame story.
+BPを稼ぐには、ナイトクラブのバトルパビリオンに参加します。バトルタワー形式とバトルファクトリー形式の挑戦、テーマチーム、ミックスンマッチがあります。よければこれらを試してBPを稼いでもいいですし、ポストゲームの物語を進めたければ[次の節](#vanhanen-castle-new-world)へ飛んでください。
 
-## Battle Pavilion Facilities
+## バトルパビリオンの施設 {#battle-pavilion-facilities}
 
-The Battle Tower and Battle Factory modes work similarly to canon: the former lets you bring a team of three, and the latter has you choose randomly from a pool. There is also a Battle Palace mode in which your Pokemon fight for you (though choose moves much more wisely than in canon). In these modes you can optionally choose to enable random field effects as well.
+バトルタワー形式とバトルファクトリー形式は原作とほぼ同じ仕組みです。前者は3匹の編成を持ち込め、後者はプールからランダムに選びます。ポケモンが自分で行動を選ぶバトルパレス形式もあります（ただし原作よりずっと賢く技を選びます）。これらの形式では、任意でランダムなフィールド効果を有効にすることもできます。
 
-Challenges in the Tower, Factory, and Palace are sets of five battles: losing a set rewards the player with *BP* equal to the number of battles won. If the player wins the set of five, *BP* is awarded as follows: `BP = w // 2 + 5 + 3RF + 3DB`, where `w` is the current win streak, `RF` is Random Fields being enabled and `DB` is doubles being enabled.
+タワー、ファクトリー、パレスの挑戦はいずれも5連戦です。セットに敗れた場合は、勝った数と同じだけの *BP* がもらえます。5連戦に勝ち切った場合の *BP* は次の式で決まります。`BP = w // 2 + 5 + 3RF + 3DB`。ここで `w` は現在の連勝数、`RF` はランダムフィールドの有効化、`DB` はダブルバトルの有効化を表します。
 
-For the first four fights of each set in the Tower and Palace and all battles in the Factory, specific Pokemon sets as well as Trainer information for these facilities can be found within the `btpokemon.rb` and `bttrainers.rb` files in the game's `Scripts` directory.
+タワーとパレスの各セットの最初の4戦、およびファクトリーの全バトルについて、個別のポケモンの型とトレーナー情報は、ゲームの `Scripts` ディレクトリ内の `btpokemon.rb` と `bttrainers.rb` にあります。
 
-The final fight of each Battle Tower set is against an NPC boss. Note the opponents' *default* fields can be overwritten if the random field option is on. Here are the boss battles for singles:
+バトルタワーの各セットの最終戦は、NPCのボスが相手です。なお、相手の *既定の* フィールドは、ランダムフィールドを有効にしていると上書きされます。シングルのボス戦は次のとおりです。
 
 !btsinglesboss()
 
-Here are the boss battles for doubles:
+ダブルのボス戦は次のとおりです。
 
 !btdoublesboss()
 
-Theme Teams allows you to fight the game's NPCs with specific themed teams - beating them (except Julia's "Kaboom" team) will award you *4 BP*.
+テーマチームでは、特定のテーマで編成されたゲーム内NPCと戦えます。勝つと *4 BP* がもらえます（ジュリアの「Kaboom」編成を除く）。
 
-Mix N' Match allows you to do 2v2 fights of these NPC teams: you get to optionally pick a partner and fight two selected opponents. Note that you can only select partners with which you have a certain amount of relationship points with. Every Mix N' Match fight with a partner awards *4 BP* upon a win, while a solo fight against two opponents will award *8 BP* instead.
+ミックスンマッチでは、これらのNPC編成で2対2の戦いができます。任意で相棒を選び、選んだ相手2人と戦えます。なお、相棒に選べるのは一定以上の好感度がある相手だけです。相棒を連れたミックスンマッチは勝つと *4 BP*、相手2人に単独で挑む場合は *8 BP* がもらえます。
 
-*Note that certain trainers will not be available during certain story events for Theme Teams and Mix N' Match*. Regardless, listed in full, the pool of Theme Teams and Mix N' Match trainers is as follows:
+*なお、テーマチームとミックスンマッチでは、特定の物語イベント中は選べないトレーナーもいます。* ともあれ、テーマチームとミックスンマッチのトレーナーの全一覧は次のとおりです。
 
 !ttbattles()
 
-## Vanhanen Castle New World
+## バンハネン城の新世界 {#vanhanen-castle-new-world}
 
-On the right side of the room, talk to Cass.
+部屋の右側でキャスに話しかけます。
 
-**Relationship Point Choices**:
-- Tell Cass you aren't ready to start your first postgame quest repeatedly (-1 Noel, -1 Serra)
+**好感度の選択肢**:
+- 最初のポストゲームクエストを始める準備ができていないと、キャスに繰り返し伝える (-1 ノエル, -1 セラ)
 
-She will give us our first of many legendary quests: we're wanted in Vanhanen Castle!
+彼女は数あるうちの最初の伝説クエストをくれます。バンハネン城でお呼びがかかっています!
 
-Fly over to Vanhanen Castle and go in. Where we once fought Cain, you'll see a New World Door on the second level. Head in.
+バンハネン城へ飛び、中に入ります。かつてカインと戦った場所の2階に、新世界の扉が見えます。入りましょう。
 
 !enc(831, nil, nil, "New World (Vanhanen Castle)")
 
-Enter the door in the top right, follow the path, and talk to the orb. Return to the New World hub. This time, follow the door in the top left. Talk to the orb at the end and return. Finally, go to the bottom right and talk to the Shiinotic.
+右上の扉に入り、道をたどってオーブに話しかけます。新世界の中央広間へ戻ります。今度は左上の扉へ進みます。突き当たりのオーブに話しかけて戻ります。最後に右下へ向かい、マシェードに話しかけます。
 
 !battle(["Pokemon", :SHIINOTIC, 0], "Chess Board")
 
-Talk to the next orb. The door at the top of the hub will now be open: follow it and defeat another Shiinotic. Grab the next orb.
+次のオーブに話しかけます。これで広間の上部の扉が開くので、そこを進んでもう1匹のマシェードを倒します。次のオーブを回収してください。
 
-Back in the hub, enter the top right room once more. The door at the top will now be unlocked, so follow it in.
+広間に戻り、もう一度右上の部屋に入ります。上部の扉のロックが解除されているので、そこを進みます。
 
 !battle(["Cresselia", :CRESSELIA, 0], "New World")
 
-Our first Anomaly battle! Note that this another fight on the New World field. The first four Pokemon use this field beneficially to some extent, but Ice and field-boosted Dark moves can generally shut them down. The first Cresselia will always use Lunar Dance, sacrificing itself to give an omniboost to the second Cresselia. Note the Magical Seed, meaning the second Cresselia will always get two omniboosts, but will need to recharge on the first turn it is out. That means you can use Toxic, Psych Up, Haze, Trick Room, etc. for free and whittle it down with the remainder of your team.
+最初のアノマリー戦です! これも新世界フィールドでの戦いである点に注意してください。最初の4匹はこのフィールドをある程度有利に使ってきますが、こおり技とフィールド強化されたあく技があれば、おおむね封じられます。1匹目のクレセリアは必ず *みかづきのまい* を使い、自らを犠牲にして2匹目のクレセリアに全能力上昇を与えます。*マジカルシード* にも注目してください。つまり2匹目のクレセリアは必ず全能力上昇を2回分得ますが、出てきた最初のターンは反動で動けません。そのため、*どくどく*、*じこあんじ*、*くろいきり*、*トリックルーム* などを無償で使え、残りの手持ちで削り倒せます。
 
-Once you win, you'll be immediately thrown into a battle with a wild **Cresselia**, which you can now catch. Don't worry, this fight is much easier than the previous, you just have to catch it. It's worth noting that you can often mash the auto-save key (default 'D') between the Anomaly battle and the legendary fight if you want. You can also grind the Nightclub facilities to get Reborn Balls if catching the legendaries is too much of a pain.
+勝つと、そのまま野生の **クレセリア** との戦いに突入し、今度は捕まえられます。ご安心を。この戦いは先ほどよりずっと簡単で、捕まえるだけです。なお、アノマリー戦と伝説戦の間で、自動セーブのキー（既定では「D」）を連打しておくのも有効です。伝説の捕獲があまりに面倒なら、ナイトクラブの施設で稼いでリボーンボールを集める手もあります。
 
-Luna will give us the *Gather Cube* afterwards.
+そのあと、ルナが *ギャザーキューブ* をくれます。
 
-Return to the Nightclub!
+ナイトクラブへ戻りましょう!
 
-While you're here, more NPC's will have returned to the nightclub. In particular, you can show Florinia the Naganadel we got earlier (or other Ultra Beasts we'll find later) to get 5 *Beast Balls*.
+ついでに触れておくと、ナイトクラブにはさらに多くのNPCが戻ってきています。特に、先ほど手に入れたアーゴヨン（または後ほど見つかる他のウルトラビースト）をフロリニアに見せると、*ウルトラボール* が5個もらえます。
 
-**Relationship Point Choices**:
-- Show Florinia an Ultra Beast (+1 Florinia)
+**好感度の選択肢**:
+- フロリニアにウルトラビーストを見せる (+1 フロリニア)
 
-That's it for the first Postgame Episode!
+ポストゲーム第1話は以上です!

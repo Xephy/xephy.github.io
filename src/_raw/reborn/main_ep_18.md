@@ -1,456 +1,456 @@
-# Episode 18: Void-Kissed
+# エピソード18: 虚無の口づけ {#episode-18}
 
-Exit the gym! Time to progress the story just a little bit in order to knock out some sidequests.
+ジムを出ましょう! サイドクエストをいくつか片付けるために、物語を少しだけ進めます。
 
-Head over to Calcenon City, then enter "that one apartment building where a bunch of plot happens, for some reason". You know the one.
+カルセノンシティへ向かい、「なぜかいつも物語が動くあの集合住宅」に入ります。あれのことです。
 
-**Relationship Point Choices**:
-- Agree with Hardy about charging the base (+1 Hardy, -1 Florinia)
-- Disagree with Hardy about charging the base (-1 Hardy, +1 Florinia)
+**好感度の選択肢**:
+- 基地への突入にハーディと同意する (+1 ハーディ, -1 フロリニア)
+- 基地への突入にハーディと反対する (-1 ハーディ, +1 フロリニア)
 
-Head out towards Route 4. In the gatehouse, talk to Charlotte if you'd like.
+4番道路へ向かいます。ゲートでは、よければシャルロットに話しかけてください。
 
-**Relationship Point Choices**:
-- Tell Charlotte you believe her while you have >= 0 points with her (+1 Charlotte)
-- Tell Charlotte you believe her while you have < 0 points with her (-1 Charlotte)
-- Tell Charlotte you don't believe her while you have >= 0 points with her (-1 Charlotte)
-- Tell Charlotte you don't believe her while you have < 0 points with her (+1 Charlotte)
+**好感度の選択肢**:
+- シャルロットの好感度が0以上のときに、信じていると伝える (+1 シャルロット)
+- シャルロットの好感度が0未満のときに、信じていると伝える (-1 シャルロット)
+- シャルロットの好感度が0以上のときに、信じていないと伝える (-1 シャルロット)
+- シャルロットの好感度が0未満のときに、信じていないと伝える (+1 シャルロット)
 
-**Relationship Point Choices**:
-- Tell Charlotte you are going to do something about it (+1 Charlotte)
+**好感度の選択肢**:
+- 何とかするつもりだとシャルロットに伝える (+1 シャルロット)
 
-Head out to Route 4. On the east end of the right, you'll see Hardy standing next to a Rock Climbing wall, and as you might guess, he gives us *TMX9 Rock Climb*. Up the nearby hill would be where we'd go to continue the story, but we do have a few sidequests to take care of in the meantime!
+4番道路へ出ます。右手の東端に、ロッククライム用の壁のそばに立つハーディがいて、ご想像のとおり *ひでんマシン9 ロッククライム* をくれます。近くの丘の上が物語を進める先ですが、その前に片付けたいサイドクエストがいくつかあります。
 
-## Reborn Restoration Project 3
+## リボーン復興プロジェクト その3 {#reborn-restoration-project-3}
 
-With 16 badges in hand, we can finally complete the third and last of the Grand Hall restoration projects.
+バッジ16個が揃ったので、ついに大ホールの復興プロジェクト3つ目、最後の1つを完了できます。
 
-**Relationship Point Choices**:
-- Fund Project #3 (+1 Adrienn)
+**好感度の選択肢**:
+- 計画その3に出資する (+1 アドリエンヌ)
 
-Once you've funded all three projects, the guy at the desk will give you the *Absolite*.
+3つすべてに出資し終えると、受付の男が *アブソルナイト* をくれます。
 
-If you'd like to complete another one, the choices and corresponding references are here:
+もう1つ完了させたい場合、選択肢と対応する参照先は次のとおりです。
 
-- [Affordable Living in Obsidia](#affordable-living-in-obsidia-project) ($60000)
-- [Railnet Reconstruction](#railnet-reconstruction-project) ($100000)
-- [Azurine Nature Center](#azurine-nature-center-project) ($80000)
+- [オブシディアの手頃な住まい](/reborn/episode-17/#affordable-living-in-obsidia-project) ($60000)
+- [鉄道網再建](/reborn/episode-17/#railnet-reconstruction-project) ($100000)
+- [アズリンネイチャーセンター](/reborn/episode-17/#azurine-nature-center-project) ($80000)
 
-## Starter Egg Quest Part 2
+## 最初のパートナーのタマゴクエスト (中編) {#starter-egg-quest-part-2}
 
-Since the last time we made progress on this quest, it is now guaranteed that we can complete all three of the restoration projects, meaning by now it is guaranteed that we can breed Bulbasaur, Chimchar, and either Oshawott or Litten depending on gang choice. We also recently found Rowlet, so we can donate four more eggs to Kamaya in the Grand Hall.
+前回このクエストを進めたときから、復興プロジェクト3つすべてを完了できることが確定したので、フシギダネ、ヒコザル、そして団の選択に応じてミジュマルかニャビーを繁殖できることも確定しました。さらに最近モクローも手に入れたので、大ホールのカナヤにあと4個のタマゴを寄贈できます。
 
-This brings the total up to 17/21 eggs donated; since we passed 15, that means we get the *Reset Disc- SPDEF* as a reward. The next time I will bring us back here, we will for sure have the last four starters to finish this quest.
+これで寄贈数は21個中17個になります。15個を超えたので、報酬として *リセットディスク・とくぼう* がもらえます。次にここへ戻ってくるときには、残る4種の最初のパートナーが確実に揃い、このクエストを完了できます。
 
-## Rock Climb Exploration
+## ロッククライムでの探索 {#rock-climb-exploration}
 
-We've chopped down menacing small trees. We've smashed brittle rocks and pushed aside heavy boulders. We've crossed massive bodies of water, gone up perilous waterfalls and dived down to the deepest trenches imaginable. We've lit up the darkest of dungeons and flown across the vast Reborn Region. But now? It's finally time to climb rocks.
+不気味な小さい木を切り倒しました。もろい岩を砕き、重い岩を押しのけました。広大な水域を渡り、危険な滝を登り、想像しうる最深部まで潜りました。最も暗いダンジョンを照らし、リボーン地方を空から駆け抜けました。そして今度は――ついに岩を登る番です。
 
-You can probably tell we're reaching the endgame, so there are tons of excellent but optional rewards that we can now get with Rock Climb. Follow along to grab 'em all, or jump to the Route 4 section to get on with the story. Note that any rock walls that I don't mention here are merely shortcuts (and, mostly obsolete thanks to Fly).
+もう終盤に差しかかっているのが分かるとおり、ロッククライムで手に入る任意の報酬が山ほどあります。全部集めたいならこのまま読み進め、物語を進めたいなら4番道路の節へ飛んでください。なお、ここで触れていない岩壁は単なる近道です（しかも「そらをとぶ」があるので、たいてい用済みです）。
 
-### Climbin' at Azurine & Apophyll
+### アズリンとアポフィルでのクライム {#climbin-at-azurine--apophyll}
 
-I'll start with some easy ones. Fly over to Azurine Island. Surf up from the nature center - towards the middle of the big island, you'll see a climbable wall. At the end of the short path above it, you'll be able to pick up the *Poisonium-Z*!
+簡単なものから始めます。アズリン島へ飛びます。ネイチャーセンターから上へなみのりすると、大きな島の中央寄りに登れる壁が見えます。その上の短い道の突き当たりで *ドクZ* が手に入ります。
 
-Next, fly over to Apophyll Beach. Make your way towards Pyrous Mountain, and climb down to get *TM52 Focus Blast*. Hope you don't miss!
+次にアポフィルビーチへ飛びます。パイロス山の方向へ進み、下へ降りると *わざマシン52 きあいだま* が手に入ります。外さないことを祈ります。
 
-### Climbin' at Teknite Ridge
+### テクナイト尾根でのクライム {#climbin-at-teknite-ridge}
 
-First, fly over to the desert. Make your way all the way to the Teknite Cave in the northwest. Progress through the cave until you reach the split paths on 4F. Use the top left exit and make your way all the way to the dead end.
+まずは砂漠へ飛びます。北西のテクナイトどうくつまでずっと進みます。洞窟を進んで4階の分岐路まで来たら、左上の出口を使い、突き当たりまでずっと進んでください。
 
-By hopping across some rocks to the top left corner, you'll notice a climbing wall. At the top, you can find a hidden *Ability Capsule* and a **Jangmo-o** egg! Sweet.
+左上の隅へ岩を伝って飛び移ると、登れる壁が見えます。頂上では隠された *とくせいカプセル* と **ジャラコ** のタマゴが手に入ります。ありがたい。
 
-That's not all we can do in the Teknite Ridge, but we will be accessing a different side of the ridge to finish up.
+テクナイト尾根でできることはこれだけではありませんが、残りは尾根の別の側からアクセスします。
 
-Fly over to the Beryl Ward, and enter the Beryl Cave. On 1F, you can use Rock Climb to access a new area. Grab the hidden *Red Shard* and head into the next room, which has a hidden *Hard Stone*. Climb up once more to emerge into a new section of the Teknite Ridge.
+ベリル区へ飛び、ベリルどうくつに入ります。1階でロッククライムを使うと新しいエリアへ行けます。隠された *あかいかけら* を拾って次の部屋へ進むと、そこには隠された *かたいいし* があります。もう一度登ると、テクナイト尾根の新しい区画に出ます。
 
 !enc(744, nil, nil, "Teknite Ridge (Beryl Cave Side)")
 
-Hidden on this map, we can obtain a *Green Shard*, *Energy Powder*, *Dusk Ball*, *Common Candy*, and *Calcium*. Enter the cave at the top.
+このマップには *みどりのかけら*、*ちからのこな*、*ダークボール*、*ふつうのアメ*、*リゾチウム* が隠されています。上部の洞窟に入ってください。
 
 !enc(746, nil, nil, "Teknite Cave (Beryl Cave Side)")
 
-Grab the hidden *Heart Scale*. We'll need to transform this field to Dark Crystal Cavern - using the TM for Dark Pulse, this should be doable.
+隠された *ハートのウロコ* を拾います。このフィールドを暗黒クリスタルのどうくつに変える必要がありますが、*あくのはどう* のわざマシンを使えば何とかなるはずです。
 
-Once you succeed, smash the wall at the top and proceed to the next room. Head up once you're ready for a fight.
+成功したら、上部の壁を割って次の部屋へ進みます。戦う準備ができたら上へ向かいましょう。
 
 !battle(["Fulgor", :VOLCARONA, 0], "Dark Crystal Cavern")
 
-A fight against one strong Pokemon! Pick up the *Catching Charm: Ruby* here, as well as the hidden *Fire Stone* and *Ability Capsule*. Talk to the sunburst thing in the top right side of the room to battle and catch **Larvesta**!
+強力な1匹との戦いです。ここでは *ゆれないおまもり・ルビー* に加えて、隠された *ほのおのいし* と *とくせいカプセル* を拾ってください。部屋の右上側にある日輪のようなものに話しかけると、**メラルバ** と戦って捕まえられます。
 
-Exit the cave. You can fly out from the Ridge.
+洞窟を出ます。尾根からは「そらをとぶ」で出られます。
 
-### Climbin' at Route 2 and Route 3
+### 2番道路と3番道路でのクライム {#climbin-at-route-2-and-route-3}
 
-Fly to the Celestinine Cascade. By heading down the stairs from the Fiore Gym, climb the first rock wall you see to get *TM28 Leech Life*. If you haven't moved the nearby Crustle to access the cave behind it, Rock Climb will make doing this easy.
+セレスティナイン滝へ飛びます。フィオレジムから階段を下り、最初に見える岩壁を登ると *わざマシン28 きゅうけつ* が手に入ります。奥の洞窟へ入るために近くのイワパレスをまだ動かしていない場合も、ロッククライムがあれば簡単です。
 
-Make your way to the north side of Route 2. On the right, you'll see a short climb leading to 5 *Exp. Candy XL*.
+2番道路の北側へ向かいます。右手に短い登りがあり、その先に *けいけんアメXL* 5個があります。
 
-Next, climb the ladder to Route 3. Climb down the single tile Rock Climb to skip the first cave, then go as far right as you can. Enter the next cave and climb the rock in the top left corner inside to get a hidden *Exp. Candy XL*. From here, proceed all the way through the cave as we did once before until you emerge back on Route 3.
+次に、はしごを登って3番道路へ行きます。1マス分のロッククライムを下りて最初の洞窟を飛ばし、行ける限り右へ進みます。次の洞窟に入り、中の左上の隅の岩を登ると、隠された *けいけんアメXL* が手に入ります。そこからは以前と同じように洞窟を抜け、3番道路へ戻ります。
 
-From here, go right and climb down the rocks nearby. Grab the hidden *Synthetic Seed* and enter the nearby cave. Here, you can get *TM53 Energy Ball*, a *Dragon Fang*, and a hidden *Full Restore*. Exit this cave.
+そこから右へ進み、近くの岩を下ります。隠された *シンセティックシード* を拾い、近くの洞窟に入ります。ここでは *わざマシン53 エナジーボール*、*りゅうのキバ*、隠された *かいふくのくすり* が手に入ります。この洞窟を出ましょう。
 
-### Climbin' in Tanzan Depths
+### タンザン深部でのクライム {#climbin-in-tanzan-depths}
 
-Fly over to the Tanzan Cove and enter the main part of Tanzan Mountain. Go past the meteor base and down the stairs to enter the Tanzan Depths.
+タンザン入り江へ飛び、タンザン山の主要部に入ります。メテオ団の基地を過ぎて階段を下り、タンザン深部へ入ります。
 
-In the area where we fought Steelix, make your way to the top left and climb across the metal beam. Climb up here. You'll find a *Muscle Band*, *Rock Memory*, *Big Nugget*, and *Kangaskhanite* here as well as hidden items: *Escape Rope*, 4 *Tiny Mushrooms*, *Green Shard*, *Red Shard*, *Exp. Candy XL*, *Awakening*, *Blue Shard*, and *Carbos*.
+ハガネールと戦ったエリアで左上へ進み、鉄骨を渡ります。ここを登ってください。*ちからのハチマキ*、*ロックメモリ*、*でかいきんのたま*、*ガルーラナイト* に加えて、隠しアイテムとして *あなぬけのヒモ*、*ちいさなキノコ* 4個、*みどりのかけら*、*あかいかけら*、*けいけんアメXL*、*ねむけざまし*、*あおいかけら*、*インドメタシン* が手に入ります。
 
 !battle(["Will", :PkMnRANGER_Male, 0], "Cave Field")
 
-Enter any one of the three caves.
+3つある洞窟のうち、どれでもよいので入ってください。
 
 !enc(614, nil, nil, "Tanzan Depths (Gem Caves)")
 
-Use Earthquake, Magnitude, etc. in a battle twice to make some green crystal gems fall - this is necessary to explore the other part of the Tanzan Depths.
+バトル中に *じしん* や *マグニチュード* などを2回使うと、緑の水晶がいくつか落ちてきます。これはタンザン深部のもう一方の区画を探索するために必要です。
 
-Use an Escape Rope or Dig to save time if you'd like, and return to Tanzan Cove. Surf across the cove and enter the Tanzan Mountain entrance here. Climb down the rocks.
+時間を節約したければ *あなぬけのヒモ* か *あなをほる* を使い、タンザン入り江へ戻ります。入り江をなみのりで渡り、こちらのタンザン山の入口に入ります。岩を下りてください。
 
-In the next room, you can find an *Exp. Candy XL* as well as a hidden *Super Repel*, *Escape Rope*, 2 *PokeSnax*, *Purple Shard*, *Stardust*, and *Great Ball*, as well as tons of mining rocks. Once you get everything, break the ground by using Magnitude or Earthquake twice in battle once more.
+次の部屋では *けいけんアメXL* に加えて、隠された *シルバースプレー*、*あなぬけのヒモ*、*ポケスナック* 2個、*むらさきのかけら*、*ほしのすな*、*スーパーボール*、さらに採掘できる岩が大量にあります。すべて回収したら、またバトル中に *マグニチュード* か *じしん* を2回使って地面を割ります。
 
-The floor will collapse, creating a new climbing wall. Head down. In the next room, talk to the Green Crystal to get Larvitar to move. You can get a hidden *Green Shard* and *Awakening* in here. Proceed to the next room.
+床が崩れ、新しい登り壁ができます。下りましょう。次の部屋では緑の水晶に話しかけると、ヨーギラスが動き出します。ここでは隠された *みどりのかけら* と *ねむけざまし* が手に入ります。次の部屋へ進んでください。
 
-Here is the first of the Larvitar puzzles. By knocking down the four green crystals, we can use them as directions that we want Larvitar to go. As long as there is a path in the specified direction (up, down, left, right) to a translucent rock, it will go there and remove it. I will provide routes in invisible text that remove the most rocks and allow you to get all items.
-
-<div class="spoilerDiv">
-  <div class="spoilerText" style="display:none">
-    U3 R2 D R3 U R L D R3 D2 R
-  </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Larvitar Puzzle 1 Solution</a>
-</div>
-
-Pick up the now-accessible *Jolly Mint* and *Timid Mint*. Proceed to the next room.
+ここが最初のヨーギラスのパズルです。4つの緑の水晶を落とすことで、ヨーギラスに進んでほしい方向を指示できます。指定した方向（上・下・左・右）に半透明の岩へ通じる道があれば、そこへ向かって岩を取り除いてくれます。最も多くの岩を取り除き、すべてのアイテムを回収できる手順を隠し文字で載せておきます。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    L U R D U R3 U L R D R L U R U L R6 D R2 D L D2 L D U R D2
+    上3 右2 下 右3 上 右 左 下 右3 下2 右
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Larvitar Puzzle 2 Solution</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">ヨーギラスのパズル1の解答を表示</a>
 </div>
 
-Pick up the now-accessible *Focus Sash*, *Modest Mint*, and *Nugget*. The door in the bottom left side where Larvitar entered will lead you to an *Ability Capsule*. Backtrack and enter the next room in the top right.
+取れるようになった *ようきミント* と *おくびょうミント* を拾い、次の部屋へ進みます。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    L U2 R U2 L D U R D R D U2 R3 U2 R3 D3 L D U L R D2 L D R
+    左 上 右 下 上 右3 上 左 右 下 右 左 上 右 上 左 右6 下 右2 下 左 下2 左 下 上 右 下2
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Larvitar Puzzle 3 Solution</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">ヨーギラスのパズル2の解答を表示</a>
 </div>
 
-Pick up the *Amplifield Rock*, *Adamant Mint*, and 4 *Glitter Balls*, then proceed. In this next room, you can get the *Rockium-Z* as well as a hidden *Dark Gem* and 3 *Exp. Candy XL*. And, you can battle and catch **Larvitar**!
+取れるようになった *きあいのタスキ*、*ひかえめミント*、*きんのたま* を拾います。ヨーギラスが入ってきた左下側の扉の先には *とくせいカプセル* があります。引き返して、右上の次の部屋に入ります。
 
-That's all we can do here, so escape from this cave.
+<div class="spoilerDiv">
+  <div class="spoilerText" style="display:none">
+    左 上2 右 上2 左 下 上 右 下 右 下 上2 右3 上2 右3 下3 左 下 上 左 右 下2 左 下 右
+  </div>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">ヨーギラスのパズル3の解答を表示</a>
+</div>
 
-### Climbin' in the Iolia Valley
+*アンプリフィールドロック*、*いじっぱりミント*、*グリッターボール* 4個を拾って先へ進みます。次の部屋では *イワZ* に加えて、隠された *あくのジュエル* と *けいけんアメXL* 3個が手に入ります。さらに、**ヨーギラス** と戦って捕まえられます。
 
-Make your way to the east side of Route 1, then Rock Slide down into the Iolia Valley. Make your way to Luna's gym room. You can actually rock climb in here.
+ここでできることは以上なので、この洞窟から脱出しましょう。
 
-Do so, then use the purple crystal to grab a *Dark Material*. Exit the cave.
+### イオリア渓谷でのクライム {#climbin-in-the-iolia-valley}
 
-We should now have 3 Dark Materials - one is at the top of the waterfall in this valley, the other was in the locked room of the Sanctum. With all three in your bag as well as a Soul Candle, fly over to Lapis Ward and make your way down to the Subseven Sanctum.
+1番道路の東側へ向かい、ロッククライムでイオリア渓谷へ下ります。ルナのジムの部屋まで進んでください。実はここでロッククライムが使えます。
 
-Talk to the summoning table for a battle with **Deino**.
+登ったら、紫の水晶を使って *ダークマテリアル* を回収します。洞窟を出ます。
 
-### Climbin' in the Mountains
+これで *ダークマテリアル* が3個揃ったはずです。1つはこの渓谷の滝の上、もう1つは聖域の施錠された部屋にありました。3個すべてと *たましいのロウソク* をバッグに入れた状態で、ラピス区へ飛び、サブセブン聖域まで下ります。
 
-Next, it's time to enter the three-mountain complex one more time for a few goodies. Fly over to the Route 1 Nature Center, grab a Tauros and make your way to the Celestinine Mountain B2F entrance via the North Aventurine Woods.
+召喚の台に話しかけると **モノズ** とのバトルになります。
 
-At the top of the ice puzzle, you'll see a climbing wall. Go up it, then surf to the left and push the nearby boulder to the left. Rock climb back down, this time making your way down the stairs to the left of the ice puzzle. Head up past the pushed boulder to get a *Life Orb*. Pokemon Showdown, here we come.
+### 山でのクライム {#climbin-in-the-mountains}
 
-From here, our next destination is Ametrine Mountain 2F. You can either go through the mountain complex to get there or just fly to the Circus or Ametrine City and make your way there that way.
+次は、いくつかのお宝のために三山の複合地帯へもう一度入ります。1番道路のネイチャーセンターへ飛び、ケンタロスに乗って、北アベンチュリンの森からセレスティナイン山地下2階の入口へ向かいます。
 
-We've gone this path once before to get some items. Climb the waterfall in the northeast side of Ametrine Mountain 2F to reach 3F, then cross the ice north. Carefully go across the ice on the top left side to climb another fall to 4F. Once you reach 4F, save the game for in case you mess up, then beach at the top. You'll see a rock chilling in the middle of the ice puzzle towards the top left side. Drop down the ledge such that you'll be stopped by that rock, then go right and up into a climbable wall. Grab a hidden *Blue Shard* then go up to 5F.
+氷のパズルの最上部に登れる壁が見えます。それを登り、左へなみのりして近くの岩を左へ押します。ロッククライムで下り、今度は氷のパズルの左の階段を下ります。押した岩の先を上へ進むと *いのちのたま* が手に入ります。Pokemon Showdown へようこそ。
 
-Complete an ice puzzle here, grab a *Paralyze Heal*, then take the waterfall down. Not down one floor, not two, but down EIGHT floors, you'll land on Ametrine Mountain B4F.
+そこからの次の目的地はアメトリン山2階です。複合地帯を通っていくか、サーカスかアメトリンシティへ飛んでそこから向かうかのどちらでも構いません。
+
+この道は以前アイテムを取りに一度通っています。アメトリン山2階の北東側の滝を登って3階へ行き、北へ氷を渡ります。左上側の氷を慎重に渡り、もう1つ滝を登って4階へ行きます。4階に着いたら、失敗に備えてセーブしてから、上部で上陸します。左上寄り、氷のパズルの中央に岩がぽつんとあるのが見えます。その岩に止められる形で段差を飛び降り、右そして上へ進むと登れる壁に入れます。隠された *あおいかけら* を拾い、上へ進んで5階へ行きます。
+
+ここで氷のパズルを解き、*まひなおし* を拾ったら、滝を下ります。1階分でも2階分でもなく、なんと8階分下って、アメトリン山地下4階に着きます。
 
 !enc(379)
 
-Yay, another pseudo legendary now obtainable.
+やった、これでまた準伝説が手に入ります。
 
-On this floor, you can also pick up the *Icium-Z* as well as a *Jolly Mint* and 4 *Exp. Candy XL*. You can also find a hidden *Burn Heal* and *Antidote* down here.
+この階では *コオリZ* に加えて、*ようきミント* と *けいけんアメXL* 4個も拾えます。さらに、隠された *やけどなおし* と *どくけし* も見つかります。
 
-That's all we can do in here, so escape the mountains however you please.
+ここでできることは以上なので、好きな方法で山を脱出してください。
 
-## Upper Route 4
+## 4番道路 上部 {#upper-route-4}
 
-That wraps up all the optional rocks that we can climb, so fly on back to Calcenon and head east to where Hardy is on Route 4. Climb the rocks here.
+登れる岩のうち任意のものはこれで網羅したので、カルセノンへ飛び戻り、4番道路のハーディのいる東へ向かいます。ここの岩を登ってください。
 
-Note that there are a lot of different encounter tables for the various maps of Route 4.
+なお、4番道路の各マップには、実に多くの出現テーブルが設定されています。
 
 !enc(713, nil, nil, "Route 4 (Forest Maps)")
 
 !battle(["Rhett", :HIKER, 0], "Forest Field")
 
-On the map you can get a hidden *Red Shard*, *Guard Spec*, *Heart Scale*, and *Green Shard*. Climb the rock to the next map.
+このマップでは、隠された *あかいかけら*、*スペシャルガード*、*ハートのウロコ*、*みどりのかけら* が手に入ります。岩を登って次のマップへ進みます。
 
-Grab a hidden *Cotton Candy* here then use the left of the two rock climbs to go up. Grab a hidden *Telluric Seed* and proceed up the next slope.
+ここで隠された *わたあめ* を拾い、2つあるロッククライムのうち左を使って上へ進みます。隠された *テルリックシード* を拾って、次の斜面を上ります。
 
 !battle(["Lena", :RANGERF, 0], "Forest Field")
 
 !battle(["Autumn", :AceTrainerF, 0], "Forest Field")
 
-You can get a hidden *Max Repel*, *Red Shard*, and *Escape Rope* on this level. Towards the bottom left side, there is a climbing path that goes down and left. Climb down it.
+この階層では隠された *ゴールドスプレー*、*あかいかけら*、*あなぬけのヒモ* が手に入ります。左下側には、下そして左へ続く登りの道があります。そこを下ってください。
 
-This brings us back to the first map we were on, at a different point. Grab a hidden *Synthetic Seed* then climb up the rocks on the left. Grab the *Full Restore* and the hidden *Green Shard*.
+これで最初のマップの別の地点に戻ります。隠された *シンセティックシード* を拾い、左の岩を登ります。*かいふくのくすり* と隠された *みどりのかけら* を回収してください。
 
-Make your way back to the previous map and go up the slope towards the top. On this map, a chill will settle in the air.
+前のマップへ戻り、上部の斜面を上ります。このマップでは、空気が冷たくなります。
 
 !enc(712, nil, nil, "Route 4 (Mountain Maps)")
 
-Pick up the hidden *Super Potion*. As hinted at as we entered, we're going to need to transform the field. Battles are fought on the Mountain Field - to transform it into Snowy Mountain, you'll need to use Blizzard, Subzero Slammer via the Ice type Z crystal we got previously, or by letting Hail be on the field for 3 turns. Piloswine will be able to use Blizzard, so you can try to encounter one if you don't have these moves.
+隠された *いいキズぐすり* を拾います。入ったときに示唆されたとおり、フィールドを変える必要があります。バトルは山フィールドで行われるので、雪山に変えるには *ふぶき* を使うか、以前手に入れたこおりタイプのZクリスタルで *ジオフリーズ* を使うか、*あられ* を3ターン維持する必要があります。イノムーが *ふぶき* を使えるので、これらの技が無ければ遭遇を狙う手もあります。
 
-Once you do, snow will gather on the map.
+成功すると、マップに雪が積もります。
 
 !enc(721, nil, nil, "Route 4 (Snowy Mountain Maps)")
 
-Grab the *Ice Stone* atop the hill once you're able to. Climb back down the hill, and back down to the first fork. Climb up the hill to a new map with a lake on it.
+行けるようになったら、丘の上の *こおりのいし* を拾います。丘を下り、最初の分岐まで戻ってください。丘を登ると、湖のある新しいマップに出ます。
 
 !battle(["Seal", :BLACKBELT, 0], "Forest Field")
 
-On this map, you will find a hidden *Red-Hots*, *X Sp. Def*, *Magical Seed*, *Ice Gem*, *Salt-Water Taffy*, *Ice Heal*, and *Hyper Potion*. There are lots of paths we can go from here, and I will start by doing the rock climb path in the top left, accessible via surfing on the water. To reach the water, surf from the hop rock with the little stairs at the bottom.
+このマップでは、隠された *シナモンキャンディ*、*スペシャルガード*、*マジカルシード*、*こおりのジュエル*、*ソルトタフィー*、*こおりなおし*、*すごいキズぐすり* が見つかります。ここからは進める道が多いので、まずは水上をなみのりして行ける左上のロッククライムの道から始めます。水辺へ出るには、下部にある小さな階段付きの飛び石からなみのりしてください。
 
-On the next map you can find a hidden *PokeSnax* and an *Ice Stone*. Climb back down the hill.
+次のマップでは、隠された *ポケスナック* と *こおりのいし* が見つかります。丘を下ります。
 
-This time, go around the rocks in the water to climb the waterfall at the top.
+今度は水中の岩を回り込み、上部の滝を登ります。
 
-Grab a *Revive*. This is another map in which we'll need to transform Mountain to Snowy Mountain. Do so.
+*げんきのかけら* を拾います。ここも山を雪山に変える必要があるマップなので、変えてください。
 
-Once you succeed, climb the mountain. We'll land on a higher part of a map from earlier. Grab the hidden *Stardust* and enter the shed here.
+成功したら山を登ります。先ほどのマップの高い場所に出ます。隠された *ほしのすな* を拾い、ここの小屋に入ってください。
 
-Pick up *TM73 Thunder Wave*. Press 'A' while you're above the disconnected wires to connect them, prepare your team, then make your way to the top left corner for a fight.
+*わざマシン73 でんじは* を拾います。切れた配線の上でAを押すとつながるので、編成を整えてから左上の隅へ向かうとバトルです。
 
 !battle(["CL:4R1-C3", :BRELOOM, 0], "Short-Circuit Field")
 
-This is a very tough fight with a custom, overpowered Breloom robot! With mixed attacks, the ability to put you to sleep, and a set up move, it can sweep. Wear it down with status conditions and stat debuffs to win!
+独自仕様の、性能過剰なキノガッサ型ロボットとの非常に厳しい戦いです。物理特殊の両刀に加え、眠らせる手段と積み技まで備えているので、一掃されかねません。状態異常と能力低下で削り切って勝ちましょう。
 
-Once you win, a **Gastly** will pop out of the robot. It will run around the robot to hide from you, but you can battle it by talking to it if you're quick enough. I recommend disabling speed up for this part.
+勝つとロボットから **ゴース** が飛び出します。ロボットの周りを走り回って隠れようとしますが、素早く動けば話しかけて戦えます。この場面では倍速をオフにすることをおすすめします。
 
-Return to the area with the lake. This time, take the rock climbing path in the top right corner. Grab the hidden *Purple Shard* here.
+湖のあるエリアへ戻ります。今度は右上の隅のロッククライムの道を使います。ここでは隠された *むらさきのかけら* を拾います。
 
-As you're hinted to do, we'll need to transform the Snowy Mountain Field here into a Mountain. Many of the burning Fire type moves like Lava Plume and Fire Pledge will do the trick. You can also use a Fire type Z-move. Once the field is changed, you'll be sent to a new map. Use the hopping stones to enter the cave.
+示唆されるとおり、ここでは雪山フィールドを山に変える必要があります。*ふんえん* や *ほのおのちかい* のような、燃やす系のほのお技の多くで変えられます。ほのおタイプのZワザでも構いません。フィールドを変えると新しいマップへ送られます。飛び石を使って洞窟に入ってください。
 
 !enc(750)
 
-As in the previous map, it is hinted that we're gonna want to change the field, this time from Icy Field to Cave Field. Doing this will open the above water encounters as well as letting you grab the *Heracronite* and hidden *Focus Sash* in the pond.
+前のマップと同様、ここでもフィールドを変えたくなることが示唆されます。今度は氷のフィールドからどうくつフィールドへです。これで上記の水上の出現ポケモンが解禁され、池の *ヘラクロスナイト* と隠された *きあいのタスキ* も取れるようになります。
 
-This room also has a secret. From the pond, go clockwise around the ring. You'll be able to sneak behind a rock here. A counter-clockwise loop will lead to 3 hidden *Exp. Candy XL*. Follow the loop clockwise, until you see the shortcuts in the bottom walls to climb up further. Use these to reach the cave exit, but don't go out quite yet. From here, follow the outermost loop clockwise all the way around to get a hidden *Big Nugget*. Backtrack this loop, then exit the cave at the bottom.
+この部屋には秘密もあります。池から環状路を時計回りに進むと、岩の裏へ回り込めます。反時計回りに一周すると、隠された *けいけんアメXL* 3個にたどり着きます。時計回りに進み続け、下側の壁にさらに上へ登れる近道が見えたら、それを使って洞窟の出口へ向かいます。ただし、まだ出ないでください。そこから最も外側の環状路を時計回りに一周すると、隠された *でかいきんのたま* が手に入ります。この環状路を引き返し、下部から洞窟を出ます。
 
-Grab the hidden *Purple Shard* and *Nugget*. Talk to Bagon here and show it how to Fly... and it will do so, off the cliff. Backtrack through Charous Mountain all the way back to the map with the lake.
+隠された *むらさきのかけら* と *きんのたま* を拾います。ここのタツベイに話しかけて「そらをとぶ」を見せると……崖から飛び降ります。シャルース山を引き返し、湖のあるマップまで戻ってください。
 
-This time, make your way all the way to the bottom right corner of the map. Climb down here. Once more, burn the Snow on the Mountain away to uncover the *Lycanium-Z*. I think it's worth noting here that in Pokemon Reborn the exclusive Z-move Splintered Stormshards carries forward its canon effect of destroying Field Effects... including all of Reborn's custom ones. If you really find yourself in a rut of being unable to deal with an opponent's field synergy, it may be worth considering training a Lycanroc to remove it.
+今度は、マップの右下の隅までずっと進みます。ここを下ります。もう一度、山の雪を焼き払うと *ルガルガンZ* が現れます。ここで触れておく価値があると思いますが、ポケモンリボーンでは専用Zワザ *ラジアルエッジストーム* が、原作どおりフィールド効果を破壊する効果を引き継いでおり、リボーン独自のフィールドもすべて対象です。相手のフィールド相性にどうしても対処できず行き詰まったら、ルガルガンを育てて消してしまうのも検討に値します。
 
-Climb back to the previous map, this time going down the rocks to the left. 
+前のマップへ登り戻り、今度は左の岩を下ります。
 
 !battle(["Fawkes", :Casanova, 0], "Forest Field")
 
 !battle(["Nicky", :HIKER, 0], "Forest Field")
 
-You can find a hidden *Swift Wing*, *Big Pearl*, and *Chesto Berry*.
+隠された *しゅんぱつのハネ*、*おおきなしんじゅ*、*カゴのみ* が見つかります。
 
-Use the rock wall in the bottom right corner to reach a new map. Grab the hidden *Escape Rope* here. Transform the field to Snowy Mountain and a new rock climb path will be created, so follow it up.
+右下の隅の岩壁を使って新しいマップへ行きます。ここで隠された *あなぬけのヒモ* を拾います。フィールドを雪山に変えると新しいロッククライムの道ができるので、それを上ってください。
 
-Pick up the *Ultra Potion* and hidden *Liechi Berry*, then melt the Snowy Mountain as we've done before. In exchange for a Revive, you'll be able to obtain our friend from earlier and the final pseudo-legendary: **Bagon**.
+*すごいキズぐすり* と隠された *チイラのみ* を拾ったら、これまでどおり雪山を溶かします。*げんきのかけら* と引き換えに、先ほどの友達であり最後の準伝説でもある **タツベイ** が手に入ります。
 
-Head back two maps. This time, use the rock climb in the bottom-left corner to go down to another map with a large lake.
+2つ前のマップへ戻ります。今度は左下の隅のロッククライムで、大きな湖のある別のマップへ下ります。
 
 !battle(["Simon", :AceTrainerM, 0], "Forest Field")
 
-You can find a hidden *Elemental Seed*, *Ultra Ball*, *Moon Stone*, and *Rawst Berry* here. Surfing across the water to the little island, you can get a *Max Elixir* and a hidden *Heart Scale*.
+ここでは、隠された *エレメンタルシード*、*ハイパーボール*、*つきのいし*、*チーゴのみ* が見つかります。水を渡って小島へ行くと、*ピーピーマックス* と隠された *ハートのウロコ* が手に入ります。
 
-Climb the rocks in the upper left corner to reach a new section of the first Upper Route 4 map we landed on, containing the *Mimikium-Z*. Let's snuggle forever. Return to the previous map.
+左上の隅の岩を登ると、最初に降り立った4番道路上部のマップの新しい区画に着き、そこに *ミミッキュZ* があります。永遠に寄り添いましょう。前のマップへ戻ります。
 
-That's it for Route 4 exploration and goodies, so talk to Hardy in the big open area on the left side of the area.
+4番道路の探索とお宝はこれで終わりなので、エリア左側の広く開けた場所にいるハーディに話しかけてください。
 
-**Relationship Point Choices**:
-- Take on Hardy's bet (+1 Hardy)
+**好感度の選択肢**:
+- ハーディの賭けに乗る (+1 ハーディ)
 
-Enter the building, and look around with Hardy. Once he leaves, follow him outside and talk to him again. Move the metal plate. If you took on the bet you'll get $2000.
+建物に入り、ハーディと一緒に見て回ります。彼が出ていったら、後を追って外へ出て、もう一度話しかけます。金属板を動かしてください。賭けに乗っていれば $2000 がもらえます。
 
-Up and to the right, you'll see a now-accessible ladder, and Absol. Don't we love it when Absol shows up? Head down the ladder...
+上そして右に、入れるようになったはしごとアブソルが見えます。アブソルが現れるのは、いつだって嬉しいものですよね。はしごを下りましょう……
 
-## Glass Workstation
+## ガラス工房 {#glass-workstation}
 
-Talk to Hardy, then follow him into the elevator. Talk to Bennett.
+ハーディに話しかけ、そのあとエレベーターまで付いていきます。ベネットに話しかけてください。
 
-**Relationship Point Choices**:
-- Say "To be stronger than anyone" (-1 Bennett)
-- Say "To win Luna" (Neutral)
-- Say "To make things different" (+2 Bennett)
-- Say that you don't remember (+1 Bennett)
+**好感度の選択肢**:
+- 「誰よりも強くなるため」と答える (-1 ベネット)
+- 「ルナを勝ち取るため」と答える (増減なし)
+- 「物事を変えるため」と答える (+2 ベネット)
+- 覚えていないと答える (+1 ベネット)
 
-Once you wake up, climb up the ladder, and go left into the opening. Follow Glaceon down the path. You'll see one of its abilities: to bridge short gaps on the upper floor with its ice. Jump down to the bottom floor. There's a door towards the bottom here which contains a healing machine and PC.
+目を覚ましたら、はしごを登り、左の開口部へ進みます。グレイシアの後を追って道を進みます。上階の短い隙間を氷で橋渡しするという、その能力の1つが見られます。下の階へ飛び降りてください。下寄りには扉があり、その中には回復マシンとパソコンがあります。
 
-This building is basically a big puzzle. Feel free to skip ahead if you'd rather solve it yourself.
+この建物は基本的に巨大なパズルです。自力で解きたければ読み飛ばして構いません。
 
-Talk to Glaceon again to see another of its abilities: creating a path over lava. Confront the Meteor Grunt at the top, and he will run away. Thankfully there is another way in: down and to the left, you'll see a glass window! By now hopefully we should know what to do when we see glass.
+もう一度グレイシアに話しかけると、別の能力が見られます。溶岩の上に道を作るというものです。上部でメテオ団員に立ちはだかると、逃げていきます。ありがたいことに別の入口があり、下そして左にガラス窓が見えます。ガラスを見たら何をすべきか、もう分かっているはずです。
 
 !battle(["Geoff", :MeteorAceM, 1], "Factory Field")
 
-Defeat the Team Meteor Grunt, and talk to the monitor in the corner to open the door. Glaceon will start to follow you. You can talk to it to heal status conditions on your team members for free. You can also choose whether to pet Glaceon or not, for the quest but also for points and a different battle later on. Pretty intense choice, I know.
+メテオ団のしたっぱを倒し、隅のモニターに話しかけて扉を開けます。グレイシアが付いてくるようになります。話しかけると、手持ちの状態異常を無料で治してくれます。また、グレイシアを撫でるかどうかを選べます。クエストのためだけでなく、好感度と、後のバトルの内容にも関わります。なかなか重い選択です。
 
-**Relationship Point Choices**:
-- Pet Glaceon (+2 Lumi)
-- Don't pet Glaceon (-3 Lumi)
+**好感度の選択肢**:
+- グレイシアを撫でる (+2 ルミ)
+- グレイシアを撫でない (-3 ルミ)
 
-Exit this room and make your way left. Use Glaceon's ability on the lava in both places, then make your way to the left. Glaceon can also create paths across sand, so do so here. Make your way to the top left side of the room and attempt to enter the small room towards the top. Defeat the grunt.
+この部屋を出て左へ進みます。2箇所の溶岩でグレイシアの能力を使い、左へ進んでください。グレイシアは砂の上にも道を作れるので、ここでも使います。部屋の左上側へ進み、上部の小部屋に入ろうとします。したっぱを倒してください。
 
 !battle(["Bruno", :MeteorAceM, 1], "Factory Field")
 
-He'll lock you out, so make your way back towards the right. A path will be cleared for you, so break the nearby glass and defeat another grunt inside.
+締め出されるので、右のほうへ戻ります。道が開けているので、近くのガラスを割って中のしたっぱを倒します。
 
 !battle(["Ray", :MeteorAceM, 1], "Factory Field")
 
-Talk to the monitor in the corner to open the door, then talk to Espeon's cage. We can't get it out of here quite yet, however.
+隅のモニターに話しかけて扉を開け、エーフィの檻に話しかけます。ただし、まだ出してやることはできません。
 
-Exit this room at the bottom. You'll notice another glass window to the right, which you can again smash your way into. 
+この部屋を下から出ます。右手にもう1つガラス窓が見えるので、これもまた割って入りましょう。
 
 !battle(["Sanchez", :MeteorAceM, 1], "Factory Field")
 
-Defeat the grunt and pick up the *Timid Mint*, 3 *Exp. Candy XL*, and *PP All*. Exit this room.
+したっぱを倒し、*おくびょうミント*、*けいけんアメXL* 3個、*ピーピーオール* を拾います。この部屋を出ます。
 
-There's nowhere else to go but up the ladder to the right. Unfortunately Glaceon can't follow you up the ladder, so keep that in mind. Anyways, follow this linear path into another room and defeat the Meteor.
+行き先は右のはしごを登るしかありません。残念ながらグレイシアははしごを登れないので、その点は覚えておいてください。ともあれ、この一本道をたどって別の部屋に入り、メテオ団員を倒します。
 
 !battle(["Devin", :MeteorAceM, 1], "Factory Field")
 
-Grab the *Cage Key*. Head all the way back, join back up with Glaceon, and free Espeon!
+*おりのカギ* を拾います。ずっと引き返してグレイシアと合流し、エーフィを解放しましょう。
 
-Espeon can use Future Sight, which shows a blurry image of our next objectives. Helpful if you get stuck... or you can just read on. Anyways, you can also choose to pet Espeon for the quest, and for points.
+エーフィは *みらいよち* を使え、次の目標をぼんやりとした映像で見せてくれます。行き詰まったときに便利です……もっとも、このまま読み進めても構いません。ともあれ、クエストと好感度のために、エーフィを撫でるかどうかも選べます。
 
-**Relationship Point Choices**:
-- Pet Espeon (+1 Eve)
-- Don't pet Espeon (-1 Eve)
+**好感度の選択肢**:
+- エーフィを撫でる (+1 イヴ)
+- エーフィを撫でない (-1 イヴ)
 
-You'll notice that Espeon and Glaceon won't both be able to follow you at the same time, so you'll need to position the one you don't wanna take with you in the right place. You'll see what I mean now: switch to Glaceon outside, then head to the left of the nearby pallet of glass. Talk to Glaceon, and tell it to stay where it is. Head back to get Espeon, who can use telekinesis to move glass. Back on the side where Glaceon is, move this glass pallet up by interacting with it, then pressing up.
+エーフィとグレイシアを同時に連れ歩くことはできないので、連れていかないほうを適切な場所に置いておく必要があります。実例を見れば分かります。外でグレイシアに切り替え、近くのガラスのパレットの左へ向かいます。グレイシアに話しかけ、その場に留まるよう伝えます。エーフィを迎えに戻ります。エーフィは念力でガラスを動かせます。グレイシアがいる側へ戻ったら、このガラスのパレットを調べて上を押し、上へ動かします。
 
-From here, go right across the sand, then up at the first lava bridge. Move the glass at the top to the left, then smash your way into the nearby room via the window. 
+そこから砂を渡って右へ進み、最初の溶岩の橋で上へ進みます。上部のガラスを左へ動かし、近くの部屋へ窓から割って入ります。
 
 !dbattle(["Deryl", :TechNerd, 2], ["Naoman", :TechNerd, 2], "Factory Field")
 
-Defeat the two scientists here, then talk to the monitor at the top to unlock the elevator.
+ここの科学者2人を倒し、上部のモニターに話しかけてエレベーターのロックを解除します。
 
-Back outside, move the right glass pallet down to save a bit of time later on. Make your way to the bottom right corner of this room and move the glass up to get the *Sablenite*. Move this pallet back down by going around.
+外に戻り、あとで少し時間を節約するため、右のガラスのパレットを下へ動かしておきます。この部屋の右下の隅へ進み、ガラスを上へ動かすと *ヤミラミナイト* が手に入ります。回り込んで、このパレットを下へ戻しておきます。
 
-Heading left, you'll see three pallets of glass close to each other. Before we move these, you're going to want to actually swap Espeon for Glaceon. Drop off Glaceon on the right side of these three pallets. Go pickup Espeon once more, and move the pallets respectively up, left, and down to open a path.
+左へ進むと、3枚のガラスのパレットが近くに並んでいるのが見えます。これらを動かす前に、エーフィとグレイシアを入れ替えておく必要があります。この3枚の右側でグレイシアを降ろします。もう一度エーフィを迎えに行き、パレットをそれぞれ上・左・下へ動かして道を開きます。
 
-From here, swap back to Glaceon, then drop it off near the ladder in the bottom right. Head back up to grab Espeon, then make your way back to the ladder where Glaceon is. Move the nearby glass up, then enter the door to the right. 
+そこからグレイシアに戻し、右下のはしごの近くで降ろします。上へ戻ってエーフィを連れ、グレイシアのいるはしごまで戻ります。近くのガラスを上へ動かし、右の扉に入ってください。
 
 !battle(["Arcturus", :NWCultist, 1], "Factory Field")
 
-Grab the 2 *EV Boosters* then return to the main room and go left. Move the bottom-most of the three glass pallets back up so we can pass along the bottom. Switch to Glaceon and make a path over the ice in the bottom left. Switch back to Espeon.
+*どりょくちブースター* 2個を拾ったら、主要な部屋に戻って左へ進みます。下側を通れるように、3枚のガラスのパレットの一番下を上へ戻します。グレイシアに切り替え、左下の氷の上に道を作ります。エーフィに戻します。
 
-Enter the bottom left room where we found the key. Move each of the five glass pallets left to reach *TM29 Psychic*! Exit this room. Cross the lava and move the nearby glass up. Go right from here, and move a glass pallet to the right to get the *Gyaradosite*!
+カギを見つけた左下の部屋に入ります。5枚のガラスのパレットをそれぞれ左へ動かすと *わざマシン29 サイコキネシス* にたどり着きます。この部屋を出ます。溶岩を渡り、近くのガラスを上へ動かします。そこから右へ進み、ガラスのパレットを右へ動かすと *ギャラドスナイト* が手に入ります。
 
-Make your way to Glaceon, and reverse the steps we took to get both Pokemon to the bottom so that both Pokemon are now back towards the top. After clearing a path to the elevator in the top left corner, switch to Glaceon and head up to B1F.
+グレイシアのもとへ向かい、両方を下へ連れてくるためにやった手順を逆にたどって、2匹とも上のほうへ戻します。左上の隅のエレベーターへの道を開いたら、グレイシアに切り替えて地下1階へ上がります。
 
-From here, follow the path to the left, bridging gaps with ice. Enter the next room. 
+そこから左へ道をたどり、隙間を氷で橋渡しします。次の部屋に入ってください。
 
 !battle(["Kaiden", :NWCultist, 1], "Factory Field")
 
-Defeat the grunt to pick up 3 *Exp. Candy XL* and an *EV Tuner*. Back at the elevator, go straight to the right and use Glaceon to bridge a gap towards *PULSE Readout 8*. Up and left from here, you'll find a room containing glass, so we'll come back later. Continue bridging gaps and enter the room on the right.
+したっぱを倒すと *けいけんアメXL* 3個と *どりょくちチューナー* が手に入ります。エレベーターに戻り、まっすぐ右へ進んで、グレイシアで隙間を橋渡しし、*パルスの資料8* へ向かいます。そこから上そして左にはガラスのある部屋があるので、そこは後で戻ってきます。隙間を橋渡ししながら進み、右の部屋に入ります。
 
-Back in Ametrine Mountain, we made a choice whether or not to give Blake the Ruby Ring. If we gave him the ring, we will have the following fight:
+アメトリン山で、ブレイクに *ルビーのゆびわ* を渡すかどうかを選びました。渡していた場合、次のバトルになります。
 
 !battle(["Aster", :AsterKnight, 5], "Factory Field")
 
-It's been a while since we've seen Aster on this route. This time he encorporates a few of Eclipse's Pokemon into his own team. As usual, he focuses on Rock and Ground types, with Passimian there to provide hard hitting coverage. His team is generally pretty fast and physical, so speed control and/or some physical tanks will probably be able to find success. If you can tank an Explosion from Solrock and set up, he has no priority moves to prevent a sweep. He'll give you the *Meteor Card*.
+このルートでアスターに会うのは久しぶりです。今回はエクリプスのポケモンを何匹か自分の編成に取り込んでいます。いつもどおりいわタイプとじめんタイプが中心で、ナゲツケサルが高火力の補完役を担っています。全体に素早く物理寄りなので、素早さ操作や物理受けを用意すればおそらく突破できます。ソルロックの *だいばくはつ* を耐えて積めれば、一掃を止める先制技は彼にはありません。倒すと *メテオカード* をくれます。
 
-If you refused to give Blake the Ruby Ring, grab the *Meteor Card* at the top. You can also get 3 *Exp. Candy XL*. Open the pods in this room.
+ブレイクに *ルビーのゆびわ* を渡さなかった場合は、上部で *メテオカード* を拾います。*けいけんアメXL* 3個も手に入ります。この部屋のポッドを開けてください。
 
-**Relationship Point Choices**:
-- Use Heal Bell on Noel (+1 Noel)
+**好感度の選択肢**:
+- ノエルに *いやしのすず* を使う (+1 ノエル)
 
-Take the elevator back to the bottom floor. Before we continue, take Glaceon into the elevator where Hardy is sleeping.
+エレベーターで最下階へ戻ります。先へ進む前に、ハーディが眠っているエレベーターへグレイシアを連れていってください。
 
-**Relationship Point Choices**:
-- Use Heal Bell on Hardy twice (+1 Hardy)
+**好感度の選択肢**:
+- ハーディに *いやしのすず* を2回使う (+1 ハーディ)
 
-Next, switch back to Espeon. Return to the room on the upper floor with the glass. Move the glass out of the way. Note that despite every pallet in the dungeon so far appearing to only move "along the grain", you'll need to push the bottom right one down to finish this puzzle. It's a bit odd but mess around with this puzzle a few times and you'll figure it out. Anyways, you'll get a *Reborn Ball*! This is Reborn's Master Ball.
+次にエーフィへ戻します。上階のガラスがある部屋へ戻り、ガラスをどけます。なお、ここまでダンジョンのすべてのパレットは「木目に沿って」しか動かないように見えていましたが、このパズルを終えるには右下のものを下へ押す必要があります。少し奇妙ですが、何度か試せば分かるはずです。ともあれ、*リボーンボール* が手に入ります。これはリボーン版のマスターボールです。
 
-Return to B2F, and switch to Glaceon. Move Glaceon up and to the left of the rightmost sand pit, then switch back to Espeon. From here, take Espeon to the top right, pushing the first and second glass pallets to the right. Head back and switch to Glaceon, then use it to make a path across lava in the top left. Grab the 5 *Exp. Candy XL*.
+地下2階へ戻り、グレイシアに切り替えます。グレイシアを一番右の砂地の上そして左へ動かしたら、エーフィに戻します。そこからエーフィを右上へ連れていき、1枚目と2枚目のガラスのパレットを右へ押します。戻ってグレイシアに切り替え、左上の溶岩に道を作ります。*けいけんアメXL* 5個を拾ってください。
 
-Position Glaceon exactly in this spot:
+グレイシアをちょうどこの位置に配置します。
 
 !img("glass_glaceon.jpg")
 
-Next, pick up Espeon and stand directly under Glaceon. Move the two glass pallets out of the way, then deposit Espeon up and to the right in exactly this spot:
+次にエーフィを連れてきて、グレイシアの真下に立ちます。2枚のガラスのパレットをどけたら、エーフィを上そして右の、ちょうどこの位置に置きます。
 
 !img("glass_espeon.png")
 
-Switch to Glaceon and make a bridge across the lava to the north. Switch back to Espeon and head up, moving two more pallets out of the way and revealing the Meteor Card scanner. Use it to open the door.
+グレイシアに切り替え、北の溶岩に橋を作ります。エーフィに戻して上へ進み、さらに2枚のパレットをどけると、メテオカードの読み取り機が現れます。これを使って扉を開けます。
 
-Undo the moves we did to reach the top right corner. Head to the top left corner and use Espeon to finally clear a path to the door. This is it for exploration. Prepare your team as best you can for the shenanigans to come, and enter the door at the top!
+右上の隅へ行くためにやった手順を元に戻します。左上の隅へ向かい、エーフィでついに扉への道を開きます。探索はこれで終わりです。この先の大立ち回りに備えて編成を万全に整え、上部の扉に入ってください。
 
-### The Glass Gauntlet
+### ガラスの連戦 {#the-glass-gauntlet}
 
-Now begins one of the most glorious parts of Reborn. I'll let each of the fights speak for itself.
+ここからリボーン屈指の名場面が始まります。各バトルについては、それぞれ個別に語ることにします。
 
 !dbattle(["Cain", :Cain, 6], ["Shelly", :SHELLY, 3], "Factory Field")
 
-This battle is our first 12v6! On average each of our Pokemon has to be knocking out 2 each in order to win this thing. While that is a fairly large disadvantage, there are lots of tactics we can use to come out on top in this fight: The best advice I can give for Reborns 12v6 doubles fights (there will be more) is that conserving momentum is extremely important. In this case, Cain and Shelly each have Pokemon all 7+ levels *under* the cap, and neither team is particularly suited to abuse this field effect in particular, so it's a good fight to ease into the 12v6 setup.
+このバトルは初の12対6です。単純計算で、こちらの1匹が2匹ずつ倒さないと勝てません。かなり大きな不利ですが、この戦いを制するための戦術はいくつもあります。リボーンの12対6ダブル（この先も出てきます）で言える最良の助言は、主導権を保ち続けることが極めて重要だということです。今回はカインもシェリーもレベル上限より7以上 *低い* ポケモンばかりですし、どちらの編成もこのフィールドを特別に活かせるわけではないので、12対6形式に慣れるには良い相手です。
 
-Shelly's entire team is weak to Rock Slide, so it's not a bad idea to operate from the doubles priniciple: "support your Rock Slider at all costs". Heat Wave is also pretty potent here for similar reasons - a sun team can devastate here. You can fairly easily opt for a speed control strategy of some sort - Magic Bouncing back the Sticky Web or embracing it and abusing 8 turn Trick Room are excellent choices. You can also use Factory Field to your advantage blah blah... you knew that by now. Optimize your team to the max cap, come with a strategy to conserve momentum, and you'll be able to find a way to come out on top.
+シェリーの手持ちは全員 *いわなだれ* に弱いので、ダブルの原則「いわなだれ役を何としても支える」で戦うのも悪くありません。同じ理由で *ねっぷう* もかなり強力で、晴れパは壊滅的な威力を出せます。何らかの素早さ操作戦略も比較的簡単に選べます。*ねばねばネット* を *マジックミラー* で跳ね返すか、いっそ受け入れて8ターンの *トリックルーム* を活かすかは、どちらも優れた選択です。工場フィールドを活かす手も、まあ、いつもの話です。レベル上限まできっちり育て、主導権を保つ戦略を用意すれば、勝ち筋は必ず見つかります。
 
 !battle(["?????", :QMARK, 0], "Factory Field")
 
-Ok, so after finally overcoming a fight with all the odds stacked against you... surprise, a singles fight against a mystery trainer. You can't switch out your team at all but thankfully you do get a heal before this one.
+さて、あらゆる不利を覆してようやく勝ったと思ったら――驚くことに、謎のトレーナーとのシングル戦です。手持ちの入れ替えは一切できませんが、ありがたいことにこの前には回復が入ります。
 
-Here's the thing. This fight, generally speaking, isn't gonna be the worst thing in the world. It's a 6v6 and your opponent has a mostly frail team plus Umbreon and sort of Gothitelle. If that's all there was to say, I'd assume you'd be able to find a way through this one and that would be that. The problem is: *any Pokemon that are fainted at the end of this fight stay fainted for the next*, basically as if you use Full Restores on all living Pokemon and nothing more. And for the next fight, you'll really want as many Pokemon as you can take.
+ここで問題になるのはこういうことです。この戦い自体は、一般的に言えばそこまで最悪ではありません。6対6ですし、相手の編成はブラッキーと、ある程度ゴチルゼルを除けば概ね打たれ弱いです。それだけなら、何とか突破できるだろうで話は終わります。問題は、*この戦いの終了時点で瀕死のポケモンは、次の戦いでも瀕死のまま* だという点です。要するに、生き残ったポケモンにだけ *かいふくのくすり* を使い、それ以上は何もしないのと同じです。そして次の戦いでは、できるだけ多くのポケモンを連れていきたいのです。
 
-So, with the goal of simply making sure that every one of your Pokemon stays alive? Weavile has a Focus Sash, meaning your lead for the whole gauntlet needs to be able to deal two hits of damage without dying (or switch). Mismagius is fast and if you make the mistake of letting it set up a Nasty Plot, there's a good chance it will claim a soul or two. Honchkrow is really nasty, with Sucker Punch allowing it to punish weakened Pokemon. Umbreon is annoyingly bulky, with Foul Play to hurt your physical attackers even more. Mega Absol is really strong, and you're usually going to find yourself in a kill or be killed scenario with it. Finally there is Gothitelle... who has Shadow Tag and Calm Mind. Meaning if there's any Pokemon on your team the AI has realized it can beat by switching in Gothitelle at any time... that Pokemon is as good as dead!
+では、全員を生存させることを目標にするとどうなるでしょうか。マニューラは *きあいのタスキ* を持っているので、連戦全体の先発は、倒れずに2発分のダメージを与えられる（か、交代できる）必要があります。ムウマージは素早く、うっかり *わるだくみ* を積ませると、1匹2匹持っていかれる可能性が高いです。ドンカラスは実に厄介で、*ふいうち* で弱ったポケモンを咎めてきます。ブラッキーは腹立たしいほど硬く、*イカサマ* でこちらの物理アタッカーをさらに痛めつけます。メガアブソルは非常に強力で、たいていは倒すか倒されるかの状況になります。そして最後がゴチルゼルで――*かげふみ* と *めいそう* を持っています。つまり、こちらの手持ちに「いつでもゴチルゼルを繰り出せば勝てる」とAIが判断したポケモンがいれば、そのポケモンは死んだも同然というわけです。
 
-So now you see the challenge this seemingly simple 6v6 fight offers. If you think you can beat the next fight with 4-5 Pokemon alive, feel free to try if you are having a hard time with this one. There are some general tips I recommend to make it through this one with minimal casualties, however. For Weavile, Fake Out, multi-hit moves, and Sandstorm are all viable ways to break the sash, so setting up your gauntlet team with one of these first in your party will probably help. Honchkrow likes to come in on a weakened Pokemon, so try to anticipate Sucker Punch and either switch or set up further if you can. Keep in mind if you're faster than Honchkrow, other priority moves like Quick Attack will go before Sucker Punch. Make sure you're always ready for a Gothitelle switch in, or maybe learn exactly when the AI will try to switch it in so you can pivot to something that can knock it out. Speed control, either by superior stats, Tailwind, Trick Room, etc., will then be key to one-shotting Mismagius and Absol before they can get you. If you are able to 2HKO Umbreon, it won't be able to heal itself, so making sure you have either a physical attacker that can live some Foul Plays or a really strong special attacker are key. Even though you already have to plan for other fights with your team... keeping these tips in mind will help you overcome this obstacle, hopefully.
+一見単純な6対6が突きつけてくる難しさが、これで分かったはずです。次の戦いを4〜5匹で勝てると思うなら、ここで苦戦している場合は試してみても構いません。とはいえ、犠牲を最小限にして突破するための一般的なコツをいくつか挙げます。マニューラには *ねこだまし*、連続技、*すなあらし* がいずれもタスキ潰しに有効なので、連戦用の編成では、そのいずれかを持つポケモンを先頭に置いておくと役立つはずです。ドンカラスは弱ったポケモンに繰り出したがるので、*ふいうち* を読んで交代するか、可能ならさらに積みましょう。ドンカラスより速ければ、*でんこうせっか* などの他の先制技が *ふいうち* より先に動く点も覚えておいてください。ゴチルゼルの繰り出しには常に備えるか、AIがどのタイミングで出してくるかを正確に把握して、倒せるポケモンへ受け渡しましょう。そのうえで、能力値の差でも *おいかぜ* でも *トリックルーム* でも、素早さ操作が、ムウマージとアブソルにやられる前に一撃で落とすための鍵になります。ブラッキーを2発で倒せれば自己回復させずに済むので、*イカサマ* を何発か耐えられる物理アタッカーか、非常に強力な特殊アタッカーの確保が重要です。他の戦いも見据えて編成を組まなければならない中ではありますが……これらを頭に入れておけば、この難所も乗り越えられるはずです。
 
 !dbattle(["?????", :QMARK, 1], ["?????", :QMARK, 2], "Factory Field")
 
-Even after making it through the previous two battles, you're thrusted into a third, and surprise, its another 12v6. While opponent levels are indeed a bit lower, without being able to change your team after the previous two fights and the aforementioned faint follow-through, you might even be stuck doing this fight as a 12v4 or 12v5. The good news here is that almost everything in this fight is a frail Ice or Psychic type. The real exceptions here are Bronzong and Metagross, both of which are extremely bulky and can hit really hard on this field, Clefable, who likes to spread Paralysis as a lead, and Bisharp, who can keep up the pressure with Sucker Punch and has enough bulk to live a good chunk of even super effective moves. Ninetales' hail and Aurora Veil are, as always, very beneficial to their team, as is the 8-turn Psychic Terrain Alakazam will try to get off. Really seems like there are lots of threats and not enough Pokemon to cover them all.
+先の2戦を突破してもなお3戦目に放り込まれ、しかも驚くことに、またも12対6です。相手のレベルはたしかに少し低めですが、前の2戦のあと編成を変えられず、前述の瀕死持ち越しもあるため、12対4や12対5で戦う羽目になることさえあります。良い知らせは、この戦いの相手がほぼ全員、打たれ弱いこおりタイプかエスパータイプだということです。真の例外はドータクンとメタグロスで、どちらも極めて硬く、このフィールドで痛烈な一撃を放てます。加えて先発で麻痺を撒きたがるピクシーと、*ふいうち* で圧をかけ続け、こうかばつぐんの技すらかなりの割合で耐える程度の耐久を持つキリキザンです。キュウコンの *あられ* と *オーロラベール* は例によって相手にとって大きな利点ですし、フーディンが張ろうとする8ターンの *サイコフィールド* も同様です。脅威が多すぎて、こちらの頭数が足りないように見えるのも当然です。
 
-Otherwise there's not really a ton I can say: spam 'D' to drop a save before this fight and just play it out as many times as it takes for you to realize where the threats to your team are, and how you can overcome them. Conserving momentum is key as before, Trick Room as always is very potent, and weather and/or the field can help you steamroll. Using Snatch or Brick Break to mess with Aurora Veil, changing the weather, etc. are good options. Even if you have dropped a save mid-gauntlet, don't be afraid to throw away some money (or load a backup save) to better prepare for the gauntlet.
+それ以外に言えることはあまり多くありません。この戦いの前に「D」を連打してセーブを作り、脅威がどこにあり、どう乗り越えられるかが分かるまで、何度でもやり直してください。主導権の維持は前と同じく鍵ですし、*トリックルーム* は例によって非常に強力、天候やフィールドを味方につければ一気に押し切れます。*よこどり* や *かわらわり* で *オーロラベール* を潰す、天候を変えるといった手も有効です。連戦の途中でセーブしてしまった場合でも、多少のお金を捨てる（あるいはバックアップのセーブを読み込む）ことを恐れず、連戦への備えを整え直しましょう。
 
-Once you win this battle, you'll find yourself in an area simply called "???".
+このバトルに勝つと、単に「???」と呼ばれるエリアに出ます。
 
-## Inside The Void
+## 虚無の中で {#inside-the-void}
 
-This area is fairly straightforward, as whatever branching paths there are don't really lead anywhere. It's a very story-centric area, so if you are digging the story, talk to every NPC you can and pay attention to your surroundings as you make your way through the void.
+このエリアは比較的単純で、分岐路があっても大して先には続いていません。物語色の非常に濃いエリアなので、物語を楽しんでいるなら、会えるNPCすべてに話しかけ、周囲の様子にも目を配りながら虚無を進んでください。
 
-When you reach a table full of starters, talk to the position corresponding to the starter you picked when starting the game.
+最初のパートナーが並ぶテーブルに着いたら、ゲーム開始時に自分が選んだポケモンに対応する位置に話しかけます。
 
-Later on, you'll pass Aya's segment. You can optionally talk to Cain for a third time.
+しばらく進むと、アヤの場面を通り過ぎます。任意で、カインに3回目の会話をすることもできます。
 
-**Relationship Point Choices**:
-- Talk to Cain in The Void after Aya's section (+1 Cain)
+**好感度の選択肢**:
+- 虚無でアヤの場面のあとにカインに話しかける (+1 カイン)
 
-After seeing Luna and Taka on the left side, a voice will talk to you. Prepare your team before going up, as there's a fight coming up!
+左手でルナとタカを見たあと、声が話しかけてきます。この先にバトルがあるので、上へ行く前に編成を整えてください。
 
 !battle(["Hypno", :HYPNO, 0], "Starlight Arena")
 
-The only way it's healing itself is with Dream Eater, so a Dark type can slowly whittle it down. With a 4X weakness to bug and a weakness to field-boosted Fairy moves, there's a good chance you'll have something to deal with it. You can also stall with Toxic! Chesto Berries, Safeguard, Sleep Talk, etc. can all help you deal with its 100% accurate Hypnosis as well. 
+自己回復の手段は *ゆめくい* だけなので、あくタイプならじわじわ削れます。むしタイプに4倍弱点があり、フィールド強化されたフェアリー技にも弱いので、対処できる手持ちがいる可能性は高いでしょう。*どくどく* で粘る手もあります。命中100%の *さいみんじゅつ* には、*カゴのみ*、*しんぴのまもり*、*ねごと* なども有効です。
 
-Keep following the path, and you'll eventually exit the Void. After another massive conversation, accept the fast travel request to get the heck out of the Glass Workstation.
+道をたどり続けると、やがて虚無から出られます。長大な会話のあと、高速移動の申し出を受け入れて、ガラス工房からさっさと脱出しましょう。
 
-## The Raid on Agate City
+## アゲートシティ襲撃 {#the-raid-on-agate-city}
 
-Back in Calcenon City, talk to Shelly towards the right side of the map. Enter the "story building" in Calcenon for some points.
+カルセノンシティへ戻り、マップ右寄りのシェリーに話しかけます。カルセノンの「物語の建物」に入ると好感度が得られます。
 
-**Relationship Point Choices**:
-- Talk to Shelly while she is talking to Titania/Serra (+1 Shelly)
+**好感度の選択肢**:
+- シェリーがティタニア／セラと話しているときに話しかける (+1 シェリー)
 
-**Relationship Point Choices**:
-- Reshiram Route only: Talk to Titania while she is talking to Shelly (+1 Titania)
-- Zekrom Route only: Talk to Serra while she is talking to Shelly (+1 Serra)
+**好感度の選択肢**:
+- レシラムルートのみ: ティタニアがシェリーと話しているときに話しかける (+1 ティタニア)
+- ゼクロムルートのみ: セラがシェリーと話しているときに話しかける (+1 セラ)
 
-Talk to Eve near the Pokemon Center.
+ポケモンセンター付近のイヴに話しかけます。
 
-**Relationship Point Choices**:
-- Talk to Eve and learn about all the PULSEs remaining (+1 Eve)
+**好感度の選択肢**:
+- イヴに話しかけ、残るPULSEについて聞く (+1 イヴ)
 
-Enter the "story building" once more. The squad will leave for Agate City, so fly over to Vanhanen Labyrinth and enter Agate City from the south once more.
+もう一度「物語の建物」に入ります。一行はアゲートシティへ発つので、バンハネン迷宮へ飛び、もう一度南からアゲートシティに入ってください。
 
-A note:
+注意点を1つ。
 
-**Relationship Point Choices**:
-- Reshiram Route only: Talk to Titania while doing the Agate raid (-1 Titania)
+**好感度の選択肢**:
+- レシラムルートのみ: アゲート襲撃中にティタニアに話しかける (-1 ティタニア)
 
-Defeat the grunts as you progress upwards. 
+上へ進みながらしたっぱを倒していきます。
 
 !battle(["Ricardo", :MeteorAceM, 1])
 
@@ -460,417 +460,417 @@ Defeat the grunts as you progress upwards.
 
 !battle(["Ezra", :NWCultist, 1])
 
-If and only if Titania was not fed during the Water Treatment Center back in Episode 15, Meteor Lyla will be alive and this fight will be a double battle with her:
+エピソード15の浄水センターでティタニアが食べられなかった場合に限り、メテオ団のライラが生きており、この戦いは彼女とのダブルバトルになります。
 
 !dbattle(["Ezra", :NWCultist, 1], ["Lyla", :NWCultistF, 1])
 
-Past the Light Shard is a mini-gauntlet.
+光のかけらの先は小さな連戦です。
 
 !partner(["Hardy", :HARDY, 0])
 
 !dbattle(["Howaya", :NWOrderly, 1], ["Christina", :NWOrderlyF, 0])
 
-This fight is a 12v10, with Hardy on your side. Shouldn't be too crazy with his help, just know that whatever team you prepare for the following battle is what you'll be stuck with for this one.
+この戦いはハーディを味方につけた12対10です。彼の助けがあればさほど無茶ではないはずですが、次の戦いのために用意した編成のまま、この戦いも戦うことになる点は覚えておいてください。
 
 !battle(["Solaris", :Solaris, 2])
 
-After all this time, we finally get to fight Meteor's Leader Solaris, one-on-one. No field effects are in play this fight: it's just the raw power of basically a Gen 7 OU team versus yours. Staraptor with Intimidate that hits hard? Yep. Technician Scizor with ridiculously strong Bullet Punch? Yep. Dragon Dance Gyarados? Yep. Tyranitar and Excadrill sand core? It's there! And on top of all that is his Mega Garchomp. That is not a typo above: it really does have max EVs in every stat, thanks to its PULSE 2. Get used to these for the end game. Essentially what this means is Garchomp will hit hard but also be bulky enough to live a couple of attacks.
+長い時を経て、ついにメテオ団のリーダー、ソラリスと一対一で戦えます。この戦いにフィールド効果はありません。ほぼ第7世代のOU級編成と、こちらの純粋な力比べです。*いかく* を持ち高火力で殴ってくるムクホーク? います。*テクニシャン* で理不尽に強い *バレットパンチ* を撃つハッサム? います。*りゅうのまい* を積むギャラドス? います。バンギラスとドリュウズの砂軸? あります! そのうえメガガブリアスまでいます。上の記述は誤植ではありません。PULSE2のおかげで、全能力に努力値が最大まで振られているのです。終盤ではこの手の相手に慣れておきましょう。要するに、ガブリアスは高火力なうえ、攻撃を数発耐える程度には硬いということです。
 
-At this point you also have a lot of mega Pokemon and Z-moves to your name. In particular, I find that the Icium-Z can often ensure a kill on Garchomp if you need. It's worth noting that he doesn't have a single special attack on his team... so you can focus your team entirely on physical defense. Some fast (or slow under Trick Room) special attackers running Fire, Ice, and Electric moves will be able to get 5 out of 6 of his party members super-effectively... leaving Tyranitar an excellent candidate for a Close Combat or something. I believe in your ability to defeat this guy!
+この時点では、こちらもメガシンカやZワザを多数持っています。特に *コオリZ* は、必要なときにガブリアスを確実に仕留めてくれることが多いと感じます。彼の手持ちには特殊技が1つもないので、編成を完全に物理受けに寄せられる点も見逃せません。ほのお・こおり・でんき技を持つ素早い（あるいは *トリックルーム* 下で遅い）特殊アタッカーがいれば、6匹中5匹にこうかばつぐんを取れます。残るバンギラスには *インファイト* あたりが適任でしょう。この相手を倒せると信じています!
 
-Make your way to the right.
+右へ進みます。
 
 !battle(["Ama", :MeteorAceM, 0])
 
-You'll reach a dead end, so surf up to the left of a tree to continue on.
+行き止まりに突き当たるので、木の左側からなみのりで上へ進んで先へ向かいます。
 
 !enc(763)
 
-Climb the first waterfall and grab the hidden *Stardust*. After climbing the second waterfall, head to the left. You'll find a hidden *Quick Ball*. Go down the waterfall and dive down.
+最初の滝を登り、隠された *ほしのすな* を拾います。2つ目の滝を登ったら左へ進みます。隠された *クイックボール* が見つかります。滝を下り、潜ってください。
 
 !enc(741, nil, nil, "Agate City Underwater")
 
-You can find a hidden *Silk Scarf*, 2 *Potions*, *Ether*, *Quick Claw*, *Poke Ball*, and *Ultra Ball*. If you surface on the right side of the area, you can climb some waterfalls to get the *Pinsirite*. Back underwater, enter the cave at the top.
+隠された *シルクのスカーフ*、*キズぐすり* 2個、*ピーピーエイド*、*せんせいのツメ*、*モンスターボール*、*ハイパーボール* が見つかります。このエリアの右側で浮上すると、滝をいくつか登って *カイロスナイト* が手に入ります。水中に戻り、上部の洞窟に入ります。
 
-In the next room, Lin will flex on us. Grab the hidden *Super Potion* and *Lucky Egg*, then backtrack to the main part of the city. To the east of the Pokemon Center, watch the scenes play out then talk to Shelly. Hardy will then extend an offer to challenge his gym!
+次の部屋では、リンが力を見せつけてきます。隠された *いいキズぐすり* と *しあわせタマゴ* を拾ったら、街の主要部へ引き返します。ポケモンセンターの東で場面を見届けたら、シェリーに話しかけてください。するとハーディが、自分のジムに挑まないかと持ちかけてきます。
 
-## Agate City
+## アゲートシティ {#agate-city}
 
-We could accept Hardy's gym battle offer right away, but there are some sidequests with excellent rewards now open: to cut to the chase, we can actually get every single non-legendary Pokemon before fighting Hardy - and if we do get them all, there's a really awesome reward waiting for us. So, let's get into it.
+ハーディのジム戦の申し出をすぐ受けることもできますが、優れた報酬のあるサイドクエストがいくつか開放されています。結論から言うと、ハーディと戦う前に伝説以外のポケモンを1匹残らず集めることが可能で、全部集めれば実に素晴らしい報酬が待っています。では、始めましょう。
 
-Head to the left side of Agate City and into the Agate Circus.
+アゲートシティの左側からアゲートサーカスへ入ります。
 
-**Relationship Point Choices**:
-- (Refuse Blake Route Only) Talk to Ciel on the top left side of the circus after the raid (+1 Ciel, +1 Ace)
-- (Give Ruby Ring Route Only) Talk to Samson in the Big Top after the raid (+1 Samson)
+**好感度の選択肢**:
+- （ブレイク拒否ルートのみ）襲撃後にサーカス左上側のシエルに話しかける (+1 シエル, +1 エース)
+- （ルビーのゆびわを渡したルートのみ）襲撃後に大テントのサムソンに話しかける (+1 サムソン)
 
-Back in Agate City, starting at the Pokemon Center, head straight to the left and enter the house here. Talk to the Hiker inside, who will leave for Route 4. We'll follow him later. Outside, grab a hidden *Purple Shard* above then enter the top building. If you previously joined the Magma Gang, you have the opportunity to do an in-game trade here: your Basculin for **Litten**.
+アゲートシティに戻り、ポケモンセンターからまっすぐ左へ進んで、ここの家に入ります。中の山男に話しかけると、4番道路へ発ちます。後ほど追いかけます。外に出たら上部で隠された *むらさきのかけら* を拾い、上の建物に入ります。以前マグマ団に入っていれば、ここでゲーム内交換ができます。こちらのバスラオと **ニャビー** の交換です。
 
-Back at the Pokemon Center, this time go east. Talk to the lady in the house here to begin another quest, which we'll complete in a bit.
+ポケモンセンターに戻り、今度は東へ進みます。ここの家の女性に話しかけると別のクエストが始まりますが、これは少し後で完了します。
 
-We'll come back to the next house up and to the right in a bit. Enter the apartment complex beyond, next to the rock climb. In the lobby, if you previously joined the Aqua Gang, you will have the opportunity to complete an in-game trade: your Oranguru for **Oshawott**.
+その上そして右にある次の家は、もう少し後で扱います。その先、ロッククライムの隣にある集合住宅に入ります。ロビーでは、以前アクア団に入っていればゲーム内交換ができます。こちらのヤレユータンと **ミジュマル** の交換です。
 
-Head up from here. Near the gym, you'll find a hidden *Everstone*. Back down and to the right, climb up the rocks in the northeast side of the city, and follow the path. Grab a hidden *Ability Capsule* as you scale waterfalls.
+そこから上へ進みます。ジムの近くで、隠された *かわらずのいし* が見つかります。下そして右へ戻り、街の北東側の岩を登って道をたどります。滝を登りながら、隠された *とくせいカプセル* を拾ってください。
 
-## Route 4 Sidequests
+## 4番道路のサイドクエスト {#route-4-sidequests}
 
-By climbing the top waterfall, you'll emerge in a new area of Route 4.
+一番上の滝を登ると、4番道路の新しいエリアに出ます。
 
 !enc(742, nil, nil, "Route 4 (North of Agate)")
 
-Grab the *Ground Memory* as well as the hidden *Health Wing* and *X Sp. Def*. Climbing the waterfall at the top will return us to a map we had previously visited.
+*グラウンドメモリ* に加えて、隠された *たいりょくのハネ* と *スペシャルガード* を拾います。上部の滝を登ると、以前訪れたマップに戻ります。
 
-From here, make your way to the other map with the lake - you'll need to climb up a couple of rocks. In the southwest corner of the higher lake, you'll see the Hiker from Agate City. Talk to him for a battle.
+そこから、湖のあるもう一方のマップへ向かいます。岩をいくつか登る必要があります。高いほうの湖の南西の隅に、アゲートシティの山男がいます。話しかけるとバトルです。
 
 !battle(["Karim", :HIKER, 0], "Forest Field")
 
-Once you defeat him, he will let his Pokemon out to hang out on the map. Talk to the Hiker for 5 *PokeSnax*. Talk to him again. He'll ask if you have a spare belt in your bag. By giving a Black Belt, you'll get a *Fist Plate*. If you don't have any Black Belts in your bag but you do have an Expert Belt, you can trade it for a *Life Orb*. Note that we will be able to get more Expert Belts in a bit, so don't feel bad about trading it away if you'd like.
+倒すと、彼は自分のポケモンをマップに放して遊ばせます。山男に話しかけると *ポケスナック* 5個がもらえます。もう一度話しかけてください。バッグに余っているベルトはないかと尋ねられます。*くろおび* を渡すと *こぶしのプレート* が手に入ります。*くろおび* が無く、*たつじんのおび* があるなら、そちらを *いのちのたま* と交換できます。なお、*たつじんのおび* はもう少し後でさらに入手できるので、渡してしまっても惜しくはありません。
 
-Once you've done these things, give snax to the Pokemon. Specifically, give a snax to Altaria, then another to Golem. By doing so, a new rock path will open up, so climb down to reach a new area.
+これらを済ませたら、ポケモンたちにスナックをあげます。具体的には、まずチルタリスに、次にゴローニャにあげてください。そうすると新しい岩の道が開くので、下って新しいエリアへ向かいます。
 
 !enc(716, nil, nil, "Route 4 (Central Creek Map)")
 
-Grab the *Sceptilite* and *Big Nugget*. Hidden here is a *Blue Shard* and an *Ultra Potion*. That's it for Route 4 for now!
+*ジュカインナイト* と *でかいきんのたま* を拾います。ここには *あおいかけら* と *すごいキズぐすり* が隠されています。4番道路は当面これで終わりです!
 
-## Magic Square Quest
+## 魔方陣クエスト {#magic-square-quest}
 
-Fly over to North Obsidia Ward next. North of the Spyce, enter the open door into the building where we once fought ZEL and Magnezone. Talk to the monitor in the first room, and use your Meteor Card on it. Talk to the now-open shafts behind to jump down.
+次は北オブシディア区へ飛びます。ザ・スパイスの北にある、かつてゼルとジバコイルと戦った建物の開いた扉に入ります。最初の部屋のモニターに話しかけ、*メテオカード* を使ってください。奥で開いた縦坑に話しかけると飛び降りられます。
 
-In a room to the right, you can get an *EV Tuner* and 5 *Exp. Candy XL*. You can also read the book to the right to get some lore (including Sirius' real name LOL).
+右の部屋では *どりょくちチューナー* と *けいけんアメXL* 5個が手に入ります。右の本を読むと設定も読めます（シリウスの本名まで載っています）。
 
-Back in the main room, time for one of the community's most dreaded puzzles. Talk to the monitor at the bottom to learn of our quest. We'll need to make it so both 3x3 squares are magic squares, that is, all rows, columns, and diagonals add up to the same number: 15. Additionally, only the middle square can be the same across the two squares.
+主要な部屋に戻ると、コミュニティで最も恐れられているパズルの1つが待っています。下部のモニターに話しかけて、こちらの任務を確認します。2つの3×3の方陣をどちらも魔方陣にする、つまり、すべての行・列・対角線の合計を同じ数（15）にする必要があります。加えて、2つの方陣で同じ位置に同じ数を置けるのは中央だけです。
 
-There are essentially two parts to this quest: figuring out what numbers you want where, and actually moving them into place. It's also worth noting that for some reason whether or not Saphira was kidnapped back in Belrose actually affects the starting positions of the numbers, but my solving method actually works for both versions.
+このクエストは実質2段階に分かれます。どの数をどこに置きたいかを決める段階と、実際にそこへ動かす段階です。なお、なぜかベルローズでサファイラが誘拐されたかどうかによって数字の初期配置が変わりますが、ここで示す解法はどちらの場合でも通用します。
 
-### What Goes Where?
+### どの数をどこに置くか {#what-goes-where}
 
-I actually graduated with a degree in Mathematics once upon a time and do Computer Science-adjacent stuff for a living. So I'm gonna nerd out for a little while. Skip ahead a bit if you just want to see what the solution looks like. :)
+筆者はかつて数学の学位を取り、今は計算機科学に近い仕事をしています。というわけで、少しだけオタク語りをさせてください。解答の形だけ見たい人は少し読み飛ばしてください。:)
 
 !img("magic_square_0.jpg")
 
-First we are going to solve for what we are looking for. It can be proven fairly easily that the middle is 5. Here's why:
+まずは求めるべきものを解いていきます。中央が5になることは、比較的簡単に証明できます。理由は次のとおりです。
 
-Notice that from the middle row: B1 + B2 + B3 = 15, and from the diagonals that A1 + B2 + C3 = 15, and C1 + B2 + A3 = 15. Adding these three equations and moving things around a bit, we see (A1 + B1 + C1) + (A3 + B3 + C3) + 3 * B2 = 45.
+中央の行から B1 + B2 + B3 = 15、対角線から A1 + B2 + C3 = 15、そして C1 + B2 + A3 = 15 が成り立ちます。この3式を足して少し整理すると、(A1 + B1 + C1) + (A3 + B3 + C3) + 3 * B2 = 45 が得られます。
 
-We also can observe from the first and third column that A1 + B1 + C1 = 15 and A3 + B3 + C3 = 15. Thus simplifying the above result leads to 3 * B2 = 15, so B2 is 5.
+また、1列目と3列目から A1 + B1 + C1 = 15、A3 + B3 + C3 = 15 も分かります。これを上の結果に代入して整理すると 3 * B2 = 15 となり、B2 は5と決まります。
 
 !img("magic_square_1.jpg")
 
-I'll solve for just one magic square for now.
+ここではひとまず1つの魔方陣だけを解きます。
 
-We might as well try putting 1 in a corner and seeing what happens. Since we can just rotate the square, without loss of generality we can see what happens when we place it in the top left corner of one of the magic squares and seeing if a contradiction arises. This will also force 9 to be in the opposite corner to keep with the 15 sum rule.
+とりあえず1を隅に置いて何が起きるか試してみましょう。方陣は回転できるので、一般性を失うことなく、片方の魔方陣の左上の隅に置いた場合を考え、矛盾が生じるかを見ればよいわけです。合計15の規則から、9は反対側の隅に入ることも確定します。
 
 !img("magic_square_2.jpg")
 
-Consider the highlighted tiles. Each cannot be 1, 5, 9 since each is used, so it must be inclusively between 2 and 4, or inclusively between 6 and 8. If the tile is at most 4, then the remaining tile in the row with 1 would have to be at least 10, which is impossible. If the tile is at least 6, the column with 9 would be too large. So there is no possible value that works in either highlighted tile, meaning that putting 1 in the corner leads to no solutions. Therefore, we can assume 1 is in one of the four tiles adjacent to the middle, making 9 appear opposite. Again without loss of generality due to rotations, I'll put 1 on the left.
+強調されたマスに注目してください。1、5、9はすでに使われているのでどれも入らず、したがって2以上4以下か、6以上8以下でなければなりません。そのマスが4以下なら、1と同じ行の残りのマスは10以上になってしまい、あり得ません。6以上なら、9のある列が大きくなりすぎます。つまり、どちらの強調マスにも入り得る値が存在せず、1を隅に置くと解が無いということです。よって1は中央に隣接する4マスのいずれかにあり、9はその反対側に来ると考えられます。回転により、ここでも一般性を失うことなく、1を左に置くことにします。
 
 !img("magic_square_3.jpg")
 
-The column containing 1 has two empty tiles that will add up to 14, meaning the only possibility with the remaining numbers is for them to be 6 and 8 (as 2, 3, 4 are too small, and we can't use 7 twice). Since we can simply reflect our square across the horizontal line through the center, again there is no loss to generality to put 6 on top, and 8 below. Solving the diagonals puts 4 in the bottom right and 2 in the top right. Then all we have to do is put 3 and 7 into the final cells, which leaves us with one completed square.
+1のある列には空きマスが2つあり、その合計は14になります。残っている数でこれが成り立つのは6と8の組み合わせだけです（2、3、4は小さすぎ、7は二度使えません）。中心を通る水平線で方陣を反転できるので、ここでも一般性を失うことなく、6を上、8を下に置きます。対角線を解くと右下に4、右上に2が入ります。あとは残りのマスに3と7を入れれば、1つの方陣が完成します。
 
 !img("magic_square_4.jpg")
 
-You can check that each row, column, and diagonal add up to 15 if you don't believe me. The final stipulation of this puzzle is that only the center can be the same across puzzles. To deal with this issue, I simply rotate the puzzle by 90 degrees: obviously the rows, columns, and diagonals all still add up to 15, but now each non-5 piece is in a different place.
+信じられなければ、各行・列・対角線の合計が15になることを確かめてみてください。このパズルの最後の条件は、2つの方陣で同じ位置に同じ数が来てよいのは中央だけ、というものです。これに対処するため、単純に方陣を90度回転させます。当然ながら行・列・対角線の合計は15のままですが、5以外のすべてのマスの位置が変わります。
 
 !img("magic_square_5.jpg")
 
-This is the solution we will solve for. Due to rotations and reflections as mentioned before, one or both of your squares may look different from mine.
+これが目指す解答です。前述のとおり回転や反転があるので、あなたの方陣は片方または両方が筆者のものと違って見えるかもしれません。
 
-### Moving Pieces Into Place
+### 駒を所定の位置へ動かす {#moving-pieces-into-place}
 
-Now, we just have to execute. Some players seem to be driven kinda mad by this step, but I am here to tell you about an algorithm with a handy invariant that guarantees we can complete the puzzle pretty easily! Essentially, we will solve piece by piece: by column, then by row. In fact, we can guarantee that we will be able to solve the first five columns in this way without messing up anything that came before!
+あとは実行するだけです。この段階でかなり参ってしまうプレイヤーもいるようですが、便利な不変条件を持つ手順があり、これに従えばかなり簡単に完成させられます。要は、列ごと、次に行ごとに、1マスずつ確定させていくのです。しかもこのやり方なら、それまでに確定させたものを崩さずに、最初の5列を必ず解けます。
 
 !img("magic_square_6.jpg")
 
-Suppose we are solving for the highlighted tile on the left (the *destination*), and we need to move 5 in (the *target*). Note that the tiles in all the columns to the left (just column 1) have already been solved, and the tiles above our target as well (here, just column 2, row 1). We intend to keep the puzzle this way after putting the next tile into position. So, here's the algorithm:
+左の強調されたマス（*目的地*）を解こうとしていて、そこへ5（*対象*）を動かしたいとします。左側のすべての列（ここでは1列目）と、目的地より上のマス（ここでは2列目の1行目）はすでに確定済みです。次の駒を置いたあとも、この状態を保ちたいわけです。手順は次のとおりです。
 
-- If the target is in the same column as the destination, we can do a few things.
-    - If the destination is the top tile, simply move the column until the target is at the destination, then we are done.
-    - If you the destination is the bottom tile, then the tile will already be correct, so we are done.
-    - Otherwise, the destination will be in the middle, and the target will be in the bottom row. Simply move the bottom row right, the column now containing the target up, then reset the bottom row by moving it back left once.
+- 対象が目的地と同じ列にある場合、いくつかの手があります。
+    - 目的地が一番上のマスなら、対象が目的地に来るまで列を動かすだけで完了です。
+    - 目的地が一番下のマスなら、すでに正しい配置になっているので完了です。
+    - それ以外の場合、目的地は中央にあり、対象は最下行にあります。最下行を右へ動かし、対象が入った列を上へ動かし、最下行を左へ1回戻して元に戻します。
 
-- If the target is in the same row as the destination, move the column containing the target up once so that it is no longer in the same row.
+- 対象が目的地と同じ行にある場合、対象のある列を上へ1回動かして、同じ行から外します。
 
 !img("magic_square_7.jpg")
 
-- Move the row containing the destination right as many times as it takes for the destination tile to be directly above/below the target.
+- 目的地のマスが対象の真上または真下に来るまで、目的地のある行を右へ動かします。
 
 !img("magic_square_8.jpg")
 
-- Move the column containing the target up or down so that the target is now in the correct row.
+- 対象のある列を上か下へ動かし、対象を正しい行に入れます。
 
 !img("magic_square_9.jpg")
 
-- Now, simply move the row containing the target back to the left until it is once more solved. You'll notice that if you did the steps right, it will leave all the previously solved pieces the same, and put the new piece into the correct spot.
+- あとは、対象のある行を左へ戻して、再び確定した状態にするだけです。手順どおりに進めていれば、確定済みの駒はそのままで、新しい駒だけが正しい位置に入っているはずです。
 
 !img("magic_square_10.jpg")
 
-Next, you'd move a 3 into the destination below the 5 we just moved in, then the 2 into the destination: top tile of the next column, and so on. That's really all there is to moving pieces in the first five columns into place. Do so, and your puzzle will look something like this:
+次は、今動かした5の下の目的地へ3を、続いて次の列の一番上の目的地へ2を、という具合に進めます。最初の5列に駒を入れるやり方はこれで全部です。そのとおりに進めると、パズルはおおよそ次のような状態になります。
 
 !img("magic_square_11.jpg")
 
-In my case, the dashes will represent 2, 6, and 7. Moving the rightmost column up or down if necessary to put the correct number into the top right, either this will solve the puzzle right away, or it will have the other two numbers switched around. If this occurs, essentially it means that you put the wrong number into the left side puzzle. Your board should look somewhat like this in this case:
+筆者の場合、ダッシュは2、6、7を表します。必要なら一番右の列を上下に動かして右上に正しい数を入れると、そのままパズルが完成するか、残る2つの数が入れ替わったままになるかのどちらかです。後者になった場合、要するに左側の方陣に間違った数を入れてしまったということです。その場合、盤面はおおよそ次のようになっているはずです。
 
 !img("magic_square_12.jpg")
 
-There is a simple fix however: switch 6's. Simply move the right column up, the first row left, the right column down, and the first row right again. Finally, move the right column down once again.
+とはいえ、簡単な直し方があります。6同士を入れ替えるのです。右の列を上へ、1行目を左へ、右の列を下へ、そして1行目をもう一度右へ動かします。最後に、右の列をもう一度下へ動かします。
 
-Anyways, once you complete the puzzle, the *Darkinium-Z*, the *Gardevoirite*, and *TM24 Thunderbolt* will drop down. Very nice. You'll also notice that the screen has changed a bit: one number per column is now white.
+ともあれ、パズルを完成させると *アクZ*、*サーナイトナイト*、*わざマシン24 10まんボルト* が落ちてきます。実に良いですね。画面が少し変わり、各列で1つの数字が白くなっているのにも気づくはずです。
 
-Head on back to Agate City, and enter the building to the right of the Pokemon Center. Talk to the lady and give her the code in white we just found: 139749.
+アゲートシティへ戻り、ポケモンセンターの右の建物に入ります。女性に話しかけ、今見つけた白い数字のコード「139749」を伝えます。
 
-In the next room, you can get the *Manectite* as well as *Department Store Sticker: Manectric*. Hallelujah. You know what that means!
+次の部屋では *ライボルトナイト* と *デパートのシール・ライボルト* が手に入ります。ハレルヤ。これが何を意味するかは、お分かりですね。
 
 !shop("Department Store 11F (Left)", ["Rocky Helmet", "Shed Shell", "Expert Belt", "Safety Goggles", "Flame Orb", "Toxic Orb", "Wise Glasses", "Wide Lens", "Muscle Band", "Black Sludge"])
 
 !shop("Department Store 11F (Right)", ["Magmarizer", "Electirizer", "Protector", "Reaper Cloth", "Dubious Disc", "King's Rock", "Dragon Scale", "Razor Fang", "Razor Claw", "Metal Coat", "Deep Sea Tooth", "Deep Sea Scale"])
 
-A lot of high-tier held items and evolution items, all now available in bulk.
+上位の持ち物と進化アイテムが大量に、まとめて買えるようになりました。
 
-## Murmina's Quest
+## ムルミナのクエスト {#murminas-quest}
 
-Fly over to Calcenon City next. Down the steps to Route 3, go east and into the little cave. Inside, you'll find a trainer who will fight you!
+次はカルセノンシティへ飛びます。3番道路への階段を下り、東へ進んで小さな洞窟に入ります。中には、戦いを挑んでくるトレーナーがいます。
 
 !battle(["Murmina", :MURMINA, 0], "Factory Field")
 
-This is actually a somewhat tough team, with Mega-Steelix in the back as well! Nothing you can't handle, though. She'll leave, talking about Caroline's basement. This next part of the quest is pretty obscure.
+これが意外と手強い編成で、後衛にはメガハガネールまでいます。とはいえ、対処できない相手ではありません。彼女はキャロラインの地下室について語りながら去っていきます。このクエストの次の段階は、かなり分かりにくいものです。
 
-Fly over to Agate City, and enter the building below the gym. There is a child in the bottom right (who kinda blends in with the chair?!) who will let you access the basement. Pay very close attention to the tiles in this basement, then fly back to Calcenon City.
+アゲートシティへ飛び、ジムの下の建物に入ります。右下に子ども（椅子と同化しかけています）がいて、地下室へ入れてくれます。この地下室のタイルをよく観察したら、カルセノンシティへ飛び戻ります。
 
-Enter Charlotte's gym, and make your way to the back. I actually mentioned this before in the guide, since you can open the secret door at any time, and doing so earlier allows us access to an extra Charlotte point and an early Mega Stone. If you didn't open the door then, we need to make the tiles in the back section of Charlotte's gym match the tile layout in the random Agate basement. It should look like this when you're done:
+シャルロットのジムに入り、奥まで進みます。これについては攻略の中で以前も触れました。隠し扉はいつでも開けられ、早い段階で開けておけばシャルロットの好感度1点と早期のメガストーンが手に入るからです。あのとき扉を開けていなければ、シャルロットのジムの奥の区画のタイルを、先ほど見たアゲートの地下室のタイル配置に合わせる必要があります。完成すると次のようになるはずです。
 
 !img("calcsecret.jpg")
 
-Follow the path from here and grab the *Charizardite X* if you didn't get it earlier. Give Murmina the Family Picture we once yoinked from a shelf in the Belrose Manse. She'll gift us a **Torchic** egg. Very nice.
+そこから道をたどり、まだ取っていなければ *リザードナイトX* を回収します。かつてベルローズ邸の棚からくすねた *かぞくのしゃしん* をムルミナに渡すと、**アチャモ** のタマゴをくれます。実に良いですね。
 
-## Bee's Pokedex Completion Quest (Part 1)
+## ビーの図鑑完成クエスト (前編) {#bees-pokedex-completion-quest-part-1}
 
-Fly back to Agate City, this time heading into the small house towards the right side of the city. The girl inside is named Bee, and she'll basically offer us rewards for every 100 Pokemon we've added to our Pokedex. At the point in my playthrough I was playing parallel to this guide, I had 569 Pokemon. Your mileage will certainly vary depending on what evolutions you've done, which Pokemon you've bred, etc., but I think it is a safe assumption that if you've been following along closely, you'll have at least 500 Pokemon at this time. So, you'll get the following rewards:
+アゲートシティへ飛び戻り、今度は街の右寄りにある小さな家に入ります。中の少女はビーといい、図鑑に登録したポケモンが100匹増えるごとに報酬をくれます。この攻略と並行して進めた筆者のプレイでは、この時点で569匹でした。どの進化をこなしたか、どのポケモンを繁殖したかなどによって当然差は出ますが、ここまで丁寧に付いてきていれば、この時点で少なくとも500匹には達していると考えて差し支えないでしょう。というわけで、次の報酬が手に入ります。
 
-|Pokemon Caught |Reward         |
+|捕まえた数 |報酬            |
 |---------------|---------------|
-|100+           |*Galladite*    |
-|200+           |**Froakie**    |
-|300+           |*TM13 Ice Beam*|
-|400+           |*Scizorite*    |
-|500+           |*Electrium-Z*  |
+|100以上           |*エルレイドナイト*    |
+|200以上           |**ケロマツ**    |
+|300以上           |*わざマシン13 れいとうビーム*|
+|400以上           |*ハッサムナイト*    |
+|500以上           |*デンキZ*  |
 
-Clearly some excellent rewards in here, and we're not even done with the quest.
+明らかに素晴らしい報酬揃いですが、このクエストはまだ終わりではありません。
 
-## Starter Egg Quest Part 3
+## 最初のパートナーのタマゴクエスト (後編) {#starter-egg-quest-part-3}
 
-Did you notice? After obtaining Froakie, we actually now have obtained all 21 starters! Breed whichever of Oshawott and Litten that is newer, as well as Snivy, Torchic, and Froakie, donating all four eggs to Kamaya in the Grand Hall.
+お気づきでしょうか。ケロマツを手に入れたことで、21種類の最初のパートナーがすべて揃いました。ミジュマルとニャビーのうち新しく手に入れたほう、そしてツタージャ、アチャモ、ケロマツを繁殖し、4個のタマゴすべてを大ホールのカナヤに寄贈しましょう。
 
-For reaching 18 eggs donated, you'll be given the *Reset Disc- SPEED*. The rewards for donating all 21 are even better: you'll get *TM26 Earthquake*, *Psychium-Z*, and *Garchompite*.
+寄贈数が18個に達すると *リセットディスク・すばやさ* がもらえます。21個すべてを寄贈したときの報酬はさらに豪華で、*わざマシン26 じしん*、*エスパーZ*、*ガブリアスナイト* が手に入ります。
 
-## Completing the Pokedex (Minus Most Legendaries)
+## 図鑑完成（大半の伝説を除く） {#completing-the-pokedex-minus-most-legendaries}
 
-Even better: did you notice? After obtaining Froakie, we actually now have obtained at least one member of every single non-legendary evolution line in the game, plus Type:Null and Phione. This also means that we actually can carry out the rest of Bee's quest right now, before we even get the last two badges! That also means that we're going to have to do a lot of evolving and breeding... so if you don't care enough about these rewards, or would rather do the quest later, you can skip this part.
+さらに良い話です。お気づきでしょうか。ケロマツを手に入れたことで、伝説以外のすべての進化系統から少なくとも1匹ずつ、加えてタイプ:ヌルとフィオネも入手済みになりました。つまり、残り2つのバッジを取る前の今、ビーのクエストの残りも全部片付けられるということです。ただし、そのためには大量の進化と繁殖をこなす必要があります。報酬にさほど興味がないか、後回しにしたい場合は、この部分は飛ばして構いません。
 
-The following is a table of Pokemon you'll need to breed or evolve at this point in order to complete the Pokedex:
+図鑑を完成させるために、この時点で繁殖または進化させる必要があるポケモンの一覧です。
 
-|Pokemon to Obtain  | Method                                            |
+|入手するポケモン  |方法                                            |
 |-------------------|---------------------------------------------------|
-|**Ivysaur**        |Evolve Bulbasaur @ Lv. 16                          |
-|**Venusaur**       |Evolve Ivysaur @ Lv. 32                            |
-|**Wartortle**      |Evolve Squirtle @ Lv. 16                           |
-|**Blastoise**      |Evolve Wartortle @ Lv. 16                          |
-|**Metapod**        |Evolve Caterpie @ Lv. 7                            |
-|**Weedle**         |Breed Beedrill                                     |
-|**Kakuna**         |Evolve Weedle @ Lv. 7                              |
-|**Nidoqueen**      |Evolve Nidorino via Moon Stone                     |
-|**Nidoking**       |Evolve Nidorina via Moon Stone                     |
-|**Clefable**       |Evolve Clefairy via Moon Stone                     |
-|**Ninetales**      |Evolve Vulpix via Fire Stone                       |
-|**Arcanine**       |Evolve Growlithe via Fire Stone                    |
-|**Poliwrath**      |Evolve Poliwhirl via Water Stone                   |
-|**Kadabra**        |Evolve Abra @ Lv. 16                               |
-|**Alakazam**       |Evolve Kadabra via Link Stone                      |
-|**Machamp**        |Evolve Machoke via Link Stone                      |
-|**Victreebel**     |Evolve Weepinbell via Leaf Stone                   |
-|**Golem**          |Evolve Graveler via Link Stone                     |
-|**Slowbro**        |Evolve Slowpoke @ Lv. 37                           |
-|**Haunter**        |Evolve Gastly @ Lv. 25                             |
-|**Gengar**         |Evolve Haunter via Link Stone                      |
-|**Exeggutor**      |Evolve Exeggcute via Leaf Stone                    |
-|**Hitmonlee**      |Evolve Tyrogue @ Lv. 20, Atk > Def                 |
-|**Hitmonchan**     |Evolve Tyrogue @ Lv. 20, Atk < Def                 |
-|**Starmie**        |Evolve Staryu via Water Stone                      |
-|**Jynx**           |Evolve Smoochum @ Lv. 30                           |
-|**Electabuzz**     |Evolve Elekid @ Lv. 30                             |
-|**Magmar**         |Evolve Magby @ Lv. 30                              |
-|**Gyarados**       |Evolve Magikarp @ Lv. 20                           |
-|**Vaporeon**       |Evolve Eevee via Water Stone                       |
-|**Jolteon**        |Evolve Eevee via Thunder Stone                     |
-|**Flareon**        |Evolve Eevee via Fire Stone                        |
-|**Omastar**        |Evolve Omanyte @ Lv. 40                            |
-|**Kabutops**       |Evolve Kabuto @ Lv. 40                             |
-|**Snorlax**        |Evolve Munchlax via Friendship                     |
-|**Dragonair**      |Evolve Dratini @ Lv. 30                            |
-|**Dragonite**      |Evolve Dragonair @ Lv. 55                          |
-|**Bayleef**        |Evolve Chikorita @ Lv. 16                          |
-|**Meganium**       |Evolve Bayleef @ Lv. 32                            |
-|**Quilava**        |Evolve Cyndaquil @ Lv. 14                          |
-|**Typhlosion**     |Evolve Quilava @ Lv. 36                            |
-|**Croconaw**       |Evolve Totodile @ Lv. 18                           |
-|**Feraligatr**     |Evolve Croconaw @ Lv. 30                           |
-|**Crobat**         |Evolve Golbat via Friendship                       |
-|**Cleffa**         |Breed Clefairy/Clefable                            |
-|**Togetic**        |Evolve Togepi via Friendship                       |
-|**Bellossom**      |Evolve Gloom via Sun Stone                         |
-|**Politoed**       |Evolve Poliwhirl via Link Stone & King's Rock      |
-|**Jumpluff**       |Evolve Skiploom @ Lv. 27                           |
-|**Espeon**         |Evolve Eevee via Friendship (Day, no Fairy moves)  |
-|**Umbreon**        |Evolve Eevee via Friendship (Night, no Fairy moves)|
-|**Slowking**       |Evolve Slowpoke via Link Stone & King's Rock       |
-|**Wobbuffet**      |Evolve Wynaut @ Lv. 15                             |
-|**Scizor**         |Evolve Scyther via Link Stone & Metal Coat         |
-|**Porygon2**       |Evolve Porygon via Link Stone & Upgrade            |
-|**Hitmontop**      |Evolve Tyrogue @ Lv. 20, Atk = Def                 |
-|**Blissey**        |Evolve Chansey via Happiness                       |
-|**Pupitar**        |Evolve Larvitar @ Lv. 30                           |
-|**Tyranitar**      |Evolve Pupitar @ Lv. 55                            |
-|**Grovyle**        |Evolve Treecko @ Lv. 16                            |
-|**Sceptile**       |Evolve Grovyle @ Lv. 36                            |
-|**Combusken**      |Evolve Torchic @ Lv. 16                            |
-|**Blaziken**       |Evolve Combusken @ Lv. 36                          |
-|**Marshtomp**      |Evolve Mudkip @ Lv. 16                             |
-|**Swampert**       |Evolve Marshtomp @ Lv. 36                          |
-|**Seedot**         |Breed Nuzleaf/Shiftry                              |
-|**Shiftry**        |Evolve Nuzleaf via Leaf Stone                      |
-|**Swellow**        |Evolve Taillow @ Lv. 22                            |
-|**Kirlia**         |Evolve Ralts @ Lv. 20                              |
-|**Gardevoir**      |Evolve Kirlia @ Lv. 30                             |
-|**Breloom**        |Evolve Shroomish @ Lv. 23                          |
-|**Slaking**        |Evolve Vigoroth @ Lv. 36                           |
-|**Ninjask**        |Evolve Nincada @ Lv. 20                            |
-|**Shedinja**       |Evolve Nincada @ Lv. 20 w/ Poke Ball & Party Slot  |
-|**Exploud**        |Evolve Loudred @ Lv. 40                            |
-|**Hariyama**       |Evolve Makuhita @ Lv. 24                           |
-|**Azurill**        |Breed Marill/Azumarill w/ Sea Incense              |
-|**Medicham**       |Evolve Meditite @ Lv. 37                           |
-|**Cacnea**         |Breed Cacturne                                     |
-|**Cradily**        |Evolve Lileep @ Lv. 40                             |
-|**Armaldo**        |Evolve Anorith @ Lv. 40                            |
-|**Milotic**        |Evolve Feebas via Link Stone & Prism Scale         |
-|**Shelgon**        |Evolve Bagon @ Lv. 30                              |
-|**Salamence**      |Evolve Shelgon @ Lv. 50                            |
-|**Metang**         |Evolve Beldum @ Lv. 20                             |
-|**Metagross**      |Evolve Metang @ Lv. 45                             |
-|**Grotle**         |Evolve Turtwig @ Lv. 18                            |
-|**Torterra**       |Evolve Grotle @ Lv. 32                             |
-|**Monferno**       |Evolve Chimchar @ Lv. 14                           |
-|**Infernape**      |Evolve Monferno @ Lv. 36                           |
-|**Prinplup**       |Evolve Piplup @ Lv. 16                             |
-|**Empoleon**       |Evolve Prinplup @ Lv. 36                           |
-|**Roserade**       |Evolve Roselia via Shiny Stone                     |
-|**Rampardos**      |Evolve Cranidos @ Lv. 30                           |
-|**Bastiodon**      |Evolve Shieldon @ Lv. 30                           |
-|**Mismagius**      |Evolve Misdreavus via Dusk Stone                   |
-|**Honchkrow**      |Evolve Murkrow via Dusk Stone                      |
-|**Purugly**        |Evolve Glameow @ Lv. 38                            |
-|**Gabite**         |Evolve Gible @ Lv. 24                              |
-|**Garchomp**       |Evolve Gabite @ Lv. 48                             |
-|**Lucario**        |Evolve Riolu via Friendship (Day)                  |
-|**Toxicroak**      |Evolve Croagunk @ Lv. 37                           |
-|**Weavile**        |Evolve Sneasel via Razor Claw Lv. (Night)          |
-|**Magnezone**      |Evolve Magneton via Lv. @ Power Plant              |
-|**Rhyperior**      |Evolve Rhydon via Link Stone & Protector           |
-|**Tangrowth**      |Evolve Tangela via Lv. w/ Ancient Power            |
-|**Electivire**     |Evolve Electabuzz via Link Stone & Electirizer     |
-|**Magmortar**      |Evolve Magmar via Link Stone & Magmarizer          |
-|**Togekiss**       |Evolve Togetic via Shiny Stone                     |
-|**Leafeon**        |Evolve Eevee via Lv. @ Chrysolia Mossy Rock        |
-|**Glaceon**        |Evolve Eevee via Lv. @ Celestinine B2F Icy Rock    |
-|**Mamoswine**      |Evolve Piloswine via Lv. w/ Ancient Power          |
-|**Porygon-Z**      |Evolve Porygon2 via Link Stone & Dubious Disc      |
-|**Gallade**        |Evolve Male Kirlia via Dawn Stone                  |
-|**Dusknoir**       |Evolve Dusknoir via Link Stone & Reaper Cloth      |
-|**Pignite**        |Evolve Tepig @ Lv. 17                              |
-|**Emboar**         |Evolve Pignite @ Lv. 36                            |
-|**Dewott**         |Evolve Oshawott @ Lv. 17                           |
-|**Samurott**       |Evolve Dewott @ Lv. 36                             |
-|**Herdier**        |Evolve Lillipup @ Lv. 16                           |
-|**Stoutland**      |Evolve Herdier @ Lv. 32                            |
-|**Gurdurr**        |Evolve Timburr @ Lv. 25                            |
-|**Conkeldurr**     |Evolve Gurdurr via Link Stone                      |
-|**Tympole**        |Breed Palpitoad/Seismitoad                         |
-|**Swadloon**       |Evolve Sewaddle @ Lv. 20                           |
-|**Scolipede**      |Evolve Whirlipede @ Lv. 30                         |
-|**Krokorok**       |Evolve Sandile @ Lv. 29                            |
-|**Carracosta**     |Evolve Tirtouga @ Lv. 37                           |
-|**Archeops**       |Evolve Archen @ Lv. 37                             |
-|**Garbodor**       |Evolve Trubbish @ Lv. 36                           |
-|**Zoroark**        |Evolve Zorua @ Lv. 30                              |
-|**Gothorita**      |Evolve Gothita @ Lv. 32                            |
-|**Gothitelle**     |Evolve Gothorita @ Lv. 41                          |
-|**Duosion**        |Evolve Solosis @ Lv. 32                            |
-|**Reuniclus**      |Evolve Duosion @ Lv. 41                            |
-|**Vanilluxe**      |Evolve Vanillish @ Lv. 47                          |
-|**Eelektross**     |Evolve Eelektrik via Thunder Stone                 |
-|**Beheeyem**       |Evolve Elgyem @ Lv. 42                             |
-|**Lampent**        |Evolve Litwick @ Lv. 41                            |
-|**Chandelure**     |Evolve Lampent via Dusk Stone                      |
-|**Fraxure**        |Evolve Axew @ Lv. 38                               |
-|**Haxorus**        |Evolve Fraxure @ Lv. 48                            |
-|**Mienshao**       |Evolve Mienfoo @ Lv. 50                            |
-|**Zweilous**       |Evolve Deino @ Lv. 50                              |
-|**Hydreigon**      |Evolve Zweilous @ Lv. 64                           |
-|**Volcarona**      |Evolve Larvesta @ Lv. 59                           |
-|**Quilladin**      |Evolve Chespin @ Lv. 16                            |
-|**Chesnaught**     |Evolve Quilladin @ Lv. 36                          |
-|**Braixen**        |Evolve Fennekin @ Lv. 16                           |
-|**Delphox**        |Evolve Braixen @ Lv. 36                            |
-|**Frogadier**      |Evolve Froakie @ Lv. 16                            |
-|**Greninja**       |Evolve Frogadier @ Lv. 36                          |
-|**Floette**        |Evolve Flabebe @ Lv. 19                            |
-|**Doublade**       |Evolve Honedge @ Lv. 35                            |
-|**Aegislash**      |Evolve Doublade via Dusk Stone                     |
-|**Slurpuff**       |Evolve Swirlix via Link Stone & Whipped Dream      |
-|**Malamar**        |Evolve Inkay @ Lv. 30 (mash B during evolution)    |
-|**Tyrantrum**      |Evolve Tyrunt @ Lv. 39 (Day)                       |
-|**Aurorus**        |Evolve Amaura @ Lv. 39 (Night)                     |
-|**Sylveon**        |Evolve Eevee via Friendship (w/ a Fairy Move)      |
-|**Sliggoo**        |Evolve Goomy @ Lv. 40                              |
-|**Goodra**         |Evolve Sliggoo @ Lv. 50 @ Rainy Area               |
-|**Gourgeist**      |Evolve Pumpkaboo via Link Stone                    |
-|**Dartrix**        |Evolve Rowlet @ Lv. 17                             |
-|**Decidueye**      |Evolve Dartrix @ Lv. 34                            |
-|**Torracat**       |Evolve Litten @ Lv. 17                             |
-|**Incineroar**     |Evolve Torracat @ Lv. 34                           |
-|**Brionne**        |Evolve Popplio @ Lv. 17                            |
-|**Primarina**      |Evolve Brionne @ Lv. 34                            |
-|**Salazzle**       |Evolve Female Salandit @ Lv. 33                    |
-|**Stufful**        |Breed Bewear                                       |
-|**Steenee**        |Evolve Bounsweet @ Lv. 18                          |
-|**Tsareena**       |Evolve Steenee via Lv. w/ Stomp                    |
-|**Silvally**       |Evolve Type: Null via Friendship                   |
-|**Hakamo-o**       |Evolve Jangmo-o @ Lv. 35                           |
-|**Kommo-o**        |Evolve Hakamo-o @ Lv. 45                           |
-|**Raichu-Alola**   |Evolve Pikachu via Thunder Stone @ Apophyll Beach  |
-|**Golem-Alola**    |Evolve Graveler-Alola via Link Stone               |
+|**フシギソウ**|フシギダネをレベル16で進化|
+|**フシギバナ**|フシギソウをレベル32で進化|
+|**カメール**|ゼニガメをレベル16で進化|
+|**カメックス**|カメールをレベル16で進化|
+|**トランセル**|キャタピーをレベル7で進化|
+|**ビードル**|スピアーを繁殖|
+|**コクーン**|ビードルをレベル7で進化|
+|**ニドクイン**|ニドリーノに *つきのいし* を使って進化|
+|**ニドキング**|ニドリーナに *つきのいし* を使って進化|
+|**ピクシー**|ピッピに *つきのいし* を使って進化|
+|**キュウコン**|ロコンに *ほのおのいし* を使って進化|
+|**ウインディ**|ガーディに *ほのおのいし* を使って進化|
+|**ニョロボン**|ニョロゾに *みずのいし* を使って進化|
+|**ユンゲラー**|ケーシィをレベル16で進化|
+|**フーディン**|ユンゲラーに *リンクストーン* を使って進化|
+|**カイリキー**|ゴーリキーに *リンクストーン* を使って進化|
+|**ウツボット**|ウツドンに *リーフのいし* を使って進化|
+|**ゴローニャ**|ゴローンに *リンクストーン* を使って進化|
+|**ヤドラン**|ヤドンをレベル37で進化|
+|**ゴースト**|ゴースをレベル25で進化|
+|**ゲンガー**|ゴーストに *リンクストーン* を使って進化|
+|**ナッシー**|タマタマに *リーフのいし* を使って進化|
+|**サワムラー**|バルキーをレベル20で進化（こうげき > ぼうぎょ）|
+|**エビワラー**|バルキーをレベル20で進化（こうげき < ぼうぎょ）|
+|**スターミー**|ヒトデマンに *みずのいし* を使って進化|
+|**ルージュラ**|ムチュールをレベル30で進化|
+|**エレブー**|エレキッドをレベル30で進化|
+|**ブーバー**|ブビィをレベル30で進化|
+|**ギャラドス**|コイキングをレベル20で進化|
+|**シャワーズ**|イーブイに *みずのいし* を使って進化|
+|**サンダース**|イーブイに *かみなりのいし* を使って進化|
+|**ブースター**|イーブイに *ほのおのいし* を使って進化|
+|**オムスター**|オムナイトをレベル40で進化|
+|**カブトプス**|カブトをレベル40で進化|
+|**カビゴン**|ゴンベをなつき度で進化|
+|**ハクリュー**|ミニリュウをレベル30で進化|
+|**カイリュー**|ハクリューをレベル55で進化|
+|**ベイリーフ**|チコリータをレベル16で進化|
+|**メガニウム**|ベイリーフをレベル32で進化|
+|**マグマラシ**|ヒノアラシをレベル14で進化|
+|**バクフーン**|マグマラシをレベル36で進化|
+|**アリゲイツ**|ワニノコをレベル18で進化|
+|**オーダイル**|アリゲイツをレベル30で進化|
+|**クロバット**|ゴルバットをなつき度で進化|
+|**ピィ**|ピッピ／ピクシーを繁殖|
+|**トゲチック**|トゲピーをなつき度で進化|
+|**キレイハナ**|クサイハナに *たいようのいし* を使って進化|
+|**ニョロトノ**|ニョロゾに *おうじゃのしるし* を持たせて *リンクストーン* を使って進化|
+|**ワタッコ**|ポポッコをレベル27で進化|
+|**エーフィ**|イーブイをなつき度で進化（昼・フェアリー技なし）|
+|**ブラッキー**|イーブイをなつき度で進化（夜・フェアリー技なし）|
+|**ヤドキング**|ヤドンに *おうじゃのしるし* を持たせて *リンクストーン* を使って進化|
+|**ソーナンス**|ソーナノをレベル15で進化|
+|**ハッサム**|ストライクに *メタルコート* を持たせて *リンクストーン* を使って進化|
+|**ポリゴン2**|ポリゴンに *アップグレード* を持たせて *リンクストーン* を使って進化|
+|**カポエラー**|バルキーをレベル20で進化（こうげき = ぼうぎょ）|
+|**ハピナス**|ラッキーをなつき度で進化|
+|**サナギラス**|ヨーギラスをレベル30で進化|
+|**バンギラス**|サナギラスをレベル55で進化|
+|**ジュプトル**|キモリをレベル16で進化|
+|**ジュカイン**|ジュプトルをレベル36で進化|
+|**ワカシャモ**|アチャモをレベル16で進化|
+|**バシャーモ**|ワカシャモをレベル36で進化|
+|**ヌマクロー**|ミズゴロウをレベル16で進化|
+|**ラグラージ**|ヌマクローをレベル36で進化|
+|**タネボー**|コノハナ／ダーテングを繁殖|
+|**ダーテング**|コノハナに *リーフのいし* を使って進化|
+|**オオスバメ**|スバメをレベル22で進化|
+|**キルリア**|ラルトスをレベル20で進化|
+|**サーナイト**|キルリアをレベル30で進化|
+|**キノガッサ**|キノココをレベル23で進化|
+|**ケッキング**|ヤルキモノをレベル36で進化|
+|**テッカニン**|ツチニンをレベル20で進化|
+|**ヌケニン**|ツチニンをレベル20で進化（モンスターボールと手持ちの空きが必要）|
+|**バクオング**|ドゴームをレベル40で進化|
+|**ハリテヤマ**|マクノシタをレベル24で進化|
+|**ルリリ**|マリル／マリルリを繁殖（うしおのおこうを持たせる）|
+|**チャーレム**|アサナンをレベル37で進化|
+|**サボネア**|ノクタスを繁殖|
+|**ユレイドル**|リリーラをレベル40で進化|
+|**アーマルド**|アノプスをレベル40で進化|
+|**ミロカロス**|ヒンバスに *きれいなウロコ* を持たせて *リンクストーン* を使って進化|
+|**コモルー**|タツベイをレベル30で進化|
+|**ボーマンダ**|コモルーをレベル50で進化|
+|**メタング**|ダンバルをレベル20で進化|
+|**メタグロス**|メタングをレベル45で進化|
+|**ハヤシガメ**|ナエトルをレベル18で進化|
+|**ドダイトス**|ハヤシガメをレベル32で進化|
+|**モウカザル**|ヒコザルをレベル14で進化|
+|**ゴウカザル**|モウカザルをレベル36で進化|
+|**ポッタイシ**|ポッチャマをレベル16で進化|
+|**エンペルト**|ポッタイシをレベル36で進化|
+|**ロズレイド**|ロゼリアに *ひかりのいし* を使って進化|
+|**ラムパルド**|ズガイドスをレベル30で進化|
+|**トリデプス**|タテトプスをレベル30で進化|
+|**ムウマージ**|ムウマに *やみのいし* を使って進化|
+|**ドンカラス**|ヤミカラスに *やみのいし* を使って進化|
+|**ブニャット**|ニャルマーをレベル38で進化|
+|**ガバイト**|フカマルをレベル24で進化|
+|**ガブリアス**|ガバイトをレベル48で進化|
+|**ルカリオ**|リオルをなつき度で進化（昼）|
+|**ドクロッグ**|グレッグルをレベル37で進化|
+|**マニューラ**|ニューラに *するどいツメ* を持たせて夜にレベルアップで進化|
+|**ジバコイル**|レアコイルを発電所でレベルアップさせて進化|
+|**ドサイドン**|サイドンに *プロテクター* を持たせて *リンクストーン* を使って進化|
+|**モジャンボ**|モンジャラに *げんしのちから* を覚えさせてレベルアップで進化|
+|**エレキブル**|エレブーに *エレキブースター* を持たせて *リンクストーン* を使って進化|
+|**ブーバーン**|ブーバーに *マグマブースター* を持たせて *リンクストーン* を使って進化|
+|**トゲキッス**|トゲチックに *ひかりのいし* を使って進化|
+|**リーフィア**|イーブイをクリソリアのコケむした岩の近くでレベルアップさせて進化|
+|**グレイシア**|イーブイをセレスティナイン地下2階の氷の岩の近くでレベルアップさせて進化|
+|**マンムー**|イノムーに *げんしのちから* を覚えさせてレベルアップで進化|
+|**ポリゴンZ**|ポリゴン2に *あやしいパッチ* を持たせて *リンクストーン* を使って進化|
+|**エルレイド**|オスのキルリアに *めざめいし* を使って進化|
+|**ヨノワール**|ヨノワールに *れいかいのぬの* を持たせて *リンクストーン* を使って進化|
+|**チャオブー**|ポカブをレベル17で進化|
+|**エンブオー**|チャオブーをレベル36で進化|
+|**フタチマル**|ミジュマルをレベル17で進化|
+|**ダイケンキ**|フタチマルをレベル36で進化|
+|**ハーデリア**|ヨーテリーをレベル16で進化|
+|**ムーランド**|ハーデリアをレベル32で進化|
+|**ドテッコツ**|ドッコラーをレベル25で進化|
+|**ローブシン**|ドテッコツに *リンクストーン* を使って進化|
+|**オタマロ**|ガマガル／ガマゲロゲを繁殖|
+|**クルマユ**|クルミルをレベル20で進化|
+|**ペンドラー**|ホイーガをレベル30で進化|
+|**ワルビル**|メグロコをレベル29で進化|
+|**アバゴーラ**|プロトーガをレベル37で進化|
+|**アーケオス**|アーケンをレベル37で進化|
+|**ダストダス**|ヤブクロンをレベル36で進化|
+|**ゾロアーク**|ゾロアをレベル30で進化|
+|**ゴチミル**|ゴチムをレベル32で進化|
+|**ゴチルゼル**|ゴチミルをレベル41で進化|
+|**ダブラン**|ユニランをレベル32で進化|
+|**ランクルス**|ダブランをレベル41で進化|
+|**バイバニラ**|バニリッチをレベル47で進化|
+|**シビルドン**|シビビールに *かみなりのいし* を使って進化|
+|**オーベム**|リグレーをレベル42で進化|
+|**ランプラー**|ヒトモシをレベル41で進化|
+|**シャンデラ**|ランプラーに *やみのいし* を使って進化|
+|**オノンド**|キバゴをレベル38で進化|
+|**オノノクス**|オノンドをレベル48で進化|
+|**コジョンド**|コジョフーをレベル50で進化|
+|**ジヘッド**|モノズをレベル50で進化|
+|**サザンドラ**|ジヘッドをレベル64で進化|
+|**ウルガモス**|メラルバをレベル59で進化|
+|**ハリボーグ**|ハリマロンをレベル16で進化|
+|**ブリガロン**|ハリボーグをレベル36で進化|
+|**テールナー**|フォッコをレベル16で進化|
+|**マフォクシー**|テールナーをレベル36で進化|
+|**ゲコガシラ**|ケロマツをレベル16で進化|
+|**ゲッコウガ**|ゲコガシラをレベル36で進化|
+|**フラエッテ**|フラベベをレベル19で進化|
+|**ニダンギル**|ヒトツキをレベル35で進化|
+|**ギルガルド**|ニダンギルに *やみのいし* を使って進化|
+|**ペロリーム**|ペロッパフに *ホイップポップ* を持たせて *リンクストーン* を使って進化|
+|**カラマネロ**|マーイーカをレベル30で進化（進化中にBを連打）|
+|**ガチゴラス**|チゴラスをレベル39で進化（昼）|
+|**アマルルガ**|アマルスをレベル39で進化（夜）|
+|**ニンフィア**|イーブイをなつき度で進化（フェアリー技を覚えさせて）|
+|**ヌメイル**|ヌメラをレベル40で進化|
+|**ヌメルゴン**|ヌメイルをレベル50で進化（雨の場所で）|
+|**パンプジン**|バケッチャに *リンクストーン* を使って進化|
+|**フクスロー**|モクローをレベル17で進化|
+|**ジュナイパー**|フクスローをレベル34で進化|
+|**ニャヒート**|ニャビーをレベル17で進化|
+|**ガオガエン**|ニャヒートをレベル34で進化|
+|**オシャマリ**|アシマリをレベル17で進化|
+|**アシレーヌ**|オシャマリをレベル34で進化|
+|**エンニュート**|メスのヤトウモリをレベル33で進化|
+|**ヌイコグマ**|キテルグマを繁殖|
+|**アママイコ**|アマカジをレベル18で進化|
+|**アマージョ**|アママイコに *ふみつけ* を覚えさせてレベルアップで進化|
+|**シルヴァディ**|タイプ:ヌルをなつき度で進化|
+|**ジャランゴ**|ジャラコをレベル35で進化|
+|**ジャラランガ**|ジャランゴをレベル45で進化|
+|**ライチュウ（アローラのすがた）**|ピカチュウにアポフィルビーチで *かみなりのいし* を使って進化|
+|**ゴローニャ（アローラのすがた）**|ゴローン（アローラのすがた）に *リンクストーン* を使って進化|
 
-Note that the Alolan forms don't count towards the overall completion of your Pokedex. The magic number for a completed Pokedex is **731** obtained.
+なお、アローラのすがたは図鑑の全体的な完成度には数えられません。図鑑完成の目安となる数は **731** 匹です。
 
-## Bee's Pokedex Completion Quest (Part 2)
+## ビーの図鑑完成クエスト (後編) {#bees-pokedex-completion-quest-part-2}
 
-Fly back over to Agate City once you've gotten all 731 Pokemon so far. Talk to Bee once more.
+ここまでで731匹すべてを揃えたら、アゲートシティへ飛び戻ります。もう一度ビーに話しかけてください。
 
-|Pokemon Caught |Reward         |
+|捕まえた数 |報酬            |
 |---------------|---------------|
-|600+           |*Groundium-Z*  |
-|700+           |*Blazikenite*  |
-|731            |**Poipole**    |
+|600以上           |*ジメンZ*  |
+|700以上           |*バシャーモナイト*  |
+|731            |**ベベノム**    |
 
-Hell yes. One of the best Ultra Beasts is ours, before the last two gyms!
+最高です。最後の2つのジムに挑む前に、屈指の強さを誇るウルトラビーストが手に入りました。
 
-Use the move relearner or tutor to teach it Dragon Pulse and give it a level, and it will evolve into **Naganadel**.
+技を思い出させるか教え人を使って *りゅうのはどう* を覚えさせ、レベルを1つ上げると **アーゴヨン** に進化します。
 
-## Geode Badge
+## ジオードバッジ {#geode-badge}
 
-Well, not much else to do for now than to finally take on the seventeenth gym leader.
+さて、今できることはもうあまりないので、ついに17人目のジムリーダーに挑みましょう。
 
-Enter the Agate City gym and defeat the three trainers on the right side. 
+アゲートシティのジムに入り、右側の3人のトレーナーを倒します。
 
 !battle(["Alistair", :GUITARIST, 0], "Rocky Field")
 
@@ -878,18 +878,18 @@ Enter the Agate City gym and defeat the three trainers on the right side.
 
 !battle(["Noivy", :GUITARIST, 0], "Rocky Field")
 
-Talk to the guy in the top left corner for a guide to the gym. The guy here will play a musical riff that we are supposed to change the blocks on the right to match musically.
+左上の隅の男に話しかけると、ジムの案内が聞けます。ここの男が短い旋律を弾くので、右のブロックを音楽的にそれと一致するよう変える、というのが課題です。
 
-If you talk to the guy again and say "Help", he'll battle us, then tell us what to play.
+もう一度話しかけて「助けて」と答えると、バトルになったあと、何を弾けばよいか教えてくれます。
 
 !battle(["Isaac", :GUITARIST, 0], "Rocky Field")
 
-Bottom to top: turn the blocks to C, E, high G, B, B, low G, A, A. Climb the rocks once you do so, and enter the newly opened room.
+下から上へ、ブロックをド、ミ、高いソ、シ、シ、低いソ、ラ、ラの順に合わせます。合わせたら岩を登り、新しく開いた部屋に入ってください。
 
 !battle(["Hardy", :HARDY, 1], "Rocky Field")
 
-This might be the "simplest" gym fight yet: Boosted Rock Slide spam! On Rocky Field, it adds extra damage when it flinches you. His team minus Gigalith are all fast and hard-hitting Rock types that all have this move, many above the level cap. That's really all there is to say about him: you'll be hit hard, fast, and likely flinch a lot.
+これまでで最も「単純」なジム戦かもしれません。強化された *いわなだれ* の連打です。岩場フィールドでは、ひるませたときに追加ダメージも入ります。ギガイアスを除く手持ちは全員、素早く高火力のいわタイプで、全員がこの技を持ち、多くはレベル上限を超えています。彼について言えることはそれだけです。速く、重く殴られ、しかもひるまされ続けるでしょう。
 
-If you are able to dispense with Gigalith, a slow team can steamroll his frail Pokemon under Trick Room. You can also take advantage of the move Wide Guard to prevent Rock Slide spam. Your own Rock Slide spam will also be reasonably effective here as his team doesn't resist Rock.
+ギガイアスさえ処理できれば、遅い編成で *トリックルーム* を張り、打たれ弱い手持ちを一気に薙ぎ払えます。*ワイドガード* で *いわなだれ* の連打を防ぐ手もあります。相手の編成はいわ技に耐性がないので、こちらから *いわなだれ* を連打するのも相応に有効です。
 
-When you win, you'll get the Geode Badge, which boosts our level cap up to 95. You'll also get *TM80 Rock Slide*. Sweet.
+勝つとジオードバッジが手に入り、レベル上限が95に上がります。*わざマシン80 いわなだれ* も手に入ります。

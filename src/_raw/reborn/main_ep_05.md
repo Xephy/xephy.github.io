@@ -1,24 +1,24 @@
-# Episode 5: Escape! from Reborn City
+# エピソード5: リボーンシティ脱出! {#episode-5}
 
-Head outside the gym after watching the scene in Shelly's room. After you head outside, you have another rival battle.
+シェリーの部屋でのイベントを見たらジムの外へ。外に出ると、またライバル戦です。
 
 !battle(["Cain", :Cain, 2])
 
-This battle probably won't be too tough if you could defeat Shelly. Nidoking hits hard, but it still has fairly weak STAB attacks. Defeat him with your best strategies.
+シェリーを倒せたのなら、この戦いはさほど厳しくないはずです。**ニドキング** は火力がありますが、タイプ一致技はまだ弱めです。手持ちの得意な戦い方で倒しましょう。
 
-**Relationship Point Choices**:
-- Agree to save Heather (+1 Cain)
-- Refuse to help Heather (-1 Cain)
+**好感度の選択肢**:
+- ヘザーを助けることに同意する (+1 カイン)
+- ヘザーを助けるのを断る (-1 カイン)
 
-With that, Cain and Shelly will head over to the Orphanage.
+これでカインとシェリーが養護施設へ向かいます。
 
-## Lapis Ward Orphanage
+## ラピス区の養護施設 {#lapis-ward-orphanage}
 
-Head into the Orphanage as soon as the door opens. You'll be paired up with either Cain or Shelly depending on who you have more relationship points with at this moment.
+扉が開いたらすぐ養護施設へ入ります。この時点で好感度が高いほうに応じて、カインかシェリーのどちらかと組むことになります。
 
-**Relationship Point Choices**:
-- Defeat the Orderlies with Cain (+1 Cain)
-- Defeat the Orderlies with Shelly (+1 Shelly)
+**好感度の選択肢**:
+- カインと組んで看護人たちを倒す (+1 カイン)
+- シェリーと組んで看護人たちを倒す (+1 シェリー)
 
 !partner(["Cain", :Cain, 2])
 
@@ -26,79 +26,79 @@ Head into the Orphanage as soon as the door opens. You'll be paired up with eith
 
 !dbattle(["Timothy", :Orderly, 0], ["Chris", :Orderly, 0])
 
-After this fight, you'll be free to explore with Shelly (above) as a partner. Keep in mind though:
+この戦闘のあとは、シェリー（上記）を連れて自由に探索できます。ただし次の点に注意してください。
 
-**Relationship Point Choices**:
-- Leave the Orphanage while partnered (-1 Cain, -1 Shelly, -1 Charlotte, -1 Noel, -1 Heather)
+**好感度の選択肢**:
+- 同行者がいる状態で養護施設から出る (-1 カイン、-1 シェリー、-1 シャルロット、-1 ノエル、-1 ヘザー)
 
-You can also gain points:
+好感度を上げることもできます。
 
-**Relationship Point Choices**:
-- Talk to Shelly while partnered (+1 Shelly)
+**好感度の選択肢**:
+- 同行中にシェリーに話しかける (+1 シェリー)
 
-We can now choose where to go.
+ここから進む先を選べます。
 
-**Relationship Point Choices**:
-- Enter the hallway first before exploring upstairs (-1 Shelly)
+**好感度の選択肢**:
+- 上階を探索する前に廊下へ入る (-1 シェリー)
 
-So, we're gonna head upstairs first. Defeat orderlies as you go up.
+というわけで、まずは上階へ向かいます。上りながら看護人を倒していきましょう。
 
 !dbattle(["Allyssa", :OrderlyF, 0], ["Stephanie", :OrderlyF, 0])
 
 !dbattle(["Bishop", :Orderly, 0], ["Roth", :Orderly, 0])
 
-You'll be prevented from continuing upstairs, so head downstairs and talk to Anna again.
+そこから上へは進めなくなるので、下階へ戻ってアンナにもう一度話しかけます。
 
-Enter the open door on the first floor. Be careful about trying to enter the doors on the left.
+1階の開いている扉から入ります。左側の扉に入ろうとするときは注意してください。
 
-**Relationship Point Choices**:
-- The Player is male and tries to enter the Girls' Bathroom two times (-1 Shelly)
+**好感度の選択肢**:
+- 主人公が男性で、女子トイレに2回入ろうとする (-1 シェリー)
 
-Beat the orderlies in the room above.
+上の部屋の看護人を倒します。
 
 !dbattle(["Howaya", :Orderly, 0], ["Callie", :OrderlyF, 0])
 
-You can read the green books for some background on the new characters. Back outside, head down and to the left.
+緑の本を読むと、新しい登場人物の背景が分かります。外に戻り、下へ、そして左へ進みます。
 
 !dbattle(["Danielle", :OrderlyF, 0], ["Ramsey", :Orderly, 0])
 
-Pick up a *Data Chip* down here. Talk to the green computer screen nearby to open a lock.
+ここで *データチップ* を拾います。近くの緑色のモニターに話しかけると錠が開きます。
 
-Head back upstairs and go through the now-opened path.
+上階へ戻り、開通した道を進みます。
 
-**Relationship Point Choices**:
-- Ignore Noel in the cage (-1 Noel)
+**好感度の選択肢**:
+- 檻の中のノエルを無視する (-1 ノエル)
 
-Defeat the orderlies upstairs.
+上階の看護人を倒します。
 
 !dbattle(["Charity", :OrderlyF, 0], ["John", :Orderly, 1])
 
-Open the patient cages. You can find a hidden *Great Ball* here. Head downstairs and grab the *Paralyze Heal* on your way down.
+患者の檻を開けます。ここには隠された *スーパーボール* があります。階段を下りながら *まひなおし* も拾ってください。
 
-On the first floor, enter the room on the right.
+1階では右の部屋に入ります。
 
-**Relationship Point Choices**:
-- Talk to Charlotte twice while she's in a cage (-2 Charlotte)
+**好感度の選択肢**:
+- 檻に入っているシャルロットに2回話しかける (-2 シャルロット)
 
-Unlock Charlotte's cage. If you unlock the cage on the right the kid inside will give you 4 *Exp. Candy M*.
+シャルロットの檻を開けます。右の檻を開けると、中の子どもが *けいけんアメM* を4個くれます。
 
 !dbattle(["Christina", :OrderlyF, 0], ["Matt", :Orderly, 0])
 
-Defeat some orderlies, then at the bottom grab the *Odd Incense* and the *Archive Key*, which is hidden behind the foliage of the right plant.
+看護人を何人か倒したら、下部で *あやしいおこう* と *しょこのカギ* を回収します。後者は右の植物の葉の陰に隠れています。
 
-Back in the left hallway, use the *Archive Key* to grab an *Exp. Candy L* and read some more books about the orphanage's characters. With that, head all the way up to the top of the orphanage to bust out.
+左の廊下に戻り、*しょこのカギ* を使って *けいけんアメL* を手に入れ、施設の登場人物についての本をさらに読みましょう。それが済んだら、施設の最上階まで上がって脱出します。
 
 !battle(["Sigmund Connal", :DOCTOR, 2])
 
-You'll notice that the doctor has a strong team full of Electric and Psychic types. Electivire will often pivot to Musharna, who will use Psychic Terrain, guaranteeing it, Hypno, and Raichu huge bonuses. You can try to use your own Psychic attacks on the terrain against the electric types if you'd like, you can also stall out the Terrain if it is too much to handle. This can be a tough fight but you can find a way through!
+見てのとおり、この医師はでんきタイプとエスパータイプで固めた強力な編成です。**エレキブル** はしばしば **ムシャーナ** に交代し、*サイコフィールド* を張ることで自身と **スリーパー**、**ライチュウ** に大きな恩恵を与えてきます。フィールド上でこちらもエスパー技をでんきタイプにぶつける手がありますし、手に負えなければフィールドが切れるまで粘る手もあります。厳しい戦いですが、必ず突破口はあります。
 
-Outside, accept Anna's request for fast travel. We'll find ourselves back in the Underground Railnet. Head to the east and smash the rock to progress.
+外に出たら、アンナの高速移動の申し出を受けます。地下鉄道網に戻ってくるので、東へ進んで岩を砕いて先へ進みましょう。
 
 !enc(196)
 
-You can also find a hidden *Pecha Berry*, *Carbos*, *Purple Shard*, *Red Shard*, and *Fire Gem* here. In the bottom right corner you can get the *Dull Key*. Open the gate on the right for a shortcut, then talk to the group at the top. Sounds like we're going to be taking on another gym leader soon, but before that there are tons of areas we can now access thanks to Rock Smash. Oh, and we get to strike at the heart of our enemy gang.
+ここでは隠された *モモンのみ*、*インドメタシン*、*むらさきのかけら*、*あかいかけら*、*ほのおのジュエル* も見つかります。右下の隅では *くすんだカギ* が手に入ります。右の門を開けて近道を作ったら、上の一団に話しかけてください。どうやらまた別のジムリーダーに挑むことになりそうですが、その前に *いわくだき* のおかげで行けるようになった場所が山ほどあります。それに、敵対ギャングの本丸に切り込むこともできます。
 
-Make your way over to the Opal Bridge. As you make your way into North Obsidia Ward, you'll find more enemy trainers.
+オパール大橋へ向かいます。北オブシディア区へ入る道中に、敵トレーナーが増えています。
 
 !battle(["Michael", :PSYCHIC_Male, 0])
 
@@ -106,189 +106,189 @@ Make your way over to the Opal Bridge. As you make your way into North Obsidia W
 
 !battle(["Yagami", :EXPERT_Male, 0])
 
-North of here, you'll see a guy selling a single *Link Stone* for $10000. What this does is essentially work as an evolution stone for Pokemon that need to be traded otherwise. To evolve Pokemon that normally trade while holding items, you can give them their item and use the Link Stone on them. This one is pricey, but if you have a Pokemon like Graveler you're trying to evolve, it's worth picking up.
+そこから北では、*リンクストーン* を1個10000ドルで売っている男性がいます。これは、本来通信交換が必要なポケモンにとっての進化の石として働く道具です。道具を持たせて交換するタイプの進化なら、その道具を持たせたうえでリンクストーンを使えば進化します。値は張りますが、**ゴローン** のように進化させたいポケモンがいるなら買う価値があります。
 
-## Defeating the Rival Gang
+## 敵対ギャングの打倒 {#defeating-the-rival-gang}
 
-It's time to help out our friendly gang once more.
+味方のギャングにもう一度手を貸すときが来ました。
 
-### The Magma Gang Route (Part 2)
+### マグマ団ルート（後編） {#the-magma-gang-route-part-2}
 
-If you joined Aqua last chapter, [jump to the next section](#the-aqua-gang-route-part-2)
+前章でアクア団に入った場合は[次の節へ進んでください](#the-aqua-gang-route-part-2)。
 
-Return to Maxwell in North Obsidia, then head over to the Aqua Gang's hideout in Lapis. Defeat the guards at the entrance.
+北オブシディアのマクスウェルのところへ戻り、そのままラピスのアクア団のアジトへ向かいます。入口の見張りを倒してください。
 
 !dbattle(["Mannie", :AQUA1, 0], ["Razzy", :AQUA1, 0])
 
-Grab *TM41 Torment* while you're here and prepare for a battle.
+ここで *わざマシン41 いちゃもん* を回収し、バトルに備えます。
 
 !battle(["Archer", :Archer, 0])
 
-This can be a tough fight since his levels are above your cap and he has Drizzle on his side. That said with no Damp Rock Pelipper is the only rain setter, and only for 5 turns, so you can pretty easily use Protect to make it go away and then go to town. His Sharpedo will outspeed you but doesn't hit incredibly hard, while his Blastoise can be tanky but shouldn't be too threatening outside of the rain.
+相手のレベルがこちらの上限を超えており、しかも *あめふらし* を擁するので厳しい戦いです。とはいえ *しめったいわ* がないため雨を張れるのは **ペリッパー** だけで、しかも5ターンです。*まもる* で流してから攻勢に転じるのは難しくありません。**サメハダー** はこちらを抜いてきますが火力は極端ではなく、**カメックス** は硬いものの、雨の外ではさほど脅威になりません。
 
-Once you win, the Aqua Gang will retreat. We can actually now access the pond in the back, nothing new though.
+勝つとアクア団は退きます。奥の池に入れるようになりますが、目新しいものはありません。
 
 !enc(170, ["Fishing"], ["Old"])
 
-Anyways, return to Maxwell at your alleyway to get **Houndour**. That's it with the Magma Gang for another few badges, however.
+ともあれ自分の路地のマクスウェルのところへ戻ると **デルビル** が手に入ります。マグマ団の話は、これでまた数バッジ先までお預けです。
 
-### The Aqua Gang Route (Part 2)
+### アクア団ルート（後編） {#the-aqua-gang-route-part-2}
 
-If you joined Magma last chapter, [jump to the next section](#rock-smash-exploration)
+前章でマグマ団に入った場合は[次の節へ進んでください](#rock-smash-exploration)。
 
-Return to Archer in Lapis, then head over to the Magma Gang's hideout in North Obsidia. Defeat the guards at the entrance.
+ラピスのアーチャーのところへ戻り、そのまま北オブシディアのマグマ団のアジトへ向かいます。入口の見張りを倒してください。
 
 !dbattle(["Nihil", :MAGMA1, 0], ["Kriz", :MAGMA1, 0])
 
-Grab *TM46 Thief* as well as a hidden *Red-Hots* while you're here and prepare for a battle.
+ここで *わざマシン46 どろぼう* と、隠された *シナモンキャンディ* を回収し、バトルに備えます。
 
 !battle(["Maxwell", :Maxwell, 0])
 
-This can be a tough fight since his levels are above your cap and he has Drought on his side. As long as Ninetales doesn't switch, there will only be 5 turns of sun, so you can use Protect to make it go away and then go to town. His Houndoom is physical and doesn't hit very hard, while his Charizard is only threatening under the sun.
+相手のレベルがこちらの上限を超えており、しかも *ひでり* を擁するので厳しい戦いです。**キュウコン** が交代しない限り日照は5ターンで切れるので、*まもる* で流してから攻勢に転じられます。**ヘルガー** は物理型で火力は高くなく、**リザードン** も日照下でなければ脅威になりません。
 
-Once you win, the Magma Gang will retreat. Behind where Maxwell was you can get a hidden *X Attack*.
+勝つとマグマ団は退きます。マクスウェルがいた場所の奥では、隠された *プラスパワー* が手に入ります。
 
-Anyways, return to Archer at your alleyway to get **Carvanha**. That's it with the Aqua Gang for another few badges, however.
+ともあれ自分の路地のアーチャーのところへ戻ると **キバニア** が手に入ります。アクア団の話は、これでまた数バッジ先までお預けです。
 
-## Rock Smash Exploration
+## いわくだきでの探索 {#rock-smash-exploration}
 
-Head over to the Onyx Ward next. Inside one of the rooms upstairs the guy playing "Mr. Mimecraft" will now move. Using the Data Chip we found earlier, we can talk to the PC here for a chance to catch **Porygon**. Next, head to the hallway where the tutors are. Go into the left door - inside you can talk to someone who will tell us a new password: *stopitems*.
+次はオニキス区へ向かいます。上階のいずれかの部屋で「ミスターマイムクラフト」を遊んでいた男性が、移動しているはずです。先ほどの *データチップ* を使い、ここのパソコンに話しかけると **ポリゴン** を捕まえる機会が得られます。次に、技教え人がいる廊下へ向かいます。左の扉に入ると、新しいパスワード *stopitems* を教えてくれる人物がいます。
 
-In Lapis Ward a lady in the Pokemon Center will tell us about a few more passwords: *leveloffset* and *percentlevel*.
+ラピス区のポケモンセンターにいる女性は、さらに *leveloffset* と *percentlevel* というパスワードを教えてくれます。
 
-### Smashin' at the Stairway
+### 大階段でのいわくだき {#smashin-at-the-stairway}
 
-Head over to the Grand Stairway and make your way to B1F. At the top right, smash a rock, pick up a hidden *Green Shard*, then go up. In this new room you can find a hidden *PP Up*, *Exp. Candy L*, and a stationary *Exp. Candy M*. Talk to the hiker in here for a *Mining Kit*.
+大階段へ向かい、地下1階まで進みます。右上で岩を砕き、隠された *みどりのかけら* を拾って上へ。この新しい部屋では、隠された *ポイントアップ*、*けいけんアメL*、そして置かれている *けいけんアメM* が見つかります。ここの登山家に話しかけると *さいくつセット* がもらえます。
 
-The Mining Kit allows us to finally deal with all those glowing rocks everywhere. Essentially we get to play the Gen. IV mining minigame, except the prizes are actually good! Each stone will generate 2-4 items.
+さいくつセットがあれば、各所にある光る岩をようやく扱えます。要は第4世代の採掘ミニゲームですが、こちらは景品がちゃんと良いものです。岩1つにつき2〜4個のアイテムが出ます。
 
-Item probabilities are listed [in the appendices](#mining-item-probabilities).
+出現確率は[付録](/reborn/appendices/#mining-item-probabilities)にまとめてあります。
 
-We can't revive the fossils or use the Odd Keystone just yet, but hold onto them if you get them. The evolution stones can help you evolve your team if you manage to find them, and Heart Scales and Shards will be useful throughout the game. The remaining items are generally good hold items, though you can get at least one of each somewhere else in the game as well. There is an incredible number of these glowing rocks throughout the game. I won't be pointing out when there are rocks in a given room, but feel free to break them as you see them.
+化石の復元と *かなめいし* の使用はまだできませんが、出たら取っておいてください。進化の石は手持ちの進化に使えますし、*ハートのウロコ* とかけらはゲームを通じて役立ちます。残りはおおむね優秀な持ち物ですが、いずれも別の場所で最低1個は入手できます。この光る岩はゲーム中に膨大な数があります。どの部屋に岩があるかはいちいち書きませんので、見かけたら適宜砕いてください。
 
-Back in the main part of B1F, head to the left and smash the rock to go down a ladder. You may find **Solrock** here - this is a randomly determined event. You'll also find a hidden *Red Shard* as well as a *Rare Candy* and an *Amplifield Rock*.
+地下1階の本道に戻り、左へ進んで岩を砕くとはしごを下りられます。ここでは **ソルロック** が見つかることがあります。これはランダムイベントです。隠された *あかいかけら* のほか、*ふしぎなアメ* と *アンプリフィールドロック* も手に入ります。
 
-Make your way back to the part with the sequence of ledges on B2F, and take the second path from the left. You'll be able to smash a rock to get an *Exp. Candy M*. Next, head back up and take the rightmost path. Smash some rocks along the path to access a hidden *Exp. Candy M*. Following this path up, you'll find **Lunatone** if you didn't find Solrock earlier.
+地下2階の段差が連なる場所まで戻り、左から2番目の道へ。岩を砕くと *けいけんアメM* が手に入ります。次に上へ戻って一番右の道へ。道中の岩を砕くと、隠された *けいけんアメM* に手が届きます。この道を上ると、先ほどソルロックが出なかった場合は **ルナトーン** が見つかります。
 
-### Smashin' at the Slums
+### スラムでのいわくだき {#smashin-at-the-slums}
 
-Next, head to Obsidia Ward. The Sweet Shop has new inventory.
+次はオブシディア区へ。菓子店の品揃えが更新されています。
 
 !shop("Sweet Kiss (Bottom) (4 Badges)", ["Common Candy", ["Exp. Candy XS", 500], ["Exp. Candy S", 2000], ["Exp. Candy M", 5000], "Rare Candy"])
 
-Next, we're going to head on over to the Obsidia Slums. On the first floor of the main area of the slums take the top left escalator down to reach B1F. Then go between the escalators through the door here, and use the Dull Key inside. Grab a hidden *Calcium* then enter the next room.
+続いてオブシディアスラムへ向かいます。スラム本体の1階で、左上のエスカレーターを下りて地下1階へ。エスカレーターの間を通って扉をくぐり、中で *くすんだカギ* を使います。隠された *リゾチウム* を拾ったら次の部屋へ。
 
 !enc(320, nil, nil, "Slums Playground Entrance")
 
-Grab the *Super Repel* and hidden *Exp. Candy L* and enter the next room.
+*シルバースプレー* と隠された *けいけんアメL* を回収し、次の部屋へ進みます。
 
 !enc(321)
 
-You can find a *Sun Stone* on the floor. The hidden items in this room are *Purple Shard*, *Red Shard*, *Full Heal*, and *Protein*.
+床には *たいようのいし* があります。この部屋の隠しアイテムは *むらさきのかけら*、*あかいかけら*、*なんでもなおし*、*タウリン* です。
 
-You'll need to defeat the two Pangoro on each side of the room and activate the switches beyond them.
+部屋の両側にいる2匹の **ゴロンダ** を倒し、その先のスイッチを押す必要があります。
 
 !battle(["Don", :PANGORO, 0])
 
-By going to the left side of the room and walking on the floor between the platforms, you can reach the middle of the room.
+部屋の左側へ行き、足場のあいだの床を歩けば、部屋の中央にたどり着けます。
 
 !battle(["Don", :PANGORO, 1])
 
-Once you've defeated the third in the middle, you will get **Scraggy**! Afterwards you can pick up a *Brave Mint*, *Exp. Candy L*, and hidden *Exp. Candy XL* and *Full Restore*.
+中央の3匹目を倒すと **ズルッグ** が手に入ります。そのあと *ゆうかんミント*、*けいけんアメL*、隠された *けいけんアメXL* と *かいふくのくすり* を回収できます。
 
-Exit this area and make your way to the top right corner of the main room in the slums. Go down the escalator then enter the room on the right side. Down the stairs you can smash some rocks and head in to a new area of the Railnet.
+このエリアを出て、スラム本体の右上の角へ向かいます。エスカレーターを下りて右側の部屋に入り、階段を下りると岩を砕いて地下鉄道網の新しい区画に入れます。
 
 !enc(228, nil, nil, "Underground Railnet (Tracks Area)")
 
-Pick up the *Light Ball* and hidden 2 *Common Candies* and *Red Shard*. You can smash the dark spot on the wallx to access another area. 
+*でんきだま* と、隠された *ふつうのアメ* 2個、*あかいかけら* を拾います。壁の暗い部分を砕くと、さらに別の区画へ入れます。
 
 !enc(762, nil, nil, "Underground Railnet (Narrow Path)")
 
-Grab the hidden *Hyper Potion*, *Purple Shard*, and *Dusk Ball* as you sneak through this path. Smash the wall on the other side and push the switch here, then go left.
+この細道を抜けながら、隠された *すごいキズぐすり*、*むらさきのかけら*、*ダークボール* を回収します。反対側の壁を砕き、ここのスイッチを押したら左へ。
 
 !enc(229, ["Cave"], nil, "Underground Railnet (Depths)")
 
-We don't have Flash yet, so this area can be a bit annoying to search for items and such. In the top right corner you can smash a rock to free a guy. You'll find hidden *X Sp. Atk* and *Rock Gem* nearby. There's also a smash wall above you containing an *Ability Capsule*. Make your way down the stairs to the right. You'll find a hidden *Green Shard*. Go down more stairs and go straight up. Inside a smash wall you can find *TMX8 Flash*... but we don't have the badge to use it yet. Darn.
+*フラッシュ* がまだないので、このエリアはアイテム探しがやや面倒です。右上の隅で岩を砕くと男性を助け出せます。近くには隠された *スペシャルアップ* と *いわのジュエル* があります。頭上にも砕ける壁があり、中に *とくせいカプセル* が入っています。右の階段を下りていくと、隠された *みどりのかけら* が見つかります。さらに階段を下りてまっすぐ上へ。砕ける壁の中に *ひでんマシン8 フラッシュ* がありますが、使うためのバッジがまだありません。残念。
 
-Anyways, back outside you can find 2 hidden *Purple Shards*, an *Elixir*, and a *Dusk Stone*. Inside another smash wall you can find the *Cave Field Readout*. Before you leave this area though, headbutt the tall iron poles here!
+ともあれ外では、隠された *むらさきのかけら* 2個、*ピーピーエイダー*、*やみのいし* が手に入ります。別の砕ける壁の中には *どうくつフィールドの資料* があります。このエリアを離れる前に、ここの高い鉄柱に *ずつき* を使ってみてください。
 
 !enc(229, ["Headbutt"], nil, "Underground Railnet (Depths)")
 
-Head all the way back through the railnet and the slums to escape, then go to the Obsidia Ward Pokemon Center. The guy we saved earlier will give us *Department Store Sticker: Aron*. Very nice.
+地下鉄道網とスラムを通って戻り、オブシディア区のポケモンセンターへ向かいます。先ほど助けた男性が *デパートシール: ココドラ* をくれます。ありがたい話です。
 
 !shop("Department Store 5F (Left)", ["Great Ball", "Super Potion", "Super Repel", "Full Heal", "Poke Doll"])
 
-The first buyable Great Balls and Super Repels? Sign me up.
+*スーパーボール* と *シルバースプレー* が買えるのはこれが初めてです。願ってもない話です。
 
 !shop("Department Store 5F (Right)", ["HP Up", "Protein", "Carbos", "Zinc", "Calcium", "Iron", "Health Wing", "Muscle Wing", "Resist Wing", "Genius Wing", "Clever Wing", "Swift Wing"])
 
-The Power Items downstairs may be more expensive than these consumables, but you can buy them just once and use them infinitely many times. No reason to ever buy here.
+下の階のパワー系アイテムはこれらの消耗品より高価ですが、一度買えば何度でも使えます。ここで買う理由はありません。
 
-### Smashin' at Beryl Cave
+### ベリルどうくつでのいわくだき {#smashin-at-beryl-cave}
 
-Next, make your way all the way back to Beryl Ward. In the graveyard area we can smash some rocks to reach a new cave.
+次はベリル区までずっと戻ります。墓地のエリアで岩を砕くと、新しい洞窟に入れます。
 
 !enc(184)
 
-On 1F, you'll find a hidden *Flying Gem*, *Burn Heal*, *Blue Shard*, and 2 *Ethers*. Head down the ladder.
+1階では隠された *ひこうのジュエル*、*やけどなおし*、*あおいかけら*、*ピーピーエイド* 2個が見つかります。はしごを下りましょう。
 
 !enc(185)
 
-On B1F, you'll find a hidden *Green Shard*, *Awakening*, *Great Ball*, and a *Link Stone* in the cage which you'll need to open using a lever in the other. You can also find **Nidorina** in here who will go with you after seeing the Silver Ring. Pick up the *Rock Incense* and continue to the next floor. 
+地下1階では隠された *みどりのかけら*、*ねむけざまし*、*スーパーボール*、そして檻の中の *リンクストーン* が手に入ります。檻はもう一方にあるレバーで開けてください。ここには **ニドリーナ** もいて、*ぎんのゆびわ* を見ると仲間になります。*がんせきおこう* を拾って次の階へ進みます。
 
 !enc(186)
 
-On B2F, you'll find hidden *Blue Shard*, *Green Shard*, and *Purple Shard*. Exit at the bottom.
+地下2階では隠された *あおいかけら*、*みどりのかけら*、*むらさきのかけら* が見つかります。下から出ましょう。
 
-Well, we're back in the Rhodochrine Jungle, in a new area this time. You can find hidden *Ultra Ball*, *Bug Gem*, and *Big Mushroom* here, as well as *TM05 Roar*.
+さて、ロドクラインジャングルに戻ってきましたが、今度は新しいエリアです。ここでは隠された *ハイパーボール*、*むしのジュエル*、*おおきなキノコ* のほか、*わざマシン05 ほえる* も手に入ります。
 
-On windy days, you can have a battle!
+風の強い日にはバトルが発生します。
 
 !battle(["Tribe", :Tribe, 0])
 
-Just gotta find a way to hit Shiftry with a Bug move and you'll probably win here. As a reward, you'll get **Nuzleaf** by talking to it.
+**ダーテング** にむし技を当てる手段さえあれば、まず勝てるはずです。報酬として、話しかけると **コノハナ** が手に入ります。
 
-The totem at the top here also has Pokemon in it. For each Ill-Fated Doll you have (we only have one, for now) you can fight and catch a Pokemon in the sequence **Baltoy**, **Elgyem**, **Golett**. Which Pokemon this sequence starts at is randomly determined, however. If you make your way all the way back through Beryl Cave to Beryl Ward, then return *without* an Ill-Fated Doll in your bag on a clear day, you can catch **Natu** on the totem pole.
+ここの上にあるトーテムにもポケモンがいます。*ふきつなにんぎょう* を持っている数だけ（今のところ1個です）、**ヤジロン**、**リグレー**、**ゴビット** の順でバトルして捕まえられます。ただし、この順序のどこから始まるかはランダムです。ベリルどうくつを通ってベリル区まで戻り、*ふきつなにんぎょう* を持たない状態で快晴の日に戻ってくると、トーテムポールで **ネイティ** を捕まえられます。
 
-### Smashin' at Citrine Mountain
+### シトリン山でのいわくだき {#smashin-at-citrine-mountain}
 
-Next, we're going to cross Beryl Bridge and smash the rock here, then enter.
+次はベリル大橋を渡り、ここの岩を砕いて中へ入ります。
 
 !enc(382, ["Cave"])
 
 !img("citrine2f.png")
 
-1. Start by going to the right. You'll find a hidden *Ability Capsule* and in the wall you can get **Amaura** as long as you have an Ice Heal. Head back to the entrance.
-2. Go down from the top of the area, grab the hidden *Super Potion* to the right. Head back up.
-3. Talk to **Croagunk** down from here, who will join us thanks to the Silver Ring. Get a hidden *Burn Heal* and Backtrack six platforms.
-4. Go left. Along this path you'll find *Blue Shard*, *Shoal Salt*, *Protein*, and *Hyper Potion*. It will fork again eventually: go down the left fork. You can find a hidden *Hyper Potion*, *Purple Shard*, and *Shoal Salt*. Also, pick up the *Short-Circuit Field Readout* here. Will be useful soon!
-5. Back up at the fork, go right. You'll find another 2 hidden *Shoal Salts*, *Blue Shard*, and *Max Repel*. Enter the cave entrance up from here, and pick up the hidden *Red Shard* as well as the *Exp. Candy M* and *NeverMeltIce* inside. Talk to Smoochum when you're ready.
+1. まず右へ。隠された *とくせいカプセル* があり、*こおりなおし* を持っていれば壁で **アマルス** が手に入ります。入口まで戻ります。
+2. エリア上部から下へ進み、右手の隠された *いいキズぐすり* を拾って上へ戻ります。
+3. ここから下にいる **グレッグル** に話しかけると、*ぎんのゆびわ* のおかげで仲間になります。隠された *やけどなおし* を拾い、足場を6つ分戻ります。
+4. 左へ。この道中では *あおいかけら*、*あさせのしお*、*タウリン*、*すごいキズぐすり* が手に入ります。やがてまた分岐するので、左の道を下ります。隠された *すごいキズぐすり*、*むらさきのかけら*、*あさせのしお* が見つかります。ここで *ショートフィールドの資料* も拾っておいてください。近いうちに役立ちます。
+5. 分岐まで戻って右へ。隠された *あさせのしお* 2個、*あおいかけら*、*ゴールドスプレー* が見つかります。ここから上の洞窟入口に入り、隠された *あかいかけら* と、中にある *けいけんアメM*、*とけないこおり* を回収します。準備ができたら **ムチュール** に話しかけてください。
 
 !battle(["Savage", :BEARTIC, 0], "Icy Field")
 
-This looks like quite the intimidating battle due to the level difference, but it has its default moves. Blizzard will tear you up but it only has 5 PP, so if you can stall those out with the Protect TM and get a Ghost type onto the field to whittle it down with status moves, you're basically set. After winning, you'll get **Smoochum**.
+レベル差のせいで威圧感のある戦いに見えますが、技構成は初期のままです。*ふぶき* は痛烈ですがPPが5しかないので、*まもる* のわざマシンで撃ち切らせ、ゴーストタイプを場に出して変化技で削っていけば、ほぼ勝ちです。勝利すると **ムチュール** が手に入ります。
 
-**Relationship Point Choices**:
-- Save Smoochum (+2 Blake)
+**好感度の選択肢**:
+- ムチュールを救う (+2 ブレイク)
 
-Exit the cave via Escape Rope or backtracking to the top of the previous room.
+*あなぬけのヒモ* を使うか、ひとつ前の部屋の最上部まで戻って洞窟を出ます。
 
-## Omen Badge
+## オーメンバッジ {#omen-badge}
 
-That wraps up all the sidequests for now, so enter the power plant on the east side of the Beryl Bridge near Citrine Mt.
+これで当面のサイドクエストは片付いたので、ベリル大橋の東側、シトリン山の近くにある発電所へ入ります。
 
 !enc(198)
 
-Enter the two rooms on either side and talk to two monitors within to see four total scenes. Return to the entrance room and go up when you're ready for the gym battle. If you're having a hard time seeing, here's what the side rooms look like:
+両側の部屋に入り、中の2つのモニターに話しかけて、計4つのイベントを見ます。入口の部屋に戻り、ジム戦の準備ができたら上へ進んでください。見づらい場合のために、両側の部屋の様子を載せておきます。
 
 !img("yureyu.png")
 
-Anyways, talk to the figure straight up from the entrance to the plant when you're ready.
+準備ができたら、発電所の入口からまっすぐ上にいる人物に話しかけます。
 
 !battle(["Shade", :SHADE, 0], "Short-Circuit Field")
 
-Finally time to take on the Ghost type leader. If you check your field notes for Short-Circuit, you'll notice some of the things that make Shade difficult to fight. Most of his Ghost type moves get a boost on this field as do the Electric type moves on half of his team. He also has near full IV's on his entire team, a rarity for us so far. Gengar is a solid lead that likes to hit really hard or put you to sleep, so you might need to plan ahead with some priority or anti-sleep measures. Doublade and Banette give themselves a bit of bulk with their seeds while Mimikyu's Disguise ability infamously gives it a free turn to get to +2 Attack or revenge kill for free.
+いよいよゴーストタイプのリーダーとの対戦です。*ショートフィールド* のフィールドノートを見れば、シェイドが手強い理由がいくつか分かります。相手のゴースト技の多くはこのフィールドで強化され、編成の半分が持つでんき技も同様です。しかも全員がほぼ理想個体で、ここまでのこちらとは対照的です。**ゲンガー** は先発として優秀で、高火力で押すか眠らせてきます。先制技や眠り対策をあらかじめ用意しておく必要があるかもしれません。**ニダンギル** と **ジュペッタ** はシードで耐久を確保し、**ミミッキュ** の *ばけのかわ* は例によって1ターン無償で、こうげき2段階上昇か確実な返り討ちを許します。
 
-That said, there are a lot of fairly reliable ways to beat the Entity. One lies in the typing: if you can't beat him, join him. Your own Ghost type moves will also be boosted by the field, so something like Unburden Drifblim or a fast Banette can work out well here. Past Mimikyu there also isn't really anything that effectively can stop a fast Dark type such as Chlorophyll Shiftry, so you can try to overwhelm him with super-effective damage that way as well. The field will also switch to Factory Field when certain moves like Discharge are used, so if you have a strategy involving Gear Grind or an Electric type core you could probably make that work, though note Rotom likes to change the field back with its own Discharge.
+とはいえ、この存在を倒す手堅い方法はいくつもあります。ひとつはタイプそのものです。勝てないなら同じ土俵に立てばよいのです。こちらのゴースト技もフィールドで強化されるので、*かるわざ* の **フワライド** や素早い **ジュペッタ** がうまく機能します。ミミッキュさえ越えれば、*ようりょくそ* の **ダーテング** のような素早いあくタイプを止められるものは実質いないので、抜群のダメージで押し切る手もあります。また *ほうでん* などの技を使うとフィールドが *工場フィールド* に変わるので、*ギアソーサー* やでんきタイプ中心の構成を軸にした戦略も成立します。ただし **ロトム** は自前の *ほうでん* でフィールドを戻したがる点に注意してください。
 
-After you win, you'll get the *Omen Badge* as well as *TM65 Shadow Claw*. Our new cap is Lv. 45 and we can use Flash now.
+勝利すると *オーメンバッジ* と *わざマシン65 シャドークロー* がもらえます。新しい上限は Lv.45 で、*フラッシュ* も使えるようになります。

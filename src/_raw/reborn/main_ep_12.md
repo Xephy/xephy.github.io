@@ -1,20 +1,20 @@
-# Episode 12: Demarcation
+# エピソード12: 一線を越えて {#episode-12}
 
-Exit Luna's gym. **If you head up to the Agate City entrance and go through, we'll actually be locked out from coming back to every area we've been to so far for about 4 badges worth of content.** Before we do so, there are a few sidequests and stuff to grab before continuing.
+ルナのジムを出ます。**アゲートシティの入口まで上がって通り抜けると、ここまで訪れたすべてのエリアへ、バッジ4個分ほどの間ずっと戻れなくなります。** その前に、いくつかサイドクエストと回収を済ませておきましょう。
 
-## 9 Badge Quests
+## バッジ9個で解禁されるクエスト {#badge-quests-2}
 
-Thanks to the Dark Pulse TM, you can now transform the field in the cave on the eastern side of Iolia Valley to get Sableye a bit easier, so take care of that if you'd like.
+*あくのはどう* のわざマシンが手に入ったので、イオリア渓谷東側の洞窟でフィールドを変えて **ヤミラミ** をより簡単に入手できます。必要なら済ませておいてください。
 
-Next, make your way to Seventh Street. In the middle of the area you'll see a woman pleading for some medicine for her sleeping husband. Give her the Oddishweed we found earlier in exchange for an egg which will hatch to be **Chespin**.
+次に7番街へ向かいます。エリア中央で、眠り続ける夫のための薬を求めている女性がいます。先ほど手に入れた *ナゾノクサのはっぱ* を渡すと、**ハリマロン** が孵るタマゴがもらえます。
 
-With that out of the way, if you'd like, take some time to prepare for the next section of the game. Notably we won't have access to the Department Store or the Daycare. We also won't be able to catch new members for our team aside from what's available beyond, so stock up on items and do all the breeding and catching you need to.
+それが済んだら、必要に応じて次の区画へ向けた準備をしておきましょう。特に、この先はデパートと育て屋が使えなくなります。新しい仲間も向こうで手に入るものしか捕まえられないので、道具を買い込み、孵化と捕獲を済ませておいてください。
 
-Once you're all set, make your way to the Agate City checkpoint north of the Vanhanen Labyrinth, talk to Cain, then head out at the top.
+支度ができたら、バンハネン迷宮の北にあるアゲートシティの検問所へ向かい、カインに話しかけてから最上部へ出ます。
 
-## Agate Circus
+## アゲートサーカス {#agate-circus}
 
-After our first introduction to Terra in Agate City... we get to explore the Agate Circus! This area will serve as our "home base" of sorts while we obtain the next few badges. There are trainers scattered about as well as a healing component in the bottom of the area. The trainers on the map, roughly clockwise:
+アゲートシティでテラと初対面したあと……アゲートサーカスを探索できます。ここは次の数個のバッジを取るまでの「拠点」のような場所になります。トレーナーが各所にいて、エリア下部には回復設備もあります。マップ上のトレーナーは、おおむね時計回りに以下のとおりです。
 
 !battle(["Drolly", :Clown, 0])
 
@@ -28,115 +28,115 @@ After our first introduction to Terra in Agate City... we get to explore the Aga
 
 !battle(["Arthur", :Clown, 0])
 
-Hidden around the circus, you'll find 3 *Blue Shards*, *Oran Berry*, *Red Shard*, *Full Heal*, *Ultra Potion*, *Escape Rope*, *Purple Shard*, and 2 *Green Shards*.
+サーカスの各所には隠された *あおいかけら* 3個、*オレンのみ*、*あかいかけら*、*なんでもなおし*、*すごいキズぐすり*、*あなぬけのヒモ*、*むらさきのかけら*、*みどりのかけら* 2個があります。
 
-Starting at the entrance we came in through and working vaguely clockwise, there are tons of things to buy, minigames, etc.
+入ってきた入口を起点に、おおよそ時計回りに、買い物やミニゲームが山ほどあります。
 
 !shop("Agate Circus Cotton Candy", ["Cotton Candy"])
 
 !shop("Agate Circus General Goods", ["Ultra Ball", "Super Repel", "Escape Rope", "Full Heal", "Hyper Potion", "Eviolite"])
 
-We can finally buy Ultra Balls! Also, although it's expensive, the Eviolite can turn certain Pokemon like Porygon2 and Dusclops into monsters for this part of the game.
+ようやく *ハイパーボール* が買えます。また高価ではありますが、*しんかのきせき* は **ポリゴン2** や **サマヨール** といったポケモンを、この区画で怪物級の性能に変えてくれます。
 
 !tutor("Agate Circus Pledge Move Tutor", [["Grass Pledge", "3 Green Shards"], ["Fire Pledge", "3 Red Shards"], ["Water Pledge", "3 Blue Shards"]])
 
-We had access to this in Lapis, but here's one for this section of the game if you need it. There's a Move Relearner in the bottom right corner, again doing it for one Heart Scale per move.
+ラピスでも利用できましたが、この区画用にもう1人います。右下の隅にはわざ思い出しもいて、こちらも技1つにつき *ハートのウロコ* 1個です。
 
 !shop("Agate Circus Friendship Berries", ["Pomeg Berry", "Kelpsy Berry", "Qualot Berry", "Tamato Berry", "Hondew Berry", "Grepa Berry"])
 
-Just in case you need some.
+必要な場合に備えて。
 
-To the left is a tile puzzle, which you can play in exchange for 1 Green Shard. This is the solution:
+左手にはタイルパズルがあり、*みどりのかけら* 1個で遊べます。答えはこちらです。
 
 !img("carracosta.jpg")
 
-Winning will reward you a *Cover Fossil*. Nearby the healing machine is a candy vendor:
+勝つと *ふたのカセキ* がもらえます。回復設備の近くにはお菓子の売り手がいます。
 
 !shop("Agate Circus Candy", ["Common Candy", "Red-Hots", "Chewing Gum", "Salt-Water Taffy", "Peppermint", "Pop Rocks", ["Exp. Candy XS", 500], ["Exp. Candy S", 2000], ["Exp. Candy M", 5000], ["Exp. Candy L", 10000]])
 
-To the left is another person selling *Ability Capsules* in exchange for 1, then 2, then 3 forevermore of random color shards.
+左手には、*とくせいカプセル* をランダムな色のかけら1個、次に2個、以降は3個と交換してくれる人物がもう1人います。
 
 !shop("Agate Circus Balloon", ["Air Balloon"])
 
-Next, you'll find an NPC who will change your Pokemon's Hidden Power type in exchange for a Heart Scale. Score another point for Reborn for "actually letting you customize any Pokemon" to let you win with your favorites. Past her is a nickname changer, also obsolete thanks to the party menu.
+次に、*ハートのウロコ* 1個でポケモンの *めざめるパワー* のタイプを変えてくれるNPCがいます。「どんなポケモンでも好きなように調整させてくれる」点で、リボーンにまた1点加算です。お気に入りで勝てるようになります。その先には、ニックネームを変えてくれる人物もいますが、こちらは手持ちの画面から変えられるので用済みです。
 
-To the left is another tile puzzle, which you can play in exchange for 1 Red Shard. This is the solution:
+左手にはもう1つタイルパズルがあり、*あかいかけら* 1個で遊べます。答えはこちらです。
 
 !img("archeops.jpg")
 
-Winning will reward you a *Plume Fossil*. Up from here are some tutors.
+勝つと *はねのカセキ* がもらえます。そこから上には技教え人がいます。
 
 !tutor("Agate Circus Move Tutor (Bottom)", [["Uproar", "3 Blue Shards"], ["Hyper Voice", "5 Green Shards"], ["Stomping Tantrum", "4 Purple Shards"], ["Low Kick", "6 Red Shards"]])
 
 !tutor("Agate Circus Move Tutor (Top)", [["Iron Tail", "4 Blue Shards"], ["Focus Punch", "3 Green Shards"], ["Drill Run", "4 Purple Shards"], ["Synthesis", "3 Red Shards"]])
 
-Down from here there are more stores and such.
+そこから下にも店などがあります。
 
 !shop("Agate Circus Snax", [["PokeSnax", 650]])
 
 !shop("Agate Circus Ice Cream", ["Vanilla Ice Cream", "Choc Ice Cream", "Berry Ice Cream", "Blue Moon Ice Cream"])
 
-The Blue Moon Ice Cream shows up rarely with the same mechanics as before.
+*ブルームーンアイス* は以前と同じ仕組みで、まれに並びます。
 
-There is another tile puzzle here, but this one has different mechanics. I recommend saving beforehand so if you get stuck you don't have to waste a shard when you reset. It costs 1 Purple Shard. Anyways, the finished puzzle looks like this:
+ここにもタイルパズルがありますが、これは仕組みが異なります。詰まってリセットしたときにかけらを無駄にしないよう、事前のセーブをおすすめします。費用は *むらさきのかけら* 1個です。完成形はこちらです。
 
 !img("conkeldurr.jpg")
 
-Once you win, you'll get a **Timburr**!
+勝つと **ドッコラー** が手に入ります。
 
-Next to this you'll find the High Striker. It costs $350 to play each time.
+その隣にはハイストライカーがあります。1回350ドルです。
 
-|High Striker Reward  |Chance |
+|ハイストライカーの景品|確率|
 |---------------      |-------|
-|*TM87 Swagger*       |2%     |
-|**Clefairy**         |14%    |
-|Money back           |22%    |
-|Nothing              |62%    |
+|*わざマシン87 いばる*|2%     |
+|**ピッピ**           |14%    |
+|返金                 |22%    |
+|はずれ               |62%    |
 
-After you've gotten the grand prize, from then on it will be replaced with getting your money back and winning a *Poke Doll*. After getting Clefairy, you will win an actual *Poke Doll* from then on. There's a secret here too: if you do this with a pokemon with Huge Power, Guts, Pure Power, or Sheer Force at the front of your party, you will always get the jackpot!
+大賞を取ったあとは、返金と *ピッピにんぎょう* の当選に置き換わります。ピッピを取ったあとは、以降は本物の *ピッピにんぎょう* が当たります。ここには裏技もあります。*ちからもち*、*こんじょう*、*ヨガパワー*、*ちからずく* のいずれかを持つポケモンを先頭にして遊ぶと、必ず大当たりになります。
 
-Once you get a Poke Doll, give it to a child below the healing component to get the *Big Top Arena Field Readout*.
+*ピッピにんぎょう* を手に入れたら、回復設備の下にいる子どもに渡すと *サーカステントの資料* がもらえます。
 
 !shop("Agate Circus Power Items", ["Power Weight", "Power Bracer", "Power Belt", "Power Anklet", "Power Lens", "Power Band"])
 
-Enter the gate on the right side that we came in from. Upstairs, a girl will take four Shoal Salts and four Shoal Shells and make us a *Shell Bell*! To her right, there is a clown who gives us a riddle. Solve the riddle for an in-game trade: our Stunfisk for his **Vulpix**!
+入ってきた右側のゲートに入ります。上階では、*あさせのしお* 4個と *あさせのかいがら* 4個で少女が *かいがらのすず* を作ってくれます。その右手にはなぞなぞを出すピエロがいます。解くと交換イベントになり、こちらの **マッギョ** と相手の **ロコン** です。
 
-Back outside, talk to the ringmaster in the upper left corner. Make your way to the cotton candy vendor to get a *Cotton Candy* for free.
+外に戻り、左上の隅の団長に話しかけます。わたあめの売り手のところへ行くと *わたあめ* を無料でもらえます。
 
-Finally, talk to Samson next to the high striker.
+最後に、ハイストライカーの隣のサムソンに話しかけます。
 
-**Relationship Point Choices**:
-- Speak to Samson as he clears the way, when the player is female (+1 Samson)
+**好感度の選択肢**:
+- 主人公が女性のとき、道を空けてくれるサムソンに話しかける (+1 サムソン)
 
-Head in to the Big Top, and talk to Aya on the couch. After a conversation you'll get the *Powder Vial*.
+大テントに入り、ソファのアヤに話しかけます。会話のあと *こなのビン* が手に入ります。
 
-Head out, then come back in to have some conversations for relationship points if you'd like.
+外へ出てまた入り直すと、好感度のための会話がいくつかできます。
 
-**Relationship Point Choices**:
-- Speak to Aya (+1 Aya)
+**好感度の選択肢**:
+- アヤに話しかける (+1 アヤ)
 
-**Relationship Point Choices**:
-- Speak to Cain (+1 Aya)
+**好感度の選択肢**:
+- カインに話しかける (+1 アヤ)
 
-**Relationship Point Choices**:
-- Speak to Ciel (+2 Samson, -1 Ciel)
+**好感度の選択肢**:
+- シエルに話しかける (+2 サムソン、-1 シエル)
 
-**Relationship Point Choices**:
-- Speak to Samson (+2 Ciel, -1 Samson)
+**好感度の選択肢**:
+- サムソンに話しかける (+2 シエル、-1 サムソン)
 
-While we're in the big top, if you talk to a clown in the audience, they'll fight you.
+大テントにいる間に観客席のピエロに話しかけると、戦いになります。
 
 !battle(["Darko", :Clown, 0], "Big Top Arena")
 
-Exit the Big Top. You'll notice another tutor on the left side of the circus.
+大テントを出ます。サーカスの左側にもう1人技教え人がいるのが分かります。
 
 !tutor("Agate Circus Fake Samson Move Tutor", [["Dual Chop", "4 Blue Shards"], ["Thunder Punch", "5 Green Shards"], ["Fire Punch", "5 Purple Shards"], ["Ice Punch", "6 Red Shards"]])
 
-Make your way to the bottom left of the circus, grab the hidden *Fighting Gem*, and go in. Inside, a child will ask for a Cotton Candy, then an Air Balloon, then a Poke Doll. Once you give all the items to the kid their scheme will be revealed, and we will get *Department Store Sticker: Clefairy*.
+サーカスの左下へ向かい、隠された *かくとうジュエル* を拾って中へ入ります。中では子どもに *わたあめ*、次に *ふうせん*、次に *ピッピにんぎょう* を求められます。すべて渡すと魂胆が明らかになり、*デパートシール: ピッピ* が手に入ります。
 
-## Clown Indra Fights
+## ピエロのインドラ戦 {#clown-indra-fights}
 
-Before we proceed, one more thing to note in the circus is the colorful clown in the upper-right part of the area: Clown Indra. Without access to the Grand Hall trainers, he is our best option for grinding. Upon winning, we will get 8 *Exp. Candy L* and a randomly colored *Shard*. Note that he will battle you with a randomly chosen team from a pool which is as follows:
+先へ進む前にもう1つ。サーカス右上のカラフルなピエロ——ピエロのインドラです。大ホールのトレーナーが使えない今、レベル上げの最有力手段になります。勝つと *けいけんアメL* を8個と、ランダムな色の *かけら* がもらえます。なお、次の候補から編成をランダムに選んで戦ってきます。
 
 !battle(["Indra", :INDRA, 0])
 
@@ -158,188 +158,188 @@ Before we proceed, one more thing to note in the circus is the colorful clown in
 
 !battle(["Indra", :INDRA, 9])
 
-## Route 2
+## 2番道路 {#route-2}
 
-Head up the elevator and walk outside.
+エレベーターで上がって外に出ます。
 
 !enc(358)
 
-If you go up from here you'll find a hidden *Telluric Seed*, but can't progress farther. So, we'll have to jump over some rocks to the left. Using the cliff and the rocks, you can hop any two-tile-length gaps. Head up once you're in the northern area. You'll notice a green tree and a red tree. The green trees drop Sleep Powder and the red trees drop Rage Powder, both of which can be contained in the Powder Vial. The former can be used to put Crustle to sleep while the latter will wake them up and allow us to battle them! Note that if you hop onto a rock with a narrow base of support, the powder will spill out.
+ここから上へ進むと隠された *テルリックシード* がありますが、それ以上は進めません。そこで、左の岩を飛び移っていきます。崖と岩を使えば、2マス分の隙間を飛び越えられます。北のエリアに入ったら上へ進んでください。緑の木と赤の木が見えます。緑の木は *ねむりごな* を、赤の木は *いかりのこな* を落とし、どちらも *こなのビン* に入れられます。前者は **イワパレス** を眠らせるのに使い、後者は起こしてバトルに持ち込むのに使います。なお、支えの狭い岩に飛び乗ると、こなはこぼれてしまいます。
 
-Grab some sleep powder and talk to the rock towards the top to summon a Crustle. Talk to it to put it to sleep, then push it to the right side so that it falls into the hole. A precise guide to moving this first Crustle:
-
-<div class="spoilerDiv">
-  <div class="spoilerText" style="display:none">
-    Right 3, Up 1, Right 4, Up 2, Right 3, Up 1, Right 5, Down 2, Right 3
-  </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Crustle 1 movements</a>
-</div>
-
-Grab some more sleep powder then head to the bottom right corner of this level. You'll find a rock with some stairs that let us climb up onto the rocks, so do so. Hop left then immediately down onto a cliffside. To the left from here you'll find a hidden *Link Stone*. Back near the stairs, make your way to the top left side of this area, carefully avoiding the wobbly rocks. On the higher platform, talk to the rock to summon a Crustle, then push it into the hole at the top of this area. Precisely:
+ねむりごなを取り、上のほうの岩に話しかけて **イワパレス** を呼び出します。話しかけて眠らせたら、右へ押して穴に落としてください。最初のイワパレスの正確な動かし方は次のとおりです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Left 4, Up 8, Right 1, Up 4, Right 1, Up 3
+    右3、上1、右4、上2、右3、上1、右5、下2、右3
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Crustle 2 movements</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">イワパレス1の動かし方を表示</a>
 </div>
 
-Make your way back down to the larger area, get another dose of sleep powder, then return to the upper left area with the previous Crustle.
-
-Climb onto the white rock via the stairs then go right for a hidden *Ability Capsule*. Go to the left and use the cliff to hop over to the rock face up and to the right. Use the sleep powder on the Crustle in the nearby rock, then push this Crustle off the ledge to the right. This is a bit of a tricky maneuver - keep in mind that you can hop your way around to get a better angle. Precisely:
+もう一度ねむりごなを取り、この段の右下の隅へ向かいます。階段のついた岩があり、岩の上に登れるので、そうしてください。左へ飛び、すぐ下の崖際へ降ります。そこから左には隠された *リンクストーン* があります。階段の近くまで戻り、ぐらつく岩を慎重に避けながら、このエリアの左上へ向かいます。高い足場で岩に話しかけてイワパレスを呼び出し、このエリア上部の穴へ押し込んでください。正確には次のとおりです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Left 2, go up the stairs, hop up and around to get on top of Crustle, Down 1, take the stairs to the left up, hop down, hop your way to the rightmost stairs, Right 3, Down 1.
+    左4、上8、右1、上4、右1、上3
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Crustle 3 movements</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">イワパレス2の動かし方を表示</a>
 </div>
 
-From here, climb the stairs, hop down, make your way down the first ledge on the gray rock face and hop to the right onto the rock with stairs.  You'll need to finish moving the Crustle we previously knocked down the cliff into the hole at the top. Precisely:
+広いエリアまで戻ってもう一度ねむりごなを取り、先ほどのイワパレスがいた左上のエリアへ戻ります。
+
+階段から白い岩に登り、右へ進むと隠された *とくせいカプセル* があります。左へ進み、崖を使って右上の岩肌へ飛び移ります。近くの岩のイワパレスにねむりごなを使い、このイワパレスを右の段差から落としてください。少し込み入った操作なので、飛び回って角度を取り直せることを覚えておきましょう。正確には次のとおりです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Right 2, Down 1, Right 2, Up 3, Left 1, Up all the way
+    左2、階段を上る、飛んで回り込みイワパレスの上に乗る、下1、左の階段を上る、飛び降りる、飛び移って一番右の階段へ、右3、下1
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Crustle 3 movements (pt. 2)</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">イワパレス3の動かし方を表示</a>
 </div>
 
-Climb up the stairs to the right. You'll find a hidden *Ultra Potion* and *Green Shard*.
+ここから階段を上り、飛び降り、灰色の岩肌の最初の段差を下りて、右の階段つきの岩へ飛び移ります。先ほど崖から落としたイワパレスを、上部の穴まで動かし切る必要があります。正確には次のとおりです。
+
+<div class="spoilerDiv">
+  <div class="spoilerText" style="display:none">
+    右2、下1、右2、上3、左1、上へ行けるところまで
+  </div>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">イワパレス3の動かし方（後半）を表示</a>
+</div>
+
+右の階段を上ります。隠された *すごいキズぐすり* と *みどりのかけら* が見つかります。
 
 !battle(["Ike", :HIKER, 0], "Rocky Field")
 
-Hop across Crustle to go left at the top. Pick up *TM58 Sky Drop* and a hidden *Super Potion*. To the left across the final Crustle you can get a hidden *Ether* and *Purple Shard*. Head into the mountain here.
+イワパレスを渡って上部から左へ。*わざマシン58 フリーフォール* と隠された *いいキズぐすり* を回収します。最後のイワパレスを渡って左へ進むと、隠された *ピーピーエイド* と *むらさきのかけら* が手に入ります。ここから山に入りましょう。
 
 !enc(364, ["Cave", "Fishing"], ["Old", "Good"], "Ametrine Mountain")
 
-Without Surf we can't really do much here other than catch some Water and Ice type Pokemon, so head back out onto Route 2.
+*なみのり* がないと、みずタイプとこおりタイプを捕まえる以外にできることはあまりないので、2番道路へ戻ります。
 
-Make your way back to the platform with the powder trees by hopping down across two Crustles and going to the left, then hopping your way down and to the right. From the rock with stairs in the bottom right corner, go up and right to hop across to the platform on the right.
+イワパレス2匹を飛び降りて左へ進み、そこから下そして右へ飛び移って、こなの木がある足場まで戻ります。右下の隅の階段つきの岩から、上そして右へ進んで右の足場へ飛び移ってください。
 
 !battle(["Marshall", :HIKER, 0], "Rocky Field")
 
-Pick up the hidden *Guard Spec.* and *Full Heal*. Climb the stairs from here towards the clown.
+隠された *エフェクトガード* と *なんでもなおし* を拾います。ここから階段を上ってピエロのほうへ。
 
 !battle(["Freedo", :Clown, 0], "Rocky Field")
 
-Pick up another hidden *Guard Spec.* Down the nearby stairs, you can walk through the valley between the rocks to climb the stairs in the bottom right corner. Up from here, talk to the green part of the locked gate on the right side to open up this shortcut!
+隠された *エフェクトガード* をもう1つ拾います。近くの階段を下りると、岩の間の谷を通って右下の隅の階段を上れます。そこから上へ進み、右側の施錠された門の緑の部分に話しかけると、この近道が開通します。
 
-To the right from here, go down and grab hidden *X Sp. Atk* and *Revive*. Can't go further, so head back up to the gate, then go down the stairs below.
+そこから右へ、下へ進んで隠された *スペシャルアップ* と *げんきのかけら* を拾います。それ以上は進めないので、門まで戻って下の階段を下ります。
 
-Grab a hidden *Ultra Ball* then hop across some rocks to the right to grab a *Exp. Candy XL*. Next, hop to the left from the cliff at the top, grab a hidden *PokeSnax*, and hop your way to the bottom right side of the area. Climb down the stairs on the rock.
+隠された *ハイパーボール* を拾い、右へ岩を飛び移って *けいけんアメXL* を回収します。次に上の崖から左へ飛び、隠された *ポケスナック* を拾って、エリアの右下へ飛び移っていきます。岩の階段を下りてください。
 
-Snag the *Blue Shard* to the left, then get some sleep powder and talk to Crustle up and to the right. We'll need to move it down and right. Precisely:
+左の *あおいかけら* を回収したら、ねむりごなを取って右上のイワパレスに話しかけます。これを下そして右へ動かす必要があります。正確には次のとおりです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Left 2, Down 1, Right 2, Down 5, Right 3, Down 1, Right 3
+    左2、下1、右2、下5、右3、下1、右3
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Crustle 4 movements</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">イワパレス4の動かし方を表示</a>
 </div>
 
-Down from here, you can hop from the ground onto some reddish rocks. Hop down and to the right to pick up the *Rocky Field Readout*. From here, head back to the previous platform, climb onto the rocks, and make your way all the way back to the shortcut gate. From here, go all the way left.
+そこから下へ進むと、地面から赤みがかった岩へ飛び移れます。下そして右へ飛び降りると *岩場フィールドの資料* が手に入ります。ここからひとつ前の足場へ戻り、岩に登って、近道の門までずっと戻ってください。そこから左へずっと進みます。
 
 !battle(["Goomy", :Clown, 0], "Rocky Field")
 
-How terrifying!
+実に恐ろしい。
 
-Grab a hidden *Telluric Seed* and *Red Shard*, and go down the stairs at the bottom.
+隠された *テルリックシード* と *あかいかけら* を拾い、下の階段を下ります。
 
 !battle(["Nick", :PkMnRANGER_Male, 0], "Rocky Field")
 
-Go down the stairs here, then pick up a hidden *Red Shard* in this lower area near the green tree. Grab some sleep powder and put the Crustle in the bottom right corner to sleep. We'll need to push it off a cliff down and to the left. Precisely:
+ここの階段を下り、下のエリアの緑の木の近くで隠された *あかいかけら* を拾います。ねむりごなを取り、右下の隅のイワパレスを眠らせてください。これを下そして左の崖から落とす必要があります。正確には次のとおりです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Left 4, Down 4, Left 2, Down 4, Left 1, Down 6, Right 1, Down 8
+    左4、下4、左2、下4、左1、下6、右1、下8
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Crustle 5 movements</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">イワパレス5の動かし方を表示</a>
 </div>
 
-Take the nearby stairs onto the rock and take the path up and left. Get sleep powder up here, then use it on a Crustle in a cave down and to the right. We'll need to get it off of two cliffs. Precisely:
+近くの階段から岩に登り、上そして左へ道をたどります。ここでねむりごなを取り、右下の洞窟にいるイワパレスに使います。これを2つの崖から落とす必要があります。正確には次のとおりです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Left 5, Down 1 off the cliff, Left 4, Down 2, Right 2, Down 1
+    左5、下1で崖から落とす、左4、下2、右2、下1
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Crustle 6 movements</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">イワパレス6の動かし方を表示</a>
 </div>
 
-Grab the hidden *Swift Wing, Big Mushroom, Fire Stone*, and *Paralyze Heal* then return to the rock stairs down and right.
+隠された *しゅんぱつのハネ*、*おおきなキノコ*、*ほのおのいし*、*まひなおし* を拾い、右下の岩の階段へ戻ります。
 
-Hop to the right this time, taking a stop on the narrow cliffside to the right where you can see two trees. Use the sleep powder on this Crustle and push it off the cliff at the bottom. Precisely:
+今度は右へ飛び、木が2本見える右の狭い崖際で一度止まります。このイワパレスにねむりごなを使い、下の崖から落としてください。正確には次のとおりです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Left 2, Down 5, Right 1, Down 6
+    左2、下5、右1、下6
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Crustle 7 movements</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">イワパレス7の動かし方を表示</a>
 </div>
 
-Pick up the hidden *Red Shard* and return onto the top of the rocks. Continue the rock hop up and around to the right. Grab a hidden *Ground Gem*. The path to the right that leads up, including a Crustle we placed earlier, is a shortcut that will take us to the start of Route 2. Go down the stairs from here.
+隠された *あかいかけら* を拾い、岩の上へ戻ります。岩を飛び移りながら上そして右へ回り込んでいきます。隠された *じめんのジュエル* を拾ってください。右へ延びて上へ続く道は、先ほど配置したイワパレスを含めて、2番道路の起点へ戻る近道になります。ここから階段を下ります。
 
 !battle(["Ford", :HIKER, 0], "Rocky Field")
 
-Jump over the placed Crustle and move the remaining one off the cliff and into its final destination. Precisely:
+配置済みのイワパレスを飛び越え、残る1匹を崖から落として最終地点まで動かします。正確には次のとおりです。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Left 2, Down 2, Right 1, Down 4 off the cliff, Left 5, Up 5, Right 1, Up 1.
+    左2、下2、右1、下4で崖から落とす、左5、上5、右1、上1。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for Crustle 5 movements (pt. 2)</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">イワパレス5の動かし方（後半）を表示</a>
 </div>
 
-Grab the hidden *Super Repel* then hop over the Crustles to get to the left. Grab the hidden *Flying Gem*.
+隠された *シルバースプレー* を拾い、イワパレスを飛び越えて左へ。隠された *ひこうのジュエル* を回収します。
 
 !enc(359, ["Grass", "Fishing"], ["Old", "Good"], "Celestinine Cascade East")
 
-In this area, you'll find hidden *Carbos*, *Great Ball*, *Burn Heal*, *Potion*, *X Defend*, *Iron*, *PokeSnax*, *X Sp. Def*, *Revive*, *Escape Rope*, and *Stardust*.
+このエリアでは隠された *インドメタシン*、*スーパーボール*、*やけどなおし*、*キズぐすり*、*ディフェンダー*、*ブロムヘキシン*、*ポケスナック*、*スペシャルガード*、*げんきのかけら*、*あなぬけのヒモ*、*ほしのすな* が見つかります。
 
-Head into the Fiore Mansion at the top and talk to Amaria. Head upstairs and talk to Hardy on the couch.
+上部のフィオレ屋敷に入り、アマリアに話しかけます。上階へ上がってソファのハーディに話しかけてください。
 
-**Relationship Point Choices**:
-- If you saw Titania on Route 1, tell her you'll keep the secret (+1 Titania)
-- If you saw Titania on Route 1, tell her you won't keep the secret (-1 Titania)
+**好感度の選択肢**:
+- 1番道路でティタニアを見ていた場合、秘密を守ると伝える (+1 ティタニア)
+- 1番道路でティタニアを見ていた場合、秘密を守らないと伝える (-1 ティタニア)
 
-Head outside from the second floor and you can grab the *Water Surface Field Readout*.
+2階から外に出ると *水面フィールドの資料* が手に入ります。
 
-Back downstairs, you'll be given the *Battle Pass - Strike*. With that out of the way, head on back to the circus.
+1階に戻ると *バトルパス・ストライク* がもらえます。それが済んだらサーカスへ戻りましょう。
 
-## Strike Badge
+## ストライクバッジ {#strike-badge}
 
-Enter the Big Top for a fight.
+大テントに入るとバトルです。
 
 !battle(["Alistasia", :RINGMASTER, 2], "Big Top Arena")
 
-The ringmaster has a team of circus-themed Pokemon that like to use the field effect well! You'll have to watch out for her boosted sound moves like Snarl and Sparkling Aria, as well as Blaziken getting +3 with Swords Dance on top of Speed Boost. If you can manage to not get swept by Blaziken, with some coverage you can probably find a way through this one.
+団長は、フィールド効果をうまく使うサーカスをテーマにした編成です。強化された *バークアウト* や *うたかたのアリア* といった音技に加え、*かそく* の上に *つるぎのまい* を積んで3段階上昇してくる **バシャーモ** に警戒してください。バシャーモに全抜きされさえしなければ、攻撃範囲を確保すれば突破口は見つかります。
 
-Enter the circus back room. Once more we can have multiple conversations for relationship points.
+サーカスの裏手に入ります。ここでもまた、好感度のための会話がいくつかできます。
 
-**Relationship Point Choices**:
-- Talk to Aya (+1 Terra)
+**好感度の選択肢**:
+- アヤに話しかける (+1 テラ)
 
-**Relationship Point Choices**:
-- Talk to Cain (+1 Aya)
+**好感度の選択肢**:
+- カインに話しかける (+1 アヤ)
 
-**Relationship Point Choices**:
-- Talk to Hardy (+1 Aya)
+**好感度の選択肢**:
+- ハーディに話しかける (+1 アヤ)
 
-**Relationship Point Choices**:
-- Talk to Terra (+1 Terra)
+**好感度の選択肢**:
+- テラに話しかける (+1 テラ)
 
-**Relationship Point Choices**:
-- Talk to Ciel (+1 Terra)
+**好感度の選択肢**:
+- シエルに話しかける (+1 テラ)
 
-Save and talk to Samson when you're ready for a fight.
+セーブして、準備ができたらサムソンに話しかけます。
 
 !battle(["Samson", :SAMSON, 0], "Big Top Arena")
 
-Ooh boy, time for Samson. When I first played Reborn I was stuck on this fight for weeks! For one, 10 of his 24 moves are "high-striker" moves, meaning they get multiplied by a random multiplier between 0.5x and 3x. However, his Hariyama and Conkeldurr are guaranteed high rolls due to their abilities, and any Pokemon with increased attack also has a better chance at high rolls, meaning Synthetic Seed Hawlucha and Blaziken as well as Swords Dance Lucario all get really high rolls! Essentially this means that most of the time you get hit by a high striker move, you are going to be absolutely bodied! On top of this, Lucario's Swords Dance boosts attack by 3 stages per use, and its Acrobatics will hit with 165 base power regardless of item held! With Conkeldurr sitting at 90 total speed to counter Trick Room and Hawlucha with Unburden to outspeed basically anything you have, his team is well suited to deal with all kinds of speed set ups and easily crush your pathetic Pokemon with high striker moves. Thanks to Brick Break, your puny screens will be crushed as well. All in all a tough fight!
+さあ、サムソンの番です。筆者が初めてリボーンを遊んだとき、この戦いで何週間も詰まりました。まず、相手の24の技のうち10が「ハイストライカー技」で、0.5倍から3倍のランダムな倍率がかかります。しかも **ハリテヤマ** と **ローブシン** は特性のおかげで高い倍率が確定し、こうげきが上がっているポケモンも高倍率を引きやすくなります。つまり *シンセティックシード* の **ルチャブル** と **バシャーモ**、そして *つるぎのまい* の **ルカリオ** は、いずれも極めて高い倍率を出してきます。要するに、ハイストライカー技を食らったらたいてい木っ端微塵にされるということです。加えてルカリオの *つるぎのまい* は1回でこうげきを3段階上げ、*アクロバット* は持ち物に関係なく威力165で飛んできます。ローブシンは *トリックルーム* 対策に素早さ合計90に調整され、ルチャブルは *かるわざ* でこちらの何よりも速くなるため、あらゆる素早さの仕込みに対応しつつ、ハイストライカー技で貧弱なポケモンを易々と叩き潰してきます。*かわらわり* があるので、こちらのちっぽけな壁も砕かれます。総じて厳しい戦いです。
 
-Ok, so Samson crushed me when I was younger, but that was before I read the field notes for Big Top Arena and realized how much you can do back to him! If nothing else, notice that what I mentioned about his Lucario's Acrobatics earlier holds true for you as well - the move pretty much wipes his whole team if you are able to use it (or Nature Power, which becomes it). You can also use the High Striker moves yourself to hit hard if you want - notable users include Guts Medicham, Guts / Sheer Force Conkeldurr, and Sky Drop Sheer Force Braviary, all of which are available nearby! There are also a ton of moves that are boosted on this field otherwise: sound moves like Hyper Voice and Boomburst, and other moves like Petal Dance, Power Whip, Fly, and Revelation Dance, to name a few. Speaking of the latter, a Pokemon with Dancer gets +1 Spe and +1 SpA whenever they use a dancing move... a good combo there for a certain Pokemon. If you are able to get away with boosting yourself, Swords Dance, Dragon Dance, and Quiver Dance are all boosted, meaning you can get your own sweeper going fairly easily. Rain lasts 8 turns, Sing has perfect accuracy now, Belly Drum grants defense boosts... there are just so many crazy things that you can use on this field! Even if you don't want to abuse the field, fast Psychic and Flying types are still solid choices to deal with his slower team members and you can always use something like priority moves or Sturdy + Counter for the tricky ones if need be.
+とはいえ、若い頃の筆者が叩きのめされたのは、*サーカステント* のフィールドノートを読んで、こちらからも同じだけやり返せると気づく前の話です。何より、先ほど述べたルカリオの *アクロバット* の話は、こちらにもそのまま当てはまります。使えるなら（あるいは *しぜんのちから* がこれに変わるので）、この技だけで相手の編成をほぼ壊滅させられます。ハイストライカー技をこちらから撃つ手もあります。目ぼしい使い手は *こんじょう* の **チャーレム**、*こんじょう* / *ちからずく* の **ローブシン**、そして *フリーフォール* と *ちからずく* の **ウォーグル** で、いずれも近くで入手できます。ほかにもこのフィールドで強化される技は多く、*ハイパーボイス* や *ばくおんぱ* といった音技のほか、*はなびらのまい*、*パワーウィップ*、*そらをとぶ*、*めざめるダンス* などが挙げられます。最後のものに関連して、*おどりこ* を持つポケモンは踊り技を使うたびに素早さととくこうが1段階上がります——ある特定のポケモンとの相性が抜群です。積む余裕があるなら、*つるぎのまい*、*りゅうのまい*、*ちょうのまい* もすべて強化されるので、こちらのエースを比較的簡単に仕上げられます。雨は8ターン持続し、*うたう* は必中になり、*はらだいこ* はぼうぎょ上昇まで付く——このフィールドで使えるとんでもない手は本当に数多くあります。フィールドを利用するつもりがなくても、素早いエスパータイプとひこうタイプは鈍足な相手への回答として堅実ですし、厄介な相手には先制技や *がんじょう* ＋ *カウンター* を当てる手も常にあります。
 
-**Relationship Point Choices**:
-- Defeat Samson on your first try (+2 Ciel)
-- Defeat Samson on your second, third, etc. try (-1 Ciel)
+**好感度の選択肢**:
+- 1回目でサムソンに勝つ (+2 シエル)
+- 2回目以降でサムソンに勝つ (-1 シエル)
 
-Once you win, you'll get the *Strike Badge* and *TM31 Brick Break*.
+勝利すると *ストライクバッジ* と *わざマシン31 かわらわり* が手に入ります。

@@ -1,72 +1,72 @@
-# Episode 14: //outlier.corruption
+# エピソード14: //outlier.corruption {#episode-14}
 
-After your gym fight, enter the building in the bottom left side of Calcenon. You'll get *TMX6 Dive* inside! We could have gone in here earlier, but:
+ジム戦のあと、カルセノンの左下の建物に入ります。中で *ひでんマシン6 ダイビング* が手に入ります。実はもっと早く入ることもできたのですが——
 
-**Relationship Point Choices**:
-- Beat Charlotte before getting Dive (+1 Noel, +1 Shelly)
+**好感度の選択肢**:
+- ダイビングを入手する前にシャルロットを倒す (+1 ノエル、+1 シェリー)
 
-You can also talk to Hardy in here.
+ここではハーディにも話しかけられます。
 
-**Relationship Point Choices**:
-- Talk to Hardy in the Calcenon house about Charlotte (+1 Hardy)
+**好感度の選択肢**:
+- カルセノンの家でハーディにシャルロットのことを話す (+1 ハーディ)
 
-With that, we now have all we need to Dive! There are a few quick things we can do, however!
+これで *ダイビング* に必要なものが揃いました。とはいえ、先に手早く済ませられることがいくつかあります。
 
-## 11 Badge Quests
+## バッジ11個で解禁されるクエスト {#badge-quests-3}
 
-Enter the gate at the bottom of Calcenon. The guard inside will ask us to donate $40000 to repair the bridge that was broken in the previous chapter. Note that if you don't have enough cash, you'll need to go all the way through Route 4 and Route 3 caves to go between Ametrine Mountain and Calcenon City. Anyways, once you cough up the cash the bridge, will be fixed. Head outside and to the right on the stairs, and enter the cave here.
+カルセノン下部のゲートに入ります。中の警備員から、前章で壊れた橋の修理費として40000ドルの寄付を求められます。所持金が足りない場合、アメトリン山とカルセノンシティの行き来には4番道路と3番道路の洞窟をすべて通る必要がある点に注意してください。ともあれ、金を出せば橋が直ります。外に出て右の階段へ進み、ここの洞窟に入ります。
 
-Inside, you can get *4 Exp. Candy XL*, a *Magmarizer*, and *Ghost Memory*. Re-enter Calcenon City. In the building to the right of the Pokemon Center you can trade this Magmarizer to get a **Magby**! 
+中では *けいけんアメXL* 4個、*マグマブースター*、*ゴーストメモリ* が手に入ります。カルセノンシティに入り直してください。ポケモンセンターの右隣の建物で、このマグマブースターを交換すると **ブビィ** が手に入ります。
 
-Head down to Route 3 via the new stairs. Down from here, you'll see a ladder. Interact with it to create a quick shortcut that allows us to go from Calcenon to Agate Circus super easily! Head to the circus.
+新しい階段から3番道路へ下ります。そこから下にはしごが見えるので、調べるとカルセノンからアゲートサーカスへ極めて簡単に行ける近道ができます。サーカスへ向かいましょう。
 
-To the right of the high striker you'll see a new vendor. For three Green Shards you can do another puzzle! This is in fact a [Fifteen Puzzle](https://en.wikipedia.org/wiki/15_puzzle). When you finish, it will look like this:
+ハイストライカーの右手に新しい売り手がいます。*みどりのかけら* 3個で、もう1つパズルに挑戦できます。これは実は[15パズル](https://en.wikipedia.org/wiki/15_puzzle)です。完成すると次のようになります。
 
 !img("turtwig.jpg")
 
-For winning you'll get a **Turtwig!**
+勝つと **ナエトル** が手に入ります。
 
-Talk to the person in the top right guarding the Ferris Wheel to get the *Fighting Memory*.
+右上で観覧車を守っている人物に話しかけると *ファイトメモリ* がもらえます。
 
-## Mountain Range Divin'
+## 山脈をダイビングで巡る {#mountain-range-divin}
 
-Next, I will return to the Celestinine Cascade. If you've yet to put the Crustle we moved to get Salandit back in place, now is a great time to do so.
+次にセレスティナイン滝へ戻ります。ヤトウモリを入手するために動かしたイワパレスをまだ元に戻していなければ、今が絶好の機会です。
 
-Enter Celestinine Mountain by surfing up at the cascade.
+滝でなみのりして上がり、セレスティナイン山へ入ります。
 
-Go left up the stairs at your first opportunity, and make your way across the ice here such that you can surf at the bottom of this area. Go down at the dive spot here.
+行けるようになったらすぐ左の階段を上り、氷を渡ってこのエリアの下部でなみのりできる位置へ向かいます。ここのダイビングスポットで潜ってください。
 
 !enc(389, nil, nil, "Celestinine & Ametrine Mountains Underwater")
 
-Hidden down here, you'll find a hidden *Resist Wing* and a *Red Shard*.
+ここには隠された *ていこうのハネ* と *あかいかけら* があります。
 
-Emerge at the other dive spot. You can find a hidden *PokeSnax* as well as *TM82 Dragon Tail* and an *Exp. Candy XL*. Make your way back to the previous dive spot. Next, go up and right to head to Celestinine Mountain 2F and make your way to the large body of water. Dive down at the crescent-shaped spot.
+もう一方のダイビングスポットから浮上します。隠された *ポケスナック* のほか、*わざマシン82 ドラゴンテール* と *けいけんアメXL* が手に入ります。先ほどのダイビングスポットまで戻ってください。次に上そして右へ進んでセレスティナイン山2階へ向かい、大きな水域まで進みます。三日月形のスポットで潜ります。
 
-To the right, you'll find the *Snowy Mountain Field Readout*. Up and to the right you'll find a *Water Stone*. Emerge at the dive spot in the upper right side. Up here you'll find the *PULSE Readout 2*. Oh dear.
+右手には *雪山フィールドの資料* があります。上そして右へ進むと *みずのいし* が手に入ります。右上のダイビングスポットから浮上してください。ここでは *パルスの資料2* が手に入ります。おやおや。
 
-Make your way back to the crescent dive spot. Head up to reach Ametrine Mountain 2F. Northeast of the iceberg, you'll find a dive spot.
+三日月のダイビングスポットまで戻ります。上へ進むとアメトリン山2階に着きます。氷山の北東にダイビングスポットがあります。
 
-Follow the path, diving up and down as you go. Once you pop up inside the iceberg, you'll find another PULSE!
+潜ったり浮上したりしながら道をたどります。氷山の内部に出ると、またしても PULSE がいます。
 
 !battle(["Redoubt", :AVALUGG, 0], "Icy Field")
 
-With 255 in Def and SpD, a respectable HP stat, Leftovers and Recover, this thing is tanky! It also has a great attack stat and can hit hard with field boosted Avalanche as well as Hammer Arm and Earthquake for coverage. Earthquake also has the side effect of laying spikes on your side. There are a number of strategies that make this doable - it is a 6v1 after all, so it can't shake off stat debuffs. Toxic, Protect, and a healing move on a physically defensive Pokemon alone can pretty much win this fight. Heal Block, Knock Off, or Taunt can help with the recovery problem, Intimidate or other Atk debuffs can help neutralize its power, Counter or Metal Burst can ignore its high Def, etc.
+ぼうぎょととくぼうが255、HPもそれなりに高く、*たべのこし* と *じこさいせい* まで持つ、実に硬い相手です。こうげきも高く、フィールド強化された *ゆきなだれ* に加え、補完として *アームハンマー* と *じしん* で強烈に殴ってきます。*じしん* にはこちら側にまきびしを撒く副次効果もあります。攻略法はいくつもあります。何しろ6対1なので、能力低下を振り払えません。物理受けのポケモン1匹に *どくどく*、*まもる*、回復技を持たせるだけでも、ほぼ勝てます。回復対策には *かいふくふうじ*、*はたきおとす*、*ちょうはつ* が有効ですし、*いかく* などのこうげき低下で火力を削ぐのも、*カウンター* や *メタルバースト* で高いぼうぎょを無視するのも有効です。
 
-With that out of the way, head up the now-open ladder up to Ametrine Mountain 3F. Up here you can get a hidden *Green Shard*, *X Attack*, and *Blue Shard*. On the next floor, you'll find a hidden *Ice Gem*. By going to the bottom left corner then alternating between going right and up/down, make your way to the door on the middle of the right side of the ice puzzle and exit.
+これが済んだら、開通したはしごを上ってアメトリン山3階へ。ここでは隠された *みどりのかけら*、*プラスパワー*、*あおいかけら* が手に入ります。次の階では隠された *こおりのジュエル* が見つかります。左下の隅へ行き、右と上下を交互に繰り返して、氷のパズルの右側中央にある扉まで進んで外へ出てください。
 
-## Ametrine City
+## アメトリンシティ {#ametrine-city}
 
 !enc(439)
 
-Hidden here you'll find a *Purple Shard*, *Resist Wing*, *X Attack*, and *Ether* until you come upon the first fork. To the right along a narrow cliffside, you can find hidden *PokeSnax* and *Blue Shard*. Double back and go left. You'll find a hidden *Purple Shard*, *Potion*, and *Zinc* as you proceed. Talk to Shelly here.
+最初の分岐に着くまでに、隠された *むらさきのかけら*、*ていこうのハネ*、*プラスパワー*、*ピーピーエイド* が手に入ります。右手の狭い崖際では、隠された *ポケスナック* と *あおいかけら* が見つかります。引き返して左へ。進みながら隠された *むらさきのかけら*、*キズぐすり*、*キトサン* を回収します。ここでシェリーに話しかけてください。
 
-Enter the small building nearby. Inside, talk to the old man to begin a quest. You can also talk to his computer to get the *Glitch Field Readout*.
+近くの小さな建物に入ります。中の老人に話しかけるとクエストが始まります。彼のコンピューターに話しかけると *グリッチフィールドの資料* も手に入ります。
 
-Head west at the next fork. You can get a hidden *Ether* around here. In the first house, you can bring a Rotom to the computer to change its form! Enter the tall building next. On the second floor, trade away your Pidove to a kid to get an *Old Amber*. Sweet. Head back outside and go to the left. You'll see a Lucario on a building, who will then run off. Follow it all the way right to the narrow cliffside, and it will run off with its egg.
+次の分岐では西へ進みます。この辺りで隠された *ピーピーエイド* が拾えます。最初の家では、**ロトム** をコンピューターに連れて行くとフォルムを変えられます。次に高い建物に入ります。2階で **マメパト** を子どもに渡すと *ひみつのコハク* がもらえます。ありがたい。外に戻って左へ進むと、建物の上に **ルカリオ** がいて、その後逃げていきます。右の狭い崖際までずっと追いかけると、タマゴを連れて去っていきます。
 
-Back at the main village fork, go down. In the south side of the city you can pick up hidden *Stardust*, *Big Pearl*, *Repel*, *Chewing Gum*, *Green Shard*, *Red Shard*, *X Sp. Atk*, *Full Heal*, *Tiny Mushroom*, and *Antidote*. Make sure you save this (or any) Tiny Mushroom for a quest later.
+村の主要な分岐に戻り、下へ進みます。市の南側では隠された *ほしのすな*、*おおきなしんじゅ*、*むしよけスプレー*、*チューインガム*、*みどりのかけら*、*あかいかけら*、*スペシャルアップ*、*なんでもなおし*、*ちいさなキノコ*、*どくけし* が手に入ります。この *ちいさなキノコ*（どれでも構いません）は後々のクエスト用に必ず取っておいてください。
 
-In the house next to the Pokemon Center, talk to the guy to learn of a glitch in his computer. Talk to the machine for a short battle gauntlet!
+ポケモンセンターの隣の家で男性に話しかけると、彼のコンピューターの不具合について聞けます。機械に話しかけると短い連戦になります。
 
 !battle(["4B 8 4 8", :GLITCH1, 0], "Glitch Field")
 
@@ -74,44 +74,44 @@ In the house next to the Pokemon Center, talk to the guy to learn of a glitch in
 
 !battle(["X C", :GLITCH2, 0], "Glitch Field")
 
-These battles aren't particularly tough, but it is our first real exposure to fighting on the glitch field, so try to get used to its quirks here. For winning, you'll obtain the *Department Store Sticker: Porygon-Z*.
+これらの戦いは特別厳しくはありませんが、*グリッチフィールド* での戦闘に本格的に触れる最初の機会なので、ここで癖に慣れておいてください。勝つと *デパートシール: ポリゴンZ* が手に入ります。
 
-Talk to the people around the ice rink to progress the story. Next, enter the building above the ice rink. You'll get the *Battle Pass - Gravity*. Can't use it quite yet though. Back outside, talk to Shelly. While we're here, navigate through the ice rink and the child obstacles to reach the exit at the bottom. Follow it to get *TM95 Snarl*.
+スケートリンク周辺の人々に話しかけると話が進みます。次にスケートリンクの上の建物へ入ってください。*バトルパス・グラビティ* が手に入りますが、まだ使えません。外に戻ってシェリーに話しかけます。ここにいるついでに、スケートリンクと子どもたちの障害物を抜けて下の出口まで進んでください。その先で *わざマシン95 バークアウト* が手に入ります。
 
-From here, head up to the now-open apartment at the center of town. Go to the top floor and talk to Shelly.
+そこから、開いた町中央の集合住宅へ上がります。最上階へ行ってシェリーに話しかけてください。
 
-**In order to access the exclusive postgame route, you need to refuse Blake all three times.**
+**限定ルートに入るには、ブレイクの要求を3回とも断る必要があります。**
 
-**Relationship Point Choices**:
-- Give Blake the ring right away (+2 Blake, -2 Cal)
-- Refuse Blake once, then give him the ring (+2 Blake, -2 Cal, -1 Shelly)
-- Refuse Blake twice, then give him the ring (+2 Blake, -2 Cal, -1 Shelly, -1 Heather)
-- Refuse Blake all three times. (Anna +1, Shade +1, Cal +2, -2 Shelly, -2 Blake, -1 Heather)
+**好感度の選択肢**:
+- すぐにブレイクへ指輪を渡す (+2 ブレイク、-2 キャル)
+- 1回断ってから指輪を渡す (+2 ブレイク、-2 キャル、-1 シェリー)
+- 2回断ってから指輪を渡す (+2 ブレイク、-2 キャル、-1 シェリー、-1 ヘザー)
+- 3回とも断る (アンナ +1、シェイド +1、キャル +2、-2 シェリー、-2 ブレイク、-1 ヘザー)
 
-If you gave Blake the ring, you'll get *TMX5 Waterfall.* If you didn't, you'll need to head outside to talk to Cal, then come back in to Blake's apartment.
+ブレイクに指輪を渡した場合は *ひでんマシン5 たきのぼり* が手に入ります。渡さなかった場合は、外へ出てキャルに話しかけ、ブレイクの部屋に戻る必要があります。
 
-Now we have to search Blake's room for clues to make a way out.
+ここからは、脱出の手がかりを探してブレイクの部屋を調べることになります。
 
-**Relationship Point Choices**:
-- Check under Blake's bed (-1 Blake)
+**好感度の選択肢**:
+- ブレイクのベッドの下を調べる (-1 ブレイク)
 
-Under the left couch you'll find *3 Coins*, while the chair towards the bottom contains *1 Coin* and the bottom right sofa contains *2 Coins*. In the trash can at the top you'll find the head of a key. The game console contains a Program Disc. The drawer at the bottom contains a key handle, so you can open the cabinet at the top to get a power cable. Use the cable and the disc on the computer to open a prompt for a password. To get the password, search all the books and flowers around the room and talk to Shelly a few times! Input the code once you have it:
+左のソファの下では *3コイン*、下寄りの椅子には *1コイン*、右下のソファには *2コイン* があります。上部のゴミ箱にはカギの頭の部分が入っています。ゲーム機にはプログラムディスクがあります。下部の引き出しにはカギの取っ手があるので、上部の戸棚を開けて電源ケーブルを取れます。ケーブルとディスクをコンピューターに使うと、パスワードの入力画面が出ます。パスワードを知るには、部屋中の本と花をすべて調べ、シェリーに何度か話しかけてください。分かったら入力します。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
     5083164
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the code</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">暗証番号を表示</a>
 </div>
 
-Enter the secret passage and follow the path! On 6F you can find a hidden *Iron*.
+隠し通路に入り、道をたどります。6階では隠された *ブロムヘキシン* が手に入ります。
 
-Head outside and pick up the hidden *Flying Gem*. Talk to Shelly here. Once you have freed Heather, head into the shack and talk to the machine to get the *Flying Memory*!
+外に出て、隠された *ひこうのジュエル* を拾います。ここでシェリーに話しかけてください。ヘザーを解放したら、小屋に入って機械に話しかけると *フライングメモリ* が手に入ります。
 
-**Relationship Point Choices**:
-- Free Heather after refusing to give Blake the ring (+1 Heather)
+**好感度の選択肢**:
+- ブレイクへの指輪の受け渡しを断ったうえでヘザーを解放する (+1 ヘザー)
 
-Make your way back to the main part of Ametrine City and go all the way left. You'll have to defeat a few Meteor Grunts, with either Shelly or Cal as a partner depending on your choices.
+アメトリンシティの本体まで戻り、左端まで進みます。チームメテオのしたっぱを何人か倒すことになります。それまでの選択に応じて、シェリーかキャルのどちらかが同行します。
 
 !partner(["Shelly", :SHELLY, 2])
 
@@ -119,87 +119,87 @@ Make your way back to the main part of Ametrine City and go all the way left. Yo
 
 !dbattle(["Bruno", :MeteorAceM, 0], ["Ray", :MeteorAceM, 0], "Snowy Mountain")
 
-Grab a hidden *Red Shard*, *Dire Hit*, and *Repel* as you climb. You'll see a narrow passage along the top that leads up and left, which you can follow to get a *Full Restore*. Head right.
+登りながら隠された *あかいかけら*、*クリティカット*、*むしよけスプレー* を拾います。上部に、上そして左へ延びる狭い通路が見えます。たどると *かいふくのくすり* が手に入ります。右へ進みましょう。
 
-**Relationship Point Choices**:
-- After saving the police and exposing Corey and giving Blake the ring, watch Cal and Heather's conversation (+1 Heather)
+**好感度の選択肢**:
+- 警官を救出しコーリーの件を暴き、かつブレイクに指輪を渡したうえで、キャルとヘザーの会話を見る (+1 ヘザー)
 
 !dbattle(["Devin", :MeteorAceM, 0], ["Sanchez", :MeteorAceM, 0], "Snowy Mountain")
 
-Beat the grunts and continue. Pick up the hidden *Red-Hots* and *Swift Wing* then fight the next grunts.
+したっぱを倒して進みます。隠された *シナモンキャンディ* と *しゅんぱつのハネ* を拾ってから、次のしたっぱと戦ってください。
 
 !dbattle(["Geoff", :MeteorAceM, 0], ["Audrey", :MeteorAceF, 0], "Snowy Mountain")
 
-**Relationship Point Choices**:
-- Talk to Shelly after she gets tired, after giving Blake the ring (+1 Shelly)
+**好感度の選択肢**:
+- ブレイクに指輪を渡したうえで、疲れたあとのシェリーに話しかける (+1 シェリー)
 
-Continue up the mountain.
+山を登り続けます。
 
 !dbattle(["Demian", :MeteorAceM, 0], ["Antoine", :MeteorAceF, 0], "Snowy Mountain")
 
-You'll see another fork, one path leading you around a narrow cliff to the right that loops you to a lower path. Follow it to get a hidden *Ice Gem* and *TM79 Frost Breath*.
+また分岐が見えます。一方は右の狭い崖を回り込んで下の道へ繋がります。たどると隠された *こおりのジュエル* と *わざマシン79 こおりのいぶき* が手に入ります。
 
-Continue down the main path, picking up the hidden *Ice Heal*, *Telluric Seed*, *Max Repel*, and *Repel* along the way.
+本道を進み続け、道中で隠された *こおりなおし*、*テルリックシード*、*ゴールドスプレー*、*むしよけスプレー* を拾ってください。
 
 !dbattle(["Ricardo", :MeteorAceM, 0], ["Hilda", :MeteorAceF, 0], "Snowy Mountain")
 
-After beating the grunts here, go to the left and follow the path along the narrow cliff. Prepare for a quick fight.
+ここのしたっぱを倒したら左へ進み、狭い崖沿いの道をたどります。短い戦闘に備えてください。
 
 !battle(["Pariah", :LUCARIO, 0], "Snowy Mountain")
 
-It can sweep you if you're not prepared, but you can handle this surely. Once you win, head into the cave to get a *Fairy Memory* and an egg that will hatch into **Riolu**.
+準備不足だと全抜きされかねませんが、まず対処できるはずです。勝ったら洞窟に入ると *フェアリーメモリ* と、**リオル** が孵るタマゴが手に入ります。
 
-Head into the cave entrance back on the main path.
+本道の洞窟の入口へ入ります。
 
-If and only if we didn't give Blake the ring, we will not yet have Waterfall, and will fight the following in this cave: 
+ブレイクに指輪を渡さなかった場合に限り、この時点でまだ *たきのぼり* を持っていないので、この洞窟で次の戦闘が発生します。
 
 !battle(["Aster", :AsterKnight, 4], "Icy Field")
 
-Aster is back, this time completely alone. He has a generally fast and frail physical team, so try to exploit the Icy Field or just overwhelm him with a better singles team.
+アスターの登場で、今回は完全な単独です。全体に速くて打たれ弱い物理編成なので、*氷のフィールド* を利用するか、単純に優れたシングル用の編成で押し切ってください。
 
-Winning will finally net you *TMX5 Waterfall*.
+勝つと、ようやく *ひでんマシン5 たきのぼり* が手に入ります。
 
-### The Battle Atop Ametrine
+### アメトリン山頂の戦い {#the-battle-atop-ametrine}
 
-Inside this cave you can get a hidden *PP Up* and an *Ultra Potion* upstairs.
+この洞窟では隠された *ポイントアップ* と、上階の *すごいキズぐすり* が手に入ります。
 
-Emerge into the outside once more, pick up the *Common Candy* and *Shoal Shell*, then prepare for a fight at the top.
+再び外へ出て、*ふつうのアメ* と *あさせのかいがら* を拾ったら、頂上での戦いに備えてください。
 
 !battle(["Blake", :BLAKE, 0], "Snowy Mountain")
 
-Blake has a pretty tough doubles team that takes advantage of the power of Water and Ice types, but mainly from the physical side. Intimidate Gyarados is good as usual, and paired with Snow Cloak Mamoswine, it can crush your Pokemon that aren't as defensively blessed. In the back he has the speedy combo of Weavile, Starmie, and Slush Rush Sandslash, plus has a bulky Walrein with an extra 1.5x boost to defense thanks to natural hail. On top of that, the field boosts all of his Ice type attacks as well as Rock Slide, plus makes Thunder perfectly accurate. All in all this is a tough fight but not unbeatable!
+ブレイクはみずタイプとこおりタイプの力を活かした、なかなか手強いダブル編成です。ただし主軸は物理側にあります。*いかく* の **ギャラドス** は例によって優秀で、*ゆきがくれ* の **マンムー** と組み合わさると、防御面に恵まれないポケモンは押し潰されます。控えには **マニューラ**、**スターミー**、*ゆきかき* の **サンドパン** という高速の組があり、さらに自然のあられによってぼうぎょが1.5倍になる硬い **トドゼルガ** もいます。加えてフィールドはこおり技すべてと *いわなだれ* を強化し、*かみなり* を必中にします。総じて厳しい戦いですが、勝てない相手ではありません。
 
-There are lots of Snowy Mountain Field interactions you can exploit if you want. For example, you too can harness perfectly accurate Thunder to easily dispatch Gyarados and Starmie. This field may help out Ice types but arguably it can help Flying types even more: Flying attacks are boosted by 1.5x here and Tailwind grants Strong Winds, allowing your Flying types to ignore their Ice weaknesses and granting another 1.5x boost to flying moves! There are also a ton of boosted attacks and abilities on this field - a shoutout to Aurorus, who gets 1.5x for Refrigerate, AND 1.5x for Hyper Voice being boosted, AND 1.5x for Ice type moves being boosted on this field! You can also turn it to mountain with a burning move to cancel out the Ice type bonus on Rock type moves, too! Otherwise, I'll sound like a broken record here - it's a doubles fight, so you'll get mileage out of Wide Guard, Trick Room, Protect, and other similar strategies.
+*雪山* フィールドを利用する手はいくらでもあります。たとえばこちらも必中の *かみなり* を使えば、ギャラドスとスターミーを容易に処理できます。このフィールドはこおりタイプを助けますが、むしろひこうタイプをより強く後押しするとも言えます。ひこう技が1.5倍になり、*おいかぜ* が「あらしのような強い風」を生むため、ひこうタイプはこおり弱点を無視でき、ひこう技にさらに1.5倍が乗ります。強化される技と特性はほかにも大量にあります。特筆すべきは **アマルルガ** で、*フリーズスキン* で1.5倍、*ハイパーボイス* が強化されて1.5倍、そしてこおり技がフィールドで強化されてさらに1.5倍です。ほのお技でフィールドを *山* に変え、いわ技へのこおりタイプ補正を打ち消す手もあります。あとはお決まりの話になりますが、ダブルバトルなので *ワイドガード*、*トリックルーム*、*まもる* といった定石も十分に活きます。
 
-Once you win, Blake will fail!
+勝利すると、ブレイクの企ては潰えます。
 
-**Relationship Point Choices**:
-- If Saphira was abducted earlier, Cal tells you about Terra and Lin in depth (+1 Terra)
+**好感度の選択肢**:
+- 以前サファイラが連れ去られていた場合、キャルからテラとリンについて詳しく聞く (+1 テラ)
 
-Cal will offer you a ride back to the main part of Ametrine.
+キャルがアメトリン本体まで送ると申し出てくれます。
 
-**Relationship Point Choices**:
-- Refuse Cal's offer down the mountain (-1 Cal)
+**好感度の選択肢**:
+- 下山のキャルの申し出を断る (-1 キャル)
 
-Before we leave Ametrine City, enter the small house just south of Blake's apartment and give the girl inside a Floral Charm in exchange for the *Banettite*! Next, head on over to the Pokemart. Inside, a person will give you a *Magmarizer*.
+アメトリンシティを離れる前に、ブレイクの集合住宅のすぐ南の小さな家に入り、中の少女に *はなのおまもり* を渡すと *ジュペッタナイト* がもらえます。次にショップへ向かってください。中の人物が *マグマブースター* をくれます。
 
-Before we proceed with the story, we can head over to Calcenon via the Route 3 shortcut to get the following points:
+ストーリーを進める前に、3番道路の近道でカルセノンへ行くと、次の好感度が得られます。
 
-**Relationship Point Choices**:
-- Talk to Cain in Calcenon after fighting Blake (+1 Cain)
+**好感度の選択肢**:
+- ブレイク戦のあとカルセノンでカインに話しかける (+1 カイン)
 
-**Relationship Point Choices**:
-- Talk to Hardy in Calcenon after fighting Blake (+1 Hardy)
+**好感度の選択肢**:
+- ブレイク戦のあとカルセノンでハーディに話しかける (+1 ハーディ)
 
-You can also head into Charlotte's gym - if you decided to 'cheat' and open the secret door earlier, you can now follow the path to get the *Charizardite X*.
+シャルロットのジムにも入れます。先ほど「ずる」をして隠し扉を開けていた場合、道をたどって *リザードナイトX* を回収できます。
 
-Enter the house to the left of the gym if you refused to give Blake the Ruby Ring. Exit and come back in. Inside the bedroom you can get the *Shiny Charm*! If not, you'll be able to get it later on.
+ブレイクに *ルビーのゆびわ* を渡すのを断っていた場合は、ジムの左の家に入ってください。一度出て入り直します。寝室で *ひかるおまもり* が手に入ります。断っていない場合は、後ほど入手できます。
 
-With that out of the way, return to the Circus.
+これが済んだらサーカスへ戻ります。
 
-## Clown Indra Fights 2
+## ピエロのインドラ戦 2 {#clown-indra-fights-2}
 
-By beating Charlotte, we now have access to stronger teams on Clown Indra. Beating him now awards a random shard as before, but also 5 *Exp. Candy XL*.
+シャルロットを倒したことで、ピエロのインドラがより強い編成を使うようになりました。倒すと、これまでどおりランダムなかけらに加えて *けいけんアメXL* を5個くれます。
 
 !battle(["Indra", :INDRA, 10])
 
@@ -221,13 +221,13 @@ By beating Charlotte, we now have access to stronger teams on Clown Indra. Beati
 
 !battle(["Indra", :INDRA, 19])
 
-## Glitch City
+## グリッチシティ {#glitch-city}
 
-Enter the Big Top and talk to Samson in the back. Terra will go into the computer... it's up to us to follow, so talk to Samson and go in.
+大テントに入り、奥のサムソンに話しかけます。テラがコンピューターの中へ入っていくので……追うのはこちらの役目です。サムソンに話しかけて中へ入りましょう。
 
-Welcome to Glitch City. Note that as we clear parts of this area we will never be able to return, so make sure you do everything you want to do in each before proceeding.
+グリッチシティへようこそ。なお、このエリアは進むごとに前の区画へ二度と戻れなくなるので、各区画でやりたいことは必ず済ませてから進んでください。
 
-Make your way through Kanto Route 23 as normal until Terra destroys the guy! Go down the ladder that appears here.
+カントーの23番道路を普通に進み、テラが男を破壊するところまで行きます。そこに現れるはしごを下りてください。
 
 !enc(445, nil, nil, "Glitch Mt Moon")
 
@@ -239,103 +239,103 @@ Make your way through Kanto Route 23 as normal until Terra destroys the guy! Go 
 
 !battle(["'M", :GLITCH1, 0], "Glitch Field")
 
-In Mt. Moon, pick up 2 *Potions*, an *Escape Rope* and a *Rare Candy*.
+おつきみやまでは *キズぐすり* 2個、*あなぬけのヒモ*、*ふしぎなアメ* を拾えます。
 
-**Relationship Point Choices**:
-- Talk to the sign in the middle that welcomes you to Mt.b00ty! (+1 Terra)
+**好感度の選択肢**:
+- 中央にある「Mt.b00ty へようこそ」の看板に話しかける (+1 テラ)
 
-Exit out the bottom.
+下から出ます。
 
 !enc(447, nil, nil, "Glitch Opal Ward")
 
 !battle(["7g", :GLITCH2, 0], "Glitch Field")
 
-**Relationship Point Choices**:
-- Talk to Timmy (+1 Terra)
+**好感度の選択肢**:
+- ティミーに話しかける (+1 テラ)
 
-**Relationship Point Choices**:
-- Talk to an NPC who tells you about oddishweed (+1 Terra)
+**好感度の選択肢**:
+- ナゾノクサのはっぱについて話すNPCに話しかける (+1 テラ)
 
-Enter the ladder in the glitchy mess on the left to reach Rocket Hideout.
+左のグリッチだらけの場所にあるはしごに入るとロケットだんアジトに着きます。
 
 !battle(["ABBBBBBK", :GLITCH2, 0], "Glitch Field")
 
-Grab the *Super Potion* and make your way through the tile maze - it's the same as in Gen 1 Pokemon.
+*いいキズぐすり* を回収し、タイルの迷路を進みます。第1世代のポケモンと同じ仕掛けです。
 
-**Relationship Point Choices**:
-- Talk to Red in the bottom left corner (+1 Terra)
+**好感度の選択肢**:
+- 左下の隅のレッドに話しかける (+1 テラ)
 
-When you get to the other side, use the elevator and not the stairs. In Lavender Town:
+反対側に着いたら、階段ではなくエレベーターを使います。シオンタウンでは:
 
-**Relationship Point Choices**:
-- Talk to an NPC who talks about M3GAT3RR4 (+1 Terra)
+**好感度の選択肢**:
+- M3GAT3RR4 について話すNPCに話しかける (+1 テラ)
 
-**Relationship Point Choices**:
-- Talk to the grave at the bottom of the area (+1 Terra)
+**好感度の選択肢**:
+- エリア下部の墓に話しかける (+1 テラ)
 
-Enter the house nearby the NPC to continue.
+そのNPCの近くの家に入ると先へ進めます。
 
 !enc(450, nil, nil, "Glitch Byxbysion Wasteland")
 
-**Relationship Point Choices**:
-- Talk to the computer near where we once fought Ace (+1 Terra)
+**好感度の選択肢**:
+- かつてエースと戦った場所の近くのコンピューターに話しかける (+1 テラ)
 
-Head left, hopping down ledges as you go. Enter the door at the top.
+左へ進み、段差を飛び降りながら向かいます。上部の扉に入ってください。
 
-In the Pokemon Mansion, grab the *Iron* to the right then press the switch.
+ポケモンやしきでは、右の *ブロムヘキシン* を拾ってからスイッチを押します。
 
 !battle(["PKMN", :GLITCH3, 0], "Glitch Field")
 
-Down from here, take the stairs on the right.
+そこから下り、右の階段を使います。
 
 !battle(["PC4SH", :GLITCH4, 0], "Glitch Field")
 
-Grab the *Dubious Disc* and hidden *Max Potion*.
+*あやしいパッチ* と隠された *まんたんのくすり* を回収します。
 
-**Relationship Point Choices**:
-- Talk to the diary in the mansion (+1 Terra)
+**好感度の選択肢**:
+- やしきの日記に話しかける (+1 テラ)
 
-Back upstairs, enter the smaller of two gaps to proceed.
+上階に戻り、2つある隙間のうち狭いほうに入ると先へ進めます。
 
 !enc(452, nil, nil, "Glitch Citae Astrae")
 
-These Porygon are always Shiny! Exit at the bottom.
+ここの **ポリゴン** は常に色違いです。下から出ましょう。
 
 !enc(453, nil, nil, "Glitch Victory Road")
 
-Victory Road? This isn't like any Victory Road I've ever seen... Anyways, exit at the top.
+チャンピオンロード? 見たことのあるチャンピオンロードとは似ても似つきませんが……ともあれ上から出ます。
 
 !enc(455, nil, nil, "Glitch Cerulean Cave")
 
-In Cerulean Cave you can get a *Max Repel*. The other ball is a Light Shard, useful because:
+ハナダのどうくつでは *ゴールドスプレー* が手に入ります。もう一方のボールは *光のかけら* で、これが役に立つ理由は次のとおりです。
 
 !battle(["M2", :GLITCH2, 0], "Glitch Field")
 
-Bringing Mewtwo back to where it belongs with Glitch Field - completely broken. Of note is its Psystrike, which gets boosted by the field and Mewtwo's high Special Attack yet hits your Pokemon on their Defense. That said, there are still tons of ways to win these 6v1's as we've learned by now, so pick your favorite one.
+**ミュウツー** を本来の居場所へ帰す一戦ですが、*グリッチフィールド* との組み合わせは完全に壊れています。特に *サイコブレイク* は、フィールドとミュウツーの高いとくこうで強化されながら、こちらのぼうぎょに対して当たります。とはいえ、ここまで学んできたとおり6対1を制する方法は山ほどあるので、お好みのものを選んでください。
 
-Proceed and get ready for the gym battle! Note that you can actually exit back to the circus easily in case you want to do more prep.
+先へ進んでジム戦に備えます。なお、準備を整えたい場合はサーカスへ簡単に戻れます。
 
 !battle(["T3RR4", :TERRA, 0], "Glitch Field")
 
-Time to take on M3G4 T3RR4. As you've probably come to learn by now, the Glitch Field is pretty funky, enough that I'm gonna cover its intricacies with a whole diatribe before we even fight her. There are a few really important things about this field that you need to remember:
+M3G4 T3RR4 との対戦です。もうお察しのとおり *グリッチフィールド* はかなり奇天烈で、彼女と戦う前にその細部を長々と語る必要があるほどです。このフィールドについて、必ず覚えておくべき重要な点がいくつかあります。
 
-1. Type Matchups: all moves of the original physical types will be physical, and all moves of the original special types will be special, so we're back to certain Pokemon being snubbed and others strengthened depending on their movepools. Additionally, Dark, Steel, and Fairy moves will all be retyped as Normal, Dragon always hits neutrally, Bug and Poison hit each other super-effectively, Ice hits Fire neutrally, and Psychic is immune to Ghost. In some cases these changes can be good for you: such as how physical Fighting types now have a stronger option in physical Focus Blast, or how Bug and Poison types are generally better now.
-2. Special attack damage: special attacks will be based on the higher stat of your SpA and SpD... an utter game changer, as now Special walls such as Shuckle and Toxapex are able to hit hard! It also means that raising Special Defense will increase both offensive and defensive capabilities - so moves like Cosmic Power, Charge, and Stockpile can lend themselves to creating a 1 Pokemon army if you set up at the right time.
-3. Speedy crits: the faster Pokemon on the field always gets a bonus to critical hit chance, so with a Razor Claw held you're getting crits for free 50% of the time, and nearly always with moves like Night Slash! Helpful for ignoring those aforementioned defense boosts.
-4. The Synthetic Seed turns a Pokemon into ??? type *with no weaknesses* and raises Defense. There are a few more things you can read about in the field notes like the Psychic move boost, but these are the main things you have to consider.
+1. タイプ相性: 元々物理だったタイプの技はすべて物理に、元々特殊だったタイプの技はすべて特殊になります。つまり技構成次第で、冷遇されるポケモンと強化されるポケモンが再び生まれます。加えて、あく・はがね・フェアリー技はすべてノーマルに再分類され、ドラゴンは常に等倍、むしとどくは互いに抜群、こおりはほのおに等倍、エスパーはゴーストを無効化します。場合によってはこちらに有利にも働きます。物理のかくとうタイプが物理の *きあいだま* という強力な選択肢を得たり、むし・どくタイプが総じて強くなったりといった具合です。
+2. 特殊攻撃のダメージ: 特殊技はとくこうととくぼうの**高いほう**を基準に計算されます。これは根本的な変化で、**ツボツボ** や **ドヒドイデ** といった特殊受けが高火力を出せるようになります。同時に、とくぼうを上げれば攻守が同時に伸びるということでもあるので、*コスモパワー*、*じゅうでん*、*たくわえる* といった技は、頃合いを見て積めば1匹で軍隊を成し得ます。
+3. 素早さによる急所: 場にいるうち素早いほうのポケモンは常に急所率にボーナスを得ます。*するどいツメ* を持たせれば50%で無償の急所、*つじぎり* のような技ならほぼ確実に急所になります。前述の防御上昇を無視するのに有効です。
+4. *シンセティックシード* はポケモンを**弱点のない**「???」タイプに変え、ぼうぎょを上げます。フィールドノートにはエスパー技の強化など他にも読める内容がありますが、押さえるべきは主にこれらです。
 
-So, onto how Terra uses this field. You'll get a good example of the second principle right away in her Nidoking, who will get bulkier and *stronger* by using Amnesia. It can then hit hard with extra-accurate Blizzard, Thunderbolt and Flamethrower for wide special coverage. Hippowdon is bulky and likes to put you to sleep and hit with the ol' reliable Rock / Ground offensive combo, but more importantly, it sets up weather for its buddy Sand Rush Excadrill, who gets boosted critical hit rate as long as it's going first. If that wasn't enough she has a mixed Garchomp who gets to ignore the SpA drops of Draco Meteor by calculating special damage based on its SpD stat, but can also hit hard with physical Bulldoze and Stone Edge. Rounding out her team is Palossand and Quagsire, each with the Synthetic Seed, neutralizing their weaknesses entirely and allowing each to set up with Amnesia and Recovery moves. Quagsire even has Unaware to ruin whatever similar SpD stacking strategy you have going! All in all a tough team that may really mess you up if you aren't using the field to maximum effect for your team.
+では、テラがこのフィールドをどう使うかです。2つ目の原則の好例が先発の **ニドキング** で、*ドわすれ* を使うことで硬くなり**同時に強くなり**ます。そのうえで命中率の上がった *ふぶき*、*10まんボルト*、*かえんほうしゃ* という広い特殊範囲で殴ってきます。**カバルドン** は硬く、こちらを眠らせつつ、いわ／じめんという鉄板の攻撃範囲で攻めてきますが、それ以上に重要なのは相棒である *すなかき* の **ドリュウズ** のために天候を整える点です。ドリュウズは先手を取っている限り急所率が上がります。それだけでは足りないとばかりに、混合型の **ガブリアス** もいます。*りゅうせいぐん* のとくこう低下を、とくぼうを基準にダメージを計算することで無視しつつ、物理の *じならし* と *ストーンエッジ* でも強打してきます。編成を締めくくるのは **シロデスナ** と **ヌオー** で、それぞれ *シンセティックシード* を持って弱点を完全に消し、*ドわすれ* と回復技で積んできます。しかもヌオーは *てんねん* を持つので、こちらが同種のとくぼう積み戦法を取っても台無しにされます。総じて、フィールドを最大限に活かせていなければ手ひどくやられかねない編成です。
 
-The first thing I recommend for this fight is to literally use a list like [this one](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VII)) to find some Pokemon with really high SpD, since they are generally the best for this field. Even better if they have moves like Amnesia, Stockpile, or Cosmic Power - you can use them to sweep once you get past Quagsire, especially if you decide to give them a Synthetic Seed of their own to avoid super-effective damage taken. Ice, Water, Grass, and Psychic moves are generally the best choices offensively here - in particular, 90% accurate Blizzard and hits-defense Psyshock are good choices. It's worth noting that Explosion halves enemy defense, which makes it useful as a last-minute nuke against the ??? type tanks or Garchomp. If have a Pokemon with high speed and a move like Leaf Blade, you can also try to go for 100% critical hit chance, which should allow you a much easier time with the members of her team who stack SpD. You can also consider using Roar, Whirlwind, or Dragon Tail on the ??? type Pokemon, since that will wipe away their special typing and defense boost, allowing you to use Grass moves more easily on them.
+この戦いでまず勧めたいのは、[こういった一覧](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VII))を実際に使って、とくぼうが非常に高いポケモンを探すことです。このフィールドでは総じて最適だからです。*ドわすれ*、*たくわえる*、*コスモパワー* を覚えるならなお良く、ヌオーさえ越えれば全抜きに使えます。抜群を受けないよう、こちらも *シンセティックシード* を持たせるとさらに強力です。攻撃面では、こおり・みず・くさ・エスパー技が総じて最良で、特に命中90%の *ふぶき* と、ぼうぎょに当たる *サイコショック* が有力です。*だいばくはつ* は相手のぼうぎょを半減させるので、「???」タイプの受けやガブリアスへの土壇場の核として使える点も覚えておいてください。素早さが高く *リーフブレード* のような技を持つポケモンがいれば、急所率100%も狙えます。とくぼうを積んでくる面々への対処がずっと楽になります。「???」タイプのポケモンには *ほえる*、*ふきとばし*、*ドラゴンテール* を使う手もあります。特殊なタイプとぼうぎょ上昇を吹き飛ばせるので、くさ技を通しやすくなります。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Oh, and if you are able to make the Sandstorm and Stealth Rocks go away and kill Hippowdon, Shedinja with a seed is literally invincible.
+    ちなみに、すなあらしとステルスロックを消してカバルドンを倒せれば、シードを持たせた **ヌケニン** は文字どおり無敵です。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for one more secret tip :)</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">もうひとつ秘密のコツを表示 :)</a>
 </div>
 
-**Relationship Point Choices**:
-- Defeat Terra (-4 Terra, actually not a choice)
+**好感度の選択肢**:
+- テラを倒す (-4 テラ。実際には選択肢ではありません)
 
-For winning, you'll get the *Gravity Badge* which lets us actually use Waterfall. We also get *TM78 Bulldoze*! We did it.
+勝利すると *グラビティバッジ* が手に入り、ようやく *たきのぼり* が使えるようになります。*わざマシン78 じならし* ももらえます。やりました。

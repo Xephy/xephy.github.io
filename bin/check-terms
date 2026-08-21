@@ -1,0 +1,205 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# 訳した本文の用語が、日本語化パッチ側の訳と食い違っていないか検査する。
+#
+# サイトの表はパッチの辞書から自動生成されるので、本文を人手で訳すと
+# 「表はオパール区、本文はオパールワード」のような不一致が簡単に起きる。
+# 読者から見れば別の場所に見えてしまい、攻略記事としては致命的になる。
+#
+# 検査は英語の原文と訳文を突き合わせて行う。原文にある固有名詞について
+# パッチの訳を引き、それが訳文に現れていなければ指摘する。
+#
+#   bin/check-terms --original <英語版のファイル> <訳文のファイル>
+#   bin/check-terms src/_raw/reborn/main_ep_01.md      # 訳文のみ = 用語の使用状況だけ表示
+
+require 'json'
+require 'yaml'
+require 'optparse'
+
+opts = {}
+OptionParser.new do |o|
+  o.on('--original PATH') { |v| opts[:original] = v }
+  o.on('--glossary') { opts[:glossary] = true }
+  o.on('--unknown')  { opts[:unknown] = true }
+  o.on('--reverse')  { opts[:reverse] = true }
+end.parse!
+
+# 語の途中に埋もれた一致を数えない。"Sticker" が "Stick" に、
+# "Psychic Terrain" が "Psychic" に当たってしまうため。
+# 原文にその語が出ているか。綴りの揺れを吸収する。
+# 原文は Poke Ball / PokeSnax / TwistedSpoon / X-Attack のように書かれる一方、
+# ゲームデータ側は Poké Ball / PokéSnax / Twisted Spoon / X Attack を使う。
+def normalize(text)
+  text.unicode_normalize(:nfkd).gsub(/\p{Mn}/, '').downcase.gsub(/[^a-z0-9]/, '')
+end
+
+def mentions?(haystack, needle)
+  return true if contains_word?(haystack, needle)
+
+  normalize(haystack).include?(normalize(needle))
+end
+
+def contains_word?(haystack, needle)
+  # 複数形も同じ語として数える。"Acid Sprays" が "Acid Spray" に一致しないと、
+  # 短い "Acid" だけが拾われて誤検出になる。
+  # 複数形も同じ語として数える。Berry -> Berries のような不規則変化も含める。
+  # (これを見ないと "Custap Berries" が "Custap Berry" に一致せず誤検出になる)
+  forms = [needle, "#{needle}s"]
+  forms << needle.sub(/y\z/, 'ies') if needle.end_with?('y')
+  forms.any? { |f| haystack.match?(/(?<![A-Za-z])#{Regexp.escape(f)}(?![A-Za-z])/) }
+end
+
+target = ARGV[0] or abort '訳文のファイルを指定してください'
+root = File.expand_path('..', __dir__)
+dict = JSON.parse(File.read(File.join(root, '_ja', 'dict.json')))
+
+# 引く対象。地名・人名・ポケモン・道具・技・とくせいは表にも出るので必ず揃える。
+CATEGORIES = %w[species items moves abilities trainer_names trainer_types fields natures].freeze
+
+# 誤検出の登録簿。理由つきで書かれた語は照合から外す。
+exceptions_path = File.join(root, '_ja', 'term-exceptions.yml')
+exceptions = File.exist?(exceptions_path) ? YAML.safe_load(File.read(exceptions_path)).keys : []
+
+lookup = {}
+CATEGORIES.each do |cat|
+  dict[cat].each { |en, ja| lookup[en] ||= [ja, cat] }
+end
+# マップ名は ID キーなので、原本の英語名と対応づけ直す
+map_src = File.join(root, '..', 'Reborn-19.5.0-windows', 'jp_translation', 'work', 'src', '20_map_names.jsonl')
+if File.exist?(map_src)
+  File.foreach(map_src) do |line|
+    row = JSON.parse(line)
+    next if row['ja'].to_s.empty? || row['ja'] == row['en']
+
+    lookup[row['en']] ||= [row['ja'], 'map_names']
+  end
+end
+
+ja_text = File.read(target)
+
+# 辞書に載っていない固有名詞を洗い出す。
+#
+# dict.json はゲームのデータ定義 (montext / itemtext / 20_map_names …) から作って
+# いるので、NPC のセリフの中にしか出てこない施設名や俗称は含まれない。つまり
+# 通常の照合では素通りしてしまう。ここで候補を出し、bin/find-term で会話を
+# 当たって訳語を決める。
+if opts[:unknown]
+  src = File.read(target).each_line.reject { |l| l.start_with?('!') }.join
+  # 文中の大文字始まりの連なりを固有名詞候補とみなす。文頭は除く。
+  candidates = src.scan(/(?<![.!?]\s)(?<!^)\b((?:[A-Z][a-z']+)(?:\s+(?:of|the|de)?\s*[A-Z][a-z']+)+)/).flatten
+  counts = Hash.new(0)
+  candidates.each { |c| counts[c.strip] += 1 }
+  unknown = counts.reject { |c, _| lookup.key?(c) || exceptions.include?(c) }
+  puts "辞書で引けない固有名詞候補: #{unknown.size} 種"
+  unknown.sort_by { |c, n| [-n, c] }.each { |c, n| puts format('  %-40s %d 回', c, n) }
+  exit
+end
+
+# 逆方向の照合。訳文に書かれているゲーム用語が、原文に存在するか確かめる。
+#
+# 通常の照合は「原文の語が訳文に現れるか」しか見ないため、原文に無い語を
+# 書いてしまっても素通りする。実際 Lax Incense (のんきのおこう) を
+# 「ひかりのこな」と書いた誤りがこれで生まれた。記憶で訳語を書くと起きる事故なので、
+# 書いた側からも検算する。
+if opts[:reverse]
+  abort '--reverse には --original が必要です' unless opts[:original]
+
+  en_text = File.read(opts[:original])
+  ja_text = File.read(target)
+
+  # 訳語 -> 英語 の逆引き。同じ訳語が複数の英語に対応することがあるので配列で持つ。
+  # 人名・トレーナー種別は除く。「ジョン」がダンジョン、「シール」がデパートシールに
+  # 一致するなど、短い名前は他の語に埋もれて誤検出しかしない。
+  # 訳語の取り違えが実害になるのは道具・ポケモン・技・フィールドなので、そこに絞る。
+  target_cats = %w[items species moves abilities fields natures map_names form_names]
+  reverse = Hash.new { |h, k| h[k] = [] }
+  lookup.each do |en, (ja, cat)|
+    next unless target_cats.include?(cat)
+    next if ja.length < 4 # 3文字以下は日本語の中に偶然現れる
+
+    reverse[ja] << [en, cat]
+  end
+
+  present = reverse.keys.select do |ja|
+    ja_text.include?(ja) && reverse[ja].any? { |en, _| mentions?(en_text, en) }
+  end
+
+  suspects = reverse.keys.select do |ja|
+    next false unless ja_text.include?(ja)
+    next false if reverse[ja].any? { |en, _| mentions?(en_text, en) }
+    # 日本語には語境界が無いため、確認済みの長い語の一部に一致しただけのものが
+    # 大量に出る (じしん ⊂ じしんかじょう、シール ⊂ デパートシール など)。除く。
+    next false if present.any? { |ok| ok != ja && ok.include?(ja) }
+
+    true
+  end
+
+  if suspects.empty?
+    puts '訳文に書かれたゲーム用語は、すべて原文に対応する語があります'
+  else
+    puts "原文に見当たらない語が訳文にあります: #{suspects.length} 件"
+    puts '(言い換えや補足で意図的に使った場合も出ます)'
+    suspects.sort.each do |ja|
+      origins = reverse[ja].map { |en, cat| "#{en} [#{cat}]" }.join(', ')
+      puts format('  %-20s <- %s', ja, origins)
+    end
+  end
+  exit
+end
+
+# 訳す前の下準備。原文に出てくる固有名詞とパッチの訳を一覧で出す。
+# 章ごとに手で辞書を引き直すのは非効率なうえ、引き忘れが不一致の温床になる。
+if opts[:glossary]
+  src = File.read(target).each_line.reject { |l| l.start_with?('!') }.join
+  found = lookup.keys.select { |en| en.length > 3 && contains_word?(src, en) }
+                .reject { |en| exceptions.include?(en) }
+                .sort_by { |en| -en.length }
+  kept = []
+  found.each { |en| kept << en unless kept.any? { |longer| longer.include?(en) } }
+  by_cat = kept.group_by { |en| lookup[en][1] }
+  puts "原文に出る用語: #{kept.length} 件"
+  by_cat.sort.each do |cat, list|
+    puts "\n[#{cat}]"
+    list.sort.each { |en| puts format('  %-28s %s', en, lookup[en][0]) }
+  end
+  exit
+end
+
+unless opts[:original]
+  used = lookup.select { |_, (ja, _)| ja.length > 1 && ja_text.include?(ja) }
+  puts "訳文中で確認できたパッチ用語: #{used.size} 件"
+  used.first(20).each { |en, (ja, cat)| puts "  #{ja}  (#{en}, #{cat})" }
+  exit
+end
+
+# ! で始まる行は生成ディレクティブ。中の固有名詞は表を組むときに自動で訳される
+# ので、人手の訳文に現れなくて当然。原文側から外さないと誤検出だらけになる。
+en_text = File.read(opts[:original]).each_line.reject { |l| l.start_with?('!') }.join
+
+# 原文に出ている用語のうち、長いものから照合する ("Lower Peridot Ward" を
+# "Peridot Ward" より先に見ないと、包含関係で誤検出する)。
+candidates = lookup.keys.select { |en| en.length > 3 && contains_word?(en_text, en) }
+                   .sort_by { |en| -en.length }
+
+seen_span = []
+missing = []
+candidates.each do |en|
+  # 既により長い語の一部として数えた範囲は飛ばす
+  next if exceptions.include?(en)
+  next if seen_span.any? { |longer| longer.include?(en) }
+
+  seen_span << en
+  ja, cat = lookup[en]
+  missing << [en, ja, cat, en_text.scan(en).length] unless ja_text.include?(ja)
+end
+
+if missing.empty?
+  puts "OK: 原文に出る用語 #{seen_span.length} 件すべて、パッチの訳が訳文に現れています"
+else
+  puts "訳が一致していない可能性: #{missing.length} 件 / 照合 #{seen_span.length} 件"
+  puts '(原文の出現回数つき。固有名詞を言い換えた場合や、文脈上省いた場合も出ます)'
+  missing.sort_by { |m| -m[3] }.each do |en, ja, cat, count|
+    puts format('  %-30s -> %-20s [%s] 原文 %d 回', en, ja, cat, count)
+  end
+end

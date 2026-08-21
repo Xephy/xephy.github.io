@@ -1,167 +1,167 @@
-# Appendices
+# 付録 {#appendices}
 
-## Pickup Table
+## ものひろいの表 {#pickup-table}
 
 !pickup()
 
-## Wild Held Items
+## 野生ポケモンの持ち物 {#wild-held-items}
 
-Some wild Pokemon have a chance of holding an item when they are encountered in the wild. Note that the probabilities of each item are increased to 60, 20, and 5% respectively when your lead Pokemon has the Compoundeyes ability.
+野生ポケモンの一部は、遭遇時に道具を持っていることがあります。なお、先頭のポケモンが *ふくがん* を持っている場合、各道具の確率はそれぞれ 60%、20%、5% に上がります。
 
 !wildheld()
 
-## Mining Item Probabilities
+## 採掘アイテムの確率 {#mining-item-probabilities}
 
-The following table lists the chances of each item being generated in a mining rock:
+以下の表は、採掘岩から各アイテムが生成される確率を示しています。
 
 !mine()
 
-## Full Password List
+## パスワード全一覧 {#full-password-list}
 
-I don't recommend reading this list until you've played through the game once - the passwords in the readme are usually sufficient for first-time playthroughs, and this list is pretty comprehensive and spoils some gameplay elements. Regardless, I have listed every password and its effect below:
+この一覧は、一度ゲームを最後まで遊ぶまで読まないことをおすすめします。初回プレイには readme に載っているパスワードでたいてい十分ですし、この一覧はかなり網羅的で、ゲーム内容の一部を明かしてしまうからです。ともあれ、すべてのパスワードとその効果を以下に挙げます。
 
-### Monorun Passwords
+### 単タイプ縛りのパスワード {#monorun-passwords}
 
-- **mononormal / normal**: Guarantees Mystery Egg will be Starly. Guarantees Opal event will be Zigzagoon. Guarantees Upper Peridot event will be Stufful. Guarantees Malchous Egg will be Deerling or Girafarig. Guarantees Rhodochrine trade will be Furfrou. Guarantees Lower Peridot event will be Minccino.
-- **monofire / fire**: Guarantees Mystery Egg will be Litwick, Vulpix, or Larvesta. Guarantees Railnet event will be Pansear, regardless of weather.
-- **monowater / water**: Guarantees Mystery Egg will be Azurill, Mareanie, or Staryu. Guarantees Railnet event will be Panpour, regardless of weather. Guarantees Slums Egg will be Ducklett.
-- **monograss / grass**: Guarantees Mystery Egg will be Shroomish or Cottonee. Guarantees Malchous Egg will be Deerling or Skiddo.
-- **monoelectric / electric**: Guarantees Mystery Egg will be Elekid. Guarantees Opal event will be Pachirisu.
-- **monoice / ice**: Guarantees Mystery Egg will be Sneasel or Vulpix-Alola. Replaces Lower Peridot event with Swinub. Guarantees Onyx Egg will be Seel or Spheal. Guarantees Rhodochrine trade will be Cryogonal.
-- **monofighting / fighting**: Guarantees Mystery Egg will be Shroomish. Guarantees Upper Peridot event will be Stufful.
-- **monopoison / poison**: Guarantees Mystery Egg will be Mareanie or Gastly.
-- **monoground / ground**: Guarantees Mystery Egg will be Trapinch. Replaces Lower Peridot event with Swinub. Guarantees Totem event will be Baltoy or Golett.
-- **monoflying / flying**: Guarantees Mystery Egg will be Togepi or Starly. Guarantees Slum Egg will be Ducklett. Guarantees Malchous Egg will be Nincada.
-- **monobug / bug**: Guarantees Mystery Egg will be Larvesta. Guarantees Malchouse Egg will be Nincada.
-- **monopsychic / psychic**: Guarantees Mystery Egg will be Staryu. Guarantees Lower Peridot event will be Espurr. Guarantees Slum Egg will be Bronzor or Drowzee. Guarantees Totem event will be Baltoy. Guarantees Malchous Egg will be Girafarig. Guarantees Rhodochrine trade will be Mime Jr.
-- **monorock / rock**: Guarantees Mystery Egg will be Rockruff. Replaces Lower Peridot Kricketot with Dwebble. Replaces Lower Peridot event with Aron. Guarantees Rhodochrine trade will be Carbink.
-- **monoghost / ghost**: Guarantees Mystery Egg will be Gastly or Litwick. Guarantees Onyx Egg will be Frillish. Guarantees Totem event will be Golett. Guarantees Malchous Egg will be Nincada.
-- **monodragon / dragon**: Guarantees Mystery Egg will be Axew or Trapinch. Guarantees Pyrous pillar will contain Turtonator.
-- **monodark / dark**: Guarantees Mystery Egg will be Sneasel or Pawniard. Guarantees Train Egg will be Cacnea.
-- **monosteel / steel**: Guarantees Mystery Egg will be Pawniard. Replaces Lower Peridot event with Aron. Guarantees Slum Egg will be Bronzor.
-- **monofairy / fairy**: Guarantees Mystery Egg will be Azurill, Togepi, Vulpix-Alola, or Cottonee. Guarantees Upper Peridot event will be Snubbull. Guarantees Rhodochrine trade will be Mime Jr. or Carbink.
+- **mononormal / normal**: 謎のタマゴがムックルに確定。オパールのイベントがジグザグマに確定。上ペリドットのイベントがヌイコグマに確定。マルコウスのタマゴがシキジカかキリンリキに確定。ロドクラインの交換がトリミアンに確定。下ペリドットのイベントがチラーミィに確定。
+- **monofire / fire**: 謎のタマゴがヒトモシ、ロコン、メラルバのいずれかに確定。鉄道網のイベントが、天候に関わらずバオップに確定。
+- **monowater / water**: 謎のタマゴがルリリ、ヒドイデ、ヒトデマンのいずれかに確定。鉄道網のイベントが、天候に関わらずヒヤップに確定。スラムのタマゴがコアルヒーに確定。
+- **monograss / grass**: 謎のタマゴがキノココかモンメンに確定。マルコウスのタマゴがシキジカかメェークルに確定。
+- **monoelectric / electric**: 謎のタマゴがエレキッドに確定。オパールのイベントがパチリスに確定。
+- **monoice / ice**: 謎のタマゴがニューラかロコン（アローラのすがた）に確定。下ペリドットのイベントがウリムーに置き換わる。オニキスのタマゴがパウワウかタマザラシに確定。ロドクラインの交換がフリージオに確定。
+- **monofighting / fighting**: 謎のタマゴがキノココに確定。上ペリドットのイベントがヌイコグマに確定。
+- **monopoison / poison**: 謎のタマゴがヒドイデかゴースに確定。
+- **monoground / ground**: 謎のタマゴがナックラーに確定。下ペリドットのイベントがウリムーに置き換わる。ぬしのイベントがヤジロンかゴビットに確定。
+- **monoflying / flying**: 謎のタマゴがトゲピーかムックルに確定。スラムのタマゴがコアルヒーに確定。マルコウスのタマゴがツチニンに確定。
+- **monobug / bug**: 謎のタマゴがメラルバに確定。マルコウスのタマゴがツチニンに確定。
+- **monopsychic / psychic**: 謎のタマゴがヒトデマンに確定。下ペリドットのイベントがニャスパーに確定。スラムのタマゴがドーミラーかスリープに確定。ぬしのイベントがヤジロンに確定。マルコウスのタマゴがキリンリキに確定。ロドクラインの交換がマネネに確定。
+- **monorock / rock**: 謎のタマゴがイワンコに確定。下ペリドットのコロボーシがイシズマイに置き換わる。下ペリドットのイベントがココドラに置き換わる。ロドクラインの交換がメレシーに確定。
+- **monoghost / ghost**: 謎のタマゴがゴースかヒトモシに確定。オニキスのタマゴがプルリルに確定。ぬしのイベントがゴビットに確定。マルコウスのタマゴがツチニンに確定。
+- **monodragon / dragon**: 謎のタマゴがキバゴかナックラーに確定。パイロスの柱にバクガメスが入る。
+- **monodark / dark**: 謎のタマゴがニューラかコマタナに確定。列車のタマゴがサボネアに確定。
+- **monosteel / steel**: 謎のタマゴがコマタナに確定。下ペリドットのイベントがココドラに置き換わる。スラムのタマゴがドーミラーに確定。
+- **monofairy / fairy**: 謎のタマゴがルリリ、トゲピー、ロコン（アローラのすがた）、モンメンのいずれかに確定。上ペリドットのイベントがブルーに確定。ロドクラインの交換がマネネかメレシーに確定。
 
-### Quality of Life Passwords
+### 快適化のパスワード {#quality-of-life-passwords}
 
-- **easyhms / nohms / hmitems / notmxneeded**: Allows you to use field moves from interactions and the party without Pokemon knowing the moves.
-- **hardcap / rejuvcap / rejuvenation**: Pokemon will not gain exp. once they hit the level cap.
-- **fieldapp / fieldnotes / fieldtexts / allfieldapp**: gives all field effect readouts at the beginning of the game.
-- **earlyincu**: Gives the daycare incubator from the start of the game.
-- **stablweather**: Weather now predictably cycles between the weather conditions.
-- **weathermod**: Allows the player to modify weather at will with the Pokegear.
-- **nopoisondam / antidote**: Disables overworld poison damage.
-- **nodamageroll / norolls / rolls**: Fixes all damage rolls so there is less battle variation.
-- **pinata**: Grinding trainers give out Exp. Candy without needing to battle.
-- **freemegaz**: Allows the player to use the Mega-Z Ring from the beginning of the game.
-- **freeremotepc**: Allows the player to use the Remote PC from the beginning of the game, and not need to use Cell Batteries.
-- **freeexpall**: Allows the player to obtain the Exp. All at the beginning of the game.
-- **freescent / freerainbow**: Allows the player to recieve the Rainbow Scent encounter rate modification item at the beginning of the game.
-- **powerpack**: Allows the player to receive the Power Items for EV Growth at the beginning of the game.
-- **shinycharm / earlyshiny**: Allows the player to obtain the Shiny Charm from the beginning of the game.
-- **mintyfresh / agiftfromace**: Allows the player to get a pack of 5 of each Nature Mint at the beginning of the game.
-- **blindstep**: Turns on accessibility features for players with visual impairments.
-- **freefinder / itemfinder**: Allows the player to get the Itemfinder right at the beginning of the game.
-- **nopartnerai / fullcontrol**: Allows the player to control NPC Tag Team trainers' actions.
+- **easyhms / nohms / hmitems / notmxneeded**: ポケモンがその技を覚えていなくても、調べる操作や手持ちからフィールド技を使えるようになります。
+- **hardcap / rejuvcap / rejuvenation**: レベル上限に達したポケモンは、それ以上経験値を得なくなります。
+- **fieldapp / fieldnotes / fieldtexts / allfieldapp**: ゲーム開始時にすべてのフィールド効果の資料が手に入ります。
+- **earlyincu**: ゲーム開始時から育て屋の孵化装置が使えます。
+- **stablweather**: 天候が予測可能な順序で循環するようになります。
+- **weathermod**: ポケギアで天候を自由に変更できるようになります。
+- **nopoisondam / antidote**: フィールド上での毒ダメージを無効にします。
+- **nodamageroll / norolls / rolls**: ダメージ乱数を固定し、バトルのばらつきを減らします。
+- **pinata**: レベル上げ用トレーナーが、バトルせずに *けいけんアメ* をくれるようになります。
+- **freemegaz**: ゲーム開始時から *メガZリング* を使えるようになります。
+- **freeremotepc**: ゲーム開始時から *リモートPC* を使え、*じゅうでんち* も不要になります。
+- **freeexpall**: ゲーム開始時に *みんなのがくしゅうそうち* が手に入ります。
+- **freescent / freerainbow**: ゲーム開始時に、遭遇率を変える道具 *にじいろのかおり* が手に入ります。
+- **powerpack**: ゲーム開始時に、努力値稼ぎ用のパワー系アイテムが手に入ります。
+- **shinycharm / earlyshiny**: ゲーム開始時から *ひかるおまもり* が手に入ります。
+- **mintyfresh / agiftfromace**: ゲーム開始時に、各性格のミントを5個ずつ詰め合わせでもらえます。
+- **blindstep**: 視覚に障害のあるプレイヤー向けのアクセシビリティ機能を有効にします。
+- **freefinder / itemfinder**: ゲーム開始直後に *ダウジングマシン* が手に入ります。
+- **nopartnerai / fullcontrol**: タッグバトルのNPCトレーナーの行動を自分で操作できるようになります。
 
-### Difficulty Passwords
+### 難易度のパスワード {#difficulty-passwords}
 
-- **litemode / noevs / emptyevs**: All enemy EV's and IV's are set to 0.
-- **nopenny / penniless**: Decreases money gained in trainer battles by 66%.
-- **fullevs / opp252ev / pulse2evs**: All enemy EV's are set to 252.
-- **highstandard / opp31iv**: Makes all opponent trainer Pokemon have 31 in each IV.
-- **noitems**: Prevents the player from using bag items like Potions and X-Attacks from their bag during battles.
-- **nuzlocke / locke / permadeath**: Once one of the player's Pokemon faints, it cannot be revived.
-- **moneybags / richboy / doublemoney**: Doubles the amount of money received by trainers.
-- **fullivs / 31ivs / allivs / mischievous**: Sets all player Pokemon's IV's to 31. *Disables online trading*.
-- **emptyivs / 0ivs / noivs**: Sets all player Pokemon's IV's to 0.
-- **leveloffset / setlevel / flatlevel**: Allows you to provide an integer in [-99, 99] that will be added to all trainer levels in the game.
-- **percentlevel / levelpercent**: Allows you to provide a non-negative integer in [0, 999] that will be multiplied as a percent to all trainer levels in the game.
-- **stopitems**: Prevents enemy trainers from using bag items like Potions and X-Attacks during battle.
-- **stopgains**: Prevents the player's Pokemon from gaining EV's after battle.
-- **noexp / zeroexp / 0exp**: Prevents the player's Pokemon from gaining exp.
-- **expcurse**: EXP is lost instead of gained.
-- **exppercent / expercent**: Allows the player to set a multiplier for gained EXP.
-- **flatevs / 85evs**: All enemy Pokemon will have 85 EV's in every stat.
-- **noevcap / gen2mode**: Allows player Pokemon to reach 252 EV's in every stat. *Disables online battling and trading*.
-- **nobattles / storymode**: Skips all battles in the game.
-- **levelfloor / minlevel / lesslvlgap**: Floors the level of opponent Pokemon to the previous level caps (after the first gym).
+- **litemode / noevs / emptyevs**: 敵の努力値と個体値がすべて0になります。
+- **nopenny / penniless**: トレーナー戦で得られるお金が66%減ります。
+- **fullevs / opp252ev / pulse2evs**: 敵の努力値がすべて252になります。
+- **highstandard / opp31iv**: 相手トレーナーのポケモンの個体値がすべて31になります。
+- **noitems**: バトル中に *キズぐすり* や *プラスパワー* などのバッグの道具を使えなくなります。
+- **nuzlocke / locke / permadeath**: 自分のポケモンが一度瀕死になると、二度と復活できなくなります。
+- **moneybags / richboy / doublemoney**: トレーナーから受け取る賞金が2倍になります。
+- **fullivs / 31ivs / allivs / mischievous**: 自分のポケモンの個体値をすべて31にします。*オンライン交換が無効になります。*
+- **emptyivs / 0ivs / noivs**: 自分のポケモンの個体値をすべて0にします。
+- **leveloffset / setlevel / flatlevel**: [-99, 99] の整数を指定でき、その値がゲーム中の全トレーナーのレベルに加算されます。
+- **percentlevel / levelpercent**: [0, 999] の非負整数を指定でき、その値がパーセントとしてゲーム中の全トレーナーのレベルに掛けられます。
+- **stopitems**: 相手トレーナーがバトル中に *キズぐすり* や *プラスパワー* などのバッグの道具を使えなくなります。
+- **stopgains**: 自分のポケモンがバトル後に努力値を得られなくなります。
+- **noexp / zeroexp / 0exp**: 自分のポケモンが経験値を得られなくなります。
+- **expcurse**: 経験値を得る代わりに失うようになります。
+- **exppercent / expercent**: 獲得経験値の倍率を設定できます。
+- **flatevs / 85evs**: 敵ポケモンの努力値が全能力85になります。
+- **noevcap / gen2mode**: 自分のポケモンが全能力で努力値252に到達できるようになります。*オンライン対戦と交換が無効になります。*
+- **nobattles / storymode**: ゲーム中のすべてのバトルを飛ばします。
+- **levelfloor / minlevel / lesslvlgap**: 相手ポケモンのレベルの下限を、直前のレベル上限まで引き上げます（最初のジム以降）。
 
-### Shenanigan Passwords
+### お遊びのパスワード {#shenanigan-passwords}
 
-- **budewit / budew / deargodwhy**: Budew.
-- **wtfisafont**: Removes fonts. Seriously.
-- **eeveeplease / eeveepls / eevee / bestgamemode**: Allows the player to get Eevee as a starter.
-- **vulpixpls / vulpixplease / vulpix**: Allows the player to get Vulpix as a starter.
-- **justvulpix**: Makes everything Vulpix.
-- **dratiniearly**: Allows the player to get Dratini early, in the Tanzan Depths Steelix chase section. Interact with a random wall tile on the left side of the map. It becomes missable once the player reaches the top of the passageway and talks to Laura/Saphira for the first time.
-- **aevianmissy**: Allows the player to get Aevian Misdreavus early, in the Underroot.
-- **gen5weather**: Weather lasts indefinitely unless replaced or cancelled.
-- **unrealtime**: Time now progresses at an unreal rate, is no longer tied to system time.
-- **monowoke / wokemono**: Allows you to start with Porygon. Guarantees Lower Peridot event will be Espurr. Guarantees Malchous egg will be Nincada. Guarantees Slum Egg will be Drowzee. Guarantees Rhodochrine trade will be Cryogonal or Carbink.
-- **freestarter / mystarter / customstart**: Allows the player to select a custom starter Pokemon of their choice.
-- **inversemode**: All battles have an inverted type chart.
-- **debug / debugmode**: Allows players to modify their Pokemon freely, without the potential to ruin save files. *Disables online battling and trading. It is highly recommended to use this password instead of using the game's debug mode, which is intended for developers and can have unexpected negative consequences.*
-- **nopuzzles / puzzleskip**: Skips overworld, non-battle puzzles.
-- **doubles / colosseum / blueberry**: All trainer fights are set to be Double Battles!
-- **battlebond**: Allows the player to get a Battle Bond Greninja after defeating Titania. 
-- **aiplay / battlepalace / nocontrol**: The game will control your Pokemon's actions using opponent AI.
-- **snagmachine / monosteal / yoink**: Allows the player to steal 1 Pokemon per opponent trainer (no PULSEs). *Disables online trading*.
-- **speedskip**: Speeds up certain battle messages.
-- **basiceggs**: Eggs now again use the classic generic sprite instead of species-specific sprites.
-- **randomizer / random / randomized / randomiser / randomised**: Allows the player to choose randomized settings including trainers, wild Pokemon, TMs, items, and more! *Disables online battling and trading.*
+- **budewit / budew / deargodwhy**: スボミー。
+- **wtfisafont**: フォントを消します。本当にです。
+- **eeveeplease / eeveepls / eevee / bestgamemode**: 最初のパートナーとしてイーブイを選べるようになります。
+- **vulpixpls / vulpixplease / vulpix**: 最初のパートナーとしてロコンを選べるようになります。
+- **justvulpix**: すべてがロコンになります。
+- **dratiniearly**: タンザン深部のハガネール追跡区間で、早期にミニリュウを入手できるようになります。マップ左側の適当な壁タイルを調べてください。通路の最上部に到達してローラ／サファイラに初めて話しかけると、取り逃しになります。
+- **aevianmissy**: アンダールートで、早期にエイヴィアン ムウマを入手できるようになります。
+- **gen5weather**: 天候が、上書きされるか解除されない限り無期限に持続します。
+- **unrealtime**: 時間が現実離れした速さで進み、システム時刻に連動しなくなります。
+- **monowoke / wokemono**: ポリゴンで始められるようになります。下ペリドットのイベントがニャスパーに確定。マルコウスのタマゴがツチニンに確定。スラムのタマゴがスリープに確定。ロドクラインの交換がフリージオかメレシーに確定。
+- **freestarter / mystarter / customstart**: 最初のパートナーを好きなポケモンから選べるようになります。
+- **inversemode**: すべてのバトルでタイプ相性が反転します。
+- **debug / debugmode**: セーブデータを壊す恐れなく、自分のポケモンを自由に編集できるようになります。*オンライン対戦と交換が無効になります。ゲーム本体のデバッグモードは開発者向けで予期せぬ悪影響が出うるため、そちらではなくこのパスワードを使うことを強くおすすめします。*
+- **nopuzzles / puzzleskip**: フィールド上の、バトル以外のパズルを飛ばします。
+- **doubles / colosseum / blueberry**: すべてのトレーナー戦がダブルバトルになります!
+- **battlebond**: ティタニアを倒したあと、*きずなへんげ* のゲッコウガを入手できるようになります。
+- **aiplay / battlepalace / nocontrol**: 相手用のAIが、自分のポケモンの行動を操作します。
+- **snagmachine / monosteal / yoink**: 相手トレーナー1人につき1匹のポケモンを奪えるようになります（PULSEは対象外）。*オンライン交換が無効になります。*
+- **speedskip**: 一部のバトルメッセージを高速化します。
+- **basiceggs**: タマゴの見た目が、種族ごとのものではなく従来の共通スプライトに戻ります。
+- **randomizer / random / randomized / randomiser / randomised**: トレーナー、野生ポケモン、わざマシン、道具などのランダム化設定を選べるようになります! *オンライン対戦と交換が無効になります。*
 
-### Field Effect Passwords
+### フィールド効果のパスワード {#field-effect-passwords}
 
-- **nofield**: All fights occur on no field.
-- **eleterrain**: All fights occur on Electric Terrain.
-- **grassterrain**: All fights occur on Grassy Terrain.
-- **mistterrain**: All fights occur on Misty Terrain.
-- **darkcrystal**: All fights occur on Dark Crystal Cavern.
-- **chessboard**: All fights occur on Chess Board.
-- **bigtop**: All fights occur on Big Top Arena.
-- **burning**: All fights occur on Burning Field.
-- **swamp**: All fights occur on Swamp Field.
-- **rainbow**: All fights occur on Rainbow Field.
-- **corrosive**: All fights occur on Corrosive Field.
-- **corromist**: All fights occur on Corrosive Mist Field.
-- **desert**: All fights occur on Desert Field.
-- **icy**: All fights occur on Icy Field.
-- **rocky**: All fights occur on Rocky Field.
-- **forest**: All fights occur on Forest Field.
-- **superheated**: All fights occur on Super-Heated Field.
-- **factory**: All fights occur on Factory Field.
-- **shortcircuit**: All fights occur on Short-Circuit Field.
-- **wasteland**: All fights occur on Wasteland.
-- **ashenbeach**: All fights occur on Ashen Beach.
-- **watersurface**: All fights occur on Water Surface.
-- **underwater**: All fights occur Underwater.
-- **cave**: All fights occur in Caves.
-- **glitch**: All fights occur on Glitch Field.
-- **crystal**: All fights occur on Crystal Cavern.
-- **murkwater**: All fights occur on Murkwater Surface.
-- **mountain**: All fights occur on Mountain.
-- **snowy**: All fights occur on Snowy Mountain.
-- **holy**: All fights occur on Holy Field.
-- **mirror**: All fights occur on Mirror Arena.
-- **fairytale**: All fights occur on Fairy Tale Field.
-- **dragonsden**: All fights occur on Dragon's Den.
-- **flowergarden**: All fights occur on Flower Garden Field.
-- **starlight**: All fights occur on Starlight Arena.
-- **newworld**: All fights occur on New World.
-- **inverse**: All fights occur on Inverse Field.
-- **psychterrain**: All fights occur on Psychic Terrain.
+- **nofield**: すべてのバトルがフィールドなしで行われます。
+- **eleterrain**: すべてのバトルがエレキフィールドで行われます。
+- **grassterrain**: すべてのバトルがグラスフィールドで行われます。
+- **mistterrain**: すべてのバトルがミストフィールドで行われます。
+- **darkcrystal**: すべてのバトルが暗黒クリスタルのどうくつで行われます。
+- **chessboard**: すべてのバトルがチェスボードで行われます。
+- **bigtop**: すべてのバトルがサーカステントで行われます。
+- **burning**: すべてのバトルが燃えるフィールドで行われます。
+- **swamp**: すべてのバトルが沼地フィールドで行われます。
+- **rainbow**: すべてのバトルが虹のフィールドで行われます。
+- **corrosive**: すべてのバトルが腐食フィールドで行われます。
+- **corromist**: すべてのバトルが腐食ミストフィールドで行われます。
+- **desert**: すべてのバトルが砂漠フィールドで行われます。
+- **icy**: すべてのバトルが氷のフィールドで行われます。
+- **rocky**: すべてのバトルが岩場フィールドで行われます。
+- **forest**: すべてのバトルが森林フィールドで行われます。
+- **superheated**: すべてのバトルが超高温フィールドで行われます。
+- **factory**: すべてのバトルが工場フィールドで行われます。
+- **shortcircuit**: すべてのバトルがショートフィールドで行われます。
+- **wasteland**: すべてのバトルが荒野で行われます。
+- **ashenbeach**: すべてのバトルが灰の浜辺で行われます。
+- **watersurface**: すべてのバトルが水面で行われます。
+- **underwater**: すべてのバトルが水中で行われます。
+- **cave**: すべてのバトルがどうくつで行われます。
+- **glitch**: すべてのバトルがグリッチフィールドで行われます。
+- **crystal**: すべてのバトルがクリスタルのどうくつで行われます。
+- **murkwater**: すべてのバトルが濁った水面で行われます。
+- **mountain**: すべてのバトルが山で行われます。
+- **snowy**: すべてのバトルが雪山で行われます。
+- **holy**: すべてのバトルが聖なるフィールドで行われます。
+- **mirror**: すべてのバトルがミラーアリーナで行われます。
+- **fairytale**: すべてのバトルがおとぎ話フィールドで行われます。
+- **dragonsden**: すべてのバトルがりゅうのあなで行われます。
+- **flowergarden**: すべてのバトルが花畑フィールドで行われます。
+- **starlight**: すべてのバトルが星空アリーナで行われます。
+- **newworld**: すべてのバトルが新世界で行われます。
+- **inverse**: すべてのバトルが反転フィールドで行われます。
+- **psychterrain**: すべてのバトルがサイコフィールドで行われます。
 
-You can use any number of these passwords to have the game pull from your list - for example, using the watersurface password and newworld password will result in every battle taking place at one of the two fields at random. You can also use the following passwords to pull from pre-determined groups:
+これらのパスワードは何個でも組み合わせて使え、ゲームはその一覧から選びます。たとえば watersurface と newworld を併用すると、毎回のバトルがこの2つのフィールドのいずれかでランダムに行われます。次のパスワードで、あらかじめ決められた組から選ばせることもできます。
 
-- **randfields**: Selects any field at random for each fight.
-- **elemental**: Selects from Electric Terrain, Grassy Terrain, Misty Terrain, Corrosive Mist Field, Burning Field, Icy Field, Water Surface, Underwater, Murkwater Surface, and Dragon's Den at random for each fight.
-- **magical**: Selects from Dark Crystal Cave, Rainbow Field, Crystal Cavern, Holy Field, Fairy Tale Field, Starlight Arena, New World, Inverse Field, and Psychic Terrain at random for each fight.
-- **Synthetic**: Selects from Chess Board, Big Top Arena, Factory Field, Short-Circuit Field, Glitch Field, Mirror Arena, and Flower Garden Field at random for each fight.
-- **telluric**: Selects from Swamp Field, Corrosive Field, Desert Field, Rocky Field, Forest Field, Super-Heated Field, Wasteland, Ashen Beach, Cave, Mountain, and Snowy Mountain at random for each fight.
+- **randfields**: 毎回のバトルで、すべてのフィールドから無作為に選びます。
+- **elemental**: 毎回のバトルで、エレキフィールド、グラスフィールド、ミストフィールド、腐食ミストフィールド、燃えるフィールド、氷のフィールド、水面、水中、濁った水面、りゅうのあなから無作為に選びます。
+- **magical**: 毎回のバトルで、暗黒クリスタルのどうくつ、虹のフィールド、クリスタルのどうくつ、聖なるフィールド、おとぎ話フィールド、星空アリーナ、新世界、反転フィールド、サイコフィールドから無作為に選びます。
+- **Synthetic**: 毎回のバトルで、チェスボード、サーカステント、工場フィールド、ショートフィールド、グリッチフィールド、ミラーアリーナ、花畑フィールドから無作為に選びます。
+- **telluric**: 毎回のバトルで、沼地フィールド、腐食フィールド、砂漠フィールド、岩場フィールド、森林フィールド、超高温フィールド、荒野、灰の浜辺、どうくつ、山、雪山から無作為に選びます。
 
-### Bulk Passwords
+### まとめパスワード {#bulk-passwords}
 
-The bulk passwords essentially are packs of the above listed passwords - using one will activate all of the contained passwords. Keep in mind that if a pack contains a password that disables online then the bulk password will too.
+まとめパスワードは、要するに上記のパスワードを詰め合わせたもので、1つ使うと含まれるパスワードがすべて有効になります。なお、詰め合わせにオンラインを無効化するパスワードが含まれる場合、そのまとめパスワードもオンラインを無効化します。
 
 - **casspack / goodtaste**: noitems, fullivs, hardcap, easyhms, norolls
 - **easymode**: fullivs, moneybags, litemode, stopitems

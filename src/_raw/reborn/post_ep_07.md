@@ -1,445 +1,445 @@
-# Postgame Episode 7: Up, Down, n' All Around
+# ポストゲーム エピソード7: 上へ下へ、そこらじゅう {#postgame-episode-7}
 
-The level cap now sits at Lv. 135.
+レベル上限は135になりました。
 
-## Rhodochrine Tree (Part 1)
+## ロドクラインの樹 (前編) {#rhodochrine-tree-part-1}
 
-Accept Nyu's quest in the Nightclub, then fly over to Beryl Ward. Enter Rhodochrine Jungle and make your way to the large tree at the top. Talk to Lumi here and agree to fetch the food from the Spyce. Make your way to Spyce in the North Obsidia Ward, get the 6 *Bubble Teas* from the lady behind the counter, then return to the jungle.
+ナイトクラブでニュウのクエストを受け、ベリル区へ飛びます。ロドクラインジャングルに入り、上部の大きな樹まで進みます。ここのルミに話しかけ、ザ・スパイスから食べ物を取ってくることに同意します。北オブシディア区のザ・スパイスへ向かい、カウンターの奥の女性から *タピオカティー* 6個を受け取ったら、ジャングルへ戻ってください。
 
-Talk to Lumi outside once more, and you'll see a New World Door has opened. Great. Before we enter it though, head down to the Underroot. You'll find Shelly along with all of the following:
+外でルミにもう一度話しかけると、新世界の扉が開いているのが見えます。よろしい。ただし入る前に、アンダールートまで下りましょう。シェリーがいて、さらに次のすべてが見つかります。
 
-**ZCell 47: The Underroot**
+**Zセル47: アンダールート**
 
 !img("zcell_47.jpg")
 
-**ZCell 48: The Underroot**
+**Zセル48: アンダールート**
 
 !img("zcell_48.jpg")
 
-**ZCell 49: The Underroot**
+**Zセル49: アンダールート**
 
 !img("zcell_49.jpg")
 
-**ZCell 50: The Underroot**
+**Zセル50: アンダールート**
 
 !img("zcell_50.jpg")
 
-**ZCell 51: The Underroot**
+**Zセル51: アンダールート**
 
 !img("zcell_51.jpg")
 
-**ZCell 52: The Underroot**
+**Zセル52: アンダールート**
 
 !img("zcell_52.jpg")
 
-**ZCell 53: The Underroot**
+**Zセル53: アンダールート**
 
 !img("zcell_53.jpg")
 
-**ZCell 54: The Underroot**
+**Zセル54: アンダールート**
 
 !img("zcell_54.jpg")
 
-**ZCell 55: The Underroot**
+**Zセル55: アンダールート**
 
 !img("zcell_55.jpg")
 
-**ZCell 56: The Underroot**
+**Zセル56: アンダールート**
 
 !img("zcell_56.jpg")
 
-With those all taken care of, return to the Rhodochrine Tree and enter the New World Door.
+これらを片付けたら、ロドクラインの樹へ戻り、新世界の扉に入ります。
 
-The tree is another puzzle! Essentially, the goal will be to 'balance' the Anomalous (light) and Umbral (dark) energy in each room by knocking out Pokemon of each kind.
+この樹もまたパズルです! 要は、各部屋でアノマリー（光）とかげ（闇）のエネルギーを、それぞれのポケモンを倒すことで「釣り合わせる」のが目的です。
 
-In the first room, knock out one of the Espeon to proceed.
+最初の部屋では、エーフィを1匹倒すと先へ進めます。
 
-Essentially, each species has a prime number 'value' among the first 8 primes - adding up the values for Anomalous and Umbral Pokemon in each room yet to be knocked out will tell you the current score - make them equal to continue. Note that you can't simply knock all of the Pokemon out - there must be at least one of each type still around.
+要するに、各種族には最初の8つの素数の中から「値」が割り振られており、各部屋でまだ倒していないアノマリー側とかげ側のポケモンの値を合計すると、現在の得点が分かります。これを等しくすれば先へ進めます。なお、単純に全部倒せばよいわけではなく、どちらの側にも最低1匹は残っている必要があります。
 
-In the second room, you'll be told Chingling is 2, Espeon is 3, and Mightyena is 5. By extension from the first floor, you'll be able to conclude Umbreon is 3.
-
-<div class="spoilerDiv">
-  <div class="spoilerText" style="display:none">
-    Since Mightyena is the only Umbral Pokemon it must be kept alive: bringing the Anomalous total to 5 requires knocking out one Chingling.
-  </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to this floor</a>
-</div>
-
-In the third room, the Anomalous total is 7, and the Umbral total is 10. Eve will tell us Togetic is 7 before having to flee, so Noel will join us as we proceed.
+2つ目の部屋では、リーシャンが2、エーフィが3、グラエナが5だと教えられます。1階から推し量ると、ブラッキーが3だと結論できます。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    To bring the Umbral total down to 7, knocking out Umbreon is the way. Note that this implies that Mismagius is worth 7.
+    グラエナが唯一のかげのポケモンなので生かしておく必要があります。アノマリー側の合計を5にするには、リーシャンを1匹倒せばよいわけです。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to this floor</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">この階の解答を表示</a>
 </div>
 
-In the fourth room, the totals are 12 and 14, respectively.  There are two Mismagius, a Togetic, a Cleffa, and an Espeon in this room.
+3つ目の部屋では、アノマリー側の合計が7、かげ側が10です。イヴがトゲチックは7だと教えてくれてから逃げ出すので、代わりにノエルが同行してくれます。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    The solution: Since we know the values of Togetic and Espeon, we can conclude Cleffa is 2. We know that we will need to knock out at least one Umbral Pokemon but not both... so knocking out one Mismagius leads to an Umbral total of 7. To the Anomalous total down from 12, then, we'll need to knock out Cleffa and Espeon.
+    かげ側の合計を7に下げるには、ブラッキーを倒すのが正解です。なお、これはムウマージの値が7であることも意味します。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to this floor</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">この階の解答を表示</a>
 </div>
 
-The fifth room has totals of 10 and 9, respectively. There are three Umbreon here, as well as one each of Flabebe, Floette, and Florges. We aren't directly given the values of any of these three, however.
+4つ目の部屋では、合計はそれぞれ12と14です。この部屋にはムウマージが2匹、トゲチック、ピィ、エーフィが1匹ずついます。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Since the three Anomalous Pokemon have prime values, the only way to make 10 from three primes is by adding 2, 3, and 5. The game doesn't really tell you this until after this puzzle, but within evolutionary lines the further along species has the higher values - so Flabebe is 2, Floette is 3, and Florges is 5. With that information, we know we will need to knock out either one or two Umbreons to make an Umbral total of 3 or 6... but the latter cannot be obtained by any sum of 2, 3, and 5. So, knock out two Umbreon, Flabebe, and Florges to reach a balance of 3.
+    解答: トゲチックとエーフィの値は分かっているので、ピィは2だと結論できます。かげのポケモンを少なくとも1匹は倒す必要がありますが、両方は倒せません。したがってムウマージを1匹倒すと、かげ側の合計は7になります。ではアノマリー側を12から下げるには、ピィとエーフィを倒す必要があります。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to this floor</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">この階の解答を表示</a>
 </div>
 
-The sixth room has totals of 30 and 26. On the Anomalous side, you'll notice 2 Floette, 1 Florges, 1 Chingling, 2 Espeon, and 1 Granbull. On the Umbral side, you'll notice 2 Zweilous.
+5つ目の部屋の合計はそれぞれ10と9です。ここにはブラッキーが3匹、そしてフラベベ、フラエッテ、フラージェスが1匹ずついます。ただし、この3匹の値は直接は教えてもらえません。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    Since we have 2 Zweilous and an Umbral total of 26, we can conclude Zweilous is 13. By subtracting one 2, four 3's, and one 5 from 30, we can conclude that Granbull is 11. Since we can't simply remove 4 from the Anomalous side to reach 26, we'll need to knock out one Zweilous, making the target 13. As for the Anomalous side, knocking out Granbull and both Floettes will reach the balance of 13.
+    アノマリー側の3匹はいずれも素数の値を持つので、3つの素数の和で10を作るには 2、3、5 を足す以外にありません。このパズルの後まではっきり示されませんが、進化系統の中では進化が進むほど値が高くなります。つまりフラベベが2、フラエッテが3、フラージェスが5です。これが分かれば、かげ側の合計を3か6にするためにブラッキーを1匹か2匹倒す必要があると分かりますが、6は 2、3、5 のどの和でも作れません。したがってブラッキーを2匹、そしてフラベベとフラージェスを倒し、合計3で釣り合わせます。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to this floor</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">この階の解答を表示</a>
 </div>
 
-The seventh room has 24 and 21. There is 1 Spritzee and 2 Kadabra in here, as well as 1 Houndour, 1 Murkrow, and 1 Zweilous.
+6つ目の部屋の合計は30と26です。アノマリー側にはフラエッテ2匹、フラージェス1匹、リーシャン1匹、エーフィ2匹、グランブル1匹が、かげ側にはジヘッド2匹がいます。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    First, we can figure out the values. Note that the Anomalous total is even, and the 2 Kadabra together will always have an even total. This implies Spritzee is even, since it is a prime, Spritzee is 2. We can thus conclude Kadabra is 11. On the other side, Murkrow and Houndour together add up to 8, meaning one of them must be 3 and the other 5. Shelving this for now, we now look at all the possible states of the Anomalous side. Keeping 2/3 alive would result in a total of either 13 or 22, while keeping only 1/3 alive would result in a total of either 2 or 11. None of the Umbral Pokemon are valued 2 or 11, and the Dark total begins at 21, meaning 13 must be the target value - knocking out one Kadabra will get us there on the Anomalous side. Luckily for us, Zweilous is valued 13, so we can knock out Houndour and Murkrow without being sure of their values to finish this room.
+    ジヘッドが2匹でかげ側の合計が26なので、ジヘッドは13だと結論できます。30から2を1つ、3を4つ、5を1つ引くと、グランブルは11だと分かります。アノマリー側から単純に4を引いて26にすることはできないので、ジヘッドを1匹倒して目標値を13にする必要があります。アノマリー側は、グランブルとフラエッテ2匹を倒せば13で釣り合います。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to this floor</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">この階の解答を表示</a>
 </div>
 
-The eighth room has 18 and 24. The Anomalous Pokemon are 1 Granbull and 1 Togetic, and the Umbral Pokemon are 1 Houndour, 1 Drifloon, and 1 Mandibuzz.
+7つ目の部屋は24と21です。ここにはシュシュプ1匹とユンゲラー2匹、そしてデルビル1匹、ヤミカラス1匹、ジヘッド1匹がいます。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    First, we will try to figure out what we can learn about the values of the Umbral Pokemon. If Houndour is 3, then Drifloon and Mandibuzz will total 21. Two odd numbers can't sum to an odd number, so one of them must be 2, meaning the other would be 19. If instead Houndour is 5, then Drifloon and Mandibuzz would total 19; by similar logic, would then be 2 and 17. We know that we will need to target either 7 or 11 thanks to the Anomalous side only having 2 Pokemon. So, how can we total 7 or 11 in the first case, where the Umbral values are 2, 3, 19? Well, we can't - one knockout would mean a total 5, 21, or 22. In the second case, however, the Umbral values being 2, 5, 17 would mean we simply have to knock out the 17 - since a solution exists, we can conclude Houndour is 5. We still aren't told whether Drifloon is 2 or 17, but later puzzles reveal that we can assume all evolutionary line members should be assumed to exist, even if they aren't present - meaning we can assume Vullaby exists, so Mandibuzz can't be the lowest prime in 2. So Drifloon is 2 and Mandibuzz is 17, and knocking out Mandibuzz and Granbull is all you need to do.
+    まず値を割り出します。アノマリー側の合計が偶数で、ユンゲラー2匹の合計は必ず偶数になります。つまりシュシュプも偶数であり、素数なのでシュシュプは2です。したがってユンゲラーは11だと分かります。もう一方では、ヤミカラスとデルビルの合計が8なので、片方が3、もう片方が5です。これはいったん置いておき、アノマリー側の取り得る状態をすべて見てみます。3匹中2匹を残すと合計は13か22、1匹だけ残すと2か11になります。かげのポケモンに値2や11のものはおらず、かげ側は21から始まるので、目標値は13でなければなりません。アノマリー側はユンゲラーを1匹倒せばそこに届きます。幸い、ジヘッドの値は13なので、デルビルとヤミカラスの値を確定させないまま両方倒せば、この部屋は完了です。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to this floor</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">この階の解答を表示</a>
 </div>
 
-The ninth room has 20 and 31. The Anomalous Pokemon are 1 Clefable and 1 Chimecho, while the Umbral Pokemon are 1 Poochyena, 1 Eevee, 1 Vullaby, 3 Deino, 1 Hydreigon, and 1 Misdreavus. We are also finally actually told that evolutions increase in value.
+8つ目の部屋は18と24です。アノマリー側はグランブル1匹とトゲチック1匹、かげ側はデルビル1匹、フワンテ1匹、バルジーナ1匹です。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    This one is thankfully easier than it seems - since we know Zweilous is 13, Hydreigon must thus be 17 or 19. There are 7 non Hydreigon Umbral Pokemon. If Hydreigon is 19, then the remaining value is 12... which is not enough for the remaning 7 that all have a minimum of 2. It IS enough when Hydreigon is 17, however, meaning all of the other Umbral Pokemon are 2. So, that's nice. As for the Anomalous two, we know they total 20, hence must be 7 and 13 or 3 and 17. We can't generate 7 or 13 on the Umbral Side, so Chimecho and Clefable are 3 and 17. Since Cleffa is 2, we can infer the existence of Clefairy who must be at least 3. So Clefable isn't 3 and must thus be 17! Knocking out everything except Hydreigon and Clefable does the trick.
+    まず、かげ側の値について何が分かるかを調べます。デルビルが3なら、フワンテとバルジーナの合計は21です。奇数2つの和は奇数になりえないので、どちらかが2、つまりもう片方は19になります。逆にデルビルが5なら、フワンテとバルジーナの合計は19で、同じ理屈で2と17になります。アノマリー側は2匹しかいないので、目標値は7か11のいずれかだと分かります。では、かげ側の値が 2、3、19 の場合に7や11を作れるでしょうか。作れません。1匹倒しても合計は5、21、22のいずれかにしかなりません。一方2つ目の場合、かげ側が 2、5、17 なら17を倒すだけで済みます。解が存在するので、デルビルは5だと結論できます。フワンテが2か17かはまだ示されませんが、後のパズルから、その場にいなくても進化系統の全メンバーが存在すると仮定してよいと分かります。つまりバルチャイが存在すると仮定でき、バルジーナが最小の素数2であるはずがありません。したがってフワンテが2、バルジーナが17であり、バルジーナとグランブルを倒せば完了です。
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to this floor</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">この階の解答を表示</a>
 </div>
 
-With that, we finally reach the top of the tree!
+9つ目の部屋は20と31です。アノマリー側はピクシー1匹とチリーン1匹、かげ側はポチエナ1匹、イーブイ1匹、バルチャイ1匹、モノズ3匹、サザンドラ1匹、ムウマ1匹です。ここでようやく、進化すると値が上がることが明示されます。
+
+<div class="spoilerDiv">
+  <div class="spoilerText" style="display:none">
+    これはありがたいことに、見た目より簡単です。ジヘッドが13と分かっているので、サザンドラは17か19のはずです。サザンドラ以外のかげのポケモンは7匹います。サザンドラが19なら残りは12ですが、最低でも2の値を持つ7匹には足りません。サザンドラが17なら足りるので、他のかげのポケモンはすべて2だと分かります。好都合ですね。アノマリー側の2匹は合計20なので、7と13か、3と17のどちらかです。かげ側では7も13も作れないので、チリーンとピクシーは3と17です。ピィが2なので、少なくとも3であるピッピの存在も推測できます。つまりピクシーは3ではなく17でなければなりません! サザンドラとピクシー以外をすべて倒せば完了です。
+  </div>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">この階の解答を表示</a>
+</div>
+
+これでついに樹の頂上に到達します!
 
 !enc(889)
 
-Go to the left all the way to what appears like a dead end, and you'll be able to get:
+左へずっと進んで行き止まりに見える場所まで行くと、次が手に入ります。
 
-**ZCell 57: Rhodochrine Tree**
+**Zセル57: ロドクラインの樹**
 
 !img("zcell_57.jpg")
 
-You can also surf across the water on the right side of the area to reach:
+エリア右側の水をなみのりで渡ると、次にもたどり着けます。
 
-**ZCell 58: Rhodochrine Tree**
+**Zセル58: ロドクラインの樹**
 
 !img("zcell_58.jpg")
 
-Talk to Noel once more and you'll be taken to the base of the tree. That's it for this quest right now: we'll finish it up later. Return to the Nightclub!
+ノエルにもう一度話しかけると、樹の根元まで連れていってもらえます。このクエストで今できるのは以上で、続きは後ほど片付けます。ナイトクラブへ戻りましょう!
 
-## Mirage Tower Mirages
+## しんきろうの塔の蜃気楼 {#mirage-tower-mirages}
 
-Accept the quest from Aster, then fly over to Train Town in the desert. Take the portal to the Mirage Tower.
+アスターからクエストを受け、砂漠のトレインタウンへ飛びます。ポータルでしんきろうの塔へ向かいます。
 
-Talk to Laura in the first room. We'll get a choice on going higher in the tower to find Charlotte and lower to find Saphira - we'll be able to do both, though. I'll start by going up. Follow the path through the Mirage Tower the same way as before. When you reach the room that contained Honedge, enter the New World Door.
+最初の部屋でローラに話しかけます。塔の上へ行ってシャルロットを探すか、下へ行ってサファイラを探すかを選べますが、どちらも回れます。ここではまず上から始めます。以前と同じようにしんきろうの塔を進んでください。ヒトツキがいた部屋に着いたら、新世界の扉に入ります。
 
-In this section, more of the same kind of puzzle we did previously in the tower. Only now you can touch the puzzles on both sides. Here I will say the left puzzle is "P1" and the right puzzle is "P2" for notation.
+この区画では、以前この塔でやったのと同種のパズルが続きます。ただし今回は両側のパズルに触れられます。ここでは左のパズルを「P1」、右のパズルを「P2」と表記します。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    P1: U L3 P2: U2 R3 U2 D2 L5 R2 D2, P1: R D
+    P1: 上 左3 P2: 上2 右3 上2 下2 左5 右2 下2、P1: 右 下
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to the first puzzle</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">1つ目のパズルの解答を表示</a>
 </div>
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    P1: D3 R D R3 U L U L3, P2: U4 R5, P1: L2, P2: D2
+    P1: 下3 右 下 右3 上 左 上 左3、P2: 上4 右5、P1: 左2、P2: 下2
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to the second puzzle</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">2つ目のパズルの解答を表示</a>
 </div>
 
-The third puzzle has a secret. See if you can figure it out.
+3つ目のパズルには仕掛けがあります。自力で気づけるか試してみてください。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    The secret is that you can take pieces out of the inscribed squares... anywhere on the map. Anyways, one possible solution: <br/>
-    P2: R2, P1: L2, P2: U2, P1: L2 U2, P2: L2 U R2 U2 L D8 R5 U4 L2 D, P1: D3 R6 L4 D2 L2, P2: D2
+    仕掛けは、刻まれた枠の外へ、マップのどこへでも駒を出せることです。ともあれ、解答の一例です。<br/>
+    P2: 右2、P1: 左2、P2: 上2、P1: 左2 上2、P2: 左2 上 右2 上2 左 下8 右5 上4 左2 下、P1: 下3 右6 左4 下2 左2、P2: 下2
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to the third puzzle</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">3つ目のパズルの解答を表示</a>
 </div>
 
-In the next room, you can talk to Charlotte on Lin Route:
+次の部屋では、リンルートの場合シャルロットに話しかけられます。
 
-**Relationship Point Choices**:
-- On Lin Route, Tell Charlotte her line was badass (+1 Charlotte)
+**好感度の選択肢**:
+- リンルートで、シャルロットに今の台詞は格好良かったと伝える (+1 シャルロット)
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    P1: D2 L2, P2: U2, P1: R2, P2: D2, P1: U
+    P1: 下2 左2、P2: 上2、P1: 右2、P2: 下2、P1: 上
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to the fourth puzzle</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">4つ目のパズルの解答を表示</a>
 </div>
 
-Once you finish the puzzle, you can grab:
+パズルを終えると、次が回収できます。
 
-**ZCell 59: Mirage Tower?**
+**Zセル59: しんきろうの塔?**
 
 !img("zcell_59.jpg")
 
-You can also get the *Solganium-Z* here. Proceed to the next room.
+ここでは *ソルガレオZ* も手に入ります。次の部屋へ進みます。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
-    P1: D3 R D R3 U L4, P2: U4 R3, P1: L U R2, P2: U L D L D, P1: R, P2: D2 L, P1: D
+    P1: 下3 右 下 右3 上 左4、P2: 上4 右3、P1: 左 上 右2、P2: 上 左 下 左 下、P1: 右、P2: 下2 左、P1: 下
   </div>
-  <a display="initial" class="spoilerBtn" title="Click to show/hide content" type="button">Click for the solution to the fifth puzzle</a>
+  <a display="initial" class="spoilerBtn" title="クリックで表示/非表示" type="button">5つ目のパズルの解答を表示</a>
 </div>
 
-Once you succeed, you'll get the *Latiasite* and *Latiosite*! Nice. However, there's still more to do: return to the previous room.
+成功すると *ラティアスナイト* と *ラティオスナイト* が手に入ります! よろしい。とはいえ、まだやることがあります。先ほどの部屋へ戻ってください。
 
-You can walk up past the New World Door, finding another New World Door at the very top. In the next room is an Anomaly!
+新世界の扉を通り過ぎて上へ歩けるので、最上部でもう1つ新世界の扉が見つかります。次の部屋にはアノマリーがいます!
 
 !battle(["Ho-oh", :HOOH, 0], "Mirror Arena")
 
-If the field is broken, you'll go to New World... where all the Magical Seeds and many of your opponents moves will be activated. The team is all Flying or Dragon type, so make sure you can exploit those two weaknesses with some sweepers to win.
+フィールドが壊れると新世界に移り……そこでは *マジカルシード* がすべて発動し、相手の技の多くも強化されます。編成は全員ひこうタイプかドラゴンタイプなので、この2つの弱点を突けるエースを用意して勝ちましょう。
 
-Afterwards, you'll be able to catch **Ho-oh**, who is holding a *Sacred Ash*! Accept the fast travel request to the entrance to the Mirage Tower. Next, break all of the mirrors on this floor to open a bath to Mirage Tower B1F.
+そのあと **ホウオウ** を捕まえられます。しかも *せいなるはい* を持っています! 高速移動の申し出を受けてしんきろうの塔の入口へ戻ります。次に、この階の鏡をすべて割ると、しんきろうの塔地下1階への道が開きます。
 
-You'll find a New World Door to the left, so head on in. Talk to Saphira, then head down the ladder. At the end of the path is a mirror. Smashing it will take you to a different dimension of sorts. Push the stone up, then un-smash the mirror - the ladder has moved! Take it to proceed.
+左手に新世界の扉があるので入ります。サファイラに話しかけたら、はしごを下ります。道の突き当たりには鏡があります。割ると、いわば別の次元へ移動します。石を上へ押してから鏡を元に戻すと、はしごの位置が変わっています! それを使って先へ進みます。
 
-In the next area, head down the ladder to get a hidden *Rare Bone*. Head up the ladder, then smash the mirror to enter the crystal dimension. Head through the New World Door at the bottom to get:
+次のエリアでは、はしごを下りると隠された *きちょうなホネ* が手に入ります。はしごを登り、鏡を割ってクリスタルの次元に入ります。下部の新世界の扉を抜けると、次が手に入ります。
 
-**ZCell 60: Mirage Tower?**
+**Zセル60: しんきろうの塔?**
 
 !img("zcell_60.jpg")
 
-Complete the rest of the room: using what we've just learned will make it straightforward. Push the stone in a clockwise loop around the room to continuously push the ladder.
+この部屋の残りを片付けます。今学んだことを使えば難しくありません。石を部屋の周りに時計回りで押し続け、はしごを動かし続けてください。
 
-The next section is generally similar, note that you can access the mirror from upper levels and lower levels. On the left side of the loop, you'll be able to push the stone into a rectangle - if you can get it into the bottom left corner, the ladder will take you onto the rock to the *Lunalium-Z* as well as:
+次の区画もおおむね似ていますが、鏡には上の階層からも下の階層からも触れられる点に注意してください。環状路の左側では石を長方形の中へ押し込めます。左下の隅に入れられれば、はしごで岩の上へ行けて *ルナアーラZ* に加えて次も手に入ります。
 
-**ZCell 61: Mirage Tower?**
+**Zセル61: しんきろうの塔?**
 
 !img("zcell_61.jpg")
 
-Make it to the end of the room and exit at the top. You'll talk to Saphira here, and also you'll be able to find:
+部屋の突き当たりまで進み、上から出ます。ここでサファイラと話し、さらに次も見つかります。
 
-**ZCell 62: Mirage Tower?**
+**Zセル62: しんきろうの塔?**
 
 !img("zcell_62.jpg")
 
-Exiting from here does send you back to the beginning, but Saphira has made returning pretty simple as she has gotten rid of the webs. The dead end isn't a real dead end - if you return to the crystal dimension just before the final portal, pushing the stone to the bottom left corner will allow you to access another path across some water. Follow this path to another Anomaly!
+ここから出ると最初に戻されますが、サファイラが蜘蛛の巣を取り除いてくれたので、戻ってくるのはかなり簡単です。行き止まりも実は本当の行き止まりではありません。最後のポータルの直前でクリスタルの次元に戻り、石を左下の隅へ押すと、水を渡る別の道に入れます。この道をたどると、また別のアノマリーがいます!
 
 !battle(["Lugia", :LUGIA, 0], "Dark Crystal Cavern")
 
-Been a while since we've had to fight on this terrain, but you can surely handle it. Be careful of Kommo-o with it's Z-Move and the very bulky Lugia.
+このフィールドで戦うのは久しぶりですが、対処できるはずです。Zワザを持つジャラランガと、非常に硬いルギアには注意してください。
 
-Win, and you can catch **Lugia**! Accept the fast travel back up, watch the conversation, then head back to the Nightclub.
+勝つと **ルギア** を捕まえられます! 高速移動を受けて上へ戻り、会話を見届けたら、ナイトクラブへ戻ります。
 
-## New World Crash (Part 1)
+## 新世界の崩落 (前編) {#new-world-crash-part-1}
 
-Accept Simon's quest, then fly over to the Beryl Ward. Cross the bridge and enter Citrine Mountain. Make your way to the bottom right corner of the room, then climb up the rocks and surf to the waterfall in the top right corner. Enter the New World Door.
+サイモンのクエストを受け、ベリル区へ飛びます。橋を渡ってシトリン山に入ります。部屋の右下の隅へ進み、岩を登って右上の隅の滝までなみのりします。新世界の扉に入ってください。
 
-After the conversation in the middle, follow the narrow paths to the corners of the area and talk to the small rocks. Once you've done all four, go to the top of the area for an Anomaly battle!
+中央での会話のあと、細い道をたどってエリアの各隅へ向かい、小さな岩に話しかけます。4つとも済ませたら、エリア上部へ向かうとアノマリー戦です!
 
 !battle(["Deoxys", :DEOXYS, 0], "Starlight Arena")
 
-Nothing too crazy here, I guess. Deoxys Defense is probably the most threatening - if it can set up defenses AND offenses, you're going to have a bad time. Abuse Dark type moves being buffed on this field to one shot it if you need to.
+とりわけ無茶ではない、と思います。おそらく最も脅威なのはデオキシス（ディフェンスフォルム）です。防御と攻撃の両方を積まれると厄介なことになります。必要なら、このフィールドであく技が強化されることを活かして一撃で倒しましょう。
 
-Once you win, you can catch **Deoxys**! 
+勝つと **デオキシス** を捕まえられます!
 
-Head back to the nightclub.
+ナイトクラブへ戻ります。
 
-## Cauldron of the Future
+## 未来の大釜 {#cauldron-of-the-future}
 
-Accept Sandy's quest next, then make your way through the desert all the way to Teknite Cave. Make your way to the [Teknite Ridge](#teknite-cave--teknite-ridge) via going left at the fork in the cave. Climb the rocks at the top to reach a New World Door! Enter it.
+次はサンディのクエストを受け、砂漠を抜けてテクナイトどうくつまで進みます。洞窟の分岐で左へ進んで[テクナイト尾根](/reborn/episode-17/#teknite-cave--teknite-ridge)へ向かいます。最上部の岩を登ると新世界の扉があります! 入りましょう。
 
 !enc(876)
 
-Pretty sweet - we can catch Celesteela now, as well as Cosmog. Fish in the void lake near Adrienn to get some! Grab two of them (four for the living dex) to also obtain **Cosmoem**, **Solgaleo**, and **Lunala** by evolving at Lv. 43, 53 during the day, and 53 during the night, respectively. You can also get another Type: Null here for living dex purposes if you like.
+実に良いですね。ここではテッカグヤとコスモッグを捕まえられます。アドリエンヌの近くの虚空の湖で釣ってみてください! 2匹（図鑑を全部埋めるなら4匹）捕まえれば、レベル43で **コスモウム**、昼にレベル53で **ソルガレオ**、夜にレベル53で **ルナアーラ** へと進化させられます。図鑑埋め用に、ここでタイプ:ヌルをもう1匹入手することもできます。
 
-Follow the path to the left to find:
+道を左へたどると、次が見つかります。
 
-**ZCell 63: Cauldron of the Future**
+**Zセル63: 未来の大釜**
 
 !img("zcell_63.jpg")
 
-It's also worth noting that the glowing mining rocks here will infinitely replenish if you exit this area and return, so no need to buy Blast Powder or worry about the finite number of rocks in the region.
+なお、ここの光る採掘岩は、このエリアを出て戻ると無限に補充されるので、*ばくはつのこな* を買う必要も、地方の岩の総数を気にする必要もありません。
 
-Talk to Adrienn - there are no mandatory battles in this section. A refreshing break!
+アドリエンヌに話しかけます。この区画には必須のバトルがありません。ありがたい息抜きです!
 
-Once you're done here, return to the Nightclub.
+済んだらナイトクラブへ戻ります。
 
-## Umbral Battles in Aegir Cave (Part 1)
+## エーギルどうくつでの影のバトル (前編) {#umbral-battles-in-aegir-cave-part-1}
 
-Accept your gang leader's quest next. Return to the desert and make your way to the [Sugiline Cave](#sugiline-cave). Make your way to the back via the Garchomp Statue maze. Enter the New World Door just to the right of the top of the room!
+次は自分の団のリーダーのクエストを受けます。砂漠へ戻り、[スギラインどうくつ](/reborn/episode-17/#sugiline-cave)へ向かいます。ガブリアス像の迷路を抜けて奥へ進みます。部屋の最上部のすぐ右にある新世界の扉に入ってください!
 
 !enc(883, nil, nil, "New World (Sugiline Cave)")
 
-Follow the path to the New World Door in the water. Head down from here to the island in the middle of the Aegir Cave lake.
+道をたどって水の中の新世界の扉へ向かいます。そこから下へ進むと、エーギルどうくつの湖の中央の島に着きます。
 
 !battle(["Amaria", :UMBAMARIA, 0], "Water Surface")
 
-The fight will go instantly to Grassy Terrain for a little while. As long as you have a few Specially Defensive and fast Pokemon, letting Celesteela hang around while you attack the other, faster Pokemon on the field can be a good idea. Changing the field to Corrosive Field can be useful for gaining momentum.
+戦いは即座にしばらく *グラスフィールド* になります。特防が高く素早いポケモンが数匹いれば、テッカグヤは放っておいて、場に出ている他の速いポケモンを攻撃するのが良い判断になり得ます。フィールドを腐食フィールドに変えるのも、主導権を握るのに有効です。
 
 !battle(["Titania", :UMBTITANIA, 0], "Cave Field")
 
-Another pretty tough one. Diamond Storm and Power Gem both turn the field to the Crystal Cavern Field, so watch out for that. A couple Steel leads might be ideal to start here - speed and/or Bullet Punch can help them OHKO Diancie. The rest of the team is generally weak to some combination of Ground and Fighting type moves barring Marshadow - who has priority, a Z-Move, and Spectral Thief to ruin your set ups. Take advantage of Regigigas being a sort of underwhelming support set to take out the threats if you need to.
+こちらもかなり手強い相手です。*ダイヤストーム* と *パワージェム* はどちらもフィールドをクリスタルのどうくつフィールドに変えるので注意してください。はがねタイプを2匹ほど先発に置くのが理想的でしょう。素早さや *バレットパンチ* があれば、ディアンシーを一撃で倒せます。残りの編成は、マーシャドーを除けばおおむねじめん技とかくとう技の組み合わせに弱いです。マーシャドーは先制技とZワザ、そしてこちらの積みを台無しにする *シャドースチール* を備えています。必要なら、レジギガスがやや物足りない支援型であることを利用して、脅威のほうを先に片付けましょう。
 
-Once you win against both Umbral opponents, talk to Florinia.
+かげの相手2人に勝ったら、フロリニアに話しかけます。
 
-**Relationship Point Choices**:
-- Tell Florinia you understand your next objective (+1 Florinia)
+**好感度の選択肢**:
+- 次の目標を理解したとフロリニアに伝える (+1 フロリニア)
 
-Florinia will tell us that we need to catch Rayquaza in order to fix the issues here. We will do so, but later on. That's it for this quest for now, so make your way back to the Nightclub.
+フロリニアから、ここの問題を解決するにはレックウザを捕まえる必要があると告げられます。それは後ほど行います。このクエストで今できるのは以上なので、ナイトクラブへ戻りましょう。
 
-## New World Helix
+## 新世界のらせん {#new-world-helix}
 
-Finally, accept Smeargle's quest. Head over to Apophyll Cave and make your way to 2F. Enter the New World Door!
+最後にドーブルのクエストを受けます。アポフィルどうくつへ向かい、2階まで進みます。新世界の扉に入ってください!
 
 !enc(887)
 
-Depending on your story decisions thus far, you'll see Taka or Zero above, who will join you for this quest.
+ここまでの物語の選択によって、上にはタカかゼロがいて、このクエストに同行してくれます。
 
-Switching between us and them with the "A" key, you'll need to progress with each character to get the other to proceed. To succeed:
+「A」キーでこちらと相手を切り替えながら、それぞれのキャラクターで進めることで、もう一方が先へ進めるようになります。手順は次のとおりです。
 
-- As the Ex-Meteor (XM), activate the orb by going down.
-- As the main character (MC), head up and activate a crystal by going clockwise.
-- XM: Go up as far as you can and talk to Abomasnow and use Snow Warning.
-- MC: Continue along the path, past the snowdrift.
-- XM: Go all the way down counter-clockwise, until you reach the orb you can't do anything with.
-- MC: Talk to Altaria and use Cloud Nine.
-- XM: Activate the orb.
-- MC: Cross the ice to the right and activate the orb. Cross back left, talk to Abomasnow on the ice, then go back down and right. Use the crystal.
-- XM: Go all the way back up and follow the path clockwise. Use the crystal.
-- MC: Climb down the icy stairs. Talk to Altaria, then talk to the orb. Go down into the ice puzzle here and talk to Abomasnow.
-- XM: Go down from here. Activate the crystal, then go down past the snowdrift.
-- MC: Starting underneath Abomasnow, using the patch in the ice to the left, head down. Stand near the frozen orb.
-- XM: Talk to Altaria.
-- MC: Use the orb.
-- XM: Go to the left. Activate the crystal.
-- MC: Head back up to the ice maze and talk to Abomasnow. Head back down.
-- XM: Go up and left, and climb down the snowdrift.
-- MC: Talk to Altaria.
-- XM: Use the orb, activate the crystal beyond, then use the second orb beyond. Head back to the ice puzzle and talk to Abomasnow.
-- MC: Go left/clockwise and head up the snow drift, talk to Altaria, and follow the path to activate another orb.
-- XM: Talk to Abomasnow, then follow the path right/clockwise to the next frozen orb.
-- MC: Backtrack to the nearest Altaria and talk to it.
-- XM: Use the orb, then talk to Abomasnow.
-- MC: Follow the path all the way to the nine gemstones.
-- XM: Make your way to the nine gemstones.
+- 元メテオ団（以下XM）で、下へ進んでオーブを起動します。
+- 主人公（以下MC）で、上へ進み、時計回りに進んでクリスタルを起動します。
+- XM: 行ける限り上へ進み、ユキノオーに話しかけて *ゆきふらし* を使わせます。
+- MC: 道を進み続け、吹きだまりを越えます。
+- XM: 反時計回りにずっと下り、何もできないオーブに着くまで進みます。
+- MC: チルタリスに話しかけて *ノーてんき* を使わせます。
+- XM: オーブを起動します。
+- MC: 右へ氷を渡ってオーブを起動します。左へ渡って戻り、氷の上のユキノオーに話しかけたら、下そして右へ戻ります。クリスタルを使います。
+- XM: ずっと上へ戻り、時計回りに道をたどります。クリスタルを使います。
+- MC: 氷の階段を下ります。チルタリスに話しかけ、続いてオーブに話しかけます。ここの氷のパズルへ下り、ユキノオーに話しかけます。
+- XM: そこから下へ進みます。クリスタルを起動し、吹きだまりを越えて下へ進みます。
+- MC: ユキノオーの真下から、左の氷の切れ目を使って下へ進みます。凍ったオーブの近くに立ちます。
+- XM: チルタリスに話しかけます。
+- MC: オーブを使います。
+- XM: 左へ進みます。クリスタルを起動します。
+- MC: 氷の迷路まで戻ってユキノオーに話しかけます。また下へ戻ります。
+- XM: 上そして左へ進み、吹きだまりを下ります。
+- MC: チルタリスに話しかけます。
+- XM: オーブを使い、その先のクリスタルを起動して、さらにその先の2つ目のオーブを使います。氷のパズルへ戻ってユキノオーに話しかけます。
+- MC: 左（時計回り）へ進んで吹きだまりを上り、チルタリスに話しかけて、道をたどって別のオーブを起動します。
+- XM: ユキノオーに話しかけ、道を右（時計回り）にたどって次の凍ったオーブへ向かいます。
+- MC: 最寄りのチルタリスまで引き返して話しかけます。
+- XM: オーブを使い、続いてユキノオーに話しかけます。
+- MC: 道を9つの宝石までずっとたどります。
+- XM: 9つの宝石まで向かいます。
 
-You'll need to transform the gemstones near MC black, and the ones near XM white. Each gemstone also changes the ones immediately around it. It shouldn't be too hard with some trial and error. Head up from here and go through the door.
+MC側の宝石を黒に、XM側の宝石を白にする必要があります。各宝石は、そのすぐ周囲の宝石の色も変えます。試行錯誤すればさほど難しくないはずです。そこから上へ進み、扉を抜けてください。
 
-You'll have a partner here: if Taka is dead and we're with Zero:
+ここでは相棒がつきます。タカが死亡していてゼロと一緒の場合はこちらです。
 
 !partner(["Zero", :ZEL3, 0])
 
-If we're with Taka and he has both eyes:
+タカと一緒で、彼の両目が無事な場合はこちらです。
 
 !partner(["Taka", :Taka2, 1])
 
-If we're with Taka and he only has one eye:
+タカと一緒で、彼の目が片方だけの場合はこちらです。
 
 !partner(["Taka", :ZTAKA2, 0])
 
 !dbattle(["Zekrom", :ZEKROM, 0], ["Reshiram", :RESHIRAM, 0], "Icy Field")
 
-This first fight can be fairly tough - this field pushes the Icy Field to its limit. With Aurora Veil, your opponents will likely be able to stick around while they build up speed from priority attacks. Mega Kangaskhan can use Fake Out and Power Up Punch to reach +2 in Atk and Spe, so be wary when it comes out. Generally, the team is weak to Rock, Ground, and Ice moves, so try to use those if you can.
+この最初の戦いはかなり厳しくなり得ます。このフィールドが氷のフィールドの性能を極限まで引き出してくるからです。*オーロラベール* により、相手は先制技で素早さを積み上げながら居座り続けられるでしょう。メガガルーラは *ねこだまし* と *グロウパンチ* で攻撃と素早さを+2まで上げられるので、出てきたら警戒してください。編成は概していわ技・じめん技・こおり技に弱いので、可能ならそれらを使いましょう。
 
 !dbattle(["Kyurem", :KYUREM1, 0], ["Fusion Simulations", :KYUREM2, 0], "New World")
 
-Although you do get healed, you'll be thrust into a second Double battle. While it's hard to rely on your ally acting in your favor, Taka does sometimes use Tailwind, which can help out. All but Magearna and Mew are weak to either Rock or Fairy moves, so Rock Slide and especially field-boosted Dazzling Gleam may be very helpful here.
+回復はあるものの、そのまま2戦目のダブルバトルに放り込まれます。味方が有利に動いてくれることを当てにするのは難しいのですが、タカはときどき *おいかぜ* を使ってくれるので助かります。マギアナとミュウ以外は全員いわ技かフェアリー技に弱いので、*いわなだれ* と、特にフィールド強化された *マジカルシャイン* がここでは非常に有効です。
 
-Once you win, three doors will open. Inside each, you can catch **Reshiram**, **Zekrom**, and **Kyurem**! Once you catch the third, prepare your team before you head back out.
+勝つと扉が3つ開きます。それぞれの中で **レシラム**、**ゼクロム**、**キュレム** を捕まえられます! 3匹目を捕まえたら、外へ戻る前に編成を整えてください。
 
 !battle(["Ace", :UMBACE, 0], "New World")
 
-Nothing too crazy for this point in the game, but still a formidable challenge. Boosted Dark and Fairy moves will make it easier.
+この時点としてはとりわけ無茶ではありませんが、それでも手応えのある挑戦です。強化されたあく技とフェアリー技があれば楽になります。
 
-**Relationship Point Choices**:
-- Defeat Umbral Ace while Taka is partnered with you, Reshiram Route only (+1 Ace)
+**好感度の選択肢**:
+- レシラムルートで、タカを相棒にした状態でかげのエースを倒す (+1 エース)
 
-Accept the fast travel request once you're done!
+済んだら高速移動の申し出を受けます!
 
-In the Nightclub, you can show Ace the Fennekin (or Braixen, Delphox) that we obtained back in the Water Treatment Center, if you'd like.
+ナイトクラブでは、よければ浄水センターで手に入れたフォッコ（またはテールナー、マフォクシー）をエースに見せられます。
 
-**Relationship Point Choices**:
-- Show Ace the WTC Fennekin (+1 Ace)
+**好感度の選択肢**:
+- 浄水センターのフォッコをエースに見せる (+1 エース)
 
-Talking to them again, you can get a *Red Card*.
+もう一度話しかけると *レッドカード* がもらえます。
 
-## New World Crash (Part 2)
+## 新世界の崩落 (後編) {#new-world-crash-part-2}
 
-Oh yeah, surprise level cap increase to Lv. 140. Talk to Zero to get the next quest. We need to return to the New World Crash via the door in Citrine Mountain, so make your way back there.
+そういえば、レベル上限が不意に140へ上がっています。ゼロに話しかけて次のクエストを受けます。シトリン山の扉から新世界の崩落へ戻る必要があるので、そこまで向かってください。
 
-Talk to the woman in front of the meteor for a fight.
+隕石の前の女性に話しかけるとバトルです。
 
 !battle(["Zina", :ZINA, 0], "Starlight Arena")
 
-Nothing too crazy, but you will notice that we really are in the endgame now as we're up against 3 Ubers casually sprinkled into this team.
+とりわけ無茶ではありませんが、この編成にウーバー級が3匹も何気なく混ざっているあたり、いよいよ終盤に来ていることを実感します。
 
-Once you win, we'll get our next destination: the Byxbysion Wasteland.
+勝つと、次の目的地としてビクスビジョン荒地が示されます。
 
-## Distorted Space
+## ゆがんだ空間 {#distorted-space}
 
-Fly over to Byxbysion and make your way into the tunnels. In the room with the branches, enter the second entrance when you're ready.
+ビクスビジョンへ飛び、坑道へ進みます。分岐のある部屋で、準備ができたら2つ目の入口に入ります。
 
 !battle(["Naganadel", :NAGANADEL, 0], "Wasteland")
 
-This is pretty brutal for a singles fight. For one, the team is entirely resistant to basically any way that you would want to try to use the field for your own gain due to Steel and Poison typings. With the field preventing hazard set up and an extremely strong Mega Lucario Bullet Punch to prevent any clever Trick Room sweeping, many of the usually good strategies are busted here. Earth Power, Drill Run, and High Horsepower are all Ground type options that aren't weakened by this field if you want to try them.
+シングル戦としてはかなり容赦がありません。まず、はがねとどくのタイプ構成のせいで、このフィールドをこちらの利益のために使おうとする手立てのほぼすべてに耐性があります。フィールドが設置技を防ぐうえ、メガルカリオの極めて強力な *バレットパンチ* が巧妙な *トリックルーム* 一掃も阻むので、いつもなら有効な戦法の多くが潰されます。*だいちのちから*、*ドリルライナー*、*10まんばりき* は、このフィールドで弱体化しないじめん技なので、試す価値があります。
 
-Once you win, enter the New World Door to reach Distorted Space.
+勝ったら新世界の扉に入り、ゆがんだ空間へ向かいます。
 
-Defeat the Malamar here. Afterwards, talking to any Malamar will switch which sections of path are walkable and which are not. A path through, with color changes indicating use of Malamar, is as follows:
+ここのカラマネロを倒します。そのあとは、どのカラマネロに話しかけても、歩ける道と歩けない道が切り替わります。カラマネロを使った箇所を色の変化で示した経路は次のとおりです。
 
 !img("distorted_space_1.jpg")
 
-The second room introduces a new wrinkle - the space bending statues we used in the Dialga/Palkia quest are back, and used in conjunction with the Malamar. Before continuing, talk to the first accessible Malamar, then walk back through the portal to the previous room. Use the statue to go left to grab the *Marshadium-Z*! Anyways, the path through the second room is as follows:
+2つ目の部屋では新しい要素が加わります。ディアルガ／パルキアのクエストで使った空間をゆがめる像が再登場し、カラマネロと組み合わせて使います。先へ進む前に、最初に触れられるカラマネロに話しかけ、ポータルを通って前の部屋へ戻ってください。像を使って左へ進むと *マーシャドーZ* が手に入ります! ともあれ、2つ目の部屋の経路は次のとおりです。
 
 !img("distorted_space_2.jpg")
 
-Note that once you reach the gold stars the second time, you'll need to talk to Malamar while you still have your walk-through-walls ability from the upper statue, then head right back up to these two statues to continue.
+なお、2回目に金の星に着いたら、上の像による壁抜けの効果が残っているうちにカラマネロに話しかけ、すぐこの2つの像へ戻る必要があります。
 
-In the next room, we first will need to interact with the two orbs towards the bottom of the map. Once you do, you'll use statues and Malamar to return to the entrance to this room, ready to go again.
+次の部屋では、まずマップ下寄りの2つのオーブを調べる必要があります。調べ終えたら、像とカラマネロを使ってこの部屋の入口へ戻り、もう一度挑む形になります。
 
-To reach the left orb, follow this path:
+左のオーブへ向かう経路は次のとおりです。
 
 !img("distorted_space_3.jpg")
 
-To reach the right orb, follow this path, noting that at the Blue Star, you'll need to talk to Malamar then press 'A' to return to the previous statue:
+右のオーブへ向かう経路は次のとおりです。なお、青い星の地点ではカラマネロに話しかけてから「A」を押し、直前の像に戻る必要があります。
 
 !img("distorted_space_4.jpg")
 
-With that taken care of, use the only available statue to reach the center of the middle section above. Grab the *Lustrous Orb*, *Adamant Orb*, as well as:
+これを片付けたら、唯一使える像で、上の中央区画の中心へ向かいます。*しらたま*、*こんごうだま*、そして次を回収してください。
 
-**ZCell 64: Distorted Space**
+**Zセル64: ゆがんだ空間**
 
 !img("zcell_64.jpg")
 
-This final puzzle in here is a bit more complicated. If Taka is alive and has both of his eyes (Anna Route & Lin Reshiram Route having defeated Garchomp) this puzzle will basically be solved for you automatically, so I'll show the full solution for Lin Route here. First, use the statue to reach Malamar, then make your way back to the center. We can solve this puzzle entirely without having to use Malamar again after this (to be sure you're on the right one, make sure the left Giratina statue is activated).
+ここの最後のパズルはやや複雑です。タカが生きていて両目が無事なら（アンナルート、およびガブリアスを倒したリンのレシラムルート）、このパズルはほぼ自動的に解かれるので、ここではリンルート向けに完全な解法を示します。まず像でカラマネロのところへ行き、中央まで戻ります。これ以降はカラマネロを使わずにこのパズルを解ききれます（正しい像に乗っているか確かめるには、左のギラティナ像が起動しているかを見てください）。
 
-Anyways, at any instant you have three actions that you can take - press the left column, press the right column, and press the center. There are five colors in play: White (W), Light Gray (L), Gray (G), Dark Gray (D), and Black (B). When you press the left column, the five tiles in the column will shift cyclically. To reach the left column, you'll need to use the statue to walk through walls. The right column works similarly, though you won't have to do any phasing.
+さて、どの瞬間にも取れる行動は3つです。左の列を押す、右の列を押す、中央を押す、です。使われる色は5つで、白 (W)、明るい灰 (L)、灰 (G)、暗い灰 (D)、黒 (B) です。左の列を押すと、その列の5マスが循環的にずれます。左の列に触れるには、像で壁を通り抜ける必要があります。右の列も同様ですが、こちらは壁抜けは不要です。
 
-Talking to the center is a bit more complex: when you talk to the center, it will pull the top block from each of the columns and combine them to make a composite color. W + G = L, for example, and W + B = G. In cases where there is an odd number of 'gaps', it will favor the extreme, so W + L = W, and W + D = L. It will also shift the current five blocks in the center downward, and split the bottom-most block into two components, which will go to the bottom of the left and right columns respectively. To win, you'll need to fill the center column with, bottom to top, B, D, G, L, W blocks.
+中央に話しかけるのは、もう少し複雑です。中央に話しかけると、両方の列の一番上のブロックを引き寄せて合成し、混合色を作ります。たとえば W + G = L、W + B = G です。「隔たり」が奇数の場合は極端なほうに寄るので、W + L = W、W + D = L となります。同時に、中央にある現在の5個のブロックが下へずれ、一番下のブロックが2つの成分に分解されて、それぞれ左と右の列の最下部へ送られます。勝つには、中央の列を下から順に B、D、G、L、W のブロックで埋める必要があります。
 
-Figuring out what is going on might be harder than doing the puzzle itself, which you can kinda brute force. Honestly, I recommend spending a minute or two just randomly pressing the center and each column until you have a big mess of different colors all over the puzzle. Then, use the two columns to pull blocks that will generate B into the top - either B + B or B + D will work. Next, pull in blocks that will generate D, then G, L, and finally W. If at any point you are unable to create the desired block, simply continuously press the center 9 times and mess with the columns some more until you're able to. Head through the door when you're ready!
+何が起きているのかを理解するほうが、パズル自体を解くより難しいかもしれません。実のところ、ある程度は力技で解けます。正直なところ、まずは1〜2分ほど、中央と両方の列を適当に押し続けて、パズル全体が色とりどりのごちゃ混ぜになるまで進めることをおすすめします。そのうえで、2つの列を使って B を生成できるブロックを最上部へ引き上げます。B + B でも B + D でも構いません。次に D、続いて G、L、最後に W を生成できるブロックを引き寄せます。もし途中で目的のブロックを作れなくなったら、中央を9回連続で押し、両方の列をもう少しいじってから作れるようにしてください。準備ができたら扉を抜けます!
 
-We actually only have to fight the following battle on Lin Route, as on Anna Route Taka will take care of it:
+次のバトルが必要なのはリンルートだけで、アンナルートではタカが片付けてくれます。
 
 !battle(["Giratina", :GIRATINA, 0], "Inverse Field")
 
-Inverse Field! Probably weren't expecting this, were you? Might as well go all in on the 'new' type matchups for this one - Fighting is a great choice for Lugia and Yveltal, and Psychic can take the Ice types and Yveltal as well. Fake out and/or hazards are good choices for the Sashes. Using Psych Up or Haze may be useful for the enemy Magical Seeds, or you can just abuse your own.
+反転フィールドです! 予想していなかったのではないでしょうか。ここは「新しい」タイプ相性に全振りしてしまうのがよいでしょう。かくとうはルギアとイベルタルへの優れた選択ですし、エスパーもこおりタイプとイベルタルの両方に通ります。タスキ対策には *ねこだまし* や設置技が有効です。相手の *マジカルシード* 対策には *じこあんじ* や *くろいきり* が役立ちますし、こちらもシードを活用しても構いません。
 
-Catch **Giratina** next.
+続いて **ギラティナ** を捕まえます。
 
-If you're on Anna Route, you'll need to reset the game a few times through some deceptive "Bad End" screens to proceed. Anyways, return to the Nightclub to really begin wrapping up the postgame!
+アンナルートの場合、紛らわしい「バッドエンド」画面を挟んで、先へ進むには数回ゲームをリセットする必要があります。ともあれ、ナイトクラブへ戻り、いよいよポストゲームの締めくくりに入りましょう!
