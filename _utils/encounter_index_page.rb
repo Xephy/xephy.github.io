@@ -2,6 +2,7 @@
 
 require_relative 'ja_names'
 require_relative 'encounter_index'
+require_relative 'doc_context'
 
 # 「この種族はどこで捕まえられるか」の一覧ページ。
 #
@@ -66,7 +67,7 @@ module EncounterIndexPage
     link = ctx[:href] ? %(<a href="#{ctx[:href]}">#{esc(place[:map_label])}</a>) : esc(place[:map_label])
     cls = GROUP_CLASS[place[:group]] || 'other'
     badge = %(<span class="pdx-way pdx-way-#{cls}">#{esc(place[:group])}</span>)
-    "<li data-way=\"#{cls}\">#{badge}#{link} <span class=\"pdx-meta\">" \
+    "<li data-way=\"#{cls}\" data-ch=\"#{ctx[:seq] || 0}\">#{badge}#{link} <span class=\"pdx-meta\">" \
       "#{chapter.empty? ? '' : "#{esc(chapter)} · "}#{meta(place)}</span></li>"
   end
 
@@ -96,9 +97,11 @@ module EncounterIndexPage
 
     ways = entry[:places].map { |p| GROUP_CLASS[p[:group]] || 'other' }.uniq.join(' ')
     kinds = Array(entry[:types]).map { |t| t.to_s.downcase }.join(' ')
+    # 一番早く行ける場所の章。「ここまで進んだ」の絞り込みに使う。
+    first_ch = entry[:places].map { |p| p.dig(:context, :seq) || 0 }.min
 
     <<~ROW
-      <tr data-name="#{esc(entry[:species])}" data-en="#{esc(entry[:species_key].to_s.downcase)}" data-types="#{kinds}" data-ways="#{ways}" data-only="#{entry[:places].length == 1 ? 1 : 0}">
+      <tr data-name="#{esc(entry[:species])}" data-en="#{esc(entry[:species_key].to_s.downcase)}" data-types="#{kinds}" data-ways="#{ways}" data-only="#{entry[:places].length == 1 ? 1 : 0}" data-ch="#{first_ch}">
         <td class="pdx-mon">#{icon}<span class="pdx-name">#{esc(entry[:species])}</span><span class="pdx-dex">No.#{entry[:dexnum]}</span><span class="pdx-types">#{types}</span>#{only}</td>
         <td class="pdx-places"><ul>#{entry[:places].map { |p| place_html(p) }.join}</ul></td>
       </tr>
@@ -127,37 +130,48 @@ module EncounterIndexPage
     types = type_counts.keys.sort_by { |t| [order.index(t) || 99, t] }
     type_chips = types.map { |t|
       label = JaNames.tr('types', t.capitalize)
-      %(<button type="button" class="pdx-chip type-badge type-#{t}" data-value="#{t}">) +
+      %(<button type="button" class="ref-chip type-badge type-#{t}" data-value="#{t}">) +
         %(#{esc(label)}<span>#{type_counts[t]}</span></button>)
     }.join
 
     ways = way_counts.keys.sort_by { |w| -way_counts[w] }
     way_chips = ways.map { |w|
       label = way_labels.key(w) || w
-      %(<button type="button" class="pdx-chip pdx-way pdx-way-#{w}" data-value="#{w}">) +
+      %(<button type="button" class="ref-chip pdx-way pdx-way-#{w}" data-value="#{w}">) +
         %(#{esc(label)}<span>#{way_counts[w]}</span></button>)
     }.join
 
     only = species.count { |sp| sp[:places].length == 1 }
     ja = JaNames.enabled?
 
+    # 「ここまで進んだ」の選択肢。出現表が載っている章だけを、本文の順で出す。
+    seen = species.flat_map { |sp| sp[:places].map { |pl| pl.dig(:context, :seq) } }.compact.uniq.sort
+    options = seen.map { |i|
+      %(<option value="#{i}">#{esc(chapter_label(DocContext.chapters[i]))}</option>)
+    }.join
+
     <<~BAR
-      <div class="pdx-filter" hidden>
-        <div class="pdx-filter-line">
-          <input type="search" id="pdx-q" class="pdx-search" autocomplete="off"
+      <div class="ref-filter" hidden>
+        <div class="ref-filter-line">
+          <input type="search" id="pdx-q" class="ref-search" autocomplete="off"
                  placeholder="#{ja ? '名前・タイプ・地名で絞る（かな・英語名も可）' : 'Filter by name, type or place'}">
-          <span class="pdx-count" role="status" aria-live="polite"></span>
+          <span class="ref-count" role="status" aria-live="polite"></span>
         </div>
-        <div class="pdx-filter-line pdx-chips" data-group="types">
-          <span class="pdx-chip-label">#{ja ? 'タイプ' : 'Type'}</span>#{type_chips}
+        <div class="ref-filter-line ref-chips" data-group="types">
+          <span class="ref-chip-label">#{ja ? 'タイプ' : 'Type'}</span>#{type_chips}
         </div>
-        <div class="pdx-filter-line pdx-chips" data-group="ways">
-          <span class="pdx-chip-label">#{ja ? '出現方法' : 'Method'}</span>#{way_chips}
+        <div class="ref-filter-line ref-chips" data-group="ways">
+          <span class="ref-chip-label">#{ja ? '出現方法' : 'Method'}</span>#{way_chips}
         </div>
-        <div class="pdx-filter-line">
-          <label class="pdx-toggle"><input type="checkbox" id="pdx-only">
+        <div class="ref-filter-line">
+          <label class="ref-toggle" for="pdx-upto">#{ja ? 'ここまで進んだ' : 'Progress'}</label>
+          <select id="pdx-upto" class="ref-select">
+            <option value="">#{ja ? '全部見る' : 'All chapters'}</option>
+            #{options}
+          </select>
+          <label class="ref-toggle"><input type="checkbox" id="pdx-only">
             #{ja ? "出現する場所が1箇所だけ" : 'Only one place'}<span>#{only}</span></label>
-          <button type="button" class="pdx-reset">#{ja ? '条件を外す' : 'Clear'}</button>
+          <button type="button" class="ref-reset">#{ja ? '条件を外す' : 'Clear'}</button>
         </div>
       </div>
     BAR

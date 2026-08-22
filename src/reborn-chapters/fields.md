@@ -7,10 +7,25 @@ permalink: /reborn/fields/
 
 <p class="ref-back"><a href="/reborn/">目次へ戻る</a></p>
 
-ゲーム内のポケギアにある「フィールドノート」を、そのまま読める形にしたものです。フィールド 38種 / 820行。攻略本文の戦闘に書いてある「フィールド」の名前から、それぞれの節へ直接飛べます。
+ゲーム内のポケギアにある「フィールドノート」を、そのまま読める形にしたものです。フィールド 38種 / 820行。攻略本文の戦闘に書いてある「フィールド」の名前から、それぞれの節へ直接飛べます。下の欄で、わざ名・とくせい名・タイプから横断して絞り込めます（「こおり」でこおり技に効くフィールドだけを並べる、など）。/ キーで入力欄に移れます。
 
 矢印は効果の向きを表します。<span class="fn-icon fn-up">↑</span> 上がる、<span class="fn-icon fn-down">↓</span> 下がる、<span class="fn-icon fn-change">→</span> 変わる、<span class="fn-icon fn-plus">＋</span> 加わる。薄い字の行は、その1行の続き（対象になるわざやとくせいの一覧など）です。
 {: .fn-legend}
+
+<div class="ref-filter fn-filter" hidden>
+  <div class="ref-filter-line">
+    <input type="search" id="fn-q" class="ref-search" autocomplete="off"
+           placeholder="わざ名・とくせい名・フィールド名で絞る">
+    <span class="ref-count" role="status" aria-live="polite"></span>
+  </div>
+  <div class="ref-filter-line ref-chips" data-group="types">
+    <span class="ref-chip-label">タイプ</span><button type="button" class="ref-chip type-badge type-normal" data-value="normal">ノーマル<span>8</span></button><button type="button" class="ref-chip type-badge type-fighting" data-value="fighting">かくとう<span>2</span></button><button type="button" class="ref-chip type-badge type-flying" data-value="flying">ひこう<span>4</span></button><button type="button" class="ref-chip type-badge type-poison" data-value="poison">どく<span>15</span></button><button type="button" class="ref-chip type-badge type-ground" data-value="ground">じめん<span>7</span></button><button type="button" class="ref-chip type-badge type-rock" data-value="rock">いわ<span>12</span></button><button type="button" class="ref-chip type-badge type-bug" data-value="bug">むし<span>2</span></button><button type="button" class="ref-chip type-badge type-ghost" data-value="ghost">ゴースト<span>2</span></button><button type="button" class="ref-chip type-badge type-steel" data-value="steel">はがね<span>6</span></button><button type="button" class="ref-chip type-badge type-qmarks" data-value="qmarks">???<span>3</span></button><button type="button" class="ref-chip type-badge type-fire" data-value="fire">ほのお<span>20</span></button><button type="button" class="ref-chip type-badge type-water" data-value="water">みず<span>20</span></button><button type="button" class="ref-chip type-badge type-grass" data-value="grass">くさ<span>10</span></button><button type="button" class="ref-chip type-badge type-electric" data-value="electric">でんき<span>13</span></button><button type="button" class="ref-chip type-badge type-psychic" data-value="psychic">エスパー<span>7</span></button><button type="button" class="ref-chip type-badge type-ice" data-value="ice">こおり<span>12</span></button><button type="button" class="ref-chip type-badge type-dragon" data-value="dragon">ドラゴン<span>10</span></button><button type="button" class="ref-chip type-badge type-dark" data-value="dark">あく<span>9</span></button><button type="button" class="ref-chip type-badge type-fairy" data-value="fairy">フェアリー<span>9</span></button>
+  </div>
+  <div class="ref-filter-line">
+    <button type="button" class="ref-reset">条件を外す</button>
+  </div>
+</div>
+
 
 <nav class="affinity-jump fn-jump">
   <ul>
@@ -62,7 +77,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.3</span> <span class="fn-c fn-red">破壊</span>のとき</span><span class="fn-more">フィールド効果を消すとき</span></li>
   <li><span class="fn-main">アンプリフィールドロック <span class="fn-icon fn-plus" title="plus">＋</span> <span class="fn-c fn-green">3</span> ターン</span><span class="fn-more">フィールド効果を発生または変化させるとき</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> トライアタック</span><span class="fn-more">フィールド効果がない間</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-normal">ノーマル</span></span><span class="fn-more">フィールド効果がない間</span></li>
+  <li data-types="normal"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-normal">ノーマル</span></span><span class="fn-more">フィールド効果がない間</span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-paralyze">まひ</span></span><span class="fn-more">フィールド効果がない間</span></li>
   <li><span class="fn-main">ラジアルエッジストームが <span class="fn-c fn-red">消す</span></span><span class="fn-more">特に記載がないかぎりどんなフィールドも消す。<br>フィールド破壊のダメージ上昇は受けない。</span></li>
 </ul>
@@ -76,8 +91,8 @@ permalink: /reborn/fields/
 <ul class="field-notes">
   <li><span class="fn-main">地上のポケモン <span class="fn-icon fn-change" title="are">→</span> <span class="fn-status fn-no">ねむらない</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発生</span></span><span class="fn-more">かわらずのいしをもたないときエレキメイカー、エレキフィールド(5ターン)、ライトニングサーフライド、プラズマシャワー、プラズマフィスト(3ターン)で発生</span></li>
-  <li><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">攻撃側が地上にいるとき</span></li>
-  <li><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-electric">でんき</span></span><span class="fn-more">だいばくはつ、ぼうふう、スーパーアクアトルネード、だくりゅう、じばく、うちおとす、なみのり、サウザンアロー</span></li>
+  <li data-types="electric"><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">攻撃側が地上にいるとき</span></li>
+  <li data-types="electric"><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-electric">でんき</span></span><span class="fn-more">だいばくはつ、ぼうふう、スーパーアクアトルネード、だくりゅう、じばく、うちおとす、なみのり、サウザンアロー</span></li>
   <li><span class="fn-main">きあいパンチはかならず <span class="fn-c fn-red">失敗</span></span></li>
   <li><span class="fn-main">一部の能力変化わざの効果 <span class="fn-icon fn-up" title="boosted">↑</span> <span class="fn-c fn-green">+1</span></span><span class="fn-more">じゅうでん、かいでんぱ</span></li>
   <li><span class="fn-main">でんじふゆうは <span class="fn-c fn-green">8</span> ターンつづく</span></li>
@@ -91,7 +106,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">ワイルドボルト <span class="fn-icon fn-change" title="has">→</span> <span class="fn-c fn-green">反動なし</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">消える</span> 次のわざで</span><span class="fn-more">どろあそび、ライジングランドオーバー</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> 10まんボルト</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-electric">でんき</span></span></li>
+  <li data-types="electric"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-electric">でんき</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-paralyze">まひ</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">エレメンタルシード</span>が発動</span><span class="fn-more">すばやさを上げ自分がじゅうでん状態になる</span></li>
 </ul>
@@ -108,8 +123,8 @@ permalink: /reborn/fields/
 <ul class="field-notes">
   <li><span class="fn-main">ポケモン <span class="fn-icon fn-plus" title="restore">＋</span> <span class="fn-c fn-green">HPの1/16</span></span><span class="fn-more">地上にいるとき</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発生</span></span><span class="fn-more">グラスメイカー、グラスフィールド(5ターン)、森林・花畑フィールド以外でのブルームシャインエクストラ(3ターン)</span></li>
-  <li><span class="fn-main"><span class="type-badge type-grass">くさ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">攻撃側が地上にいるとき</span></li>
-  <li><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">対象が地上にいるとき</span></li>
+  <li data-types="grass"><span class="fn-main"><span class="type-badge type-grass">くさ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">攻撃側が地上にいるとき</span></li>
+  <li data-types="fire"><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">対象が地上にいるとき</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> くさのけがわ</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">ようせいのかぜ、ぎんいろのかぜ</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span><span class="fn-more">じならし、じしん、マグニチュード、だくりゅう、なみのり</span></li>
@@ -120,7 +135,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-burning">燃えるフィールド</a></span>になる条件</span><span class="fn-more">あめやみずあそびがないときにふんか、ほのおのちかい、はじけるほのお、ねっぷう、やきつくす、ダイナミックフルフレイム、ふんえん、ビックリヘッド、かえんだんを使ったとき。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-corrosive">腐食フィールド</a></span>になる条件</span><span class="fn-more">アシッドポイズン、ヘドロウェーブを使ったとき。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> エナジーボール</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-grass">くさ</span></span></li>
+  <li data-types="grass"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-grass">くさ</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-sleep">ねむり</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">エレメンタルシード</span>が発動</span><span class="fn-more">ぼうぎょを上げ自分がねをはる状態になる</span></li>
 </ul>
@@ -137,8 +152,8 @@ permalink: /reborn/fields/
 <ul class="field-notes">
   <li><span class="fn-main">地上のポケモンは状態異常 <span class="fn-c fn-red">無効</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発生</span></span><span class="fn-more">かわらずのいしをもたないときミストメイカー、ミストフィールド(5ターン)、しろいきり(3ターン)で発生</span></li>
-  <li><span class="fn-main"><span class="type-badge type-dragon">ドラゴン</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-fairy">フェアリー</span> ポケモンのとくぼう <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="dragon"><span class="fn-main"><span class="type-badge type-dragon">ドラゴン</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
+  <li data-types="fairy"><span class="fn-main"><span class="type-badge type-fairy">フェアリー</span> ポケモンのとくぼう <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> ふしぎなうろこ</span></li>
   <li><span class="fn-main">かんそうはだ徐々に <span class="fn-c fn-green">HP回復</span></span></li>
   <li><span class="fn-main">フェアリースキン威力上昇 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">x1.5</span></span></li>
@@ -154,7 +169,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main"><span class="fn-c fn-red">使えない</span> 次のわざ</span><span class="fn-more">だいばくはつ、ビックリヘッド、じばく</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> みずがため条件つき</span><span class="fn-more">ポケモンが場に出たとき。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> ミストボール</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-fairy">フェアリー</span></span></li>
+  <li data-types="fairy"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-fairy">フェアリー</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> とくこう <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">エレメンタルシード</span>が発動</span><span class="fn-more">とくぼうを上げ自分がねがいごと状態になる</span></li>
 </ul>
@@ -172,8 +187,8 @@ permalink: /reborn/fields/
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span><span class="fn-more">ブラックホールイクリプス、プリズムレーザー</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">オーロラビーム、あくのはどう、マジカルシャイン、ダイヤストーム、はめつのねがい、ラスターカノン、ラスターパージ、ムーンライトブラスター、ミラーショット、シャドーレイ、ナイトバースト、つじぎり、フォトンゲイザー、パワージェム、シャドーボール、シャドーボーン、シャドークロー、シャドーダイブ、シャドーパンチ、かげうち、シグナルビーム、テクノバスター</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span><span class="fn-more">てんこがすめつぼうのひかり</span></li>
-  <li><span class="fn-main"><span class="type-badge type-dark">あく</span> ポケモンの耐久 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-ghost">ゴースト</span> ポケモンのぼうぎょ面 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="dark"><span class="fn-main"><span class="type-badge type-dark">あく</span> ポケモンの耐久 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="ghost"><span class="fn-main"><span class="type-badge type-ghost">ゴースト</span> ポケモンのぼうぎょ面 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">フラッシュの効果 <span class="fn-icon fn-up" title="boosted">↑</span></span></li>
   <li><span class="fn-main">ダークホールのめいちゅう <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">100</span></span></li>
   <li><span class="fn-main">つきのひかり回復 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">HPの75%</span></span></li>
@@ -185,7 +200,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">プリズムアーマー <span class="fn-icon fn-plus">＋</span> <span class="fn-c fn-green">全ダメージ</span> x0.75</span></li>
   <li><span class="fn-main">ファントムガード <span class="fn-icon fn-plus">＋</span> ダメージ <span class="fn-c fn-green">軽減</span></span><span class="fn-more">ファントムガードは効果抜群のダメージをすべて 25% 減らす。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> あくのはどう</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-dark">あく</span></span></li>
+  <li data-types="dark"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-dark">あく</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> めいちゅう <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">マジカルシード</span>が発動</span><span class="fn-more">とくぼうを上げ自分がマジックコート状態になる</span></li>
 </ul>
@@ -216,7 +231,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main"><span class="fn-c fn-orange">キング</span> - 全わざ <span class="fn-icon fn-plus" title="gain">＋</span> 優先度1</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-change" title="become">→</span> <span class="fn-c fn-orange">チェスこうげき</span></span><span class="fn-more">げんしのちから、ワールズエンドフォール、サイコキネシス、ひみつのちから、マキシマムサイブレイカー、かいりき</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">チェスわざ</span> <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="fn-c fn-orange">チェスわざ</span> <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-rock">いわ</span></span></li>
+  <li data-types="rock"><span class="fn-main"><span class="fn-c fn-orange">チェスわざ</span> <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-rock">いわ</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">チェスわざ</span> <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span> 条件つき</span><span class="fn-more">対象がどんかん、たんじゅん、てんねん、ぶきようをもつかこんらん状態のとき</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">チェスわざ</span> <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> 条件つき</span><span class="fn-more">対象がてきおうりょく、シンクロ、きけんよち、テレパシーをもつとき</span></li>
   <li><span class="fn-main">トリックルームが <span class="fn-c fn-green">8</span> ターン続く</span></li>
@@ -227,7 +242,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">キングシールド <span class="fn-icon fn-plus">＋</span> とくこう<span class="fn-c fn-green">低下</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">消える</span> 次のわざで</span><span class="fn-more">じだんだ、ライジングランドオーバー</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> げんしのちから</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-psychic">エスパー</span></span></li>
+  <li data-types="psychic"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-psychic">エスパー</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> ぼうぎょ <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">シンセティックシード</span>が発動</span><span class="fn-more">とくこうを上げ自分がマジックコート状態になる</span></li>
 </ul>
@@ -259,7 +274,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">みかづきのまい <span class="fn-icon fn-plus">＋</span> 全能力<span class="fn-c fn-green">上昇</span></span></li>
   <li><span class="fn-main">おどりこすばやさととくこう<span class="fn-c fn-green">上昇</span></span><span class="fn-more">そのターンにおどり系のわざを使ったとき。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> アクロバット</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-normal">ノーマル</span></span></li>
+  <li data-types="normal"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-normal">ノーマル</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> とくぼう <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">シンセティックシード</span>が発動</span><span class="fn-more">こうげきを上げ自分がてだすけ状態になる</span></li>
 </ul>
@@ -274,13 +289,13 @@ permalink: /reborn/fields/
 <p class="fn-flavor"><span class="fn-c fn-orange">「フィールドが燃えている!」</span></p>
 
 <ul class="field-notes">
-  <li><span class="fn-main">ターン終了時 <span class="type-badge type-fire">ほのお</span> <span class="fn-c fn-orange">ダメージ</span> 条件つき</span><span class="fn-more">地上にいてほのおタイプ以外のとき</span></li>
+  <li data-types="fire"><span class="fn-main">ターン終了時 <span class="type-badge type-fire">ほのお</span> <span class="fn-c fn-orange">ダメージ</span> 条件つき</span><span class="fn-more">地上にいてほのおタイプ以外のとき</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">無効</span> <span class="fn-c fn-orange">フィールドダメージ</span> 条件つき</span><span class="fn-more">アクアリング状態、またはつぎのとくせいがあるとき: ほのおのからだ、ねつぼうそう、もらいび、たいねつ、マグマのよろい、すいほう、みずのベール</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">フィールドダメージ</span> <span class="fn-icon fn-up" title="boosted">↑</span> 条件つき</span><span class="fn-more">つぎのとくせいがあるとき: もふもふ、くさのけがわ、アイスボディ、リーフガード</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発生</span> くさ <span class="fn-icon fn-plus" title="and">＋</span> ほのおのちかい</span><span class="fn-more">続けて使うと 4ターン。これらは発生後にフィールドの持続ターンを再設定できる。</span></li>
-  <li><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">攻撃側が地上にいるとき</span></li>
-  <li><span class="fn-main"><span class="type-badge type-grass">くさ</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> 条件</span><span class="fn-more">対象が地上にいるとき</span></li>
-  <li><span class="fn-main"><span class="type-badge type-ice">こおり</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
+  <li data-types="fire"><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">攻撃側が地上にいるとき</span></li>
+  <li data-types="grass"><span class="fn-main"><span class="type-badge type-grass">くさ</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> 条件</span><span class="fn-more">対象が地上にいるとき</span></li>
+  <li data-types="ice"><span class="fn-main"><span class="type-badge type-ice">こおり</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">消える</span> 次のわざで</span><span class="fn-more">ワールズエンドフォール、きりばらい、かぜおこし、ぼうふう、スーパーアクアトルネード、だくりゅう、わだつみのシンフォニア、かまいたち、すなじごく、ヘドロウェーブ、うたかたのアリア、ファイナルダイブクラッシュ、なみのり、おいかぜ、たつまき、みずのちかい、みずあそび、しおふき、ふきとばし</span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">消える</span> 砂あらしとあめで</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> 一部のとくせい</span><span class="fn-more">もうか、ねつぼうそう、もらいび</span></li>
@@ -288,12 +303,12 @@ permalink: /reborn/fields/
   <li><span class="fn-main">ポケモン <span class="fn-icon fn-change" title="are">→</span> <span class="fn-status fn-no">こおらない</span></span></li>
   <li><span class="fn-main">えんまくの効果 <span class="fn-icon fn-up" title="boosted">↑</span></span></li>
   <li><span class="fn-main">ほのおのうずのダメージ <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">HPの1/6</span></span></li>
-  <li><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-fire">ほのお</span></span><span class="fn-more">クリアスモッグ、うちおとす、スモッグ、サウザンアロー</span></li>
+  <li data-types="fire"><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-fire">ほのお</span></span><span class="fn-more">クリアスモッグ、うちおとす、スモッグ、サウザンアロー</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">クリアスモッグ、スモッグ</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span><span class="fn-more">うちおとす、サウザンアロー</span></li>
-  <li><span class="fn-main"><span class="fn-c fn-green">復活</span> <span class="type-badge type-fire">ほのお</span> もえつきる後</span></li>
+  <li data-types="fire"><span class="fn-main"><span class="fn-c fn-green">復活</span> <span class="type-badge type-fire">ほのお</span> もえつきる後</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> かえんほうしゃ</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-fire">ほのお</span></span></li>
+  <li data-types="fire"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-fire">ほのお</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-burn">やけど</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">エレメンタルシード</span>が発動</span><span class="fn-more">こうげき・とくこう・すばやさを上げるが自分がほのおのうず状態になる</span></li>
 </ul>
@@ -314,10 +329,10 @@ permalink: /reborn/fields/
   <li><span class="fn-main">ねをはる自分に <span class="fn-c fn-red">ダメージ</span> ただし</span><span class="fn-more">ただしどく・はがねタイプをのぞく。</span></li>
   <li><span class="fn-main">かんそうはだ徐々に <span class="fn-c fn-green">HP回復</span></span></li>
   <li><span class="fn-main">アクアリングの回復 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">1/8 HP</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-poison">どく</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">対象が地上にいるとき</span></li>
+  <li data-types="poison"><span class="fn-main"><span class="type-badge type-poison">どく</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">対象が地上にいるとき</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">しおみず、ダストシュート、スーパーアクアトルネード、どろばくだん、マッドショット、どろかけ、だくりゅう、ヘドロウェーブ、うちおとす、なみのり、サウザンアロー</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.25</span></span><span class="fn-more">じならし、じしん、マグニチュード</span></li>
-  <li><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-water">みず</span></span><span class="fn-more">うちおとす、サウザンアロー</span></li>
+  <li data-types="water"><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-water">みず</span></span><span class="fn-more">うちおとす、サウザンアロー</span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">使えない</span> 次のわざ</span><span class="fn-more">だいばくはつ、ビックリヘッド、じばく</span></li>
   <li><span class="fn-main">ねむりごなのめいちゅう <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">100</span></span></li>
   <li><span class="fn-main"><span class="fn-status fn-sleep">ねむり</span> ポケモンは毎ターン <span class="fn-c fn-red">ダメージ</span></span></li>
@@ -325,7 +340,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> みずがため条件つき</span><span class="fn-more">地上にいるとき毎ターン</span></li>
   <li><span class="fn-main">ちからをすいとるの回復 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">30%</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> だくりゅう</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-water">みず</span></span></li>
+  <li data-types="water"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-water">みず</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> すばやさ <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">テルリックシード</span>が発動</span><span class="fn-more">ぼうぎょととくぼうを上げ自分がねをはる状態になる</span></li>
 </ul>
@@ -346,8 +361,8 @@ permalink: /reborn/fields/
   <li><span class="fn-main">ノーてんき徐々にランダムな能力<span class="fn-c fn-green">上昇</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> ふしぎなうろこ</span></li>
   <li><span class="fn-main">ミラクルスキンがつねに <span class="fn-c fn-green">発動</span></span></li>
-  <li><span class="fn-main">特殊の <span class="type-badge type-normal">ノーマル</span> こうげき <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main">特殊の <span class="type-badge type-normal">ノーマル</span> こうげき <span class="fn-icon fn-plus" title="gain">＋</span> <span class="type-badge type-qmarks">???</span></span><span class="fn-more">とくしゅのノーマルわざはランダムなタイプになる。</span></li>
+  <li data-types="normal"><span class="fn-main">特殊の <span class="type-badge type-normal">ノーマル</span> こうげき <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="normal qmarks"><span class="fn-main">特殊の <span class="type-badge type-normal">ノーマル</span> こうげき <span class="fn-icon fn-plus" title="gain">＋</span> <span class="type-badge type-qmarks">???</span></span><span class="fn-more">とくしゅのノーマルわざはランダムなタイプになる。</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">オーロラビーム、マジカルシャイン、りゅうのはどう、ほのおのちかい、フルールカノン、くさのちかい、ハートスタンプ、めざめるパワー、さばきのつぶて、ミストボール、ムーンフォース、マジカルフレイム、わだつみのシンフォニア、プリズムレーザー、いにしえのうた、せいなるほのお、ひみつのちから、ぎんいろのかぜ、ソーラービーム、ソーラーブレード、うたかたのアリア、トライアタック、ラブリースターインパクト、みずのちかい、ウェザーボール、しねんのずつき</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span><span class="fn-more">あくのはどう、むげんあんやへのいざない、ナイトバースト、シャドーボール</span></li>
   <li><span class="fn-main">一部の能力変化わざの効果 <span class="fn-icon fn-up" title="boosted">↑</span> <span class="fn-c fn-green">+1</span></span><span class="fn-more">コスモパワー、ヨガのポーズ</span></li>
@@ -361,7 +376,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">ソウルハート <span class="fn-icon fn-plus">＋</span> <span class="fn-c fn-green">とくぼう上昇</span></span></li>
   <li><span class="fn-main">プリズムアーマー <span class="fn-icon fn-plus">＋</span> <span class="fn-c fn-green">全ダメージ</span> x0.75</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> オーロラビーム</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-dragon">ドラゴン</span></span></li>
+  <li data-types="dragon"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-dragon">ドラゴン</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-allstat">状態異常</span> <span class="fn-status fn-sleep">ねむり</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">マジカルシード</span>が発動</span><span class="fn-more">とくこうを上げ自分がねがいごと状態になる</span></li>
 </ul>
@@ -376,13 +391,13 @@ permalink: /reborn/fields/
 <p class="fn-flavor"><span class="fn-c fn-orange">「フィールドがおかされている!」</span></p>
 
 <ul class="field-notes">
-  <li><span class="fn-main"><span class="type-badge type-poison">どく</span> の<span class="fn-c fn-orange">設置ダメージ</span>を与える条件つき</span><span class="fn-more">地上にいるとき</span></li>
+  <li data-types="poison"><span class="fn-main"><span class="type-badge type-poison">どく</span> の<span class="fn-c fn-orange">設置ダメージ</span>を与える条件つき</span><span class="fn-more">地上にいるとき</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">設置ダメージ</span> なし</span><span class="fn-more">どく・はがねタイプまたはつぎのとくせいがあるとき: めんえき、ポイズンヒール、どくぼうそう、ふしぎなまもり</span></li>
   <li><span class="fn-main">ねをはる自分に <span class="fn-c fn-red">ダメージ</span> ただし</span><span class="fn-more">ただしどく・はがねタイプをのぞく。</span></li>
   <li><span class="fn-main">くさのけがわ自分に <span class="fn-c fn-red">ダメージ</span> ただし</span><span class="fn-more">ただしどく・はがねタイプをのぞく。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> 一部のとくせい条件つき</span><span class="fn-more">地上にいるときポイズンヒール、どくぼうそう、ひとでなしが発動</span></li>
-  <li><span class="fn-main"><span class="type-badge type-grass">くさ</span> わざに <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-poison">どく</span></span></li>
-  <li><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-poison">どく</span></span><span class="fn-more">どろばくだん、マッドショット、どろかけ、だくりゅう、うちおとす、サウザンアロー、うずしお</span></li>
+  <li data-types="grass poison"><span class="fn-main"><span class="type-badge type-grass">くさ</span> わざに <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-poison">どく</span></span></li>
+  <li data-types="poison"><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-poison">どく</span></span><span class="fn-more">どろばくだん、マッドショット、どろかけ、だくりゅう、うちおとす、サウザンアロー、うずしお</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">どろばくだん、マッドショット、どろかけ、だくりゅう、うちおとす、サウザンアロー、うずしお</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span><span class="fn-more">ようかいえき、アシッドボム、くさむすび</span></li>
   <li><span class="fn-main">とけるの効果 <span class="fn-icon fn-up" title="boosted">↑</span></span></li>
@@ -395,7 +410,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">腐食ダメージ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">フラワーヒール <span class="fn-icon fn-plus" title="additionally inflicts the">＋</span> <span class="fn-status fn-poison">どく</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> アシッドボム</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-poison">どく</span></span></li>
+  <li data-types="poison"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-poison">どく</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-poison">どく</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">テルリックシード</span>が発動</span><span class="fn-more">自分がトーチカ状態になる</span></li>
 </ul>
@@ -414,7 +429,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">アクアリングはつかいてに <span class="fn-c fn-red">ダメージ</span></span><span class="fn-more">ただしどく・はがねタイプをのぞく。</span></li>
   <li><span class="fn-main">かんそうはだ自分に <span class="fn-c fn-red">ダメージ</span> ただし</span><span class="fn-more">ただしはがねタイプをのぞく。どくタイプはかわりに回復する。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> 一部のとくせい</span><span class="fn-more">ポイズンヒール、どくぼうそう、ひとでなし</span></li>
-  <li><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-poison">どく</span></span><span class="fn-more">ひこうの特殊わざすべて、あわ、バブルこうせん、エナジーボール、うたかたのアリア</span></li>
+  <li data-types="poison"><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-poison">どく</span></span><span class="fn-more">ひこうの特殊わざすべて、あわ、バブルこうせん、エナジーボール、うたかたのアリア</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">アシッドボム、あわ、バブルこうせん、クリアスモッグ、スモッグ、うたかたのアリア</span></li>
   <li><span class="fn-main">とけるの効果 <span class="fn-icon fn-up" title="boosted">↑</span> <span class="fn-c fn-green">+1</span></span></li>
   <li><span class="fn-main">えんまくの効果 <span class="fn-icon fn-up" title="boosted">↑</span> <span class="fn-c fn-green">+1</span></span></li>
@@ -422,7 +437,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> ベノムショック</span></li>
   <li><span class="fn-main">どくどくのめいちゅう <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">100</span></span></li>
   <li><span class="fn-main">ゆうばくのダメージ <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">50% HP</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="fire"><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">腐食ダメージ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">フラワーヒール <span class="fn-icon fn-plus" title="additionally inflicts the">＋</span> <span class="fn-status fn-poison">どく</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">消える</span> 次のわざで</span><span class="fn-more">きりばらい、ふんか、だいばくはつ、ほのおのちかい、はじけるほのお、かぜおこし、ねっぷう、ぼうふう、やきつくす、ダイナミックフルフレイム、ふんえん、ビックリヘッド、かまいたち、かえんだん、じばく、ファイナルダイブクラッシュ、おいかぜ、たつまき、ふきとばし</span></li>
@@ -430,7 +445,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-corrosive">腐食フィールド</a></span>になる条件</span><span class="fn-more">じゅうりょくを使ったとき。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-misty">ミストフィールド</a></span>になる条件</span><span class="fn-more">シードフレアを使ったとき。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> ベノムショック</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-poison">どく</span></span></li>
+  <li data-types="poison"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-poison">どく</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-poison">どく</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">エレメンタルシード</span>が発動</span><span class="fn-more">こうげきととくこうを上げるが自分はもうどく状態になる</span></li>
 </ul>
@@ -445,18 +460,18 @@ permalink: /reborn/fields/
 <p class="fn-flavor"><span class="fn-c fn-orange">「フィールドは砂だらけだ」</span></p>
 
 <ul class="field-notes">
-  <li><span class="fn-main"><span class="type-badge type-ground">じめん</span> ポケモンのとくぼう <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="ground"><span class="fn-main"><span class="type-badge type-ground">じめん</span> ポケモンのとくぼう <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> 一部のとくせい</span><span class="fn-more">すなのちから、すなかき、すながくれ</span></li>
   <li><span class="fn-main">晴れとすなあらしが <span class="fn-c fn-green">8</span> ターン続く</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">もえつきる、あなをほる、ねっぷう、ニードルアーム、ミサイルばり、すなじごく、サンシャインスマッシャー、ソーラービーム、ソーラーブレード、サウザンウェーブ</span></li>
   <li><span class="fn-main">すなかけの効果 <span class="fn-icon fn-up" title="boosted">↑</span></span></li>
   <li><span class="fn-main">かんそうはだ自分に <span class="fn-c fn-red">ダメージ</span></span></li>
   <li><span class="fn-main">すなじごくダメージ <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">HPの1/6</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> 条件</span><span class="fn-more">攻撃側が地上にいるとき</span></li>
-  <li><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> 条件つき</span><span class="fn-more">対象が地上にいるとき</span></li>
+  <li data-types="water"><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> 条件</span><span class="fn-more">攻撃側が地上にいるとき</span></li>
+  <li data-types="electric"><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> 条件つき</span><span class="fn-more">対象が地上にいるとき</span></li>
   <li><span class="fn-main">すなあつめ回復 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">HPの66%</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> すなじごく</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-ground">じめん</span></span></li>
+  <li data-types="ground"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-ground">じめん</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> めいちゅう <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">テルリックシード</span>が発動</span><span class="fn-more">ぼうぎょ・とくぼう・すばやさを上げるが自分がすなじごく状態になる</span></li>
 </ul>
@@ -472,11 +487,11 @@ permalink: /reborn/fields/
 
 <ul class="field-notes">
   <li><span class="fn-main">一部のわざすばやさ<span class="fn-c fn-green">上昇</span> 条件つき</span><span class="fn-more">攻撃側が地上にいるときつぎのわざはすばやさを上げる: 接触する物理の先制わざすべて、まるくなる、フェイント、とびかかる、アイスボール、ころがる、ハードローラー</span></li>
-  <li><span class="fn-main"><span class="type-badge type-ice">こおり</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
+  <li data-types="ice"><span class="fn-main"><span class="type-badge type-ice">こおり</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="fire"><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span><span class="fn-more">ねっとう、スチームバースト</span></li>
-  <li><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざに <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-ice">こおり</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-ice">こおり</span> ポケモンのぼうぎょ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">あられがふっているとき。</span></li>
+  <li data-types="rock ice"><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざに <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-ice">こおり</span></span></li>
+  <li data-types="ice"><span class="fn-main"><span class="type-badge type-ice">こおり</span> ポケモンのぼうぎょ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">あられがふっているとき。</span></li>
   <li><span class="fn-main"><span class="fn-status fn-burn">やけど</span> ダメージ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-watersurface">水面</a></span>になる条件</span><span class="fn-more">ふんか、ほのおのちかい、はじけるほのお、ねっぷう、やきつくす、ダイナミックフルフレイム、ふんえん、ビックリヘッド、かえんだんを使ったときまたは氷の下がすでに水面でじならし、じしん、じわれ、マグニチュード、ランドオーバーを使ったとき。ねっとうやスチームバーストを 2回使っても水面になる。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">生成</span> まきびし条件つき</span><span class="fn-more">氷の下が水面でないときにつぎのわざを使うと: じならし、じしん、じわれ、マグニチュード、ライジングランドオーバー</span></li>
@@ -484,9 +499,9 @@ permalink: /reborn/fields/
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> 一部のとくせい</span><span class="fn-more">アイスボディ、ゆきがくれ、ゆきかき</span></li>
   <li><span class="fn-main">フリーズスキン威力上昇 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">使える</span> オーロラベール</span></li>
-  <li><span class="fn-main">うるおいボイス <span class="fn-icon fn-change" title="type change becomes">→</span> <span class="type-badge type-ice">こおり</span></span></li>
+  <li data-types="ice"><span class="fn-main">うるおいボイス <span class="fn-icon fn-change" title="type change becomes">→</span> <span class="type-badge type-ice">こおり</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> れいとうビーム</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-ice">こおり</span></span></li>
+  <li data-types="ice"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-ice">こおり</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-freeze">こおり</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">エレメンタルシード</span>が発動</span><span class="fn-more">すばやさを 2段階上げるが自分はまきびしのダメージを受ける</span></li>
 </ul>
@@ -506,14 +521,14 @@ permalink: /reborn/fields/
   <li><span class="fn-main">ステルスロックのダメージ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
   <li><span class="fn-main">ひるんだポケモンは <span class="fn-c fn-orange">反動</span>ダメージ</span><span class="fn-more">ただしふくつのこころやがんじょうがあるときをのぞく。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">防ぐ</span> ひるみ条件つき</span><span class="fn-more">ぼうぎょが上がったとき。</span></li>
-  <li><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-rock">いわ</span></span><span class="fn-more">じならし、じしん、マグニチュード、ロッククライム、かいりき</span></li>
+  <li data-types="rock"><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-rock">いわ</span></span><span class="fn-more">じならし、じしん、マグニチュード、ロッククライム、かいりき</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">アクセルロック、じならし、じしん、マグニチュード、ロッククライム、かいりき</span></li>
-  <li><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="rock"><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">いわくだき <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
   <li><span class="fn-main">ロックカットの効果 <span class="fn-icon fn-up" title="boosted">↑</span></span></li>
   <li><span class="fn-main">えんかくのめいちゅう <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.9</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> いわくだき</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-rock">いわ</span></span></li>
+  <li data-types="rock"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-rock">いわ</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> ひるみ</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">テルリックシード</span>が発動</span><span class="fn-more">ぼうぎょを上げるが自分はステルスロックのダメージを受ける</span></li>
 </ul>
@@ -530,10 +545,10 @@ permalink: /reborn/fields/
 <ul class="field-notes">
   <li><span class="fn-main">ほうしの確率 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> 一部のとくせい</span><span class="fn-more">くさのけがわ、リーフガード、しんりょく、むしのしらせ</span></li>
-  <li><span class="fn-main"><span class="type-badge type-grass">くさ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main">特殊の <span class="type-badge type-bug">むし</span> こうげき <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="grass"><span class="fn-main"><span class="type-badge type-grass">くさ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="bug"><span class="fn-main">特殊の <span class="type-badge type-bug">むし</span> こうげき <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">こうげきしれい、いあいぎり、エレキネット</span></li>
-  <li><span class="fn-main">いあいぎり <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span> 対 <span class="type-badge type-grass">くさ</span></span></li>
+  <li data-types="grass"><span class="fn-main">いあいぎり <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span> 対 <span class="type-badge type-grass">くさ</span></span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span><span class="fn-more">だくりゅう、なみのり</span></li>
   <li><span class="fn-main">そうしょくはじょじょに <span class="fn-c fn-green">HP回復</span></span></li>
   <li><span class="fn-main">ねをはるの回復 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
@@ -547,7 +562,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">もりののろい <span class="fn-icon fn-plus" title="additionally inflicts the">＋</span> のろいの効果</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-burning">燃えるフィールド</a></span>になる条件</span><span class="fn-more">あめやみずあそびがないときにふんか、ほのおのちかい、はじけるほのお、ねっぷう、やきつくす、ダイナミックフルフレイム、ふんえん、ビックリヘッド、かえんだんを使ったとき。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> ウッドハンマー</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-grass">くさ</span></span></li>
+  <li data-types="grass"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-grass">くさ</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-sleep">ねむり</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">テルリックシード</span>が発動</span><span class="fn-more">自分がニードルガード状態になる</span></li>
 </ul>
@@ -562,9 +577,9 @@ permalink: /reborn/fields/
 <p class="fn-flavor"><span class="fn-c fn-orange">「フィールドが超高温だ!」</span></p>
 
 <ul class="field-notes">
-  <li><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.1</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-ice">こおり</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.9</span></span></li>
+  <li data-types="fire"><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.1</span></span></li>
+  <li data-types="ice"><span class="fn-main"><span class="type-badge type-ice">こおり</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
+  <li data-types="water"><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.9</span></span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span><span class="fn-more">スーパーアクアトルネード、だくりゅう、わだつみのシンフォニア、うたかたのアリア、なみのり、みずのちかい、しおふき</span></li>
   <li><span class="fn-main">一部のわざが <span class="fn-c fn-orange">蒸気</span>を発生</span><span class="fn-more">スーパーアクアトルネード、だくりゅう、わだつみのシンフォニア、うたかたのアリア、なみのり、みずのちかい、しおふきは蒸気を生み場の全ポケモンの命中率を下げる。</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">ねっとう、スチームバースト</span></li>
@@ -573,7 +588,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">あられは <span class="fn-c fn-red">消える</span></span></li>
   <li><span class="fn-main">わざは <span class="fn-c fn-red">1</span> ターン後に疲労</span><span class="fn-more">げきりん、はなびらのまい、あばれるに適用</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> ねっぷう</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-fire">ほのお</span></span></li>
+  <li data-types="fire"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-fire">ほのお</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-burn">やけど</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">テルリックシード</span>が発動</span><span class="fn-more">ぼうぎょを上げ自分がトラップシェル状態になる</span></li>
 </ul>
@@ -588,7 +603,7 @@ permalink: /reborn/fields/
 <p class="fn-flavor"><span class="fn-c fn-orange">「機械のうなりが響いている」</span></p>
 
 <ul class="field-notes">
-  <li><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="electric"><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">でんきエンジン上昇 <span class="fn-icon fn-up" title="increased to">↑</span> <span class="fn-c fn-green">x2</span></span></li>
   <li><span class="fn-main">ダウンロードの上昇 <span class="fn-icon fn-up" title="increased to">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">テクニシャンが威力 <span class="fn-c fn-green">80</span> まで適用</span></li>
@@ -601,7 +616,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">エレキスキンの威力上昇 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">はがねつかいの威力上昇 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">x2</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> ギアソーサー</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-steel">はがね</span></span></li>
+  <li data-types="steel"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-steel">はがね</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> こうげき <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">シンセティックシード</span>が発動</span><span class="fn-more">とくこうを上げ自分がとぎすます状態になる</span></li>
 </ul>
@@ -619,20 +634,20 @@ permalink: /reborn/fields/
   <li><span class="fn-main">せいでんきの発動率 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
   <li><span class="fn-main">ちくでんが少しずつ <span class="fn-c fn-green">HP回復</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> プラスとマイナス</span></li>
-  <li><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-change" title="inflict">→</span> ダメージ変動</span><span class="fn-more">ダメージ倍率は決まったくり返しの順で x0.5から x2のあいだになる。</span></li>
+  <li data-types="electric"><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-change" title="inflict">→</span> ダメージ変動</span><span class="fn-more">ダメージ倍率は決まったくり返しの順で x0.5から x2のあいだになる。</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.3</span></span><span class="fn-more">あくのはどう、ナイトバースト、つじぎり、シャドーボール、シャドーボーン、シャドークロー、シャドーダイブ、シャドーパンチ、かげうち</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">マジカルシャイン、ラスターカノン、ギアソーサー、ジャイロボール、スーパーアクアトルネード、マグネットボム、だくりゅう、なみのり</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span><span class="fn-more">てんこがすめつぼうのひかり</span></li>
-  <li><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-electric">でんき</span></span><span class="fn-more">ラスターカノン、ギアソーサー、ジャイロボール、マグネットボム、だくりゅう、なみのり</span></li>
+  <li data-types="electric"><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-electric">でんき</span></span><span class="fn-more">ラスターカノン、ギアソーサー、ジャイロボール、マグネットボム、だくりゅう、なみのり</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-factory">工場フィールド</a></span>になる条件</span><span class="fn-more">チャージビーム、ほうでん、ギガボルト、プラズマシャワー、パラボラチャージ、ワイルドボルトを使ったとき。</span></li>
   <li><span class="fn-main">一部の能力変化わざの効果 <span class="fn-icon fn-up" title="boosted">↑</span> <span class="fn-c fn-green">+1</span></span><span class="fn-more">フラッシュ、きんぞくおん</span></li>
   <li><span class="fn-main">でんじほうのめいちゅう <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">80</span></span></li>
   <li><span class="fn-main">でんじふゆうは <span class="fn-c fn-green">8</span> ターンつづく</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> サーフテール</span></li>
   <li><span class="fn-main">エレキスキンの威力上昇 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">x2</span></span></li>
-  <li><span class="fn-main">はがねつかい <span class="fn-icon fn-plus" title="additionally works with the">＋</span> <span class="type-badge type-electric">でんき</span></span></li>
+  <li data-types="electric"><span class="fn-main">はがねつかい <span class="fn-icon fn-plus" title="additionally works with the">＋</span> <span class="type-badge type-electric">でんき</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> ほうでん</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-electric">でんき</span></span></li>
+  <li data-types="electric"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-electric">でんき</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-paralyze">まひ</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">シンセティックシード</span>が発動</span><span class="fn-more">とくぼうを上げ自分がでんじふゆう状態になる</span></li>
 </ul>
@@ -651,7 +666,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.2</span></span><span class="fn-more">ダストシュート、オクタンほう、ヘドロこうげき、ヘドロばくだん、ヘドロウェーブ</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">どろばくだん、マッドショット、どろかけ、パワーウィップ、つるのムチ</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.25</span></span><span class="fn-more">じならし、じしん、マグニチュード</span></li>
-  <li><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-poison">どく</span></span><span class="fn-more">どろばくだん、マッドショット、どろかけ</span></li>
+  <li data-types="poison"><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-poison">どく</span></span><span class="fn-more">どろばくだん、マッドショット、どろかけ</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="inflict a">＋</span> <span class="fn-status fn-allstat">状態異常</span></span><span class="fn-more">アシッドポイズンデリート、ダストシュート、オクタンほう、ヘドロこうげき、ヘドロばくだん、ヘドロウェーブはランダムな状態異常にする。ただし対象がどく・はがねタイプ、またはつぎのとくせいのときを除く: めんえき、ポイズンヒール、どくぼうそう</span></li>
   <li><span class="fn-main">一部のとくせいの確率 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span><span class="fn-more">ほうし、どくのトゲ、あくしゅう</span></li>
   <li><span class="fn-main">ヘドロえきのダメージ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
@@ -663,7 +678,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">やどりぎのタネの効果 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
   <li><span class="fn-main">腐食わざ <span class="fn-icon fn-plus" title="additionally inflict a">＋</span> <span class="fn-status fn-allstat">状態異常</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> ダストシュート</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-poison">どく</span></span></li>
+  <li data-types="poison"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-poison">どく</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-allstat">状態異常</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">テルリックシード</span>が発動</span><span class="fn-more">こうげきととくこうを上げ両方の場にステルスロックをまく</span></li>
 </ul>
@@ -679,7 +694,7 @@ permalink: /reborn/fields/
 
 <ul class="field-notes">
   <li><span class="fn-main">一部のわざは <span class="fn-c fn-orange">灰</span>を巻き上げる</span><span class="fn-more">ひこうの特殊わざすべてとほのおのうず、グラスミキサー、かまいたち、たつまき、うずしおは灰を巻き上げ場の全ポケモンの命中率を下げる</span></li>
-  <li><span class="fn-main"><span class="type-badge type-fighting">かくとう</span> ポケモンまたは</span><span class="fn-more">せいしんりょくはこんらん状態にならない</span></li>
+  <li data-types="fighting"><span class="fn-main"><span class="type-badge type-fighting">かくとう</span> ポケモンまたは</span><span class="fn-more">せいしんりょくはこんらん状態にならない</span></li>
   <li><span class="fn-main">めいちゅう/回避率 <span class="fn-c fn-red">無視</span> 条件</span><span class="fn-more">対象がきんちょうかんでなくつぎのとくせいがあるとき: せいしんりょく、マイペース、ヨガパワー、すながくれ、ふくつのこころ</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> 一部のとくせい</span><span class="fn-more">すなのちから、すなかき、すながくれ</span></li>
   <li><span class="fn-main">ダルマモードが <span class="fn-c fn-green">つねに発動</span></span></li>
@@ -691,14 +706,14 @@ permalink: /reborn/fields/
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">ブレイジングソウルビート、めざめるパワー、グランドフォース、だくりゅう、かいりき、なみのり、サウザンウェーブ</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.3</span></span><span class="fn-more">はどうだん、きあいだま、アシストパワー、しねんのずつき</span></li>
   <li><span class="fn-main">サイコキネシス <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.2</span></span></li>
-  <li><span class="fn-main">かいりき <span class="fn-icon fn-change">→</span> <span class="type-badge type-fighting">かくとう</span>/<span class="type-badge type-psychic">エスパー</span></span></li>
+  <li data-types="fighting psychic"><span class="fn-main">かいりき <span class="fn-icon fn-change">→</span> <span class="type-badge type-fighting">かくとう</span>/<span class="type-badge type-psychic">エスパー</span></span></li>
   <li><span class="fn-main">すなじごく <span class="fn-icon fn-plus">＋</span> めいちゅう <span class="fn-c fn-green">低下</span></span></li>
   <li><span class="fn-main">みずがため <span class="fn-icon fn-plus">＋</span> <span class="fn-c fn-green">とくぼう上昇</span></span></li>
   <li><span class="fn-main">きあいだまのめいちゅう <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">90</span></span></li>
   <li><span class="fn-main">すなあつめ回復 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">HPの100%</span></span></li>
   <li><span class="fn-main">かいがらのすず回復 <span class="fn-icon fn-change">→</span> ダメージの <span class="fn-c fn-green">25%</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> ヨガのポーズ</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-ground">じめん</span></span></li>
+  <li data-types="ground"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-ground">じめん</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> めいちゅう <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">テルリックシード</span>が発動</span><span class="fn-more">自分がきあいだめ状態になる</span></li>
 </ul>
@@ -713,8 +728,8 @@ permalink: /reborn/fields/
 <p class="fn-flavor"><span class="fn-c fn-orange">「水面はおだやかだ」</span></p>
 
 <ul class="field-notes">
-  <li><span class="fn-main">すばやさ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.75</span> ただし <span class="type-badge type-water">みず</span> か</span><span class="fn-more">ただしみずタイプ、空中、またはサーフテールやすいすいがあるときをのぞく。</span></li>
-  <li><span class="fn-main"><span class="fn-c fn-red">無効</span> <span class="type-badge type-ground">じめん</span> わざ</span></li>
+  <li data-types="water"><span class="fn-main">すばやさ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.75</span> ただし <span class="type-badge type-water">みず</span> か</span><span class="fn-more">ただしみずタイプ、空中、またはサーフテールやすいすいがあるときをのぞく。</span></li>
+  <li data-types="ground"><span class="fn-main"><span class="fn-c fn-red">無効</span> <span class="type-badge type-ground">じめん</span> わざ</span></li>
   <li><span class="fn-main">まきびし/どくびしを <span class="fn-c fn-red">消す</span></span></li>
   <li><span class="fn-main">ダイビングは <span class="fn-c fn-green">1</span> ターンつづく</span></li>
   <li><span class="fn-main">みずのベール <span class="fn-icon fn-plus">＋</span> <span class="fn-c fn-green">状態異常回復</span></span></li>
@@ -722,19 +737,19 @@ permalink: /reborn/fields/
   <li><span class="fn-main">はねる <span class="fn-icon fn-plus">＋</span> <span class="fn-c fn-green">めいちゅう低下</span></span></li>
   <li><span class="fn-main">アクアリングの回復 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">1/8 HP</span></span></li>
   <li><span class="fn-main">一部のとくせいで <span class="fn-c fn-green">HP回復</span></span><span class="fn-more">かんそうはだ、ちょすい</span></li>
-  <li><span class="fn-main">すなあつめ <span class="fn-icon fn-change">→</span> <span class="type-badge type-water">みず</span></span></li>
+  <li data-types="water"><span class="fn-main">すなあつめ <span class="fn-icon fn-change">→</span> <span class="type-badge type-water">みず</span></span></li>
   <li><span class="fn-main">すなあつめはみずがためを <span class="fn-c fn-green">発動</span></span></li>
   <li><span class="fn-main">うずしおのダメージ <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">1/6 HP</span></span></li>
   <li><span class="fn-main">うずしお <span class="fn-icon fn-plus">＋</span> 相手をこんらん</span></li>
-  <li><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">対象が地上にいるとき</span></li>
-  <li><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> 条件</span><span class="fn-more">対象が地上にいるとき</span></li>
+  <li data-types="water"><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="electric"><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">対象が地上にいるとき</span></li>
+  <li data-types="fire"><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> 条件</span><span class="fn-more">対象が地上にいるとき</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">ダイビング、スーパーアクアトルネード、だくりゅう、なみのり、うずしお</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-underwater">水中</a></span>になる条件</span><span class="fn-more">ダイビング、じゅうりょくを使ったとき。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-icy">氷のフィールド</a></span>になる条件</span><span class="fn-more">ふぶき、こごえるせかい、ジオフリーズを使ったとき。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-murkwatersurface">濁った水面</a></span>になる条件</span><span class="fn-more">アシッドポイズンを使うかヘドロウェーブを 2回使ったとき。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> うずしお</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-water">みず</span></span></li>
+  <li data-types="water"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-water">みず</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> すばやさ <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">エレメンタルシード</span>が発動</span><span class="fn-more">とくぼうを上げ自分がアクアリング状態になる</span></li>
 </ul>
@@ -749,14 +764,14 @@ permalink: /reborn/fields/
 <p class="fn-flavor"><span class="fn-c fn-orange">「ブクブク……」</span></p>
 
 <ul class="field-notes">
-  <li><span class="fn-main">すばやさ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> ただし <span class="type-badge type-water">みず</span> か</span><span class="fn-more">ただしみずタイプ、またはすいすいやはがねつかいがあるときをのぞく。</span></li>
-  <li><span class="fn-main"><span class="fn-c fn-red">無効</span> <span class="type-badge type-fire">ほのお</span> わざ</span></li>
+  <li data-types="water"><span class="fn-main">すばやさ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> ただし <span class="type-badge type-water">みず</span> か</span><span class="fn-more">ただしみずタイプ、またはすいすいやはがねつかいがあるときをのぞく。</span></li>
+  <li data-types="fire"><span class="fn-main"><span class="fn-c fn-red">無効</span> <span class="type-badge type-fire">ほのお</span> わざ</span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">無効</span> すべての天気</span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">無効</span> フィールドの生成</span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">無効</span> フィールドの消去</span></li>
-  <li><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-change" title="change to">→</span> x1 対 <span class="type-badge type-water">みず</span></span></li>
+  <li data-types="water"><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-change" title="change to">→</span> x1 対 <span class="type-badge type-water">みず</span></span></li>
   <li><span class="fn-main">物理ダメージ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> ただし</span><span class="fn-more">ただしわざがみずタイプまたは自分にはがねつかいやすいすいがあるときをのぞく。</span></li>
-  <li><span class="fn-main">ターン終了時 <span class="type-badge type-water">みず</span> <span class="fn-c fn-orange">ダメージ</span> 条件つき</span><span class="fn-more">ポケモンがみずタイプに弱くすいすいをもたないとき。</span></li>
+  <li data-types="water"><span class="fn-main">ターン終了時 <span class="type-badge type-water">みず</span> <span class="fn-c fn-orange">ダメージ</span> 条件つき</span><span class="fn-more">ポケモンがみずタイプに弱くすいすいをもたないとき。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">フィールドダメージ</span> <span class="fn-icon fn-redup">↑</span> 条件つき</span><span class="fn-more">とくせいマグマのよろいまたはほのおのからだがあるとき</span></li>
   <li><span class="fn-main">ダイビングは <span class="fn-c fn-green">1</span> ターンつづく</span></li>
   <li><span class="fn-main">みずのベール <span class="fn-icon fn-plus">＋</span> <span class="fn-c fn-green">状態異常回復</span></span></li>
@@ -765,16 +780,16 @@ permalink: /reborn/fields/
   <li><span class="fn-main">一部のとくせいで <span class="fn-c fn-green">HP回復</span></span><span class="fn-more">かんそうはだ、ちょすい</span></li>
   <li><span class="fn-main">うずしおのダメージ <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">1/6 HP</span></span></li>
   <li><span class="fn-main">うずしお <span class="fn-icon fn-plus">＋</span> 相手をこんらん</span></li>
-  <li><span class="fn-main"><span class="type-badge type-ground">じめん</span> わざに <span class="fn-icon fn-plus" title="gain">＋</span> <span class="type-badge type-water">みず</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-plus">＋</span> <span class="fn-c fn-green">必中</span></span></li>
+  <li data-types="ground water"><span class="fn-main"><span class="type-badge type-ground">じめん</span> わざに <span class="fn-icon fn-plus" title="gain">＋</span> <span class="type-badge type-water">みず</span></span></li>
+  <li data-types="water"><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="electric"><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
+  <li data-types="electric"><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-plus">＋</span> <span class="fn-c fn-green">必中</span></span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">みずのはどう</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span><span class="fn-more">アンカーショット</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-watersurface">水面</a></span>になる条件</span><span class="fn-more">とびはねる、ダイビング、そらをとぶ、フリーフォールを使ったとき。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-murkwatersurface">濁った水面</a></span>になる条件</span><span class="fn-more">アシッドポイズンを使うかヘドロウェーブを 2回使ったときどく・はがね以外のポケモンはすべてひんしになる。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> みずのはどう</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-water">みず</span></span></li>
+  <li data-types="water"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-water">みず</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> こうげき <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">エレメンタルシード</span>が発動</span><span class="fn-more">すばやさを上げ自分がみずびたし状態になる</span></li>
 </ul>
@@ -789,18 +804,18 @@ permalink: /reborn/fields/
 <p class="fn-flavor"><span class="fn-c fn-orange">「どうくつに鈍い音が響く……」</span></p>
 
 <ul class="field-notes">
-  <li><span class="fn-main"><span class="type-badge type-ground">じめん</span> わざは <span class="type-badge type-flying">ひこう</span>/ふゆうにも命中</span></li>
+  <li data-types="ground flying"><span class="fn-main"><span class="type-badge type-ground">じめん</span> わざは <span class="type-badge type-flying">ひこう</span>/ふゆうにも命中</span></li>
   <li><span class="fn-main">すべてのポケモン <span class="fn-status fn-faint">ひんし</span> 条件</span><span class="fn-more">じならし、ワールズエンドフォール、じしん、じわれ、マグニチュード、ランドオーバーを 2回使ったとき。こらえるを使ったポケモンやがんじょうのポケモンは HP満タンなら HP1で残ることがある。カブトアーマー・シェルアーマーのポケモンはダメージが 50%になる。プリズムアーマー・ハードロックのポケモンは 33%になる。まもる系のわざで守られたポケモンやぼうだん・いしあたまのポケモンはこのダメージを受けない。</span></li>
   <li><span class="fn-main">そらをとぶととびはねるは 1 ターン</span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">無効</span> フリーフォール</span></li>
   <li><span class="fn-main">ステルスロックのダメージ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-flying">ひこう</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> 条件</span><span class="fn-more">直接攻撃でないとき</span></li>
+  <li data-types="rock"><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="flying"><span class="fn-main"><span class="type-badge type-flying">ひこう</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span> 条件</span><span class="fn-more">直接攻撃でないとき</span></li>
   <li><span class="fn-main">音のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">がんせきふうじ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-crystalcavern">クリスタルのどうくつ</a></span>になる条件</span><span class="fn-more">ダイヤストーム、パワージェムを使ったとき。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> がんせきふうじ</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-rock">いわ</span></span></li>
+  <li data-types="rock"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-rock">いわ</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> ひるみ</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">テルリックシード</span>が発動</span><span class="fn-more">ぼうぎょを 2段階上げるが自分はステルスロックのダメージを受ける</span></li>
 </ul>
@@ -818,19 +833,19 @@ permalink: /reborn/fields/
   <li><span class="fn-main">タイプわざ <span class="fn-icon fn-change" title="are">→</span> つねに物理</span><span class="fn-more">ノーマル、かくとう、どく、じめん、ひこう、むし、いわ、ゴースト。</span></li>
   <li><span class="fn-main">タイプわざ <span class="fn-icon fn-change" title="are">→</span> つねに特殊</span><span class="fn-more">ほのお、みず、くさ、でんき、こおり、エスパー、ドラゴン。</span></li>
   <li><span class="fn-main">特殊こうげきの <span class="fn-c fn-orange">計算</span>は</span><span class="fn-more">とくしゅわざはこうげき側も防御側もとくこうととくぼうの高いほうで計算する。</span></li>
-  <li><span class="fn-main"><span class="type-badge type-dark">あく</span>、<span class="type-badge type-steel">はがね</span>、<span class="type-badge type-fairy" title="and Fairy type">フェアリー</span> わざ <span class="fn-icon fn-change">→</span> <span class="type-badge type-normal">ノーマル</span></span></li>
+  <li data-types="dark steel fairy normal"><span class="fn-main"><span class="type-badge type-dark">あく</span>、<span class="type-badge type-steel">はがね</span>、<span class="type-badge type-fairy" title="and Fairy type">フェアリー</span> わざ <span class="fn-icon fn-change">→</span> <span class="type-badge type-normal">ノーマル</span></span></li>
   <li><span class="fn-main">タイプ相性が <span class="fn-c fn-orange">変化する</span></span><span class="fn-more">ドラゴンわざはつねに等倍ダメージ。<br>むしわざはどくタイプに効果抜群。<br>こおりわざはほのおタイプに等倍。<br>ゴーストわざはエスパータイプに当たらない。<br>どくわざはむしタイプに効果抜群。</span></li>
   <li><span class="fn-main">きゅうしょ率 <span class="fn-icon fn-up" title="increased">↑</span> 条件つき</span><span class="fn-more">攻撃側のすばやさ種族値が対象より高いとき</span></li>
   <li><span class="fn-main">いかりはつかいてを <span class="fn-c fn-red">しばる</span></span></li>
   <li><span class="fn-main">反動わざでも <span class="fn-c fn-green">動ける</span></span><span class="fn-more">そのわざでポケモンをたおしたとき</span></li>
-  <li><span class="fn-main"><span class="type-badge type-psychic">エスパー</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.2</span></span></li>
+  <li data-types="psychic"><span class="fn-main"><span class="type-badge type-psychic">エスパー</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.2</span></span></li>
   <li><span class="fn-main">ふぶきのめいちゅう <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">90</span></span></li>
   <li><span class="fn-main">ゆびをふるはわざを <span class="fn-c fn-green">選ぶ</span></span><span class="fn-more">威力 70以上のわざだけを選ぶ。</span></li>
   <li><span class="fn-main">じばくわざは相手のぼうぎょを <span class="fn-c fn-green">半分</span></span></li>
-  <li><span class="fn-main">ARシステム <span class="fn-icon fn-change">→</span> <span class="type-badge type-qmarks">???</span></span></li>
+  <li data-types="qmarks"><span class="fn-main">ARシステム <span class="fn-icon fn-change">→</span> <span class="type-badge type-qmarks">???</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発生</span> テクスチャー <span class="fn-icon fn-plus" title="and">＋</span> テクスチャー2</span><span class="fn-more">続けて使うと 5ターン。これらは発生後にフィールドの持続ターンを再設定できる。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> ゆびをふる</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-qmarks">???</span></span></li>
+  <li data-types="qmarks"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-qmarks">???</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> すばやさ <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">シンセティックシード</span>が発動</span><span class="fn-more">ぼうぎょを上げ自分を ???タイプにする</span></li>
 </ul>
@@ -845,11 +860,11 @@ permalink: /reborn/fields/
 <p class="fn-flavor"><span class="fn-c fn-orange">「どうくつはクリスタルだらけだ」</span></p>
 
 <ul class="field-notes">
-  <li><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="rock"><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">げんしのちから、ダイヤストーム、さばきのつぶて、マルチアタック、パワージェム、ロッククライム、いわくだき、がんせきふうじ、かいりき</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain an">＋</span> 追加タイプ</span><span class="fn-more">いわタイプのわざとさばきのつぶて、マルチアタック、プリズムレーザー、ロッククライム、かいりきはほのお、みず、くさ、エスパーの順にくり返しタイプが変わる。</span></li>
   <li><span class="fn-main">ステルスロック <span class="fn-icon fn-plus" title="gains an">＋</span> 追加タイプ</span><span class="fn-more">ステルスロックのダメージは上のわざと同じくり返しの順で追加タイプを得る。</span></li>
-  <li><span class="fn-main"><span class="type-badge type-dragon">ドラゴン</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="dragon"><span class="fn-main"><span class="type-badge type-dragon">ドラゴン</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.3</span></span><span class="fn-more">オーロラビーム、マジカルシャイン、はめつのねがい、ラスターカノン、ラスターパージ、ムーンライトブラスター、ミラーショット、シャドーレイ、フォトンゲイザー、シグナルビーム、テクノバスター</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-darkcrystalcavern">暗黒クリスタルのどうくつ</a></span>になる条件</span><span class="fn-more">あくのはどう、ダークホール、てんこがすめつぼうのひかり、ナイトバーストを使ったとき。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-cave">どうくつ</a></span>になる条件</span><span class="fn-more">じならし、じしん、じわれ、マグニチュード、ランドオーバーを使ったとき。</span></li>
@@ -872,22 +887,22 @@ permalink: /reborn/fields/
 <p class="fn-flavor"><span class="fn-c fn-orange">「水がよごれている……」</span></p>
 
 <ul class="field-notes">
-  <li><span class="fn-main">すばやさ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.75</span> ただし <span class="type-badge type-water">みず</span> か</span><span class="fn-more">ただしみずタイプ、空中、またはサーフテールやすいすいがあるときをのぞく。</span></li>
-  <li><span class="fn-main">ターン終了時 <span class="type-badge type-poison">どく</span> <span class="fn-c fn-orange">ダメージ</span> 条件つき</span><span class="fn-more">地上にいてどく・はがねタイプ以外のとき</span></li>
+  <li data-types="water"><span class="fn-main">すばやさ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.75</span> ただし <span class="type-badge type-water">みず</span> か</span><span class="fn-more">ただしみずタイプ、空中、またはサーフテールやすいすいがあるときをのぞく。</span></li>
+  <li data-types="poison"><span class="fn-main">ターン終了時 <span class="type-badge type-poison">どく</span> <span class="fn-c fn-orange">ダメージ</span> 条件つき</span><span class="fn-more">地上にいてどく・はがねタイプ以外のとき</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">無効</span> フィールド<span class="fn-c fn-orange">ダメージ</span> 条件つき</span><span class="fn-more">つぎのとくせいがあるとき: めんえき、ポイズンヒール、どくぼうそう、ふしぎなまもり</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">フィールドダメージ</span> <span class="fn-icon fn-redup">↑</span> 条件つき</span><span class="fn-more">ポケモンが水中にいるとき (x4) またはつぎのとくせいをもつとき (x2): かんそうはだ、ほのおのからだ、マグマのよろい、ちょすい</span></li>
   <li><span class="fn-main">一部のとくせいで <span class="fn-c fn-green">HP回復</span> 条件</span><span class="fn-more">地上のどくタイプやかんそうはだ、ちょすいは少しずつ HPを回復する</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> 一部のとくせい条件つき</span><span class="fn-more">地上にいるとき毎ターンひとでなし、ポイズンヒール、ぎょぐん、サーフテール、すいすい、どくぼうそう、みずがためが発動</span></li>
-  <li><span class="fn-main"><span class="fn-c fn-red">無効</span> <span class="type-badge type-ground">じめん</span> わざ</span></li>
+  <li data-types="ground"><span class="fn-main"><span class="fn-c fn-red">無効</span> <span class="type-badge type-ground">じめん</span> わざ</span></li>
   <li><span class="fn-main">まきびし/どくびしを <span class="fn-c fn-red">消す</span></span></li>
   <li><span class="fn-main">すなあつめはみずがためを <span class="fn-c fn-green">発動</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-water">みず</span> わざに <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-poison">どく</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-poison">どく</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.3</span> 条件</span><span class="fn-more">相手が地上にいるとき</span></li>
-  <li><span class="fn-main">ヘドロウェーブ <span class="fn-icon fn-plus" title="gains the">＋</span> <span class="type-badge type-water">みず</span></span></li>
-  <li><span class="fn-main">一部のわざ <span class="fn-icon fn-change" title="change to">→</span> <span class="type-badge type-water">みず</span> / <span class="type-badge type-poison">どく</span></span><span class="fn-more">どろばくだん、マッドショット、どろかけ、サウザンウェーブ、すなあつめ</span></li>
-  <li><span class="fn-main">うちおとす <span class="fn-icon fn-plus" title="gains the">＋</span> <span class="type-badge type-poison">どく</span></span></li>
+  <li data-types="water"><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="water poison"><span class="fn-main"><span class="type-badge type-water">みず</span> わざに <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-poison">どく</span></span></li>
+  <li data-types="poison"><span class="fn-main"><span class="type-badge type-poison">どく</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="electric"><span class="fn-main"><span class="type-badge type-electric">でんき</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.3</span> 条件</span><span class="fn-more">相手が地上にいるとき</span></li>
+  <li data-types="water"><span class="fn-main">ヘドロウェーブ <span class="fn-icon fn-plus" title="gains the">＋</span> <span class="type-badge type-water">みず</span></span></li>
+  <li data-types="water poison"><span class="fn-main">一部のわざ <span class="fn-icon fn-change" title="change to">→</span> <span class="type-badge type-water">みず</span> / <span class="type-badge type-poison">どく</span></span><span class="fn-more">どろばくだん、マッドショット、どろかけ、サウザンウェーブ、すなあつめ</span></li>
+  <li data-types="poison"><span class="fn-main">うちおとす <span class="fn-icon fn-plus" title="gains the">＋</span> <span class="type-badge type-poison">どく</span></span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">ようかいえき、アシッドボム、しおみず、どろばくだん、マッドショット、どろかけ、うちおとす、サウザンウェーブ</span></li>
   <li><span class="fn-main">ぬめぬめの効果 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
   <li><span class="fn-main">あくしゅうの発動率 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
@@ -898,7 +913,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-watersurface">水面</a></span>になる条件</span><span class="fn-more">うずしおを使ったとき。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-icy">氷のフィールド</a></span>になる条件</span><span class="fn-more">ふぶき、こごえるせかい、ジオフリーズを使ったとき。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> ヘドロウェーブ</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-poison">どく</span></span></li>
+  <li data-types="poison"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-poison">どく</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-poison">どく</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">エレメンタルシード</span>が発動</span><span class="fn-more">すばやさを上げアクアリング状態になるが自分はどく状態になる</span></li>
 </ul>
@@ -920,13 +935,13 @@ permalink: /reborn/fields/
   <li><span class="fn-main">晴れが <span class="fn-c fn-green">8</span> ターン続く</span></li>
   <li><span class="fn-main">かみなりは <span class="fn-c fn-green">必ず命中</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-snowymountain">雪山</a></span>になる条件</span><span class="fn-more">ふぶき、こごえるせかい、ジオフリーズを使うかあられが 3ターン続いたとき。</span></li>
-  <li><span class="fn-main"><span class="type-badge type-flying">ひこう</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="flying"><span class="fn-main"><span class="type-badge type-flying">ひこう</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="rock"><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">えんかくのダメージ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> はやてのつばさ風のとき</span></li>
   <li><span class="fn-main">スカイスキンの威力上昇 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> いわなだれ</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-rock">いわ</span></span></li>
+  <li data-types="rock"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-rock">いわ</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> ひるみ</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">テルリックシード</span>が発動</span><span class="fn-more">こうげきを 2段階上げるが命中率が下がる</span></li>
 </ul>
@@ -943,13 +958,13 @@ permalink: /reborn/fields/
 <ul class="field-notes">
   <li><span class="fn-main">おいかぜが <span class="fn-c fn-green">6</span> ターン続く</span></li>
   <li><span class="fn-main">おいかぜ <span class="fn-icon fn-plus" title="additionally kicks up">＋</span> 強い風</span></li>
-  <li><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざに <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-ice">こおり</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-ice">こおり</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-flying">ひこう</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="rock ice"><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざに <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-ice">こおり</span></span></li>
+  <li data-types="ice"><span class="fn-main"><span class="type-badge type-ice">こおり</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="rock"><span class="fn-main"><span class="type-badge type-rock">いわ</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="flying"><span class="fn-main"><span class="type-badge type-flying">ひこう</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">こごえるかぜ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-ice">こおり</span> ポケモンのぼうぎょ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">あられがふっているとき。</span></li>
+  <li data-types="fire"><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
+  <li data-types="ice"><span class="fn-main"><span class="type-badge type-ice">こおり</span> ポケモンのぼうぎょ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">あられがふっているとき。</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">ゆきなだれ、ともえなげ、ようせいのかぜ、こごえるせかい、ハイパーボイス、あやしいかぜ、こなゆき、かまいたち、ぎんいろのかぜ、やまあらし、たつまき、あてみなげ</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="are additionally">＋</span> <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件つき</span><span class="fn-more">強い風のあいだひこうタイプの特殊こうげきすべてとようせいのかぜ、かぜおこし、こごえるかぜ、あやしいかぜ、かまいたち、ぎんいろのかぜ、たつまきの威力がさらに上がる</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span><span class="fn-more">ねっとう、スチームバースト</span></li>
@@ -963,7 +978,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">えんかくのダメージ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">スカイスキンの威力上昇 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> ゆきなだれ</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-ice">こおり</span></span></li>
+  <li data-types="ice"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-ice">こおり</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-freeze">こおり</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">テルリックシード</span>が発動</span><span class="fn-more">とくこうを 2段階上げるが命中率が下がる</span></li>
 </ul>
@@ -979,14 +994,14 @@ permalink: /reborn/fields/
 
 <ul class="field-notes">
   <li><span class="fn-main">タイプ相性が <span class="fn-c fn-orange">変化する</span></span><span class="fn-more">ノーマルタイプのわざはゴースト・あくタイプに効果抜群になる。</span></li>
-  <li><span class="fn-main"><span class="type-badge type-ghost">ゴースト</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
-  <li><span class="fn-main">特殊の <span class="type-badge type-dark">あく</span> こうげき <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
-  <li><span class="fn-main">特殊の <span class="type-badge type-fairy">フェアリー</span> こうげき <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="ghost"><span class="fn-main"><span class="type-badge type-ghost">ゴースト</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
+  <li data-types="dark"><span class="fn-main">特殊の <span class="type-badge type-dark">あく</span> こうげき <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
+  <li data-types="fairy"><span class="fn-main">特殊の <span class="type-badge type-fairy">フェアリー</span> こうげき <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">げんしのちから、しんそく、さばきのつぶて、マジカルリーフ、マジカルフレイム、おんがえし、せいなるほのお、せいなるつるぎ</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.3</span></span><span class="fn-more">エアロブラスト、にぎりつぶす、ダイヤストーム、はめつのねがい、ガリョウテンセイ、フルールカノン、オリジンズスーパーノヴァ、いじげんホール、グランドフォース、ラスターパージ、ムーンライトブラスター、ミストボール、シャドーレイ、こんげんのはどう、だんがいのつるぎ、プリズムレーザー、サイコブースト、サイコブレイク、いにしえのうた、ときのほうこう、サンシャインスマッシャー、しんぴのつるぎ、あくうせつだん、メテオドライブ、Vジェネレート</span></li>
-  <li><span class="fn-main"><span class="type-badge type-psychic">エスパー</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.2</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-dragon">ドラゴン</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.2</span></span></li>
-  <li><span class="fn-main">特殊の <span class="type-badge type-normal">ノーマル</span> こうげき <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="psychic"><span class="fn-main"><span class="type-badge type-psychic">エスパー</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.2</span></span></li>
+  <li data-types="dragon"><span class="fn-main"><span class="type-badge type-dragon">ドラゴン</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.2</span></span></li>
+  <li data-types="normal"><span class="fn-main">特殊の <span class="type-badge type-normal">ノーマル</span> こうげき <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">せいぎのこころの効果 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
   <li><span class="fn-main">ねがいごとの回復 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">75% HP</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">無効</span> のろわれボディ</span></li>
@@ -995,10 +1010,10 @@ permalink: /reborn/fields/
   <li><span class="fn-main">ミラクルアイ <span class="fn-icon fn-plus">＋</span> とくこう<span class="fn-c fn-green">上昇</span></span></li>
   <li><span class="fn-main">コスモパワーの効果 <span class="fn-icon fn-up" title="boosted">↑</span></span></li>
   <li><span class="fn-main">しぜんのいかりダメージ <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">HPの66%</span></span></li>
-  <li><span class="fn-main">ARシステム <span class="fn-icon fn-change">→</span> <span class="type-badge type-dark">あく</span></span></li>
+  <li data-types="dark"><span class="fn-main">ARシステム <span class="fn-icon fn-change">→</span> <span class="type-badge type-dark">あく</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">消える</span> 次のわざで</span><span class="fn-more">てんこがすめつぼうのひかり</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> さばきのつぶて</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-normal">ノーマル</span></span></li>
+  <li data-types="normal"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-normal">ノーマル</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> とくこう <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">マジカルシード</span>が発動</span><span class="fn-more">とくこうを上げ自分がマジックコート状態になる</span></li>
 </ul>
@@ -1033,7 +1048,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">一部の能力変化わざの効果 <span class="fn-icon fn-up" title="boosted">↑</span> <span class="fn-c fn-green">+1</span></span><span class="fn-more">かげぶんしん、フラッシュ</span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">消える</span> 次のわざなどで</span><span class="fn-more">さらにつぎのわざは場のすべてのポケモンに最大HPの 1/2のダメージを与える: ばくおんぱ、じならし、じしん、だいばくはつ、じわれ、ハイパーボイス、マグニチュード、じばく、ランドオーバー。<br>まもる系のわざで守られたポケモンやシェルアーマー・カブトアーマーをもつポケモンはこの崩壊ダメージを受けない。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> ミラーショット</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-steel">はがね</span></span></li>
+  <li data-types="steel"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-steel">はがね</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> 回避率 <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">シンセティックシード</span>が発動</span><span class="fn-more">回避率を上げ自分がマジックコート状態になる</span></li>
 </ul>
@@ -1048,17 +1063,17 @@ permalink: /reborn/fields/
 <p class="fn-flavor"><span class="fn-c fn-orange">「むかしむかし……」</span></p>
 
 <ul class="field-notes">
-  <li><span class="fn-main"><span class="type-badge type-fairy">フェアリー</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-steel">はがね</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-dragon">ドラゴン</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-steel">はがね</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span> 対 <span class="type-badge type-dragon">ドラゴン</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざに <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-dragon">ドラゴン</span></span></li>
+  <li data-types="fairy"><span class="fn-main"><span class="type-badge type-fairy">フェアリー</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="steel"><span class="fn-main"><span class="type-badge type-steel">はがね</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="dragon"><span class="fn-main"><span class="type-badge type-dragon">ドラゴン</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
+  <li data-types="steel dragon"><span class="fn-main"><span class="type-badge type-steel">はがね</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span> 対 <span class="type-badge type-dragon">ドラゴン</span></span></li>
+  <li data-types="fire dragon"><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざに <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-dragon">ドラゴン</span></span></li>
   <li><span class="fn-main">一部のとくせい <span class="fn-icon fn-plus">＋</span> <span class="fn-icon fn-up" title="boost">↑</span> ぼうぎょ</span><span class="fn-more">カブトアーマー、かがくのちから、シェルアーマーは場に出たときぼうぎょを上げる</span></li>
   <li><span class="fn-main">一部のとくせい <span class="fn-icon fn-plus">＋</span> <span class="fn-icon fn-up" title="boost">↑</span> とくぼう</span><span class="fn-more">マジックガード、マジックミラー、かがくのちからは場に出たときとくぼうが上がる。</span></li>
   <li><span class="fn-main">マジシャン <span class="fn-icon fn-plus">＋</span> <span class="fn-icon fn-up" title="boosts">↑</span> とくこう</span><span class="fn-more">マジシャンは場に出たときとくこうが上がる。</span></li>
   <li><span class="fn-main">フェアリーオーラのポケモン <span class="fn-icon fn-plus">＋</span> <span class="fn-c fn-green">必中</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> ふしぎなうろこ</span></li>
-  <li><span class="fn-main">一部のわざ <span class="fn-icon fn-change" title="change to">→</span> <span class="type-badge type-steel">はがね</span></span><span class="fn-more">いあいぎり、せいなるつるぎ、しんぴのつるぎ、きりさく</span></li>
+  <li data-types="steel"><span class="fn-main">一部のわざ <span class="fn-icon fn-change" title="change to">→</span> <span class="type-badge type-steel">はがね</span></span><span class="fn-more">いあいぎり、せいなるつるぎ、しんぴのつるぎ、きりさく</span></li>
   <li><span class="fn-main">バトルスイッチが <span class="fn-c fn-orange">能力を変える</span></span><span class="fn-more">バトルスイッチのポケモンはぼうぎょが上がった状態で始まりフォルムを切りかえるたびにこうげきとぼうぎょが 1段階上がり下がりする。</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">エアスラッシュ、げんしのちから、フルールカノン、リーフブレード、マジカルリーフ、ムーンライトブラスター、シャドーレイ、マジカルフレイム、つじぎり、わだつみのシンフォニア、サイコカッター、いにしえのうた、スマートホーン、ソーラーブレード、うたかたのアリア</span></li>
   <li><span class="fn-main">ドレインキッス <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span></li>
@@ -1075,7 +1090,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">じょおうのいげんダメージ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">ソウルハート <span class="fn-icon fn-plus">＋</span> <span class="fn-c fn-green">とくぼう上昇</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> しんぴのつるぎ</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-fairy">フェアリー</span></span></li>
+  <li data-types="fairy"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-fairy">フェアリー</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-sleep">ねむり</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">マジカルシード</span>が発動</span><span class="fn-more">自分がキングシールド状態になる</span></li>
 </ul>
@@ -1090,25 +1105,25 @@ permalink: /reborn/fields/
 <p class="fn-flavor"><span class="fn-c fn-orange">「竜を倒したいなら……」</span></p>
 
 <ul class="field-notes">
-  <li><span class="fn-main"><span class="type-badge type-dragon">ドラゴン</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-ice">こおり</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-dragon">ドラゴン</span> ポケモンの耐久 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.3</span></span></li>
+  <li data-types="dragon"><span class="fn-main"><span class="type-badge type-dragon">ドラゴン</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="fire"><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="water"><span class="fn-main"><span class="type-badge type-water">みず</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
+  <li data-types="ice"><span class="fn-main"><span class="type-badge type-ice">こおり</span> わざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.5</span></span></li>
+  <li data-types="dragon"><span class="fn-main"><span class="type-badge type-dragon">ドラゴン</span> ポケモンの耐久 <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.3</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> ふしぎなうろこ</span></li>
   <li><span class="fn-main">マルチスケイル <span class="fn-icon fn-plus" title="gains">＋</span> <span class="fn-c fn-green">保護</span></span><span class="fn-more">マルチスケイルはつねに使い手のドラゴンタイプの弱点を無効にする。</span></li>
   <li><span class="fn-main">だっぴ <span class="fn-icon fn-plus" title="gains">＋</span> <span class="fn-c fn-green">HP回復</span> さらに</span><span class="fn-more">だっぴは発動時に HPを 25% 回復しすばやさととくこうを 1段階ずつ上げぼうぎょととくぼうを 1段階ずつ下げる。<br>かならず発動する。</span></li>
-  <li><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-fire">ほのお</span></span><span class="fn-more">ワールズエンドフォール、うちおとす、ライジングランドオーバー、サウザンアロー</span></li>
+  <li data-types="fire"><span class="fn-main">一部のわざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-fire">ほのお</span></span><span class="fn-more">ワールズエンドフォール、うちおとす、ライジングランドオーバー、サウザンアロー</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span><span class="fn-more">ワールズエンドフォール、ガリョウテンセイ、うちおとす、ライジングランドオーバー、サウザンアロー</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">ふんえん、マグマストーム、メガトンキック</span></li>
   <li><span class="fn-main">ネコにこばん <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span> 賞金も <span class="fn-icon fn-up" title="boosted">↑</span></span></li>
   <li><span class="fn-main">マグマストームのダメージ <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">HPの1/6</span></span></li>
   <li><span class="fn-main">マグマのよろい <span class="fn-icon fn-plus">＋</span> 能力<span class="fn-c fn-green">上昇</span></span><span class="fn-more">マグマのよろいは場に出たときぼうぎょととくぼうが上がる。</span></li>
-  <li><span class="fn-main">マグマのよろい <span class="fn-icon fn-plus" title="grants">＋</span> <span class="type-badge type-fire">ほのお</span> <span class="fn-c fn-red">無効</span></span></li>
+  <li data-types="fire"><span class="fn-main">マグマのよろい <span class="fn-icon fn-plus" title="grants">＋</span> <span class="type-badge type-fire">ほのお</span> <span class="fn-c fn-red">無効</span></span></li>
   <li><span class="fn-main">一部の能力変化わざの効果 <span class="fn-icon fn-up" title="boosted">↑</span> <span class="fn-c fn-green">+1</span></span><span class="fn-more">りゅうのまい、おたけび</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-cave">どうくつ</a></span>になる条件</span><span class="fn-more">こごえるせかい、アクアトルネード、わだつみのシンフォニア、ジオフリーズを使うかだくりゅう、うたかたのアリア、なみのりを 2回使ったとき。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> りゅうのはどう</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-dragon">ドラゴン</span></span></li>
+  <li data-types="dragon"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-dragon">ドラゴン</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> <span class="fn-status fn-burn">やけど</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">エレメンタルシード</span>が発動</span><span class="fn-more">とくこうを上げ自分にもらいびの威力上昇がかかる</span></li>
 </ul>
@@ -1131,20 +1146,20 @@ permalink: /reborn/fields/
   <li><span class="fn-main">たがやす <span class="fn-icon fn-plus">＋</span> 能力 <span class="fn-c fn-green">上昇</span></span> <span class="fn-cog"><span class="fn-c fn-stage">1</span>+</span><span class="fn-more">たがやすは使い手のこうげきととくこうも上げる。</span></li>
   <li><span class="fn-main">せいちょうの効果 <span class="fn-icon fn-up" title="boosted">↑</span></span> <span class="fn-cog"><span class="fn-c fn-stage">1</span>,<span class="fn-c fn-stage">3</span></span><span class="fn-more">段階(1,3)で (x2,x3)になる</span></li>
   <li><span class="fn-main">いあいぎり <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span> <span class="fn-cog"><span class="fn-c fn-stage">2</span>+</span></li>
-  <li><span class="fn-main">いあいぎり <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span> 対 <span class="type-badge type-grass">くさ</span></span> <span class="fn-cog"><span class="fn-c fn-stage">2</span>+</span></li>
+  <li data-types="grass"><span class="fn-main">いあいぎり <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span> 対 <span class="type-badge type-grass">くさ</span></span> <span class="fn-cog"><span class="fn-c fn-stage">2</span>+</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> 一部のとくせい</span> <span class="fn-cog"><span class="fn-c fn-stage">2</span>+</span><span class="fn-more">しゅうかく、リーフガード</span></li>
   <li><span class="fn-main">フラワーガード <span class="fn-icon fn-plus">＋</span> 能力<span class="fn-c fn-green">上昇</span></span> <span class="fn-cog"><span class="fn-c fn-stage">2</span>+</span><span class="fn-more">フラワーガードはとくぼうも上げさらに使い手のぼうぎょととくぼうを上げる。</span></li>
   <li><span class="fn-main">一部のわざのめいちゅう <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">85</span></span> <span class="fn-cog"><span class="fn-c fn-stage">2</span>+</span><span class="fn-more">どくのこな、ねむりごな、しびれごな</span></li>
   <li><span class="fn-main">フラワーベール <span class="fn-icon fn-plus">＋</span> ダメージ<span class="fn-c fn-green">軽減</span></span> <span class="fn-cog"><span class="fn-c fn-stage">3</span>+</span><span class="fn-more">フラワーベールは自分と味方のくさタイプへのダメージをつねに 25% 減らす。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange"><a href="#field-burning">燃えるフィールド</a></span>になる条件</span> <span class="fn-cog"><span class="fn-c fn-stage">3</span>+</span><span class="fn-more">あめやみずあそびの効果がないときふんか、ほのおのちかい、はじけるほのお、ねっぷう、やきつくす、ダイナミックフルフレイム、ふんえん、ビックリヘッド、かえんだんを使ったとき</span></li>
   <li><span class="fn-main">あまいかおり <span class="fn-icon fn-plus">＋</span> <span class="fn-c fn-green">防御を下げる</span></span> <span class="fn-cog"><span class="fn-c fn-stage">3</span>+</span></li>
-  <li><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span> <span class="fn-cog"><span class="fn-c fn-stage">3</span>+</span></li>
+  <li data-types="fire"><span class="fn-main"><span class="type-badge type-fire">ほのお</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span> <span class="fn-cog"><span class="fn-c fn-stage">3</span>+</span></li>
   <li><span class="fn-main">フラワーガードの効果 <span class="fn-icon fn-up" title="boosted">↑</span></span> <span class="fn-cog"><span class="fn-c fn-stage">3</span>+</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> ようりょくそ</span> <span class="fn-cog"><span class="fn-c fn-stage">4</span>+</span></li>
   <li><span class="fn-main">くさタイプの弱点が <span class="fn-c fn-green">無効</span></span> <span class="fn-cog"><span class="fn-c fn-stage">4</span>+</span></li>
   <li><span class="fn-main">一部のわざは <span class="fn-c fn-green">相手全体</span>に当たる</span> <span class="fn-cog"><span class="fn-c fn-stage">5</span></span><span class="fn-more">はなふぶき、はなびらのまいと粉のわざは段階5で相手2体に当たる。</span></li>
-  <li><span class="fn-main"><span class="type-badge type-grass">くさ</span> わざ <span class="fn-icon fn-up" title="boosted">↑</span></span> <span class="fn-cog"><span class="fn-c fn-stage">2</span>-<span class="fn-c fn-stage">5</span></span><span class="fn-more">くさわざの威力は段階(2,3,4,5)で (x1.1,x1.3,x1.5,x2)になる。</span></li>
-  <li><span class="fn-main"><span class="type-badge type-bug">むし</span> わざ <span class="fn-icon fn-up" title="boosted">↑</span></span> <span class="fn-cog"><span class="fn-c fn-stage">2</span>,<span class="fn-c fn-stage">4</span></span><span class="fn-more">むしわざは段階(2,4)で威力(1.5倍,2倍)になる</span></li>
+  <li data-types="grass"><span class="fn-main"><span class="type-badge type-grass">くさ</span> わざ <span class="fn-icon fn-up" title="boosted">↑</span></span> <span class="fn-cog"><span class="fn-c fn-stage">2</span>-<span class="fn-c fn-stage">5</span></span><span class="fn-more">くさわざの威力は段階(2,3,4,5)で (x1.1,x1.3,x1.5,x2)になる。</span></li>
+  <li data-types="bug"><span class="fn-main"><span class="type-badge type-bug">むし</span> わざ <span class="fn-icon fn-up" title="boosted">↑</span></span> <span class="fn-cog"><span class="fn-c fn-stage">2</span>,<span class="fn-c fn-stage">4</span></span><span class="fn-more">むしわざは段階(2,4)で威力(1.5倍,2倍)になる</span></li>
   <li><span class="fn-main">むしのしらせの効果 <span class="fn-icon fn-up" title="boosted">↑</span></span> <span class="fn-cog"><span class="fn-c fn-stage">3</span>,<span class="fn-c fn-stage">5</span></span><span class="fn-more">むしのしらせは段階(3,5)でむしわざの威力を (x1.8,x2)にする。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> しんりょく条件つき</span> <span class="fn-cog"><span class="fn-c fn-stage">2</span>,<span class="fn-c fn-stage">3</span></span><span class="fn-more">しんりょくは段階(2,3)で (HP66%、HPを問わず) 発動する。</span></li>
   <li><span class="fn-main">しんりょくの効果 <span class="fn-icon fn-up" title="boosted">↑</span></span> <span class="fn-cog"><span class="fn-c fn-stage">4</span>,<span class="fn-c fn-stage">5</span></span><span class="fn-more">しんりょくは段階(4,5)でくさわざの威力を (x1.8,x2)にする。</span></li>
@@ -1156,7 +1171,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">アシッドポイズンデリート <span class="fn-c fn-red">リセット</span><span class="fn-c fn-orange">第1段階</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> せいちょう</span> <span class="fn-cog"><span class="fn-c fn-stage">1</span>-<span class="fn-c fn-stage">4</span></span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> はなふぶき</span> <span class="fn-cog"><span class="fn-c fn-stage">5</span></span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-grass">くさ</span></span></li>
+  <li data-types="grass"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-grass">くさ</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> 能力 <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span> <span class="fn-cog"><span class="fn-c fn-stage">1</span> <span class="fn-c fn-stage">3</span> <span class="fn-c fn-stage">5</span></span><span class="fn-more">ひみつのちからは回避率を下げることがある。段階3以降はぼうぎょととくぼうも下げる。段階5ではこの効果が x2になる。</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">シンセティックシード</span>が発動</span><span class="fn-more">とくぼうを上げ自分がねをはる状態になりフィールドが 1段階成長する</span></li>
 </ul>
@@ -1173,18 +1188,18 @@ permalink: /reborn/fields/
 <ul class="field-notes">
   <li><span class="fn-main"><span class="fn-c fn-red">消える</span> 条件つき</span><span class="fn-more">てんこがすめつぼうのひかりを使ったとき。</span></li>
   <li><span class="fn-main">天気が強化を <span class="fn-c fn-red">止める</span></span><span class="fn-more">天気が出ている間フィールドによるわざとタイプの威力上昇は適用されない</span></li>
-  <li><span class="fn-main"><span class="type-badge type-psychic">エスパー</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-fairy">フェアリー</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.3</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-dark">あく</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
-  <li><span class="fn-main"><span class="type-badge type-dark">あく</span> わざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-fairy">フェアリー</span></span></li>
+  <li data-types="psychic"><span class="fn-main"><span class="type-badge type-psychic">エスパー</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="fairy"><span class="fn-main"><span class="type-badge type-fairy">フェアリー</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.3</span></span></li>
+  <li data-types="dark"><span class="fn-main"><span class="type-badge type-dark">あく</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="dark fairy"><span class="fn-main"><span class="type-badge type-dark">あく</span> わざ <span class="fn-icon fn-plus" title="gain the">＋</span> <span class="type-badge type-fairy">フェアリー</span></span></li>
   <li><span class="fn-main">しょうりのほしのダメージ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">ジオコントロール <span class="fn-icon fn-change" title="has">→</span> <span class="fn-c fn-green">ため不要</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発動</span> ふしぎなうろこ</span></li>
   <li><span class="fn-main">はっこう <span class="fn-icon fn-plus">＋</span> とくこう<span class="fn-c fn-green">上昇</span></span><span class="fn-more">はっこうは場に出たときとくこうを 2段階上げる。</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">オーロラビーム、マジカルシャイン、ラスターカノン、ラスターパージ、ミラーショット、ムーンフォース、フォトンゲイザー、シグナルビーム、ソーラービーム、テクノバスター</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span><span class="fn-more">ブラックホールイクリプス、れんぞくパンチ、りゅうせいぐん、いじげんラッシュ、いじげんホール、ムーンライトブラスター、コメットパンチ、シャドーレイ、サンシャインスマッシャー、あくうせつだん、メテオドライブ、スピードスター</span></li>
-  <li><span class="fn-main">はめつのねがい <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x4</span> さらに <span class="fn-icon fn-plus" title="gains the">＋</span> <span class="type-badge type-fire">ほのお</span></span></li>
-  <li><span class="fn-main">一部のわざ <span class="fn-icon fn-change" title="change to">→</span> <span class="type-badge type-fairy">フェアリー</span></span><span class="fn-more">ソーラービーム、ソーラーブレード</span></li>
+  <li data-types="fire"><span class="fn-main">はめつのねがい <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x4</span> さらに <span class="fn-icon fn-plus" title="gains the">＋</span> <span class="type-badge type-fire">ほのお</span></span></li>
+  <li data-types="fairy"><span class="fn-main">一部のわざ <span class="fn-icon fn-change" title="change to">→</span> <span class="type-badge type-fairy">フェアリー</span></span><span class="fn-more">ソーラービーム、ソーラーブレード</span></li>
   <li><span class="fn-main">一部の能力変化わざの効果 <span class="fn-icon fn-up" title="boosted">↑</span> <span class="fn-c fn-green">+1</span></span><span class="fn-more">コスモパワー、フラッシュ</span></li>
   <li><span class="fn-main">ねがいごとの回復 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">75% HP</span></span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-plus">＋</span> 能力<span class="fn-c fn-green">上昇</span></span><span class="fn-more">いやしのねがいとみかづきのまいは受けたポケモンのこうげきととくこうを上げる。</span></li>
@@ -1192,7 +1207,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main"><span class="fn-c fn-green">使える</span> オーロラベール</span></li>
   <li><span class="fn-main">ファントムガード <span class="fn-icon fn-plus">＋</span> ダメージ <span class="fn-c fn-green">軽減</span></span><span class="fn-more">ファントムガードは効果抜群のダメージをすべて 25% 減らす。</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> ムーンフォース</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-dark">あく</span></span></li>
+  <li data-types="dark"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-dark">あく</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> とくぼう <span class="fn-icon fn-down" title="lowered by one stage">↓</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">マジカルシード</span>が発動</span><span class="fn-more">とくこうを上げ自分がねがいごと状態になる</span></li>
 </ul>
@@ -1213,12 +1228,12 @@ permalink: /reborn/fields/
   <li><span class="fn-main"><span class="fn-c fn-red">無効</span> すべての天気</span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">無効</span> フィールドの生成</span></li>
   <li><span class="fn-main"><span class="fn-c fn-red">無効</span> フィールドの消去</span></li>
-  <li><span class="fn-main"><span class="type-badge type-dark">あく</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
+  <li data-types="dark"><span class="fn-main"><span class="type-badge type-dark">あく</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">エアロブラスト、オーロラビーム、あおいほのお、らいげき、ワールズエンドフォール、コアパニッシャー、にぎりつぶす、マジカルシャイン、ダイヤストーム、ガリョウテンセイ、だいちのちから、ふんか、ラスターカノン、フルールカノン、フリーズボルト、クロスサンダー、クロスフレイム、オリジンズスーパーノヴァ、こごえるせかい、コールドフレア、さばきのつぶて、グランドフォース、てんこがすめつぼうのひかり、ラスターパージ、マグマストーム、ムーンライトブラスター、ビックリヘッド、ミラーショット、ミストボール、シャドーレイ、マルチアタック、デスウイング、こんげんのはどう、フォトンゲイザー、プラズマフィスト、パワージェム、だんがいのつるぎ、プリズムレーザー、サイコブースト、サイコブレイク、いにしえのうた、ときのほうこう、せいなるほのお、せいなるつるぎ、かえんだん、サンシャインスマッシャー、しんぴのつるぎ、シードフレア、シャドーダイブ、シグナルビーム、しちせいだっこんたい、シャドースチール、スチームバースト、メテオドライブ、テクノバスター、サウザンアロー、サウザンウェーブ、Vジェネレート</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x2</span></span><span class="fn-more">げんしのちから、ブラックホールイクリプス、れんぞくパンチ、りゅうせいぐん、みらいよち、いじげんラッシュ、いじげんホール、コメットパンチ、ムーンフォース、あくうせつだん、スピードスター、しんくうは</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-down">↓</span> <span class="fn-c fn-red">x0.25</span></span><span class="fn-more">じならし、じしん、マグニチュード</span></li>
   <li><span class="fn-main">じわれは <span class="fn-c fn-red">失敗</span></span></li>
-  <li><span class="fn-main">はめつのねがい <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x4</span> さらに <span class="fn-icon fn-plus" title="gains the">＋</span> <span class="type-badge type-fire">ほのお</span></span></li>
+  <li data-types="fire"><span class="fn-main">はめつのねがい <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x4</span> さらに <span class="fn-icon fn-plus" title="gains the">＋</span> <span class="type-badge type-fire">ほのお</span></span></li>
   <li><span class="fn-main">ハートスワップ <span class="fn-icon fn-plus" title="additionally inflicts the">＋</span> いたみわけの効果</span></li>
   <li><span class="fn-main">しょうりのほしのダメージ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span></li>
   <li><span class="fn-main">ダークホールのめいちゅう <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">85</span></span></li>
@@ -1249,7 +1264,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">タイプ相性が <span class="fn-c fn-orange">反転する</span></span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発生</span> ひっくりかえす条件つき</span><span class="fn-more">かわらずのいしをもたないポケモンのひっくりかえすで 3ターン発生</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> トリックルーム</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-normal">ノーマル</span></span></li>
+  <li data-types="normal"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-normal">ノーマル</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> こんらん</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">マジカルシード</span>が発動</span><span class="fn-more">すべての能力を上げるが自分は反動で動けなくなる</span></li>
 </ul>
@@ -1266,7 +1281,7 @@ permalink: /reborn/fields/
 <ul class="field-notes">
   <li><span class="fn-main">先制わざは <span class="fn-c fn-red">失敗</span></span><span class="fn-more">地上の対象に使ったとき</span></li>
   <li><span class="fn-main"><span class="fn-c fn-green">発生</span></span><span class="fn-more">サイコメイカー、サイコフィールド、オリジンズスーパーノヴァ(5ターン)</span></li>
-  <li><span class="fn-main"><span class="type-badge type-psychic">エスパー</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">攻撃側が地上にいるとき</span></li>
+  <li data-types="psychic"><span class="fn-main"><span class="type-badge type-psychic">エスパー</span> わざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span> 条件</span><span class="fn-more">攻撃側が地上にいるとき</span></li>
   <li><span class="fn-main">一部のわざ <span class="fn-icon fn-up">↑</span> <span class="fn-c fn-green">x1.5</span></span><span class="fn-more">はどうだん、たたりめ、マジカルリーフ、ビックリヘッド、ムーンフォース、マジカルフレイム</span></li>
   <li><span class="fn-main">ヨガパワーの上昇 <span class="fn-icon fn-change">→</span> とくこう</span></li>
   <li><span class="fn-main">きけんよち <span class="fn-icon fn-plus">＋</span> <span class="fn-c fn-green">とくこう</span> 上昇</span><span class="fn-more">きけんよちは場に出たときとくこうを 2段階上げる</span></li>
@@ -1279,7 +1294,7 @@ permalink: /reborn/fields/
   <li><span class="fn-main">一部のわざの効果 <span class="fn-icon fn-change">→</span> <span class="fn-c fn-green">8</span> ターン</span><span class="fn-more">じゅうりょく、マジックルーム、トリックルーム、ワンダールーム</span></li>
   <li><span class="fn-main">マキシマムサイブレイカー <span class="fn-icon fn-plus">＋</span> こんらん</span></li>
   <li><span class="fn-main">しぜんのちから <span class="fn-icon fn-change">→</span> サイコキネシス</span></li>
-  <li><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-psychic">エスパー</span></span></li>
+  <li data-types="psychic"><span class="fn-main">ほごしょく <span class="fn-icon fn-change">→</span> <span class="type-badge type-psychic">エスパー</span></span></li>
   <li><span class="fn-main">ひみつのちからの効果 <span class="fn-icon fn-change">→</span> こんらん</span></li>
   <li><span class="fn-main"><span class="fn-c fn-orange">マジカルシード</span>が発動</span><span class="fn-more">とくこうを 2段階上げるが自分はこんらん状態になる</span></li>
 </ul>

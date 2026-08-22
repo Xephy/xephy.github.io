@@ -33,6 +33,11 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+/* 上の display: block は作者スタイルなので、ブラウザ既定の
+   [hidden] { display: none } より強い。JavaScript で hidden を付けても
+   nav や section が消えなくなるため、明示的に打ち消す。 */
+[hidden] { display: none !important; }
+
 ol, ul {
   list-style: none;
 }
@@ -1260,7 +1265,7 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
 
 /* 絞り込みの操作子。JavaScript が動いたときだけ現れる (既定は hidden)。
    長い表を上下するので、画面の上に貼り付けたまま使えるようにする。 */
-.pdx-filter {
+.ref-filter {
   position: sticky;
   top: 0;
   z-index: 5;
@@ -1272,9 +1277,9 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
 }
 
-.pdx-filter.is-filtering { border-color: #2b6cb0; }
+.ref-filter.is-filtering { border-color: #2b6cb0; }
 
-.pdx-filter-line {
+.ref-filter-line {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -1282,9 +1287,9 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
   margin-top: 8px;
 }
 
-.pdx-filter-line:first-child { margin-top: 0; }
+.ref-filter-line:first-child { margin-top: 0; }
 
-.pdx-search {
+.ref-search {
   flex: 1 1 20em;
   min-width: 0;
   padding: 7px 10px;
@@ -1296,9 +1301,9 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
   font-size: 15px;
 }
 
-.pdx-search:focus { border-color: #0973ca; outline: none; box-shadow: 0 0 0 2px #cfe2f7; }
+.ref-search:focus { border-color: #0973ca; outline: none; box-shadow: 0 0 0 2px #cfe2f7; }
 
-.pdx-count {
+.ref-count {
   flex: 0 0 auto;
   color: #4f5a64;
   font-size: 13px;
@@ -1306,7 +1311,7 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
   white-space: nowrap;
 }
 
-.pdx-chip-label {
+.ref-chip-label {
   flex: 0 0 4.6em;
   color: #4f5a64;
   font-size: 12.5px;
@@ -1315,25 +1320,38 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
 
 /* チップは表の中の札と同じ色。選んだものは濃い枠で示す。色を薄めると
    白文字とのコントラストが落ちるので、明るさは変えない。 */
-.pdx-chip {
+.ref-chip {
   border: 2px solid transparent;
   cursor: pointer;
   font-family: inherit;
 }
 
-.pdx-chip.is-on { border-color: #1a1a1a; }
+.ref-chip.is-on { border-color: #1a1a1a; }
 
-.pdx-chip span {
+.ref-chip span {
   margin-left: 5px;
   font-weight: 400;
   font-variant-numeric: tabular-nums;
   opacity: 0.85;
 }
 
-.pdx-chips .type-badge { min-width: 0; padding: 2px 8px; font-size: 12px; }
-.pdx-chips .pdx-way { min-width: 0; margin-right: 0; padding: 2px 8px; font-size: 12px; }
+.ref-chips .type-badge { min-width: 0; padding: 2px 8px; font-size: 12px; }
+.ref-chips .pdx-way { min-width: 0; margin-right: 0; padding: 2px 8px; font-size: 12px; }
 
-.pdx-toggle {
+/* 「ここまで進んだ」。章は29本あるので、チップではなく選択肢にする。 */
+.ref-select {
+  padding: 3px 8px;
+  border: 1px solid #cfd8e2;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-family: inherit;
+  font-size: 13.5px;
+}
+
+.ref-select:focus { border-color: #0973ca; outline: none; box-shadow: 0 0 0 2px #cfe2f7; }
+
+.ref-toggle {
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -1341,13 +1359,13 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
   cursor: pointer;
 }
 
-.pdx-toggle span {
+.ref-toggle span {
   color: #4f5a64;
   font-size: 12px;
   font-variant-numeric: tabular-nums;
 }
 
-.pdx-reset {
+.ref-reset {
   margin-left: auto;
   padding: 3px 10px;
   border: 1px solid #cfd8e2;
@@ -1359,38 +1377,39 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
   cursor: pointer;
 }
 
-.pdx-reset:hover { background: #e8eff7; }
+.ref-reset:hover { background: #e8eff7; }
 
-body.night-mode .pdx-filter {
+body.night-mode .ref-filter {
   background: #16181c;
   border-color: #3c434c;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 }
 
-body.night-mode .pdx-search {
+body.night-mode .ref-search,
+body.night-mode .ref-select {
   background: #23272e;
   border-color: #3c434c;
   color: #e8eaed;
 }
 
-body.night-mode .pdx-count,
-body.night-mode .pdx-chip-label,
-body.night-mode .pdx-toggle span { color: #a4aeb8; }
+body.night-mode .ref-count,
+body.night-mode .ref-chip-label,
+body.night-mode .ref-toggle span { color: #a4aeb8; }
 
-body.night-mode .pdx-chip.is-on { border-color: #ffffff; }
+body.night-mode .ref-chip.is-on { border-color: #ffffff; }
 
-body.night-mode .pdx-reset {
+body.night-mode .ref-reset {
   background: #23272e;
   border-color: #3c434c;
   color: #a8c4de;
 }
 
-body.night-mode .pdx-reset:hover { background: #2b323a; }
+body.night-mode .ref-reset:hover { background: #2b323a; }
 
 /* 狭い画面ではラベルを詰めて、チップに幅を回す。 */
 @media screen and (max-width: 640px) {
-  .pdx-chip-label { flex-basis: 100%; }
-  .pdx-filter { position: static; }
+  .ref-chip-label { flex-basis: 100%; }
+  .ref-filter { position: static; }
 }
 
 /* 595行あるので、見出し行を持たせずに種族名と場所の2列だけで組む。 */
@@ -2170,7 +2189,7 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
   .spoilerHide,
   .affinity-jump,
   .ref-back,
-  .pdx-filter {
+  .ref-filter {
     display: none !important;
   }
 

@@ -5,6 +5,9 @@
 # 資料ページは「この行は本文のどこに載っていたか」を必要とするが、それが
 # 分かるのは指示行を展開している最中だけ。出現表と戦闘表の両方が要るので、
 # 受け渡しの場所を1つに決めておく。
+#
+# 章には通し番号も振る。出現場所ページの「ここまで進んだ」で使う。章の
+# 題名 (「クリア後 エピソード3」など) からは進行の順序が読めないため。
 module DocContext
   module_function
 
@@ -16,7 +19,25 @@ module DocContext
     @current = ctx
   end
 
+  # 1回の生成の最初に呼ぶ。通し番号ごと初期化する。
   def reset!
+    @current = nil
+    @chapters = []
+  end
+
+  # 章の切り替わり。同じ題名で2回呼ばれても番号は増やさない。
+  def begin_chapter(title)
+    @chapters ||= []
+    @chapters << title unless @chapters.last == title
+    @chapters.length - 1
+  end
+
+  # 番号順の章の題名。絞り込みの選択肢を組むのに使う。
+  def chapters
+    @chapters || []
+  end
+
+  def clear_position!
     @current = nil
   end
 end

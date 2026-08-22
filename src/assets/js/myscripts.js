@@ -223,13 +223,14 @@ $(document).ready(function() {
 // 操作子は hidden 付きで書き出してあり、ここで初めて外す。JavaScript を
 // 切っていても表は全件そのまま残り、Ctrl+F は今までどおり効く。
 (function () {
-  var bar = document.querySelector('.pdx-filter');
+  var bar = document.querySelector('.ref-filter');
   if (!bar) return;
 
   var input = document.getElementById('pdx-q');
-  var countEl = bar.querySelector('.pdx-count');
+  var countEl = bar.querySelector('.ref-count');
   var onlyEl = document.getElementById('pdx-only');
-  var resetEl = bar.querySelector('.pdx-reset');
+  var uptoEl = document.getElementById('pdx-upto');
+  var resetEl = bar.querySelector('.ref-reset');
   var jump = document.querySelector('.pdx-jump');
   var tables = [].slice.call(document.querySelectorAll('.pdx-table'));
   var rows = [].slice.call(document.querySelectorAll('.pdx-table tr'));
@@ -258,12 +259,16 @@ $(document).ready(function() {
     tr._ways = (tr.getAttribute('data-ways') || '').split(' ');
     tr._only = tr.getAttribute('data-only') === '1';
     tr._places = [].slice.call(tr.querySelectorAll('li[data-way]'));
+    tr._ch = parseInt(tr.getAttribute('data-ch'), 10) || 0;
+    tr._places.forEach(function (li) {
+      li._ch = parseInt(li.getAttribute('data-ch'), 10) || 0;
+    });
   });
 
   var picked = { types: [], ways: [] };
 
   function chips(group) {
-    return [].slice.call(bar.querySelectorAll('.pdx-chips[data-group="' + group + '"] .pdx-chip'));
+    return [].slice.call(bar.querySelectorAll('.ref-chips[data-group="' + group + '"] .ref-chip'));
   }
 
   function anySome(list, want) {
@@ -278,28 +283,35 @@ $(document).ready(function() {
     var q = norm(input.value.trim());
     var terms = q ? q.split(/\s+/) : [];
     var onlyOne = onlyEl && onlyEl.checked;
+    var upto = uptoEl && uptoEl.value !== '' ? parseInt(uptoEl.value, 10) : null;
     var shown = 0;
 
     rows.forEach(function (tr) {
       var ok = anySome(tr._types, picked.types) && anySome(tr._ways, picked.ways);
       if (ok && onlyOne) ok = tr._only;
+      // その章までに行ける場所が1つでもあるか。場所は本文の順で並べて
+      // あるので、行が持つのは一番早い章。
+      if (ok && upto !== null) ok = tr._ch <= upto;
       for (var i = 0; ok && i < terms.length; i++) {
         if (tr._hay.indexOf(terms[i]) === -1) ok = false;
       }
       tr.hidden = !ok;
       if (ok) shown++;
 
-      // 出現方法で絞ったとき、その行の中で条件に合わない場所を落として
-      // おく。行は「その方法で捕れる種族」で選んでいるので、絞ったのに
-      // 別の方法の場所が同じ濃さで並ぶと読み違えるため。
-      if (ok && picked.ways.length) {
+      // 行の中で条件から外れた場所を落としておく。行は「条件に合う場所が
+      // ある種族」で選んでいるので、絞ったのに外れた場所が同じ濃さで並ぶと
+      // 読み違えるため。
+      var dimming = picked.ways.length > 0 || upto !== null;
+      if (ok && dimming) {
         tr._places.forEach(function (li) {
-          li.classList.toggle('is-dim', picked.ways.indexOf(li.getAttribute('data-way')) === -1);
+          var out = (picked.ways.length && picked.ways.indexOf(li.getAttribute('data-way')) === -1) ||
+                    (upto !== null && li._ch > upto);
+          li.classList.toggle('is-dim', out);
         });
       } else if (tr._dimmed) {
         tr._places.forEach(function (li) { li.classList.remove('is-dim'); });
       }
-      tr._dimmed = ok && picked.ways.length > 0;
+      tr._dimmed = ok && dimming;
     });
 
     // 空になった図鑑番号の区切りは見出しごと畳む。
@@ -315,7 +327,7 @@ $(document).ready(function() {
     });
 
     var filtering = terms.length > 0 || picked.types.length > 0 ||
-                    picked.ways.length > 0 || onlyOne;
+                    picked.ways.length > 0 || onlyOne || upto !== null;
     if (jump) jump.hidden = filtering;
     bar.classList.toggle('is-filtering', filtering);
 
@@ -335,6 +347,7 @@ $(document).ready(function() {
     if (picked.types.length) p.set('t', picked.types.join(','));
     if (picked.ways.length) p.set('w', picked.ways.join(','));
     if (onlyEl && onlyEl.checked) p.set('only', '1');
+    if (uptoEl && uptoEl.value !== '') p.set('ch', uptoEl.value);
     var s = p.toString();
     history.replaceState(null, '', s ? '?' + s : location.pathname);
   }
@@ -363,6 +376,7 @@ $(document).ready(function() {
   });
 
   if (onlyEl) onlyEl.addEventListener('change', apply);
+  if (uptoEl) uptoEl.addEventListener('change', apply);
 
   if (resetEl) {
     resetEl.addEventListener('click', function () {
@@ -376,6 +390,7 @@ $(document).ready(function() {
         });
       });
       if (onlyEl) onlyEl.checked = false;
+      if (uptoEl) uptoEl.value = '';
       apply();
       input.focus();
     });
@@ -399,7 +414,7 @@ $(document).ready(function() {
       var raw = p.get(g === 'types' ? 't' : 'w');
       if (!raw) return;
       raw.split(',').forEach(function (v) {
-        var chip = bar.querySelector('.pdx-chips[data-group="' + g + '"] .pdx-chip[data-value="' + v + '"]');
+        var chip = bar.querySelector('.ref-chips[data-group="' + g + '"] .ref-chip[data-value="' + v + '"]');
         if (!chip) return;
         picked[g].push(v);
         chip.classList.add('is-on');
@@ -407,6 +422,179 @@ $(document).ready(function() {
       });
     });
     if (onlyEl && p.get('only') === '1') onlyEl.checked = true;
+    if (uptoEl && p.get('ch')) uptoEl.value = p.get('ch');
+  })();
+
+  apply();
+})();
+
+
+// フィールド効果ページ (/reborn/fields/) の絞り込み。
+//
+// 38フィールド・820行あるので、「こおり技が強化されるのはどこか」を
+// 横断で引けるようにする。操作子の体裁 (.ref-*) は出現場所ページと同じ。
+(function () {
+  var bar = document.querySelector('.fn-filter');
+  if (!bar) return;
+
+  var input = document.getElementById('fn-q');
+  var countEl = bar.querySelector('.ref-count');
+  var resetEl = bar.querySelector('.ref-reset');
+  var jump = document.querySelector('.fn-jump');
+  var lists = [].slice.call(document.querySelectorAll('.field-notes'));
+  if (!lists.length) return;
+
+  bar.hidden = false;
+
+  function norm(s) {
+    return (s || '').normalize('NFKC').toLowerCase()
+      .replace(/[ぁ-ゖ]/g, function (c) {
+        return String.fromCharCode(c.charCodeAt(0) + 0x60);
+      });
+  }
+
+  // 1フィールド分のまとまり。見出し・台詞・効果の一覧・戦う場面を
+  // ひとまとめにして、まるごと出し入れする。
+  var groups = lists.map(function (ul) {
+    var head = ul.previousElementSibling;
+    var parts = [ul];
+    while (head && head.tagName !== 'H2') {
+      parts.push(head);
+      head = head.previousElementSibling;
+    }
+    var after = ul.nextElementSibling;
+    if (after && after.classList.contains('fn-usage')) parts.push(after);
+
+    var items = [].slice.call(ul.querySelectorAll('li'));
+    items.forEach(function (li) {
+      li._hay = norm(li.textContent);
+      li._types = (li.getAttribute('data-types') || '').split(' ');
+    });
+
+    return {
+      head: head,
+      parts: parts,
+      items: items,
+      name: norm(head ? head.textContent : '')
+    };
+  });
+
+  var totalItems = groups.reduce(function (n, g) { return n + g.items.length; }, 0);
+  var picked = [];
+
+  function chipEls() {
+    return [].slice.call(bar.querySelectorAll('.ref-chip'));
+  }
+
+  function apply() {
+    var terms = norm(input.value.trim());
+    terms = terms ? terms.split(/\s+/) : [];
+    var shownFields = 0;
+    var shownItems = 0;
+
+    groups.forEach(function (g) {
+      // フィールドの名前自体が当たっているなら、その中身は文字での
+      // 絞り込みを通す。「森林フィールド」と打って中身が消えると困る。
+      var nameHit = terms.length > 0 && terms.every(function (t) {
+        return g.name.indexOf(t) !== -1;
+      });
+      var any = false;
+
+      g.items.forEach(function (li) {
+        var ok = true;
+        if (picked.length) {
+          ok = false;
+          for (var i = 0; i < picked.length; i++) {
+            if (li._types.indexOf(picked[i]) !== -1) { ok = true; break; }
+          }
+        }
+        if (ok && terms.length && !nameHit) {
+          for (var j = 0; j < terms.length; j++) {
+            if (li._hay.indexOf(terms[j]) === -1) { ok = false; break; }
+          }
+        }
+        li.hidden = !ok;
+        if (ok) { any = true; shownItems++; }
+      });
+
+      g.parts.forEach(function (el) { el.hidden = !any; });
+      if (g.head) g.head.hidden = !any;
+      if (any) shownFields++;
+    });
+
+    var filtering = terms.length > 0 || picked.length > 0;
+    if (jump) jump.hidden = filtering;
+    bar.classList.toggle('is-filtering', filtering);
+
+    if (countEl) {
+      countEl.textContent = filtering
+        ? (shownItems === 0 ? '該当なし'
+            : shownFields + 'フィールド / ' + shownItems + '行')
+        : groups.length + 'フィールド / ' + totalItems + '行';
+    }
+
+    if (window.history && history.replaceState) {
+      var p = new URLSearchParams();
+      if (input.value.trim()) p.set('q', input.value.trim());
+      if (picked.length) p.set('t', picked.join(','));
+      var s = p.toString();
+      history.replaceState(null, '', s ? '?' + s : location.pathname);
+    }
+  }
+
+  chipEls().forEach(function (chip) {
+    chip.setAttribute('aria-pressed', 'false');
+    chip.addEventListener('click', function () {
+      var v = chip.getAttribute('data-value');
+      var at = picked.indexOf(v);
+      if (at === -1) picked.push(v); else picked.splice(at, 1);
+      chip.classList.toggle('is-on', at === -1);
+      chip.setAttribute('aria-pressed', at === -1 ? 'true' : 'false');
+      apply();
+    });
+  });
+
+  var timer = null;
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(apply, 80);
+  });
+
+  if (resetEl) {
+    resetEl.addEventListener('click', function () {
+      input.value = '';
+      picked = [];
+      chipEls().forEach(function (c) {
+        c.classList.remove('is-on');
+        c.setAttribute('aria-pressed', 'false');
+      });
+      apply();
+      input.focus();
+    });
+  }
+
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key !== '/' || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+    var t = ev.target;
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+    ev.preventDefault();
+    input.focus();
+    input.select();
+  });
+
+  (function restore() {
+    var p = new URLSearchParams(location.search);
+    if (p.get('q')) input.value = p.get('q');
+    var raw = p.get('t');
+    if (raw) {
+      raw.split(',').forEach(function (v) {
+        var chip = bar.querySelector('.ref-chip[data-value="' + v + '"]');
+        if (!chip) return;
+        picked.push(v);
+        chip.classList.add('is-on');
+        chip.setAttribute('aria-pressed', 'true');
+      });
+    }
   })();
 
   apply();

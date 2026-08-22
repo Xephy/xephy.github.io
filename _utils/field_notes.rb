@@ -265,7 +265,49 @@ module FieldNotes
               '</span>'
     end
 
-    "<li>#{body}</li>"
+    # タイプの札が入っている行は、タイプで絞り込めるようにする。
+    kinds = body.scan(/type-badge type-([a-z]+)/).flatten.uniq.join(' ')
+    %(<li#{kinds.empty? ? '' : %( data-types="#{kinds}")}>#{body}</li>)
+  end
+
+  # 絞り込みの操作子。出現場所ページと同じ体裁 (.ref-*) を使う。
+  # JavaScript が動いたときだけ hidden を外すので、切っていても820行は
+  # そのまま残る。
+  def filter_html(notes, scripts_dir)
+    counts = Hash.new(0)
+    notes.each do |n|
+      html = [n.text, n.elaboration].compact.join(' ')
+      html.scan(/<icon=type([A-Z]+)/).flatten.map(&:downcase).uniq.each { |t| counts[t] += 1 }
+    end
+    return '' if counts.empty?
+
+    path = scripts_dir ? File.join(scripts_dir, 'Reborn', 'typetext.rb') : nil
+    src = path && File.exist?(path) ? File.read(path) : ''
+    order = src.scan(/^  :([A-Z]+) =>/).flatten.map(&:downcase)
+
+    chips = counts.keys.sort_by { |t| [order.index(t) || 99, t] }.map { |t|
+      label = t == 'qmarks' ? '???' : JaNames.tr('types', t.capitalize)
+      cls = t == 'qmarks' ? 'qmarks' : t
+      %(<button type="button" class="ref-chip type-badge type-#{cls}" data-value="#{t}">) +
+        %(#{escape(label)}<span>#{counts[t]}</span></button>)
+    }.join
+
+    ja = JaNames.enabled?
+    <<~BAR
+      <div class="ref-filter fn-filter" hidden>
+        <div class="ref-filter-line">
+          <input type="search" id="fn-q" class="ref-search" autocomplete="off"
+                 placeholder="#{ja ? 'わざ名・とくせい名・フィールド名で絞る' : 'Filter by move, ability or field'}">
+          <span class="ref-count" role="status" aria-live="polite"></span>
+        </div>
+        <div class="ref-filter-line ref-chips" data-group="types">
+          <span class="ref-chip-label">#{ja ? 'タイプ' : 'Type'}</span>#{chips}
+        </div>
+        <div class="ref-filter-line">
+          <button type="button" class="ref-reset">#{ja ? '条件を外す' : 'Clear'}</button>
+        </div>
+      </div>
+    BAR
   end
 
   def build_page(game, scripts_dir)
@@ -306,10 +348,13 @@ module FieldNotes
       if JaNames.enabled?
         "ゲーム内のポケギアにある「フィールドノート」を、そのまま読める形にしたものです。" \
         "フィールド #{fields.length}種 / #{notes.length}行。" \
-        "攻略本文の戦闘に書いてある「フィールド」の名前から、それぞれの節へ直接飛べます。"
+        "攻略本文の戦闘に書いてある「フィールド」の名前から、それぞれの節へ直接飛べます。" \
+        "下の欄で、わざ名・とくせい名・タイプから横断して絞り込めます" \
+        "（「こおり」でこおり技に効くフィールドだけを並べる、など）。/ キーで入力欄に移れます。"
       else
         "The in-game Field Notes app, laid out as one page. " \
-        "#{fields.length} fields / #{notes.length} lines."
+        "#{fields.length} fields / #{notes.length} lines. " \
+        "Use the box below to filter across every field by move, ability or type. Press / to jump to it."
       end
     legend =
       if JaNames.enabled?
@@ -337,6 +382,8 @@ module FieldNotes
 
       #{legend}
       {: .fn-legend}
+
+      #{filter_html(notes, scripts_dir)}
 
       <nav class="affinity-jump fn-jump">
         <ul>
