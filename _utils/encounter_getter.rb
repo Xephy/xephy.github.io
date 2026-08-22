@@ -232,6 +232,8 @@ class EncounterGetter
         # 逆引き資料ページ用に、画面に出るのと同じ値をそのまま渡す。
         EncounterIndex.record(
           species: pokemon_name_formatted,
+          # 内部シンボル。英語名で探す人のために検索対象へ入れる。
+          species_key: mon.to_s,
           dexnum: @pokemonHash[mon][base_form][:dexnum],
           icon: icon_src,
           # タイプは逆引きページで札にする。「今ほしいのは水タイプ」の

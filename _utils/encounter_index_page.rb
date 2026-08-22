@@ -54,14 +54,30 @@ module EncounterIndexPage
     'Headbutt' => 'headbutt', 'Rock Smash' => 'smash', 'Fishing' => 'fish'
   }.freeze
 
+  # 絞り込みチップの表示名。表に出ている札と同じ言葉にする。
+  def self.way_labels
+    keys = %w[Grass Cave Surfing Headbutt Rock\ Smash Fishing]
+    keys.to_h { |k| [JaNames.ui(k), GROUP_CLASS[k]] }
+  end
+
   def place_html(place)
     ctx = place[:context] || {}
     chapter = chapter_label(ctx[:chapter])
     link = ctx[:href] ? %(<a href="#{ctx[:href]}">#{esc(place[:map_label])}</a>) : esc(place[:map_label])
     cls = GROUP_CLASS[place[:group]] || 'other'
     badge = %(<span class="pdx-way pdx-way-#{cls}">#{esc(place[:group])}</span>)
-    "<li>#{badge}#{link} <span class=\"pdx-meta\">" \
+    "<li data-way=\"#{cls}\">#{badge}#{link} <span class=\"pdx-meta\">" \
       "#{chapter.empty? ? '' : "#{esc(chapter)} · "}#{meta(place)}</span></li>"
+  end
+
+  # ゲーム内のタイプの並び。チップの並び順に使う。辞書順だと「ノーマル・
+  # ほのお・みず…」の見慣れた並びから外れる。
+  def type_order(scripts_dir)
+    @type_order ||= begin
+      path = scripts_dir ? File.join(scripts_dir, 'Reborn', 'typetext.rb') : nil
+      src = path && File.exist?(path) ? File.read(path) : ''
+      src.scan(/^  :([A-Z]+) =>/).flatten.map(&:downcase)
+    end
   end
 
   def species_html(entry)
@@ -78,8 +94,11 @@ module EncounterIndexPage
       %(<span class="type-badge type-#{t.to_s.downcase}">#{esc(name)}</span>)
     }.join
 
+    ways = entry[:places].map { |p| GROUP_CLASS[p[:group]] || 'other' }.uniq.join(' ')
+    kinds = Array(entry[:types]).map { |t| t.to_s.downcase }.join(' ')
+
     <<~ROW
-      <tr>
+      <tr data-name="#{esc(entry[:species])}" data-en="#{esc(entry[:species_key].to_s.downcase)}" data-types="#{kinds}" data-ways="#{ways}" data-only="#{entry[:places].length == 1 ? 1 : 0}">
         <td class="pdx-mon">#{icon}<span class="pdx-name">#{esc(entry[:species])}</span><span class="pdx-dex">No.#{entry[:dexnum]}</span><span class="pdx-types">#{types}</span>#{only}</td>
         <td class="pdx-places"><ul>#{entry[:places].map { |p| place_html(p) }.join}</ul></td>
       </tr>
@@ -94,7 +113,57 @@ module EncounterIndexPage
     "No.#{start}–#{start + BLOCK - 1}"
   end
 
-  def build_page(game)
+  # 絞り込みの操作子。JavaScript が動いたときだけ出す (hidden を外す)。
+  # 切っていても表は全件そのまま残るので、ブラウザの検索は今までどおり効く。
+  def filter_html(species, scripts_dir)
+    type_counts = Hash.new(0)
+    way_counts = Hash.new(0)
+    species.each do |sp|
+      Array(sp[:types]).map { |t| t.to_s.downcase }.uniq.each { |t| type_counts[t] += 1 }
+      sp[:places].map { |pl| GROUP_CLASS[pl[:group]] || 'other' }.uniq.each { |w| way_counts[w] += 1 }
+    end
+
+    order = type_order(scripts_dir)
+    types = type_counts.keys.sort_by { |t| [order.index(t) || 99, t] }
+    type_chips = types.map { |t|
+      label = JaNames.tr('types', t.capitalize)
+      %(<button type="button" class="pdx-chip type-badge type-#{t}" data-value="#{t}">) +
+        %(#{esc(label)}<span>#{type_counts[t]}</span></button>)
+    }.join
+
+    ways = way_counts.keys.sort_by { |w| -way_counts[w] }
+    way_chips = ways.map { |w|
+      label = way_labels.key(w) || w
+      %(<button type="button" class="pdx-chip pdx-way pdx-way-#{w}" data-value="#{w}">) +
+        %(#{esc(label)}<span>#{way_counts[w]}</span></button>)
+    }.join
+
+    only = species.count { |sp| sp[:places].length == 1 }
+    ja = JaNames.enabled?
+
+    <<~BAR
+      <div class="pdx-filter" hidden>
+        <div class="pdx-filter-line">
+          <input type="search" id="pdx-q" class="pdx-search" autocomplete="off"
+                 placeholder="#{ja ? '名前・タイプ・地名で絞る（かな・英語名も可）' : 'Filter by name, type or place'}">
+          <span class="pdx-count" role="status" aria-live="polite"></span>
+        </div>
+        <div class="pdx-filter-line pdx-chips" data-group="types">
+          <span class="pdx-chip-label">#{ja ? 'タイプ' : 'Type'}</span>#{type_chips}
+        </div>
+        <div class="pdx-filter-line pdx-chips" data-group="ways">
+          <span class="pdx-chip-label">#{ja ? '出現方法' : 'Method'}</span>#{way_chips}
+        </div>
+        <div class="pdx-filter-line">
+          <label class="pdx-toggle"><input type="checkbox" id="pdx-only">
+            #{ja ? "出現する場所が1箇所だけ" : 'Only one place'}<span>#{only}</span></label>
+          <button type="button" class="pdx-reset">#{ja ? '条件を外す' : 'Clear'}</button>
+        </div>
+      </div>
+    BAR
+  end
+
+  def build_page(game, scripts_dir = nil)
     species = EncounterIndex.by_species
     return nil if species.empty?
 
@@ -124,14 +193,17 @@ module EncounterIndexPage
         ["攻略本文にある出現表を、種族から引けるように並べ替えたものです。" \
          "#{species.length}種 / #{total_places}箇所。場所名を押すと、その表が載っている本文へ飛べます。",
          "場所は本文に出てくる順、つまり早く行ける順に並べています。" \
-         "#{only_one}種は出現する場所が1箇所しかないので、印を付けました。" \
-         "種族名で探すときはブラウザの検索（Ctrl+F / ⌘+F）が早いです。",
+         "#{only_one}種は出現する場所が1箇所しかないので、印を付けました。",
+         "下の欄で、名前・タイプ・地名から絞り込めます。名前はひらがな（ふしぎだね）でも" \
+         "英語名（bulbasaur）でも引けます。/ キーで入力欄に移れます。" \
+         "絞り込んだ状態は URL に残るので、そのまま人に渡せます。",
          "野生で出会える場所だけを載せています。もらえる個体・固定シンボル・タマゴ・交換で手に入るものは含みません。"]
       else
         ["The walkthrough's encounter tables, rearranged by species. " \
          "#{species.length} species / #{total_places} places.",
          "Places are listed in walkthrough order, so the earliest one comes first. " \
          "#{only_one} species appear in exactly one place.",
+         "Use the box below to filter by name, type or place. Press / to jump to it.",
          "Wild encounters only - gifts, static encounters, eggs and trades are not listed."]
       end
 
@@ -150,7 +222,11 @@ module EncounterIndexPage
       #{lead[1]}
 
       #{lead[2]}
+
+      #{lead[3]}
       {: .pdx-note}
+
+      #{filter_html(species, scripts_dir)}
 
       <nav class="affinity-jump pdx-jump">
         <ul>

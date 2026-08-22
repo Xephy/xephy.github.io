@@ -213,3 +213,201 @@ $(document).ready(function() {
     };
   }
 })();
+
+
+// 出現場所ページ (/reborn/pokemon/) の絞り込み。
+//
+// 種族595行・場所2,528件を1枚に並べているので、ブラウザの検索だけでは
+// 「みずタイプで、つりで捕れるもの」のような引き方ができない。
+//
+// 操作子は hidden 付きで書き出してあり、ここで初めて外す。JavaScript を
+// 切っていても表は全件そのまま残り、Ctrl+F は今までどおり効く。
+(function () {
+  var bar = document.querySelector('.pdx-filter');
+  if (!bar) return;
+
+  var input = document.getElementById('pdx-q');
+  var countEl = bar.querySelector('.pdx-count');
+  var onlyEl = document.getElementById('pdx-only');
+  var resetEl = bar.querySelector('.pdx-reset');
+  var jump = document.querySelector('.pdx-jump');
+  var tables = [].slice.call(document.querySelectorAll('.pdx-table'));
+  var rows = [].slice.call(document.querySelectorAll('.pdx-table tr'));
+  if (!rows.length) return;
+
+  bar.hidden = false;
+
+  // ひらがなで打っても片仮名の種族名に当たるようにする。全角英数と
+  // 半角カナは NFKC で寄せてから、ひらがなを片仮名へ送る。
+  function norm(s) {
+    return (s || '').normalize('NFKC').toLowerCase()
+      .replace(/[ぁ-ゖ]/g, function (c) {
+        return String.fromCharCode(c.charCodeAt(0) + 0x60);
+      });
+  }
+
+  // 行ごとの検索対象。地名や章の名前も含めたいので本文をそのまま使う。
+  // 初回だけ組み立てて持っておく。
+  rows.forEach(function (tr) {
+    tr._hay = norm(
+      (tr.getAttribute('data-name') || '') + ' ' +
+      (tr.getAttribute('data-en') || '') + ' ' +
+      tr.textContent
+    );
+    tr._types = (tr.getAttribute('data-types') || '').split(' ');
+    tr._ways = (tr.getAttribute('data-ways') || '').split(' ');
+    tr._only = tr.getAttribute('data-only') === '1';
+    tr._places = [].slice.call(tr.querySelectorAll('li[data-way]'));
+  });
+
+  var picked = { types: [], ways: [] };
+
+  function chips(group) {
+    return [].slice.call(bar.querySelectorAll('.pdx-chips[data-group="' + group + '"] .pdx-chip'));
+  }
+
+  function anySome(list, want) {
+    if (!want.length) return true;
+    for (var i = 0; i < want.length; i++) {
+      if (list.indexOf(want[i]) !== -1) return true;
+    }
+    return false;
+  }
+
+  function apply() {
+    var q = norm(input.value.trim());
+    var terms = q ? q.split(/\s+/) : [];
+    var onlyOne = onlyEl && onlyEl.checked;
+    var shown = 0;
+
+    rows.forEach(function (tr) {
+      var ok = anySome(tr._types, picked.types) && anySome(tr._ways, picked.ways);
+      if (ok && onlyOne) ok = tr._only;
+      for (var i = 0; ok && i < terms.length; i++) {
+        if (tr._hay.indexOf(terms[i]) === -1) ok = false;
+      }
+      tr.hidden = !ok;
+      if (ok) shown++;
+
+      // 出現方法で絞ったとき、その行の中で条件に合わない場所を落として
+      // おく。行は「その方法で捕れる種族」で選んでいるので、絞ったのに
+      // 別の方法の場所が同じ濃さで並ぶと読み違えるため。
+      if (ok && picked.ways.length) {
+        tr._places.forEach(function (li) {
+          li.classList.toggle('is-dim', picked.ways.indexOf(li.getAttribute('data-way')) === -1);
+        });
+      } else if (tr._dimmed) {
+        tr._places.forEach(function (li) { li.classList.remove('is-dim'); });
+      }
+      tr._dimmed = ok && picked.ways.length > 0;
+    });
+
+    // 空になった図鑑番号の区切りは見出しごと畳む。
+    tables.forEach(function (table) {
+      var visible = false;
+      var trs = table.rows;
+      for (var i = 0; i < trs.length; i++) {
+        if (!trs[i].hidden) { visible = true; break; }
+      }
+      table.hidden = !visible;
+      var head = table.previousElementSibling;
+      if (head && head.tagName === 'H2') head.hidden = !visible;
+    });
+
+    var filtering = terms.length > 0 || picked.types.length > 0 ||
+                    picked.ways.length > 0 || onlyOne;
+    if (jump) jump.hidden = filtering;
+    bar.classList.toggle('is-filtering', filtering);
+
+    if (countEl) {
+      countEl.textContent = filtering
+        ? (shown === 0 ? '該当なし' : rows.length + '件中 ' + shown + '件')
+        : rows.length + '件';
+    }
+    remember(terms.length ? input.value.trim() : '');
+  }
+
+  // 絞り込んだ状態をそのまま渡せるように、条件を URL に残す。
+  function remember(q) {
+    if (!window.history || !history.replaceState) return;
+    var p = new URLSearchParams();
+    if (q) p.set('q', q);
+    if (picked.types.length) p.set('t', picked.types.join(','));
+    if (picked.ways.length) p.set('w', picked.ways.join(','));
+    if (onlyEl && onlyEl.checked) p.set('only', '1');
+    var s = p.toString();
+    history.replaceState(null, '', s ? '?' + s : location.pathname);
+  }
+
+  function bindChips(group) {
+    chips(group).forEach(function (chip) {
+      chip.setAttribute('aria-pressed', 'false');
+      chip.addEventListener('click', function () {
+        var v = chip.getAttribute('data-value');
+        var at = picked[group].indexOf(v);
+        if (at === -1) picked[group].push(v); else picked[group].splice(at, 1);
+        chip.classList.toggle('is-on', at === -1);
+        chip.setAttribute('aria-pressed', at === -1 ? 'true' : 'false');
+        apply();
+      });
+    });
+  }
+
+  bindChips('types');
+  bindChips('ways');
+
+  var timer = null;
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(apply, 80);
+  });
+
+  if (onlyEl) onlyEl.addEventListener('change', apply);
+
+  if (resetEl) {
+    resetEl.addEventListener('click', function () {
+      input.value = '';
+      picked.types = [];
+      picked.ways = [];
+      ['types', 'ways'].forEach(function (g) {
+        chips(g).forEach(function (c) {
+          c.classList.remove('is-on');
+          c.setAttribute('aria-pressed', 'false');
+        });
+      });
+      if (onlyEl) onlyEl.checked = false;
+      apply();
+      input.focus();
+    });
+  }
+
+  // 「/」で検索欄へ。入力中は邪魔しない。
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key !== '/' || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+    var t = ev.target;
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+    ev.preventDefault();
+    input.focus();
+    input.select();
+  });
+
+  // 共有された URL の条件を復元する。
+  (function restore() {
+    var p = new URLSearchParams(location.search);
+    if (p.get('q')) input.value = p.get('q');
+    ['types', 'ways'].forEach(function (g) {
+      var raw = p.get(g === 'types' ? 't' : 'w');
+      if (!raw) return;
+      raw.split(',').forEach(function (v) {
+        var chip = bar.querySelector('.pdx-chips[data-group="' + g + '"] .pdx-chip[data-value="' + v + '"]');
+        if (!chip) return;
+        picked[g].push(v);
+        chip.classList.add('is-on');
+        chip.setAttribute('aria-pressed', 'true');
+      });
+    });
+    if (onlyEl && p.get('only') === '1') onlyEl.checked = true;
+  })();
+
+  apply();
+})();

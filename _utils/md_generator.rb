@@ -300,7 +300,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
   # 章とは別に置く資料ページ。読み順に混ぜたくないので chapters には入れず、
   # permalink だけ /<game>/... に並べる。
   pages = {}
-  encounter_page = EncounterIndexPage.build_page(LONGNAMES[game])
+  encounter_page = EncounterIndexPage.build_page(LONGNAMES[game], scripts_dir)
   pages['pokemon'] = encounter_page if encounter_page
   field_page = FieldNotes.build_page(LONGNAMES[game], scripts_dir)
   pages['fields'] = field_page if field_page

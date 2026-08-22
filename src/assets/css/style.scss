@@ -1258,6 +1258,141 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
   line-height: 1.8;
 }
 
+/* 絞り込みの操作子。JavaScript が動いたときだけ現れる (既定は hidden)。
+   長い表を上下するので、画面の上に貼り付けたまま使えるようにする。 */
+.pdx-filter {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  margin: 18px 0 22px;
+  padding: 10px 14px;
+  border: 1px solid #cfd8e2;
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+}
+
+.pdx-filter.is-filtering { border-color: #2b6cb0; }
+
+.pdx-filter-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin-top: 8px;
+}
+
+.pdx-filter-line:first-child { margin-top: 0; }
+
+.pdx-search {
+  flex: 1 1 20em;
+  min-width: 0;
+  padding: 7px 10px;
+  border: 1px solid #cfd8e2;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.pdx-search:focus { border-color: #0973ca; outline: none; box-shadow: 0 0 0 2px #cfe2f7; }
+
+.pdx-count {
+  flex: 0 0 auto;
+  color: #4f5a64;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.pdx-chip-label {
+  flex: 0 0 4.6em;
+  color: #4f5a64;
+  font-size: 12.5px;
+  font-weight: 600;
+}
+
+/* チップは表の中の札と同じ色。選んだものは濃い枠で示す。色を薄めると
+   白文字とのコントラストが落ちるので、明るさは変えない。 */
+.pdx-chip {
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.pdx-chip.is-on { border-color: #1a1a1a; }
+
+.pdx-chip span {
+  margin-left: 5px;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.85;
+}
+
+.pdx-chips .type-badge { min-width: 0; padding: 2px 8px; font-size: 12px; }
+.pdx-chips .pdx-way { min-width: 0; margin-right: 0; padding: 2px 8px; font-size: 12px; }
+
+.pdx-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13.5px;
+  cursor: pointer;
+}
+
+.pdx-toggle span {
+  color: #4f5a64;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.pdx-reset {
+  margin-left: auto;
+  padding: 3px 10px;
+  border: 1px solid #cfd8e2;
+  border-radius: 4px;
+  background: #f4f7fa;
+  color: #35536f;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.pdx-reset:hover { background: #e8eff7; }
+
+body.night-mode .pdx-filter {
+  background: #16181c;
+  border-color: #3c434c;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+body.night-mode .pdx-search {
+  background: #23272e;
+  border-color: #3c434c;
+  color: #e8eaed;
+}
+
+body.night-mode .pdx-count,
+body.night-mode .pdx-chip-label,
+body.night-mode .pdx-toggle span { color: #a4aeb8; }
+
+body.night-mode .pdx-chip.is-on { border-color: #ffffff; }
+
+body.night-mode .pdx-reset {
+  background: #23272e;
+  border-color: #3c434c;
+  color: #a8c4de;
+}
+
+body.night-mode .pdx-reset:hover { background: #2b323a; }
+
+/* 狭い画面ではラベルを詰めて、チップに幅を回す。 */
+@media screen and (max-width: 640px) {
+  .pdx-chip-label { flex-basis: 100%; }
+  .pdx-filter { position: static; }
+}
+
 /* 595行あるので、見出し行を持たせずに種族名と場所の2列だけで組む。 */
 #main_content .pdx-table {
   margin: 12px 0 30px;
@@ -1354,6 +1489,15 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
   line-height: 1.7;
 }
 
+/* 出現方法で絞ったとき、条件から外れた場所。消してしまうと「他にもある」
+   ことが分からなくなるので、残したまま一段落とす。
+   透明度で薄めると読めない濃さまで落ちてしまうので、札の色だけ抜いて、
+   文字は白地で 4.5:1 を保てる灰色に置き換える。 */
+#main_content .pdx-places li.is-dim .pdx-way { opacity: 0.4; }
+
+#main_content .pdx-places li.is-dim a,
+#main_content .pdx-places li.is-dim .pdx-meta { color: #667080; }
+
 /* 章・出現方法・レベル・確率。場所名より一段落として、場所の一覧を
    縦に追えるようにする。 */
 .pdx-meta {
@@ -1379,6 +1523,9 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
 body.night-mode #main_content .pdx-note { background: #1c1f24; }
 body.night-mode .pdx-dex,
 body.night-mode .pdx-meta { color: #a4aeb8; }
+
+body.night-mode #main_content .pdx-places li.is-dim a,
+body.night-mode #main_content .pdx-places li.is-dim .pdx-meta { color: #8b95a3; }
 body.night-mode .pdx-only { background: #3a2f1c; color: #e6c081; }
 body.night-mode #main_content .pdx-table tr { border-bottom-color: #2b3038; }
 
@@ -2022,7 +2169,8 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
   .spoilerBtn,
   .spoilerHide,
   .affinity-jump,
-  .ref-back {
+  .ref-back,
+  .pdx-filter {
     display: none !important;
   }
 

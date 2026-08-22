@@ -29,9 +29,10 @@ module EncounterIndex
     @entries = []
   end
 
-  def record(species:, dexnum:, icon:, types:, map_label:, group:, levels:, rates:)
+  def record(species:, species_key:, dexnum:, icon:, types:, map_label:, group:, levels:, rates:)
     entries << {
       species: species,
+      species_key: species_key,
       dexnum: dexnum.to_i,
       icon: icon,
       types: types,
@@ -47,7 +48,8 @@ module EncounterIndex
   def by_species
     grouped = entries.group_by { |e| e[:species] }
     grouped.map { |name, list|
-      { species: name, dexnum: list.first[:dexnum], icon: list.first[:icon],
+      { species: name, species_key: list.first[:species_key],
+        dexnum: list.first[:dexnum], icon: list.first[:icon],
         types: list.first[:types], places: dedupe(list) }
     }.sort_by { |s| [s[:dexnum], s[:species]] }
   end
