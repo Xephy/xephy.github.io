@@ -14,7 +14,7 @@ require_relative 'trainer_getter'
 class FunctionWrapper
   # 資料ページ (わざマシン一覧) が同じデータを使う。読み込み直すと二重に
   # 訳が当たるので、ここで読んだものを渡す。
-  attr_reader :item_hash, :move_hash
+  attr_reader :item_hash, :move_hash, :pokemon_hash, :map_hash
 
   # 画像の画素サイズ一覧 (bin/convert-images が書き出す)。
   IMAGE_SIZES = begin
@@ -40,12 +40,17 @@ class FunctionWrapper
     @trainerTypeHash = load_trainer_type_hash(game, @scriptsDir)
     @typeHash = load_type_hash(game, @scriptsDir)
     @moveHash = load_move_hash(game, @scriptsDir)
-    @item_hash = @itemHash
-    @move_hash = @moveHash
     @abilityHash = load_ability_hash(game, @scriptsDir)
     @pokemonHash = load_pokemon_hash(game, @scriptsDir)
     @raidDenHash = load_raid_den_hash(game, @scriptsDir)
     @encMapWrapper = EncounterMapWrapper.new(game, @scriptsDir)
+
+    # 資料ページが同じデータを使う。読み込み直すと訳が二重に当たるので、
+    # ここで読んだものをそのまま渡す。
+    @item_hash = @itemHash
+    @move_hash = @moveHash
+    @pokemon_hash = @pokemonHash
+    @map_hash = @mapHash
 
     @encGetter = EncounterGetter.new(game, @scriptsDir, @encHash, @mapHash, @encMapWrapper, @pokemonHash,
                                      @itemHash)

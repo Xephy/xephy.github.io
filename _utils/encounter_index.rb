@@ -59,9 +59,15 @@ module EncounterIndex
     species_keys.include?(key.to_s)
   end
 
+  # 種族ごとにまとめる。並びは図鑑番号順。
+  #
+  # 表示名だけでまとめるとニドラン♀と♂が1行に混ざる。ゲームのデータは
+  # どちらも "Nidoran" で、図鑑番号だけが違う (29 と 32)。内部シンボルも
+  # 鍵にして分ける。姿違い (アローラのすがた など) は表示名が違うので、
+  # これでも分かれたままになる。
   def by_species
-    grouped = entries.group_by { |e| e[:species] }
-    grouped.map { |name, list|
+    grouped = entries.group_by { |e| [e[:species], e[:species_key]] }
+    grouped.map { |(name, _key), list|
       { species: name, species_key: list.first[:species_key],
         dexnum: list.first[:dexnum], icon: list.first[:icon],
         types: list.first[:types], held: list.first[:held], places: dedupe(list) }

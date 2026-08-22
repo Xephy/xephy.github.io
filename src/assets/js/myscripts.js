@@ -1175,3 +1175,126 @@ $(document).ready(function() {
 
   apply();
 })();
+
+
+// 進化条件の一覧 (/reborn/evolutions/) の絞り込み。
+//
+// 394件。種族名・どうぐ名・わざ名の文字検索と、進化の仕方の分類。
+(function () {
+  var bar = document.querySelector('.ev-filter');
+  if (!bar) return;
+
+  var input = document.getElementById('ev-q');
+  var countEl = bar.querySelector('.ref-count');
+  var resetEl = bar.querySelector('.ref-reset');
+  var rows = [].slice.call(document.querySelectorAll('.ev-table tr'));
+  if (!rows.length) return;
+
+  bar.hidden = false;
+
+  function norm(s) {
+    return (s || '').normalize('NFKC').toLowerCase()
+      .replace(/[ぁ-ゖ]/g, function (c) {
+        return String.fromCharCode(c.charCodeAt(0) + 0x60);
+      });
+  }
+
+  rows.forEach(function (tr) {
+    tr._hay = norm(tr.textContent);
+    tr._group = tr.getAttribute('data-group');
+  });
+
+  var picked = [];
+
+  function chipEls() {
+    return [].slice.call(bar.querySelectorAll('.ev-chip'));
+  }
+
+  function apply() {
+    var terms = norm(input.value.trim());
+    terms = terms ? terms.split(/\s+/) : [];
+    var shown = 0;
+
+    rows.forEach(function (tr) {
+      var ok = !picked.length || picked.indexOf(tr._group) !== -1;
+      for (var i = 0; ok && i < terms.length; i++) {
+        if (tr._hay.indexOf(terms[i]) === -1) ok = false;
+      }
+      tr.hidden = !ok;
+      if (ok) shown++;
+    });
+
+    var filtering = terms.length > 0 || picked.length > 0;
+    bar.classList.toggle('is-filtering', filtering);
+    if (countEl) {
+      countEl.textContent = filtering
+        ? (shown === 0 ? '該当なし' : rows.length + '件中 ' + shown + '件')
+        : rows.length + '件';
+    }
+
+    if (window.history && history.replaceState) {
+      var p = new URLSearchParams();
+      if (input.value.trim()) p.set('q', input.value.trim());
+      if (picked.length) p.set('g', picked.join(','));
+      var s = p.toString();
+      history.replaceState(null, '', (s ? '?' + s : location.pathname) + location.hash);
+    }
+  }
+
+  chipEls().forEach(function (chip) {
+    chip.setAttribute('aria-pressed', 'false');
+    chip.addEventListener('click', function () {
+      var v = chip.getAttribute('data-value');
+      var at = picked.indexOf(v);
+      if (at === -1) picked.push(v); else picked.splice(at, 1);
+      chip.classList.toggle('is-on', at === -1);
+      chip.setAttribute('aria-pressed', at === -1 ? 'true' : 'false');
+      apply();
+    });
+  });
+
+  var timer = null;
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(apply, 80);
+  });
+
+  if (resetEl) {
+    resetEl.addEventListener('click', function () {
+      input.value = '';
+      picked = [];
+      chipEls().forEach(function (c) {
+        c.classList.remove('is-on');
+        c.setAttribute('aria-pressed', 'false');
+      });
+      apply();
+      input.focus();
+    });
+  }
+
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key !== '/' || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+    var t = ev.target;
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+    ev.preventDefault();
+    input.focus();
+    input.select();
+  });
+
+  (function restore() {
+    var p = new URLSearchParams(location.search);
+    if (p.get('q')) input.value = p.get('q');
+    var raw = p.get('g');
+    if (raw) {
+      raw.split(',').forEach(function (v) {
+        var chip = bar.querySelector('.ev-chip[data-value="' + v + '"]');
+        if (!chip) return;
+        picked.push(v);
+        chip.classList.add('is-on');
+        chip.setAttribute('aria-pressed', 'true');
+      });
+    }
+  })();
+
+  apply();
+})();

@@ -1432,6 +1432,55 @@ body.night-mode .pw-chip.is-on { border-color: #7db1e8; background: #2a3b4d; }
 body.night-mode .pw-chip span { color: #a4aeb8; }
 
 /*******************************************************************************
+進化条件の一覧 (/reborn/evolutions/)
+*******************************************************************************/
+
+#main_content .ev-table { margin: 12px 0 30px; table-layout: fixed; }
+#main_content .ev-table td { padding: 5px 10px; vertical-align: middle; }
+#main_content .ev-table .ev-from,
+#main_content .ev-table .ev-to { width: 12em; white-space: normal; }
+#main_content .ev-table .ev-arrow { width: 2em; text-align: center; color: #5c646d; }
+#main_content .ev-table .ev-how { white-space: normal; }
+
+.ev-icon { vertical-align: -9px; margin-right: 3px; }
+.ev-from a, .ev-to a { text-decoration: none; }
+.ev-from a .ev-name, .ev-to a .ev-name { border-bottom: 1px dotted #8fa6bd; }
+.ev-from a:hover .ev-name, .ev-to a:hover .ev-name { border-bottom-style: solid; }
+
+/* 進化の仕方の札。タイプの色を持たないので素の見た目にする。 */
+.ev-chip {
+  padding: 2px 10px;
+  border-radius: 999px;
+  border: 2px solid #cfd8e2;
+  background: #f4f7fa;
+  color: #35536f;
+  font-size: 12.5px;
+  font-weight: 600;
+}
+
+.ev-chip:hover { background: #e8eff7; }
+.ev-chip.is-on { border-color: #2b6cb0; background: #dce9f6; }
+.ev-chip span { color: #4f5a64; }
+
+@media screen and (max-width: 640px) {
+  #main_content .ev-table .ev-from,
+  #main_content .ev-table .ev-to { width: auto; }
+  #main_content .ev-table .ev-how { display: block; padding-top: 0; }
+}
+
+body.night-mode #main_content .ev-table .ev-arrow { color: #a4aeb8; }
+body.night-mode .ev-from a .ev-name,
+body.night-mode .ev-to a .ev-name { border-bottom-color: #6d8199; }
+body.night-mode .ev-chip {
+  background: #23272e;
+  border-color: #3c434c;
+  color: #a8c4de;
+}
+body.night-mode .ev-chip:hover { background: #2b323a; }
+body.night-mode .ev-chip.is-on { border-color: #7db1e8; background: #2a3b4d; }
+body.night-mode .ev-chip span { color: #a4aeb8; }
+
+/*******************************************************************************
 わざマシン一覧 (/reborn/tms/)
 *******************************************************************************/
 
@@ -1593,7 +1642,11 @@ body.night-mode #main_content .sh-table tr { border-bottom-color: #2b3038; }
 }
 
 .ref-chip-label {
-  flex: 0 0 4.6em;
+  /* 「進化の仕方」のような長い見出しで折り返さないよう、幅は下限だけ
+     決めて伸ばす。短い見出しどうしは今までどおり縦に揃う。 */
+  flex: 0 0 auto;
+  min-width: 4.6em;
+  white-space: nowrap;
   color: #4f5a64;
   font-size: 12.5px;
   font-weight: 600;
