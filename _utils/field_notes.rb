@@ -350,11 +350,15 @@ module FieldNotes
         "フィールド #{fields.length}種 / #{notes.length}行。" \
         "攻略本文の戦闘に書いてある「フィールド」の名前から、それぞれの節へ直接飛べます。" \
         "下の欄で、わざ名・とくせい名・タイプから横断して絞り込めます" \
-        "（「こおり」でこおり技に効くフィールドだけを並べる、など）。/ キーで入力欄に移れます。"
+        "（「こおり」でこおり技に効くフィールドだけを並べる、など）。/ キーで入力欄に移れます。" \
+        "当たった行には印を付けますが、フィールドは効果の組み合わせで判断するものなので、" \
+        "残った効果もそのまま並べています。"
       else
         "The in-game Field Notes app, laid out as one page. " \
         "#{fields.length} fields / #{notes.length} lines. " \
-        "Use the box below to filter across every field by move, ability or type. Press / to jump to it."
+        "Use the box below to filter across every field by move, ability or type. Press / to jump to it. " \
+        "Matching lines are marked, but every effect of a matching field is kept on screen - " \
+        "a field is judged by the combination, not by one line."
       end
     legend =
       if JaNames.enabled?

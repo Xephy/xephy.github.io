@@ -475,12 +475,26 @@ $(document).ready(function() {
       head: head,
       parts: parts,
       items: items,
-      name: norm(head ? head.textContent : '')
+      name: norm(head ? head.textContent : ''),
+      id: head ? head.id : null
     };
   });
 
   var totalItems = groups.reduce(function (n, g) { return n + g.items.length; }, 0);
   var picked = [];
+
+  // 飛び先一覧は絞り込み中も残す。当たったフィールドだけに減らし、
+  // 数字を「そのフィールドの中で当たった行数」に差し替える。
+  var navItems = jump ? [].slice.call(jump.querySelectorAll('li')).map(function (li) {
+    var a = li.querySelector('a');
+    var num = a ? a.querySelector('span') : null;
+    return {
+      li: li,
+      num: num,
+      total: num ? num.textContent : '',
+      id: a ? a.getAttribute('href').slice(1) : null
+    };
+  }) : [];
 
   function chipEls() {
     return [].slice.call(bar.querySelectorAll('.ref-chip'));
@@ -492,13 +506,16 @@ $(document).ready(function() {
     var shownFields = 0;
     var shownItems = 0;
 
+    var filtering = terms.length > 0 || picked.length > 0;
+    var hitsById = {};
+
     groups.forEach(function (g) {
       // フィールドの名前自体が当たっているなら、その中身は文字での
       // 絞り込みを通す。「森林フィールド」と打って中身が消えると困る。
       var nameHit = terms.length > 0 && terms.every(function (t) {
         return g.name.indexOf(t) !== -1;
       });
-      var any = false;
+      var hits = 0;
 
       g.items.forEach(function (li) {
         var ok = true;
@@ -508,28 +525,39 @@ $(document).ready(function() {
             if (li._types.indexOf(picked[i]) !== -1) { ok = true; break; }
           }
         }
-        if (ok && terms.length && !nameHit) {
+        if (ok && terms.length) {
           for (var j = 0; j < terms.length; j++) {
             if (li._hay.indexOf(terms[j]) === -1) { ok = false; break; }
           }
         }
-        li.hidden = !ok;
-        if (ok) { any = true; shownItems++; }
+        if (ok) hits++;
+        // 当たった行に印を付けるだけで、行は消さない。フィールドは効果の
+        // 組み合わせで判断するものなので、1行だけ抜き出しても使えない。
+        li.classList.toggle('is-hit', filtering && ok && !nameHit);
       });
 
-      g.parts.forEach(function (el) { el.hidden = !any; });
-      if (g.head) g.head.hidden = !any;
-      if (any) shownFields++;
+      var show = !filtering || nameHit || hits > 0;
+      g.parts.forEach(function (el) { el.hidden = !show; });
+      if (g.head) g.head.hidden = !show;
+      if (show) {
+        shownFields++;
+        shownItems += nameHit ? g.items.length : hits;
+        if (g.id) hitsById[g.id] = nameHit ? g.items.length : hits;
+      }
     });
 
-    var filtering = terms.length > 0 || picked.length > 0;
-    if (jump) jump.hidden = filtering;
+    navItems.forEach(function (n) {
+      var hit = n.id ? hitsById[n.id] : undefined;
+      n.li.hidden = filtering && hit === undefined;
+      if (n.num) n.num.textContent = filtering && hit !== undefined ? hit : n.total;
+    });
+
     bar.classList.toggle('is-filtering', filtering);
 
     if (countEl) {
       countEl.textContent = filtering
-        ? (shownItems === 0 ? '該当なし'
-            : shownFields + 'フィールド / ' + shownItems + '行')
+        ? (shownFields === 0 ? '該当なし'
+            : shownFields + 'フィールド / ' + shownItems + '行が一致')
         : groups.length + 'フィールド / ' + totalItems + '行';
     }
 

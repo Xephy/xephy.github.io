@@ -1708,6 +1708,18 @@ body.night-mode .fn-usage-label { color: #a4aeb8; }
 #main_content .field-notes li:first-child { border-top: none; }
 #main_content .field-notes li:nth-child(even) { background: #fafbfc; }
 
+/* 絞り込みで当たった行。フィールドは効果の組み合わせで判断するものなので、
+   当たった行だけ抜き出しても使えない。全部出したうえで印を付ける。 */
+#main_content .field-notes li.is-hit {
+  background: #fff6e0;
+  box-shadow: inset 3px 0 0 #c47f1a;
+}
+
+body.night-mode #main_content .field-notes li.is-hit {
+  background: #33291a;
+  box-shadow: inset 3px 0 0 #a9761f;
+}
+
 /* 1行の続き (対象になるわざやとくせいの一覧)。ゲームでは別画面に隠れて
    いるが、読み比べるならその場に出ているほうが早い。主文より落として置く。 */
 .fn-more {
