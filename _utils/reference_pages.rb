@@ -14,6 +14,7 @@ module ReferencePages
     { slug: 'shops', label: 'どうぐの買える店', en: 'Shop Index' },
     { slug: 'tms', label: 'わざマシン一覧', en: 'TM & HM List' },
     { slug: 'evolutions', label: '進化条件の一覧', en: 'Evolution Methods' },
+    { slug: 'pulsedex', label: 'PULSE図鑑', en: 'Pulse Dex' },
     { slug: 'fields', label: 'フィールド効果', en: 'Field Effects' },
     { slug: 'affinity', label: '好感度まとめ', en: 'Relationship Points' }
   ].freeze

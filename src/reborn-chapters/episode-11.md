@@ -43,7 +43,7 @@ permalink: /reborn/episode-11/
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -4368,6 +4368,6 @@ PP 10">どくどく</span><span class="move-meta"><span class="move-cat">変化<
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
