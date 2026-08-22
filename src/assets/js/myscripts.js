@@ -903,3 +903,120 @@ $(document).ready(function() {
   if (p.get('q')) input.value = p.get('q');
   apply();
 })();
+
+
+// どうぐの買える店 (/reborn/shops/) の絞り込み。
+//
+// 347品目 / 519件。どうぐ名でも店名でも引ける。
+(function () {
+  var bar = document.querySelector('.sh-filter');
+  if (!bar) return;
+
+  var input = document.getElementById('sh-q');
+  var countEl = bar.querySelector('.ref-count');
+  var resetEl = bar.querySelector('.ref-reset');
+  var manyEl = document.getElementById('sh-many');
+  var uptoEl = document.getElementById('sh-upto');
+  var rows = [].slice.call(document.querySelectorAll('.sh-table tr'));
+  if (!rows.length) return;
+
+  bar.hidden = false;
+
+  function norm(s) {
+    return (s || '').normalize('NFKC').toLowerCase()
+      .replace(/[ぁ-ゖ]/g, function (c) {
+        return String.fromCharCode(c.charCodeAt(0) + 0x60);
+      });
+  }
+
+  rows.forEach(function (tr) {
+    tr._hay = norm(tr.textContent);
+    tr._shops = parseInt(tr.getAttribute('data-shops'), 10) || 1;
+    tr._ch = parseInt(tr.getAttribute('data-ch'), 10) || 0;
+    tr._places = [].slice.call(tr.querySelectorAll('li[data-ch]'));
+    tr._places.forEach(function (li) {
+      li._ch = parseInt(li.getAttribute('data-ch'), 10) || 0;
+    });
+  });
+
+  function apply() {
+    var terms = norm(input.value.trim());
+    terms = terms ? terms.split(/\s+/) : [];
+    var many = manyEl && manyEl.checked;
+    var upto = uptoEl && uptoEl.value !== '' ? parseInt(uptoEl.value, 10) : null;
+    var shown = 0;
+
+    rows.forEach(function (tr) {
+      var ok = true;
+      if (many) ok = tr._shops > 1;
+      if (ok && upto !== null) ok = tr._ch <= upto;
+      for (var i = 0; ok && i < terms.length; i++) {
+        if (tr._hay.indexOf(terms[i]) === -1) ok = false;
+      }
+      tr.hidden = !ok;
+      if (ok) shown++;
+
+      // その章までに行けない店は落としておく。行は「その章までに買える
+      // どうぐ」で選んでいるので、先の店が同じ濃さで並ぶと読み違える。
+      if (ok && upto !== null) {
+        tr._places.forEach(function (li) { li.classList.toggle('is-dim', li._ch > upto); });
+      } else if (tr._dimmed) {
+        tr._places.forEach(function (li) { li.classList.remove('is-dim'); });
+      }
+      tr._dimmed = ok && upto !== null;
+    });
+
+    var filtering = terms.length > 0 || many || upto !== null;
+    bar.classList.toggle('is-filtering', filtering);
+    if (countEl) {
+      countEl.textContent = filtering
+        ? (shown === 0 ? '該当なし' : rows.length + '件中 ' + shown + '件')
+        : rows.length + '件';
+    }
+
+    if (window.history && history.replaceState) {
+      var p = new URLSearchParams();
+      if (input.value.trim()) p.set('q', input.value.trim());
+      if (many) p.set('many', '1');
+      if (upto !== null) p.set('ch', uptoEl.value);
+      var s = p.toString();
+      history.replaceState(null, '', (s ? '?' + s : location.pathname) + location.hash);
+    }
+  }
+
+  var timer = null;
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(apply, 80);
+  });
+  if (manyEl) manyEl.addEventListener('change', apply);
+  if (uptoEl) uptoEl.addEventListener('change', apply);
+
+  if (resetEl) {
+    resetEl.addEventListener('click', function () {
+      input.value = '';
+      if (manyEl) manyEl.checked = false;
+      if (uptoEl) uptoEl.value = '';
+      apply();
+      input.focus();
+    });
+  }
+
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key !== '/' || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+    var t = ev.target;
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+    ev.preventDefault();
+    input.focus();
+    input.select();
+  });
+
+  (function restore() {
+    var p = new URLSearchParams(location.search);
+    if (p.get('q')) input.value = p.get('q');
+    if (manyEl && p.get('many') === '1') manyEl.checked = true;
+    if (uptoEl && p.get('ch')) uptoEl.value = p.get('ch');
+  })();
+
+  apply();
+})();

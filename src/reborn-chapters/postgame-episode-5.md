@@ -43,7 +43,7 @@ permalink: /reborn/postgame-episode-5/
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -6323,6 +6323,6 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

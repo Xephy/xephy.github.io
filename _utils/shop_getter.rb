@@ -1,4 +1,5 @@
 require_relative 'common'
+require_relative 'shop_index'
 
 class ShopGetter
   attr_reader :game, :item_hash, :move_hash
@@ -69,6 +70,9 @@ class ShopGetter
       td_price.content = price
       raise "Missing price for item #{item}" if price == '' 
       content_row.add_child(td_price)
+
+      # 逆引き資料ページ用に、画面に出るのと同じ値をそのまま渡す。
+      ShopIndex.record(item: item_label, shop: JaNames.shop(shop_title), price: price)
     end
 
     html_output = doc.to_html(encoding: 'UTF-8')

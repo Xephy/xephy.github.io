@@ -1387,6 +1387,57 @@ body.night-mode .pw-chip.is-on { border-color: #7db1e8; background: #2a3b4d; }
 body.night-mode .pw-chip span { color: #a4aeb8; }
 
 /*******************************************************************************
+どうぐの買える店 (/reborn/shops/)
+*******************************************************************************/
+
+#main_content .sh-table { margin: 12px 0 30px; table-layout: fixed; }
+#main_content .sh-table td { padding: 6px 12px; vertical-align: top; }
+#main_content .sh-table .sh-item { width: 13em; white-space: normal; }
+
+/* 2店以上で扱う品目の印。値段が違うことがあるので、比べる手がかりになる。 */
+.sh-count {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 0 6px;
+  border-radius: 3px;
+  background: #eef3f9;
+  color: #35536f;
+  font-size: 11.5px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+#main_content .sh-shops { white-space: normal; }
+#main_content .sh-shops ul { margin: 0; padding: 0; list-style: none; }
+#main_content .sh-shops li { margin: 0; padding: 1px 0; line-height: 1.7; }
+
+.sh-meta {
+  color: #4f5a64;
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 進行度で絞ったとき、まだ行けない店。読める濃さは保つ。 */
+#main_content .sh-shops li.is-dim a,
+#main_content .sh-shops li.is-dim .sh-meta { color: #667080; }
+
+@media screen and (max-width: 640px) {
+  #main_content .sh-table,
+  #main_content .sh-table tbody,
+  #main_content .sh-table tr,
+  #main_content .sh-table td { display: block; width: auto; }
+
+  #main_content .sh-table tr { border-bottom: 1px solid #e3e7ec; }
+  #main_content .sh-table .sh-item { padding-bottom: 0; }
+}
+
+body.night-mode .sh-count { background: #23272e; color: #a8c4de; }
+body.night-mode .sh-meta { color: #a4aeb8; }
+body.night-mode #main_content .sh-shops li.is-dim a,
+body.night-mode #main_content .sh-shops li.is-dim .sh-meta { color: #8b95a3; }
+body.night-mode #main_content .sh-table tr { border-bottom-color: #2b3038; }
+
+/*******************************************************************************
 出現場所の逆引きページ (/reborn/pokemon/)
 *******************************************************************************/
 
