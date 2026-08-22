@@ -1,0 +1,270 @@
+#!/usr/bin/env python3
+"""VRパズルの解答表に焼き込まれた英語を日本語に描き直す。
+
+本文はすでに「硬度」「純度」「片理」と日本語で書いてあるのに、解答表だけが
+英語なので、読者が頭の中で対応づけないと答えを読めない。
+
+訳語はほぼすべて日本語化パッチのマップ台詞から取った (32語のうち28語)。
+残る Muddy と Diffuse は台詞に出てこないので、ここで決めている。
+
+表は白地に黒文字の規則正しい格子なので、見出しの帯だけを塗り直す。
+X と O の本体と、宝石の色分けにはいっさい触らない。
+
+    bin/refine-vr-images --out /tmp/preview 1     # 1枚だけ書き出して確認
+    bin/refine-vr-images --apply 1                # 差し替える
+"""
+import argparse
+import sys
+from pathlib import Path
+
+import numpy as np
+from PIL import Image, ImageDraw, ImageFont
+
+ROOT = Path(__file__).resolve().parent.parent
+ASSETS = ROOT / 'src' / 'assets' / 'images' / 'reborn'
+FONT_CANDIDATES = [
+    '/home/yamada/.local/share/fonts/NotoSansCJKjp-Regular.otf',
+    '/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc',
+]
+
+# 軸の見出しと4つの値。
+#
+# 訳語は勝手に決めていない。ほとんどは攻略本文の手がかり文がすでに使って
+# いる言葉で、残りは日本語化パッチのマップ台詞から取った。表と手がかり文で
+# 言葉が食い違うと、かえって読めなくなるため。
+#
+#   本文の手がかり文にある: 極小 小 中 大 / 不純 中程度 純粋 /
+#                           不明瞭 困難 完全 顕著 / 絹糸状 ガラス状 真珠状 /
+#                           立方状 六角状 板状 鶏冠状
+#   パッチの台詞から:       完璧 (Flawless) / 金剛状 (Adamantine)
+AXES = {
+    'Size':      ('サイズ', ['極小', '小', '中', '大']),
+    'Hardness':  ('硬度',   ['5', '6', '7', '8']),
+    'Purity':    ('純度',   ['不純', '中程度', '純粋', '完璧']),
+    'Foliation': ('片理',   ['不明瞭', '困難', '完全', '顕著']),
+    'Luster':    ('光沢',   ['絹糸状', 'ガラス状', '真珠状', '金剛状']),
+    'Habit':     ('晶癖',   ['立方状', '六角状', '板状', '鶏冠状']),
+}
+# 画像に出てくる順。パズルが進むごとに右へ増える。
+AXIS_ORDER = ['Size', 'Hardness', 'Purity', 'Foliation', 'Luster', 'Habit']
+
+WHITE = 235      # 白と見なす明るさ
+RULE = 215       # 薄い罫線と見なす明るさ
+RULE_COLOR = (204, 204, 204)
+
+
+def load_font(size):
+    for path in FONT_CANDIDATES:
+        if Path(path).exists():
+            return ImageFont.truetype(path, size)
+    sys.exit('日本語フォントが見つかりません')
+
+
+def runs(profile, thr):
+    out, start = [], None
+    for i, v in enumerate(profile):
+        if v > thr and start is None:
+            start = i
+        elif v <= thr and start is not None:
+            out.append((start, i - 1))
+            start = None
+    if start is not None:
+        out.append((start, len(profile) - 1))
+    return out
+
+
+def analyse(img):
+    """見出しの2段と、軸ごとの箱・仕切りの位置を測る。"""
+    a = np.array(img.convert('RGB')).astype(int)
+    white = (a > WHITE).all(axis=2)
+    row_runs = [r for r in runs(white.mean(axis=1), 0.05) if r[1] - r[0] > 10]
+    if len(row_runs) < 2:
+        sys.exit('見出しの帯が見つかりません')
+    title_band, value_band = row_runs[0], row_runs[1]
+    g = a.mean(axis=2)
+    # 軸の箱は、真っ黒な溝で区切られている。白い画素で探すと、見出しの
+    # 文字そのものが白率を下げて箱が分裂する (5枚目で 4本が 7本に割れた)。
+    # 黒い溝を探すほうが確実。
+    dark = (g[title_band[0]:value_band[1] + 1] < 60).mean(axis=0)
+    col_runs = [r for r in runs(1 - dark, 0.5) if r[1] - r[0] > 40]
+
+    # 4つの値の枠は等幅。仕切りを画素から拾うと濃さのむらで取りこぼすので、
+    # 箱の幅を4等分して求める。検出できた画像で照合したところ、どの箱でも
+    # 実測と1画素以内で一致した。
+    groups = []
+    for x0, x1 in col_runs:
+        w = x1 - x0 + 1
+        groups.append({'x0': x0, 'x1': x1, 'rules': [x0 + int(w * k / 4) for k in (1, 2, 3)]})
+    return title_band, value_band, groups
+
+
+def common_size(draw, texts, box_w, box_h, max_size):
+    """渡した文字列がすべて収まる最大の寸法。
+
+    枠ごとに最適な寸法を選ぶと「極小」と「大」で字の大きさが変わって
+    がたつく。元の表は全部同じ寸法なので、こちらも1段につき1つに揃える。
+    """
+    for size in range(max_size, 7, -1):
+        font = load_font(size)
+        ok = True
+        for text in texts:
+            l, t, r, b = draw.textbbox((0, 0), text, font=font)
+            if r - l > box_w - 8 or b - t > box_h - 6:
+                ok = False
+                break
+        if ok:
+            return font
+    return load_font(8)
+
+
+def centre(draw, text, font, x0, x1, y0, y1):
+    l, t, r, b = draw.textbbox((0, 0), text, font=font)
+    x = x0 + (x1 - x0 + 1 - (r - l)) // 2 - l
+    y = y0 + (y1 - y0 + 1 - (b - t)) // 2 - t
+    draw.text((x, y), text, font=font, fill=(0, 0, 0))
+
+
+# 左端の宝石の欄。R S E A は Ruby / Sapphire / Emerald / Amethyst の頭文字。
+GEM_LABEL = '宝石'
+GEM_INITIALS = ['ル', 'サ', 'エ', 'ア']
+
+
+def gem_column(a, x_limit, y_from):
+    """左端の色付きセル4つと、その左にある縦書きの見出し箱を測る。"""
+    region = a[y_from:, :x_limit]
+    mx, mn = region.max(axis=2), region.min(axis=2)
+    sat = (mx - mn > 60) & (mx > 150)
+    cols = np.where(sat.mean(axis=0) > 0.3)[0]
+    if len(cols) < 10:
+        return None
+    cx0, cx1 = int(cols.min()), int(cols.max())
+    # 4色のセルは隙間なく縦に並んでいるので、空きでは切れない。上端と下端を
+    # 取って4等分する。見出し行の桁と同じで、元画像も等分で描かれている。
+    lit = sat[:, cx0:cx1 + 1].mean(axis=1) > 0.5
+    ys = np.where(lit)[0]
+    if len(ys) < 40:
+        return None
+    top, bottom = int(ys.min()), int(ys.max())
+    height = bottom - top + 1
+    edges = [top + round(height * k / 4) for k in range(5)]
+    bands = [(edges[i] + y_from, edges[i + 1] - 1 + y_from) for i in range(4)]
+    # 4色が実際に違う色であることを確かめる。等分がずれていれば隣り合う帯の
+    # 代表色が近くなるので、そこで気づける。
+    meds = [np.median(region[b[0] - y_from:b[1] - y_from + 1, cx0:cx1 + 1].reshape(-1, 3), axis=0)
+            for b in bands]
+    if any(np.abs(meds[i] - meds[i + 1]).sum() < 60 for i in range(3)):
+        return None
+
+    # 見出しの箱: 色付きセルの左にある白い帯。無い画像もある。
+    label = None
+    if cx0 > 20:
+        left = a[bands[0][0]:bands[-1][1] + 1, :cx0]
+        white = (left > WHITE).all(axis=2)
+        wcols = np.where(white.mean(axis=0) > 0.5)[0]
+        if len(wcols) > 20:
+            label = (int(wcols.min()), int(wcols.max()))
+    return {'x0': cx0, 'x1': cx1, 'bands': bands, 'label': label}
+
+
+def draw_gems(img, draw, a, info):
+    """R S E A を かな に、Gem を「宝石」に描き直す。色は元のまま拾う。"""
+    x0, x1 = info['x0'], info['x1']
+    size = None
+    for band in info['bands']:
+        h = band[1] - band[0] + 1
+        f = common_size(draw, GEM_INITIALS, x1 - x0 + 1, h, h)
+        size = f if size is None or f.size < size.size else size
+    for band, kana in zip(info['bands'], GEM_INITIALS):
+        y0, y1 = band
+        patch = a[y0:y1 + 1, x0:x1 + 1].reshape(-1, 3)
+        fill = tuple(int(v) for v in np.median(patch, axis=0))
+        draw.rectangle([x0, y0, x1, y1], fill=fill)
+        centre(draw, kana, size, x0, x1, y0, y1)
+
+    if not info['label']:
+        return
+    lx0, lx1 = info['label']
+    ly0, ly1 = info['bands'][0][0], info['bands'][-1][1]
+    draw.rectangle([lx0, ly0, lx1, ly1], fill=(255, 255, 255))
+    # 原文の Gem は横書きを90度回してあるが、日本語は字を縦に積むほうが
+    # そのまま読める。回さずに1字ずつ重ねる。
+    col_w = lx1 - lx0 + 1
+    chars = list(GEM_LABEL)
+    font = common_size(draw, chars, col_w, col_w, col_w)
+    _, t, _, b = draw.textbbox((0, 0), GEM_LABEL, font=font)
+    cell = b - t + max(2, (b - t) // 8)
+    top = ly0 + (ly1 - ly0 + 1 - cell * len(chars)) // 2
+    for i, ch in enumerate(chars):
+        centre(draw, ch, font, lx0, lx1, top + cell * i, top + cell * (i + 1) - 1)
+
+
+def redraw(path, out_path, gems=False):
+    img = Image.open(path).convert('RGB')
+    title_band, value_band, groups = analyse(img)
+    draw = ImageDraw.Draw(img)
+
+    if len(groups) > len(AXIS_ORDER):
+        sys.exit(f'軸が {len(groups)} 本あります。想定は最大 {len(AXIS_ORDER)} 本です')
+
+    axes = AXIS_ORDER[:len(groups)]
+    narrowest = min(g['x1'] - g['x0'] + 1 for g in groups)
+    title_font = common_size(draw, [AXES[a][0] for a in axes],
+                             narrowest, title_band[1] - title_band[0] + 1,
+                             title_band[1] - title_band[0])
+    value_font = common_size(draw, [v for a in axes for v in AXES[a][1]],
+                             narrowest // 4, value_band[1] - value_band[0] + 1,
+                             value_band[1] - value_band[0])
+
+    for i, grp in enumerate(groups):
+        axis = AXIS_ORDER[i]
+        label, values = AXES[axis]
+        x0, x1 = grp['x0'], grp['x1']
+
+        # 見出しの2段だけを白く塗る。罫線は引き直す。
+        draw.rectangle([x0, title_band[0], x1, value_band[1]], fill=(255, 255, 255))
+        rule_y = title_band[1] + 1
+        draw.line([(x0, rule_y), (x1, rule_y)], fill=RULE_COLOR)
+
+        edges = [x0 - 1] + grp['rules'] + [x1 + 1]
+        for rx in grp['rules']:
+            draw.line([(rx, value_band[0]), (rx, value_band[1])], fill=RULE_COLOR)
+
+        centre(draw, label, title_font, x0, x1, title_band[0], title_band[1])
+        for k in range(min(4, len(edges) - 1)):
+            centre(draw, values[k], value_font, edges[k] + 1, edges[k + 1] - 1,
+                   value_band[0], value_band[1])
+
+    # 必ずロスレスで書き出す。元が既に非可逆なので、非可逆で焼き直すと
+    # 触っていない X と O の画素まで動いてしまい、「見出しだけを直した」
+    # ことを差分で確かめられなくなる。5枚で 480KB ほど増えるが、
+    # サイト全体が 108MB なので問題にならない。
+    if gems:
+        info = gem_column(np.array(img).astype(int), groups[0]['x0'], value_band[1] + 1)
+        if info:
+            draw_gems(img, draw, np.array(img).astype(int), info)
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_path, 'WEBP', lossless=True, method=6)
+    return len(groups), 'ロスレス', out_path.stat().st_size
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('numbers', nargs='+', type=int)
+    ap.add_argument('--out', type=Path)
+    ap.add_argument('--apply', action='store_true')
+    ap.add_argument('--gems', action='store_true',
+                    help='左端の Gem と R S E A も「宝石」「ル サ エ ア」に描き直す')
+    args = ap.parse_args()
+
+    for n in args.numbers:
+        src = ASSETS / f'vr_puzzle_{n}.webp'
+        if not src.exists():
+            sys.exit(f'{src} がありません')
+        dest = (ASSETS / src.name) if args.apply else (args.out or Path('.')) / src.name
+        axes, how, size = redraw(src, dest, gems=args.gems)
+        print(f'vr_puzzle_{n}: 軸 {axes} 本 / {how} / {size / 1024:.0f} KB -> {dest}')
+
+
+if __name__ == '__main__':
+    main()
