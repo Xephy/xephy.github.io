@@ -1,0 +1,355 @@
+#!/usr/bin/env python3
+"""サファイラの会話フローチャートを日本語で描き直す。
+
+元の saphira_points.webp は中身が全部英語で、本文が「分岐が非常に多いので
+フローチャートを作りました」と案内しているのに読者が使えない。
+
+分岐の構造はゲームのイベントデータ (Data/Map779.rxdata の StoryController)
+から起こしている。台詞と選択肢の訳は日本語化パッチの map_0779.jsonl の
+ものをそのまま使い、ここで新しく訳したものは無い。好感度の増減は元画像から
+読み取った数値で、数字なので訳す余地は無い。
+
+    bin/build-saphira-chart --out /tmp/preview   # 書き出して確認
+    bin/build-saphira-chart --apply              # 差し替える
+"""
+import argparse
+import sys
+from pathlib import Path
+
+from PIL import Image, ImageDraw, ImageFont
+
+ROOT = Path(__file__).resolve().parent.parent
+ASSETS = ROOT / 'src' / 'assets' / 'images' / 'reborn'
+FONT_CANDIDATES = [
+    '/home/yamada/.local/share/fonts/NotoSansCJKjp-Regular.otf',
+    '/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc',
+]
+
+INK = (26, 26, 26)
+RULE = (26, 26, 26)
+MINUS = (200, 40, 40)
+PLUS = (0, 140, 80)
+BG = (255, 255, 255)
+
+# 列ごとの箱の幅。右へ行くほど台詞が長い。
+COL_X = [56, 460, 940]
+COL_W = [250, 340, 420]
+END_X = 1500
+PITCH = 56          # 終端1本あたりの高さ
+TOP = 40
+FS = 20             # 本文の寸法
+FS_SMALL = 17       # 枝のラベル
+
+
+def E(label, to, delta=None, note=None):
+    return {'label': label, 'to': to, 'delta': delta, 'note': note}
+
+
+def Q(text, col, edges, kind='box'):
+    return {'kind': kind, 'text': text, 'col': col, 'edges': edges}
+
+
+YN = lambda a, b: [E('はい', a), E('いいえ', b)]
+
+# --- 幸福 -------------------------------------------------------------
+q_pill = Q('もし副作用なしで永遠に心が安らぐ薬があったら、あなたは飲む?', 2,
+           [E('はい', 'END', '-1'), E('いいえ', 'END')])
+q_self = Q('それってただの身勝手じゃないの?', 1,
+           [E('はい', q_pill, '-1'), E('いいえ', q_pill)])
+
+# --- お金 -------------------------------------------------------------
+q_faith = Q('自分の力でその自由を手に入れられると信じられなかったの、'
+            'それともただ興味がなかっただけ?', 2,
+            [E('不信', 'END'), E('無関心', 'END')])
+q_exhaust = Q('あきらめを正当化するために、選択肢を使い果たしたと'
+              '自分に思い込ませただけじゃないの?', 2,
+              [E('はい', 'END'), E('いいえ', 'END', '-1')])
+q_money = Q('それを手に入れる方法は、他にもあるんじゃないの?', 1,
+            YN(q_faith, q_exhaust))
+
+# --- なかまたち -------------------------------------------------------
+q_value = Q('そもそも、あなたに彼らにとっての価値なんてあるの?', 2, YN('END', 'END'))
+q_using = Q('ただ利用してるだけじゃないの?', 2, YN('END', 'END'))
+q_friend = Q('大切なのは、あなたが彼らにとって価値があることと、'
+             '彼らがあなたにとって価値があること、どちら?', 1,
+             [E('わたしのもの', q_value), E('彼らのもの', q_using),
+              E('キャンセル', 'SELF')])
+
+# --- 家族 -------------------------------------------------------------
+q_me = Q('それはわたしだけ?それとも誰にでもそうしてるの?', 2,
+         [E('あなた', 'END', '-1'), E('みんな', 'END')])
+q_blood = Q('もし血のつながりが一切なかったとしても、'
+            'それでも彼らはあなたにとって一番大切な存在?', 2, YN('END', 'END'))
+q_family = Q('それとも、わたしが聞きたがってると思って、ただそれを選んだだけ?', 1,
+             YN(q_me, q_blood))
+
+# --- 自由 -------------------------------------------------------------
+q_grasp = Q('それをそんなにきつく握りしめずに済む時が、いつか来るのかしら。', 2,
+            YN('END', 'END'))
+q_door = Q('その扉を永遠に開けたままにしておくのは、特権なの、それとも弱さなの?', 2,
+           [E('特権', 'END'), E('弱さ', 'END')])
+q_free = Q('自由は違うの?', 1, [E('はい', q_grasp, '+1'), E('いいえ', q_door)])
+
+# --- 遺産 -------------------------------------------------------------
+q_positive = Q('良い変化の起こし方を、自分が知っていると思い上がっているの?', 2,
+               YN('END', 'END'))
+q_legacy = Q('何かを変えても忘れられるのと、何も変えなくても永遠に'
+             '覚えていてもらえるのと、どちらがいい?', 1,
+             [E('違い', q_positive, '-1'), E('記憶される', q_positive)])
+
+# --- 何もない ---------------------------------------------------------
+q_which = Q('それで、どっち?', 2, [E('他人', 'END'), E('自分', 'END')])
+q_again = Q('もう一度、考え直してみる?', 1,
+            [E('はい', 'ROOT'), E('いいえ', q_which)])
+
+other = Q('その他', 0,
+          [E('家族', q_family, '+2'), E('自由', q_free),
+           E('遺産', q_legacy, '-1'),
+           E('何もない', q_again, '-3', ('初回', '2回目以降'))],
+          kind='diamond')
+
+root = Q('あなたにとって、いちばん大切なものは何?', 0,
+         [E('幸福', q_self), E('お金', q_money, '-3'),
+          E('なかまたち', q_friend, '+1'), E('その他', other)])
+
+
+def load_font(size):
+    for path in FONT_CANDIDATES:
+        if Path(path).exists():
+            return ImageFont.truetype(path, size)
+    sys.exit('日本語フォントが見つかりません')
+
+
+BREAK_BEFORE = '、。?!)」』'
+
+
+def wrap(draw, text, font, width):
+    """日本語は単語で切れないので1文字ずつ詰める。行頭の禁則だけ守る。"""
+    lines, cur = [], ''
+    for ch in text:
+        trial = cur + ch
+        if draw.textlength(trial, font=font) > width and cur:
+            if ch in BREAK_BEFORE:
+                cur = trial
+                continue
+            lines.append(cur)
+            cur = ch
+        else:
+            cur = trial
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+def measure(draw, node, font):
+    lines = wrap(draw, node['text'], font, COL_W[node['col']] - 24)
+    node['lines'] = lines
+    node['h'] = max(46, len(lines) * (FS + 7) + 20)
+    if node['kind'] == 'diamond':
+        node['h'] = max(node['h'], 96)
+
+
+def layout(node, draw, font, state):
+    """終端から順に行を割り当てて、親は子の中央に置く。
+
+    同じ箱に2本の枝が入ることがある (「身勝手じゃないの?」の はい/いいえ は
+    どちらも薬の質問へ進む)。2度目に来たときは行を新しく取らず、既に決めた
+    位置を使う。取り直すと同じ箱が二重に数えられて図が縦に伸びてしまう。
+    """
+    if 'y' in node:
+        return node['y']
+    measure(draw, node, font)
+    node['y'] = None                       # 再入の目印
+    ys = []
+    for e in node['edges']:
+        t = e['to']
+        if isinstance(t, dict):
+            y = layout(t, draw, font, state)
+        else:
+            y = state['row'] * PITCH + TOP + PITCH / 2
+            state['row'] += 1
+        e['y'] = y
+        ys.append(y)
+    node['y'] = sum(ys) / len(ys)
+    return node['y']
+
+
+def spread_shared(nodes):
+    """1つの箱に複数の枝が入るときは、入り口を上下にずらして重ねない。"""
+    incoming = {}
+    for n in nodes:
+        for e in n['edges']:
+            if isinstance(e['to'], dict):
+                incoming.setdefault(id(e['to']), []).append((e, e['to']))
+    for edges in incoming.values():
+        if len(edges) < 2:
+            continue
+        target = edges[0][1]
+        gap = min(30, target['h'] / (len(edges) + 0.5))
+        for i, (e, _) in enumerate(edges):
+            e['y'] = target['y'] + (i - (len(edges) - 1) / 2) * gap
+
+
+def walk(node, seen=None):
+    seen = seen if seen is not None else []
+    seen.append(node)
+    for e in node['edges']:
+        if isinstance(e['to'], dict):
+            walk(e['to'], seen)
+    return seen
+
+
+def draw_box(d, node, font):
+    x0 = COL_X[node['col']]
+    x1 = x0 + COL_W[node['col']]
+    y0 = node['y'] - node['h'] / 2
+    y1 = node['y'] + node['h'] / 2
+    if node['kind'] == 'diamond':
+        cx, cy = (x0 + x1) / 2, node['y']
+        d.polygon([(cx, y0), (x1, cy), (cx, y1), (x0, cy)], outline=RULE, fill=BG, width=2)
+    else:
+        d.rectangle([x0, y0, x1, y1], outline=RULE, fill=BG, width=2)
+    lh = FS + 7
+    ty = node['y'] - len(node['lines']) * lh / 2
+    for i, line in enumerate(node['lines']):
+        w = d.textlength(line, font=font)
+        d.text(((x0 + x1) / 2 - w / 2, ty + i * lh + 2), line, font=font, fill=INK)
+
+
+def arrow(d, x0, y0, x1, y1):
+    d.line([(x0, y0), (x1, y1)], fill=RULE, width=2)
+    d.polygon([(x1, y1), (x1 - 9, y1 - 5), (x1 - 9, y1 + 5)], fill=RULE)
+
+
+STUB = 34        # 箱を出てから縦に折れるまでの長さ
+
+
+def elbow(d, x0, y0, y1):
+    """箱を出て少し進み、縦に折れて枝の高さへ移る。折れる位置は箱ごとに
+    同じなので、複数の枝が1本の幹に見える。元の図と同じ引き回し。"""
+    mid = x0 + STUB
+    d.line([(x0, y0), (mid, y0)], fill=RULE, width=2)
+    if abs(y1 - y0) > 1:
+        d.line([(mid, y0), (mid, y1)], fill=RULE, width=2)
+    return mid
+
+
+def chip(d, x, y, text, font):
+    col = MINUS if text.startswith('-') else PLUS
+    r = 19
+    d.ellipse([x - r, y - r, x + r, y + r], outline=RULE, fill=BG, width=2)
+    w = d.textlength(text, font=font)
+    _, t, _, b = d.textbbox((0, 0), text, font=font)
+    d.text((x - w / 2, y - (b - t) / 2 - t), text, font=font, fill=col)
+
+
+def render():
+    font = load_font(FS)
+    small = load_font(FS_SMALL)
+    probe = ImageDraw.Draw(Image.new('RGB', (8, 8)))
+    state = {'row': 0}
+    layout(root, probe, font, state)
+    spread_shared(walk(root))
+    height = int(state['row'] * PITCH + TOP * 2 + 40)
+    width = END_X + 120
+
+    img = Image.new('RGB', (width, height), BG)
+    d = ImageDraw.Draw(img)
+
+    # END の縦レール
+    rail_x = END_X
+    d.rectangle([rail_x, TOP - 10, rail_x + 74, height - TOP + 10], outline=RULE, fill=BG, width=2)
+    _, t, _, b = d.textbbox((0, 0), '終了', font=font)
+    d.text((rail_x + 37 - d.textlength('終了', font=font) / 2,
+            height / 2 - (b - t) / 2 - t), '終了', font=font, fill=INK)
+
+    nodes = walk(root)
+    for node in nodes:
+        x1 = COL_X[node['col']] + COL_W[node['col']]
+        for e in node['edges']:
+            t = e['to']
+            y = e['y']
+
+            if t in ('SELF', 'ROOT'):
+                target = root if t == 'ROOT' else node
+                back = COL_X[0] - 30 if t == 'ROOT' else COL_X[node['col']] - 40
+                if t == 'ROOT':
+                    # 図の一番下を回して戻す。枝のラベルの上を横切らせない。
+                    low = height - 24
+                    d.line([(x1, y), (x1 + STUB, y)], fill=RULE, width=2)
+                    d.line([(x1 + STUB, y), (x1 + STUB, low)], fill=RULE, width=2)
+                    d.line([(x1 + STUB, low), (back, low)], fill=RULE, width=2)
+                    d.line([(back, low), (back, target['y'])], fill=RULE, width=2)
+                else:
+                    d.line([(x1, y), (back, y)], fill=RULE, width=2)
+                    d.line([(back, y), (back, target['y'])], fill=RULE, width=2)
+                arrow(d, back, target['y'], COL_X[target['col']], target['y'])
+                d.text((x1 + 8, y - FS_SMALL - 6), e['label'], font=small, fill=INK)
+                continue
+
+            if isinstance(t, dict) and t['col'] == node['col']:
+                # 同じ列へ落とす (質問の箱から「その他」のひし形へ)
+                top = t['y'] - t['h'] / 2
+                cx = COL_X[node['col']] + COL_W[node['col']] / 2
+                d.line([(cx, node['y'] + node['h'] / 2), (cx, top - 10)], fill=RULE, width=2)
+                d.polygon([(cx, top), (cx - 5, top - 9), (cx + 5, top - 9)], fill=RULE)
+                d.text((cx + 8, (node['y'] + top) / 2), e['label'], font=small, fill=INK)
+                continue
+
+            tx = COL_X[t['col']] if isinstance(t, dict) else rail_x
+            mid = elbow(d, x1, node['y'], y)
+
+            lw = d.textlength(e['label'], font=small)
+            if e['delta']:
+                cx = tx - 42
+                d.line([(mid, y), (cx - 19, y)], fill=RULE, width=2)
+                chip(d, cx, y, e['delta'], small)
+                arrow(d, cx + 19, y, tx, y)
+                # 丸と重なるので、ラベルは丸の真上に置く。行き先の箱に
+                # かからないよう右端で止める。
+                lx = min(cx - lw / 2, tx - lw - 4)
+                d.text((lx, y - (62 if e['note'] else 40)), e['label'], font=small, fill=INK)
+                if e['note']:
+                    # 2回目以降は増減が無いので、丸を迂回する線を別に引く。
+                    a, b2 = e['note']
+                    by = y + 26
+                    d.line([(mid, y), (mid, by)], fill=RULE, width=2)
+                    d.line([(mid, by), (tx - 14, by)], fill=RULE, width=2)
+                    d.line([(tx - 14, by), (tx - 14, y)], fill=RULE, width=2)
+                    d.text((cx - d.textlength(a, font=small) / 2, y - 40), a, font=small, fill=INK)
+                    d.text((cx - d.textlength(b2, font=small) / 2, by + 6), b2, font=small, fill=INK)
+            else:
+                arrow(d, mid, y, tx, y)
+                d.text((mid + 6, y - FS_SMALL - 6), e['label'], font=small, fill=INK)
+
+    for node in nodes:
+        draw_box(d, node, font)
+
+    # START
+    sx0, sx1 = COL_X[0] + 30, COL_X[0] + 170
+    sy = TOP - 4
+    d.polygon([((sx0 + sx1) / 2, sy - 22), (sx1, sy), ((sx0 + sx1) / 2, sy + 22), (sx0, sy)],
+              outline=RULE, fill=BG, width=2)
+    d.text(((sx0 + sx1) / 2 - d.textlength('スタート', font=small) / 2, sy - FS_SMALL / 2 - 2),
+           'スタート', font=small, fill=INK)
+    d.line([((sx0 + sx1) / 2, sy + 22), ((sx0 + sx1) / 2, root['y'] - root['h'] / 2)],
+           fill=RULE, width=2)
+    return img
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--out', type=Path)
+    ap.add_argument('--apply', action='store_true')
+    args = ap.parse_args()
+    img = render()
+    dest = (ASSETS / 'saphira_points.webp') if args.apply \
+        else (args.out or Path('.')) / 'saphira_points.webp'
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    img.save(dest, 'WEBP', lossless=True)
+    print(f'{img.width}x{img.height} / ロスレス / '
+          f'{dest.stat().st_size / 1024:.0f} KB -> {dest}')
+
+
+if __name__ == '__main__':
+    main()
