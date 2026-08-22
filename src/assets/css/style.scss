@@ -1901,7 +1901,9 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
   #main_content > .page-toc,
   .show-hide-container,
   .spoilerBtn,
-  .spoilerHide {
+  .spoilerHide,
+  .affinity-jump,
+  .ref-back {
     display: none !important;
   }
 
@@ -1943,7 +1945,10 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
   .header-th,
   .affinity-delta,
   .affinity-label,
-  .affinity-list {
+  .affinity-list,
+  .fn-status,
+  .fn-stage,
+  .pdx-only {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
@@ -1951,6 +1956,11 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
   /* 表と図が紙の切れ目で分断されないようにする。 */
   table { page-break-inside: avoid; break-inside: avoid; }
   tr, .mon-cell, .affinity-list, .spoilerText { page-break-inside: avoid; break-inside: avoid; }
+
+  /* 資料ページの色付きの札は、白黒印刷でも形が残るように枠を足す。 */
+  .fn-status, .type-badge, .pdx-only, .affinity-delta {
+    border: 1px solid #999999;
+  }
   .tabImage { max-height: 16cm; page-break-inside: avoid; break-inside: avoid; }
 
   h1 { page-break-before: always; break-before: page; }
