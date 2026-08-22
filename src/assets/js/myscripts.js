@@ -266,6 +266,10 @@ $(document).ready(function() {
   });
 
   var picked = { types: [], ways: [] };
+  // 付録の持ち物の表から「この種族だけ」を開くための指定。名前の部分一致だと
+  // 「ゴース」が「ゴースト」にも当たるので、内部シンボルで厳密に絞る。
+  // 入力欄に手を入れた時点で解除し、以降はふつうの文字検索に戻す。
+  var monKey = null;
 
   function chips(group) {
     return [].slice.call(bar.querySelectorAll('.ref-chips[data-group="' + group + '"] .ref-chip'));
@@ -288,6 +292,7 @@ $(document).ready(function() {
 
     rows.forEach(function (tr) {
       var ok = anySome(tr._types, picked.types) && anySome(tr._ways, picked.ways);
+      if (ok && monKey) ok = tr.getAttribute('data-en') === monKey;
       if (ok && onlyOne) ok = tr._only;
       // その章までに行ける場所が1つでもあるか。場所は本文の順で並べて
       // あるので、行が持つのは一番早い章。
@@ -327,7 +332,7 @@ $(document).ready(function() {
     });
 
     var filtering = terms.length > 0 || picked.types.length > 0 ||
-                    picked.ways.length > 0 || onlyOne || upto !== null;
+                    picked.ways.length > 0 || onlyOne || upto !== null || monKey !== null;
     if (jump) jump.hidden = filtering;
     bar.classList.toggle('is-filtering', filtering);
 
@@ -340,16 +345,22 @@ $(document).ready(function() {
   }
 
   // 絞り込んだ状態をそのまま渡せるように、条件を URL に残す。
+  // location.hash を落とさないこと。落とすと、他のページから
+  // /reborn/pokemon/#mon-xxx で飛んできたときに、ブラウザがまだ位置を
+  // 合わせる前に飛び先が消えて、先頭に留まってしまう。
   function remember(q) {
     if (!window.history || !history.replaceState) return;
     var p = new URLSearchParams();
-    if (q) p.set('q', q);
+    // ?mon= のときの入力欄の中身は「何で絞っているか」を見せる札なので、
+    // q として二重に書かない。手で打ち直せば monKey が外れて q に戻る。
+    if (q && !monKey) p.set('q', q);
+    if (monKey) p.set('mon', monKey);
     if (picked.types.length) p.set('t', picked.types.join(','));
     if (picked.ways.length) p.set('w', picked.ways.join(','));
     if (onlyEl && onlyEl.checked) p.set('only', '1');
     if (uptoEl && uptoEl.value !== '') p.set('ch', uptoEl.value);
     var s = p.toString();
-    history.replaceState(null, '', s ? '?' + s : location.pathname);
+    history.replaceState(null, '', (s ? '?' + s : location.pathname) + location.hash);
   }
 
   function bindChips(group) {
@@ -371,6 +382,7 @@ $(document).ready(function() {
 
   var timer = null;
   input.addEventListener('input', function () {
+    monKey = null;
     clearTimeout(timer);
     timer = setTimeout(apply, 80);
   });
@@ -381,6 +393,7 @@ $(document).ready(function() {
   if (resetEl) {
     resetEl.addEventListener('click', function () {
       input.value = '';
+      monKey = null;
       picked.types = [];
       picked.ways = [];
       ['types', 'ways'].forEach(function (g) {
@@ -410,6 +423,16 @@ $(document).ready(function() {
   (function restore() {
     var p = new URLSearchParams(location.search);
     if (p.get('q')) input.value = p.get('q');
+    // ?mon= で来たときは、何で絞られているか分かるように種族名を欄へ入れる。
+    if (p.get('mon')) {
+      monKey = p.get('mon');
+      var target = null;
+      for (var n = 0; n < rows.length; n++) {
+        if (rows[n].getAttribute('data-en') === monKey) { target = rows[n]; break; }
+      }
+      if (target) input.value = target.getAttribute('data-name') || '';
+      else monKey = null;
+    }
     ['types', 'ways'].forEach(function (g) {
       var raw = p.get(g === 'types' ? 't' : 'w');
       if (!raw) return;
@@ -426,6 +449,17 @@ $(document).ready(function() {
   })();
 
   apply();
+
+  // ?mon= で1種に絞って開いたときは、その行まで送る。絞ったあとでも
+  // 前置きと操作子で 800px ほど埋まっており、結果が画面の外に残るため。
+  if (monKey) {
+    for (var k = 0; k < rows.length; k++) {
+      if (!rows[k].hidden) {
+        rows[k].scrollIntoView({ block: 'center' });
+        break;
+      }
+    }
+  }
 })();
 
 

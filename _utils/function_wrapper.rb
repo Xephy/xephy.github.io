@@ -305,8 +305,12 @@ class FunctionWrapper
     name += " (#{JaNames.tr('form_names', form)})" if form == 'Alolan Form'
 
     wrap = doc.create_element('span', class: 'held-mon')
+    # 飛び先はその種族で絞り込んだ状態。素の一覧に飛ばすと595行の中から
+    # 探し直すことになり、押した意味が無い。名前の部分一致だと
+    # 「ゴース」が「ゴースト」にも当たるので、内部シンボルで指定する。
     inner = if EncounterIndex.has_species?(mon)
-              doc.create_element('a', href: "/#{LONGNAMES[@game]}/pokemon/#mon-#{mon.to_s.downcase}")
+              doc.create_element('a',
+                                 href: "/#{LONGNAMES[@game]}/pokemon/?mon=#{mon.to_s.downcase}")
             else
               doc.create_element('span')
             end
