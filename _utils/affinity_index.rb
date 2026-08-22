@@ -217,7 +217,13 @@ module AffinityIndex
       run.times do |n|
         r = sorted[i + n]
         cells = +''
-        cells << %(<td class="aff-place" rowspan="#{run}">#{place(r)}</td>) if n.zero?
+        # 節の欄は全行に置いておく。先頭以外は隠しておき、絞り込みで先頭が
+        # 消えたときに JavaScript が出す。行ごと消えると節が分からなくなる。
+        cells << if n.zero?
+                   %(<td class="aff-place" rowspan="#{run}">#{place(r)}</td>)
+                 else
+                   %(<td class="aff-place" hidden>#{place(r)}</td>)
+                 end
         cells << %(<td class="aff-choice">#{inline(r[:text])}</td>)
         cells << %(<td class="aff-delta">#{chip(r[:value])}) +
                  (r[:note] ? %(<span class="affinity-note">#{esc(r[:note])}</span>) : '') +
@@ -242,6 +248,8 @@ module AffinityIndex
     return nil if people.empty?
 
     rest = unnumbered(entries)
+    # 他の人物も一緒に動く選択肢。取引になっているものを数える。
+    trade_rows = people.sum { |p| p[:rows].count { |r| r[:deltas].count { |d| d[:name] } > 1 } }
     jump = people.map { |p|
       "<li><a href=\"##{slug_for(p[:name])}\">#{p[:name]}<span>#{p[:rows].length}</span></a></li>"
     }
@@ -291,10 +299,25 @@ module AffinityIndex
 
       本編と後日談に出てくる好感度の選択肢を、人物ごとに並べ直したものです。攻略本文から自動で作っているので、各行の左端から本文の該当箇所へ戻れます。人物 #{people.length}名 / 選択肢 #{entries.length}件。
 
-      多くの選択肢は取引になっていて、誰かを上げると別の誰かが下がります。「同時に動く」の欄で先に確かめてから決めてください。
+      多くの選択肢は取引になっていて、誰かを上げると別の誰かが下がります。「同時に動く」の欄で先に確かめてから決めてください。取引になっているものは #{trade_rows}件です。
+
+      下の欄で、人物名でも選択肢の文でも絞り込めます（「いやしのすず」で2件など）。人物名で引いたときは、その人の行を丸ごと残します。
 
       **ネタバレ注意** — 終盤まで登場しない人物の名前と、展開が分かる選択肢が並んでいます。
       {: .affinity-warning}
+
+      <div class="ref-filter aff-filter" hidden>
+        <div class="ref-filter-line">
+          <input type="search" id="aff-q" class="ref-search" autocomplete="off"
+                 placeholder="人物名・選択肢の文で絞る">
+          <span class="ref-count" role="status" aria-live="polite"></span>
+          <button type="button" class="ref-reset">条件を外す</button>
+        </div>
+        <div class="ref-filter-line">
+          <label class="ref-toggle"><input type="checkbox" id="aff-trade">
+            他の人物も動く選択肢だけ<span>#{trade_rows}</span></label>
+        </div>
+      </div>
 
       <nav class="affinity-jump">
         <ul>

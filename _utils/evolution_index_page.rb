@@ -33,6 +33,8 @@ module EvolutionIndexPage
   end
 
   def row_html(row, hashes)
+    # describe はエスケープ済みの HTML を返す (どうぐ名は店の索引への
+    # リンクになっている)。
     text = EvolutionIndex.describe(row, hashes[:item], hashes[:move], hashes[:mon], hashes[:map])
     group = EvolutionIndex.group(row[:method])
     form_index = hashes[:mon][row[:from]].keys.select { |k| k.is_a?(String) }.index(row[:form]) || 0
@@ -42,7 +44,7 @@ module EvolutionIndexPage
         <td class="ev-from">#{mon_cell(row[:from], hashes[:mon], form_index)}</td>
         <td class="ev-arrow">→</td>
         <td class="ev-to">#{mon_cell(row[:to], hashes[:mon])}</td>
-        <td class="ev-how">#{esc(text)}</td>
+        <td class="ev-how">#{text}</td>
       </tr>
     ROW
   end

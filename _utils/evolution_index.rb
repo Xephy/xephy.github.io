@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
 require_relative 'ja_names'
+require 'cgi'
+require 'set'
+require_relative 'shop_index'
 
 # 進化条件の一覧。
 #
@@ -86,7 +89,7 @@ module EvolutionIndex
     return '特定の場所でレベルアップ' if set
 
     name = map_hash[row[:parameter].to_i]
-    name ? "#{name}でレベルアップ" : '特定の場所でレベルアップ'
+    name ? "#{escape(name)}でレベルアップ" : '特定の場所でレベルアップ'
   end
 
   # 大まかな分け方。絞り込みの札に使う。
@@ -103,12 +106,25 @@ module EvolutionIndex
     end
   end
 
+  # どうぐの名前。店で扱っているものは、店の索引へ繋ぐ。実測では進化に
+  # 使う27種すべてがどこかの店で買える。
   def item_name(sym, item_hash)
-    item_hash[sym] ? item_hash[sym][:name] : sym.to_s
+    name = item_hash[sym] ? item_hash[sym][:name] : sym.to_s
+    return escape(name) unless shop_items.include?(name)
+
+    %(<a href="/reborn/shops/?q=#{CGI.escape(name)}">#{escape(name)}</a>)
+  end
+
+  def shop_items
+    @shop_items ||= ShopIndex.entries.map { |e| e[:item] }.to_set
+  end
+
+  def escape(text)
+    text.to_s.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;')
   end
 
   def move_name(sym, move_hash)
-    move_hash[sym] ? move_hash[sym][:name] : sym.to_s
+    escape(move_hash[sym] ? move_hash[sym][:name] : sym.to_s)
   end
 
   def species_name(sym, pokemon_hash)
@@ -116,10 +132,10 @@ module EvolutionIndex
     return sym.to_s unless forms
 
     key = forms.keys.find { |k| k.is_a?(String) }
-    key ? forms[key][:name] : sym.to_s
+    escape(key ? forms[key][:name] : sym.to_s)
   end
 
   def type_name(sym)
-    sym == :QMARKS ? '???' : JaNames.tr('types', sym.to_s.capitalize)
+    escape(sym == :QMARKS ? '???' : JaNames.tr('types', sym.to_s.capitalize))
   end
 end

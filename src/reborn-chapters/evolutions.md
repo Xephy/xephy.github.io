@@ -125,7 +125,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=pikachu"><img src="/assets/images/mon/pikachu_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ピカチュウ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=raichu"><img src="/assets/images/mon/raichu_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ライチュウ</span></a></td>
-  <td class="ev-how">かみなりのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%8B%E3%81%BF%E3%81%AA%E3%82%8A%E3%81%AE%E3%81%84%E3%81%97">かみなりのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="サンド">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=sandshrew"><img src="/assets/images/mon/sandshrew_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">サンド</span></a></td>
@@ -137,7 +137,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=sandshrew"><img src="/assets/images/mon/sandshrew_1.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">サンド</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=sandslash"><img src="/assets/images/mon/sandslash_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">サンドパン</span></a></td>
-  <td class="ev-how">こおりのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%93%E3%81%8A%E3%82%8A%E3%81%AE%E3%81%84%E3%81%97">こおりのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="ニドラン">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=nidoranfe"><img src="/assets/images/mon/nidoranfe_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニドラン</span></a></td>
@@ -149,7 +149,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=nidorina"><img src="/assets/images/mon/nidorina_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニドリーナ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=nidoqueen"><img src="/assets/images/mon/nidoqueen_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニドクイン</span></a></td>
-  <td class="ev-how">つきのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%A4%E3%81%8D%E3%81%AE%E3%81%84%E3%81%97">つきのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="ニドラン">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=nidoranma"><img src="/assets/images/mon/nidoranma_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニドラン</span></a></td>
@@ -161,31 +161,31 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=nidorino"><img src="/assets/images/mon/nidorino_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニドリーノ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=nidoking"><img src="/assets/images/mon/nidoking_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニドキング</span></a></td>
-  <td class="ev-how">つきのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%A4%E3%81%8D%E3%81%AE%E3%81%84%E3%81%97">つきのいし</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="ピッピ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=clefairy"><img src="/assets/images/mon/clefairy_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ピッピ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=clefable"><img src="/assets/images/mon/clefable_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ピクシー</span></a></td>
-  <td class="ev-how">つきのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%A4%E3%81%8D%E3%81%AE%E3%81%84%E3%81%97">つきのいし</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="ロコン">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=vulpix"><img src="/assets/images/mon/vulpix_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ロコン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=ninetales"><img src="/assets/images/mon/ninetales_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">キュウコン</span></a></td>
-  <td class="ev-how">ほのおのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%BB%E3%81%AE%E3%81%8A%E3%81%AE%E3%81%84%E3%81%97">ほのおのいし</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="ロコン">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=vulpix"><img src="/assets/images/mon/vulpix_1.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ロコン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=ninetales"><img src="/assets/images/mon/ninetales_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">キュウコン</span></a></td>
-  <td class="ev-how">こおりのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%93%E3%81%8A%E3%82%8A%E3%81%AE%E3%81%84%E3%81%97">こおりのいし</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="プリン">
   <td class="ev-from"><img src="/assets/images/mon/jigglypuff_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">プリン</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=wigglytuff"><img src="/assets/images/mon/wigglytuff_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">プクリン</span></a></td>
-  <td class="ev-how">つきのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%A4%E3%81%8D%E3%81%AE%E3%81%84%E3%81%97">つきのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="ズバット">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=zubat"><img src="/assets/images/mon/zubat_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ズバット</span></a></td>
@@ -209,13 +209,13 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=gloom"><img src="/assets/images/mon/gloom_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">クサイハナ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=bellossom"><img src="/assets/images/mon/bellossom_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">キレイハナ</span></a></td>
-  <td class="ev-how">たいようのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%9F%E3%81%84%E3%82%88%E3%81%86%E3%81%AE%E3%81%84%E3%81%97">たいようのいし</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="クサイハナ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=gloom"><img src="/assets/images/mon/gloom_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">クサイハナ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=vileplume"><img src="/assets/images/mon/vileplume_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ラフレシア</span></a></td>
-  <td class="ev-how">リーフのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%BC%E3%83%95%E3%81%AE%E3%81%84%E3%81%97">リーフのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="パラス">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=paras"><img src="/assets/images/mon/paras_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">パラス</span></a></td>
@@ -263,7 +263,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=growlithe"><img src="/assets/images/mon/growlithe_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ガーディ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=arcanine"><img src="/assets/images/mon/arcanine_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ウインディ</span></a></td>
-  <td class="ev-how">ほのおのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%BB%E3%81%AE%E3%81%8A%E3%81%AE%E3%81%84%E3%81%97">ほのおのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="ニョロモ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=poliwag"><img src="/assets/images/mon/poliwag_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニョロモ</span></a></td>
@@ -275,13 +275,13 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=poliwhirl"><img src="/assets/images/mon/poliwhirl_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニョロゾ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=politoed"><img src="/assets/images/mon/politoed_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニョロトノ</span></a></td>
-  <td class="ev-how">おうじゃのしるしを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%8A%E3%81%86%E3%81%98%E3%82%83%E3%81%AE%E3%81%97%E3%82%8B%E3%81%97">おうじゃのしるし</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="item" data-name="ニョロゾ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=poliwhirl"><img src="/assets/images/mon/poliwhirl_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニョロゾ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=poliwrath"><img src="/assets/images/mon/poliwrath_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニョロボン</span></a></td>
-  <td class="ev-how">みずのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%BF%E3%81%9A%E3%81%AE%E3%81%84%E3%81%97">みずのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="ケーシィ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=abra"><img src="/assets/images/mon/abra_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ケーシィ</span></a></td>
@@ -317,7 +317,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=weepinbell"><img src="/assets/images/mon/weepinbell_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ウツドン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=victreebel"><img src="/assets/images/mon/victreebel_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ウツボット</span></a></td>
-  <td class="ev-how">リーフのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%BC%E3%83%95%E3%81%AE%E3%81%84%E3%81%97">リーフのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="メノクラゲ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=tentacool"><img src="/assets/images/mon/tentacool_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">メノクラゲ</span></a></td>
@@ -353,7 +353,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=slowpoke"><img src="/assets/images/mon/slowpoke_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヤドン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=slowking"><img src="/assets/images/mon/slowking_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヤドキング</span></a></td>
-  <td class="ev-how">おうじゃのしるしを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%8A%E3%81%86%E3%81%98%E3%82%83%E3%81%AE%E3%81%97%E3%82%8B%E3%81%97">おうじゃのしるし</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="level" data-name="コイル">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=magnemite"><img src="/assets/images/mon/magnemite_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">コイル</span></a></td>
@@ -389,7 +389,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=shellder"><img src="/assets/images/mon/shellder_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">シェルダー</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=cloyster"><img src="/assets/images/mon/cloyster_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">パルシェン</span></a></td>
-  <td class="ev-how">みずのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%BF%E3%81%9A%E3%81%AE%E3%81%84%E3%81%97">みずのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="ゴース">
   <td class="ev-from"><img src="/assets/images/mon/gastly_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ゴース</span></td>
@@ -407,7 +407,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=onix"><img src="/assets/images/mon/onix_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イワーク</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=steelix"><img src="/assets/images/mon/steelix_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ハガネール</span></a></td>
-  <td class="ev-how">メタルコートを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%A1%E3%82%BF%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%88">メタルコート</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="level" data-name="スリープ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=drowzee"><img src="/assets/images/mon/drowzee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">スリープ</span></a></td>
@@ -431,7 +431,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=exeggcute"><img src="/assets/images/mon/exeggcute_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">タマタマ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=exeggutor"><img src="/assets/images/mon/exeggutor_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ナッシー</span></a></td>
-  <td class="ev-how">リーフのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%BC%E3%83%95%E3%81%AE%E3%81%84%E3%81%97">リーフのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="カラカラ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=cubone"><img src="/assets/images/mon/cubone_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">カラカラ</span></a></td>
@@ -461,7 +461,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=rhydon"><img src="/assets/images/mon/rhydon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">サイドン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><img src="/assets/images/mon/rhyperior_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ドサイドン</span></td>
-  <td class="ev-how">プロテクターを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%97%E3%83%AD%E3%83%86%E3%82%AF%E3%82%BF%E3%83%BC">プロテクター</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="happiness" data-name="ラッキー">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=chansey"><img src="/assets/images/mon/chansey_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ラッキー</span></a></td>
@@ -485,7 +485,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=seadra"><img src="/assets/images/mon/seadra_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">シードラ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=kingdra"><img src="/assets/images/mon/kingdra_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">キングドラ</span></a></td>
-  <td class="ev-how">りゅうのウロコを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%8A%E3%82%85%E3%81%86%E3%81%AE%E3%82%A6%E3%83%AD%E3%82%B3">りゅうのウロコ</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="level" data-name="トサキント">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=goldeen"><img src="/assets/images/mon/goldeen_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">トサキント</span></a></td>
@@ -497,25 +497,25 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=staryu"><img src="/assets/images/mon/staryu_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヒトデマン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=starmie"><img src="/assets/images/mon/starmie_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">スターミー</span></a></td>
-  <td class="ev-how">みずのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%BF%E3%81%9A%E3%81%AE%E3%81%84%E3%81%97">みずのいし</a>を使う</td>
 </tr>
 <tr data-group="trade" data-name="ストライク">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=scyther"><img src="/assets/images/mon/scyther_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ストライク</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><img src="/assets/images/mon/scizor_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ハッサム</span></td>
-  <td class="ev-how">メタルコートを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%A1%E3%82%BF%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%88">メタルコート</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="trade" data-name="エレブー">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=electabuzz"><img src="/assets/images/mon/electabuzz_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エレブー</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=electivire"><img src="/assets/images/mon/electivire_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エレキブル</span></a></td>
-  <td class="ev-how">エレキブースターを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%A8%E3%83%AC%E3%82%AD%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC">エレキブースター</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="trade" data-name="ブーバー">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=magmar"><img src="/assets/images/mon/magmar_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ブーバー</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=magmortar"><img src="/assets/images/mon/magmortar_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ブーバーン</span></a></td>
-  <td class="ev-how">マグマブースターを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%9E%E3%82%B0%E3%83%9E%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC">マグマブースター</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="level" data-name="コイキング">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=magikarp"><img src="/assets/images/mon/magikarp_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">コイキング</span></a></td>
@@ -533,13 +533,13 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><img src="/assets/images/mon/eevee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イーブイ</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=flareon"><img src="/assets/images/mon/flareon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ブースター</span></a></td>
-  <td class="ev-how">ほのおのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%BB%E3%81%AE%E3%81%8A%E3%81%AE%E3%81%84%E3%81%97">ほのおのいし</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="イーブイ">
   <td class="ev-from"><img src="/assets/images/mon/eevee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イーブイ</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=glaceon"><img src="/assets/images/mon/glaceon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">グレイシア</span></a></td>
-  <td class="ev-how">こおりのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%93%E3%81%8A%E3%82%8A%E3%81%AE%E3%81%84%E3%81%97">こおりのいし</a>を使う</td>
 </tr>
 <tr data-group="location" data-name="イーブイ">
   <td class="ev-from"><img src="/assets/images/mon/eevee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イーブイ</span></td>
@@ -551,13 +551,13 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><img src="/assets/images/mon/eevee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イーブイ</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=jolteon"><img src="/assets/images/mon/jolteon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">サンダース</span></a></td>
-  <td class="ev-how">かみなりのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%8B%E3%81%BF%E3%81%AA%E3%82%8A%E3%81%AE%E3%81%84%E3%81%97">かみなりのいし</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="イーブイ">
   <td class="ev-from"><img src="/assets/images/mon/eevee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イーブイ</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=leafeon"><img src="/assets/images/mon/leafeon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">リーフィア</span></a></td>
-  <td class="ev-how">リーフのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%BC%E3%83%95%E3%81%AE%E3%81%84%E3%81%97">リーフのいし</a>を使う</td>
 </tr>
 <tr data-group="location" data-name="イーブイ">
   <td class="ev-from"><img src="/assets/images/mon/eevee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イーブイ</span></td>
@@ -581,13 +581,13 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><img src="/assets/images/mon/eevee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イーブイ</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=vaporeon"><img src="/assets/images/mon/vaporeon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">シャワーズ</span></a></td>
-  <td class="ev-how">みずのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%BF%E3%81%9A%E3%81%AE%E3%81%84%E3%81%97">みずのいし</a>を使う</td>
 </tr>
 <tr data-group="trade" data-name="ポリゴン">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=porygon"><img src="/assets/images/mon/porygon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ポリゴン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><img src="/assets/images/mon/porygon2_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ポリゴン2</span></td>
-  <td class="ev-how">アップグレードを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89">アップグレード</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="level" data-name="オムナイト">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=omanyte"><img src="/assets/images/mon/omanyte_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">オムナイト</span></a></td>
@@ -707,7 +707,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=togetic"><img src="/assets/images/mon/togetic_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">トゲチック</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><img src="/assets/images/mon/togekiss_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">トゲキッス</span></td>
-  <td class="ev-how">ひかりのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%B2%E3%81%8B%E3%82%8A%E3%81%AE%E3%81%84%E3%81%97">ひかりのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="ネイティ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=natu"><img src="/assets/images/mon/natu_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ネイティ</span></a></td>
@@ -755,7 +755,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=sunkern"><img src="/assets/images/mon/sunkern_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヒマナッツ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=sunflora"><img src="/assets/images/mon/sunflora_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">キマワリ</span></a></td>
-  <td class="ev-how">たいようのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%9F%E3%81%84%E3%82%88%E3%81%86%E3%81%AE%E3%81%84%E3%81%97">たいようのいし</a>を使う</td>
 </tr>
 <tr data-group="other" data-name="ヤンヤンマ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=yanma"><img src="/assets/images/mon/yanma_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヤンヤンマ</span></a></td>
@@ -773,19 +773,19 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=murkrow"><img src="/assets/images/mon/murkrow_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヤミカラス</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=honchkrow"><img src="/assets/images/mon/honchkrow_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ドンカラス</span></a></td>
-  <td class="ev-how">やみのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%84%E3%81%BF%E3%81%AE%E3%81%84%E3%81%97">やみのいし</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="ムウマ">
   <td class="ev-from"><img src="/assets/images/mon/misdreavus_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ムウマ</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=mismagius"><img src="/assets/images/mon/mismagius_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ムウマージ</span></a></td>
-  <td class="ev-how">やみのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%84%E3%81%BF%E3%81%AE%E3%81%84%E3%81%97">やみのいし</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="ムウマ">
   <td class="ev-from"><img src="/assets/images/mon/misdreavus_1.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ムウマ</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=mismagius"><img src="/assets/images/mon/mismagius_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ムウマージ</span></a></td>
-  <td class="ev-how">リーフのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%BC%E3%83%95%E3%81%AE%E3%81%84%E3%81%97">リーフのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="クヌギダマ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=pineco"><img src="/assets/images/mon/pineco_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">クヌギダマ</span></a></td>
@@ -797,7 +797,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=gligar"><img src="/assets/images/mon/gligar_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">グライガー</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=gliscor"><img src="/assets/images/mon/gliscor_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">グライオン</span></a></td>
-  <td class="ev-how">するどいキバを持たせてレベルアップ（夜）</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%99%E3%82%8B%E3%81%A9%E3%81%84%E3%82%AD%E3%83%90">するどいキバ</a>を持たせてレベルアップ（夜）</td>
 </tr>
 <tr data-group="level" data-name="ブルー">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=snubbull"><img src="/assets/images/mon/snubbull_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ブルー</span></a></td>
@@ -809,7 +809,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><img src="/assets/images/mon/sneasel_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニューラ</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=weavile"><img src="/assets/images/mon/weavile_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">マニューラ</span></a></td>
-  <td class="ev-how">するどいツメを持たせてレベルアップ（夜）</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%99%E3%82%8B%E3%81%A9%E3%81%84%E3%83%84%E3%83%A1">するどいツメ</a>を持たせてレベルアップ（夜）</td>
 </tr>
 <tr data-group="level" data-name="ヒメグマ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=teddiursa"><img src="/assets/images/mon/teddiursa_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヒメグマ</span></a></td>
@@ -857,19 +857,19 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><img src="/assets/images/mon/porygon2_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ポリゴン2</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><img src="/assets/images/mon/porygonz_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ポリゴンZ</span></td>
-  <td class="ev-how">あやしいパッチを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%82%E3%82%84%E3%81%97%E3%81%84%E3%83%91%E3%83%83%E3%83%81">あやしいパッチ</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="level" data-name="バルキー">
   <td class="ev-from"><img src="/assets/images/mon/tyrogue_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">バルキー</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=hitmonchan"><img src="/assets/images/mon/hitmonchan_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エビワラー</span></a></td>
-  <td class="ev-how">Lv.20（ぼうぎょ &gt; こうげき）</td>
+  <td class="ev-how">Lv.20（ぼうぎょ > こうげき）</td>
 </tr>
 <tr data-group="level" data-name="バルキー">
   <td class="ev-from"><img src="/assets/images/mon/tyrogue_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">バルキー</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=hitmonlee"><img src="/assets/images/mon/hitmonlee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">サワムラー</span></a></td>
-  <td class="ev-how">Lv.20（こうげき &gt; ぼうぎょ）</td>
+  <td class="ev-how">Lv.20（こうげき > ぼうぎょ）</td>
 </tr>
 <tr data-group="level" data-name="バルキー">
   <td class="ev-from"><img src="/assets/images/mon/tyrogue_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">バルキー</span></td>
@@ -989,7 +989,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=lombre"><img src="/assets/images/mon/lombre_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ハスブレロ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=ludicolo"><img src="/assets/images/mon/ludicolo_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ルンパッパ</span></a></td>
-  <td class="ev-how">みずのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%BF%E3%81%9A%E3%81%AE%E3%81%84%E3%81%97">みずのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="タネボー">
   <td class="ev-from"><img src="/assets/images/mon/seedot_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">タネボー</span></td>
@@ -1001,7 +1001,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><img src="/assets/images/mon/nuzleaf_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">コノハナ</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=shiftry"><img src="/assets/images/mon/shiftry_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ダーテング</span></a></td>
-  <td class="ev-how">リーフのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%BC%E3%83%95%E3%81%AE%E3%81%84%E3%81%97">リーフのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="スバメ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=taillow"><img src="/assets/images/mon/taillow_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">スバメ</span></a></td>
@@ -1025,7 +1025,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><img src="/assets/images/mon/kirlia_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">キルリア</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=gallade"><img src="/assets/images/mon/gallade_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エルレイド</span></a></td>
-  <td class="ev-how">めざめいしを使う（♂）</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%81%E3%81%96%E3%82%81%E3%81%84%E3%81%97">めざめいし</a>を使う（♂）</td>
 </tr>
 <tr data-group="level" data-name="キルリア">
   <td class="ev-from"><img src="/assets/images/mon/kirlia_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">キルリア</span></td>
@@ -1103,7 +1103,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=skitty"><img src="/assets/images/mon/skitty_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エネコ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=delcatty"><img src="/assets/images/mon/delcatty_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エネコロロ</span></a></td>
-  <td class="ev-how">つきのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%A4%E3%81%8D%E3%81%AE%E3%81%84%E3%81%97">つきのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="ココドラ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=aron"><img src="/assets/images/mon/aron_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ココドラ</span></a></td>
@@ -1133,7 +1133,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=roselia"><img src="/assets/images/mon/roselia_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ロゼリア</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=roserade"><img src="/assets/images/mon/roserade_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ロズレイド</span></a></td>
-  <td class="ev-how">ひかりのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%B2%E3%81%8B%E3%82%8A%E3%81%AE%E3%81%84%E3%81%97">ひかりのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="ゴクリン">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=gulpin"><img src="/assets/images/mon/gulpin_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ゴクリン</span></a></td>
@@ -1223,7 +1223,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=feebas"><img src="/assets/images/mon/feebas_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヒンバス</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=milotic"><img src="/assets/images/mon/milotic_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ミロカロス</span></a></td>
-  <td class="ev-how">きれいなウロコを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%8D%E3%82%8C%E3%81%84%E3%81%AA%E3%82%A6%E3%83%AD%E3%82%B3">きれいなウロコ</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="level" data-name="カゲボウズ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=shuppet"><img src="/assets/images/mon/shuppet_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">カゲボウズ</span></a></td>
@@ -1241,7 +1241,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=dusclops"><img src="/assets/images/mon/dusclops_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">サマヨール</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><img src="/assets/images/mon/dusknoir_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヨノワール</span></td>
-  <td class="ev-how">れいかいのぬのを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%8C%E3%81%84%E3%81%8B%E3%81%84%E3%81%AE%E3%81%AC%E3%81%AE">れいかいのぬの</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="level" data-name="ソーナノ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=wynaut"><img src="/assets/images/mon/wynaut_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ソーナノ</span></a></td>
@@ -1253,7 +1253,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=snorunt"><img src="/assets/images/mon/snorunt_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ユキワラシ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=froslass"><img src="/assets/images/mon/froslass_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ユキメノコ</span></a></td>
-  <td class="ev-how">めざめいしを使う（♀）</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%81%E3%81%96%E3%82%81%E3%81%84%E3%81%97">めざめいし</a>を使う（♀）</td>
 </tr>
 <tr data-group="level" data-name="ユキワラシ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=snorunt"><img src="/assets/images/mon/snorunt_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ユキワラシ</span></a></td>
@@ -1277,13 +1277,13 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=clamperl"><img src="/assets/images/mon/clamperl_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">パールル</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=gorebyss"><img src="/assets/images/mon/gorebyss_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">サクラビス</span></a></td>
-  <td class="ev-how">しんかいのウロコを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%97%E3%82%93%E3%81%8B%E3%81%84%E3%81%AE%E3%82%A6%E3%83%AD%E3%82%B3">しんかいのウロコ</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="trade" data-name="パールル">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=clamperl"><img src="/assets/images/mon/clamperl_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">パールル</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=huntail"><img src="/assets/images/mon/huntail_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ハンテール</span></a></td>
-  <td class="ev-how">しんかいのキバを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%97%E3%82%93%E3%81%8B%E3%81%84%E3%81%AE%E3%82%AD%E3%83%90">しんかいのキバ</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="level" data-name="タツベイ">
   <td class="ev-from"><img src="/assets/images/mon/bagon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">タツベイ</span></td>
@@ -1487,7 +1487,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><img src="/assets/images/mon/happiny_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ピンプク</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=chansey"><img src="/assets/images/mon/chansey_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ラッキー</span></a></td>
-  <td class="ev-how">まんまるいしを持たせてレベルアップ（昼）</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%BE%E3%82%93%E3%81%BE%E3%82%8B%E3%81%84%E3%81%97">まんまるいし</a>を持たせてレベルアップ（昼）</td>
 </tr>
 <tr data-group="level" data-name="フカマル">
   <td class="ev-from"><img src="/assets/images/mon/gible_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">フカマル</span></td>
@@ -1613,25 +1613,25 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=pansage"><img src="/assets/images/mon/pansage_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヤナップ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=simisage"><img src="/assets/images/mon/simisage_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヤナッキー</span></a></td>
-  <td class="ev-how">リーフのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%BC%E3%83%95%E3%81%AE%E3%81%84%E3%81%97">リーフのいし</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="バオップ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=pansear"><img src="/assets/images/mon/pansear_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">バオップ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=simisear"><img src="/assets/images/mon/simisear_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">バオッキー</span></a></td>
-  <td class="ev-how">ほのおのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%BB%E3%81%AE%E3%81%8A%E3%81%AE%E3%81%84%E3%81%97">ほのおのいし</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="ヒヤップ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=panpour"><img src="/assets/images/mon/panpour_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヒヤップ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=simipour"><img src="/assets/images/mon/simipour_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヒヤッキー</span></a></td>
-  <td class="ev-how">みずのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%BF%E3%81%9A%E3%81%AE%E3%81%84%E3%81%97">みずのいし</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="ムンナ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=munna"><img src="/assets/images/mon/munna_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ムンナ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=musharna"><img src="/assets/images/mon/musharna_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ムシャーナ</span></a></td>
-  <td class="ev-how">つきのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%A4%E3%81%8D%E3%81%AE%E3%81%84%E3%81%97">つきのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="マメパト">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=pidove"><img src="/assets/images/mon/pidove_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">マメパト</span></a></td>
@@ -1727,13 +1727,13 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=cottonee"><img src="/assets/images/mon/cottonee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">モンメン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=whimsicott"><img src="/assets/images/mon/whimsicott_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エルフーン</span></a></td>
-  <td class="ev-how">たいようのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%9F%E3%81%84%E3%82%88%E3%81%86%E3%81%AE%E3%81%84%E3%81%97">たいようのいし</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="チュリネ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=petilil"><img src="/assets/images/mon/petilil_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">チュリネ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=lilligant"><img src="/assets/images/mon/lilligant_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ドレディア</span></a></td>
-  <td class="ev-how">たいようのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%9F%E3%81%84%E3%82%88%E3%81%86%E3%81%AE%E3%81%84%E3%81%97">たいようのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="メグロコ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=sandile"><img src="/assets/images/mon/sandile_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">メグロコ</span></a></td>
@@ -1799,7 +1799,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=minccino"><img src="/assets/images/mon/minccino_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">チラーミィ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=cinccino"><img src="/assets/images/mon/cinccino_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">チラチーノ</span></a></td>
-  <td class="ev-how">ひかりのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%B2%E3%81%8B%E3%82%8A%E3%81%AE%E3%81%84%E3%81%97">ひかりのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="ゴチム">
   <td class="ev-from"><img src="/assets/images/mon/gothita_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ゴチム</span></td>
@@ -1901,7 +1901,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><a href="/reborn/pokemon/?mon=eelektrik"><img src="/assets/images/mon/eelektrik_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">シビビール</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=eelektross"><img src="/assets/images/mon/eelektross_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">シビルドン</span></a></td>
-  <td class="ev-how">かみなりのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%8B%E3%81%BF%E3%81%AA%E3%82%8A%E3%81%AE%E3%81%84%E3%81%97">かみなりのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="リグレー">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=elgyem"><img src="/assets/images/mon/elgyem_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">リグレー</span></a></td>
@@ -1919,7 +1919,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><img src="/assets/images/mon/lampent_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ランプラー</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=chandelure"><img src="/assets/images/mon/chandelure_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">シャンデラ</span></a></td>
-  <td class="ev-how">やみのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%84%E3%81%BF%E3%81%AE%E3%81%84%E3%81%97">やみのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="キバゴ">
   <td class="ev-from"><img src="/assets/images/mon/axew_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">キバゴ</span></td>
@@ -2075,7 +2075,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><img src="/assets/images/mon/floette_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">フラエッテ</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=florges"><img src="/assets/images/mon/florges_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">フラージェス</span></a></td>
-  <td class="ev-how">ひかりのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%B2%E3%81%8B%E3%82%8A%E3%81%AE%E3%81%84%E3%81%97">ひかりのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="メェークル">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=skiddo"><img src="/assets/images/mon/skiddo_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">メェークル</span></a></td>
@@ -2105,19 +2105,19 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><img src="/assets/images/mon/doublade_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニダンギル</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><img src="/assets/images/mon/aegislash_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ギルガルド</span></td>
-  <td class="ev-how">やみのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%84%E3%81%BF%E3%81%AE%E3%81%84%E3%81%97">やみのいし</a>を使う</td>
 </tr>
 <tr data-group="trade" data-name="シュシュプ">
   <td class="ev-from"><img src="/assets/images/mon/spritzee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">シュシュプ</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=aromatisse"><img src="/assets/images/mon/aromatisse_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">フレフワン</span></a></td>
-  <td class="ev-how">においぶくろを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%AB%E3%81%8A%E3%81%84%E3%81%B6%E3%81%8F%E3%82%8D">においぶくろ</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="trade" data-name="ペロッパフ">
   <td class="ev-from"><img src="/assets/images/mon/swirlix_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ペロッパフ</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=slurpuff"><img src="/assets/images/mon/slurpuff_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ペロリーム</span></a></td>
-  <td class="ev-how">ホイップポップを持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%9B%E3%82%A4%E3%83%83%E3%83%97%E3%83%9D%E3%83%83%E3%83%97">ホイップポップ</a>を持たせて通信交換</td>
 </tr>
 <tr data-group="level" data-name="マーイーカ">
   <td class="ev-from"><a href="/reborn/pokemon/?mon=inkay"><img src="/assets/images/mon/inkay_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">マーイーカ</span></a></td>
@@ -2147,7 +2147,7 @@ permalink: /reborn/evolutions/
   <td class="ev-from"><img src="/assets/images/mon/helioptile_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エリキテル</span></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a href="/reborn/pokemon/?mon=heliolisk"><img src="/assets/images/mon/heliolisk_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エレザード</span></a></td>
-  <td class="ev-how">たいようのいしを使う</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%9F%E3%81%84%E3%82%88%E3%81%86%E3%81%AE%E3%81%84%E3%81%97">たいようのいし</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="チゴラス">
   <td class="ev-from"><img src="/assets/images/mon/tyrunt_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">チゴラス</span></td>

@@ -1298,3 +1298,170 @@ $(document).ready(function() {
 
   apply();
 })();
+
+
+// 好感度まとめ (/reborn/affinity/) の絞り込み。
+//
+// 35人 / 419行。人物名でも選択肢の文でも引ける。
+//
+// 節の欄は rowspan でまとめてあるので、行を隠すと残った行の節が消える。
+// 全行に節の欄を持たせてあり (先頭以外は hidden)、絞り込み中は
+// まとめを解いて1行ずつ出す。
+(function () {
+  var bar = document.querySelector('.aff-filter');
+  if (!bar) return;
+
+  var input = document.getElementById('aff-q');
+  var countEl = bar.querySelector('.ref-count');
+  var resetEl = bar.querySelector('.ref-reset');
+  var tradeEl = document.getElementById('aff-trade');
+  var jump = document.querySelector('.affinity-jump');
+  var tables = [].slice.call(document.querySelectorAll('.affinity-table'));
+  if (!tables.length) return;
+
+  bar.hidden = false;
+
+  function norm(s) {
+    return (s || '').normalize('NFKC').toLowerCase()
+      .replace(/[ぁ-ゖ]/g, function (c) {
+        return String.fromCharCode(c.charCodeAt(0) + 0x60);
+      });
+  }
+
+  var groups = tables.map(function (table) {
+    var wrap = table.closest('.aff-table-wrap') || table;
+    var head = wrap.previousElementSibling;
+    while (head && head.tagName !== 'H2') head = head.previousElementSibling;
+
+    var rows = [].slice.call(table.querySelectorAll('tr')).filter(function (tr) {
+      return tr.querySelector('td');
+    });
+    rows.forEach(function (tr) {
+      tr._hay = norm(tr.textContent);
+      var others = tr.querySelector('.aff-others');
+      tr._trade = !!(others && others.textContent.trim());
+      var place = tr.querySelector('.aff-place');
+      tr._place = place;
+      tr._span = place ? place.getAttribute('rowspan') : null;
+      tr._leader = !!(place && !place.hidden);
+    });
+    return { head: head, wrap: wrap, rows: rows, name: norm(head ? head.textContent : ''), id: head ? head.id : null };
+  });
+
+  var total = groups.reduce(function (n, g) { return n + g.rows.length; }, 0);
+
+  var navItems = jump ? [].slice.call(jump.querySelectorAll('li')).map(function (li) {
+    var a = li.querySelector('a');
+    var num = a ? a.querySelector('span') : null;
+    return { li: li, num: num, total: num ? num.textContent : '', id: a ? a.getAttribute('href').slice(1) : null };
+  }) : [];
+
+  // 節のまとめを解く / 戻す。
+  function ungroup(g) {
+    g.rows.forEach(function (tr) {
+      if (!tr._place) return;
+      tr._place.hidden = tr.hidden;
+      tr._place.setAttribute('rowspan', '1');
+    });
+  }
+
+  function regroup(g) {
+    g.rows.forEach(function (tr) {
+      if (!tr._place) return;
+      tr._place.hidden = !tr._leader;
+      if (tr._span) tr._place.setAttribute('rowspan', tr._span);
+      else tr._place.removeAttribute('rowspan');
+    });
+  }
+
+  function apply() {
+    var terms = norm(input.value.trim());
+    terms = terms ? terms.split(/\s+/) : [];
+    var tradeOnly = tradeEl && tradeEl.checked;
+    var filtering = terms.length > 0 || tradeOnly;
+    var shown = 0;
+    var hitsById = {};
+
+    groups.forEach(function (g) {
+      // 人物名が当たっているときは、その人の行を丸ごと残す。
+      var nameHit = terms.length > 0 && terms.every(function (t) { return g.name.indexOf(t) !== -1; });
+      var hits = 0;
+
+      g.rows.forEach(function (tr) {
+        var ok = true;
+        if (tradeOnly) ok = tr._trade;
+        if (ok && terms.length && !nameHit) {
+          for (var i = 0; i < terms.length; i++) {
+            if (tr._hay.indexOf(terms[i]) === -1) { ok = false; break; }
+          }
+        }
+        tr.hidden = filtering && !ok;
+        if (!tr.hidden) hits++;
+      });
+
+      if (filtering) ungroup(g); else regroup(g);
+
+      var show = !filtering || hits > 0;
+      g.wrap.hidden = !show;
+      if (g.head) g.head.hidden = !show;
+      if (show) {
+        shown += hits;
+        if (g.id) hitsById[g.id] = hits;
+      }
+    });
+
+    navItems.forEach(function (n) {
+      var hit = n.id ? hitsById[n.id] : undefined;
+      n.li.hidden = filtering && hit === undefined;
+      if (n.num) n.num.textContent = filtering && hit !== undefined ? hit : n.total;
+    });
+
+    bar.classList.toggle('is-filtering', filtering);
+    if (countEl) {
+      countEl.textContent = filtering
+        ? (shown === 0 ? '該当なし' : total + '件中 ' + shown + '件')
+        : total + '件';
+    }
+
+    if (window.history && history.replaceState) {
+      var p = new URLSearchParams();
+      if (input.value.trim()) p.set('q', input.value.trim());
+      if (tradeOnly) p.set('trade', '1');
+      var s = p.toString();
+      history.replaceState(null, '', (s ? '?' + s : location.pathname) + location.hash);
+    }
+  }
+
+  var timer = null;
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(apply, 80);
+  });
+  if (tradeEl) tradeEl.addEventListener('change', apply);
+
+  if (resetEl) {
+    resetEl.addEventListener('click', function () {
+      input.value = '';
+      if (tradeEl) tradeEl.checked = false;
+      apply();
+      input.focus();
+    });
+  }
+
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key !== '/' || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+    var t = ev.target;
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+    ev.preventDefault();
+    input.focus();
+    input.select();
+  });
+
+  (function restore() {
+    var p = new URLSearchParams(location.search);
+    if (p.get('q')) input.value = p.get('q');
+    if (tradeEl && p.get('trade') === '1') tradeEl.checked = true;
+  })();
+
+  apply();
+})();
