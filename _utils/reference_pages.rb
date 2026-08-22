@@ -10,6 +10,8 @@ module ReferencePages
   module_function
 
   PAGES = [
+    { slug: 'fields', label: 'フィールド効果', en: 'Field Effects',
+      desc: 'フィールド38種の効果一覧' },
     { slug: 'affinity', label: '好感度まとめ', en: 'Relationship Points',
       desc: '人物ごとの選択肢と増減' }
   ].freeze

@@ -43,7 +43,7 @@ permalink: /reborn/episode-15/
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -355,7 +355,8 @@ permalink: /reborn/episode-15/
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ニューワールドのしんじゃ ケイデン </strong><div>フィールド: 工場フィールド</div>
+<strong>VS: ニューワールドのしんじゃ ケイデン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -514,7 +515,8 @@ PP 10">ワイドガード</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ニューワールドのしんじゃ アンジェラ  &amp; ニューワールドのしんじゃ ウェス</strong><div>フィールド: 工場フィールド</div>
+<strong>VS: ニューワールドのしんじゃ アンジェラ  &amp; ニューワールドのしんじゃ ウェス</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -718,7 +720,8 @@ PP 10">エナジーボール</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんのふじん グレッチェン </strong><div>フィールド: 工場フィールド</div>
+<strong>VS: メテオだんのふじん グレッチェン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -878,7 +881,8 @@ PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ニューワールドのしんじゃ エズラ </strong><div>フィールド: 工場フィールド</div>
+<strong>VS: ニューワールドのしんじゃ エズラ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -993,7 +997,8 @@ PP 15">タネばくだん</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ニューワールドのしんじゃ アークトゥルス </strong><div>フィールド: 工場フィールド</div>
+<strong>VS: ニューワールドのしんじゃ アークトゥルス </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1108,7 +1113,8 @@ PP 20">じんつうりき</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ニューワールドのしんじゃ イコラス  &amp; ニューワールドのしんじゃ ライラ</strong><div>フィールド: 工場フィールド</div>
+<strong>VS: ニューワールドのしんじゃ イコラス  &amp; ニューワールドのしんじゃ ライラ</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1314,7 +1320,8 @@ PP 5">ジャイロボール</span><span class="move-meta"><span class="move-cat"
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ポケモン ストップル </strong><div>フィールド: 濁った水面</div>
+<strong>VS: ポケモン ストップル </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-murkwatersurface">濁った水面</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1396,7 +1403,8 @@ PULSE **マルノーム** は鈍足ですが極めて硬く、しかも回復手
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんかんぶ タカ </strong><div>フィールド: 工場フィールド</div>
+<strong>VS: メテオだんかんぶ タカ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1621,7 +1629,8 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんエージェント スペードのエース </strong><div>フィールド: 工場フィールド</div>
+<strong>VS: メテオだんエージェント スペードのエース </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 <div>使用アイテム: まんたんのくすり</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -3385,7 +3394,8 @@ PP 15">ねっとう</span><span class="move-meta"><span class="move-cat">特殊<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: そらのまいひめ シエル </strong><div>フィールド: サーカステント</div>
+<strong>VS: そらのまいひめ シエル </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-bigtop">サーカステント</a>
+</div>
 <div>使用アイテム: すごいキズぐすり (3)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -3659,6 +3669,6 @@ PP 15">うたう</span><span class="move-meta"><span class="move-cat">変化</sp
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

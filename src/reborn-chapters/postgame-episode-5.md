@@ -43,7 +43,7 @@ permalink: /reborn/postgame-episode-5/
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -577,7 +577,8 @@ PP 15">せいなるつるぎ</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: アノマリー ラティアス  &amp; アノマリー ラティオス</strong><div>フィールド: 山</div>
+<strong>VS: アノマリー ラティアス  &amp; アノマリー ラティオス</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-mountain">山</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1411,7 +1412,8 @@ PP 5">ラスターパージ</span><span class="move-meta"><span class="move-cat"
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: かげの カイン </strong><div>フィールド: 暗黒クリスタルのどうくつ</div>
+<strong>VS: かげの カイン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-darkcrystalcavern">暗黒クリスタルのどうくつ</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1636,7 +1638,8 @@ PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat"
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: アノマリー ディアンシー  &amp; クリスタルの ギルガルド</strong><div>フィールド: 暗黒クリスタルのどうくつ</div>
+<strong>VS: アノマリー ディアンシー  &amp; クリスタルの ギルガルド</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-darkcrystalcavern">暗黒クリスタルのどうくつ</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1729,7 +1732,8 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: キンポウゲとチョウ オータム </strong><div>フィールド: 虹のフィールド</div>
+<strong>VS: キンポウゲとチョウ オータム </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-rainbow">虹のフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1937,7 +1941,8 @@ PP 10">へんしん</span><span class="move-meta"><span class="move-cat">変化<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ゆめみびと クリム </strong><div>フィールド: 星空アリーナ</div>
+<strong>VS: ゆめみびと クリム </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-starlight">星空アリーナ</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -2751,7 +2756,8 @@ PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: アノマリー ヒードラン </strong><div>フィールド: 腐食ミストフィールド</div>
+<strong>VS: アノマリー ヒードラン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-corrosivemist">腐食ミストフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3154,7 +3160,8 @@ PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: アノマリー マナフィ </strong><div>フィールド: 水中</div>
+<strong>VS: アノマリー マナフィ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-underwater">水中</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3397,7 +3404,8 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: アノマリー カプ・コケコ </strong><div>フィールド: エレキフィールド</div>
+<strong>VS: アノマリー カプ・コケコ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-electerrain">エレキフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3625,7 +3633,8 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: アノマリー カプ・レヒレ </strong><div>フィールド: ミストフィールド</div>
+<strong>VS: アノマリー カプ・レヒレ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-misty">ミストフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3849,7 +3858,8 @@ PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: アノマリー カプ・ブルル </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: アノマリー カプ・ブルル </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -4073,7 +4083,8 @@ PP 20">ビルドアップ</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: アノマリー カプ・テテフ </strong><div>フィールド: サイコフィールド</div>
+<strong>VS: アノマリー カプ・テテフ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-psyterrain">サイコフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -4305,7 +4316,8 @@ PP 10">サイコショック</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: アノマリー ジラーチ </strong><div>フィールド: サイコフィールド</div>
+<strong>VS: アノマリー ジラーチ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-psyterrain">サイコフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -4537,7 +4549,8 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: かげの ユーフィ </strong><div>フィールド: サイコフィールド</div>
+<strong>VS: かげの ユーフィ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-psyterrain">サイコフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -4990,7 +5003,8 @@ PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: てんさい ノエル  &amp; してんのう・ほしわたり アンナ</strong><div>フィールド: サイコフィールド</div>
+<strong>VS: てんさい ノエル  &amp; してんのう・ほしわたり アンナ</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-psyterrain">サイコフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -5418,7 +5432,8 @@ PP 15">しねんのずつき</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ほのおマニア シャルロット  &amp; してんのう・フラワーアーティスト ローラ</strong><div>フィールド: サイコフィールド</div>
+<strong>VS: ほのおマニア シャルロット  &amp; してんのう・フラワーアーティスト ローラ</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-psyterrain">サイコフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -5844,7 +5859,8 @@ PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: しんらつないたずらっこ リン  &amp; かのじょの アンティクス</strong><div>フィールド: サイコフィールド</div>
+<strong>VS: しんらつないたずらっこ リン  &amp; かのじょの アンティクス</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-psyterrain">サイコフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -6307,6 +6323,6 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

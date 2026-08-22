@@ -43,7 +43,7 @@ permalink: /reborn/episode-5/
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -4346,7 +4346,8 @@ PP 5">リーフストーム</span><span class="move-meta"><span class="move-cat"
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ポケモン サベージ </strong><div>フィールド: 氷のフィールド</div>
+<strong>VS: ポケモン サベージ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-icy">氷のフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -4468,7 +4469,8 @@ PP 10">あられ</span><span class="move-meta"><span class="move-cat">変化</sp
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: そんざい シェイド </strong><div>フィールド: ショートフィールド</div>
+<strong>VS: そんざい シェイド </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-shortcircuit">ショートフィールド</a>
+</div>
 <div>使用アイテム: すごいキズぐすり (2)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -4732,6 +4734,6 @@ PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物�
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

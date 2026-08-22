@@ -43,7 +43,7 @@ permalink: /reborn/episode-17/
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -84,7 +84,8 @@ permalink: /reborn/episode-17/
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: カサノバ カルメン </strong><div>フィールド: おとぎ話フィールド</div>
+<strong>VS: カサノバ カルメン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-fairytale">おとぎ話フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -555,7 +556,8 @@ PP 5">インファイト</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: さぎょういん ラフ  &amp; さぎょういん マンウェ</strong><div>フィールド: 森林フィールド</div>
+<strong>VS: さぎょういん ラフ  &amp; さぎょういん マンウェ</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-forest">森林フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -915,7 +917,8 @@ PP 30">いあいぎり</span><span class="move-meta"><span class="move-cat">物�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ポケモン ストップレッツ </strong><div>フィールド: 工場フィールド</div>
+<strong>VS: ポケモン ストップレッツ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1202,7 +1205,8 @@ $100000 を寄付してこの計画に出資します。
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ポケモン ひなんみん </strong><div>フィールド: どうくつ</div>
+<strong>VS: ポケモン ひなんみん </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-cave">どうくつ</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1340,7 +1344,8 @@ PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</sp
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ポケモン ひなんみん  &amp; ポケモン ひなんみん</strong><div>フィールド: どうくつ</div>
+<strong>VS: ポケモン ひなんみん  &amp; ポケモン ひなんみん</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-cave">どうくつ</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -2052,7 +2057,8 @@ $80000 を寄付してこの計画に出資します。
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんかんぶ タカ </strong><div>フィールド: 砂漠フィールド</div>
+<strong>VS: メテオだんかんぶ タカ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-desert">砂漠フィールド</a>
+</div>
 <div>使用アイテム: すごいキズぐすり (2)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -2761,7 +2767,8 @@ PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</sp
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ポケモンレンジャー アディソン </strong><div>フィールド: 砂漠フィールド</div>
+<strong>VS: ポケモンレンジャー アディソン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-desert">砂漠フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -2933,7 +2940,8 @@ PP 15">かみなりパンチ</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: エリートトレーナー エレボス </strong><div>フィールド: 砂漠フィールド</div>
+<strong>VS: エリートトレーナー エレボス </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-desert">砂漠フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3188,7 +3196,8 @@ PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: エリートトレーナー アルティミス </strong><div>フィールド: 砂漠フィールド</div>
+<strong>VS: エリートトレーナー アルティミス </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-desert">砂漠フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3424,7 +3433,8 @@ PP 15">シャドークロー</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: やまおとこ レッド </strong><div>フィールド: 砂漠フィールド</div>
+<strong>VS: やまおとこ レッド </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-desert">砂漠フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3656,7 +3666,8 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: やまおとこ マキシマス </strong><div>フィールド: 砂漠フィールド</div>
+<strong>VS: やまおとこ マキシマス </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-desert">砂漠フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -5407,7 +5418,8 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: いなせなとうぞく コリン・ルージュ </strong><div>フィールド: 砂漠フィールド</div>
+<strong>VS: いなせなとうぞく コリン・ルージュ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-desert">砂漠フィールド</a>
+</div>
 <div>使用アイテム: すごいキズぐすり</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -5791,7 +5803,8 @@ PP 5">とびはねる</span><span class="move-meta"><span class="move-cat">物�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: きし ザンダー </strong><div>フィールド: おとぎ話フィールド</div>
+<strong>VS: きし ザンダー </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-fairytale">おとぎ話フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -5869,7 +5882,8 @@ PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: きし アスムス  &amp; きし イサダン</strong><div>フィールド: おとぎ話フィールド</div>
+<strong>VS: きし アスムス  &amp; きし イサダン</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-fairytale">おとぎ話フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -5947,7 +5961,8 @@ PP 10">ドラゴンテール</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: きし ダルマ </strong><div>フィールド: おとぎ話フィールド</div>
+<strong>VS: きし ダルマ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-fairytale">おとぎ話フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -6056,7 +6071,8 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: きし ランスロット </strong><div>フィールド: おとぎ話フィールド</div>
+<strong>VS: きし ランスロット </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-fairytale">おとぎ話フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -6134,7 +6150,8 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: きし ライリン </strong><div>フィールド: おとぎ話フィールド</div>
+<strong>VS: きし ライリン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-fairytale">おとぎ話フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -6205,7 +6222,8 @@ PP 20">フリーズドライ</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: でんせつの ドラゴン </strong><div>フィールド: りゅうのあな</div>
+<strong>VS: でんせつの ドラゴン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-dragonsden">りゅうのあな</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -6257,7 +6275,8 @@ PP 10">ソーラービーム</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: でんせつの ドラゴン </strong><div>フィールド: りゅうのあな</div>
+<strong>VS: でんせつの ドラゴン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-dragonsden">りゅうのあな</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -6317,7 +6336,8 @@ PP 10">だいちのちから</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: しゅごのおうじょ ティタニア </strong><div>フィールド: おとぎ話フィールド</div>
+<strong>VS: しゅごのおうじょ ティタニア </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-fairytale">おとぎ話フィールド</a>
+</div>
 <div>使用アイテム: すごいキズぐすり (3)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -6640,7 +6660,8 @@ PP 15">せいなるつるぎ</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: とうきぶつ アマリア </strong><div>フィールド: 水面</div>
+<strong>VS: とうきぶつ アマリア </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-watersurface">水面</a>
+</div>
 <div>使用アイテム: すごいキズぐすり (3)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -6867,7 +6888,8 @@ PP 30">こおりのつぶて</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: とうきぶつ アマリア </strong><div>フィールド: 水面</div>
+<strong>VS: とうきぶつ アマリア </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-watersurface">水面</a>
+</div>
 <div>使用アイテム: すごいキズぐすり (3)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -7118,7 +7140,8 @@ PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ひょうりゅうぶつ アマリア </strong><div>フィールド: 水面</div>
+<strong>VS: ひょうりゅうぶつ アマリア </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-watersurface">水面</a>
+</div>
 <div>使用アイテム: すごいキズぐすり (2)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -7345,7 +7368,8 @@ PP 30">こおりのつぶて</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ひょうりゅうぶつ アマリア </strong><div>フィールド: 水面</div>
+<strong>VS: ひょうりゅうぶつ アマリア </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-watersurface">水面</a>
+</div>
 <div>使用アイテム: すごいキズぐすり (2)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -7610,6 +7634,6 @@ PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊<
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

@@ -260,7 +260,7 @@ module AffinityIndex
 
       <p id="title-text">好感度まとめ</p>
 
-      <p class="ref-back"><a href="/#{game}/">目次へ戻る</a></p>
+      <p class="ref-back"><a href="/#{game}/">#{JaNames.ui('Back to contents')}</a></p>
 
       本編と後日談に出てくる好感度の選択肢を、人物ごとに並べ直したものです。攻略本文から自動で作っているので、各行の左端から本文の該当箇所へ戻れます。人物 #{people.length}名 / 選択肢 #{entries.length}件。
 

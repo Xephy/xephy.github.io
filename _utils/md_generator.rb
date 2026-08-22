@@ -2,6 +2,7 @@ require_relative 'common'
 require_relative 'chapter_nav'
 require_relative 'affinity'
 require_relative 'affinity_index'
+require_relative 'field_notes'
 require_relative 'reference_pages'
 require_relative 'spoiler'
 require_relative 'function_wrapper'
@@ -274,6 +275,8 @@ def generate_md_text(game = 'reborn', scripts_dir)
   # 章とは別に置く資料ページ。読み順に混ぜたくないので chapters には入れず、
   # permalink だけ /<game>/... に並べる。
   pages = {}
+  field_page = FieldNotes.build_page(LONGNAMES[game], scripts_dir)
+  pages['fields'] = field_page if field_page
   affinity_page = AffinityIndex.build_page(chapters, LONGNAMES[game])
   pages['affinity'] = affinity_page if affinity_page
 

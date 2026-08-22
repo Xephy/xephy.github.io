@@ -43,7 +43,7 @@ permalink: /reborn/episode-10/
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -398,7 +398,8 @@ permalink: /reborn/episode-10/
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: キザなジョッキー ファーン </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: キザなジョッキー ファーン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 <div>使用アイテム: きのみアイス (2)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -799,7 +800,8 @@ PP 30">かげうち</span><span class="move-meta"><span class="move-cat">物理<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: たんぱんこぞう エリオット </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: たんぱんこぞう エリオット </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -883,7 +885,8 @@ PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: エンジニア アルミン </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: エンジニア アルミン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -936,7 +939,8 @@ PP 10">アクアブレイク</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: エンジニア キャメロン </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: エンジニア キャメロン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1016,7 +1020,8 @@ PP 15">シグナルビーム</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: やまおとこ オルタン </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: やまおとこ オルタン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1065,7 +1070,8 @@ PP 5">ハサミギロチン</span><span class="move-meta"><span class="move-cat"
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ポケモンレンジャー ネリー </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: ポケモンレンジャー ネリー </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1329,7 +1335,8 @@ PP 10">あばれる</span><span class="move-meta"><span class="move-cat">物理<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ポケモンレンジャー スティーブ </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: ポケモンレンジャー スティーブ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1500,7 +1507,8 @@ PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat"
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: やりてトレーナー ハーク </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: やりてトレーナー ハーク </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1648,7 +1656,8 @@ PP 15">アイアンテール</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: やまおとこ ルーファス </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: やまおとこ ルーファス </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1726,7 +1735,8 @@ PP 5">インファイト</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: やりてトレーナー ブライアン </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: やりてトレーナー ブライアン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1810,7 +1820,8 @@ PP 15">ボディパージ</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: やまおとこ モンゴメリー </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: やまおとこ モンゴメリー </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1857,7 +1868,8 @@ PP 15">いばる</span><span class="move-meta"><span class="move-cat">変化</sp
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ポケモンレンジャー サリー </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: ポケモンレンジャー サリー </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1912,7 +1924,8 @@ PP 15">フレアドライブ</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ポケモンレンジャー メディウス </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: ポケモンレンジャー メディウス </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1990,7 +2003,8 @@ PP 10">めざましビンタ</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: やまおとこ ロッシュ </strong><div>フィールド: グラスフィールド</div>
+<strong>VS: やまおとこ ロッシュ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-grassy">グラスフィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -2117,7 +2131,8 @@ PP 10">なげつける</span><span class="move-meta"><span class="move-cat">物�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: びしょうねん カイン </strong><div>フィールド: チェスボード</div>
+<strong>VS: びしょうねん カイン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-chess">チェスボード</a>
+</div>
 <div>使用アイテム: モーモーミルク (2)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -2484,7 +2499,8 @@ PP 10">メガホーン</span><span class="move-meta"><span class="move-cat">物�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ぼくし エル </strong><div>フィールド: クリスタルのどうくつ</div>
+<strong>VS: ぼくし エル </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-crystalcavern">クリスタルのどうくつ</a>
+</div>
 <div>使用アイテム: なんでもなおし (2)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -4754,7 +4770,8 @@ PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: サイキッカー パセリ </strong><div>フィールド: チェスボード</div>
+<strong>VS: サイキッカー パセリ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-chess">チェスボード</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -4810,7 +4827,8 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: サイキッカー セージ </strong><div>フィールド: チェスボード</div>
+<strong>VS: サイキッカー セージ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-chess">チェスボード</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -4897,7 +4915,8 @@ PP 10">アシストパワー</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: サイキッカー ローズマリー </strong><div>フィールド: チェスボード</div>
+<strong>VS: サイキッカー ローズマリー </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-chess">チェスボード</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -5004,7 +5023,8 @@ PP 5">はかいこうせん</span><span class="move-meta"><span class="move-cat"
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: サイキッカー タイム </strong><div>フィールド: チェスボード</div>
+<strong>VS: サイキッカー タイム </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-chess">チェスボード</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -5176,7 +5196,8 @@ PP 15">めざめるパワー</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: グランドマスター ラドマス </strong><div>フィールド: チェスボード</div>
+<strong>VS: グランドマスター ラドマス </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-chess">チェスボード</a>
+</div>
 <div>使用アイテム: すごいキズぐすり (2)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -5444,6 +5465,6 @@ PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

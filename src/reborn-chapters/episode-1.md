@@ -43,7 +43,7 @@ permalink: /reborn/episode-1/
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -3098,7 +3098,8 @@ PP 10">あやしいひかり</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ メアリー  &amp; メテオだんしたっぱ コールマン</strong><div>フィールド: 工場フィールド</div>
+<strong>VS: メテオだんしたっぱ メアリー  &amp; メテオだんしたっぱ コールマン</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3178,7 +3179,8 @@ PP 25">はっぱカッター</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ ヒルダ  &amp; メテオだんしたっぱ リカルド</strong><div>フィールド: 工場フィールド</div>
+<strong>VS: メテオだんしたっぱ ヒルダ  &amp; メテオだんしたっぱ リカルド</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3258,7 +3260,8 @@ PP 35">メタルクロー</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ サンチェス  &amp; メテオだんしたっぱ デヴィン</strong><div>フィールド: 工場フィールド</div>
+<strong>VS: メテオだんしたっぱ サンチェス  &amp; メテオだんしたっぱ デヴィン</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3341,7 +3344,8 @@ PP 20">スパーク</span><span class="move-meta"><span class="move-cat">物理<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ ブルーノ  &amp; メテオだんしたっぱ レイ</strong><div>フィールド: 工場フィールド</div>
+<strong>VS: メテオだんしたっぱ ブルーノ  &amp; メテオだんしたっぱ レイ</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3424,7 +3428,8 @@ PP 25">かみつく</span><span class="move-meta"><span class="move-cat">物理<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ サイモン  &amp; メテオだんしたっぱ タラ</strong><div>フィールド: 工場フィールド</div>
+<strong>VS: メテオだんしたっぱ サイモン  &amp; メテオだんしたっぱ タラ</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3517,7 +3522,8 @@ PP 25">かみつく</span><span class="move-meta"><span class="move-cat">物理<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ ウィンター  &amp; メテオだんしたっぱ ミカエラ</strong><div>フィールド: 工場フィールド</div>
+<strong>VS: メテオだんしたっぱ ウィンター  &amp; メテオだんしたっぱ ミカエラ</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3583,7 +3589,8 @@ PP 15">みだれひっかき</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ デミアン  &amp; メテオだんしたっぱ アントワーヌ</strong><div>フィールド: 工場フィールド</div>
+<strong>VS: メテオだんしたっぱ デミアン  &amp; メテオだんしたっぱ アントワーヌ</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3663,7 +3670,8 @@ PP 25">かみつく</span><span class="move-meta"><span class="move-cat">物理<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ ジャニス  &amp; メテオだんしたっぱ グラント</strong><div>フィールド: 工場フィールド</div>
+<strong>VS: メテオだんしたっぱ ジャニス  &amp; メテオだんしたっぱ グラント</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3746,7 +3754,8 @@ PP 20">おいうち</span><span class="move-meta"><span class="move-cat">物理<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ ロッド  &amp; メテオだんしたっぱ リンゴ</strong><div>フィールド: 工場フィールド</div>
+<strong>VS: メテオだんしたっぱ ロッド  &amp; メテオだんしたっぱ リンゴ</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -3837,7 +3846,8 @@ PP 15">サイコウェーブ</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんへいそつ アスター  &amp; メテオだんへいそつ エクリプス</strong><div>フィールド: 工場フィールド</div>
+<strong>VS: メテオだんへいそつ アスター  &amp; メテオだんへいそつ エクリプス</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -4806,7 +4816,8 @@ PP 10">てんしのキッス</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: エンジニア イワン </strong><div>フィールド: 工場フィールド</div>
+<strong>VS: エンジニア イワン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -4884,7 +4895,8 @@ PP 20">ころがる</span><span class="move-meta"><span class="move-cat">物理<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: エンジニア マサキ </strong><div>フィールド: 工場フィールド</div>
+<strong>VS: エンジニア マサキ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -4931,7 +4943,8 @@ PP 40">わたほうし</span><span class="move-meta"><span class="move-cat">変�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: やりてトレーナー レノン </strong><div>フィールド: 工場フィールド</div>
+<strong>VS: やりてトレーナー レノン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -4978,7 +4991,8 @@ PP 30">つぶらなひとみ</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: エンジニア ヤン </strong><div>フィールド: 工場フィールド</div>
+<strong>VS: エンジニア ヤン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -5027,7 +5041,8 @@ PP 10">チャージビーム</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: チアリーダー ジュリア </strong><div>フィールド: エレキフィールド</div>
+<strong>VS: チアリーダー ジュリア </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-electerrain">エレキフィールド</a>
+</div>
 <div>使用アイテム: キズぐすり (2)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -5279,6 +5294,6 @@ PP 20">じゅうでん</span><span class="move-meta"><span class="move-cat">変�
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

@@ -43,7 +43,7 @@ permalink: /reborn/episode-3/
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -780,7 +780,8 @@ PP 25">エアカッター</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ リンゴ </strong><div>フィールド: 森林フィールド</div>
+<strong>VS: メテオだんしたっぱ リンゴ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-forest">森林フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -860,7 +861,8 @@ PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ ロッド </strong><div>フィールド: 森林フィールド</div>
+<strong>VS: メテオだんしたっぱ ロッド </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-forest">森林フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -940,7 +942,8 @@ PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ レジーナ  &amp; メテオだんしたっぱ グレッチェン</strong><div>フィールド: 森林フィールド</div>
+<strong>VS: メテオだんしたっぱ レジーナ  &amp; メテオだんしたっぱ グレッチェン</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-forest">森林フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1084,7 +1087,8 @@ PP 30">でんこうせっか</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんかんぶ タカ </strong><div>フィールド: 岩場フィールド</div>
+<strong>VS: メテオだんかんぶ タカ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-rocky">岩場フィールド</a>
+</div>
 <div>使用アイテム: いいキズぐすり</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -1655,7 +1659,8 @@ PP 10">ダメおし</span><span class="move-meta"><span class="move-cat">物理<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ジェントルマン ベン </strong><div>フィールド: 森林フィールド</div>
+<strong>VS: ジェントルマン ベン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-forest">森林フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1733,7 +1738,8 @@ PP 15">のしかかり</span><span class="move-meta"><span class="move-cat">物�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ コールマン </strong><div>フィールド: 森林フィールド</div>
+<strong>VS: メテオだんしたっぱ コールマン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-forest">森林フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1817,7 +1823,8 @@ PP 20">マジカルリーフ</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ ケネス </strong><div>フィールド: 森林フィールド</div>
+<strong>VS: メテオだんしたっぱ ケネス </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-forest">森林フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1878,7 +1885,8 @@ PP 20">ころがる</span><span class="move-meta"><span class="move-cat">物理<
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ メアリー </strong><div>フィールド: 森林フィールド</div>
+<strong>VS: メテオだんしたっぱ メアリー </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-forest">森林フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1962,7 +1970,8 @@ PP 15">うちおとす</span><span class="move-meta"><span class="move-cat">物�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ポケモンレンジャー エンダウ </strong><div>フィールド: 森林フィールド</div>
+<strong>VS: ポケモンレンジャー エンダウ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-forest">森林フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -2172,7 +2181,8 @@ PP 20">あまいかおり</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんしたっぱ ブルーノ </strong><div>フィールド: 森林フィールド</div>
+<strong>VS: メテオだんしたっぱ ブルーノ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-forest">森林フィールド</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -2376,7 +2386,8 @@ PP 20">れんぞくぎり</span><span class="move-meta"><span class="move-cat">�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: メテオだんマネージャー クラブのエース </strong><div>フィールド: 森林フィールド</div>
+<strong>VS: メテオだんマネージャー クラブのエース </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-forest">森林フィールド</a>
+</div>
 <div>使用アイテム: いいキズぐすり</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -2913,7 +2924,8 @@ PP 15">がんせきふうじ</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: エージェント コーリー </strong><div>フィールド: 腐食フィールド</div>
+<strong>VS: エージェント コーリー </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-corrosive">腐食フィールド</a>
+</div>
 <div>使用アイテム: いいキズぐすり (2)</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -3342,7 +3354,8 @@ PP 15">はじけるほのお</span><span class="move-meta"><span class="move-cat
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: エージェント ボレアリス </strong><div>フィールド: 腐食ミストフィールド（腐食フィールドの上）</div>
+<strong>VS: エージェント ボレアリス </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-corrosivemist">腐食ミストフィールド（腐食フィールドの上）</a>
+</div>
 <div>使用アイテム: いいキズぐすり</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
@@ -3589,6 +3602,6 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

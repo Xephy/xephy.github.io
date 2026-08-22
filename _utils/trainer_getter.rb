@@ -1,4 +1,5 @@
 require_relative 'common'
+require_relative 'field_notes'
 require 'set'
 
 class TrainerGetter
@@ -8,6 +9,9 @@ class TrainerGetter
   def initialize(game, scripts_dir, trainer_hash = nil, boss_hash = nil, trainer_type_hash = nil, item_hash = nil, move_hash = nil, ability_hash = nil,
                  pokemon_hash = nil, type_hash = nil)
     @game = game
+    # 元から @scriptsDir を読む箇所があったのに代入が無かった。フィールド効果
+    # ページへのリンクを引くのにも要るので、ここで受け取っておく。
+    @scriptsDir = scripts_dir
     @trainerHash = trainer_hash ||= load_trainer_hash(@game, @scriptsDir)
     @bossHash = boss_hash ||= load_boss_hash(@game, @scriptsDir)
     @trainerTypeHash = trainer_type_hash ||= load_trainer_type_hash(@game, @scriptsDir)
@@ -18,6 +22,23 @@ class TrainerGetter
     @typeHash = type_hash ||= load_type_hash(@game, @scriptsDir)
     @trainerStore = Set[]
     @stats = ["HP", "Atk", "Def", "SpA", "Spd", "Spe"]
+  end
+
+  # フィールド名を、資料ページ (/reborn/fields/) の該当節へのリンクにする。
+  # ここは戦闘ごとに出る行で、実測で 471箇所ある。読者が「このフィールドは
+  # 何をするのか」を知りたくなるのはまさにこの位置。
+  #
+  # 攻略側の表記はゲームの名前と綴りが揺れるので FieldNotes に解決させる。
+  # 解けないもの (fork 独自の "Random Field") は素のテキストのまま出す。
+  def field_node(doc, field)
+    label = field ? JaNames.field(field) : JaNames.ui('No Field')
+    key = field && FieldNotes.key_for(field, @scriptsDir)
+    return doc.create_text_node(label) unless key
+
+    link = doc.create_element('a', class: 'field-link',
+                                   href: "/#{LONGNAMES[@game]}/fields/##{FieldNotes.anchor(key)}")
+    link.content = label
+    link
   end
 
   def generate_trainer_markdown(trainer_id, field = nil, second_trainer_id = nil, type_mod = 0, name_ext = '')
@@ -113,8 +134,9 @@ class TrainerGetter
 
     if type_mod == 0 # we don't need field for partners or selves
       field_div = doc.create_element('div')
-      field_div.content = "#{JaNames.ui('Field:')} #{field ? JaNames.field(field) : JaNames.ui('No Field')}"
+      field_div.content = "#{JaNames.ui('Field:')} "
       td_main_content.add_child(field_div)
+      field_div.add_child(field_node(doc, field))
     end
 
     if type_mod == 0 && !item_symbols.empty? # Adds count of enemy trainer items

@@ -43,7 +43,7 @@ permalink: /reborn/postgame-episode-2/
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -125,7 +125,8 @@ permalink: /reborn/postgame-episode-2/
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: アノマリー エンテイ </strong><div>フィールド: 新世界</div>
+<strong>VS: アノマリー エンテイ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-newworld">新世界</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -507,7 +508,8 @@ PP 5">ふんか</span><span class="move-meta"><span class="move-cat">特殊</spa
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: アノマリー スイクン </strong><div>フィールド: 水面</div>
+<strong>VS: アノマリー スイクン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-watersurface">水面</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -838,7 +840,8 @@ PP 15">めざめるパワー (でんき)</span><span class="move-meta"><span cla
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: アノマリー ライコウ </strong><div>フィールド: 山</div>
+<strong>VS: アノマリー ライコウ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-mountain">山</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1171,7 +1174,8 @@ PP 15">めざめるパワー (ひこう)</span><span class="move-meta"><span cla
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div>
-<strong>VS: ゴーレム アノマリー </strong><div>フィールド: 新世界</div>
+<strong>VS: ゴーレム アノマリー </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-newworld">新世界</a>
+</div>
 </div>
 <div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
 </th></tr>
@@ -1446,6 +1450,6 @@ PP 10">ねむる</span><span class="move-meta"><span class="move-cat">変化</sp
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

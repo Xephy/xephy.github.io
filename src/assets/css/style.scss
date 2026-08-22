@@ -1234,6 +1234,167 @@ body.night-mode .affinity-note { color: #8b95a3; }
 body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6d8199; }
 
 /*******************************************************************************
+フィールド効果ページ (/reborn/fields/)
+*******************************************************************************/
+
+/* 本文は <icon=...> <c=...> の独自記法で書かれている。ゲームのアイコン画像は
+   タイプが英語 (typeFIRE.png に "FIRE" と描いてある)、状態異常も BRN / SLP の
+   英略語なので、和名と色で描き直す。色はアイコン画像から拾った実際の色を、
+   白背景で読める明度まで落としたもの。 */
+.fn-icon {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1;
+  vertical-align: -1px;
+}
+
+.fn-up, .fn-plus { color: #1f7d12; }
+.fn-down, .fn-redup { color: #a41c28; }
+.fn-change { color: #5c646d; }
+.fn-field { color: #2b6cb0; }
+
+/* 状態異常はタイプと同じ体裁の札にする。同じ行にタイプ札と並ぶので、
+   形を揃えないと片方だけ浮く。 */
+.fn-status {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  vertical-align: 1px;
+}
+
+.fn-burn      { background: #b8392a; }
+.fn-sleep     { background: #5a6152; }
+.fn-freeze    { background: #00706f; }
+.fn-poison    { background: #97318f; }
+.fn-faint     { background: #9c0000; }
+.fn-no        { background: #a8121c; }
+.fn-allstat   { background: #6b5a52; }
+.fn-paralyze  { background: #f0c020; color: #3c3100; }
+
+/* 強調色。ゲーム側の緑 / 橙 / 赤をそのまま持ってくると白地で読めないので、
+   同じ色相のまま暗くしてある。 */
+.fn-c { font-weight: 600; }
+.fn-green  { color: #1c6135; }
+.fn-orange { color: #8a5410; }
+.fn-red    { color: #97282a; }
+
+/* 花畑フィールドの段階 (1〜5)。ゲームは色だけで段階を示すが、中身は数字
+   そのものなので、色に頼らず札にする。 */
+.fn-stage {
+  display: inline-block;
+  min-width: 1.6em;
+  padding: 0 5px;
+  border: 1px solid #c3ccd6;
+  border-radius: 3px;
+  background: #eef2f7;
+  color: #35536f;
+  font-size: 12px;
+  text-align: center;
+}
+
+#main_content .fn-legend {
+  margin-top: 14px;
+  margin-bottom: 20px;
+  padding: 10px 14px;
+  background: #f4f7fa;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+#main_content .field-notes {
+  margin-top: 12px;
+  margin-bottom: 30px;
+  padding-left: 0;
+  list-style: none;
+  border: 1px solid #dde2e8;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+#main_content .field-notes li {
+  margin: 0;
+  padding: 7px 14px;
+  border-top: 1px solid #eceff3;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+#main_content .field-notes li:first-child { border-top: none; }
+#main_content .field-notes li:nth-child(even) { background: #fafbfc; }
+
+/* 1行の続き (対象になるわざやとくせいの一覧)。ゲームでは別画面に隠れて
+   いるが、読み比べるならその場に出ているほうが早い。主文より落として置く。 */
+.fn-more {
+  display: block;
+  margin-top: 1px;
+  padding-left: 1.1em;
+  color: #4f5a64;
+  font-size: 13.5px;
+  line-height: 1.8;
+}
+
+.fn-more::before {
+  content: "\21B3";
+  margin-left: -1.1em;
+  margin-right: 0.3em;
+  color: #98a3af;
+}
+
+/* 花畑フィールドで、その行が効く段階。 */
+.fn-cog { white-space: nowrap; }
+
+/* フィールド名は数が多いので、飛び先の札は好感度ページより詰めて置く。 */
+.fn-jump a { font-size: 13px; }
+
+/* 戦闘表の「フィールド: ○○」からフィールド効果ページへ。本文の色と
+   同じにして、表の中で青い行が目立ちすぎないようにする。 */
+.field-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted #8fa6bd;
+}
+
+.field-link:hover,
+.field-link:focus-visible { border-bottom-style: solid; }
+
+/* トレーナー表の見出しは濃い青地に白文字。点線を本文用の色のままにすると
+   ほぼ見えず、リンクだと気づけない。 */
+.header-th .field-link,
+.table-header .field-link { border-bottom-color: rgba(255, 255, 255, 0.65); }
+
+body.night-mode .fn-up,
+body.night-mode .fn-plus { color: #6ec95c; }
+body.night-mode .fn-down,
+body.night-mode .fn-redup { color: #f0888c; }
+body.night-mode .fn-change { color: #a4aeb8; }
+body.night-mode .fn-field { color: #7db1e8; }
+body.night-mode .fn-green  { color: #8ed6a6; }
+body.night-mode .fn-orange { color: #e0b46a; }
+body.night-mode .fn-red    { color: #f0a0a2; }
+
+body.night-mode .fn-stage {
+  background: #23272e;
+  border-color: #3c434c;
+  color: #a8c4de;
+}
+
+body.night-mode #main_content .fn-legend { background: #1c1f24; }
+
+body.night-mode #main_content .field-notes { border-color: #33383f; }
+body.night-mode #main_content .field-notes li { border-top-color: #24282e; }
+body.night-mode #main_content .field-notes li:nth-child(even) { background: #1a1d22; }
+body.night-mode .fn-more { color: #a4aeb8; }
+body.night-mode .fn-more::before { color: #6b7684; }
+body.night-mode .field-link { border-bottom-color: #6d8199; }
+
+/*******************************************************************************
 資料ページへの動線
 *******************************************************************************/
 

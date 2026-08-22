@@ -67,6 +67,12 @@ module JaNames
       [/\s+OR\s+/,   :alt]
     ].freeze
 
+    # 表記ゆれの吸収規則は資料ページ側 (FieldNotes) でも使う。表を2箇所に
+    # 持つと片方だけ直して食い違うので、ここから引かせる。
+    def field_alias(name)
+      FIELD_ALIASES[name]
+    end
+
     def field(name)
       return name unless enabled? && name.is_a?(String)
 
