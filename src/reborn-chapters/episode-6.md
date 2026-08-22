@@ -72,7 +72,7 @@ permalink: /reborn/episode-6/
 <div>
 <strong>VS: サイキッカー リン </strong><div>フィールド: フィールドなし</div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -150,7 +150,7 @@ PP 10">ガードシェア</span><span class="move-meta"><span class="move-cat">�
 <div>
 <strong>VS: サイキッカー デイモン </strong><div>フィールド: フィールドなし</div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -228,7 +228,7 @@ PP 10">おきみやげ</span><span class="move-meta"><span class="move-cat">変�
 <div>
 <strong>VS: エンジニア ケイレブ </strong><div>フィールド: フィールドなし</div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -300,7 +300,7 @@ PP 10">リサイクル</span><span class="move-meta"><span class="move-cat">変�
 <thead class="table-header">
 <tr><th colspan="3" class="header-th">
 <div><strong>味方: あこがれのひと アマリア </strong></div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -348,7 +348,7 @@ PP 30">こおりのつぶて</span><span class="move-meta"><span class="move-cat
 <strong>VS: メテオだんしたっぱ リカルド  &amp; メテオだんしたっぱ ヒルダ</strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -451,7 +451,7 @@ PP 5">くろいまなざし</span><span class="move-meta"><span class="move-cat"
 <strong>VS: メテオだんしたっぱ サンチェス </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -536,7 +536,7 @@ PP 5">あまごい</span><span class="move-meta"><span class="move-cat">変化</
 <strong>VS: エンジニア ナオマン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -617,7 +617,7 @@ PP 15">いびき</span><span class="move-meta"><span class="move-cat">特殊</sp
 <strong>VS: メテオだんしたっぱ デヴィン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -699,7 +699,7 @@ PP 10">ロックブラスト</span><span class="move-meta"><span class="move-cat
 <strong>VS: メテオだんのきし キーナン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -780,7 +780,7 @@ PP 10">ロックブラスト</span><span class="move-meta"><span class="move-cat
 <strong>VS: メテオだんのふじん ダイアナ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -892,7 +892,7 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
 <strong>VS: メテオだんのきし スティーブン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -973,7 +973,7 @@ PP 10">ヘビーボンバー</span><span class="move-meta"><span class="move-cat
 <strong>VS: エンジニア デリル </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -1054,7 +1054,7 @@ PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">�
 <strong>VS: メテオだんのふじん エイブリル </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-factory">工場フィールド</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -1136,7 +1136,7 @@ PP 15">かいふくふうじ</span><span class="move-meta"><span class="move-cat
 </div>
 <div>使用アイテム: すごいキズぐすり (2)</div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -1386,7 +1386,7 @@ PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊<
 <strong>VS: つりびと ジェリー </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -1434,7 +1434,7 @@ PP 10">ヘドロウェーブ</span><span class="move-meta"><span class="move-cat
 <strong>VS: ネイチャーガール ミニー </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -1482,7 +1482,7 @@ PP 15">きしかいせい</span><span class="move-meta"><span class="move-cat">�
 <strong>VS: つりびと モリッツ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -1530,7 +1530,7 @@ PP 5">あまごい</span><span class="move-meta"><span class="move-cat">変化</
 <strong>VS: バトルガール モーヴ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -1580,7 +1580,7 @@ PP 20">ビルドアップ</span><span class="move-meta"><span class="move-cat">�
 <strong>VS: つりびと ダニエル </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -1630,7 +1630,7 @@ PP 10">ふくろだたき</span><span class="move-meta"><span class="move-cat">�
 <strong>VS: からておう ポール </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -1709,7 +1709,7 @@ PP 30">こうそくいどう</span><span class="move-meta"><span class="move-cat
 <strong>VS: やまおとこ グレイソン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -1757,7 +1757,7 @@ PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">�
 <strong>VS: バトルガール ティナ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -1841,7 +1841,7 @@ PP 10">パワートリック</span><span class="move-meta"><span class="move-cat
 <strong>VS: やまおとこ ジャック </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-rocky">岩場フィールド</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -1891,7 +1891,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 <strong>VS: ネイチャーガール イーシー </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -1939,7 +1939,7 @@ PP 10">ワイドガード</span><span class="move-meta"><span class="move-cat">�
 <strong>VS: サイキッカー ホアン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -2038,7 +2038,7 @@ PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">�
 <strong>VS: からておう ライアン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -2117,7 +2117,7 @@ PP 15">いちゃもん</span><span class="move-meta"><span class="move-cat">変�
 <strong>VS: ネイチャーガール ココア </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -2165,7 +2165,7 @@ PP 15">かみなりパンチ</span><span class="move-meta"><span class="move-cat
 <strong>VS: からておう メイソン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -2213,7 +2213,7 @@ PP 10">あばれる</span><span class="move-meta"><span class="move-cat">物理<
 <strong>VS: バトルガール リサ </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-ashenbeach">灰の浜辺</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -2296,7 +2296,7 @@ PP 10">はらだいこ</span><span class="move-meta"><span class="move-cat">変�
 <div>
 <strong>VS: ネイチャーガール ケイシー </strong><div>フィールド: フィールドなし</div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -2537,7 +2537,7 @@ PP 15">つじぎり</span><span class="move-meta"><span class="move-cat">物理<
 <strong>VS: バトルガール ディロン </strong><div>フィールド: <a class="field-link" href="/reborn/fields/#field-cave">どうくつ</a>
 </div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -2731,7 +2731,7 @@ PP 30">こおりのつぶて</span><span class="move-meta"><span class="move-cat
 </div>
 <div>使用アイテム: チョコアイス (2)</div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -3040,7 +3040,7 @@ PP 15">ほのおのキバ</span><span class="move-meta"><span class="move-cat">�
 </div>
 <div>使用アイテム: すごいキズぐすり (2)</div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
@@ -3268,7 +3268,7 @@ PP 15">ふんえん</span><span class="move-meta"><span class="move-cat">特殊<
 </div>
 <div>使用アイテム: すごいキズぐすり (2)</div>
 </div>
-<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="[表示]" data-hide="[閉じる]">[表示]</span></div>
+<div class="show-hide-container"><span class="show-hide-text" style="cursor: pointer;" role="button" tabindex="0" data-show="表示" data-hide="閉じる">表示</span></div>
 </th></tr>
 <tr>
 <th style="text-align: center;vertical-align : middle">ポケモン</th>
