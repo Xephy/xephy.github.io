@@ -45,9 +45,8 @@ module ShopIndexPage
     ja = JaNames.enabled?
     many = items.count { |r| r[:shops].length > 1 }
 
-    seen = items.flat_map { |r| r[:shops].map { |s| s.dig(:context, :seq) } }.compact.uniq.sort
-    options = seen.map { |i|
-      %(<option value="#{i}">#{esc(chapter_label(DocContext.chapters[i]))}</option>)
+    options = DocContext.progress_chapters.map { |i, title|
+      %(<option value="#{i}">#{esc(chapter_label(title))}</option>)
     }.join
 
     <<~BAR

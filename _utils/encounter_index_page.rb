@@ -164,9 +164,8 @@ module EncounterIndexPage
     ja = JaNames.enabled?
 
     # 「ここまで進んだ」の選択肢。出現表が載っている章だけを、本文の順で出す。
-    seen = species.flat_map { |sp| sp[:places].map { |pl| pl.dig(:context, :seq) } }.compact.uniq.sort
-    options = seen.map { |i|
-      %(<option value="#{i}">#{esc(chapter_label(DocContext.chapters[i]))}</option>)
+    options = DocContext.progress_chapters.map { |i, title|
+      %(<option value="#{i}">#{esc(chapter_label(title))}</option>)
     }.join
 
     <<~BAR

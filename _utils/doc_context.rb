@@ -26,15 +26,24 @@ module DocContext
   end
 
   # 章の切り替わり。同じ題名で2回呼ばれても番号は増やさない。
-  def begin_chapter(title)
+  def begin_chapter(title, slug = nil)
     @chapters ||= []
-    @chapters << title unless @chapters.last == title
+    @chapters << { title: title, slug: slug } unless @chapters.last && @chapters.last[:title] == title
     @chapters.length - 1
   end
 
   # 番号順の章の題名。絞り込みの選択肢を組むのに使う。
   def chapters
-    @chapters || []
+    (@chapters || []).map { |c| c[:title] }
+  end
+
+  # 「ここまで進んだ」の選択肢に使う章。付録は物語上の位置ではないので外す。
+  # 資料が1件も無い章も残す。読者は自分がいる章を選ぶのであって、そこに
+  # 資料があるかどうかは知らないため。
+  def progress_chapters
+    (@chapters || []).each_with_index
+                     .reject { |c, _| c[:slug] == 'appendices' }
+                     .map { |c, i| [i, c[:title]] }
   end
 
   def clear_position!

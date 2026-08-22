@@ -237,7 +237,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
         if level == 1
           chapter_title = heading
           chapter_slug = generate_intelligent_slug(line.strip[2..].strip, type, num)
-          chapter_seq = DocContext.begin_chapter(chapter_title)
+          chapter_seq = DocContext.begin_chapter(chapter_title, chapter_slug)
           DocContext.current = { chapter: chapter_title, seq: chapter_seq, section: chapter_title,
                                  href: "/#{LONGNAMES[game]}/#{chapter_slug}/" }
         elsif chapter_slug
