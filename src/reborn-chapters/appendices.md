@@ -651,7 +651,7 @@ permalink: /reborn/appendices/
 - **noitems**: バトル中に *キズぐすり* や *プラスパワー* などのバッグの道具を使えなくなります。
 - **nuzlocke / locke / permadeath**: 自分のポケモンが一度瀕死になると、二度と復活できなくなります。
 - **moneybags / richboy / doublemoney**: トレーナーから受け取る賞金が2倍になります。
-- **fullivs / 31ivs / allivs / mischievous**: 自分のポケモンの個体値をすべて31にします。*オンライン交換が無効になります。*
+- **fullivs / 31ivs / allivs / mischievous / self31iv**: 自分のポケモンの個体値をすべて31にします。*オンライン交換が無効になります。*
 - **emptyivs / 0ivs / noivs**: 自分のポケモンの個体値をすべて0にします。
 - **leveloffset / setlevel / flatlevel**: [-99, 99] の整数を指定でき、その値がゲーム中の全トレーナーのレベルに加算されます。
 - **percentlevel / levelpercent**: [0, 999] の非負整数を指定でき、その値がパーセントとしてゲーム中の全トレーナーのレベルに掛けられます。
@@ -661,7 +661,7 @@ permalink: /reborn/appendices/
 - **expcurse**: 経験値を得る代わりに失うようになります。
 - **exppercent / expercent**: 獲得経験値の倍率を設定できます。
 - **flatevs / 85evs**: 敵ポケモンの努力値が全能力85になります。
-- **noevcap / gen2mode**: 自分のポケモンが全能力で努力値252に到達できるようになります。*オンライン対戦と交換が無効になります。*
+- **noevcap / gen2mode / self252ev**: 自分のポケモンが全能力で努力値252に到達できるようになります。*オンライン対戦と交換が無効になります。*
 - **nobattles / storymode**: ゲーム中のすべてのバトルを飛ばします。
 - **levelfloor / minlevel / lesslvlgap**: 相手ポケモンのレベルの下限を、直前のレベル上限まで引き上げます（最初のジム以降）。
 
@@ -735,7 +735,7 @@ permalink: /reborn/appendices/
 - **randfields**: 毎回のバトルで、すべてのフィールドから無作為に選びます。
 - **elemental**: 毎回のバトルで、エレキフィールド、グラスフィールド、ミストフィールド、腐食ミストフィールド、燃えるフィールド、氷のフィールド、水面、水中、濁った水面、りゅうのあなから無作為に選びます。
 - **magical**: 毎回のバトルで、暗黒クリスタルのどうくつ、虹のフィールド、クリスタルのどうくつ、聖なるフィールド、おとぎ話フィールド、星空アリーナ、新世界、反転フィールド、サイコフィールドから無作為に選びます。
-- **Synthetic**: 毎回のバトルで、チェスボード、サーカステント、工場フィールド、ショートフィールド、グリッチフィールド、ミラーアリーナ、花畑フィールドから無作為に選びます。
+- **synthetic**: 毎回のバトルで、チェスボード、サーカステント、工場フィールド、ショートフィールド、グリッチフィールド、ミラーアリーナ、花畑フィールドから無作為に選びます。
 - **telluric**: 毎回のバトルで、沼地フィールド、腐食フィールド、砂漠フィールド、岩場フィールド、森林フィールド、超高温フィールド、荒野、灰の浜辺、どうくつ、山、雪山から無作為に選びます。
 
 ### まとめパスワード {#bulk-passwords}
@@ -748,7 +748,7 @@ permalink: /reborn/appendices/
 - **freebies**: freeexpall, freeremotepc, powerpack, mintyfresh, shinycharm, freemegaz, freescent, freefinder
 - **qol**: hardcap, easyhms, fieldapp, earlyincu, stablweather, nopoisondam, weathermod, unrealtime, pinata, freeexpall, freeremotepc, freescent
 - **speedrun**: hardcap, monopsychic, easyhms, fullivs, norolls, stablweather, weathermod, freemegaz, earlyincu, pinata, mintyfresh, freeexpall, freescent, nopuzzles, speedskip
-- **speedrunnotx**: hardcap, monopsychic, easyhms, fullivs, norolls, stablweather, weathermod, freemegaz, eaclyincu, wtfisafont, pinata, mintyfresh, freeexpall, freescent, nopuzzles, speedskip
+- **speedrunnotx**: hardcap, monopsychic, easyhms, fullivs, norolls, stablweather, weathermod, freemegaz, earlyincu, wtfisafont, pinata, mintyfresh, freeexpall, freescent, nopuzzles, speedskip
 - **pulse2**: opp31iv, opp252ev
 - **rocketlocke**: nuzlocke, yoink
 
