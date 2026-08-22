@@ -43,7 +43,7 @@ permalink: /reborn/episode-14/
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -111,7 +111,7 @@ permalink: /reborn/episode-14/
 
 <div class="encounter_section"><table>
 <thead>
-<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>セレスティナイン &amp;アメトリン山水中 出現ポケモン: くさむら</strong></th></tr>
+<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>セレスティナイン・アメトリン山水中 出現ポケモン: くさむら</strong></th></tr>
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
@@ -5336,6 +5336,6 @@ M3G4 T3RR4 との対戦です。もうお察しのとおり *グリッチフィ�
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

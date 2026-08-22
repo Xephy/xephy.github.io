@@ -4,9 +4,9 @@ permalink: /reborn/all/
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年8月22日 17:57 GMT</h5>
+<h5> 最終更新 2026年8月22日 18:06 GMT</h5>
 <h5> 対象バージョン 19.5.43</h5>
-<p><a href="/reborn/">エピソードごとに読む</a> / <a href="/reborn/fields/">フィールド効果</a> / <a href="/reborn/affinity/">好感度まとめ</a></p>
+<p><a href="/reborn/">エピソードごとに読む</a> / <a href="/reborn/pokemon/">ポケモンの出現場所</a> / <a href="/reborn/fields/">フィールド効果</a> / <a href="/reborn/affinity/">好感度まとめ</a></p>
 <details class="page-toc" open>
   <summary>章の一覧</summary>
   <ul>
@@ -58115,7 +58115,7 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
 
 <div class="encounter_section"><table>
 <thead>
-<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>セレスティナイン &amp;アメトリン山水中 出現ポケモン: くさむら</strong></th></tr>
+<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>セレスティナイン・アメトリン山水中 出現ポケモン: くさむら</strong></th></tr>
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
@@ -63327,7 +63327,7 @@ M3G4 T3RR4 との対戦です。もうお察しのとおり *グリッチフィ�
 
 <div class="encounter_section"><table>
 <thead>
-<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>セレスティナイン &amp;アメトリン山水中 (地下2階のみ) 出現ポケモン: くさむら</strong></th></tr>
+<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>セレスティナイン・アメトリン山水中 (地下2階のみ) 出現ポケモン: くさむら</strong></th></tr>
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
@@ -104056,7 +104056,7 @@ M3G4 T3RR4 をもう一度倒したら、左上の道からトーナメント会
 
 <div class="encounter_section"><table>
 <thead>
-<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>チャンピオンロード (入口 &amp;中継点) 出現ポケモン: どうくつ</strong></th></tr>
+<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>チャンピオンロード (入口・中継点) 出現ポケモン: どうくつ</strong></th></tr>
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
@@ -104649,7 +104649,7 @@ PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">�
 
 <div class="encounter_section"><table>
 <thead>
-<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>チャンピオンロード (地下1階 &amp;地下2階) 出現ポケモン: どうくつ</strong></th></tr>
+<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>チャンピオンロード (地下1階・地下2階) 出現ポケモン: どうくつ</strong></th></tr>
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
@@ -105227,7 +105227,7 @@ PP 20">ちょうはつ</span><span class="move-meta"><span class="move-cat">変�
 
 <div class="encounter_section"><table>
 <thead>
-<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>チャンピオンロード (2階 &amp;シャルース山) 出現ポケモン: どうくつ</strong></th></tr>
+<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>チャンピオンロード (2階・シャルース山) 出現ポケモン: どうくつ</strong></th></tr>
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
@@ -109132,7 +109132,7 @@ PP 20">おいうち</span><span class="move-meta"><span class="move-cat">物理<
 
 <div class="encounter_section"><table>
 <thead>
-<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>チャンピオンロード (ルビー地下4階 &amp;地下5階) 出現ポケモン: どうくつ</strong></th></tr>
+<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>チャンピオンロード (ルビー地下4階・地下5階) 出現ポケモン: どうくつ</strong></th></tr>
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
@@ -109928,7 +109928,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 
 <div class="encounter_section"><table>
 <thead>
-<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>チャンピオンロード (サファイア地下4階 &amp;地下5階) 出現ポケモン: どうくつ</strong></th></tr>
+<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>チャンピオンロード (サファイア地下4階・地下5階) 出現ポケモン: どうくつ</strong></th></tr>
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>

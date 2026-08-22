@@ -10,6 +10,8 @@ module ReferencePages
   module_function
 
   PAGES = [
+    { slug: 'pokemon', label: 'ポケモンの出現場所', en: 'Wild Encounters',
+      desc: '種族から引く野生の出現場所' },
     { slug: 'fields', label: 'フィールド効果', en: 'Field Effects',
       desc: 'フィールド38種の効果一覧' },
     { slug: 'affinity', label: '好感度まとめ', en: 'Relationship Points',

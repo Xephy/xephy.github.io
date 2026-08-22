@@ -43,7 +43,7 @@ permalink: /reborn/episode-15/
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -87,7 +87,7 @@ permalink: /reborn/episode-15/
 
 <div class="encounter_section"><table>
 <thead>
-<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>セレスティナイン &amp;アメトリン山水中 (地下2階のみ) 出現ポケモン: くさむら</strong></th></tr>
+<tr><th colspan="3" class="table-header" style="text-align: center;"><strong>セレスティナイン・アメトリン山水中 (地下2階のみ) 出現ポケモン: くさむら</strong></th></tr>
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
@@ -3669,6 +3669,6 @@ PP 15">うたう</span><span class="move-meta"><span class="move-cat">変化</sp
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

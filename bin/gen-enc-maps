@@ -83,6 +83,9 @@ def translate(name, maps)
   PARTS.keys.sort_by { |k| -k.length }.each do |en|
     s = s.gsub(/(?<![A-Za-z])#{Regexp.escape(en)}(?![A-Za-z])/, PARTS[en])
   end
+  # "A & B" は和文では中黒。& を残したままだと後段の空白詰めで "A &B" に
+  # なり、5件のマップ名が読みにくくなっていた。
+  s = s.gsub(/\s*&\s*/, '・')
   floors(s).gsub(/\s+(?=[^\x00-\x7F])/, '').gsub(/\s{2,}/, ' ').strip
 end
 

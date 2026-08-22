@@ -3,6 +3,8 @@ require_relative 'chapter_nav'
 require_relative 'affinity'
 require_relative 'affinity_index'
 require_relative 'field_notes'
+require_relative 'encounter_index'
+require_relative 'encounter_index_page'
 require_relative 'reference_pages'
 require_relative 'spoiler'
 require_relative 'function_wrapper'
@@ -165,7 +167,26 @@ def generate_md_text(game = 'reborn', scripts_dir)
 
     # Store chapter text as an array of lines - join them at the end
     res = []
+    # 出現表の逆引きページは「どの節に載っていた表か」を必要とする。指示行を
+    # 展開する側でしか見出しが分からないので、ここで見出しを追いかけて渡す。
+    chapter_title = nil
+    chapter_slug = nil
+    EncounterIndex.context = nil
+
     raw_md.each_line do |line|
+      if line.start_with?('#') && (m = line.chomp.match(/\A(\#{1,3})[ \t]+(.+?)[ \t]*\{\#([^}]+)\}[ \t]*\z/))
+        level, heading, id = m[1].length, m[2].strip, m[3]
+        if level == 1
+          chapter_title = heading
+          chapter_slug = generate_intelligent_slug(line.strip[2..].strip, type, num)
+          EncounterIndex.context = { chapter: chapter_title, section: chapter_title,
+                                     href: "/#{LONGNAMES[game]}/#{chapter_slug}/" }
+        elsif chapter_slug
+          EncounterIndex.context = { chapter: chapter_title, section: heading,
+                                     href: "/#{LONGNAMES[game]}/#{chapter_slug}/##{id}" }
+        end
+      end
+
       if line.strip.empty? || line[0] != '!'
         res << line
       elsif line[0] == '!'
@@ -225,6 +246,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
   end
 
   res = ''
+  EncounterIndex.reset!
   game_version = detect_game_version(game, scripts_dir)
   res += generate_md_pre_contents(game, game_version)
   # 読んでいる最中も章を移動できるよう、章ページと同じ固定サイドバーを置く。
@@ -275,6 +297,8 @@ def generate_md_text(game = 'reborn', scripts_dir)
   # 章とは別に置く資料ページ。読み順に混ぜたくないので chapters には入れず、
   # permalink だけ /<game>/... に並べる。
   pages = {}
+  encounter_page = EncounterIndexPage.build_page(LONGNAMES[game])
+  pages['pokemon'] = encounter_page if encounter_page
   field_page = FieldNotes.build_page(LONGNAMES[game], scripts_dir)
   pages['fields'] = field_page if field_page
   affinity_page = AffinityIndex.build_page(chapters, LONGNAMES[game])

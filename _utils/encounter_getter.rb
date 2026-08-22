@@ -1,4 +1,5 @@
 require_relative 'common'
+require_relative 'encounter_index'
 require 'set'
 
 class EncounterGetter
@@ -82,10 +83,12 @@ class EncounterGetter
       # 朝・昼・夜がすべて同率なら列を1本にまとめる。実測では出現表 90個の
       # うち 42個 (46%) が全行同率で、同じ数字が3列並ぶために差のある表が
       # 埋もれていた。釣り竿は「どの竿で釣れるか」自体が情報なのでまとめない。
+      collapsed = false
       if group == :Grass && types.length == 3 &&
          mons.values.all? { |md| types.map { |t| md[t] }.uniq.length == 1 }
         types = [types.first]
         num_cols = 3
+        collapsed = true
       end
 
       # Creates the header for the table
@@ -98,8 +101,9 @@ class EncounterGetter
       bold = doc.create_element('strong')
       # custom_map_name は !enc の第4引数で著者が手書きした名前。ゲームデータに
         # 無いので辞書では引けず、_ja/enc-maps.yml で対訳を持つ。
-        bold.content = "#{JaNames.enc_map(custom_map_name) || map_name} " \
-                       "#{JaNames.ui('Encounters:')} #{JaNames.ui(group.to_s)}"
+        display_map_name = JaNames.enc_map(custom_map_name) || map_name
+        group_label = JaNames.ui(group.to_s)
+        bold.content = "#{display_map_name} #{JaNames.ui('Encounters:')} #{group_label}"
       th.add_child(bold)
       th['class'] = 'table-header'
       th['style'] = 'text-align: center;'
@@ -224,6 +228,19 @@ class EncounterGetter
                                       end
           tr.add_child(td_encounter_type)
         end
+
+        # 逆引き資料ページ用に、画面に出るのと同じ値をそのまま渡す。
+        EncounterIndex.record(
+          species: pokemon_name_formatted,
+          dexnum: @pokemonHash[mon][base_form][:dexnum],
+          icon: icon_src,
+          map_label: display_map_name,
+          group: group_label,
+          levels: mon_data['levels'],
+          # 朝昼夜をまとめた表は時間帯の区別が無い。時間帯の札を付けると
+          # 「朝だけ」と読めてしまうので、まとめたときは札を外す。
+          rates: types.map { |t| [collapsed ? nil : EncounterIndex::RATE_LABELS[t], mon_data[t]] }
+        )
 
         table.add_child(tr)
       end
