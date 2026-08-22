@@ -215,6 +215,18 @@ $(document).ready(function() {
 })();
 
 
+// 絞り込みの結果が0件のときの文言。
+//
+// 「該当なし」とだけ出しても、次に何をすればいいのかが分からない。
+// 条件を外す操作子はすぐ隣にあるので、その札の文字をそのまま借りて促す。
+// 借りることで、英語で書き出したときも札と文言がずれない。
+function refEmpty(bar) {
+  var btn = bar && bar.querySelector('.ref-reset');
+  var label = btn ? btn.textContent.trim() : '';
+  return label ? '該当なし — 「' + label + '」で戻せます' : '該当なし';
+}
+
+
 // 出現場所ページ (/reborn/pokemon/) の絞り込み。
 //
 // 種族595行・場所2,528件を1枚に並べているので、ブラウザの検索だけでは
@@ -231,10 +243,17 @@ $(document).ready(function() {
   var onlyEl = document.getElementById('pdx-only');
   var uptoEl = document.getElementById('pdx-upto');
   var resetEl = bar.querySelector('.ref-reset');
+  var sortEl = document.getElementById('pdx-sort');
   var jump = document.querySelector('.pdx-jump');
   var tables = [].slice.call(document.querySelectorAll('.pdx-table'));
   var rows = [].slice.call(document.querySelectorAll('.pdx-table tr'));
   if (!rows.length) return;
+
+  // 五十音順に並べ替えたときの状態。元の並びに戻せるよう、行がどの表の
+  // 何番目にいたかを控えておく。
+  var kanaMode = false;
+  var home = rows.map(function (tr) { return tr.parentNode; });
+  var jumpHome = jump ? jump.innerHTML : '';
 
   bar.hidden = false;
 
@@ -319,7 +338,9 @@ $(document).ready(function() {
       tr._dimmed = ok && dimming;
     });
 
-    // 空になった図鑑番号の区切りは見出しごと畳む。
+    // 空になった区切りは見出しごと畳む。五十音順のときは行が全部
+    // 先頭の表へ移っているので、図鑑番号の見出しは常に伏せる。
+    if (kanaMode) trimKanaHeads();
     tables.forEach(function (table) {
       var visible = false;
       var trs = table.rows;
@@ -328,7 +349,7 @@ $(document).ready(function() {
       }
       table.hidden = !visible;
       var head = table.previousElementSibling;
-      if (head && head.tagName === 'H2') head.hidden = !visible;
+      if (head && head.tagName === 'H2') head.hidden = kanaMode || !visible;
     });
 
     var filtering = terms.length > 0 || picked.types.length > 0 ||
@@ -338,10 +359,144 @@ $(document).ready(function() {
 
     if (countEl) {
       countEl.textContent = filtering
-        ? (shown === 0 ? '該当なし' : rows.length + '件中 ' + shown + '件')
+        ? (shown === 0 ? refEmpty(bar) : rows.length + '件中 ' + shown + '件')
         : rows.length + '件';
     }
     remember(terms.length ? input.value.trim() : '');
+  }
+
+  // --- 五十音順への並べ替え ---------------------------------------
+  //
+  // 図鑑番号順は「進化の並び」で読める代わりに、名前しか知らないときに
+  // 探せない。検索欄があるので優先度は低いが、通しで眺めたいときに効く。
+  //
+  // 並べ替えの鍵は、濁点・半濁点を落とし、小書きを大書きに直した片仮名。
+  // 片仮名は符号位置がそのまま五十音の順なので、そのまま比べられる。
+  var SMALL = {
+    'ァ': 'ア', 'ィ': 'イ', 'ゥ': 'ウ', 'ェ': 'エ', 'ォ': 'オ', 'ッ': 'ツ',
+    'ャ': 'ヤ', 'ュ': 'ユ', 'ョ': 'ヨ', 'ヮ': 'ワ', 'ヵ': 'カ', 'ヶ': 'ケ'
+  };
+  var GYO = [
+    ['ア', 'アイウエオ'], ['カ', 'カキクケコ'], ['サ', 'サシスセソ'],
+    ['タ', 'タチツテト'], ['ナ', 'ナニヌネノ'], ['ハ', 'ハヒフヘホ'],
+    ['マ', 'マミムメモ'], ['ヤ', 'ヤユヨ'], ['ラ', 'ラリルレロ'],
+    ['ワ', 'ワヲン']
+  ];
+  var GYO_OF = {};
+  GYO.forEach(function (pair) {
+    pair[1].split('').forEach(function (c) { GYO_OF[c] = pair[0]; });
+  });
+
+  // 長音符は直前の字の母音として読む。そうしないと「アブリー」が
+  // 「アブリボン」の後ろに来る (ー の符号位置が片仮名より後ろのため)。
+  var VOWEL = {};
+  [['ア', 'アカサタナハマヤラワ'], ['イ', 'イキシチニヒミリ'],
+   ['ウ', 'ウクスツヌフムユル'], ['エ', 'エケセテネヘメレ'],
+   ['オ', 'オコソトノホモヨロヲ']].forEach(function (pair) {
+    pair[1].split('').forEach(function (c) { VOWEL[c] = pair[0]; });
+  });
+
+  function collate(name) {
+    var s = (name || '').normalize('NFD').replace(/[\u3099\u309A]/g, '');
+    s = s.replace(/[ぁ-ゖ]/g, function (c) {
+      return String.fromCharCode(c.charCodeAt(0) + 0x60);
+    });
+    s = s.replace(/[ァィゥェォッャュョヮヵヶ]/g, function (c) { return SMALL[c]; });
+    var out = '';
+    for (var i = 0; i < s.length; i++) {
+      var c = s.charAt(i);
+      out += (c === 'ー' && VOWEL[out.charAt(out.length - 1)]) ? VOWEL[out.charAt(out.length - 1)] : c;
+    }
+    return out.toUpperCase();
+  }
+
+  // 見出しに使う区切り。片仮名は行 (ア行・カ行…)、それ以外は頭文字。
+  // WT_LANG=en で書き出すと種族名が英字になるため。
+  function groupOf(key) {
+    var head = key.charAt(0);
+    if (GYO_OF[head]) return GYO_OF[head] + '行';
+    return /[A-Z0-9]/.test(head) ? head : 'その他';
+  }
+
+  function kanaHead(label, id) {
+    var tr = document.createElement('tr');
+    tr.className = 'pdx-kana';
+    tr.id = id;
+    var th = document.createElement('th');
+    th.colSpan = 2;
+    th.textContent = label;
+    tr.appendChild(th);
+    return tr;
+  }
+
+  // 鍵は使うときに作る。並べ替えを開かなければ596回の変換は要らない。
+  function keyOf(tr) {
+    if (tr._key === undefined) tr._key = collate(tr.getAttribute('data-name'));
+    return tr._key;
+  }
+
+  function toKana() {
+    var host = tables[0];
+    var sorted = rows.slice().sort(function (a, b) {
+      var ka = keyOf(a), kb = keyOf(b);
+      return ka < kb ? -1 : ka > kb ? 1 : 0;
+    });
+    var links = [], last = null, n = 0;
+    sorted.forEach(function (tr) {
+      var g = groupOf(keyOf(tr));
+      if (g !== last) {
+        if (last !== null) links[links.length - 1].n = n;
+        var id = 'kana-' + links.length;
+        host.appendChild(kanaHead(g, id));
+        links.push({ id: id, label: g, n: 0 });
+        last = g;
+        n = 0;
+      }
+      n++;
+      host.appendChild(tr);
+    });
+    if (links.length) links[links.length - 1].n = n;
+    if (jump) {
+      jump.innerHTML = links.map(function (l) {
+        return '<li><a href="#' + l.id + '">' + l.label + '<span>' + l.n + '</span></a></li>';
+      }).join('');
+    }
+    kanaMode = true;
+  }
+
+  function toDex() {
+    [].slice.call(document.querySelectorAll('.pdx-kana')).forEach(function (tr) {
+      tr.parentNode.removeChild(tr);
+    });
+    // 控えた表へ元の順に戻す。表には他の行が無いので、順に足せば復元できる。
+    rows.forEach(function (tr, i) { home[i].appendChild(tr); });
+    if (jump) jump.innerHTML = jumpHome;
+    kanaMode = false;
+  }
+
+  // 見出しの下に見える行が1つも無ければ、見出しごと畳む。
+  function trimKanaHeads() {
+    var trs = tables[0].rows;
+    var cur = null, seen = 0;
+    for (var i = 0; i < trs.length; i++) {
+      var tr = trs[i];
+      if (tr.className === 'pdx-kana') {
+        if (cur) cur.hidden = seen === 0;
+        cur = tr;
+        seen = 0;
+      } else if (!tr.hidden) {
+        seen++;
+      }
+    }
+    if (cur) cur.hidden = seen === 0;
+  }
+
+  if (sortEl) {
+    sortEl.addEventListener('change', function () {
+      if (sortEl.value === 'kana') { if (!kanaMode) toKana(); }
+      else if (kanaMode) toDex();
+      apply();
+    });
   }
 
   // 絞り込んだ状態をそのまま渡せるように、条件を URL に残す。
@@ -359,6 +514,7 @@ $(document).ready(function() {
     if (picked.ways.length) p.set('w', picked.ways.join(','));
     if (onlyEl && onlyEl.checked) p.set('only', '1');
     if (uptoEl && uptoEl.value !== '') p.set('ch', uptoEl.value);
+    if (kanaMode) p.set('s', 'kana');
     var s = p.toString();
     history.replaceState(null, '', (s ? '?' + s : location.pathname) + location.hash);
   }
@@ -404,6 +560,7 @@ $(document).ready(function() {
       });
       if (onlyEl) onlyEl.checked = false;
       if (uptoEl) uptoEl.value = '';
+      if (sortEl) { sortEl.value = 'dex'; if (kanaMode) toDex(); }
       apply();
       input.focus();
     });
@@ -446,6 +603,7 @@ $(document).ready(function() {
     });
     if (onlyEl && p.get('only') === '1') onlyEl.checked = true;
     if (uptoEl && p.get('ch')) uptoEl.value = p.get('ch');
+    if (sortEl && p.get('s') === 'kana') { sortEl.value = 'kana'; toKana(); }
   })();
 
   apply();
@@ -590,7 +748,7 @@ $(document).ready(function() {
 
     if (countEl) {
       countEl.textContent = filtering
-        ? (shownFields === 0 ? '該当なし'
+        ? (shownFields === 0 ? refEmpty(bar)
             : shownFields + 'フィールド / ' + shownItems + '行が一致')
         : groups.length + 'フィールド / ' + totalItems + '行';
     }
@@ -732,7 +890,7 @@ $(document).ready(function() {
     bar.classList.toggle('is-filtering', filtering);
     if (countEl) {
       countEl.textContent = filtering
-        ? (shown === 0 ? '該当なし' : total + '件中 ' + shown + '件')
+        ? (shown === 0 ? refEmpty(bar) : total + '件中 ' + shown + '件')
         : total + '件';
     }
 
@@ -763,18 +921,34 @@ $(document).ready(function() {
     timer = setTimeout(apply, 80);
   });
 
+  function clearAll() {
+    input.value = '';
+    picked = [];
+    chips.forEach(function (c) {
+      c.classList.remove('is-on');
+      c.setAttribute('aria-pressed', 'false');
+    });
+    apply();
+  }
+
   if (resetEl) {
     resetEl.addEventListener('click', function () {
-      input.value = '';
-      picked = [];
-      chips.forEach(function (c) {
-        c.classList.remove('is-on');
-        c.setAttribute('aria-pressed', 'false');
-      });
-      apply();
+      clearAll();
       input.focus();
     });
   }
+
+  // まとめパスワードの中身から各項目へ飛べるようにしてあるが、絞り込みで
+  // 飛び先が隠れていると押しても何も起きない。そのときだけ条件を外す。
+  document.addEventListener('click', function (ev) {
+    var t = ev.target;
+    var a = t && t.closest ? t.closest('a[href^="#pw-"]') : null;
+    if (!a) return;
+    var el = document.getElementById(a.getAttribute('href').slice(1));
+    var li = el && el.closest ? el.closest('li') : null;
+    if (!li || !li.hidden) return;
+    clearAll();
+  });
 
   (function restore() {
     var p = new URLSearchParams(location.search);
@@ -866,7 +1040,7 @@ $(document).ready(function() {
     bar.classList.toggle('is-filtering', filtering);
     if (countEl) {
       countEl.textContent = filtering
-        ? (shownItems === 0 ? '該当なし' : shownBlocks + '章 / ' + shownItems + '項目')
+        ? (shownItems === 0 ? refEmpty(bar) : shownBlocks + '章 / ' + shownItems + '項目')
         : groups.length + '章 / ' + total + '項目';
     }
 
@@ -970,7 +1144,7 @@ $(document).ready(function() {
     bar.classList.toggle('is-filtering', filtering);
     if (countEl) {
       countEl.textContent = filtering
-        ? (shown === 0 ? '該当なし' : rows.length + '件中 ' + shown + '件')
+        ? (shown === 0 ? refEmpty(bar) : rows.length + '件中 ' + shown + '件')
         : rows.length + '件';
     }
 
@@ -1016,6 +1190,7 @@ $(document).ready(function() {
     if (p.get('q')) input.value = p.get('q');
     if (manyEl && p.get('many') === '1') manyEl.checked = true;
     if (uptoEl && p.get('ch')) uptoEl.value = p.get('ch');
+    if (sortEl && p.get('s') === 'kana') { sortEl.value = 'kana'; toKana(); }
   })();
 
   apply();
@@ -1097,7 +1272,7 @@ $(document).ready(function() {
     bar.classList.toggle('is-filtering', filtering);
     if (countEl) {
       countEl.textContent = filtering
-        ? (shown === 0 ? '該当なし' : rows.length + '本中 ' + shown + '本')
+        ? (shown === 0 ? refEmpty(bar) : rows.length + '本中 ' + shown + '本')
         : rows.length + '本';
     }
 
@@ -1171,6 +1346,7 @@ $(document).ready(function() {
     }
     if (missEl && p.get('none') === '1') missEl.checked = true;
     if (uptoEl && p.get('ch')) uptoEl.value = p.get('ch');
+    if (sortEl && p.get('s') === 'kana') { sortEl.value = 'kana'; toKana(); }
   })();
 
   apply();
@@ -1228,7 +1404,7 @@ $(document).ready(function() {
     bar.classList.toggle('is-filtering', filtering);
     if (countEl) {
       countEl.textContent = filtering
-        ? (shown === 0 ? '該当なし' : rows.length + '件中 ' + shown + '件')
+        ? (shown === 0 ? refEmpty(bar) : rows.length + '件中 ' + shown + '件')
         : rows.length + '件';
     }
 
@@ -1419,7 +1595,7 @@ $(document).ready(function() {
     bar.classList.toggle('is-filtering', filtering);
     if (countEl) {
       countEl.textContent = filtering
-        ? (shown === 0 ? '該当なし' : total + '件中 ' + shown + '件')
+        ? (shown === 0 ? refEmpty(bar) : total + '件中 ' + shown + '件')
         : total + '件';
     }
 

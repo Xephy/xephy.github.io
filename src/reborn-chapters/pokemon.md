@@ -36,6 +36,11 @@ permalink: /reborn/pokemon/
     </select>
     <label class="ref-toggle"><input type="checkbox" id="pdx-only">
       出現する場所が1箇所だけ<span>156</span></label>
+    <label class="ref-toggle" for="pdx-sort">並び</label>
+    <select id="pdx-sort" class="ref-select">
+      <option value="dex">図鑑番号</option>
+      <option value="kana">五十音</option>
+    </select>
     <button type="button" class="ref-reset">条件を外す</button>
   </div>
 </div>

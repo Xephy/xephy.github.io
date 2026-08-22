@@ -4,7 +4,7 @@ permalink: /reborn/all/
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年8月23日 01:01 GMT</h5>
+<h5> 最終更新 2026年8月23日 04:22 GMT</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/">エピソードごとに読む</a> / <a href="/reborn/pokemon/">ポケモンの出現場所</a> / <a href="/reborn/shops/">どうぐの買える店</a> / <a href="/reborn/tms/">わざマシン一覧</a> / <a href="/reborn/evolutions/">進化条件の一覧</a> / <a href="/reborn/pulsedex/">PULSE図鑑</a> / <a href="/reborn/fields/">フィールド効果</a> / <a href="/reborn/affinity/">好感度まとめ</a></p>
 <details class="page-toc" open>
@@ -207112,93 +207112,93 @@ PP 5">つきのひかり</span><span class="move-meta"><span class="move-cat">�
 
 ### 単タイプ縛りのパスワード {#monorun-passwords}
 
-- **mononormal / normal**: 謎のタマゴがムックルに確定。オパールのイベントがジグザグマに確定。上ペリドットのイベントがヌイコグマに確定。マルコウスのタマゴがシキジカかキリンリキに確定。ロドクラインの交換がトリミアンに確定。下ペリドットのイベントがチラーミィに確定。
-- **monofire / fire**: 謎のタマゴがヒトモシ、ロコン、メラルバのいずれかに確定。鉄道網のイベントが、天候に関わらずバオップに確定。
-- **monowater / water**: 謎のタマゴがルリリ、ヒドイデ、ヒトデマンのいずれかに確定。鉄道網のイベントが、天候に関わらずヒヤップに確定。スラムのタマゴがコアルヒーに確定。
-- **monograss / grass**: 謎のタマゴがキノココかモンメンに確定。マルコウスのタマゴがシキジカかメェークルに確定。
-- **monoelectric / electric**: 謎のタマゴがエレキッドに確定。オパールのイベントがパチリスに確定。
-- **monoice / ice**: 謎のタマゴがニューラかロコン（アローラのすがた）に確定。下ペリドットのイベントがウリムーに置き換わる。オニキスのタマゴがパウワウかタマザラシに確定。ロドクラインの交換がフリージオに確定。
-- **monofighting / fighting**: 謎のタマゴがキノココに確定。上ペリドットのイベントがヌイコグマに確定。
-- **monopoison / poison**: 謎のタマゴがヒドイデかゴースに確定。
-- **monoground / ground**: 謎のタマゴがナックラーに確定。下ペリドットのイベントがウリムーに置き換わる。ぬしのイベントがヤジロンかゴビットに確定。
-- **monoflying / flying**: 謎のタマゴがトゲピーかムックルに確定。スラムのタマゴがコアルヒーに確定。マルコウスのタマゴがツチニンに確定。
-- **monobug / bug**: 謎のタマゴがメラルバに確定。マルコウスのタマゴがツチニンに確定。
-- **monopsychic / psychic**: 謎のタマゴがヒトデマンに確定。下ペリドットのイベントがニャスパーに確定。スラムのタマゴがドーミラーかスリープに確定。ぬしのイベントがヤジロンに確定。マルコウスのタマゴがキリンリキに確定。ロドクラインの交換がマネネに確定。
-- **monorock / rock**: 謎のタマゴがイワンコに確定。下ペリドットのコロボーシがイシズマイに置き換わる。下ペリドットのイベントがココドラに置き換わる。ロドクラインの交換がメレシーに確定。
-- **monoghost / ghost**: 謎のタマゴがゴースかヒトモシに確定。オニキスのタマゴがプルリルに確定。ぬしのイベントがゴビットに確定。マルコウスのタマゴがツチニンに確定。
-- **monodragon / dragon**: 謎のタマゴがキバゴかナックラーに確定。パイロスの柱にバクガメスが入る。
-- **monodark / dark**: 謎のタマゴがニューラかコマタナに確定。列車のタマゴがサボネアに確定。
-- **monosteel / steel**: 謎のタマゴがコマタナに確定。下ペリドットのイベントがココドラに置き換わる。スラムのタマゴがドーミラーに確定。
-- **monofairy / fairy**: 謎のタマゴがルリリ、トゲピー、ロコン（アローラのすがた）、モンメンのいずれかに確定。上ペリドットのイベントがブルーに確定。ロドクラインの交換がマネネかメレシーに確定。
+- **<span id="pw-mononormal">mononormal / normal</span>**: 謎のタマゴがムックルに確定。オパールのイベントがジグザグマに確定。上ペリドットのイベントがヌイコグマに確定。マルコウスのタマゴがシキジカかキリンリキに確定。ロドクラインの交換がトリミアンに確定。下ペリドットのイベントがチラーミィに確定。
+- **<span id="pw-monofire">monofire / fire</span>**: 謎のタマゴがヒトモシ、ロコン、メラルバのいずれかに確定。鉄道網のイベントが、天候に関わらずバオップに確定。
+- **<span id="pw-monowater">monowater / water</span>**: 謎のタマゴがルリリ、ヒドイデ、ヒトデマンのいずれかに確定。鉄道網のイベントが、天候に関わらずヒヤップに確定。スラムのタマゴがコアルヒーに確定。
+- **<span id="pw-monograss">monograss / grass</span>**: 謎のタマゴがキノココかモンメンに確定。マルコウスのタマゴがシキジカかメェークルに確定。
+- **<span id="pw-monoelectric">monoelectric / electric</span>**: 謎のタマゴがエレキッドに確定。オパールのイベントがパチリスに確定。
+- **<span id="pw-monoice">monoice / ice</span>**: 謎のタマゴがニューラかロコン（アローラのすがた）に確定。下ペリドットのイベントがウリムーに置き換わる。オニキスのタマゴがパウワウかタマザラシに確定。ロドクラインの交換がフリージオに確定。
+- **<span id="pw-monofighting">monofighting / fighting</span>**: 謎のタマゴがキノココに確定。上ペリドットのイベントがヌイコグマに確定。
+- **<span id="pw-monopoison">monopoison / poison</span>**: 謎のタマゴがヒドイデかゴースに確定。
+- **<span id="pw-monoground">monoground / ground</span>**: 謎のタマゴがナックラーに確定。下ペリドットのイベントがウリムーに置き換わる。ぬしのイベントがヤジロンかゴビットに確定。
+- **<span id="pw-monoflying">monoflying / flying</span>**: 謎のタマゴがトゲピーかムックルに確定。スラムのタマゴがコアルヒーに確定。マルコウスのタマゴがツチニンに確定。
+- **<span id="pw-monobug">monobug / bug</span>**: 謎のタマゴがメラルバに確定。マルコウスのタマゴがツチニンに確定。
+- **<span id="pw-monopsychic">monopsychic / psychic</span>**: 謎のタマゴがヒトデマンに確定。下ペリドットのイベントがニャスパーに確定。スラムのタマゴがドーミラーかスリープに確定。ぬしのイベントがヤジロンに確定。マルコウスのタマゴがキリンリキに確定。ロドクラインの交換がマネネに確定。
+- **<span id="pw-monorock">monorock / rock</span>**: 謎のタマゴがイワンコに確定。下ペリドットのコロボーシがイシズマイに置き換わる。下ペリドットのイベントがココドラに置き換わる。ロドクラインの交換がメレシーに確定。
+- **<span id="pw-monoghost">monoghost / ghost</span>**: 謎のタマゴがゴースかヒトモシに確定。オニキスのタマゴがプルリルに確定。ぬしのイベントがゴビットに確定。マルコウスのタマゴがツチニンに確定。
+- **<span id="pw-monodragon">monodragon / dragon</span>**: 謎のタマゴがキバゴかナックラーに確定。パイロスの柱にバクガメスが入る。
+- **<span id="pw-monodark">monodark / dark</span>**: 謎のタマゴがニューラかコマタナに確定。列車のタマゴがサボネアに確定。
+- **<span id="pw-monosteel">monosteel / steel</span>**: 謎のタマゴがコマタナに確定。下ペリドットのイベントがココドラに置き換わる。スラムのタマゴがドーミラーに確定。
+- **<span id="pw-monofairy">monofairy / fairy</span>**: 謎のタマゴがルリリ、トゲピー、ロコン（アローラのすがた）、モンメンのいずれかに確定。上ペリドットのイベントがブルーに確定。ロドクラインの交換がマネネかメレシーに確定。
 
 ### 快適化のパスワード {#quality-of-life-passwords}
 
-- **easyhms / nohms / hmitems / notmxneeded**: ポケモンがその技を覚えていなくても、調べる操作や手持ちからフィールド技を使えるようになります。
-- **hardcap / rejuvcap / rejuvenation**: レベル上限に達したポケモンは、それ以上経験値を得なくなります。
-- **fieldapp / fieldnotes / fieldtexts / allfieldapp**: ゲーム開始時にすべてのフィールド効果の資料が手に入ります。
-- **earlyincu**: ゲーム開始時から育て屋の孵化装置が使えます。
-- **stablweather**: 天候が予測可能な順序で循環するようになります。
-- **weathermod**: ポケギアで天候を自由に変更できるようになります。
-- **nopoisondam / antidote**: フィールド上での毒ダメージを無効にします。
-- **nodamageroll / norolls / rolls**: ダメージ乱数を固定し、バトルのばらつきを減らします。
-- **pinata**: レベル上げ用トレーナーが、バトルせずに *けいけんアメ* をくれるようになります。
-- **freemegaz**: ゲーム開始時から *メガZリング* を使えるようになります。
-- **freeremotepc**: ゲーム開始時から *リモートPC* を使え、*じゅうでんち* も不要になります。
-- **freeexpall**: ゲーム開始時に *みんなのがくしゅうそうち* が手に入ります。
-- **freescent / freerainbow**: ゲーム開始時に、遭遇率を変える道具 *にじいろのかおり* が手に入ります。
-- **powerpack**: ゲーム開始時に、努力値稼ぎ用のパワー系アイテムが手に入ります。
-- **shinycharm / earlyshiny**: ゲーム開始時から *ひかるおまもり* が手に入ります。
-- **mintyfresh / agiftfromace**: ゲーム開始時に、各性格のミントを5個ずつ詰め合わせでもらえます。
-- **blindstep**: 視覚に障害のあるプレイヤー向けのアクセシビリティ機能を有効にします。
-- **freefinder / itemfinder**: ゲーム開始直後に *ダウジングマシン* が手に入ります。
-- **nopartnerai / fullcontrol**: タッグバトルのNPCトレーナーの行動を自分で操作できるようになります。
+- **<span id="pw-easyhms">easyhms / nohms / hmitems / notmxneeded</span>**: ポケモンがその技を覚えていなくても、調べる操作や手持ちからフィールド技を使えるようになります。
+- **<span id="pw-hardcap">hardcap / rejuvcap / rejuvenation</span>**: レベル上限に達したポケモンは、それ以上経験値を得なくなります。
+- **<span id="pw-fieldapp">fieldapp / fieldnotes / fieldtexts / allfieldapp</span>**: ゲーム開始時にすべてのフィールド効果の資料が手に入ります。
+- **<span id="pw-earlyincu">earlyincu</span>**: ゲーム開始時から育て屋の孵化装置が使えます。
+- **<span id="pw-stablweather">stablweather</span>**: 天候が予測可能な順序で循環するようになります。
+- **<span id="pw-weathermod">weathermod</span>**: ポケギアで天候を自由に変更できるようになります。
+- **<span id="pw-nopoisondam">nopoisondam / antidote</span>**: フィールド上での毒ダメージを無効にします。
+- **<span id="pw-nodamageroll">nodamageroll / norolls / rolls</span>**: ダメージ乱数を固定し、バトルのばらつきを減らします。
+- **<span id="pw-pinata">pinata</span>**: レベル上げ用トレーナーが、バトルせずに *けいけんアメ* をくれるようになります。
+- **<span id="pw-freemegaz">freemegaz</span>**: ゲーム開始時から *メガZリング* を使えるようになります。
+- **<span id="pw-freeremotepc">freeremotepc</span>**: ゲーム開始時から *リモートPC* を使え、*じゅうでんち* も不要になります。
+- **<span id="pw-freeexpall">freeexpall</span>**: ゲーム開始時に *みんなのがくしゅうそうち* が手に入ります。
+- **<span id="pw-freescent">freescent / freerainbow</span>**: ゲーム開始時に、遭遇率を変える道具 *にじいろのかおり* が手に入ります。
+- **<span id="pw-powerpack">powerpack</span>**: ゲーム開始時に、努力値稼ぎ用のパワー系アイテムが手に入ります。
+- **<span id="pw-shinycharm">shinycharm / earlyshiny</span>**: ゲーム開始時から *ひかるおまもり* が手に入ります。
+- **<span id="pw-mintyfresh">mintyfresh / agiftfromace</span>**: ゲーム開始時に、各性格のミントを5個ずつ詰め合わせでもらえます。
+- **<span id="pw-blindstep">blindstep</span>**: 視覚に障害のあるプレイヤー向けのアクセシビリティ機能を有効にします。
+- **<span id="pw-freefinder">freefinder / itemfinder</span>**: ゲーム開始直後に *ダウジングマシン* が手に入ります。
+- **<span id="pw-nopartnerai">nopartnerai / fullcontrol</span>**: タッグバトルのNPCトレーナーの行動を自分で操作できるようになります。
 
 ### 難易度のパスワード {#difficulty-passwords}
 
-- **litemode / noevs / emptyevs**: 敵の努力値と個体値がすべて0になります。
-- **nopenny / penniless**: トレーナー戦で得られるお金が66%減ります。
-- **fullevs / opp252ev / pulse2evs**: 敵の努力値がすべて252になります。
-- **highstandard / opp31iv**: 相手トレーナーのポケモンの個体値がすべて31になります。
-- **noitems**: バトル中に *キズぐすり* や *プラスパワー* などのバッグの道具を使えなくなります。
-- **nuzlocke / locke / permadeath**: 自分のポケモンが一度瀕死になると、二度と復活できなくなります。
-- **moneybags / richboy / doublemoney**: トレーナーから受け取る賞金が2倍になります。
-- **fullivs / 31ivs / allivs / mischievous / self31iv**: 自分のポケモンの個体値をすべて31にします。*オンライン交換が無効になります。*
-- **emptyivs / 0ivs / noivs**: 自分のポケモンの個体値をすべて0にします。
-- **leveloffset / setlevel / flatlevel**: [-99, 99] の整数を指定でき、その値がゲーム中の全トレーナーのレベルに加算されます。
-- **percentlevel / levelpercent**: [0, 999] の非負整数を指定でき、その値がパーセントとしてゲーム中の全トレーナーのレベルに掛けられます。
-- **stopitems**: 相手トレーナーがバトル中に *キズぐすり* や *プラスパワー* などのバッグの道具を使えなくなります。
-- **stopgains**: 自分のポケモンがバトル後に努力値を得られなくなります。
-- **noexp / zeroexp / 0exp**: 自分のポケモンが経験値を得られなくなります。
-- **expcurse**: 経験値を得る代わりに失うようになります。
-- **exppercent / expercent**: 獲得経験値の倍率を設定できます。
-- **flatevs / 85evs**: 敵ポケモンの努力値が全能力85になります。
-- **noevcap / gen2mode / self252ev**: 自分のポケモンが全能力で努力値252に到達できるようになります。*オンライン対戦と交換が無効になります。*
-- **nobattles / storymode**: ゲーム中のすべてのバトルを飛ばします。
-- **levelfloor / minlevel / lesslvlgap**: 相手ポケモンのレベルの下限を、直前のレベル上限まで引き上げます（最初のジム以降）。
+- **<span id="pw-litemode">litemode / noevs / emptyevs</span>**: 敵の努力値と個体値がすべて0になります。
+- **<span id="pw-nopenny">nopenny / penniless</span>**: トレーナー戦で得られるお金が66%減ります。
+- **<span id="pw-fullevs">fullevs / opp252ev / pulse2evs</span>**: 敵の努力値がすべて252になります。
+- **<span id="pw-highstandard">highstandard / opp31iv</span>**: 相手トレーナーのポケモンの個体値がすべて31になります。
+- **<span id="pw-noitems">noitems</span>**: バトル中に *キズぐすり* や *プラスパワー* などのバッグの道具を使えなくなります。
+- **<span id="pw-nuzlocke">nuzlocke / locke / permadeath</span>**: 自分のポケモンが一度瀕死になると、二度と復活できなくなります。
+- **<span id="pw-moneybags">moneybags / richboy / doublemoney</span>**: トレーナーから受け取る賞金が2倍になります。
+- **<span id="pw-fullivs">fullivs / 31ivs / allivs / mischievous / self31iv</span>**: 自分のポケモンの個体値をすべて31にします。*オンライン交換が無効になります。*
+- **<span id="pw-emptyivs">emptyivs / 0ivs / noivs</span>**: 自分のポケモンの個体値をすべて0にします。
+- **<span id="pw-leveloffset">leveloffset / setlevel / flatlevel</span>**: [-99, 99] の整数を指定でき、その値がゲーム中の全トレーナーのレベルに加算されます。
+- **<span id="pw-percentlevel">percentlevel / levelpercent</span>**: [0, 999] の非負整数を指定でき、その値がパーセントとしてゲーム中の全トレーナーのレベルに掛けられます。
+- **<span id="pw-stopitems">stopitems</span>**: 相手トレーナーがバトル中に *キズぐすり* や *プラスパワー* などのバッグの道具を使えなくなります。
+- **<span id="pw-stopgains">stopgains</span>**: 自分のポケモンがバトル後に努力値を得られなくなります。
+- **<span id="pw-noexp">noexp / zeroexp / 0exp</span>**: 自分のポケモンが経験値を得られなくなります。
+- **<span id="pw-expcurse">expcurse</span>**: 経験値を得る代わりに失うようになります。
+- **<span id="pw-exppercent">exppercent / expercent</span>**: 獲得経験値の倍率を設定できます。
+- **<span id="pw-flatevs">flatevs / 85evs</span>**: 敵ポケモンの努力値が全能力85になります。
+- **<span id="pw-noevcap">noevcap / gen2mode / self252ev</span>**: 自分のポケモンが全能力で努力値252に到達できるようになります。*オンライン対戦と交換が無効になります。*
+- **<span id="pw-nobattles">nobattles / storymode</span>**: ゲーム中のすべてのバトルを飛ばします。
+- **<span id="pw-levelfloor">levelfloor / minlevel / lesslvlgap</span>**: 相手ポケモンのレベルの下限を、直前のレベル上限まで引き上げます（最初のジム以降）。
 
 ### お遊びのパスワード {#shenanigan-passwords}
 
-- **budewit / budew / deargodwhy**: スボミー。
-- **wtfisafont**: フォントを消します。本当にです。
-- **eeveeplease / eeveepls / eevee / bestgamemode**: 最初のパートナーとしてイーブイを選べるようになります。
-- **vulpixpls / vulpixplease / vulpix**: 最初のパートナーとしてロコンを選べるようになります。
-- **justvulpix**: すべてがロコンになります。
-- **dratiniearly**: タンザン深部のハガネール追跡区間で、早期にミニリュウを入手できるようになります。マップ左側の適当な壁タイルを調べてください。通路の最上部に到達してローラ／サファイラに初めて話しかけると、取り逃しになります。
-- **aevianmissy**: アンダールートで、早期にエイヴィアン ムウマを入手できるようになります。
-- **gen5weather**: 天候が、上書きされるか解除されない限り無期限に持続します。
-- **unrealtime**: 時間が現実離れした速さで進み、システム時刻に連動しなくなります。
-- **monowoke / wokemono**: ポリゴンで始められるようになります。下ペリドットのイベントがニャスパーに確定。マルコウスのタマゴがツチニンに確定。スラムのタマゴがスリープに確定。ロドクラインの交換がフリージオかメレシーに確定。
-- **freestarter / mystarter / customstart**: 最初のパートナーを好きなポケモンから選べるようになります。
-- **inversemode**: すべてのバトルでタイプ相性が反転します。
-- **debug / debugmode**: セーブデータを壊す恐れなく、自分のポケモンを自由に編集できるようになります。*オンライン対戦と交換が無効になります。ゲーム本体のデバッグモードは開発者向けで予期せぬ悪影響が出うるため、そちらではなくこのパスワードを使うことを強くおすすめします。*
-- **nopuzzles / puzzleskip**: フィールド上の、バトル以外のパズルを飛ばします。
-- **doubles / colosseum / blueberry**: すべてのトレーナー戦がダブルバトルになります!
-- **battlebond**: ティタニアを倒したあと、*きずなへんげ* のゲッコウガを入手できるようになります。
-- **aiplay / battlepalace / nocontrol**: 相手用のAIが、自分のポケモンの行動を操作します。
-- **snagmachine / monosteal / yoink**: 相手トレーナー1人につき1匹のポケモンを奪えるようになります（PULSEは対象外）。*オンライン交換が無効になります。*
-- **speedskip**: 一部のバトルメッセージを高速化します。
-- **basiceggs**: タマゴの見た目が、種族ごとのものではなく従来の共通スプライトに戻ります。
-- **randomizer / random / randomized / randomiser / randomised**: トレーナー、野生ポケモン、わざマシン、道具などのランダム化設定を選べるようになります! *オンライン対戦と交換が無効になります。*
+- **<span id="pw-budewit">budewit / budew / deargodwhy</span>**: スボミー。
+- **<span id="pw-wtfisafont">wtfisafont</span>**: フォントを消します。本当にです。
+- **<span id="pw-eeveeplease">eeveeplease / eeveepls / eevee / bestgamemode</span>**: 最初のパートナーとしてイーブイを選べるようになります。
+- **<span id="pw-vulpixpls">vulpixpls / vulpixplease / vulpix</span>**: 最初のパートナーとしてロコンを選べるようになります。
+- **<span id="pw-justvulpix">justvulpix</span>**: すべてがロコンになります。
+- **<span id="pw-dratiniearly">dratiniearly</span>**: タンザン深部のハガネール追跡区間で、早期にミニリュウを入手できるようになります。マップ左側の適当な壁タイルを調べてください。通路の最上部に到達してローラ／サファイラに初めて話しかけると、取り逃しになります。
+- **<span id="pw-aevianmissy">aevianmissy</span>**: アンダールートで、早期にエイヴィアン ムウマを入手できるようになります。
+- **<span id="pw-gen5weather">gen5weather</span>**: 天候が、上書きされるか解除されない限り無期限に持続します。
+- **<span id="pw-unrealtime">unrealtime</span>**: 時間が現実離れした速さで進み、システム時刻に連動しなくなります。
+- **<span id="pw-monowoke">monowoke / wokemono</span>**: ポリゴンで始められるようになります。下ペリドットのイベントがニャスパーに確定。マルコウスのタマゴがツチニンに確定。スラムのタマゴがスリープに確定。ロドクラインの交換がフリージオかメレシーに確定。
+- **<span id="pw-freestarter">freestarter / mystarter / customstart</span>**: 最初のパートナーを好きなポケモンから選べるようになります。
+- **<span id="pw-inversemode">inversemode</span>**: すべてのバトルでタイプ相性が反転します。
+- **<span id="pw-debug">debug / debugmode</span>**: セーブデータを壊す恐れなく、自分のポケモンを自由に編集できるようになります。*オンライン対戦と交換が無効になります。ゲーム本体のデバッグモードは開発者向けで予期せぬ悪影響が出うるため、そちらではなくこのパスワードを使うことを強くおすすめします。*
+- **<span id="pw-nopuzzles">nopuzzles / puzzleskip</span>**: フィールド上の、バトル以外のパズルを飛ばします。
+- **<span id="pw-doubles">doubles / colosseum / blueberry</span>**: すべてのトレーナー戦がダブルバトルになります!
+- **<span id="pw-battlebond">battlebond</span>**: ティタニアを倒したあと、*きずなへんげ* のゲッコウガを入手できるようになります。
+- **<span id="pw-aiplay">aiplay / battlepalace / nocontrol</span>**: 相手用のAIが、自分のポケモンの行動を操作します。
+- **<span id="pw-snagmachine">snagmachine / monosteal / yoink</span>**: 相手トレーナー1人につき1匹のポケモンを奪えるようになります（PULSEは対象外）。*オンライン交換が無効になります。*
+- **<span id="pw-speedskip">speedskip</span>**: 一部のバトルメッセージを高速化します。
+- **<span id="pw-basiceggs">basiceggs</span>**: タマゴの見た目が、種族ごとのものではなく従来の共通スプライトに戻ります。
+- **<span id="pw-randomizer">randomizer / random / randomized / randomiser / randomised</span>**: トレーナー、野生ポケモン、わざマシン、道具などのランダム化設定を選べるようになります! *オンライン対戦と交換が無効になります。*
 
 ### フィールド効果のパスワード {#field-effect-passwords}
 
@@ -207246,22 +207246,22 @@ PP 5">つきのひかり</span><span class="move-meta"><span class="move-cat">�
 
 これらのパスワードは何個でも組み合わせて使え、ゲームはその一覧から選びます。たとえば watersurface と newworld を併用すると、毎回のバトルがこの2つのフィールドのいずれかでランダムに行われます。次のパスワードで、あらかじめ決められた組から選ばせることもできます。
 
-- **randfields**: 毎回のバトルで、すべてのフィールドから無作為に選びます。
-- **elemental**: 毎回のバトルで、エレキフィールド、グラスフィールド、ミストフィールド、腐食ミストフィールド、燃えるフィールド、氷のフィールド、水面、水中、濁った水面、りゅうのあなから無作為に選びます。
-- **magical**: 毎回のバトルで、暗黒クリスタルのどうくつ、虹のフィールド、クリスタルのどうくつ、聖なるフィールド、おとぎ話フィールド、星空アリーナ、新世界、反転フィールド、サイコフィールドから無作為に選びます。
-- **synthetic**: 毎回のバトルで、チェスボード、サーカステント、工場フィールド、ショートフィールド、グリッチフィールド、ミラーアリーナ、花畑フィールドから無作為に選びます。
-- **telluric**: 毎回のバトルで、沼地フィールド、腐食フィールド、砂漠フィールド、岩場フィールド、森林フィールド、超高温フィールド、荒野、灰の浜辺、どうくつ、山、雪山から無作為に選びます。
+- **<span id="pw-randfields">randfields</span>**: 毎回のバトルで、すべてのフィールドから無作為に選びます。
+- **<span id="pw-elemental">elemental</span>**: 毎回のバトルで、エレキフィールド、グラスフィールド、ミストフィールド、腐食ミストフィールド、燃えるフィールド、氷のフィールド、水面、水中、濁った水面、りゅうのあなから無作為に選びます。
+- **<span id="pw-magical">magical</span>**: 毎回のバトルで、暗黒クリスタルのどうくつ、虹のフィールド、クリスタルのどうくつ、聖なるフィールド、おとぎ話フィールド、星空アリーナ、新世界、反転フィールド、サイコフィールドから無作為に選びます。
+- **<span id="pw-synthetic">synthetic</span>**: 毎回のバトルで、チェスボード、サーカステント、工場フィールド、ショートフィールド、グリッチフィールド、ミラーアリーナ、花畑フィールドから無作為に選びます。
+- **<span id="pw-telluric">telluric</span>**: 毎回のバトルで、沼地フィールド、腐食フィールド、砂漠フィールド、岩場フィールド、森林フィールド、超高温フィールド、荒野、灰の浜辺、どうくつ、山、雪山から無作為に選びます。
 
 ### まとめパスワード {#bulk-passwords}
 
 まとめパスワードは、要するに上記のパスワードを詰め合わせたもので、1つ使うと含まれるパスワードがすべて有効になります。なお、詰め合わせにオンラインを無効化するパスワードが含まれる場合、そのまとめパスワードもオンラインを無効化します。
 
-- **casspack / goodtaste**: noitems, fullivs, hardcap, easyhms, norolls
-- **easymode**: fullivs, moneybags, litemode, stopitems
-- **hardmode**: noitems, nopenny, fullevs, emptyivs
-- **freebies**: freeexpall, freeremotepc, powerpack, mintyfresh, shinycharm, freemegaz, freescent, freefinder
-- **qol**: hardcap, easyhms, fieldapp, earlyincu, stablweather, nopoisondam, weathermod, unrealtime, pinata, freeexpall, freeremotepc, freescent
-- **speedrun**: hardcap, monopsychic, easyhms, fullivs, norolls, stablweather, weathermod, freemegaz, earlyincu, pinata, mintyfresh, freeexpall, freescent, nopuzzles, speedskip
-- **speedrunnotx**: hardcap, monopsychic, easyhms, fullivs, norolls, stablweather, weathermod, freemegaz, earlyincu, wtfisafont, pinata, mintyfresh, freeexpall, freescent, nopuzzles, speedskip
-- **pulse2**: opp31iv, opp252ev
-- **rocketlocke**: nuzlocke, yoink
+- **casspack / goodtaste**: [noitems](#pw-noitems), [fullivs](#pw-fullivs), [hardcap](#pw-hardcap), [easyhms](#pw-easyhms), [norolls](#pw-nodamageroll)
+- **easymode**: [fullivs](#pw-fullivs), [moneybags](#pw-moneybags), [litemode](#pw-litemode), [stopitems](#pw-stopitems)
+- **hardmode**: [noitems](#pw-noitems), [nopenny](#pw-nopenny), [fullevs](#pw-fullevs), [emptyivs](#pw-emptyivs)
+- **freebies**: [freeexpall](#pw-freeexpall), [freeremotepc](#pw-freeremotepc), [powerpack](#pw-powerpack), [mintyfresh](#pw-mintyfresh), [shinycharm](#pw-shinycharm), [freemegaz](#pw-freemegaz), [freescent](#pw-freescent), [freefinder](#pw-freefinder)
+- **qol**: [hardcap](#pw-hardcap), [easyhms](#pw-easyhms), [fieldapp](#pw-fieldapp), [earlyincu](#pw-earlyincu), [stablweather](#pw-stablweather), [nopoisondam](#pw-nopoisondam), [weathermod](#pw-weathermod), [unrealtime](#pw-unrealtime), [pinata](#pw-pinata), [freeexpall](#pw-freeexpall), [freeremotepc](#pw-freeremotepc), [freescent](#pw-freescent)
+- **speedrun**: [hardcap](#pw-hardcap), [monopsychic](#pw-monopsychic), [easyhms](#pw-easyhms), [fullivs](#pw-fullivs), [norolls](#pw-nodamageroll), [stablweather](#pw-stablweather), [weathermod](#pw-weathermod), [freemegaz](#pw-freemegaz), [earlyincu](#pw-earlyincu), [pinata](#pw-pinata), [mintyfresh](#pw-mintyfresh), [freeexpall](#pw-freeexpall), [freescent](#pw-freescent), [nopuzzles](#pw-nopuzzles), [speedskip](#pw-speedskip)
+- **speedrunnotx**: [hardcap](#pw-hardcap), [monopsychic](#pw-monopsychic), [easyhms](#pw-easyhms), [fullivs](#pw-fullivs), [norolls](#pw-nodamageroll), [stablweather](#pw-stablweather), [weathermod](#pw-weathermod), [freemegaz](#pw-freemegaz), [earlyincu](#pw-earlyincu), [wtfisafont](#pw-wtfisafont), [pinata](#pw-pinata), [mintyfresh](#pw-mintyfresh), [freeexpall](#pw-freeexpall), [freescent](#pw-freescent), [nopuzzles](#pw-nopuzzles), [speedskip](#pw-speedskip)
+- **pulse2**: [opp31iv](#pw-highstandard), [opp252ev](#pw-fullevs)
+- **rocketlocke**: [nuzlocke](#pw-nuzlocke), [yoink](#pw-snagmachine)

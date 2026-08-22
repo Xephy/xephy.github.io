@@ -189,6 +189,11 @@ module EncounterIndexPage
           </select>
           <label class="ref-toggle"><input type="checkbox" id="pdx-only">
             #{ja ? "出現する場所が1箇所だけ" : 'Only one place'}<span>#{only}</span></label>
+          <label class="ref-toggle" for="pdx-sort">#{ja ? '並び' : 'Order'}</label>
+          <select id="pdx-sort" class="ref-select">
+            <option value="dex">#{ja ? '図鑑番号' : 'Dex number'}</option>
+            <option value="kana">#{ja ? '五十音' : 'A-Z'}</option>
+          </select>
           <button type="button" class="ref-reset">#{ja ? '条件を外す' : 'Clear'}</button>
         </div>
       </div>

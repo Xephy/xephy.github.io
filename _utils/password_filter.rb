@@ -18,8 +18,11 @@ module PasswordFilter
   ITEM = /^- \*\*[^*]+\*\*:/.freeze
   TABLE_ROW = '<tr data-pw='
 
+  BULK = '{#bulk-passwords}'
+  ITEM_HEAD = /^- \*\*([^*]+)\*\*:/.freeze
+
   def apply(content, game = 'reborn')
-    text = content.to_s
+    text = link_bulk(content.to_s)
     at = text.index(SECTION)
     return text unless at
 
@@ -33,6 +36,51 @@ module PasswordFilter
 
     insert = "\n\n#{bar(chips)}"
     text[0...(para_end + 1)] + insert + text[(para_end + 1)..]
+  end
+
+  # まとめパスワードの中身を、各項目へのリンクにする。
+  #
+  # 「qol に何が入っているか」を見るたびに上へスクロールして名前を目で
+  # 探すことになっていた。まとめ9件から のべ68件 の参照がある。
+  #
+  # 参照は別名で書かれていることがある (norolls は nodamageroll の別名)。
+  # 別名から項目を引けるようにしてから差し替える。
+  def link_bulk(text)
+    at = text.index(SECTION) or return text
+    bulk_at = text.index(BULK, at) or return text
+
+    head = text[at...bulk_at]
+    ids = {}
+    head.each_line do |line|
+      m = ITEM_HEAD.match(line) or next
+      names = m[1].split('/').map(&:strip)
+      slug = "pw-#{names.first}"
+      names.each { |n| ids[n] ||= slug }
+    end
+    return text if ids.empty?
+
+    head = head.gsub(ITEM_HEAD) do
+      names = Regexp.last_match(1)
+      %(- **<span id="pw-#{names.split('/').first.strip}">#{names}</span>**:)
+    end
+
+    # まとめの節だけを対象にする。次の見出しから先には触らない。
+    rest = text[bulk_at..]
+    stop = rest.index(/^\#{1,3} /, 1) || rest.length
+    text[0...at] + head + link_members(rest[0...stop], ids) + rest[stop..].to_s
+  end
+
+  # 「- **qol**: hardcap, easyhms, ...」の右側だけを差し替える。
+  def link_members(bulk, ids)
+    bulk.gsub(/^(- \*\*[^*]+\*\*: )(.+)$/) do
+      lead = Regexp.last_match(1)
+      members = Regexp.last_match(2).split(',').map do |raw|
+        name = raw.strip
+        id = ids[name]
+        id ? "[#{name}](##{id})" : name
+      end
+      lead + members.join(', ')
+    end
   end
 
   # 分類ごとの見出しと件数。表で出しているフィールド指定のパスワードは

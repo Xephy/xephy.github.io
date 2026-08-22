@@ -1957,12 +1957,27 @@ body.night-mode .pdx-held-item span { color: #8b95a3; }
 
 .pdx-jump a { font-variant-numeric: tabular-nums; }
 
+/* 五十音順に切り替えたときの区切り。図鑑番号順の区切りは h2 だが、
+   こちらは行を並べ替えて1つの表にまとめるので、表の中の行として作る。 */
+#main_content .pdx-table tr.pdx-kana th {
+  padding: 16px 12px 6px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 700;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #d7dde4;
+}
+
 /* 狭い画面では2列だと種族名の欄が潰れる。上下に積む。 */
 @media screen and (max-width: 640px) {
   #main_content .pdx-table,
   #main_content .pdx-table tbody,
   #main_content .pdx-table tr,
+  #main_content .pdx-table th,
   #main_content .pdx-table td { display: block; width: auto; }
+
+  #main_content .pdx-table tr.pdx-kana { border-bottom: 0; }
 
   #main_content .pdx-table tr { border-bottom: 1px solid #e3e7ec; }
   #main_content .pdx-mon { padding-bottom: 0; }
@@ -1977,6 +1992,7 @@ body.night-mode #main_content .pdx-places li.is-dim a,
 body.night-mode #main_content .pdx-places li.is-dim .pdx-meta { color: #8b95a3; }
 body.night-mode .pdx-only { background: #3a2f1c; color: #e6c081; }
 body.night-mode #main_content .pdx-table tr { border-bottom-color: #2b3038; }
+body.night-mode #main_content .pdx-table tr.pdx-kana th { border-bottom-color: #333a43; }
 
 /* フィールド名がそのまま別の節への入口になっている行。色分けは効果の
    種類を示しているので、リンクでも色を変えず点線だけ足す。 */
