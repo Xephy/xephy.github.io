@@ -32,6 +32,6 @@ title: ポケモンリボーン 日本語攻略
 
 本文は <a href="https://bigjra.github.io/">BIGJRA's Walkthroughs</a>（BIGJRA 氏）の Pokémon Reborn 攻略を翻訳したものです。原文の構成・画像・攻略方針はそのまま引き継いでいます。
 
-訳語は、同じ作者による <a href="https://github.com/Xephy/reborn-19.5.43-ja">Pokémon Reborn 日本語化パッチ</a> の辞書から書き出しています。ゲーム本体をまだ日本語化していない場合は、そちらから導入できます。
+訳語は、本サイトの翻訳者が公開している <a href="https://github.com/Xephy/reborn-19.5.43-ja">Pokémon Reborn 日本語化パッチ</a> の辞書から書き出しています。ゲーム本体をまだ日本語化していない場合は、そちらから導入できます。
 
 原典のサイトには Pokémon Rejuvenation と Pokémon Desolation の攻略もありますが、こちらは翻訳の予定がないため掲載していません。英語版は上のリンクから読めます。
