@@ -107,7 +107,7 @@ permalink: /reborn/postgame-episode-2/
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -359,7 +359,7 @@ PP 5">ふんか</span><span class="move-meta"><span class="move-cat">特殊</spa
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -404,7 +404,7 @@ PP 5">ふんか</span><span class="move-meta"><span class="move-cat">特殊</spa
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">レベル</th>
-<th colspan="3" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="3" class="table-header" style="text-align: center;">確率</th>
 </tr>
 <tr>
 <th class="table_header" style="text-align: center"><img class="encounter_image" alt="ボロのつりざお" src="/assets/images/oldrod.png"></th>
@@ -741,7 +741,7 @@ PP 15">めざめるパワー (でんき)</span><span class="move-meta"><span cla
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -1075,7 +1075,7 @@ PP 15">めざめるパワー (ひこう)</span><span class="move-meta"><span cla
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>

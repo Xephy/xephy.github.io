@@ -2,6 +2,7 @@
 
 require_relative 'ja_names'
 require_relative 'doc_context'
+require 'set'
 
 # 出現ポケモンの逆引き。
 #
@@ -27,15 +28,17 @@ module EncounterIndex
 
   def reset!
     @entries = []
+    @species_keys = nil
   end
 
-  def record(species:, species_key:, dexnum:, icon:, types:, map_label:, group:, levels:, rates:)
+  def record(species:, species_key:, dexnum:, icon:, types:, held:, map_label:, group:, levels:, rates:)
     entries << {
       species: species,
       species_key: species_key,
       dexnum: dexnum.to_i,
       icon: icon,
       types: types,
+      held: held,
       map_label: map_label,
       group: group,
       levels: levels,
@@ -45,12 +48,23 @@ module EncounterIndex
   end
 
   # 種族ごとにまとめる。並びは図鑑番号順。
+  # 出現場所ページに行があるか。付録の持ち物の表から、その種族の行へ
+  # リンクしてよいかの判定に使う。付録は章の最後に処理されるので、この
+  # 時点では全章分が集まっている。
+  def species_keys
+    @species_keys ||= entries.map { |e| e[:species_key].to_s }.to_set
+  end
+
+  def has_species?(key)
+    species_keys.include?(key.to_s)
+  end
+
   def by_species
     grouped = entries.group_by { |e| e[:species] }
     grouped.map { |name, list|
       { species: name, species_key: list.first[:species_key],
         dexnum: list.first[:dexnum], icon: list.first[:icon],
-        types: list.first[:types], places: dedupe(list) }
+        types: list.first[:types], held: list.first[:held], places: dedupe(list) }
     }.sort_by { |s| [s[:dexnum], s[:species]] }
   end
 

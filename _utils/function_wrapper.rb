@@ -1,5 +1,6 @@
 require 'json'
 require_relative 'field_notes'
+require_relative 'encounter_index'
 
 require_relative 'common'
 require_relative 'encounter_getter'
@@ -38,7 +39,8 @@ class FunctionWrapper
     @raidDenHash = load_raid_den_hash(game, @scriptsDir)
     @encMapWrapper = EncounterMapWrapper.new(game, @scriptsDir)
 
-    @encGetter = EncounterGetter.new(game, @scriptsDir, @encHash, @mapHash, @encMapWrapper, @pokemonHash)
+    @encGetter = EncounterGetter.new(game, @scriptsDir, @encHash, @mapHash, @encMapWrapper, @pokemonHash,
+                                     @itemHash)
     @shopGetter = ShopGetter.new(game, @scriptsDir, @itemHash, @moveHash)
     @trainerGetter = TrainerGetter.new(game, @scriptsDir, @trainerHash, @bossHash, @trainerTypeHash, @itemHash, @moveHash, @abilityHash,
                                        @pokemonHash, @typeHash)
@@ -147,9 +149,14 @@ class FunctionWrapper
     TABLE
   end
 
+  # 採掘の確率。
+  #
+  # 同じ確率の品目をまとめた8段で、合計はほぼ100% (採掘岩1つから出る1個の
+  # 内訳)。元は品目を読点で1行に繋いでいたので、17品目並ぶ段が読めなかった。
+  # 確率を先に置き、品目は折り返す一覧にする。
   def generate_mining_markdown
     mining_hash = load_mining_hash(@game, @scriptsDir)
-    # Creates nokogiri HTML
+
     doc = Nokogiri::HTML::Document.new
     # 生の String を add_child すると Nokogiri は HTML フラグメントとして
     # 再パースする。文書のエンコーディングが未設定だと UTF-8 の日本語が
@@ -158,129 +165,168 @@ class FunctionWrapper
     div = doc.create_element('div', class: 'mining_table')
     doc.add_child(div)
 
-    table = doc.create_element('table')
+    table = doc.create_element('table', class: 'mine-table')
     div.add_child(table)
 
-    # Creates the header for the table
     thead = doc.create_element('thead')
     table.add_child(thead)
 
-    table_header = doc.create_element('th', colspan: 2)
-    thead.add_child(table_header)
+    title_row = doc.create_element('tr')
+    thead.add_child(title_row)
+    th_title = doc.create_element('th', colspan: 2, class: 'table-header',
+                                       style: 'text-align: center;')
+    th_title.add_child(doc.create_element('strong', JaNames.ui('Mining Probabilities')))
+    title_row.add_child(th_title)
 
-    bold = doc.create_element('strong')
-    bold.content = JaNames.ui('Mining Probabilities')
-    table_header.add_child(bold)
-    table_header['class'] = 'table-header'
-    table_header['style'] = 'text-align: center;'
+    head_row = doc.create_element('tr')
+    thead.add_child(head_row)
+    [['Rate', 'mine-rate'], ['Item', 'mine-items']].each do |label, cls|
+      th = doc.create_element('th', class: "table-header #{cls}")
+      th.content = JaNames.ui(label)
+      head_row.add_child(th)
+    end
+
+    tbody = doc.create_element('tbody')
+    table.add_child(tbody)
 
     mining_hash.each do |prob, item_list|
-      content_row = doc.create_element('tr')
-      table.add_child(content_row)
+      row = doc.create_element('tr')
+      tbody.add_child(row)
 
-      # Column 1: Item Name (italicized)
-      item_str = item_list.map { |sym| @itemHash[sym][:name] }.join(', ')
-      td_item = doc.create_element('td', style: 'text-align: center')
-      td_item.add_child(doc.create_element('em', content = item_str))
-      content_row.add_child(td_item)
+      td_rate = doc.create_element('td', class: 'mine-rate')
+      td_rate.content = "#{prob}%"
+      row.add_child(td_rate)
 
-      # Column 2: Probability
-      td_price = doc.create_element('td', style: 'text-align: center')
-      td_price.content = "#{prob}%"
-      content_row.add_child(td_price)
+      td_items = doc.create_element('td', class: 'mine-items')
+      item_list.each do |sym|
+        chip = doc.create_element('em', class: 'mine-item')
+        chip.content = @itemHash[sym][:name]
+        td_items.add_child(chip)
+      end
+      row.add_child(td_items)
     end
 
     html_output = doc.to_html(encoding: 'UTF-8')
     html_output.split("\n")[1..].join("\n")
   end
 
+  # 野生ポケモンの持ち物。
+  #
+  # 元は1つのセルに「- よく出る (50%): アメタマ」を積んでいた。確率を列に
+  # 分けて、種族はアイコン付きで並べ、出現場所ページの該当行へ繋ぐ。
+  # 実測で どうぐ84・(どうぐ, 確率) の組110・のべ種族334。
+  HELD_RATES = { 'common' => 50, 'uncommon' => 5, 'rare' => 1 }.freeze
+
   def generate_wild_held_markdown
-    # Create the main hash with default value as a proc
     lookup_hash = Hash.new { |hash, key| hash[key] = { 'common' => [], 'uncommon' => [], 'rare' => [] } }
 
     @pokemonHash.each do |mon_symbol, form_hash|
-      f = form_hash.reject { |key| !key.is_a?(String) }.compact
-      next unless f
+      forms = form_hash.reject { |key| !key.is_a?(String) }.compact
+      next unless forms
 
-      f.each do |form, data|
+      forms.each do |form, data|
         lookup_hash[data[:WildItemCommon]]['common'] << [mon_symbol, form] if data[:WildItemCommon]
         lookup_hash[data[:WildItemUncommon]]['uncommon'] << [mon_symbol, form] if data[:WildItemUncommon]
         lookup_hash[data[:WildItemRare]]['rare'] << [mon_symbol, form] if data[:WildItemRare]
       end
     end
 
-    # Creates nokogiri HTML
+    # 開発途中で表に出せないもの。上流からの引き継ぎ。
+    lookup_hash.delete(:LEADERSCREST)
+    lookup_hash.delete(:BOOSTERENERGY)
+
     doc = Nokogiri::HTML::Document.new
     doc.encoding = 'UTF-8'
-    div = doc.create_element('div', class: 'mining_table')
+    div = doc.create_element('div', class: 'held_table')
     doc.add_child(div)
 
-    table = doc.create_element('table')
+    table = doc.create_element('table', class: 'held-table')
     div.add_child(table)
 
-    # Creates the header for the table
     thead = doc.create_element('thead')
     table.add_child(thead)
 
-    table_header = doc.create_element('th', colspan: 2)
-    thead.add_child(table_header)
+    title_row = doc.create_element('tr')
+    thead.add_child(title_row)
+    th_title = doc.create_element('th', colspan: 3, class: 'table-header',
+                                       style: 'text-align: center;')
+    th_title.add_child(doc.create_element('strong', JaNames.ui('Wild Pokemon Held Item Chances')))
+    title_row.add_child(th_title)
 
-    bold = doc.create_element('strong')
-    bold.content = JaNames.ui('Wild Pokemon Held Item Chances')
-    table_header.add_child(bold)
-    table_header['class'] = 'table-header'
-    table_header['style'] = 'text-align: center;'
+    head_row = doc.create_element('tr')
+    thead.add_child(head_row)
+    [['Item', 'held-item'], ['Rate', 'held-rate'], ['Pokemon', 'held-mons']].each do |label, cls|
+      th = doc.create_element('th', class: "table-header #{cls}")
+      th.content = JaNames.ui(label)
+      head_row.add_child(th)
+    end
 
-    # Hardcode deletes from Lookup Hash due to in progress development
+    tbody = doc.create_element('tbody')
+    table.add_child(tbody)
 
-    lookup_hash.delete(:LEADERSCREST)
-    lookup_hash.delete(:BOOSTERENERGY)
-    
-    # Sorts items by order in item hash
-
-    lookup_hash.map do |item, mon_hash|
-      [item, mon_hash]
-    end.sort_by { |a, _| @itemHash.keys.index(a) }.each do |item, mon_hash|
-      result = ''
+    lookup_hash.sort_by { |item, _| @itemHash.keys.index(item) || 9999 }.each do |item, mon_hash|
       next unless mon_hash
 
-      mon_hash.each do |rarity, pokemon_list|
-        next if pokemon_list.empty?
+      tiers = mon_hash.reject { |_, list| list.empty? }
+      next if tiers.empty?
 
-        # Transform each Pokemon entry into the desired format
-        pokemon_string = pokemon_list.map do |pokemon, form|
-          form_1_key = @pokemonHash[pokemon].keys.find_all { |key| key.is_a?(String) }[0]
-          form_1_data = @pokemonHash[pokemon][form_1_key]
-          pokemon_name = "#{@pokemonHash[pokemon][form_1_key][:name]}"
-          if form == 'Alolan Form'
-            "#{pokemon_name} (#{JaNames.tr('form_names', form)})"
-          else
-            pokemon_name.to_s
-          end
-        end.join(', ')
+      tiers.each_with_index do |(rarity, list), i|
+        row = doc.create_element('tr')
+        tbody.add_child(row)
 
-        # Concatenate the rarity and Pokemon string
-        result << "- #{JaNames.ui(rarity.capitalize)} (#{{ 'common' => 50, 'uncommon' => 5,
-                                               'rare' => 1 }[rarity]}%): #{pokemon_string}\n"
+        if i.zero?
+          td_item = doc.create_element('td', class: 'held-item')
+          td_item['rowspan'] = tiers.length.to_s if tiers.length > 1
+          td_item.add_child(doc.create_element('em', @itemHash[item][:name]))
+          row.add_child(td_item)
+        end
+
+        td_rate = doc.create_element('td', class: 'held-rate')
+        badge = doc.create_element('span', class: "held-tier held-#{rarity}")
+        badge.content = "#{JaNames.ui(rarity.capitalize)} #{HELD_RATES[rarity]}%"
+        td_rate.add_child(badge)
+        row.add_child(td_rate)
+
+        td_mons = doc.create_element('td', class: 'held-mons')
+        list.each { |mon, form| td_mons.add_child(held_mon_node(doc, mon, form)) }
+        row.add_child(td_mons)
       end
-      result = result.chomp
-
-      content_row = doc.create_element('tr')
-      table.add_child(content_row)
-
-      # Column 1: Item Name (italicized)
-      td_item = doc.create_element('td', style: 'text-align: center')
-      td_item.add_child(doc.create_element('em', content = @itemHash[item][:name]))
-      content_row.add_child(td_item)
-
-      # Column 2: Mon List With Prob
-      td_price = doc.create_element('td')
-      td_price.content = "#{result}"
-      content_row.add_child(td_price)
     end
 
     html_output = doc.to_html(encoding: 'UTF-8')
     html_output.split("\n")[1..].join("\n")
+  end
+
+  # 種族1体分。アイコンと名前を並べ、出現場所ページに行があればそこへ繋ぐ。
+  def held_mon_node(doc, mon, form)
+    form_keys = @pokemonHash[mon].keys.select { |k| k.is_a?(String) }
+    form_index = form_keys.index(form) || 0
+    name = @pokemonHash[mon][form_keys[0]][:name].to_s
+    name += " (#{JaNames.tr('form_names', form)})" if form == 'Alolan Form'
+
+    wrap = doc.create_element('span', class: 'held-mon')
+    inner = if EncounterIndex.has_species?(mon)
+              doc.create_element('a', href: "/#{LONGNAMES[@game]}/pokemon/#mon-#{mon.to_s.downcase}")
+            else
+              doc.create_element('span')
+            end
+    wrap.add_child(inner)
+
+    icon_src = mon_icon_src(mon, form_index)
+    if icon_src
+      icon = doc.create_element('img')
+      icon['src'] = icon_src
+      icon['alt'] = ''
+      icon['class'] = 'mon-icon held-icon'
+      icon['loading'] = 'lazy'
+      icon['width'] = '32'
+      icon['height'] = '32'
+      inner.add_child(icon)
+    end
+    label = doc.create_element('span', class: 'held-mon-name')
+    label.content = name
+    inner.add_child(label)
+    wrap
   end
 
   # ものひろいの表。

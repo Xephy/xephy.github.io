@@ -49886,7 +49886,7 @@ PP 5">あくうせつだん</span><span class="move-meta"><span class="move-cat"
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>

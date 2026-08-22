@@ -81,6 +81,18 @@ module EncounterIndexPage
     end
   end
 
+  # 種族への飛び先。付録の持ち物の表から辿れるようにする。
+  # 姿違い (アローラのすがた など) は同じ内部シンボルを共有するので、
+  # 最初に出てきた1行にだけ付ける。
+  def anchor_for(entry)
+    @anchored ||= {}
+    key = entry[:species_key].to_s.downcase
+    return '' if key.empty? || @anchored[key]
+
+    @anchored[key] = true
+    %( id="mon-#{key}")
+  end
+
   def species_html(entry)
     icon = if entry[:icon]
              %(<img src="#{entry[:icon]}" alt="" class="mon-icon pdx-icon" ) +
@@ -88,6 +100,13 @@ module EncounterIndexPage
            else
              ''
            end
+    # 野生個体が持っていることのある道具。付録の表と同じ出典で、捕まえる
+    # 場所を見ているその場で「盗む価値があるか」が分かる。
+    held = Array(entry[:held]).map { |name, pct|
+      %(<span class="pdx-held-item">#{esc(name)}<span>#{pct}%</span></span>)
+    }.join
+    held = %(<div class="pdx-held">#{held}</div>) unless held.empty?
+
     only_label = JaNames.enabled? ? '1箇所のみ' : 'only here'
     only = entry[:places].length == 1 ? %( <span class="pdx-only">#{only_label}</span>) : ''
     types = Array(entry[:types]).map { |t|
@@ -101,8 +120,8 @@ module EncounterIndexPage
     first_ch = entry[:places].map { |p| p.dig(:context, :seq) || 0 }.min
 
     <<~ROW
-      <tr data-name="#{esc(entry[:species])}" data-en="#{esc(entry[:species_key].to_s.downcase)}" data-types="#{kinds}" data-ways="#{ways}" data-only="#{entry[:places].length == 1 ? 1 : 0}" data-ch="#{first_ch}">
-        <td class="pdx-mon">#{icon}<span class="pdx-name">#{esc(entry[:species])}</span><span class="pdx-dex">No.#{entry[:dexnum]}</span><span class="pdx-types">#{types}</span>#{only}</td>
+      <tr#{anchor_for(entry)} data-name="#{esc(entry[:species])}" data-en="#{esc(entry[:species_key].to_s.downcase)}" data-types="#{kinds}" data-ways="#{ways}" data-only="#{entry[:places].length == 1 ? 1 : 0}" data-ch="#{first_ch}">
+        <td class="pdx-mon">#{icon}<span class="pdx-name">#{esc(entry[:species])}</span><span class="pdx-dex">No.#{entry[:dexnum]}</span><span class="pdx-types">#{types}</span>#{only}#{held}</td>
         <td class="pdx-places"><ul>#{entry[:places].map { |p| place_html(p) }.join}</ul></td>
       </tr>
     ROW

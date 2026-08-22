@@ -1280,6 +1280,67 @@ body.night-mode #main_content .pickup-odds-10 { background: #24384c; color: #cfe
 body.night-mode #main_content .pickup-odds-4  { background: #1f2c39; color: #b6cde3; }
 body.night-mode #main_content .pickup-odds-1  { background: #1a2028; color: #9fb4c8; }
 
+/* 野生ポケモンの持ち物。どうぐ・確率・ポケモンの3列。1つのどうぐが
+   複数の確率を持つので、どうぐの欄は rowspan でまとめる。 */
+.held_table { overflow-x: auto; margin: 12px 0 24px; }
+
+#main_content .held-table { min-width: 620px; }
+#main_content .held-table td { padding: 6px 10px; vertical-align: top; }
+#main_content .held-table .held-item { width: 11em; }
+#main_content .held-table .held-rate { width: 8.5em; white-space: nowrap; }
+
+/* 確率は3段しかないので札にする。縦に走査したときに段が拾える。 */
+.held-tier {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11.5px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.held-common   { background: #2f6fab; }
+.held-uncommon { background: #5c6f7e; }  /* #6b7f8f だと白文字で 4.15:1 しかない */
+.held-rare     { background: #8a5410; }
+
+/* 種族は出現場所ページの行への入口。1組に最大15体並ぶので折り返す。 */
+#main_content .held-mons { white-space: normal; }
+
+.held-mon {
+  display: inline-block;
+  margin: 0 10px 2px 0;
+  white-space: nowrap;
+}
+
+.held-mon a { text-decoration: none; }
+.held-mon a .held-mon-name { border-bottom: 1px dotted #8fa6bd; }
+.held-mon a:hover .held-mon-name { border-bottom-style: solid; }
+.held-icon { vertical-align: -9px; margin-right: 2px; }
+
+body.night-mode .held-mon a .held-mon-name { border-bottom-color: #6d8199; }
+
+/* 採掘。同じ確率の品目をまとめた8段。17品目並ぶ段があるので折り返す。 */
+.mining_table { overflow-x: auto; margin: 12px 0 24px; }
+
+#main_content .mine-table { max-width: 46em; }
+#main_content .mine-table td { padding: 6px 10px; vertical-align: top; }
+
+#main_content .mine-table .mine-rate {
+  width: 6em;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+#main_content .mine-table .mine-items { white-space: normal; }
+
+.mine-item {
+  display: inline-block;
+  margin: 0 10px 2px 0;
+  white-space: nowrap;
+}
+
 /*******************************************************************************
 付録のパスワード一覧 (/reborn/appendices/)
 *******************************************************************************/
@@ -1524,6 +1585,30 @@ body.night-mode .ref-reset:hover { background: #2b323a; }
   font-size: 12px;
   font-variant-numeric: tabular-nums;
 }
+
+/* 野生個体の持ち物。付録の表と同じもの。捕獲場所を見ている画面で
+   「盗む価値があるか」が分かる。検索欄でも道具名で引ける。 */
+.pdx-held {
+  margin-top: 3px;
+  font-size: 11.5px;
+  line-height: 1.6;
+}
+
+.pdx-held-item {
+  display: inline-block;
+  margin-right: 6px;
+  color: #7c5310;
+  white-space: nowrap;
+}
+
+.pdx-held-item span {
+  margin-left: 3px;
+  color: #687381;
+  font-variant-numeric: tabular-nums;
+}
+
+body.night-mode .pdx-held-item { color: #e0b46a; }
+body.night-mode .pdx-held-item span { color: #8b95a3; }
 
 /* 出現する場所が1つしかない種族。取り逃すと戻るのが大変なので目印を出す。 */
 .pdx-only {
@@ -2321,6 +2406,7 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
   .fn-stage,
   .pdx-only,
   .pdx-way,
+  .held-tier,
   .pickup-odds-30,
   .pickup-odds-10,
   .pickup-odds-4,

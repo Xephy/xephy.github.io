@@ -235,7 +235,7 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">レベル</th>
-<th colspan="3" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="3" class="table-header" style="text-align: center;">確率</th>
 </tr>
 <tr>
 <th class="table_header" style="text-align: center"><img class="encounter_image" alt="朝" src="/assets/images/morning.png"></th>
@@ -1539,7 +1539,7 @@ PP 20">じならし</span><span class="move-meta"><span class="move-cat">物理<
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -1633,7 +1633,7 @@ $80000 を寄付してこの計画に出資します。
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">レベル</th>
-<th colspan="3" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="3" class="table-header" style="text-align: center;">確率</th>
 </tr>
 <tr>
 <th class="table_header" style="text-align: center"><img class="encounter_image" alt="朝" src="/assets/images/morning.png"></th>
@@ -1801,7 +1801,7 @@ $80000 を寄付してこの計画に出資します。
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -1846,7 +1846,7 @@ $80000 を寄付してこの計画に出資します。
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -1898,7 +1898,7 @@ $80000 を寄付してこの計画に出資します。
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">レベル</th>
-<th colspan="3" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="3" class="table-header" style="text-align: center;">確率</th>
 </tr>
 <tr>
 <th class="table_header" style="text-align: center"><img class="encounter_image" alt="ボロのつりざお" src="/assets/images/oldrod.png"></th>
@@ -2562,7 +2562,7 @@ PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</sp
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -2593,7 +2593,7 @@ PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</sp
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">レベル</th>
-<th colspan="3" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="3" class="table-header" style="text-align: center;">確率</th>
 </tr>
 <tr>
 <th class="table_header" style="text-align: center"><img class="encounter_image" alt="ボロのつりざお" src="/assets/images/oldrod.png"></th>
@@ -2672,7 +2672,7 @@ PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</sp
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -2845,7 +2845,7 @@ PP 15">かみなりパンチ</span><span class="move-meta"><span class="move-cat
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -3101,7 +3101,7 @@ PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -3338,7 +3338,7 @@ PP 15">シャドークロー</span><span class="move-meta"><span class="move-cat
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -3565,7 +3565,7 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -3716,7 +3716,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -3810,7 +3810,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">レベル</th>
-<th colspan="3" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="3" class="table-header" style="text-align: center;">確率</th>
 </tr>
 <tr>
 <th class="table_header" style="text-align: center"><img class="encounter_image" alt="ボロのつりざお" src="/assets/images/oldrod.png"></th>
@@ -3856,7 +3856,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -3950,7 +3950,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -3988,7 +3988,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">レベル</th>
-<th colspan="3" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="3" class="table-header" style="text-align: center;">確率</th>
 </tr>
 <tr>
 <th class="table_header" style="text-align: center"><img class="encounter_image" alt="ボロのつりざお" src="/assets/images/oldrod.png"></th>
@@ -4064,7 +4064,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -4199,7 +4199,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -4293,7 +4293,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -4331,7 +4331,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">レベル</th>
-<th colspan="3" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="3" class="table-header" style="text-align: center;">確率</th>
 </tr>
 <tr>
 <th class="table_header" style="text-align: center"><img class="encounter_image" alt="ボロのつりざお" src="/assets/images/oldrod.png"></th>
@@ -4397,7 +4397,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -4580,7 +4580,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -4683,7 +4683,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -4780,7 +4780,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -4867,7 +4867,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -4905,7 +4905,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">レベル</th>
-<th colspan="3" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="3" class="table-header" style="text-align: center;">確率</th>
 </tr>
 <tr>
 <th class="table_header" style="text-align: center"><img class="encounter_image" alt="ボロのつりざお" src="/assets/images/oldrod.png"></th>
@@ -4976,7 +4976,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -5059,7 +5059,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">レベル</th>
-<th colspan="3" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="3" class="table-header" style="text-align: center;">確率</th>
 </tr>
 <tr>
 <th class="table_header" style="text-align: center"><img class="encounter_image" alt="朝" src="/assets/images/morning.png"></th>
@@ -5214,7 +5214,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -5308,7 +5308,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -5660,7 +5660,7 @@ PP 5">とびはねる</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -5754,7 +5754,7 @@ PP 5">とびはねる</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>

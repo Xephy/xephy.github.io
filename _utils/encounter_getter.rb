@@ -5,13 +5,24 @@ require 'set'
 class EncounterGetter
   attr_accessor :game, :enc_hash, :map_names
 
-  def initialize(game, scripts_dir, enc_hash = nil, map_names = nil, enc_map_wrapper = nil, mon_hash = nil)
+  def initialize(game, scripts_dir, enc_hash = nil, map_names = nil, enc_map_wrapper = nil, mon_hash = nil,
+                 item_hash = nil)
     @game = game
     @encHash = enc_hash ||= load_enc_hash(game, scripts_dir)
     @mapHash = map_names ||= load_maps_hash(game, scripts_dir)
     @encMapWrapper = enc_map_wrapper ||= EncounterMapWrapper.new(game, scripts_dir)
     @pokemonHash = mon_hash ||= load_pokemon_hash(game, scripts_dir)
+    # 野生個体の持ち物の名前を引くのに使う。逆引きページに載せる。
+    @itemHash = item_hash ||= load_item_hash(game, scripts_dir)
     @encStore = Set[]
+  end
+
+  # 野生個体の持ち物。よく出る 50% / たまに出る 5% / ごくまれ 1% の3段。
+  def held_items(mon, form)
+    data = @pokemonHash[mon][form]
+    [[data[:WildItemCommon], 50], [data[:WildItemUncommon], 5], [data[:WildItemRare], 1]]
+      .select { |sym, _| sym }
+      .map { |sym, pct| [@itemHash[sym] ? @itemHash[sym][:name] : sym.to_s, pct] }
   end
 
   def get_encounter_md(map_id, include_list = nil, rods = nil, custom_map_name = nil)
@@ -240,6 +251,9 @@ class EncounterGetter
           # ような探し方ができるようになる。
           types: [@pokemonHash[mon][base_form][:Type1],
                   @pokemonHash[mon][base_form][:Type2]].compact,
+          # 野生個体が持っていることのある道具。付録の表と同じ出典。
+          # 「盗む価値があるか」を捕獲場所と同じ画面で見られるようにする。
+          held: held_items(mon, base_form),
           map_label: display_map_name,
           group: group_label,
           levels: mon_data['levels'],

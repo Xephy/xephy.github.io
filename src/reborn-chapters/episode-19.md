@@ -5712,7 +5712,7 @@ M3G4 T3RR4 をもう一度倒したら、左上の道からトーナメント会
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -6305,7 +6305,7 @@ PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -6883,7 +6883,7 @@ PP 20">ちょうはつ</span><span class="move-meta"><span class="move-cat">変�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -8001,7 +8001,7 @@ PP 5">りゅうせいぐん</span><span class="move-meta"><span class="move-cat"
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -8323,7 +8323,7 @@ PP 15">めざめるパワー (でんき)</span><span class="move-meta"><span cla
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -8422,7 +8422,7 @@ PP 15">めざめるパワー (でんき)</span><span class="move-meta"><span cla
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -8519,7 +8519,7 @@ PP 15">めざめるパワー (でんき)</span><span class="move-meta"><span cla
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -9100,7 +9100,7 @@ PP 10">まもる</span><span class="move-meta"><span class="move-cat">変化</sp
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -10132,7 +10132,7 @@ PP 10">ねこだまし</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -10452,7 +10452,7 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -10788,7 +10788,7 @@ PP 20">おいうち</span><span class="move-meta"><span class="move-cat">物理<
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -11584,7 +11584,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -12630,7 +12630,7 @@ PP 20">シャドーパンチ</span><span class="move-meta"><span class="move-cat
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -13189,7 +13189,7 @@ PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</sp
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>

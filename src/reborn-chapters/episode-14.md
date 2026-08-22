@@ -115,7 +115,7 @@ permalink: /reborn/episode-14/
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -224,7 +224,7 @@ PP 10">ゆきなだれ</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle" rowspan="2">レベル</th>
-<th colspan="3" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="3" class="table-header" style="text-align: center;">確率</th>
 </tr>
 <tr>
 <th class="table_header" style="text-align: center"><img class="encounter_image" alt="朝" src="/assets/images/morning.png"></th>
@@ -4133,7 +4133,7 @@ PP 15">かえんほうしゃ</span><span class="move-meta"><span class="move-cat
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -4438,7 +4438,7 @@ PP 15">つめとぎ</span><span class="move-meta"><span class="move-cat">変化<
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -4621,7 +4621,7 @@ PP 15">かわらわり</span><span class="move-meta"><span class="move-cat">物�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -4831,7 +4831,7 @@ PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -4851,7 +4851,7 @@ PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
@@ -4920,7 +4920,7 @@ PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特�
 <tr>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">ポケモン</th>
 <th colspan="1" class="table-header" style="text-align: center;vertical-align : middle">レベル</th>
-<th colspan="1" class="table-header" style="text-align: center;">出現率</th>
+<th colspan="1" class="table-header" style="text-align: center;">確率</th>
 </tr>
 </thead>
 <tr>
