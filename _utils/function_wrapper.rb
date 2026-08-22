@@ -1,6 +1,7 @@
 require 'json'
 require_relative 'field_notes'
 require_relative 'encounter_index'
+require_relative 'badge_index'
 
 require_relative 'common'
 require_relative 'encounter_getter'
@@ -68,6 +69,7 @@ class FunctionWrapper
       'newself' => 'generate_newself_markdown',
       'pickup' => 'generate_pickup_markdown',
       'fieldpw' => 'generate_field_password_markdown',
+      'levelcaps' => 'generate_levelcap_markdown',
       'boss' => 'generate_boss_markdown',
       'move' => 'generate_move_markdown',
       'raid' => 'generate_raid_den_markdown'
@@ -101,6 +103,44 @@ class FunctionWrapper
     dim = size ? %( width="#{size[0]}" height="#{size[1]}") : ''
     %(<img class="tabImage" src="/assets/images/#{@game}/#{name}"#{dim} ) +
       %(loading="lazy" decoding="async" alt="#{JaNames.ui('Map')}"/>)
+  end
+
+  # バッジ別のレベル上限。
+  #
+  # 本文では各章に「レベル上限も35まで引き上げられました」と散らばって
+  # いるだけで、一覧が無かった。ゲームの LEVELCAPS は倒したジムリーダーの
+  # 数で引く配列 (19要素 = 0〜18個)。
+  #
+  # バッジの名前と入手場所は BadgeIndex が本文から集めている。付録は章の
+  # 最後に処理されるので、ここでは本編19章ぶんが揃っている。
+  def generate_levelcap_markdown
+    path = File.join(@scriptsDir, 'Reborn', 'SystemConstants.rb')
+    return '' unless File.exist?(path)
+
+    caps = File.read(path)[/^LEVELCAPS\s*=\s*\[([^\]]*)\]/, 1].to_s.split(',').map { |n| n.strip.to_i }
+    return '' if caps.empty?
+
+    badges = BadgeIndex.badges
+    rows = caps.each_with_index.map do |cap, n|
+      badge = n.zero? ? nil : badges[n - 1]
+      where =
+        if badge.nil?
+          n.zero? ? JaNames.ui('Start of the game') : ''
+        else
+          ctx = badge[:context] || {}
+          label = "<em>#{badge[:name]}</em>"
+          ctx[:href] ? %(<a href="#{ctx[:href]}">#{label}</a>) : label
+        end
+      %(<tr><td class="cap-badges">#{n}</td><td class="cap-level">Lv.#{cap}</td>) +
+        %(<td class="cap-where">#{where}</td></tr>)
+    end
+
+    <<~TABLE.strip
+      <div class="cap-table-wrap"><table class="cap-table">
+      <thead><tr><th>#{JaNames.ui('Badges')}</th><th>#{JaNames.ui('Level cap')}</th><th>#{JaNames.ui('Earned at')}</th></tr></thead>
+      #{rows.join("\n")}
+      </table></div>
+    TABLE
   end
 
   # フィールドを固定するパスワードの一覧。

@@ -1256,6 +1256,20 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
 付録 (/reborn/appendices/)
 *******************************************************************************/
 
+/* バッジ別のレベル上限。19段。 */
+.cap-table-wrap { overflow-x: auto; margin: 12px 0 24px; }
+
+#main_content .cap-table { margin: 0; max-width: 32em; }
+#main_content .cap-table td { padding: 5px 12px; }
+#main_content .cap-table th { white-space: nowrap; }
+#main_content .cap-table .cap-badges,
+#main_content .cap-table .cap-level {
+  width: 6em;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
 /* ものひろいの表。23品目 × レベル帯10本の行列。狭い画面では横に溢れるので
    包みごとスクロールさせる。 */
 .pickup_table { overflow-x: auto; margin: 12px 0 24px; }

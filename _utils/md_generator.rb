@@ -6,6 +6,7 @@ require_relative 'affinity_index'
 require_relative 'field_notes'
 require_relative 'doc_context'
 require_relative 'field_usage'
+require_relative 'badge_index'
 require_relative 'encounter_index'
 require_relative 'encounter_index_page'
 require_relative 'shop_index'
@@ -244,7 +245,10 @@ def generate_md_text(game = 'reborn', scripts_dir)
         elsif chapter_slug
           DocContext.current = { chapter: chapter_title, seq: chapter_seq, section: heading,
                                  href: "/#{LONGNAMES[game]}/#{chapter_slug}/##{id}" }
+          BadgeIndex.scan_heading(heading)
         end
+      elsif chapter_slug
+        BadgeIndex.scan_line(line)
       end
 
       if line.strip.empty? || line[0] != '!'
@@ -309,6 +313,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
   EncounterIndex.reset!
   ShopIndex.reset!
   FieldUsage.reset!
+  BadgeIndex.reset!
   DocContext.reset!
   game_version = detect_game_version(game, scripts_dir)
   res += generate_md_pre_contents(game, game_version)

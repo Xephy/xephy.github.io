@@ -91,6 +91,10 @@
 "Special":                  "とくしゅ"
 "Status":                   "へんか"
 "Perfect":                  "必中"
+"Badges":                   "バッジ"
+"Level cap":                "レベル上限"
+"Earned at":                "手に入る場面"
+"Start of the game":        "ゲーム開始時"
 "Field":                    "フィールド"
 
 # --- ゲーム本体に存在しない、攻略側だけで使うフィールド名 ---

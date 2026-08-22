@@ -4,7 +4,7 @@ permalink: /reborn/all/
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年8月23日 00:13 GMT</h5>
+<h5> 最終更新 2026年8月23日 00:18 GMT</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/">エピソードごとに読む</a> / <a href="/reborn/pokemon/">ポケモンの出現場所</a> / <a href="/reborn/shops/">どうぐの買える店</a> / <a href="/reborn/tms/">わざマシン一覧</a> / <a href="/reborn/fields/">フィールド効果</a> / <a href="/reborn/affinity/">好感度まとめ</a></p>
 <details class="page-toc" open>
@@ -388,6 +388,7 @@ permalink: /reborn/all/
 <details class="book-toc-chapter">
   <summary><a href="#appendices">付録</a></summary>
     <ul>
+      <li><a href="#level-caps">バッジ別のレベル上限</a></li>
       <li><a href="#pickup-table">ものひろいの表</a></li>
       <li><a href="#wild-held-items">野生ポケモンの持ち物</a></li>
       <li><a href="#mining-item-probabilities">採掘アイテムの確率</a></li>
@@ -205913,6 +205914,33 @@ PP 5">つきのひかり</span><span class="move-meta"><span class="move-cat">�
 最後に1つ。ゲームを完全に攻略したので、大ホールの開発者の部屋へ戻ると、このゲームの開発過程についてさらに詳しく知ることができます!
 
 # 付録 {#appendices}
+
+## バッジ別のレベル上限 {#level-caps}
+
+ジムリーダーを倒すと、手持ちが言うことを聞くレベルの上限が上がります。上限を超えたポケモンは指示に従わなくなるので、*ふつうのアメ* でレベルを下げて調整することがあります。
+
+<div class="cap-table-wrap"><table class="cap-table">
+<thead><tr><th>バッジ</th><th>レベル上限</th><th>手に入る場面</th></tr></thead>
+<tr><td class="cap-badges">0</td><td class="cap-level">Lv.20</td><td class="cap-where">ゲーム開始時</td></tr>
+<tr><td class="cap-badges">1</td><td class="cap-level">Lv.25</td><td class="cap-where"><a href="/reborn/episode-1/#volt-badge"><em>ボルトバッジ</em></a></td></tr>
+<tr><td class="cap-badges">2</td><td class="cap-level">Lv.35</td><td class="cap-where"><a href="/reborn/episode-2/#canopy-badge"><em>キャノピーバッジ</em></a></td></tr>
+<tr><td class="cap-badges">3</td><td class="cap-level">Lv.40</td><td class="cap-where"><a href="/reborn/episode-4/#cocoon-badge"><em>まゆバッジ</em></a></td></tr>
+<tr><td class="cap-badges">4</td><td class="cap-level">Lv.45</td><td class="cap-where"><a href="/reborn/episode-5/#omen-badge"><em>オーメンバッジ</em></a></td></tr>
+<tr><td class="cap-badges">5</td><td class="cap-level">Lv.50</td><td class="cap-where"><a href="/reborn/episode-7/#blight-badge"><em>ブライトバッジ</em></a></td></tr>
+<tr><td class="cap-badges">6</td><td class="cap-level">Lv.55</td><td class="cap-where"><a href="/reborn/episode-8/#rime-badge"><em>しものバッジ</em></a></td></tr>
+<tr><td class="cap-badges">7</td><td class="cap-level">Lv.60</td><td class="cap-where"><a href="/reborn/episode-9/#standard-badge"><em>スタンダードバッジ</em></a></td></tr>
+<tr><td class="cap-badges">8</td><td class="cap-level">Lv.65</td><td class="cap-where"><a href="/reborn/episode-10/#millenium-badge"><em>ミレニアムバッジ</em></a></td></tr>
+<tr><td class="cap-badges">9</td><td class="cap-level">Lv.70</td><td class="cap-where"><a href="/reborn/episode-11/#eclipse-badge"><em>エクリプスバッジ</em></a></td></tr>
+<tr><td class="cap-badges">10</td><td class="cap-level">Lv.70</td><td class="cap-where"><a href="/reborn/episode-12/#strike-badge"><em>ストライクバッジ</em></a></td></tr>
+<tr><td class="cap-badges">11</td><td class="cap-level">Lv.75</td><td class="cap-where"><a href="/reborn/episode-13/#cinder-badge"><em>シンダーバッジ</em></a></td></tr>
+<tr><td class="cap-badges">12</td><td class="cap-level">Lv.75</td><td class="cap-where"><a href="/reborn/episode-14/#glitch-city"><em>グラビティバッジ</em></a></td></tr>
+<tr><td class="cap-badges">13</td><td class="cap-level">Lv.80</td><td class="cap-where"><a href="/reborn/episode-15/#suspension-badge"><em>サスペンションバッジ</em></a></td></tr>
+<tr><td class="cap-badges">14</td><td class="cap-level">Lv.85</td><td class="cap-where"><a href="/reborn/episode-16/#amaranth-badge"><em>アマランサスバッジ</em></a></td></tr>
+<tr><td class="cap-badges">15</td><td class="cap-level">Lv.90</td><td class="cap-where"><a href="/reborn/episode-17/#alloy-badge"><em>アロイバッジ</em></a></td></tr>
+<tr><td class="cap-badges">16</td><td class="cap-level">Lv.90</td><td class="cap-where"><a href="/reborn/episode-17/#torrent-badge"><em>トレントバッジ</em></a></td></tr>
+<tr><td class="cap-badges">17</td><td class="cap-level">Lv.95</td><td class="cap-where"><a href="/reborn/episode-18/#geode-badge"><em>ジオードバッジ</em></a></td></tr>
+<tr><td class="cap-badges">18</td><td class="cap-level">Lv.150</td><td class="cap-where"><a href="/reborn/episode-19/#treasure-badge"><em>トレジャーバッジ</em></a></td></tr>
+</table></div>
 
 ## ものひろいの表 {#pickup-table}
 
