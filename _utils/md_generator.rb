@@ -15,6 +15,10 @@ require_relative 'function_wrapper'
 # 見出し行末の Kramdown 属性 {#id}。bin/add-heading-ids が書き込む。
 HEADING_ID = /\s*\{#([^}]+)\}\z/.freeze
 
+# 目次を索引として引くために、節ごとに拾う固有名詞。見出しの文字だけでは
+# 「シグムンド」のような人名で引けない。
+TOC_KEY_PATTERNS = [/<strong>VS: ([^<]+)<\/strong>/, /<strong>ショップ: ([^<]+)<\/strong>/].freeze
+
 def generate_md_text(game = 'reborn', scripts_dir)
   func_wrapper = FunctionWrapper.new(game, scripts_dir)
 
@@ -69,12 +73,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
   def generate_index_contents(game, chapters)
     blocks = chapters.map do |chapter|
       base = "/#{LONGNAMES[game]}/#{chapter[:slug]}/"
-      sections = chapter[:content].each_line.filter_map do |line|
-        next unless line.start_with?('## ')
-
-        title = line.strip[2..].strip
-        %(<li><a href="#{base}##{anchor_for(title)}">#{escape_html(heading_text(title))}</a></li>)
-      end
+      sections = section_items(chapter[:content], base)
 
       <<~BLOCK
         <section class="book-toc-chapter">
@@ -88,7 +87,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
 
     ref = ReferencePages.all.map { |p|
       %(<li><a href="#{ReferencePages.path(LONGNAMES[game], p)}">) +
-        %(#{ReferencePages.label(p)}</a> — #{escape_html(p[:desc])}</li>)
+        %(#{ReferencePages.label(p)}</a></li>)
     }
     unless ref.empty?
       blocks << <<~BLOCK
@@ -101,7 +100,60 @@ def generate_md_text(game = 'reborn', scripts_dir)
       BLOCK
     end
 
-    %(<div class="book-toc">\n#{blocks.join("\n")}</div>\n)
+    %(#{toc_filter(chapters, blocks)}<div class="book-toc">\n#{blocks.join("\n")}</div>\n)
+  end
+
+  # 目次の1章分の項目。小節 (###) も入れる。目次を絞り込みの索引として
+  # 使うので、拾える見出しは多いほうがよい (節207 + 小節67)。
+  #
+  # 見出しの文字だけでは「シグムンド」のような人名で引けない。節ごとに
+  # トレーナー名とショップ名を集めて data-keys に持たせる (のべ1,015語)。
+  # 表示はしないので、目次の見た目は変わらない。
+  def section_items(content, base)
+    items = []
+    keys = nil
+
+    content.each_line do |line|
+      level = line.start_with?('### ') ? 3 : (line.start_with?('## ') ? 2 : nil)
+      if level
+        title = line.strip[level..].strip
+        keys = []
+        items << { level: level, title: title, keys: keys }
+        next
+      end
+      next unless keys
+
+      TOC_KEY_PATTERNS.each { |re| line.scan(re) { |m| keys << m[0].strip } }
+    end
+
+    items.map do |it|
+      cls = it[:level] == 3 ? ' class="book-toc-sub"' : ''
+      data = it[:keys].uniq
+      attr = data.empty? ? '' : %( data-keys="#{escape_html(data.join(' '))}")
+      %(<li#{cls}#{attr}><a href="#{base}##{anchor_for(it[:title])}">) +
+        %(#{escape_html(heading_text(it[:title]))}</a></li>)
+    end
+  end
+
+  # 目次を索引として引けるようにする操作子。
+  #
+  # 攻略本文29章には検索が無く、何かを探すには 11.7MB の一枚版を開いて
+  # ブラウザの検索を使うしかなかった。目次にはすでに全章・全節の見出しと
+  # リンクが並んでいるので、ここを絞り込めるようにするのが一番安い。
+  def toc_filter(chapters, blocks)
+    sections = blocks.sum { |b| b.scan('<li').length }
+    ja = JaNames.enabled?
+
+    <<~BAR
+      <div class="ref-filter toc-filter" hidden>
+        <div class="ref-filter-line">
+          <input type="search" id="toc-q" class="ref-search" autocomplete="off"
+                 placeholder="#{ja ? '章・節の名前で絞る（地名・人物名・店名でも引ける）' : 'Filter chapters and sections'}">
+          <span class="ref-count" role="status" aria-live="polite"></span>
+          <button type="button" class="ref-reset">#{ja ? '条件を外す' : 'Clear'}</button>
+        </div>
+      </div>
+    BAR
   end
 
   def escape_html(text)

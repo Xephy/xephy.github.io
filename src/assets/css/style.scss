@@ -2045,6 +2045,15 @@ body.night-mode .chapter-nav-current > strong { color: #e0e0e0; }
 目次ページ (/reborn/)
 *******************************************************************************/
 
+/* 目次を索引として引くための操作子。段組の上に置く。 */
+.toc-filter { margin-bottom: 18px; }
+
+/* 1行に収まるので、条件を外す釦も同じ行の右端に置く。 */
+.toc-filter .ref-reset { margin-left: 0; }
+
+/* 小節 (###) は節の下にぶら下がるので一段下げる。 */
+#main_content .book-toc-sub { padding-left: 1em; font-size: 13.5px; }
+
 /* 29章 × 各10節ほどあり、素のリストだと縦に 3,000px を超えて一覧性が無い。
    章を1枚のまとまりとして段組に流す。 */
 .book-toc {

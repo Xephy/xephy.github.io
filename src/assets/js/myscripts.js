@@ -794,3 +794,112 @@ $(document).ready(function() {
   bar.hidden = false;
   apply();
 })();
+
+
+// 目次ページ (/reborn/) の絞り込み。
+//
+// 攻略本文29章には検索が無く、何かを探すには 11.7MB の一枚版を開いて
+// ブラウザの検索を使うしかなかった。目次にはすでに全章・全節の見出しと
+// リンクが並んでいるので (30ブロック / 277項目)、ここを索引として引く。
+(function () {
+  var bar = document.querySelector('.toc-filter');
+  if (!bar) return;
+
+  var input = document.getElementById('toc-q');
+  var countEl = bar.querySelector('.ref-count');
+  var resetEl = bar.querySelector('.ref-reset');
+  var blocks = [].slice.call(document.querySelectorAll('.book-toc-chapter'));
+  if (!blocks.length) return;
+
+  bar.hidden = false;
+
+  function norm(s) {
+    return (s || '').normalize('NFKC').toLowerCase()
+      .replace(/[ぁ-ゖ]/g, function (c) {
+        return String.fromCharCode(c.charCodeAt(0) + 0x60);
+      });
+  }
+
+  var groups = blocks.map(function (block) {
+    var head = block.querySelector('h3');
+    var items = [].slice.call(block.querySelectorAll('li'));
+    // 見出しの文字に加えて、その節に出てくるトレーナー名とショップ名も
+    // 対象にする (data-keys)。人名で引けないと索引として使いにくい。
+    items.forEach(function (li) {
+      li._hay = norm(li.textContent + ' ' + (li.getAttribute('data-keys') || ''));
+    });
+    return { block: block, name: norm(head ? head.textContent : ''), items: items };
+  });
+
+  var total = groups.reduce(function (n, g) { return n + g.items.length; }, 0);
+
+  function apply() {
+    var terms = norm(input.value.trim());
+    terms = terms ? terms.split(/\s+/) : [];
+    var filtering = terms.length > 0;
+    var shownBlocks = 0;
+    var shownItems = 0;
+
+    groups.forEach(function (g) {
+      // 章の名前が当たっているときは、その中身は丸ごと残す。章名で
+      // 引いたのに節が消えると、どこを開けばよいか分からなくなる。
+      var nameHit = filtering && terms.every(function (t) { return g.name.indexOf(t) !== -1; });
+      var hits = 0;
+
+      g.items.forEach(function (li) {
+        var ok = true;
+        for (var i = 0; ok && i < terms.length; i++) {
+          if (li._hay.indexOf(terms[i]) === -1) ok = false;
+        }
+        if (ok) hits++;
+        li.hidden = filtering && !nameHit && !ok;
+      });
+
+      var show = !filtering || nameHit || hits > 0;
+      g.block.hidden = !show;
+      if (show) {
+        shownBlocks++;
+        shownItems += nameHit ? g.items.length : hits;
+      }
+    });
+
+    bar.classList.toggle('is-filtering', filtering);
+    if (countEl) {
+      countEl.textContent = filtering
+        ? (shownItems === 0 ? '該当なし' : shownBlocks + '章 / ' + shownItems + '項目')
+        : groups.length + '章 / ' + total + '項目';
+    }
+
+    if (window.history && history.replaceState) {
+      var q = input.value.trim();
+      history.replaceState(null, '', (q ? '?q=' + encodeURIComponent(q) : location.pathname) + location.hash);
+    }
+  }
+
+  var timer = null;
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(apply, 80);
+  });
+
+  if (resetEl) {
+    resetEl.addEventListener('click', function () {
+      input.value = '';
+      apply();
+      input.focus();
+    });
+  }
+
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key !== '/' || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+    var t = ev.target;
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+    ev.preventDefault();
+    input.focus();
+    input.select();
+  });
+
+  var p = new URLSearchParams(location.search);
+  if (p.get('q')) input.value = p.get('q');
+  apply();
+})();
