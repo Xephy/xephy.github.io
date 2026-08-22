@@ -14,8 +14,15 @@
       favicon はブラウザが強く保存し続けるので、明示的に指す。?v= を付けて
       おくと差し替えたときに拾い直される (bin/gen-favicon で作る)。
     {%- endcomment -%}
-    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {%- comment -%}
+      ?v= は site.github.build_revision (最後のコミット) ではなくビルド時刻に
+      する。コミットの間に手を入れているあいだ値が変わらず、手元では
+      古い CSS / JS がブラウザに残ったままになるため。JS は ?v= 自体が
+      無く、書き換えても読み直されなかった。
+    {%- endcomment -%}
+    {%- assign asset_v = site.time | date: '%s' -%}
+    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico?v=' | append: asset_v | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css?v=' | append: asset_v | relative_url }}">
 
 {% seo %}
     {% include head-custom.html %}
@@ -69,5 +76,5 @@
       </footer>
     </div>
   </body>
-  <script src="/assets/js/myscripts.js"></script>
+  <script src="{{ '/assets/js/myscripts.js?v=' | append: asset_v | relative_url }}"></script>
 </html>
