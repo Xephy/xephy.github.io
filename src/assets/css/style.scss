@@ -1256,6 +1256,37 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
 付録 (/reborn/appendices/)
 *******************************************************************************/
 
+/* 技教え人で教われるわざ。78種。 */
+.tu-table-wrap { overflow-x: auto; margin: 12px 0 24px; }
+
+#main_content .tu-table { margin: 0; table-layout: fixed; }
+#main_content .tu-table td { padding: 6px 12px; vertical-align: top; }
+#main_content .tu-table .tu-move { width: 15em; white-space: normal; }
+#main_content .tu-table .tu-where { white-space: normal; }
+
+#main_content .tu-move .type-badge { min-width: 0; padding: 0 6px; margin-right: 5px; font-size: 11px; }
+#main_content .tu-move strong { font-weight: 700; }
+
+.tu-meta {
+  display: block;
+  color: #4f5a64;
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+#main_content .tu-where ul { margin: 0; padding: 0; list-style: none; }
+#main_content .tu-where li { margin: 0; padding: 1px 0; line-height: 1.7; }
+
+.tu-price {
+  color: #4f5a64;
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+body.night-mode .tu-meta,
+body.night-mode .tu-price { color: #a4aeb8; }
+
 /* バッジ別のレベル上限。19段。 */
 .cap-table-wrap { overflow-x: auto; margin: 12px 0 24px; }
 

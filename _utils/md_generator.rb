@@ -10,6 +10,7 @@ require_relative 'badge_index'
 require_relative 'encounter_index'
 require_relative 'encounter_index_page'
 require_relative 'shop_index'
+require_relative 'tutor_index'
 require_relative 'shop_index_page'
 require_relative 'machine_index_page'
 require_relative 'reference_pages'
@@ -312,6 +313,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
   res = ''
   EncounterIndex.reset!
   ShopIndex.reset!
+  TutorIndex.reset!
   FieldUsage.reset!
   BadgeIndex.reset!
   DocContext.reset!

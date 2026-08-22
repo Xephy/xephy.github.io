@@ -2,6 +2,7 @@ require 'json'
 require_relative 'field_notes'
 require_relative 'encounter_index'
 require_relative 'badge_index'
+require_relative 'tutor_index'
 
 require_relative 'common'
 require_relative 'encounter_getter'
@@ -70,6 +71,7 @@ class FunctionWrapper
       'pickup' => 'generate_pickup_markdown',
       'fieldpw' => 'generate_field_password_markdown',
       'levelcaps' => 'generate_levelcap_markdown',
+      'tutors' => 'generate_tutor_index_markdown',
       'boss' => 'generate_boss_markdown',
       'move' => 'generate_move_markdown',
       'raid' => 'generate_raid_den_markdown'
@@ -103,6 +105,59 @@ class FunctionWrapper
     dim = size ? %( width="#{size[0]}" height="#{size[1]}") : ''
     %(<img class="tabImage" src="/assets/images/#{@game}/#{name}"#{dim} ) +
       %(loading="lazy" decoding="async" alt="#{JaNames.ui('Map')}"/>)
+  end
+
+  # 技教え人で教われるわざの逆引き。
+  #
+  # 本文の表は「この教え人が何を教えるか」しか答えられない。わざから引ける
+  # ようにする。並びは本文に出てくる順 = 早く教われる順。
+  # 付録は章の最後に処理されるので、ここでは全23人ぶんが揃っている。
+  def generate_tutor_index_markdown
+    rows = TutorIndex.by_move
+    return '' if rows.empty?
+
+    body = rows.map do |row|
+      label = JaNames.tr('moves', row[:move])
+      move = move_by_label[label]
+      type = move ? type_badge_html(move[:type]) : ''
+      meta = move ? move_meta_html(move) : ''
+      # ブロックの中で label を使うと外側の label (わざ名) を潰すので別名にする。
+      places = row[:tutors].map { |t|
+        href = t.dig(:context, :href)
+        name = href ? %(<a href="#{href}">#{t[:tutor]}</a>) : t[:tutor]
+        %(<li>#{name} <span class="tu-price">#{t[:price]}</span></li>)
+      }.join
+
+      %(<tr><td class="tu-move">#{type}<strong>#{label}</strong>) +
+        %(<span class="tu-meta">#{meta}</span></td>) +
+        %(<td class="tu-where"><ul>#{places}</ul></td></tr>)
+    end
+
+    <<~TABLE.strip
+      <div class="tu-table-wrap"><table class="tu-table">
+      <thead><tr><th>#{JaNames.ui('Move')}</th><th>#{JaNames.ui('Tutor')}</th></tr></thead>
+      #{body.join("\n")}
+      </table></div>
+    TABLE
+  end
+
+  # !tutor() には表示名の文字列が渡ってくる (「Iron Defense」)。わざのハッシュは
+  # シンボル引きなので直接は引けない。訳し終えた名前で引ける表を作る。
+  def move_by_label
+    @move_by_label ||= @moveHash.values.to_h { |m| [m[:name], m] }
+  end
+
+  def type_badge_html(sym)
+    label = sym == :QMARKS ? '???' : JaNames.tr('types', sym.to_s.capitalize)
+    cls = sym == :QMARKS ? 'qmarks' : sym.to_s.downcase
+    %(<span class="type-badge type-#{cls}">#{label}</span>)
+  end
+
+  def move_meta_html(move)
+    parts = [JaNames.ui(move[:category].to_s.capitalize)]
+    parts << move[:basedamage].to_s if move[:basedamage].to_i.positive?
+    parts << (move[:accuracy].to_i.zero? ? JaNames.ui('Perfect') : "#{move[:accuracy]}%")
+    parts.join(' · ')
   end
 
   # バッジ別のレベル上限。
@@ -567,6 +622,9 @@ class FunctionWrapper
       td_price = doc.create_element('td', style: 'text-align: center')
       td_price.content = price
       content_row.add_child(td_price)
+
+      # 逆引き (付録の「技教え人で教われるわざ」) 用に控える。
+      TutorIndex.record(move: move, tutor: JaNames.shop(tutor_title), price: price)
     end
 
     html_output = doc.to_html(encoding: 'UTF-8')
