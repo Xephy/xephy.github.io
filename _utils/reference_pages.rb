@@ -12,6 +12,7 @@ module ReferencePages
   PAGES = [
     { slug: 'pokemon', label: 'ポケモンの出現場所', en: 'Wild Encounters' },
     { slug: 'shops', label: 'どうぐの買える店', en: 'Shop Index' },
+    { slug: 'tms', label: 'わざマシン一覧', en: 'TM & HM List' },
     { slug: 'fields', label: 'フィールド効果', en: 'Field Effects' },
     { slug: 'affinity', label: '好感度まとめ', en: 'Relationship Points' }
   ].freeze

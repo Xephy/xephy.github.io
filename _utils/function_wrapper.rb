@@ -10,6 +10,10 @@ require_relative 'trainer_getter'
 # This is the magic class of the rewrite.
 # Each function should return a string of some kind (can be multiline)
 class FunctionWrapper
+  # 資料ページ (わざマシン一覧) が同じデータを使う。読み込み直すと二重に
+  # 訳が当たるので、ここで読んだものを渡す。
+  attr_reader :item_hash, :move_hash
+
   # 画像の画素サイズ一覧 (bin/convert-images が書き出す)。
   IMAGE_SIZES = begin
     path = File.join(__dir__, 'image_sizes.json')
@@ -34,6 +38,8 @@ class FunctionWrapper
     @trainerTypeHash = load_trainer_type_hash(game, @scriptsDir)
     @typeHash = load_type_hash(game, @scriptsDir)
     @moveHash = load_move_hash(game, @scriptsDir)
+    @item_hash = @itemHash
+    @move_hash = @moveHash
     @abilityHash = load_ability_hash(game, @scriptsDir)
     @pokemonHash = load_pokemon_hash(game, @scriptsDir)
     @raidDenHash = load_raid_den_hash(game, @scriptsDir)

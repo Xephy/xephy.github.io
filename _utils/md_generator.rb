@@ -10,6 +10,7 @@ require_relative 'encounter_index'
 require_relative 'encounter_index_page'
 require_relative 'shop_index'
 require_relative 'shop_index_page'
+require_relative 'machine_index_page'
 require_relative 'reference_pages'
 require_relative 'spoiler'
 require_relative 'function_wrapper'
@@ -363,6 +364,9 @@ def generate_md_text(game = 'reborn', scripts_dir)
   pages['pokemon'] = encounter_page if encounter_page
   shop_page = ShopIndexPage.build_page(LONGNAMES[game])
   pages['shops'] = shop_page if shop_page
+  tm_page = MachineIndexPage.build_page(LONGNAMES[game], func_wrapper.item_hash,
+                                        func_wrapper.move_hash, chapters)
+  pages['tms'] = tm_page if tm_page
   field_page = FieldNotes.build_page(LONGNAMES[game], scripts_dir)
   pages['fields'] = field_page if field_page
   affinity_page = AffinityIndex.build_page(chapters, LONGNAMES[game])

@@ -1020,3 +1020,158 @@ $(document).ready(function() {
 
   apply();
 })();
+
+
+// わざマシン一覧 (/reborn/tms/) の絞り込み。
+//
+// 109本。番号・わざ名・地名の文字検索、タイプ、進行度、記載の有無。
+(function () {
+  var bar = document.querySelector('.tm-filter');
+  if (!bar) return;
+
+  var input = document.getElementById('tm-q');
+  var countEl = bar.querySelector('.ref-count');
+  var resetEl = bar.querySelector('.ref-reset');
+  var missEl = document.getElementById('tm-missing');
+  var uptoEl = document.getElementById('tm-upto');
+  var rows = [].slice.call(document.querySelectorAll('.tm-table tr'));
+  if (!rows.length) return;
+
+  bar.hidden = false;
+
+  function norm(s) {
+    return (s || '').normalize('NFKC').toLowerCase()
+      .replace(/[ぁ-ゖ]/g, function (c) {
+        return String.fromCharCode(c.charCodeAt(0) + 0x60);
+      });
+  }
+
+  rows.forEach(function (tr) {
+    tr._hay = norm(tr.textContent);
+    tr._types = (tr.getAttribute('data-types') || '').split(' ');
+    tr._ch = parseInt(tr.getAttribute('data-ch'), 10);
+    tr._has = tr.getAttribute('data-has') === '1';
+    tr._places = [].slice.call(tr.querySelectorAll('li[data-ch]'));
+    tr._places.forEach(function (li) { li._ch = parseInt(li.getAttribute('data-ch'), 10) || 0; });
+  });
+
+  var picked = [];
+
+  function chipEls() {
+    return [].slice.call(bar.querySelectorAll('.ref-chip'));
+  }
+
+  function apply() {
+    var terms = norm(input.value.trim());
+    terms = terms ? terms.split(/\s+/) : [];
+    var missingOnly = missEl && missEl.checked;
+    var upto = uptoEl && uptoEl.value !== '' ? parseInt(uptoEl.value, 10) : null;
+    var shown = 0;
+
+    rows.forEach(function (tr) {
+      var ok = true;
+      if (picked.length) {
+        ok = false;
+        for (var i = 0; i < picked.length; i++) {
+          if (tr._types.indexOf(picked[i]) !== -1) { ok = true; break; }
+        }
+      }
+      if (ok && missingOnly) ok = !tr._has;
+      // 記載の無いものは章を持たないので、進行度で絞ると外れる。
+      if (ok && upto !== null) ok = tr._has && tr._ch <= upto;
+      for (var j = 0; ok && j < terms.length; j++) {
+        if (tr._hay.indexOf(terms[j]) === -1) ok = false;
+      }
+      tr.hidden = !ok;
+      if (ok) shown++;
+
+      if (ok && upto !== null) {
+        tr._places.forEach(function (li) { li.classList.toggle('is-dim', li._ch > upto); });
+      } else if (tr._dimmed) {
+        tr._places.forEach(function (li) { li.classList.remove('is-dim'); });
+      }
+      tr._dimmed = ok && upto !== null;
+    });
+
+    var filtering = terms.length > 0 || picked.length > 0 || missingOnly || upto !== null;
+    bar.classList.toggle('is-filtering', filtering);
+    if (countEl) {
+      countEl.textContent = filtering
+        ? (shown === 0 ? '該当なし' : rows.length + '本中 ' + shown + '本')
+        : rows.length + '本';
+    }
+
+    if (window.history && history.replaceState) {
+      var p = new URLSearchParams();
+      if (input.value.trim()) p.set('q', input.value.trim());
+      if (picked.length) p.set('t', picked.join(','));
+      if (missingOnly) p.set('none', '1');
+      if (upto !== null) p.set('ch', uptoEl.value);
+      var s = p.toString();
+      history.replaceState(null, '', (s ? '?' + s : location.pathname) + location.hash);
+    }
+  }
+
+  chipEls().forEach(function (chip) {
+    chip.setAttribute('aria-pressed', 'false');
+    chip.addEventListener('click', function () {
+      var v = chip.getAttribute('data-value');
+      var at = picked.indexOf(v);
+      if (at === -1) picked.push(v); else picked.splice(at, 1);
+      chip.classList.toggle('is-on', at === -1);
+      chip.setAttribute('aria-pressed', at === -1 ? 'true' : 'false');
+      apply();
+    });
+  });
+
+  var timer = null;
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(apply, 80);
+  });
+  if (missEl) missEl.addEventListener('change', apply);
+  if (uptoEl) uptoEl.addEventListener('change', apply);
+
+  if (resetEl) {
+    resetEl.addEventListener('click', function () {
+      input.value = '';
+      picked = [];
+      chipEls().forEach(function (c) {
+        c.classList.remove('is-on');
+        c.setAttribute('aria-pressed', 'false');
+      });
+      if (missEl) missEl.checked = false;
+      if (uptoEl) uptoEl.value = '';
+      apply();
+      input.focus();
+    });
+  }
+
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key !== '/' || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+    var t = ev.target;
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+    ev.preventDefault();
+    input.focus();
+    input.select();
+  });
+
+  (function restore() {
+    var p = new URLSearchParams(location.search);
+    if (p.get('q')) input.value = p.get('q');
+    var raw = p.get('t');
+    if (raw) {
+      raw.split(',').forEach(function (v) {
+        var chip = bar.querySelector('.ref-chip[data-value="' + v + '"]');
+        if (!chip) return;
+        picked.push(v);
+        chip.classList.add('is-on');
+        chip.setAttribute('aria-pressed', 'true');
+      });
+    }
+    if (missEl && p.get('none') === '1') missEl.checked = true;
+    if (uptoEl && p.get('ch')) uptoEl.value = p.get('ch');
+  })();
+
+  apply();
+})();
