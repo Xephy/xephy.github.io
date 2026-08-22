@@ -627,3 +627,136 @@ $(document).ready(function() {
 
   apply();
 })();
+
+
+// 付録のパスワード一覧 (/reborn/appendices/) の絞り込み。
+//
+// 215語が6分類に並んでいるだけで、目で追うしかなかった。項目は生の原稿に
+// 手で書かれた箇条書きと、生成したフィールド指定の表の2種類がある。
+// どちらも「1件」として同じように扱う。
+(function () {
+  var bar = document.querySelector('.pw-filter');
+  if (!bar) return;
+
+  var input = document.getElementById('pw-q');
+  var countEl = bar.querySelector('.ref-count');
+  var resetEl = bar.querySelector('.ref-reset');
+  var chips = [].slice.call(bar.querySelectorAll('.pw-chip'));
+  if (!chips.length) return;
+
+  function norm(s) {
+    return (s || '').normalize('NFKC').toLowerCase()
+      .replace(/[ぁ-ゖ]/g, function (c) {
+        return String.fromCharCode(c.charCodeAt(0) + 0x60);
+      });
+  }
+
+  // 分類ごとに、見出しから次の見出しまでの要素をまとめて持つ。
+  var groups = chips.map(function (chip) {
+    var id = chip.getAttribute('data-value');
+    var head = document.getElementById(id);
+    var parts = [];
+    var items = [];
+    var el = head ? head.nextElementSibling : null;
+    while (el && el.tagName !== 'H3' && el.tagName !== 'H2') {
+      parts.push(el);
+      [].slice.call(el.querySelectorAll('li')).forEach(function (li) { items.push(li); });
+      [].slice.call(el.querySelectorAll('tr[data-pw]')).forEach(function (tr) { items.push(tr); });
+      el = el.nextElementSibling;
+    }
+    items.forEach(function (it) { it._hay = norm(it.textContent); });
+    return { id: id, head: head, parts: parts, items: items };
+  });
+
+  var total = groups.reduce(function (n, g) { return n + g.items.length; }, 0);
+  var picked = [];
+
+  function apply() {
+    var terms = norm(input.value.trim());
+    terms = terms ? terms.split(/\s+/) : [];
+    var filtering = terms.length > 0 || picked.length > 0;
+    var shown = 0;
+
+    groups.forEach(function (g) {
+      var inCat = !picked.length || picked.indexOf(g.id) !== -1;
+      var any = false;
+
+      g.items.forEach(function (it) {
+        var ok = inCat;
+        for (var i = 0; ok && i < terms.length; i++) {
+          if (it._hay.indexOf(terms[i]) === -1) ok = false;
+        }
+        it.hidden = !ok;
+        if (ok) { any = true; shown++; }
+      });
+
+      // 中身が全部消えた分類は、見出しと前置きごと畳む。
+      g.parts.forEach(function (el) { el.hidden = !any; });
+      if (g.head) g.head.hidden = !any;
+    });
+
+    bar.classList.toggle('is-filtering', filtering);
+    if (countEl) {
+      countEl.textContent = filtering
+        ? (shown === 0 ? '該当なし' : total + '件中 ' + shown + '件')
+        : total + '件';
+    }
+
+    if (window.history && history.replaceState) {
+      var p = new URLSearchParams();
+      if (input.value.trim()) p.set('pw', input.value.trim());
+      if (picked.length) p.set('g', picked.join(','));
+      var s = p.toString();
+      history.replaceState(null, '', s ? '?' + s : location.pathname);
+    }
+  }
+
+  chips.forEach(function (chip) {
+    chip.setAttribute('aria-pressed', 'false');
+    chip.addEventListener('click', function () {
+      var v = chip.getAttribute('data-value');
+      var at = picked.indexOf(v);
+      if (at === -1) picked.push(v); else picked.splice(at, 1);
+      chip.classList.toggle('is-on', at === -1);
+      chip.setAttribute('aria-pressed', at === -1 ? 'true' : 'false');
+      apply();
+    });
+  });
+
+  var timer = null;
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(apply, 80);
+  });
+
+  if (resetEl) {
+    resetEl.addEventListener('click', function () {
+      input.value = '';
+      picked = [];
+      chips.forEach(function (c) {
+        c.classList.remove('is-on');
+        c.setAttribute('aria-pressed', 'false');
+      });
+      apply();
+      input.focus();
+    });
+  }
+
+  (function restore() {
+    var p = new URLSearchParams(location.search);
+    if (p.get('pw')) input.value = p.get('pw');
+    var raw = p.get('g');
+    if (raw) {
+      raw.split(',').forEach(function (v) {
+        var chip = bar.querySelector('.pw-chip[data-value="' + v + '"]');
+        if (!chip) return;
+        picked.push(v);
+        chip.classList.add('is-on');
+        chip.setAttribute('aria-pressed', 'true');
+      });
+    }
+  })();
+
+  bar.hidden = false;
+  apply();
+})();

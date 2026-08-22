@@ -1249,6 +1249,79 @@ body.night-mode .affinity-note { color: #8b95a3; }
 body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6d8199; }
 
 /*******************************************************************************
+付録 (/reborn/appendices/)
+*******************************************************************************/
+
+/* ものひろいの表。23品目 × レベル帯10本の行列。狭い画面では横に溢れるので
+   包みごとスクロールさせる。 */
+.pickup_table { overflow-x: auto; margin: 12px 0 24px; }
+
+#main_content #pickup-table { min-width: 720px; font-size: 13px; }
+#main_content #pickup-table td,
+#main_content #pickup-table th { padding: 5px 8px; }
+
+#main_content #pickup-table .pickup-item { width: 11em; white-space: normal; }
+#main_content #pickup-table .pickup-band {
+  width: 4.4em;
+  text-align: center;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 確率は4段階しかないので、濃さで段を示す。縦 (どの品目が出やすいか) と
+   横 (このレベルで何が拾えるか) の両方が一目で追える。 */
+#main_content .pickup-odds-30 { background: #2f6fab; color: #ffffff; font-weight: 700; }
+#main_content .pickup-odds-10 { background: #bcd6ec; color: #1b3a55; }
+#main_content .pickup-odds-4  { background: #dfeaf4; color: #24435f; }
+#main_content .pickup-odds-1  { background: #f0f4f8; color: #3d5468; }
+
+body.night-mode #main_content .pickup-odds-30 { background: #2a4b73; color: #ffffff; }
+body.night-mode #main_content .pickup-odds-10 { background: #24384c; color: #cfe2f7; }
+body.night-mode #main_content .pickup-odds-4  { background: #1f2c39; color: #b6cde3; }
+body.night-mode #main_content .pickup-odds-1  { background: #1a2028; color: #9fb4c8; }
+
+/*******************************************************************************
+付録のパスワード一覧 (/reborn/appendices/)
+*******************************************************************************/
+
+/* フィールドを固定するパスワード。元は「すべてのバトルが○○で行われます」が
+   38行続いていた。同じ文を消して、フィールド名を効果ページへの入口にする。 */
+.pw-table-wrap {
+  margin: 12px 0 24px;
+  overflow-x: auto;
+}
+
+#main_content .pw-table { margin: 0; max-width: 34em; }
+#main_content .pw-table td { padding: 5px 12px; }
+#main_content .pw-table .pw-name { width: 12em; font-family: inherit; }
+#main_content .pw-table .pw-name strong { font-weight: 700; }
+
+/* 分類のチップはタイプの色を持たないので、素の見た目を与える。 */
+.pw-chip {
+  padding: 2px 10px;
+  border-radius: 999px;
+  border: 2px solid #cfd8e2;
+  background: #f4f7fa;
+  color: #35536f;
+  font-size: 12.5px;
+  font-weight: 600;
+}
+
+.pw-chip:hover { background: #e8eff7; }
+.pw-chip.is-on { border-color: #2b6cb0; background: #dce9f6; }
+.pw-chip span { color: #4f5a64; }
+
+body.night-mode .pw-chip {
+  background: #23272e;
+  border-color: #3c434c;
+  color: #a8c4de;
+}
+
+body.night-mode .pw-chip:hover { background: #2b323a; }
+body.night-mode .pw-chip.is-on { border-color: #7db1e8; background: #2a3b4d; }
+body.night-mode .pw-chip span { color: #a4aeb8; }
+
+/*******************************************************************************
 出現場所の逆引きページ (/reborn/pokemon/)
 *******************************************************************************/
 
@@ -2247,13 +2320,21 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
   .fn-status,
   .fn-stage,
   .pdx-only,
-  .pdx-way {
+  .pdx-way,
+  .pickup-odds-30,
+  .pickup-odds-10,
+  .pickup-odds-4,
+  .pickup-odds-1 {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
 
   /* 表と図が紙の切れ目で分断されないようにする。 */
   table { page-break-inside: avoid; break-inside: avoid; }
+
+  /* ものひろいの行列だけは23行あり、まるごと避けると直前の紙が丸ごと
+     空になる。見出し行は紙をまたいで繰り返されるので、途中で切ってよい。 */
+  #main_content #pickup-table { page-break-inside: auto; break-inside: auto; }
   tr, .mon-cell, .affinity-list, .spoilerText { page-break-inside: avoid; break-inside: avoid; }
 
   /* 資料ページの色付きの札は、白黒印刷でも形が残るように枠を足す。 */

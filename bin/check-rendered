@@ -29,12 +29,22 @@ end.parse!
 # 意図して英語のまま残すもの。パスワードは入力する文字列なので訳せない。
 # 全一覧は付録の「パスワード全一覧」にあるので、そこから直接読む。
 # (訳文側の `- **name / alias**:` という行から拾う)
+#
+# フィールドを固定する38語だけは箇条書きではなく生成した表に入っているので、
+# 生成物の data-pw からも拾う。
 APPENDIX = File.expand_path('../src/_raw/reborn/appendices.md', __dir__)
-PASSWORD_LIST = File.exist?(APPENDIX) ? File.read(APPENDIX).scan(/^- \*\*([^*]+)\*\*:/).flatten
-                                            .flat_map { |s| s.split('/') }.map(&:strip)
-                                            .flat_map { |s| s.scan(/[A-Za-z][A-Za-z'.\- ]{2,}|[A-Za-z]+/) }
-                                            .map(&:strip).to_set
-                                      : Set.new
+APPENDIX_OUT = File.expand_path('../src/reborn-chapters/appendices.md', __dir__)
+PASSWORD_LIST = begin
+  list = Set.new
+  if File.exist?(APPENDIX)
+    list += File.read(APPENDIX).scan(/^- \*\*([^*]+)\*\*:/).flatten
+                .flat_map { |s| s.split('/') }.map(&:strip)
+                .flat_map { |s| s.scan(/[A-Za-z][A-Za-z'.\- ]{2,}|[A-Za-z]+/) }
+                .map(&:strip)
+  end
+  list += File.read(APPENDIX_OUT).scan(/data-pw="([^"]+)"/).flatten if File.exist?(APPENDIX_OUT)
+  list
+end
 PASSWORDS = %w[
   hardcap easyhms allfieldapp litemode nuzlocke randomizer noitems nodamagerolls
   nodamageroll fullevs monoelectric mononormal weathermod stopitems leveloffset

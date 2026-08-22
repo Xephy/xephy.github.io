@@ -4,7 +4,7 @@ permalink: /reborn/all/
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年8月22日 19:40 GMT</h5>
+<h5> 最終更新 2026年8月22日 19:54 GMT</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/">エピソードごとに読む</a> / <a href="/reborn/pokemon/">ポケモンの出現場所</a> / <a href="/reborn/fields/">フィールド効果</a> / <a href="/reborn/affinity/">好感度まとめ</a></p>
 <details class="page-toc" open>
@@ -205917,117 +205917,321 @@ PP 5">つきのひかり</span><span class="move-meta"><span class="move-cat">�
 ## ものひろいの表 {#pickup-table}
 
 <div class="pickup_table"><table id="pickup-table">
-<thead><tr class="header"><th colspan="2" class="table-header" style="text-align: center;"><strong>ものひろいの確率</strong></th></tr></thead>
+<thead>
+<tr class="header"><th colspan="11" class="table-header" style="text-align: center;"><strong>ものひろいの確率</strong></th></tr>
+<tr>
+<th class="table-header pickup-item">どうぐ</th>
+<th class="table-header pickup-band">1-10</th>
+<th class="table-header pickup-band">11-20</th>
+<th class="table-header pickup-band">21-30</th>
+<th class="table-header pickup-band">31-40</th>
+<th class="table-header pickup-band">41-50</th>
+<th class="table-header pickup-band">51-60</th>
+<th class="table-header pickup-band">61-70</th>
+<th class="table-header pickup-band">71-80</th>
+<th class="table-header pickup-band">81-90</th>
+<th class="table-header pickup-band">91-100</th>
+</tr>
+</thead>
 <tbody>
 <tr>
-<td style="text-align: center"><em>シルバースプレー</em></td>
-<td>- 30%: Lv. 21-30
-- 10%: Lv. 1-20</td>
+<td class="pickup-item"><em>シルバースプレー</em></td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-30">30%</td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
 </tr>
 <tr>
-<td style="text-align: center"><em>ゴールドスプレー</em></td>
-<td>- 30%: Lv. 81-90
-- 10%: Lv. 21-80
-- 4%: Lv. 1-20</td>
+<td class="pickup-item"><em>ゴールドスプレー</em></td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-30">30%</td>
+<td class="pickup-band"></td>
 </tr>
 <tr>
-<td style="text-align: center"><em>きんのたま</em></td>
-<td>- 1%: Lv. 1-30</td>
+<td class="pickup-item"><em>きんのたま</em></td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
 </tr>
 <tr>
-<td style="text-align: center"><em>でかいきんのたま</em></td>
-<td>- 4%: Lv. 81-100
-- 1%: Lv. 61-80</td>
+<td class="pickup-item"><em>でかいきんのたま</em></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-4">4%</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>ハートのウロコ</em></td>
-<td>- 10%: Lv. 71-100
-- 4%: Lv. 51-90</td>
+<td class="pickup-item"><em>ハートのウロコ</em></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>しあわせタマゴ</em></td>
-<td>- 1%: Lv. 81-100</td>
+<td class="pickup-item"><em>しあわせタマゴ</em></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-1">1%</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>たべのこし</em></td>
-<td>- 1%: Lv. 71-100</td>
+<td class="pickup-item"><em>たべのこし</em></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-1">1%</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>かいふくのくすり</em></td>
-<td>- 30%: Lv. 91-100
-- 10%: Lv. 31-90
-- 4%: Lv. 11-30</td>
+<td class="pickup-item"><em>かいふくのくすり</em></td>
+<td class="pickup-band"></td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-30">30%</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>せいなるはい</em></td>
-<td>- 4%: Lv. 91-100</td>
+<td class="pickup-item"><em>せいなるはい</em></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band pickup-odds-4">4%</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>げんきのかけら</em></td>
-<td>- 10%: Lv. 41-100
-- 4%: Lv. 21-40</td>
+<td class="pickup-item"><em>げんきのかけら</em></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>ピーピーエイド</em></td>
-<td>- 10%: Lv. 51-100
-- 4%: Lv. 31-50</td>
+<td class="pickup-item"><em>ピーピーエイド</em></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>ポイントアップ</em></td>
-<td>- 10%: Lv. 61-100
-- 4%: Lv. 41-60</td>
+<td class="pickup-item"><em>ポイントアップ</em></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>ふしぎなアメ</em></td>
-<td>- 1%: Lv. 21-60</td>
+<td class="pickup-item"><em>ふしぎなアメ</em></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
 </tr>
 <tr>
-<td style="text-align: center"><em>スーパーボール</em></td>
-<td>- 30%: Lv. 11-20
-- 10%: Lv. 1-10</td>
+<td class="pickup-item"><em>スーパーボール</em></td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-30">30%</td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
 </tr>
 <tr>
-<td style="text-align: center"><em>ダークボール</em></td>
-<td>- 30%: Lv. 61-70
-- 10%: Lv. 1-60</td>
+<td class="pickup-item"><em>ダークボール</em></td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-30">30%</td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
 </tr>
 <tr>
-<td style="text-align: center"><em>オレンのみ</em></td>
-<td>- 30%: Lv. 1-10</td>
+<td class="pickup-item"><em>オレンのみ</em></td>
+<td class="pickup-band pickup-odds-30">30%</td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
 </tr>
 <tr>
-<td style="text-align: center"><em>チョコアイス</em></td>
-<td>- 30%: Lv. 41-50
-- 10%: Lv. 1-40</td>
+<td class="pickup-item"><em>チョコアイス</em></td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-30">30%</td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
 </tr>
 <tr>
-<td style="text-align: center"><em>きのみアイス</em></td>
-<td>- 1%: Lv. 1-20</td>
+<td class="pickup-item"><em>きのみアイス</em></td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
 </tr>
 <tr>
-<td style="text-align: center"><em>とくせいカプセル</em></td>
-<td>- 10%: Lv. 81-100
-- 4%: Lv. 61-80</td>
+<td class="pickup-item"><em>とくせいカプセル</em></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
 </tr>
 <tr>
-<td style="text-align: center"><em>ポケスナック</em></td>
-<td>- 30%: Lv. 31-40
-- 10%: Lv. 1-30</td>
+<td class="pickup-item"><em>ポケスナック</em></td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-30">30%</td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
 </tr>
 <tr>
-<td style="text-align: center"><em>ばくはつのこな</em></td>
-<td>- 30%: Lv. 51-60
-- 10%: Lv. 1-50</td>
+<td class="pickup-item"><em>ばくはつのこな</em></td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-30">30%</td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
 </tr>
 <tr>
-<td style="text-align: center"><em>ブルームーンアイス</em></td>
-<td>- 1%: Lv. 31-70</td>
+<td class="pickup-item"><em>ブルームーンアイス</em></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band pickup-odds-1">1%</td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
 </tr>
 <tr>
-<td style="text-align: center"><em>すごいキズぐすり</em></td>
-<td>- 30%: Lv. 71-80
-- 10%: Lv. 11-70
-- 4%: Lv. 1-10</td>
+<td class="pickup-item"><em>すごいキズぐすり</em></td>
+<td class="pickup-band pickup-odds-4">4%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-10">10%</td>
+<td class="pickup-band pickup-odds-30">30%</td>
+<td class="pickup-band"></td>
+<td class="pickup-band"></td>
 </tr>
 </tbody>
 </table></div>
@@ -206444,6 +206648,20 @@ PP 5">つきのひかり</span><span class="move-meta"><span class="move-cat">�
 
 ## パスワード全一覧 {#full-password-list}
 
+
+<div class="ref-filter pw-filter" hidden>
+  <div class="ref-filter-line">
+    <input type="search" id="pw-q" class="ref-search" autocomplete="off"
+           placeholder="パスワード名・効果で絞る">
+    <span class="ref-count" role="status" aria-live="polite"></span>
+  </div>
+  <div class="ref-filter-line ref-chips" data-group="cats">
+    <span class="ref-chip-label">分類</span><button type="button" class="ref-chip pw-chip" data-value="monorun-passwords">単タイプ縛り<span>18</span></button><button type="button" class="ref-chip pw-chip" data-value="quality-of-life-passwords">快適化<span>19</span></button><button type="button" class="ref-chip pw-chip" data-value="difficulty-passwords">難易度<span>20</span></button><button type="button" class="ref-chip pw-chip" data-value="shenanigan-passwords">お遊び<span>21</span></button><button type="button" class="ref-chip pw-chip" data-value="field-effect-passwords">フィールド効果<span>43</span></button><button type="button" class="ref-chip pw-chip" data-value="bulk-passwords">まとめパスワード<span>9</span></button>
+  </div>
+  <div class="ref-filter-line">
+    <button type="button" class="ref-reset">条件を外す</button>
+  </div>
+</div>
 この一覧は、一度ゲームを最後まで遊ぶまで読まないことをおすすめします。初回プレイには readme に載っているパスワードでたいてい十分ですし、この一覧はかなり網羅的で、ゲーム内容の一部を明かしてしまうからです。ともあれ、すべてのパスワードとその効果を以下に挙げます。
 
 ### 単タイプ縛りのパスワード {#monorun-passwords}
@@ -206538,44 +206756,47 @@ PP 5">つきのひかり</span><span class="move-meta"><span class="move-cat">�
 
 ### フィールド効果のパスワード {#field-effect-passwords}
 
-- **nofield**: すべてのバトルがフィールドなしで行われます。
-- **eleterrain**: すべてのバトルがエレキフィールドで行われます。
-- **grassterrain**: すべてのバトルがグラスフィールドで行われます。
-- **mistterrain**: すべてのバトルがミストフィールドで行われます。
-- **darkcrystal**: すべてのバトルが暗黒クリスタルのどうくつで行われます。
-- **chessboard**: すべてのバトルがチェスボードで行われます。
-- **bigtop**: すべてのバトルがサーカステントで行われます。
-- **burning**: すべてのバトルが燃えるフィールドで行われます。
-- **swamp**: すべてのバトルが沼地フィールドで行われます。
-- **rainbow**: すべてのバトルが虹のフィールドで行われます。
-- **corrosive**: すべてのバトルが腐食フィールドで行われます。
-- **corromist**: すべてのバトルが腐食ミストフィールドで行われます。
-- **desert**: すべてのバトルが砂漠フィールドで行われます。
-- **icy**: すべてのバトルが氷のフィールドで行われます。
-- **rocky**: すべてのバトルが岩場フィールドで行われます。
-- **forest**: すべてのバトルが森林フィールドで行われます。
-- **superheated**: すべてのバトルが超高温フィールドで行われます。
-- **factory**: すべてのバトルが工場フィールドで行われます。
-- **shortcircuit**: すべてのバトルがショートフィールドで行われます。
-- **wasteland**: すべてのバトルが荒野で行われます。
-- **ashenbeach**: すべてのバトルが灰の浜辺で行われます。
-- **watersurface**: すべてのバトルが水面で行われます。
-- **underwater**: すべてのバトルが水中で行われます。
-- **cave**: すべてのバトルがどうくつで行われます。
-- **glitch**: すべてのバトルがグリッチフィールドで行われます。
-- **crystal**: すべてのバトルがクリスタルのどうくつで行われます。
-- **murkwater**: すべてのバトルが濁った水面で行われます。
-- **mountain**: すべてのバトルが山で行われます。
-- **snowy**: すべてのバトルが雪山で行われます。
-- **holy**: すべてのバトルが聖なるフィールドで行われます。
-- **mirror**: すべてのバトルがミラーアリーナで行われます。
-- **fairytale**: すべてのバトルがおとぎ話フィールドで行われます。
-- **dragonsden**: すべてのバトルがりゅうのあなで行われます。
-- **flowergarden**: すべてのバトルが花畑フィールドで行われます。
-- **starlight**: すべてのバトルが星空アリーナで行われます。
-- **newworld**: すべてのバトルが新世界で行われます。
-- **inverse**: すべてのバトルが反転フィールドで行われます。
-- **psychterrain**: すべてのバトルがサイコフィールドで行われます。
+<div class="pw-table-wrap"><table class="pw-table">
+<thead><tr><th>パスワード</th><th>フィールド</th></tr></thead>
+<tr data-pw="nofield"><td class="pw-name"><strong>nofield</strong></td><td class="pw-field">フィールドなし</td></tr>
+<tr data-pw="eleterrain"><td class="pw-name"><strong>eleterrain</strong></td><td class="pw-field"><a href="/reborn/fields/#field-electerrain">エレキフィールド</a></td></tr>
+<tr data-pw="grassterrain"><td class="pw-name"><strong>grassterrain</strong></td><td class="pw-field"><a href="/reborn/fields/#field-grassy">グラスフィールド</a></td></tr>
+<tr data-pw="mistterrain"><td class="pw-name"><strong>mistterrain</strong></td><td class="pw-field"><a href="/reborn/fields/#field-misty">ミストフィールド</a></td></tr>
+<tr data-pw="darkcrystal"><td class="pw-name"><strong>darkcrystal</strong></td><td class="pw-field"><a href="/reborn/fields/#field-darkcrystalcavern">暗黒クリスタルのどうくつ</a></td></tr>
+<tr data-pw="chessboard"><td class="pw-name"><strong>chessboard</strong></td><td class="pw-field"><a href="/reborn/fields/#field-chess">チェスボード</a></td></tr>
+<tr data-pw="bigtop"><td class="pw-name"><strong>bigtop</strong></td><td class="pw-field"><a href="/reborn/fields/#field-bigtop">サーカステント</a></td></tr>
+<tr data-pw="burning"><td class="pw-name"><strong>burning</strong></td><td class="pw-field"><a href="/reborn/fields/#field-burning">燃えるフィールド</a></td></tr>
+<tr data-pw="swamp"><td class="pw-name"><strong>swamp</strong></td><td class="pw-field"><a href="/reborn/fields/#field-swamp">沼地フィールド</a></td></tr>
+<tr data-pw="rainbow"><td class="pw-name"><strong>rainbow</strong></td><td class="pw-field"><a href="/reborn/fields/#field-rainbow">虹のフィールド</a></td></tr>
+<tr data-pw="corrosive"><td class="pw-name"><strong>corrosive</strong></td><td class="pw-field"><a href="/reborn/fields/#field-corrosive">腐食フィールド</a></td></tr>
+<tr data-pw="corromist"><td class="pw-name"><strong>corromist</strong></td><td class="pw-field"><a href="/reborn/fields/#field-corrosivemist">腐食ミストフィールド</a></td></tr>
+<tr data-pw="desert"><td class="pw-name"><strong>desert</strong></td><td class="pw-field"><a href="/reborn/fields/#field-desert">砂漠フィールド</a></td></tr>
+<tr data-pw="icy"><td class="pw-name"><strong>icy</strong></td><td class="pw-field"><a href="/reborn/fields/#field-icy">氷のフィールド</a></td></tr>
+<tr data-pw="rocky"><td class="pw-name"><strong>rocky</strong></td><td class="pw-field"><a href="/reborn/fields/#field-rocky">岩場フィールド</a></td></tr>
+<tr data-pw="forest"><td class="pw-name"><strong>forest</strong></td><td class="pw-field"><a href="/reborn/fields/#field-forest">森林フィールド</a></td></tr>
+<tr data-pw="superheated"><td class="pw-name"><strong>superheated</strong></td><td class="pw-field"><a href="/reborn/fields/#field-superheated">超高温フィールド</a></td></tr>
+<tr data-pw="factory"><td class="pw-name"><strong>factory</strong></td><td class="pw-field"><a href="/reborn/fields/#field-factory">工場フィールド</a></td></tr>
+<tr data-pw="shortcircuit"><td class="pw-name"><strong>shortcircuit</strong></td><td class="pw-field"><a href="/reborn/fields/#field-shortcircuit">ショートフィールド</a></td></tr>
+<tr data-pw="wasteland"><td class="pw-name"><strong>wasteland</strong></td><td class="pw-field"><a href="/reborn/fields/#field-wasteland">荒野</a></td></tr>
+<tr data-pw="ashenbeach"><td class="pw-name"><strong>ashenbeach</strong></td><td class="pw-field"><a href="/reborn/fields/#field-ashenbeach">灰の浜辺</a></td></tr>
+<tr data-pw="watersurface"><td class="pw-name"><strong>watersurface</strong></td><td class="pw-field"><a href="/reborn/fields/#field-watersurface">水面</a></td></tr>
+<tr data-pw="underwater"><td class="pw-name"><strong>underwater</strong></td><td class="pw-field"><a href="/reborn/fields/#field-underwater">水中</a></td></tr>
+<tr data-pw="cave"><td class="pw-name"><strong>cave</strong></td><td class="pw-field"><a href="/reborn/fields/#field-cave">どうくつ</a></td></tr>
+<tr data-pw="glitch"><td class="pw-name"><strong>glitch</strong></td><td class="pw-field"><a href="/reborn/fields/#field-glitch">グリッチフィールド</a></td></tr>
+<tr data-pw="crystal"><td class="pw-name"><strong>crystal</strong></td><td class="pw-field"><a href="/reborn/fields/#field-crystalcavern">クリスタルのどうくつ</a></td></tr>
+<tr data-pw="murkwater"><td class="pw-name"><strong>murkwater</strong></td><td class="pw-field"><a href="/reborn/fields/#field-murkwatersurface">濁った水面</a></td></tr>
+<tr data-pw="mountain"><td class="pw-name"><strong>mountain</strong></td><td class="pw-field"><a href="/reborn/fields/#field-mountain">山</a></td></tr>
+<tr data-pw="snowy"><td class="pw-name"><strong>snowy</strong></td><td class="pw-field"><a href="/reborn/fields/#field-snowymountain">雪山</a></td></tr>
+<tr data-pw="holy"><td class="pw-name"><strong>holy</strong></td><td class="pw-field"><a href="/reborn/fields/#field-holy">聖なるフィールド</a></td></tr>
+<tr data-pw="mirror"><td class="pw-name"><strong>mirror</strong></td><td class="pw-field"><a href="/reborn/fields/#field-mirror">ミラーアリーナ</a></td></tr>
+<tr data-pw="fairytale"><td class="pw-name"><strong>fairytale</strong></td><td class="pw-field"><a href="/reborn/fields/#field-fairytale">おとぎ話フィールド</a></td></tr>
+<tr data-pw="dragonsden"><td class="pw-name"><strong>dragonsden</strong></td><td class="pw-field"><a href="/reborn/fields/#field-dragonsden">りゅうのあな</a></td></tr>
+<tr data-pw="flowergarden"><td class="pw-name"><strong>flowergarden</strong></td><td class="pw-field"><a href="/reborn/fields/#field-flowergarden">花畑フィールド</a></td></tr>
+<tr data-pw="starlight"><td class="pw-name"><strong>starlight</strong></td><td class="pw-field"><a href="/reborn/fields/#field-starlight">星空アリーナ</a></td></tr>
+<tr data-pw="newworld"><td class="pw-name"><strong>newworld</strong></td><td class="pw-field"><a href="/reborn/fields/#field-newworld">新世界</a></td></tr>
+<tr data-pw="inverse"><td class="pw-name"><strong>inverse</strong></td><td class="pw-field"><a href="/reborn/fields/#field-inverse">反転フィールド</a></td></tr>
+<tr data-pw="psychterrain"><td class="pw-name"><strong>psychterrain</strong></td><td class="pw-field"><a href="/reborn/fields/#field-psyterrain">サイコフィールド</a></td></tr>
+</table></div>
 
 これらのパスワードは何個でも組み合わせて使え、ゲームはその一覧から選びます。たとえば watersurface と newworld を併用すると、毎回のバトルがこの2つのフィールドのいずれかでランダムに行われます。次のパスワードで、あらかじめ決められた組から選ばせることもできます。
 

@@ -1,6 +1,7 @@
 require_relative 'common'
 require_relative 'chapter_nav'
 require_relative 'affinity'
+require_relative 'password_filter'
 require_relative 'affinity_index'
 require_relative 'field_notes'
 require_relative 'doc_context'
@@ -201,7 +202,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
         res << function_result
       end
     end
-    Spoiler.apply(Affinity.apply(res.join, LONGNAMES[game]))
+    Spoiler.apply(Affinity.apply(PasswordFilter.apply(res.join, LONGNAMES[game]), LONGNAMES[game]))
   end
 
   def generate_intelligent_slug(title, chapter_type, chapter_num)

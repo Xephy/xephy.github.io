@@ -1,4 +1,5 @@
 require 'json'
+require_relative 'field_notes'
 
 require_relative 'common'
 require_relative 'encounter_getter'
@@ -58,6 +59,7 @@ class FunctionWrapper
       'partner' => 'generate_partner_markdown',
       'newself' => 'generate_newself_markdown',
       'pickup' => 'generate_pickup_markdown',
+      'fieldpw' => 'generate_field_password_markdown',
       'boss' => 'generate_boss_markdown',
       'move' => 'generate_move_markdown',
       'raid' => 'generate_raid_den_markdown'
@@ -91,6 +93,58 @@ class FunctionWrapper
     dim = size ? %( width="#{size[0]}" height="#{size[1]}") : ''
     %(<img class="tabImage" src="/assets/images/#{@game}/#{name}"#{dim} ) +
       %(loading="lazy" decoding="async" alt="#{JaNames.ui('Map')}"/>)
+  end
+
+  # フィールドを固定するパスワードの一覧。
+  #
+  # 生の原稿では「すべてのバトルが○○で行われます」が38行続いていた。同じ文の
+  # 繰り返しで読めたものではないうえ、そのフィールドが何をするのかは別ページに
+  # あるのに繋がっていなかった。
+  #
+  # パスワードとフィールドの対応はゲーム側で決まっている。PASSWORD_HASH の
+  # 2250 が「フィールドなし」で、2251 以降は fieldtext.rb の並び (屋内を除き、
+  # 花畑の5段階は1本) にそのまま対応する。付録に元からあった37行の訳文と
+  # 突き合わせて、全件一致することを確認済み。
+  FIELD_PW_FIRST = 2250
+
+  def generate_field_password_markdown
+    src_path = File.join(@scriptsDir, 'Reborn', 'RebornScripts.rb')
+    return '' unless File.exist?(src_path)
+
+    hash = File.read(src_path)[/^PASSWORD_HASH = \{.*?^\}/m].to_s
+    pws = hash.scan(/"([^"]+)"\s*=>\s*(\d+),/).map { |k, v| [k, v.to_i] }
+              .select { |_, v| v.between?(FIELD_PW_FIRST, FIELD_PW_FIRST + 37) }
+    return '' if pws.empty?
+
+    names = FieldNotes.names(@scriptsDir)
+    seen = {}
+    keys = names.keys.reject { |k| k == 'INDOOR' }.reject { |k|
+      n = names[k]
+      dup = seen[n]
+      seen[n] = true
+      dup
+    }
+
+    rows = pws.sort_by(&:last).map do |name, sw|
+      if sw == FIELD_PW_FIRST
+        label = JaNames.ui('No Field')
+      else
+        key = keys[sw - FIELD_PW_FIRST - 1]
+        next unless key
+
+        label = %(<a href="/#{LONGNAMES[@game]}/fields/##{FieldNotes.anchor(key.to_sym)}">) +
+                %(#{FieldNotes.display_name(key.to_sym, names)}</a>)
+      end
+      %(<tr data-pw="#{name}"><td class="pw-name"><strong>#{name}</strong></td>) +
+        %(<td class="pw-field">#{label}</td></tr>)
+    end.compact
+
+    <<~TABLE.strip
+      <div class="pw-table-wrap"><table class="pw-table">
+      <thead><tr><th>#{JaNames.ui('Password')}</th><th>#{JaNames.ui('Field')}</th></tr></thead>
+      #{rows.join("\n")}
+      </table></div>
+    TABLE
   end
 
   def generate_mining_markdown
@@ -229,61 +283,76 @@ class FunctionWrapper
     html_output.split("\n")[1..].join("\n")
   end
 
+  # ものひろいの表。
+  #
+  # 元は「アイテム名 | - 30%: Lv. 21-30 / - 10%: Lv. 1-20」と、1つのセルに
+  # 確率とレベル帯を積んでいた。読者が知りたいのは逆で「Lv.45 の手持ちで
+  # 何が拾えるか」なので、レベル帯を列にした行列にする。
+  #
+  # ゲームのデータはレベル帯が必ず10刻みで揃っている (実測: 41組すべて)。
+  # 帯は10本、どの帯にもちょうど10〜11品目が並ぶ。
+  PICKUP_BANDS = (1..91).step(10).map { |lo| [lo, lo + 9] }.freeze
+
   def generate_pickup_markdown
     pickup_data = load_pickup_data(@game, @scriptsDir)
-  
+
     doc = Nokogiri::HTML::Document.new
     doc.encoding = 'UTF-8'
     div = doc.create_element('div', class: 'pickup_table')
     doc.add_child(div)
-  
+
     table = doc.create_element('table', id: 'pickup-table')
     div.add_child(table)
-  
-    # Create the header for the table
+
     thead = doc.create_element('thead')
     table.add_child(thead)
-  
-    header_row = doc.create_element('tr', class: 'header')
-    thead.add_child(header_row)
-  
-    # Single header for Pickup Odds
-    table_header = doc.create_element('th', colspan: 2)
-    table_header.add_child(doc.create_element('strong', JaNames.ui('Pickup Odds')))
-    table_header['class'] = 'table-header'
-    table_header['style'] = 'text-align: center;'
-    header_row.add_child(table_header)
-  
+
+    title_row = doc.create_element('tr', class: 'header')
+    thead.add_child(title_row)
+    title_th = doc.create_element('th', colspan: PICKUP_BANDS.length + 1,
+                                       class: 'table-header', style: 'text-align: center;')
+    title_th.add_child(doc.create_element('strong', JaNames.ui('Pickup Odds')))
+    title_row.add_child(title_th)
+
+    head_row = doc.create_element('tr')
+    thead.add_child(head_row)
+    th_item = doc.create_element('th', class: 'table-header pickup-item')
+    th_item.content = JaNames.ui('Item')
+    head_row.add_child(th_item)
+    PICKUP_BANDS.each do |lo, hi|
+      th = doc.create_element('th', class: 'table-header pickup-band')
+      th.content = "#{lo}-#{hi}"
+      head_row.add_child(th)
+    end
+
     tbody = doc.create_element('tbody')
     table.add_child(tbody)
-  
-    # Sort entries by the order in item hash
-    sorted_pickup_data = pickup_data.sort_by { |item, _| @itemHash.keys.index(item) }
-  
-    # Iterate over each item in the sorted pickup data
-    sorted_pickup_data.each do |item, odds_hash|
-      content_row = doc.create_element('tr')
-      tbody.add_child(content_row)
-  
-      # Column 1: Item Name (italicized)
-      td_item = doc.create_element('td', style: 'text-align: center')
+
+    sorted = pickup_data.sort_by { |item, _| @itemHash.keys.index(item) }
+    sorted.each do |item, odds_hash|
+      row = doc.create_element('tr')
+      tbody.add_child(row)
+
+      td_item = doc.create_element('td', class: 'pickup-item')
       td_item.add_child(doc.create_element('em', @itemHash[item][:name]))
-      content_row.add_child(td_item)
-  
-      # Column 2: Odds and Level Ranges
-      odds_string = odds_hash.map do |odds, range|
-        "- #{odds}%: Lv. #{range[0]}-#{range[1]}"
-      end.join("\n")
-  
-      td_odds = doc.create_element('td')
-      td_odds.content = odds_string
-      content_row.add_child(td_odds)
+      row.add_child(td_item)
+
+      PICKUP_BANDS.each do |lo, hi|
+        odds = odds_hash.find { |_, range| range[0] <= lo && hi <= range[1] }&.first
+        td = doc.create_element('td', class: 'pickup-band')
+        if odds
+          # 4段階しかないので、濃さで段を示すと縦にも横にも読める。
+          td['class'] = "pickup-band pickup-odds-#{odds}"
+          td.content = "#{odds}%"
+        end
+        row.add_child(td)
+      end
     end
-  
+
     html_output = doc.to_html(encoding: 'UTF-8')
-    html_output.split("\n")[1..].join("\n")  # Format output similar to your example
+    html_output.split("\n")[1..].join("\n")
   end
-  
+
   def generate_encounter_markdown(map_id, include_list = nil, rods = nil, custom_map_name = nil)
     @encGetter.get_encounter_md(map_id, include_list, rods, custom_map_name)
   end
