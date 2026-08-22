@@ -1117,6 +1117,159 @@ body.night-mode div#quote {
 .affinity-delta.is-mixed { background: #fbeed8; color: #7c5310; }
 .affinity-delta.is-none  { background: #e6eaee; color: #4f5a64; }
 
+/* ラベルは本文228箇所から好感度まとめページへの入口になっている。カードの
+   見出しと同じ色に留めて、青いリンクが唐突に浮かないようにする。 */
+#main_content .affinity-label strong a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted #7d9cba;
+}
+
+#main_content .affinity-label strong a:hover,
+#main_content .affinity-label strong a:focus-visible { border-bottom-style: solid; }
+
+/*******************************************************************************
+好感度まとめページ (/reborn/affinity/)
+*******************************************************************************/
+
+/* 資料ページから本文へ戻る導線。章ナビが無いページなので先頭に置く。 */
+#main_content .ref-back {
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+/* 終盤の人物名が並ぶページなので、注意書きは本文と同じ濃さでは足りない。 */
+#main_content .affinity-warning {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  padding: 10px 14px;
+  background: #fdf3e3;
+  border-left: 4px solid #c47f1a;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* 人物35名分の飛び先。縦に積むと本文が遠くなるので、札を敷き詰める。 */
+.affinity-jump {
+  margin: 18px 0 26px;
+  padding: 12px 14px;
+  border: 1px solid #dde2e8;
+  border-radius: 6px;
+  background: #f7f9fb;
+}
+
+.affinity-jump ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.affinity-jump li { margin: 0; }
+
+.affinity-jump a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  padding: 3px 10px;
+  border: 1px solid #cfd8e2;
+  border-radius: 999px;
+  background: #ffffff;
+  font-size: 13.5px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.affinity-jump a:hover { background: #eaf1f8; border-color: #9bb4cc; }
+
+/* 選択肢の件数。名前より一段落として、名前の読み取りを邪魔しない。 */
+.affinity-jump a span {
+  color: #687381;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 4列のうち左端 (章・節) と右2列は短いので、選択肢の文章に幅を回す。 */
+#main_content .affinity-table { margin: 12px 0 30px; }
+#main_content .affinity-table th:first-child,
+#main_content .affinity-table td:first-child { width: 22%; }
+#main_content .affinity-table th:nth-child(3),
+#main_content .affinity-table td:nth-child(3) { width: 6em; }
+
+/* 表の中の札は本文中より詰めて置く。行の高さを上げたくない。 */
+#main_content .affinity-table .affinity-delta { margin-left: 0; }
+#main_content .affinity-table th:nth-child(4),
+#main_content .affinity-table td:nth-child(4) { width: 20%; }
+
+/* 「初回のみ」のような但し書き。増減の数字と混ざらないように落とす。 */
+.affinity-note {
+  display: block;
+  color: #687381;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+body.night-mode #main_content .affinity-warning {
+  background: #33291a;
+  border-left-color: #a9761f;
+}
+
+body.night-mode .affinity-jump {
+  background: #1c1f24;
+  border-color: #33383f;
+}
+
+body.night-mode .affinity-jump a {
+  background: #23272e;
+  border-color: #3c434c;
+}
+
+body.night-mode .affinity-jump a:hover { background: #2b323a; border-color: #55606c; }
+body.night-mode .affinity-jump a span,
+body.night-mode .affinity-note { color: #8b95a3; }
+body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6d8199; }
+
+/*******************************************************************************
+資料ページへの動線
+*******************************************************************************/
+
+/* 章ナビの最下段。全29章 × 上下に出るので、前後移動より一段弱く見せる。 */
+.chapter-nav-ref {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+  border-top: 1px solid #dddddd;
+  padding-top: 8px;
+}
+
+.chapter-nav-ref-label {
+  font-weight: bold;
+  color: #4f5a64;
+}
+
+.chapter-nav-ref ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chapter-nav-ref li { margin: 0; }
+
+/* 目次ページの資料セクション。章と同じ体裁だと29枚に埋もれる。 */
+.book-toc-ref h3 { border-bottom-color: #2b6cb0; }
+
+body.night-mode .chapter-nav-ref { border-top-color: #424242; }
+body.night-mode .chapter-nav-ref-label { color: #a4aeb8; }
+
 /*******************************************************************************
 Chapter navigation (Japanese split-by-episode pages)
 *******************************************************************************/

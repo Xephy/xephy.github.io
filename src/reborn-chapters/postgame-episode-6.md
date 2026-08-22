@@ -41,6 +41,10 @@ permalink: /reborn/postgame-episode-6/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -665,7 +669,7 @@ PP 30">しんくうは</span><span class="move-meta"><span class="move-cat">特�
 道をたどって洞窟を出て、深林へ入ります。隠された *ノーマルジュエル* を拾い、段差を飛び降ります。左の橋を渡ると、ファーンが檻に閉じ込められます。檻の上のレバーのところで――
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - すぐにファーンを出してやる <span class="affinity-delta is-up">+1 ファーン</span>
@@ -4517,7 +4521,7 @@ PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">�
 勝つと *アクアカセット* が手に入ります。中央へ戻り、そこから上へ進んで、よければハーディに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ネオブラックスチーム製造所でアヤと一緒にいるハーディに話しかける <span class="affinity-delta is-up">+1 アヤ</span>
@@ -4781,7 +4785,7 @@ PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">�
 大きな丘の右側を回り込みます。ここには登れる階段が見えます。頂上まで進んでください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - イヴを止めることに同意する <span class="affinity-delta is-up">+1 ルミ</span>
@@ -8128,7 +8132,7 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 さて、フィールドは即座に *グラスフィールド* に変わり、そのあと *ねっぷう* と *ふんか* でおそらく燃えるフィールドになります。カプ・ブルルさえ倒せれば、いわ技・みず技・じめん技で簡単に片付きます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - パイロスでソラリスを倒し、かつレシラムルートで、聖域のクエストを完了する <span class="affinity-delta is-up">+2 ルナ</span>
@@ -8140,7 +8144,7 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 ついでに、レシラムルートの場合、タカが自分のペラップを見せてほしいと頼んできます。これはチャンピオンロードで手に入れています。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - レシラムルートでタカに彼のペラップを見せる <span class="affinity-delta is-up">+2 タカ</span>
@@ -10024,4 +10028,8 @@ PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物�
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

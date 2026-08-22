@@ -41,6 +41,10 @@ permalink: /reborn/episode-19/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -149,24 +153,24 @@ permalink: /reborn/episode-19/
 カルセノンシティへ飛びます。街の西側にいるハーディに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - メテオ団と戦う準備ができたとハーディに伝える <span class="affinity-delta is-up">+1 ハーディ</span>
 - メテオ団と戦う準備ができていないとハーディに伝える <span class="affinity-delta is-down">-1 ハーディ</span>
-- ベネットを信じるとハーディに伝える <span class="affinity-delta is-mixed">+2 ベネット, +2 ローラ, +1 イヴ, -2 サファイラ</span>
-- ベネットを信じないとハーディに伝える <span class="affinity-delta is-mixed">+2 サファイラ, -2 ベネット, -1 ローラ</span>
+- ベネットを信じるとハーディに伝える <span class="affinity-delta is-mixed">+2 ベネット、+2 ローラ、+1 イヴ、-2 サファイラ</span>
+- ベネットを信じないとハーディに伝える <span class="affinity-delta is-mixed">+2 サファイラ、-2 ベネット、-1 ローラ</span>
 {: .affinity-list}
 
 
 会話が終わると操作に戻ります。好感度のために交わせる任意の会話がまだあります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- 物語の集合住宅でシャルロットに話しかけ「はい」と答える <span class="affinity-delta is-mixed">+1 サファイラ, -1 ローラ</span>
-- 物語の集合住宅でシャルロットに話しかけ「いいえ」と答える <span class="affinity-delta is-mixed">+1 ローラ, -1 サファイラ</span>
+- 物語の集合住宅でシャルロットに話しかけ「はい」と答える <span class="affinity-delta is-mixed">+1 サファイラ、-1 ローラ</span>
+- 物語の集合住宅でシャルロットに話しかけ「いいえ」と答える <span class="affinity-delta is-mixed">+1 ローラ、-1 サファイラ</span>
 - 物語の集合住宅でシャルロットに話しかけ、Bを押して答えない <span class="affinity-delta is-up">+1 シャルロット</span>
 - カルセノンでジュリアに話しかける <span class="affinity-delta is-up">+1 ジュリア</span>
 - レシラムルートのみ: カルセノンでアマリアに話しかける <span class="affinity-delta is-down">-1 ジュリア</span>
@@ -559,7 +563,7 @@ PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat
 次のメテオだんエースを倒し、上へ進んで場面を見届けます。先へ進む前に、ポケモンセンターまで戻ってください。上そして右には、隠された *ゴールドスプレー* と、新たに開いた建物へ続く道があります。中のノエルに話しかけると *パルスの資料10* が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - このPULSEを倒す前に PULSE10 の資料を入手する <span class="affinity-delta is-up">+1 イヴ</span>
@@ -1147,11 +1151,11 @@ PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">�
 上へ進み、この建物の奥に誰がいるのかを確かめましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- レシラムルートのみ: ソラリスに死んでほしいと伝える <span class="affinity-delta is-mixed">+1 ヴィクトリア, -1 キャル</span>
-- レシラムルートのみ: ソラリスに死んでほしくないと伝える <span class="affinity-delta is-mixed">+1 キャル, -1 ヴィクトリア</span>
+- レシラムルートのみ: ソラリスに死んでほしいと伝える <span class="affinity-delta is-mixed">+1 ヴィクトリア、-1 キャル</span>
+- レシラムルートのみ: ソラリスに死んでほしくないと伝える <span class="affinity-delta is-mixed">+1 キャル、-1 ヴィクトリア</span>
 {: .affinity-list}
 
 
@@ -1346,7 +1350,7 @@ PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物�
 隠された *あおいかけら* と *やけどなおし* を拾ったら上へ進みます。近くの開いた建物に入るとシグムンドが逃げていきます。奥の緑のケースを開けると *ポイントアップ* が手に入ります。外に戻って上へ進みます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - レシラムルートのみ: まだアマリアを信じていると伝える <span class="affinity-delta is-up">+1 アマリア</span>
@@ -2679,7 +2683,7 @@ PULSEブロスターがこの戦いを一段と難しくします。彼は必ず
 外に戻り、ゼクロムルートなら、よければそこから下のタカとソラリスに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ゼクロムルートのみ: PULSEブロスターのあとにタカとソラリスに話しかける <span class="affinity-delta is-up">+2 タカ</span>
@@ -2689,7 +2693,7 @@ PULSEブロスターがこの戦いを一段と難しくします。彼は必ず
 ともあれ、次は街の中央へ向かいます。この場面のあと、街の左下側へ向かってください。下部の建物への道が開いています。隠された *クリティカット* を拾って中に入ります。中のイヴに話しかけると、よければ次に控えるPULSE戦の情報を教えてくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 次のPULSE戦についてイヴに聞く <span class="affinity-delta is-up">+1 イヴ</span>
@@ -3276,7 +3280,7 @@ LCCC から上そして右の建物、以前シグムンドが逃げていった
 - トーナメントは間違っていないと思うとヴィクトリアに伝える (-1 ヴィクトリア)
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 放っておいてと言われたあとに、もう一度ティタニアに話しかける <span class="affinity-delta is-down">-1 ティタニア</span>
@@ -4152,7 +4156,7 @@ PP 20">くさむすび</span><span class="move-meta"><span class="move-cat">特�
 突破したら、道をたどって次のエリアへ進みます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - レシラムルートかつ主人公が男性の場合のみ: キャルに話しかける <span class="affinity-delta is-up">+1 キャル</span>
@@ -4616,7 +4620,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 左手のサファイラのジムに入り、隅にいる彼女に話しかけます。次にジムの構造を把握し、中にある隠された *クイックボール*、*ハートのウロコ*、*ポイントマックス* を拾ってください。エリアの最上部へ進み、宝箱に話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 {: .affinity-list}
@@ -5100,7 +5104,7 @@ PP 15">ほのおのキバ</span><span class="move-meta"><span class="move-cat">�
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 宝箱の試練に初回で失敗する <span class="affinity-delta is-down">-1 サファイラ</span>
@@ -9631,7 +9635,7 @@ PP 20">おいうち</span><span class="move-meta"><span class="move-cat">物理<
 <img class="tabImage" src="/assets/images/reborn/vr_puzzle_4.webp" width="1905" height="312" loading="lazy" decoding="async" alt="攻略図"/>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 論理パズル4を5回以内で解く <span class="affinity-delta is-up">+1 ラドマス</span>
@@ -11880,7 +11884,7 @@ PP 10">ぼうふう</span><span class="move-meta"><span class="move-cat">特殊<
 準備ができたら次の部屋へ入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイクの邪魔をすると伝える <span class="affinity-delta is-down">-1 ブレイク</span>
@@ -14164,7 +14168,7 @@ PP 15">めざめるパワー (いわ)</span><span class="move-meta"><span class=
 いっそフィールドごと変えてしまう手もあります。晴れにすればしばらく虹のフィールドになるので、そちらを軸にした戦略を組んでも構いません。ただ、それ以上に有効なのが燃えるフィールドです。雨のせいで燃えるフィールドには変えられず、砂でも同様です。少し手間はかかりますが、*あられ*（わざマシンがあります）に続けて *ふんえん* や *ダイナミックフルフレイム*（Zクリスタルがあります）のような燃やす技を使えば成功します! 燃えるフィールドで相手の編成がどうなるかは、想像がつくでしょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アポリシスが何か知っているとベネットに伝える <span class="affinity-delta is-up">+1 ベネット</span>
@@ -15626,7 +15630,7 @@ PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">�
 そしてアルセウスです。易しいほうの版では *いのちのたま* を持っているので、毒にして *みがわり* の裏に隠れていれば、勝手に自滅するのを眺めるという愉快な手が使えます。あいにく難しいほうの版はZクリスタル持ちで、しかも積む時間も与えられないので、前の戦いで残った手持ちの切れ端で……まあ、せこい手を使うしかありません。筆者の初回は、*かそく* のサメハダーで *まもる* を2回使ってからの *みちづれ* でした。今回は *アクセルロック* で少し削ってからの *がんじょう* ＋ *メタルバースト* です。こういう戦法をせこいと呼ぶ人もいるでしょうが、種族値合計975、努力値も個体値も満載、さらにフィールド強化まで乗ったポケモンに対して、他に何ができるでしょうか。アンナルートに残りたいなら手段を選ばず2戦とも勝ち、リンルートへ進むなら1編成版だけを倒してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - リンの2連戦を制してアンナルートへ進む <span class="affinity-delta is-down">-2 テラ</span>
@@ -15676,4 +15680,8 @@ PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">�
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

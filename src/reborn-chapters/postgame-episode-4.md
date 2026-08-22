@@ -41,6 +41,10 @@ permalink: /reborn/postgame-episode-4/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -1524,7 +1528,7 @@ PP 15">めざめるパワー (ほのお)</span><span class="move-meta"><span cla
 何度も失敗すると、ベネットが代わりに解いてくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 論理パズル5を5回以内で解く <span class="affinity-delta is-up">+1 ベネット</span>
@@ -4571,7 +4575,7 @@ PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">�
 これで犯人の1人を告発できます。告発された相手は、その場でバトルを仕掛けてきます。署長に何度も話しかけて複数を告発することもできます。そのあと、バッグを確認して中にある *あいいろのたま* を「つかう」と先へ進めます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 宝珠を盗んだとしてジュリアを告発する <span class="affinity-delta is-down">-1 ジュリア</span>
@@ -7232,7 +7236,7 @@ PULSE2のメガガブリアス、*てんねん* のヌオー、硬いシロデ�
 駅に戻り、ここの一同と話します。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - テラを連れ戻すしかなかったとアドリエンヌに伝える <span class="affinity-delta is-up">+1 テラ</span>
@@ -8151,7 +8155,7 @@ PP 15">めざめるパワー (いわ)</span><span class="move-meta"><span class=
 ローラ単独との初戦は、おおむねいつもの花畑フィールドの厄介事です。とはいえフローラの編成もローラと同じくらいこのフィールドの恩恵を受けるので、フローラの編成にとっての脅威を見極めてそこだけ狙えば、あとはフローラが力仕事をこなしてくれる見込みが高いです。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 「光栄です」と答える <span class="affinity-delta is-up">+1 イライアス</span>
@@ -8830,7 +8834,7 @@ PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat
 先へ進む前に、よければベネットに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ベネットに気持ち悪いと伝える <span class="affinity-delta is-down">-1 ベネット</span>
@@ -10001,4 +10005,8 @@ PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

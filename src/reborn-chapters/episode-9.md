@@ -41,6 +41,10 @@ permalink: /reborn/episode-9/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -61,7 +65,7 @@ permalink: /reborn/episode-9/
 # エピソード9: 妹の番人 {#episode-9}
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - バトル後、ソファのセラに話しかける <span class="affinity-delta is-up">+1 セラ</span>
@@ -133,7 +137,7 @@ permalink: /reborn/episode-9/
 ベルローズ邸より先にスピネルタウンへ行った場合は、[上のタンザン入り江の節](/reborn/episode-8/#tanzan-cove)で出現ポケモンやアイテムを確認してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - セラを倒し、やくそうエキスを入手してからベルローズ邸に入る <span class="affinity-delta is-up">+1 シャルロット</span>
@@ -143,7 +147,7 @@ permalink: /reborn/episode-9/
 ともあれベルローズ邸へ向かい、上階へ上がります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - やくそうエキスを持たずにノエルに話しかける <span class="affinity-delta is-down">-1 ノエル</span>
@@ -153,7 +157,7 @@ permalink: /reborn/episode-9/
 薬をアンナに渡すと容体が良くなります。外へ出ましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ノエルがバトルを望んでいる間にシェリーに話しかける <span class="affinity-delta is-up">+1 シェリー</span>
@@ -251,7 +255,7 @@ permalink: /reborn/episode-9/
 ## ベルローズ邸の防衛 {#defending-belrose-manse}
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - サファイラに「理解できない」と伝える <span class="affinity-delta is-down">-1 サファイラ</span>
@@ -719,7 +723,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 そのあと、物語に影響する選択がもう一度あります。上階へ行くか、下階に留まるかです。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シリウス戦のあと上階へ行く <span class="affinity-delta is-mixed">+1 シャルロット、+1 シェリー、+1 ノエル、-1 サファイラ、-1 ローラ、-1 シグムンド</span>
@@ -956,7 +960,7 @@ PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat
 **限定ルートに入るには、シグムンドと戦ったあと彼を止める必要があります。**
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シグムンドと戦ったあと、彼を止めることを選ぶ <span class="affinity-delta is-mixed">+1 サファイラ、+1 シェリー、+1 シャルロット、+1 ノエル、+1 アンナ、+1 シェイド、-1 ローラ、-2 シグムンド</span>
@@ -967,7 +971,7 @@ PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat
 サファイラが連れ去られた場合は、壁に穴が開いているのも見えます。扉の代わりにこの穴から出入りできます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 壁の穴からベルローズ邸を出入りする <span class="affinity-delta is-down">-1 ローラ</span>
@@ -1638,7 +1642,7 @@ PP 15">はなふぶき</span><span class="move-meta"><span class="move-cat">物�
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ノエルとアンナが連れ去られた場合、檻の中の2人に話しかける <span class="affinity-delta is-up">+2 ノエル</span>
@@ -2683,7 +2687,7 @@ PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat
 サファイラが連れ去られていた場合は、ここにはローラと一緒に来ることになります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 深部でローラに話しかける <span class="affinity-delta is-up">+2 ローラ</span>
@@ -2822,7 +2826,7 @@ PP 10">ヘビーボンバー</span><span class="move-meta"><span class="move-cat
 またも単体のボス戦で、今回はメガ **ハガネール** です。鈍足なので特殊技で削り切れます。一撃耐えられるなら *カウンター* もよく効きます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でハガネールに勝つ <span class="affinity-delta is-up">+3 サファイラ、+1 ローラ</span>
@@ -3119,7 +3123,7 @@ PP 10">アシストパワー</span><span class="move-meta"><span class="move-cat
 いざとなれば、フィールドを *燃えるフィールド* か *腐食フィールド* に変えると、この戦いはずっと楽になります。ただしローラは、自分の花畑を壊されるのを快く思いません。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 燃えるフィールドでノエルに勝つ <span class="affinity-delta is-down">-2 ローラ</span>
@@ -3168,4 +3172,8 @@ PP 10">アシストパワー</span><span class="move-meta"><span class="move-cat
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

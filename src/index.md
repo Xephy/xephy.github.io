@@ -23,6 +23,9 @@ title: ポケモンリボーン 日本語攻略
       <a href="/reborn/episode-1/">エピソードごとに読む</a> /
       <a href="/reborn/all/">全文を1ページで読む</a>
     </p>
+    <p style="text-align:center;font-size:14px;margin-top:4px;">
+      資料: <a href="/reborn/affinity/">好感度まとめ</a>
+    </p>
   </div>
 </div>
 

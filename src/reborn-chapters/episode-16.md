@@ -41,6 +41,10 @@ permalink: /reborn/episode-16/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -78,7 +82,7 @@ permalink: /reborn/episode-16/
 大テントの外へ出ます。リボーンシティやこれまで入れなかったエリアへ飛ぶ前に、好感度をいくつか稼げます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 4番道路でハーディに話しかける <span class="affinity-delta is-up">+1 ハーディ</span>
@@ -9134,7 +9138,7 @@ PP 10">チャージビーム</span><span class="move-meta"><span class="move-cat
 5匹すべてを返したら、DJアークライトのもとへ戻ります。褒美は *メガZリング* です。つまり、これまで集めてきたZクリスタルとメガストーンをついに使えるようになります。今後さらに増えていきます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - メガZリングクエストを完了する <span class="affinity-delta is-up">+2 アークライト</span>
@@ -9150,18 +9154,18 @@ PP 10">チャージビーム</span><span class="move-meta"><span class="move-cat
 地下鉄道網に入り、線路を操作できる部屋まで進んだら、ココドラのいる部屋へ通じる上から2番目の道へ入ります。アブソルが見えたら道は合っています。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - デボンへ潜入する準備ができたとアークライトに伝える <span class="affinity-delta is-up">+1 ヴィクトリア</span>
-- デボンへ潜入する準備ができていないとアークライトに伝える <span class="affinity-delta is-down">-1 ヴィクトリア, -1 アークライト</span>
+- デボンへ潜入する準備ができていないとアークライトに伝える <span class="affinity-delta is-down">-1 ヴィクトリア、-1 アークライト</span>
 {: .affinity-list}
 
 
 準備ができたらアークとヴィクトリアに話しかけ、階段を上がって団員を倒してください。なお、どちらが相棒になるかは現時点の好感度で決まります。ヴィクトリアの値がアークライトより2ポイント以上高ければヴィクトリア、そうでなければアークライトです。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - デボン地下でヴィクトリアと組んで戦う <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -11168,11 +11172,11 @@ PP 10">げきりん</span><span class="move-meta"><span class="move-cat">物理<
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- 戦うとアークライトに伝える <span class="affinity-delta is-up">+1 ヴィクトリア, +1 アークライト</span>
-- 断るとアークライトに伝える <span class="affinity-delta is-mixed">+2 アドリエンヌ, -1 ヴィクトリア, -1 アークライト</span>
+- 戦うとアークライトに伝える <span class="affinity-delta is-up">+1 ヴィクトリア、+1 アークライト</span>
+- 断るとアークライトに伝える <span class="affinity-delta is-mixed">+2 アドリエンヌ、-1 ヴィクトリア、-1 アークライト</span>
 {: .affinity-list}
 
 
@@ -11424,11 +11428,11 @@ DJとの初戦です。でんきタイプが4匹いるぶん、工場フィー�
 モニター#2を起動し、上へ進んでモニター#3を起動したら、下へ戻ってモニター#2を切ります。あとは緑のタイル道を上へ進み、左の下側の回転盤へ入るだけで、回転盤の連鎖に運ばれていきます。モニター#4に着いたら起動し、左へ戻ります。モニター#5も同様です。先へ進む前に電気タイルを青に切り替え、長大な連鎖を上ってモニター#6へ向かいます。右へ進んでモニター#7を起動したら、上へ進みます。モニター#8を起動し、準備ができたら次の部屋へ入ってください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- ここのすべてを壊しに来たと言う <span class="affinity-delta is-down">-1 イヴ, -1 ルミ</span>
-- ここのすべてを壊しに来たのではないと言う <span class="affinity-delta is-up">+1 イヴ, +1 ルミ</span>
+- ここのすべてを壊しに来たと言う <span class="affinity-delta is-down">-1 イヴ、-1 ルミ</span>
+- ここのすべてを壊しに来たのではないと言う <span class="affinity-delta is-up">+1 イヴ、+1 ルミ</span>
 {: .affinity-list}
 
 
@@ -14273,7 +14277,7 @@ PP 10">ねむる</span><span class="move-meta"><span class="move-cat">変化</sp
 寄り道はこれで終わりなので、コーラル区へ下り、ジムのアドリエンヌに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - チャンピオンになると言う <span class="affinity-delta is-up">+1 アドリエンヌ</span>
@@ -14302,7 +14306,7 @@ PP 10">ねむる</span><span class="move-meta"><span class="move-cat">変化</sp
 好きなだけ有志を見つけたら、アドリエンヌのもとへ戻ります。10人以上で *ものしりメガネ*、15人全員なら加えて *とくせいカプセル* と *ほしのかけら* がもらえます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 有志を10〜14人見つける <span class="affinity-delta is-up">+1 アドリエンヌ</span>
@@ -14579,4 +14583,8 @@ PP 20">しぜんのちから</span><span class="move-meta"><span class="move-cat
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

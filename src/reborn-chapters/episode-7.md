@@ -41,6 +41,10 @@ permalink: /reborn/episode-7/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -825,7 +829,7 @@ PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">�
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ヴィクトリアと同行中にパイロスから出ようとする <span class="affinity-delta is-down">-2 ヴィクトリア</span>
@@ -1788,7 +1792,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 </div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - パイロスでソラリスに勝つ <span class="affinity-delta is-up">+1 カイン、+1 ヴィクトリア、+1 キャル、+1 シェイド、+1 アンナ、+3 タカ</span>
@@ -3833,7 +3837,7 @@ PP 10">かげぬい</span><span class="move-meta"><span class="move-cat">物理<
 じめんタイプさえ越えれば、どくタイプがフィールドを利用して全抜きできます。*しぜんのちから* が *ダストシュート* に変わり、おまけに *ふいうち* を透かせます。ロズレイドを越えてしまえば相手の素早さは大したことがないので、積んだエースならまず通ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でファーンに勝つ <span class="affinity-delta is-up">+1 アヤ、+1 ハーディ</span>
@@ -4391,7 +4395,7 @@ PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat
 経験上この戦いの鍵は、**ドヒドイデ** を左側に居座らせることです。とくこうを下げるか眠らせられればなお良し。ドヒドイデは *ひとでなし* が常時発動しますが、それでも火力は極端ではなく、*こごえるかぜ* を何度も撃たれていない限り後攻に回ります。毎ターン2回の攻撃をその右隣のポケモンに集中させれば、主導権を保ったまま押し切れる可能性があります。そのため、エスパータイプのアタッカーや、はがね／どくタイプの受けを場に出し、攻撃を受け止めながら脅威を落としていく形が有効でしょう。こおりも攻撃タイプとして優秀で、*フリーズドライ* は相手6匹のうち4匹に抜群、残り2匹にも等倍で通ります。こちらから設置技を撒く、*ワイドガード* や *まもる* といったダブルの定石を使う、*テルリックシード* でエースを補助する、といった手もあります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でアヤに勝つ <span class="affinity-delta is-down">-1 ハーディ、-1 ファーン</span>
@@ -4439,4 +4443,8 @@ PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

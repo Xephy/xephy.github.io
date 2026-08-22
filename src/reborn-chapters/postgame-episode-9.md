@@ -41,6 +41,10 @@ permalink: /reborn/postgame-episode-9/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -983,7 +987,7 @@ PP 5">つきのひかり</span><span class="move-meta"><span class="move-cat">�
 これらをすべて突破すると、崖にしがみつくリンか、アルセウスに話しかけられるようになります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - リンより先にアルセウスに話しかける <span class="affinity-delta is-down">-3 テラ</span>
@@ -1727,4 +1731,8 @@ PP 5">つきのひかり</span><span class="move-meta"><span class="move-cat">�
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

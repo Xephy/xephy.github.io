@@ -41,6 +41,10 @@ permalink: /reborn/episode-12/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -854,7 +858,7 @@ PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat
 最後に、ハイストライカーの隣のサムソンに話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 主人公が女性のとき、道を空けてくれるサムソンに話しかける <span class="affinity-delta is-up">+1 サムソン</span>
@@ -866,7 +870,7 @@ PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat
 外へ出てまた入り直すと、好感度のための会話がいくつかできます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アヤに話しかける <span class="affinity-delta is-up">+1 アヤ</span>
@@ -3173,7 +3177,7 @@ PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物�
 上部のフィオレ屋敷に入り、アマリアに話しかけます。上階へ上がってソファのハーディに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1番道路でティタニアを見ていた場合、秘密を守ると伝える <span class="affinity-delta is-up">+1 ティタニア</span>
@@ -3380,7 +3384,7 @@ PP 20">じならし</span><span class="move-meta"><span class="move-cat">物理<
 サーカスの裏手に入ります。ここでもまた、好感度のための会話がいくつかできます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アヤに話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -3619,7 +3623,7 @@ PP 20">ビルドアップ</span><span class="move-meta"><span class="move-cat">�
 とはいえ、若い頃の筆者が叩きのめされたのは、*サーカステント* のフィールドノートを読んで、こちらからも同じだけやり返せると気づく前の話です。何より、先ほど述べたルカリオの *アクロバット* の話は、こちらにもそのまま当てはまります。使えるなら（あるいは *しぜんのちから* がこれに変わるので）、この技だけで相手の編成をほぼ壊滅させられます。ハイストライカー技をこちらから撃つ手もあります。目ぼしい使い手は *こんじょう* の **チャーレム**、*こんじょう* / *ちからずく* の **ローブシン**、そして *フリーフォール* と *ちからずく* の **ウォーグル** で、いずれも近くで入手できます。ほかにもこのフィールドで強化される技は多く、*ハイパーボイス* や *ばくおんぱ* といった音技のほか、*はなびらのまい*、*パワーウィップ*、*そらをとぶ*、*めざめるダンス* などが挙げられます。最後のものに関連して、*おどりこ* を持つポケモンは踊り技を使うたびに素早さととくこうが1段階上がります——ある特定のポケモンとの相性が抜群です。積む余裕があるなら、*つるぎのまい*、*りゅうのまい*、*ちょうのまい* もすべて強化されるので、こちらのエースを比較的簡単に仕上げられます。雨は8ターン持続し、*うたう* は必中になり、*はらだいこ* はぼうぎょ上昇まで付く——このフィールドで使えるとんでもない手は本当に数多くあります。フィールドを利用するつもりがなくても、素早いエスパータイプとひこうタイプは鈍足な相手への回答として堅実ですし、厄介な相手には先制技や *がんじょう* ＋ *カウンター* を当てる手も常にあります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でサムソンに勝つ <span class="affinity-delta is-up">+2 シエル</span>
@@ -3668,4 +3672,8 @@ PP 20">ビルドアップ</span><span class="move-meta"><span class="move-cat">�
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

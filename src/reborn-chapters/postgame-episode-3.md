@@ -41,6 +41,10 @@ permalink: /reborn/postgame-episode-3/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -1368,7 +1372,7 @@ PP 15">めざめるパワー (ほのお)</span><span class="move-meta"><span cla
 サムソンにしては面白い編成で、今回は特に女性らしさを軸にしています。*きあいだま* が多用される点、とりわけ簡単に積んでくるウルトラビーストのフェローチェには注意してください。素早いポケモンが多いので、例によって *トリックルーム* をおすすめします。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイクに指輪を渡さなかったうえで、かげのサムソンを倒す <span class="affinity-delta is-up">+1 サムソン</span>
@@ -1972,7 +1976,7 @@ PP 10">ヘドロウェーブ</span><span class="move-meta"><span class="move-cat
 シエルは新世界フィールドでひこうタイプ尽くしの編成を使うので、全員が地に足のついたポケモンに対して素早さで有利になる一方、防御は下がります。テッカグヤはリン戦を思い出させるでしょう。相変わらず容赦がなく、今回は *マジカルシード* まで持っているので *ビーストブースト* の暴れっぷりが一段と増しています。特殊型のランドロス、先制技持ちのメガカイロス、*アクZ* で強化されたサンダーなど……厳しい編成です。ここでは *パワージェム*／*イワZ* の強化、こちらの *マジカルシード*、そして *トリックルーム* を活用することをおすすめします。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイクに指輪を渡したうえで、かげのシエルを倒す <span class="affinity-delta is-up">+1 シエル</span>
@@ -3406,4 +3410,8 @@ PP 10">ハイパーボイス</span><span class="move-meta"><span class="move-cat
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

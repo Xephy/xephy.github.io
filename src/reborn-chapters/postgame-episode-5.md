@@ -41,6 +41,10 @@ permalink: /reborn/postgame-episode-5/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -4754,7 +4758,7 @@ PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">�
 階下へ降ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ユーフィに理解できると伝える <span class="affinity-delta is-up">+1 シェイド</span>
@@ -6301,4 +6305,8 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

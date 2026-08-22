@@ -41,6 +41,10 @@ permalink: /reborn/episode-14/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -62,7 +66,7 @@ permalink: /reborn/episode-14/
 ジム戦のあと、カルセノンの左下の建物に入ります。中で *ひでんマシン6 ダイビング* が手に入ります。実はもっと早く入ることもできたのですが——
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ダイビングを入手する前にシャルロットを倒す <span class="affinity-delta is-up">+1 ノエル、+1 シェリー</span>
@@ -72,7 +76,7 @@ permalink: /reborn/episode-14/
 ここではハーディにも話しかけられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - カルセノンの家でハーディにシャルロットのことを話す <span class="affinity-delta is-up">+1 ハーディ</span>
@@ -621,13 +625,13 @@ PP 20">でんじは</span><span class="move-meta"><span class="move-cat">変化<
 **限定ルートに入るには、ブレイクの要求を3回とも断る必要があります。**
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - すぐにブレイクへ指輪を渡す <span class="affinity-delta is-mixed">+2 ブレイク、-2 キャル</span>
 - 1回断ってから指輪を渡す <span class="affinity-delta is-mixed">+2 ブレイク、-2 キャル、-1 シェリー</span>
 - 2回断ってから指輪を渡す <span class="affinity-delta is-mixed">+2 ブレイク、-2 キャル、-1 シェリー、-1 ヘザー</span>
-- 3回とも断る <span class="affinity-delta is-mixed">アンナ +1、シェイド +1、キャル +2、-2 シェリー、-2 ブレイク、-1 ヘザー</span>
+- 3回とも断る <span class="affinity-delta is-mixed">+1 アンナ、+1 シェイド、+2 キャル、-2 シェリー、-2 ブレイク、-1 ヘザー</span>
 {: .affinity-list}
 
 
@@ -636,7 +640,7 @@ PP 20">でんじは</span><span class="move-meta"><span class="move-cat">変化<
 ここからは、脱出の手がかりを探してブレイクの部屋を調べることになります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイクのベッドの下を調べる <span class="affinity-delta is-down">-1 ブレイク</span>
@@ -657,7 +661,7 @@ PP 20">でんじは</span><span class="move-meta"><span class="move-cat">変化<
 外に出て、隠された *ひこうのジュエル* を拾います。ここでシェリーに話しかけてください。ヘザーを解放したら、小屋に入って機械に話しかけると *フライングメモリ* が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイクへの指輪の受け渡しを断ったうえでヘザーを解放する <span class="affinity-delta is-up">+1 ヘザー</span>
@@ -1292,7 +1296,7 @@ PP 20">ころがる</span><span class="move-meta"><span class="move-cat">物理<
 登りながら隠された *あかいかけら*、*クリティカット*、*むしよけスプレー* を拾います。上部に、上そして左へ延びる狭い通路が見えます。たどると *かいふくのくすり* が手に入ります。右へ進みましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 警官を救出しコーリーの件を暴き、かつブレイクに指輪を渡したうえで、キャルとヘザーの会話を見る <span class="affinity-delta is-up">+1 ヘザー</span>
@@ -1771,7 +1775,7 @@ PP 15">うちおとす</span><span class="move-meta"><span class="move-cat">物�
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイクに指輪を渡したうえで、疲れたあとのシェリーに話しかける <span class="affinity-delta is-up">+1 シェリー</span>
@@ -2883,7 +2887,7 @@ PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat
 勝利すると、ブレイクの企ては潰えます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 以前サファイラが連れ去られていた場合、キャルからテラとリンについて詳しく聞く <span class="affinity-delta is-up">+1 テラ</span>
@@ -2893,7 +2897,7 @@ PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat
 キャルがアメトリン本体まで送ると申し出てくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 下山のキャルの申し出を断る <span class="affinity-delta is-down">-1 キャル</span>
@@ -2905,7 +2909,7 @@ PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat
 ストーリーを進める前に、3番道路の近道でカルセノンへ行くと、次の好感度が得られます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイク戦のあとカルセノンでカインに話しかける <span class="affinity-delta is-up">+1 カイン</span>
@@ -4403,7 +4407,7 @@ PP 15">つめとぎ</span><span class="move-meta"><span class="move-cat">変化<
 おつきみやまでは *キズぐすり* 2個、*あなぬけのヒモ*、*ふしぎなアメ* を拾えます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 中央にある「Mt.b00ty へようこそ」の看板に話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -4513,7 +4517,7 @@ PP 10">あくび</span><span class="move-meta"><span class="move-cat">変化</sp
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ティミーに話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -4573,7 +4577,7 @@ PP 15">かわらわり</span><span class="move-meta"><span class="move-cat">物�
 *いいキズぐすり* を回収し、タイルの迷路を進みます。第1世代のポケモンと同じ仕掛けです。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 左下の隅のレッドに話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -4583,7 +4587,7 @@ PP 15">かわらわり</span><span class="move-meta"><span class="move-cat">物�
 反対側に着いたら、階段ではなくエレベーターを使います。シオンタウンでは:
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - M3GAT3RR4 について話すNPCに話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -4682,7 +4686,7 @@ PP 15">かわらわり</span><span class="move-meta"><span class="move-cat">物�
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - かつてエースと戦った場所の近くのコンピューターに話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -4792,7 +4796,7 @@ PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特�
 *あやしいパッチ* と隠された *まんたんのくすり* を回収します。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - やしきの日記に話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -5260,7 +5264,7 @@ M3G4 T3RR4 との対戦です。もうお察しのとおり *グリッチフィ�
 </div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - テラを倒す <span class="affinity-delta is-down">-4 テラ。実際には選択肢ではありません</span>
@@ -5308,4 +5312,8 @@ M3G4 T3RR4 との対戦です。もうお察しのとおり *グリッチフィ�
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

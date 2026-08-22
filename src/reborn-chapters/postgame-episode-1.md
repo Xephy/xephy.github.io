@@ -41,6 +41,10 @@ permalink: /reborn/postgame-episode-1/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -49629,10 +49633,10 @@ PP 5">あくうせつだん</span><span class="move-meta"><span class="move-cat"
 部屋の右側でキャスに話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- 最初のクリア後クエストを始める準備ができていないと、キャスに繰り返し伝える <span class="affinity-delta is-down">-1 ノエル, -1 セラ</span>
+- 最初のクリア後クエストを始める準備ができていないと、キャスに繰り返し伝える <span class="affinity-delta is-down">-1 ノエル、-1 セラ</span>
 {: .affinity-list}
 
 
@@ -50022,7 +50026,7 @@ PP 20">オーロラビーム</span><span class="move-meta"><span class="move-cat
 ついでに触れておくと、ナイトクラブにはさらに多くのNPCが戻ってきています。特に、先ほど手に入れたアーゴヨン（または後ほど見つかる他のウルトラビースト）をフロリニアに見せると、*ウルトラボール* が5個もらえます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - フロリニアにウルトラビーストを見せる <span class="affinity-delta is-up">+1 フロリニア</span>
@@ -50070,4 +50074,8 @@ PP 20">オーロラビーム</span><span class="move-meta"><span class="move-cat
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

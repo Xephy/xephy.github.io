@@ -41,6 +41,10 @@ permalink: /reborn/episode-13/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -99,7 +103,7 @@ permalink: /reborn/episode-13/
 セレスティナイン滝へ戻り、中のティタニアに話しかけます。*ひでんマシン3 なみのり* が手に入ります。ようやくです。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ティタニアに「日誌を読んでいた」と伝える <span class="affinity-delta is-none">増減なし</span>
@@ -114,7 +118,7 @@ permalink: /reborn/episode-13/
 滝を下って追いかけることはまだできませんが、*なみのり* での探索は可能になりました。ひとつ補足しておきます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ティタニアが滝を下ったあと、彼女の日記を読む <span class="affinity-delta is-down">-1 ティタニア</span>
@@ -762,7 +766,7 @@ PP 15">さきおくり</span><span class="move-meta"><span class="move-cat">変�
 やがて右手に、2番道路と繋がっているエリアが見えます。これで3つの山が互いに、そして2番道路一帯とどう繋がっているかが分かりました。せっかく近いので、ここでサーカスへ少し寄り道します。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - サーカス下部のブレイクに話しかける <span class="affinity-delta is-up">+1 ブレイク</span>
@@ -915,12 +919,12 @@ PP 15">さきおくり</span><span class="move-meta"><span class="move-cat">変�
 隠された *キズぐすり* を拾います。ここから右へ。そして……カルセノンシティへの入城はお預けです。右へ進みながら、道中の隠された *すごいキズぐすり* と *みどりのかけら* を回収してください。アヤが同行者になります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アヤと同行中にアメトリンへ戻る <span class="affinity-delta is-down">-1 アヤ、-1 ハーディ</span>
 - アヤと同行中に全滅する <span class="affinity-delta is-down">-1 アヤ、-1 ハーディ</span>
-- 同行中にアヤに話しかける <span class="affinity-delta is-up">会話4種それぞれ +1 アヤ、合計 +4</span>
+- 同行中にアヤに話しかける <span class="affinity-delta is-up">+4 アヤ。会話4種それぞれ +1</span>
 {: .affinity-list}
 
 
@@ -2418,7 +2422,7 @@ PP 15">ほのおのキバ</span><span class="move-meta"><span class="move-cat">�
 アスターとエクリプスとの次の一戦です。今回はアヤが同行者で、ありがたいことに彼女の編成はこの戦いでしっかり働いてくれます。みず技とくさ技を多く持っており、相手に多いみず・いわ・じめんタイプに刺さるからです。アスターとエクリプスは先発で壁を張ってきたがるので、煩わしければ *かわらわり* や *サイコファング* を用意するとよいでしょう。総じて **ルナトーン** の火力は高くないので、苦戦するようなら右側を集中的に狙い続けて2対1に持ち込むと単純になります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アヤが連れ去られる <span class="affinity-delta is-down">-2 アヤ。これは選択肢ではありません</span>
@@ -3053,7 +3057,7 @@ PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">�
 好感度が欲しければ、町の左側でハーディに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 町の左側でハーディとファーンに話しかける <span class="affinity-delta is-up">+1 ファーン</span>
@@ -3063,7 +3067,7 @@ PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">�
 ここでサファイラに2回話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - サファイラの好感度が0より大きい状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える <span class="affinity-delta is-mixed">+2 シャルロット、-1 ハーディ、+1 サファイラ</span>
@@ -3075,7 +3079,7 @@ PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">�
 ともあれ4番道路への出口まで歩き、中のシャルロットに話しかけます。ジム戦の時間だと告げられるので、カルセノンへ戻ってください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 町の西側でサファイラとシグムンドに話しかける <span class="affinity-delta is-down">-1 シグムンド</span>
@@ -3251,7 +3255,7 @@ PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物�
 シャルロットのいる場所まで上がります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シャルロットがいる状態でジムの隠し部屋を開ける <span class="affinity-delta is-up">+1 シャルロット</span>
@@ -3530,4 +3534,8 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

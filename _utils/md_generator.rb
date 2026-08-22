@@ -1,6 +1,8 @@
 require_relative 'common'
 require_relative 'chapter_nav'
 require_relative 'affinity'
+require_relative 'affinity_index'
+require_relative 'reference_pages'
 require_relative 'spoiler'
 require_relative 'function_wrapper'
 
@@ -20,8 +22,15 @@ def generate_md_text(game = 'reborn', scripts_dir)
       <p id="title-text">#{JaNames.game_title(LONGNAMES[game])} #{JaNames.ui('Walkthrough')}</p>
       <h5> #{JaNames.ui('Walkthrough last updated')} #{JaNames.timestamp(Time.now)}</h5>
       <h5> #{JaNames.ui('Based on game ver.')} #{version}</h5>
-      <p><a href="/#{LONGNAMES[game]}/">#{JaNames.ui('Read by episode')}</a></p>
+      <p><a href="/#{LONGNAMES[game]}/">#{JaNames.ui('Read by episode')}</a>#{reference_links(game)}</p>
     PRE_CONTENTS
+  end
+
+  # 見出しの並びに続けて置く資料ページへのリンク。
+  def reference_links(game)
+    ReferencePages.all.map { |p|
+      %( / <a href="#{ReferencePages.path(LONGNAMES[game], p)}">#{ReferencePages.label(p)}</a>)
+    }.join
   end
 
   # 見出し行から表示文と id を取り出す。
@@ -66,6 +75,21 @@ def generate_md_text(game = 'reborn', scripts_dir)
           <h3><a href="#{base}">#{escape_html(heading_text(chapter[:title]))}</a></h3>
           <ul>
             #{sections.join("\n    ")}
+          </ul>
+        </section>
+      BLOCK
+    end
+
+    ref = ReferencePages.all.map { |p|
+      %(<li><a href="#{ReferencePages.path(LONGNAMES[game], p)}">) +
+        %(#{ReferencePages.label(p)}</a> — #{escape_html(p[:desc])}</li>)
+    }
+    unless ref.empty?
+      blocks << <<~BLOCK
+        <section class="book-toc-chapter book-toc-ref">
+          <h3>#{JaNames.ui('Reference')}</h3>
+          <ul>
+            #{ref.join("\n    ")}
           </ul>
         </section>
       BLOCK
@@ -151,7 +175,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
         res << function_result
       end
     end
-    Spoiler.apply(Affinity.apply(res.join))
+    Spoiler.apply(Affinity.apply(res.join, LONGNAMES[game]))
   end
 
   def generate_intelligent_slug(title, chapter_type, chapter_num)
@@ -247,9 +271,16 @@ def generate_md_text(game = 'reborn', scripts_dir)
     #{generate_index_contents(game, chapters)}
   INDEX
 
+  # 章とは別に置く資料ページ。読み順に混ぜたくないので chapters には入れず、
+  # permalink だけ /<game>/... に並べる。
+  pages = {}
+  affinity_page = AffinityIndex.build_page(chapters, LONGNAMES[game])
+  pages['affinity'] = affinity_page if affinity_page
+
   {
     monolithic: res.strip,
     chapters: chapters,
-    index: index
+    index: index,
+    pages: pages
   }
 end

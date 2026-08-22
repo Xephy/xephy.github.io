@@ -41,6 +41,10 @@ permalink: /reborn/postgame-episode-2/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -74,7 +78,7 @@ permalink: /reborn/postgame-episode-2/
 ナイトクラブへ戻ります。よければパソコンからフリーザーを引き出し、ルミに数回話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ルミにフリーザーを見せる <span class="affinity-delta is-up">+1 ルミ</span>
@@ -1440,4 +1444,8 @@ PP 10">ねむる</span><span class="move-meta"><span class="move-cat">変化</sp
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

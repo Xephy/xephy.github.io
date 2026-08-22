@@ -41,6 +41,10 @@ permalink: /reborn/episode-4/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -74,7 +78,7 @@ permalink: /reborn/episode-4/
 次にベリル図書館へ。ここの **ゴチルゼル** に話しかけたら、館内のゴミと落ちている本を、決定ボタンを連打しながら片付けて回ります。終わったらゴチルゼルに話しかけると *たましいのロウソク* がもらえます。**ゴチム** のどれかに話しかけても入手できます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 図書館を片付ける <span class="affinity-delta is-up">+1 アドリエンヌ</span>
@@ -584,7 +588,7 @@ PP 25">かみつく</span><span class="move-meta"><span class="move-cat">物理<
 区の本道に戻り、ここや近くの建物にいる人々に、必要なら話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 北オブシディア区でファーンに話しかける <span class="affinity-delta is-up">+1 ファーン</span>
@@ -1213,7 +1217,7 @@ PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物�
 ここでカインに話しかけると、警官の気を引いてくれるので、その隙にすり抜けられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - カインが気を引いている間に警備員へ4回話しかける <span class="affinity-delta is-down">-1 カイン</span>
@@ -1737,7 +1741,7 @@ PP 30">でんこうせっか</span><span class="move-meta"><span class="move-cat
 その後、ヴィクトリアの高速移動の申し出は受けておきましょう。北オブシディア区に戻ると、ヴィクトリアからバトルを申し込まれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ヴィクトリアのバトルの申し出を断る <span class="affinity-delta is-down">-1 ヴィクトリア</span>
@@ -2040,7 +2044,7 @@ PP 15">めざめるパワー (ほのお)</span><span class="move-meta"><span cla
 右上のナイトクラブへ向かいます。外に男性がいるので話しかけられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ナイトクラブの外でDJアークライトに会う <span class="affinity-delta is-up">+1 アークライト</span>
@@ -2342,7 +2346,7 @@ PP 10">エレキボール</span><span class="move-meta"><span class="move-cat">�
 出たらジムへ戻り、2階へ上がります。次の目標が決まりました。シェリーにバッジを懸けて挑むことです。ここではヴィクトリアにも話しかけられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シェリーからバトルを勧められたあとヴィクトリアに話しかける <span class="affinity-delta is-up">+1 キャル</span>
@@ -5379,7 +5383,7 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
 もうひとつ手堅いのは、こちらもむしタイプでフィールドを利用することです。**バチュル**、**ビークイン**、そして早い段階で最終進化するむしポケモンたちがここで輝きます。*テルリックシード* があれば、繰り出したターンを実質安全に使えるので、流れを作ったり特定の脅威を落としたりできます。あるいは自分の側で *すいすい* 編成を組み、雨を利用して相手を上から叩く手もあります。あるいはいっそ、*いわなだれ* という愉快なボタンを押すのも一興です。あらかじめ戦略を練っておけば、選択肢はいくらでもあります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でシェリーに勝つ <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -5428,4 +5432,8 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

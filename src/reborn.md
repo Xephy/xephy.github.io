@@ -4,9 +4,9 @@ permalink: /reborn/all/
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年8月22日 01:37 GMT</h5>
+<h5> 最終更新 2026年8月22日 17:39 GMT</h5>
 <h5> 対象バージョン 19.5.43</h5>
-<p><a href="/reborn/">エピソードごとに読む</a></p>
+<p><a href="/reborn/">エピソードごとに読む</a> / <a href="/reborn/affinity/">好感度まとめ</a></p>
 <details class="page-toc" open>
   <summary>章の一覧</summary>
   <ul>
@@ -479,7 +479,7 @@ permalink: /reborn/all/
 この会話では、ポケモンリボーンの仕組みのひとつが静かに顔を出しています――好感度ポイントです。特定の会話やイベントによって、各キャラクターからの好感度が上下し、内部的にはキャラクターごとの整数値として記録されます。詳しくは[アメの開発ブログの記事](https://www.rebornevo.com/pr/development/records/about-relationship-points-r83/)を参照してください。これによってポケモンやアイテムが入手できなくなることはありません。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - はい <span class="affinity-delta is-up">+1 ジュリア</span>
@@ -584,7 +584,7 @@ PP 30">にらみつける</span><span class="move-meta"><span class="move-cat">�
 *はりきり* のおかげで、ニドランの攻撃は外れることがあります。パートナーの能力下降技を1回使ってから攻撃技を連打すれば、勝てるはずです。なお、この戦闘は勝てなくても進行に支障はありません。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - カインに勝利する <span class="affinity-delta is-up">+1 カイン</span>
@@ -635,7 +635,7 @@ PP 40">なきごえ</span><span class="move-meta"><span class="move-cat">変化<
 先ほど勝っていれば、こちらは Lv.6 になっているはずです。同じような戦い方で勝ちを狙いましょう。この戦闘も、勝てなくても支障はありません。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ヴィクトリアに勝利する <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -1823,7 +1823,7 @@ PP 40">こうそくスピン</span><span class="move-meta"><span class="move-cat
 ここから上へ進み、右の建物に入ります。中の男性に、先ほど手に入れた *プレゼントボックス* を渡すと **デリバード** が手に入ります。その右隣の建物には弱った **コロボーシ** がいて、ここの人物に話しかけると譲ってもらえます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - コロボーシを受け取る <span class="affinity-delta is-up">+1 シェリー</span>
@@ -3284,11 +3284,11 @@ PP 10">あやしいひかり</span><span class="move-meta"><span class="move-cat
 進み方は2通りあります。シークレストの庭の上にあるモスウォーター工業区へ直行するか、先にペリドットジムへ寄り道するかです。いずれにせよ、準備ができたら工場の前に立っている人物に話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- モスウォーター工業区へ直行する <span class="affinity-delta is-up">ファーン +1</span>
-- 先にペリドットジムへ寄ってから向かう <span class="affinity-delta is-up">ジュリア +1</span>
+- モスウォーター工業区へ直行する <span class="affinity-delta is-up">+1 ファーン</span>
+- 先にペリドットジムへ寄ってから向かう <span class="affinity-delta is-up">+1 ジュリア</span>
 {: .affinity-list}
 
 
@@ -3297,7 +3297,7 @@ PP 10">あやしいひかり</span><span class="move-meta"><span class="move-cat
 いよいよ本格的なダンジョンです。ファーンが仲間として同行します。同行者を置き去りにしてダンジョンを出る行為は、たいてい好感度に悪影響を与えます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ファーンを置いて工場から出る <span class="affinity-delta is-down">-1 ファーン、初回のみ</span>
@@ -3307,7 +3307,7 @@ PP 10">あやしいひかり</span><span class="move-meta"><span class="move-cat
 逆に、同行中の相手に話しかけると、たいてい好感度が上がります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 同行中にファーンに話しかける <span class="affinity-delta is-up">+1 ファーン、初回のみ</span>
@@ -3838,7 +3838,7 @@ PP 25">かみつく</span><span class="move-meta"><span class="move-cat">物理<
 近くの端末には XXX9 と表示されます。周囲の残り2つの端末でも設定を読んだら、エレベーターへ向かい、揃った暗証番号 (3179) を入力してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 今いる階と同じ階のボタンを押す <span class="affinity-delta is-down">-1 ファーン</span>
@@ -4157,7 +4157,7 @@ PP 15">サイコウェーブ</span><span class="move-meta"><span class="move-cat
 爆薬を回収してください。中央の部屋に戻り、2人のうちどちらに話しかけるかを選びます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 爆薬を手に入れたあとジュリアに話しかける <span class="affinity-delta is-mixed">+1 ジュリア、-1 フロリニア</span>
@@ -4250,7 +4250,7 @@ PP 15">いわおとし</span><span class="move-meta"><span class="move-cat">物�
 工場を出ると、フロリニアから質問されます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - はい <span class="affinity-delta is-up">+1 フロリニア</span>
@@ -5803,7 +5803,7 @@ PP 40">とおぼえ</span><span class="move-meta"><span class="move-cat">変化<
 中央オブシディア美容室に入ります。中にはなつき度チェッカーと、1500ドルでポケモンのなつき度を上げてくれるトリマーがいます。所持金に余裕があれば一度受けておきましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 中央オブシディア美容室でマッサージを1回以上受ける <span class="affinity-delta is-up">+1 セラ</span>
@@ -6775,7 +6775,7 @@ PP 20">ビルドアップ</span><span class="move-meta"><span class="move-cat">�
 **ニャヒート** は積み技を狙ってくるので注意してください。それ以外の手持ちは特別厄介ではなく、**ラルトス** と **ピチュー** は非力なので、逆にこちらが積む余地があります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - スラムでヴィクトリアに勝利する <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -10202,7 +10202,7 @@ PP 20">むしくい</span><span class="move-meta"><span class="move-cat">物理<
 そこから階段を下り、メインホールに出て、もう一度下ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - はい <span class="affinity-delta is-up">+1 ハーディ</span>
@@ -11209,7 +11209,7 @@ PP 10">ブレイズキック</span><span class="move-meta"><span class="move-cat
 イベントが終わると **キュワワー** が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ローラからキュワワーを受け取る <span class="affinity-delta is-up">+1 ローラ</span>
@@ -11221,7 +11221,7 @@ PP 10">ブレイズキック</span><span class="move-meta"><span class="move-cat
 このクエストを完了すると、野生ポケモンの寄ってきやすさを調整する道具 *にじいろのかおり* と、**チュリネ** がもらえます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - にじいろのかおりクエストを完了する <span class="affinity-delta is-up">+1 ローラ、+1 サファイラ</span>
@@ -13235,7 +13235,7 @@ PP 25">エアカッター</span><span class="move-meta"><span class="move-cat">�
 下から外へ出ます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - はい <span class="affinity-delta is-up">+1 ヘザー</span>
@@ -14194,7 +14194,7 @@ PP 10">ダメおし</span><span class="move-meta"><span class="move-cat">物理<
 檻の中で目を覚まし、ファーンに煽られます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ファーンに懇願せず拒否する <span class="affinity-delta is-down">-1 ファーン</span>
@@ -14210,7 +14210,7 @@ PP 10">ダメおし</span><span class="move-meta"><span class="move-cat">物理<
 上へ、そして右へ進み、檻からカインを助け出します。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 檻からカインを助け出す <span class="affinity-delta is-up">+1 カイン</span>
@@ -14220,7 +14220,7 @@ PP 10">ダメおし</span><span class="move-meta"><span class="move-cat">物理<
 ここから下へ進んでレバーに話しかけます。ヘザーが現れてスイッチを引き、橋が架かります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 檻に捕まった <span class="affinity-delta is-down">-1 ヘザー</span>
@@ -14236,7 +14236,7 @@ PP 10">ダメおし</span><span class="move-meta"><span class="move-cat">物理<
 右の階段を上るとファーンがいます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 丘の上でファーンに話しかける <span class="affinity-delta is-up">+1 ファーン</span>
@@ -14873,7 +14873,7 @@ PP 30">ふるいたてる</span><span class="move-meta"><span class="move-cat">�
 よければ図書館の左の部屋にも入ってみてください。中で男性に会えます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 図書館でラドマスに話しかける <span class="affinity-delta is-up">+1 ラドマス</span>
@@ -14963,7 +14963,7 @@ PP 20">れんぞくぎり</span><span class="move-meta"><span class="move-cat">�
 左からジャングルに入り直します。隠された *けいけんアメS* と *やけどなおし* を拾ってください。ここではアマリアに話しかけられ、2回目には手持ちを回復してくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ジャングルでアマリアに話しかける <span class="affinity-delta is-up">+1 アマリア</span>
@@ -15172,7 +15172,7 @@ PP 15">がんせきふうじ</span><span class="move-meta"><span class="move-cat
 勝つと、次のエリアで隠された *シルバースプレー* が見つかります。下へ進むと、コーリーに関するイベントが起こります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - エースと戦う前に5人の警官全員を見つけておく <span class="affinity-delta is-up">+1 ヘザー、+1 アンナ、+1 シェイド</span>
@@ -16167,7 +16167,7 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
 次にベリル図書館へ。ここの **ゴチルゼル** に話しかけたら、館内のゴミと落ちている本を、決定ボタンを連打しながら片付けて回ります。終わったらゴチルゼルに話しかけると *たましいのロウソク* がもらえます。**ゴチム** のどれかに話しかけても入手できます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 図書館を片付ける <span class="affinity-delta is-up">+1 アドリエンヌ</span>
@@ -16677,7 +16677,7 @@ PP 25">かみつく</span><span class="move-meta"><span class="move-cat">物理<
 区の本道に戻り、ここや近くの建物にいる人々に、必要なら話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 北オブシディア区でファーンに話しかける <span class="affinity-delta is-up">+1 ファーン</span>
@@ -17306,7 +17306,7 @@ PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物�
 ここでカインに話しかけると、警官の気を引いてくれるので、その隙にすり抜けられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - カインが気を引いている間に警備員へ4回話しかける <span class="affinity-delta is-down">-1 カイン</span>
@@ -17830,7 +17830,7 @@ PP 30">でんこうせっか</span><span class="move-meta"><span class="move-cat
 その後、ヴィクトリアの高速移動の申し出は受けておきましょう。北オブシディア区に戻ると、ヴィクトリアからバトルを申し込まれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ヴィクトリアのバトルの申し出を断る <span class="affinity-delta is-down">-1 ヴィクトリア</span>
@@ -18133,7 +18133,7 @@ PP 15">めざめるパワー (ほのお)</span><span class="move-meta"><span cla
 右上のナイトクラブへ向かいます。外に男性がいるので話しかけられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ナイトクラブの外でDJアークライトに会う <span class="affinity-delta is-up">+1 アークライト</span>
@@ -18435,7 +18435,7 @@ PP 10">エレキボール</span><span class="move-meta"><span class="move-cat">�
 出たらジムへ戻り、2階へ上がります。次の目標が決まりました。シェリーにバッジを懸けて挑むことです。ここではヴィクトリアにも話しかけられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シェリーからバトルを勧められたあとヴィクトリアに話しかける <span class="affinity-delta is-up">+1 キャル</span>
@@ -21472,7 +21472,7 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
 もうひとつ手堅いのは、こちらもむしタイプでフィールドを利用することです。**バチュル**、**ビークイン**、そして早い段階で最終進化するむしポケモンたちがここで輝きます。*テルリックシード* があれば、繰り出したターンを実質安全に使えるので、流れを作ったり特定の脅威を落としたりできます。あるいは自分の側で *すいすい* 編成を組み、雨を利用して相手を上から叩く手もあります。あるいはいっそ、*いわなだれ* という愉快なボタンを押すのも一興です。あらかじめ戦略を練っておけば、選択肢はいくらでもあります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でシェリーに勝つ <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -21639,7 +21639,7 @@ PP 20">なしくずし</span><span class="move-meta"><span class="move-cat">物�
 シェリーを倒せたのなら、この戦いはさほど厳しくないはずです。**ニドキング** は火力がありますが、タイプ一致技はまだ弱めです。手持ちの得意な戦い方で倒しましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ヘザーを助けることに同意する <span class="affinity-delta is-up">+1 カイン</span>
@@ -21654,7 +21654,7 @@ PP 20">なしくずし</span><span class="move-meta"><span class="move-cat">物�
 扉が開いたらすぐ養護施設へ入ります。この時点で好感度が高いほうに応じて、カインかシェリーのどちらかと組むことになります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - カインと組んで看護人たちを倒す <span class="affinity-delta is-up">+1 カイン</span>
@@ -22223,7 +22223,7 @@ PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat
 この戦闘のあとは、シェリー（上記）を連れて自由に探索できます。ただし次の点に注意してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 同行者がいる状態で養護施設から出る <span class="affinity-delta is-down">-1 カイン、-1 シェリー、-1 シャルロット、-1 ノエル、-1 ヘザー</span>
@@ -22233,7 +22233,7 @@ PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat
 好感度を上げることもできます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 同行中にシェリーに話しかける <span class="affinity-delta is-up">+1 シェリー</span>
@@ -22243,7 +22243,7 @@ PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat
 ここから進む先を選べます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 上階を探索する前に廊下へ入る <span class="affinity-delta is-down">-1 シェリー</span>
@@ -22661,7 +22661,7 @@ PP 15">ボディパージ</span><span class="move-meta"><span class="move-cat">�
 1階の開いている扉から入ります。左側の扉に入ろうとするときは注意してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 主人公が男性で、女子トイレに2回入ろうとする <span class="affinity-delta is-down">-1 シェリー</span>
@@ -23084,7 +23084,7 @@ PP 15">しねんのずつき</span><span class="move-meta"><span class="move-cat
 上階へ戻り、開通した道を進みます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 檻の中のノエルを無視する <span class="affinity-delta is-down">-1 ノエル</span>
@@ -23331,7 +23331,7 @@ PP 10">ラスターカノン</span><span class="move-meta"><span class="move-cat
 1階では右の部屋に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 檻に入っているシャルロットに2回話しかける <span class="affinity-delta is-down">-2 シャルロット</span>
@@ -25809,7 +25809,7 @@ PP 10">あられ</span><span class="move-meta"><span class="move-cat">変化</sp
 レベル差のせいで威圧感のある戦いに見えますが、技構成は初期のままです。*ふぶき* は痛烈ですがPPが5しかないので、*まもる* のわざマシンで撃ち切らせ、ゴーストタイプを場に出して変化技で削っていけば、ほぼ勝ちです。勝利すると **ムチュール** が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ムチュールを救う <span class="affinity-delta is-up">+2 ブレイク</span>
@@ -26324,7 +26324,7 @@ PP 10">リサイクル</span><span class="move-meta"><span class="move-cat">変�
 ペリドット西側の工場へ向かいます。ここの登場人物に話しかけると好感度が動きます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - エースは信用できるとカインに言う <span class="affinity-delta is-mixed">+1 エース、+1 アマリア、-1 カイン</span>
@@ -26335,7 +26335,7 @@ PP 10">リサイクル</span><span class="move-meta"><span class="move-cat">変�
 エースに話しかけて好きな性格を伝えると、対応する *ミント* をくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - エースからミントをもらう <span class="affinity-delta is-up">+1 エース</span>
@@ -26470,7 +26470,7 @@ PP 5">くろいまなざし</span><span class="move-meta"><span class="move-cat"
 どうやら同行者は16人目のジムリーダーのようです。彼女と組んでしたっぱを倒し、隠された *どくけし* を拾ったら階段を下ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アマリアを信用すると伝える <span class="affinity-delta is-up">+1 アマリア</span>
@@ -28304,7 +28304,7 @@ PP 10">はらだいこ</span><span class="move-meta"><span class="move-cat">変�
 右下の扉から出て屋根を渡ります。次の部屋でもNPCに話しかけて勉強しましょう。左の扉から出て屋上の少女に話しかけると **アサナン** が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アサナンを入手する <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -28734,7 +28734,7 @@ PP 30">こおりのつぶて</span><span class="move-meta"><span class="move-cat
 ここからストーリーに戻ります。アカデミー南の瞑想エリアへ入り、ピンク髪の女性に話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - キキに新入生だと伝える <span class="affinity-delta is-up">+1 キャル、+1 ヴィクトリア</span>
@@ -28935,7 +28935,7 @@ PP 15">ほのおのキバ</span><span class="move-meta"><span class="move-cat">�
 ヴィクトリアの編成は前回より手強くなっています。**コジョフー** を加え、残り4匹も進化させたので、まともな火力が出るようになりました。フィールドノートを見れば分かるとおり、このフィールドでは *かいりき* と *ヨガのポーズ* が強化されるので警戒してください。攻撃範囲を広く取るか、フィールドを利用するかすれば勝てます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アポフィルアカデミーでヴィクトリアに勝つ <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -29259,7 +29259,7 @@ PP 15">ふんえん</span><span class="move-meta"><span class="move-cat">特殊<
 キャルの手持ちは6匹に増え、フィールドの恩恵を最大限に受けます。このフィールドはほのお技に加えて *ねっとう* も強化し、**ブーバーン** に *ふんえん* を通されると *燃えるフィールド* に変わります。*ねっとう* を除けば、こちらのみずタイプもこのフィールドでは苦しくなります。幸い、相手の技選択にはまだ甘さがあります。たとえば **バクフーン** の最大火力は *ソーラービーム* ですし、**リザードン** は物理型です。**ジャランゴ** さえ越えれば、いわタイプが1〜2匹いれば編成をほぼ壊滅させられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - パイロス山頂でキャルに勝つ <span class="affinity-delta is-up">+2 キャル</span>
@@ -29269,7 +29269,7 @@ PP 15">ふんえん</span><span class="move-meta"><span class="move-cat">特殊<
 選んだバトルを終えたら、キキの部屋へ戻って中の人物に話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ヴィクトリアに「秘密は守れない」と言う <span class="affinity-delta is-down">-1 ヴィクトリア</span>
@@ -29500,7 +29500,7 @@ PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat
 このフィールドは自然には変えられませんが、逆手に取る強力な手はあります。*サイコキネシス*、*しねんのずつき*、*めいそう* が強化されるので、サワムラーとドクロッグの先制技・高速のあく技さえ捌ければ、エスパータイプで大きな打撃を与えられます。すな系とどろ系の技、それに *だくりゅう* と *なみのり* も強化されるため、火力が足りないときは、特に雨下で有力な選択肢になります。それ以外は、結局のところ先制技への対策と主導権の確立に尽きます。ドクロッグの *ふいうち* を5回撃たせられれば、そのターンを使ってこちらのエースを積ませられます。*しぜんのちから* の利用も忘れずに。このフィールドでは *ヨガのポーズ* に変わるので、多くの物理アタッカーを全抜き要員に化けさせられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でキキに勝つ <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -30276,7 +30276,7 @@ PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">�
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ヴィクトリアと同行中にパイロスから出ようとする <span class="affinity-delta is-down">-2 ヴィクトリア</span>
@@ -31239,7 +31239,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 </div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - パイロスでソラリスに勝つ <span class="affinity-delta is-up">+1 カイン、+1 ヴィクトリア、+1 キャル、+1 シェイド、+1 アンナ、+3 タカ</span>
@@ -33284,7 +33284,7 @@ PP 10">かげぬい</span><span class="move-meta"><span class="move-cat">物理<
 じめんタイプさえ越えれば、どくタイプがフィールドを利用して全抜きできます。*しぜんのちから* が *ダストシュート* に変わり、おまけに *ふいうち* を透かせます。ロズレイドを越えてしまえば相手の素早さは大したことがないので、積んだエースならまず通ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でファーンに勝つ <span class="affinity-delta is-up">+1 アヤ、+1 ハーディ</span>
@@ -33842,7 +33842,7 @@ PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat
 経験上この戦いの鍵は、**ドヒドイデ** を左側に居座らせることです。とくこうを下げるか眠らせられればなお良し。ドヒドイデは *ひとでなし* が常時発動しますが、それでも火力は極端ではなく、*こごえるかぜ* を何度も撃たれていない限り後攻に回ります。毎ターン2回の攻撃をその右隣のポケモンに集中させれば、主導権を保ったまま押し切れる可能性があります。そのため、エスパータイプのアタッカーや、はがね／どくタイプの受けを場に出し、攻撃を受け止めながら脅威を落としていく形が有効でしょう。こおりも攻撃タイプとして優秀で、*フリーズドライ* は相手6匹のうち4匹に抜群、残り2匹にも等倍で通ります。こちらから設置技を撒く、*ワイドガード* や *まもる* といったダブルの定石を使う、*テルリックシード* でエースを補助する、といった手もあります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でアヤに勝つ <span class="affinity-delta is-down">-1 ハーディ、-1 ファーン</span>
@@ -33856,7 +33856,7 @@ PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat
 荒地をずっと戻って外へ出ます。出口の近くにカインがいるので、バトルに備えてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 以前カインが家出をしていた場合、「言いたいことは分かる」と答える <span class="affinity-delta is-up">+1 カイン</span>
@@ -34049,7 +34049,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 南オブシディア区へ戻ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - キャルを信じると答える <span class="affinity-delta is-up">+1 キャル</span>
@@ -34276,7 +34276,7 @@ PP 15">テレキネシス</span><span class="move-meta"><span class="move-cat">�
 西のベリル墓地へ向かいます。そこから下にヴィクトリアがいます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 墓地でヴィクトリアに話しかける <span class="affinity-delta is-up">+2 ヴィクトリア</span>
@@ -34353,7 +34353,7 @@ PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat
 カインと組むことになります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ユレユの中でカインに話しかける <span class="affinity-delta is-up">+1 カイン</span>
@@ -35438,7 +35438,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 **限定ルートに入るには、ユレユでシグムンドとの戦いを断る必要があります。**
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シグムンドの「戦うか」という問いに「はい」と答える <span class="affinity-delta is-mixed">+1 ヘザー、-1 シグムンド</span>
@@ -35899,7 +35899,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 正しく組めたらノエルに話しかけます。もう一度列車に入り、必要ならシェリーにも話しかけましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シェリーに「助かった」と伝える <span class="affinity-delta is-up">+1 シェリー</span>
@@ -36155,7 +36155,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 上の家に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ボクレイン邸より先にベルローズ邸へ入る <span class="affinity-delta is-up">+1 ノエル、+1 ローラ</span>
@@ -36165,7 +36165,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 左手の本棚で何かが光っています。調べると *かぞくのしゃしん* が手に入り、ずっと後のサイドクエストで使います。ともあれ家の全員に話しかけてから外へ出ましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ベルローズ邸でシェリーに話しかける <span class="affinity-delta is-up">+1 シェリー</span>
@@ -36962,7 +36962,7 @@ PP 20">しぜんのちから</span><span class="move-meta"><span class="move-cat
 外に出て、右上のボクレイン邸に入ろうとします。セラに話しかける前に、好感度が欲しければベネットに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ベネットに「マユルドが完全な記憶を持っていると知っていた」と伝える <span class="affinity-delta is-up">+1 ベネット</span>
@@ -36972,7 +36972,7 @@ PP 20">しぜんのちから</span><span class="move-meta"><span class="move-cat
 『Pokémon LEGENDS アルセウス』でほのお技を使って15匹ほど葬った件も、覚えていてくれると嬉しいのですが。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ベネットにもう一度話しかける <span class="affinity-delta is-up">+1 ベネット</span>
@@ -37418,7 +37418,7 @@ PP 10">ドレインパンチ</span><span class="move-meta"><span class="move-cat
 3つのパズル部屋それぞれで（最大+3）、次の好感度が動きます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目で正しい鏡を割る <span class="affinity-delta is-up">+1 セラ</span>
@@ -37962,7 +37962,7 @@ PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">�
 ベネットとの初戦です。序盤の弱いむしポケモンばかり使っているように見えて、*ミラーアリーナ* に極めて最適化された編成です。命中率・回避率を上げる道具と特性がすべて、急所率の上昇にも働きます。フィールド強化された *シグナルビーム* などで、素早く高い火力を出してきます。6匹中5匹が *ちょうのまい* を持つので、積んでくる可能性も高いでしょう。とはいえ、どのむしポケモンも打たれ弱く弱点も多いので、いわ技を積み込むだけで大半は解決します。こちらも *ミラーアリーナ* の恩恵を試す好機なので、フィールドノートに目を通しておいてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でベネットに勝つ <span class="affinity-delta is-mixed">+1 イライアス、-1 ベネット</span>
@@ -38204,7 +38204,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 なお、フィールドノートには *ミラーアリーナ* そのものを破壊できる技の一覧も載っています。セラを対等な土俵に引きずり出す手として、これも有効です。ただし——
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ジム戦でミラーアリーナを破壊する <span class="affinity-delta is-down">-1 セラ</span>
@@ -38216,7 +38216,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 # エピソード9: 妹の番人 {#episode-9}
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - バトル後、ソファのセラに話しかける <span class="affinity-delta is-up">+1 セラ</span>
@@ -38288,7 +38288,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 ベルローズ邸より先にスピネルタウンへ行った場合は、[上のタンザン入り江の節](/reborn/episode-8/#tanzan-cove)で出現ポケモンやアイテムを確認してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - セラを倒し、やくそうエキスを入手してからベルローズ邸に入る <span class="affinity-delta is-up">+1 シャルロット</span>
@@ -38298,7 +38298,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 ともあれベルローズ邸へ向かい、上階へ上がります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - やくそうエキスを持たずにノエルに話しかける <span class="affinity-delta is-down">-1 ノエル</span>
@@ -38308,7 +38308,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 薬をアンナに渡すと容体が良くなります。外へ出ましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ノエルがバトルを望んでいる間にシェリーに話しかける <span class="affinity-delta is-up">+1 シェリー</span>
@@ -38406,7 +38406,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 ## ベルローズ邸の防衛 {#defending-belrose-manse}
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - サファイラに「理解できない」と伝える <span class="affinity-delta is-down">-1 サファイラ</span>
@@ -38874,7 +38874,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 そのあと、物語に影響する選択がもう一度あります。上階へ行くか、下階に留まるかです。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シリウス戦のあと上階へ行く <span class="affinity-delta is-mixed">+1 シャルロット、+1 シェリー、+1 ノエル、-1 サファイラ、-1 ローラ、-1 シグムンド</span>
@@ -39111,7 +39111,7 @@ PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat
 **限定ルートに入るには、シグムンドと戦ったあと彼を止める必要があります。**
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シグムンドと戦ったあと、彼を止めることを選ぶ <span class="affinity-delta is-mixed">+1 サファイラ、+1 シェリー、+1 シャルロット、+1 ノエル、+1 アンナ、+1 シェイド、-1 ローラ、-2 シグムンド</span>
@@ -39122,7 +39122,7 @@ PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat
 サファイラが連れ去られた場合は、壁に穴が開いているのも見えます。扉の代わりにこの穴から出入りできます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 壁の穴からベルローズ邸を出入りする <span class="affinity-delta is-down">-1 ローラ</span>
@@ -39793,7 +39793,7 @@ PP 15">はなふぶき</span><span class="move-meta"><span class="move-cat">物�
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ノエルとアンナが連れ去られた場合、檻の中の2人に話しかける <span class="affinity-delta is-up">+2 ノエル</span>
@@ -40838,7 +40838,7 @@ PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat
 サファイラが連れ去られていた場合は、ここにはローラと一緒に来ることになります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 深部でローラに話しかける <span class="affinity-delta is-up">+2 ローラ</span>
@@ -40977,7 +40977,7 @@ PP 10">ヘビーボンバー</span><span class="move-meta"><span class="move-cat
 またも単体のボス戦で、今回はメガ **ハガネール** です。鈍足なので特殊技で削り切れます。一撃耐えられるなら *カウンター* もよく効きます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でハガネールに勝つ <span class="affinity-delta is-up">+3 サファイラ、+1 ローラ</span>
@@ -41274,7 +41274,7 @@ PP 10">アシストパワー</span><span class="move-meta"><span class="move-cat
 いざとなれば、フィールドを *燃えるフィールド* か *腐食フィールド* に変えると、この戦いはずっと楽になります。ただしローラは、自分の花畑を壊されるのを快く思いません。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 燃えるフィールドでノエルに勝つ <span class="affinity-delta is-down">-2 ローラ</span>
@@ -41289,7 +41289,7 @@ PP 10">アシストパワー</span><span class="move-meta"><span class="move-cat
 中に戻り、ここの面々に話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ソファのローラに話しかける <span class="affinity-delta is-up">+1 ローラ</span>
@@ -43325,7 +43325,7 @@ PP 10">なげつける</span><span class="move-meta"><span class="move-cat">物�
 回復して手持ちを整え、次の部屋へ進みます。ここでは例のクエスト用に **ブラッキー** を撫でられますが、これは期間限定なので必ず今のうちに済ませてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ルナのブラッキーを撫でる <span class="affinity-delta is-up">+1 ルナ</span>
@@ -43555,7 +43555,7 @@ PP 10">メガホーン</span><span class="move-meta"><span class="move-cat">物�
 勝ったらルナに話しかけましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - G.サーナイトが捕らわれたあとルナに話しかける <span class="affinity-delta is-up">+1 ルナ</span>
@@ -43638,7 +43638,7 @@ PP 10">メガホーン</span><span class="move-meta"><span class="move-cat">物�
 パズルを解いたらテレポーターを通ります。紫のテレポーターを通って戻れば *けいけんアメXL* も回収できます。それが済んだら上へ進んで扉に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アドリエンヌに指輪を渡すことに同意する <span class="affinity-delta is-mixed">+1 アドリエンヌ、-1 カイン</span>
@@ -43755,7 +43755,7 @@ PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特�
 留意すべき点として、*さばきのつぶて* はほのお・みず・くさ・エスパーのタイプ相性ボーナスを順に切り替えます。この性質を利用するか、とくこうを下げるか、あるいはここまで見てきた6対1の「勝てない」戦いへの戦法のいずれかを使えば、勝ちを狙えます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - エルの側について負ける <span class="affinity-delta is-mixed">+3 イライアス、+1 アドリエンヌ、-3 サーナイト、-2 ルナ、-2 ラドマス</span>
@@ -44092,7 +44092,7 @@ PP 5">ふぶき</span><span class="move-meta"><span class="move-cat">特殊</spa
 ケンタロスに乗り、右の 5N に入ります。隠された *あかいかけら* を拾い、右手の会話を目撃してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 「今のを見た」と答える <span class="affinity-delta is-down">-1 ティタニア</span>
@@ -45945,7 +45945,7 @@ PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat
 ここのイライアスに話しかけると、パズルの詳細などを教えてくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - イライアス自身について尋ねる <span class="affinity-delta is-up">+1 イライアス</span>
@@ -45964,7 +45964,7 @@ PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat
 </div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1つ目のチェスパズルを1回目で正解する <span class="affinity-delta is-up">+1 ラドマス</span>
@@ -48120,7 +48120,7 @@ PP 15">シンクロノイズ</span><span class="move-meta"><span class="move-cat
 ともあれこのエリアを出ます。ポケモンを全種買うと、DJアークライトが *しあわせタマゴ* をくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 7番街の盗まれたポケモンを全種買う <span class="affinity-delta is-up">+1 アークライト</span>
@@ -49352,7 +49352,7 @@ PP 15">イカサマ</span><span class="move-meta"><span class="move-cat">物理<
 メテオ団のエース本人との再戦であり、*聖なるフィールド* での初のボス戦です。フィールドノートを読み込めば勝てます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - エースに「忠誠」と答える <span class="affinity-delta is-mixed">+1 エース、-1 イライアス</span>
@@ -49363,7 +49363,7 @@ PP 15">イカサマ</span><span class="move-meta"><span class="move-cat">物理<
 ベリルの壁の外に出ると、また会話が起こります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ルナに「暗闇が怖い」と伝える <span class="affinity-delta is-down">-1 ルナ</span>
@@ -50250,7 +50250,7 @@ PP 10">ヘドロばくだん</span><span class="move-meta"><span class="move-cat
 水の対岸ではまず上へ進み、カギを使いながら道をたどります。途中で隠された *むらさきのかけら* と *あおいかけら* が見つかります。突き当たりの緑の水晶を起動したら、氷の橋へ戻って下へ。この道沿いで隠された *みどりのかけら* と *マジカルシード* を拾ってください。新しく作った洞窟の入口に入ると、ベネットが立ちはだかります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ベネットに「やるべきことをやらせる」と伝える <span class="affinity-delta is-up">+1 ベネット</span>
@@ -50502,7 +50502,7 @@ PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">�
 気の毒に、**メラルバ** をもう1レベル上げて **ウルガモス** にすることすらできなかったようです。それでも今いるフィールドの恩恵は受けており、今回は *シグナルビーム* の強化という形で現れます。相変わらずむしポケモンは打たれ弱く、突ける弱点も多いので、いわ技とほのお技で倒せます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でベネットに勝つ <span class="affinity-delta is-mixed">+1 ルナ、-2 ベネット</span>
@@ -51670,7 +51670,7 @@ PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat
 最後に、ハイストライカーの隣のサムソンに話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 主人公が女性のとき、道を空けてくれるサムソンに話しかける <span class="affinity-delta is-up">+1 サムソン</span>
@@ -51682,7 +51682,7 @@ PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat
 外へ出てまた入り直すと、好感度のための会話がいくつかできます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アヤに話しかける <span class="affinity-delta is-up">+1 アヤ</span>
@@ -53989,7 +53989,7 @@ PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物�
 上部のフィオレ屋敷に入り、アマリアに話しかけます。上階へ上がってソファのハーディに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1番道路でティタニアを見ていた場合、秘密を守ると伝える <span class="affinity-delta is-up">+1 ティタニア</span>
@@ -54196,7 +54196,7 @@ PP 20">じならし</span><span class="move-meta"><span class="move-cat">物理<
 サーカスの裏手に入ります。ここでもまた、好感度のための会話がいくつかできます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アヤに話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -54435,7 +54435,7 @@ PP 20">ビルドアップ</span><span class="move-meta"><span class="move-cat">�
 とはいえ、若い頃の筆者が叩きのめされたのは、*サーカステント* のフィールドノートを読んで、こちらからも同じだけやり返せると気づく前の話です。何より、先ほど述べたルカリオの *アクロバット* の話は、こちらにもそのまま当てはまります。使えるなら（あるいは *しぜんのちから* がこれに変わるので）、この技だけで相手の編成をほぼ壊滅させられます。ハイストライカー技をこちらから撃つ手もあります。目ぼしい使い手は *こんじょう* の **チャーレム**、*こんじょう* / *ちからずく* の **ローブシン**、そして *フリーフォール* と *ちからずく* の **ウォーグル** で、いずれも近くで入手できます。ほかにもこのフィールドで強化される技は多く、*ハイパーボイス* や *ばくおんぱ* といった音技のほか、*はなびらのまい*、*パワーウィップ*、*そらをとぶ*、*めざめるダンス* などが挙げられます。最後のものに関連して、*おどりこ* を持つポケモンは踊り技を使うたびに素早さととくこうが1段階上がります——ある特定のポケモンとの相性が抜群です。積む余裕があるなら、*つるぎのまい*、*りゅうのまい*、*ちょうのまい* もすべて強化されるので、こちらのエースを比較的簡単に仕上げられます。雨は8ターン持続し、*うたう* は必中になり、*はらだいこ* はぼうぎょ上昇まで付く——このフィールドで使えるとんでもない手は本当に数多くあります。フィールドを利用するつもりがなくても、素早いエスパータイプとひこうタイプは鈍足な相手への回答として堅実ですし、厄介な相手には先制技や *がんじょう* ＋ *カウンター* を当てる手も常にあります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でサムソンに勝つ <span class="affinity-delta is-up">+2 シエル</span>
@@ -54488,7 +54488,7 @@ PP 20">ビルドアップ</span><span class="move-meta"><span class="move-cat">�
 セレスティナイン滝へ戻り、中のティタニアに話しかけます。*ひでんマシン3 なみのり* が手に入ります。ようやくです。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ティタニアに「日誌を読んでいた」と伝える <span class="affinity-delta is-none">増減なし</span>
@@ -54503,7 +54503,7 @@ PP 20">ビルドアップ</span><span class="move-meta"><span class="move-cat">�
 滝を下って追いかけることはまだできませんが、*なみのり* での探索は可能になりました。ひとつ補足しておきます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ティタニアが滝を下ったあと、彼女の日記を読む <span class="affinity-delta is-down">-1 ティタニア</span>
@@ -55151,7 +55151,7 @@ PP 15">さきおくり</span><span class="move-meta"><span class="move-cat">変�
 やがて右手に、2番道路と繋がっているエリアが見えます。これで3つの山が互いに、そして2番道路一帯とどう繋がっているかが分かりました。せっかく近いので、ここでサーカスへ少し寄り道します。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - サーカス下部のブレイクに話しかける <span class="affinity-delta is-up">+1 ブレイク</span>
@@ -55304,12 +55304,12 @@ PP 15">さきおくり</span><span class="move-meta"><span class="move-cat">変�
 隠された *キズぐすり* を拾います。ここから右へ。そして……カルセノンシティへの入城はお預けです。右へ進みながら、道中の隠された *すごいキズぐすり* と *みどりのかけら* を回収してください。アヤが同行者になります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アヤと同行中にアメトリンへ戻る <span class="affinity-delta is-down">-1 アヤ、-1 ハーディ</span>
 - アヤと同行中に全滅する <span class="affinity-delta is-down">-1 アヤ、-1 ハーディ</span>
-- 同行中にアヤに話しかける <span class="affinity-delta is-up">会話4種それぞれ +1 アヤ、合計 +4</span>
+- 同行中にアヤに話しかける <span class="affinity-delta is-up">+4 アヤ。会話4種それぞれ +1</span>
 {: .affinity-list}
 
 
@@ -56807,7 +56807,7 @@ PP 15">ほのおのキバ</span><span class="move-meta"><span class="move-cat">�
 アスターとエクリプスとの次の一戦です。今回はアヤが同行者で、ありがたいことに彼女の編成はこの戦いでしっかり働いてくれます。みず技とくさ技を多く持っており、相手に多いみず・いわ・じめんタイプに刺さるからです。アスターとエクリプスは先発で壁を張ってきたがるので、煩わしければ *かわらわり* や *サイコファング* を用意するとよいでしょう。総じて **ルナトーン** の火力は高くないので、苦戦するようなら右側を集中的に狙い続けて2対1に持ち込むと単純になります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アヤが連れ去られる <span class="affinity-delta is-down">-2 アヤ。これは選択肢ではありません</span>
@@ -57442,7 +57442,7 @@ PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">�
 好感度が欲しければ、町の左側でハーディに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 町の左側でハーディとファーンに話しかける <span class="affinity-delta is-up">+1 ファーン</span>
@@ -57452,7 +57452,7 @@ PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">�
 ここでサファイラに2回話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - サファイラの好感度が0より大きい状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える <span class="affinity-delta is-mixed">+2 シャルロット、-1 ハーディ、+1 サファイラ</span>
@@ -57464,7 +57464,7 @@ PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">�
 ともあれ4番道路への出口まで歩き、中のシャルロットに話しかけます。ジム戦の時間だと告げられるので、カルセノンへ戻ってください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 町の西側でサファイラとシグムンドに話しかける <span class="affinity-delta is-down">-1 シグムンド</span>
@@ -57640,7 +57640,7 @@ PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物�
 シャルロットのいる場所まで上がります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シャルロットがいる状態でジムの隠し部屋を開ける <span class="affinity-delta is-up">+1 シャルロット</span>
@@ -57885,7 +57885,7 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
 ジム戦のあと、カルセノンの左下の建物に入ります。中で *ひでんマシン6 ダイビング* が手に入ります。実はもっと早く入ることもできたのですが——
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ダイビングを入手する前にシャルロットを倒す <span class="affinity-delta is-up">+1 ノエル、+1 シェリー</span>
@@ -57895,7 +57895,7 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
 ここではハーディにも話しかけられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - カルセノンの家でハーディにシャルロットのことを話す <span class="affinity-delta is-up">+1 ハーディ</span>
@@ -58444,13 +58444,13 @@ PP 20">でんじは</span><span class="move-meta"><span class="move-cat">変化<
 **限定ルートに入るには、ブレイクの要求を3回とも断る必要があります。**
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - すぐにブレイクへ指輪を渡す <span class="affinity-delta is-mixed">+2 ブレイク、-2 キャル</span>
 - 1回断ってから指輪を渡す <span class="affinity-delta is-mixed">+2 ブレイク、-2 キャル、-1 シェリー</span>
 - 2回断ってから指輪を渡す <span class="affinity-delta is-mixed">+2 ブレイク、-2 キャル、-1 シェリー、-1 ヘザー</span>
-- 3回とも断る <span class="affinity-delta is-mixed">アンナ +1、シェイド +1、キャル +2、-2 シェリー、-2 ブレイク、-1 ヘザー</span>
+- 3回とも断る <span class="affinity-delta is-mixed">+1 アンナ、+1 シェイド、+2 キャル、-2 シェリー、-2 ブレイク、-1 ヘザー</span>
 {: .affinity-list}
 
 
@@ -58459,7 +58459,7 @@ PP 20">でんじは</span><span class="move-meta"><span class="move-cat">変化<
 ここからは、脱出の手がかりを探してブレイクの部屋を調べることになります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイクのベッドの下を調べる <span class="affinity-delta is-down">-1 ブレイク</span>
@@ -58480,7 +58480,7 @@ PP 20">でんじは</span><span class="move-meta"><span class="move-cat">変化<
 外に出て、隠された *ひこうのジュエル* を拾います。ここでシェリーに話しかけてください。ヘザーを解放したら、小屋に入って機械に話しかけると *フライングメモリ* が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイクへの指輪の受け渡しを断ったうえでヘザーを解放する <span class="affinity-delta is-up">+1 ヘザー</span>
@@ -59115,7 +59115,7 @@ PP 20">ころがる</span><span class="move-meta"><span class="move-cat">物理<
 登りながら隠された *あかいかけら*、*クリティカット*、*むしよけスプレー* を拾います。上部に、上そして左へ延びる狭い通路が見えます。たどると *かいふくのくすり* が手に入ります。右へ進みましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 警官を救出しコーリーの件を暴き、かつブレイクに指輪を渡したうえで、キャルとヘザーの会話を見る <span class="affinity-delta is-up">+1 ヘザー</span>
@@ -59594,7 +59594,7 @@ PP 15">うちおとす</span><span class="move-meta"><span class="move-cat">物�
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイクに指輪を渡したうえで、疲れたあとのシェリーに話しかける <span class="affinity-delta is-up">+1 シェリー</span>
@@ -60706,7 +60706,7 @@ PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat
 勝利すると、ブレイクの企ては潰えます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 以前サファイラが連れ去られていた場合、キャルからテラとリンについて詳しく聞く <span class="affinity-delta is-up">+1 テラ</span>
@@ -60716,7 +60716,7 @@ PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat
 キャルがアメトリン本体まで送ると申し出てくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 下山のキャルの申し出を断る <span class="affinity-delta is-down">-1 キャル</span>
@@ -60728,7 +60728,7 @@ PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat
 ストーリーを進める前に、3番道路の近道でカルセノンへ行くと、次の好感度が得られます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイク戦のあとカルセノンでカインに話しかける <span class="affinity-delta is-up">+1 カイン</span>
@@ -62226,7 +62226,7 @@ PP 15">つめとぎ</span><span class="move-meta"><span class="move-cat">変化<
 おつきみやまでは *キズぐすり* 2個、*あなぬけのヒモ*、*ふしぎなアメ* を拾えます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 中央にある「Mt.b00ty へようこそ」の看板に話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -62336,7 +62336,7 @@ PP 10">あくび</span><span class="move-meta"><span class="move-cat">変化</sp
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ティミーに話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -62396,7 +62396,7 @@ PP 15">かわらわり</span><span class="move-meta"><span class="move-cat">物�
 *いいキズぐすり* を回収し、タイルの迷路を進みます。第1世代のポケモンと同じ仕掛けです。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 左下の隅のレッドに話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -62406,7 +62406,7 @@ PP 15">かわらわり</span><span class="move-meta"><span class="move-cat">物�
 反対側に着いたら、階段ではなくエレベーターを使います。シオンタウンでは:
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - M3GAT3RR4 について話すNPCに話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -62505,7 +62505,7 @@ PP 15">かわらわり</span><span class="move-meta"><span class="move-cat">物�
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - かつてエースと戦った場所の近くのコンピューターに話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -62615,7 +62615,7 @@ PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特�
 *あやしいパッチ* と隠された *まんたんのくすり* を回収します。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - やしきの日記に話しかける <span class="affinity-delta is-up">+1 テラ</span>
@@ -63083,7 +63083,7 @@ M3G4 T3RR4 との対戦です。もうお察しのとおり *グリッチフィ�
 </div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - テラを倒す <span class="affinity-delta is-down">-4 テラ。実際には選択肢ではありません</span>
@@ -63373,7 +63373,7 @@ M3G4 T3RR4 との対戦です。もうお察しのとおり *グリッチフィ�
 必要なら中央でティタニアに何度か話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 空腹だと言うティタニアにお菓子を渡す <span class="affinity-delta is-up">+1 ティタニア</span>
@@ -63898,7 +63898,7 @@ PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊<
 右上の隅の新しい部屋に入り、隠された *じゅうでんち* を拾います。右上には *エレキブースター* があります。一度出て入り直すと、隅に **マルマイン** が現れます。これと戦って *ショートフィールド* を *工場フィールド* に変えてください。近くの機械に話しかけると **フォッコ** が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - フォッコに添えられた手紙を読む <span class="affinity-delta is-up">+1 エース</span>
@@ -64415,7 +64415,7 @@ PULSE **マルノーム** は鈍足ですが極めて硬く、しかも回復手
 ここまでの選択はどれも、この選択が生む波及効果には及びません。理由は後々はっきりしますが、タカと戦うことを選んだ結果を *ゼクロムルート*、戦わないことを選んだ結果を *レシラムルート* とコミュニティでは呼んでいます。この攻略でもこの呼び方に従います。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカと戦う <span class="affinity-delta is-mixed">+2 タカ、+1 エース、-1 ティタニア</span>
@@ -65791,7 +65791,7 @@ PP 15">リーフブレード</span><span class="move-meta"><span class="move-cat
 連戦のこの一戦はやや厳しくなります。フロリニアはファーンとブレイクに対してダメージ面で有利な相性を多く持つので、倒される前に攻撃できる状況を作るのが肝心です。フロリニアの編成は非常に鈍足なので、この戦いでは *トリックルーム* を強くおすすめします。**ハッサム** と **マニューラ** を確実に倒せれば先制技を警戒せずに済むので、抜群の強力な技で総じて押し切れます。一撃で落とされないよう、壁を張ることも検討してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - パイロスでソラリスを倒していない状態でフロリニアが仲間になる <span class="affinity-delta is-up">+1 フロリニア</span>
@@ -66641,7 +66641,7 @@ PP 15">うたう</span><span class="move-meta"><span class="move-cat">変化</sp
 サムソンと同様、このフィールドの数々の効果を突けば勝てます。サムソンに *アクロバット* と *めざめるダンス* を勧めたのと同じく、こちらも *うちおとす* と *じしん* でハイストライカーを狙うと痛快です。グライオンから先は耐久が高くないからです。相手の編成に *アクロバット* を半減できるものはいないので、彼女の戦法をそのまま返して勝てます。**オドリドリ** がいれば、でんきタイプの *めざめるダンス* でグライオンとチルタリス以外を容易に薙ぎ払えます。あるいは単純に *トリックルーム* と、鈍足のこおり・いわタイプを数匹用意して押し潰す手もあります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でシエルに勝つ <span class="affinity-delta is-up">+2 サムソン</span>
@@ -66656,7 +66656,7 @@ PP 15">うたう</span><span class="move-meta"><span class="move-cat">変化</sp
 大テントの外へ出ます。リボーンシティやこれまで入れなかったエリアへ飛ぶ前に、好感度をいくつか稼げます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 4番道路でハーディに話しかける <span class="affinity-delta is-up">+1 ハーディ</span>
@@ -75712,7 +75712,7 @@ PP 10">チャージビーム</span><span class="move-meta"><span class="move-cat
 5匹すべてを返したら、DJアークライトのもとへ戻ります。褒美は *メガZリング* です。つまり、これまで集めてきたZクリスタルとメガストーンをついに使えるようになります。今後さらに増えていきます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - メガZリングクエストを完了する <span class="affinity-delta is-up">+2 アークライト</span>
@@ -75728,18 +75728,18 @@ PP 10">チャージビーム</span><span class="move-meta"><span class="move-cat
 地下鉄道網に入り、線路を操作できる部屋まで進んだら、ココドラのいる部屋へ通じる上から2番目の道へ入ります。アブソルが見えたら道は合っています。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - デボンへ潜入する準備ができたとアークライトに伝える <span class="affinity-delta is-up">+1 ヴィクトリア</span>
-- デボンへ潜入する準備ができていないとアークライトに伝える <span class="affinity-delta is-down">-1 ヴィクトリア, -1 アークライト</span>
+- デボンへ潜入する準備ができていないとアークライトに伝える <span class="affinity-delta is-down">-1 ヴィクトリア、-1 アークライト</span>
 {: .affinity-list}
 
 
 準備ができたらアークとヴィクトリアに話しかけ、階段を上がって団員を倒してください。なお、どちらが相棒になるかは現時点の好感度で決まります。ヴィクトリアの値がアークライトより2ポイント以上高ければヴィクトリア、そうでなければアークライトです。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - デボン地下でヴィクトリアと組んで戦う <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -77746,11 +77746,11 @@ PP 10">げきりん</span><span class="move-meta"><span class="move-cat">物理<
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- 戦うとアークライトに伝える <span class="affinity-delta is-up">+1 ヴィクトリア, +1 アークライト</span>
-- 断るとアークライトに伝える <span class="affinity-delta is-mixed">+2 アドリエンヌ, -1 ヴィクトリア, -1 アークライト</span>
+- 戦うとアークライトに伝える <span class="affinity-delta is-up">+1 ヴィクトリア、+1 アークライト</span>
+- 断るとアークライトに伝える <span class="affinity-delta is-mixed">+2 アドリエンヌ、-1 ヴィクトリア、-1 アークライト</span>
 {: .affinity-list}
 
 
@@ -78002,11 +78002,11 @@ DJとの初戦です。でんきタイプが4匹いるぶん、工場フィー�
 モニター#2を起動し、上へ進んでモニター#3を起動したら、下へ戻ってモニター#2を切ります。あとは緑のタイル道を上へ進み、左の下側の回転盤へ入るだけで、回転盤の連鎖に運ばれていきます。モニター#4に着いたら起動し、左へ戻ります。モニター#5も同様です。先へ進む前に電気タイルを青に切り替え、長大な連鎖を上ってモニター#6へ向かいます。右へ進んでモニター#7を起動したら、上へ進みます。モニター#8を起動し、準備ができたら次の部屋へ入ってください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- ここのすべてを壊しに来たと言う <span class="affinity-delta is-down">-1 イヴ, -1 ルミ</span>
-- ここのすべてを壊しに来たのではないと言う <span class="affinity-delta is-up">+1 イヴ, +1 ルミ</span>
+- ここのすべてを壊しに来たと言う <span class="affinity-delta is-down">-1 イヴ、-1 ルミ</span>
+- ここのすべてを壊しに来たのではないと言う <span class="affinity-delta is-up">+1 イヴ、+1 ルミ</span>
 {: .affinity-list}
 
 
@@ -80851,7 +80851,7 @@ PP 10">ねむる</span><span class="move-meta"><span class="move-cat">変化</sp
 寄り道はこれで終わりなので、コーラル区へ下り、ジムのアドリエンヌに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - チャンピオンになると言う <span class="affinity-delta is-up">+1 アドリエンヌ</span>
@@ -80880,7 +80880,7 @@ PP 10">ねむる</span><span class="move-meta"><span class="move-cat">変化</sp
 好きなだけ有志を見つけたら、アドリエンヌのもとへ戻ります。10人以上で *ものしりメガネ*、15人全員なら加えて *とくせいカプセル* と *ほしのかけら* がもらえます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 有志を10〜14人見つける <span class="affinity-delta is-up">+1 アドリエンヌ</span>
@@ -81243,7 +81243,7 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
 いずれかの計画に必要額を出し切ると、大ホールの地下に入れるようになるので、下りてみましょう。右手の一番下の部屋には *いじっぱりミント*、*ひかえめミント*、*けいけんアメXL* 3個があります。隣の部屋では *どりょくちブースター* 2個が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 大ホールの地下でヴィクトリアに話しかける <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -81253,7 +81253,7 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
 一番上の部屋に入ってコンピュータに話しかけると、*ミミロップナイト* が手に入り、ロコンが解放されます。メガミミロップが好みでなくても、とにかくやっておいてください。地下ではもう1つクエストを始められますが、それは後ほど扱います。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 計画その1に出資する <span class="affinity-delta is-up">+1 アドリエンヌ</span>
@@ -83315,7 +83315,7 @@ PP 5">アンコール</span><span class="move-meta"><span class="move-cat">変�
 タカの編成は砂漠フィールドと *すなあらし* に合わせてよく組まれていますが、ここでもクレッフィさえ落とせばこおりタイプで崩せます。これまでどおり、*からをやぶる* を積んだメテノの一掃には注意してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 勝ち続けるつもりはないとタカに伝える <span class="affinity-delta is-up">+1 タカ</span>
@@ -83329,7 +83329,7 @@ PP 5">アンコール</span><span class="move-meta"><span class="move-cat">変�
 なお、ここで断るとレシラムルートやゼクロムルートとは別の物語筋に入ります。コミュニティでは「ヘルルート」と呼ばれることが多いものです。（筆者はこのルートを遊んだことがないので、ヘルルートで攻略と食い違う点に気づいたら教えてください。）
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 砂漠でタカの同行を認めない <span class="affinity-delta is-down">-3 タカ</span>
@@ -83339,7 +83339,7 @@ PP 5">アンコール</span><span class="move-meta"><span class="move-cat">変�
 同行させた場合、彼を連れたまま砂漠を出ると好感度が下がります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカを連れたまま砂漠を出る <span class="affinity-delta is-down">-2 タカ</span>
@@ -84570,7 +84570,7 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 タカが同行している場合の話をもう1つ。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカの同行中にトルマリン砂漠で話しかける <span class="affinity-delta is-up">+1 タカ</span>
@@ -84580,7 +84580,7 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 なお、タカには36種類もの会話があり、一部は現在地によって変わります。どこであれ話しかけたときに父を憎んでいるかと尋ねられたら、もう1ポイント得られる可能性があります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ソラリスを憎んではいないとタカに伝える <span class="affinity-delta is-up">+1 タカ</span>
@@ -85080,7 +85080,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 地下へ行くには、上の壁沿いの鏡をすべて *いわくだき* で割る必要があります。これを行うと手持ちがダメージを受けるので、タカがいない場合は回復しておくのが賢明かもしれません。タカといえば――
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカの同行中にしんきろうの塔で話しかける <span class="affinity-delta is-up">+1 タカ</span>
@@ -85415,7 +85415,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 他のエリアと同じく――
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカの同行中にスギラインどうくつで話しかける <span class="affinity-delta is-up">+1 タカ</span>
@@ -85701,7 +85701,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 他のエリアと同じく――
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカの同行中にテクナイトどうくつ／尾根で話しかける <span class="affinity-delta is-up">+1 タカ</span>
@@ -86227,7 +86227,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 他のエリアと同じく――
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカの同行中に1R253廃品置き場で話しかける <span class="affinity-delta is-up">+1 タカ</span>
@@ -86398,7 +86398,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 タカが同行している場合、彼はエリア右下側の車両で横になって休みます。追いかける前に、よければエウロパに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカは恋人だとエウロパに伝える <span class="affinity-delta is-up">+1 タカ</span>
@@ -87227,7 +87227,7 @@ PP 20">フリーズドライ</span><span class="move-meta"><span class="move-cat
 塔の外壁では、蔦をよじ登ります。上部の左手には *りゅうのあなの資料* が見えます。右へ進むと、ティタニアが話しかけてきます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ティタニアの好感度が0以上のときに、信じていると伝える <span class="affinity-delta is-up">+1 ティタニア</span>
@@ -87590,7 +87590,7 @@ PP 15">せいなるつるぎ</span><span class="move-meta"><span class="move-cat
 ポケモンリボーンのエピソード17は、実際にはバッジを2つ取れる形で公開されたので、この章にはまだ少し内容が残っています。まずは任意の内容から。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ティタニアを倒したあとにカルセノンシティでハーディに話しかける <span class="affinity-delta is-up">+1 ハーディ</span>
@@ -87626,7 +87626,7 @@ PP 15">せいなるつるぎ</span><span class="move-meta"><span class="move-cat
 大ホールへ向かいます。ティタニアを倒したので、もう1つの復興プロジェクトに出資できます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 計画その2に出資する <span class="affinity-delta is-up">+1 アドリエンヌ</span>
@@ -87662,7 +87662,7 @@ PP 15">せいなるつるぎ</span><span class="move-meta"><span class="move-cat
 部屋の中央寄りのくぼみにアマリア3人目がいます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アマリア3人目を見つけて「いいえ」と答える <span class="affinity-delta is-down">-4 アマリア</span>
@@ -88618,18 +88618,18 @@ PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊<
 カルセノンシティへ向かい、「なぜかいつも物語が動くあの集合住宅」に入ります。あれのことです。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- 基地への突入にハーディと同意する <span class="affinity-delta is-mixed">+1 ハーディ, -1 フロリニア</span>
-- 基地への突入にハーディと反対する <span class="affinity-delta is-mixed">-1 ハーディ, +1 フロリニア</span>
+- 基地への突入にハーディと同意する <span class="affinity-delta is-mixed">+1 ハーディ、-1 フロリニア</span>
+- 基地への突入にハーディと反対する <span class="affinity-delta is-mixed">-1 ハーディ、+1 フロリニア</span>
 {: .affinity-list}
 
 
 4番道路へ向かいます。ゲートでは、よければシャルロットに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シャルロットの好感度が0以上のときに、信じていると伝える <span class="affinity-delta is-up">+1 シャルロット</span>
@@ -88647,7 +88647,7 @@ PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊<
 バッジ16個が揃ったので、ついに大ホールの復興プロジェクト3つ目、最後の1つを完了できます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 計画その3に出資する <span class="affinity-delta is-up">+1 アドリエンヌ</span>
@@ -91201,7 +91201,7 @@ PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat
 4番道路の探索とお宝はこれで終わりなので、エリア左側の広く開けた場所にいるハーディに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ハーディの賭けに乗る <span class="affinity-delta is-up">+1 ハーディ</span>
@@ -91217,7 +91217,7 @@ PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat
 ハーディに話しかけ、そのあとエレベーターまで付いていきます。ベネットに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 「誰よりも強くなるため」と答える <span class="affinity-delta is-down">-1 ベネット</span>
@@ -91376,7 +91376,7 @@ PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</sp
 メテオ団のしたっぱを倒し、隅のモニターに話しかけて扉を開けます。グレイシアが付いてくるようになります。話しかけると、手持ちの状態異常を無料で治してくれます。また、グレイシアを撫でるかどうかを選べます。クエストのためだけでなく、好感度と、後のバトルの内容にも関わります。なかなか重い選択です。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - グレイシアを撫でる <span class="affinity-delta is-up">+2 ルミ</span>
@@ -92029,7 +92029,7 @@ PP 10">ドラゴンテール</span><span class="move-meta"><span class="move-cat
 エーフィは *みらいよち* を使え、次の目標をぼんやりとした映像で見せてくれます。行き詰まったときに便利です……もっとも、このまま読み進めても構いません。ともあれ、クエストと好感度のために、エーフィを撫でるかどうかも選べます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - エーフィを撫でる <span class="affinity-delta is-up">+1 イヴ</span>
@@ -92776,7 +92776,7 @@ PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">�
 ブレイクに *ルビーのゆびわ* を渡さなかった場合は、上部で *メテオカード* を拾います。*けいけんアメXL* 3個も手に入ります。この部屋のポッドを開けてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ノエルに *いやしのすず* を使う <span class="affinity-delta is-up">+1 ノエル</span>
@@ -92786,7 +92786,7 @@ PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">�
 エレベーターで最下階へ戻ります。先へ進む前に、ハーディが眠っているエレベーターへグレイシアを連れていってください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ハーディに *いやしのすず* を2回使う <span class="affinity-delta is-up">+1 ハーディ</span>
@@ -93912,7 +93912,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 しばらく進むと、アヤの場面を通り過ぎます。任意で、カインに3回目の会話をすることもできます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 虚無でアヤの場面のあとにカインに話しかける <span class="affinity-delta is-up">+1 カイン</span>
@@ -93983,7 +93983,7 @@ PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化<
 カルセノンシティへ戻り、マップ右寄りのシェリーに話しかけます。カルセノンの「物語の建物」に入ると好感度が得られます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シェリーがティタニア／セラと話しているときに話しかける <span class="affinity-delta is-up">+1 シェリー</span>
@@ -93995,7 +93995,7 @@ PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化<
 ポケモンセンター付近のイヴに話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - イヴに話しかけ、残るPULSEについて聞く <span class="affinity-delta is-up">+1 イヴ</span>
@@ -94007,7 +94007,7 @@ PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化<
 注意点を1つ。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - レシラムルートのみ: アゲート襲撃中にティタニアに話しかける <span class="affinity-delta is-down">-1 ティタニア</span>
@@ -96087,10 +96087,10 @@ PP 10">でんじふゆう</span><span class="move-meta"><span class="move-cat">�
 アゲートシティの左側からアゲートサーカスへ入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- （ブレイク拒否ルートのみ）襲撃後にサーカス左上側のシエルに話しかける <span class="affinity-delta is-up">+1 シエル, +1 エース</span>
+- （ブレイク拒否ルートのみ）襲撃後にサーカス左上側のシエルに話しかける <span class="affinity-delta is-up">+1 シエル、+1 エース</span>
 - （ルビーのゆびわを渡したルートのみ）襲撃後に大テントのサムソンに話しかける <span class="affinity-delta is-up">+1 サムソン</span>
 {: .affinity-list}
 
@@ -98202,24 +98202,24 @@ PP 10">ドリルライナー</span><span class="move-meta"><span class="move-cat
 カルセノンシティへ飛びます。街の西側にいるハーディに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - メテオ団と戦う準備ができたとハーディに伝える <span class="affinity-delta is-up">+1 ハーディ</span>
 - メテオ団と戦う準備ができていないとハーディに伝える <span class="affinity-delta is-down">-1 ハーディ</span>
-- ベネットを信じるとハーディに伝える <span class="affinity-delta is-mixed">+2 ベネット, +2 ローラ, +1 イヴ, -2 サファイラ</span>
-- ベネットを信じないとハーディに伝える <span class="affinity-delta is-mixed">+2 サファイラ, -2 ベネット, -1 ローラ</span>
+- ベネットを信じるとハーディに伝える <span class="affinity-delta is-mixed">+2 ベネット、+2 ローラ、+1 イヴ、-2 サファイラ</span>
+- ベネットを信じないとハーディに伝える <span class="affinity-delta is-mixed">+2 サファイラ、-2 ベネット、-1 ローラ</span>
 {: .affinity-list}
 
 
 会話が終わると操作に戻ります。好感度のために交わせる任意の会話がまだあります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- 物語の集合住宅でシャルロットに話しかけ「はい」と答える <span class="affinity-delta is-mixed">+1 サファイラ, -1 ローラ</span>
-- 物語の集合住宅でシャルロットに話しかけ「いいえ」と答える <span class="affinity-delta is-mixed">+1 ローラ, -1 サファイラ</span>
+- 物語の集合住宅でシャルロットに話しかけ「はい」と答える <span class="affinity-delta is-mixed">+1 サファイラ、-1 ローラ</span>
+- 物語の集合住宅でシャルロットに話しかけ「いいえ」と答える <span class="affinity-delta is-mixed">+1 ローラ、-1 サファイラ</span>
 - 物語の集合住宅でシャルロットに話しかけ、Bを押して答えない <span class="affinity-delta is-up">+1 シャルロット</span>
 - カルセノンでジュリアに話しかける <span class="affinity-delta is-up">+1 ジュリア</span>
 - レシラムルートのみ: カルセノンでアマリアに話しかける <span class="affinity-delta is-down">-1 ジュリア</span>
@@ -98612,7 +98612,7 @@ PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat
 次のメテオだんエースを倒し、上へ進んで場面を見届けます。先へ進む前に、ポケモンセンターまで戻ってください。上そして右には、隠された *ゴールドスプレー* と、新たに開いた建物へ続く道があります。中のノエルに話しかけると *パルスの資料10* が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - このPULSEを倒す前に PULSE10 の資料を入手する <span class="affinity-delta is-up">+1 イヴ</span>
@@ -99200,11 +99200,11 @@ PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">�
 上へ進み、この建物の奥に誰がいるのかを確かめましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- レシラムルートのみ: ソラリスに死んでほしいと伝える <span class="affinity-delta is-mixed">+1 ヴィクトリア, -1 キャル</span>
-- レシラムルートのみ: ソラリスに死んでほしくないと伝える <span class="affinity-delta is-mixed">+1 キャル, -1 ヴィクトリア</span>
+- レシラムルートのみ: ソラリスに死んでほしいと伝える <span class="affinity-delta is-mixed">+1 ヴィクトリア、-1 キャル</span>
+- レシラムルートのみ: ソラリスに死んでほしくないと伝える <span class="affinity-delta is-mixed">+1 キャル、-1 ヴィクトリア</span>
 {: .affinity-list}
 
 
@@ -99399,7 +99399,7 @@ PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物�
 隠された *あおいかけら* と *やけどなおし* を拾ったら上へ進みます。近くの開いた建物に入るとシグムンドが逃げていきます。奥の緑のケースを開けると *ポイントアップ* が手に入ります。外に戻って上へ進みます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - レシラムルートのみ: まだアマリアを信じていると伝える <span class="affinity-delta is-up">+1 アマリア</span>
@@ -100732,7 +100732,7 @@ PULSEブロスターがこの戦いを一段と難しくします。彼は必ず
 外に戻り、ゼクロムルートなら、よければそこから下のタカとソラリスに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ゼクロムルートのみ: PULSEブロスターのあとにタカとソラリスに話しかける <span class="affinity-delta is-up">+2 タカ</span>
@@ -100742,7 +100742,7 @@ PULSEブロスターがこの戦いを一段と難しくします。彼は必ず
 ともあれ、次は街の中央へ向かいます。この場面のあと、街の左下側へ向かってください。下部の建物への道が開いています。隠された *クリティカット* を拾って中に入ります。中のイヴに話しかけると、よければ次に控えるPULSE戦の情報を教えてくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 次のPULSE戦についてイヴに聞く <span class="affinity-delta is-up">+1 イヴ</span>
@@ -101329,7 +101329,7 @@ LCCC から上そして右の建物、以前シグムンドが逃げていった
 - トーナメントは間違っていないと思うとヴィクトリアに伝える (-1 ヴィクトリア)
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 放っておいてと言われたあとに、もう一度ティタニアに話しかける <span class="affinity-delta is-down">-1 ティタニア</span>
@@ -102205,7 +102205,7 @@ PP 20">くさむすび</span><span class="move-meta"><span class="move-cat">特�
 突破したら、道をたどって次のエリアへ進みます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - レシラムルートかつ主人公が男性の場合のみ: キャルに話しかける <span class="affinity-delta is-up">+1 キャル</span>
@@ -102669,7 +102669,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 左手のサファイラのジムに入り、隅にいる彼女に話しかけます。次にジムの構造を把握し、中にある隠された *クイックボール*、*ハートのウロコ*、*ポイントマックス* を拾ってください。エリアの最上部へ進み、宝箱に話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 {: .affinity-list}
@@ -103153,7 +103153,7 @@ PP 15">ほのおのキバ</span><span class="move-meta"><span class="move-cat">�
 </table></div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 宝箱の試練に初回で失敗する <span class="affinity-delta is-down">-1 サファイラ</span>
@@ -107684,7 +107684,7 @@ PP 20">おいうち</span><span class="move-meta"><span class="move-cat">物理<
 <img class="tabImage" src="/assets/images/reborn/vr_puzzle_4.webp" width="1905" height="312" loading="lazy" decoding="async" alt="攻略図"/>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 論理パズル4を5回以内で解く <span class="affinity-delta is-up">+1 ラドマス</span>
@@ -109933,7 +109933,7 @@ PP 10">ぼうふう</span><span class="move-meta"><span class="move-cat">特殊<
 準備ができたら次の部屋へ入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイクの邪魔をすると伝える <span class="affinity-delta is-down">-1 ブレイク</span>
@@ -112217,7 +112217,7 @@ PP 15">めざめるパワー (いわ)</span><span class="move-meta"><span class=
 いっそフィールドごと変えてしまう手もあります。晴れにすればしばらく虹のフィールドになるので、そちらを軸にした戦略を組んでも構いません。ただ、それ以上に有効なのが燃えるフィールドです。雨のせいで燃えるフィールドには変えられず、砂でも同様です。少し手間はかかりますが、*あられ*（わざマシンがあります）に続けて *ふんえん* や *ダイナミックフルフレイム*（Zクリスタルがあります）のような燃やす技を使えば成功します! 燃えるフィールドで相手の編成がどうなるかは、想像がつくでしょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アポリシスが何か知っているとベネットに伝える <span class="affinity-delta is-up">+1 ベネット</span>
@@ -113679,7 +113679,7 @@ PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">�
 そしてアルセウスです。易しいほうの版では *いのちのたま* を持っているので、毒にして *みがわり* の裏に隠れていれば、勝手に自滅するのを眺めるという愉快な手が使えます。あいにく難しいほうの版はZクリスタル持ちで、しかも積む時間も与えられないので、前の戦いで残った手持ちの切れ端で……まあ、せこい手を使うしかありません。筆者の初回は、*かそく* のサメハダーで *まもる* を2回使ってからの *みちづれ* でした。今回は *アクセルロック* で少し削ってからの *がんじょう* ＋ *メタルバースト* です。こういう戦法をせこいと呼ぶ人もいるでしょうが、種族値合計975、努力値も個体値も満載、さらにフィールド強化まで乗ったポケモンに対して、他に何ができるでしょうか。アンナルートに残りたいなら手段を選ばず2戦とも勝ち、リンルートへ進むなら1編成版だけを倒してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - リンの2連戦を制してアンナルートへ進む <span class="affinity-delta is-down">-2 テラ</span>
@@ -163264,10 +163264,10 @@ PP 5">あくうせつだん</span><span class="move-meta"><span class="move-cat"
 部屋の右側でキャスに話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- 最初のクリア後クエストを始める準備ができていないと、キャスに繰り返し伝える <span class="affinity-delta is-down">-1 ノエル, -1 セラ</span>
+- 最初のクリア後クエストを始める準備ができていないと、キャスに繰り返し伝える <span class="affinity-delta is-down">-1 ノエル、-1 セラ</span>
 {: .affinity-list}
 
 
@@ -163657,7 +163657,7 @@ PP 20">オーロラビーム</span><span class="move-meta"><span class="move-cat
 ついでに触れておくと、ナイトクラブにはさらに多くのNPCが戻ってきています。特に、先ほど手に入れたアーゴヨン（または後ほど見つかる他のウルトラビースト）をフロリニアに見せると、*ウルトラボール* が5個もらえます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - フロリニアにウルトラビーストを見せる <span class="affinity-delta is-up">+1 フロリニア</span>
@@ -163685,7 +163685,7 @@ PP 20">オーロラビーム</span><span class="move-meta"><span class="move-cat
 ナイトクラブへ戻ります。よければパソコンからフリーザーを引き出し、ルミに数回話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ルミにフリーザーを見せる <span class="affinity-delta is-up">+1 ルミ</span>
@@ -166322,7 +166322,7 @@ PP 15">めざめるパワー (ほのお)</span><span class="move-meta"><span cla
 サムソンにしては面白い編成で、今回は特に女性らしさを軸にしています。*きあいだま* が多用される点、とりわけ簡単に積んでくるウルトラビーストのフェローチェには注意してください。素早いポケモンが多いので、例によって *トリックルーム* をおすすめします。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイクに指輪を渡さなかったうえで、かげのサムソンを倒す <span class="affinity-delta is-up">+1 サムソン</span>
@@ -166926,7 +166926,7 @@ PP 10">ヘドロウェーブ</span><span class="move-meta"><span class="move-cat
 シエルは新世界フィールドでひこうタイプ尽くしの編成を使うので、全員が地に足のついたポケモンに対して素早さで有利になる一方、防御は下がります。テッカグヤはリン戦を思い出させるでしょう。相変わらず容赦がなく、今回は *マジカルシード* まで持っているので *ビーストブースト* の暴れっぷりが一段と増しています。特殊型のランドロス、先制技持ちのメガカイロス、*アクZ* で強化されたサンダーなど……厳しい編成です。ここでは *パワージェム*／*イワZ* の強化、こちらの *マジカルシード*、そして *トリックルーム* を活用することをおすすめします。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ブレイクに指輪を渡したうえで、かげのシエルを倒す <span class="affinity-delta is-up">+1 シエル</span>
@@ -169785,7 +169785,7 @@ PP 15">めざめるパワー (ほのお)</span><span class="move-meta"><span cla
 何度も失敗すると、ベネットが代わりに解いてくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 論理パズル5を5回以内で解く <span class="affinity-delta is-up">+1 ベネット</span>
@@ -172832,7 +172832,7 @@ PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">�
 これで犯人の1人を告発できます。告発された相手は、その場でバトルを仕掛けてきます。署長に何度も話しかけて複数を告発することもできます。そのあと、バッグを確認して中にある *あいいろのたま* を「つかう」と先へ進めます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 宝珠を盗んだとしてジュリアを告発する <span class="affinity-delta is-down">-1 ジュリア</span>
@@ -175493,7 +175493,7 @@ PULSE2のメガガブリアス、*てんねん* のヌオー、硬いシロデ�
 駅に戻り、ここの一同と話します。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - テラを連れ戻すしかなかったとアドリエンヌに伝える <span class="affinity-delta is-up">+1 テラ</span>
@@ -176412,7 +176412,7 @@ PP 15">めざめるパワー (いわ)</span><span class="move-meta"><span class=
 ローラ単独との初戦は、おおむねいつもの花畑フィールドの厄介事です。とはいえフローラの編成もローラと同じくらいこのフィールドの恩恵を受けるので、フローラの編成にとっての脅威を見極めてそこだけ狙えば、あとはフローラが力仕事をこなしてくれる見込みが高いです。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 「光栄です」と答える <span class="affinity-delta is-up">+1 イライアス</span>
@@ -177091,7 +177091,7 @@ PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat
 先へ進む前に、よければベネットに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ベネットに気持ち悪いと伝える <span class="affinity-delta is-down">-1 ベネット</span>
@@ -182919,7 +182919,7 @@ PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">�
 階下へ降ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ユーフィに理解できると伝える <span class="affinity-delta is-up">+1 シェイド</span>
@@ -185034,7 +185034,7 @@ PP 30">しんくうは</span><span class="move-meta"><span class="move-cat">特�
 道をたどって洞窟を出て、深林へ入ります。隠された *ノーマルジュエル* を拾い、段差を飛び降ります。左の橋を渡ると、ファーンが檻に閉じ込められます。檻の上のレバーのところで――
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - すぐにファーンを出してやる <span class="affinity-delta is-up">+1 ファーン</span>
@@ -188886,7 +188886,7 @@ PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">�
 勝つと *アクアカセット* が手に入ります。中央へ戻り、そこから上へ進んで、よければハーディに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ネオブラックスチーム製造所でアヤと一緒にいるハーディに話しかける <span class="affinity-delta is-up">+1 アヤ</span>
@@ -189150,7 +189150,7 @@ PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">�
 大きな丘の右側を回り込みます。ここには登れる階段が見えます。頂上まで進んでください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - イヴを止めることに同意する <span class="affinity-delta is-up">+1 ルミ</span>
@@ -192497,7 +192497,7 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 さて、フィールドは即座に *グラスフィールド* に変わり、そのあと *ねっぷう* と *ふんか* でおそらく燃えるフィールドになります。カプ・ブルルさえ倒せれば、いわ技・みず技・じめん技で簡単に片付きます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - パイロスでソラリスを倒し、かつレシラムルートで、聖域のクエストを完了する <span class="affinity-delta is-up">+2 ルナ</span>
@@ -192509,7 +192509,7 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 ついでに、レシラムルートの場合、タカが自分のペラップを見せてほしいと頼んできます。これはチャンピオンロードで手に入れています。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - レシラムルートでタカに彼のペラップを見せる <span class="affinity-delta is-up">+2 タカ</span>
@@ -194676,7 +194676,7 @@ PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物�
 次の部屋では、リンルートの場合シャルロットに話しかけられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - リンルートで、シャルロットに今の台詞は格好良かったと伝える <span class="affinity-delta is-up">+1 シャルロット</span>
@@ -196209,7 +196209,7 @@ PP 5">ふんか</span><span class="move-meta"><span class="move-cat">特殊</spa
 かげの相手2人に勝ったら、フロリニアに話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 次の目標を理解したとフロリニアに伝える <span class="affinity-delta is-up">+1 フロリニア</span>
@@ -198073,7 +198073,7 @@ PP 20">じんつうりき</span><span class="move-meta"><span class="move-cat">�
 この時点としてはとりわけ無茶ではありませんが、それでも手応えのある挑戦です。強化されたあく技とフェアリー技があれば楽になります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - レシラムルートで、タカを相棒にした状態でかげのエースを倒す <span class="affinity-delta is-up">+1 エース</span>
@@ -198085,7 +198085,7 @@ PP 20">じんつうりき</span><span class="move-meta"><span class="move-cat">�
 ナイトクラブでは、よければ浄水センターで手に入れたフォッコ（またはテールナー、マフォクシー）をエースに見せられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 浄水センターのフォッコをエースに見せる <span class="affinity-delta is-up">+1 エース</span>
@@ -204512,7 +204512,7 @@ PP 5">つきのひかり</span><span class="move-meta"><span class="move-cat">�
 これらをすべて突破すると、崖にしがみつくリンか、アルセウスに話しかけられるようになります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - リンより先にアルセウスに話しかける <span class="affinity-delta is-down">-3 テラ</span>

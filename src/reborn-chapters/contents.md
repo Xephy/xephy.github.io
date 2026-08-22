@@ -4,7 +4,7 @@ permalink: /reborn/
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年8月22日 01:37 GMT</h5>
+<h5> 最終更新 2026年8月22日 17:39 GMT</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/all/">全文を1ページで読む</a></p>
 
@@ -387,6 +387,13 @@ permalink: /reborn/
     <li><a href="/reborn/appendices/#wild-held-items">野生ポケモンの持ち物</a></li>
     <li><a href="/reborn/appendices/#mining-item-probabilities">採掘アイテムの確率</a></li>
     <li><a href="/reborn/appendices/#full-password-list">パスワード全一覧</a></li>
+  </ul>
+</section>
+
+<section class="book-toc-chapter book-toc-ref">
+  <h3>資料</h3>
+  <ul>
+    <li><a href="/reborn/affinity/">好感度まとめ</a> — 人物ごとの選択肢と増減</li>
   </ul>
 </section>
 </div>

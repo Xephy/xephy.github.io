@@ -41,6 +41,10 @@ permalink: /reborn/postgame-episode-7/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -381,7 +385,7 @@ permalink: /reborn/postgame-episode-7/
 次の部屋では、リンルートの場合シャルロットに話しかけられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - リンルートで、シャルロットに今の台詞は格好良かったと伝える <span class="affinity-delta is-up">+1 シャルロット</span>
@@ -1914,7 +1918,7 @@ PP 5">ふんか</span><span class="move-meta"><span class="move-cat">特殊</spa
 かげの相手2人に勝ったら、フロリニアに話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 次の目標を理解したとフロリニアに伝える <span class="affinity-delta is-up">+1 フロリニア</span>
@@ -3778,7 +3782,7 @@ PP 20">じんつうりき</span><span class="move-meta"><span class="move-cat">�
 この時点としてはとりわけ無茶ではありませんが、それでも手応えのある挑戦です。強化されたあく技とフェアリー技があれば楽になります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - レシラムルートで、タカを相棒にした状態でかげのエースを倒す <span class="affinity-delta is-up">+1 エース</span>
@@ -3790,7 +3794,7 @@ PP 20">じんつうりき</span><span class="move-meta"><span class="move-cat">�
 ナイトクラブでは、よければ浄水センターで手に入れたフォッコ（またはテールナー、マフォクシー）をエースに見せられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 浄水センターのフォッコをエースに見せる <span class="affinity-delta is-up">+1 エース</span>
@@ -4560,4 +4564,8 @@ PP 15">おにび</span><span class="move-meta"><span class="move-cat">変化</sp
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

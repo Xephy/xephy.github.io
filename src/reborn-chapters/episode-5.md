@@ -41,6 +41,10 @@ permalink: /reborn/episode-5/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -218,7 +222,7 @@ PP 20">なしくずし</span><span class="move-meta"><span class="move-cat">物�
 シェリーを倒せたのなら、この戦いはさほど厳しくないはずです。**ニドキング** は火力がありますが、タイプ一致技はまだ弱めです。手持ちの得意な戦い方で倒しましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ヘザーを助けることに同意する <span class="affinity-delta is-up">+1 カイン</span>
@@ -233,7 +237,7 @@ PP 20">なしくずし</span><span class="move-meta"><span class="move-cat">物�
 扉が開いたらすぐ養護施設へ入ります。この時点で好感度が高いほうに応じて、カインかシェリーのどちらかと組むことになります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - カインと組んで看護人たちを倒す <span class="affinity-delta is-up">+1 カイン</span>
@@ -802,7 +806,7 @@ PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat
 この戦闘のあとは、シェリー（上記）を連れて自由に探索できます。ただし次の点に注意してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 同行者がいる状態で養護施設から出る <span class="affinity-delta is-down">-1 カイン、-1 シェリー、-1 シャルロット、-1 ノエル、-1 ヘザー</span>
@@ -812,7 +816,7 @@ PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat
 好感度を上げることもできます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 同行中にシェリーに話しかける <span class="affinity-delta is-up">+1 シェリー</span>
@@ -822,7 +826,7 @@ PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat
 ここから進む先を選べます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 上階を探索する前に廊下へ入る <span class="affinity-delta is-down">-1 シェリー</span>
@@ -1240,7 +1244,7 @@ PP 15">ボディパージ</span><span class="move-meta"><span class="move-cat">�
 1階の開いている扉から入ります。左側の扉に入ろうとするときは注意してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 主人公が男性で、女子トイレに2回入ろうとする <span class="affinity-delta is-down">-1 シェリー</span>
@@ -1663,7 +1667,7 @@ PP 15">しねんのずつき</span><span class="move-meta"><span class="move-cat
 上階へ戻り、開通した道を進みます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 檻の中のノエルを無視する <span class="affinity-delta is-down">-1 ノエル</span>
@@ -1910,7 +1914,7 @@ PP 10">ラスターカノン</span><span class="move-meta"><span class="move-cat
 1階では右の部屋に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 檻に入っているシャルロットに2回話しかける <span class="affinity-delta is-down">-2 シャルロット</span>
@@ -4388,7 +4392,7 @@ PP 10">あられ</span><span class="move-meta"><span class="move-cat">変化</sp
 レベル差のせいで威圧感のある戦いに見えますが、技構成は初期のままです。*ふぶき* は痛烈ですがPPが5しかないので、*まもる* のわざマシンで撃ち切らせ、ゴーストタイプを場に出して変化技で削っていけば、ほぼ勝ちです。勝利すると **ムチュール** が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ムチュールを救う <span class="affinity-delta is-up">+2 ブレイク</span>
@@ -4726,4 +4730,8 @@ PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物�
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

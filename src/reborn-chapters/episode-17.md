@@ -41,6 +41,10 @@ permalink: /reborn/episode-17/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -197,7 +201,7 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
 いずれかの計画に必要額を出し切ると、大ホールの地下に入れるようになるので、下りてみましょう。右手の一番下の部屋には *いじっぱりミント*、*ひかえめミント*、*けいけんアメXL* 3個があります。隣の部屋では *どりょくちブースター* 2個が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 大ホールの地下でヴィクトリアに話しかける <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -207,7 +211,7 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
 一番上の部屋に入ってコンピュータに話しかけると、*ミミロップナイト* が手に入り、ロコンが解放されます。メガミミロップが好みでなくても、とにかくやっておいてください。地下ではもう1つクエストを始められますが、それは後ほど扱います。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 計画その1に出資する <span class="affinity-delta is-up">+1 アドリエンヌ</span>
@@ -2269,7 +2273,7 @@ PP 5">アンコール</span><span class="move-meta"><span class="move-cat">変�
 タカの編成は砂漠フィールドと *すなあらし* に合わせてよく組まれていますが、ここでもクレッフィさえ落とせばこおりタイプで崩せます。これまでどおり、*からをやぶる* を積んだメテノの一掃には注意してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 勝ち続けるつもりはないとタカに伝える <span class="affinity-delta is-up">+1 タカ</span>
@@ -2283,7 +2287,7 @@ PP 5">アンコール</span><span class="move-meta"><span class="move-cat">変�
 なお、ここで断るとレシラムルートやゼクロムルートとは別の物語筋に入ります。コミュニティでは「ヘルルート」と呼ばれることが多いものです。（筆者はこのルートを遊んだことがないので、ヘルルートで攻略と食い違う点に気づいたら教えてください。）
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 砂漠でタカの同行を認めない <span class="affinity-delta is-down">-3 タカ</span>
@@ -2293,7 +2297,7 @@ PP 5">アンコール</span><span class="move-meta"><span class="move-cat">変�
 同行させた場合、彼を連れたまま砂漠を出ると好感度が下がります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカを連れたまま砂漠を出る <span class="affinity-delta is-down">-2 タカ</span>
@@ -3524,7 +3528,7 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 タカが同行している場合の話をもう1つ。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカの同行中にトルマリン砂漠で話しかける <span class="affinity-delta is-up">+1 タカ</span>
@@ -3534,7 +3538,7 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 なお、タカには36種類もの会話があり、一部は現在地によって変わります。どこであれ話しかけたときに父を憎んでいるかと尋ねられたら、もう1ポイント得られる可能性があります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ソラリスを憎んではいないとタカに伝える <span class="affinity-delta is-up">+1 タカ</span>
@@ -4034,7 +4038,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 地下へ行くには、上の壁沿いの鏡をすべて *いわくだき* で割る必要があります。これを行うと手持ちがダメージを受けるので、タカがいない場合は回復しておくのが賢明かもしれません。タカといえば――
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカの同行中にしんきろうの塔で話しかける <span class="affinity-delta is-up">+1 タカ</span>
@@ -4369,7 +4373,7 @@ PP 5">がむしゃら</span><span class="move-meta"><span class="move-cat">物�
 他のエリアと同じく――
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカの同行中にスギラインどうくつで話しかける <span class="affinity-delta is-up">+1 タカ</span>
@@ -4655,7 +4659,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 他のエリアと同じく――
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカの同行中にテクナイトどうくつ／尾根で話しかける <span class="affinity-delta is-up">+1 タカ</span>
@@ -5181,7 +5185,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 他のエリアと同じく――
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカの同行中に1R253廃品置き場で話しかける <span class="affinity-delta is-up">+1 タカ</span>
@@ -5352,7 +5356,7 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 タカが同行している場合、彼はエリア右下側の車両で横になって休みます。追いかける前に、よければエウロパに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカは恋人だとエウロパに伝える <span class="affinity-delta is-up">+1 タカ</span>
@@ -6181,7 +6185,7 @@ PP 20">フリーズドライ</span><span class="move-meta"><span class="move-cat
 塔の外壁では、蔦をよじ登ります。上部の左手には *りゅうのあなの資料* が見えます。右へ進むと、ティタニアが話しかけてきます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ティタニアの好感度が0以上のときに、信じていると伝える <span class="affinity-delta is-up">+1 ティタニア</span>
@@ -6544,7 +6548,7 @@ PP 15">せいなるつるぎ</span><span class="move-meta"><span class="move-cat
 ポケモンリボーンのエピソード17は、実際にはバッジを2つ取れる形で公開されたので、この章にはまだ少し内容が残っています。まずは任意の内容から。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ティタニアを倒したあとにカルセノンシティでハーディに話しかける <span class="affinity-delta is-up">+1 ハーディ</span>
@@ -6580,7 +6584,7 @@ PP 15">せいなるつるぎ</span><span class="move-meta"><span class="move-cat
 大ホールへ向かいます。ティタニアを倒したので、もう1つの復興プロジェクトに出資できます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 計画その2に出資する <span class="affinity-delta is-up">+1 アドリエンヌ</span>
@@ -6616,7 +6620,7 @@ PP 15">せいなるつるぎ</span><span class="move-meta"><span class="move-cat
 部屋の中央寄りのくぼみにアマリア3人目がいます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アマリア3人目を見つけて「いいえ」と答える <span class="affinity-delta is-down">-4 アマリア</span>
@@ -7604,4 +7608,8 @@ PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊<
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

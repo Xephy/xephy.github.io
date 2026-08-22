@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'ja_names'
+require_relative 'reference_pages'
 
 # 章ページ (episode-1 など) の上下に置くナビゲーションを組み立てる。
 #
@@ -64,8 +65,23 @@ module ChapterNav
           </ol>
           <p><a href="/#{game}/">#{ui('Single page')}</a></p>
         </details>
+        #{reference(game)}
       </nav>
     NAV
+  end
+
+  # 章の読み順の外にある資料ページへの動線。29章 × 上下の58箇所に出る。
+  # 畳まずに出すのは、存在を知らない読者に見つけてもらうため。
+  def reference(game)
+    items = ReferencePages.list_items(game)
+    return '' if items.empty?
+
+    <<~REF.strip
+      <div class="chapter-nav-ref">
+          <span class="chapter-nav-ref-label">#{ui('Reference')}</span>
+          <ul>#{items.join}</ul>
+        </div>
+    REF
   end
 
   def ui(text)

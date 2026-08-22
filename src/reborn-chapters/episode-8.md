@@ -41,6 +41,10 @@ permalink: /reborn/episode-8/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -66,7 +70,7 @@ permalink: /reborn/episode-8/
 荒地をずっと戻って外へ出ます。出口の近くにカインがいるので、バトルに備えてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 以前カインが家出をしていた場合、「言いたいことは分かる」と答える <span class="affinity-delta is-up">+1 カイン</span>
@@ -259,7 +263,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 南オブシディア区へ戻ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - キャルを信じると答える <span class="affinity-delta is-up">+1 キャル</span>
@@ -486,7 +490,7 @@ PP 15">テレキネシス</span><span class="move-meta"><span class="move-cat">�
 西のベリル墓地へ向かいます。そこから下にヴィクトリアがいます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 墓地でヴィクトリアに話しかける <span class="affinity-delta is-up">+2 ヴィクトリア</span>
@@ -563,7 +567,7 @@ PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat
 カインと組むことになります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ユレユの中でカインに話しかける <span class="affinity-delta is-up">+1 カイン</span>
@@ -1648,7 +1652,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 **限定ルートに入るには、ユレユでシグムンドとの戦いを断る必要があります。**
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シグムンドの「戦うか」という問いに「はい」と答える <span class="affinity-delta is-mixed">+1 ヘザー、-1 シグムンド</span>
@@ -2109,7 +2113,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 正しく組めたらノエルに話しかけます。もう一度列車に入り、必要ならシェリーにも話しかけましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シェリーに「助かった」と伝える <span class="affinity-delta is-up">+1 シェリー</span>
@@ -2365,7 +2369,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 上の家に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ボクレイン邸より先にベルローズ邸へ入る <span class="affinity-delta is-up">+1 ノエル、+1 ローラ</span>
@@ -2375,7 +2379,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 左手の本棚で何かが光っています。調べると *かぞくのしゃしん* が手に入り、ずっと後のサイドクエストで使います。ともあれ家の全員に話しかけてから外へ出ましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ベルローズ邸でシェリーに話しかける <span class="affinity-delta is-up">+1 シェリー</span>
@@ -3172,7 +3176,7 @@ PP 20">しぜんのちから</span><span class="move-meta"><span class="move-cat
 外に出て、右上のボクレイン邸に入ろうとします。セラに話しかける前に、好感度が欲しければベネットに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ベネットに「マユルドが完全な記憶を持っていると知っていた」と伝える <span class="affinity-delta is-up">+1 ベネット</span>
@@ -3182,7 +3186,7 @@ PP 20">しぜんのちから</span><span class="move-meta"><span class="move-cat
 『Pokémon LEGENDS アルセウス』でほのお技を使って15匹ほど葬った件も、覚えていてくれると嬉しいのですが。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ベネットにもう一度話しかける <span class="affinity-delta is-up">+1 ベネット</span>
@@ -3628,7 +3632,7 @@ PP 10">ドレインパンチ</span><span class="move-meta"><span class="move-cat
 3つのパズル部屋それぞれで（最大+3）、次の好感度が動きます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目で正しい鏡を割る <span class="affinity-delta is-up">+1 セラ</span>
@@ -4172,7 +4176,7 @@ PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">�
 ベネットとの初戦です。序盤の弱いむしポケモンばかり使っているように見えて、*ミラーアリーナ* に極めて最適化された編成です。命中率・回避率を上げる道具と特性がすべて、急所率の上昇にも働きます。フィールド強化された *シグナルビーム* などで、素早く高い火力を出してきます。6匹中5匹が *ちょうのまい* を持つので、積んでくる可能性も高いでしょう。とはいえ、どのむしポケモンも打たれ弱く弱点も多いので、いわ技を積み込むだけで大半は解決します。こちらも *ミラーアリーナ* の恩恵を試す好機なので、フィールドノートに目を通しておいてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でベネットに勝つ <span class="affinity-delta is-mixed">+1 イライアス、-1 ベネット</span>
@@ -4414,7 +4418,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 なお、フィールドノートには *ミラーアリーナ* そのものを破壊できる技の一覧も載っています。セラを対等な土俵に引きずり出す手として、これも有効です。ただし——
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ジム戦でミラーアリーナを破壊する <span class="affinity-delta is-down">-1 セラ</span>
@@ -4462,4 +4466,8 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

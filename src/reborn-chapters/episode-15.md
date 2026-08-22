@@ -41,6 +41,10 @@ permalink: /reborn/episode-15/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -336,7 +340,7 @@ permalink: /reborn/episode-15/
 必要なら中央でティタニアに何度か話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 空腹だと言うティタニアにお菓子を渡す <span class="affinity-delta is-up">+1 ティタニア</span>
@@ -861,7 +865,7 @@ PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊<
 右上の隅の新しい部屋に入り、隠された *じゅうでんち* を拾います。右上には *エレキブースター* があります。一度出て入り直すと、隅に **マルマイン** が現れます。これと戦って *ショートフィールド* を *工場フィールド* に変えてください。近くの機械に話しかけると **フォッコ** が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - フォッコに添えられた手紙を読む <span class="affinity-delta is-up">+1 エース</span>
@@ -1378,7 +1382,7 @@ PULSE **マルノーム** は鈍足ですが極めて硬く、しかも回復手
 ここまでの選択はどれも、この選択が生む波及効果には及びません。理由は後々はっきりしますが、タカと戦うことを選んだ結果を *ゼクロムルート*、戦わないことを選んだ結果を *レシラムルート* とコミュニティでは呼んでいます。この攻略でもこの呼び方に従います。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - タカと戦う <span class="affinity-delta is-mixed">+2 タカ、+1 エース、-1 ティタニア</span>
@@ -2754,7 +2758,7 @@ PP 15">リーフブレード</span><span class="move-meta"><span class="move-cat
 連戦のこの一戦はやや厳しくなります。フロリニアはファーンとブレイクに対してダメージ面で有利な相性を多く持つので、倒される前に攻撃できる状況を作るのが肝心です。フロリニアの編成は非常に鈍足なので、この戦いでは *トリックルーム* を強くおすすめします。**ハッサム** と **マニューラ** を確実に倒せれば先制技を警戒せずに済むので、抜群の強力な技で総じて押し切れます。一撃で落とされないよう、壁を張ることも検討してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - パイロスでソラリスを倒していない状態でフロリニアが仲間になる <span class="affinity-delta is-up">+1 フロリニア</span>
@@ -3604,7 +3608,7 @@ PP 15">うたう</span><span class="move-meta"><span class="move-cat">変化</sp
 サムソンと同様、このフィールドの数々の効果を突けば勝てます。サムソンに *アクロバット* と *めざめるダンス* を勧めたのと同じく、こちらも *うちおとす* と *じしん* でハイストライカーを狙うと痛快です。グライオンから先は耐久が高くないからです。相手の編成に *アクロバット* を半減できるものはいないので、彼女の戦法をそのまま返して勝てます。**オドリドリ** がいれば、でんきタイプの *めざめるダンス* でグライオンとチルタリス以外を容易に薙ぎ払えます。あるいは単純に *トリックルーム* と、鈍足のこおり・いわタイプを数匹用意して押し潰す手もあります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でシエルに勝つ <span class="affinity-delta is-up">+2 サムソン</span>
@@ -3653,4 +3657,8 @@ PP 15">うたう</span><span class="move-meta"><span class="move-cat">変化</sp
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

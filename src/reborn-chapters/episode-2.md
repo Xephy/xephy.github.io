@@ -41,6 +41,10 @@ permalink: /reborn/episode-2/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -291,7 +295,7 @@ PP 40">とおぼえ</span><span class="move-meta"><span class="move-cat">変化<
 中央オブシディア美容室に入ります。中にはなつき度チェッカーと、1500ドルでポケモンのなつき度を上げてくれるトリマーがいます。所持金に余裕があれば一度受けておきましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 中央オブシディア美容室でマッサージを1回以上受ける <span class="affinity-delta is-up">+1 セラ</span>
@@ -1263,7 +1267,7 @@ PP 20">ビルドアップ</span><span class="move-meta"><span class="move-cat">�
 **ニャヒート** は積み技を狙ってくるので注意してください。それ以外の手持ちは特別厄介ではなく、**ラルトス** と **ピチュー** は非力なので、逆にこちらが積む余地があります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - スラムでヴィクトリアに勝利する <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -4690,7 +4694,7 @@ PP 20">むしくい</span><span class="move-meta"><span class="move-cat">物理<
 そこから階段を下り、メインホールに出て、もう一度下ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - はい <span class="affinity-delta is-up">+1 ハーディ</span>
@@ -5697,7 +5701,7 @@ PP 10">ブレイズキック</span><span class="move-meta"><span class="move-cat
 イベントが終わると **キュワワー** が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ローラからキュワワーを受け取る <span class="affinity-delta is-up">+1 ローラ</span>
@@ -5709,7 +5713,7 @@ PP 10">ブレイズキック</span><span class="move-meta"><span class="move-cat
 このクエストを完了すると、野生ポケモンの寄ってきやすさを調整する道具 *にじいろのかおり* と、**チュリネ** がもらえます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - にじいろのかおりクエストを完了する <span class="affinity-delta is-up">+1 ローラ、+1 サファイラ</span>
@@ -7200,4 +7204,8 @@ PP 10">すなあらし</span><span class="move-meta"><span class="move-cat">変�
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

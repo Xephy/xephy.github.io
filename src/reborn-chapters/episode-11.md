@@ -41,6 +41,10 @@ permalink: /reborn/episode-11/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -1555,7 +1559,7 @@ PP 15">シンクロノイズ</span><span class="move-meta"><span class="move-cat
 ともあれこのエリアを出ます。ポケモンを全種買うと、DJアークライトが *しあわせタマゴ* をくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 7番街の盗まれたポケモンを全種買う <span class="affinity-delta is-up">+1 アークライト</span>
@@ -2787,7 +2791,7 @@ PP 15">イカサマ</span><span class="move-meta"><span class="move-cat">物理<
 メテオ団のエース本人との再戦であり、*聖なるフィールド* での初のボス戦です。フィールドノートを読み込めば勝てます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - エースに「忠誠」と答える <span class="affinity-delta is-mixed">+1 エース、-1 イライアス</span>
@@ -2798,7 +2802,7 @@ PP 15">イカサマ</span><span class="move-meta"><span class="move-cat">物理<
 ベリルの壁の外に出ると、また会話が起こります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ルナに「暗闇が怖い」と伝える <span class="affinity-delta is-down">-1 ルナ</span>
@@ -3685,7 +3689,7 @@ PP 10">ヘドロばくだん</span><span class="move-meta"><span class="move-cat
 水の対岸ではまず上へ進み、カギを使いながら道をたどります。途中で隠された *むらさきのかけら* と *あおいかけら* が見つかります。突き当たりの緑の水晶を起動したら、氷の橋へ戻って下へ。この道沿いで隠された *みどりのかけら* と *マジカルシード* を拾ってください。新しく作った洞窟の入口に入ると、ベネットが立ちはだかります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ベネットに「やるべきことをやらせる」と伝える <span class="affinity-delta is-up">+1 ベネット</span>
@@ -3937,7 +3941,7 @@ PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">�
 気の毒に、**メラルバ** をもう1レベル上げて **ウルガモス** にすることすらできなかったようです。それでも今いるフィールドの恩恵は受けており、今回は *シグナルビーム* の強化という形で現れます。相変わらずむしポケモンは打たれ弱く、突ける弱点も多いので、いわ技とほのお技で倒せます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でベネットに勝つ <span class="affinity-delta is-mixed">+1 ルナ、-2 ベネット</span>
@@ -4346,4 +4350,8 @@ PP 10">どくどく</span><span class="move-meta"><span class="move-cat">変化<
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

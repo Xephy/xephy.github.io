@@ -41,6 +41,10 @@ permalink: /reborn/episode-18/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -83,18 +87,18 @@ permalink: /reborn/episode-18/
 カルセノンシティへ向かい、「なぜかいつも物語が動くあの集合住宅」に入ります。あれのことです。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- 基地への突入にハーディと同意する <span class="affinity-delta is-mixed">+1 ハーディ, -1 フロリニア</span>
-- 基地への突入にハーディと反対する <span class="affinity-delta is-mixed">-1 ハーディ, +1 フロリニア</span>
+- 基地への突入にハーディと同意する <span class="affinity-delta is-mixed">+1 ハーディ、-1 フロリニア</span>
+- 基地への突入にハーディと反対する <span class="affinity-delta is-mixed">-1 ハーディ、+1 フロリニア</span>
 {: .affinity-list}
 
 
 4番道路へ向かいます。ゲートでは、よければシャルロットに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シャルロットの好感度が0以上のときに、信じていると伝える <span class="affinity-delta is-up">+1 シャルロット</span>
@@ -112,7 +116,7 @@ permalink: /reborn/episode-18/
 バッジ16個が揃ったので、ついに大ホールの復興プロジェクト3つ目、最後の1つを完了できます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 計画その3に出資する <span class="affinity-delta is-up">+1 アドリエンヌ</span>
@@ -2666,7 +2670,7 @@ PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat
 4番道路の探索とお宝はこれで終わりなので、エリア左側の広く開けた場所にいるハーディに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ハーディの賭けに乗る <span class="affinity-delta is-up">+1 ハーディ</span>
@@ -2682,7 +2686,7 @@ PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat
 ハーディに話しかけ、そのあとエレベーターまで付いていきます。ベネットに話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 「誰よりも強くなるため」と答える <span class="affinity-delta is-down">-1 ベネット</span>
@@ -2841,7 +2845,7 @@ PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</sp
 メテオ団のしたっぱを倒し、隅のモニターに話しかけて扉を開けます。グレイシアが付いてくるようになります。話しかけると、手持ちの状態異常を無料で治してくれます。また、グレイシアを撫でるかどうかを選べます。クエストのためだけでなく、好感度と、後のバトルの内容にも関わります。なかなか重い選択です。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - グレイシアを撫でる <span class="affinity-delta is-up">+2 ルミ</span>
@@ -3494,7 +3498,7 @@ PP 10">ドラゴンテール</span><span class="move-meta"><span class="move-cat
 エーフィは *みらいよち* を使え、次の目標をぼんやりとした映像で見せてくれます。行き詰まったときに便利です……もっとも、このまま読み進めても構いません。ともあれ、クエストと好感度のために、エーフィを撫でるかどうかも選べます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - エーフィを撫でる <span class="affinity-delta is-up">+1 イヴ</span>
@@ -4241,7 +4245,7 @@ PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">�
 ブレイクに *ルビーのゆびわ* を渡さなかった場合は、上部で *メテオカード* を拾います。*けいけんアメXL* 3個も手に入ります。この部屋のポッドを開けてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ノエルに *いやしのすず* を使う <span class="affinity-delta is-up">+1 ノエル</span>
@@ -4251,7 +4255,7 @@ PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">�
 エレベーターで最下階へ戻ります。先へ進む前に、ハーディが眠っているエレベーターへグレイシアを連れていってください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ハーディに *いやしのすず* を2回使う <span class="affinity-delta is-up">+1 ハーディ</span>
@@ -5377,7 +5381,7 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 しばらく進むと、アヤの場面を通り過ぎます。任意で、カインに3回目の会話をすることもできます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 虚無でアヤの場面のあとにカインに話しかける <span class="affinity-delta is-up">+1 カイン</span>
@@ -5448,7 +5452,7 @@ PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化<
 カルセノンシティへ戻り、マップ右寄りのシェリーに話しかけます。カルセノンの「物語の建物」に入ると好感度が得られます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - シェリーがティタニア／セラと話しているときに話しかける <span class="affinity-delta is-up">+1 シェリー</span>
@@ -5460,7 +5464,7 @@ PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化<
 ポケモンセンター付近のイヴに話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - イヴに話しかけ、残るPULSEについて聞く <span class="affinity-delta is-up">+1 イヴ</span>
@@ -5472,7 +5476,7 @@ PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化<
 注意点を1つ。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - レシラムルートのみ: アゲート襲撃中にティタニアに話しかける <span class="affinity-delta is-down">-1 ティタニア</span>
@@ -7552,10 +7556,10 @@ PP 10">でんじふゆう</span><span class="move-meta"><span class="move-cat">�
 アゲートシティの左側からアゲートサーカスへ入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- （ブレイク拒否ルートのみ）襲撃後にサーカス左上側のシエルに話しかける <span class="affinity-delta is-up">+1 シエル, +1 エース</span>
+- （ブレイク拒否ルートのみ）襲撃後にサーカス左上側のシエルに話しかける <span class="affinity-delta is-up">+1 シエル、+1 エース</span>
 - （ルビーのゆびわを渡したルートのみ）襲撃後に大テントのサムソンに話しかける <span class="affinity-delta is-up">+1 サムソン</span>
 {: .affinity-list}
 
@@ -9631,4 +9635,8 @@ PP 10">ドリルライナー</span><span class="move-meta"><span class="move-cat
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

@@ -91,6 +91,12 @@ begin
   # 目次ページ。permalink が /<game>/ なので、トップからの着地点はこれになる。
   File.write(File.join(paginated_dir, 'contents.md'), result[:index].strip)
 
+  # 章の読み順には入らない資料ページ (好感度まとめなど)。
+  (result[:pages] || {}).each do |name, contents|
+    File.write(File.join(paginated_dir, "#{name}.md"), contents.strip)
+    puts "Generated reference page #{name}.md"
+  end
+
   puts "Generated #{chapters.length} paginated chapter files in #{paginated_dir}"
   puts "Generated contents page at /#{LONGNAMES[game]}/"
 rescue => e

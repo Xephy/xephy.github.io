@@ -41,6 +41,10 @@ permalink: /reborn/episode-10/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -64,7 +68,7 @@ permalink: /reborn/episode-10/
 中に戻り、ここの面々に話しかけます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ソファのローラに話しかける <span class="affinity-delta is-up">+1 ローラ</span>
@@ -2100,7 +2104,7 @@ PP 10">なげつける</span><span class="move-meta"><span class="move-cat">物�
 回復して手持ちを整え、次の部屋へ進みます。ここでは例のクエスト用に **ブラッキー** を撫でられますが、これは期間限定なので必ず今のうちに済ませてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ルナのブラッキーを撫でる <span class="affinity-delta is-up">+1 ルナ</span>
@@ -2330,7 +2334,7 @@ PP 10">メガホーン</span><span class="move-meta"><span class="move-cat">物�
 勝ったらルナに話しかけましょう。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - G.サーナイトが捕らわれたあとルナに話しかける <span class="affinity-delta is-up">+1 ルナ</span>
@@ -2413,7 +2417,7 @@ PP 10">メガホーン</span><span class="move-meta"><span class="move-cat">物�
 パズルを解いたらテレポーターを通ります。紫のテレポーターを通って戻れば *けいけんアメXL* も回収できます。それが済んだら上へ進んで扉に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アドリエンヌに指輪を渡すことに同意する <span class="affinity-delta is-mixed">+1 アドリエンヌ、-1 カイン</span>
@@ -2530,7 +2534,7 @@ PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特�
 留意すべき点として、*さばきのつぶて* はほのお・みず・くさ・エスパーのタイプ相性ボーナスを順に切り替えます。この性質を利用するか、とくこうを下げるか、あるいはここまで見てきた6対1の「勝てない」戦いへの戦法のいずれかを使えば、勝ちを狙えます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - エルの側について負ける <span class="affinity-delta is-mixed">+3 イライアス、+1 アドリエンヌ、-3 サーナイト、-2 ルナ、-2 ラドマス</span>
@@ -2867,7 +2871,7 @@ PP 5">ふぶき</span><span class="move-meta"><span class="move-cat">特殊</spa
 ケンタロスに乗り、右の 5N に入ります。隠された *あかいかけら* を拾い、右手の会話を目撃してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 「今のを見た」と答える <span class="affinity-delta is-down">-1 ティタニア</span>
@@ -4720,7 +4724,7 @@ PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat
 ここのイライアスに話しかけると、パズルの詳細などを教えてくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - イライアス自身について尋ねる <span class="affinity-delta is-up">+1 イライアス</span>
@@ -4739,7 +4743,7 @@ PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat
 </div>
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1つ目のチェスパズルを1回目で正解する <span class="affinity-delta is-up">+1 ラドマス</span>
@@ -5438,4 +5442,8 @@ PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

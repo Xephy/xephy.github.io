@@ -41,6 +41,10 @@ permalink: /reborn/episode-1/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -141,7 +145,7 @@ permalink: /reborn/episode-1/
 この会話では、ポケモンリボーンの仕組みのひとつが静かに顔を出しています――好感度ポイントです。特定の会話やイベントによって、各キャラクターからの好感度が上下し、内部的にはキャラクターごとの整数値として記録されます。詳しくは[アメの開発ブログの記事](https://www.rebornevo.com/pr/development/records/about-relationship-points-r83/)を参照してください。これによってポケモンやアイテムが入手できなくなることはありません。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - はい <span class="affinity-delta is-up">+1 ジュリア</span>
@@ -246,7 +250,7 @@ PP 30">にらみつける</span><span class="move-meta"><span class="move-cat">�
 *はりきり* のおかげで、ニドランの攻撃は外れることがあります。パートナーの能力下降技を1回使ってから攻撃技を連打すれば、勝てるはずです。なお、この戦闘は勝てなくても進行に支障はありません。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - カインに勝利する <span class="affinity-delta is-up">+1 カイン</span>
@@ -297,7 +301,7 @@ PP 40">なきごえ</span><span class="move-meta"><span class="move-cat">変化<
 先ほど勝っていれば、こちらは Lv.6 になっているはずです。同じような戦い方で勝ちを狙いましょう。この戦闘も、勝てなくても支障はありません。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ヴィクトリアに勝利する <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -1485,7 +1489,7 @@ PP 40">こうそくスピン</span><span class="move-meta"><span class="move-cat
 ここから上へ進み、右の建物に入ります。中の男性に、先ほど手に入れた *プレゼントボックス* を渡すと **デリバード** が手に入ります。その右隣の建物には弱った **コロボーシ** がいて、ここの人物に話しかけると譲ってもらえます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - コロボーシを受け取る <span class="affinity-delta is-up">+1 シェリー</span>
@@ -2946,11 +2950,11 @@ PP 10">あやしいひかり</span><span class="move-meta"><span class="move-cat
 進み方は2通りあります。シークレストの庭の上にあるモスウォーター工業区へ直行するか、先にペリドットジムへ寄り道するかです。いずれにせよ、準備ができたら工場の前に立っている人物に話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
-- モスウォーター工業区へ直行する <span class="affinity-delta is-up">ファーン +1</span>
-- 先にペリドットジムへ寄ってから向かう <span class="affinity-delta is-up">ジュリア +1</span>
+- モスウォーター工業区へ直行する <span class="affinity-delta is-up">+1 ファーン</span>
+- 先にペリドットジムへ寄ってから向かう <span class="affinity-delta is-up">+1 ジュリア</span>
 {: .affinity-list}
 
 
@@ -2959,7 +2963,7 @@ PP 10">あやしいひかり</span><span class="move-meta"><span class="move-cat
 いよいよ本格的なダンジョンです。ファーンが仲間として同行します。同行者を置き去りにしてダンジョンを出る行為は、たいてい好感度に悪影響を与えます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ファーンを置いて工場から出る <span class="affinity-delta is-down">-1 ファーン、初回のみ</span>
@@ -2969,7 +2973,7 @@ PP 10">あやしいひかり</span><span class="move-meta"><span class="move-cat
 逆に、同行中の相手に話しかけると、たいてい好感度が上がります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 同行中にファーンに話しかける <span class="affinity-delta is-up">+1 ファーン、初回のみ</span>
@@ -3500,7 +3504,7 @@ PP 25">かみつく</span><span class="move-meta"><span class="move-cat">物理<
 近くの端末には XXX9 と表示されます。周囲の残り2つの端末でも設定を読んだら、エレベーターへ向かい、揃った暗証番号 (3179) を入力してください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 今いる階と同じ階のボタンを押す <span class="affinity-delta is-down">-1 ファーン</span>
@@ -3819,7 +3823,7 @@ PP 15">サイコウェーブ</span><span class="move-meta"><span class="move-cat
 爆薬を回収してください。中央の部屋に戻り、2人のうちどちらに話しかけるかを選びます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 爆薬を手に入れたあとジュリアに話しかける <span class="affinity-delta is-mixed">+1 ジュリア、-1 フロリニア</span>
@@ -3912,7 +3916,7 @@ PP 15">いわおとし</span><span class="move-meta"><span class="move-cat">物�
 工場を出ると、フロリニアから質問されます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - はい <span class="affinity-delta is-up">+1 フロリニア</span>
@@ -5273,4 +5277,8 @@ PP 20">じゅうでん</span><span class="move-meta"><span class="move-cat">変�
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

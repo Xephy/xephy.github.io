@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'ja_names'
+require_relative 'reference_pages'
 
 # 「好感度の選択肢」ブロックを読みやすい形に組み直す。
 #
@@ -22,7 +23,8 @@ module Affinity
   # ないもの) は意図的に対象外。
   DELTA = /\s*\(([^()]+)\)\s*\z/.freeze
 
-  def apply(content)
+  def apply(content, game = 'reborn')
+    @game = game
     lines = content.to_s.split("\n", -1)
     out = []
     i = 0
@@ -61,9 +63,15 @@ module Affinity
     i
   end
 
+  # ラベル自体を好感度まとめページへの入口にする。本文には228箇所あり、
+  # 「この選択肢は誰の好感度に効くのか」を確かめたくなるのはまさにここ。
+  def label_markup
+    "[#{JaNames.ui('Relationship Point Choices')}](/#{@game || 'reborn'}/affinity/)"
+  end
+
   def render(items)
     ['<!-- 好感度 -->',
-     "**#{JaNames.ui('Relationship Point Choices')}**",
+     "**#{label_markup}**",
      '{: .affinity-label}',
      '',
      *items.map { |it| "- #{decorate(it)}" },

@@ -41,6 +41,10 @@ permalink: /reborn/episode-3/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -625,7 +629,7 @@ PP 25">エアカッター</span><span class="move-meta"><span class="move-cat">�
 下から外へ出ます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - はい <span class="affinity-delta is-up">+1 ヘザー</span>
@@ -1584,7 +1588,7 @@ PP 10">ダメおし</span><span class="move-meta"><span class="move-cat">物理<
 檻の中で目を覚まし、ファーンに煽られます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ファーンに懇願せず拒否する <span class="affinity-delta is-down">-1 ファーン</span>
@@ -1600,7 +1604,7 @@ PP 10">ダメおし</span><span class="move-meta"><span class="move-cat">物理<
 上へ、そして右へ進み、檻からカインを助け出します。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 檻からカインを助け出す <span class="affinity-delta is-up">+1 カイン</span>
@@ -1610,7 +1614,7 @@ PP 10">ダメおし</span><span class="move-meta"><span class="move-cat">物理<
 ここから下へ進んでレバーに話しかけます。ヘザーが現れてスイッチを引き、橋が架かります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 檻に捕まった <span class="affinity-delta is-down">-1 ヘザー</span>
@@ -1626,7 +1630,7 @@ PP 10">ダメおし</span><span class="move-meta"><span class="move-cat">物理<
 右の階段を上るとファーンがいます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 丘の上でファーンに話しかける <span class="affinity-delta is-up">+1 ファーン</span>
@@ -2263,7 +2267,7 @@ PP 30">ふるいたてる</span><span class="move-meta"><span class="move-cat">�
 よければ図書館の左の部屋にも入ってみてください。中で男性に会えます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 図書館でラドマスに話しかける <span class="affinity-delta is-up">+1 ラドマス</span>
@@ -2353,7 +2357,7 @@ PP 20">れんぞくぎり</span><span class="move-meta"><span class="move-cat">�
 左からジャングルに入り直します。隠された *けいけんアメS* と *やけどなおし* を拾ってください。ここではアマリアに話しかけられ、2回目には手持ちを回復してくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ジャングルでアマリアに話しかける <span class="affinity-delta is-up">+1 アマリア</span>
@@ -2562,7 +2566,7 @@ PP 15">がんせきふうじ</span><span class="move-meta"><span class="move-cat
 勝つと、次のエリアで隠された *シルバースプレー* が見つかります。下へ進むと、コーリーに関するイベントが起こります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - エースと戦う前に5人の警官全員を見つけておく <span class="affinity-delta is-up">+1 ヘザー、+1 アンナ、+1 シェイド</span>
@@ -3583,4 +3587,8 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>

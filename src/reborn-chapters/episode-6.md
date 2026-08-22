@@ -41,6 +41,10 @@ permalink: /reborn/episode-6/
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
 
 
@@ -272,7 +276,7 @@ PP 10">リサイクル</span><span class="move-meta"><span class="move-cat">変�
 ペリドット西側の工場へ向かいます。ここの登場人物に話しかけると好感度が動きます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - エースは信用できるとカインに言う <span class="affinity-delta is-mixed">+1 エース、+1 アマリア、-1 カイン</span>
@@ -283,7 +287,7 @@ PP 10">リサイクル</span><span class="move-meta"><span class="move-cat">変�
 エースに話しかけて好きな性格を伝えると、対応する *ミント* をくれます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - エースからミントをもらう <span class="affinity-delta is-up">+1 エース</span>
@@ -418,7 +422,7 @@ PP 5">くろいまなざし</span><span class="move-meta"><span class="move-cat"
 どうやら同行者は16人目のジムリーダーのようです。彼女と組んでしたっぱを倒し、隠された *どくけし* を拾ったら階段を下ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アマリアを信用すると伝える <span class="affinity-delta is-up">+1 アマリア</span>
@@ -2252,7 +2256,7 @@ PP 10">はらだいこ</span><span class="move-meta"><span class="move-cat">変�
 右下の扉から出て屋根を渡ります。次の部屋でもNPCに話しかけて勉強しましょう。左の扉から出て屋上の少女に話しかけると **アサナン** が手に入ります。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アサナンを入手する <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -2682,7 +2686,7 @@ PP 30">こおりのつぶて</span><span class="move-meta"><span class="move-cat
 ここからストーリーに戻ります。アカデミー南の瞑想エリアへ入り、ピンク髪の女性に話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - キキに新入生だと伝える <span class="affinity-delta is-up">+1 キャル、+1 ヴィクトリア</span>
@@ -2883,7 +2887,7 @@ PP 15">ほのおのキバ</span><span class="move-meta"><span class="move-cat">�
 ヴィクトリアの編成は前回より手強くなっています。**コジョフー** を加え、残り4匹も進化させたので、まともな火力が出るようになりました。フィールドノートを見れば分かるとおり、このフィールドでは *かいりき* と *ヨガのポーズ* が強化されるので警戒してください。攻撃範囲を広く取るか、フィールドを利用するかすれば勝てます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - アポフィルアカデミーでヴィクトリアに勝つ <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -3207,7 +3211,7 @@ PP 15">ふんえん</span><span class="move-meta"><span class="move-cat">特殊<
 キャルの手持ちは6匹に増え、フィールドの恩恵を最大限に受けます。このフィールドはほのお技に加えて *ねっとう* も強化し、**ブーバーン** に *ふんえん* を通されると *燃えるフィールド* に変わります。*ねっとう* を除けば、こちらのみずタイプもこのフィールドでは苦しくなります。幸い、相手の技選択にはまだ甘さがあります。たとえば **バクフーン** の最大火力は *ソーラービーム* ですし、**リザードン** は物理型です。**ジャランゴ** さえ越えれば、いわタイプが1〜2匹いれば編成をほぼ壊滅させられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - パイロス山頂でキャルに勝つ <span class="affinity-delta is-up">+2 キャル</span>
@@ -3217,7 +3221,7 @@ PP 15">ふんえん</span><span class="move-meta"><span class="move-cat">特殊<
 選んだバトルを終えたら、キキの部屋へ戻って中の人物に話しかけてください。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - ヴィクトリアに「秘密は守れない」と言う <span class="affinity-delta is-down">-1 ヴィクトリア</span>
@@ -3448,7 +3452,7 @@ PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat
 このフィールドは自然には変えられませんが、逆手に取る強力な手はあります。*サイコキネシス*、*しねんのずつき*、*めいそう* が強化されるので、サワムラーとドクロッグの先制技・高速のあく技さえ捌ければ、エスパータイプで大きな打撃を与えられます。すな系とどろ系の技、それに *だくりゅう* と *なみのり* も強化されるため、火力が足りないときは、特に雨下で有力な選択肢になります。それ以外は、結局のところ先制技への対策と主導権の確立に尽きます。ドクロッグの *ふいうち* を5回撃たせられれば、そのターンを使ってこちらのエースを積ませられます。*しぜんのちから* の利用も忘れずに。このフィールドでは *ヨガのポーズ* に変わるので、多くの物理アタッカーを全抜き要員に化けさせられます。
 
 <!-- 好感度 -->
-**好感度の選択肢**
+**[好感度の選択肢](/reborn/affinity/)**
 {: .affinity-label}
 
 - 1回目でキキに勝つ <span class="affinity-delta is-up">+1 ヴィクトリア</span>
@@ -3495,4 +3499,8 @@ PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat
     </ol>
     <p><a href="/reborn/">全文を1ページで読む</a></p>
   </details>
+  <div class="chapter-nav-ref">
+    <span class="chapter-nav-ref-label">資料</span>
+    <ul><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+  </div>
 </nav>
