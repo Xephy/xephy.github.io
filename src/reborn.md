@@ -4,7 +4,7 @@ permalink: /reborn/all/
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年8月22日 22:38 GMT</h5>
+<h5> 最終更新 2026年8月22日 23:37 GMT</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/">エピソードごとに読む</a> / <a href="/reborn/pokemon/">ポケモンの出現場所</a> / <a href="/reborn/fields/">フィールド効果</a> / <a href="/reborn/affinity/">好感度まとめ</a></p>
 <details class="page-toc" open>
@@ -205916,7 +205916,7 @@ PP 5">つきのひかり</span><span class="move-meta"><span class="move-cat">�
 
 ## ものひろいの表 {#pickup-table}
 
-<div class="pickup_table"><table id="pickup-table">
+<div class="pickup_table"><table class="pickup-matrix">
 <thead>
 <tr class="header"><th colspan="11" class="table-header" style="text-align: center;"><strong>ものひろいの確率</strong></th></tr>
 <tr>

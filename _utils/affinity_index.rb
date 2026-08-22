@@ -254,10 +254,10 @@ module AffinityIndex
       <<~PERSON
         ## #{p[:name]} {##{slug_for(p[:name])}}
 
-        <table class="affinity-table">
+        <div class="aff-table-wrap"><table class="affinity-table">
         <thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
         #{person_rows(p).join("\n")}
-        </table>
+        </table></div>
 
       PERSON
     end
@@ -271,10 +271,10 @@ module AffinityIndex
 
         増減が0のものと、計算式で示されるものです。
 
-        <table class="affinity-table">
+        <div class="aff-table-wrap"><table class="affinity-table">
         <thead><tr><th>章・節</th><th>選択肢</th></tr></thead>
         #{rows.join("\n")}
-        </table>
+        </table></div>
 
       REST
     end

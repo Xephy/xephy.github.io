@@ -1200,7 +1200,11 @@ body.night-mode div#quote {
 
 /* 4列のうち左端 (章・節) と右2列は短いので、選択肢の文章に幅を回す。
    節の欄は rowspan でまとめるため、位置ではなく class で指定する。 */
-#main_content .affinity-table { margin: 12px 0 30px; table-layout: fixed; }
+/* 増減の札や人物名は折り返さない指定なので、狭い画面では枠から食み出す。
+   包みごと横に流して、ページ全体が横スクロールしないようにする。 */
+.aff-table-wrap { overflow-x: auto; margin: 12px 0 30px; }
+
+#main_content .affinity-table { margin: 0; min-width: 30em; table-layout: fixed; }
 #main_content .affinity-table th:first-child,
 #main_content .affinity-table .aff-place { width: 20%; vertical-align: top; }
 #main_content .affinity-table th:nth-child(3),
@@ -1256,12 +1260,12 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
    包みごとスクロールさせる。 */
 .pickup_table { overflow-x: auto; margin: 12px 0 24px; }
 
-#main_content #pickup-table { min-width: 720px; font-size: 13px; }
-#main_content #pickup-table td,
-#main_content #pickup-table th { padding: 5px 8px; }
+#main_content .pickup-matrix { min-width: 720px; font-size: 13px; }
+#main_content .pickup-matrix td,
+#main_content .pickup-matrix th { padding: 5px 8px; }
 
-#main_content #pickup-table .pickup-item { width: 11em; white-space: normal; }
-#main_content #pickup-table .pickup-band {
+#main_content .pickup-matrix .pickup-item { width: 11em; white-space: normal; }
+#main_content .pickup-matrix .pickup-band {
   width: 4.4em;
   text-align: center;
   white-space: nowrap;
@@ -2424,7 +2428,7 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
 
   /* ものひろいの行列だけは23行あり、まるごと避けると直前の紙が丸ごと
      空になる。見出し行は紙をまたいで繰り返されるので、途中で切ってよい。 */
-  #main_content #pickup-table { page-break-inside: auto; break-inside: auto; }
+  #main_content .pickup-matrix { page-break-inside: auto; break-inside: auto; }
   tr, .mon-cell, .affinity-list, .spoilerText { page-break-inside: avoid; break-inside: avoid; }
 
   /* 資料ページの色付きの札は、白黒印刷でも形が残るように枠を足す。 */

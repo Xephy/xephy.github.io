@@ -351,7 +351,11 @@ class FunctionWrapper
     div = doc.create_element('div', class: 'pickup_table')
     doc.add_child(div)
 
-    table = doc.create_element('table', id: 'pickup-table')
+    # id ではなく class にする。見出し「ものひろいの表」のアンカーが
+    # {#pickup-table} で、同じ id が2つになっていた。CSS の
+    # #main_content #pickup-table が見出しにも当たり、狭い画面で
+    # min-width: 720px が効いてページごと横に溢れていた。
+    table = doc.create_element('table', class: 'pickup-matrix')
     div.add_child(table)
 
     thead = doc.create_element('thead')

@@ -69,7 +69,7 @@ permalink: /reborn/appendices/
 
 ## ものひろいの表 {#pickup-table}
 
-<div class="pickup_table"><table id="pickup-table">
+<div class="pickup_table"><table class="pickup-matrix">
 <thead>
 <tr class="header"><th colspan="11" class="table-header" style="text-align: center;"><strong>ものひろいの確率</strong></th></tr>
 <tr>
