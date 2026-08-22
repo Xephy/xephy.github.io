@@ -1,5 +1,6 @@
 require_relative 'common'
 require_relative 'field_notes'
+require_relative 'field_usage'
 require 'set'
 
 class TrainerGetter
@@ -34,6 +35,9 @@ class TrainerGetter
     label = field ? JaNames.field(field) : JaNames.ui('No Field')
     key = field && FieldNotes.key_for(field, @scriptsDir)
     return doc.create_text_node(label) unless key
+
+    # 逆向きの動線 (フィールド効果ページ -> 本文) 用に、使われた節を控える。
+    FieldUsage.record(key)
 
     link = doc.create_element('a', class: 'field-link',
                                    href: "/#{LONGNAMES[@game]}/fields/##{FieldNotes.anchor(key)}")

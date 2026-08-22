@@ -33,7 +33,7 @@ module EncounterIndexPage
   # 「どうくつ · Lv2-9 · 71%」のような but 添え書き。時間帯で率が違う表は
   # 「朝 12% / 昼 12% / 夜 5%」のように札を添える。
   def meta(place)
-    parts = [esc(place[:group])]
+    parts = []
     parts << "Lv#{esc(place[:levels])}" if place[:levels].to_s != ''
 
     rates = place[:rates].reject { |_, v| v.to_i.zero? }
@@ -45,14 +45,23 @@ module EncounterIndexPage
     parts.join(' · ')
   end
 
+  # 出現方法の札。表の色分けと同じ考え方で、走査したときに方法が拾えるように
+  # する。td が white-space: pre-line なので、改行を入れずに1行で書く。
+  GROUP_CLASS = {
+    'くさむら' => 'grass', 'どうくつ' => 'cave', 'なみのり' => 'surf',
+    'ヘッドバット' => 'headbutt', 'いわくだき' => 'smash', 'つり' => 'fish',
+    'Grass' => 'grass', 'Cave' => 'cave', 'Surfing' => 'surf',
+    'Headbutt' => 'headbutt', 'Rock Smash' => 'smash', 'Fishing' => 'fish'
+  }.freeze
+
   def place_html(place)
     ctx = place[:context] || {}
     chapter = chapter_label(ctx[:chapter])
     link = ctx[:href] ? %(<a href="#{ctx[:href]}">#{esc(place[:map_label])}</a>) : esc(place[:map_label])
-    <<~LI.strip
-      <li>#{link}
-        <span class="pdx-meta">#{chapter.empty? ? '' : "#{esc(chapter)} · "}#{meta(place)}</span></li>
-    LI
+    cls = GROUP_CLASS[place[:group]] || 'other'
+    badge = %(<span class="pdx-way pdx-way-#{cls}">#{esc(place[:group])}</span>)
+    "<li>#{badge}#{link} <span class=\"pdx-meta\">" \
+      "#{chapter.empty? ? '' : "#{esc(chapter)} · "}#{meta(place)}</span></li>"
   end
 
   def species_html(entry)
@@ -64,10 +73,14 @@ module EncounterIndexPage
            end
     only_label = JaNames.enabled? ? '1箇所のみ' : 'only here'
     only = entry[:places].length == 1 ? %( <span class="pdx-only">#{only_label}</span>) : ''
+    types = Array(entry[:types]).map { |t|
+      name = JaNames.tr('types', t.to_s.capitalize)
+      %(<span class="type-badge type-#{t.to_s.downcase}">#{esc(name)}</span>)
+    }.join
 
     <<~ROW
       <tr>
-        <td class="pdx-mon">#{icon}<span class="pdx-name">#{esc(entry[:species])}</span><span class="pdx-dex">No.#{entry[:dexnum]}</span>#{only}</td>
+        <td class="pdx-mon">#{icon}<span class="pdx-name">#{esc(entry[:species])}</span><span class="pdx-dex">No.#{entry[:dexnum]}</span><span class="pdx-types">#{types}</span>#{only}</td>
         <td class="pdx-places"><ul>#{entry[:places].map { |p| place_html(p) }.join}</ul></td>
       </tr>
     ROW

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'ja_names'
+require_relative 'doc_context'
 
 # 出現ポケモンの逆引き。
 #
@@ -26,28 +27,19 @@ module EncounterIndex
 
   def reset!
     @entries = []
-    @context = nil
   end
 
-  # 章の本文を組む側が、いま処理している見出しを教えてくる。
-  def context=(ctx)
-    @context = ctx
-  end
-
-  def context
-    @context
-  end
-
-  def record(species:, dexnum:, icon:, map_label:, group:, levels:, rates:)
+  def record(species:, dexnum:, icon:, types:, map_label:, group:, levels:, rates:)
     entries << {
       species: species,
       dexnum: dexnum.to_i,
       icon: icon,
+      types: types,
       map_label: map_label,
       group: group,
       levels: levels,
       rates: rates,
-      context: @context
+      context: DocContext.current
     }
   end
 
@@ -55,7 +47,8 @@ module EncounterIndex
   def by_species
     grouped = entries.group_by { |e| e[:species] }
     grouped.map { |name, list|
-      { species: name, dexnum: list.first[:dexnum], icon: list.first[:icon], places: dedupe(list) }
+      { species: name, dexnum: list.first[:dexnum], icon: list.first[:icon],
+        types: list.first[:types], places: dedupe(list) }
     }.sort_by { |s| [s[:dexnum], s[:species]] }
   end
 

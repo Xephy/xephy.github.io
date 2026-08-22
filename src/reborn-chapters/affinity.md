@@ -57,677 +57,677 @@ permalink: /reborn/affinity/
 
 ## ヴィクトリア {#affinity-victoria}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード1 / 大ホール](/reborn/episode-1/#grand-hall) | ヴィクトリアに勝利する | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード2 / オブシディアスラム](/reborn/episode-2/#obsidia-slums) | スラムでヴィクトリアに勝利する | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード4 / 大階段](/reborn/episode-4/#the-grand-stairway) | ヴィクトリアのバトルの申し出を断る | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード4 / まゆバッジ](/reborn/episode-4/#cocoon-badge) | 1回目でシェリーに勝つ | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード4 / まゆバッジ](/reborn/episode-4/#cocoon-badge) | 2回目以降でシェリーに勝つ | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード6 / アポフィルビーチ](/reborn/episode-6/#apophyll-beach) | アサナンを入手する | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード6 / パイロス山](/reborn/episode-6/#pyrous-mountain) | キキに新入生だと伝える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> キャル |
-| [エピソード6 / パイロス山](/reborn/episode-6/#pyrous-mountain) | アポフィルアカデミーでヴィクトリアに勝つ | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード6 / パイロス山](/reborn/episode-6/#pyrous-mountain) | ヴィクトリアに「秘密は守れない」と言う | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード6 / VS. しはん](/reborn/episode-6/#vs-the-sensei) | 1回目でキキに勝つ | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード6 / VS. しはん](/reborn/episode-6/#vs-the-sensei) | 2回目以降でキキに勝つ | <span class="affinity-delta is-down">-2</span> |  |
-| [エピソード7 / アポフィル防衛戦](/reborn/episode-7/#the-battle-for-apophyll) | ヴィクトリアと同行中にパイロスから出ようとする | <span class="affinity-delta is-down">-2</span> |  |
-| [エピソード7 / アポフィル防衛戦](/reborn/episode-7/#the-battle-for-apophyll) | パイロスでソラリスに勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-up">+1</span> キャル <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+3</span> タカ |
-| [エピソード8 / かいりきでの探索](/reborn/episode-8/#strength-exploration) | 墓地でヴィクトリアに話しかける | <span class="affinity-delta is-up">+2</span> |  |
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | デボンへ潜入する準備ができたとアークライトに伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | デボンへ潜入する準備ができていないとアークライトに伝える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> アークライト |
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | デボン地下でヴィクトリアと組んで戦う | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | 戦うとアークライトに伝える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> アークライト |
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | 断るとアークライトに伝える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+2</span> アドリエンヌ <span class="affinity-delta is-down">-1</span> アークライト |
-| [エピソード17 / リボーン復興プロジェクト その1](/reborn/episode-17/#reborn-restoration-project-1) | 大ホールの地下でヴィクトリアに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | レシラムルートのみ: ソラリスに死んでほしいと伝える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> キャル |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | レシラムルートのみ: ソラリスに死んでほしくないと伝える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> キャル |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-1/#grand-hall">エピソード1 / 大ホール</a></td><td class="aff-choice">ヴィクトリアに勝利する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-2/#obsidia-slums">エピソード2 / オブシディアスラム</a></td><td class="aff-choice">スラムでヴィクトリアに勝利する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-4/#the-grand-stairway">エピソード4 / 大階段</a></td><td class="aff-choice">ヴィクトリアのバトルの申し出を断る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-4/#cocoon-badge">エピソード4 / まゆバッジ</a></td><td class="aff-choice">1回目でシェリーに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">2回目以降でシェリーに勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-6/#apophyll-beach">エピソード6 / アポフィルビーチ</a></td><td class="aff-choice">アサナンを入手する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-6/#pyrous-mountain">エピソード6 / パイロス山</a></td><td class="aff-choice">キキに新入生だと伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> キャル</span></td></tr>
+<tr><td class="aff-choice">アポフィルアカデミーでヴィクトリアに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ヴィクトリアに「秘密は守れない」と言う</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-6/#vs-the-sensei">エピソード6 / VS. しはん</a></td><td class="aff-choice">1回目でキキに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">2回目以降でキキに勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-7/#the-battle-for-apophyll">エピソード7 / アポフィル防衛戦</a></td><td class="aff-choice">ヴィクトリアと同行中にパイロスから出ようとする</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">パイロスでソラリスに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+3</span> タカ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-8/#strength-exploration">エピソード8 / かいりきでの探索</a></td><td class="aff-choice">墓地でヴィクトリアに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="5"><a href="/reborn/episode-16/#devon-corporation">エピソード16 / デボンコーポ</a></td><td class="aff-choice">デボンへ潜入する準備ができたとアークライトに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">デボンへ潜入する準備ができていないとアークライトに伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> アークライト</span></td></tr>
+<tr><td class="aff-choice">デボン地下でヴィクトリアと組んで戦う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">戦うとアークライトに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アークライト</span></td></tr>
+<tr><td class="aff-choice">断るとアークライトに伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> アークライト</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-17/#reborn-restoration-project-1">エピソード17 / リボーン復興プロジェクト その1</a></td><td class="aff-choice">大ホールの地下でヴィクトリアに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-19/#labradorra-city">エピソード19 / ラブラドラシティ</a></td><td class="aff-choice">レシラムルートのみ: ソラリスに死んでほしいと伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> キャル</span></td></tr>
+<tr><td class="aff-choice">レシラムルートのみ: ソラリスに死んでほしくないと伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> キャル</span></td></tr>
+</table>
 
 
 ## カイン {#affinity-cain}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード1 / 大ホール](/reborn/episode-1/#grand-hall) | カインに勝利する | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード3 / 檻に捕まったルート](/reborn/episode-3/#cage-trap-route) | 檻からカインを助け出す | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード4 / 大階段](/reborn/episode-4/#the-grand-stairway) | カインが気を引いている間に警備員へ4回話しかける | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード5](/reborn/episode-5/) | ヘザーを助けることに同意する | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード5](/reborn/episode-5/) | ヘザーを助けるのを断る | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード5 / ラピス区の養護施設](/reborn/episode-5/#lapis-ward-orphanage) | カインと組んで看護人たちを倒す | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード5 / ラピス区の養護施設](/reborn/episode-5/#lapis-ward-orphanage) | 同行者がいる状態で養護施設から出る | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> シェリー <span class="affinity-delta is-down">-1</span> シャルロット <span class="affinity-delta is-down">-1</span> ノエル <span class="affinity-delta is-down">-1</span> ヘザー |
-| [エピソード6 / ブラックスチーム工場](/reborn/episode-6/#blacksteam-factory) | エースは信用できるとカインに言う | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> エース <span class="affinity-delta is-up">+1</span> アマリア |
-| [エピソード6 / ブラックスチーム工場](/reborn/episode-6/#blacksteam-factory) | エースは信用できないとカインに言う | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> エース |
-| [エピソード7 / アポフィル防衛戦](/reborn/episode-7/#the-battle-for-apophyll) | パイロスでソラリスに勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> ヴィクトリア <span class="affinity-delta is-up">+1</span> キャル <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+3</span> タカ |
-| [エピソード8](/reborn/episode-8/) | 以前カインが家出をしていた場合、「言いたいことは分かる」と答える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード8 / ユレユビル](/reborn/episode-8/#yureyu-building) | ユレユの中でカインに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード8 / ユレユビル](/reborn/episode-8/#yureyu-building) | カインと同行中にユレユから出ようとする | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード8 / ユレユビル](/reborn/episode-8/#yureyu-building) | シグムンドの「戦うか」という問いに「いいえ」と答える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> シグムンド <span class="affinity-delta is-down">-1</span> ヘザー |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | アドリエンヌに指輪を渡すことに同意する | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> アドリエンヌ |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | アドリエンヌに指輪を渡すのを断る | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> アドリエンヌ |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | エルの側について勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+2</span> イライアス <span class="affinity-delta is-up">+2</span> アドリエンヌ <span class="affinity-delta is-down">-2</span> サーナイト <span class="affinity-delta is-down">-2</span> ルナ <span class="affinity-delta is-down">-2</span> ラドマス |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | ラドマスの側について勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+2</span> ラドマス <span class="affinity-delta is-up">+2</span> ルナ <span class="affinity-delta is-up">+3</span> サーナイト <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-down">-1</span> アドリエンヌ <span class="affinity-delta is-down">-2</span> イライアス |
-| [エピソード14 / アメトリン山頂の戦い](/reborn/episode-14/#the-battle-atop-ametrine) | ブレイク戦のあとカルセノンでカインに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード16](/reborn/episode-16/) | カルセノンシティでカインに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード18 / 虚無の中で](/reborn/episode-18/#inside-the-void) | 虚無でアヤの場面のあとにカインに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-1/#grand-hall">エピソード1 / 大ホール</a></td><td class="aff-choice">カインに勝利する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-3/#cage-trap-route">エピソード3 / 檻に捕まったルート</a></td><td class="aff-choice">檻からカインを助け出す</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-4/#the-grand-stairway">エピソード4 / 大階段</a></td><td class="aff-choice">カインが気を引いている間に警備員へ4回話しかける</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-5/">エピソード5</a></td><td class="aff-choice">ヘザーを助けることに同意する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ヘザーを助けるのを断る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-5/#lapis-ward-orphanage">エピソード5 / ラピス区の養護施設</a></td><td class="aff-choice">カインと組んで看護人たちを倒す</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">同行者がいる状態で養護施設から出る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-6/#blacksteam-factory">エピソード6 / ブラックスチーム工場</a></td><td class="aff-choice">エースは信用できるとカインに言う</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> エース</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アマリア</span></td></tr>
+<tr><td class="aff-choice">エースは信用できないとカインに言う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> エース</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-7/#the-battle-for-apophyll">エピソード7 / アポフィル防衛戦</a></td><td class="aff-choice">パイロスでソラリスに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ヴィクトリア</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+3</span> タカ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-8/">エピソード8</a></td><td class="aff-choice">以前カインが家出をしていた場合、「言いたいことは分かる」と答える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-8/#yureyu-building">エピソード8 / ユレユビル</a></td><td class="aff-choice">ユレユの中でカインに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">カインと同行中にユレユから出ようとする</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">シグムンドの「戦うか」という問いに「いいえ」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シグムンド</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span></td></tr>
+<tr><td class="aff-place" rowspan="4"><a href="/reborn/episode-10/#citae-astrae">エピソード10 / キタエ・アストラエ</a></td><td class="aff-choice">アドリエンヌに指輪を渡すことに同意する</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アドリエンヌ</span></td></tr>
+<tr><td class="aff-choice">アドリエンヌに指輪を渡すのを断る</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> アドリエンヌ</span></td></tr>
+<tr><td class="aff-choice">エルの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> イライアス</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ラドマス</span></td></tr>
+<tr><td class="aff-choice">ラドマスの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ラドマス</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+3</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> イライアス</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-14/#the-battle-atop-ametrine">エピソード14 / アメトリン山頂の戦い</a></td><td class="aff-choice">ブレイク戦のあとカルセノンでカインに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-16/">エピソード16</a></td><td class="aff-choice">カルセノンシティでカインに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-18/#inside-the-void">エピソード18 / 虚無の中で</a></td><td class="aff-choice">虚無でアヤの場面のあとにカインに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## シェリー {#affinity-shelly}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード1 / 下ペリドット区](/reborn/episode-1/#lower-peridot-ward) | コロボーシを受け取る | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード1 / 下ペリドット区](/reborn/episode-1/#lower-peridot-ward) | コロボーシを断る | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード5 / ラピス区の養護施設](/reborn/episode-5/#lapis-ward-orphanage) | シェリーと組んで看護人たちを倒す | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード5 / ラピス区の養護施設](/reborn/episode-5/#lapis-ward-orphanage) | 同行者がいる状態で養護施設から出る | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> カイン <span class="affinity-delta is-down">-1</span> シャルロット <span class="affinity-delta is-down">-1</span> ノエル <span class="affinity-delta is-down">-1</span> ヘザー |
-| [エピソード5 / ラピス区の養護施設](/reborn/episode-5/#lapis-ward-orphanage) | 同行中にシェリーに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード5 / ラピス区の養護施設](/reborn/episode-5/#lapis-ward-orphanage) | 上階を探索する前に廊下へ入る | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード5 / ラピス区の養護施設](/reborn/episode-5/#lapis-ward-orphanage) | 主人公が男性で、女子トイレに2回入ろうとする | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード8 / 地下鉄道網 東](/reborn/episode-8/#underground-railnet-east) | シェリーに「助かった」と伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード8 / 地下鉄道網 東](/reborn/episode-8/#underground-railnet-east) | シェリーに「役に立たなかった」と伝える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード8 / タンザン入り江](/reborn/episode-8/#tanzan-cove) | ベルローズ邸でシェリーに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード9 / 2つのやくそうエキス](/reborn/episode-9/#two-herbal-extracts) | ノエルがバトルを望んでいる間にシェリーに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード9 / ユレユでシグムンドと戦ったルート 後編](/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2) | シリウス戦のあと上階へ行く | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> ノエル <span class="affinity-delta is-down">-1</span> サファイラ <span class="affinity-delta is-down">-1</span> ローラ <span class="affinity-delta is-down">-1</span> シグムンド |
-| [エピソード9 / ユレユでシグムンドと戦ったルート 後編](/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2) | シリウス戦のあと下階に留まる | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> サファイラ |
-| [エピソード9 / ユレユでシグムンドと戦わなかったルート 後編](/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2) | シグムンドと戦ったあと、彼を止めることを選ぶ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> サファイラ <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> ノエル <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-down">-1</span> ローラ <span class="affinity-delta is-down">-2</span> シグムンド |
-| [エピソード9 / タンザンメテオ基地](/reborn/episode-9/#tanzan-meteor-base) | シャルロットとシェリーが連れ去られた場合、檻の中の2人に話しかける | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> シャルロット |
-| [エピソード14](/reborn/episode-14/) | ダイビングを入手する前にシャルロットを倒す | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> ノエル |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 1回断ってから指輪を渡す | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+2</span> ブレイク <span class="affinity-delta is-down">-2</span> キャル |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 2回断ってから指輪を渡す | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+2</span> ブレイク <span class="affinity-delta is-down">-2</span> キャル <span class="affinity-delta is-down">-1</span> ヘザー |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 3回とも断る | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+2</span> キャル <span class="affinity-delta is-down">-2</span> ブレイク <span class="affinity-delta is-down">-1</span> ヘザー |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | ブレイクに指輪を渡したうえで、疲れたあとのシェリーに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード18 / アゲートシティ襲撃](/reborn/episode-18/#the-raid-on-agate-city) | シェリーがティタニア／セラと話しているときに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-1/#lower-peridot-ward">エピソード1 / 下ペリドット区</a></td><td class="aff-choice">コロボーシを受け取る</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">コロボーシを断る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="5"><a href="/reborn/episode-5/#lapis-ward-orphanage">エピソード5 / ラピス区の養護施設</a></td><td class="aff-choice">シェリーと組んで看護人たちを倒す</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">同行者がいる状態で養護施設から出る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span></td></tr>
+<tr><td class="aff-choice">同行中にシェリーに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">上階を探索する前に廊下へ入る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">主人公が男性で、女子トイレに2回入ろうとする</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-8/#underground-railnet-east">エピソード8 / 地下鉄道網 東</a></td><td class="aff-choice">シェリーに「助かった」と伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">シェリーに「役に立たなかった」と伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-8/#tanzan-cove">エピソード8 / タンザン入り江</a></td><td class="aff-choice">ベルローズ邸でシェリーに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#two-herbal-extracts">エピソード9 / 2つのやくそうエキス</a></td><td class="aff-choice">ノエルがバトルを望んでいる間にシェリーに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2">エピソード9 / ユレユでシグムンドと戦ったルート 後編</a></td><td class="aff-choice">シリウス戦のあと上階へ行く</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シグムンド</span></td></tr>
+<tr><td class="aff-choice">シリウス戦のあと下階に留まる</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> サファイラ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2">エピソード9 / ユレユでシグムンドと戦わなかったルート 後編</a></td><td class="aff-choice">シグムンドと戦ったあと、彼を止めることを選ぶ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> シグムンド</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#tanzan-meteor-base">エピソード9 / タンザンメテオ基地</a></td><td class="aff-choice">シャルロットとシェリーが連れ去られた場合、檻の中の2人に話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-14/">エピソード14</a></td><td class="aff-choice">ダイビングを入手する前にシャルロットを倒す</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span></td></tr>
+<tr><td class="aff-place" rowspan="4"><a href="/reborn/episode-14/#ametrine-city">エピソード14 / アメトリンシティ</a></td><td class="aff-choice">1回断ってから指輪を渡す</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ブレイク</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> キャル</span></td></tr>
+<tr><td class="aff-choice">2回断ってから指輪を渡す</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ブレイク</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span></td></tr>
+<tr><td class="aff-choice">3回とも断る</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ブレイク</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span></td></tr>
+<tr><td class="aff-choice">ブレイクに指輪を渡したうえで、疲れたあとのシェリーに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-18/#the-raid-on-agate-city">エピソード18 / アゲートシティ襲撃</a></td><td class="aff-choice">シェリーがティタニア／セラと話しているときに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## ファーン {#affinity-fern}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード1 / ペリドット区](/reborn/episode-1/#peridot-ward) | モスウォーター工業区へ直行する | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード1 / モスウォーター工業区](/reborn/episode-1/#mosswater-industrial) | ファーンを置いて工場から出る | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード1 / モスウォーター工業区](/reborn/episode-1/#mosswater-industrial) | 同行中にファーンに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード1 / モスウォーター工業区](/reborn/episode-1/#mosswater-industrial) | 今いる階と同じ階のボタンを押す | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード3 / 檻に捕まったルート](/reborn/episode-3/#cage-trap-route) | ファーンに懇願せず拒否する | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード3 / 檻に捕まったルート](/reborn/episode-3/#cage-trap-route) | 2回懇願してから拒否する | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード3 / 檻に捕まったルート](/reborn/episode-3/#cage-trap-route) | 3回懇願してから拒否する | <span class="affinity-delta is-up">+2</span> |  |
-| [エピソード3 / 檻に捕まったルート](/reborn/episode-3/#cage-trap-route) | 4回懇願する | <span class="affinity-delta is-up">+5</span> |  |
-| [エピソード3 / 避けて通ったルート](/reborn/episode-3/#snuck-around-route) | 丘の上でファーンに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード4 / 北オブシディア区](/reborn/episode-4/#north-obsidia-ward) | 北オブシディア区でファーンに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード7 / ブライトバッジ](/reborn/episode-7/#blight-badge) | 1回目でアヤに勝つ | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> ハーディ |
-| [エピソード13 / カルセノンシティ](/reborn/episode-13/#calcenon-city) | 町の左側でハーディとファーンに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード15 / フィオレ屋敷の連戦](/reborn/episode-15/#fiore-mansion-gauntlet) | パイロスでソラリスを倒した状態でジュリアが仲間になる | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> ジュリア |
-| [クリア後 エピソード6 / トリスケリンの玩具箱](/reborn/postgame-episode-6/#triskeline-toybox) | すぐにファーンを出してやる | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード6 / トリスケリンの玩具箱](/reborn/postgame-episode-6/#triskeline-toybox) | 1回懇願させてから出してやる | <span class="affinity-delta is-down">-1</span> |  |
-| [クリア後 エピソード6 / トリスケリンの玩具箱](/reborn/postgame-episode-6/#triskeline-toybox) | 2回懇願させてから出してやる | <span class="affinity-delta is-down">-2</span> |  |
-| [クリア後 エピソード6 / トリスケリンの玩具箱](/reborn/postgame-episode-6/#triskeline-toybox) | 3回懇願させてから出してやる | <span class="affinity-delta is-down">-3</span> |  |
-| [クリア後 エピソード6 / トリスケリンの玩具箱](/reborn/postgame-episode-6/#triskeline-toybox) | 4回懇願させてから出してやる | <span class="affinity-delta is-down">-6</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-1/#peridot-ward">エピソード1 / ペリドット区</a></td><td class="aff-choice">モスウォーター工業区へ直行する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-1/#mosswater-industrial">エピソード1 / モスウォーター工業区</a></td><td class="aff-choice">ファーンを置いて工場から出る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">同行中にファーンに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">今いる階と同じ階のボタンを押す</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="4"><a href="/reborn/episode-3/#cage-trap-route">エピソード3 / 檻に捕まったルート</a></td><td class="aff-choice">ファーンに懇願せず拒否する</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">2回懇願してから拒否する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">3回懇願してから拒否する</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">4回懇願する</td><td class="aff-delta"><span class="affinity-delta is-up">+5</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-3/#snuck-around-route">エピソード3 / 避けて通ったルート</a></td><td class="aff-choice">丘の上でファーンに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-4/#north-obsidia-ward">エピソード4 / 北オブシディア区</a></td><td class="aff-choice">北オブシディア区でファーンに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-7/#blight-badge">エピソード7 / ブライトバッジ</a></td><td class="aff-choice">1回目でアヤに勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ハーディ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-13/#calcenon-city">エピソード13 / カルセノンシティ</a></td><td class="aff-choice">町の左側でハーディとファーンに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-15/#fiore-mansion-gauntlet">エピソード15 / フィオレ屋敷の連戦</a></td><td class="aff-choice">パイロスでソラリスを倒した状態でジュリアが仲間になる</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ジュリア</span></td></tr>
+<tr><td class="aff-place" rowspan="5"><a href="/reborn/postgame-episode-6/#triskeline-toybox">クリア後 エピソード6 / トリスケリンの玩具箱</a></td><td class="aff-choice">すぐにファーンを出してやる</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">1回懇願させてから出してやる</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">2回懇願させてから出してやる</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">3回懇願させてから出してやる</td><td class="aff-delta"><span class="affinity-delta is-down">-3</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">4回懇願させてから出してやる</td><td class="aff-delta"><span class="affinity-delta is-down">-6</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## ジュリア {#affinity-julia}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード1 / 大ホール](/reborn/episode-1/#grand-hall) | はい | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード1 / ペリドット区](/reborn/episode-1/#peridot-ward) | 先にペリドットジムへ寄ってから向かう | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード1 / モスウォーター工業区](/reborn/episode-1/#mosswater-industrial) | 爆薬を手に入れたあとジュリアに話しかける | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> フロリニア |
-| [エピソード1 / モスウォーター工業区](/reborn/episode-1/#mosswater-industrial) | 爆薬を手に入れたあとフロリニアに話しかける | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> フロリニア |
-| [エピソード15 / フィオレ屋敷の連戦](/reborn/episode-15/#fiore-mansion-gauntlet) | パイロスでソラリスを倒した状態でジュリアが仲間になる | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> ファーン |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | カルセノンでジュリアに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | レシラムルートのみ: カルセノンでアマリアに話しかける | <span class="affinity-delta is-down">-1</span> |  |
-| [クリア後 エピソード4 / 列車強盗事件](/reborn/postgame-episode-4/#the-train-heist) | 宝珠を盗んだとしてジュリアを告発する | <span class="affinity-delta is-down">-1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-1/#grand-hall">エピソード1 / 大ホール</a></td><td class="aff-choice">はい</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-1/#peridot-ward">エピソード1 / ペリドット区</a></td><td class="aff-choice">先にペリドットジムへ寄ってから向かう</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-1/#mosswater-industrial">エピソード1 / モスウォーター工業区</a></td><td class="aff-choice">爆薬を手に入れたあとジュリアに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> フロリニア</span></td></tr>
+<tr><td class="aff-choice">爆薬を手に入れたあとフロリニアに話しかける</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> フロリニア</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-15/#fiore-mansion-gauntlet">エピソード15 / フィオレ屋敷の連戦</a></td><td class="aff-choice">パイロスでソラリスを倒した状態でジュリアが仲間になる</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ファーン</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-19/#labradorra-city">エピソード19 / ラブラドラシティ</a></td><td class="aff-choice">カルセノンでジュリアに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">レシラムルートのみ: カルセノンでアマリアに話しかける</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-4/#the-train-heist">クリア後 エピソード4 / 列車強盗事件</a></td><td class="aff-choice">宝珠を盗んだとしてジュリアを告発する</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## フロリニア {#affinity-florinia}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード1 / モスウォーター工業区](/reborn/episode-1/#mosswater-industrial) | 爆薬を手に入れたあとジュリアに話しかける | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> ジュリア |
-| [エピソード1 / モスウォーター工業区](/reborn/episode-1/#mosswater-industrial) | 爆薬を手に入れたあとフロリニアに話しかける | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> ジュリア |
-| [エピソード1 / モスウォーター工業区](/reborn/episode-1/#mosswater-industrial) | はい | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード15 / フィオレ屋敷の連戦](/reborn/episode-15/#fiore-mansion-gauntlet) | パイロスでソラリスを倒していない状態でフロリニアが仲間になる | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード18](/reborn/episode-18/) | 基地への突入にハーディと同意する | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> ハーディ |
-| [エピソード18](/reborn/episode-18/) | 基地への突入にハーディと反対する | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> ハーディ |
-| [クリア後 エピソード1 / バンハネン城の新世界](/reborn/postgame-episode-1/#vanhanen-castle-new-world) | フロリニアにウルトラビーストを見せる | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード7 / エーギルどうくつでの影のバトル (前編)](/reborn/postgame-episode-7/#umbral-battles-in-aegir-cave-part-1) | 次の目標を理解したとフロリニアに伝える | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-1/#mosswater-industrial">エピソード1 / モスウォーター工業区</a></td><td class="aff-choice">爆薬を手に入れたあとジュリアに話しかける</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ジュリア</span></td></tr>
+<tr><td class="aff-choice">爆薬を手に入れたあとフロリニアに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ジュリア</span></td></tr>
+<tr><td class="aff-choice">はい</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-15/#fiore-mansion-gauntlet">エピソード15 / フィオレ屋敷の連戦</a></td><td class="aff-choice">パイロスでソラリスを倒していない状態でフロリニアが仲間になる</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-18/">エピソード18</a></td><td class="aff-choice">基地への突入にハーディと同意する</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ハーディ</span></td></tr>
+<tr><td class="aff-choice">基地への突入にハーディと反対する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ハーディ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-1/#vanhanen-castle-new-world">クリア後 エピソード1 / バンハネン城の新世界</a></td><td class="aff-choice">フロリニアにウルトラビーストを見せる</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-7/#umbral-battles-in-aegir-cave-part-1">クリア後 エピソード7 / エーギルどうくつでの影のバトル (前編)</a></td><td class="aff-choice">次の目標を理解したとフロリニアに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## ハーディ {#affinity-hardy}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード2 / オニキス区](/reborn/episode-2/#onyx-ward) | はい | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード7 / ビクスビジョン荒地](/reborn/episode-7/#byxbysion-wasteland) | 1回目でファーンに勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> アヤ |
-| [エピソード7 / ブライトバッジ](/reborn/episode-7/#blight-badge) | 1回目でアヤに勝つ | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> ファーン |
-| [エピソード13 / 3番道路とLCCC](/reborn/episode-13/#route-3--lccc) | アヤと同行中にアメトリンへ戻る | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> アヤ |
-| [エピソード13 / 3番道路とLCCC](/reborn/episode-13/#route-3--lccc) | アヤと同行中に全滅する | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> アヤ |
-| [エピソード13 / カルセノンシティ](/reborn/episode-13/#calcenon-city) | サファイラの好感度が0より大きい状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+2</span> シャルロット <span class="affinity-delta is-up">+1</span> サファイラ |
-| [エピソード13 / カルセノンシティ](/reborn/episode-13/#calcenon-city) | サファイラの好感度が0以下の状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+2</span> シャルロット <span class="affinity-delta is-down">-1</span> サファイラ |
-| [エピソード13 / カルセノンシティ](/reborn/episode-13/#calcenon-city) | シャルロットに「彼女を見捨てはしない」と伝える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-2</span> シャルロット |
-| [エピソード14](/reborn/episode-14/) | カルセノンの家でハーディにシャルロットのことを話す | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード14 / アメトリン山頂の戦い](/reborn/episode-14/#the-battle-atop-ametrine) | ブレイク戦のあとカルセノンでハーディに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード16](/reborn/episode-16/) | 4番道路でハーディに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード17 / リボーン復興プロジェクト その2](/reborn/episode-17/#reborn-restoration-project-2) | ティタニアを倒したあとにカルセノンシティでハーディに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード18](/reborn/episode-18/) | 基地への突入にハーディと同意する | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> フロリニア |
-| [エピソード18](/reborn/episode-18/) | 基地への突入にハーディと反対する | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> フロリニア |
-| [エピソード18 / 4番道路 上部](/reborn/episode-18/#upper-route-4) | ハーディの賭けに乗る | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード18 / ガラス工房](/reborn/episode-18/#glass-workstation) | ハーディに *いやしのすず* を2回使う | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | メテオ団と戦う準備ができたとハーディに伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | メテオ団と戦う準備ができていないとハーディに伝える | <span class="affinity-delta is-down">-1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-2/#onyx-ward">エピソード2 / オニキス区</a></td><td class="aff-choice">はい</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-7/#byxbysion-wasteland">エピソード7 / ビクスビジョン荒地</a></td><td class="aff-choice">1回目でファーンに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アヤ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-7/#blight-badge">エピソード7 / ブライトバッジ</a></td><td class="aff-choice">1回目でアヤに勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ファーン</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-13/#route-3--lccc">エピソード13 / 3番道路とLCCC</a></td><td class="aff-choice">アヤと同行中にアメトリンへ戻る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> アヤ</span></td></tr>
+<tr><td class="aff-choice">アヤと同行中に全滅する</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> アヤ</span></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-13/#calcenon-city">エピソード13 / カルセノンシティ</a></td><td class="aff-choice">サファイラの好感度が0より大きい状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> サファイラ</span></td></tr>
+<tr><td class="aff-choice">サファイラの好感度が0以下の状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> サファイラ</span></td></tr>
+<tr><td class="aff-choice">シャルロットに「彼女を見捨てはしない」と伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-2</span> シャルロット</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-14/">エピソード14</a></td><td class="aff-choice">カルセノンの家でハーディにシャルロットのことを話す</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-14/#the-battle-atop-ametrine">エピソード14 / アメトリン山頂の戦い</a></td><td class="aff-choice">ブレイク戦のあとカルセノンでハーディに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-16/">エピソード16</a></td><td class="aff-choice">4番道路でハーディに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-17/#reborn-restoration-project-2">エピソード17 / リボーン復興プロジェクト その2</a></td><td class="aff-choice">ティタニアを倒したあとにカルセノンシティでハーディに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-18/">エピソード18</a></td><td class="aff-choice">基地への突入にハーディと同意する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> フロリニア</span></td></tr>
+<tr><td class="aff-choice">基地への突入にハーディと反対する</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> フロリニア</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-18/#upper-route-4">エピソード18 / 4番道路 上部</a></td><td class="aff-choice">ハーディの賭けに乗る</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-18/#glass-workstation">エピソード18 / ガラス工房</a></td><td class="aff-choice">ハーディに <em>いやしのすず</em> を2回使う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-19/#labradorra-city">エピソード19 / ラブラドラシティ</a></td><td class="aff-choice">メテオ団と戦う準備ができたとハーディに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">メテオ団と戦う準備ができていないとハーディに伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## ローラ {#affinity-laura}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード2 / にじいろのかおりクエスト](/reborn/episode-2/#rainbow-scent-quest) | ローラからキュワワーを受け取る | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード2 / にじいろのかおりクエスト](/reborn/episode-2/#rainbow-scent-quest) | にじいろのかおりクエストを完了する | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> サファイラ |
-| [エピソード8 / タンザン入り江](/reborn/episode-8/#tanzan-cove) | ボクレイン邸より先にベルローズ邸へ入る | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> ノエル |
-| [エピソード9 / ユレユでシグムンドと戦ったルート 後編](/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2) | シリウス戦のあと上階へ行く | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> シェリー <span class="affinity-delta is-up">+1</span> ノエル <span class="affinity-delta is-down">-1</span> サファイラ <span class="affinity-delta is-down">-1</span> シグムンド |
-| [エピソード9 / ユレユでシグムンドと戦わなかったルート 後編](/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2) | シグムンドと戦ったあと、彼を止めることを選ぶ | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> サファイラ <span class="affinity-delta is-up">+1</span> シェリー <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> ノエル <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-down">-2</span> シグムンド |
-| [エピソード9 / ユレユでシグムンドと戦わなかったルート 後編](/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2) | シグムンドと戦ったあと、シリウスを止めることを選ぶ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-2</span> サファイラ <span class="affinity-delta is-down">-1</span> ノエル |
-| [エピソード9 / ユレユでシグムンドと戦わなかったルート 後編](/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2) | 壁の穴からベルローズ邸を出入りする | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード9 / タンザンメテオ基地](/reborn/episode-9/#tanzan-meteor-base) | ローラが連れ去られた場合、檻の中の彼女に話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード9 / タンザン深部](/reborn/episode-9/#tanzan-depths) | 深部でローラに話しかける | <span class="affinity-delta is-up">+2</span> |  |
-| [エピソード9 / タンザン深部](/reborn/episode-9/#tanzan-depths) | 1回目でハガネールに勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+3</span> サファイラ |
-| [エピソード9 / スタンダードバッジ](/reborn/episode-9/#standard-badge) | 燃えるフィールドでノエルに勝つ | <span class="affinity-delta is-down">-2</span> |  |
-| [エピソード9 / スタンダードバッジ](/reborn/episode-9/#standard-badge) | 腐食フィールドでノエルに勝つ | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード10](/reborn/episode-10/) | ソファのローラに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | ベネットを信じるとハーディに伝える | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-up">+2</span> ベネット <span class="affinity-delta is-up">+1</span> イヴ <span class="affinity-delta is-down">-2</span> サファイラ |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | ベネットを信じないとハーディに伝える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+2</span> サファイラ <span class="affinity-delta is-down">-2</span> ベネット |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | 物語の集合住宅でシャルロットに話しかけ「はい」と答える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> サファイラ |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | 物語の集合住宅でシャルロットに話しかけ「いいえ」と答える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> サファイラ |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-2/#rainbow-scent-quest">エピソード2 / にじいろのかおりクエスト</a></td><td class="aff-choice">ローラからキュワワーを受け取る</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">にじいろのかおりクエストを完了する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> サファイラ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-8/#tanzan-cove">エピソード8 / タンザン入り江</a></td><td class="aff-choice">ボクレイン邸より先にベルローズ邸へ入る</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2">エピソード9 / ユレユでシグムンドと戦ったルート 後編</a></td><td class="aff-choice">シリウス戦のあと上階へ行く</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シグムンド</span></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2">エピソード9 / ユレユでシグムンドと戦わなかったルート 後編</a></td><td class="aff-choice">シグムンドと戦ったあと、彼を止めることを選ぶ</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> シグムンド</span></td></tr>
+<tr><td class="aff-choice">シグムンドと戦ったあと、シリウスを止めることを選ぶ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-2</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ノエル</span></td></tr>
+<tr><td class="aff-choice">壁の穴からベルローズ邸を出入りする</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#tanzan-meteor-base">エピソード9 / タンザンメテオ基地</a></td><td class="aff-choice">ローラが連れ去られた場合、檻の中の彼女に話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-9/#tanzan-depths">エピソード9 / タンザン深部</a></td><td class="aff-choice">深部でローラに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">1回目でハガネールに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+3</span> サファイラ</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-9/#standard-badge">エピソード9 / スタンダードバッジ</a></td><td class="aff-choice">燃えるフィールドでノエルに勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">腐食フィールドでノエルに勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-10/">エピソード10</a></td><td class="aff-choice">ソファのローラに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="4"><a href="/reborn/episode-19/#labradorra-city">エピソード19 / ラブラドラシティ</a></td><td class="aff-choice">ベネットを信じるとハーディに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ベネット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> イヴ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> サファイラ</span></td></tr>
+<tr><td class="aff-choice">ベネットを信じないとハーディに伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ベネット</span></td></tr>
+<tr><td class="aff-choice">物語の集合住宅でシャルロットに話しかけ「はい」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> サファイラ</span></td></tr>
+<tr><td class="aff-choice">物語の集合住宅でシャルロットに話しかけ「いいえ」と答える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> サファイラ</span></td></tr>
+</table>
 
 
 ## サファイラ {#affinity-saphira}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード2 / にじいろのかおりクエスト](/reborn/episode-2/#rainbow-scent-quest) | にじいろのかおりクエストを完了する | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> ローラ |
-| [エピソード9 / ベルローズ邸の防衛](/reborn/episode-9/#defending-belrose-manse) | サファイラに「理解できない」と伝える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード9 / ユレユでシグムンドと戦ったルート 後編](/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2) | シリウス戦のあと上階へ行く | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> シェリー <span class="affinity-delta is-up">+1</span> ノエル <span class="affinity-delta is-down">-1</span> ローラ <span class="affinity-delta is-down">-1</span> シグムンド |
-| [エピソード9 / ユレユでシグムンドと戦ったルート 後編](/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2) | シリウス戦のあと下階に留まる | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> シェリー |
-| [エピソード9 / ユレユでシグムンドと戦わなかったルート 後編](/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2) | シグムンドと戦ったあと、彼を止めることを選ぶ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> シェリー <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> ノエル <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-down">-1</span> ローラ <span class="affinity-delta is-down">-2</span> シグムンド |
-| [エピソード9 / ユレユでシグムンドと戦わなかったルート 後編](/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2) | シグムンドと戦ったあと、シリウスを止めることを選ぶ | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+1</span> ローラ <span class="affinity-delta is-down">-1</span> ノエル |
-| [エピソード9 / タンザン深部](/reborn/episode-9/#tanzan-depths) | 1回目でハガネールに勝つ | <span class="affinity-delta is-up">+3</span> | <span class="affinity-delta is-up">+1</span> ローラ |
-| [エピソード9 / タンザン深部](/reborn/episode-9/#tanzan-depths) | 2回目以降でハガネールに勝つ | <span class="affinity-delta is-up">+2</span> |  |
-| [エピソード13 / カルセノンシティ](/reborn/episode-13/#calcenon-city) | サファイラの好感度が0より大きい状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+2</span> シャルロット <span class="affinity-delta is-down">-1</span> ハーディ |
-| [エピソード13 / カルセノンシティ](/reborn/episode-13/#calcenon-city) | サファイラの好感度が0以下の状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+2</span> シャルロット <span class="affinity-delta is-down">-1</span> ハーディ |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | ベネットを信じるとハーディに伝える | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+2</span> ベネット <span class="affinity-delta is-up">+2</span> ローラ <span class="affinity-delta is-up">+1</span> イヴ |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | ベネットを信じないとハーディに伝える | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-down">-2</span> ベネット <span class="affinity-delta is-down">-1</span> ローラ |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | 物語の集合住宅でシャルロットに話しかけ「はい」と答える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> ローラ |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | 物語の集合住宅でシャルロットに話しかけ「いいえ」と答える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> ローラ |
-| [エピソード19 / トレジャーバッジ](/reborn/episode-19/#treasure-badge) | 宝箱の試練に初回で失敗する | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード19 / トレジャーバッジ](/reborn/episode-19/#treasure-badge) | 宝箱の試練の最中にジムを出る | <span class="affinity-delta is-down">-1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-2/#rainbow-scent-quest">エピソード2 / にじいろのかおりクエスト</a></td><td class="aff-choice">にじいろのかおりクエストを完了する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ローラ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#defending-belrose-manse">エピソード9 / ベルローズ邸の防衛</a></td><td class="aff-choice">サファイラに「理解できない」と伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2">エピソード9 / ユレユでシグムンドと戦ったルート 後編</a></td><td class="aff-choice">シリウス戦のあと上階へ行く</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シグムンド</span></td></tr>
+<tr><td class="aff-choice">シリウス戦のあと下階に留まる</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2">エピソード9 / ユレユでシグムンドと戦わなかったルート 後編</a></td><td class="aff-choice">シグムンドと戦ったあと、彼を止めることを選ぶ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> シグムンド</span></td></tr>
+<tr><td class="aff-choice">シグムンドと戦ったあと、シリウスを止めることを選ぶ</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ノエル</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-9/#tanzan-depths">エピソード9 / タンザン深部</a></td><td class="aff-choice">1回目でハガネールに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+3</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ローラ</span></td></tr>
+<tr><td class="aff-choice">2回目以降でハガネールに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-13/#calcenon-city">エピソード13 / カルセノンシティ</a></td><td class="aff-choice">サファイラの好感度が0より大きい状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ハーディ</span></td></tr>
+<tr><td class="aff-choice">サファイラの好感度が0以下の状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ハーディ</span></td></tr>
+<tr><td class="aff-place" rowspan="4"><a href="/reborn/episode-19/#labradorra-city">エピソード19 / ラブラドラシティ</a></td><td class="aff-choice">ベネットを信じるとハーディに伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ベネット</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> イヴ</span></td></tr>
+<tr><td class="aff-choice">ベネットを信じないとハーディに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-2</span> ベネット</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span></td></tr>
+<tr><td class="aff-choice">物語の集合住宅でシャルロットに話しかけ「はい」と答える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span></td></tr>
+<tr><td class="aff-choice">物語の集合住宅でシャルロットに話しかけ「いいえ」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ローラ</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-19/#treasure-badge">エピソード19 / トレジャーバッジ</a></td><td class="aff-choice">宝箱の試練に初回で失敗する</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">宝箱の試練の最中にジムを出る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## セラ {#affinity-serra}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード2 / オブシディア区](/reborn/episode-2/#obsidia-ward) | 中央オブシディア美容室でマッサージを1回以上受ける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード8 / しものバッジ](/reborn/episode-8/#rime-badge) | 1回目で正しい鏡を割る | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード8 / しものバッジ](/reborn/episode-8/#rime-badge) | 正解までに2〜5枚割る | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード8 / しものバッジ](/reborn/episode-8/#rime-badge) | 正解までに6〜7枚割る | <span class="affinity-delta is-down">-2</span> |  |
-| [エピソード8 / しものバッジ](/reborn/episode-8/#rime-badge) | ジム戦でミラーアリーナを破壊する | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード9](/reborn/episode-9/) | バトル後、ソファのセラに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード18 / アゲートシティ襲撃](/reborn/episode-18/#the-raid-on-agate-city) | ゼクロムルートのみ: セラがシェリーと話しているときに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード1 / バンハネン城の新世界](/reborn/postgame-episode-1/#vanhanen-castle-new-world) | 最初のクリア後クエストを始める準備ができていないと、キャスに繰り返し伝える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> ノエル |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-2/#obsidia-ward">エピソード2 / オブシディア区</a></td><td class="aff-choice">中央オブシディア美容室でマッサージを1回以上受ける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="4"><a href="/reborn/episode-8/#rime-badge">エピソード8 / しものバッジ</a></td><td class="aff-choice">1回目で正しい鏡を割る</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">正解までに2〜5枚割る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">正解までに6〜7枚割る</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ジム戦でミラーアリーナを破壊する</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/">エピソード9</a></td><td class="aff-choice">バトル後、ソファのセラに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-18/#the-raid-on-agate-city">エピソード18 / アゲートシティ襲撃</a></td><td class="aff-choice">ゼクロムルートのみ: セラがシェリーと話しているときに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-1/#vanhanen-castle-new-world">クリア後 エピソード1 / バンハネン城の新世界</a></td><td class="aff-choice">最初のクリア後クエストを始める準備ができていないと、キャスに繰り返し伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ノエル</span></td></tr>
+</table>
 
 
 ## ヘザー {#affinity-heather}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード3 / ジャスパー区とマルコウス森林公園](/reborn/episode-3/#jasper-ward--malchous-forest-park) | はい | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード3 / ジャスパー区とマルコウス森林公園](/reborn/episode-3/#jasper-ward--malchous-forest-park) | いいえ | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード3 / 檻に捕まったルート](/reborn/episode-3/#cage-trap-route) | 檻に捕まった | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード3 / ジャングルの仕上げ](/reborn/episode-3/#finishing-up-in-the-jungle) | エースと戦う前に5人の警官全員を見つけておく | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド |
-| [エピソード5 / ラピス区の養護施設](/reborn/episode-5/#lapis-ward-orphanage) | 同行者がいる状態で養護施設から出る | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> カイン <span class="affinity-delta is-down">-1</span> シェリー <span class="affinity-delta is-down">-1</span> シャルロット <span class="affinity-delta is-down">-1</span> ノエル |
-| [エピソード8 / ユレユビル](/reborn/episode-8/#yureyu-building) | シグムンドの「戦うか」という問いに「はい」と答える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> シグムンド |
-| [エピソード8 / ユレユビル](/reborn/episode-8/#yureyu-building) | シグムンドの「戦うか」という問いに「いいえ」と答える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> シグムンド <span class="affinity-delta is-down">-1</span> カイン |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 2回断ってから指輪を渡す | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+2</span> ブレイク <span class="affinity-delta is-down">-2</span> キャル <span class="affinity-delta is-down">-1</span> シェリー |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 3回とも断る | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+2</span> キャル <span class="affinity-delta is-down">-2</span> シェリー <span class="affinity-delta is-down">-2</span> ブレイク |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | ブレイクへの指輪の受け渡しを断ったうえでヘザーを解放する | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 警官を救出しコーリーの件を暴き、かつブレイクに指輪を渡したうえで、キャルとヘザーの会話を見る | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-3/#jasper-ward--malchous-forest-park">エピソード3 / ジャスパー区とマルコウス森林公園</a></td><td class="aff-choice">はい</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">いいえ</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-3/#cage-trap-route">エピソード3 / 檻に捕まったルート</a></td><td class="aff-choice">檻に捕まった</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-3/#finishing-up-in-the-jungle">エピソード3 / ジャングルの仕上げ</a></td><td class="aff-choice">エースと戦う前に5人の警官全員を見つけておく</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-5/#lapis-ward-orphanage">エピソード5 / ラピス区の養護施設</a></td><td class="aff-choice">同行者がいる状態で養護施設から出る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ノエル</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-8/#yureyu-building">エピソード8 / ユレユビル</a></td><td class="aff-choice">シグムンドの「戦うか」という問いに「はい」と答える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> シグムンド</span></td></tr>
+<tr><td class="aff-choice">シグムンドの「戦うか」という問いに「いいえ」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シグムンド</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> カイン</span></td></tr>
+<tr><td class="aff-place" rowspan="4"><a href="/reborn/episode-14/#ametrine-city">エピソード14 / アメトリンシティ</a></td><td class="aff-choice">2回断ってから指輪を渡す</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ブレイク</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シェリー</span></td></tr>
+<tr><td class="aff-choice">3回とも断る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ブレイク</span></td></tr>
+<tr><td class="aff-choice">ブレイクへの指輪の受け渡しを断ったうえでヘザーを解放する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">警官を救出しコーリーの件を暴き、かつブレイクに指輪を渡したうえで、キャルとヘザーの会話を見る</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## アマリア {#affinity-amaria}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード3 / ジャングルの仕上げ](/reborn/episode-3/#finishing-up-in-the-jungle) | ジャングルでアマリアに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード6 / ブラックスチーム工場](/reborn/episode-6/#blacksteam-factory) | エースは信用できるとカインに言う | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> エース <span class="affinity-delta is-down">-1</span> カイン |
-| [エピソード6 / ブラックスチーム工場](/reborn/episode-6/#blacksteam-factory) | アマリアを信用すると伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード6 / ブラックスチーム工場](/reborn/episode-6/#blacksteam-factory) | アマリアを信用しないと伝える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード13](/reborn/episode-13/) | アマリアに「ティタニアが間違っている」と伝える | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-down">-2</span> ティタニア |
-| [エピソード13](/reborn/episode-13/) | アマリアに「ティタニアが正しい」と伝える | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+2</span> ティタニア |
-| [エピソード17 / レシラムルート: フィオレジム](/reborn/episode-17/#reshiram-route-fiore-gym) | アマリア3人目を見つけて「いいえ」と答える | <span class="affinity-delta is-down">-4</span> |  |
-| [エピソード17 / レシラムルート: フィオレジム](/reborn/episode-17/#reshiram-route-fiore-gym) | アマリア3人目を見つけて「はい」と答える | <span class="affinity-delta is-down">-3</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | レシラムルートのみ: まだアマリアを信じていると伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | レシラムルートのみ: アマリアを信じていないと伝える | <span class="affinity-delta is-down">-1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-3/#finishing-up-in-the-jungle">エピソード3 / ジャングルの仕上げ</a></td><td class="aff-choice">ジャングルでアマリアに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-6/#blacksteam-factory">エピソード6 / ブラックスチーム工場</a></td><td class="aff-choice">エースは信用できるとカインに言う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> エース</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> カイン</span></td></tr>
+<tr><td class="aff-choice">アマリアを信用すると伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">アマリアを信用しないと伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-13/">エピソード13</a></td><td class="aff-choice">アマリアに「ティタニアが間違っている」と伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-2</span> ティタニア</span></td></tr>
+<tr><td class="aff-choice">アマリアに「ティタニアが正しい」と伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ティタニア</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-17/#reshiram-route-fiore-gym">エピソード17 / レシラムルート: フィオレジム</a></td><td class="aff-choice">アマリア3人目を見つけて「いいえ」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-4</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">アマリア3人目を見つけて「はい」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-3</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-19/#labradorra-city">エピソード19 / ラブラドラシティ</a></td><td class="aff-choice">レシラムルートのみ: まだアマリアを信じていると伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">レシラムルートのみ: アマリアを信じていないと伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## シェイド {#affinity-shade}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード3 / ジャングルの仕上げ](/reborn/episode-3/#finishing-up-in-the-jungle) | エースと戦う前に5人の警官全員を見つけておく | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> ヘザー <span class="affinity-delta is-up">+1</span> アンナ |
-| [エピソード7 / アポフィル防衛戦](/reborn/episode-7/#the-battle-for-apophyll) | パイロスでソラリスに勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-up">+1</span> ヴィクトリア <span class="affinity-delta is-up">+1</span> キャル <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+3</span> タカ |
-| [エピソード9 / ユレユでシグムンドと戦わなかったルート 後編](/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2) | シグムンドと戦ったあと、彼を止めることを選ぶ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> サファイラ <span class="affinity-delta is-up">+1</span> シェリー <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> ノエル <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-down">-1</span> ローラ <span class="affinity-delta is-down">-2</span> シグムンド |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | ラドマスの側について勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+2</span> ラドマス <span class="affinity-delta is-up">+2</span> ルナ <span class="affinity-delta is-up">+3</span> サーナイト <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-down">-1</span> アドリエンヌ <span class="affinity-delta is-down">-2</span> イライアス |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 3回とも断る | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+2</span> キャル <span class="affinity-delta is-down">-2</span> シェリー <span class="affinity-delta is-down">-2</span> ブレイク <span class="affinity-delta is-down">-1</span> ヘザー |
-| [エピソード15 / 浄水センター](/reborn/episode-15/#water-treatment-center) | タカと戦わない | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-down">-1</span> エース <span class="affinity-delta is-down">-2</span> タカ |
-| [クリア後 エピソード5 / 子供向けではない](/reborn/postgame-episode-5/#not-truly-for-children) | ユーフィに理解できると伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード5 / 子供向けではない](/reborn/postgame-episode-5/#not-truly-for-children) | ユーフィに理解できないと伝える | <span class="affinity-delta is-down">-1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-3/#finishing-up-in-the-jungle">エピソード3 / ジャングルの仕上げ</a></td><td class="aff-choice">エースと戦う前に5人の警官全員を見つけておく</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ヘザー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-7/#the-battle-for-apophyll">エピソード7 / アポフィル防衛戦</a></td><td class="aff-choice">パイロスでソラリスに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ヴィクトリア</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+3</span> タカ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2">エピソード9 / ユレユでシグムンドと戦わなかったルート 後編</a></td><td class="aff-choice">シグムンドと戦ったあと、彼を止めることを選ぶ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> シグムンド</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-10/#citae-astrae">エピソード10 / キタエ・アストラエ</a></td><td class="aff-choice">ラドマスの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ラドマス</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+3</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> イライアス</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-14/#ametrine-city">エピソード14 / アメトリンシティ</a></td><td class="aff-choice">3回とも断る</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ブレイク</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-15/#water-treatment-center">エピソード15 / 浄水センター</a></td><td class="aff-choice">タカと戦わない</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> エース</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> タカ</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/postgame-episode-5/#not-truly-for-children">クリア後 エピソード5 / 子供向けではない</a></td><td class="aff-choice">ユーフィに理解できると伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ユーフィに理解できないと伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## ラドマス {#affinity-radomus}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード3 / ジャングルの仕上げ](/reborn/episode-3/#finishing-up-in-the-jungle) | 図書館でラドマスに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | エルの側について負ける | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+3</span> イライアス <span class="affinity-delta is-up">+1</span> アドリエンヌ <span class="affinity-delta is-down">-3</span> サーナイト <span class="affinity-delta is-down">-2</span> ルナ |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | エルの側について勝つ | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-up">+2</span> イライアス <span class="affinity-delta is-up">+2</span> アドリエンヌ <span class="affinity-delta is-down">-2</span> サーナイト <span class="affinity-delta is-down">-2</span> ルナ |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | ラドマスの側について勝つ | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-up">+2</span> ルナ <span class="affinity-delta is-up">+3</span> サーナイト <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-down">-1</span> アドリエンヌ <span class="affinity-delta is-down">-2</span> イライアス |
-| [エピソード10 / ミレニアムバッジ](/reborn/episode-10/#millenium-badge) | 1つ目のチェスパズルを1回目で正解する | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / 論理パズル4](/reborn/episode-19/#logic-puzzle-4) | 論理パズル4を5回以内で解く | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / 論理パズル4](/reborn/episode-19/#logic-puzzle-4) | 論理パズルを6回間違え、ラドマスに解かせる | <span class="affinity-delta is-down">-1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-3/#finishing-up-in-the-jungle">エピソード3 / ジャングルの仕上げ</a></td><td class="aff-choice">図書館でラドマスに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-10/#citae-astrae">エピソード10 / キタエ・アストラエ</a></td><td class="aff-choice">エルの側について負ける</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+3</span> イライアス</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-3</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ルナ</span></td></tr>
+<tr><td class="aff-choice">エルの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> イライアス</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ルナ</span></td></tr>
+<tr><td class="aff-choice">ラドマスの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+3</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> イライアス</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-10/#millenium-badge">エピソード10 / ミレニアムバッジ</a></td><td class="aff-choice">1つ目のチェスパズルを1回目で正解する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-19/#logic-puzzle-4">エピソード19 / 論理パズル4</a></td><td class="aff-choice">論理パズル4を5回以内で解く</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">論理パズルを6回間違え、ラドマスに解かせる</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## アンナ {#affinity-anna}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード3 / ジャングルの仕上げ](/reborn/episode-3/#finishing-up-in-the-jungle) | エースと戦う前に5人の警官全員を見つけておく | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> ヘザー <span class="affinity-delta is-up">+1</span> シェイド |
-| [エピソード7 / アポフィル防衛戦](/reborn/episode-7/#the-battle-for-apophyll) | パイロスでソラリスに勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-up">+1</span> ヴィクトリア <span class="affinity-delta is-up">+1</span> キャル <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+3</span> タカ |
-| [エピソード9 / ユレユでシグムンドと戦わなかったルート 後編](/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2) | シグムンドと戦ったあと、彼を止めることを選ぶ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> サファイラ <span class="affinity-delta is-up">+1</span> シェリー <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> ノエル <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-down">-1</span> ローラ <span class="affinity-delta is-down">-2</span> シグムンド |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | ラドマスの側について勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+2</span> ラドマス <span class="affinity-delta is-up">+2</span> ルナ <span class="affinity-delta is-up">+3</span> サーナイト <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-down">-1</span> アドリエンヌ <span class="affinity-delta is-down">-2</span> イライアス |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 3回とも断る | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+2</span> キャル <span class="affinity-delta is-down">-2</span> シェリー <span class="affinity-delta is-down">-2</span> ブレイク <span class="affinity-delta is-down">-1</span> ヘザー |
-| [エピソード15 / 浄水センター](/reborn/episode-15/#water-treatment-center) | タカと戦わない | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-down">-1</span> エース <span class="affinity-delta is-down">-2</span> タカ |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-3/#finishing-up-in-the-jungle">エピソード3 / ジャングルの仕上げ</a></td><td class="aff-choice">エースと戦う前に5人の警官全員を見つけておく</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ヘザー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-7/#the-battle-for-apophyll">エピソード7 / アポフィル防衛戦</a></td><td class="aff-choice">パイロスでソラリスに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ヴィクトリア</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+3</span> タカ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2">エピソード9 / ユレユでシグムンドと戦わなかったルート 後編</a></td><td class="aff-choice">シグムンドと戦ったあと、彼を止めることを選ぶ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> シグムンド</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-10/#citae-astrae">エピソード10 / キタエ・アストラエ</a></td><td class="aff-choice">ラドマスの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ラドマス</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+3</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> イライアス</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-14/#ametrine-city">エピソード14 / アメトリンシティ</a></td><td class="aff-choice">3回とも断る</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ブレイク</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-15/#water-treatment-center">エピソード15 / 浄水センター</a></td><td class="aff-choice">タカと戦わない</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> エース</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> タカ</span></td></tr>
+</table>
 
 
 ## アドリエンヌ {#affinity-adrienn}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード4 / 謎のタマゴとその他のクエスト](/reborn/episode-4/#the-mystery-egg-and-other-quests) | 図書館を片付ける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | アドリエンヌに指輪を渡すことに同意する | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> カイン |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | アドリエンヌに指輪を渡すのを断る | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> カイン |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | 主人公がノンバイナリーのとき、代名詞についてアドリエンヌと話す | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | エルの側について負ける | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+3</span> イライアス <span class="affinity-delta is-down">-3</span> サーナイト <span class="affinity-delta is-down">-2</span> ルナ <span class="affinity-delta is-down">-2</span> ラドマス |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | エルの側について勝つ | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-up">+2</span> イライアス <span class="affinity-delta is-down">-2</span> サーナイト <span class="affinity-delta is-down">-2</span> ルナ <span class="affinity-delta is-down">-2</span> ラドマス |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | ラドマスの側について勝つ | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+2</span> ラドマス <span class="affinity-delta is-up">+2</span> ルナ <span class="affinity-delta is-up">+3</span> サーナイト <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-down">-2</span> イライアス |
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | 断るとアークライトに伝える | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-down">-1</span> ヴィクトリア <span class="affinity-delta is-down">-1</span> アークライト |
-| [エピソード16 / アマランサスバッジ](/reborn/episode-16/#amaranth-badge) | チャンピオンになると言う | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード16 / アマランサスバッジ](/reborn/episode-16/#amaranth-badge) | チャンピオンにはならないと言う | <span class="affinity-delta is-down">-2</span> |  |
-| [エピソード16 / アマランサスバッジ](/reborn/episode-16/#amaranth-badge) | 有志を10〜14人見つける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード16 / アマランサスバッジ](/reborn/episode-16/#amaranth-badge) | 有志を15人全員見つける | <span class="affinity-delta is-up">+2</span> |  |
-| [エピソード17 / リボーン復興プロジェクト その1](/reborn/episode-17/#reborn-restoration-project-1) | 計画その1に出資する | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード17 / リボーン復興プロジェクト その2](/reborn/episode-17/#reborn-restoration-project-2) | 計画その2に出資する | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード18 / リボーン復興プロジェクト その3](/reborn/episode-18/#reborn-restoration-project-3) | 計画その3に出資する | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-4/#the-mystery-egg-and-other-quests">エピソード4 / 謎のタマゴとその他のクエスト</a></td><td class="aff-choice">図書館を片付ける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="6"><a href="/reborn/episode-10/#citae-astrae">エピソード10 / キタエ・アストラエ</a></td><td class="aff-choice">アドリエンヌに指輪を渡すことに同意する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> カイン</span></td></tr>
+<tr><td class="aff-choice">アドリエンヌに指輪を渡すのを断る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span></td></tr>
+<tr><td class="aff-choice">主人公がノンバイナリーのとき、代名詞についてアドリエンヌと話す</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">エルの側について負ける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+3</span> イライアス</span> <span class="aff-pair"><span class="affinity-delta is-down">-3</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ラドマス</span></td></tr>
+<tr><td class="aff-choice">エルの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> イライアス</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ラドマス</span></td></tr>
+<tr><td class="aff-choice">ラドマスの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ラドマス</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+3</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> イライアス</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-16/#devon-corporation">エピソード16 / デボンコーポ</a></td><td class="aff-choice">断るとアークライトに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヴィクトリア</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> アークライト</span></td></tr>
+<tr><td class="aff-place" rowspan="4"><a href="/reborn/episode-16/#amaranth-badge">エピソード16 / アマランサスバッジ</a></td><td class="aff-choice">チャンピオンになると言う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">チャンピオンにはならないと言う</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">有志を10〜14人見つける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">有志を15人全員見つける</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-17/#reborn-restoration-project-1">エピソード17 / リボーン復興プロジェクト その1</a></td><td class="aff-choice">計画その1に出資する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-17/#reborn-restoration-project-2">エピソード17 / リボーン復興プロジェクト その2</a></td><td class="aff-choice">計画その2に出資する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-18/#reborn-restoration-project-3">エピソード18 / リボーン復興プロジェクト その3</a></td><td class="aff-choice">計画その3に出資する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## キャル {#affinity-cal}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード4 / 大階段](/reborn/episode-4/#the-grand-stairway) | シェリーからバトルを勧められたあとヴィクトリアに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード6 / パイロス山](/reborn/episode-6/#pyrous-mountain) | キキに新入生だと伝える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> ヴィクトリア |
-| [エピソード6 / パイロス山](/reborn/episode-6/#pyrous-mountain) | パイロス山頂でキャルに勝つ | <span class="affinity-delta is-up">+2</span> |  |
-| [エピソード7 / アポフィル防衛戦](/reborn/episode-7/#the-battle-for-apophyll) | パイロスでソラリスに勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-up">+1</span> ヴィクトリア <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+3</span> タカ |
-| [エピソード8](/reborn/episode-8/) | キャルを信じると答える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード8](/reborn/episode-8/) | キャルを信じないと答える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | すぐにブレイクへ指輪を渡す | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+2</span> ブレイク |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 1回断ってから指輪を渡す | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+2</span> ブレイク <span class="affinity-delta is-down">-1</span> シェリー |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 2回断ってから指輪を渡す | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+2</span> ブレイク <span class="affinity-delta is-down">-1</span> シェリー <span class="affinity-delta is-down">-1</span> ヘザー |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 3回とも断る | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-down">-2</span> シェリー <span class="affinity-delta is-down">-2</span> ブレイク <span class="affinity-delta is-down">-1</span> ヘザー |
-| [エピソード14 / アメトリン山頂の戦い](/reborn/episode-14/#the-battle-atop-ametrine) | 下山のキャルの申し出を断る | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | カルセノンシティで *キャル* に話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | レシラムルートのみ: ソラリスに死んでほしいと伝える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> ヴィクトリア |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | レシラムルートのみ: ソラリスに死んでほしくないと伝える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> ヴィクトリア |
-| [エピソード19 / ラブラドラ争奪トーナメント](/reborn/episode-19/#labradorra-tournament-of-booty) | レシラムルートかつ主人公が男性の場合のみ: キャルに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-4/#the-grand-stairway">エピソード4 / 大階段</a></td><td class="aff-choice">シェリーからバトルを勧められたあとヴィクトリアに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-6/#pyrous-mountain">エピソード6 / パイロス山</a></td><td class="aff-choice">キキに新入生だと伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ヴィクトリア</span></td></tr>
+<tr><td class="aff-choice">パイロス山頂でキャルに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-7/#the-battle-for-apophyll">エピソード7 / アポフィル防衛戦</a></td><td class="aff-choice">パイロスでソラリスに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ヴィクトリア</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+3</span> タカ</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-8/">エピソード8</a></td><td class="aff-choice">キャルを信じると答える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">キャルを信じないと答える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="4"><a href="/reborn/episode-14/#ametrine-city">エピソード14 / アメトリンシティ</a></td><td class="aff-choice">すぐにブレイクへ指輪を渡す</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ブレイク</span></td></tr>
+<tr><td class="aff-choice">1回断ってから指輪を渡す</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ブレイク</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シェリー</span></td></tr>
+<tr><td class="aff-choice">2回断ってから指輪を渡す</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ブレイク</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span></td></tr>
+<tr><td class="aff-choice">3回とも断る</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ブレイク</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-14/#the-battle-atop-ametrine">エピソード14 / アメトリン山頂の戦い</a></td><td class="aff-choice">下山のキャルの申し出を断る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-19/#labradorra-city">エピソード19 / ラブラドラシティ</a></td><td class="aff-choice">カルセノンシティで <em>キャル</em> に話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">レシラムルートのみ: ソラリスに死んでほしいと伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ヴィクトリア</span></td></tr>
+<tr><td class="aff-choice">レシラムルートのみ: ソラリスに死んでほしくないと伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヴィクトリア</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-19/#labradorra-tournament-of-booty">エピソード19 / ラブラドラ争奪トーナメント</a></td><td class="aff-choice">レシラムルートかつ主人公が男性の場合のみ: キャルに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## アークライト {#affinity-arclight}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード4 / 大階段](/reborn/episode-4/#the-grand-stairway) | ナイトクラブの外でDJアークライトに会う | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード11 / 7番街](/reborn/episode-11/#seventh-street) | 7番街の盗まれたポケモンを全種買う | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード16 / メガZリングクエスト](/reborn/episode-16/#mega-z-ring-quest) | メガZリングクエストを完了する | <span class="affinity-delta is-up">+2</span> |  |
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | デボンへ潜入する準備ができていないとアークライトに伝える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> ヴィクトリア |
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | デボン地下でアークライトと組んで戦う | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | 戦うとアークライトに伝える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> ヴィクトリア |
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | 断るとアークライトに伝える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+2</span> アドリエンヌ <span class="affinity-delta is-down">-1</span> ヴィクトリア |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-4/#the-grand-stairway">エピソード4 / 大階段</a></td><td class="aff-choice">ナイトクラブの外でDJアークライトに会う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-11/#seventh-street">エピソード11 / 7番街</a></td><td class="aff-choice">7番街の盗まれたポケモンを全種買う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-16/#mega-z-ring-quest">エピソード16 / メガZリングクエスト</a></td><td class="aff-choice">メガZリングクエストを完了する</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="4"><a href="/reborn/episode-16/#devon-corporation">エピソード16 / デボンコーポ</a></td><td class="aff-choice">デボンへ潜入する準備ができていないとアークライトに伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヴィクトリア</span></td></tr>
+<tr><td class="aff-choice">デボン地下でアークライトと組んで戦う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">戦うとアークライトに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ヴィクトリア</span></td></tr>
+<tr><td class="aff-choice">断るとアークライトに伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヴィクトリア</span></td></tr>
+</table>
 
 
 ## シャルロット {#affinity-charlotte}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード5 / ラピス区の養護施設](/reborn/episode-5/#lapis-ward-orphanage) | 同行者がいる状態で養護施設から出る | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> カイン <span class="affinity-delta is-down">-1</span> シェリー <span class="affinity-delta is-down">-1</span> ノエル <span class="affinity-delta is-down">-1</span> ヘザー |
-| [エピソード5 / ラピス区の養護施設](/reborn/episode-5/#lapis-ward-orphanage) | 檻に入っているシャルロットに2回話しかける | <span class="affinity-delta is-down">-2</span> |  |
-| [エピソード9 / 2つのやくそうエキス](/reborn/episode-9/#two-herbal-extracts) | セラを倒し、やくそうエキスを入手してからベルローズ邸に入る | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード9 / ベルローズ邸の防衛](/reborn/episode-9/#defending-belrose-manse) | シャルロットに「メテオの連中を殴りたい」と伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード9 / ユレユでシグムンドと戦ったルート 後編](/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2) | シリウス戦のあと上階へ行く | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> シェリー <span class="affinity-delta is-up">+1</span> ノエル <span class="affinity-delta is-down">-1</span> サファイラ <span class="affinity-delta is-down">-1</span> ローラ <span class="affinity-delta is-down">-1</span> シグムンド |
-| [エピソード9 / ユレユでシグムンドと戦ったルート 後編](/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2) | シリウス戦のあと下階に留まる | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> シェリー <span class="affinity-delta is-up">+1</span> サファイラ |
-| [エピソード9 / ユレユでシグムンドと戦わなかったルート 後編](/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2) | シグムンドと戦ったあと、彼を止めることを選ぶ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> サファイラ <span class="affinity-delta is-up">+1</span> シェリー <span class="affinity-delta is-up">+1</span> ノエル <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-down">-1</span> ローラ <span class="affinity-delta is-down">-2</span> シグムンド |
-| [エピソード9 / タンザンメテオ基地](/reborn/episode-9/#tanzan-meteor-base) | シャルロットとシェリーが連れ去られた場合、檻の中の2人に話しかける | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> シェリー |
-| [エピソード13 / カルセノンシティ](/reborn/episode-13/#calcenon-city) | サファイラの好感度が0より大きい状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-down">-1</span> ハーディ <span class="affinity-delta is-up">+1</span> サファイラ |
-| [エピソード13 / カルセノンシティ](/reborn/episode-13/#calcenon-city) | サファイラの好感度が0以下の状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-down">-1</span> ハーディ <span class="affinity-delta is-down">-1</span> サファイラ |
-| [エピソード13 / カルセノンシティ](/reborn/episode-13/#calcenon-city) | シャルロットに「彼女を見捨てはしない」と伝える | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+1</span> ハーディ |
-| [エピソード13 / シンダーバッジ](/reborn/episode-13/#cinder-badge) | シャルロットがいる状態でジムの隠し部屋を開ける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード18](/reborn/episode-18/) | シャルロットの好感度が0以上のときに、信じていると伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード18](/reborn/episode-18/) | シャルロットの好感度が0未満のときに、信じていると伝える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード18](/reborn/episode-18/) | シャルロットの好感度が0以上のときに、信じていないと伝える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード18](/reborn/episode-18/) | シャルロットの好感度が0未満のときに、信じていないと伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード18](/reborn/episode-18/) | 何とかするつもりだとシャルロットに伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | 物語の集合住宅でシャルロットに話しかけ、Bを押して答えない | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード7 / しんきろうの塔の蜃気楼](/reborn/postgame-episode-7/#mirage-tower-mirages) | リンルートで、シャルロットに今の台詞は格好良かったと伝える | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-5/#lapis-ward-orphanage">エピソード5 / ラピス区の養護施設</a></td><td class="aff-choice">同行者がいる状態で養護施設から出る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span></td></tr>
+<tr><td class="aff-choice">檻に入っているシャルロットに2回話しかける</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#two-herbal-extracts">エピソード9 / 2つのやくそうエキス</a></td><td class="aff-choice">セラを倒し、やくそうエキスを入手してからベルローズ邸に入る</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#defending-belrose-manse">エピソード9 / ベルローズ邸の防衛</a></td><td class="aff-choice">シャルロットに「メテオの連中を殴りたい」と伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2">エピソード9 / ユレユでシグムンドと戦ったルート 後編</a></td><td class="aff-choice">シリウス戦のあと上階へ行く</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シグムンド</span></td></tr>
+<tr><td class="aff-choice">シリウス戦のあと下階に留まる</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> サファイラ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2">エピソード9 / ユレユでシグムンドと戦わなかったルート 後編</a></td><td class="aff-choice">シグムンドと戦ったあと、彼を止めることを選ぶ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> シグムンド</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#tanzan-meteor-base">エピソード9 / タンザンメテオ基地</a></td><td class="aff-choice">シャルロットとシェリーが連れ去られた場合、檻の中の2人に話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-13/#calcenon-city">エピソード13 / カルセノンシティ</a></td><td class="aff-choice">サファイラの好感度が0より大きい状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ハーディ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> サファイラ</span></td></tr>
+<tr><td class="aff-choice">サファイラの好感度が0以下の状態で、シャルロットに「指輪のためなら彼女を見捨てる」と伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ハーディ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> サファイラ</span></td></tr>
+<tr><td class="aff-choice">シャルロットに「彼女を見捨てはしない」と伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ハーディ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-13/#cinder-badge">エピソード13 / シンダーバッジ</a></td><td class="aff-choice">シャルロットがいる状態でジムの隠し部屋を開ける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="5"><a href="/reborn/episode-18/">エピソード18</a></td><td class="aff-choice">シャルロットの好感度が0以上のときに、信じていると伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">シャルロットの好感度が0未満のときに、信じていると伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">シャルロットの好感度が0以上のときに、信じていないと伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">シャルロットの好感度が0未満のときに、信じていないと伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">何とかするつもりだとシャルロットに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-19/#labradorra-city">エピソード19 / ラブラドラシティ</a></td><td class="aff-choice">物語の集合住宅でシャルロットに話しかけ、Bを押して答えない</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-7/#mirage-tower-mirages">クリア後 エピソード7 / しんきろうの塔の蜃気楼</a></td><td class="aff-choice">リンルートで、シャルロットに今の台詞は格好良かったと伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## ノエル {#affinity-noel}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード5 / ラピス区の養護施設](/reborn/episode-5/#lapis-ward-orphanage) | 同行者がいる状態で養護施設から出る | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> カイン <span class="affinity-delta is-down">-1</span> シェリー <span class="affinity-delta is-down">-1</span> シャルロット <span class="affinity-delta is-down">-1</span> ヘザー |
-| [エピソード5 / ラピス区の養護施設](/reborn/episode-5/#lapis-ward-orphanage) | 檻の中のノエルを無視する | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード8 / タンザン入り江](/reborn/episode-8/#tanzan-cove) | ボクレイン邸より先にベルローズ邸へ入る | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> ローラ |
-| [エピソード9 / 2つのやくそうエキス](/reborn/episode-9/#two-herbal-extracts) | やくそうエキスを持たずにノエルに話しかける | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード9 / ユレユでシグムンドと戦ったルート 後編](/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2) | シリウス戦のあと上階へ行く | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> シェリー <span class="affinity-delta is-down">-1</span> サファイラ <span class="affinity-delta is-down">-1</span> ローラ <span class="affinity-delta is-down">-1</span> シグムンド |
-| [エピソード9 / ユレユでシグムンドと戦わなかったルート 後編](/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2) | シグムンドと戦ったあと、彼を止めることを選ぶ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> サファイラ <span class="affinity-delta is-up">+1</span> シェリー <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-down">-1</span> ローラ <span class="affinity-delta is-down">-2</span> シグムンド |
-| [エピソード9 / ユレユでシグムンドと戦わなかったルート 後編](/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2) | シグムンドと戦ったあと、シリウスを止めることを選ぶ | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> ローラ <span class="affinity-delta is-down">-2</span> サファイラ |
-| [エピソード9 / タンザンメテオ基地](/reborn/episode-9/#tanzan-meteor-base) | ノエルとアンナが連れ去られた場合、檻の中の2人に話しかける | <span class="affinity-delta is-up">+2</span> |  |
-| [エピソード14](/reborn/episode-14/) | ダイビングを入手する前にシャルロットを倒す | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> シェリー |
-| [エピソード18 / ガラス工房](/reborn/episode-18/#glass-workstation) | ノエルに *いやしのすず* を使う | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | カルセノンでノエルに話しかけ「決める」と答える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | カルセノンでノエルに話しかけ「感じる」と答える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード19 / ラブラドラ争奪トーナメント](/reborn/episode-19/#labradorra-tournament-of-booty) | ロビーでノエルに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード1 / バンハネン城の新世界](/reborn/postgame-episode-1/#vanhanen-castle-new-world) | 最初のクリア後クエストを始める準備ができていないと、キャスに繰り返し伝える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> セラ |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-5/#lapis-ward-orphanage">エピソード5 / ラピス区の養護施設</a></td><td class="aff-choice">同行者がいる状態で養護施設から出る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span></td></tr>
+<tr><td class="aff-choice">檻の中のノエルを無視する</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-8/#tanzan-cove">エピソード8 / タンザン入り江</a></td><td class="aff-choice">ボクレイン邸より先にベルローズ邸へ入る</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ローラ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#two-herbal-extracts">エピソード9 / 2つのやくそうエキス</a></td><td class="aff-choice">やくそうエキスを持たずにノエルに話しかける</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2">エピソード9 / ユレユでシグムンドと戦ったルート 後編</a></td><td class="aff-choice">シリウス戦のあと上階へ行く</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シグムンド</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2">エピソード9 / ユレユでシグムンドと戦わなかったルート 後編</a></td><td class="aff-choice">シグムンドと戦ったあと、彼を止めることを選ぶ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> シグムンド</span></td></tr>
+<tr><td class="aff-choice">シグムンドと戦ったあと、シリウスを止めることを選ぶ</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> サファイラ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#tanzan-meteor-base">エピソード9 / タンザンメテオ基地</a></td><td class="aff-choice">ノエルとアンナが連れ去られた場合、檻の中の2人に話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-14/">エピソード14</a></td><td class="aff-choice">ダイビングを入手する前にシャルロットを倒す</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-18/#glass-workstation">エピソード18 / ガラス工房</a></td><td class="aff-choice">ノエルに <em>いやしのすず</em> を使う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-19/#labradorra-city">エピソード19 / ラブラドラシティ</a></td><td class="aff-choice">カルセノンでノエルに話しかけ「決める」と答える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">カルセノンでノエルに話しかけ「感じる」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-19/#labradorra-tournament-of-booty">エピソード19 / ラブラドラ争奪トーナメント</a></td><td class="aff-choice">ロビーでノエルに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-1/#vanhanen-castle-new-world">クリア後 エピソード1 / バンハネン城の新世界</a></td><td class="aff-choice">最初のクリア後クエストを始める準備ができていないと、キャスに繰り返し伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> セラ</span></td></tr>
+</table>
 
 
 ## ブレイク {#affinity-blake}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード5 / シトリン山でのいわくだき](/reborn/episode-5/#smashin-at-citrine-mountain) | ムチュールを救う | <span class="affinity-delta is-up">+2</span> |  |
-| [エピソード13 / 山脈をなみのりで巡る](/reborn/episode-13/#mountain-range-surfin) | サーカス下部のブレイクに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | すぐにブレイクへ指輪を渡す | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-down">-2</span> キャル |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 1回断ってから指輪を渡す | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-down">-2</span> キャル <span class="affinity-delta is-down">-1</span> シェリー |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 2回断ってから指輪を渡す | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-down">-2</span> キャル <span class="affinity-delta is-down">-1</span> シェリー <span class="affinity-delta is-down">-1</span> ヘザー |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | 3回とも断る | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+2</span> キャル <span class="affinity-delta is-down">-2</span> シェリー <span class="affinity-delta is-down">-1</span> ヘザー |
-| [エピソード14 / アメトリンシティ](/reborn/episode-14/#ametrine-city) | ブレイクのベッドの下を調べる | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード19 / サファイアの間](/reborn/episode-19/#the-sapphire-chamber) | ブレイクの邪魔をすると伝える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード19 / サファイアの間](/reborn/episode-19/#the-sapphire-chamber) | ブレイクの邪魔はしないと伝える | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-5/#smashin-at-citrine-mountain">エピソード5 / シトリン山でのいわくだき</a></td><td class="aff-choice">ムチュールを救う</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-13/#mountain-range-surfin">エピソード13 / 山脈をなみのりで巡る</a></td><td class="aff-choice">サーカス下部のブレイクに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="5"><a href="/reborn/episode-14/#ametrine-city">エピソード14 / アメトリンシティ</a></td><td class="aff-choice">すぐにブレイクへ指輪を渡す</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-2</span> キャル</span></td></tr>
+<tr><td class="aff-choice">1回断ってから指輪を渡す</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-2</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シェリー</span></td></tr>
+<tr><td class="aff-choice">2回断ってから指輪を渡す</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-2</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span></td></tr>
+<tr><td class="aff-choice">3回とも断る</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span></td></tr>
+<tr><td class="aff-choice">ブレイクのベッドの下を調べる</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-19/#the-sapphire-chamber">エピソード19 / サファイアの間</a></td><td class="aff-choice">ブレイクの邪魔をすると伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ブレイクの邪魔はしないと伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## エース {#affinity-ace}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード6 / ブラックスチーム工場](/reborn/episode-6/#blacksteam-factory) | エースは信用できるとカインに言う | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> アマリア <span class="affinity-delta is-down">-1</span> カイン |
-| [エピソード6 / ブラックスチーム工場](/reborn/episode-6/#blacksteam-factory) | エースは信用できないとカインに言う | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> カイン |
-| [エピソード6 / ブラックスチーム工場](/reborn/episode-6/#blacksteam-factory) | エースからミントをもらう | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード6 / ブラックスチーム工場](/reborn/episode-6/#blacksteam-factory) | エースに「二重の二重スパイかもしれない」と言う | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード6 / ブラックスチーム工場](/reborn/episode-6/#blacksteam-factory) | エースに「二重の二重スパイではないと思う」と言う | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード11 / サブセブン聖域](/reborn/episode-11/#subseven-sanctum) | エースに「忠誠」と答える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> イライアス |
-| [エピソード11 / サブセブン聖域](/reborn/episode-11/#subseven-sanctum) | エースに「血」と答える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> イライアス |
-| [エピソード15 / 浄水センター](/reborn/episode-15/#water-treatment-center) | フォッコに添えられた手紙を読む | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード15 / 浄水センター](/reborn/episode-15/#water-treatment-center) | タカと戦う | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+2</span> タカ <span class="affinity-delta is-down">-1</span> ティタニア |
-| [エピソード15 / 浄水センター](/reborn/episode-15/#water-treatment-center) | タカと戦わない | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-down">-2</span> タカ |
-| [エピソード18 / アゲートシティ](/reborn/episode-18/#agate-city) | （ブレイク拒否ルートのみ）襲撃後にサーカス左上側のシエルに話しかける | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> シエル |
-| [クリア後 エピソード7 / 新世界のらせん](/reborn/postgame-episode-7/#new-world-helix) | レシラムルートで、タカを相棒にした状態でかげのエースを倒す | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード7 / 新世界のらせん](/reborn/postgame-episode-7/#new-world-helix) | 浄水センターのフォッコをエースに見せる | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="5"><a href="/reborn/episode-6/#blacksteam-factory">エピソード6 / ブラックスチーム工場</a></td><td class="aff-choice">エースは信用できるとカインに言う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アマリア</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> カイン</span></td></tr>
+<tr><td class="aff-choice">エースは信用できないとカインに言う</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span></td></tr>
+<tr><td class="aff-choice">エースからミントをもらう</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">エースに「二重の二重スパイかもしれない」と言う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">エースに「二重の二重スパイではないと思う」と言う</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-11/#subseven-sanctum">エピソード11 / サブセブン聖域</a></td><td class="aff-choice">エースに「忠誠」と答える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> イライアス</span></td></tr>
+<tr><td class="aff-choice">エースに「血」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> イライアス</span></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-15/#water-treatment-center">エピソード15 / 浄水センター</a></td><td class="aff-choice">フォッコに添えられた手紙を読む</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">タカと戦う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> タカ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ティタニア</span></td></tr>
+<tr><td class="aff-choice">タカと戦わない</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> タカ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-18/#agate-city">エピソード18 / アゲートシティ</a></td><td class="aff-choice">（ブレイク拒否ルートのみ）襲撃後にサーカス左上側のシエルに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シエル</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/postgame-episode-7/#new-world-helix">クリア後 エピソード7 / 新世界のらせん</a></td><td class="aff-choice">レシラムルートで、タカを相棒にした状態でかげのエースを倒す</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">浄水センターのフォッコをエースに見せる</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## タカ {#affinity-taka}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード7 / アポフィル防衛戦](/reborn/episode-7/#the-battle-for-apophyll) | パイロスでソラリスに勝つ | <span class="affinity-delta is-up">+3</span> | <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-up">+1</span> ヴィクトリア <span class="affinity-delta is-up">+1</span> キャル <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+1</span> アンナ |
-| [エピソード15 / 浄水センター](/reborn/episode-15/#water-treatment-center) | タカと戦う | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-up">+1</span> エース <span class="affinity-delta is-down">-1</span> ティタニア |
-| [エピソード15 / 浄水センター](/reborn/episode-15/#water-treatment-center) | タカと戦わない | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-down">-1</span> エース |
-| [エピソード17 / レシラムルート: タカ戦](/reborn/episode-17/#reshiram-route-taka-fight) | 勝ち続けるつもりはないとタカに伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード17 / レシラムルート: タカ戦](/reborn/episode-17/#reshiram-route-taka-fight) | 砂漠でタカの同行を認めない | <span class="affinity-delta is-down">-3</span> |  |
-| [エピソード17 / レシラムルート: タカ戦](/reborn/episode-17/#reshiram-route-taka-fight) | タカを連れたまま砂漠を出る | <span class="affinity-delta is-down">-2</span> |  |
-| [エピソード17 / トルマリン砂漠 本体](/reborn/episode-17/#greater-tourmaline-desert) | タカの同行中にトルマリン砂漠で話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード17 / トルマリン砂漠 本体](/reborn/episode-17/#greater-tourmaline-desert) | ソラリスを憎んではいないとタカに伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード17 / しんきろうの塔](/reborn/episode-17/#mirage-tower) | タカの同行中にしんきろうの塔で話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード17 / スギラインどうくつ](/reborn/episode-17/#sugiline-cave) | タカの同行中にスギラインどうくつで話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード17 / テクナイトどうくつとテクナイト尾根](/reborn/episode-17/#teknite-cave--teknite-ridge) | タカの同行中にテクナイトどうくつ／尾根で話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード17 / 1R253廃品置き場](/reborn/episode-17/#r253-scrapyard) | タカの同行中に1R253廃品置き場で話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード17 / 1R253廃品置き場](/reborn/episode-17/#r253-scrapyard) | タカは恋人だとエウロパに伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | ゼクロムルートのみ: PULSEブロスターのあとにタカとソラリスに話しかける | <span class="affinity-delta is-up">+2</span> |  |
-| [クリア後 エピソード6 / サブセブン聖域のアノマリー](/reborn/postgame-episode-6/#anomalies-at-subseven-sanctum) | レシラムルートでタカに彼のペラップを見せる | <span class="affinity-delta is-up">+2</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-7/#the-battle-for-apophyll">エピソード7 / アポフィル防衛戦</a></td><td class="aff-choice">パイロスでソラリスに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+3</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ヴィクトリア</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> キャル</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-15/#water-treatment-center">エピソード15 / 浄水センター</a></td><td class="aff-choice">タカと戦う</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> エース</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ティタニア</span></td></tr>
+<tr><td class="aff-choice">タカと戦わない</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> エース</span></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-17/#reshiram-route-taka-fight">エピソード17 / レシラムルート: タカ戦</a></td><td class="aff-choice">勝ち続けるつもりはないとタカに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">砂漠でタカの同行を認めない</td><td class="aff-delta"><span class="affinity-delta is-down">-3</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">タカを連れたまま砂漠を出る</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-17/#greater-tourmaline-desert">エピソード17 / トルマリン砂漠 本体</a></td><td class="aff-choice">タカの同行中にトルマリン砂漠で話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ソラリスを憎んではいないとタカに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-17/#mirage-tower">エピソード17 / しんきろうの塔</a></td><td class="aff-choice">タカの同行中にしんきろうの塔で話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-17/#sugiline-cave">エピソード17 / スギラインどうくつ</a></td><td class="aff-choice">タカの同行中にスギラインどうくつで話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-17/#teknite-cave--teknite-ridge">エピソード17 / テクナイトどうくつとテクナイト尾根</a></td><td class="aff-choice">タカの同行中にテクナイトどうくつ／尾根で話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-17/#r253-scrapyard">エピソード17 / 1R253廃品置き場</a></td><td class="aff-choice">タカの同行中に1R253廃品置き場で話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">タカは恋人だとエウロパに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-19/#labradorra-city">エピソード19 / ラブラドラシティ</a></td><td class="aff-choice">ゼクロムルートのみ: PULSEブロスターのあとにタカとソラリスに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-6/#anomalies-at-subseven-sanctum">クリア後 エピソード6 / サブセブン聖域のアノマリー</a></td><td class="aff-choice">レシラムルートでタカに彼のペラップを見せる</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## アヤ {#affinity-aya}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード7 / ビクスビジョン荒地](/reborn/episode-7/#byxbysion-wasteland) | 1回目でファーンに勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> ハーディ |
-| [エピソード12 / アゲートサーカス](/reborn/episode-12/#agate-circus) | アヤに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード12 / アゲートサーカス](/reborn/episode-12/#agate-circus) | カインに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード12 / ストライクバッジ](/reborn/episode-12/#strike-badge) | カインに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード12 / ストライクバッジ](/reborn/episode-12/#strike-badge) | ハーディに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード13 / 3番道路とLCCC](/reborn/episode-13/#route-3--lccc) | アヤと同行中にアメトリンへ戻る | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> ハーディ |
-| [エピソード13 / 3番道路とLCCC](/reborn/episode-13/#route-3--lccc) | アヤと同行中に全滅する | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> ハーディ |
-| [エピソード13 / 3番道路とLCCC](/reborn/episode-13/#route-3--lccc) | 同行中にアヤに話しかける | <span class="affinity-delta is-up">+4</span><span class="affinity-note">会話4種それぞれ +1</span> |  |
-| [エピソード13 / 3番道路とLCCC](/reborn/episode-13/#route-3--lccc) | アヤが連れ去られる | <span class="affinity-delta is-down">-2</span><span class="affinity-note">これは選択肢ではありません</span> |  |
-| [クリア後 エピソード6 / ネオブラックスチーム製造所](/reborn/postgame-episode-6/#neo-blacksteam-fabrication) | ネオブラックスチーム製造所でアヤと一緒にいるハーディに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-7/#byxbysion-wasteland">エピソード7 / ビクスビジョン荒地</a></td><td class="aff-choice">1回目でファーンに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ハーディ</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-12/#agate-circus">エピソード12 / アゲートサーカス</a></td><td class="aff-choice">アヤに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">カインに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-12/#strike-badge">エピソード12 / ストライクバッジ</a></td><td class="aff-choice">カインに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ハーディに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="4"><a href="/reborn/episode-13/#route-3--lccc">エピソード13 / 3番道路とLCCC</a></td><td class="aff-choice">アヤと同行中にアメトリンへ戻る</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ハーディ</span></td></tr>
+<tr><td class="aff-choice">アヤと同行中に全滅する</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ハーディ</span></td></tr>
+<tr><td class="aff-choice">同行中にアヤに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+4</span><span class="affinity-note">会話4種それぞれ +1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">アヤが連れ去られる</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span><span class="affinity-note">これは選択肢ではありません</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-6/#neo-blacksteam-fabrication">クリア後 エピソード6 / ネオブラックスチーム製造所</a></td><td class="aff-choice">ネオブラックスチーム製造所でアヤと一緒にいるハーディに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## ベネット {#affinity-bennett}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード8 / スピネルタウン](/reborn/episode-8/#spinel-town) | ベネットに「マユルドが完全な記憶を持っていると知っていた」と伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード8 / スピネルタウン](/reborn/episode-8/#spinel-town) | ベネットにもう一度話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード8 / しものバッジ](/reborn/episode-8/#rime-badge) | 1回目でベネットに勝つ | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> イライアス |
-| [エピソード8 / しものバッジ](/reborn/episode-8/#rime-badge) | 2回目以降でベネットに勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> イライアス |
-| [エピソード11 / イオリア渓谷](/reborn/episode-11/#iolia-valley) | ベネットに「やるべきことをやらせる」と伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード11 / イオリア渓谷](/reborn/episode-11/#iolia-valley) | ベネットに「やるべきことをやらせない」と伝える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード11 / イオリア渓谷](/reborn/episode-11/#iolia-valley) | 1回目でベネットに勝つ | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+1</span> ルナ |
-| [エピソード18 / ガラス工房](/reborn/episode-18/#glass-workstation) | 「誰よりも強くなるため」と答える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード18 / ガラス工房](/reborn/episode-18/#glass-workstation) | 「物事を変えるため」と答える | <span class="affinity-delta is-up">+2</span> |  |
-| [エピソード18 / ガラス工房](/reborn/episode-18/#glass-workstation) | 覚えていないと答える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | ベネットを信じるとハーディに伝える | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-up">+2</span> ローラ <span class="affinity-delta is-up">+1</span> イヴ <span class="affinity-delta is-down">-2</span> サファイラ |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | ベネットを信じないとハーディに伝える | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+2</span> サファイラ <span class="affinity-delta is-down">-1</span> ローラ |
-| [エピソード19 / リボーン四天王とチャンピオン](/reborn/episode-19/#reborn-elite-four--champion) | アポリシスが何か知っているとベネットに伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード4 / エーギルどうくつ](/reborn/postgame-episode-4/#aegir-cave) | 論理パズル5を5回以内で解く | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード4 / ブレードスターへの加担](/reborn/postgame-episode-4/#aiding-and-abetting-bladestar) | ベネットに気持ち悪いと伝える | <span class="affinity-delta is-down">-1</span> |  |
-| [クリア後 エピソード4 / ブレードスターへの加担](/reborn/postgame-episode-4/#aiding-and-abetting-bladestar) | ベネットに気持ち悪くないと伝える | <span class="affinity-delta is-up">+2</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-8/#spinel-town">エピソード8 / スピネルタウン</a></td><td class="aff-choice">ベネットに「マユルドが完全な記憶を持っていると知っていた」と伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ベネットにもう一度話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-8/#rime-badge">エピソード8 / しものバッジ</a></td><td class="aff-choice">1回目でベネットに勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> イライアス</span></td></tr>
+<tr><td class="aff-choice">2回目以降でベネットに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> イライアス</span></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-11/#iolia-valley">エピソード11 / イオリア渓谷</a></td><td class="aff-choice">ベネットに「やるべきことをやらせる」と伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ベネットに「やるべきことをやらせない」と伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">1回目でベネットに勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ルナ</span></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-18/#glass-workstation">エピソード18 / ガラス工房</a></td><td class="aff-choice">「誰よりも強くなるため」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">「物事を変えるため」と答える</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">覚えていないと答える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-19/#labradorra-city">エピソード19 / ラブラドラシティ</a></td><td class="aff-choice">ベネットを信じるとハーディに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> イヴ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> サファイラ</span></td></tr>
+<tr><td class="aff-choice">ベネットを信じないとハーディに伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-19/#reborn-elite-four--champion">エピソード19 / リボーン四天王とチャンピオン</a></td><td class="aff-choice">アポリシスが何か知っているとベネットに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-4/#aegir-cave">クリア後 エピソード4 / エーギルどうくつ</a></td><td class="aff-choice">論理パズル5を5回以内で解く</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/postgame-episode-4/#aiding-and-abetting-bladestar">クリア後 エピソード4 / ブレードスターへの加担</a></td><td class="aff-choice">ベネットに気持ち悪いと伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ベネットに気持ち悪くないと伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## イライアス {#affinity-elias}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード8 / しものバッジ](/reborn/episode-8/#rime-badge) | 1回目でベネットに勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> ベネット |
-| [エピソード8 / しものバッジ](/reborn/episode-8/#rime-badge) | 2回目以降でベネットに勝つ | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> ベネット |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | エルの側について負ける | <span class="affinity-delta is-up">+3</span> | <span class="affinity-delta is-up">+1</span> アドリエンヌ <span class="affinity-delta is-down">-3</span> サーナイト <span class="affinity-delta is-down">-2</span> ルナ <span class="affinity-delta is-down">-2</span> ラドマス |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | エルの側について勝つ | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-up">+2</span> アドリエンヌ <span class="affinity-delta is-down">-2</span> サーナイト <span class="affinity-delta is-down">-2</span> ルナ <span class="affinity-delta is-down">-2</span> ラドマス |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | ラドマスの側について勝つ | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+2</span> ラドマス <span class="affinity-delta is-up">+2</span> ルナ <span class="affinity-delta is-up">+3</span> サーナイト <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-down">-1</span> アドリエンヌ |
-| [エピソード10 / ミレニアムバッジ](/reborn/episode-10/#millenium-badge) | イライアス自身について尋ねる | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード11 / サブセブン聖域](/reborn/episode-11/#subseven-sanctum) | エースに「忠誠」と答える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> エース |
-| [エピソード11 / サブセブン聖域](/reborn/episode-11/#subseven-sanctum) | エースに「血」と答える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> エース |
-| [クリア後 エピソード4 / ブレードスターへの加担](/reborn/postgame-episode-4/#aiding-and-abetting-bladestar) | 「光栄です」と答える | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード4 / ブレードスターへの加担](/reborn/postgame-episode-4/#aiding-and-abetting-bladestar) | 「ひれ伏せ」と答える | <span class="affinity-delta is-down">-1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-8/#rime-badge">エピソード8 / しものバッジ</a></td><td class="aff-choice">1回目でベネットに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ベネット</span></td></tr>
+<tr><td class="aff-choice">2回目以降でベネットに勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ベネット</span></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-10/#citae-astrae">エピソード10 / キタエ・アストラエ</a></td><td class="aff-choice">エルの側について負ける</td><td class="aff-delta"><span class="affinity-delta is-up">+3</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-3</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ラドマス</span></td></tr>
+<tr><td class="aff-choice">エルの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ラドマス</span></td></tr>
+<tr><td class="aff-choice">ラドマスの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ラドマス</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+3</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> アドリエンヌ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-10/#millenium-badge">エピソード10 / ミレニアムバッジ</a></td><td class="aff-choice">イライアス自身について尋ねる</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-11/#subseven-sanctum">エピソード11 / サブセブン聖域</a></td><td class="aff-choice">エースに「忠誠」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> エース</span></td></tr>
+<tr><td class="aff-choice">エースに「血」と答える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> エース</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/postgame-episode-4/#aiding-and-abetting-bladestar">クリア後 エピソード4 / ブレードスターへの加担</a></td><td class="aff-choice">「光栄です」と答える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">「ひれ伏せ」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## シグムンド {#affinity-sigmund}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード8 / ユレユビル](/reborn/episode-8/#yureyu-building) | シグムンドの「戦うか」という問いに「はい」と答える | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> ヘザー |
-| [エピソード8 / ユレユビル](/reborn/episode-8/#yureyu-building) | シグムンドの「戦うか」という問いに「いいえ」と答える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-1</span> ヘザー <span class="affinity-delta is-down">-1</span> カイン |
-| [エピソード9 / ユレユでシグムンドと戦ったルート 後編](/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2) | シリウス戦のあと上階へ行く | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> シェリー <span class="affinity-delta is-up">+1</span> ノエル <span class="affinity-delta is-down">-1</span> サファイラ <span class="affinity-delta is-down">-1</span> ローラ |
-| [エピソード9 / ユレユでシグムンドと戦わなかったルート 後編](/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2) | シグムンドと戦ったあと、彼を止めることを選ぶ | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+1</span> サファイラ <span class="affinity-delta is-up">+1</span> シェリー <span class="affinity-delta is-up">+1</span> シャルロット <span class="affinity-delta is-up">+1</span> ノエル <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-down">-1</span> ローラ |
-| [エピソード13 / カルセノンシティ](/reborn/episode-13/#calcenon-city) | 町の西側でサファイラとシグムンドに話しかける | <span class="affinity-delta is-down">-1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-8/#yureyu-building">エピソード8 / ユレユビル</a></td><td class="aff-choice">シグムンドの「戦うか」という問いに「はい」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ヘザー</span></td></tr>
+<tr><td class="aff-choice">シグムンドの「戦うか」という問いに「いいえ」と答える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ヘザー</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> カイン</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#fought-sigmund-at-yureyu-route-part-2">エピソード9 / ユレユでシグムンドと戦ったルート 後編</a></td><td class="aff-choice">シリウス戦のあと上階へ行く</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-9/#didnt-fight-sigmund-at-yureyu-part-2">エピソード9 / ユレユでシグムンドと戦わなかったルート 後編</a></td><td class="aff-choice">シグムンドと戦ったあと、彼を止めることを選ぶ</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> サファイラ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェリー</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シャルロット</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> ノエル</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> ローラ</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-13/#calcenon-city">エピソード13 / カルセノンシティ</a></td><td class="aff-choice">町の西側でサファイラとシグムンドに話しかける</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## ティタニア {#affinity-titania}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード10 / 北アベンチュリンの森の探索](/reborn/episode-10/#north-aventurine-woods-exploration) | 「今のを見た」と答える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード10 / 北アベンチュリンの森の探索](/reborn/episode-10/#north-aventurine-woods-exploration) | 「今のは見ていない」と答える | <span class="affinity-delta is-down">-2</span> |  |
-| [エピソード12 / 2番道路](/reborn/episode-12/#route-2) | 1番道路でティタニアを見ていた場合、秘密を守ると伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード12 / 2番道路](/reborn/episode-12/#route-2) | 1番道路でティタニアを見ていた場合、秘密を守らないと伝える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード13](/reborn/episode-13/) | ティタニアに「日誌は読んでいない」と伝える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード13](/reborn/episode-13/) | アマリアに「ティタニアが間違っている」と伝える | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+2</span> アマリア |
-| [エピソード13](/reborn/episode-13/) | アマリアに「ティタニアが正しい」と伝える | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-down">-2</span> アマリア |
-| [エピソード13 / 山脈をなみのりで巡る](/reborn/episode-13/#mountain-range-surfin) | ティタニアが滝を下ったあと、彼女の日記を読む | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード15 / 浄水センター](/reborn/episode-15/#water-treatment-center) | 空腹だと言うティタニアにお菓子を渡す | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード15 / 浄水センター](/reborn/episode-15/#water-treatment-center) | タカと戦う | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+2</span> タカ <span class="affinity-delta is-up">+1</span> エース |
-| [エピソード17 / むかしむかしどこかで](/reborn/episode-17/#once-upon-a-somewhere) | ティタニアの好感度が0以上のときに、信じていると伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード17 / むかしむかしどこかで](/reborn/episode-17/#once-upon-a-somewhere) | ティタニアの好感度が0未満のときに、信じていると伝える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード17 / むかしむかしどこかで](/reborn/episode-17/#once-upon-a-somewhere) | ティタニアの好感度が0以上のときに、信じていないと伝える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード18 / アゲートシティ襲撃](/reborn/episode-18/#the-raid-on-agate-city) | レシラムルートのみ: ティタニアがシェリーと話しているときに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード18 / アゲートシティ襲撃](/reborn/episode-18/#the-raid-on-agate-city) | レシラムルートのみ: アゲート襲撃中にティタニアに話しかける | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード19 / ラブラドラ争奪トーナメント](/reborn/episode-19/#labradorra-tournament-of-booty) | 放っておいてと言われたあとに、もう一度ティタニアに話しかける | <span class="affinity-delta is-down">-1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-10/#north-aventurine-woods-exploration">エピソード10 / 北アベンチュリンの森の探索</a></td><td class="aff-choice">「今のを見た」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">「今のは見ていない」と答える</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-12/#route-2">エピソード12 / 2番道路</a></td><td class="aff-choice">1番道路でティタニアを見ていた場合、秘密を守ると伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">1番道路でティタニアを見ていた場合、秘密を守らないと伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-13/">エピソード13</a></td><td class="aff-choice">ティタニアに「日誌は読んでいない」と伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">アマリアに「ティタニアが間違っている」と伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> アマリア</span></td></tr>
+<tr><td class="aff-choice">アマリアに「ティタニアが正しい」と伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-2</span> アマリア</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-13/#mountain-range-surfin">エピソード13 / 山脈をなみのりで巡る</a></td><td class="aff-choice">ティタニアが滝を下ったあと、彼女の日記を読む</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-15/#water-treatment-center">エピソード15 / 浄水センター</a></td><td class="aff-choice">空腹だと言うティタニアにお菓子を渡す</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">タカと戦う</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> タカ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> エース</span></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-17/#once-upon-a-somewhere">エピソード17 / むかしむかしどこかで</a></td><td class="aff-choice">ティタニアの好感度が0以上のときに、信じていると伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ティタニアの好感度が0未満のときに、信じていると伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ティタニアの好感度が0以上のときに、信じていないと伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-18/#the-raid-on-agate-city">エピソード18 / アゲートシティ襲撃</a></td><td class="aff-choice">レシラムルートのみ: ティタニアがシェリーと話しているときに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">レシラムルートのみ: アゲート襲撃中にティタニアに話しかける</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-19/#labradorra-tournament-of-booty">エピソード19 / ラブラドラ争奪トーナメント</a></td><td class="aff-choice">放っておいてと言われたあとに、もう一度ティタニアに話しかける</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## ルナ {#affinity-luna}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード10 / バンハネン城](/reborn/episode-10/#vanhanen-castle) | ルナのブラッキーを撫でる | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード10 / バンハネン城](/reborn/episode-10/#vanhanen-castle) | G.サーナイトが捕らわれたあとルナに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | エルの側について負ける | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+3</span> イライアス <span class="affinity-delta is-up">+1</span> アドリエンヌ <span class="affinity-delta is-down">-3</span> サーナイト <span class="affinity-delta is-down">-2</span> ラドマス |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | エルの側について勝つ | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-up">+2</span> イライアス <span class="affinity-delta is-up">+2</span> アドリエンヌ <span class="affinity-delta is-down">-2</span> サーナイト <span class="affinity-delta is-down">-2</span> ラドマス |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | ラドマスの側について勝つ | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-up">+2</span> ラドマス <span class="affinity-delta is-up">+3</span> サーナイト <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-down">-1</span> アドリエンヌ <span class="affinity-delta is-down">-2</span> イライアス |
-| [エピソード11 / サブセブン聖域](/reborn/episode-11/#subseven-sanctum) | ルナに「暗闇が怖い」と伝える | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード11 / サブセブン聖域](/reborn/episode-11/#subseven-sanctum) | ラドマスの側についたあと、ルナに「暗闇は怖くない」と伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード11 / イオリア渓谷](/reborn/episode-11/#iolia-valley) | 1回目でベネットに勝つ | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-down">-2</span> ベネット |
-| [クリア後 エピソード6 / サブセブン聖域のアノマリー](/reborn/postgame-episode-6/#anomalies-at-subseven-sanctum) | パイロスでソラリスを倒し、かつレシラムルートで、聖域のクエストを完了する | <span class="affinity-delta is-up">+2</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-10/#vanhanen-castle">エピソード10 / バンハネン城</a></td><td class="aff-choice">ルナのブラッキーを撫でる</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">G.サーナイトが捕らわれたあとルナに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-10/#citae-astrae">エピソード10 / キタエ・アストラエ</a></td><td class="aff-choice">エルの側について負ける</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+3</span> イライアス</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-3</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ラドマス</span></td></tr>
+<tr><td class="aff-choice">エルの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> イライアス</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ラドマス</span></td></tr>
+<tr><td class="aff-choice">ラドマスの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ラドマス</span> <span class="aff-pair"><span class="affinity-delta is-up">+3</span> サーナイト</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> イライアス</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-11/#subseven-sanctum">エピソード11 / サブセブン聖域</a></td><td class="aff-choice">ルナに「暗闇が怖い」と伝える</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ラドマスの側についたあと、ルナに「暗闇は怖くない」と伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-11/#iolia-valley">エピソード11 / イオリア渓谷</a></td><td class="aff-choice">1回目でベネットに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-2</span> ベネット</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-6/#anomalies-at-subseven-sanctum">クリア後 エピソード6 / サブセブン聖域のアノマリー</a></td><td class="aff-choice">パイロスでソラリスを倒し、かつレシラムルートで、聖域のクエストを完了する</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## サーナイト {#affinity-gardevoir}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | エルの側について負ける | <span class="affinity-delta is-down">-3</span> | <span class="affinity-delta is-up">+3</span> イライアス <span class="affinity-delta is-up">+1</span> アドリエンヌ <span class="affinity-delta is-down">-2</span> ルナ <span class="affinity-delta is-down">-2</span> ラドマス |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | エルの側について勝つ | <span class="affinity-delta is-down">-2</span> | <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-up">+2</span> イライアス <span class="affinity-delta is-up">+2</span> アドリエンヌ <span class="affinity-delta is-down">-2</span> ルナ <span class="affinity-delta is-down">-2</span> ラドマス |
-| [エピソード10 / キタエ・アストラエ](/reborn/episode-10/#citae-astrae) | ラドマスの側について勝つ | <span class="affinity-delta is-up">+3</span> | <span class="affinity-delta is-up">+2</span> ラドマス <span class="affinity-delta is-up">+2</span> ルナ <span class="affinity-delta is-up">+1</span> アンナ <span class="affinity-delta is-up">+1</span> シェイド <span class="affinity-delta is-up">+1</span> カイン <span class="affinity-delta is-down">-1</span> アドリエンヌ <span class="affinity-delta is-down">-2</span> イライアス |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-10/#citae-astrae">エピソード10 / キタエ・アストラエ</a></td><td class="aff-choice">エルの側について負ける</td><td class="aff-delta"><span class="affinity-delta is-down">-3</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+3</span> イライアス</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ラドマス</span></td></tr>
+<tr><td class="aff-choice">エルの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> イライアス</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> ラドマス</span></td></tr>
+<tr><td class="aff-choice">ラドマスの側について勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+3</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ラドマス</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> ルナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> アンナ</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> シェイド</span> <span class="aff-pair"><span class="affinity-delta is-up">+1</span> カイン</span> <span class="aff-pair"><span class="affinity-delta is-down">-1</span> アドリエンヌ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> イライアス</span></td></tr>
+</table>
 
 
 ## テラ {#affinity-terra}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード12 / ストライクバッジ](/reborn/episode-12/#strike-badge) | アヤに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード12 / ストライクバッジ](/reborn/episode-12/#strike-badge) | テラに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード12 / ストライクバッジ](/reborn/episode-12/#strike-badge) | シエルに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード14 / アメトリン山頂の戦い](/reborn/episode-14/#the-battle-atop-ametrine) | 以前サファイラが連れ去られていた場合、キャルからテラとリンについて詳しく聞く | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード14 / グリッチシティ](/reborn/episode-14/#glitch-city) | 中央にある「Mt.b00ty へようこそ」の看板に話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード14 / グリッチシティ](/reborn/episode-14/#glitch-city) | ティミーに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード14 / グリッチシティ](/reborn/episode-14/#glitch-city) | ナゾノクサのはっぱについて話すNPCに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード14 / グリッチシティ](/reborn/episode-14/#glitch-city) | 左下の隅のレッドに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード14 / グリッチシティ](/reborn/episode-14/#glitch-city) | M3GAT3RR4 について話すNPCに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード14 / グリッチシティ](/reborn/episode-14/#glitch-city) | エリア下部の墓に話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード14 / グリッチシティ](/reborn/episode-14/#glitch-city) | かつてエースと戦った場所の近くのコンピューターに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード14 / グリッチシティ](/reborn/episode-14/#glitch-city) | やしきの日記に話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード14 / グリッチシティ](/reborn/episode-14/#glitch-city) | テラを倒す | <span class="affinity-delta is-down">-4</span><span class="affinity-note">実際には選択肢ではありません</span> |  |
-| [エピソード19 / リボーン四天王とチャンピオン](/reborn/episode-19/#reborn-elite-four--champion) | リンの2連戦を制してアンナルートへ進む | <span class="affinity-delta is-down">-2</span> |  |
-| [クリア後 エピソード4 / 列車強盗事件](/reborn/postgame-episode-4/#the-train-heist) | テラを連れ戻すしかなかったとアドリエンヌに伝える | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード9 / 最終連戦 (リンルート)](/reborn/postgame-episode-9/#final-gauntlet-lin-route) | リンより先にアルセウスに話しかける | <span class="affinity-delta is-down">-3</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-12/#strike-badge">エピソード12 / ストライクバッジ</a></td><td class="aff-choice">アヤに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">テラに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">シエルに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-14/#the-battle-atop-ametrine">エピソード14 / アメトリン山頂の戦い</a></td><td class="aff-choice">以前サファイラが連れ去られていた場合、キャルからテラとリンについて詳しく聞く</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="9"><a href="/reborn/episode-14/#glitch-city">エピソード14 / グリッチシティ</a></td><td class="aff-choice">中央にある「Mt.b00ty へようこそ」の看板に話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ティミーに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">ナゾノクサのはっぱについて話すNPCに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">左下の隅のレッドに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">M3GAT3RR4 について話すNPCに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">エリア下部の墓に話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">かつてエースと戦った場所の近くのコンピューターに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">やしきの日記に話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">テラを倒す</td><td class="aff-delta"><span class="affinity-delta is-down">-4</span><span class="affinity-note">実際には選択肢ではありません</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-19/#reborn-elite-four--champion">エピソード19 / リボーン四天王とチャンピオン</a></td><td class="aff-choice">リンの2連戦を制してアンナルートへ進む</td><td class="aff-delta"><span class="affinity-delta is-down">-2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-4/#the-train-heist">クリア後 エピソード4 / 列車強盗事件</a></td><td class="aff-choice">テラを連れ戻すしかなかったとアドリエンヌに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-9/#final-gauntlet-lin-route">クリア後 エピソード9 / 最終連戦 (リンルート)</a></td><td class="aff-choice">リンより先にアルセウスに話しかける</td><td class="aff-delta"><span class="affinity-delta is-down">-3</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## サムソン {#affinity-samson}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード12 / アゲートサーカス](/reborn/episode-12/#agate-circus) | 主人公が女性のとき、道を空けてくれるサムソンに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード12 / アゲートサーカス](/reborn/episode-12/#agate-circus) | シエルに話しかける | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-down">-1</span> シエル |
-| [エピソード12 / アゲートサーカス](/reborn/episode-12/#agate-circus) | サムソンに話しかける | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+2</span> シエル |
-| [エピソード15 / サスペンションバッジ](/reborn/episode-15/#suspension-badge) | 1回目でシエルに勝つ | <span class="affinity-delta is-up">+2</span> |  |
-| [エピソード15 / サスペンションバッジ](/reborn/episode-15/#suspension-badge) | 2回目以降でシエルに勝つ | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード18 / アゲートシティ](/reborn/episode-18/#agate-city) | （ルビーのゆびわを渡したルートのみ）襲撃後に大テントのサムソンに話しかける | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード3 / 3番道路の新世界](/reborn/postgame-episode-3/#route-3-new-world) | ブレイクに指輪を渡さなかったうえで、かげのサムソンを倒す | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-12/#agate-circus">エピソード12 / アゲートサーカス</a></td><td class="aff-choice">主人公が女性のとき、道を空けてくれるサムソンに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">シエルに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> シエル</span></td></tr>
+<tr><td class="aff-choice">サムソンに話しかける</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> シエル</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-15/#suspension-badge">エピソード15 / サスペンションバッジ</a></td><td class="aff-choice">1回目でシエルに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">2回目以降でシエルに勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-18/#agate-city">エピソード18 / アゲートシティ</a></td><td class="aff-choice">（ルビーのゆびわを渡したルートのみ）襲撃後に大テントのサムソンに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-3/#route-3-new-world">クリア後 エピソード3 / 3番道路の新世界</a></td><td class="aff-choice">ブレイクに指輪を渡さなかったうえで、かげのサムソンを倒す</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## シエル {#affinity-ciel}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード12 / アゲートサーカス](/reborn/episode-12/#agate-circus) | シエルに話しかける | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-up">+2</span> サムソン |
-| [エピソード12 / アゲートサーカス](/reborn/episode-12/#agate-circus) | サムソンに話しかける | <span class="affinity-delta is-up">+2</span> | <span class="affinity-delta is-down">-1</span> サムソン |
-| [エピソード12 / ストライクバッジ](/reborn/episode-12/#strike-badge) | 1回目でサムソンに勝つ | <span class="affinity-delta is-up">+2</span> |  |
-| [エピソード12 / ストライクバッジ](/reborn/episode-12/#strike-badge) | 2回目以降でサムソンに勝つ | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード18 / アゲートシティ](/reborn/episode-18/#agate-city) | （ブレイク拒否ルートのみ）襲撃後にサーカス左上側のシエルに話しかける | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> エース |
-| [クリア後 エピソード3 / 青の区画](/reborn/postgame-episode-3/#blue-zone) | ブレイクに指輪を渡したうえで、かげのシエルを倒す | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-12/#agate-circus">エピソード12 / アゲートサーカス</a></td><td class="aff-choice">シエルに話しかける</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> サムソン</span></td></tr>
+<tr><td class="aff-choice">サムソンに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> サムソン</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-12/#strike-badge">エピソード12 / ストライクバッジ</a></td><td class="aff-choice">1回目でサムソンに勝つ</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">2回目以降でサムソンに勝つ</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-18/#agate-city">エピソード18 / アゲートシティ</a></td><td class="aff-choice">（ブレイク拒否ルートのみ）襲撃後にサーカス左上側のシエルに話しかける</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> エース</span></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-3/#blue-zone">クリア後 エピソード3 / 青の区画</a></td><td class="aff-choice">ブレイクに指輪を渡したうえで、かげのシエルを倒す</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## イヴ {#affinity-eve}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | ここのすべてを壊しに来たと言う | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> ルミ |
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | ここのすべてを壊しに来たのではないと言う | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> ルミ |
-| [エピソード18 / ガラス工房](/reborn/episode-18/#glass-workstation) | エーフィを撫でる | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード18 / ガラス工房](/reborn/episode-18/#glass-workstation) | エーフィを撫でない | <span class="affinity-delta is-down">-1</span> |  |
-| [エピソード18 / アゲートシティ襲撃](/reborn/episode-18/#the-raid-on-agate-city) | イヴに話しかけ、残るPULSEについて聞く | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | ベネットを信じるとハーディに伝える | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+2</span> ベネット <span class="affinity-delta is-up">+2</span> ローラ <span class="affinity-delta is-down">-2</span> サファイラ |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | このPULSEを倒す前に PULSE10 の資料を入手する | <span class="affinity-delta is-up">+1</span> |  |
-| [エピソード19 / ラブラドラシティ](/reborn/episode-19/#labradorra-city) | 次のPULSE戦についてイヴに聞く | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード6 / 疫病と万能薬の楽園](/reborn/postgame-episode-6/#idyll-of-pestilence--panaceance) | イヴを止めることを拒む | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-16/#devon-corporation">エピソード16 / デボンコーポ</a></td><td class="aff-choice">ここのすべてを壊しに来たと言う</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> ルミ</span></td></tr>
+<tr><td class="aff-choice">ここのすべてを壊しに来たのではないと言う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> ルミ</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-18/#glass-workstation">エピソード18 / ガラス工房</a></td><td class="aff-choice">エーフィを撫でる</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">エーフィを撫でない</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/episode-18/#the-raid-on-agate-city">エピソード18 / アゲートシティ襲撃</a></td><td class="aff-choice">イヴに話しかけ、残るPULSEについて聞く</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="3"><a href="/reborn/episode-19/#labradorra-city">エピソード19 / ラブラドラシティ</a></td><td class="aff-choice">ベネットを信じるとハーディに伝える</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+2</span> ベネット</span> <span class="aff-pair"><span class="affinity-delta is-up">+2</span> ローラ</span> <span class="aff-pair"><span class="affinity-delta is-down">-2</span> サファイラ</span></td></tr>
+<tr><td class="aff-choice">このPULSEを倒す前に PULSE10 の資料を入手する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">次のPULSE戦についてイヴに聞く</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-6/#idyll-of-pestilence--panaceance">クリア後 エピソード6 / 疫病と万能薬の楽園</a></td><td class="aff-choice">イヴを止めることを拒む</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## ルミ {#affinity-lumi}
 
-| 章・節 | 選択肢 | 増減 | 同時に動く |
-|---|---|---|---|
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | ここのすべてを壊しに来たと言う | <span class="affinity-delta is-down">-1</span> | <span class="affinity-delta is-down">-1</span> イヴ |
-| [エピソード16 / デボンコーポ](/reborn/episode-16/#devon-corporation) | ここのすべてを壊しに来たのではないと言う | <span class="affinity-delta is-up">+1</span> | <span class="affinity-delta is-up">+1</span> イヴ |
-| [エピソード18 / ガラス工房](/reborn/episode-18/#glass-workstation) | グレイシアを撫でる | <span class="affinity-delta is-up">+2</span> |  |
-| [エピソード18 / ガラス工房](/reborn/episode-18/#glass-workstation) | グレイシアを撫でない | <span class="affinity-delta is-down">-3</span> |  |
-| [クリア後 エピソード2 / 伝説の鳥ポケモンを回収](/reborn/postgame-episode-2/#fetching-the-legendary-birds) | ルミにフリーザーを見せる | <span class="affinity-delta is-up">+1</span> |  |
-| [クリア後 エピソード6 / 疫病と万能薬の楽園](/reborn/postgame-episode-6/#idyll-of-pestilence--panaceance) | イヴを止めることに同意する | <span class="affinity-delta is-up">+1</span> |  |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-16/#devon-corporation">エピソード16 / デボンコーポ</a></td><td class="aff-choice">ここのすべてを壊しに来たと言う</td><td class="aff-delta"><span class="affinity-delta is-down">-1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-down">-1</span> イヴ</span></td></tr>
+<tr><td class="aff-choice">ここのすべてを壊しに来たのではないと言う</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"><span class="aff-pair"><span class="affinity-delta is-up">+1</span> イヴ</span></td></tr>
+<tr><td class="aff-place" rowspan="2"><a href="/reborn/episode-18/#glass-workstation">エピソード18 / ガラス工房</a></td><td class="aff-choice">グレイシアを撫でる</td><td class="aff-delta"><span class="affinity-delta is-up">+2</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-choice">グレイシアを撫でない</td><td class="aff-delta"><span class="affinity-delta is-down">-3</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-2/#fetching-the-legendary-birds">クリア後 エピソード2 / 伝説の鳥ポケモンを回収</a></td><td class="aff-choice">ルミにフリーザーを見せる</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+<tr><td class="aff-place" rowspan="1"><a href="/reborn/postgame-episode-6/#idyll-of-pestilence--panaceance">クリア後 エピソード6 / 疫病と万能薬の楽園</a></td><td class="aff-choice">イヴを止めることに同意する</td><td class="aff-delta"><span class="affinity-delta is-up">+1</span></td><td class="aff-others"></td></tr>
+</table>
 
 
 ## 数値で表せない選択肢 {#affinity-others}
 
 増減が0のものと、計算式で示されるものです。
 
-| 章・節 | 選択肢 |
-|---|---|
-| [エピソード3 / 檻に捕まったルート](/reborn/episode-3/#cage-trap-route) | 1回懇願してから拒否する |
-| [エピソード11 / サブセブン聖域](/reborn/episode-11/#subseven-sanctum) | エルの側についたあと、ルナに「暗闇は怖くない」と伝える |
-| [エピソード13](/reborn/episode-13/) | ティタニアに「日誌を読んでいた」と伝える |
-| [エピソード17 / むかしむかしどこかで](/reborn/episode-17/#once-upon-a-somewhere) | ティタニアの好感度が0未満のときに、信じていないと伝える（ティタニアの合計が *min(0, c + 4)* になります。*c* は現在の彼女の好感度） |
-| [エピソード18 / ガラス工房](/reborn/episode-18/#glass-workstation) | 「ルナを勝ち取るため」と答える |
-{: .affinity-table}
+<table class="affinity-table">
+<thead><tr><th>章・節</th><th>選択肢</th></tr></thead>
+<tr><td class="aff-place"><a href="/reborn/episode-3/#cage-trap-route">エピソード3 / 檻に捕まったルート</a></td><td class="aff-choice">1回懇願してから拒否する</td></tr>
+<tr><td class="aff-place"><a href="/reborn/episode-11/#subseven-sanctum">エピソード11 / サブセブン聖域</a></td><td class="aff-choice">エルの側についたあと、ルナに「暗闇は怖くない」と伝える</td></tr>
+<tr><td class="aff-place"><a href="/reborn/episode-13/">エピソード13</a></td><td class="aff-choice">ティタニアに「日誌を読んでいた」と伝える</td></tr>
+<tr><td class="aff-place"><a href="/reborn/episode-17/#once-upon-a-somewhere">エピソード17 / むかしむかしどこかで</a></td><td class="aff-choice">ティタニアの好感度が0未満のときに、信じていないと伝える（ティタニアの合計が <em>min(0, c + 4)</em> になります。<em>c</em> は現在の彼女の好感度）</td></tr>
+<tr><td class="aff-place"><a href="/reborn/episode-18/#glass-workstation">エピソード18 / ガラス工房</a></td><td class="aff-choice">「ルナを勝ち取るため」と答える</td></tr>
+</table>

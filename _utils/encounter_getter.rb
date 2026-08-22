@@ -234,6 +234,10 @@ class EncounterGetter
           species: pokemon_name_formatted,
           dexnum: @pokemonHash[mon][base_form][:dexnum],
           icon: icon_src,
+          # タイプは逆引きページで札にする。「今ほしいのは水タイプ」の
+          # ような探し方ができるようになる。
+          types: [@pokemonHash[mon][base_form][:Type1],
+                  @pokemonHash[mon][base_form][:Type2]].compact,
           map_label: display_map_name,
           group: group_label,
           levels: mon_data['levels'],

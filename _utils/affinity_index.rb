@@ -165,7 +165,14 @@ module AffinityIndex
   end
 
   def esc(text)
-    text.to_s.gsub('|', '\\|')
+    text.to_s.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;')
+  end
+
+  # 生 HTML の表に流すので、本文に残っている markdown の強調は自分で開く。
+  # 対象は4項目 (どうぐ名2件・人物名1件・計算式1件) で、いずれも対で閉じて
+  # いることを確認済み。
+  def inline(text)
+    esc(text).gsub(/\*([^*]+)\*/) { "<em>#{Regexp.last_match(1)}</em>" }
   end
 
   def sign(value)
@@ -185,7 +192,8 @@ module AffinityIndex
     entry[:deltas].filter_map do |d|
       next if d[:name].nil? || d[:name] == self_name
 
-      "#{chip(d[:value])} #{d[:name]}"
+      # 札と人物名の間で折り返すと読めなくなるので、対でひとまとまりにする。
+      %(<span class="aff-pair">#{chip(d[:value])} #{esc(d[:name])}</span>)
     end.join(' ')
   end
 
@@ -194,15 +202,32 @@ module AffinityIndex
   def place(row)
     chapter = short_chapter(row[:chapter_title])
     label = row[:section] == row[:chapter_title] ? chapter : "#{chapter} / #{row[:section]}"
-    "[#{esc(label)}](#{row[:href]})"
+    %(<a href="#{row[:href]}">#{esc(label)}</a>)
   end
 
+  # 同じ節に選択肢がいくつも並ぶことが多い (419行のうち181行が直前と同じ節)。
+  # 節の欄をまとめて、選択肢そのものを縦に追えるようにする。
   def person_rows(person)
-    person[:rows].sort_by.with_index { |r, i| [r[:chapter_index], i] }.map do |r|
-      delta = chip(r[:value])
-      delta += "<span class=\"affinity-note\">#{esc(r[:note])}</span>" if r[:note]
-      "| #{place(r)} | #{esc(r[:text])} | #{delta} | #{esc(others(r, person[:name]))} |"
+    sorted = person[:rows].sort_by.with_index { |r, i| [r[:chapter_index], i] }
+    out = []
+    i = 0
+    while i < sorted.length
+      run = 1
+      run += 1 while i + run < sorted.length && sorted[i + run][:href] == sorted[i][:href]
+      run.times do |n|
+        r = sorted[i + n]
+        cells = +''
+        cells << %(<td class="aff-place" rowspan="#{run}">#{place(r)}</td>) if n.zero?
+        cells << %(<td class="aff-choice">#{inline(r[:text])}</td>)
+        cells << %(<td class="aff-delta">#{chip(r[:value])}) +
+                 (r[:note] ? %(<span class="affinity-note">#{esc(r[:note])}</span>) : '') +
+                 '</td>'
+        cells << %(<td class="aff-others">#{others(r, person[:name])}</td>)
+        out << "<tr>#{cells}</tr>"
+      end
+      i += run
     end
+    out
   end
 
   # 数値の増減を持たない選択肢 (「増減なし」や計算式で示されるもの)。
@@ -229,25 +254,27 @@ module AffinityIndex
       <<~PERSON
         ## #{p[:name]} {##{slug_for(p[:name])}}
 
-        | 章・節 | 選択肢 | 増減 | 同時に動く |
-        |---|---|---|---|
+        <table class="affinity-table">
+        <thead><tr><th>章・節</th><th>選択肢</th><th>増減</th><th>同時に動く</th></tr></thead>
         #{person_rows(p).join("\n")}
-        {: .affinity-table}
+        </table>
 
       PERSON
     end
 
     unless rest.empty?
-      rows = rest.map { |r| "| #{place(r)} | #{esc(r[:text])} |" }
+      rows = rest.map { |r|
+        %(<tr><td class="aff-place">#{place(r)}</td><td class="aff-choice">#{inline(r[:text])}</td></tr>)
+      }
       sections << <<~REST
         ## 数値で表せない選択肢 {#affinity-others}
 
         増減が0のものと、計算式で示されるものです。
 
-        | 章・節 | 選択肢 |
-        |---|---|
+        <table class="affinity-table">
+        <thead><tr><th>章・節</th><th>選択肢</th></tr></thead>
         #{rows.join("\n")}
-        {: .affinity-table}
+        </table>
 
       REST
     end

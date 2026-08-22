@@ -2,6 +2,7 @@
 
 require 'json'
 require_relative 'ja_names'
+require_relative 'field_usage'
 
 # ゲーム内アプリ「フィールドノート」を1ページに起こす。
 #
@@ -75,13 +76,23 @@ module FieldNotes
               end
   end
 
+  # ゲームの行送りに合わせて和文の途中に入れてある空白。1,851箇所 / 817行
+  # あり、画面幅の決まっていない web ではただの隙間になる。両側が非 ASCII の
+  # ものだけ詰めるので、タグの前後や英数字まわりの空白はそのまま残る。
+  JA_SPACE = /(?<=[^\x00-\x7F])[ \t]+(?=[^\x00-\x7F])/.freeze
+  UNIT_SPACE = /(?<=\d)[ \t]+(?=%)/.freeze
+
+  def tighten(text)
+    text.gsub(JA_SPACE, '').gsub(UNIT_SPACE, '')
+  end
+
   def tr(text)
     return nil if text.nil?
 
     s = text.to_s
     return nil if s.strip.empty?
 
-    dict[s.strip] || dict[s] || s.strip
+    tighten(dict[s.strip] || dict[s] || s.strip)
   end
 
   # fieldtext.rb からキーと表示名を順に読む。両者は1対1で並んでいる。
@@ -162,6 +173,28 @@ module FieldNotes
     text.to_s.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;').gsub('"', '&quot;')
   end
 
+  # 表示名 -> キー。フィールドが別のフィールドに変わる行 (実測24行) を
+  # 相手の節へ繋ぐのに使う。
+  def display_index(scripts_dir)
+    @display_index ||= begin
+      table = names(scripts_dir)
+      note_keys(scripts_dir).to_h { |k| [display_name(k, table), k] }
+    end
+  end
+
+  # 素の文字列の断片が、そのまま別のフィールドの名前になっているときだけ
+  # リンクにする。部分一致だと「どうくつ」が「クリスタルのどうくつ」の中に
+  # 当たるので、断片まるごとの一致だけを見る。
+  def link_field(chunk, scripts_dir, self_key)
+    return escape(chunk) unless scripts_dir
+
+    key = display_index(scripts_dir)[chunk.strip]
+    return escape(chunk) if key.nil? || key == self_key
+
+    lead, body, tail = chunk.partition(chunk.strip)
+    "#{escape(lead)}<a href=\"##{anchor(key)}\">#{escape(body)}</a>#{escape(tail)}"
+  end
+
   def type_label(sym)
     TYPE_NAMES[sym] || JaNames.tr('types', sym.capitalize)
   end
@@ -188,7 +221,7 @@ module FieldNotes
   end
 
   # <c=...> と <icon=...> を HTML にする。入れ子が無いことは実データで確認済み。
-  def render(text)
+  def render(text, scripts_dir = nil, self_key = nil)
     return '' if text.nil?
 
     s = StringScanner.new(text.to_s)
@@ -196,11 +229,11 @@ module FieldNotes
     until s.eos?
       chunk = s.scan_until(TOKEN)
       unless chunk
-        out << escape(s.rest)
+        out << link_field(s.rest, scripts_dir, self_key)
         break
       end
 
-      out << escape(chunk[0...(chunk.length - s.matched.length)])
+      out << link_field(chunk[0...(chunk.length - s.matched.length)], scripts_dir, self_key)
       color, icon, tts = s[1], s[2], s[3]
       out << if s.matched == '</c>'
                '</span>'
@@ -217,15 +250,20 @@ module FieldNotes
     out.strip
   end
 
-  def note_html(note)
+  def note_html(note, scripts_dir = nil)
+    key = note.fieldeffect
     main = tr(note.text).to_s.sub(CONTINUES, '')
-    body = +%(<span class="fn-main">#{render(main)}</span>)
+    body = +%(<span class="fn-main">#{render(main, scripts_dir, key)}</span>)
 
     cog = tr(note.cogwheeltext)
-    body << %( <span class="fn-cog">#{render(cog)}</span>) if cog
+    body << %( <span class="fn-cog">#{render(cog, scripts_dir, key)}</span>) if cog
 
     more = tr(note.elaboration)
-    body << %(<span class="fn-more">#{render(more.sub(LEADS_ON, '')).gsub("\n", '<br>')}</span>) if more
+    if more
+      body << %(<span class="fn-more">) +
+              render(more.sub(LEADS_ON, ''), scripts_dir, key).gsub("\n", '<br>') +
+              '</span>'
+    end
 
     "<li>#{body}</li>"
   end
@@ -243,14 +281,23 @@ module FieldNotes
     }.join("\n  ")
 
     sections = fields.map do |k|
-      items = grouped[k].map { |n| note_html(n) }.join("\n  ")
+      list = grouped[k]
+      lead = ''
+      # 先頭の1行はフィールドが張られたときに出る台詞で、効果ではない。
+      # 37/38 のフィールドが持っており、他の行がこの体裁を取ることは無い。
+      if list.first.text =~ FLAVOR
+        lead = %(<p class="fn-flavor">#{render(tr(list.first.text), scripts_dir, k)}</p>\n\n)
+        list = list[1..]
+      end
+      items = list.map { |n| note_html(n, scripts_dir) }.join("\n  ")
       <<~SECTION
         ## #{display_name(k, table)} {##{anchor(k)}}
 
-        <ul class="field-notes">
+        #{lead}<ul class="field-notes">
           #{items}
         </ul>
 
+        #{usage_html(k, game)}
       SECTION
     end
 
@@ -299,6 +346,29 @@ module FieldNotes
 
       #{sections.join("\n")}
     PAGE
+  end
+
+  # フィールドが張られたときの台詞。<c=orange> で括った鉤括弧で始まる。
+  FLAVOR = /\A<c=orange>["\u201C\u300C]/.freeze
+
+  # このフィールドで戦う場面。戦闘表からこちらへは繋がっているが、
+  # 逆向きが無いと対策を読んだあと本文に戻れない。
+  def usage_html(key, game)
+    places = FieldUsage.for(key)
+    return '' if places.empty?
+
+    links = places.map { |ctx|
+      chapter = ctx[:chapter].to_s.sub(/[:：].*\z/, '').strip
+      label = ctx[:section] == ctx[:chapter] ? chapter : "#{chapter} / #{ctx[:section]}"
+      %(<li><a href="#{ctx[:href]}">#{escape(label)}</a></li>)
+    }.join
+
+    <<~USE.strip
+      <div class="fn-usage">
+        <span class="fn-usage-label">#{JaNames.ui('Battles on this field')}</span>
+        <ul>#{links}</ul>
+      </div>
+    USE
   end
 
   # 表示名。屋内フィールドだけ fieldtext.rb 側に名前が無い。

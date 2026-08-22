@@ -3,6 +3,8 @@ require_relative 'chapter_nav'
 require_relative 'affinity'
 require_relative 'affinity_index'
 require_relative 'field_notes'
+require_relative 'doc_context'
+require_relative 'field_usage'
 require_relative 'encounter_index'
 require_relative 'encounter_index_page'
 require_relative 'reference_pages'
@@ -171,7 +173,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
     # 展開する側でしか見出しが分からないので、ここで見出しを追いかけて渡す。
     chapter_title = nil
     chapter_slug = nil
-    EncounterIndex.context = nil
+    DocContext.reset!
 
     raw_md.each_line do |line|
       if line.start_with?('#') && (m = line.chomp.match(/\A(\#{1,3})[ \t]+(.+?)[ \t]*\{\#([^}]+)\}[ \t]*\z/))
@@ -179,10 +181,10 @@ def generate_md_text(game = 'reborn', scripts_dir)
         if level == 1
           chapter_title = heading
           chapter_slug = generate_intelligent_slug(line.strip[2..].strip, type, num)
-          EncounterIndex.context = { chapter: chapter_title, section: chapter_title,
+          DocContext.current = { chapter: chapter_title, section: chapter_title,
                                      href: "/#{LONGNAMES[game]}/#{chapter_slug}/" }
         elsif chapter_slug
-          EncounterIndex.context = { chapter: chapter_title, section: heading,
+          DocContext.current = { chapter: chapter_title, section: heading,
                                      href: "/#{LONGNAMES[game]}/#{chapter_slug}/##{id}" }
         end
       end
@@ -247,6 +249,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
 
   res = ''
   EncounterIndex.reset!
+  FieldUsage.reset!
   game_version = detect_game_version(game, scripts_dir)
   res += generate_md_pre_contents(game, game_version)
   # 読んでいる最中も章を移動できるよう、章ページと同じ固定サイドバーを置く。

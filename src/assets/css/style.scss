@@ -1193,17 +1193,27 @@ body.night-mode div#quote {
   font-variant-numeric: tabular-nums;
 }
 
-/* 4列のうち左端 (章・節) と右2列は短いので、選択肢の文章に幅を回す。 */
-#main_content .affinity-table { margin: 12px 0 30px; }
+/* 4列のうち左端 (章・節) と右2列は短いので、選択肢の文章に幅を回す。
+   節の欄は rowspan でまとめるため、位置ではなく class で指定する。 */
+#main_content .affinity-table { margin: 12px 0 30px; table-layout: fixed; }
 #main_content .affinity-table th:first-child,
-#main_content .affinity-table td:first-child { width: 22%; }
+#main_content .affinity-table .aff-place { width: 20%; vertical-align: top; }
 #main_content .affinity-table th:nth-child(3),
-#main_content .affinity-table td:nth-child(3) { width: 6em; }
+#main_content .affinity-table .aff-delta { width: 5.5em; }
+#main_content .affinity-table th:nth-child(4),
+#main_content .affinity-table .aff-others { width: 19%; }
+
+/* 増減の札と人物名の対。名前の途中や札との間で折り返さないようにする。 */
+.aff-pair {
+  display: inline-block;
+  margin-right: 6px;
+  white-space: nowrap;
+}
+#main_content .affinity-table .aff-choice { width: auto; }
 
 /* 表の中の札は本文中より詰めて置く。行の高さを上げたくない。 */
 #main_content .affinity-table .affinity-delta { margin-left: 0; }
-#main_content .affinity-table th:nth-child(4),
-#main_content .affinity-table td:nth-child(4) { width: 20%; }
+
 
 /* 「初回のみ」のような但し書き。増減の数字と混ざらないように落とす。 */
 .affinity-note {
@@ -1265,6 +1275,21 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
 .pdx-icon { vertical-align: -9px; margin-right: 4px; }
 .pdx-name { font-weight: 600; }
 
+/* タイプ。「今ほしいのは水タイプ」のような探し方ができる。名前の下に
+   2枚並ぶだけなので、表の中の札は最小幅を外して詰める。 */
+.pdx-types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-top: 3px;
+}
+
+.pdx-types .type-badge {
+  min-width: 0;
+  padding: 0 6px;
+  font-size: 11px;
+}
+
 /* 図鑑番号は探すときの手がかりだが主役ではない。 */
 .pdx-dex {
   display: block;
@@ -1285,7 +1310,37 @@ body.night-mode #main_content .affinity-label strong a { border-bottom-color: #6
   font-weight: 600;
 }
 
-#main_content .pdx-places { vertical-align: top; }
+/* td の既定は white-space: pre-line で、生成した改行がそのまま行送りに
+   なってしまう。ここは1件1行に収めたいので通常の折り返しに戻す。 */
+#main_content .pdx-places {
+  vertical-align: top;
+  white-space: normal;
+}
+
+/* 出現方法の札。場所名の前に置くと、縦に並んだときに方法で拾える。 */
+.pdx-way {
+  display: inline-block;
+  /* 一番長い「ヘッドバット」に合わせる。幅が揃っていないと場所名の左端が
+     行ごとにずれて、縦に追えなくなる。 */
+  min-width: 6.6em;
+  margin-right: 6px;
+  padding: 0 6px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+  vertical-align: 1px;
+}
+
+.pdx-way-grass    { background: #36862f; }
+.pdx-way-cave     { background: #6b5a52; }
+.pdx-way-surf     { background: #3377c8; }
+.pdx-way-fish     { background: #00706f; }
+.pdx-way-headbutt { background: #8a5410; }
+.pdx-way-smash    { background: #86753f; }
+.pdx-way-other    { background: #5c646d; }
 
 #main_content .pdx-places ul {
   margin: 0;
@@ -1326,6 +1381,17 @@ body.night-mode .pdx-dex,
 body.night-mode .pdx-meta { color: #a4aeb8; }
 body.night-mode .pdx-only { background: #3a2f1c; color: #e6c081; }
 body.night-mode #main_content .pdx-table tr { border-bottom-color: #2b3038; }
+
+/* フィールド名がそのまま別の節への入口になっている行。色分けは効果の
+   種類を示しているので、リンクでも色を変えず点線だけ足す。 */
+.fn-c a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+
+.fn-c a:hover,
+.fn-c a:focus-visible { border-bottom-style: solid; }
 
 /*******************************************************************************
 フィールド効果ページ (/reborn/fields/)
@@ -1402,13 +1468,66 @@ body.night-mode #main_content .pdx-table tr { border-bottom-color: #2b3038; }
   line-height: 1.9;
 }
 
+/* フィールドが張られたときの台詞。効果ではないので一覧から外し、
+   見出しの下にリードとして置く。 */
+#main_content .fn-flavor {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+#main_content .fn-flavor .fn-c { font-weight: 700; }
+
+/* このフィールドで戦う場面。戦闘表からこちらへは繋がっているので、
+   読み終わって本文へ戻るための逆向きの動線。効果一覧の続きに見えるよう
+   角と枠線を繋げる。 */
+.fn-usage {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  margin: -30px 0 30px;
+  padding: 8px 14px;
+  border: 1px solid #dde2e8;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  background: #f7f9fb;
+  font-size: 13.5px;
+}
+
+.fn-usage-label {
+  font-weight: 600;
+  color: #4f5a64;
+  white-space: nowrap;
+}
+
+.fn-usage ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fn-usage li { margin: 0; }
+
+body.night-mode .fn-usage {
+  background: #1c1f24;
+  border-color: #33383f;
+  border-top: none;
+}
+
+body.night-mode .fn-usage-label { color: #a4aeb8; }
+
 #main_content .field-notes {
   margin-top: 12px;
   margin-bottom: 30px;
   padding-left: 0;
   list-style: none;
   border: 1px solid #dde2e8;
-  border-radius: 6px;
+  /* 直後の .fn-usage と1枚に見せるため、下端の角は落として繋げる。 */
+  border-radius: 6px 6px 0 0;
   overflow: hidden;
 }
 
@@ -1948,7 +2067,8 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
   .affinity-list,
   .fn-status,
   .fn-stage,
-  .pdx-only {
+  .pdx-only,
+  .pdx-way {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
