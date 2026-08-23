@@ -60,6 +60,8 @@ module MoveFacts
         # ものが無いわざがある (エアカッターの 100 など)。実装がある場合だけ
         # 確率を出す。
         additional: body.include?('def pbAdditionalEffect'),
+        hits: hit_count(body),
+        drain: drain_share(body),
         body: body
       }
     end
@@ -193,6 +195,50 @@ module MoveFacts
     }
   end
 
+  # 連続ヒットの回数。書き方は2通り。
+  #
+  #   return 2                                     … 必ず2回
+  #   hitchances = [2, 2, ... 5, 5]; sample(...)   … 2〜5回。並びが確率そのもの
+  #
+  # 手持ちの数や場面で変わるもの (ビートアップ・ドラゴンアロー) は出さない。
+  def hit_count(body)
+    section = body[/def pbNumHits.*?\n  end/m]
+    return nil unless section
+
+    if (list = section[/hitchances\s*=\s*\[([\d,\s]+)\]/, 1])
+      counts = list.split(',').map { |n| n.strip.to_i }
+      return nil if counts.empty?
+
+      total = counts.length.to_f
+      spread = counts.tally.sort.map { |hits, n| [hits, (n / total * 100).round] }
+      return { spread: spread }
+    end
+
+    fixed = section.scan(/return\s+(\d+)\s*$/).flatten.map(&:to_i).uniq
+    fixed.length == 1 && fixed.first > 1 ? { fixed: fixed.first } : nil
+  end
+
+  # 与えたダメージのうち、何割を回復するか。
+  #
+  #   hpgain = ((damage + 1) / 2).floor      … 1/2
+  #   hpgain = ((damage + 1) * 0.75).floor   … 3/4
+  #
+  # 自分の最大HPを基準に回復するわざ (じこさいせいなど) は天候で値が変わる
+  # 書き方をしているので、ここでは扱わない。
+  def drain_share(body)
+    line = body.lines.find { |l| l.include?('hpgain') && l.include?('damage') && !field_condition?(l) && !l.include?('Rejuv') }
+    return nil unless line
+
+    expr = line[/damage \+ 1\)\s*(.*?)\)?\.floor/, 1].to_s
+    if (m = expr.match(%r{\*\s*(\d+)\s*/\s*(\d+)}))
+      Rational(m[1].to_i, m[2].to_i)
+    elsif (m = expr.match(/\*\s*([\d.]+)/))
+      m[1].to_f.rationalize(0.001)
+    elsif (m = expr.match(%r{/\s*([\d.]+)}))
+      Rational(1) / m[1].to_f.rationalize(0.001)
+    end
+  end
+
   # 能力変化の上限。はらだいこはコードでは 12段階上げているが、
   # Battle_Effects.rb が ±6 で頭打ちにするので、実際には最大まで上がるだけ。
   # そのまま 12 と書くと嘘になる。
@@ -238,6 +284,25 @@ module MoveFacts
     chance = move[:effect].to_i
     if chance.positive? && info[:additional]
       out << (ja ? "追加効果 #{chance}%" : "Added effect #{chance}%")
+    end
+
+    if (hits = info[:hits])
+      out << if hits[:fixed]
+               ja ? "#{hits[:fixed]}回攻撃" : "Hits #{hits[:fixed]} times"
+             else
+               spread = hits[:spread].map { |n, pct| ja ? "#{n}回 #{pct}%" : "#{n}x #{pct}%" }.join(' / ')
+               range = "#{hits[:spread].first[0]}#{ja ? '〜' : '-'}#{hits[:spread].last[0]}"
+               ja ? "連続 #{range}回（#{spread}）" : "Hits #{range} times (#{spread})"
+             end
+    end
+
+    if (share = info[:drain])
+      out << (ja ? "与えたダメージの #{share} を回復" : "Restores #{share} of the damage dealt")
+    end
+
+    if (recoil = move[:recoil])
+      fraction = recoil.to_f.rationalize(0.01)
+      out << (ja ? "反動 与えたダメージの #{fraction}" : "Recoil #{fraction} of the damage dealt")
     end
 
     stats = info[:body] ? stat_changes(info[:body], move_sym) : []
