@@ -217,3 +217,6 @@ Chapters: 章の一覧
 "Wild only":        "野生で出会える"
 "Clear":            "条件を外す"
 "Type":             "タイプ"
+"Others that evolve the same way": "同じ条件で進化するポケモン"
+"Others caught the same way": "同じ条件で捕まえられるポケモン"
+"%s and earlier":   "%sまで"

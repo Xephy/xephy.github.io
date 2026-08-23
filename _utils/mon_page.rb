@@ -4,6 +4,7 @@ require_relative 'ja_names'
 require_relative 'mon_data'
 require_relative 'machine_index'
 require_relative 'evolution_index'
+require_relative 'evolution_index_page'
 require_relative 'encounter_index'
 require_relative 'tutor_index'
 require_relative 'trainer_index'
@@ -162,6 +163,12 @@ module MonPage
     return {} if pokemon_hash.nil? || pokemon_hash.empty?
 
     ctx = context(game, scripts_dir, chapters, hashes[:item], hashes[:move])
+    # 「同じ条件で進化するポケモンは何件あるか」。個別ページから資料ページへ
+    # 送るときに、行った先の量が分かるようにする。
+    ctx[:pokemon] = pokemon_hash
+    ctx[:evo_groups] = EvolutionIndex.collect(pokemon_hash)
+                                     .group_by { |row| EvolutionIndex.group(row[:method]) }
+                                     .transform_values(&:size)
     dex_order = dex_order(pokemon_hash)
 
     pages = pokemon_hash.each_key.to_h do |species|
@@ -277,7 +284,7 @@ module MonPage
     [['summary', summary(forms, form_key, index)],
      ['basic',   basics(forms, form_key, hashes)],
      ['match',   matchups(forms, form_key, hashes)],
-     ['evo',     evolution(game, species, forms, form_key, index, hashes)],
+     ['evo',     evolution(game, species, forms, form_key, index, hashes, ctx)],
      ['enc',     encounters(species, forms, form_key, hashes, ctx)],
      ['moves',   moves(species, scripts_dir, forms, form_key, hashes, ctx)],
      ['hm',      hidden_machines(species, scripts_dir, forms, form_key, hashes, ctx)],
@@ -419,7 +426,29 @@ module MonPage
       %(</section>)
   end
 
-  def evolution(game, species, forms, form_key, index, hashes)
+  # 「この条件で進化するのは他に誰か」。個別ページは1匹ぶんしか答えられない
+  # ので、方法で絞った一覧へ送る (通信交換が要るものが26件ある、など)。
+  def evolution_crosslinks(game, species, forms, form_key, ctx)
+    # 自分が進化する条件と、自分が生まれた条件の両方を拾う。
+    # 最終進化でも「自分はどうやって出てくるのか」から辿れるようにする。
+    methods = (MonData.attr_of(forms, form_key, :evolutions) || []).map { |evo| evo[:method] }
+    if (pre = MonData.attr_of(forms, form_key, :preevo))
+      methods += MonData.evo_children(ctx[:pokemon], pre[:species])
+                        .select { |child| child[:to] == species }
+                        .map { |child| child[:method] }
+    end
+    groups = methods.map { |method| EvolutionIndex.group(method) }.uniq
+    return nil if groups.empty?
+
+    links = groups.map { |group|
+      count = ctx[:evo_groups][group].to_i
+      label = EvolutionIndexPage.group_label(group)
+      %(<a href="/#{game}/evolutions/?g=#{group}">#{esc(label)}<span>#{count}</span></a>)
+    }.join
+    %(<span class="md-cross-label">#{ui('Others that evolve the same way')}</span>#{links})
+  end
+
+  def evolution(game, species, forms, form_key, index, hashes, ctx)
     pokemon_hash = hashes[:pokemon]
     name = MonData.base_data(forms)[:name]
     root = MonData.evo_root(pokemon_hash, species, form_key)
@@ -454,7 +483,8 @@ module MonPage
 
     body = lines.empty? ? %(<p class="md-empty">#{ui('Does not evolve.')}</p>) : lines.join
     %(<section class="md-sec"><h2>#{ui('Evolution')}</h2>) +
-      card(ui('Evolution line'), body) + %(</section>)
+      card(ui('Evolution line'), body, note: evolution_crosslinks(game, species, forms, form_key, ctx)) +
+      %(</section>)
   end
 
   # 出現表の行は姿ごとに分かれている (「ニャース (アローラのすがた)」)。
@@ -468,6 +498,28 @@ module MonPage
       label = MonData.form_label(form_key)
       rows.find { |row| row[:species].include?(label) }
     end
+  end
+
+  # 「同じころ / 同じ方法で捕まえられるのは他に誰か」。個別ページは1匹ぶんしか
+  # 答えられないので、出現場所ページを絞った状態へ送る。
+  def encounter_crosslinks(game, places)
+    return nil if places.empty?
+
+    links = []
+    first = places.min_by { |place| place.dig(:context, :seq) || 0 }
+    seq = first.dig(:context, :seq)
+    if seq
+      chapter = first.dig(:context, :chapter).to_s.sub(/[:：].*\z/, '').strip
+      links << %(<a href="/#{game}/pokemon/?ch=#{seq}">#{format(JaNames.ui('%s and earlier'), esc(chapter))}</a>)
+    end
+
+    ways = places.map { |place| [place[:group], WAY_CLASS[place[:group]] || 'other'] }.uniq
+    ways.each do |label, cls|
+      links << %(<a href="/#{game}/pokemon/?w=#{cls}">#{esc(label)}</a>)
+    end
+    return nil if links.empty?
+
+    %(<span class="md-cross-label">#{ui('Others caught the same way')}</span>#{links.join})
   end
 
   def encounters(species, forms, form_key, hashes, ctx)
@@ -504,6 +556,7 @@ module MonPage
 
     %(<section class="md-sec"><h2>#{ui('Wild locations')}</h2>) +
       card(ui('Where it appears in the wild'), body,
+           note: encounter_crosslinks(ctx[:game], places),
            count: places.empty? ? nil : format(JaNames.ui(places.size == 1 ? '%d place' : '%d places'), places.size)) +
       (held.empty? ? '' : card(ui('Wild held items'), %(<p class="md-helds">#{held}</p>),
                                note: ui('With a Compound Eyes Pokemon in the lead, the odds rise to 60% / 20% / 5%.'))) +

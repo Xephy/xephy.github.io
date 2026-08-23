@@ -71,6 +71,20 @@ module MonIndexPage
     BAR
   end
 
+  # 横断して探すときの行き先。個別ページは1匹ぶんしか答えられないので、
+  # 「今どこまでで何が捕れるか」「交換が要るのは誰か」は資料ページへ送る。
+  def cross_links(game)
+    if JaNames.enabled?
+      %(<p class="md-note">場所や条件から横断して探すときは、) +
+        %(<a href="/#{game}/pokemon/">ポケモンの出現場所</a>（章ごと・出現方法で絞れます）と) +
+        %(<a href="/#{game}/evolutions/">進化条件の一覧</a>（方法で絞れます）があります。</p>)
+    else
+      %(<p class="md-note">To search across species, see ) +
+        %(<a href="/#{game}/pokemon/">Wild Encounters</a> (by chapter or method) and ) +
+        %(<a href="/#{game}/evolutions/">Evolution Methods</a> (by method).</p>)
+    end
+  end
+
   def build_page(game, pokemon_hash)
     return nil if pokemon_hash.nil? || pokemon_hash.empty?
 
@@ -125,6 +139,8 @@ module MonIndexPage
       <p>#{esc(lead)}</p>
 
       <p class="md-note">#{note}</p>
+
+      #{cross_links(game)}
 
       #{filter_bar(counts, wild_count)}
 

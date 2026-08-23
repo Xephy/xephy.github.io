@@ -19,6 +19,11 @@ module EvolutionIndexPage
     'happiness' => 'Happiness', 'location' => 'Location', 'other' => 'Other'
   }.freeze
 
+  # 進化の方法の呼び名。ポケモン個別ページからも同じ言葉で参照する。
+  def group_label(group)
+    (JaNames.enabled? ? GROUP_LABELS : GROUP_LABELS_EN)[group] || group.to_s
+  end
+
   def esc(text)
     text.to_s.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;').gsub('"', '&quot;')
   end
@@ -89,12 +94,13 @@ module EvolutionIndexPage
     lead =
       if JaNames.enabled?
         ["ゲームのデータから起こした進化条件の一覧です。#{rows.length}件。" \
-         "種族名を押すと、その種族の出現場所へ飛べます。",
+         "種族名を押すと、その種族の頁へ飛べます。",
          "通信交換で進化するものが#{trade}件あります。" \
          "条件の読み方は Evolution.rb の判定に合わせてあり、" \
          "「なつき度を上げて」は220以上を指します。"]
       else
-        ["Evolution methods taken from the game data. #{rows.length} entries, #{trade} of them by trade."]
+        ["Evolution methods taken from the game data. #{rows.length} entries, #{trade} of them by trade. " \
+         "Open a species for its own page."]
       end
 
     <<~PAGE
