@@ -2637,9 +2637,21 @@ body.night-mode :focus-visible { outline-color: #7db1e8; }
 /* 見出しへ飛んだとき、固定ヘッダや行間に埋もれないよう手前に余白を取る。 */
 h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
 
-/* 種族の行へ直接飛んだとき (#mon-xxx)。絞り込みの操作子が上に貼り付いて
-   いるので、その高さぶん手前で止める。 */
-#main_content .pdx-table tr[id] { scroll-margin-top: 200px; }
+/* 表の行へ直接飛んだとき。絞り込みの操作子が上に貼り付いているので、
+   その高さぶん手前で止める。飛び先は2つ:
+     出現場所ページ  種族の行へ (#mon-xxx)
+     わざマシン一覧  マシンの行へ (#tm-24 / #hm-1)。ポケモン個別ページの
+                     「TM24」から飛んでくる。
+   操作子の高さは実測で 150px 前後。チップが折り返す幅では高くなるので、
+   余裕を見て 200px 手前で止める。 */
+#main_content .pdx-table tr[id],
+#main_content .tm-table tr[id] { scroll-margin-top: 200px; }
+
+/* 狭い画面ではチップが折り返して操作子が倍近くになる (実測 375px で 300px)。 */
+@media (max-width: 700px) {
+  #main_content .pdx-table tr[id],
+  #main_content .tm-table tr[id] { scroll-margin-top: 320px; }
+}
 
 /*******************************************************************************
 印刷
