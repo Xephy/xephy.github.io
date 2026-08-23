@@ -32,6 +32,13 @@ module MachineIndexPage
     parts.join(' · ')
   end
 
+  # 行に付ける id。ポケモン個別ページの「わざマシン24」から、この行へ直に
+  # 飛べるようにする。番号だけでは わざマシン10 と ひでんマシン1 のような
+  # 組み合わせで衝突するので、種類も混ぜる。
+  def anchor(row)
+    "#{row[:kind] == 1 ? 'hm' : 'tm'}-#{row[:number]}"
+  end
+
   def row_html(row, places, seq_of)
     move = row[:move]
     items = places.map { |s|
@@ -43,7 +50,7 @@ module MachineIndexPage
     where = items.empty? ? %(<span class="tm-none">本文に記載なし</span>) : "<ul>#{items.join}</ul>"
 
     <<~ROW
-      <tr data-name="#{esc(row[:label])}" data-move="#{esc(move[:name])}" data-types="#{move[:type].to_s.downcase}" data-ch="#{first_ch}" data-has="#{items.empty? ? 0 : 1}">
+      <tr id="#{anchor(row)}" data-name="#{esc(row[:label])}" data-move="#{esc(move[:name])}" data-types="#{move[:type].to_s.downcase}" data-ch="#{first_ch}" data-has="#{items.empty? ? 0 : 1}">
         <td class="tm-no"><em>#{esc(row[:label])}</em></td>
         <td class="tm-move">#{type_badge(move[:type])}<strong>#{esc(move[:name])}</strong><span class="tm-meta">#{move_meta(move)}</span></td>
         <td class="tm-where">#{where}</td>

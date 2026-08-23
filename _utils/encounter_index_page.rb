@@ -121,7 +121,7 @@ module EncounterIndexPage
 
     <<~ROW
       <tr#{anchor_for(entry)} data-name="#{esc(entry[:species])}" data-en="#{esc(entry[:species_key].to_s.downcase)}" data-types="#{kinds}" data-ways="#{ways}" data-only="#{entry[:places].length == 1 ? 1 : 0}" data-ch="#{first_ch}">
-        <td class="pdx-mon">#{icon}<span class="pdx-name">#{esc(entry[:species])}</span><span class="pdx-dex">No.#{entry[:dexnum]}</span><span class="pdx-types">#{types}</span>#{only}#{held}</td>
+        <td class="pdx-mon"><a class="mon-link" href="#{mon_page_href('reborn', entry[:species_key])}">#{icon}<span class="pdx-name">#{esc(entry[:species])}</span></a><span class="pdx-dex">No.#{entry[:dexnum]}</span><span class="pdx-types">#{types}</span>#{only}#{held}</td>
         <td class="pdx-places"><ul>#{entry[:places].map { |p| place_html(p) }.join}</ul></td>
       </tr>
     ROW

@@ -1641,3 +1641,275 @@ function refEmpty(bar) {
 
   apply();
 })();
+
+// ポケモン個別ページの切り替え。
+//
+// 姿 (ふつう / アローラ / メガ) と、わざの種類 (レベル / わざマシン / 教え技…) の
+// 2種類がある。どちらも中身は最初から HTML に入っていて、表示を入れ替えるだけ。
+// ページを跨いで持ち回る状態は無いので、保存はしない。
+(function () {
+  var forms = document.querySelectorAll('.md-form');
+  var tabs = document.querySelectorAll('.md-tab');
+  if (!forms.length && !tabs.length) return;
+
+  forms.forEach(function (button) {
+    button.addEventListener('click', function () {
+      forms.forEach(function (other) { other.classList.toggle('is-on', other === button); });
+      // 節は姿ごとに分かれているとは限らない。中身が同じ姿はまとめてあり、
+      // data-forms にその姿の番号が並んでいる。
+      document.querySelectorAll('.md-part').forEach(function (part) {
+        var forms = (part.dataset.forms || '').split(' ');
+        part.classList.toggle('is-on', forms.indexOf(button.dataset.form) !== -1);
+      });
+      // 見出しのバトル絵も姿に合わせて差し替える。
+      document.querySelectorAll('.md-hero-img').forEach(function (img) {
+        img.classList.toggle('is-on', img.dataset.formArt === button.dataset.form);
+      });
+    });
+  });
+
+  tabs.forEach(function (button) {
+    button.addEventListener('click', function () {
+      // 姿ごとに同じ組が並ぶので、押された側の節の中だけを入れ替える。
+      var scope = button.closest('.md-sec');
+      if (!scope) return;
+      scope.querySelectorAll('.md-tab').forEach(function (other) {
+        other.classList.toggle('is-on', other === button);
+      });
+      scope.querySelectorAll('.md-panel').forEach(function (panel) {
+        panel.classList.toggle('is-on', panel.dataset.panel === button.dataset.tab);
+      });
+      var card = button.closest('.md-card');
+      if (card && card._mvApply) card._mvApply();
+    });
+  });
+})();
+
+
+// 覚えるわざをタイプで絞る。
+//
+// 1匹が覚えるわざは60本を超えることがある。「でんきわざは何を覚えるのか」を
+// 探すのに6つのタブを目で舐めることになるので、タイプで絞れるようにする。
+//
+// 選べるのは1種類だけ。押すたびに切り替わり、同じ札をもう一度押すと外れる。
+// 条件はタブを跨いで続く (タブを変えても絞ったまま)。
+(function () {
+  document.querySelectorAll('.md-card .md-mv-filter').forEach(function (bar) {
+    var card = bar.closest('.md-card');
+    var panels = [].slice.call(card.querySelectorAll('.md-panel'));
+    if (!panels.length) return;
+
+    var chips = [].slice.call(bar.querySelectorAll('.ref-chip'));
+    var resetEl = bar.querySelector('.ref-reset');
+    var countEl = bar.querySelector('.ref-count');
+    var picked = null;
+
+    bar.hidden = false;
+
+    function rowsOf(panel) {
+      if (!panel._rows) panel._rows = [].slice.call(panel.querySelectorAll('tbody tr'));
+      return panel._rows;
+    }
+
+    function apply() {
+      panels.forEach(function (panel) {
+        var shown = 0;
+        rowsOf(panel).forEach(function (tr) {
+          var ok = !picked || tr.dataset.type === picked;
+          tr.hidden = !ok;
+          if (ok) shown++;
+        });
+
+        // タブの数字は、いま出ている行数に合わせる。どのタブに残って
+        // いるかが、開かなくても分かる。
+        var tab = card.querySelector('.md-tab[data-tab="' + panel.dataset.panel + '"] span');
+        if (tab) tab.textContent = shown;
+
+        var note = panel.querySelector('.md-mv-empty');
+        if (!shown) {
+          if (!note) {
+            note = document.createElement('p');
+            note.className = 'md-mv-empty md-empty';
+            note.textContent = refEmpty(bar);
+            panel.appendChild(note);
+          }
+          note.hidden = false;
+        } else if (note) {
+          note.hidden = true;
+        }
+      });
+
+      // 札の数字は、開いているタブに何本あるか。絞っている最中も
+      // 「他のタイプなら何本あるか」が読める。
+      var active = card.querySelector('.md-panel.is-on') || panels[0];
+      var byType = {};
+      rowsOf(active).forEach(function (tr) {
+        byType[tr.dataset.type] = (byType[tr.dataset.type] || 0) + 1;
+      });
+      chips.forEach(function (chip) {
+        var n = byType[chip.dataset.value] || 0;
+        var span = chip.querySelector('span');
+        if (span) span.textContent = n;
+        chip.classList.toggle('is-off', n === 0);
+      });
+
+      if (countEl) {
+        var total = rowsOf(active).length;
+        var shownActive = rowsOf(active).filter(function (tr) { return !tr.hidden; }).length;
+        countEl.textContent = picked ? shownActive + ' / ' + total : '';
+      }
+    }
+
+    card._mvApply = apply;
+
+    function select(value) {
+      picked = value;
+      chips.forEach(function (chip) {
+        var on = chip.dataset.value === picked;
+        chip.classList.toggle('is-on', on);
+        chip.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      apply();
+    }
+
+    chips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        select(picked === chip.dataset.value ? null : chip.dataset.value);
+      });
+    });
+
+    if (resetEl) resetEl.addEventListener('click', function () { select(null); });
+
+    apply();
+  });
+})();
+
+// ポケモン図鑑 (/reborn/mon/) の絞り込み。
+//
+// 807種を1枚に並べてある。操作子は hidden 付きで書き出してあり、ここで外す。
+// JavaScript を切っていても一覧はそのまま残り、Ctrl+F は今までどおり効く。
+(function () {
+  var bar = document.querySelector('.mi-filter');
+  var grid = document.querySelector('.mi-grid');
+  if (!bar || !grid) return;
+
+  var input = document.getElementById('mi-q');
+  var wildEl = document.getElementById('mi-wild');
+  var countEl = bar.querySelector('.ref-count');
+  var resetEl = bar.querySelector('.ref-reset');
+  var cards = [].slice.call(grid.querySelectorAll('.mi-card'));
+  if (!cards.length) return;
+
+  bar.hidden = false;
+
+  // ひらがなで打っても片仮名の種族名に当たるようにする。
+  function norm(s) {
+    return (s || '').normalize('NFKC').toLowerCase()
+      .replace(/[ぁ-ゖ]/g, function (c) {
+        return String.fromCharCode(c.charCodeAt(0) + 0x60);
+      });
+  }
+
+  cards.forEach(function (card) {
+    card._hay = norm((card.getAttribute('data-name') || '') + ' ' + (card.getAttribute('data-en') || ''));
+    card._types = (card.getAttribute('data-types') || '').split(' ');
+    card._wild = card.getAttribute('data-wild') === '1';
+  });
+
+  var picked = [];
+
+  function apply() {
+    var terms = norm(input.value.trim());
+    terms = terms ? terms.split(/\s+/) : [];
+    var wildOnly = wildEl && wildEl.checked;
+    var shown = 0;
+
+    cards.forEach(function (card) {
+      var ok = true;
+      if (picked.length) {
+        ok = false;
+        for (var i = 0; i < picked.length; i++) {
+          if (card._types.indexOf(picked[i]) !== -1) { ok = true; break; }
+        }
+      }
+      if (ok && wildOnly) ok = card._wild;
+      if (ok && terms.length) {
+        ok = terms.every(function (t) { return card._hay.indexOf(t) !== -1; });
+      }
+      card.hidden = !ok;
+      if (ok) shown++;
+    });
+
+    if (countEl) {
+      countEl.textContent = shown === cards.length ? '' : shown + ' / ' + cards.length;
+    }
+    save(terms.length || picked.length || wildOnly);
+  }
+
+  // 絞った状態を URL に残す。人に渡せるようにするため。
+  function save(filtering) {
+    if (!window.history || !history.replaceState) return;
+    var p = new URLSearchParams();
+    if (input.value.trim()) p.set('q', input.value.trim());
+    if (picked.length) p.set('t', picked.join(','));
+    if (wildEl && wildEl.checked) p.set('wild', '1');
+    var s = p.toString();
+    history.replaceState(null, '', (filtering && s ? '?' + s : location.pathname) + location.hash);
+  }
+
+  input.addEventListener('input', apply);
+  if (wildEl) wildEl.addEventListener('change', apply);
+
+  bar.querySelectorAll('.ref-chip').forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      var value = chip.getAttribute('data-value');
+      var at = picked.indexOf(value);
+      if (at === -1) picked.push(value); else picked.splice(at, 1);
+      chip.classList.toggle('is-on', at === -1);
+      chip.setAttribute('aria-pressed', at === -1 ? 'true' : 'false');
+      apply();
+    });
+  });
+
+  if (resetEl) {
+    resetEl.addEventListener('click', function () {
+      input.value = '';
+      picked = [];
+      bar.querySelectorAll('.ref-chip').forEach(function (chip) {
+        chip.classList.remove('is-on');
+        chip.setAttribute('aria-pressed', 'false');
+      });
+      if (wildEl) wildEl.checked = false;
+      apply();
+      input.focus();
+    });
+  }
+
+  // 「/」で検索欄へ。入力中は邪魔しない。
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key !== '/' || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+    var t = ev.target;
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+    ev.preventDefault();
+    input.focus();
+    input.select();
+  });
+
+  // 共有された URL の条件を復元する。
+  (function restore() {
+    var p = new URLSearchParams(location.search);
+    if (p.get('q')) input.value = p.get('q');
+    if (p.get('wild') === '1' && wildEl) wildEl.checked = true;
+    if (p.get('t')) {
+      p.get('t').split(',').forEach(function (value) {
+        var chip = bar.querySelector('.ref-chip[data-value="' + value + '"]');
+        if (!chip) return;
+        picked.push(value);
+        chip.classList.add('is-on');
+        chip.setAttribute('aria-pressed', 'true');
+      });
+    }
+  })();
+
+  apply();
+})();

@@ -27,9 +27,10 @@ module EvolutionIndexPage
     name = EvolutionIndex.species_name(sym, pokemon_hash)
     icon = mon_icon_src(sym, form_index)
     img = icon ? %(<img src="#{icon}" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32">) : ''
-    link = EncounterIndex.has_species?(sym) ? "/reborn/pokemon/?mon=#{sym.to_s.downcase}" : nil
+    # 飛び先はポケモン個別ページ。以前は出現場所ページを絞った状態へ送って
+    # いたが、野生に出ない種族は行き先が無かった。
     inner = %(#{img}<span class="ev-name">#{esc(name)}</span>)
-    link ? %(<a href="#{link}">#{inner}</a>) : inner
+    %(<a class="mon-link" href="#{mon_page_href('reborn', sym)}">#{inner}</a>)
   end
 
   def row_html(row, hashes)

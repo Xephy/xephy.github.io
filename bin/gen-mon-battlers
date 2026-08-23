@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+"""ゲームのバトル絵のシートから、種族×フォルムごとの1コマを切り出す。
+
+Graphics/Battlers/<species>.png は 192px 四方のコマを並べたシート。
+Scripts/Utilities.rb の pbLoadPokemonBitmap がこう読んでいる:
+
+    x = いろちがい ? 192 : 0        # 左が通常色 / 右がいろちがい
+    y = フォルム番号 * 384          # 姿ごとに 384px ずつ下へ
+    y += 192                       # 後ろ姿
+
+つまり姿ごとの絵は同じ1枚の中にある。攻略では正面・通常色だけで足りるので、
+各フォルムの左上のコマを取り出して個別の PNG として書き出す。
+
+:toobig の種族 (ホエルオーなど9種) はシートではなく1枚絵なので、そのまま使う。
+
+  bin/gen-mon-battlers [../Reborn-19.5.0-windows]
+
+出力: src/assets/images/battler/<species>_<form>.png
+"""
+import os
+import re
+import sys
+
+try:
+    from PIL import Image
+except ImportError:
+    sys.exit('Pillow が要ります: pip install --user Pillow')
+
+CELL = 192          # 1コマの辺
+FORM_PITCH = 384    # 正面 + 後ろ姿で1フォルム
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+GAME = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, '..', 'Reborn-19.5.0-windows')
+BATTLERS = os.path.join(GAME, 'Graphics', 'Battlers')
+MONTEXT = os.path.join(GAME, 'Scripts', 'Reborn', 'montext.rb')
+OUT = os.path.join(ROOT, 'src', 'assets', 'images', 'battler')
+
+if not os.path.isdir(BATTLERS):
+    sys.exit(f'バトル絵が見つかりません: {BATTLERS}')
+
+os.makedirs(OUT, exist_ok=True)
+
+with open(MONTEXT, encoding='utf-8', errors='replace') as fh:
+    text = fh.read()
+
+# 種族ごとの姿の数。姿の数だけコマがあるとは限らない (シートが足りないことがある)
+# ので、シートの高さと突き合わせて少ないほうを使う。
+species_forms = {}
+current = None
+for line in text.splitlines():
+    m = re.match(r'^\s+:([A-Za-z0-9_]+) =>\s*\{\s*$', line)
+    if m and not line.startswith('      '):
+        current = m.group(1)
+        species_forms.setdefault(current, 0)
+    elif current and re.match(r'^    "[^"]+" =>', line):
+        species_forms[current] += 1
+
+# 1枚絵として扱う種族 (シートではない)。
+toobig = set()
+for m in re.finditer(r'^  :([A-Za-z0-9_]+) =>(.*?)(?=^  :[A-Za-z0-9_]+ =>|\Z)', text, re.S | re.M):
+    if ':toobig' in m.group(2):
+        toobig.add(m.group(1).lower())
+
+written = skipped = 0
+total_bytes = 0
+for name, forms in sorted(species_forms.items()):
+    path = os.path.join(BATTLERS, name.lower() + '.png')
+    if not os.path.exists(path):
+        skipped += 1
+        continue
+
+    sheet = Image.open(path).convert('RGBA')
+    if name.lower() in toobig:
+        frames = [(0, sheet)]
+    else:
+        available = max(1, sheet.size[1] // FORM_PITCH)
+        frames = [(i, sheet.crop((0, i * FORM_PITCH, CELL, i * FORM_PITCH + CELL)))
+                  for i in range(min(max(forms, 1), available))]
+
+    for form, frame in frames:
+        box = frame.getbbox()
+        if not box:                    # 空のコマ (姿の欠番) は書き出さない
+            continue
+        frame = frame.crop(box)
+        dest = os.path.join(OUT, f'{name.lower()}_{form}.png')
+        frame.save(dest, optimize=True)
+        total_bytes += os.path.getsize(dest)
+        written += 1
+
+print(f'書き出し {written} 枚 / 元が無い種族 {skipped} / 合計 {total_bytes // 1024} KB')
+print(f'出力先: {os.path.relpath(OUT, ROOT)}')

@@ -14,7 +14,7 @@ require_relative 'trainer_getter'
 class FunctionWrapper
   # 資料ページ (わざマシン一覧) が同じデータを使う。読み込み直すと二重に
   # 訳が当たるので、ここで読んだものを渡す。
-  attr_reader :item_hash, :move_hash, :pokemon_hash, :map_hash
+  attr_reader :item_hash, :move_hash, :pokemon_hash, :map_hash, :type_hash, :ability_hash
 
   # 画像の画素サイズ一覧 (bin/convert-images が書き出す)。
   IMAGE_SIZES = begin
@@ -51,6 +51,8 @@ class FunctionWrapper
     @move_hash = @moveHash
     @pokemon_hash = @pokemonHash
     @map_hash = @mapHash
+    @type_hash = @typeHash
+    @ability_hash = @abilityHash
 
     @encGetter = EncounterGetter.new(game, @scriptsDir, @encHash, @mapHash, @encMapWrapper, @pokemonHash,
                                      @itemHash)
@@ -414,12 +416,7 @@ class FunctionWrapper
     # 飛び先はその種族で絞り込んだ状態。素の一覧に飛ばすと595行の中から
     # 探し直すことになり、押した意味が無い。名前の部分一致だと
     # 「ゴース」が「ゴースト」にも当たるので、内部シンボルで指定する。
-    inner = if EncounterIndex.has_species?(mon)
-              doc.create_element('a',
-                                 href: "/#{LONGNAMES[@game]}/pokemon/?mon=#{mon.to_s.downcase}")
-            else
-              doc.create_element('span')
-            end
+    inner = doc.create_element('a', href: mon_page_href(@game, mon), class: 'mon-link')
     wrap.add_child(inner)
 
     icon_src = mon_icon_src(mon, form_index)

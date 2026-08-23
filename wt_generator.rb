@@ -97,6 +97,26 @@ begin
     puts "Generated reference page #{name}.md"
   end
 
+  # ポケモン個別ページ。数が多い (805種) ので専用のディレクトリに置き、
+  # kramdown を通さずに済むよう .html で書き出す。
+  mon_pages = result[:mon_pages] || {}
+  unless mon_pages.empty?
+    mon_dir = File.join(chapters_dir, "#{game}-mon")
+    FileUtils.mkdir_p(mon_dir)
+    written = 0
+    mon_pages.each do |slug, contents|
+      path = File.join(mon_dir, "#{slug}.html")
+      body = "#{contents.strip}\n"
+      # 中身が変わらないファイルは触らない。毎回 805 個を書き換えると、
+      # 生成物をコミットしているこのリポジトリが際限なく膨らむ。
+      next if File.exist?(path) && File.read(path) == body
+
+      File.write(path, body)
+      written += 1
+    end
+    puts "Generated #{mon_pages.length} Pokemon pages in #{mon_dir} (#{written} changed)"
+  end
+
   puts "Generated #{chapters.length} paginated chapter files in #{paginated_dir}"
   puts "Generated contents page at /#{LONGNAMES[game]}/"
 rescue => e

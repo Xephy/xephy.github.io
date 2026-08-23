@@ -16,6 +16,8 @@ require_relative 'machine_index_page'
 require_relative 'evolution_index_page'
 require_relative 'pulsedex_page'
 require_relative 'reference_pages'
+require_relative 'trainer_index'
+require_relative 'mon_page'
 require_relative 'spoiler'
 require_relative 'function_wrapper'
 
@@ -316,6 +318,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
   EncounterIndex.reset!
   ShopIndex.reset!
   TutorIndex.reset!
+  TrainerIndex.reset!
   FieldUsage.reset!
   BadgeIndex.reset!
   DocContext.reset!
@@ -387,10 +390,22 @@ def generate_md_text(game = 'reborn', scripts_dir)
   affinity_page = AffinityIndex.build_page(chapters, LONGNAMES[game])
   pages['affinity'] = affinity_page if affinity_page
 
+  # ポケモン1種につき1ページ。章の索引 (出現・教え人・マシン・トレーナー) が
+  # 出そろってからでないと組めないので、資料ページの後に置く。
+  mon_pages = MonPage.build_pages(LONGNAMES[game], scripts_dir, chapters,
+                                  pokemon: func_wrapper.pokemon_hash,
+                                  item: func_wrapper.item_hash,
+                                  move: func_wrapper.move_hash,
+                                  type: func_wrapper.type_hash,
+                                  ability: func_wrapper.ability_hash,
+                                  map: func_wrapper.map_hash,
+                                  field: load_field_hash(game, scripts_dir))
+
   {
     monolithic: res.strip,
     chapters: chapters,
     index: index,
-    pages: pages
+    pages: pages,
+    mon_pages: mon_pages
   }
 end

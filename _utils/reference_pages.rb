@@ -10,6 +10,7 @@ module ReferencePages
   module_function
 
   PAGES = [
+    { slug: 'mon', label: 'ポケモン図鑑', en: 'Pokedex' },
     { slug: 'pokemon', label: 'ポケモンの出現場所', en: 'Wild Encounters' },
     { slug: 'shops', label: 'どうぐの買える店', en: 'Shop Index' },
     { slug: 'tms', label: 'わざマシン一覧', en: 'TM & HM List' },

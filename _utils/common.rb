@@ -26,7 +26,30 @@ def mon_icon_src(species, form = 0)
   MON_ICON_INDEX.include?(file) ? "/assets/images/mon/#{file}" : nil
 end
 
+# 種族×フォルムのバトル絵。bin/gen-mon-battlers がゲームのシートから切り出す。
+# ポケモン個別ページの見出しに置く。無ければ nil を返し、絵なしで描く。
+MON_BATTLER_DIR = File.join(ROOT_DIR, 'src', 'assets', 'images', 'battler')
+MON_BATTLER_INDEX = (Dir.exist?(MON_BATTLER_DIR) ? Dir.children(MON_BATTLER_DIR) : []).to_set.freeze
+
+def mon_battler_src(species, form = 0)
+  return nil unless species
+
+  base = species.to_s.downcase
+  file = "#{base}_#{form.to_i}.png"
+  file = "#{base}_0.png" unless MON_BATTLER_INDEX.include?(file)
+  MON_BATTLER_INDEX.include?(file) ? "/assets/images/battler/#{file}" : nil
+end
+
 LONGNAMES = { 'reborn' => 'reborn', 'rejuv' => 'rejuvenation', 'deso' => 'desolation'}
+
+# ポケモン個別ページへの道。本文のアイコン・名前と、資料ページの行から
+# すべてここへ集める。飛び先が1つに決まっていないと、読者は同じ種族を
+# 探すのに毎回ちがう場所へ連れて行かれる。
+def mon_page_href(game, species)
+  return nil unless species
+
+  "/#{LONGNAMES[game] || game}/mon/#{species.to_s.downcase}/"
+end
 
 # 英語名は !battle の第2引数がこの綴りで書かれているため、訳す前の値も残す。
 FIELDS_EN = {

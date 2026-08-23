@@ -1,5 +1,6 @@
 require_relative 'common'
 require_relative 'field_notes'
+require_relative 'trainer_index'
 require_relative 'field_usage'
 require 'set'
 
@@ -230,6 +231,11 @@ class TrainerGetter
       if fight_is_boss || mon[:boss]
         pokemon_name = "#{mon[:boss] ? JaNames.ui("Boss ") : JaNames.ui("SOS ")}#{pokemon_name}"
       end
+
+      # 「このポケモンを使うトレーナーは誰か」の逆引き。ポケモン個別ページが使う。
+      # 表を組んでいるこの場で拾うので、画面に出る手持ちと数が食い違わない。
+      TrainerIndex.record(species: mon[:species], form: form, level: mon[:level],
+                          trainer: trainer_name)
 
       # Some mons, like alt color Joltik, are custom forms without form data...
       if form_key == nil 
@@ -602,6 +608,11 @@ class TrainerGetter
 
       # 種族のアイコン。bin/gen-mon-icons がゲームのシートから切り出したもの。
       # 1ページに数百個並ぶので loading="lazy" で画面に入るまで読ませない。
+      # アイコンと名前はポケモン個別ページへの入口にする。本文の表は
+      # 「このトレーナーが何を使うか」しか答えないので、その種族について
+      # 知りたくなったときの行き先をここに置く。
+      mon_href = mon_page_href(@game, mon[:species])
+
       icon_src = mon_icon_src(mon[:species], form)
       if icon_src
         icon = doc.create_element('img')
@@ -611,14 +622,18 @@ class TrainerGetter
         icon['loading'] = 'lazy'
         icon['width'] = '48'
         icon['height'] = '48'
-        head.add_child(icon)
+        icon_link = doc.create_element('a', href: mon_href, class: 'mon-link')
+        icon_link.add_child(icon)
+        head.add_child(icon_link)
       end
 
       ident = doc.create_element('div')
       ident['class'] = 'mon-id'
       name_el = doc.create_element('strong', pokemon_name)
       name_el['class'] = 'mon-name'
-      ident.add_child(name_el)
+      name_link = doc.create_element('a', href: mon_href, class: 'mon-link')
+      name_link.add_child(name_el)
+      ident.add_child(name_link)
       meta_el = doc.create_element('span', mon_meta)
       meta_el['class'] = 'mon-meta'
       ident.add_child(meta_el)

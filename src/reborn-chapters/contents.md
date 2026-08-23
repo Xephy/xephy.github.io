@@ -4,7 +4,7 @@ permalink: /reborn/
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年8月23日 04:22 GMT</h5>
+<h5> 最終更新 2026年8月23日 21:39 GMT</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/all/">全文を1ページで読む</a></p>
 
@@ -470,6 +470,7 @@ permalink: /reborn/
 <section class="book-toc-chapter book-toc-ref">
   <h3>資料</h3>
   <ul>
+    <li><a href="/reborn/mon/">ポケモン図鑑</a></li>
     <li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li>
     <li><a href="/reborn/shops/">どうぐの買える店</a></li>
     <li><a href="/reborn/tms/">わざマシン一覧</a></li>

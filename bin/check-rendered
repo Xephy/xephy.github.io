@@ -24,6 +24,7 @@ OptionParser.new do |o|
   o.on('--postgame N', Integer) { |v| opts[:postgame] = v } # 訳し終えたクリア後の話数まで
   o.on('--appendices') { opts[:appendices] = true }
   o.on('--extra') { opts[:extra] = true } # 目次・全文・404 も見る
+  o.on('--mon N', Integer) { |v| opts[:mon] = v } # ポケモン個別ページを N 種ぶん見る
 end.parse!
 
 # 意図して英語のまま残すもの。パスワードは入力する文字列なので訳せない。
@@ -59,7 +60,7 @@ JAPANESE = /[\p{Hiragana}\p{Katakana}\p{Han}]/
 # 意図して英語のまま残す語。Lv. はゲーム内表記、LCCC は施設名、
 # larr/rarr/amp は HTML 実体参照の残骸。
 KEEP = ['Lv.', 'LCCC', 'larr', 'rarr', 'amp', 'HP', 'VS', 'BP', 'PULSE',
-        'outlier.corruption', 'Reborn'].freeze
+        'outlier.corruption', 'Reborn', 'No.'].freeze
 # グリッチシティのバグポケモン風の名前は、文字化けそのものが演出。
 # パッチ側も意図的に英語のまま残しているので、未訳として数えない。
 # グリッチシティのバグポケモン風の名前。文字化けそのものが演出で、パッチ側も
@@ -109,6 +110,18 @@ findings = Hash.new { |h, k| h[k] = [] }
 paths = (1..opts[:upto]).map { |n| ["ep#{n}", "/reborn/episode-#{n}/"] }
 paths += (1..opts[:postgame]).map { |n| ["post#{n}", "/reborn/postgame-episode-#{n}/"] }
 paths << ['appx', '/reborn/appendices/'] if opts[:appendices]
+
+# ポケモン個別ページ。808ページ全部は取りに行かないので、図鑑番号の順に
+# 等間隔で抜いて見る。一覧ページは種族名とタイプしか無いが、絞り込みの
+# 操作子に未訳が残りやすいので必ず見る。
+if opts[:mon]
+  mon_dir = File.expand_path('../src/reborn-mon', __dir__)
+  slugs = Dir.glob(File.join(mon_dir, '*.html')).map { |f| File.basename(f, '.html') }
+             .reject { |slug| slug == 'index' }.sort
+  step = [slugs.length / [opts[:mon], 1].max, 1].max
+  paths << ['図鑑', '/reborn/mon/']
+  slugs.each_slice(step) { |group| paths << [group.first, "/reborn/mon/#{group.first}/"] }
+end
 if opts[:extra]
   paths << ['目次', '/reborn/']
   paths << ['全文', '/reborn/all/']
@@ -120,6 +133,9 @@ paths.each do |label, path|
   html = fetch(opts[:port], path) or next
   body = html.split('id="main_content"', 2).last.to_s.split('<footer', 2).first.to_s
   body = body.gsub(%r{<script.*?</script>}m, '')
+  # ポケモン個別ページの見出しに添える英語名は、英語で引く読者のために
+  # 意図して出している。未訳として数えない。
+  body = body.gsub(%r{<span class="md-en">[^<]*</span>}, '')
 
   body.scan(/\b(?:title|alt)="([^"]+)"/).flatten.each do |attr|
     next if attr.empty? || attr.match?(JAPANESE)
@@ -130,7 +146,10 @@ paths.each do |label, path|
   # 日本語を含む行は丸ごと除外していたため、
   #   「Celestinine Cascade East 出現ポケモン: なみのり」
   # のような混在行の未訳を取りこぼしていた。断片単位で見る。
-  body.scan(/>([^<>]+)</).flatten.each do |text|
+  body.scan(/>([^<>]+)</).flatten.each do |raw|
+    # 実体参照はそのままだと quot・amp が英単語として数えられる。
+    text = raw.gsub('&quot;', '"').gsub('&#39;', "'").gsub('&lt;', '<')
+              .gsub('&gt;', '>').gsub('&amp;', '&')
     text.scan(/[A-Za-z][A-Za-z'.\- ]{2,}/).each do |fragment|
       t = fragment.strip
       next if t.length < 3 || t.match?(NAV) || t.match?(GLITCH)

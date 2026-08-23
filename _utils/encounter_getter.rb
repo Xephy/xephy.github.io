@@ -203,6 +203,10 @@ class EncounterGetter
 
         # 種族のアイコン。トレーナー戦の表と同じものを使い、目で種族を
         # 見分けられるようにする。1ページに数百個並ぶので遅延読み込み。
+        # アイコンと名前からポケモン個別ページへ飛べるようにする。
+        mon_link = doc.create_element('a', href: mon_page_href(@game, mon), class: 'mon-link')
+        td_name.add_child(mon_link)
+
         icon_src = mon_icon_src(mon, form_index)
         if icon_src
           icon = doc.create_element('img')
@@ -212,7 +216,7 @@ class EncounterGetter
           icon['loading'] = 'lazy'
           icon['width'] = '32'
           icon['height'] = '32'
-          td_name.add_child(icon)
+          mon_link.add_child(icon)
         end
 
         # 初出の種族は太字。以降は普通の字。
@@ -220,7 +224,7 @@ class EncounterGetter
         name_el['class'] = 'enc-mon-name'
         name_el.content = pokemon_name_formatted
         @encStore.add(pokemon_name_formatted)
-        td_name.add_child(name_el)
+        mon_link.add_child(name_el)
         tr.add_child(td_name)
 
         # Add levels to the second column

@@ -2736,3 +2736,427 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
 
   a { color: #000000; text-decoration: none; }
 }
+
+/* ============================================================================
+   ポケモン個別ページ (/reborn/mon/<種族>/)
+   --------------------------------------------------------------------------
+   1ページに8つの節が並ぶので、本文の h2 (23px・上に56px) のままでは間延び
+   する。節は小さめの見出しにして、中身は札 (.md-card) に分ける。
+   色と枠線は資料ページに合わせてあり、この画面だけ浮かないようにしている。
+   ========================================================================= */
+
+#main_content .md-sec { margin: 26px 0; }
+#main_content .md-sec h2 { margin: 0 0 12px; font-size: 19px; }
+
+/* --- 上の帯。バトル絵・図鑑番号・名前・前後の導線 --- */
+.md-hero {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin: 14px 0 16px;
+  padding: 14px 18px;
+  border: 1px solid #d8dde3;
+  border-radius: 8px;
+  background: #f7f9fb;
+}
+
+.md-hero-art {
+  width: 92px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #e3e7ec;
+  border-radius: 8px;
+}
+
+/* 姿を切り替えると絵も差し替わる。表示するのは選ばれている1枚だけ。 */
+#main_content .md-hero-art img {
+  max-width: 84px;
+  max-height: 84px;
+  image-rendering: pixelated;
+  border: 0;
+  display: none;
+}
+
+#main_content .md-hero-art img.is-on { display: block; }
+
+.md-hero-dex { margin: 0; color: #687381; font-size: 12.5px; font-variant-numeric: tabular-nums; }
+.md-hero-name { margin: 0; font-size: 26px; font-weight: 700; line-height: 1.3; }
+.md-hero-name span { margin-left: 10px; color: #687381; font-size: 15px; font-weight: normal; }
+.md-hero-nav { margin-left: auto; display: flex; gap: 16px; font-size: 13px; }
+.md-hero-nav a { white-space: nowrap; }
+.md-hero-nav span { color: #8a929c; margin: 0 4px; }
+
+/* --- 姿の切り替えと、わざの切り替え --- */
+.md-forms { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 16px; }
+.md-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 0 0 12px; }
+
+.md-form, .md-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border: 1px solid #c7ced7;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #1a1a1a;
+  font: inherit;
+  font-size: 13.5px;
+  cursor: pointer;
+}
+
+#main_content .md-form img { image-rendering: pixelated; border: 0; }
+.md-form.is-on, .md-tab.is-on { background: #2b6cb0; border-color: #2b6cb0; color: #ffffff; font-weight: 600; }
+.md-tab span { font-size: 11.5px; opacity: 0.8; font-variant-numeric: tabular-nums; }
+.md-part, .md-panel { display: none; }
+.md-part.is-on, .md-panel.is-on { display: block; }
+
+/* 節の飛び先。姿を切り替えても位置が動かないよう、中身とは別に置いている。 */
+.md-anchor { display: block; height: 0; scroll-margin-top: 16px; }
+
+/* --- ページ内の飛び先 --- */
+.md-jump { display: flex; gap: 6px 16px; flex-wrap: wrap; margin: 0 0 4px; font-size: 13px; }
+.md-jump a { color: #4f5a64; text-decoration: none; border-bottom: 1px dotted #b9c1cb; }
+.md-jump a:hover { color: #2b6cb0; }
+
+/* --- 要点の帯 --- */
+.md-summary {
+  display: flex;
+  align-items: center;
+  gap: 12px 26px;
+  flex-wrap: wrap;
+  margin: 0 0 14px;
+  padding: 12px 16px;
+  border: 1px solid #e3e7ec;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.md-summary-types { display: flex; gap: 6px; }
+.md-facts { display: flex; flex-wrap: wrap; gap: 10px 26px; margin: 0; }
+.md-facts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px 24px; }
+
+/* 本文の dd は字下げ + 斜体。数値を並べるここでは戻す。 */
+#main_content .md-facts dt { margin: 0; padding: 0; color: #687381; font-size: 11.5px; }
+#main_content .md-facts dd {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-fact dd strong { font-size: 16px; }
+.md-sub { color: #687381; font-size: 11.5px; margin-left: 5px; }
+
+/* --- 札 --- */
+.md-card {
+  margin: 0 0 12px;
+  padding: 13px 16px 15px;
+  border: 1px solid #d8dde3;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+#main_content .md-card-title {
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2b4b6b;
+  letter-spacing: 0.02em;
+}
+
+.md-count { margin-left: 6px; color: #687381; font-size: 12px; font-weight: normal; font-variant-numeric: tabular-nums; }
+.md-note { margin: 10px 0 0; color: #687381; font-size: 12px; line-height: 1.7; }
+.md-empty { color: #8a929c; margin: 0; }
+.md-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 12px; }
+.md-cols .md-card { margin: 0; }
+
+/* --- とくせい --- */
+.md-ability { margin: 0 0 8px; line-height: 1.7; }
+.md-ability:last-child { margin-bottom: 0; }
+.md-ability strong { margin-right: 8px; }
+.md-ability span { color: #4f5a64; font-size: 13px; }
+
+.md-tag {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 1px 7px;
+  border-radius: 4px;
+  background: #ede4f7;
+  color: #5b3a8a;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* --- 種族値 --- */
+.md-stats { display: grid; gap: 6px; }
+.md-stat { display: grid; grid-template-columns: 4.6em 2.4em 1fr; align-items: center; gap: 8px; }
+.md-stat-name { color: #4f5a64; font-size: 13px; }
+.md-stat-num { text-align: right; font-size: 13.5px; font-variant-numeric: tabular-nums; }
+.md-stat-bar { display: block; height: 9px; border-radius: 5px; background: #edf1f5; overflow: hidden; }
+.md-stat-bar i { display: block; height: 100%; border-radius: 5px; background: linear-gradient(90deg, #5aa8dd, #7b78d4); }
+
+/* --- タイプ相性 --- */
+.md-match { display: flex; align-items: center; gap: 10px; padding: 6px 0; flex-wrap: wrap; }
+.md-match + .md-match { border-top: 1px solid #eef1f5; }
+
+.md-match-label {
+  min-width: 3.6em;
+  padding: 1px 8px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #8a929c;
+}
+
+.md-match-x4 .md-match-label { background: #b3261e; }
+.md-match-x2 .md-match-label { background: #cc5c28; }
+.md-match-half .md-match-label { background: #2f7d4f; }
+.md-match-quarter .md-match-label { background: #1f6f6b; }
+.md-match-zero .md-match-label { background: #4a5764; }
+.md-match-list { display: flex; gap: 5px; flex-wrap: wrap; }
+
+/* --- 進化 --- */
+.md-evo-line { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 7px 0; }
+.md-evo-line + .md-evo-line { border-top: 1px solid #eef1f5; }
+.md-evo-node { display: inline-flex; align-items: center; }
+.md-evo-node.is-self { padding: 2px 10px; border-radius: 999px; background: #eaf2fa; font-weight: 700; }
+.md-evo-arrow { display: flex; flex-direction: column; align-items: center; color: #687381; font-size: 15px; line-height: 1.2; }
+.md-evo-arrow em { font-style: normal; font-size: 11.5px; }
+.md-evo-mega { padding: 2px 12px; border-radius: 999px; background: #f2e8f9; color: #5b3a8a; font-size: 13px; }
+.md-monlink { display: inline-flex; align-items: center; gap: 5px; text-decoration: none; }
+#main_content .md-monlink img { image-rendering: pixelated; border: 0; }
+
+/* --- 出現場所 --- */
+#main_content .md-places { margin: 0; padding: 0; list-style: none; }
+
+#main_content .md-places li {
+  display: flex;
+  align-items: baseline;
+  gap: 4px 10px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 5px 0;
+  line-height: 1.7;
+}
+
+#main_content .md-places li + li { border-top: 1px solid #f1f4f7; }
+.md-place-name { font-size: 14px; }
+.md-helds { display: flex; gap: 8px; flex-wrap: wrap; margin: 0; }
+
+.md-held {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 2px 12px;
+  border-radius: 999px;
+  background: #fbeed8;
+  color: #7c5310;
+  font-size: 13px;
+}
+
+.md-held span { font-size: 11.5px; color: #98703a; font-variant-numeric: tabular-nums; }
+
+/* --- わざの表。列幅は colgroup で決めている --- */
+.md-scroll { overflow-x: auto; max-width: 100%; }
+#main_content .md-moves { width: 100%; margin: 0; border: 0; border-collapse: collapse; font-size: 13.5px; }
+
+#main_content .md-moves th {
+  padding: 4px 8px;
+  border: 0;
+  border-bottom: 1px solid #d8dde3;
+  background: transparent;
+  color: #687381;
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
+#main_content .md-moves td {
+  padding: 5px 8px;
+  border: 0;
+  border-bottom: 1px solid #f1f4f7;
+  white-space: normal;
+  vertical-align: middle;
+}
+
+#main_content .md-moves tbody tr:nth-child(even) td { background: transparent; }
+#main_content .md-moves tbody tr:hover td { background: #f7f9fb; }
+.md-moves .md-lead, .md-moves .md-cat, .md-moves .md-num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.md-moves .md-num { text-align: right; }
+.md-moves .md-cat { color: #4f5a64; }
+.md-tm-no { font-size: 12.5px; }
+#main_content .md-moves .md-tb { min-width: 4.8em; padding: 0 6px; margin-right: 7px; font-size: 11px; }
+.md-move-name { border-bottom: 1px dotted transparent; }
+.md-move-name[title]:hover { border-bottom-color: #b9c1cb; cursor: help; }
+.md-where { color: #4f5a64; font-size: 12.5px; }
+.md-price { margin-left: 6px; color: #687381; font-size: 11.5px; white-space: nowrap; }
+
+/* --- ひでんわざ。覚えられないものは枠だけ残す --- */
+.md-hms { display: flex; gap: 7px; flex-wrap: wrap; margin: 0; }
+.md-hm { padding: 3px 12px; border-radius: 999px; border: 1px dashed #ccd3db; color: #9aa2ac; font-size: 12.5px; }
+.md-hm.is-ok { border: 1px solid #2b6cb0; background: #eaf2fa; color: #1f4e79; font-weight: 600; }
+
+/* --- フィールド相性 --- */
+.md-field { display: grid; grid-template-columns: 11em 1fr; gap: 4px 14px; padding: 8px 0; }
+.md-field + .md-field { border-top: 1px solid #eef1f5; }
+.md-field-name { font-size: 13.5px; }
+.md-field-body { display: flex; flex-direction: column; gap: 6px; }
+.md-field-type { font-size: 12.5px; color: #4f5a64; }
+.md-field-moves { display: flex; gap: 5px; flex-wrap: wrap; align-items: baseline; }
+.md-mchip { padding: 1px 8px; border-radius: 4px; background: #eef1f5; color: #3c4650; font-size: 12px; }
+
+/* --- たまごグループ / トレーナー --- */
+#main_content .md-eggmates { columns: 4 11em; column-gap: 18px; margin: 10px 0 0; }
+.md-eggmates .md-monlink { display: block; padding: 1px 0; font-size: 13px; break-inside: avoid; }
+#main_content .md-trainers { margin: 10px 0 0; padding: 0; list-style: none; }
+#main_content .md-trainers li { display: flex; gap: 4px 10px; align-items: baseline; flex-wrap: wrap; padding: 4px 0; }
+#main_content .md-trainers li + li { border-top: 1px solid #f1f4f7; }
+#main_content .md-card details summary { cursor: pointer; color: #2b6cb0; font-size: 13.5px; }
+
+/* --- 夜間モード --- */
+body.night-mode .md-hero { background: #1b1f25; border-color: #333a44; }
+body.night-mode .md-hero-art { background: #23272e; border-color: #333a44; }
+body.night-mode .md-summary,
+body.night-mode .md-card { background: #1a1d22; border-color: #333a44; }
+body.night-mode .md-form,
+body.night-mode .md-tab { background: #23272e; border-color: #454e5a; color: #e8eaed; }
+body.night-mode .md-form.is-on,
+body.night-mode .md-tab.is-on { background: #3f7fbf; border-color: #3f7fbf; color: #ffffff; }
+body.night-mode #main_content .md-card-title { color: #a8c3e0; }
+body.night-mode .md-ability span,
+body.night-mode .md-where,
+body.night-mode .md-field-type,
+body.night-mode .md-moves .md-cat,
+body.night-mode .md-stat-name,
+body.night-mode .md-jump a { color: #b3bac3; }
+body.night-mode .md-stat-bar { background: #2a2f36; }
+body.night-mode .md-match + .md-match,
+body.night-mode .md-evo-line + .md-evo-line,
+body.night-mode .md-field + .md-field,
+body.night-mode #main_content .md-places li + li,
+body.night-mode #main_content .md-trainers li + li { border-color: #2a2f36; }
+body.night-mode #main_content .md-moves th { border-bottom-color: #3a424c; color: #9aa4b0; }
+body.night-mode #main_content .md-moves td { border-bottom-color: #262b31; }
+body.night-mode #main_content .md-moves tbody tr:hover td { background: #23272e; }
+body.night-mode .md-mchip { background: #2a2f36; color: #d7dae0; }
+body.night-mode .md-hm { border-color: #3a424c; color: #79828d; }
+body.night-mode .md-hm.is-ok { background: #1f3348; border-color: #3f7fbf; color: #bcd8f2; }
+body.night-mode .md-held { background: #3a2f1d; color: #e0b46a; }
+body.night-mode .md-held span { color: #b9975a; }
+body.night-mode .md-evo-mega,
+body.night-mode .md-tag { background: #33254a; color: #cbb2ec; }
+body.night-mode .md-evo-node.is-self { background: #1f3348; }
+
+/* --- 狭い画面 --- */
+@media (max-width: 600px) {
+  .md-hero { gap: 12px; padding: 12px 14px; }
+  .md-hero-art { width: 72px; height: 72px; }
+  #main_content .md-hero-art img.is-on { max-width: 64px; max-height: 64px; }
+  .md-hero-name { font-size: 21px; }
+  .md-hero-name span { display: block; margin: 2px 0 0; }
+  .md-hero-nav { margin-left: 0; width: 100%; justify-content: space-between; }
+  .md-field { grid-template-columns: 1fr; }
+  #main_content .md-eggmates { columns: 2 7em; }
+  .md-card { padding: 12px 13px 14px; }
+}
+
+/* --- ポケモン図鑑の一覧 (/reborn/mon/) --- */
+.mi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 6px 10px;
+  margin: 16px 0;
+}
+
+/* 名前を1行目、図鑑番号とタイプを2行目に置く。横一列に並べると、
+   「リザードン」のような長い名前が縦に割れて行の高さが揃わなくなる。 */
+.mi-card {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px;
+  border: 1px solid #e3e7ec;
+  border-radius: 6px;
+  background: #ffffff;
+  text-decoration: none;
+  color: inherit;
+}
+
+.mi-body { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+.mi-meta { display: flex; align-items: center; gap: 4px 6px; flex-wrap: wrap; }
+
+.mi-card:hover { border-color: #2b6cb0; background: #f7f9fb; }
+#main_content .mi-icon { image-rendering: pixelated; border: 0; flex: none; }
+.mi-dex { color: #687381; font-size: 11px; font-variant-numeric: tabular-nums; }
+.mi-name { font-size: 14px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mi-types { display: flex; gap: 3px; flex-wrap: wrap; }
+.mi-types .type-badge { min-width: 0; padding: 0 6px; font-size: 10.5px; }
+
+body.night-mode .mi-card { background: #1a1d22; border-color: #333a44; }
+body.night-mode .mi-card:hover { background: #23272e; border-color: #3f7fbf; }
+
+@media (max-width: 600px) {
+  .mi-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  .mi-card { padding: 5px 8px; }
+  .mi-types .type-badge { padding: 0 4px; font-size: 10px; }
+}
+
+/* --- 本文からポケモン個別ページへの入口 ---
+   トレーナーの手持ち・出現表・進化の一覧など、種族名が出るところは
+   すべて個別ページへ繋がる。数が多い (本文だけで 8,800 箇所) ので、
+   青字にすると画面が青だらけになる。付録の持ち物の表と同じ扱いにして、
+   文字色は本文のまま、名前の下に点線を敷く。 */
+#main_content a.mon-link { text-decoration: none; color: inherit; }
+#main_content .mon-head > a.mon-link { flex: 0 0 auto; display: inline-flex; }
+
+#main_content a.mon-link .mon-name,
+#main_content a.mon-link .enc-mon-name,
+#main_content a.mon-link .ev-name,
+#main_content a.mon-link .pdx-name {
+  border-bottom: 1px dotted #8fa6bd;
+}
+
+#main_content a.mon-link:hover .mon-name,
+#main_content a.mon-link:hover .enc-mon-name,
+#main_content a.mon-link:hover .ev-name,
+#main_content a.mon-link:hover .pdx-name {
+  border-bottom-style: solid;
+}
+
+body.night-mode #main_content a.mon-link .mon-name,
+body.night-mode #main_content a.mon-link .enc-mon-name,
+body.night-mode #main_content a.mon-link .ev-name,
+body.night-mode #main_content a.mon-link .pdx-name {
+  border-bottom-color: #6d8199;
+}
+
+/* --- 覚えるわざのタイプ絞り込み --- */
+.md-mv-filter {
+  display: flex;
+  align-items: center;
+  gap: 5px 6px;
+  flex-wrap: wrap;
+  margin: 0 0 12px;
+  padding: 8px 0 0;
+  border-top: 1px solid #eef1f5;
+}
+
+.md-mv-filter .ref-chip-label { margin-right: 2px; }
+.md-mv-filter .ref-chip { min-width: 0; padding: 2px 8px; font-size: 12px; }
+.md-mv-filter .ref-count { margin-left: 4px; color: #687381; font-size: 12px; font-variant-numeric: tabular-nums; }
+
+/* そのタブに1本も無いタイプ。押せる状態のままだと空振りするので薄くする。 */
+.md-mv-filter .ref-chip.is-off { opacity: 0.35; }
+.md-mv-filter .ref-reset { margin-left: auto; }
+.md-mv-empty { margin: 10px 0 0; }
+
+body.night-mode .md-mv-filter { border-top-color: #2a2f36; }
+body.night-mode .md-mv-filter .ref-count { color: #9aa4b0; }
