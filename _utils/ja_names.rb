@@ -176,10 +176,14 @@ module JaNames
     end
 
     # 更新日時。英語の "21 Aug 2026 @ 20:13 GMT" は日本語ページでは読みにくい。
+    # 生成した時刻。原文は GMT 表記だが、生成しているのは手元の時計なので、
+    # そのまま GMT と書くと実際とずれる (JST で生成すると9時間ずれた表示になる)。
+    # 日本語版は日本時間で書き、読む人がほぼ日本にいるので時間帯の名前は出さない。
+    # 英語版は原文どおりの表記なので、こちらは本当に UTC へ直してから書く。
     def timestamp(time)
-      return "#{time.strftime('%d %b %Y @ %H:%M')} GMT" unless enabled?
+      return "#{time.getutc.strftime('%d %b %Y @ %H:%M')} GMT" unless enabled?
 
-      "#{time.strftime('%Y年%-m月%-d日 %H:%M')} GMT"
+      time.getlocal('+09:00').strftime('%Y年%-m月%-d日 %H:%M')
     end
 
     # !enc(...) の第4引数で上書きされるマップ名。ショップ名と同じく著者の手書きで、
