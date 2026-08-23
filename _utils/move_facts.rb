@@ -62,6 +62,7 @@ module MoveFacts
         additional: body.include?('def pbAdditionalEffect'),
         hits: hit_count(body),
         drain: drain_share(body),
+        heal: heal_share(body),
         body: body
       }
     end
@@ -87,23 +88,18 @@ module MoveFacts
   # 例: ロックカットの中には「ロッキーフィールドなら+3」「クリスタルの
   # どうくつなら+2 とこうげき+1 ととくこう+1」という枝があり、素の効果は
   # else の +2。なきごえは statdrop = 1 が素で、コンサートフィールドだけ 2。
-  def stat_changes(body, move_sym)
-    changes = {}
-    varies = {}
+  # 効果クラスの中を1行ずつ見る。行がどの枝の中にいるかを添えて返す。
+  #
+  #   skip   … 素の効果ではない枝の中 (フィールド・天候・とくせい・別のわざ)
+  #   branch … その枝が場面によるものか (印を付けるかの判断に使う)
+  #
+  # else は素の側なので、直前の枝の判定を打ち消す。
+  def each_effect_line(body, move_sym)
     stack = []
-    loop_var = nil
-    loop_stats = []
 
     body.each_line do |line|
       indent = line[/\A */].length
       stack.pop while stack.any? && indent < stack.last[:indent]
-
-      # 「for stat in [PBStats::ATTACK, PBStats::SPEED]」の並びを覚えておく。
-      if (loop = line.strip.match(STAT_LOOP))
-        loop_var = loop[1]
-        loop_stats = loop[2].scan(/PBStats::(\w+)/).flatten
-        next
-      end
 
       if (m = line.match(/\A\s*(?:if|elsif)\b(.*)/))
         stack.pop if stack.any? && stack.last[:indent] == indent
@@ -113,7 +109,6 @@ module MoveFacts
       end
 
       if line.match?(/\A\s*else\b/)
-        # else は素の側。同じ深さの枝を、読む側に置き換える。
         stack.pop if stack.any? && stack.last[:indent] == indent
         stack.push(indent: indent, skip: false, field: false)
         next
@@ -121,6 +116,27 @@ module MoveFacts
 
       if line.match?(/\A\s*end\b/)
         stack.pop if stack.any? && stack.last[:indent] == indent
+        next
+      end
+
+      inline = field_condition?(line)
+      skip = inline || skip_condition?(line, move_sym) || stack.any? { |frame| frame[:skip] }
+      branch = inline || stack.any? { |frame| frame[:field] }
+      yield(line, skip, branch)
+    end
+  end
+
+  def stat_changes(body, move_sym)
+    changes = {}
+    varies = {}
+    loop_var = nil
+    loop_stats = []
+
+    each_effect_line(body, move_sym) do |line, skip, branch|
+      # 「for stat in [PBStats::ATTACK, PBStats::SPEED]」の並びを覚えておく。
+      if (loop = line.strip.match(STAT_LOOP))
+        loop_var = loop[1]
+        loop_stats = loop[2].scan(/PBStats::(\w+)/).flatten
         next
       end
 
@@ -137,17 +153,11 @@ module MoveFacts
               end
       next if stats.empty?
 
-      # 行末の後置 if も枝として数える。
-      inline_field = field_condition?(line)
-      in_field = inline_field || stack.any? { |frame| frame[:field] }
-      skip = inline_field || skip_condition?(line, move_sym) ||
-             stack.any? { |frame| frame[:skip] }
-
       values = arg =~ /\A\d+\z/ ? [arg.to_i] : assignments(body, arg)
 
       stats.each do |name|
         key = [who, direction, name]
-        varies[key] = true if in_field || values.uniq.length > 1
+        varies[key] = true if branch || values.uniq.length > 1
         next if skip || values.empty?
 
         (changes[key] ||= []).concat(values)
@@ -160,9 +170,11 @@ module MoveFacts
     end
   end
 
-  # フィールドで分岐しているか。
+  # 場面で分岐しているか。フィールド・天候・とくせい・どうぐ・クレスト。
+  # ここに当たる枝の値は「素の効果」ではないので、数字には採らない。
   def field_condition?(condition)
-    condition.match?(/@battle\.FE|PBFields|ProgressiveFieldCheck/)
+    condition.match?(/@battle\.FE|PBFields|ProgressiveFieldCheck|pbWeather|
+                      \.ability\s*==|hasWorkingItem|crested/x)
   end
 
   # 読み飛ばす枝か。フィールドの枝と、別のわざ向けの枝。
@@ -218,6 +230,59 @@ module MoveFacts
     fixed.length == 1 && fixed.first > 1 ? { fixed: fixed.first } : nil
   end
 
+  # 最大HPのうち、何割を回復するか。
+  #
+  #   attacker.pbRecoverHP(((attacker.totalhp + 1) / 2).floor)  … 自分の 1/2
+  #   hpgain = (attacker.totalhp * 2 / 3.0).floor               … 自分の 2/3
+  #   attacker.pbRecoverHP(attacker.totalhp - attacker.hp)      … 全回復
+  #
+  # 天候・フィールド・とくせいで変わる枝は数字に採らず、印だけ付ける
+  # (あさのひざしは晴れで増え、すなあつめは砂嵐で増える)。
+  def heal_share(body)
+    base = nil
+    varies = false
+
+    each_effect_line(body, nil) do |line, skip, _branch|
+      # 括弧の対応は数えず、行の残りをそのまま式として見る。
+      # ((attacker.totalhp + 1) / 2).floor のような入れ子で、最初の
+      # 閉じ括弧までしか採らないと割る数を見落とす。
+      text = line.chomp
+      expr = text[/pbRecoverHP\((.+)\z/, 1] || text[/hpgain\s*=\s*(.+)\z/, 1]
+      next unless expr && expr.include?('totalhp')
+
+      share = heal_fraction(expr)
+      next unless share
+
+      if skip
+        varies = true
+      elsif base.nil?
+        who = expr.include?('opponent.totalhp') ? :other : :self
+        base = { who: who, fraction: share }
+      end
+    end
+
+    return nil unless base
+
+    base.merge(varies: varies)
+  end
+
+  # 式から割合を読む。読めない書き方は nil (数字を出さない)。
+  def heal_fraction(expr)
+    return Rational(1) if expr.match?(/totalhp\s*-/) || expr.match?(/totalhp\s*\)?\s*\.floor\s*\z/)
+    if (m = expr.match(%r{totalhp[^*/]*\*\s*(\d+)\s*/\s*([\d.]+)}))
+      return Rational(m[1].to_i, m[2].to_f.round)
+    end
+    if (m = expr.match(%r{totalhp[^*/]*\*\s*([\d.]+)}))
+      return m[1].to_f.rationalize(0.02)
+    end
+    if (m = expr.match(%r{totalhp[^/]*/\s*([\d.]+)}))
+      value = m[1].to_f
+      return value.zero? ? nil : Rational(1) / value.rationalize(0.02)
+    end
+
+    nil
+  end
+
   # 与えたダメージのうち、何割を回復するか。
   #
   #   hpgain = ((damage + 1) / 2).floor      … 1/2
@@ -238,6 +303,26 @@ module MoveFacts
       Rational(1) / m[1].to_f.rationalize(0.001)
     end
   end
+
+  # 回数が数字で決まらない連続ヒット。コードを読んで文にしてある。
+  #   0x0C1 ふくろだたき  … 手持ちのうち瀕死でも状態異常でもない数 (最大6)
+  #   0x17E ドラゴンアロー … 2回。相手が2体なら1体ずつ1回
+  SPECIAL_HITS = {
+    '0C1' => ['手持ちのうち、瀕死でも状態異常でもないポケモンの数だけ攻撃（最大6回）',
+              'Hits once per healthy party member (up to 6)'],
+    '17E' => ['2回攻撃。相手が2体いるときは1体ずつ1回',
+              'Hits twice, or once on each of two opponents']
+  }.freeze
+
+  # 数字が場面で切り替わるもの。コードを読んで文にしてある。
+  #   0x114 のみこむ  … ためた回数 (case effects[:Stockpile]) で 1/4・1/2・全回復
+  #   0x094 プレゼント … pbRandom(10) で威力40/80/120と回復に分かれる
+  SPECIAL_EFFECTS = {
+    '114' => ['ためた回数で 最大HPの 1/4・1/2・全回復',
+              'Restores 1/4, 1/2 or all HP depending on how many times it stockpiled'],
+    '094' => ['威力40が40% / 威力80が30% / 威力120が10% / 相手を最大HPの1/4回復が20%',
+              '40% power 40, 30% power 80, 10% power 120, 20% heals 1/4 of the target']
+  }.freeze
 
   # 能力変化の上限。はらだいこはコードでは 12段階上げているが、
   # Battle_Effects.rb が ±6 で頭打ちにするので、実際には最大まで上がるだけ。
@@ -293,6 +378,28 @@ module MoveFacts
                spread = hits[:spread].map { |n, pct| ja ? "#{n}回 #{pct}%" : "#{n}x #{pct}%" }.join(' / ')
                range = "#{hits[:spread].first[0]}#{ja ? '〜' : '-'}#{hits[:spread].last[0]}"
                ja ? "連続 #{range}回（#{spread}）" : "Hits #{range} times (#{spread})"
+             end
+    end
+
+    if (special = SPECIAL_HITS[code])
+      out << (ja ? special[0] : special[1])
+    end
+
+    if (special = SPECIAL_EFFECTS[code])
+      out << (ja ? special[0] : special[1])
+    end
+
+    if (heal = info[:heal]) && !SPECIAL_EFFECTS.key?(code)
+      whose = if ja
+                heal[:who] == :other ? '相手の' : '自分の'
+              else
+                heal[:who] == :other ? "the target's" : 'its'
+              end
+      mark = heal[:varies] ? '*' : ''
+      out << if heal[:fraction] == 1
+               ja ? "HPを全回復#{mark}" : "Restores all HP#{mark}"
+             else
+               ja ? "#{whose}最大HPの #{heal[:fraction]} を回復#{mark}" : "Restores #{heal[:fraction]} of #{whose} max HP#{mark}"
              end
     end
 

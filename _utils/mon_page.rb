@@ -635,7 +635,7 @@ module MonPage
 
     %(<section class="md-sec"><h2>#{ui('Learnable moves')}</h2>) +
       %(<div class="md-card"><div class="md-tabs">#{buttons}</div>#{type_filter}#{panels}) +
-      %(<p class="md-note">#{ui('Tap a move name for its description. The numbers come from the game data and code; a stage marked * can change with the field. Added-effect chances are doubled by Serene Grace and on the Rainbow Field.')}</p></div></section>)
+      %(<p class="md-note">#{ui('Tap a move name for its description. The numbers come from the game data and code; a value marked * can change with the field, the weather or an ability. Added-effect chances are doubled by Serene Grace and on the Rainbow Field.')}</p></div></section>)
   end
 
   # わざマシン一覧ページの行につけた id。番号だけでは わざマシン10 と
