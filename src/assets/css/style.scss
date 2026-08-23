@@ -2993,8 +2993,9 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
 .md-moves .md-cat { color: #4f5a64; }
 .md-tm-no { font-size: 12.5px; }
 #main_content .md-moves .md-tb { min-width: 4.8em; padding: 0 6px; margin-right: 7px; font-size: 11px; }
-.md-move-name { border-bottom: 1px dotted transparent; }
-.md-move-name[title]:hover { border-bottom-color: #b9c1cb; cursor: help; }
+/* わざ名の見た目は本文の戦闘表と同じ (.move-name[title] が点線と
+   cursor: help を持つ)。表の桁を保つため、伸び縮みだけ打ち消す。 */
+#main_content .md-moves .md-move-name { flex: none; }
 .md-where { color: #4f5a64; font-size: 12.5px; }
 .md-price { margin-left: 6px; color: #687381; font-size: 11.5px; white-space: nowrap; }
 

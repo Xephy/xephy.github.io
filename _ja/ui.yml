@@ -220,3 +220,4 @@ Chapters: 章の一覧
 "Others that evolve the same way": "同じ条件で進化するポケモン"
 "Others caught the same way": "同じ条件で捕まえられるポケモン"
 "%s and earlier":   "%sまで"
+"Tap a move name for its description. The numbers come from the game data and code; a stage marked * can change with the field. Added-effect chances are doubled by Serene Grace and on the Rainbow Field.": "わざ名を押すと説明が出ます。数字はゲームのデータとコードから起こしたもので、* の付いた段階はフィールドによって変わることがあります。追加効果の確率は てんのめぐみ と 虹のフィールド で倍になります。"

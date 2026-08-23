@@ -2,6 +2,7 @@
 
 require_relative 'ja_names'
 require_relative 'mon_data'
+require_relative 'move_facts'
 require_relative 'machine_index'
 require_relative 'evolution_index'
 require_relative 'evolution_index_page'
@@ -98,16 +99,22 @@ module MonPage
 
   # --- わざの表 -------------------------------------------------------------
 
-  def move_row(move_hash, sym, lead = nil, extra = nil)
+  def move_row(move_hash, sym, scripts_dir, lead = nil, extra = nil)
     move = move_hash[sym]
     return '' unless move
+
+    # 説明のあとに、具体的な数字を足す (急所率・追加効果の確率・能力変化の
+    # 段階)。「急所に当たりやすい」だけでは、どのくらいかが分からない。
+    facts = MoveFacts.suffix(move, scripts_dir, sym)
 
     power = move[:basedamage].to_i.positive? ? move[:basedamage] : '—'
     accuracy = move[:accuracy].to_i.zero? ? ui('Perfect') : "#{move[:accuracy]}%"
     %(<tr data-type="#{move[:type].to_s.downcase}">) +
       (lead ? %(<td class="md-lead">#{lead}</td>) : '') +
       %(<td class="md-move">#{type_badge(move[:type], 'md-tb')}) +
-      %(<span class="md-move-name" title="#{esc(move[:desc])}">#{esc(move[:name])}</span></td>) +
+      # 本文の戦闘表と同じ move-name にする。点線の下線と cursor: help が
+      # 付き、マウスが無い環境でもタップで説明が出る (myscripts.js)。
+      %(<span class="move-name md-move-name" title="#{esc(move[:desc])}#{esc(facts)}">#{esc(move[:name])}</span></td>) +
       %(<td class="md-cat">#{esc(MonData.category_label(move[:category]))}</td>) +
       %(<td class="md-num">#{power}</td><td class="md-num">#{accuracy}</td>) +
       (extra ? %(<td class="md-where">#{extra}</td>) : '') +
@@ -581,13 +588,13 @@ module MonPage
     tabs = []
     tabs << ['Level', level_moves.size, move_table(:level, level_moves.map { |level, sym|
       lead = level.to_i <= 1 ? ui('From the start') : "#{JaNames.ui('Lv.')}#{level}"
-      move_row(move_hash, sym, lead)
+      move_row(move_hash, sym, scripts_dir, lead)
     }.join)]
 
     tabs << ['TMs', machines.size, move_table(:machine, machines.map { |machine|
       place = machine[:places].first
       where = place ? %(<a href="#{place[:href]}">#{esc(place[:text])}</a>) : %(<span class="md-empty">—</span>)
-      move_row(move_hash, move_hash.key(machine[:move]),
+      move_row(move_hash, move_hash.key(machine[:move]), scripts_dir,
                %(<a class="md-tm-no" href="/#{ctx[:game]}/tms/##{machine_anchor(machine)}">#{esc(short_label(machine))}</a>),
                where)
     }.join)]
@@ -601,20 +608,20 @@ module MonPage
               else
                 %(<span class="md-empty">—</span>)
               end
-      move_row(move_hash, sym, nil, where)
+      move_row(move_hash, sym, scripts_dir, nil, where)
     }.join)]
 
     unless egg_moves.empty?
       tabs << ['Egg moves', egg_moves.size,
-               move_table(:plain, egg_moves.map { |sym| move_row(move_hash, sym) }.join)]
+               move_table(:plain, egg_moves.map { |sym| move_row(move_hash, sym, scripts_dir) }.join)]
     end
     unless relearner.empty?
       tabs << ['Relearner moves', relearner.size,
-               move_table(:plain, relearner.map { |sym| move_row(move_hash, sym) }.join)]
+               move_table(:plain, relearner.map { |sym| move_row(move_hash, sym, scripts_dir) }.join)]
     end
     unless shadow.empty?
       tabs << ['Shadow Moves', shadow.size,
-               move_table(:plain, shadow.map { |sym| move_row(move_hash, sym) }.join)]
+               move_table(:plain, shadow.map { |sym| move_row(move_hash, sym, scripts_dir) }.join)]
     end
 
     buttons = tabs.each_with_index.map { |(label, count, _), i|
@@ -627,7 +634,8 @@ module MonPage
     }.join
 
     %(<section class="md-sec"><h2>#{ui('Learnable moves')}</h2>) +
-      %(<div class="md-card"><div class="md-tabs">#{buttons}</div>#{type_filter}#{panels}</div></section>)
+      %(<div class="md-card"><div class="md-tabs">#{buttons}</div>#{type_filter}#{panels}) +
+      %(<p class="md-note">#{ui('Tap a move name for its description. The numbers come from the game data and code; a stage marked * can change with the field. Added-effect chances are doubled by Serene Grace and on the Rainbow Field.')}</p></div></section>)
   end
 
   # わざマシン一覧ページの行につけた id。番号だけでは わざマシン10 と
