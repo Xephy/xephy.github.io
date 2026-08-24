@@ -2643,6 +2643,24 @@ body.night-mode :focus-visible { outline-color: #7db1e8; }
 /* 見出しへ飛んだとき、固定ヘッダや行間に埋もれないよう手前に余白を取る。 */
 h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
 
+/* 絞り込みの操作子があるページでは、16px では足りない。操作子は画面の上に
+   貼り付く (641px 以上) ので、飛んだ見出しがその下に潜ってしまう。
+   操作子の高さぶん手前で止める。高さは実測 (幅 1280px 〜 641px):
+     出現場所 (/reborn/pokemon/)  182 〜 273px  札が多く、狭いほど折り返して伸びる
+     フィールド効果 .fn-filter    150 〜 180px
+     付録 .pw-filter              120 〜 150px
+     好感度 .aff-filter                  88px
+   いちばん高いところに合わせると低い操作子のページで空きが目立つので、
+   操作子ごとに分ける。後の規則ほど具体的な操作子を指す (詳細度は同じなので
+   順序で決まる)。640px 以下は操作子が static になるため既定の 16px でよい。
+   操作子は JavaScript が動くまで hidden なので、出ているときだけ効かせる。 */
+@media (min-width: 641px) {
+  #main_content:has(> .ref-filter:not([hidden])) :is(h1, h2, h3)[id] { scroll-margin-top: 290px; }
+  #main_content:has(> .fn-filter:not([hidden]))  :is(h1, h2, h3)[id] { scroll-margin-top: 196px; }
+  #main_content:has(> .pw-filter:not([hidden]))  :is(h1, h2, h3)[id] { scroll-margin-top: 166px; }
+  #main_content:has(> .aff-filter:not([hidden])) :is(h1, h2, h3)[id] { scroll-margin-top: 104px; }
+}
+
 /* 表の行へ直接飛んだとき。絞り込みの操作子が上に貼り付いているので、
    その高さぶん手前で止める。飛び先は2つ:
      出現場所ページ  種族の行へ (#mon-xxx)
