@@ -10,6 +10,7 @@ require_relative 'encounter_index'
 require_relative 'tutor_index'
 require_relative 'trainer_index'
 require_relative 'doc_context'
+require_relative 'field_notes'
 require_relative 'mon_index_page'
 
 # ポケモン1種につき1ページ。
@@ -709,7 +710,16 @@ module MonPage
       MonData.learnable?(species, forms, form_key, sym, hashes[:item], scripts_dir)
     }
 
-    rows = field_hash.filter_map { |_key, field|
+    # 同じフィールドが複数のキーに分かれていることがある。花畑は
+    # FLOWERGARDEN1〜5 の5段階で、名前はどれも「花畑フィールド」。段階ごとに
+    # 強化対象が違う (1 は強化なし、5 は くさ・むし が2倍)。
+    #
+    # そのまま並べると、6件しか出さない枠を同じ名前が4つ埋めてしまい、しかも
+    # 飛び先はどれも同じ1つの節になる。名前で畳み、強化されるわざとタイプは
+    # 段階をまたいで合わせる。読者が知りたいのは「このフィールドは自分の手持ちを
+    # 強化しうるか」なので、どの段階かではなく、強化されるものの総体でよい。
+    merged = {}
+    field_hash.each do |_key, field|
       next if field[:name].to_s.empty?
 
       boosted = (field[:damageMods] || {}).select { |mult, _| mult.to_f > 1 }
@@ -717,6 +727,15 @@ module MonPage
       type_boost = (field[:typeBoosts] || {}).select { |mult, _| mult.to_f > 1 }
                                              .values.flatten.uniq & [type1, type2].compact
       next if boosted.empty? && type_boost.empty?
+
+      slot = (merged[field[:name]] ||= { moves: [], types: [] })
+      slot[:moves] |= boosted
+      slot[:types] |= type_boost
+    end
+
+    rows = merged.map { |name, agg|
+      boosted = agg[:moves]
+      type_boost = agg[:types]
 
       detail = +''
       unless type_boost.empty?
@@ -732,10 +751,15 @@ module MonPage
                   %(</span>)
       end
 
-      label = JaNames.field(field[:name]) || field[:name]
+      label = JaNames.field(name) || name
+      # 戦闘表 (trainer_getter の field_node) と同じで、フィールド効果ページの
+      # 該当節まで送る。ページ先頭に置くと、38節の中から目で探すことになる。
+      # 解説文を持たないフィールドは節が無いので、そのときは素のリンクにする。
+      note_key = FieldNotes.key_for(name, scripts_dir)
+      href = "/#{ctx[:game]}/fields/" + (note_key ? "##{FieldNotes.anchor(note_key)}" : '')
       [boosted.size + (type_boost.empty? ? 0 : 100),
        %(<div class="md-field"><div class="md-field-name">) +
-         %(<a href="/#{ctx[:game]}/fields/">#{esc(label)}</a></div>) +
+         %(<a href="#{href}">#{esc(label)}</a></div>) +
          %(<div class="md-field-body">#{detail}</div></div>)]
     }.sort_by { |score, _| -score }
 
