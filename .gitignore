@@ -24,3 +24,5 @@ src/deso-chapters/
 .bundle
 # CI がビルド時にルートから写す。中身が二重管理になるので追跡しない。
 src/_config.yml
+# graphify の作業用出力。どのディレクトリで走らせても掘られるので名前で外す。
+graphify-out/
