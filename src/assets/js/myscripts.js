@@ -758,7 +758,10 @@ function refEmpty(bar) {
       if (input.value.trim()) p.set('q', input.value.trim());
       if (picked.length) p.set('t', picked.join(','));
       var s = p.toString();
-      history.replaceState(null, '', s ? '?' + s : location.pathname);
+      // location.hash を落とさないこと。落とすと、他のページから
+      // 節の見出しへ飛んできたときに、ブラウザがまだ位置を合わせる前に
+      // 飛び先が消えて、先頭に留まってしまう。
+      history.replaceState(null, '', (s ? '?' + s : location.pathname) + location.hash);
     }
   }
 
@@ -899,7 +902,10 @@ function refEmpty(bar) {
       if (input.value.trim()) p.set('pw', input.value.trim());
       if (picked.length) p.set('g', picked.join(','));
       var s = p.toString();
-      history.replaceState(null, '', s ? '?' + s : location.pathname);
+      // location.hash を落とさないこと。落とすと、他のページから
+      // 節の見出しへ飛んできたときに、ブラウザがまだ位置を合わせる前に
+      // 飛び先が消えて、先頭に留まってしまう。
+      history.replaceState(null, '', (s ? '?' + s : location.pathname) + location.hash);
     }
   }
 
