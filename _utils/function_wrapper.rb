@@ -55,7 +55,7 @@ class FunctionWrapper
     @ability_hash = @abilityHash
 
     @encGetter = EncounterGetter.new(game, @scriptsDir, @encHash, @mapHash, @encMapWrapper, @pokemonHash,
-                                     @itemHash)
+                                     @itemHash, @typeHash)
     @shopGetter = ShopGetter.new(game, @scriptsDir, @itemHash, @moveHash)
     @trainerGetter = TrainerGetter.new(game, @scriptsDir, @trainerHash, @bossHash, @trainerTypeHash, @itemHash, @moveHash, @abilityHash,
                                        @pokemonHash, @typeHash)

@@ -95,27 +95,37 @@ permalink: /reborn/episode-15/
 </tr>
 </thead>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/wailord/" class="mon-link"><img src="/assets/images/mon/wailord_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ホエルオー</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/wailord/" class="mon-link"><img src="/assets/images/mon/wailord_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ホエルオー</strong></a><span class="enc-types"><span class="type-badge type-water">みず</span></span>
+</td>
 <td style="text-align: center">65-90</td>
 <td style="text-align: center">24%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/chinchou/" class="mon-link"><img src="/assets/images/mon/chinchou_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">チョンチー</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/chinchou/" class="mon-link"><img src="/assets/images/mon/chinchou_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">チョンチー</span></a><span class="enc-types"><span class="type-badge type-water">みず</span><span class="type-badge type-electric">でんき</span></span>
+</td>
 <td style="text-align: center">50-58</td>
 <td style="text-align: center">25%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/clamperl/" class="mon-link"><img src="/assets/images/mon/clamperl_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">パールル</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/clamperl/" class="mon-link"><img src="/assets/images/mon/clamperl_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">パールル</span></a><span class="enc-types"><span class="type-badge type-water">みず</span></span>
+</td>
 <td style="text-align: center">50-60</td>
 <td style="text-align: center">27%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/lanturn/" class="mon-link"><img src="/assets/images/mon/lanturn_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ランターン</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/lanturn/" class="mon-link"><img src="/assets/images/mon/lanturn_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ランターン</span></a><span class="enc-types"><span class="type-badge type-water">みず</span><span class="type-badge type-electric">でんき</span></span>
+</td>
 <td style="text-align: center">50-63</td>
 <td style="text-align: center">15%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/relicanth/" class="mon-link"><img src="/assets/images/mon/relicanth_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ジーランス</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/relicanth/" class="mon-link"><img src="/assets/images/mon/relicanth_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ジーランス</span></a><span class="enc-types"><span class="type-badge type-water">みず</span><span class="type-badge type-rock">いわ</span></span>
+</td>
 <td style="text-align: center">50-60, 70</td>
 <td style="text-align: center">9%</td>
 </tr>
@@ -151,31 +161,41 @@ permalink: /reborn/episode-15/
 </tr>
 </thead>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/finneon/" class="mon-link"><img src="/assets/images/mon/finneon_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ケイコウオ</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/finneon/" class="mon-link"><img src="/assets/images/mon/finneon_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ケイコウオ</span></a><span class="enc-types"><span class="type-badge type-water">みず</span></span>
+</td>
 <td style="text-align: center">32-60</td>
 <td style="text-align: center">70%</td>
 <td style="text-align: center">--</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/wishiwashi/" class="mon-link"><img src="/assets/images/mon/wishiwashi_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ヨワシ</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/wishiwashi/" class="mon-link"><img src="/assets/images/mon/wishiwashi_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ヨワシ</span></a><span class="enc-types"><span class="type-badge type-water">みず</span></span>
+</td>
 <td style="text-align: center">32-60</td>
 <td style="text-align: center">30%</td>
 <td style="text-align: center">--</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/remoraid/" class="mon-link"><img src="/assets/images/mon/remoraid_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">テッポウオ</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/remoraid/" class="mon-link"><img src="/assets/images/mon/remoraid_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">テッポウオ</span></a><span class="enc-types"><span class="type-badge type-water">みず</span></span>
+</td>
 <td style="text-align: center">50-59</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">60%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/clauncher/" class="mon-link"><img src="/assets/images/mon/clauncher_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ウデッポウ</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/clauncher/" class="mon-link"><img src="/assets/images/mon/clauncher_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ウデッポウ</span></a><span class="enc-types"><span class="type-badge type-water">みず</span></span>
+</td>
 <td style="text-align: center">50-55</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">20%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/feebas/" class="mon-link"><img src="/assets/images/mon/feebas_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ヒンバス</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/feebas/" class="mon-link"><img src="/assets/images/mon/feebas_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ヒンバス</strong></a><span class="enc-types"><span class="type-badge type-water">みず</span></span>
+</td>
 <td style="text-align: center">10-25</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">20%</td>
@@ -207,22 +227,30 @@ permalink: /reborn/episode-15/
 </tr>
 </thead>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/gulpin/" class="mon-link"><img src="/assets/images/mon/gulpin_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ゴクリン</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/gulpin/" class="mon-link"><img src="/assets/images/mon/gulpin_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ゴクリン</strong></a><span class="enc-types"><span class="type-badge type-poison">どく</span></span>
+</td>
 <td style="text-align: center">42-65</td>
 <td style="text-align: center">47%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/grimer/" class="mon-link"><img src="/assets/images/mon/grimer_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ベトベター (アローラのすがた)</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/grimer/" class="mon-link"><img src="/assets/images/mon/grimer_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ベトベター (アローラのすがた)</strong></a><span class="enc-types"><span class="type-badge type-poison">どく</span><span class="type-badge type-dark">あく</span></span>
+</td>
 <td style="text-align: center">41-54</td>
 <td style="text-align: center">35%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/swalot/" class="mon-link"><img src="/assets/images/mon/swalot_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">マルノーム</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/swalot/" class="mon-link"><img src="/assets/images/mon/swalot_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">マルノーム</strong></a><span class="enc-types"><span class="type-badge type-poison">どく</span></span>
+</td>
 <td style="text-align: center">51-80</td>
 <td style="text-align: center">11%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/muk/" class="mon-link"><img src="/assets/images/mon/muk_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ベトベトン (アローラのすがた)</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/muk/" class="mon-link"><img src="/assets/images/mon/muk_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ベトベトン (アローラのすがた)</strong></a><span class="enc-types"><span class="type-badge type-poison">どく</span><span class="type-badge type-dark">あく</span></span>
+</td>
 <td style="text-align: center">62-80</td>
 <td style="text-align: center">7%</td>
 </tr>
@@ -237,22 +265,30 @@ permalink: /reborn/episode-15/
 </tr>
 </thead>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/gulpin/" class="mon-link"><img src="/assets/images/mon/gulpin_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ゴクリン</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/gulpin/" class="mon-link"><img src="/assets/images/mon/gulpin_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ゴクリン</span></a><span class="enc-types"><span class="type-badge type-poison">どく</span></span>
+</td>
 <td style="text-align: center">50-75</td>
 <td style="text-align: center">50%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/grimer/" class="mon-link"><img src="/assets/images/mon/grimer_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ベトベター (アローラのすがた)</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/grimer/" class="mon-link"><img src="/assets/images/mon/grimer_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ベトベター (アローラのすがた)</span></a><span class="enc-types"><span class="type-badge type-poison">どく</span><span class="type-badge type-dark">あく</span></span>
+</td>
 <td style="text-align: center">45-65</td>
 <td style="text-align: center">25%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/muk/" class="mon-link"><img src="/assets/images/mon/muk_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ベトベトン (アローラのすがた)</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/muk/" class="mon-link"><img src="/assets/images/mon/muk_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ベトベトン (アローラのすがた)</span></a><span class="enc-types"><span class="type-badge type-poison">どく</span><span class="type-badge type-dark">あく</span></span>
+</td>
 <td style="text-align: center">50-75</td>
 <td style="text-align: center">22%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/swalot/" class="mon-link"><img src="/assets/images/mon/swalot_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">マルノーム</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/swalot/" class="mon-link"><img src="/assets/images/mon/swalot_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">マルノーム</span></a><span class="enc-types"><span class="type-badge type-poison">どく</span></span>
+</td>
 <td style="text-align: center">65-75</td>
 <td style="text-align: center">3%</td>
 </tr>
@@ -271,19 +307,25 @@ permalink: /reborn/episode-15/
 </tr>
 </thead>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/gulpin/" class="mon-link"><img src="/assets/images/mon/gulpin_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ゴクリン</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/gulpin/" class="mon-link"><img src="/assets/images/mon/gulpin_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ゴクリン</span></a><span class="enc-types"><span class="type-badge type-poison">どく</span></span>
+</td>
 <td style="text-align: center">12-58</td>
 <td style="text-align: center">70%</td>
 <td style="text-align: center">60%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/grimer/" class="mon-link"><img src="/assets/images/mon/grimer_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ベトベター (アローラのすがた)</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/grimer/" class="mon-link"><img src="/assets/images/mon/grimer_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ベトベター (アローラのすがた)</span></a><span class="enc-types"><span class="type-badge type-poison">どく</span><span class="type-badge type-dark">あく</span></span>
+</td>
 <td style="text-align: center">12-58</td>
 <td style="text-align: center">30%</td>
 <td style="text-align: center">20%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/muk/" class="mon-link"><img src="/assets/images/mon/muk_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ベトベトン (アローラのすがた)</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/muk/" class="mon-link"><img src="/assets/images/mon/muk_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ベトベトン (アローラのすがた)</span></a><span class="enc-types"><span class="type-badge type-poison">どく</span><span class="type-badge type-dark">あく</span></span>
+</td>
 <td style="text-align: center">50-65</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">20%</td>

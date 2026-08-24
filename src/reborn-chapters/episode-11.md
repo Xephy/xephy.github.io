@@ -3441,126 +3441,162 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </tr>
 </thead>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/wynaut/" class="mon-link"><img src="/assets/images/mon/wynaut_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ソーナノ</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/wynaut/" class="mon-link"><img src="/assets/images/mon/wynaut_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ソーナノ</strong></a><span class="enc-types"><span class="type-badge type-psychic">エスパー</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">20%</td>
 <td style="text-align: center">20%</td>
 <td style="text-align: center">20%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/beautifly/" class="mon-link"><img src="/assets/images/mon/beautifly_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">アゲハント</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/beautifly/" class="mon-link"><img src="/assets/images/mon/beautifly_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">アゲハント</strong></a><span class="enc-types"><span class="type-badge type-bug">むし</span><span class="type-badge type-flying">ひこう</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">15%</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">--</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/ducklett/" class="mon-link"><img src="/assets/images/mon/ducklett_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">コアルヒー</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/ducklett/" class="mon-link"><img src="/assets/images/mon/ducklett_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">コアルヒー</span></a><span class="enc-types"><span class="type-badge type-water">みず</span><span class="type-badge type-flying">ひこう</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">12%</td>
 <td style="text-align: center">15%</td>
 <td style="text-align: center">12%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/ledian/" class="mon-link"><img src="/assets/images/mon/ledian_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">レディアン</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/ledian/" class="mon-link"><img src="/assets/images/mon/ledian_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">レディアン</span></a><span class="enc-types"><span class="type-badge type-bug">むし</span><span class="type-badge type-flying">ひこう</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">10%</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">--</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/tranquill/" class="mon-link"><img src="/assets/images/mon/tranquill_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ハトーボー</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/tranquill/" class="mon-link"><img src="/assets/images/mon/tranquill_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ハトーボー</span></a><span class="enc-types"><span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">10%</td>
 <td style="text-align: center">10%</td>
 <td style="text-align: center">10%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/silcoon/" class="mon-link"><img src="/assets/images/mon/silcoon_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">カラサリス</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/silcoon/" class="mon-link"><img src="/assets/images/mon/silcoon_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">カラサリス</strong></a><span class="enc-types"><span class="type-badge type-bug">むし</span></span>
+</td>
 <td style="text-align: center">45-52</td>
 <td style="text-align: center">10%</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">--</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/skiploom/" class="mon-link"><img src="/assets/images/mon/skiploom_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ポポッコ</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/skiploom/" class="mon-link"><img src="/assets/images/mon/skiploom_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ポポッコ</strong></a><span class="enc-types"><span class="type-badge type-grass">くさ</span><span class="type-badge type-flying">ひこう</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">5%</td>
 <td style="text-align: center">5%</td>
 <td style="text-align: center">--</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/petilil/" class="mon-link"><img src="/assets/images/mon/petilil_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">チュリネ</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/petilil/" class="mon-link"><img src="/assets/images/mon/petilil_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">チュリネ</strong></a><span class="enc-types"><span class="type-badge type-grass">くさ</span></span>
+</td>
 <td style="text-align: center">40-50</td>
 <td style="text-align: center">5%</td>
 <td style="text-align: center">5%</td>
 <td style="text-align: center">--</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/seel/" class="mon-link"><img src="/assets/images/mon/seel_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">パウワウ</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/seel/" class="mon-link"><img src="/assets/images/mon/seel_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">パウワウ</strong></a><span class="enc-types"><span class="type-badge type-water">みず</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">9%</td>
 <td style="text-align: center">9%</td>
 <td style="text-align: center">9%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/swanna/" class="mon-link"><img src="/assets/images/mon/swanna_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">スワンナ</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/swanna/" class="mon-link"><img src="/assets/images/mon/swanna_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">スワンナ</span></a><span class="enc-types"><span class="type-badge type-water">みず</span><span class="type-badge type-flying">ひこう</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">4%</td>
 <td style="text-align: center">4%</td>
 <td style="text-align: center">4%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/hoppip/" class="mon-link"><img src="/assets/images/mon/hoppip_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ハネッコ</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/hoppip/" class="mon-link"><img src="/assets/images/mon/hoppip_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ハネッコ</span></a><span class="enc-types"><span class="type-badge type-grass">くさ</span><span class="type-badge type-flying">ひこう</span></span>
+</td>
 <td style="text-align: center">40-50</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">12%</td>
 <td style="text-align: center">--</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/pidove/" class="mon-link"><img src="/assets/images/mon/pidove_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">マメパト</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/pidove/" class="mon-link"><img src="/assets/images/mon/pidove_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">マメパト</span></a><span class="enc-types"><span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">10%</td>
 <td style="text-align: center">--</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/wurmple/" class="mon-link"><img src="/assets/images/mon/wurmple_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ケムッソ</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/wurmple/" class="mon-link"><img src="/assets/images/mon/wurmple_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ケムッソ</span></a><span class="enc-types"><span class="type-badge type-bug">むし</span></span>
+</td>
 <td style="text-align: center">40-45</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">10%</td>
 <td style="text-align: center">--</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/dustox/" class="mon-link"><img src="/assets/images/mon/dustox_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ドクケイル</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/dustox/" class="mon-link"><img src="/assets/images/mon/dustox_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ドクケイル</span></a><span class="enc-types"><span class="type-badge type-bug">むし</span><span class="type-badge type-poison">どく</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">15%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/ariados/" class="mon-link"><img src="/assets/images/mon/ariados_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">アリアドス</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/ariados/" class="mon-link"><img src="/assets/images/mon/ariados_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">アリアドス</span></a><span class="enc-types"><span class="type-badge type-bug">むし</span><span class="type-badge type-poison">どく</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">10%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/cascoon/" class="mon-link"><img src="/assets/images/mon/cascoon_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">マユルド</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/cascoon/" class="mon-link"><img src="/assets/images/mon/cascoon_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">マユルド</strong></a><span class="enc-types"><span class="type-badge type-bug">むし</span></span>
+</td>
 <td style="text-align: center">45-52</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">10%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/hoothoot/" class="mon-link"><img src="/assets/images/mon/hoothoot_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ホーホー</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/hoothoot/" class="mon-link"><img src="/assets/images/mon/hoothoot_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ホーホー</span></a><span class="enc-types"><span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span></span>
+</td>
 <td style="text-align: center">45-52</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">5%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/noctowl/" class="mon-link"><img src="/assets/images/mon/noctowl_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ヨルノズク</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/noctowl/" class="mon-link"><img src="/assets/images/mon/noctowl_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ヨルノズク</span></a><span class="enc-types"><span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span></span>
+</td>
 <td style="text-align: center">45-50</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">--</td>
@@ -3581,31 +3617,41 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </tr>
 </thead>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/finneon/" class="mon-link"><img src="/assets/images/mon/finneon_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ケイコウオ</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/finneon/" class="mon-link"><img src="/assets/images/mon/finneon_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ケイコウオ</span></a><span class="enc-types"><span class="type-badge type-water">みず</span></span>
+</td>
 <td style="text-align: center">27-55</td>
 <td style="text-align: center">70%</td>
 <td style="text-align: center">--</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/goldeen/" class="mon-link"><img src="/assets/images/mon/goldeen_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">トサキント</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/goldeen/" class="mon-link"><img src="/assets/images/mon/goldeen_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">トサキント</span></a><span class="enc-types"><span class="type-badge type-water">みず</span></span>
+</td>
 <td style="text-align: center">27-55</td>
 <td style="text-align: center">30%</td>
 <td style="text-align: center">--</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/seaking/" class="mon-link"><img src="/assets/images/mon/seaking_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">アズマオウ</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/seaking/" class="mon-link"><img src="/assets/images/mon/seaking_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">アズマオウ</span></a><span class="enc-types"><span class="type-badge type-water">みず</span></span>
+</td>
 <td style="text-align: center">40-56</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">60%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/lumineon/" class="mon-link"><img src="/assets/images/mon/lumineon_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ネオラント</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/lumineon/" class="mon-link"><img src="/assets/images/mon/lumineon_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ネオラント</strong></a><span class="enc-types"><span class="type-badge type-water">みず</span></span>
+</td>
 <td style="text-align: center">40-56</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">20%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/alomomola/" class="mon-link"><img src="/assets/images/mon/alomomola_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ママンボウ</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/alomomola/" class="mon-link"><img src="/assets/images/mon/alomomola_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ママンボウ</strong></a><span class="enc-types"><span class="type-badge type-water">みず</span></span>
+</td>
 <td style="text-align: center">40-56</td>
 <td style="text-align: center">--</td>
 <td style="text-align: center">20%</td>
@@ -3625,32 +3671,44 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </tr>
 </thead>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/graveler/" class="mon-link"><img src="/assets/images/mon/graveler_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ゴローン (アローラのすがた)</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/graveler/" class="mon-link"><img src="/assets/images/mon/graveler_1.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ゴローン (アローラのすがた)</span></a><span class="enc-types"><span class="type-badge type-rock">いわ</span><span class="type-badge type-electric">でんき</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">32%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/woobat/" class="mon-link"><img src="/assets/images/mon/woobat_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">コロモリ</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/woobat/" class="mon-link"><img src="/assets/images/mon/woobat_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">コロモリ</span></a><span class="enc-types"><span class="type-badge type-psychic">エスパー</span><span class="type-badge type-flying">ひこう</span></span>
+</td>
 <td style="text-align: center">45-48</td>
 <td style="text-align: center">15%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/swoobat/" class="mon-link"><img src="/assets/images/mon/swoobat_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ココロモリ</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/swoobat/" class="mon-link"><img src="/assets/images/mon/swoobat_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ココロモリ</strong></a><span class="enc-types"><span class="type-badge type-psychic">エスパー</span><span class="type-badge type-flying">ひこう</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">10%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/bronzor/" class="mon-link"><img src="/assets/images/mon/bronzor_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ドーミラー</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/bronzor/" class="mon-link"><img src="/assets/images/mon/bronzor_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ドーミラー</strong></a><span class="enc-types"><span class="type-badge type-steel">はがね</span><span class="type-badge type-psychic">エスパー</span></span>
+</td>
 <td style="text-align: center">45-50</td>
 <td style="text-align: center">20%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/carbink/" class="mon-link"><img src="/assets/images/mon/carbink_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">メレシー</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/carbink/" class="mon-link"><img src="/assets/images/mon/carbink_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">メレシー</strong></a><span class="enc-types"><span class="type-badge type-rock">いわ</span><span class="type-badge type-fairy">フェアリー</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">21%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/bronzong/" class="mon-link"><img src="/assets/images/mon/bronzong_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ドータクン</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/bronzong/" class="mon-link"><img src="/assets/images/mon/bronzong_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ドータクン</strong></a><span class="enc-types"><span class="type-badge type-steel">はがね</span><span class="type-badge type-psychic">エスパー</span></span>
+</td>
 <td style="text-align: center">45-55</td>
 <td style="text-align: center">2%</td>
 </tr>
@@ -3689,7 +3747,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </tr>
 </thead>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/sableye/" class="mon-link"><img src="/assets/images/mon/sableye_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ヤミラミ</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/sableye/" class="mon-link"><img src="/assets/images/mon/sableye_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ヤミラミ</strong></a><span class="enc-types"><span class="type-badge type-dark">あく</span><span class="type-badge type-ghost">ゴースト</span></span>
+</td>
 <td style="text-align: center">50-58</td>
 <td style="text-align: center">100%</td>
 </tr>
@@ -3991,52 +4051,72 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </tr>
 </thead>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/togedemaru/" class="mon-link"><img src="/assets/images/mon/togedemaru_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">トゲデマル</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/togedemaru/" class="mon-link"><img src="/assets/images/mon/togedemaru_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">トゲデマル</span></a><span class="enc-types"><span class="type-badge type-electric">でんき</span><span class="type-badge type-steel">はがね</span></span>
+</td>
 <td style="text-align: center">62-65</td>
 <td style="text-align: center">20%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/klink/" class="mon-link"><img src="/assets/images/mon/klink_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ギアル</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/klink/" class="mon-link"><img src="/assets/images/mon/klink_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ギアル</span></a><span class="enc-types"><span class="type-badge type-steel">はがね</span></span>
+</td>
 <td style="text-align: center">62-65</td>
 <td style="text-align: center">15%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/electrode/" class="mon-link"><img src="/assets/images/mon/electrode_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">マルマイン</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/electrode/" class="mon-link"><img src="/assets/images/mon/electrode_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">マルマイン</strong></a><span class="enc-types"><span class="type-badge type-electric">でんき</span></span>
+</td>
 <td style="text-align: center">62-65, 75</td>
 <td style="text-align: center">19%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/voltorb/" class="mon-link"><img src="/assets/images/mon/voltorb_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ビリリダマ</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/voltorb/" class="mon-link"><img src="/assets/images/mon/voltorb_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ビリリダマ</span></a><span class="enc-types"><span class="type-badge type-electric">でんき</span></span>
+</td>
 <td style="text-align: center">62-65</td>
 <td style="text-align: center">10%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/yamask/" class="mon-link"><img src="/assets/images/mon/yamask_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">デスマス</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/yamask/" class="mon-link"><img src="/assets/images/mon/yamask_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">デスマス</span></a><span class="enc-types"><span class="type-badge type-ghost">ゴースト</span></span>
+</td>
 <td style="text-align: center">62-65</td>
 <td style="text-align: center">10%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/duskull/" class="mon-link"><img src="/assets/images/mon/duskull_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ヨマワル</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/duskull/" class="mon-link"><img src="/assets/images/mon/duskull_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ヨマワル</span></a><span class="enc-types"><span class="type-badge type-ghost">ゴースト</span></span>
+</td>
 <td style="text-align: center">62-65</td>
 <td style="text-align: center">10%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/klang/" class="mon-link"><img src="/assets/images/mon/klang_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ギギアル</span></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/klang/" class="mon-link"><img src="/assets/images/mon/klang_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><span class="enc-mon-name">ギギアル</span></a><span class="enc-types"><span class="type-badge type-steel">はがね</span></span>
+</td>
 <td style="text-align: center">62-65</td>
 <td style="text-align: center">5%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/cofagrigus/" class="mon-link"><img src="/assets/images/mon/cofagrigus_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">デスカーン</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/cofagrigus/" class="mon-link"><img src="/assets/images/mon/cofagrigus_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">デスカーン</strong></a><span class="enc-types"><span class="type-badge type-ghost">ゴースト</span></span>
+</td>
 <td style="text-align: center">62-65</td>
 <td style="text-align: center">5%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/dusclops/" class="mon-link"><img src="/assets/images/mon/dusclops_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">サマヨール</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/dusclops/" class="mon-link"><img src="/assets/images/mon/dusclops_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">サマヨール</strong></a><span class="enc-types"><span class="type-badge type-ghost">ゴースト</span></span>
+</td>
 <td style="text-align: center">62-65</td>
 <td style="text-align: center">4%</td>
 </tr>
 <tr>
-<td class="enc-mon"><a href="/reborn/mon/klinklang/" class="mon-link"><img src="/assets/images/mon/klinklang_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ギギギアル</strong></a></td>
+<td class="enc-mon">
+<a href="/reborn/mon/klinklang/" class="mon-link"><img src="/assets/images/mon/klinklang_0.png" alt="" class="mon-icon enc-icon" loading="lazy" width="32" height="32"><strong class="enc-mon-name">ギギギアル</strong></a><span class="enc-types"><span class="type-badge type-steel">はがね</span></span>
+</td>
 <td style="text-align: center">75</td>
 <td style="text-align: center">2%</td>
 </tr>

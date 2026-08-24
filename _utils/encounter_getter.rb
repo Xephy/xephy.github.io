@@ -6,7 +6,7 @@ class EncounterGetter
   attr_accessor :game, :enc_hash, :map_names
 
   def initialize(game, scripts_dir, enc_hash = nil, map_names = nil, enc_map_wrapper = nil, mon_hash = nil,
-                 item_hash = nil)
+                 item_hash = nil, type_hash = nil)
     @game = game
     @encHash = enc_hash ||= load_enc_hash(game, scripts_dir)
     @mapHash = map_names ||= load_maps_hash(game, scripts_dir)
@@ -14,6 +14,8 @@ class EncounterGetter
     @pokemonHash = mon_hash ||= load_pokemon_hash(game, scripts_dir)
     # 野生個体の持ち物の名前を引くのに使う。逆引きページに載せる。
     @itemHash = item_hash ||= load_item_hash(game, scripts_dir)
+    # 種族のタイプの名前。トレーナー戦の表と同じ札を出すのに使う。
+    @typeHash = type_hash ||= load_type_hash(game, scripts_dir)
     @encStore = Set[]
   end
 
@@ -225,6 +227,28 @@ class EncounterGetter
         name_el.content = pokemon_name_formatted
         @encStore.add(pokemon_name_formatted)
         mon_link.add_child(name_el)
+
+        # 種族のタイプ。トレーナー戦の表と同じ札を、名前の後ろに並べる。
+        # 行の高さはアイコン (32px) で決まっているので、下に足さず横に置けば
+        # 表が縦に伸びない。すがた違いはそのすがたのタイプになる。
+        form_key_for_type = @pokemonHash[mon].keys.find_all { |k| k.is_a?(String) }[form_index] || base_form
+        type_data = @pokemonHash[mon][form_key_for_type] || @pokemonHash[mon][base_form]
+        base_data = @pokemonHash[mon][base_form]
+        enc_types = [type_data[:Type1] || base_data[:Type1],
+                     type_data[:Type2] || base_data[:Type2]].compact.uniq
+        unless enc_types.empty?
+          types_el = doc.create_element('span')
+          types_el['class'] = 'enc-types'
+          enc_types.each do |t|
+            next unless @typeHash[t]
+
+            badge = doc.create_element('span', @typeHash[t][:name])
+            badge['class'] = "type-badge type-#{t.to_s.downcase}"
+            types_el.add_child(badge)
+          end
+          td_name.add_child(types_el) if types_el.children.any?
+        end
+
         tr.add_child(td_name)
 
         # Add levels to the second column

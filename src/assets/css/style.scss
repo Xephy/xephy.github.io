@@ -1039,6 +1039,15 @@ body.night-mode div#quote {
 
 .enc-mon-name { vertical-align: middle; }
 
+/* 種族のタイプ。名前の後ろに並べる。行の高さはアイコン (32px) で決まって
+   いるので、横に置くかぎり表は縦に伸びない。 */
+.enc-types {
+  display: inline-flex;
+  gap: 4px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
 /* 出現率と水準は数字を突き合わせて読むので、桁を揃える。
    vertical-align は td の既定が top。種族の欄は 32px のアイコンで行が高く
    なるため、レベルと確率の数字だけが行の上端に張り付き、種族名より 13px
