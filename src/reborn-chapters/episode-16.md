@@ -1139,20 +1139,19 @@ permalink: /reborn/episode-16/
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-rock">いわ</span><span class="move-name" title="ほうせきのようにきらめく光をはっしゃして相手を攻撃する。
-PP 20">パワージェム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-rock">いわ</span><span class="move-name" title="ほうせきのようにきらめく光をはっしゃして相手を攻撃する。">パワージェム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="わるいことをかんがえて頭をかっせいかさせる。自分の特攻をぐーんと上げる。
-PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +2段階*">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="体からあくいにみちたおそろしいオーラをはっする。相手をひるませることがある。
-PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -1173,20 +1172,16 @@ PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分のＨＰを少しけずってぶんしんをだす。ぶんしんは自分のみがわりになる。
-PP 10">みがわり</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分のＨＰを少しけずってぶんしんをだす。ぶんしんは自分のみがわりになる。">みがわり</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="弱いでんげきをあびせることで相手をまひ状態にする。
-PP 20">でんじは</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="弱いでんげきをあびせることで相手をまひ状態にする。">でんじは</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="相手をおこらせて混乱させる。いかりで相手の攻撃はぐーんとあがってしまう。
-PP 15">いばる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">85%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="相手をおこらせて混乱させる。いかりで相手の攻撃はぐーんとあがってしまう。">いばる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">85%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の力をりようする。たたかっている相手の攻撃がたかいほどダメージが上がる。
-PP 15">イカサマ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の力をりようする。たたかっている相手の攻撃がたかいほどダメージが上がる。">イカサマ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ずぶとい
@@ -1356,19 +1351,19 @@ PP 15">イカサマ</span><span class="move-meta"><span class="move-cat">物理<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="体からあくいにみちたおそろしいオーラをはっする。相手をひるませることがある。
-PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="はげしいほのおを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="わるいことをかんがえて頭をかっせいかさせる。自分の特攻をぐーんと上げる。
-PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +2段階*">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: ようき
@@ -1389,20 +1384,19 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="１ターンめに光をいっぱいにあつめ２ターンめに光のたばをはっしゃして攻撃する。
-PP 10">ソーラービーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="１ターンめに光をいっぱいにあつめ２ターンめに光のたばをはっしゃして攻撃する。">ソーラービーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="あついいきを相手にふきつけて攻撃する。やけど状態にすることがある。
-PP 10">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span></span>
+追加効果 10%">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="わるいことをかんがえて頭をかっせいかさせる。自分の特攻をぐーんと上げる。
-PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +2段階*">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="体からあくいにみちたおそろしいオーラをはっする。相手をひるませることがある。
-PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -3242,20 +3236,16 @@ PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="自分の体の周りをみずでつくったベールでおおう。まいターンＨＰを回復する。
-PP 20">アクアリング</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="自分の体の周りをみずでつくったベールでおおう。まいターンＨＰを回復する。">アクアリング</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="相手の攻撃をまったくうけない。れんぞくでだすとしっぱいしやすい。
-PP 10">まもる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="相手の攻撃をまったくうけない。れんぞくでだすとしっぱいしやすい。">まもる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="しおをふきつけて攻撃する。自分のＨＰが少ないほどわざの威力は下がる。
-PP 5">しおふき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">150</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="しおをふきつけて攻撃する。自分のＨＰが少ないほどわざの威力は下がる。">しおふき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">150</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -3276,20 +3266,17 @@ PP 5">しおふき</span><span class="move-meta"><span class="move-cat">特殊</
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。
-PP 10">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="相手の攻撃をまったくうけない。れんぞくでだすとしっぱいしやすい。
-PP 10">まもる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="相手の攻撃をまったくうけない。れんぞくでだすとしっぱいしやすい。">まもる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -3311,19 +3298,19 @@ PP 10">まもる</span><span class="move-meta"><span class="move-cat">変化</sp
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="そらたかくとびはねて２ターンめに相手を攻撃する。まひ状態にすることがある。
-PP 5">とびはねる</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">85%</span></span>
+追加効果 30%">とびはねる</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">85%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="しんぴてきで力づよいまいをはげしくおどる。自分の攻撃と素早さを上げる。
-PP 20">りゅうのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +1段階* / すばやさ +1段階*">りゅうのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="すごいいきおいで相手につっこむ。相手をひるませることがある。
-PP 15">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんきをまとい相手にとっしんして攻撃する。まひ状態にすることがある。
-PP 20">スパーク</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+追加効果 30%">スパーク</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -3362,19 +3349,17 @@ PP 20">スパーク</span><span class="move-meta"><span class="move-cat">物理<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="なまけてやすむ。自分のＨＰを最大ＨＰの半分回復する。
-PP 10">なまける</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">なまける</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: おだやか
@@ -3396,19 +3381,18 @@ PP 10">サイコショック</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="からをやぶって自分の防御特防を下げるが攻撃特攻素早さをぐーんと上げる。
-PP 15">からをやぶる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階 / こうげき +2段階 / とくこう +2段階 / すばやさ +2段階">からをやぶる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="するどいつららを相手にはっしゃして攻撃する。２ー５かいのあいだれんぞくでだす。
-PP 30">つららばり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">25</span><span class="move-acc">100%</span></span>
+連続 2〜5回（2回 35% / 3回 35% / 4回 15% / 5回 15%）">つららばり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">25</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="かたいがんせきを相手にはっしゃして攻撃する。２ー５かいのあいだれんぞくでだす。
-PP 10">ロックブラスト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">25</span><span class="move-acc">90%</span></span>
+連続 2〜5回（2回 35% / 3回 35% / 4回 15% / 5回 15%）">ロックブラスト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">25</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: まじめ
@@ -3429,20 +3413,17 @@ PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。
-PP 10">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="おおきなあくびでねむけをさそう。つぎのターンに相手を眠り状態にする。
-PP 10">あくび</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="おおきなあくびでねむけをさそう。つぎのターンに相手を眠り状態にする。">あくび</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ずぶとい
@@ -3477,20 +3458,16 @@ PP 10">あくび</span><span class="move-meta"><span class="move-cat">変化</sp
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="ながいしっぽやつるなどをつかい相手をたたきつけて攻撃する。
-PP 20">たたきつける</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">75%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="ながいしっぽやつるなどをつかい相手をたたきつけて攻撃する。">たたきつける</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">75%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="おもたい体で相手にぶつかって攻撃する。自分が相手よりおもいほど威力が上がる。
-PP 10">ヘビーボンバー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="おもたい体で相手にぶつかって攻撃する。自分が相手よりおもいほど威力が上がる。">ヘビーボンバー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="１ターンめでどこかにきえて２ターンめに相手を攻撃する。まもりをむしして攻撃できる。
-PP 10">ゴーストダイブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="１ターンめでどこかにきえて２ターンめに相手を攻撃する。まもりをむしして攻撃できる。">ゴーストダイブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="ツタやしょくしゅをはげしくふるって相手をたたきつけ攻撃する。
-PP 10">パワーウィップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="ツタやしょくしゅをはげしくふるって相手をたたきつけ攻撃する。">パワーウィップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -3509,19 +3486,17 @@ PP 10">パワーウィップ</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="まばゆいでんげきで自分の周りにいるものを攻撃する。まひ状態にすることがある。
-PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="しょうじゅんをしっかりあわせてつぎの攻撃が必ず相手に当たるようにする。
-PP 5">ロックオン</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="しょうじゅんをしっかりあわせてつぎの攻撃が必ず相手に当たるようにする。">ロックオン</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんきでつくったじりょくの力でちゅうにうかぶ。５ターンのあいだふゆうできる。
-PP 10">でんじふゆう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+すばやさ +2段階">でんじふゆう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="体をこうそくにかいてんさせてたいあたりする。相手より素早さがひくいほど強い。
-PP 5">ジャイロボール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="体をこうそくにかいてんさせてたいあたりする。相手より素早さがひくいほど強い。">ジャイロボール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -3539,20 +3514,17 @@ PP 5">ジャイロボール</span><span class="move-meta"><span class="move-cat"
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="攻撃をうけてもＨＰを必ず１だけのこせる。れんぞくでだすとしっぱいしやすい。
-PP 10">こらえる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="攻撃をうけてもＨＰを必ず１だけのこせる。れんぞくでだすとしっぱいしやすい。">こらえる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="まもりをすてて相手のふところにとつげきする。自分の防御と特防が下がる。
-PP 5">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="力をふりしぼり攻撃する。自分のＨＰが少ないほどわざの威力は上がる。
-PP 15">きしかいせい</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="力をふりしぼり攻撃する。自分のＨＰが少ないほどわざの威力は上がる。">きしかいせい</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="おもたい体で相手にぶつかって攻撃する。自分が相手よりおもいほど威力が上がる。
-PP 10">ヘビーボンバー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="おもたい体で相手にぶつかって攻撃する。自分が相手よりおもいほど威力が上がる。">ヘビーボンバー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -3574,19 +3546,18 @@ PP 10">ヘビーボンバー</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんきのしげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 30">でんきショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+追加効果 10%">でんきショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="しっぽをさゆうにかわいくふってゆだんをさそう。相手の防御を下げる。
-PP 30">しっぽをふる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span></span>
+相手のぼうぎょ -1段階">しっぽをふる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。
-PP 30">でんこうせっか</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。">でんこうせっか</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -3684,20 +3655,19 @@ PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="はげしくあれくるうあらなみのようにおおきなしっぽをふって相手を攻撃する。
-PP 10">アクアテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="はげしくあれくるうあらなみのようにおおきなしっぽをふって相手を攻撃する。">アクアテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="するどいはで相手をかみくだいて攻撃する。相手の防御を下げることがある。
-PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="れいきをひめたキバでかみつく。相手をひるませたりこおり状態にすることがある。
-PP 15">こおりのキバ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">95%</span></span>
+追加効果 10%">こおりのキバ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="からをやぶって自分の防御特防を下げるが攻撃特攻素早さをぐーんと上げる。
-PP 15">からをやぶる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階 / こうげき +2段階 / とくこう +2段階 / すばやさ +2段階">からをやぶる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -3719,19 +3689,19 @@ PP 15">からをやぶる</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="にごったみずを相手にはっしゃして攻撃する。命中率を下げることがある。
-PP 10">だくりゅう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">85%</span></span>
+追加効果 30% / 相手のめいちゅう -1段階*">だくりゅう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">85%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="はげしいふぶきを相手にふきつけて攻撃する。こおり状態にすることがある。
-PP 5">ふぶき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 10%">ふぶき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="２ターンのあいだ眠りつづける。自分のＨＰと状態いじょうを全て回復する。
-PP 10">ねむる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="すばやいうごきでぶんしんをつくり相手をまどわせてかいひりつを上げる。
-PP 15">かげぶんしん</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+かいひ +1段階*">かげぶんしん</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -4505,20 +4475,18 @@ PP 15">かげぶんしん</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="ジャンプからのひざげりで相手を攻撃する。はずすと自分がダメージを受ける。
-PP 10">とびひざげり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="ジャンプからのひざげりで相手を攻撃する。はずすと自分がダメージを受ける。">とびひざげり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しねんの力をひたいにあつめて攻撃する。相手をひるませることがある。
-PP 15">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span></span>
+追加効果 20%">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="だんがんのような速くてかたいパンチを相手にくりだす。必ずせんせい攻撃できる。
-PP 30">バレットパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="だんがんのような速くてかたいパンチを相手にくりだす。必ずせんせい攻撃できる。">バレットパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="れいきをこめたパンチで相手を攻撃する。こおり状態にすることがある。
-PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: てれや
@@ -4537,19 +4505,17 @@ PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="ほのおをまとってとっしんする。自分もかなりダメージを受ける。やけど状態にすることがある。
-PP 15">フレアドライブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+追加効果 10% / 反動 与えたダメージの 1/3">フレアドライブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="どくにそまったしょくしゅやうでで相手をつきさす。どく状態にすることがある。
-PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="あしを強くけり相手をころばせて攻撃する。相手がおもいほど威力が上がる。
-PP 20">けたぐり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="あしを強くけり相手をころばせて攻撃する。相手がおもいほど威力が上がる。">けたぐり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: きまぐれ
@@ -4568,19 +4534,18 @@ PP 20">けたぐり</span><span class="move-meta"><span class="move-cat">物理<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しずかにせいしんをとういつしこころをしずめることで自分の特攻と特防を上げる。
-PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +1段階* / とくぼう +1段階*">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。
-PP 20">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="強いねんりきを相手におくって攻撃する。相手の特防を下げることがある。
-PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="体の光をいってんにあつめて力をはなつ。相手の特防を下げることがある。
-PP 10">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: まじめ
@@ -4602,19 +4567,18 @@ PP 10">ラスターカノン</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="強いねんりきを相手におくって攻撃する。相手の特防を下げることがある。
-PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: すなお
@@ -4649,20 +4613,18 @@ PP 15">めざめるパワー (こおり)</span><span class="move-meta"><span cla
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ねむけをさそうあんじをかけて相手を眠り状態にする。
-PP 20">さいみんじゅつ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">60%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ねむけをさそうあんじをかけて相手を眠り状態にする。">さいみんじゅつ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">60%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: てれや
@@ -4681,19 +4643,17 @@ PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="はげしいかみなりを相手におとして攻撃する。まひ状態にすることがある。
-PP 10">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 30%">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="弱いでんげきをあびせることで相手をまひ状態にする。
-PP 20">でんじは</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="弱いでんげきをあびせることで相手をまひ状態にする。">でんじは</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: きまぐれ
@@ -4712,19 +4672,17 @@ PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="すごいいきおいで相手につっこむ。相手をひるませることがある。
-PP 15">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="しゅとうをいきおいよくふりおろして相手を攻撃する。光のかべやリフレクターなどもはかいできる。
-PP 15">かわらわり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="しゅとうをいきおいよくふりおろして相手を攻撃する。光のかべやリフレクターなどもはかいできる。">かわらわり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="どくにそまったしょくしゅやうでで相手をつきさす。どく状態にすることがある。
-PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。
-PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: まじめ
@@ -4742,20 +4700,19 @@ PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。
-PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="どくにそまったしょくしゅやうでで相手をつきさす。どく状態にすることがある。
-PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="眠っている力を体のおくからひきだして自分の攻撃を上げる。
-PP 40">ヨガのポーズ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +1段階*">ヨガのポーズ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 40</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="すばやいうごきで相手のあしをねらって攻撃する。相手の素早さを下げる。
-PP 20">ローキック</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">ローキック</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: すなお
@@ -5095,19 +5052,18 @@ PP 20">ローキック</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="どくのあるキバで相手にかみついて攻撃する。もうどくをおわせることがある。
-PP 15">どくどくのキバ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">50</span><span class="move-acc">100%</span></span>
+追加効果 50%">どくどくのキバ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">50</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="サイコパワーでかみついて相手を攻撃する。光のかべやリフレクターなどもはかいできる。
-PP 10">サイコファング</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="サイコパワーでかみついて相手を攻撃する。光のかべやリフレクターなどもはかいできる。">サイコファング</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="するどいはで相手をかみくだいて攻撃する。相手の防御を下げることがある。
-PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="みずの力で相手にぶつかって攻撃する。相手の防御を下げることがある。
-PP 10">アクアブレイク</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">アクアブレイク</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -5128,20 +5084,17 @@ PP 10">アクアブレイク</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。
-PP 10">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="相手の攻撃をまったくうけない。れんぞくでだすとしっぱいしやすい。
-PP 10">まもる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="相手の攻撃をまったくうけない。れんぞくでだすとしっぱいしやすい。">まもる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="あつくにえたぎるみずを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">ねっとう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ねっとう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: ずぶとい
@@ -5162,20 +5115,18 @@ PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -5305,20 +5256,18 @@ PP 10">サイコショック</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="さいぼうをさいせいさせて自分の最大ＨＰの半分のＨＰを回復する。
-PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。
-PP 10">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: おだやか
@@ -5340,20 +5289,18 @@ PP 10">どくどく</span><span class="move-meta"><span class="move-cat">変化<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="わるいことをかんがえて頭をかっせいかさせる。自分の特攻をぐーんと上げる。
-PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +2段階*">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -5375,19 +5322,18 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="からをやぶって自分の防御特防を下げるが攻撃特攻素早さをぐーんと上げる。
-PP 15">からをやぶる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階 / こうげき +2段階 / とくこう +2段階 / すばやさ +2段階">からをやぶる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="キッスによって相手からＨＰをすいとる。あたえたダメージの半分いじょうＨＰを回復する。
-PP 10">ドレインキッス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">50</span><span class="move-acc">100%</span></span>
+与えたダメージの 3/4 を回復">ドレインキッス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">50</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="くろいかげのかたまりをなげつけて攻撃する。相手の特防を下げることがある。
-PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のとくぼう -1段階">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -5428,19 +5374,18 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="れいきをこめたパンチで相手を攻撃する。こおり状態にすることがある。
-PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しねんの力をひたいにあつめて攻撃する。相手をひるませることがある。
-PP 15">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span></span>
+追加効果 20%">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="すごい力をはっきして相手を攻撃する。自分の攻撃と防御が下がる。
-PP 5">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+こうげき -1段階 / ぼうぎょ -1段階">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -5461,20 +5406,16 @@ PP 5">ばかぢから</span><span class="move-meta"><span class="move-cat">物�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="うるさくひびくおおきなしんどうを相手にあたえて攻撃する。
-PP 10">ハイパーボイス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="うるさくひびくおおきなしんどうを相手にあたえて攻撃する。">ハイパーボイス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (じめん)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (じめん)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。
-PP 10">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="５ターンのあいだじめんにいると状態いじょうにならずドラゴンわざのダメージも半分になる。
-PP 10">ミストフィールド</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="５ターンのあいだじめんにいると状態いじょうにならずドラゴンわざのダメージも半分になる。">ミストフィールド</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -5540,20 +5481,19 @@ PP 10">ミストフィールド</span><span class="move-meta"><span class="move-
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="てんくうからいんせきを相手におとす。使うとはんどうで自分の特攻ががくっと下がる。
-PP 5">りゅうせいぐん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">130</span><span class="move-acc">90%</span></span>
+とくこう -2段階">りゅうせいぐん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">130</span><span class="move-acc">90%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="体の光をいってんにあつめて力をはなつ。相手の特防を下げることがある。
-PP 10">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -5574,20 +5514,18 @@ PP 10">ラスターカノン</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="かたいしっぽで相手をたたきつけて攻撃する。相手の防御を下げることがある。
-PP 15">アイアンテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">75%</span></span>
+追加効果 30% / 相手のぼうぎょ -1段階">アイアンテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">75%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="１ターンめでもぐり２ターンめにうきあがって攻撃する。
-PP 10">ダイビング</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="１ターンめでもぐり２ターンめにうきあがって攻撃する。">ダイビング</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: れいせい
@@ -5609,19 +5547,17 @@ PP 10">ダイビング</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="ヘドロのなみで自分の周りにいるものを攻撃する。どく状態にすることがある。
-PP 10">ヘドロウェーブ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+追加効果 10%">ヘドロウェーブ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="ようぶんをすいとり攻撃する。あたえたダメージの半分のＨＰを回復できる。
-PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+与えたダメージの 1/2 を回復">ギガドレイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -5663,19 +5599,16 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。
-PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分のＨＰと相手のＨＰをあわせてそれを自分と相手でなかよくわける。
-PP 20">いたみわけ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分のＨＰと相手のＨＰをあわせてそれを自分と相手でなかよくわける。">いたみわけ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。
-PP 20">ボルトチェンジ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。">ボルトチェンジ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -5696,20 +5629,19 @@ PP 20">ボルトチェンジ</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。
-PP 20">アクアジェット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。">アクアジェット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="するどいはで相手をかみくだいて攻撃する。相手の防御を下げることがある。
-PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="すごいいきおいで相手につっこむ。相手をひるませることがある。
-PP 15">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しねんの力をひたいにあつめて攻撃する。相手をひるませることがある。
-PP 15">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span></span>
+追加効果 20%">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -5731,19 +5663,17 @@ PP 15">しねんのずつき</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="さいぼうの変化でえきじょうになり自分の防御をぐーんと上げる。
-PP 20">とける</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+ぼうぎょ +2段階*">とける</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="さいぼうをさいせいさせて自分の最大ＨＰの半分のＨＰを回復する。
-PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fire">ほのお</span><span class="move-name" title="ぶきみであやしいほのおをはなって相手をやけどの状態にする。
-PP 15">おにび</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">85%</span></span>
+<span class="type-badge type-fire">ほのお</span><span class="move-name" title="ぶきみであやしいほのおをはなって相手をやけどの状態にする。">おにび</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">85%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ずぶとい
@@ -5782,19 +5712,17 @@ PP 15">おにび</span><span class="move-meta"><span class="move-cat">変化</sp
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分のＨＰを最大ＨＰの半分へらして自分の攻撃を最大に上げる。
-PP 10">はらだいこ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき 最大まで（+6段階）">はらだいこ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。
-PP 20">アクアジェット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。">アクアジェット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="相手にじゃれついて攻撃する。相手の攻撃を下げることがある。
-PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+追加効果 10% / 相手のこうげき -1段階*">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -5815,20 +5743,19 @@ PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="強いねんりきを相手におくって攻撃する。相手の特防を下げることがある。
-PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="つきのパワーをかりて相手を攻撃する。相手の特攻を下げることがある。
-PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+追加効果 30% / 相手のとくこう -1段階*">ムーンフォース</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -5850,19 +5777,18 @@ PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="ねんえきでできたしゅりけんを２ー５かいのあいだれんぞくでだす。必ずせんせい攻撃できる。
-PP 20">みずしゅりけん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">15</span><span class="move-acc">100%</span></span>
+連続 2〜5回（2回 35% / 3回 35% / 4回 15% / 5回 15%）">みずしゅりけん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">15</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="体からあくいにみちたおそろしいオーラをはっする。相手をひるませることがある。
-PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="きたないゴミを相手にぶつけて攻撃する。どく状態にすることがある。
-PP 5">ダストシュート</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">80%</span></span>
+追加効果 30%">ダストシュート</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: うっかりや
@@ -5904,20 +5830,17 @@ PP 5">ダストシュート</span><span class="move-meta"><span class="move-cat"
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="体をやすめて自分がおっているどくまひやけどの状態いじょうを治す。
-PP 20">リフレッシュ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="体をやすめて自分がおっているどくまひやけどの状態いじょうを治す。">リフレッシュ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。
-PP 10">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: おだやか
@@ -5938,20 +5861,18 @@ PP 10">どくどく</span><span class="move-meta"><span class="move-cat">変化<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="威力がたかいわざだが戦闘にでたらすぐにださないとせいこうしない。
-PP 10">であいがしら</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="威力がたかいわざだが戦闘にでたらすぐにださないとせいこうしない。">であいがしら</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="みずの力で相手にぶつかって攻撃する。相手の防御を下げることがある。
-PP 10">アクアブレイク</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">アクアブレイク</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-bug">むし</span><span class="move-name" title="ちをすいとって相手を攻撃する。あたえたダメージの半分のＨＰを回復できる。
-PP 10">きゅうけつ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+与えたダメージの 1/2 を回復">きゅうけつ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。
-PP 20">アクアジェット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。">アクアジェット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -5973,19 +5894,16 @@ PP 20">アクアジェット</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="さいぼうをさいせいさせて自分の最大ＨＰの半分のＨＰを回復する。
-PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。
-PP 10">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="りょうてをひろげてたちはだかり相手のにげみちをふさいでにげられなくする。
-PP 5">とおせんぼう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="りょうてをひろげてたちはだかり相手のにげみちをふさいでにげられなくする。">とおせんぼう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="たくさんのみずをあびせかけて相手をみずタイプにする。
-PP 20">みずびたし</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="たくさんのみずをあびせかけて相手をみずタイプにする。">みずびたし</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: おだやか
@@ -6032,19 +5950,17 @@ PP 20">みずびたし</span><span class="move-meta"><span class="move-cat">変�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="じめんにおりて体をやすめる。最大ＨＰの半分のＨＰを回復する。
-PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復">はねやすめ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="きょうれつな風で相手をつつみこんで攻撃する。相手を混乱させることがある。
-PP 10">ぼうふう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 30%">ぼうふう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。
-PP 20">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -6066,19 +5982,17 @@ PP 20">とんぼがえり</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -6099,20 +6013,17 @@ PP 10">サイコショック</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分のＨＰを少しけずってぶんしんをだす。ぶんしんは自分のみがわりになる。
-PP 10">みがわり</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分のＨＰを少しけずってぶんしんをだす。ぶんしんは自分のみがわりになる。">みがわり</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。
-PP 10">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="まばゆいでんげきで自分の周りにいるものを攻撃する。まひ状態にすることがある。
-PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -6133,20 +6044,18 @@ PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="うるさくひびくおおきなしんどうを相手にあたえて攻撃する。
-PP 10">ハイパーボイス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="うるさくひびくおおきなしんどうを相手にあたえて攻撃する。">ハイパーボイス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="くろいかげのかたまりをなげつけて攻撃する。相手の特防を下げることがある。
-PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のとくぼう -1段階">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -6381,19 +6290,16 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="さいぼうをさいせいさせて自分の最大ＨＰの半分のＨＰを回復する。
-PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="たくさんのみずをあびせかけて相手をみずタイプにする。
-PP 20">みずびたし</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="たくさんのみずをあびせかけて相手をみずタイプにする。">みずびたし</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。
-PP 10">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="りょうてをひろげてたちはだかり相手のにげみちをふさいでにげられなくする。
-PP 5">とおせんぼう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="りょうてをひろげてたちはだかり相手のにげみちをふさいでにげられなくする。">とおせんぼう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: ずぶとい
@@ -6644,20 +6550,19 @@ PP 5">とおせんぼう</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。
-PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="こぶしから相手の力をすいとる。あたえたダメージの半分のＨＰを回復できる。
-PP 10">ドレインパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+与えたダメージの 1/2 を回復">ドレインパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="どくにそまったしょくしゅやうでで相手をつきさす。どく状態にすることがある。
-PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="れいきをこめたパンチで相手を攻撃する。こおり状態にすることがある。
-PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -6679,19 +6584,17 @@ PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="するどいはで相手をかみくだいて攻撃する。相手の防御を下げることがある。
-PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="相手にじゃれついて攻撃する。相手の攻撃を下げることがある。
-PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+追加効果 10% / 相手のこうげき -1段階*">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="おおきなあくびでねむけをさそう。つぎのターンに相手を眠り状態にする。
-PP 10">あくび</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="おおきなあくびでねむけをさそう。つぎのターンに相手を眠り状態にする。">あくび</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="もてる力を全てつかって相手にとつげきする。つぎのターンはうごけなくなる。
-PP 5">ギガインパクト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">150</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="もてる力を全てつかって相手にとつげきする。つぎのターンはうごけなくなる。">ギガインパクト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">150</span><span class="move-acc">90%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -6712,20 +6615,17 @@ PP 5">ギガインパクト</span><span class="move-meta"><span class="move-cat"
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="１ターンめに光をいっぱいにあつめ２ターンめに光のたばをはっしゃして攻撃する。
-PP 10">ソーラービーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="１ターンめに光をいっぱいにあつめ２ターンめに光のたばをはっしゃして攻撃する。">ソーラービーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="はげしいほのおを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-rock">いわ</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (いわ)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-rock">いわ</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (いわ)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -6747,19 +6647,18 @@ PP 15">めざめるパワー (いわ)</span><span class="move-meta"><span class=
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="こんしんの力でパンチをくりだして攻撃する。相手を必ず混乱させる。
-PP 5">ばくれつパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">50%</span></span>
+追加効果 100%">ばくれつパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">50%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="とがったいわを相手につきさして攻撃する。急所にあたりやすい。
-PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span></span>
+急所 12.5%（通常は 4.2%）">ストーンエッジ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="どくにそまったしょくしゅやうでで相手をつきさす。どく状態にすることがある。
-PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -6803,19 +6702,17 @@ PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="はげしいかみなりを相手におとして攻撃する。まひ状態にすることがある。
-PP 10">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 30%">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-bug">むし</span><span class="move-name" title="ふしぎな光をはっしゃして攻撃する。相手を混乱させることがある。
-PP 15">シグナルビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">シグナルビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるとくしゅ攻撃のダメージをよわめる。
-PP 30">ひかりのかべ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるとくしゅ攻撃のダメージをよわめる。">ひかりのかべ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 30</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -6833,20 +6730,17 @@ PP 30">ひかりのかべ</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="アンカーを相手にからませて攻撃する。相手はにげることができなくなる。
-PP 20">アンカーショット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="アンカーを相手にからませて攻撃する。相手はにげることができなくなる。">アンカーショット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="ツタやしょくしゅをはげしくふるって相手をたたきつけ攻撃する。
-PP 10">パワーウィップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="ツタやしょくしゅをはげしくふるって相手をたたきつけ攻撃する。">パワーウィップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="１ターンめでどこかにきえて２ターンめに相手を攻撃する。まもりをむしして攻撃できる。
-PP 10">ゴーストダイブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="１ターンめでどこかにきえて２ターンめに相手を攻撃する。まもりをむしして攻撃できる。">ゴーストダイブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ようき
@@ -6865,19 +6759,19 @@ PP 10">ゴーストダイブ</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="あつくにえたぎるみずを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">ねっとう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ねっとう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="だいのじのほのおで相手をやきつくす。やけど状態にすることがある。
-PP 5">だいもんじ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">85%</span></span>
+追加効果 10%">だいもんじ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">85%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="つめたいれいきを相手にふきつけて攻撃する。相手の素早さを下げる。
-PP 15">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="なまけてやすむ。自分のＨＰを最大ＨＰの半分回復する。
-PP 10">なまける</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">なまける</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -6898,20 +6792,19 @@ PP 10">なまける</span><span class="move-meta"><span class="move-cat">変化<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fire">ほのお</span><span class="move-name" title="いかりを爆発させて相手を攻撃する。自分のＨＰが少ないほどわざの威力は下がる。
-PP 5">ふんか</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">150</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fire">ほのお</span><span class="move-name" title="いかりを爆発させて相手を攻撃する。自分のＨＰが少ないほどわざの威力は下がる。">ふんか</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">150</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="あついいきを相手にふきつけて攻撃する。やけど状態にすることがある。
-PP 10">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span></span>
+追加効果 10%">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="みえないふしぎな力をおくって攻撃する。相手をひるませることがある。
-PP 20">じんつうりき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 10%">じんつうりき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: おくびょう
@@ -6932,20 +6825,19 @@ PP 20">じんつうりき</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。
-PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="相手にじゃれついて攻撃する。相手の攻撃を下げることがある。
-PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+追加効果 10% / 相手のこうげき -1段階*">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="だいのじのほのおで相手をやきつくす。やけど状態にすることがある。
-PP 5">だいもんじ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">85%</span></span>
+追加効果 10%">だいもんじ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">85%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="すごい力をはっきして相手を攻撃する。自分の攻撃と防御が下がる。
-PP 5">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+こうげき -1段階 / ぼうぎょ -1段階">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -6967,19 +6859,17 @@ PP 5">ばかぢから</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="すごいいきおいで相手につっこむ。相手をひるませることがある。
-PP 15">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="カマやツメをハサミのようにこうささせながら相手をきりさく。
-PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="カマやツメをハサミのようにこうささせながら相手をきりさく。">シザークロス</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -6998,19 +6888,19 @@ PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="こんしんの力でパンチをくりだして攻撃する。相手を必ず混乱させる。
-PP 5">ばくれつパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">50%</span></span>
+追加効果 100%">ばくれつパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">50%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="れいきをこめたパンチで相手を攻撃する。こおり状態にすることがある。
-PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="強くておもいこぶしをふるってダメージを与える。自分の素早さが下がる。
-PP 10">アームハンマー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">90%</span></span>
+すばやさ -1段階">アームハンマー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -7032,19 +6922,18 @@ PP 10">アームハンマー</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="まもりをすてて相手のふところにとつげきする。自分の防御と特防が下がる。
-PP 5">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="ほのおをまとってとっしんする。自分もかなりダメージを受ける。やけど状態にすることがある。
-PP 15">フレアドライブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+追加効果 10% / 反動 与えたダメージの 1/3">フレアドライブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-flying">ひこう</span><span class="move-name" title="かろやかに相手を攻撃する。自分が道具をもっていないときおおきなダメージを与える。
-PP 15">アクロバット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">55</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-flying">ひこう</span><span class="move-name" title="かろやかに相手を攻撃する。自分が道具をもっていないときおおきなダメージを与える。">アクロバット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">55</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -7387,20 +7276,19 @@ PP 15">アクロバット</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。
-PP 20">アクアジェット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。">アクアジェット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="相手にじゃれついて攻撃する。相手の攻撃を下げることがある。
-PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+追加効果 10% / 相手のこうげき -1段階*">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分のＨＰを最大ＨＰの半分へらして自分の攻撃を最大に上げる。
-PP 10">はらだいこ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき 最大まで（+6段階）">はらだいこ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="すごいいきおいで相手につっこむ。相手をひるませることがある。
-PP 15">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -7418,20 +7306,17 @@ PP 15">たきのぼり</span><span class="move-meta"><span class="move-cat">物�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="うるさくひびくおおきなしんどうを相手にあたえて攻撃する。
-PP 10">ハイパーボイス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="うるさくひびくおおきなしんどうを相手にあたえて攻撃する。">ハイパーボイス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。
-PP 10">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="くろいかげのかたまりをなげつけて攻撃する。相手の特防を下げることがある。
-PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のとくぼう -1段階">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (じめん)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (じめん)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -7453,19 +7338,18 @@ PP 15">めざめるパワー (じめん)</span><span class="move-meta"><span cla
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="くりかえしうつことでだんだんこぶしがかたくなる。相手にあてると攻撃が上がる。
-PP 30">グロウパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+追加効果 100% / こうげき +1段階*">グロウパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="ジャンプからのひざげりで相手を攻撃する。はずすと自分がダメージを受ける。
-PP 10">とびひざげり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="ジャンプからのひざげりで相手を攻撃する。はずすと自分がダメージを受ける。">とびひざげり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="れいきをこめたパンチで相手を攻撃する。こおり状態にすることがある。
-PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="そらたかくとびはねて２ターンめに相手を攻撃する。まひ状態にすることがある。
-PP 5">とびはねる</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">85%</span></span>
+追加効果 30%">とびはねる</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">85%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: ようき
@@ -7508,20 +7392,18 @@ PP 5">とびはねる</span><span class="move-meta"><span class="move-cat">物�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="りょううでをまわし相手にあてる。相手の能力変化にかんけいなくダメージを与える。
-PP 10">DDラリアット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="りょううでをまわし相手にあてる。相手の能力変化にかんけいなくダメージを与える。">DDラリアット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="りょうてチョップを相手にたたきつけて攻撃する。急所にあたりやすい。
-PP 5">クロスチョップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span></span>
+急所 12.5%（通常は 4.2%）">クロスチョップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="ほのおをまとってとっしんする。自分もかなりダメージを受ける。やけど状態にすることがある。
-PP 15">フレアドライブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+追加効果 10% / 反動 与えたダメージの 1/3">フレアドライブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="２ー３ターンのあいだあばれまくって攻撃する。あばれたあとは混乱する。
-PP 10">げきりん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="２ー３ターンのあいだあばれまくって攻撃する。あばれたあとは混乱する。">げきりん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -7543,19 +7425,17 @@ PP 10">げきりん</span><span class="move-meta"><span class="move-cat">物理<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="はげしいかみなりを相手におとして攻撃する。まひ状態にすることがある。
-PP 10">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 30%">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="５ターンのあいだ雨をふらせてみずタイプのわざの威力を上げる。
-PP 5">あまごい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="５ターンのあいだ雨をふらせてみずタイプのわざの威力を上げる。">あまごい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。
-PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: おくびょう
@@ -7577,19 +7457,17 @@ PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="たたかいのまいをはげしくおどってきあいをたかめる。自分の攻撃をぐーんと上げる。
-PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +2段階*">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="カマやツメをハサミのようにこうささせながら相手をきりさく。
-PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="カマやツメをハサミのようにこうささせながら相手をきりさく。">シザークロス</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="はげしくあれくるうあらなみのようにおおきなしっぽをふって相手を攻撃する。
-PP 10">アクアテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="はげしくあれくるうあらなみのようにおおきなしっぽをふって相手を攻撃する。">アクアテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -7611,19 +7489,17 @@ PP 10">アクアテール</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="からをやぶって自分の防御特防を下げるが攻撃特攻素早さをぐーんと上げる。
-PP 15">からをやぶる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階 / こうげき +2段階 / とくこう +2段階 / すばやさ +2段階">からをやぶる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。
-PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (くさ)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (くさ)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -7644,20 +7520,18 @@ PP 15">めざめるパワー (くさ)</span><span class="move-meta"><span class=
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="するどくとがったきょだいなツメで相手をきりさいて攻撃する。
-PP 15">ドラゴンクロー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="するどくとがったきょだいなツメで相手をきりさいて攻撃する。">ドラゴンクロー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="しんぴてきで力づよいまいをはげしくおどる。自分の攻撃と素早さを上げる。
-PP 20">りゅうのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +1段階* / すばやさ +1段階*">りゅうのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="すごい力をはっきして相手を攻撃する。自分の攻撃と防御が下がる。
-PP 5">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+こうげき -1段階 / ぼうぎょ -1段階">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: ようき
@@ -7679,19 +7553,18 @@ PP 5">ばかぢから</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="じめんにおりて体をやすめる。最大ＨＰの半分のＨＰを回復する。
-PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復">はねやすめ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="はねをおりたたみていくうひこうでとつげきする。自分もかなりダメージを受ける。
-PP 15">ブレイブバード</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+反動 与えたダメージの 1/3">ブレイブバード</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="まもりをすてて相手のふところにとつげきする。自分の防御と特防が下がる。
-PP 5">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-flying">ひこう</span><span class="move-name" title="はげしくふきあれる風のうずをつくり４ターンのあいだ味方全員の素早さを上げる。
-PP 15">おいかぜ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-flying">ひこう</span><span class="move-name" title="はげしくふきあれる風のうずをつくり４ターンのあいだ味方全員の素早さを上げる。">おいかぜ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -7735,20 +7608,18 @@ PP 15">おいかぜ</span><span class="move-meta"><span class="move-cat">変化<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="わざのあと相手の攻撃でひんしになると攻撃相手もひんしにする。れんぞくしてだすとしっぱいする。
-PP 5">みちづれ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="わざのあと相手の攻撃でひんしになると攻撃相手もひんしにする。れんぞくしてだすとしっぱいする。">みちづれ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="だいのじのほのおで相手をやきつくす。やけど状態にすることがある。
-PP 5">だいもんじ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">85%</span></span>
+追加効果 10%">だいもんじ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">85%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="きたないヘドロを相手になげつけて攻撃する。どく状態にすることがある。
-PP 10">ヘドロばくだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 30%">ヘドロばくだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="４ー５ターンのあいだ相手にまとわりついて攻撃する。そのあいだ相手はにげられない。
-PP 35">まとわりつく</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">20</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="４ー５ターンのあいだ相手にまとわりついて攻撃する。そのあいだ相手はにげられない。">まとわりつく</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">20</span><span class="move-acc">100%</span><span class="move-pp">PP 35</span></span>
 </li>
 </ul></td>
 <td>せいかく: ずぶとい
@@ -7770,19 +7641,17 @@ PP 35">まとわりつく</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="すごい力をはっきして相手を攻撃する。自分の攻撃と防御が下がる。
-PP 5">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+こうげき -1段階 / ぼうぎょ -1段階">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="おもたい体で相手にぶつかって攻撃する。自分が相手よりおもいほど威力が上がる。
-PP 10">ヘビーボンバー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="おもたい体で相手にぶつかって攻撃する。自分が相手よりおもいほど威力が上がる。">ヘビーボンバー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="ぜんしんをつかって相手にもうアタックする。
-PP 10">10まんばりき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">95%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="ぜんしんをつかって相手にもうアタックする。">10まんばりき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">95%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -7804,19 +7673,18 @@ PP 10">10まんばりき</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="まもりをすてて相手のふところにとつげきする。自分の防御と特防が下がる。
-PP 5">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。
-PP 30">でんこうせっか</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。">でんこうせっか</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="かげからつくったするどいツメで相手をきりさく。急所にあたりやすい。
-PP 15">シャドークロー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+急所 12.5%（通常は 4.2%）">シャドークロー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="たたかいのまいをはげしくおどってきあいをたかめる。自分の攻撃をぐーんと上げる。
-PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +2段階*">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: ようき
@@ -7838,19 +7706,19 @@ PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="体をちぢめてちいさくみせて自分のかいひりつをぐーんと上げる。
-PP 10">ちいさくなる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+かいひ +2段階">ちいさくなる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="ヘドロのなみで自分の周りにいるものを攻撃する。どく状態にすることがある。
-PP 10">ヘドロウェーブ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+追加効果 10%">ヘドロウェーブ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="だいのじのほのおで相手をやきつくす。やけど状態にすることがある。
-PP 5">だいもんじ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">85%</span></span>
+追加効果 10%">だいもんじ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">85%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="ようぶんをすいとり攻撃する。あたえたダメージの半分のＨＰを回復できる。
-PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+与えたダメージの 1/2 を回復">ギガドレイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: おだやか
@@ -7872,19 +7740,16 @@ PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="相手にじゃれついて攻撃する。相手の攻撃を下げることがある。
-PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+追加効果 10% / 相手のこうげき -1段階*">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="ジャンプからのひざげりで相手を攻撃する。はずすと自分がダメージを受ける。
-PP 10">とびひざげり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="ジャンプからのひざげりで相手を攻撃する。はずすと自分がダメージを受ける。">とびひざげり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="ツタやしょくしゅをはげしくふるって相手をたたきつけ攻撃する。
-PP 10">パワーウィップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="ツタやしょくしゅをはげしくふるって相手をたたきつけ攻撃する。">パワーウィップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -7902,20 +7767,19 @@ PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="ツタやしょくしゅをはげしくふるって相手をたたきつけ攻撃する。
-PP 10">パワーウィップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="ツタやしょくしゅをはげしくふるって相手をたたきつけ攻撃する。">パワーウィップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="にごったみずを相手にはっしゃして攻撃する。命中率を下げることがある。
-PP 10">だくりゅう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">85%</span></span>
+追加効果 30% / 相手のめいちゅう -1段階*">だくりゅう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">85%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="はげしいふぶきを相手にふきつけて攻撃する。こおり状態にすることがある。
-PP 5">ふぶき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 10%">ふぶき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="強くておもいこぶしをふるってダメージを与える。自分の素早さが下がる。
-PP 10">アームハンマー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">90%</span></span>
+すばやさ -1段階">アームハンマー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: てれや
@@ -7954,20 +7818,18 @@ PP 10">アームハンマー</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。
-PP 20">ボルトチェンジ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。">ボルトチェンジ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="はげしいほのおを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: おくびょう
@@ -7989,19 +7851,18 @@ PP 15">めざめるパワー (こおり)</span><span class="move-meta"><span cla
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="たたかいのまいをはげしくおどってきあいをたかめる。自分の攻撃をぐーんと上げる。
-PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +2段階*">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="はっぱをつるぎのようにあやつり相手をきりつけて攻撃する。急所にあたりやすい。
-PP 15">リーフブレード</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+急所 12.5%（通常は 4.2%）">リーフブレード</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ようき
@@ -8022,20 +7883,18 @@ PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。
-PP 20">アクアジェット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手につっこむ。必ずせんせい攻撃できる。">アクアジェット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="すごいいきおいで相手につっこむ。相手をひるませることがある。
-PP 15">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="するどいはで相手をかみくだいて攻撃する。相手の防御を下げることがある。
-PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -8053,20 +7912,17 @@ PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</sp
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。
-PP 20">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="だんがんのような速くてかたいパンチを相手にくりだす。必ずせんせい攻撃できる。
-PP 30">バレットパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="だんがんのような速くてかたいパンチを相手にくりだす。必ずせんせい攻撃できる。">バレットパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="すごい力をはっきして相手を攻撃する。自分の攻撃と防御が下がる。
-PP 5">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+こうげき -1段階 / ぼうぎょ -1段階">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="攻撃とどうじに道具をぬすむ。自分が道具をもっている場合はぬすめない。
-PP 25">どろぼう</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="攻撃とどうじに道具をぬすむ。自分が道具をもっている場合はぬすめない。">どろぼう</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 25</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -8088,19 +7944,19 @@ PP 25">どろぼう</span><span class="move-meta"><span class="move-cat">物理<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="強いねんりきを相手におくって攻撃する。相手の特防を下げることがある。
-PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="さいぼうをさいせいさせて自分の最大ＨＰの半分のＨＰを回復する。
-PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんげきのたばを相手にはっしゃする。でんきをためて自分の特攻を上げることがある。
-PP 10">チャージビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">50</span><span class="move-acc">90%</span></span>
+追加効果 70% / とくこう +1段階*">チャージビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">50</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: おくびょう
@@ -8174,20 +8030,19 @@ PP 10">チャージビーム</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。
-PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しねんの力をひたいにあつめて攻撃する。相手をひるませることがある。
-PP 15">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span></span>
+追加効果 20%">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="たたかいのまいをはげしくおどってきあいをたかめる。自分の攻撃をぐーんと上げる。
-PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +2段階*">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="まもりをすてて相手のふところにとつげきする。自分の防御と特防が下がる。
-PP 5">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: ようき
@@ -8205,20 +8060,17 @@ PP 5">インファイト</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="ジャンプからのひざげりで相手を攻撃する。はずすと自分がダメージを受ける。
-PP 10">とびひざげり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="ジャンプからのひざげりで相手を攻撃する。はずすと自分がダメージを受ける。">とびひざげり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。
-PP 20">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="せんせい攻撃で相手をひるませる。戦闘にでたらすぐにださないとせいこうしない。
-PP 10">ねこだまし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+追加効果 100%">ねこだまし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ようき
@@ -8240,19 +8092,18 @@ PP 10">ねこだまし</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんきをおびたほっぺをすりつけて攻撃。相手をまひ状態にする。
-PP 20">ほっぺすりすり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">20</span><span class="move-acc">100%</span></span>
+追加効果 100%">ほっぺすりすり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">20</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="わるいことをかんがえて頭をかっせいかさせる。自分の特攻をぐーんと上げる。
-PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +2段階*">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="まばゆいでんげきで自分の周りにいるものを攻撃する。まひ状態にすることがある。
-PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -8273,20 +8124,18 @@ PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="そらをもきりさくくうきのやいばで攻撃する。相手をひるませることがある。
-PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">95%</span></span>
+追加効果 30%">エアスラッシュ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。
-PP 20">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="わるいことをかんがえて頭をかっせいかさせる。自分の特攻をぐーんと上げる。
-PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +2段階*">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: おくびょう
@@ -8307,20 +8156,19 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。
-PP 20">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="体の光をいってんにあつめて力をはなつ。相手の特防を下げることがある。
-PP 10">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しずかにせいしんをとういつしこころをしずめることで自分の特攻と特防を上げる。
-PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +1段階* / とくぼう +1段階*">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="くろいかげのかたまりをなげつけて攻撃する。相手の特防を下げることがある。
-PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のとくぼう -1段階">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: おくびょう
@@ -8341,20 +8189,18 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="ほのおをまとってとっしんする。自分もかなりダメージを受ける。やけど状態にすることがある。
-PP 15">フレアドライブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+追加効果 10% / 反動 与えたダメージの 1/3">フレアドライブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="りょうてチョップを相手にたたきつけて攻撃する。急所にあたりやすい。
-PP 5">クロスチョップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span></span>
+急所 12.5%（通常は 4.2%）">クロスチョップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -8387,19 +8233,18 @@ PP 5">クロスチョップ</span><span class="move-meta"><span class="move-cat"
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="くろいかげのかたまりをなげつけて攻撃する。相手の特防を下げることがある。
-PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のとくぼう -1段階">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-bug">むし</span><span class="move-name" title="ふしぎな光をはっしゃして攻撃する。相手を混乱させることがある。
-PP 15">シグナルビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">シグナルビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="まばゆいでんげきで自分の周りにいるものを攻撃する。まひ状態にすることがある。
-PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -8420,20 +8265,18 @@ PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="５ターンのあいだエレキフィールドにする。じめんにいるポケモンはねむらない。でんきタイプの威力が上がる。
-PP 10">エレキフィールド</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="５ターンのあいだエレキフィールドにする。じめんにいるポケモンはねむらない。でんきタイプの威力が上がる。">エレキフィールド</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんきをまとって相手にぶつかって攻撃する。自分も少しダメージを受ける。
-PP 15">ワイルドボルト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+反動 与えたダメージの 1/4">ワイルドボルト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="すごい力をはっきして相手を攻撃する。自分の攻撃と防御が下がる。
-PP 5">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+こうげき -1段階 / ぼうぎょ -1段階">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。
-PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -8455,19 +8298,18 @@ PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="わるいことをかんがえて頭をかっせいかさせる。自分の特攻をぐーんと上げる。
-PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +2段階*">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -8485,20 +8327,17 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="すさまじいばくおんのはか威力によって周りにいるものを攻撃する。
-PP 10">ばくおんぱ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">140</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="すさまじいばくおんのはか威力によって周りにいるものを攻撃する。">ばくおんぱ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">140</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -8519,20 +8358,18 @@ PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="すさまじいばくおんのはか威力によって周りにいるものを攻撃する。
-PP 10">ばくおんぱ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">140</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="すさまじいばくおんのはか威力によって周りにいるものを攻撃する。">ばくおんぱ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">140</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="きょうれつな風で相手をつつみこんで攻撃する。相手を混乱させることがある。
-PP 10">ぼうふう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 30%">ぼうふう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="あついいきを相手にふきつけて攻撃する。やけど状態にすることがある。
-PP 10">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span></span>
+追加効果 10%">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -8554,19 +8391,18 @@ PP 10">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="まばゆいでんげきで自分の周りにいるものを攻撃する。まひ状態にすることがある。
-PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="たいほうのようなでんきをはっしゃして攻撃する。相手をまひの状態にする。
-PP 5">でんじほう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">50%</span></span>
+追加効果 100%">でんじほう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">50%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="力をぬいて体をかるくしてこうそくでうごく。自分の素早さをぐーんと上げる。
-PP 30">こうそくいどう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+すばやさ +2段階*">こうそくいどう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 30</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -8601,20 +8437,17 @@ PP 30">こうそくいどう</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="フラフラとダンスをおどって自分の周りにいるものを混乱状態にさせる。
-PP 20">フラフラダンス</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="フラフラとダンスをおどって自分の周りにいるものを混乱状態にさせる。">フラフラダンス</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="つめたいれいきを相手にふきつけて攻撃する。相手の素早さを下げる。
-PP 15">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるとくしゅ攻撃のダメージをよわめる。
-PP 30">ひかりのかべ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるとくしゅ攻撃のダメージをよわめる。">ひかりのかべ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるぶつり攻撃のダメージをよわめる。
-PP 20">リフレクター</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるぶつり攻撃のダメージをよわめる。">リフレクター</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -8632,20 +8465,17 @@ PP 20">リフレクター</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="ポケモンにスポットライトをあてそのターンにそのポケモンしかねらえないようにする。
-PP 15">スポットライト</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="ポケモンにスポットライトをあてそのターンにそのポケモンしかねらえないようにする。">スポットライト</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="相手の攻撃りょくと同じだけ自分のＨＰを回復する。そして相手の攻撃を下げる。
-PP 10">ちからをすいとる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span></span>
+相手のこうげき -1段階">ちからをすいとる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="さいみん効果のあるほうしをパラパラとふりまき相手を眠り状態にする。
-PP 15">キノコのほうし</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="さいみん効果のあるほうしをパラパラとふりまき相手を眠り状態にする。">キノコのほうし</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -8663,20 +8493,18 @@ PP 15">キノコのほうし</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。
-PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="ヘドロのなみで自分の周りにいるものを攻撃する。どく状態にすることがある。
-PP 10">ヘドロウェーブ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+追加効果 10%">ヘドロウェーブ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -8694,20 +8522,19 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="強いねんりきを相手におくって攻撃する。相手の特防を下げることがある。
-PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんげきのたばを相手にはっしゃする。でんきをためて自分の特攻を上げることがある。
-PP 10">チャージビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">50</span><span class="move-acc">90%</span></span>
+追加効果 70% / とくこう +1段階*">チャージビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">50</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -8726,19 +8553,19 @@ PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="てんくうからいんせきを相手におとす。使うとはんどうで自分の特攻ががくっと下がる。
-PP 5">りゅうせいぐん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">130</span><span class="move-acc">90%</span></span>
+とくこう -2段階">りゅうせいぐん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">130</span><span class="move-acc">90%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="だいのじのほのおで相手をやきつくす。やけど状態にすることがある。
-PP 5">だいもんじ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">85%</span></span>
+追加効果 10%">だいもんじ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">85%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="ヘドロのなみで自分の周りにいるものを攻撃する。どく状態にすることがある。
-PP 10">ヘドロウェーブ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+追加効果 10%">ヘドロウェーブ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -8756,20 +8583,16 @@ PP 10">ヘドロウェーブ</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="ゆびをふり自分ののうをしげきして全てのわざのなかからどれか１つをくりだす。
-PP 10">ゆびをふる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="ゆびをふり自分ののうをしげきして全てのわざのなかからどれか１つをくりだす。">ゆびをふる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="てんにむかっておいのりをささげ５ターンのあいだ相手の攻撃を急所にあたらなくする。
-PP 30">おまじない</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="てんにむかっておいのりをささげ５ターンのあいだ相手の攻撃を急所にあたらなくする。">おまじない</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分にちゅうもくさせて相手からの攻撃を全て自分にむけさせる。
-PP 20">このゆびとまれ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分にちゅうもくさせて相手からの攻撃を全て自分にむけさせる。">このゆびとまれ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -8788,19 +8611,18 @@ PP 20">このゆびとまれ</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="つめたいれいきを相手にふきつけて攻撃する。相手の素早さを下げる。
-PP 15">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="体からあくいにみちたおそろしいオーラをはっする。相手をひるませることがある。
-PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-rock">いわ</span><span class="move-name" title="ほうせきのようにきらめく光をはっしゃして相手を攻撃する。
-PP 20">パワージェム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-rock">いわ</span><span class="move-name" title="ほうせきのようにきらめく光をはっしゃして相手を攻撃する。">パワージェム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -8819,19 +8641,18 @@ PP 20">パワージェム</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="はがねのようなかたい頭で攻撃する。相手をひるませることがある。
-PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="カマやツメをハサミのようにこうささせながら相手をきりさく。
-PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="カマやツメをハサミのようにこうささせながら相手をきりさく。">シザークロス</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="するどいはで相手をかみくだいて攻撃する。相手の防御を下げることがある。
-PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -8850,19 +8671,18 @@ PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="こんしんの力でパンチをくりだして攻撃する。相手を必ず混乱させる。
-PP 5">ばくれつパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">50%</span></span>
+追加効果 100%">ばくれつパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">50%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ground">じめん</span><span class="move-name" title="じめんをふみならして自分の周りにいるものを攻撃する。相手の素早さを下げる。
-PP 20">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="おもたい体で相手にぶつかって攻撃する。自分が相手よりおもいほど威力が上がる。
-PP 10">ヘビーボンバー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="おもたい体で相手にぶつかって攻撃する。自分が相手よりおもいほど威力が上がる。">ヘビーボンバー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -8881,19 +8701,19 @@ PP 10">ヘビーボンバー</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="つきのパワーをかりて相手を攻撃する。相手の特攻を下げることがある。
-PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+追加効果 30% / 相手のとくこう -1段階*">ムーンフォース</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-bug">むし</span><span class="move-name" title="しんどうでおんぱをおこして攻撃する。相手の特防を下げることがある。
-PP 10">むしのさざめき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">むしのさざめき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="強いねんりきを相手におくって攻撃する。相手の特防を下げることがある。
-PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-bug">むし</span><span class="move-name" title="しんぴてきでうつくしいまいをかろやかにおどる。自分の特攻と特防と素早さを上げる。
-PP 20">ちょうのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +1段階* / とくぼう +1段階* / すばやさ +1段階*">ちょうのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -8932,20 +8752,19 @@ PP 20">ちょうのまい</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="５ターンのあいだ雨をふらせてみずタイプのわざの威力を上げる。
-PP 5">あまごい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="５ターンのあいだ雨をふらせてみずタイプのわざの威力を上げる。">あまごい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="ようぶんをすいとり攻撃する。あたえたダメージの半分のＨＰを回復できる。
-PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+与えたダメージの 1/2 を回復">ギガドレイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="あつくにえたぎるみずを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">ねっとう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ねっとう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -8963,20 +8782,18 @@ PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="とがったつので相手をつきさして攻撃する。攻撃は必ず命中する。
-PP 10">スマートホーン</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="とがったつので相手をつきさして攻撃する。攻撃は必ず命中する。">スマートホーン</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="しんぴてきで力づよいまいをはげしくおどる。自分の攻撃と素早さを上げる。
-PP 20">りゅうのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +1段階* / すばやさ +1段階*">りゅうのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="すごいいきおいで相手につっこむ。相手をひるませることがある。
-PP 15">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ice">こおり</span><span class="move-name" title="こおりのかたまりをいっしゅんでつくり相手に素早くはなつ。必ずせんせい攻撃できる。
-PP 30">こおりのつぶて</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ice">こおり</span><span class="move-name" title="こおりのかたまりをいっしゅんでつくり相手に素早くはなつ。必ずせんせい攻撃できる。">こおりのつぶて</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -8995,19 +8812,17 @@ PP 30">こおりのつぶて</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="はげしいかみなりを相手におとして攻撃する。まひ状態にすることがある。
-PP 10">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 30%">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="体の光をいってんにあつめて力をはなつ。相手の特防を下げることがある。
-PP 10">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="５ターンのあいだエレキフィールドにする。じめんにいるポケモンはねむらない。でんきタイプの威力が上がる。
-PP 10">エレキフィールド</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="５ターンのあいだエレキフィールドにする。じめんにいるポケモンはねむらない。でんきタイプの威力が上がる。">エレキフィールド</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="おおきな爆発で自分の周りにいるものを攻撃する。使ったあとにひんしになる。
-PP 5">だいばくはつ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">250</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="おおきな爆発で自分の周りにいるものを攻撃する。使ったあとにひんしになる。">だいばくはつ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">250</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9026,19 +8841,17 @@ PP 5">だいばくはつ</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="はげしいかみなりを相手におとして攻撃する。まひ状態にすることがある。
-PP 10">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 30%">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="つめたいれいきを相手にふきつけて攻撃する。相手の素早さを下げる。
-PP 15">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9057,19 +8870,19 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="３つのこうせんで攻撃する。まひかやけどかこおり状態のどれかにすることがある。
-PP 10">トライアタック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">トライアタック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="体からあくいにみちたおそろしいオーラをはっする。相手をひるませることがある。
-PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9090,20 +8903,18 @@ PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="はがねのようなかたい頭で攻撃する。相手をひるませることがある。
-PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。
-PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9121,20 +8932,17 @@ PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="まかふしぎなくうかんをつくる。５ターンのあいだおそいポケモンから行動できる。
-PP 5">トリックルーム</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="まかふしぎなくうかんをつくる。５ターンのあいだおそいポケモンから行動できる。">トリックルーム</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="強いねんりきを相手におくって攻撃する。相手の特防を下げることがある。
-PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="多いそぎで味方のたすけをかりて味方のポケモンがおぼえているわざをどれか１つ使う。
-PP 20">ねこのて</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="多いそぎで味方のたすけをかりて味方のポケモンがおぼえているわざをどれか１つ使う。">ねこのて</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9152,20 +8960,17 @@ PP 20">ねこのて</span><span class="move-meta"><span class="move-cat">変化<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="おおきな爆発で自分の周りにいるものを攻撃する。使ったあとにひんしになる。
-PP 5">だいばくはつ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">250</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="おおきな爆発で自分の周りにいるものを攻撃する。使ったあとにひんしになる。">だいばくはつ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">250</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fire">ほのお</span><span class="move-name" title="当たるとはじけるほのおで相手を攻撃する。はじけたほのおはとなりの相手にもふりかかる。
-PP 15">はじけるほのお</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fire">ほのお</span><span class="move-name" title="当たるとはじけるほのおで相手を攻撃する。はじけたほのおはとなりの相手にもふりかかる。">はじけるほのお</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-poison">どく</span><span class="move-name" title="どくガスを相手のかおにふきかけてどくの状態にする。
-PP 40">どくガス</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-poison">どく</span><span class="move-name" title="どくガスを相手のかおにふきかけてどくの状態にする。">どくガス</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 40</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="よごれたガスを相手にふきつけて攻撃する。どく状態にすることがある。
-PP 20">スモッグ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">30</span><span class="move-acc">70%</span></span>
+追加効果 40%">スモッグ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">30</span><span class="move-acc">70%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9184,19 +8989,18 @@ PP 20">スモッグ</span><span class="move-meta"><span class="move-cat">特殊<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="おおきなハサミを相手にたたきつけて攻撃する。急所にあたりやすい。
-PP 10">クラブハンマー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">90%</span></span>
+急所 12.5%（通常は 4.2%）">クラブハンマー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="いっしゅんのすきをついて相手をきりはらう。急所にあたりやすい。
-PP 15">つじぎり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+急所 12.5%（通常は 4.2%）">つじぎり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="つめたいれいきを相手にふきつけて攻撃する。相手の素早さを下げる。
-PP 15">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9215,19 +9019,17 @@ PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="つきのパワーをかりて相手を攻撃する。相手の特攻を下げることがある。
-PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+追加効果 30% / 相手のとくこう -1段階*">ムーンフォース</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="２ー３ターンのあいだはなをまきちらして相手を攻撃する。まきちらしたあとは混乱する。
-PP 10">はなびらのまい</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="２ー３ターンのあいだはなをまきちらして相手を攻撃する。まきちらしたあとは混乱する。">はなびらのまい</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="自分のＨＰを回復する。天気によって回復のりょうが変化する。
-PP 5">こうごうせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">こうごうせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="♂なら♀を♀なら♂をゆうわくしてメロメロにする。相手はわざがだしにくくなる。
-PP 15">メロメロ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="♂なら♀を♀なら♂をゆうわくしてメロメロにする。相手はわざがだしにくくなる。">メロメロ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9262,20 +9064,18 @@ PP 15">メロメロ</span><span class="move-meta"><span class="move-cat">変化<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="５ターンのあいだエレキフィールドにする。じめんにいるポケモンはねむらない。でんきタイプの威力が上がる。
-PP 10">エレキフィールド</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="５ターンのあいだエレキフィールドにする。じめんにいるポケモンはねむらない。でんきタイプの威力が上がる。">エレキフィールド</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="相手にすいつくはがねのばくだんをはっしゃする。攻撃は必ず命中する。
-PP 20">マグネットボム</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="相手にすいつくはがねのばくだんをはっしゃする。攻撃は必ず命中する。">マグネットボム</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="まばゆいでんげきで自分の周りにいるものを攻撃する。まひ状態にすることがある。
-PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="体の光をいってんにあつめて力をはなつ。相手の特防を下げることがある。
-PP 10">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9294,19 +9094,18 @@ PP 10">ラスターカノン</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="わるいことをかんがえて頭をかっせいかさせる。自分の特攻をぐーんと上げる。
-PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +2段階*">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="まばゆいでんげきで自分の周りにいるものを攻撃する。まひ状態にすることがある。
-PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9325,19 +9124,18 @@ PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="しぜんからあつめたいのちの力をはっしゃする。相手の特防を下げることがある。
-PP 10">エナジーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">エナジーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="さいぼうをさいせいさせて自分の最大ＨＰの半分のＨＰを回復する。
-PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9355,20 +9153,19 @@ PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="まかふしぎなくうかんをつくる。５ターンのあいだおそいポケモンから行動できる。
-PP 5">トリックルーム</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="まかふしぎなくうかんをつくる。５ターンのあいだおそいポケモンから行動できる。">トリックルーム</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="しぜんからあつめたいのちの力をはっしゃする。相手の特防を下げることがある。
-PP 10">エナジーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">エナジーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="強いねんりきを相手におくって攻撃する。相手の特防を下げることがある。
-PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-bug">むし</span><span class="move-name" title="ふしぎな光をはっしゃして攻撃する。相手を混乱させることがある。
-PP 15">シグナルビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">シグナルビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9387,19 +9184,16 @@ PP 15">シグナルビーム</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="最大ＨＰの半分自分のＨＰを回復する。
-PP 10">タマゴうみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">タマゴうみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。
-PP 10">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="いんりょくをつかいなげ飛ばす。自分のレベルと同じダメージを相手に与える。
-PP 20">ちきゅうなげ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="いんりょくをつかいなげ飛ばす。自分のレベルと同じダメージを相手に与える。">ちきゅうなげ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="うるさくひびくおおきなしんどうを相手にあたえて攻撃する。
-PP 10">ハイパーボイス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="うるさくひびくおおきなしんどうを相手にあたえて攻撃する。">ハイパーボイス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9417,20 +9211,18 @@ PP 10">ハイパーボイス</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="はげしいほのおを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ground">じめん</span><span class="move-name" title="じめんをふみならして自分の周りにいるものを攻撃する。相手の素早さを下げる。
-PP 20">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9449,19 +9241,18 @@ PP 20">じならし</span><span class="move-meta"><span class="move-cat">物理<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="強いねんりきを相手におくって攻撃する。相手の特防を下げることがある。
-PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="げんしの力で攻撃する。自分の全ての能力が上がることがある。
-PP 5">げんしのちから</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+追加効果 10%">げんしのちから</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="そらをもきりさくくうきのやいばで攻撃する。相手をひるませることがある。
-PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">95%</span></span>
+追加効果 30%">エアスラッシュ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9480,19 +9271,19 @@ PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="まばゆいでんげきで自分の周りにいるものを攻撃する。まひ状態にすることがある。
-PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="たいほうのようなでんきをはっしゃして攻撃する。相手をまひの状態にする。
-PP 5">でんじほう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">50%</span></span>
+追加効果 100%">でんじほう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">50%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ground">じめん</span><span class="move-name" title="じめんをふみならして自分の周りにいるものを攻撃する。相手の素早さを下げる。
-PP 20">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9510,20 +9301,18 @@ PP 20">じならし</span><span class="move-meta"><span class="move-cat">物理<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="体の光をいってんにあつめて力をはなつ。相手の特防を下げることがある。
-PP 10">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="つめたいれいきを相手にふきつけて攻撃する。相手の素早さを下げる。
-PP 15">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ice">こおり</span><span class="move-name" title="しろいきりで体をおおう。５ターンのあいだ相手に能力をさげられなくなる。
-PP 30">しろいきり</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-ice">こおり</span><span class="move-name" title="しろいきりで体をおおう。５ターンのあいだ相手に能力をさげられなくなる。">しろいきり</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 30</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9541,20 +9330,18 @@ PP 30">しろいきり</span><span class="move-meta"><span class="move-cat">変�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="しんぴてきで力づよいまいをはげしくおどる。自分の攻撃と素早さを上げる。
-PP 20">りゅうのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +1段階* / すばやさ +1段階*">りゅうのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9590,19 +9377,18 @@ PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="からをやぶって自分の防御特防を下げるが攻撃特攻素早さをぐーんと上げる。
-PP 15">からをやぶる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階 / こうげき +2段階 / とくこう +2段階 / すばやさ +2段階">からをやぶる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="するどいつららを相手にはっしゃして攻撃する。２ー５かいのあいだれんぞくでだす。
-PP 30">つららばり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">25</span><span class="move-acc">100%</span></span>
+連続 2〜5回（2回 35% / 3回 35% / 4回 15% / 5回 15%）">つららばり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">25</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="かたいがんせきを相手にはっしゃして攻撃する。２ー５かいのあいだれんぞくでだす。
-PP 10">ロックブラスト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">25</span><span class="move-acc">90%</span></span>
+連続 2〜5回（2回 35% / 3回 35% / 4回 15% / 5回 15%）">ロックブラスト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">25</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。
-PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9621,19 +9407,17 @@ PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat"
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="とがったいわを相手につきさして攻撃する。急所にあたりやすい。
-PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span></span>
+急所 12.5%（通常は 4.2%）">ストーンエッジ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="かたくてりっぱなつのでおもいっきり相手をつきさして攻撃する。
-PP 10">メガホーン</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="かたくてりっぱなつのでおもいっきり相手をつきさして攻撃する。">メガホーン</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="まもりをすてて相手のふところにとつげきする。自分の防御と特防が下がる。
-PP 5">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9652,19 +9436,18 @@ PP 5">インファイト</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="フルパワーで相手を攻撃する。使うとはんどうで自分の特攻ががくっと下がる。
-PP 5">オーバーヒート</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">130</span><span class="move-acc">90%</span></span>
+とくこう -2段階">オーバーヒート</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">130</span><span class="move-acc">90%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-bug">むし</span><span class="move-name" title="ふしぎな光をはっしゃして攻撃する。相手を混乱させることがある。
-PP 15">シグナルビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">シグナルビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9683,19 +9466,18 @@ PP 15">シグナルビーム</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="こうてつのギアを相手になげつけて攻撃する。２かいれんぞくでダメージを与える。
-PP 15">ギアソーサー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">50</span><span class="move-acc">85%</span></span>
+2回攻撃">ギアソーサー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">50</span><span class="move-acc">85%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="はぐるまをまわして自分の攻撃を上げるだけでなく素早さもぐーんと上げる。
-PP 10">ギアチェンジ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +1段階* / すばやさ +2段階">ギアチェンジ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんきをまとって相手にぶつかって攻撃する。自分も少しダメージを受ける。
-PP 15">ワイルドボルト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+反動 与えたダメージの 1/4">ワイルドボルト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="トレーナーのためにぜんりょくで相手を攻撃する。なついているほど威力は上がる。
-PP 20">おんがえし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="トレーナーのためにぜんりょくで相手を攻撃する。なついているほど威力は上がる。">おんがえし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9714,19 +9496,18 @@ PP 20">おんがえし</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="くろいかげのかたまりをなげつけて攻撃する。相手の特防を下げることがある。
-PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のとくぼう -1段階">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="つきのパワーをかりて相手を攻撃する。相手の特攻を下げることがある。
-PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+追加効果 30% / 相手のとくこう -1段階*">ムーンフォース</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9761,20 +9542,17 @@ PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="体をこうそくにかいてんさせてたいあたりする。相手より素早さがひくいほど強い。
-PP 5">ジャイロボール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="体をこうそくにかいてんさせてたいあたりする。相手より素早さがひくいほど強い。">ジャイロボール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="ツタやしょくしゅをはげしくふるって相手をたたきつけ攻撃する。
-PP 10">パワーウィップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="ツタやしょくしゅをはげしくふるって相手をたたきつけ攻撃する。">パワーウィップ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="使うポケモンがゴーストタイプとそれいがいとでは効果がかわる。
-PP 10">のろい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+すばやさ -1段階 / こうげき +1段階 / ぼうぎょ +1段階">のろい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="しぜんの力で攻撃する。使う場所ででてくるわざが変化する。
-PP 20">しぜんのちから</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="しぜんの力で攻撃する。使う場所ででてくるわざが変化する。">しぜんのちから</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9792,20 +9570,17 @@ PP 20">しぜんのちから</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="うえつけた相手のＨＰをまいターン少しだけすいとり自分のＨＰを回復する。
-PP 10">やどりぎのタネ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="うえつけた相手のＨＰをまいターン少しだけすいとり自分のＨＰを回復する。">やどりぎのタネ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分のＨＰを少しけずってぶんしんをだす。ぶんしんは自分のみがわりになる。
-PP 10">みがわり</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分のＨＰを少しけずってぶんしんをだす。ぶんしんは自分のみがわりになる。">みがわり</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="ねむくなるこなをたくさんふりまいて相手を眠り状態にする。
-PP 15">ねむりごな</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">75%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="ねむくなるこなをたくさんふりまいて相手を眠り状態にする。">ねむりごな</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">75%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="しぜんからあつめたいのちの力をはっしゃする。相手の特防を下げることがある。
-PP 10">エナジーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">エナジーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9824,19 +9599,18 @@ PP 10">エナジーボール</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="はげしいふぶきを相手にふきつけて攻撃する。こおり状態にすることがある。
-PP 5">ふぶき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 10%">ふぶき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="さいぼうをさいせいさせて自分の最大ＨＰの半分のＨＰを回復する。
-PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="にごったみずを相手にはっしゃして攻撃する。命中率を下げることがある。
-PP 10">だくりゅう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">85%</span></span>
+追加効果 30% / 相手のめいちゅう -1段階*">だくりゅう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">85%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="４ー５ターンのあいだ相手にまとわりついて攻撃する。そのあいだ相手はにげられない。
-PP 35">まとわりつく</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">20</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="４ー５ターンのあいだ相手にまとわりついて攻撃する。そのあいだ相手はにげられない。">まとわりつく</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">20</span><span class="move-acc">100%</span><span class="move-pp">PP 35</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9855,19 +9629,18 @@ PP 35">まとわりつく</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="すごい力をはっきして相手を攻撃する。自分の攻撃と防御が下がる。
-PP 5">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+こうげき -1段階 / ぼうぎょ -1段階">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="れいきをひめたキバでかみつく。相手をひるませたりこおり状態にすることがある。
-PP 15">こおりのキバ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">95%</span></span>
+追加効果 10%">こおりのキバ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんきをまとって相手にぶつかって攻撃する。自分も少しダメージを受ける。
-PP 15">ワイルドボルト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+反動 与えたダメージの 1/4">ワイルドボルト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。
-PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9885,20 +9658,18 @@ PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。
-PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="すさまじいさっきでいあつしながらたいあたりする。相手をひるませることがある。
-PP 10">ドラゴンダイブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">75%</span></span>
+追加効果 20%">ドラゴンダイブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">75%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -9940,20 +9711,17 @@ PP 10">ドラゴンダイブ</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="ジャンプからのひざげりで相手を攻撃する。はずすと自分がダメージを受ける。
-PP 10">とびひざげり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="ジャンプからのひざげりで相手を攻撃する。はずすと自分がダメージを受ける。">とびひざげり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。
-PP 20">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="せんせい攻撃で相手をひるませる。戦闘にでたらすぐにださないとせいこうしない。
-PP 10">ねこだまし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+追加効果 100%">ねこだまし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ようき
@@ -9976,19 +9744,18 @@ PP 10">ねこだまし</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんきをおびたほっぺをすりつけて攻撃。相手をまひ状態にする。
-PP 20">ほっぺすりすり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">20</span><span class="move-acc">100%</span></span>
+追加効果 100%">ほっぺすりすり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">20</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="わるいことをかんがえて頭をかっせいかさせる。自分の特攻をぐーんと上げる。
-PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +2段階*">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="まばゆいでんげきで自分の周りにいるものを攻撃する。まひ状態にすることがある。
-PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -10009,20 +9776,19 @@ PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。
-PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しねんの力をひたいにあつめて攻撃する。相手をひるませることがある。
-PP 15">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span></span>
+追加効果 20%">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="たたかいのまいをはげしくおどってきあいをたかめる。自分の攻撃をぐーんと上げる。
-PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +2段階*">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="まもりをすてて相手のふところにとつげきする。自分の防御と特防が下がる。
-PP 5">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: ようき
@@ -10043,20 +9809,18 @@ PP 5">インファイト</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="そらをもきりさくくうきのやいばで攻撃する。相手をひるませることがある。
-PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">95%</span></span>
+追加効果 30%">エアスラッシュ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。
-PP 20">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="わるいことをかんがえて頭をかっせいかさせる。自分の特攻をぐーんと上げる。
-PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +2段階*">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: おくびょう
@@ -10077,20 +9841,19 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。
-PP 20">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="体の光をいってんにあつめて力をはなつ。相手の特防を下げることがある。
-PP 10">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しずかにせいしんをとういつしこころをしずめることで自分の特攻と特防を上げる。
-PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +1段階* / とくぼう +1段階*">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="くろいかげのかたまりをなげつけて攻撃する。相手の特防を下げることがある。
-PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のとくぼう -1段階">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: おくびょう
@@ -10111,20 +9874,17 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="ほのおをまとってとっしんする。自分もかなりダメージを受ける。やけど状態にすることがある。
-PP 15">フレアドライブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+追加効果 10% / 反動 与えたダメージの 1/3">フレアドライブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="２ー３ターンのあいだあばれまくって攻撃する。あばれたあとは混乱する。
-PP 10">げきりん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="２ー３ターンのあいだあばれまくって攻撃する。あばれたあとは混乱する。">げきりん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -10196,20 +9956,18 @@ PP 10">げきりん</span><span class="move-meta"><span class="move-cat">物理<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="５ターンのあいだエレキフィールドにする。じめんにいるポケモンはねむらない。でんきタイプの威力が上がる。
-PP 10">エレキフィールド</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="５ターンのあいだエレキフィールドにする。じめんにいるポケモンはねむらない。でんきタイプの威力が上がる。">エレキフィールド</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんきをまとって相手にぶつかって攻撃する。自分も少しダメージを受ける。
-PP 15">ワイルドボルト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+反動 与えたダメージの 1/4">ワイルドボルト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="すごい力をはっきして相手を攻撃する。自分の攻撃と防御が下がる。
-PP 5">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+こうげき -1段階 / ぼうぎょ -1段階">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。
-PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -10231,19 +9989,18 @@ PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="わるいことをかんがえて頭をかっせいかさせる。自分の特攻をぐーんと上げる。
-PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +2段階*">わるだくみ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -10264,20 +10021,17 @@ PP 20">わるだくみ</span><span class="move-meta"><span class="move-cat">変�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="すさまじいばくおんのはか威力によって周りにいるものを攻撃する。
-PP 10">ばくおんぱ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">140</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="すさまじいばくおんのはか威力によって周りにいるものを攻撃する。">ばくおんぱ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">140</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。
-PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -10298,20 +10052,18 @@ PP 15">なみのり</span><span class="move-meta"><span class="move-cat">特殊<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="すさまじいばくおんのはか威力によって周りにいるものを攻撃する。
-PP 10">ばくおんぱ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">140</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="すさまじいばくおんのはか威力によって周りにいるものを攻撃する。">ばくおんぱ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">140</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="きょうれつな風で相手をつつみこんで攻撃する。相手を混乱させることがある。
-PP 10">ぼうふう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 30%">ぼうふう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="あついいきを相手にふきつけて攻撃する。やけど状態にすることがある。
-PP 10">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span></span>
+追加効果 10%">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -10333,19 +10085,18 @@ PP 10">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="くろいかげのかたまりをなげつけて攻撃する。相手の特防を下げることがある。
-PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のとくぼう -1段階">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-bug">むし</span><span class="move-name" title="ふしぎな光をはっしゃして攻撃する。相手を混乱させることがある。
-PP 15">シグナルビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">シグナルビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="まばゆいでんげきで自分の周りにいるものを攻撃する。まひ状態にすることがある。
-PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -10367,19 +10118,18 @@ PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="まばゆいでんげきで自分の周りにいるものを攻撃する。まひ状態にすることがある。
-PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="たいほうのようなでんきをはっしゃして攻撃する。相手をまひの状態にする。
-PP 5">でんじほう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">50%</span></span>
+追加効果 100%">でんじほう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">50%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="力をぬいて体をかるくしてこうそくでうごく。自分の素早さをぐーんと上げる。
-PP 30">こうそくいどう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+すばやさ +2段階*">こうそくいどう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 30</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -10452,19 +10202,18 @@ DJとの初戦です。でんきタイプが4匹いるぶん、工場フィー�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="体の光をいってんにあつめて力をはなつ。相手の特防を下げることがある。
-PP 10">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">ラスターカノン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-rock">いわ</span><span class="move-name" title="相手の周りにむすうのいわをうかべて交代ででてきた相手のポケモンにダメージを与える。
-PP 20">ステルスロック</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-rock">いわ</span><span class="move-name" title="相手の周りにむすうのいわをうかべて交代ででてきた相手のポケモンにダメージを与える。">ステルスロック</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -10486,19 +10235,17 @@ PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="はげしいふぶきを相手にふきつけて攻撃する。こおり状態にすることがある。
-PP 5">ふぶき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 10%">ふぶき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="くろいかげのかたまりをなげつけて攻撃する。相手の特防を下げることがある。
-PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のとくぼう -1段階">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="おおきなあくびでねむけをさそう。つぎのターンに相手を眠り状態にする。
-PP 10">あくび</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="おおきなあくびでねむけをさそう。つぎのターンに相手を眠り状態にする。">あくび</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。
-PP 10">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -10519,20 +10266,19 @@ PP 10">ねがいごと</span><span class="move-meta"><span class="move-cat">変�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="さいぼうをさいせいさせて自分の最大ＨＰの半分のＨＰを回復する。
-PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="くろいかげのかたまりをなげつけて攻撃する。相手の特防を下げることがある。
-PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のとくぼう -1段階">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんげきのたばを相手にはっしゃする。でんきをためて自分の特攻を上げることがある。
-PP 10">チャージビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">50</span><span class="move-acc">90%</span></span>
+追加効果 70% / とくこう +1段階*">チャージビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">50</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: おくびょう
@@ -10553,20 +10299,16 @@ PP 10">チャージビーム</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるとくしゅ攻撃のダメージをよわめる。
-PP 30">ひかりのかべ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるとくしゅ攻撃のダメージをよわめる。">ひかりのかべ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるぶつり攻撃のダメージをよわめる。
-PP 20">リフレクター</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるぶつり攻撃のダメージをよわめる。">リフレクター</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -10588,19 +10330,16 @@ PP 10">サイコショック</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="すばやいうごきでぶんしんをつくり相手をまどわせてかいひりつを上げる。
-PP 15">かげぶんしん</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+かいひ +1段階*">かげぶんしん</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。
-PP 10">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の力をりようする。たたかっている相手の攻撃がたかいほどダメージが上がる。
-PP 15">イカサマ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の力をりようする。たたかっている相手の攻撃がたかいほどダメージが上がる。">イカサマ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。
-PP 10">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-poison">どく</span><span class="move-name" title="相手をもうどくの状態にする。ターンがすすむほどどくのダメージがふえていく。">どくどく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: おだやか
@@ -10623,20 +10362,18 @@ PP 10">どくどく</span><span class="move-meta"><span class="move-cat">変化<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="相手にすいつくはがねのばくだんをはっしゃする。攻撃は必ず命中する。
-PP 20">マグネットボム</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="相手にすいつくはがねのばくだんをはっしゃする。攻撃は必ず命中する。">マグネットボム</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="まばゆいでんげきで自分の周りにいるものを攻撃する。まひ状態にすることがある。
-PP 15">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ほうでん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="体のムダなぶぶんをけずる。自分の素早さをぐーんとあげてたいじゅうもかるくなる。
-PP 15">ボディパージ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+すばやさ +2段階*">ボディパージ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fire">ほのお</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (ほのお)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fire">ほのお</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (ほのお)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>種族値: 70 HP, 70 攻撃, 160 防御, 230 特攻, 140 特防, 70 素早さ
@@ -10688,19 +10425,17 @@ PP 15">めざめるパワー (ほのお)</span><span class="move-meta"><span cla
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-flying">ひこう</span><span class="move-name" title="かろやかに相手を攻撃する。自分が道具をもっていないときおおきなダメージを与える。
-PP 15">アクロバット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">55</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-flying">ひこう</span><span class="move-name" title="かろやかに相手を攻撃する。自分が道具をもっていないときおおきなダメージを与える。">アクロバット</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">55</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。
-PP 20">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="するどいはで相手をかみくだいて攻撃する。相手の防御を下げることがある。
-PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: ようき
@@ -10721,20 +10456,18 @@ PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="かたくてりっぱなつのでおもいっきり相手をつきさして攻撃する。
-PP 10">メガホーン</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="かたくてりっぱなつのでおもいっきり相手をつきさして攻撃する。">メガホーン</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">85%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="とがったいわを相手につきさして攻撃する。急所にあたりやすい。
-PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span></span>
+急所 12.5%（通常は 4.2%）">ストーンエッジ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんげきをこめたパンチで相手を攻撃する。まひ状態にすることがある。
-PP 15">かみなりパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">かみなりパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -10756,19 +10489,19 @@ PP 15">かみなりパンチ</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="みずの力で相手にぶつかって攻撃する。相手の防御を下げることがある。
-PP 10">アクアブレイク</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">アクアブレイク</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-bug">むし</span><span class="move-name" title="ちをすいとって相手を攻撃する。あたえたダメージの半分のＨＰを回復できる。
-PP 10">きゅうけつ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+与えたダメージの 1/2 を回復">きゅうけつ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="どくにそまったしょくしゅやうでで相手をつきさす。どく状態にすることがある。
-PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="するどいはで相手をかみくだいて攻撃する。相手の防御を下げることがある。
-PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -10884,20 +10617,17 @@ PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="かげをのばして相手のはいごから攻撃する。必ずせんせい攻撃できる。
-PP 30">かげうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="かげをのばして相手のはいごから攻撃する。必ずせんせい攻撃できる。">かげうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="げんしの力で攻撃する。自分の全ての能力が上がることがある。
-PP 5">げんしのちから</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+追加効果 10%">げんしのちから</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-rock">いわ</span><span class="move-name" title="相手の周りにむすうのいわをうかべて交代ででてきた相手のポケモンにダメージを与える。
-PP 20">ステルスロック</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-rock">いわ</span><span class="move-name" title="相手の周りにむすうのいわをうかべて交代ででてきた相手のポケモンにダメージを与える。">ステルスロック</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。
-PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -10916,19 +10646,18 @@ PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="リズミカルにパンチをくりだして相手を攻撃する。混乱させることがある。
-PP 10">ピヨピヨパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+追加効果 20%">ピヨピヨパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="がんせきをなげつけて攻撃する。相手のうごきをふうじることで素早さを下げる。
-PP 15">がんせきふうじ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">95%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">がんせきふうじ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="せんせい攻撃で相手をひるませる。戦闘にでたらすぐにださないとせいこうしない。
-PP 10">ねこだまし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+追加効果 100%">ねこだまし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -10947,19 +10676,17 @@ PP 15">めざめるパワー</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなこうせんを相手にはっしゃして攻撃する。混乱させることがある。
-PP 20">サイケこうせん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+追加効果 10%">サイケこうせん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の力をりようする。たたかっている相手の攻撃がたかいほどダメージが上がる。
-PP 15">イカサマ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の力をりようする。たたかっている相手の攻撃がたかいほどダメージが上がる。">イカサマ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="さいぼうをさいせいさせて自分の最大ＨＰの半分のＨＰを回復する。
-PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-flying">ひこう</span><span class="move-name" title="すばやいうごきで相手をほんろうしてきりつける。攻撃は必ず命中する。
-PP 20">つばめがえし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-flying">ひこう</span><span class="move-name" title="すばやいうごきで相手をほんろうしてきりつける。攻撃は必ず命中する。">つばめがえし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -10977,20 +10704,18 @@ PP 20">つばめがえし</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="攻撃とどうじに道具をぬすむ。自分が道具をもっている場合はぬすめない。
-PP 25">どろぼう</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="攻撃とどうじに道具をぬすむ。自分が道具をもっている場合はぬすめない。">どろぼう</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 25</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="がんせきをなげつけて攻撃する。相手のうごきをふうじることで素早さを下げる。
-PP 15">がんせきふうじ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">95%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">がんせきふうじ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="せんせい攻撃で相手をひるませる。戦闘にでたらすぐにださないとせいこうしない。
-PP 10">ねこだまし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+追加効果 100%">ねこだまし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="まかふしぎなくうかんをつくる。５ターンのあいだおそいポケモンから行動できる。
-PP 5">トリックルーム</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="まかふしぎなくうかんをつくる。５ターンのあいだおそいポケモンから行動できる。">トリックルーム</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11008,20 +10733,19 @@ PP 5">トリックルーム</span><span class="move-meta"><span class="move-cat"
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の力をりようする。たたかっている相手の攻撃がたかいほどダメージが上がる。
-PP 15">イカサマ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の力をりようする。たたかっている相手の攻撃がたかいほどダメージが上がる。">イカサマ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="リズミカルにパンチをくりだして相手を攻撃する。混乱させることがある。
-PP 10">ピヨピヨパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+追加効果 20%">ピヨピヨパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="はげしいほのおを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11039,20 +10763,19 @@ PP 15">かえんほうしゃ</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。
-PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="さいぼうをさいせいさせて自分の最大ＨＰの半分のＨＰを回復する。
-PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11070,20 +10793,19 @@ PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の力をりようする。たたかっている相手の攻撃がたかいほどダメージが上がる。
-PP 15">イカサマ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の力をりようする。たたかっている相手の攻撃がたかいほどダメージが上がる。">イカサマ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="がんせきをなげつけて攻撃する。相手のうごきをふうじることで素早さを下げる。
-PP 15">がんせきふうじ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">95%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">がんせきふうじ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="リズミカルにパンチをくりだして相手を攻撃する。混乱させることがある。
-PP 10">ピヨピヨパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+追加効果 20%">ピヨピヨパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="つめたいれいきを相手にふきつけて攻撃する。相手の素早さを下げる。
-PP 15">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11101,20 +10823,17 @@ PP 15">こごえるかぜ</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="かげをのばして相手のはいごから攻撃する。必ずせんせい攻撃できる。
-PP 30">かげうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="かげをのばして相手のはいごから攻撃する。必ずせんせい攻撃できる。">かげうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="げんしの力で攻撃する。自分の全ての能力が上がることがある。
-PP 5">げんしのちから</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+追加効果 10%">げんしのちから</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="弱いでんげきをあびせることで相手をまひ状態にする。
-PP 20">でんじは</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="弱いでんげきをあびせることで相手をまひ状態にする。">でんじは</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。
-PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11132,20 +10851,19 @@ PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="攻撃とどうじに道具をぬすむ。自分が道具をもっている場合はぬすめない。
-PP 25">どろぼう</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="攻撃とどうじに道具をぬすむ。自分が道具をもっている場合はぬすめない。">どろぼう</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 25</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="がんせきをなげつけて攻撃する。相手のうごきをふうじることで素早さを下げる。
-PP 15">がんせきふうじ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">95%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">がんせきふうじ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="せんせい攻撃で相手をひるませる。戦闘にでたらすぐにださないとせいこうしない。
-PP 10">ねこだまし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+追加効果 100%">ねこだまし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="こぶしから相手の力をすいとる。あたえたダメージの半分のＨＰを回復できる。
-PP 10">ドレインパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+与えたダメージの 1/2 を回復">ドレインパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11164,19 +10882,18 @@ PP 10">ドレインパンチ</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="リズミカルにパンチをくりだして相手を攻撃する。混乱させることがある。
-PP 10">ピヨピヨパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+追加効果 20%">ピヨピヨパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="がんせきをなげつけて攻撃する。相手のうごきをふうじることで素早さを下げる。
-PP 15">がんせきふうじ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">95%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">がんせきふうじ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="せんせい攻撃で相手をひるませる。戦闘にでたらすぐにださないとせいこうしない。
-PP 10">ねこだまし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+追加効果 100%">ねこだまし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11194,20 +10911,17 @@ PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。
-PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="かげをのばして相手のはいごから攻撃する。必ずせんせい攻撃できる。
-PP 30">かげうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="かげをのばして相手のはいごから攻撃する。必ずせんせい攻撃できる。">かげうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="しゅとうをいきおいよくふりおろして相手を攻撃する。光のかべやリフレクターなどもはかいできる。
-PP 15">かわらわり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="しゅとうをいきおいよくふりおろして相手を攻撃する。光のかべやリフレクターなどもはかいできる。">かわらわり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11226,19 +10940,18 @@ PP 15">かわらわり</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の力をりようする。たたかっている相手の攻撃がたかいほどダメージが上がる。
-PP 15">イカサマ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の力をりようする。たたかっている相手の攻撃がたかいほどダメージが上がる。">イカサマ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="さいぼうをさいせいさせて自分の最大ＨＰの半分のＨＰを回復する。
-PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11281,19 +10994,18 @@ PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="さいぼうをさいせいさせて自分の最大ＨＰの半分のＨＰを回復する。
-PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="こぶしから相手の力をすいとる。あたえたダメージの半分のＨＰを回復できる。
-PP 10">ドレインパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+与えたダメージの 1/2 を回復">ドレインパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>種族値: 130 HP, 120 攻撃, 90 防御, 60 特攻, 130 特防, 95 素早さ
@@ -11353,20 +11065,16 @@ PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるぶつり攻撃のダメージをよわめる。
-PP 20">リフレクター</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるぶつり攻撃のダメージをよわめる。">リフレクター</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるとくしゅ攻撃のダメージをよわめる。
-PP 30">ひかりのかべ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるとくしゅ攻撃のダメージをよわめる。">ひかりのかべ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="弱いでんげきをあびせることで相手をまひ状態にする。
-PP 20">でんじは</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="弱いでんげきをあびせることで相手をまひ状態にする。">でんじは</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11388,19 +11096,18 @@ PP 10">サイコショック</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="しんぴてきで力づよいまいをはげしくおどる。自分の攻撃と素早さを上げる。
-PP 20">りゅうのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +1段階* / すばやさ +1段階*">りゅうのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="れいきをこめたパンチで相手を攻撃する。こおり状態にすることがある。
-PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="はげしくあれくるうあらなみのようにおおきなしっぽをふって相手を攻撃する。
-PP 10">アクアテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="はげしくあれくるうあらなみのようにおおきなしっぽをふって相手を攻撃する。">アクアテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="するどいはで相手をかみくだいて攻撃する。相手の防御を下げることがある。
-PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11422,19 +11129,18 @@ PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="かげからつくったするどいツメで相手をきりさく。急所にあたりやすい。
-PP 15">シャドークロー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+急所 12.5%（通常は 4.2%）">シャドークロー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんげきをこめたパンチで相手を攻撃する。まひ状態にすることがある。
-PP 15">かみなりパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">かみなりパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="体ぜんたいで相手にのしかかり攻撃する。まひ状態にすることがある。
-PP 15">のしかかり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+追加効果 30%">のしかかり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11456,20 +11162,17 @@ PP 15">のしかかり</span><span class="move-meta"><span class="move-cat">物�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。
-PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しねんの力をひたいにあつめて攻撃する。相手をひるませることがある。
-PP 15">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span></span>
+追加効果 20%">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。
-PP 20">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="もてる力を全てつかって相手にとつげきする。つぎのターンはうごけなくなる。
-PP 5">ギガインパクト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">150</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="もてる力を全てつかって相手にとつげきする。つぎのターンはうごけなくなる。">ギガインパクト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">150</span><span class="move-acc">90%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11491,19 +11194,16 @@ PP 5">ギガインパクト</span><span class="move-meta"><span class="move-cat"
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="たたかいのまいをはげしくおどってきあいをたかめる。自分の攻撃をぐーんと上げる。
-PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +2段階*">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="はげしいはなふぶきをおこし周りにいるものに攻撃してダメージを与える。
-PP 15">はなふぶき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="はげしいはなふぶきをおこし周りにいるものに攻撃してダメージを与える。">はなふぶき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="２ー３ターンのあいだあばれまくって攻撃する。あばれたあとは混乱する。
-PP 10">げきりん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="２ー３ターンのあいだあばれまくって攻撃する。あばれたあとは混乱する。">げきりん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11541,19 +11241,17 @@ PP 10">げきりん</span><span class="move-meta"><span class="move-cat">物理<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="はがねのようなかたい頭で攻撃する。相手をひるませることがある。
-PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-rock">いわ</span><span class="move-name" title="相手の周りにむすうのいわをうかべて交代ででてきた相手のポケモンにダメージを与える。
-PP 20">ステルスロック</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-rock">いわ</span><span class="move-name" title="相手の周りにむすうのいわをうかべて交代ででてきた相手のポケモンにダメージを与える。">ステルスロック</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="わざをだすまえにさいごに受けたわざのダメージを大きくしてだした相手にかえす。
-PP 10">メタルバースト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="わざをだすまえにさいごに受けたわざのダメージを大きくしてだした相手にかえす。">メタルバースト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="とがったいわを相手につきさして攻撃する。急所にあたりやすい。
-PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span></span>
+急所 12.5%（通常は 4.2%）">ストーンエッジ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11575,19 +11273,19 @@ PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat"
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="するどいはで相手をかみくだいて攻撃する。相手の防御を下げることがある。
-PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="はがねのようなかたい頭で攻撃する。相手をひるませることがある。
-PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しねんの力をひたいにあつめて攻撃する。相手をひるませることがある。
-PP 15">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span></span>
+追加効果 20%">しねんのずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">90%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11609,19 +11307,18 @@ PP 15">しねんのずつき</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="まもりをすてて相手のふところにとつげきする。自分の防御と特防が下がる。
-PP 5">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ground">じめん</span><span class="move-name" title="じめんをふみならして自分の周りにいるものを攻撃する。相手の素早さを下げる。
-PP 20">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。
-PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="どくにそまったしょくしゅやうでで相手をつきさす。どく状態にすることがある。
-PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11642,20 +11339,18 @@ PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="強いこうせんを相手にはっしゃして攻撃する。つぎのターンはうごけなくなる。
-PP 5">はかいこうせん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">150</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="強いこうせんを相手にはっしゃして攻撃する。つぎのターンはうごけなくなる。">はかいこうせん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">150</span><span class="move-acc">90%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="しぜんの力で攻撃する。使う場所ででてくるわざが変化する。
-PP 20">しぜんのちから</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="しぜんの力で攻撃する。使う場所ででてくるわざが変化する。">しぜんのちから</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="はげしいかみなりを相手におとして攻撃する。まひ状態にすることがある。
-PP 10">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 30%">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ground">じめん</span><span class="move-name" title="相手のあしもとへだいちの力をほうしゅつする。相手の特防を下げることがある。
-PP 10">だいちのちから</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">だいちのちから</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11677,19 +11372,18 @@ PP 10">だいちのちから</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="たたかいのまいをはげしくおどってきあいをたかめる。自分の攻撃をぐーんと上げる。
-PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +2段階*">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="すごいいきおいで相手につっこむ。相手をひるませることがある。
-PP 15">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">たきのぼり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="カマやツメをハサミのようにこうささせながら相手をきりさく。
-PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="カマやツメをハサミのようにこうささせながら相手をきりさく。">シザークロス</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11727,19 +11421,17 @@ PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="きたないヘドロを相手になげつけて攻撃する。どく状態にすることがある。
-PP 10">ヘドロばくだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 30%">ヘドロばくだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。
-PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11760,20 +11452,18 @@ PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat"
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-steel">はがね</span><span class="move-name" title="相手の攻撃を防ぐとどうじに防御たいせいになる。ふれた相手の攻撃をがくっと下げる。
-PP 10">キングシールド</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-steel">はがね</span><span class="move-name" title="相手の攻撃を防ぐとどうじに防御たいせいになる。ふれた相手の攻撃をがくっと下げる。">キングシールド</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="かげをのばして相手のはいごから攻撃する。必ずせんせい攻撃できる。
-PP 30">かげうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="かげをのばして相手のはいごから攻撃する。必ずせんせい攻撃できる。">かげうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="はがねのようなかたい頭で攻撃する。相手をひるませることがある。
-PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="くろいかげのかたまりをなげつけて攻撃する。相手の特防を下げることがある。
-PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のとくぼう -1段階">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11794,20 +11484,19 @@ PP 15">シャドーボール</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fire">ほのお</span><span class="move-name" title="いかりを爆発させて相手を攻撃する。自分のＨＰが少ないほどわざの威力は下がる。
-PP 5">ふんか</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">150</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fire">ほのお</span><span class="move-name" title="いかりを爆発させて相手を攻撃する。自分のＨＰが少ないほどわざの威力は下がる。">ふんか</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">150</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="あついいきを相手にふきつけて攻撃する。やけど状態にすることがある。
-PP 10">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span></span>
+追加効果 10%">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="みえないふしぎな力をおくって攻撃する。相手をひるませることがある。
-PP 20">じんつうりき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 10%">じんつうりき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11829,19 +11518,18 @@ PP 20">じんつうりき</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="体からあくいにみちたおそろしいオーラをはっする。相手をひるませることがある。
-PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="あつくにえたぎるみずを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">ねっとう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ねっとう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。
-PP 20">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -11881,19 +11569,17 @@ PP 20">とんぼがえり</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="１ターンめに頭をひっこめて防御を上げる。２ターンめに相手を攻撃する。
-PP 10">ロケットずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">100%</span></span>
+ぼうぎょ +1段階">ロケットずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="ひふをてつのようにかたくすることで自分の防御をぐーんと上げる。
-PP 15">てっぺき</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+ぼうぎょ +2段階*">てっぺき</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="５ターンのあいだ雨をふらせてみずタイプのわざの威力を上げる。
-PP 5">あまごい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="５ターンのあいだ雨をふらせてみずタイプのわざの威力を上げる。">あまごい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。
-PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: きまぐれ
@@ -11915,19 +11601,17 @@ PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat"
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="１ターンめに頭をひっこめて防御を上げる。２ターンめに相手を攻撃する。
-PP 10">ロケットずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">100%</span></span>
+ぼうぎょ +1段階">ロケットずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="ひふをてつのようにかたくすることで自分の防御をぐーんと上げる。
-PP 15">てっぺき</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+ぼうぎょ +2段階*">てっぺき</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="５ターンのあいだ雨をふらせてみずタイプのわざの威力を上げる。
-PP 5">あまごい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="５ターンのあいだ雨をふらせてみずタイプのわざの威力を上げる。">あまごい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="はげしくあれくるうあらなみのようにおおきなしっぽをふって相手を攻撃する。
-PP 10">アクアテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="はげしくあれくるうあらなみのようにおおきなしっぽをふって相手を攻撃する。">アクアテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: まじめ
@@ -11949,19 +11633,17 @@ PP 10">アクアテール</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="１ターンめに頭をひっこめて防御を上げる。２ターンめに相手を攻撃する。
-PP 10">ロケットずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">100%</span></span>
+ぼうぎょ +1段階">ロケットずつき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">130</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="ひふをてつのようにかたくすることで自分の防御をぐーんと上げる。
-PP 15">てっぺき</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+ぼうぎょ +2段階*">てっぺき</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="５ターンのあいだ雨をふらせてみずタイプのわざの威力を上げる。
-PP 5">あまごい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="５ターンのあいだ雨をふらせてみずタイプのわざの威力を上げる。">あまごい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。
-PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: てれや
@@ -11983,19 +11665,17 @@ PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat"
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="あつくにえたぎるみずを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">ねっとう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">ねっとう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="体からあくいにみちたおそろしいオーラをはっする。相手をひるませることがある。
-PP 15">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20%">あくのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。
-PP 20">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: すなお
@@ -12034,20 +11714,17 @@ PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="たたみかけるように攻撃する。状態いじょうの相手におおきなダメージを与える。
-PP 10">たたりめ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="たたみかけるように攻撃する。状態いじょうの相手におおきなダメージを与える。">たたりめ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fire">ほのお</span><span class="move-name" title="ぶきみであやしいほのおをはなって相手をやけどの状態にする。
-PP 15">おにび</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">85%</span></span>
+<span class="type-badge type-fire">ほのお</span><span class="move-name" title="ぶきみであやしいほのおをはなって相手をやけどの状態にする。">おにび</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">85%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="おおきな爆発で自分の周りにいるものを攻撃する。使ったあとにひんしになる。
-PP 5">だいばくはつ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">250</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="おおきな爆発で自分の周りにいるものを攻撃する。使ったあとにひんしになる。">だいばくはつ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">250</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="はげしいかみなりを相手におとして攻撃する。まひ状態にすることがある。
-PP 10">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 30%">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12069,19 +11746,17 @@ PP 10">かみなり</span><span class="move-meta"><span class="move-cat">特殊<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="ほのおをこめたパンチで相手を攻撃する。やけど状態にすることがある。
-PP 15">ほのおのパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">ほのおのパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="れいきをこめたパンチで相手を攻撃する。こおり状態にすることがある。
-PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="かたいからをもつおおきなタネをうえからたたきつけて相手を攻撃する。
-PP 15">タネばくだん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="かたいからをもつおおきなタネをうえからたたきつけて相手を攻撃する。">タネばくだん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12102,20 +11777,16 @@ PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fire">ほのお</span><span class="move-name" title="５ターンのあいだ日差しを強くしてほのおタイプのわざの威力を上げる。
-PP 5">にほんばれ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-fire">ほのお</span><span class="move-name" title="５ターンのあいだ日差しを強くしてほのおタイプのわざの威力を上げる。">にほんばれ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="１ターンめに光をいっぱいにあつめ２ターンめに光のたばをはっしゃして攻撃する。
-PP 10">ソーラービーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="１ターンめに光をいっぱいにあつめ２ターンめに光のたばをはっしゃして攻撃する。">ソーラービーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="使ったときの天気によってわざのタイプと威力がかわる。
-PP 10">ウェザーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">50</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="使ったときの天気によってわざのタイプと威力がかわる。">ウェザーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">50</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ice">こおり</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (こおり)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12137,19 +11808,16 @@ PP 15">めざめるパワー (こおり)</span><span class="move-meta"><span cla
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="キッスによって相手からＨＰをすいとる。あたえたダメージの半分いじょうＨＰを回復する。
-PP 10">ドレインキッス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">50</span><span class="move-acc">100%</span></span>
+与えたダメージの 3/4 を回復">ドレインキッス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">50</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるとくしゅ攻撃のダメージをよわめる。
-PP 30">ひかりのかべ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるとくしゅ攻撃のダメージをよわめる。">ひかりのかべ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="２ー３ターンのあいだはなをまきちらして相手を攻撃する。まきちらしたあとは混乱する。
-PP 10">はなびらのまい</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="２ー３ターンのあいだはなをまきちらして相手を攻撃する。まきちらしたあとは混乱する。">はなびらのまい</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12170,20 +11838,17 @@ PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。
-PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="はがねのようなかたい頭で攻撃する。相手をひるませることがある。
-PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="弱いでんげきをあびせることで相手をまひ状態にする。
-PP 20">でんじは</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="弱いでんげきをあびせることで相手をまひ状態にする。">でんじは</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12222,20 +11887,18 @@ PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるとくしゅ攻撃のダメージをよわめる。
-PP 30">ひかりのかべ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるとくしゅ攻撃のダメージをよわめる。">ひかりのかべ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 30</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるぶつり攻撃のダメージをよわめる。
-PP 20">リフレクター</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="５ターンのあいだふしぎなかべで相手から受けるぶつり攻撃のダメージをよわめる。">リフレクター</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="ようぶんをすいとり攻撃する。あたえたダメージの半分のＨＰを回復できる。
-PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+与えたダメージの 1/2 を回復">ギガドレイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="じめんにおりて体をやすめる。最大ＨＰの半分のＨＰを回復する。
-PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復">はねやすめ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ずぶとい
@@ -12257,19 +11920,18 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="からをやぶって自分の防御特防を下げるが攻撃特攻素早さをぐーんと上げる。
-PP 15">からをやぶる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階 / こうげき +2段階 / とくこう +2段階 / すばやさ +2段階">からをやぶる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="はげしくあれくるうあらなみのようにおおきなしっぽをふって相手を攻撃する。
-PP 10">アクアテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="はげしくあれくるうあらなみのようにおおきなしっぽをふって相手を攻撃する。">アクアテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dark">あく</span><span class="move-name" title="するどいはで相手をかみくだいて攻撃する。相手の防御を下げることがある。
-PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 20% / 相手のぼうぎょ -1段階">かみくだく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12291,19 +11953,17 @@ PP 15">かみくだく</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="おおきなつららをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">つららおとし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">90%</span></span>
+追加効果 30%">つららおとし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。
-PP 15">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="このわざを受けた相手はじごくのくるしみから２ターンのあいだおとのわざをだすことができなくなる。">じごくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="あしを強くけり相手をころばせて攻撃する。相手がおもいほど威力が上がる。
-PP 20">けたぐり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="あしを強くけり相手をころばせて攻撃する。相手がおもいほど威力が上がる。">けたぐり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="どくにそまったしょくしゅやうでで相手をつきさす。どく状態にすることがある。
-PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: ようき
@@ -12325,19 +11985,18 @@ PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="相手にじゃれついて攻撃する。相手の攻撃を下げることがある。
-PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+追加効果 10% / 相手のこうげき -1段階*">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。
-PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="はがねのようなかたい頭で攻撃する。相手をひるませることがある。
-PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -12376,20 +12035,18 @@ PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。
-PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="きたないゴミを相手にぶつけて攻撃する。どく状態にすることがある。
-PP 5">ダストシュート</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">80%</span></span>
+追加効果 30%">ダストシュート</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
-PP 10">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうビーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。
-PP 20">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12408,19 +12065,17 @@ PP 20">とんぼがえり</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しずかにせいしんをとういつしこころをしずめることで自分の特攻と特防を上げる。
-PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +1段階* / とくぼう +1段階*">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。
-PP 10">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="く力はきだす特別あついほのおで攻撃する。相手の特攻を下げる。
-PP 10">マジカルフレイム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 100% / 相手のとくこう -1段階*">マジカルフレイム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12441,20 +12096,17 @@ PP 10">マジカルフレイム</span><span class="move-meta"><span class="move-
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="うえつけた相手のＨＰをまいターン少しだけすいとり自分のＨＰを回復する。
-PP 10">やどりぎのタネ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="うえつけた相手のＨＰをまいターン少しだけすいとり自分のＨＰを回復する。">やどりぎのタネ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="相手の攻撃を防ぐとどうじにふれた相手のた威力をけずってしまう。
-PP 10">ニードルガード</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="相手の攻撃を防ぐとどうじにふれた相手のた威力をけずってしまう。">ニードルガード</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="強くておもいこぶしをふるってダメージを与える。自分の素早さが下がる。
-PP 10">アームハンマー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">90%</span></span>
+すばやさ -1段階">アームハンマー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-grass">くさ</span><span class="move-name" title="かたいからをもつおおきなタネをうえからたたきつけて相手を攻撃する。
-PP 15">タネばくだん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-grass">くさ</span><span class="move-name" title="かたいからをもつおおきなタネをうえからたたきつけて相手を攻撃する。">タネばくだん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12475,20 +12127,19 @@ PP 15">タネばくだん</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="はげしいほのおを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="きたないヘドロを相手になげつけて攻撃する。どく状態にすることがある。
-PP 10">ヘドロばくだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 30%">ヘドロばくだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="２ターンのあいだ眠りつづける。自分のＨＰと状態いじょうを全て回復する。
-PP 10">ねむる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12528,19 +12179,17 @@ PP 10">ねむる</span><span class="move-meta"><span class="move-cat">変化</sp
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="強くておもいこぶしをふるってダメージを与える。自分の素早さが下がる。
-PP 10">アームハンマー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">90%</span></span>
+すばやさ -1段階">アームハンマー</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="はげしくあれくるうあらなみのようにおおきなしっぽをふって相手を攻撃する。
-PP 10">アクアテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="はげしくあれくるうあらなみのようにおおきなしっぽをふって相手を攻撃する。">アクアテール</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="れいきをこめたパンチで相手を攻撃する。こおり状態にすることがある。
-PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">れいとうパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12559,19 +12208,18 @@ PP 15">れいとうパンチ</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="たたかいのまいをはげしくおどってきあいをたかめる。自分の攻撃をぐーんと上げる。
-PP 20">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+こうげき +2段階*">つるぎのまい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="はっぱをつるぎのようにあやつり相手をきりつけて攻撃する。急所にあたりやすい。
-PP 15">リーフブレード</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+急所 12.5%（通常は 4.2%）">リーフブレード</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="こぶしから相手の力をすいとる。あたえたダメージの半分のＨＰを回復できる。
-PP 10">ドレインパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+与えたダメージの 1/2 を回復">ドレインパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="カマやツメをハサミのようにこうささせながら相手をきりさく。
-PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="カマやツメをハサミのようにこうささせながら相手をきりさく。">シザークロス</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12593,19 +12241,17 @@ PP 15">シザークロス</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="あついいきを相手にふきつけて攻撃する。やけど状態にすることがある。
-PP 10">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span></span>
+追加効果 10%">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="そらをもきりさくくうきのやいばで攻撃する。相手をひるませることがある。
-PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">95%</span></span>
+追加効果 30%">エアスラッシュ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (でんき)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (でんき)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12626,20 +12272,18 @@ PP 15">めざめるパワー (でんき)</span><span class="move-meta"><span cla
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="うるさくひびくおおきなしんどうを相手にあたえて攻撃する。
-PP 10">ハイパーボイス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="うるさくひびくおおきなしんどうを相手にあたえて攻撃する。">ハイパーボイス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しずかにせいしんをとういつしこころをしずめることで自分の特攻と特防を上げる。
-PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +1段階* / とくぼう +1段階*">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: おくびょう
@@ -12679,19 +12323,18 @@ PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="はねをおりたたみていくうひこうでとつげきする。自分もかなりダメージを受ける。
-PP 15">ブレイブバード</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+反動 与えたダメージの 1/3">ブレイブバード</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="すごい力をはっきして相手を攻撃する。自分の攻撃と防御が下がる。
-PP 5">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+こうげき -1段階 / ぼうぎょ -1段階">ばかぢから</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。
-PP 20">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-bug">むし</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。">とんぼがえり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12712,20 +12355,19 @@ PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="きたないヘドロを相手になげつけて攻撃する。どく状態にすることがある。
-PP 10">ヘドロばくだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 30%">ヘドロばくだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="はげしいほのおを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="さいぼうの変化でえきじょうになり自分の防御をぐーんと上げる。
-PP 20">とける</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+ぼうぎょ +2段階*">とける</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12746,20 +12388,19 @@ PP 20">とける</span><span class="move-meta"><span class="move-cat">変化</sp
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="すさまじいさっきでいあつしながらたいあたりする。相手をひるませることがある。
-PP 10">ドラゴンダイブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">75%</span></span>
+追加効果 20%">ドラゴンダイブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">75%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="とがったいわを相手につきさして攻撃する。急所にあたりやすい。
-PP 5">ストーンエッジ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span></span>
+急所 12.5%（通常は 4.2%）">ストーンエッジ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="どくにそまったしょくしゅやうでで相手をつきさす。どく状態にすることがある。
-PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12797,20 +12438,16 @@ PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理<
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。
-PP 5">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span></span>
+<span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。
-PP 20">ボルトチェンジ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="攻撃したあとものすごいスピードでもどってきてひかえポケモンといれかわる。">ボルトチェンジ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分のＨＰと相手のＨＰをあわせてそれを自分と相手でなかよくわける。
-PP 20">いたみわけ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="自分のＨＰと相手のＨＰをあわせてそれを自分と相手でなかよくわける。">いたみわけ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fire">ほのお</span><span class="move-name" title="ぶきみであやしいほのおをはなって相手をやけどの状態にする。
-PP 15">おにび</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">85%</span></span>
+<span class="type-badge type-fire">ほのお</span><span class="move-name" title="ぶきみであやしいほのおをはなって相手をやけどの状態にする。">おにび</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">85%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12831,20 +12468,18 @@ PP 15">おにび</span><span class="move-meta"><span class="move-cat">変化</sp
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。
-PP 10">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="とがったはっぱで相手にあらしをおこす。使うとはんどうで自分の特攻ががくっと下がる。
-PP 5">リーフストーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">130</span><span class="move-acc">90%</span></span>
+とくこう -2段階">リーフストーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">130</span><span class="move-acc">90%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fire">ほのお</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (ほのお)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fire">ほのお</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (ほのお)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="ようぶんをすいとり攻撃する。あたえたダメージの半分のＨＰを回復できる。
-PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+与えたダメージの 1/2 を回復">ギガドレイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12866,19 +12501,18 @@ PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="強いねんりきを相手におくって攻撃する。相手の特防を下げることがある。
-PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (じめん)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (じめん)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="つきのパワーをかりて相手を攻撃する。相手の特攻を下げることがある。
-PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span></span>
+追加効果 30% / 相手のとくこう -1段階*">ムーンフォース</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12899,20 +12533,19 @@ PP 15">ムーンフォース</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fire">ほのお</span><span class="move-name" title="いかりを爆発させて相手を攻撃する。自分のＨＰが少ないほどわざの威力は下がる。
-PP 5">ふんか</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">150</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fire">ほのお</span><span class="move-name" title="いかりを爆発させて相手を攻撃する。自分のＨＰが少ないほどわざの威力は下がる。">ふんか</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">150</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="はげしいほのおを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="みえないふしぎな力をおくって攻撃する。相手をひるませることがある。
-PP 20">じんつうりき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 10%">じんつうりき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12933,20 +12566,19 @@ PP 20">じんつうりき</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="ほのおをこめたパンチで相手を攻撃する。やけど状態にすることがある。
-PP 15">ほのおのパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">ほのおのパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんげきをこめたパンチで相手を攻撃する。まひ状態にすることがある。
-PP 15">かみなりパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+追加効果 10%">かみなりパンチ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="どくにそまったしょくしゅやうでで相手をつきさす。どく状態にすることがある。
-PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">どくづき</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -12984,19 +12616,17 @@ PP 20">どくづき</span><span class="move-meta"><span class="move-cat">物理<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-ground">じめん</span><span class="move-name" title="じめんをふみならして自分の周りにいるものを攻撃する。相手の素早さを下げる。
-PP 20">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。
-PP 20">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手の持ち物をはたきおとして戦闘がおわるまでつかえなくする。ものをもつ相手にはダメージがます。">はたきおとす</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">65</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。
-PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="はがねのようなかたい頭で攻撃する。相手をひるませることがある。
-PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -13017,20 +12647,19 @@ PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手にとっしんして攻撃する。必ずせんせい攻撃できる。
-PP 5">しんそく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="めにもとまらぬものすごいはやさで相手にとっしんして攻撃する。必ずせんせい攻撃できる。">しんそく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="ほのおをまとってとっしんする。自分もかなりダメージを受ける。やけど状態にすることがある。
-PP 15">フレアドライブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+追加効果 10% / 反動 与えたダメージの 1/3">フレアドライブ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="でんきをまとって相手にぶつかって攻撃する。自分も少しダメージを受ける。
-PP 15">ワイルドボルト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+反動 与えたダメージの 1/4">ワイルドボルト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ground">じめん</span><span class="move-name" title="じめんをふみならして自分の周りにいるものを攻撃する。相手の素早さを下げる。
-PP 20">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -13052,19 +12681,18 @@ PP 20">じならし</span><span class="move-meta"><span class="move-cat">物理<
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しずかにせいしんをとういつしこころをしずめることで自分の特攻と特防を上げる。
-PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +1段階* / とくぼう +1段階*">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="さいぼうをさいせいさせて自分の最大ＨＰの半分のＨＰを回復する。
-PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">じこさいせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -13086,19 +12714,18 @@ PP 10">じこさいせい</span><span class="move-meta"><span class="move-cat">�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="ようぶんをすいとり攻撃する。あたえたダメージの半分のＨＰを回復できる。
-PP 10">ギガドレイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span></span>
+与えたダメージの 1/2 を回復">ギガドレイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="きたないヘドロを相手になげつけて攻撃する。どく状態にすることがある。
-PP 10">ヘドロばくだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 30%">ヘドロばくだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fire">ほのお</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (ほのお)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fire">ほのお</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (ほのお)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="自分のＨＰを回復する。天気によって回復のりょうが変化する。
-PP 5">こうごうせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復*">こうごうせい</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -13119,20 +12746,17 @@ PP 5">こうごうせい</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="いんりょくをつかいなげ飛ばす。自分のレベルと同じダメージを相手に与える。
-PP 20">ちきゅうなげ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="いんりょくをつかいなげ飛ばす。自分のレベルと同じダメージを相手に与える。">ちきゅうなげ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">1</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-electric">でんき</span><span class="move-name" title="弱いでんげきをあびせることで相手をまひ状態にする。
-PP 20">でんじは</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span></span>
+<span class="type-badge type-electric">でんき</span><span class="move-name" title="弱いでんげきをあびせることで相手をまひ状態にする。">でんじは</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">90%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="はげしいほのおを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。
-PP 10">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -13154,19 +12778,18 @@ PP 10">ねがいごと</span><span class="move-meta"><span class="move-cat">変�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="体ぜんたいで相手にのしかかり攻撃する。まひ状態にすることがある。
-PP 15">のしかかり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span></span>
+追加効果 30%">のしかかり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="そらをもきりさくくうきのやいばで攻撃する。相手をひるませることがある。
-PP 15">エアスラッシュ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">95%</span></span>
+追加効果 30%">エアスラッシュ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="じめんにおりて体をやすめる。最大ＨＰの半分のＨＰを回復する。
-PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+自分の最大HPの 1/2 を回復">はねやすめ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -13187,20 +12810,19 @@ PP 10">はねやすめ</span><span class="move-meta"><span class="move-cat">変�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="はげしいふぶきを相手にふきつけて攻撃する。こおり状態にすることがある。
-PP 5">ふぶき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 10%">ふぶき</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="はげしいかみなりを相手におとして攻撃する。まひ状態にすることがある。
-PP 10">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 30%">かみなり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="強いねんりきを相手におくって攻撃する。相手の特防を下げることがある。
-PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -13221,20 +12843,19 @@ PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="しずかにせいしんをとういつしこころをしずめることで自分の特攻と特防を上げる。
-PP 20">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+とくこう +1段階* / とくぼう +1段階*">めいそう</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-electric">でんき</span><span class="move-name" title="強いでんげきを相手にあびせて攻撃する。まひ状態にすることがある。
-PP 15">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">10まんボルト</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="２ターンのあいだ眠りつづける。自分のＨＰと状態いじょうを全て回復する。
-PP 10">ねむる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや
@@ -13317,20 +12938,19 @@ PP 10">ねむる</span><span class="move-meta"><span class="move-cat">変化</sp
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。
-PP 10">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="まもりをすてて相手のふところにとつげきする。自分の防御と特防が下がる。
-PP 5">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span></span>
+ぼうぎょ -1段階 / とくぼう -1段階">インファイト</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="相手にじゃれついて攻撃する。相手の攻撃を下げることがある。
-PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+追加効果 10% / 相手のこうげき -1段階*">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -13352,19 +12972,18 @@ PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物�
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="つめたいれいきを相手にふきつけて攻撃する。相手の素早さを下げる。
-PP 15">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span></span>
+追加効果 100% / 相手のすばやさ -1段階*">こごえるかぜ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">55</span><span class="move-acc">95%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="強いねんりきを相手におくって攻撃する。相手の特防を下げることがある。
-PP 10">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">サイコキネシス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
-PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span></span>
+追加効果 10% / 相手のとくぼう -1段階">きあいだま</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">70%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: おくびょう
@@ -13385,20 +13004,17 @@ PP 5">きあいだま</span><span class="move-meta"><span class="move-cat">特�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。
-PP 20">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="はげしいほのおを相手にはっしゃして攻撃する。やけど状態にすることがある。
-PP 15">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span></span>
+追加効果 10%">かえんほうしゃ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。
-PP 10">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ふしぎなねんぱをじったいかして相手を攻撃する。ぶつりてきなダメージを与える。">サイコショック</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -13419,20 +13035,17 @@ PP 10">サイコショック</span><span class="move-meta"><span class="move-cat
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-flying">ひこう</span><span class="move-name" title="はげしくふきあれる風のうずをつくり４ターンのあいだ味方全員の素早さを上げる。
-PP 15">おいかぜ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-flying">ひこう</span><span class="move-name" title="はげしくふきあれる風のうずをつくり４ターンのあいだ味方全員の素早さを上げる。">おいかぜ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-flying">ひこう</span><span class="move-name" title="きょうれつな風で相手をつつみこんで攻撃する。相手を混乱させることがある。
-PP 10">ぼうふう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span></span>
+追加効果 30%">ぼうふう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">70%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="しぜんの力で攻撃する。使う場所ででてくるわざが変化する。
-PP 20">しぜんのちから</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="しぜんの力で攻撃する。使う場所ででてくるわざが変化する。">しぜんのちから</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -13454,19 +13067,18 @@ PP 20">しぜんのちから</span><span class="move-meta"><span class="move-cat
 <td><ul class="move-list">
 <li class="move">
 <span class="type-badge type-steel">はがね</span><span class="move-name" title="はがねのようなかたい頭で攻撃する。相手をひるませることがある。
-PP 15">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+追加効果 30%">アイアンヘッド</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="相手にじゃれついて攻撃する。相手の攻撃を下げることがある。
-PP 10">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span></span>
+追加効果 10% / 相手のこうげき -1段階*">じゃれつく</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">90</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-rock">いわ</span><span class="move-name" title="おおきないわをはげしくぶつけて攻撃する。相手をひるませることがある。
-PP 10">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span></span>
+追加効果 30%">いわなだれ</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">75</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。
-PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-dark">あく</span><span class="move-name" title="相手よりさきに攻撃できる。相手がだすわざが攻撃わざでないとしっぱいする。">ふいうち</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 </ul></td>
 <td>せいかく: いじっぱり
@@ -13488,20 +13100,16 @@ PP 5">ふいうち</span><span class="move-meta"><span class="move-cat">物理</
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。
-PP 10">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-fairy">フェアリー</span><span class="move-name" title="きょうりょくな光をはなち相手にダメージを与える。">マジカルシャイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。
-PP 15">めざめるパワー (じめん)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span></span>
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (じめん)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。
-PP 10">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="しぜんの力で攻撃する。使う場所ででてくるわざが変化する。
-PP 20">しぜんのちから</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span></span>
+<span class="type-badge type-normal">ノーマル</span><span class="move-name" title="しぜんの力で攻撃する。使う場所ででてくるわざが変化する。">しぜんのちから</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ

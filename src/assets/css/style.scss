@@ -2524,7 +2524,7 @@ body.night-mode .book-toc-chapter li a:hover { color: #ffffff; border-left-color
 
 .mon-name { font-size: 15px; line-height: 1.4; }
 
-/* わざ一覧。行ごとに [タイプ] わざ名 …… 分類 威力 と並べる。 */
+/* わざ一覧。行ごとに [タイプ] わざ名 …… 分類 威力 命中 PP と並べる。 */
 .move-list {
   margin: 0;
   padding: 0;
@@ -2552,7 +2552,7 @@ body.night-mode .book-toc-chapter li a:hover { color: #ffffff; border-left-color
   cursor: help;
 }
 
-/* 分類・威力・命中。縦に読めるよう、それぞれ固定幅の枠に入れて
+/* 分類・威力・命中・PP。縦に読めるよう、それぞれ固定幅の枠に入れて
    数値は右揃えにする。幅がばらつくと目で追えなくなる。 */
 .move-meta {
   flex: 0 0 auto;
@@ -2567,6 +2567,9 @@ body.night-mode .book-toc-chapter li a:hover { color: #ffffff; border-left-color
 .move-cat   { flex: 0 0 2.4em; text-align: left; }
 .move-power { flex: 0 0 2.2em; text-align: right; }
 .move-acc   { flex: 0 0 3.1em; text-align: right; }
+/* PP は「PP 30」と札を付ける。他の3枠と違い、数字だけでは威力や命中と
+   見分けが付かない。最大は 40 なので2桁ぶんあれば足りる。 */
+.move-pp    { flex: 0 0 4.2em; text-align: right; }
 
 /* 必中は「外れない」という情報そのものが要点なので、少し目立たせる */
 .move-acc.is-sure { color: #2f7d4f; font-weight: 600; }

@@ -719,7 +719,10 @@ class TrainerGetter
         name_span['class'] = 'move-name'
         # 効果はパッチの説明文をそのまま出す。title 属性なので画像も JS も要らない。
         if move_data && move_data[:desc] && !move_data[:desc].to_s.empty?
-          name_span['title'] = move_desc_tooltip(move_data)
+          # move が Hash のとき (ためわざ・中間攻撃) は符号が無い。MoveFacts は
+          # 符号を使う分岐があるので、その場合は渡さない。
+          tip = move_desc_tooltip(move_data, @scriptsDir, move.class == Hash ? nil : move)
+          name_span['title'] = tip unless tip.empty?
         end
         li.add_child(name_span)
 
@@ -742,6 +745,14 @@ class TrainerGetter
           ac = doc.create_element('span', acc.zero? ? JaNames.ui('never misses') : "#{acc}%")
           ac['class'] = acc.zero? ? 'move-acc is-sure' : 'move-acc'
           meta_span.add_child(ac)
+
+          # PP は以前ツールチップに入れていたが、乗せないと見えなかった。
+          # 何回撃てるかは威力や命中と並べて読む値なので、こちらに移す。
+          if move_data[:maxpp]
+            pp = doc.create_element('span', "PP #{move_data[:maxpp]}")
+            pp['class'] = 'move-pp'
+            meta_span.add_child(pp)
+          end
 
           li.add_child(meta_span)
         end

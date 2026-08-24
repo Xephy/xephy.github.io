@@ -110,6 +110,7 @@ module MonPage
 
     power = move[:basedamage].to_i.positive? ? move[:basedamage] : '—'
     accuracy = move[:accuracy].to_i.zero? ? ui('Perfect') : "#{move[:accuracy]}%"
+    pp = move[:maxpp] || '—'
     %(<tr data-type="#{move[:type].to_s.downcase}">) +
       (lead ? %(<td class="md-lead">#{lead}</td>) : '') +
       %(<td class="md-move">#{type_badge(move[:type], 'md-tb')}) +
@@ -118,6 +119,7 @@ module MonPage
       %(<span class="move-name md-move-name" title="#{esc(move[:desc])}#{esc(facts)}">#{esc(move[:name])}</span></td>) +
       %(<td class="md-cat">#{esc(MonData.category_label(move[:category]))}</td>) +
       %(<td class="md-num">#{power}</td><td class="md-num">#{accuracy}</td>) +
+      %(<td class="md-num">#{pp}</td>) +
       (extra ? %(<td class="md-where">#{extra}</td>) : '') +
       %(</tr>)
   end
@@ -126,16 +128,16 @@ module MonPage
     cols, heads =
       case kind
       when :level
-        [%w[5.5em auto 3.4em 3.4em 4em],
-         ['Learned at', 'Moves', 'Category', 'Power', 'Accuracy']]
+        [%w[5.5em auto 3.4em 3.4em 4em 3.2em],
+         ['Learned at', 'Moves', 'Category', 'Power', 'Accuracy', 'PP']]
       when :machine
-        [%w[6.4em auto 3.4em 3.4em 4em 15em],
-         ['Machine', 'Moves', 'Category', 'Power', 'Accuracy', 'Where to get it']]
+        [%w[6.4em auto 3.4em 3.4em 4em 3.2em 15em],
+         ['Machine', 'Moves', 'Category', 'Power', 'Accuracy', 'PP', 'Where to get it']]
       when :tutor
-        [%w[auto 3.4em 3.4em 4em 17em],
-         ['Moves', 'Category', 'Power', 'Accuracy', 'Where to learn it']]
+        [%w[auto 3.4em 3.4em 4em 3.2em 17em],
+         ['Moves', 'Category', 'Power', 'Accuracy', 'PP', 'Where to learn it']]
       else
-        [%w[auto 3.4em 3.4em 4em], ['Moves', 'Category', 'Power', 'Accuracy']]
+        [%w[auto 3.4em 3.4em 4em 3.2em], ['Moves', 'Category', 'Power', 'Accuracy', 'PP']]
       end
 
     <<~HTML

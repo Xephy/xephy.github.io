@@ -4,6 +4,7 @@ require 'yaml'
 require 'nokogiri'
 require 'date'
 require_relative 'ja_names'
+require_relative 'move_facts'
 
 UTILS_DIR = File.dirname(File.expand_path(__FILE__))
 ROOT_DIR = File.dirname(UTILS_DIR)
@@ -741,12 +742,14 @@ end
 TYPE_SYMBOLS = %i[NORMAL FIGHTING FLYING POISON GROUND ROCK BUG GHOST STEEL
                   FIRE WATER GRASS ELECTRIC PSYCHIC ICE DRAGON DARK FAIRY].freeze
 
-# わざ名に付けるツールチップ。命中は表に常時出しているので、
-# ここでは説明文と PP だけを添える。
-def move_desc_tooltip(move_data)
-  parts = [move_data[:desc].to_s.strip]
-  parts << "PP #{move_data[:maxpp]}" if move_data[:maxpp]
-  parts.reject { |s| s.to_s.empty? }.join("\n")
+# わざ名に付けるツールチップ。分類・威力・命中・PP は表に常時出しているので、
+# ここには説明文と、その説明では分からない数字 (急所率・追加効果の確率・能力
+# 変化の段階など) だけを入れる。ポケモン個別ページのわざ表と同じ中身になる。
+def move_desc_tooltip(move_data, scripts_dir = nil, move_sym = nil)
+  desc = move_data[:desc].to_s.strip
+  return '' if desc.empty?
+
+  desc + (scripts_dir ? MoveFacts.suffix(move_data, scripts_dir, move_sym) : '')
 end
 
 def get_iv_str(ivs)
