@@ -268,16 +268,12 @@ class TrainerGetter
 
       custom_form_bool = is_custom_form(form_key)
 
-      if custom_form_bool # Add typing only for custom formes
-        type1 = form_data[:Type1] ? @typeHash[form_data[:Type1]][:name] : @typeHash[form_1_data[:Type1]][:name]
-        type2 = form_data[:Type2] ? @typeHash[form_data[:Type2]][:name] : (form_1_data[:Type2] ? @typeHash[form_1_data[:Type2]][:name] : nil)
-        if type2.nil? || type1 == type2
-          typeStr = "#{JaNames.ui('Typing:')} #{type1}"
-        else
-          typeStr = "#{JaNames.ui('Typing:')} #{type1}/#{type2}"
-        end
-        mon_details_parts.push(typeStr)
-      end
+      # 種族のタイプ。以前は独自フォルムのときだけ「タイプ:」の行で文字で
+      # 出していたが、相手の弱点を考えるのに最初に要る情報なので、全員ぶん
+      # 名前の下に札で出す (mon_types)。フォルムでタイプが変わるものは
+      # form_data 側が優先されるので、独自フォルムの表示も従来どおりになる。
+      mon_types = [form_data[:Type1] || form_1_data[:Type1],
+                   form_data[:Type2] || form_1_data[:Type2]].compact.uniq
 
       # Handles display of SOS Mons for full-boss fights
       if mon[:sos]
@@ -639,6 +635,21 @@ class TrainerGetter
       ident.add_child(meta_el)
       head.add_child(ident)
       mon_details_td.add_child(head)
+
+      # タイプの札は名前の横ではなくセルの全幅に置く。名前の横だとアイコンの
+      # ぶんだけ枠が狭く、2タイプのポケモンで札が折り返して行の高さが揃わない。
+      unless mon_types.empty?
+        types_el = doc.create_element('div')
+        types_el['class'] = 'mon-types'
+        mon_types.each do |t|
+          next unless @typeHash[t]
+
+          badge = doc.create_element('span', @typeHash[t][:name])
+          badge['class'] = "type-badge type-#{t.to_s.downcase}"
+          types_el.add_child(badge)
+        end
+        mon_details_td.add_child(types_el) if types_el.children.any?
+      end
 
       props = mon_details_parts.reject { |s| s.to_s.strip.empty? }
       unless props.empty?

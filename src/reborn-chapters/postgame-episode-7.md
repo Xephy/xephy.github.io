@@ -410,6 +410,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/articuno/" class="mon-link"><strong class="mon-name">フリーザー</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ice">こおり</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: シンセティックシード</div>
 <div>とくせい: ゆきがくれ</div>
@@ -442,6 +445,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/shaymin/" class="mon-link"><img src="/assets/images/mon/shaymin_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/shaymin/" class="mon-link"><strong class="mon-name">シェイミ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>スカイフォルム</div>
@@ -477,6 +483,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/celesteela/" class="mon-link"><strong class="mon-name">テッカグヤ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
 <div>とくせい: ビーストブースト</div>
@@ -508,6 +517,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/latias/" class="mon-link"><img src="/assets/images/mon/latias_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/latias/" class="mon-link"><strong class="mon-name">ラティアス</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-psychic">エスパー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ラティアスナイト</div>
@@ -543,6 +555,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/hydreigon/" class="mon-link"><strong class="mon-name">サザンドラ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-dragon">ドラゴン</span>
+</div>
 <div class="mon-props">
 <div>もちもの: アクZ</div>
 <div>とくせい: ふゆう</div>
@@ -576,6 +591,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/hooh/" class="mon-link"><img src="/assets/images/mon/hooh_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/hooh/" class="mon-link"><strong class="mon-name">ホウオウ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
@@ -655,6 +673,7 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/mismagius/" class="mon-link"><strong class="mon-name">ムウマージ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ghost">ゴースト</span></div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
 <div>とくせい: ふゆう</div>
@@ -685,6 +704,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/dialga/" class="mon-link"><img src="/assets/images/mon/dialga_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/dialga/" class="mon-link"><strong class="mon-name">ディアルガ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-dragon">ドラゴン</span>
 </div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
@@ -717,6 +739,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/kommoo/" class="mon-link"><img src="/assets/images/mon/kommoo_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/kommoo/" class="mon-link"><strong class="mon-name">ジャラランガ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-fighting">かくとう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ジャラランガZ</div>
@@ -751,6 +776,7 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/mew/" class="mon-link"><strong class="mon-name">ミュウ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-psychic">エスパー</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: シンクロ</div>
@@ -781,6 +807,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/diancie/" class="mon-link"><img src="/assets/images/mon/diancie_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/diancie/" class="mon-link"><strong class="mon-name">ディアンシー</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-fairy">フェアリー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ディアンシナイト</div>
@@ -814,6 +843,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/lugia/" class="mon-link"><img src="/assets/images/mon/lugia_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/lugia/" class="mon-link"><strong class="mon-name">ルギア</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-psychic">エスパー</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
@@ -876,6 +908,7 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/deoxys/" class="mon-link"><strong class="mon-name">デオキシス</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-psychic">エスパー</span></div>
 <div class="mon-props">
 <div>スピードフォルム</div>
 <div>もちもの: ひかりのねんど</div>
@@ -906,6 +939,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/metagross/" class="mon-link"><img src="/assets/images/mon/metagross_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/metagross/" class="mon-link"><strong class="mon-name">メタグロス</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-psychic">エスパー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: メタグロスナイト</div>
@@ -939,6 +975,7 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/darkrai/" class="mon-link"><strong class="mon-name">ダークライ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-dark">あく</span></div>
 <div class="mon-props">
 <div>もちもの: アクZ</div>
 <div>とくせい: ナイトメア</div>
@@ -973,6 +1010,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/genesect/" class="mon-link"><strong class="mon-name">ゲノセクト</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: ダウンロード</div>
@@ -1006,6 +1046,7 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/clefable/" class="mon-link"><strong class="mon-name">ピクシー</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fairy">フェアリー</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: てんねん</div>
@@ -1039,6 +1080,7 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/deoxys/" class="mon-link"><strong class="mon-name">デオキシス</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-psychic">エスパー</span></div>
 <div class="mon-props">
 <div>ディフェンスフォルム</div>
 <div>もちもの: マジカルシード</div>
@@ -1375,6 +1417,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/tapubulu/" class="mon-link"><strong class="mon-name">カプ・ブルル</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: エレメンタルシード</div>
 <div>とくせい: グラスメイカー</div>
@@ -1408,6 +1453,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/celesteela/" class="mon-link"><strong class="mon-name">テッカグヤ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: エレメンタルシード</div>
 <div>とくせい: ビーストブースト</div>
@@ -1439,6 +1487,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/volcarona/" class="mon-link"><img src="/assets/images/mon/volcarona_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/volcarona/" class="mon-link"><strong class="mon-name">ウルガモス</strong></a><span class="mon-meta">♀ Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-fire">ほのお</span>
 </div>
 <div class="mon-props">
 <div>もちもの: エレメンタルシード</div>
@@ -1474,6 +1525,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/volcanion/" class="mon-link"><strong class="mon-name">ボルケニオン</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-water">みず</span>
+</div>
 <div class="mon-props">
 <div>もちもの: エレメンタルシード</div>
 <div>とくせい: ちょすい</div>
@@ -1508,6 +1562,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/palkia/" class="mon-link"><strong class="mon-name">パルキア</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-dragon">ドラゴン</span>
+</div>
 <div class="mon-props">
 <div>もちもの: デンキZ</div>
 <div>とくせい: テレパシー</div>
@@ -1540,6 +1597,7 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/kyogre/" class="mon-link"><strong class="mon-name">カイオーガ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props">
 <div>もちもの: あいいろのたま</div>
 <div>とくせい: あめふらし</div>
@@ -1592,6 +1650,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/togekiss/" class="mon-link"><strong class="mon-name">トゲキッス</strong></a><span class="mon-meta">♀ Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-fairy">フェアリー</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: テルリックシード</div>
 <div>とくせい: てんのめぐみ</div>
@@ -1624,6 +1685,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/diancie/" class="mon-link"><img src="/assets/images/mon/diancie_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/diancie/" class="mon-link"><strong class="mon-name">ディアンシー</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-fairy">フェアリー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ディアンシナイト</div>
@@ -1658,6 +1722,7 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/regigigas/" class="mon-link"><strong class="mon-name">レジギガス</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: スロースタート</div>
@@ -1689,6 +1754,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/marshadow/" class="mon-link"><img src="/assets/images/mon/marshadow_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/marshadow/" class="mon-link"><strong class="mon-name">マーシャドー</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-fighting">かくとう</span><span class="type-badge type-ghost">ゴースト</span>
 </div>
 <div class="mon-props">
 <div>もちもの: マーシャドーZ</div>
@@ -1722,6 +1790,9 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/dialga/" class="mon-link"><strong class="mon-name">ディアルガ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-dragon">ドラゴン</span>
+</div>
 <div class="mon-props">
 <div>もちもの: テルリックシード</div>
 <div>とくせい: プレッシャー</div>
@@ -1754,6 +1825,7 @@ permalink: /reborn/postgame-episode-7/
 <a href="/reborn/mon/groudon/" class="mon-link"><strong class="mon-name">グラードン</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ground">じめん</span></div>
 <div class="mon-props">
 <div>もちもの: べにいろのたま</div>
 <div>とくせい: ひでり</div>
@@ -1913,6 +1985,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/honchkrow/" class="mon-link"><strong class="mon-name">ドンカラス</strong></a><span class="mon-meta">♀ Lv.133</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: じしんかじょう</div>
@@ -1945,6 +2020,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/articuno/" class="mon-link"><strong class="mon-name">フリーザー</strong></a><span class="mon-meta">♂ Lv.134</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ice">こおり</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: ひかりのねんど</div>
 <div>とくせい: プレッシャー</div>
@@ -1975,6 +2053,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/weavile/" class="mon-link"><img src="/assets/images/mon/weavile_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/weavile/" class="mon-link"><strong class="mon-name">マニューラ</strong></a><span class="mon-meta">♀ Lv.134</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-ice">こおり</span>
 </div>
 <div class="mon-props">
 <div>もちもの: きあいのタスキ</div>
@@ -2007,6 +2088,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/dodrio/" class="mon-link"><strong class="mon-name">ドードリオ</strong></a><span class="mon-meta">♂ Lv.134</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: はやおき</div>
@@ -2038,6 +2122,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/umbreon/" class="mon-link"><strong class="mon-name">ブラッキー</strong></a><span class="mon-meta">♂ Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-dark">あく</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: シンクロ</div>
@@ -2068,6 +2153,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/houndoom/" class="mon-link"><img src="/assets/images/mon/houndoom_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/houndoom/" class="mon-link"><strong class="mon-name">ヘルガー</strong></a><span class="mon-meta">♂ Lv.134</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-fire">ほのお</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ヘルガナイト</div>
@@ -2119,6 +2207,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/infernape/" class="mon-link"><strong class="mon-name">ゴウカザル</strong></a><span class="mon-meta">♂ Lv.133</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-fighting">かくとう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: もうか</div>
@@ -2152,6 +2243,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/klefki/" class="mon-link"><strong class="mon-name">クレッフィ</strong></a><span class="mon-meta">♂ Lv.134</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: いたずらごころ</div>
@@ -2182,6 +2276,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/chandelure/" class="mon-link"><img src="/assets/images/mon/chandelure_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/chandelure/" class="mon-link"><strong class="mon-name">シャンデラ</strong></a><span class="mon-meta">♂ Lv.133</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ghost">ゴースト</span><span class="type-badge type-fire">ほのお</span>
 </div>
 <div class="mon-props">
 <div>もちもの: オボンのみ</div>
@@ -2217,6 +2314,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/komala/" class="mon-link"><strong class="mon-name">ネッコアラ</strong></a><span class="mon-meta">♂ Lv.134</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: ぜったいねむり</div>
@@ -2248,6 +2346,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/blacephalon/" class="mon-link"><img src="/assets/images/mon/blacephalon_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/blacephalon/" class="mon-link"><strong class="mon-name">ズガドーン</strong></a><span class="mon-meta">♂ Lv.133</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-ghost">ゴースト</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ふうせん</div>
@@ -2281,11 +2382,13 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/aegislash/" class="mon-link"><strong class="mon-name">ギルガルド</strong></a><span class="mon-meta">Lv.134</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>クリスタルフォルム</div>
 <div>もちもの: たべのこし</div>
 <div>とくせい: フレンドガード</div>
-<div>タイプ: はがね/フェアリー</div>
 </div>
 </td>
 <td><ul class="move-list">
@@ -2330,6 +2433,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/komala/" class="mon-link"><strong class="mon-name">ネッコアラ</strong></a><span class="mon-meta">♂ Lv.134</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: ぜったいねむり</div>
@@ -2353,6 +2457,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/exeggutor/" class="mon-link"><img src="/assets/images/mon/exeggutor_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/exeggutor/" class="mon-link"><strong class="mon-name">ナッシー</strong></a><span class="mon-meta">♂ Lv.134</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-dragon">ドラゴン</span>
 </div>
 <div class="mon-props">
 <div>アローラのすがた</div>
@@ -2386,6 +2493,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/klefki/" class="mon-link"><strong class="mon-name">クレッフィ</strong></a><span class="mon-meta">♂ Lv.134</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: ひかりのねんど</div>
 <div>とくせい: いたずらごころ</div>
@@ -2415,6 +2525,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/gliscor/" class="mon-link"><img src="/assets/images/mon/gliscor_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/gliscor/" class="mon-link"><strong class="mon-name">グライオン</strong></a><span class="mon-meta">♂ Lv.133</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ground">じめん</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: どくどくだま</div>
@@ -2446,6 +2559,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/minior/" class="mon-link"><img src="/assets/images/mon/minior_2.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/minior/" class="mon-link"><strong class="mon-name">メテノ</strong></a><span class="mon-meta">♂ Lv.134</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>みどりいろのコア</div>
@@ -2480,6 +2596,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/chatot/" class="mon-link"><img src="/assets/images/mon/chatot_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/chatot/" class="mon-link"><strong class="mon-name">ペラップ</strong></a><span class="mon-meta">♂ Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
@@ -2530,6 +2649,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/ninetales/" class="mon-link"><strong class="mon-name">キュウコン</strong></a><span class="mon-meta">Lv.131</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ice">こおり</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>アローラのすがた</div>
 <div>もちもの: ひかりのねんど</div>
@@ -2563,6 +2685,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/kangaskhan/" class="mon-link"><strong class="mon-name">ガルーラ</strong></a><span class="mon-meta">Lv.131</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props">
 <div>もちもの: ガルーラナイト</div>
 <div>とくせい: きもったま</div>
@@ -2596,6 +2719,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/golem/" class="mon-link"><img src="/assets/images/mon/golem_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/golem/" class="mon-link"><strong class="mon-name">ゴローニャ</strong></a><span class="mon-meta">Lv.131</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-electric">でんき</span>
 </div>
 <div class="mon-props">
 <div>アローラのすがた</div>
@@ -2631,6 +2757,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/mimikyu/" class="mon-link"><strong class="mon-name">ミミッキュ</strong></a><span class="mon-meta">Lv.131</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ghost">ゴースト</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: ばけのかわ</div>
@@ -2664,6 +2793,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/lycanroc/" class="mon-link"><strong class="mon-name">ルガルガン</strong></a><span class="mon-meta">Lv.132</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-rock">いわ</span></div>
 <div class="mon-props">
 <div>たそがれのすがた</div>
 <div>もちもの: ルガルガンZ</div>
@@ -2697,6 +2827,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/zekrom/" class="mon-link"><strong class="mon-name">ゼクロム</strong></a><span class="mon-meta">Lv.133</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-electric">でんき</span>
+</div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: テラボルテージ</div>
@@ -2729,6 +2862,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/glaceon/" class="mon-link"><strong class="mon-name">グレイシア</strong></a><span class="mon-meta">Lv.131</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ice">こおり</span></div>
 <div class="mon-props">
 <div>もちもの: エレメンタルシード</div>
 <div>とくせい: ゆきがくれ</div>
@@ -2761,6 +2895,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/weavile/" class="mon-link"><strong class="mon-name">マニューラ</strong></a><span class="mon-meta">Lv.131</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-ice">こおり</span>
+</div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: プレッシャー</div>
@@ -2792,6 +2929,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/banette/" class="mon-link"><strong class="mon-name">ジュペッタ</strong></a><span class="mon-meta">Lv.131</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ghost">ゴースト</span></div>
 <div class="mon-props">
 <div>もちもの: ジュペッタナイト</div>
 <div>とくせい: ふみん</div>
@@ -2822,6 +2960,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/guzzlord/" class="mon-link"><img src="/assets/images/mon/guzzlord_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/guzzlord/" class="mon-link"><strong class="mon-name">アクジキング</strong></a><span class="mon-meta">Lv.131</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-dragon">ドラゴン</span>
 </div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
@@ -2855,6 +2996,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/raikou/" class="mon-link"><strong class="mon-name">ライコウ</strong></a><span class="mon-meta">Lv.132</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-electric">でんき</span></div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: プレッシャー</div>
@@ -2885,6 +3027,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/reshiram/" class="mon-link"><img src="/assets/images/mon/reshiram_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/reshiram/" class="mon-link"><strong class="mon-name">レシラム</strong></a><span class="mon-meta">Lv.133</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-fire">ほのお</span>
 </div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
@@ -2937,6 +3082,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/manectric/" class="mon-link"><strong class="mon-name">ライボルト</strong></a><span class="mon-meta">Lv.132</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-electric">でんき</span></div>
 <div class="mon-props">
 <div>もちもの: ライボルトナイト</div>
 <div>とくせい: ひらいしん</div>
@@ -2969,6 +3115,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/magearna/" class="mon-link"><strong class="mon-name">マギアナ</strong></a><span class="mon-meta">Lv.132</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props"><div>とくせい: ソウルハート</div></div>
 </td>
 <td><ul class="move-list">
@@ -2997,6 +3146,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/shaymin/" class="mon-link"><img src="/assets/images/mon/shaymin_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/shaymin/" class="mon-link"><strong class="mon-name">シェイミ</strong></a><span class="mon-meta">Lv.133</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>スカイフォルム</div>
@@ -3031,6 +3183,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/victini/" class="mon-link"><strong class="mon-name">ビクティニ</strong></a><span class="mon-meta">Lv.133</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-psychic">エスパー</span><span class="type-badge type-fire">ほのお</span>
+</div>
 <div class="mon-props">
 <div>もちもの: こだわりハチマキ</div>
 <div>とくせい: しょうりのほし</div>
@@ -3063,6 +3218,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/zekrom/" class="mon-link"><strong class="mon-name">ゼクロム</strong></a><span class="mon-meta">Lv.134</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-electric">でんき</span>
+</div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
 <div>とくせい: テラボルテージ</div>
@@ -3093,6 +3251,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/kyurem/" class="mon-link"><img src="/assets/images/mon/kyurem_2.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/kyurem/" class="mon-link"><strong class="mon-name">キュレム</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-ice">こおり</span>
 </div>
 <div class="mon-props">
 <div>ブラックキュレム</div>
@@ -3127,6 +3288,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/mew/" class="mon-link"><strong class="mon-name">ミュウ</strong></a><span class="mon-meta">Lv.132</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-psychic">エスパー</span></div>
 <div class="mon-props">
 <div>もちもの: ウイのみ</div>
 <div>とくせい: シンクロ</div>
@@ -3157,6 +3319,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/salamence/" class="mon-link"><img src="/assets/images/mon/salamence_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/salamence/" class="mon-link"><strong class="mon-name">ボーマンダ</strong></a><span class="mon-meta">Lv.132</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ボーマンダナイト</div>
@@ -3190,6 +3355,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/hoopa/" class="mon-link"><img src="/assets/images/mon/hoopa_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/hoopa/" class="mon-link"><strong class="mon-name">フーパ</strong></a><span class="mon-meta">Lv.132</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-psychic">エスパー</span><span class="type-badge type-dark">あく</span>
 </div>
 <div class="mon-props">
 <div>ときはなたれしフーパ</div>
@@ -3226,6 +3394,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/victini/" class="mon-link"><strong class="mon-name">ビクティニ</strong></a><span class="mon-meta">Lv.133</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-psychic">エスパー</span><span class="type-badge type-fire">ほのお</span>
+</div>
 <div class="mon-props">
 <div>もちもの: こだわりメガネ</div>
 <div>とくせい: しょうりのほし</div>
@@ -3256,6 +3427,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/reshiram/" class="mon-link"><img src="/assets/images/mon/reshiram_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/reshiram/" class="mon-link"><strong class="mon-name">レシラム</strong></a><span class="mon-meta">Lv.134</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-fire">ほのお</span>
 </div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
@@ -3289,6 +3463,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/kyurem/" class="mon-link"><img src="/assets/images/mon/kyurem_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/kyurem/" class="mon-link"><strong class="mon-name">キュレム</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-ice">こおり</span>
 </div>
 <div class="mon-props">
 <div>ホワイトキュレム</div>
@@ -3345,6 +3522,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/latias/" class="mon-link"><strong class="mon-name">ラティアス</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-psychic">エスパー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: だっしゅつボタン</div>
 <div>とくせい: ふゆう</div>
@@ -3376,6 +3556,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/latios/" class="mon-link"><img src="/assets/images/mon/latios_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/latios/" class="mon-link"><strong class="mon-name">ラティオス</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-psychic">エスパー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: こころのしずく</div>
@@ -3410,6 +3593,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/mesprit/" class="mon-link"><strong class="mon-name">エムリット</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-psychic">エスパー</span></div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
 <div>とくせい: ふゆう</div>
@@ -3440,6 +3624,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/hoopa/" class="mon-link"><img src="/assets/images/mon/hoopa_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/hoopa/" class="mon-link"><strong class="mon-name">フーパ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-psychic">エスパー</span><span class="type-badge type-ghost">ゴースト</span>
 </div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
@@ -3474,6 +3661,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/sableye/" class="mon-link"><strong class="mon-name">ヤミラミ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-ghost">ゴースト</span>
+</div>
 <div class="mon-props">
 <div>もちもの: ヤミラミナイト</div>
 <div>とくせい: いたずらごころ</div>
@@ -3506,6 +3696,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/zoroark/" class="mon-link"><strong class="mon-name">ゾロアーク</strong></a><span class="mon-meta">♀ Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-dark">あく</span></div>
 <div class="mon-props">
 <div>もちもの: アクZ</div>
 <div>とくせい: イリュージョン</div>
@@ -3587,6 +3778,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/zoroark/" class="mon-link"><strong class="mon-name">ゾロアーク</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-dark">あく</span></div>
 <div class="mon-props">
 <div>もちもの: きあいのタスキ</div>
 <div>とくせい: イリュージョン</div>
@@ -3621,6 +3813,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/delphox/" class="mon-link"><strong class="mon-name">マフォクシー</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-psychic">エスパー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
 <div>とくせい: マジシャン</div>
@@ -3653,6 +3848,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/absol/" class="mon-link"><strong class="mon-name">アブソル</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-dark">あく</span></div>
 <div class="mon-props">
 <div>もちもの: アブソルナイト</div>
 <div>とくせい: せいぎのこころ</div>
@@ -3686,6 +3882,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/yveltal/" class="mon-link"><strong class="mon-name">イベルタル</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: ダークオーラ</div>
@@ -3718,6 +3917,7 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/xerneas/" class="mon-link"><strong class="mon-name">ゼルネアス</strong></a><span class="mon-meta">Lv.135</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fairy">フェアリー</span></div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
 <div>とくせい: フェアリーオーラ</div>
@@ -3751,6 +3951,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/lunala/" class="mon-link"><img src="/assets/images/mon/lunala_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/lunala/" class="mon-link"><strong class="mon-name">ルナアーラ</strong></a><span class="mon-meta">Lv.135</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-psychic">エスパー</span><span class="type-badge type-ghost">ゴースト</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ルナアーラZ</div>
@@ -3809,6 +4012,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/ferrothorn/" class="mon-link"><strong class="mon-name">ナットレイ</strong></a><span class="mon-meta">Lv.140</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: てつのトゲ</div>
@@ -3838,6 +4044,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/heatran/" class="mon-link"><img src="/assets/images/mon/heatran_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/heatran/" class="mon-link"><strong class="mon-name">ヒードラン</strong></a><span class="mon-meta">Lv.140</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-steel">はがね</span>
 </div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
@@ -3869,6 +4078,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/solgaleo/" class="mon-link"><img src="/assets/images/mon/solgaleo_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/solgaleo/" class="mon-link"><strong class="mon-name">ソルガレオ</strong></a><span class="mon-meta">Lv.140</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-psychic">エスパー</span><span class="type-badge type-steel">はがね</span>
 </div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
@@ -3902,6 +4114,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/lucario/" class="mon-link"><strong class="mon-name">ルカリオ</strong></a><span class="mon-meta">Lv.140</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-fighting">かくとう</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props">
 <div>もちもの: ルカリオナイト</div>
 <div>とくせい: せいぎのこころ</div>
@@ -3933,6 +4148,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/nidoking/" class="mon-link"><img src="/assets/images/mon/nidoking_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/nidoking/" class="mon-link"><strong class="mon-name">ニドキング</strong></a><span class="mon-meta">Lv.140</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-ground">じめん</span>
 </div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
@@ -3967,6 +4185,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/naganadel/" class="mon-link"><img src="/assets/images/mon/naganadel_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/naganadel/" class="mon-link"><strong class="mon-name">アーゴヨン</strong></a><span class="mon-meta">Lv.140</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-dragon">ドラゴン</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ドラゴンZ</div>
@@ -4058,6 +4279,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/jynx/" class="mon-link"><strong class="mon-name">ルージュラ</strong></a><span class="mon-meta">Lv.140</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ice">こおり</span><span class="type-badge type-psychic">エスパー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: きあいのタスキ</div>
 <div>とくせい: かんそうはだ</div>
@@ -4092,6 +4316,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/weavile/" class="mon-link"><strong class="mon-name">マニューラ</strong></a><span class="mon-meta">Lv.140</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-ice">こおり</span>
+</div>
 <div class="mon-props">
 <div>もちもの: きあいのタスキ</div>
 <div>とくせい: わるいてぐせ</div>
@@ -4124,6 +4351,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/lugia/" class="mon-link"><strong class="mon-name">ルギア</strong></a><span class="mon-meta">Lv.140</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-psychic">エスパー</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
 <div>とくせい: マルチスケイル</div>
@@ -4155,6 +4385,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/meloetta/" class="mon-link"><img src="/assets/images/mon/meloetta_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/meloetta/" class="mon-link"><strong class="mon-name">メロエッタ</strong></a><span class="mon-meta">Lv.140</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-fighting">かくとう</span>
 </div>
 <div class="mon-props">
 <div>ステップフォルム</div>
@@ -4189,6 +4422,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/yveltal/" class="mon-link"><strong class="mon-name">イベルタル</strong></a><span class="mon-meta">Lv.140</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: こだわりスカーフ</div>
 <div>とくせい: ダークオーラ</div>
@@ -4221,6 +4457,9 @@ MC側の宝石を黒に、XM側の宝石を白にする必要があります。�
 <a href="/reborn/mon/giratina/" class="mon-link"><img src="/assets/images/mon/giratina_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/giratina/" class="mon-link"><strong class="mon-name">ギラティナ</strong></a><span class="mon-meta">Lv.140</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ghost">ゴースト</span><span class="type-badge type-dragon">ドラゴン</span>
 </div>
 <div class="mon-props">
 <div>オリジンフォルム</div>

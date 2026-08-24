@@ -172,11 +172,11 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/avalugg/" class="mon-link"><strong class="mon-name">クレベース</strong></a><span class="mon-meta">♂ Lv.70</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ice">こおり</span></div>
 <div class="mon-props">
 <div>PULSEフォルム</div>
 <div>もちもの: たべのこし</div>
 <div>とくせい: ハードロック</div>
-<div>タイプ: こおり</div>
 </div>
 </td>
 <td><ul class="move-list">
@@ -340,6 +340,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/parasect/" class="mon-link"><strong class="mon-name">パラセクト</strong></a><span class="mon-meta">Lv.74</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-grass">くさ</span>
+</div>
 <div class="mon-props"><div>とくせい: ほうし</div></div>
 </td>
 <td><ul class="move-list">
@@ -368,6 +371,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/dugtrio/" class="mon-link"><strong class="mon-name">ダグトリオ</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ground">じめん</span></div>
 <div class="mon-props"><div>とくせい: ありじごく</div></div>
 </td>
 <td><ul class="move-list">
@@ -414,6 +418,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/weepinbell/" class="mon-link"><strong class="mon-name">ウツドン</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-poison">どく</span>
+</div>
 <div class="mon-props"><div>とくせい: ようりょくそ</div></div>
 </td>
 <td><ul class="move-list">
@@ -443,6 +450,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/golduck/" class="mon-link"><strong class="mon-name">ゴルダック</strong></a><span class="mon-meta">Lv.76</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props"><div>とくせい: ノーてんき</div></div>
 </td>
 <td><ul class="move-list">
@@ -490,6 +498,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/tangela/" class="mon-link"><strong class="mon-name">モンジャラ</strong></a><span class="mon-meta">Lv.76</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-grass">くさ</span></div>
 <div class="mon-props"><div>とくせい: リーフガード</div></div>
 </td>
 <td><ul class="move-list">
@@ -517,6 +526,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/pidgeot/" class="mon-link"><img src="/assets/images/mon/pidgeot_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/pidgeot/" class="mon-link"><strong class="mon-name">ピジョット</strong></a><span class="mon-meta">Lv.77</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props"><div>とくせい: ちどりあし</div></div>
 </td>
@@ -546,6 +558,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/jolteon/" class="mon-link"><strong class="mon-name">サンダース</strong></a><span class="mon-meta">Lv.78</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-electric">でんき</span></div>
 <div class="mon-props"><div>とくせい: ちくでん</div></div>
 </td>
 <td><ul class="move-list">
@@ -644,6 +657,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/yanmega/" class="mon-link"><strong class="mon-name">メガヤンマ</strong></a><span class="mon-meta">♀ Lv.70</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props"><div>とくせい: かそく</div></div>
 </td>
 <td><ul class="move-list">
@@ -674,6 +690,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/vivillon/" class="mon-link"><strong class="mon-name">ビビヨン</strong></a><span class="mon-meta">♂ Lv.71</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props"><div>とくせい: フレンドガード</div></div>
 </td>
 <td><ul class="move-list">
@@ -703,6 +722,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/ribombee/" class="mon-link"><img src="/assets/images/mon/ribombee_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/ribombee/" class="mon-link"><strong class="mon-name">アブリボン</strong></a><span class="mon-meta">♀ Lv.70</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-fairy">フェアリー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ぎんのこな</div>
@@ -738,6 +760,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/scolipede/" class="mon-link"><strong class="mon-name">ペンドラー</strong></a><span class="mon-meta">♂ Lv.69</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-poison">どく</span>
+</div>
 <div class="mon-props">
 <div>もちもの: ちからのハチマキ</div>
 <div>とくせい: かそく</div>
@@ -770,6 +795,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/volbeat/" class="mon-link"><strong class="mon-name">バルビート</strong></a><span class="mon-meta">♂ Lv.70</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-bug">むし</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: いたずらごころ</div>
@@ -803,6 +829,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/illumise/" class="mon-link"><strong class="mon-name">イルミーゼ</strong></a><span class="mon-meta">♀ Lv.69</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-bug">むし</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: いたずらごころ</div>
@@ -848,6 +875,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/magmortar/" class="mon-link"><strong class="mon-name">ブーバーン</strong></a><span class="mon-meta">♂ Lv.71</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fire">ほのお</span></div>
 <div class="mon-props"><div>とくせい: ほのおのからだ</div></div>
 </td>
 <td><ul class="move-list">
@@ -878,6 +906,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/medicham/" class="mon-link"><img src="/assets/images/mon/medicham_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/medicham/" class="mon-link"><strong class="mon-name">チャーレム</strong></a><span class="mon-meta">♂ Lv.72</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-fighting">かくとう</span><span class="type-badge type-psychic">エスパー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ちからのハチマキ</div>
@@ -912,6 +943,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/arcanine/" class="mon-link"><strong class="mon-name">ウインディ</strong></a><span class="mon-meta">♂ Lv.70</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fire">ほのお</span></div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -940,6 +972,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/kingdra/" class="mon-link"><img src="/assets/images/mon/kingdra_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/kingdra/" class="mon-link"><strong class="mon-name">キングドラ</strong></a><span class="mon-meta">♂ Lv.72</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-dragon">ドラゴン</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ものしりメガネ</div>
@@ -973,6 +1008,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/kommoo/" class="mon-link"><strong class="mon-name">ジャラランガ</strong></a><span class="mon-meta">♂ Lv.71</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-fighting">かくとう</span>
+</div>
 <div class="mon-props"><div>とくせい: ぼうおん</div></div>
 </td>
 <td><ul class="move-list">
@@ -1001,6 +1039,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/charizard/" class="mon-link"><img src="/assets/images/mon/charizard_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/charizard/" class="mon-link"><strong class="mon-name">リザードン</strong></a><span class="mon-meta">♂ Lv.73</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props"><div>とくせい: もうか</div></div>
 </td>
@@ -1049,6 +1090,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/arcanine/" class="mon-link"><strong class="mon-name">ウインディ</strong></a><span class="mon-meta">Lv.69</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fire">ほのお</span></div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -1079,6 +1121,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/manectric/" class="mon-link"><strong class="mon-name">ライボルト</strong></a><span class="mon-meta">Lv.70</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-electric">でんき</span></div>
 <div class="mon-props"><div>とくせい: ひらいしん</div></div>
 </td>
 <td><ul class="move-list">
@@ -1108,6 +1151,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/stoutland/" class="mon-link"><strong class="mon-name">ムーランド</strong></a><span class="mon-meta">Lv.71</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -1136,6 +1180,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/raticate/" class="mon-link"><img src="/assets/images/mon/raticate_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/raticate/" class="mon-link"><strong class="mon-name">ラッタ</strong></a><span class="mon-meta">Lv.69</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-normal">ノーマル</span>
 </div>
 <div class="mon-props">
 <div>アローラのすがた</div>
@@ -1168,6 +1215,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/gogoat/" class="mon-link"><strong class="mon-name">ゴーゴート</strong></a><span class="mon-meta">Lv.69</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-grass">くさ</span></div>
 <div class="mon-props"><div>とくせい: そうしょく</div></div>
 </td>
 <td><ul class="move-list">
@@ -1197,6 +1245,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/bibarel/" class="mon-link"><img src="/assets/images/mon/bibarel_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/bibarel/" class="mon-link"><strong class="mon-name">ビーダル</strong></a><span class="mon-meta">Lv.70</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-water">みず</span>
 </div>
 <div class="mon-props"><div>とくせい: ムラっけ</div></div>
 </td>
@@ -1254,6 +1305,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/unfezant/" class="mon-link"><strong class="mon-name">ケンホロウ</strong></a><span class="mon-meta">♀ Lv.69</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props"><div>とくせい: きょううん</div></div>
 </td>
 <td><ul class="move-list">
@@ -1281,6 +1335,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/solrock/" class="mon-link"><img src="/assets/images/mon/solrock_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/solrock/" class="mon-link"><strong class="mon-name">ソルロック</strong></a><span class="mon-meta">Lv.70</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-psychic">エスパー</span>
 </div>
 <div class="mon-props"><div>とくせい: ふゆう</div></div>
 </td>
@@ -1311,6 +1368,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/escavalier/" class="mon-link"><strong class="mon-name">シュバルゴ</strong></a><span class="mon-meta">Lv.70</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props"><div>とくせい: ぼうじん</div></div>
 </td>
 <td><ul class="move-list">
@@ -1339,6 +1399,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/golem/" class="mon-link"><img src="/assets/images/mon/golem_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/golem/" class="mon-link"><strong class="mon-name">ゴローニャ</strong></a><span class="mon-meta">Lv.71</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-electric">でんき</span>
 </div>
 <div class="mon-props">
 <div>アローラのすがた</div>
@@ -1372,6 +1435,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/ariados/" class="mon-link"><strong class="mon-name">アリアドス</strong></a><span class="mon-meta">Lv.69</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-poison">どく</span>
+</div>
 <div class="mon-props"><div>とくせい: スナイパー</div></div>
 </td>
 <td><ul class="move-list">
@@ -1398,6 +1464,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/lunatone/" class="mon-link"><img src="/assets/images/mon/lunatone_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/lunatone/" class="mon-link"><strong class="mon-name">ルナトーン</strong></a><span class="mon-meta">Lv.70</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-psychic">エスパー</span>
 </div>
 <div class="mon-props"><div>とくせい: ふゆう</div></div>
 </td>
@@ -1430,6 +1499,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/accelgor/" class="mon-link"><strong class="mon-name">アギルダー</strong></a><span class="mon-meta">Lv.70</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-bug">むし</span></div>
 <div class="mon-props"><div>とくせい: うるおいボディ</div></div>
 </td>
 <td><ul class="move-list">
@@ -1459,6 +1529,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/seismitoad/" class="mon-link"><img src="/assets/images/mon/seismitoad_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/seismitoad/" class="mon-link"><strong class="mon-name">ガマゲロゲ</strong></a><span class="mon-meta">Lv.71</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-ground">じめん</span>
 </div>
 <div class="mon-props"><div>とくせい: ちょすい</div></div>
 </td>
@@ -1509,6 +1582,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/lickilicky/" class="mon-link"><strong class="mon-name">ベロベルト</strong></a><span class="mon-meta">Lv.71</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props"><div>とくせい: マイペース</div></div>
 </td>
 <td><ul class="move-list">
@@ -1536,6 +1610,9 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/barbaracle/" class="mon-link"><img src="/assets/images/mon/barbaracle_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/barbaracle/" class="mon-link"><strong class="mon-name">ガメノデス</strong></a><span class="mon-meta">Lv.71</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-water">みず</span>
 </div>
 <div class="mon-props"><div>とくせい: かたいツメ</div></div>
 </td>
@@ -1568,6 +1645,7 @@ permalink: /reborn/episode-14/
 <a href="/reborn/mon/dusknoir/" class="mon-link"><strong class="mon-name">ヨノワール</strong></a><span class="mon-meta">Lv.72</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ghost">ゴースト</span></div>
 <div class="mon-props"><div>とくせい: プレッシャー</div></div>
 </td>
 <td><ul class="move-list">
@@ -1596,6 +1674,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/vanilluxe/" class="mon-link"><strong class="mon-name">バイバニラ</strong></a><span class="mon-meta">Lv.71</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ice">こおり</span></div>
 <div class="mon-props"><div>とくせい: アイスボディ</div></div>
 </td>
 <td><ul class="move-list">
@@ -1624,6 +1703,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/corsola/" class="mon-link"><img src="/assets/images/mon/corsola_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/corsola/" class="mon-link"><strong class="mon-name">サニーゴ</strong></a><span class="mon-meta">Lv.71</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-rock">いわ</span>
 </div>
 <div class="mon-props"><div>とくせい: はりきり</div></div>
 </td>
@@ -1655,6 +1737,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/marowak/" class="mon-link"><strong class="mon-name">ガラガラ</strong></a><span class="mon-meta">Lv.72</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ground">じめん</span></div>
 <div class="mon-props"><div>とくせい: ひらいしん</div></div>
 </td>
 <td><ul class="move-list">
@@ -1712,6 +1795,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/jellicent/" class="mon-link"><strong class="mon-name">ブルンゲル</strong></a><span class="mon-meta">Lv.71</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-ghost">ゴースト</span>
+</div>
 <div class="mon-props"><div>とくせい: のろわれボディ</div></div>
 </td>
 <td><ul class="move-list">
@@ -1742,6 +1828,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/diggersby/" class="mon-link"><strong class="mon-name">ホルード</strong></a><span class="mon-meta">Lv.71</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-ground">じめん</span>
+</div>
 <div class="mon-props"><div>とくせい: ちからもち</div></div>
 </td>
 <td><ul class="move-list">
@@ -1770,6 +1859,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/golem/" class="mon-link"><strong class="mon-name">ゴローニャ</strong></a><span class="mon-meta">Lv.72</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-ground">じめん</span>
+</div>
 <div class="mon-props"><div>とくせい: がんじょう</div></div>
 </td>
 <td><ul class="move-list">
@@ -1797,6 +1889,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/venomoth/" class="mon-link"><img src="/assets/images/mon/venomoth_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/venomoth/" class="mon-link"><strong class="mon-name">モルフォン</strong></a><span class="mon-meta">Lv.73</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-poison">どく</span>
 </div>
 <div class="mon-props"><div>とくせい: いろめがね</div></div>
 </td>
@@ -1828,6 +1923,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/aerodactyl/" class="mon-link"><strong class="mon-name">プテラ</strong></a><span class="mon-meta">Lv.73</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props"><div>とくせい: きんちょうかん</div></div>
 </td>
 <td><ul class="move-list">
@@ -1856,6 +1954,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/mamoswine/" class="mon-link"><img src="/assets/images/mon/mamoswine_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/mamoswine/" class="mon-link"><strong class="mon-name">マンムー</strong></a><span class="mon-meta">Lv.71</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ice">こおり</span><span class="type-badge type-ground">じめん</span>
 </div>
 <div class="mon-props"><div>とくせい: ゆきがくれ</div></div>
 </td>
@@ -1886,6 +1987,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/lurantis/" class="mon-link"><strong class="mon-name">ラランテス</strong></a><span class="mon-meta">Lv.71</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-grass">くさ</span></div>
 <div class="mon-props"><div>とくせい: あまのじゃく</div></div>
 </td>
 <td><ul class="move-list">
@@ -1915,6 +2017,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/liepard/" class="mon-link"><strong class="mon-name">レパルダス</strong></a><span class="mon-meta">Lv.72</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-dark">あく</span></div>
 <div class="mon-props"><div>とくせい: いたずらごころ</div></div>
 </td>
 <td><ul class="move-list">
@@ -1943,6 +2046,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/mightyena/" class="mon-link"><strong class="mon-name">グラエナ</strong></a><span class="mon-meta">Lv.73</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-dark">あく</span></div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -1972,6 +2076,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/tyranitar/" class="mon-link"><img src="/assets/images/mon/tyranitar_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/tyranitar/" class="mon-link"><strong class="mon-name">バンギラス</strong></a><span class="mon-meta">Lv.73</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-dark">あく</span>
 </div>
 <div class="mon-props"><div>とくせい: すなおこし</div></div>
 </td>
@@ -2024,6 +2131,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/slurpuff/" class="mon-link"><strong class="mon-name">ペロリーム</strong></a><span class="mon-meta">Lv.71</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fairy">フェアリー</span></div>
 <div class="mon-props"><div>とくせい: かるわざ</div></div>
 </td>
 <td><ul class="move-list">
@@ -2051,6 +2159,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/minior/" class="mon-link"><img src="/assets/images/mon/minior_5.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/minior/" class="mon-link"><strong class="mon-name">メテノ</strong></a><span class="mon-meta">Lv.72</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>きいろのコア</div>
@@ -2085,6 +2196,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/scolipede/" class="mon-link"><strong class="mon-name">ペンドラー</strong></a><span class="mon-meta">Lv.72</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-poison">どく</span>
+</div>
 <div class="mon-props"><div>とくせい: かそく</div></div>
 </td>
 <td><ul class="move-list">
@@ -2114,6 +2228,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/aggron/" class="mon-link"><img src="/assets/images/mon/aggron_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/aggron/" class="mon-link"><strong class="mon-name">ボスゴドラ</strong></a><span class="mon-meta">Lv.73</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
 </div>
 <div class="mon-props"><div>とくせい: いしあたま</div></div>
 </td>
@@ -2145,6 +2262,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/druddigon/" class="mon-link"><strong class="mon-name">クリムガン</strong></a><span class="mon-meta">Lv.71</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-dragon">ドラゴン</span></div>
 <div class="mon-props"><div>とくせい: さめはだ</div></div>
 </td>
 <td><ul class="move-list">
@@ -2173,6 +2291,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/carracosta/" class="mon-link"><img src="/assets/images/mon/carracosta_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/carracosta/" class="mon-link"><strong class="mon-name">アバゴーラ</strong></a><span class="mon-meta">Lv.72</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-rock">いわ</span>
 </div>
 <div class="mon-props"><div>とくせい: がんじょう</div></div>
 </td>
@@ -2204,6 +2325,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/crobat/" class="mon-link"><strong class="mon-name">クロバット</strong></a><span class="mon-meta">Lv.72</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props"><div>とくせい: せいしんりょく</div></div>
 </td>
 <td><ul class="move-list">
@@ -2232,6 +2356,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/chesnaught/" class="mon-link"><img src="/assets/images/mon/chesnaught_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/chesnaught/" class="mon-link"><strong class="mon-name">ブリガロン</strong></a><span class="mon-meta">Lv.73</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-fighting">かくとう</span>
 </div>
 <div class="mon-props"><div>とくせい: ぼうだん</div></div>
 </td>
@@ -2281,6 +2408,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/lucario/" class="mon-link"><img src="/assets/images/mon/lucario_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/lucario/" class="mon-link"><strong class="mon-name">ルカリオ</strong></a><span class="mon-meta">♀ Lv.85</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-fighting">かくとう</span><span class="type-badge type-steel">はがね</span>
 </div>
 <div class="mon-props">
 <div>もちもの: オボンのみ</div>
@@ -2339,6 +2469,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/solrock/" class="mon-link"><strong class="mon-name">ソルロック</strong></a><span class="mon-meta">♂ Lv.68</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-psychic">エスパー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: ひかりのねんど</div>
 <div>とくせい: ふゆう</div>
@@ -2369,6 +2502,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/golurk/" class="mon-link"><strong class="mon-name">ゴルーグ</strong></a><span class="mon-meta">♂ Lv.68</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ground">じめん</span><span class="type-badge type-ghost">ゴースト</span>
+</div>
 <div class="mon-props"><div>とくせい: ノーガード</div></div>
 </td>
 <td><ul class="move-list">
@@ -2397,6 +2533,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/krookodile/" class="mon-link"><img src="/assets/images/mon/krookodile_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/krookodile/" class="mon-link"><strong class="mon-name">ワルビアル</strong></a><span class="mon-meta">♂ Lv.69</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ground">じめん</span><span class="type-badge type-dark">あく</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ちからのハチマキ</div>
@@ -2429,6 +2568,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/passimian/" class="mon-link"><strong class="mon-name">ナゲツケサル</strong></a><span class="mon-meta">♂ Lv.69</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fighting">かくとう</span></div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: まけんき</div>
@@ -2462,6 +2602,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/lycanroc/" class="mon-link"><strong class="mon-name">ルガルガン</strong></a><span class="mon-meta">♀ Lv.70</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-rock">いわ</span></div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: すなかき</div>
@@ -2495,6 +2636,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/lycanroc/" class="mon-link"><strong class="mon-name">ルガルガン</strong></a><span class="mon-meta">♂ Lv.73</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-rock">いわ</span></div>
 <div class="mon-props">
 <div>まよなかのすがた</div>
 <div>もちもの: エレメンタルシード</div>
@@ -2557,6 +2699,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/gyarados/" class="mon-link"><strong class="mon-name">ギャラドス</strong></a><span class="mon-meta">♀ Lv.72</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -2588,6 +2733,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/mamoswine/" class="mon-link"><strong class="mon-name">マンムー</strong></a><span class="mon-meta">♂ Lv.72</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ice">こおり</span><span class="type-badge type-ground">じめん</span>
+</div>
 <div class="mon-props"><div>とくせい: ゆきがくれ</div></div>
 </td>
 <td><ul class="move-list">
@@ -2615,6 +2763,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/weavile/" class="mon-link"><img src="/assets/images/mon/weavile_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/weavile/" class="mon-link"><strong class="mon-name">マニューラ</strong></a><span class="mon-meta">♀ Lv.73</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-ice">こおり</span>
 </div>
 <div class="mon-props"><div>とくせい: わるいてぐせ</div></div>
 </td>
@@ -2644,6 +2795,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/starmie/" class="mon-link"><img src="/assets/images/mon/starmie_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/starmie/" class="mon-link"><strong class="mon-name">スターミー</strong></a><span class="mon-meta">♂ Lv.73</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-psychic">エスパー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: つめたいいわ</div>
@@ -2677,6 +2831,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/walrein/" class="mon-link"><strong class="mon-name">トドゼルガ</strong></a><span class="mon-meta">♂ Lv.74</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ice">こおり</span><span class="type-badge type-water">みず</span>
+</div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: アイスボディ</div>
@@ -2706,6 +2863,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/sandslash/" class="mon-link"><img src="/assets/images/mon/sandslash_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/sandslash/" class="mon-link"><strong class="mon-name">サンドパン</strong></a><span class="mon-meta">♂ Lv.74</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ice">こおり</span><span class="type-badge type-steel">はがね</span>
 </div>
 <div class="mon-props">
 <div>アローラのすがた</div>
@@ -2803,6 +2963,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/scizor/" class="mon-link"><strong class="mon-name">ハッサム</strong></a><span class="mon-meta">♂ Lv.68</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: ライトメタル</div>
@@ -2833,6 +2996,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/talonflame/" class="mon-link"><img src="/assets/images/mon/talonflame_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/talonflame/" class="mon-link"><strong class="mon-name">ファイアロー</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ひこうのジュエル</div>
@@ -2867,6 +3033,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/porygonz/" class="mon-link"><strong class="mon-name">ポリゴンZ</strong></a><span class="mon-meta">Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props">
 <div>もちもの: こだわりメガネ</div>
 <div>とくせい: アナライズ</div>
@@ -2917,6 +3084,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/empoleon/" class="mon-link"><strong class="mon-name">エンペルト</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: げきりゅう</div>
@@ -2949,6 +3119,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/simipour/" class="mon-link"><strong class="mon-name">ヒヤッキー</strong></a><span class="mon-meta">♂ Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: げきりゅう</div>
@@ -2982,6 +3153,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/wailord/" class="mon-link"><strong class="mon-name">ホエルオー</strong></a><span class="mon-meta">♂ Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props">
 <div>もちもの: こだわりスカーフ</div>
 <div>とくせい: みずのベール</div>
@@ -3029,6 +3201,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/ribombee/" class="mon-link"><strong class="mon-name">アブリボン</strong></a><span class="mon-meta">♂ Lv.68</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: きあいのタスキ</div>
 <div>とくせい: りんぷん</div>
@@ -3063,6 +3238,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/ninjask/" class="mon-link"><strong class="mon-name">テッカニン</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: こだわりハチマキ</div>
 <div>とくせい: すりぬけ</div>
@@ -3092,6 +3270,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/dedenne/" class="mon-link"><img src="/assets/images/mon/dedenne_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/dedenne/" class="mon-link"><strong class="mon-name">デデンネ</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-electric">でんき</span><span class="type-badge type-fairy">フェアリー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
@@ -3142,6 +3323,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/hawlucha/" class="mon-link"><strong class="mon-name">ルチャブル</strong></a><span class="mon-meta">♂ Lv.68</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-fighting">かくとう</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: パワフルハーブ</div>
 <div>とくせい: じゅうなん</div>
@@ -3174,6 +3358,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/lilligant/" class="mon-link"><strong class="mon-name">ドレディア</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-grass">くさ</span></div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: マイペース</div>
@@ -3204,6 +3389,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/flygon/" class="mon-link"><img src="/assets/images/mon/flygon_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/flygon/" class="mon-link"><strong class="mon-name">フライゴン</strong></a><span class="mon-meta">♂ Lv.68</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ground">じめん</span><span class="type-badge type-dragon">ドラゴン</span>
 </div>
 <div class="mon-props">
 <div>もちもの: こだわりスカーフ</div>
@@ -3252,6 +3440,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/toucannon/" class="mon-link"><strong class="mon-name">ドデカバシ</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: スキルリンク</div>
@@ -3284,6 +3475,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/dusknoir/" class="mon-link"><strong class="mon-name">ヨノワール</strong></a><span class="mon-meta">♂ Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ghost">ゴースト</span></div>
 <div class="mon-props">
 <div>もちもの: こだわりハチマキ</div>
 <div>とくせい: プレッシャー</div>
@@ -3315,6 +3507,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/snorlax/" class="mon-link"><strong class="mon-name">カビゴン</strong></a><span class="mon-meta">♂ Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: くいしんぼう</div>
@@ -3364,6 +3557,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/ursaring/" class="mon-link"><strong class="mon-name">リングマ</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props">
 <div>もちもの: どくどくだま</div>
 <div>とくせい: こんじょう</div>
@@ -3395,6 +3589,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/dragonite/" class="mon-link"><strong class="mon-name">カイリュー</strong></a><span class="mon-meta">♂ Lv.68</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: こだわりハチマキ</div>
 <div>とくせい: マルチスケイル</div>
@@ -3425,6 +3622,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/sawsbuck/" class="mon-link"><img src="/assets/images/mon/sawsbuck_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/sawsbuck/" class="mon-link"><strong class="mon-name">メブキジカ</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-grass">くさ</span>
 </div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
@@ -3475,6 +3675,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/tsareena/" class="mon-link"><strong class="mon-name">アマージョ</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-grass">くさ</span></div>
 <div class="mon-props">
 <div>もちもの: こだわりハチマキ</div>
 <div>とくせい: じょおうのいげん</div>
@@ -3506,6 +3707,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/mismagius/" class="mon-link"><strong class="mon-name">ムウマージ</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ghost">ゴースト</span></div>
 <div class="mon-props">
 <div>もちもの: もののけプレート</div>
 <div>とくせい: ふゆう</div>
@@ -3539,6 +3741,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/mienshao/" class="mon-link"><strong class="mon-name">コジョンド</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fighting">かくとう</span></div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: すてみ</div>
@@ -3586,6 +3789,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/carbink/" class="mon-link"><strong class="mon-name">メレシー</strong></a><span class="mon-meta">Lv.68</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: がんじょう</div>
@@ -3619,6 +3825,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/klinklang/" class="mon-link"><strong class="mon-name">ギギギアル</strong></a><span class="mon-meta">Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-steel">はがね</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: マイナス</div>
@@ -3652,6 +3859,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/donphan/" class="mon-link"><strong class="mon-name">ドンファン</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ground">じめん</span></div>
 <div class="mon-props">
 <div>もちもの: こだわりハチマキ</div>
 <div>とくせい: すながくれ</div>
@@ -3699,6 +3907,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/castform/" class="mon-link"><strong class="mon-name">ポワルン</strong></a><span class="mon-meta">♂ Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props">
 <div>もちもの: しめったいわ</div>
 <div>とくせい: てんきや</div>
@@ -3730,6 +3939,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/swanna/" class="mon-link"><img src="/assets/images/mon/swanna_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/swanna/" class="mon-link"><strong class="mon-name">スワンナ</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
@@ -3764,6 +3976,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/amoonguss/" class="mon-link"><img src="/assets/images/mon/amoonguss_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/amoonguss/" class="mon-link"><strong class="mon-name">モロバレル</strong></a><span class="mon-meta">♂ Lv.68</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-poison">どく</span>
 </div>
 <div class="mon-props">
 <div>もちもの: くろいヘドロ</div>
@@ -3813,6 +4028,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/musharna/" class="mon-link"><strong class="mon-name">ムシャーナ</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-psychic">エスパー</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: シンクロ</div>
@@ -3847,6 +4063,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/bewear/" class="mon-link"><strong class="mon-name">キテルグマ</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-fighting">かくとう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: こだわりハチマキ</div>
 <div>とくせい: もふもふ</div>
@@ -3880,6 +4099,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/blissey/" class="mon-link"><strong class="mon-name">ハピナス</strong></a><span class="mon-meta">♀ Lv.68</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: てんのめぐみ</div>
@@ -3969,6 +4189,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/horsea/" class="mon-link"><strong class="mon-name">タッツー</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props"><div>とくせい: スナイパー</div></div>
 </td>
 <td><ul class="move-list">
@@ -3997,6 +4218,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/seadra/" class="mon-link"><strong class="mon-name">シードラ</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props"><div>とくせい: スナイパー</div></div>
 </td>
 <td><ul class="move-list">
@@ -4042,6 +4264,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/omanyte/" class="mon-link"><strong class="mon-name">オムナイト</strong></a><span class="mon-meta">Lv.74</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-water">みず</span>
+</div>
 <div class="mon-props"><div>とくせい: シェルアーマー</div></div>
 </td>
 <td><ul class="move-list">
@@ -4070,6 +4295,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/farfetchd/" class="mon-link"><img src="/assets/images/mon/farfetchd_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/farfetchd/" class="mon-link"><strong class="mon-name">カモネギ</strong></a><span class="mon-meta">Lv.75</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props"><div>とくせい: せいしんりょく</div></div>
 </td>
@@ -4118,6 +4346,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/snorlax/" class="mon-link"><strong class="mon-name">カビゴン</strong></a><span class="mon-meta">Lv.73</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props"><div>とくせい: あついしぼう</div></div>
 </td>
 <td><ul class="move-list">
@@ -4163,6 +4392,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/aerodactyl/" class="mon-link"><img src="/assets/images/mon/aerodactyl_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/aerodactyl/" class="mon-link"><strong class="mon-name">プテラ</strong></a><span class="mon-meta">Lv.73</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props"><div>とくせい: いしあたま</div></div>
 </td>
@@ -4263,6 +4495,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/vaporeon/" class="mon-link"><strong class="mon-name">シャワーズ</strong></a><span class="mon-meta">Lv.74</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props"><div>とくせい: ちょすい</div></div>
 </td>
 <td><ul class="move-list">
@@ -4320,6 +4553,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/charmeleon/" class="mon-link"><strong class="mon-name">リザード</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fire">ほのお</span></div>
 <div class="mon-props"><div>とくせい: サンパワー</div></div>
 </td>
 <td><ul class="move-list">
@@ -4467,6 +4701,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/sandslash/" class="mon-link"><strong class="mon-name">サンドパン</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ground">じめん</span></div>
 <div class="mon-props"><div>とくせい: すなかき</div></div>
 </td>
 <td><ul class="move-list">
@@ -4513,6 +4748,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/poliwrath/" class="mon-link"><img src="/assets/images/mon/poliwrath_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/poliwrath/" class="mon-link"><strong class="mon-name">ニョロボン</strong></a><span class="mon-meta">Lv.75</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-fighting">かくとう</span>
 </div>
 <div class="mon-props"><div>とくせい: ちょすい</div></div>
 </td>
@@ -4702,6 +4940,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/mewtwo/" class="mon-link"><strong class="mon-name">ミュウツー</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-psychic">エスパー</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: プレッシャー</div>
@@ -4757,6 +4996,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/nidoking/" class="mon-link"><strong class="mon-name">ニドキング</strong></a><span class="mon-meta">♀ Lv.73</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-ground">じめん</span>
+</div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: ちからずく</div>
@@ -4791,6 +5033,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/hippowdon/" class="mon-link"><strong class="mon-name">カバルドン</strong></a><span class="mon-meta">♀ Lv.72</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ground">じめん</span></div>
 <div class="mon-props">
 <div>もちもの: さらさらいわ</div>
 <div>とくせい: すなおこし</div>
@@ -4823,6 +5066,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/excadrill/" class="mon-link"><strong class="mon-name">ドリュウズ</strong></a><span class="mon-meta">♀ Lv.73</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ground">じめん</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: すなかき</div>
@@ -4854,6 +5100,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/palossand/" class="mon-link"><img src="/assets/images/mon/palossand_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/palossand/" class="mon-link"><strong class="mon-name">シロデスナ</strong></a><span class="mon-meta">♀ Lv.73</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ghost">ゴースト</span><span class="type-badge type-ground">じめん</span>
 </div>
 <div class="mon-props">
 <div>もちもの: シンセティックシード</div>
@@ -4889,6 +5138,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/quagsire/" class="mon-link"><strong class="mon-name">ヌオー</strong></a><span class="mon-meta">♀ Lv.72</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-ground">じめん</span>
+</div>
 <div class="mon-props">
 <div>もちもの: シンセティックシード</div>
 <div>とくせい: てんねん</div>
@@ -4922,6 +5174,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/garchomp/" class="mon-link"><img src="/assets/images/mon/garchomp_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/garchomp/" class="mon-link"><strong class="mon-name">ガブリアス</strong></a><span class="mon-meta">♀ Lv.75</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-ground">じめん</span>
 </div>
 <div class="mon-props">
 <div>もちもの: とつげきチョッキ</div>

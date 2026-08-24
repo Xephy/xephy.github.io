@@ -95,6 +95,7 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/entei/" class="mon-link"><strong class="mon-name">エンテイ</strong></a><span class="mon-meta">Lv.145</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fire">ほのお</span></div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: せいしんりょく</div>
@@ -127,6 +128,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/diancie/" class="mon-link"><img src="/assets/images/mon/diancie_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/diancie/" class="mon-link"><strong class="mon-name">ディアンシー</strong></a><span class="mon-meta">Lv.146</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-fairy">フェアリー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
@@ -162,6 +166,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/mawile/" class="mon-link"><strong class="mon-name">クチート</strong></a><span class="mon-meta">Lv.146</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: クチートナイト</div>
 <div>とくせい: いかく</div>
@@ -193,6 +200,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/kartana/" class="mon-link"><img src="/assets/images/mon/kartana_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/kartana/" class="mon-link"><strong class="mon-name">カミツルギ</strong></a><span class="mon-meta">Lv.147</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-steel">はがね</span>
 </div>
 <div class="mon-props">
 <div>もちもの: こだわりハチマキ</div>
@@ -226,6 +236,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/roserade/" class="mon-link"><strong class="mon-name">ロズレイド</strong></a><span class="mon-meta">Lv.148</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-poison">どく</span>
+</div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
 <div>とくせい: テクニシャン</div>
@@ -257,6 +270,7 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/serperior/" class="mon-link"><strong class="mon-name">ジャローダ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-grass">くさ</span></div>
 <div class="mon-props">
 <div>もちもの: クサZ</div>
 <div>とくせい: あまのじゃく</div>
@@ -322,6 +336,7 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/lycanroc/" class="mon-link"><strong class="mon-name">ルガルガン</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-rock">いわ</span></div>
 <div class="mon-props">
 <div>たそがれのすがた</div>
 <div>もちもの: いのちのたま</div>
@@ -355,6 +370,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/landorus/" class="mon-link"><strong class="mon-name">ランドロス</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ground">じめん</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: シンセティックシード</div>
 <div>とくせい: ちからずく</div>
@@ -385,6 +403,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/altaria/" class="mon-link"><img src="/assets/images/mon/altaria_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/altaria/" class="mon-link"><strong class="mon-name">チルタリス</strong></a><span class="mon-meta">Lv.150</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: チルタリスナイト</div>
@@ -420,6 +441,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/meloetta/" class="mon-link"><strong class="mon-name">メロエッタ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-fighting">かくとう</span>
+</div>
 <div class="mon-props">
 <div>ステップフォルム</div>
 <div>もちもの: シンセティックシード</div>
@@ -452,6 +476,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/kommoo/" class="mon-link"><img src="/assets/images/mon/kommoo_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/kommoo/" class="mon-link"><strong class="mon-name">ジャラランガ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-fighting">かくとう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: シンセティックシード</div>
@@ -487,6 +514,7 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/xerneas/" class="mon-link"><strong class="mon-name">ゼルネアス</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fairy">フェアリー</span></div>
 <div class="mon-props">
 <div>もちもの: シンセティックシード</div>
 <div>とくせい: フェアリーオーラ</div>
@@ -539,6 +567,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/necrozma/" class="mon-link"><strong class="mon-name">ネクロズマ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-psychic">エスパー</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props">
 <div>たそがれのたてがみ</div>
 <div>もちもの: たべのこし</div>
@@ -569,6 +600,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/mawile/" class="mon-link"><img src="/assets/images/mon/mawile_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/mawile/" class="mon-link"><strong class="mon-name">クチート</strong></a><span class="mon-meta">Lv.150</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: クチートナイト</div>
@@ -602,6 +636,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/magearna/" class="mon-link"><strong class="mon-name">マギアナ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: とつげきチョッキ</div>
 <div>とくせい: ソウルハート</div>
@@ -634,6 +671,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/tyranitar/" class="mon-link"><img src="/assets/images/mon/tyranitar_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/tyranitar/" class="mon-link"><strong class="mon-name">バンギラス</strong></a><span class="mon-meta">Lv.150</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-dark">あく</span>
 </div>
 <div class="mon-props">
 <div>もちもの: アクZ</div>
@@ -669,6 +709,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/volcanion/" class="mon-link"><strong class="mon-name">ボルケニオン</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-water">みず</span>
+</div>
 <div class="mon-props">
 <div>もちもの: こだわりメガネ</div>
 <div>とくせい: ちょすい</div>
@@ -702,6 +745,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/lunala/" class="mon-link"><img src="/assets/images/mon/lunala_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/lunala/" class="mon-link"><strong class="mon-name">ルナアーラ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-psychic">エスパー</span><span class="type-badge type-ghost">ゴースト</span>
 </div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
@@ -754,6 +800,7 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/tornadus/" class="mon-link"><strong class="mon-name">トルネロス</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-flying">ひこう</span></div>
 <div class="mon-props">
 <div>れいじゅうフォルム</div>
 <div>もちもの: きあいのタスキ</div>
@@ -785,6 +832,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/hooh/" class="mon-link"><img src="/assets/images/mon/hooh_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/hooh/" class="mon-link"><strong class="mon-name">ホウオウ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
@@ -819,6 +869,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/rayquaza/" class="mon-link"><strong class="mon-name">レックウザ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
 <div>とくせい: エアロック</div>
@@ -852,6 +905,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/yveltal/" class="mon-link"><strong class="mon-name">イベルタル</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: アクZ</div>
 <div>とくせい: ダークオーラ</div>
@@ -884,6 +940,7 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/cresselia/" class="mon-link"><strong class="mon-name">クレセリア</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-psychic">エスパー</span></div>
 <div class="mon-props">
 <div>もちもの: きあいのタスキ</div>
 <div>とくせい: ふゆう</div>
@@ -914,11 +971,11 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/arceus/" class="mon-link"><strong class="mon-name">アルセウス</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props">
 <div>PULSE ノーマル</div>
 <div>もちもの: マジカルシード</div>
 <div>とくせい: マルチタイプ</div>
-<div>タイプ: ノーマル</div>
 </div>
 </td>
 <td><ul class="move-list">
@@ -986,6 +1043,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/lugia/" class="mon-link"><strong class="mon-name">ルギア</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-psychic">エスパー</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: とつげきチョッキ</div>
 <div>とくせい: マルチスケイル</div>
@@ -1017,6 +1077,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/articuno/" class="mon-link"><img src="/assets/images/mon/articuno_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/articuno/" class="mon-link"><strong class="mon-name">フリーザー</strong></a><span class="mon-meta">Lv.150</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ice">こおり</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: とつげきチョッキ</div>
@@ -1051,6 +1114,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/giratina/" class="mon-link"><strong class="mon-name">ギラティナ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ghost">ゴースト</span><span class="type-badge type-dragon">ドラゴン</span>
+</div>
 <div class="mon-props">
 <div>もちもの: とつげきチョッキ</div>
 <div>とくせい: プレッシャー</div>
@@ -1082,6 +1148,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/mimikyu/" class="mon-link"><img src="/assets/images/mon/mimikyu_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/mimikyu/" class="mon-link"><strong class="mon-name">ミミッキュ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ghost">ゴースト</span><span class="type-badge type-fairy">フェアリー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: とつげきチョッキ</div>
@@ -1116,6 +1185,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/gengar/" class="mon-link"><strong class="mon-name">ゲンガー</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ghost">ゴースト</span><span class="type-badge type-poison">どく</span>
+</div>
 <div class="mon-props">
 <div>もちもの: ゲンガナイト</div>
 <div>とくせい: のろわれボディ</div>
@@ -1149,6 +1221,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/aegislash/" class="mon-link"><img src="/assets/images/mon/aegislash_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/aegislash/" class="mon-link"><strong class="mon-name">ギルガルド</strong></a><span class="mon-meta">Lv.150</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-ghost">ゴースト</span>
 </div>
 <div class="mon-props">
 <div>もちもの: シンセティックシード</div>
@@ -1200,6 +1275,7 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/xurkitree/" class="mon-link"><strong class="mon-name">デンジュモク</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-electric">でんき</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: ビーストブースト</div>
@@ -1231,6 +1307,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/nihilego/" class="mon-link"><img src="/assets/images/mon/nihilego_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/nihilego/" class="mon-link"><strong class="mon-name">ウツロイド</strong></a><span class="mon-meta">Lv.150</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-poison">どく</span>
 </div>
 <div class="mon-props">
 <div>もちもの: シンセティックシード</div>
@@ -1264,6 +1343,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/naganadel/" class="mon-link"><strong class="mon-name">アーゴヨン</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-dragon">ドラゴン</span>
+</div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: ビーストブースト</div>
@@ -1296,6 +1378,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/zygarde/" class="mon-link"><strong class="mon-name">ジガルデ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-ground">じめん</span>
+</div>
 <div class="mon-props">
 <div>もちもの: とつげきチョッキ</div>
 <div>とくせい: スワームチェンジ</div>
@@ -1325,6 +1410,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/gallade/" class="mon-link"><img src="/assets/images/mon/gallade_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/gallade/" class="mon-link"><strong class="mon-name">エルレイド</strong></a><span class="mon-meta">Lv.150</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-psychic">エスパー</span><span class="type-badge type-fighting">かくとう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: エルレイドナイト</div>
@@ -1357,6 +1445,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/jirachi/" class="mon-link"><img src="/assets/images/mon/jirachi_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/jirachi/" class="mon-link"><strong class="mon-name">ジラーチ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-psychic">エスパー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
@@ -1409,6 +1500,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/jirachi/" class="mon-link"><strong class="mon-name">ジラーチ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-psychic">エスパー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: てんのめぐみ</div>
@@ -1442,6 +1536,7 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/deoxys/" class="mon-link"><strong class="mon-name">デオキシス</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-psychic">エスパー</span></div>
 <div class="mon-props">
 <div>ディフェンスフォルム</div>
 <div>もちもの: シンセティックシード</div>
@@ -1477,6 +1572,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/kyurem/" class="mon-link"><strong class="mon-name">キュレム</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-ice">こおり</span>
+</div>
 <div class="mon-props">
 <div>ホワイトキュレム</div>
 <div>もちもの: いのちのたま</div>
@@ -1510,6 +1608,7 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/groudon/" class="mon-link"><strong class="mon-name">グラードン</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ground">じめん</span></div>
 <div class="mon-props">
 <div>もちもの: べにいろのたま</div>
 <div>とくせい: ひでり</div>
@@ -1541,6 +1640,9 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/necrozma/" class="mon-link"><img src="/assets/images/mon/necrozma_2.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/necrozma/" class="mon-link"><strong class="mon-name">ネクロズマ</strong></a><span class="mon-meta">Lv.150</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-psychic">エスパー</span><span class="type-badge type-ghost">ゴースト</span>
 </div>
 <div class="mon-props">
 <div>あかつきのつばさ</div>
@@ -1574,11 +1676,11 @@ permalink: /reborn/postgame-episode-9/
 <a href="/reborn/mon/arceus/" class="mon-link"><strong class="mon-name">アルセウス</strong></a><span class="mon-meta">Lv.150</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props">
 <div>PULSE ノーマル</div>
 <div>もちもの: シンセティックシード</div>
 <div>とくせい: マルチタイプ</div>
-<div>タイプ: ノーマル</div>
 </div>
 </td>
 <td><ul class="move-list">

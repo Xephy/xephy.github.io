@@ -158,6 +158,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/kakuna/" class="mon-link"><strong class="mon-name">コクーン</strong></a><span class="mon-meta">Lv.19</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-poison">どく</span>
+</div>
 <div class="mon-props"><div>とくせい: だっぴ</div></div>
 </td>
 <td><ul class="move-list"><li class="move">
@@ -174,6 +177,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/trumbeak/" class="mon-link"><img src="/assets/images/mon/trumbeak_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/trumbeak/" class="mon-link"><strong class="mon-name">ケララッパ</strong></a><span class="mon-meta">Lv.20</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props"><div>とくせい: するどいめ</div></div>
 </td>
@@ -274,6 +280,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/mudbray/" class="mon-link"><strong class="mon-name">ドロバンコ</strong></a><span class="mon-meta">Lv.19</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ground">じめん</span></div>
 <div class="mon-props"><div>とくせい: マイペース</div></div>
 </td>
 <td><ul class="move-list">
@@ -303,6 +310,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/grimer/" class="mon-link"><img src="/assets/images/mon/grimer_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/grimer/" class="mon-link"><strong class="mon-name">ベトベター</strong></a><span class="mon-meta">Lv.21</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-dark">あく</span>
 </div>
 <div class="mon-props">
 <div>アローラのすがた</div>
@@ -355,6 +365,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/growlithe/" class="mon-link"><strong class="mon-name">ガーディ</strong></a><span class="mon-meta">Lv.23</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fire">ほのお</span></div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -385,6 +396,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/growlithe/" class="mon-link"><strong class="mon-name">ガーディ</strong></a><span class="mon-meta">Lv.23</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fire">ほのお</span></div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -433,6 +445,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/spewpa/" class="mon-link"><strong class="mon-name">コフーライ</strong></a><span class="mon-meta">Lv.19</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-bug">むし</span></div>
 <div class="mon-props"><div>とくせい: だっぴ</div></div>
 </td>
 <td><ul class="move-list">
@@ -458,6 +471,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/metapod/" class="mon-link"><strong class="mon-name">トランセル</strong></a><span class="mon-meta">Lv.19</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-bug">むし</span></div>
 <div class="mon-props"><div>とくせい: だっぴ</div></div>
 </td>
 <td><ul class="move-list">
@@ -496,6 +510,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/kricketune/" class="mon-link"><strong class="mon-name">コロトック</strong></a><span class="mon-meta">Lv.22</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-bug">むし</span></div>
 <div class="mon-props"><div>とくせい: むしのしらせ</div></div>
 </td>
 <td><ul class="move-list">
@@ -544,6 +559,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/venipede/" class="mon-link"><strong class="mon-name">フシデ</strong></a><span class="mon-meta">Lv.20</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-poison">どく</span>
+</div>
 <div class="mon-props"><div>とくせい: どくのトゲ</div></div>
 </td>
 <td><ul class="move-list">
@@ -572,6 +590,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/golbat/" class="mon-link"><img src="/assets/images/mon/golbat_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/golbat/" class="mon-link"><strong class="mon-name">ゴルバット</strong></a><span class="mon-meta">Lv.21</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props"><div>とくせい: せいしんりょく</div></div>
 </td>
@@ -743,6 +764,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/venipede/" class="mon-link"><strong class="mon-name">フシデ</strong></a><span class="mon-meta">Lv.21</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-poison">どく</span>
+</div>
 <div class="mon-props"><div>とくせい: どくのトゲ</div></div>
 </td>
 <td><ul class="move-list">
@@ -771,6 +795,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/lunatone/" class="mon-link"><img src="/assets/images/mon/lunatone_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/lunatone/" class="mon-link"><strong class="mon-name">ルナトーン</strong></a><span class="mon-meta">Lv.22</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-psychic">エスパー</span>
 </div>
 <div class="mon-props"><div>とくせい: ふゆう</div></div>
 </td>
@@ -820,6 +847,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/beedrill/" class="mon-link"><strong class="mon-name">スピアー</strong></a><span class="mon-meta">Lv.21</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-poison">どく</span>
+</div>
 <div class="mon-props"><div>とくせい: むしのしらせ</div></div>
 </td>
 <td><ul class="move-list">
@@ -847,6 +877,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/solrock/" class="mon-link"><img src="/assets/images/mon/solrock_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/solrock/" class="mon-link"><strong class="mon-name">ソルロック</strong></a><span class="mon-meta">Lv.22</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-psychic">エスパー</span>
 </div>
 <div class="mon-props"><div>とくせい: ふゆう</div></div>
 </td>
@@ -896,6 +929,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/steenee/" class="mon-link"><strong class="mon-name">アママイコ</strong></a><span class="mon-meta">Lv.21</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-grass">くさ</span></div>
 <div class="mon-props"><div>とくせい: リーフガード</div></div>
 </td>
 <td><ul class="move-list">
@@ -926,6 +960,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/servine/" class="mon-link"><strong class="mon-name">ジャノビー</strong></a><span class="mon-meta">Lv.21</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-grass">くさ</span></div>
 <div class="mon-props"><div>とくせい: しんりょく</div></div>
 </td>
 <td><ul class="move-list">
@@ -955,6 +990,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/skitty/" class="mon-link"><strong class="mon-name">エネコ</strong></a><span class="mon-meta">Lv.20</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props"><div>とくせい: メロメロボディ</div></div>
 </td>
 <td><ul class="move-list">
@@ -982,6 +1018,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/helioptile/" class="mon-link"><img src="/assets/images/mon/helioptile_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/helioptile/" class="mon-link"><strong class="mon-name">エリキテル</strong></a><span class="mon-meta">Lv.21</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-electric">でんき</span><span class="type-badge type-normal">ノーマル</span>
 </div>
 <div class="mon-props"><div>とくせい: かんそうはだ</div></div>
 </td>
@@ -1035,6 +1074,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/exeggcute/" class="mon-link"><strong class="mon-name">タマタマ</strong></a><span class="mon-meta">♂ Lv.22</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-psychic">エスパー</span>
+</div>
 <div class="mon-props"><div>とくせい: しゅうかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -1063,6 +1105,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/chatot/" class="mon-link"><img src="/assets/images/mon/chatot_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/chatot/" class="mon-link"><strong class="mon-name">ペラップ</strong></a><span class="mon-meta">♂ Lv.25</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: こうかくレンズ</div>
@@ -1096,11 +1141,13 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/tangrowth/" class="mon-link"><strong class="mon-name">モジャンボ</strong></a><span class="mon-meta">♀ Lv.24</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-ground">じめん</span>
+</div>
 <div class="mon-props">
 <div>PULSE B</div>
 <div>もちもの: オレンのみ</div>
 <div>とくせい: ありじごく</div>
-<div>タイプ: くさ/じめん</div>
 </div>
 </td>
 <td><ul class="move-list">
@@ -1151,6 +1198,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/raticate/" class="mon-link"><img src="/assets/images/mon/raticate_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/raticate/" class="mon-link"><strong class="mon-name">ラッタ</strong></a><span class="mon-meta">Lv.22</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-normal">ノーマル</span>
 </div>
 <div class="mon-props">
 <div>アローラのすがた</div>
@@ -1551,6 +1601,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/bagon/" class="mon-link"><strong class="mon-name">タツベイ</strong></a><span class="mon-meta">Lv.25</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-dragon">ドラゴン</span></div>
 <div class="mon-props"><div>とくせい: いしあたま</div></div>
 </td>
 <td><ul class="move-list">
@@ -1581,6 +1632,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/munchlax/" class="mon-link"><strong class="mon-name">ゴンベ</strong></a><span class="mon-meta">Lv.26</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props"><div>とくせい: ものひろい</div></div>
 </td>
 <td><ul class="move-list">
@@ -1628,6 +1680,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/timburr/" class="mon-link"><strong class="mon-name">ドッコラー</strong></a><span class="mon-meta">Lv.22</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fighting">かくとう</span></div>
 <div class="mon-props"><div>とくせい: こんじょう</div></div>
 </td>
 <td><ul class="move-list">
@@ -1655,6 +1708,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/steenee/" class="mon-link"><strong class="mon-name">アママイコ</strong></a><span class="mon-meta">Lv.24</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-grass">くさ</span></div>
 <div class="mon-props"><div>とくせい: リーフガード</div></div>
 </td>
 <td><ul class="move-list">
@@ -1707,6 +1761,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/pignite/" class="mon-link"><img src="/assets/images/mon/pignite_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/pignite/" class="mon-link"><strong class="mon-name">チャオブー</strong></a><span class="mon-meta">Lv.24</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-fighting">かくとう</span>
 </div>
 <div class="mon-props"><div>とくせい: もうか</div></div>
 </td>
@@ -1769,6 +1826,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/mareanie/" class="mon-link"><strong class="mon-name">ヒドイデ</strong></a><span class="mon-meta">Lv.23</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-water">みず</span>
+</div>
 <div class="mon-props"><div>とくせい: ひとでなし</div></div>
 </td>
 <td><ul class="move-list">
@@ -1797,6 +1857,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/boldore/" class="mon-link"><strong class="mon-name">ガントル</strong></a><span class="mon-meta">Lv.23</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-rock">いわ</span></div>
 <div class="mon-props"><div>とくせい: がんじょう</div></div>
 </td>
 <td><ul class="move-list">
@@ -1850,6 +1911,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/tranquill/" class="mon-link"><strong class="mon-name">ハトーボー</strong></a><span class="mon-meta">Lv.25</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props"><div>とくせい: はとむね</div></div>
 </td>
 <td><ul class="move-list">
@@ -1878,6 +1942,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/ivysaur/" class="mon-link"><img src="/assets/images/mon/ivysaur_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/ivysaur/" class="mon-link"><strong class="mon-name">フシギソウ</strong></a><span class="mon-meta">Lv.26</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-poison">どく</span>
 </div>
 <div class="mon-props"><div>とくせい: しんりょく</div></div>
 </td>
@@ -2034,6 +2101,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/growlithe/" class="mon-link"><strong class="mon-name">ガーディ</strong></a><span class="mon-meta">Lv.22</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fire">ほのお</span></div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -2063,6 +2131,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/herdier/" class="mon-link"><strong class="mon-name">ハーデリア</strong></a><span class="mon-meta">Lv.23</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -2139,6 +2208,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/emolga/" class="mon-link"><strong class="mon-name">エモンガ</strong></a><span class="mon-meta">Lv.23</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-electric">でんき</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props"><div>とくせい: せいでんき</div></div>
 </td>
 <td><ul class="move-list">
@@ -2168,6 +2240,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/dewott/" class="mon-link"><strong class="mon-name">フタチマル</strong></a><span class="mon-meta">Lv.23</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props"><div>とくせい: げきりゅう</div></div>
 </td>
 <td><ul class="move-list">
@@ -2232,6 +2305,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/zorua/" class="mon-link"><strong class="mon-name">ゾロア</strong></a><span class="mon-meta">♀ Lv.25</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-dark">あく</span></div>
 <div class="mon-props">
 <div>もちもの: テルリックシード</div>
 <div>とくせい: イリュージョン</div>
@@ -2262,6 +2336,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/baltoy/" class="mon-link"><strong class="mon-name">ヤジロン</strong></a><span class="mon-meta">Lv.26</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ground">じめん</span><span class="type-badge type-psychic">エスパー</span>
+</div>
 <div class="mon-props"><div>とくせい: ふゆう</div></div>
 </td>
 <td><ul class="move-list">
@@ -2291,6 +2368,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/roselia/" class="mon-link"><img src="/assets/images/mon/roselia_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/roselia/" class="mon-link"><strong class="mon-name">ロゼリア</strong></a><span class="mon-meta">♀ Lv.26</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-poison">どく</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ナゾのみ</div>
@@ -2324,6 +2404,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/braixen/" class="mon-link"><strong class="mon-name">テールナー</strong></a><span class="mon-meta">♂ Lv.28</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fire">ほのお</span></div>
 <div class="mon-props">
 <div>もちもの: オボンのみ</div>
 <div>とくせい: マジシャン</div>
@@ -2356,11 +2437,13 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/tangrowth/" class="mon-link"><strong class="mon-name">モジャンボ</strong></a><span class="mon-meta">♀ Lv.29</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-rock">いわ</span>
+</div>
 <div class="mon-props">
 <div>PULSE A</div>
 <div>もちもの: モモンのみ</div>
 <div>とくせい: じきゅうりょく</div>
-<div>タイプ: くさ/いわ</div>
 </div>
 </td>
 <td><ul class="move-list">
@@ -2704,6 +2787,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/skrelp/" class="mon-link"><strong class="mon-name">クズモー</strong></a><span class="mon-meta">♂ Lv.26</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-water">みず</span>
+</div>
 <div class="mon-props">
 <div>もちもの: きあいのタスキ</div>
 <div>とくせい: てきおうりょく</div>
@@ -2736,6 +2822,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/mareanie/" class="mon-link"><strong class="mon-name">ヒドイデ</strong></a><span class="mon-meta">♀ Lv.26</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-water">みず</span>
+</div>
 <div class="mon-props">
 <div>もちもの: テルリックシード</div>
 <div>とくせい: ひとでなし</div>
@@ -2767,6 +2856,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/nidorina/" class="mon-link"><strong class="mon-name">ニドリーナ</strong></a><span class="mon-meta">♀ Lv.27</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-poison">どく</span></div>
 <div class="mon-props"><div>とくせい: はりきり</div></div>
 </td>
 <td><ul class="move-list">
@@ -2795,6 +2885,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/croagunk/" class="mon-link"><img src="/assets/images/mon/croagunk_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/croagunk/" class="mon-link"><strong class="mon-name">グレッグル</strong></a><span class="mon-meta">♂ Lv.27</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-fighting">かくとう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: くろいメガネ</div>
@@ -2828,6 +2921,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/skuntank/" class="mon-link"><strong class="mon-name">スカタンク</strong></a><span class="mon-meta">♂ Lv.27</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-dark">あく</span>
+</div>
 <div class="mon-props"><div>とくせい: ゆうばく</div></div>
 </td>
 <td><ul class="move-list">
@@ -2856,6 +2952,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/crobat/" class="mon-link"><img src="/assets/images/mon/crobat_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/crobat/" class="mon-link"><strong class="mon-name">クロバット</strong></a><span class="mon-meta">♂ Lv.30</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props"><div>とくせい: すりぬけ</div></div>
 </td>
@@ -2912,6 +3011,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/growlithe/" class="mon-link"><strong class="mon-name">ガーディ</strong></a><span class="mon-meta">Lv.28</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fire">ほのお</span></div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -2957,6 +3057,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/herdier/" class="mon-link"><strong class="mon-name">ハーデリア</strong></a><span class="mon-meta">Lv.27</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -2987,6 +3088,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/growlithe/" class="mon-link"><strong class="mon-name">ガーディ</strong></a><span class="mon-meta">Lv.27</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fire">ほのお</span></div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -3033,6 +3135,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/flaaffy/" class="mon-link"><strong class="mon-name">モココ</strong></a><span class="mon-meta">Lv.27</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-electric">でんき</span></div>
 <div class="mon-props"><div>とくせい: せいでんき</div></div>
 </td>
 <td><ul class="move-list">
@@ -3063,6 +3166,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/growlithe/" class="mon-link"><strong class="mon-name">ガーディ</strong></a><span class="mon-meta">Lv.28</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-fire">ほのお</span></div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -3114,6 +3218,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/skrelp/" class="mon-link"><strong class="mon-name">クズモー</strong></a><span class="mon-meta">♂ Lv.26</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-water">みず</span>
+</div>
 <div class="mon-props">
 <div>もちもの: きあいのタスキ</div>
 <div>とくせい: てきおうりょく</div>
@@ -3147,6 +3254,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/mareanie/" class="mon-link"><strong class="mon-name">ヒドイデ</strong></a><span class="mon-meta">♀ Lv.26</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-water">みず</span>
+</div>
 <div class="mon-props"><div>とくせい: ひとでなし</div></div>
 </td>
 <td><ul class="move-list">
@@ -3175,6 +3285,7 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/nidorina/" class="mon-link"><strong class="mon-name">ニドリーナ</strong></a><span class="mon-meta">♀ Lv.27</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-poison">どく</span></div>
 <div class="mon-props"><div>とくせい: はりきり</div></div>
 </td>
 <td><ul class="move-list">
@@ -3203,6 +3314,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/croagunk/" class="mon-link"><img src="/assets/images/mon/croagunk_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/croagunk/" class="mon-link"><strong class="mon-name">グレッグル</strong></a><span class="mon-meta">♂ Lv.27</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-fighting">かくとう</span>
 </div>
 <div class="mon-props"><div>とくせい: かんそうはだ</div></div>
 </td>
@@ -3233,6 +3347,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/skuntank/" class="mon-link"><strong class="mon-name">スカタンク</strong></a><span class="mon-meta">♂ Lv.27</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-dark">あく</span>
+</div>
 <div class="mon-props"><div>とくせい: ゆうばく</div></div>
 </td>
 <td><ul class="move-list">
@@ -3262,6 +3379,9 @@ permalink: /reborn/episode-3/
 <a href="/reborn/mon/crobat/" class="mon-link"><img src="/assets/images/mon/crobat_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/crobat/" class="mon-link"><strong class="mon-name">クロバット</strong></a><span class="mon-meta">♂ Lv.30</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props"><div>とくせい: すりぬけ</div></div>
 </td>

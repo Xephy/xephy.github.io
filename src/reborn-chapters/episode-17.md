@@ -102,6 +102,7 @@ permalink: /reborn/episode-17/
 <a href="/reborn/mon/weezing/" class="mon-link"><strong class="mon-name">マタドガス</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-poison">どく</span></div>
 <div class="mon-props">
 <div>もちもの: くろいヘドロ</div>
 <div>とくせい: ふゆう</div>
@@ -133,6 +134,9 @@ permalink: /reborn/episode-17/
 <a href="/reborn/mon/gengar/" class="mon-link"><img src="/assets/images/mon/gengar_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/gengar/" class="mon-link"><strong class="mon-name">ゲンガー</strong></a><span class="mon-meta">Lv.77</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ghost">ゴースト</span><span class="type-badge type-poison">どく</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ものしりメガネ</div>
@@ -338,6 +342,9 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/pelipper/" class="mon-link"><strong class="mon-name">ペリッパー</strong></a><span class="mon-meta">♀ Lv.75</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: しめったいわ</div>
 <div>とくせい: あめふらし</div>
@@ -370,6 +377,9 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/seismitoad/" class="mon-link"><strong class="mon-name">ガマゲロゲ</strong></a><span class="mon-meta">♀ Lv.75</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-ground">じめん</span>
+</div>
 <div class="mon-props"><div>とくせい: すいすい</div></div>
 </td>
 <td><ul class="move-list">
@@ -401,6 +411,9 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/ludicolo/" class="mon-link"><strong class="mon-name">ルンパッパ</strong></a><span class="mon-meta">♂ Lv.76</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-grass">くさ</span>
+</div>
 <div class="mon-props"><div>とくせい: すいすい</div></div>
 </td>
 <td><ul class="move-list">
@@ -431,6 +444,9 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/torterra/" class="mon-link"><img src="/assets/images/mon/torterra_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/torterra/" class="mon-link"><strong class="mon-name">ドダイトス</strong></a><span class="mon-meta">♂ Lv.76</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-ground">じめん</span>
 </div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
@@ -464,6 +480,7 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/sandslash/" class="mon-link"><strong class="mon-name">サンドパン</strong></a><span class="mon-meta">♀ Lv.76</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ground">じめん</span></div>
 <div class="mon-props"><div>とくせい: すなかき</div></div>
 </td>
 <td><ul class="move-list">
@@ -494,6 +511,7 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/mudsdale/" class="mon-link"><strong class="mon-name">バンバドロ</strong></a><span class="mon-meta">♂ Lv.77</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ground">じめん</span></div>
 <div class="mon-props">
 <div>もちもの: とつげきチョッキ</div>
 <div>とくせい: じきゅうりょく</div>
@@ -543,6 +561,9 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/scizor/" class="mon-link"><strong class="mon-name">ハッサム</strong></a><span class="mon-meta">Lv.74</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: テクニシャン</div>
@@ -573,6 +594,7 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/samurott/" class="mon-link"><strong class="mon-name">ダイケンキ</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props">
 <div>もちもの: たつじんのおび</div>
 <div>とくせい: げきりゅう</div>
@@ -603,6 +625,9 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/heracross/" class="mon-link"><img src="/assets/images/mon/heracross_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/heracross/" class="mon-link"><strong class="mon-name">ヘラクロス</strong></a><span class="mon-meta">Lv.76</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-fighting">かくとう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
@@ -636,6 +661,9 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/breloom/" class="mon-link"><strong class="mon-name">キノガッサ</strong></a><span class="mon-meta">Lv.78</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-fighting">かくとう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: テルリックシード</div>
 <div>とくせい: テクニシャン</div>
@@ -665,6 +693,9 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/farfetchd/" class="mon-link"><img src="/assets/images/mon/farfetchd_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/farfetchd/" class="mon-link"><strong class="mon-name">カモネギ</strong></a><span class="mon-meta">Lv.100</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ながねぎ</div>
@@ -699,6 +730,9 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/bisharp/" class="mon-link"><strong class="mon-name">キリキザン</strong></a><span class="mon-meta">Lv.74</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props">
 <div>もちもの: こだわりハチマキ</div>
 <div>とくせい: まけんき</div>
@@ -730,6 +764,9 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/torterra/" class="mon-link"><img src="/assets/images/mon/torterra_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/torterra/" class="mon-link"><strong class="mon-name">ドダイトス</strong></a><span class="mon-meta">Lv.75</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-ground">じめん</span>
 </div>
 <div class="mon-props">
 <div>もちもの: テルリックシード</div>
@@ -763,6 +800,9 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/scyther/" class="mon-link"><strong class="mon-name">ストライク</strong></a><span class="mon-meta">Lv.77</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
 <div>とくせい: テクニシャン</div>
@@ -793,6 +833,9 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/hawlucha/" class="mon-link"><strong class="mon-name">ルチャブル</strong></a><span class="mon-meta">Lv.78</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-fighting">かくとう</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: テルリックシード</div>
 <div>とくせい: じゅうなん</div>
@@ -822,6 +865,9 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/farfetchd/" class="mon-link"><img src="/assets/images/mon/farfetchd_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/farfetchd/" class="mon-link"><strong class="mon-name">カモネギ</strong></a><span class="mon-meta">Lv.100</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ながねぎ</div>
@@ -877,6 +923,7 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/gulpin/" class="mon-link"><strong class="mon-name">ゴクリン</strong></a><span class="mon-meta">Lv.83</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-poison">どく</span></div>
 <div class="mon-props">
 <div>もちもの: しんかのきせき</div>
 <div>とくせい: ヘドロえき</div>
@@ -908,6 +955,7 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/gulpin/" class="mon-link"><strong class="mon-name">ゴクリン</strong></a><span class="mon-meta">Lv.83</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-poison">どく</span></div>
 <div class="mon-props">
 <div>もちもの: しんかのきせき</div>
 <div>とくせい: ヘドロえき</div>
@@ -939,6 +987,7 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/gulpin/" class="mon-link"><strong class="mon-name">ゴクリン</strong></a><span class="mon-meta">Lv.83</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-poison">どく</span></div>
 <div class="mon-props">
 <div>もちもの: しんかのきせき</div>
 <div>とくせい: ヘドロえき</div>
@@ -970,6 +1019,7 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/gulpin/" class="mon-link"><strong class="mon-name">ゴクリン</strong></a><span class="mon-meta">Lv.83</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-poison">どく</span></div>
 <div class="mon-props">
 <div>もちもの: しんかのきせき</div>
 <div>とくせい: ヘドロえき</div>
@@ -1001,6 +1051,7 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/gulpin/" class="mon-link"><strong class="mon-name">ゴクリン</strong></a><span class="mon-meta">Lv.83</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-poison">どく</span></div>
 <div class="mon-props">
 <div>もちもの: しんかのきせき</div>
 <div>とくせい: ヘドロえき</div>
@@ -1032,6 +1083,7 @@ $60000 を寄付してこの計画に出資します。完了したら南オブ�
 <a href="/reborn/mon/gulpin/" class="mon-link"><strong class="mon-name">ゴクリン</strong></a><span class="mon-meta">Lv.83</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-poison">どく</span></div>
 <div class="mon-props">
 <div>もちもの: しんかのきせき</div>
 <div>とくせい: ヘドロえき</div>
@@ -1147,24 +1199,8 @@ $100000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/aron/" class="mon-link"><strong class="mon-name">ココドラ</strong></a><span class="mon-meta">Lv.20</span>
 </div>
 </div>
-<div class="mon-props">
-<div>もちもの: イバンのみ</div>
-<div>とくせい: がんじょう</div>
-</div>
-</td>
-<td><ul class="move-list"><li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
-</li></ul></td>
-<td>せいかく: ようき
-努力値: すべて 30
-個体値: すべて 31</td>
-</tr>
-<tr>
-<td class="mon-cell">
-<div class="mon-head">
-<a href="/reborn/mon/aron/" class="mon-link"><img src="/assets/images/mon/aron_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
-<a href="/reborn/mon/aron/" class="mon-link"><strong class="mon-name">ココドラ</strong></a><span class="mon-meta">Lv.20</span>
-</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
 </div>
 <div class="mon-props">
 <div>もちもの: イバンのみ</div>
@@ -1185,6 +1221,9 @@ $100000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/aron/" class="mon-link"><strong class="mon-name">ココドラ</strong></a><span class="mon-meta">Lv.20</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
+</div>
 <div class="mon-props">
 <div>もちもの: イバンのみ</div>
 <div>とくせい: がんじょう</div>
@@ -1203,6 +1242,31 @@ $100000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/aron/" class="mon-link"><img src="/assets/images/mon/aron_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/aron/" class="mon-link"><strong class="mon-name">ココドラ</strong></a><span class="mon-meta">Lv.20</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
+</div>
+<div class="mon-props">
+<div>もちもの: イバンのみ</div>
+<div>とくせい: がんじょう</div>
+</div>
+</td>
+<td><ul class="move-list"><li class="move">
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じしんのしょうげきで自分の周りにいるものを攻撃する。">じしん</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+</li></ul></td>
+<td>せいかく: ようき
+努力値: すべて 30
+個体値: すべて 31</td>
+</tr>
+<tr>
+<td class="mon-cell">
+<div class="mon-head">
+<a href="/reborn/mon/aron/" class="mon-link"><img src="/assets/images/mon/aron_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
+<a href="/reborn/mon/aron/" class="mon-link"><strong class="mon-name">ココドラ</strong></a><span class="mon-meta">Lv.20</span>
+</div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
 </div>
 <div class="mon-props">
 <div>もちもの: イバンのみ</div>
@@ -1222,6 +1286,9 @@ $100000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/lairon/" class="mon-link"><img src="/assets/images/mon/lairon_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/lairon/" class="mon-link"><strong class="mon-name">コドラ</strong></a><span class="mon-meta">Lv.35</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
 </div>
 <div class="mon-props">
 <div>もちもの: イバンのみ</div>
@@ -1241,6 +1308,9 @@ $100000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/lairon/" class="mon-link"><img src="/assets/images/mon/lairon_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/lairon/" class="mon-link"><strong class="mon-name">コドラ</strong></a><span class="mon-meta">Lv.35</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
 </div>
 <div class="mon-props">
 <div>もちもの: イバンのみ</div>
@@ -1280,6 +1350,9 @@ $100000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/aggron/" class="mon-link"><strong class="mon-name">ボスゴドラ</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
+</div>
 <div class="mon-props">
 <div>もちもの: イワZ</div>
 <div>とくせい: いしあたま</div>
@@ -1306,25 +1379,8 @@ $100000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/aggron/" class="mon-link"><strong class="mon-name">ボスゴドラ</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
-<div class="mon-props">
-<div>もちもの: テルリックシード</div>
-<div>とくせい: いしあたま</div>
-</div>
-</td>
-<td><ul class="move-list"><li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じめんをふみならして自分の周りにいるものを攻撃する。相手の素早さを下げる。
-追加効果 100% / 相手のすばやさ -1段階*">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
-</li></ul></td>
-<td>せいかく: ずぶとい
-努力値: 252 HP, 252 防御, 4 特防
-個体値: すべて 31</td>
-</tr>
-<tr>
-<td class="mon-cell">
-<div class="mon-head">
-<a href="/reborn/mon/aggron/" class="mon-link"><img src="/assets/images/mon/aggron_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
-<a href="/reborn/mon/aggron/" class="mon-link"><strong class="mon-name">ボスゴドラ</strong></a><span class="mon-meta">Lv.75</span>
-</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
 </div>
 <div class="mon-props">
 <div>もちもの: テルリックシード</div>
@@ -1346,25 +1402,8 @@ $100000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/aggron/" class="mon-link"><strong class="mon-name">ボスゴドラ</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
-<div class="mon-props">
-<div>もちもの: テルリックシード</div>
-<div>とくせい: いしあたま</div>
-</div>
-</td>
-<td><ul class="move-list"><li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じめんをふみならして自分の周りにいるものを攻撃する。相手の素早さを下げる。
-追加効果 100% / 相手のすばやさ -1段階*">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
-</li></ul></td>
-<td>せいかく: ずぶとい
-努力値: 252 HP, 252 防御, 4 特防
-個体値: すべて 31</td>
-</tr>
-<tr>
-<td class="mon-cell">
-<div class="mon-head">
-<a href="/reborn/mon/aggron/" class="mon-link"><img src="/assets/images/mon/aggron_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
-<a href="/reborn/mon/aggron/" class="mon-link"><strong class="mon-name">ボスゴドラ</strong></a><span class="mon-meta">Lv.75</span>
-</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
 </div>
 <div class="mon-props">
 <div>もちもの: テルリックシード</div>
@@ -1386,25 +1425,8 @@ $100000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/aggron/" class="mon-link"><strong class="mon-name">ボスゴドラ</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
-<div class="mon-props">
-<div>もちもの: テルリックシード</div>
-<div>とくせい: いしあたま</div>
-</div>
-</td>
-<td><ul class="move-list"><li class="move">
-<span class="type-badge type-ground">じめん</span><span class="move-name" title="じめんをふみならして自分の周りにいるものを攻撃する。相手の素早さを下げる。
-追加効果 100% / 相手のすばやさ -1段階*">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
-</li></ul></td>
-<td>せいかく: ずぶとい
-努力値: 252 HP, 252 防御, 4 特防
-個体値: すべて 31</td>
-</tr>
-<tr>
-<td class="mon-cell">
-<div class="mon-head">
-<a href="/reborn/mon/aggron/" class="mon-link"><img src="/assets/images/mon/aggron_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
-<a href="/reborn/mon/aggron/" class="mon-link"><strong class="mon-name">ボスゴドラ</strong></a><span class="mon-meta">Lv.75</span>
-</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
 </div>
 <div class="mon-props">
 <div>もちもの: テルリックシード</div>
@@ -1425,6 +1447,78 @@ $100000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/aggron/" class="mon-link"><img src="/assets/images/mon/aggron_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/aggron/" class="mon-link"><strong class="mon-name">ボスゴドラ</strong></a><span class="mon-meta">Lv.75</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
+</div>
+<div class="mon-props">
+<div>もちもの: テルリックシード</div>
+<div>とくせい: いしあたま</div>
+</div>
+</td>
+<td><ul class="move-list"><li class="move">
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じめんをふみならして自分の周りにいるものを攻撃する。相手の素早さを下げる。
+追加効果 100% / 相手のすばやさ -1段階*">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
+</li></ul></td>
+<td>せいかく: ずぶとい
+努力値: 252 HP, 252 防御, 4 特防
+個体値: すべて 31</td>
+</tr>
+<tr>
+<td class="mon-cell">
+<div class="mon-head">
+<a href="/reborn/mon/aggron/" class="mon-link"><img src="/assets/images/mon/aggron_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
+<a href="/reborn/mon/aggron/" class="mon-link"><strong class="mon-name">ボスゴドラ</strong></a><span class="mon-meta">Lv.75</span>
+</div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
+</div>
+<div class="mon-props">
+<div>もちもの: テルリックシード</div>
+<div>とくせい: いしあたま</div>
+</div>
+</td>
+<td><ul class="move-list"><li class="move">
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じめんをふみならして自分の周りにいるものを攻撃する。相手の素早さを下げる。
+追加効果 100% / 相手のすばやさ -1段階*">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
+</li></ul></td>
+<td>せいかく: ずぶとい
+努力値: 252 HP, 252 防御, 4 特防
+個体値: すべて 31</td>
+</tr>
+<tr>
+<td class="mon-cell">
+<div class="mon-head">
+<a href="/reborn/mon/aggron/" class="mon-link"><img src="/assets/images/mon/aggron_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
+<a href="/reborn/mon/aggron/" class="mon-link"><strong class="mon-name">ボスゴドラ</strong></a><span class="mon-meta">Lv.75</span>
+</div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
+</div>
+<div class="mon-props">
+<div>もちもの: テルリックシード</div>
+<div>とくせい: いしあたま</div>
+</div>
+</td>
+<td><ul class="move-list"><li class="move">
+<span class="type-badge type-ground">じめん</span><span class="move-name" title="じめんをふみならして自分の周りにいるものを攻撃する。相手の素早さを下げる。
+追加効果 100% / 相手のすばやさ -1段階*">じならし</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 20</span></span>
+</li></ul></td>
+<td>せいかく: ずぶとい
+努力値: 252 HP, 252 防御, 4 特防
+個体値: すべて 31</td>
+</tr>
+<tr>
+<td class="mon-cell">
+<div class="mon-head">
+<a href="/reborn/mon/aggron/" class="mon-link"><img src="/assets/images/mon/aggron_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
+<a href="/reborn/mon/aggron/" class="mon-link"><strong class="mon-name">ボスゴドラ</strong></a><span class="mon-meta">Lv.75</span>
+</div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
 </div>
 <div class="mon-props">
 <div>もちもの: イワZ</div>
@@ -1902,6 +1996,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/klefki/" class="mon-link"><strong class="mon-name">クレッフィ</strong></a><span class="mon-meta">♂ Lv.76</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: いたずらごころ</div>
@@ -1931,6 +2028,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/gliscor/" class="mon-link"><img src="/assets/images/mon/gliscor_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/gliscor/" class="mon-link"><strong class="mon-name">グライオン</strong></a><span class="mon-meta">♂ Lv.78</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ground">じめん</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: どくどくだま</div>
@@ -1962,6 +2062,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/exeggutor/" class="mon-link"><img src="/assets/images/mon/exeggutor_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/exeggutor/" class="mon-link"><strong class="mon-name">ナッシー</strong></a><span class="mon-meta">♂ Lv.77</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-dragon">ドラゴン</span>
 </div>
 <div class="mon-props">
 <div>アローラのすがた</div>
@@ -1995,6 +2098,7 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/komala/" class="mon-link"><strong class="mon-name">ネッコアラ</strong></a><span class="mon-meta">♂ Lv.77</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: ぜったいねむり</div>
@@ -2025,6 +2129,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/minior/" class="mon-link"><img src="/assets/images/mon/minior_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/minior/" class="mon-link"><strong class="mon-name">メテノ</strong></a><span class="mon-meta">♂ Lv.78</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: しろいハーブ</div>
@@ -2057,6 +2164,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/chatot/" class="mon-link"><img src="/assets/images/mon/chatot_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/chatot/" class="mon-link"><strong class="mon-name">ペラップ</strong></a><span class="mon-meta">♂ Lv.83</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ノーマルZ</div>
@@ -2138,6 +2248,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/chatot/" class="mon-link"><strong class="mon-name">ペラップ</strong></a><span class="mon-meta">♂ Lv.83</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-normal">ノーマル</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props"><div>とくせい: するどいめ</div></div>
 </td>
 <td><ul class="move-list">
@@ -2166,6 +2279,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/exeggutor/" class="mon-link"><img src="/assets/images/mon/exeggutor_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/exeggutor/" class="mon-link"><strong class="mon-name">ナッシー</strong></a><span class="mon-meta">♂ Lv.77</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-dragon">ドラゴン</span>
 </div>
 <div class="mon-props">
 <div>アローラのすがた</div>
@@ -2198,6 +2314,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/klefki/" class="mon-link"><strong class="mon-name">クレッフィ</strong></a><span class="mon-meta">♂ Lv.76</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: いたずらごころ</div>
@@ -2227,6 +2346,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/gliscor/" class="mon-link"><img src="/assets/images/mon/gliscor_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/gliscor/" class="mon-link"><strong class="mon-name">グライオン</strong></a><span class="mon-meta">♂ Lv.78</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ground">じめん</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>もちもの: どくどくだま</div>
@@ -2259,6 +2381,7 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/komala/" class="mon-link"><strong class="mon-name">ネッコアラ</strong></a><span class="mon-meta">♂ Lv.77</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-normal">ノーマル</span></div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: ぜったいねむり</div>
@@ -2289,6 +2412,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/minior/" class="mon-link"><img src="/assets/images/mon/minior_2.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/minior/" class="mon-link"><strong class="mon-name">メテノ</strong></a><span class="mon-meta">♂ Lv.78</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-rock">いわ</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props">
 <div>みどりいろのコア</div>
@@ -2541,6 +2667,7 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/marowak/" class="mon-link"><strong class="mon-name">ガラガラ</strong></a><span class="mon-meta">Lv.77</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ground">じめん</span></div>
 <div class="mon-props">
 <div>もちもの: ふといホネ</div>
 <div>とくせい: いしあたま</div>
@@ -2689,6 +2816,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/dhelmise/" class="mon-link"><strong class="mon-name">ダダリン</strong></a><span class="mon-meta">Lv.73</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ghost">ゴースト</span><span class="type-badge type-grass">くさ</span>
+</div>
 <div class="mon-props"><div>とくせい: はがねつかい</div></div>
 </td>
 <td><ul class="move-list">
@@ -2716,6 +2846,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/weavile/" class="mon-link"><img src="/assets/images/mon/weavile_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/weavile/" class="mon-link"><strong class="mon-name">マニューラ</strong></a><span class="mon-meta">Lv.74</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dark">あく</span><span class="type-badge type-ice">こおり</span>
 </div>
 <div class="mon-props"><div>とくせい: プレッシャー</div></div>
 </td>
@@ -2745,6 +2878,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/marowak/" class="mon-link"><img src="/assets/images/mon/marowak_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/marowak/" class="mon-link"><strong class="mon-name">ガラガラ</strong></a><span class="mon-meta">Lv.74</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-ghost">ゴースト</span>
 </div>
 <div class="mon-props">
 <div>アローラのすがた</div>
@@ -2778,6 +2914,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/greninja/" class="mon-link"><img src="/assets/images/mon/greninja_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/greninja/" class="mon-link"><strong class="mon-name">ゲッコウガ</strong></a><span class="mon-meta">Lv.76</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-dark">あく</span>
 </div>
 <div class="mon-props"><div>とくせい: へんげんじざい</div></div>
 </td>
@@ -2914,6 +3053,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/gliscor/" class="mon-link"><strong class="mon-name">グライオン</strong></a><span class="mon-meta">Lv.74</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ground">じめん</span><span class="type-badge type-flying">ひこう</span>
+</div>
 <div class="mon-props">
 <div>もちもの: どくどくだま</div>
 <div>とくせい: ポイズンヒール</div>
@@ -2944,6 +3086,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/volcarona/" class="mon-link"><img src="/assets/images/mon/volcarona_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/volcarona/" class="mon-link"><strong class="mon-name">ウルガモス</strong></a><span class="mon-meta">Lv.75</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-fire">ほのお</span>
 </div>
 <div class="mon-props"><div>とくせい: ほのおのからだ</div></div>
 </td>
@@ -2976,6 +3121,7 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/absol/" class="mon-link"><strong class="mon-name">アブソル</strong></a><span class="mon-meta">♀ Lv.76</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-dark">あく</span></div>
 <div class="mon-props"><div>とくせい: プレッシャー</div></div>
 </td>
 <td><ul class="move-list">
@@ -3124,6 +3270,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/claydol/" class="mon-link"><strong class="mon-name">ネンドール</strong></a><span class="mon-meta">Lv.74</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ground">じめん</span><span class="type-badge type-psychic">エスパー</span>
+</div>
 <div class="mon-props"><div>とくせい: ふゆう</div></div>
 </td>
 <td><ul class="move-list">
@@ -3152,6 +3301,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/dragonite/" class="mon-link"><img src="/assets/images/mon/dragonite_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/dragonite/" class="mon-link"><strong class="mon-name">カイリュー</strong></a><span class="mon-meta">Lv.75</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-flying">ひこう</span>
 </div>
 <div class="mon-props"><div>とくせい: せいしんりょく</div></div>
 </td>
@@ -3327,6 +3479,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/aron/" class="mon-link"><img src="/assets/images/mon/aron_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/aron/" class="mon-link"><strong class="mon-name">ココドラ</strong></a><span class="mon-meta">Lv.1</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-rock">いわ</span>
 </div>
 <div class="mon-props">
 <div>もちもの: かいがらのすず</div>
@@ -4041,6 +4196,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/garchomp/" class="mon-link"><img src="/assets/images/mon/garchomp_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/garchomp/" class="mon-link"><strong class="mon-name">ガブリアス</strong></a><span class="mon-meta">Lv.75</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-ground">じめん</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ちからのハチマキ</div>
@@ -4775,6 +4933,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/klefki/" class="mon-link"><strong class="mon-name">クレッフィ</strong></a><span class="mon-meta">♀ Lv.81</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
 <div>とくせい: いたずらごころ</div>
@@ -4804,6 +4965,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/cacturne/" class="mon-link"><img src="/assets/images/mon/cacturne_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/cacturne/" class="mon-link"><strong class="mon-name">ノクタス</strong></a><span class="mon-meta">♀ Lv.82</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-grass">くさ</span><span class="type-badge type-dark">あく</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ひかりのこな</div>
@@ -4837,6 +5001,7 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/liepard/" class="mon-link"><strong class="mon-name">レパルダス</strong></a><span class="mon-meta">♀ Lv.82</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-dark">あく</span></div>
 <div class="mon-props">
 <div>もちもの: ちからのハチマキ</div>
 <div>とくせい: じゅうなん</div>
@@ -4868,6 +5033,7 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/sandslash/" class="mon-link"><strong class="mon-name">サンドパン</strong></a><span class="mon-meta">♀ Lv.83</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-ground">じめん</span></div>
 <div class="mon-props">
 <div>もちもの: ちからのハチマキ</div>
 <div>とくせい: すなかき</div>
@@ -4900,6 +5066,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/delphox/" class="mon-link"><strong class="mon-name">マフォクシー</strong></a><span class="mon-meta">♀ Lv.86</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-psychic">エスパー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: ホノオZ</div>
 <div>とくせい: マジシャン</div>
@@ -4931,6 +5100,7 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/magikarp/" class="mon-link"><strong class="mon-name">コイキング</strong></a><span class="mon-meta">Lv.5</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props"><div>とくせい: すいすい</div></div>
 </td>
 <td><ul class="move-list">
@@ -5108,6 +5278,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/mawile/" class="mon-link"><strong class="mon-name">クチート</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props"><div>とくせい: いかく</div></div>
 </td>
 <td><ul class="move-list">
@@ -5137,6 +5310,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/escavalier/" class="mon-link"><img src="/assets/images/mon/escavalier_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/escavalier/" class="mon-link"><strong class="mon-name">シュバルゴ</strong></a><span class="mon-meta">Lv.76</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-steel">はがね</span>
 </div>
 <div class="mon-props"><div>とくせい: シェルアーマー</div></div>
 </td>
@@ -5184,6 +5360,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/nidoking/" class="mon-link"><strong class="mon-name">ニドキング</strong></a><span class="mon-meta">Lv.76</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-ground">じめん</span>
+</div>
 <div class="mon-props"><div>とくせい: ちからずく</div></div>
 </td>
 <td><ul class="move-list">
@@ -5212,6 +5391,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/nidoqueen/" class="mon-link"><img src="/assets/images/mon/nidoqueen_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/nidoqueen/" class="mon-link"><strong class="mon-name">ニドクイン</strong></a><span class="mon-meta">Lv.76</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-poison">どく</span><span class="type-badge type-ground">じめん</span>
 </div>
 <div class="mon-props"><div>とくせい: ちからずく</div></div>
 </td>
@@ -5260,6 +5442,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/turtonator/" class="mon-link"><strong class="mon-name">バクガメス</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-dragon">ドラゴン</span>
+</div>
 <div class="mon-props"><div>とくせい: シェルアーマー</div></div>
 </td>
 <td><ul class="move-list">
@@ -5289,6 +5474,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/scizor/" class="mon-link"><strong class="mon-name">ハッサム</strong></a><span class="mon-meta">Lv.75</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props"><div>とくせい: テクニシャン</div></div>
 </td>
 <td><ul class="move-list">
@@ -5317,6 +5505,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/spiritomb/" class="mon-link"><img src="/assets/images/mon/spiritomb_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/spiritomb/" class="mon-link"><strong class="mon-name">ミカルゲ</strong></a><span class="mon-meta">Lv.75</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ghost">ゴースト</span><span class="type-badge type-dark">あく</span>
 </div>
 <div class="mon-props"><div>とくせい: すりぬけ</div></div>
 </td>
@@ -5363,6 +5554,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/pyroar/" class="mon-link"><strong class="mon-name">カエンジシ</strong></a><span class="mon-meta">Lv.76</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-normal">ノーマル</span>
+</div>
 <div class="mon-props"><div>とくせい: じしんかじょう</div></div>
 </td>
 <td><ul class="move-list">
@@ -5393,6 +5587,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/delphox/" class="mon-link"><img src="/assets/images/mon/delphox_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/delphox/" class="mon-link"><strong class="mon-name">マフォクシー</strong></a><span class="mon-meta">Lv.76</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-fire">ほのお</span><span class="type-badge type-psychic">エスパー</span>
 </div>
 <div class="mon-props"><div>とくせい: マジシャン</div></div>
 </td>
@@ -5438,6 +5635,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/ninetales/" class="mon-link"><img src="/assets/images/mon/ninetales_1.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/ninetales/" class="mon-link"><strong class="mon-name">キュウコン</strong></a><span class="mon-meta">♀ Lv.78</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-ice">こおり</span><span class="type-badge type-fairy">フェアリー</span>
 </div>
 <div class="mon-props">
 <div>アローラのすがた</div>
@@ -5510,6 +5710,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/reshiram/" class="mon-link"><strong class="mon-name">レシラム</strong></a><span class="mon-meta">Lv.90</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-fire">ほのお</span>
+</div>
 <div class="mon-props">
 <div>もちもの: エレメンタルシード</div>
 <div>とくせい: ターボブレイズ</div>
@@ -5560,6 +5763,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/zekrom/" class="mon-link"><img src="/assets/images/mon/zekrom_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/zekrom/" class="mon-link"><strong class="mon-name">ゼクロム</strong></a><span class="mon-meta">Lv.90</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-dragon">ドラゴン</span><span class="type-badge type-electric">でんき</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ジメンZ</div>
@@ -5622,6 +5828,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/sandslash/" class="mon-link"><strong class="mon-name">サンドパン</strong></a><span class="mon-meta">♂ Lv.83</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ice">こおり</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props">
 <div>アローラのすがた</div>
 <div>もちもの: ひかりのねんど</div>
@@ -5654,6 +5863,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/empoleon/" class="mon-link"><img src="/assets/images/mon/empoleon_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/empoleon/" class="mon-link"><strong class="mon-name">エンペルト</strong></a><span class="mon-meta">♀ Lv.85</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-steel">はがね</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ヤタピのみ</div>
@@ -5689,6 +5901,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/excadrill/" class="mon-link"><strong class="mon-name">ドリュウズ</strong></a><span class="mon-meta">♀ Lv.86</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-ground">じめん</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
 <div>とくせい: すなかき</div>
@@ -5719,6 +5934,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/klefki/" class="mon-link"><img src="/assets/images/mon/klefki_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/klefki/" class="mon-link"><strong class="mon-name">クレッフィ</strong></a><span class="mon-meta">♀ Lv.84</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span>
 </div>
 <div class="mon-props">
 <div>もちもの: たべのこし</div>
@@ -5753,6 +5971,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/scizor/" class="mon-link"><strong class="mon-name">ハッサム</strong></a><span class="mon-meta">♀ Lv.86</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-bug">むし</span><span class="type-badge type-steel">はがね</span>
+</div>
 <div class="mon-props">
 <div>もちもの: ハッサムナイト</div>
 <div>とくせい: テクニシャン</div>
@@ -5784,6 +6005,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/aegislash/" class="mon-link"><img src="/assets/images/mon/aegislash_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/aegislash/" class="mon-link"><strong class="mon-name">ギルガルド</strong></a><span class="mon-meta">♂ Lv.90</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-steel">はがね</span><span class="type-badge type-ghost">ゴースト</span>
 </div>
 <div class="mon-props">
 <div>もちもの: マジカルシード</div>
@@ -5935,6 +6159,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/starmie/" class="mon-link"><strong class="mon-name">スターミー</strong></a><span class="mon-meta">Lv.86</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-psychic">エスパー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: ひかりのねんど</div>
 <div>とくせい: はっこう</div>
@@ -5968,6 +6195,7 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/wishiwashi/" class="mon-link"><strong class="mon-name">ヨワシ</strong></a><span class="mon-meta">♂ Lv.86</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props">
 <div>もちもの: ウイのみ</div>
 <div>とくせい: ぎょぐん</div>
@@ -5998,6 +6226,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/ludicolo/" class="mon-link"><img src="/assets/images/mon/ludicolo_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/ludicolo/" class="mon-link"><strong class="mon-name">ルンパッパ</strong></a><span class="mon-meta">♂ Lv.87</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-grass">くさ</span>
 </div>
 <div class="mon-props">
 <div>もちもの: こだわりメガネ</div>
@@ -6032,6 +6263,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/swampert/" class="mon-link"><strong class="mon-name">ラグラージ</strong></a><span class="mon-meta">♂ Lv.87</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-ground">じめん</span>
+</div>
 <div class="mon-props">
 <div>もちもの: ラグラージナイト</div>
 <div>とくせい: げきりゅう</div>
@@ -6062,6 +6296,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/kingdra/" class="mon-link"><img src="/assets/images/mon/kingdra_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/kingdra/" class="mon-link"><strong class="mon-name">キングドラ</strong></a><span class="mon-meta">♀ Lv.88</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-dragon">ドラゴン</span>
 </div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
@@ -6094,6 +6331,9 @@ $80000 を寄付してこの計画に出資します。
 <a href="/reborn/mon/lapras/" class="mon-link"><img src="/assets/images/mon/lapras_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/lapras/" class="mon-link"><strong class="mon-name">ラプラス</strong></a><span class="mon-meta">♀ Lv.92</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-ice">こおり</span>
 </div>
 <div class="mon-props">
 <div>もちもの: エレメンタルシード</div>
@@ -6151,6 +6391,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/vaporeon/" class="mon-link"><strong class="mon-name">シャワーズ</strong></a><span class="mon-meta">♀ Lv.86</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props">
 <div>もちもの: とつげきチョッキ</div>
 <div>とくせい: ちょすい</div>
@@ -6182,6 +6423,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/seismitoad/" class="mon-link"><img src="/assets/images/mon/seismitoad_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/seismitoad/" class="mon-link"><strong class="mon-name">ガマゲロゲ</strong></a><span class="mon-meta">♂ Lv.86</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-ground">じめん</span>
 </div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
@@ -6215,6 +6459,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/primarina/" class="mon-link"><strong class="mon-name">アシレーヌ</strong></a><span class="mon-meta">♀ Lv.87</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: エレメンタルシード</div>
 <div>とくせい: げきりゅう</div>
@@ -6247,6 +6494,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/lanturn/" class="mon-link"><strong class="mon-name">ランターン</strong></a><span class="mon-meta">♂ Lv.87</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-electric">でんき</span>
+</div>
 <div class="mon-props">
 <div>もちもの: とつげきチョッキ</div>
 <div>とくせい: ちくでん</div>
@@ -6278,6 +6528,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/blastoise/" class="mon-link"><strong class="mon-name">カメックス</strong></a><span class="mon-meta">♀ Lv.88</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props">
 <div>もちもの: カメックスナイト</div>
 <div>とくせい: げきりゅう</div>
@@ -6308,6 +6559,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/lapras/" class="mon-link"><img src="/assets/images/mon/lapras_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/lapras/" class="mon-link"><strong class="mon-name">ラプラス</strong></a><span class="mon-meta">♀ Lv.92</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-ice">こおり</span>
 </div>
 <div class="mon-props">
 <div>もちもの: エレメンタルシード</div>
@@ -6388,6 +6642,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/starmie/" class="mon-link"><strong class="mon-name">スターミー</strong></a><span class="mon-meta">Lv.86</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-psychic">エスパー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: ひかりのねんど</div>
 <div>とくせい: はっこう</div>
@@ -6421,6 +6678,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/wishiwashi/" class="mon-link"><strong class="mon-name">ヨワシ</strong></a><span class="mon-meta">♂ Lv.86</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props">
 <div>もちもの: ウイのみ</div>
 <div>とくせい: ぎょぐん</div>
@@ -6451,6 +6709,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/ludicolo/" class="mon-link"><img src="/assets/images/mon/ludicolo_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/ludicolo/" class="mon-link"><strong class="mon-name">ルンパッパ</strong></a><span class="mon-meta">♂ Lv.87</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-grass">くさ</span>
 </div>
 <div class="mon-props">
 <div>もちもの: こだわりメガネ</div>
@@ -6485,6 +6746,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/swampert/" class="mon-link"><strong class="mon-name">ラグラージ</strong></a><span class="mon-meta">♂ Lv.87</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-ground">じめん</span>
+</div>
 <div class="mon-props">
 <div>もちもの: とつげきチョッキ</div>
 <div>とくせい: げきりゅう</div>
@@ -6515,6 +6779,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/kingdra/" class="mon-link"><img src="/assets/images/mon/kingdra_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/kingdra/" class="mon-link"><strong class="mon-name">キングドラ</strong></a><span class="mon-meta">♀ Lv.88</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-dragon">ドラゴン</span>
 </div>
 <div class="mon-props">
 <div>もちもの: ドラゴンZ</div>
@@ -6547,6 +6814,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/lapras/" class="mon-link"><img src="/assets/images/mon/lapras_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/lapras/" class="mon-link"><strong class="mon-name">ラプラス</strong></a><span class="mon-meta">♀ Lv.92</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-ice">こおり</span>
 </div>
 <div class="mon-props">
 <div>もちもの: エレメンタルシード</div>
@@ -6604,6 +6874,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/vaporeon/" class="mon-link"><strong class="mon-name">シャワーズ</strong></a><span class="mon-meta">♀ Lv.86</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props">
 <div>もちもの: とつげきチョッキ</div>
 <div>とくせい: ちょすい</div>
@@ -6635,6 +6906,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/seismitoad/" class="mon-link"><img src="/assets/images/mon/seismitoad_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/seismitoad/" class="mon-link"><strong class="mon-name">ガマゲロゲ</strong></a><span class="mon-meta">♂ Lv.86</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-ground">じめん</span>
 </div>
 <div class="mon-props">
 <div>もちもの: いのちのたま</div>
@@ -6668,6 +6942,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/primarina/" class="mon-link"><strong class="mon-name">アシレーヌ</strong></a><span class="mon-meta">♀ Lv.87</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-fairy">フェアリー</span>
+</div>
 <div class="mon-props">
 <div>もちもの: エレメンタルシード</div>
 <div>とくせい: げきりゅう</div>
@@ -6700,6 +6977,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/lanturn/" class="mon-link"><strong class="mon-name">ランターン</strong></a><span class="mon-meta">♂ Lv.87</span>
 </div>
 </div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-electric">でんき</span>
+</div>
 <div class="mon-props">
 <div>もちもの: とつげきチョッキ</div>
 <div>とくせい: ちくでん</div>
@@ -6731,6 +7011,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/blastoise/" class="mon-link"><strong class="mon-name">カメックス</strong></a><span class="mon-meta">♀ Lv.88</span>
 </div>
 </div>
+<div class="mon-types"><span class="type-badge type-water">みず</span></div>
 <div class="mon-props">
 <div>もちもの: カクトウZ</div>
 <div>とくせい: げきりゅう</div>
@@ -6761,6 +7042,9 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <a href="/reborn/mon/lapras/" class="mon-link"><img src="/assets/images/mon/lapras_0.png" alt="" class="mon-icon" loading="lazy" width="48" height="48"></a><div class="mon-id">
 <a href="/reborn/mon/lapras/" class="mon-link"><strong class="mon-name">ラプラス</strong></a><span class="mon-meta">♀ Lv.92</span>
 </div>
+</div>
+<div class="mon-types">
+<span class="type-badge type-water">みず</span><span class="type-badge type-ice">こおり</span>
 </div>
 <div class="mon-props">
 <div>もちもの: エレメンタルシード</div>

@@ -2476,6 +2476,16 @@ body.night-mode .book-toc-chapter li a:hover { color: #ffffff; border-left-color
   font-variant-numeric: tabular-nums;
 }
 
+/* 種族のタイプ。アイコンと名前の塊の下に、セルの幅いっぱいで置く。
+   名前の横に入れるとアイコンのぶん枠が狭く、2タイプのポケモンで札が
+   折り返して行の高さが揃わなかった。札の体裁はわざの列と同じ。 */
+.mon-types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px 4px;
+  margin: 0 0 6px;
+}
+
 /* すがた・もちもの・とくせいは1行1項目。ラベル幅が違っても
    行頭が揃うよう、ぶら下げインデントにする。 */
 .mon-props {
