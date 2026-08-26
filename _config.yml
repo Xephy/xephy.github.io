@@ -51,6 +51,15 @@ plugins:
 # 848ページあり、トップからのリンクだけでは全部は辿ってもらえない。
 - jekyll-sitemap
 
+# Search Console の所有権確認ファイル。中身は Google の指定どおりの1行で、
+# front matter を付けるとレイアウトが被さって確認に通らなくなるので付けない。
+# 静的ファイルとしてそのまま配る。sitemap に載せる意味は無いので外す。
+defaults:
+  - scope:
+      path: "google648e807086f5cb1a.html"
+    values:
+      sitemap: false
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
