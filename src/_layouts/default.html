@@ -34,7 +34,15 @@
 {% seo %}
     {% include head-custom.html %}
 
-    {% include analytics.html %} 
+    {% include analytics.html %}
+
+    {%- comment -%}
+      AdSense の自動広告。所有者の確認は /ads.txt (src/ads.txt) 側で持っている。
+      async なので描画は止めない。全ページ共通のこの layout に置くことで
+      サイト全体 (848ページ) が対象になる。
+    {%- endcomment -%}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6888504966832319"
+         crossorigin="anonymous"></script>
   </head>
 
   <body>
