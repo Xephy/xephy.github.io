@@ -1,6 +1,7 @@
 ---
-title: "クリア後 エピソード6"
+title: "クリア後 エピソード6: 消灯"
 permalink: /reborn/postgame-episode-6/
+description: "『ポケモンリボーン』「クリア後 エピソード6: 消灯」の攻略。進行手順、拾えるどうぐ（隠しアイテムを含む）、出現するポケモン、トレーナーの手持ちと対策をまとめています。"
 ---
 
 <nav class="chapter-nav">

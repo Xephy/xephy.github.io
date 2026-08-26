@@ -249,6 +249,7 @@ module EncounterIndexPage
       ---
       title: #{title}
       permalink: /#{game}/pokemon/
+      description: "ポケモンリボーンで出会えるポケモンの一覧。どの場所にどのポケモンが出るか、レベルと出現確率、釣り・特殊な出現方法まで場所ごとにまとめています。"
       ---
 
       <p id="title-text">#{title}</p>

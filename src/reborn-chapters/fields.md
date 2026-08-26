@@ -1,6 +1,7 @@
 ---
 title: フィールド効果
 permalink: /reborn/fields/
+description: "ポケモンリボーンのフィールド効果の一覧。効果の内容、発生と変化の条件、戦う場面をまとめています。"
 ---
 
 <p id="title-text">フィールド効果</p>

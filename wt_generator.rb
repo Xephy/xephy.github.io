@@ -59,6 +59,7 @@ begin
 
   chapters.each_with_index do |chapter, chapter_index|
     page_title = JaNames.page_title(LONGNAMES[game], chapter[:slug], chapter[:title])
+    page_description = JaNames.page_description(chapter[:slug], chapter[:title])
 
     # 前後移動と全章一覧。上下に同じものを置いて、読み終わった位置からも
     # 次へ進めるようにする。
@@ -73,6 +74,7 @@ begin
       ---
       title: "#{page_title}"
       permalink: /#{LONGNAMES[game]}/#{chapter[:slug]}/
+      #{page_description ? %(description: "#{page_description}") : ''}
       ---
 
       #{nav}

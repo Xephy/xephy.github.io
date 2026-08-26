@@ -1,6 +1,7 @@
 ---
 title: PULSE図鑑
 permalink: /reborn/pulsedex/
+description: "ポケモンリボーンのPULSEポケモン図鑑。登場する場面、能力、対策をまとめています。"
 ---
 
 <p id="title-text">PULSE図鑑</p>

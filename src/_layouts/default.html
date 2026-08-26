@@ -24,6 +24,13 @@
     <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico?v=' | append: asset_v | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css?v=' | append: asset_v | relative_url }}">
 
+{%- comment -%}
+      全文1ページ (/reborn/all/) は章ページと同じ本文をもう一度持つ。両方を
+      検索対象にすると同じ内容で競合するので、読む人向けには残したまま
+      検索結果からは外す。follow は付けるので、ここからのリンクは辿られる。
+    {%- endcomment -%}
+    {%- if page.noindex -%}<meta name="robots" content="noindex, follow">{%- endif %}
+
 {% seo %}
     {% include head-custom.html %}
 

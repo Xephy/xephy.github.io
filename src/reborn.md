@@ -1,10 +1,14 @@
 ---
 title: 全文を1ページで読む
 permalink: /reborn/all/
+# 章ページと同じ本文をもう一度持つページ。検索では章ページを出したいので
+# ここは索引から外し、sitemap にも載せない。読む人向けのリンクは残す。
+noindex: true
+sitemap: false
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年8月24日 12:20</h5>
+<h5> 最終更新 2026年8月26日 13:43</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/">エピソードごとに読む</a> / <a href="/reborn/mon/">ポケモン図鑑</a> / <a href="/reborn/pokemon/">ポケモンの出現場所</a> / <a href="/reborn/shops/">どうぐの買える店</a> / <a href="/reborn/tms/">わざマシン一覧</a> / <a href="/reborn/evolutions/">進化条件の一覧</a> / <a href="/reborn/pulsedex/">PULSE図鑑</a> / <a href="/reborn/fields/">フィールド効果</a> / <a href="/reborn/affinity/">好感度まとめ</a></p>
 <details class="page-toc" open>

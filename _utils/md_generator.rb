@@ -36,6 +36,10 @@ def generate_md_text(game = 'reborn', scripts_dir)
       ---
       title: #{JaNames.enabled? ? JaNames.ui('Single page') : "Pokemon #{LONGNAMES[game].capitalize} Walkthrough"}
       permalink: /#{LONGNAMES[game]}/all/
+      # 章ページと同じ本文をもう一度持つページ。検索では章ページを出したいので
+      # ここは索引から外し、sitemap にも載せない。読む人向けのリンクは残す。
+      noindex: true
+      sitemap: false
       ---
 
       <p id="title-text">#{JaNames.game_title(LONGNAMES[game])} #{JaNames.ui('Walkthrough')}</p>
@@ -359,6 +363,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
     ---
     title: #{JaNames.enabled? ? JaNames.ui('Contents') : "Pokemon #{LONGNAMES[game].capitalize} Walkthrough"}
     permalink: /#{LONGNAMES[game]}/
+    description: #{JaNames.enabled? ? '"ポケモンリボーンの攻略目次。本編エピソード1〜19とクリア後全9話、付録（ものひろい表・採掘確率・パスワード一覧）を日本語でまとめています。"' : '"Walkthrough contents."'}
     ---
 
     <p id="title-text">#{JaNames.game_title(LONGNAMES[game])} #{JaNames.ui('Walkthrough')}</p>

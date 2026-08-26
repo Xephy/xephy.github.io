@@ -139,6 +139,7 @@ module MachineIndexPage
       ---
       title: #{title}
       permalink: /#{game}/tms/
+      description: "ポケモンリボーンのわざマシン一覧。番号・わざ名と、それぞれの入手場所をまとめています。"
       ---
 
       <p id="title-text">#{title}</p>

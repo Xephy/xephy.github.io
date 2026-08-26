@@ -1,6 +1,7 @@
 ---
-title: "エピソード9"
+title: "エピソード9: 妹の番人"
 permalink: /reborn/episode-9/
+description: "『ポケモンリボーン』「エピソード9: 妹の番人」の攻略。進行手順、拾えるどうぐ（隠しアイテムを含む）、出現するポケモン、トレーナーの手持ちと対策をまとめています。"
 ---
 
 <nav class="chapter-nav">

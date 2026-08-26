@@ -1,6 +1,7 @@
 ---
 title: わざマシン一覧
 permalink: /reborn/tms/
+description: "ポケモンリボーンのわざマシン一覧。番号・わざ名と、それぞれの入手場所をまとめています。"
 ---
 
 <p id="title-text">わざマシン一覧</p>

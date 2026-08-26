@@ -107,6 +107,7 @@ module EvolutionIndexPage
       ---
       title: #{title}
       permalink: /#{game}/evolutions/
+      description: "ポケモンリボーンの進化条件の一覧。レベル・道具・なつき度・場所など、進化に必要な条件をポケモンごとにまとめています。"
       ---
 
       <p id="title-text">#{title}</p>

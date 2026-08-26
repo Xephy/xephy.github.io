@@ -1,6 +1,7 @@
 ---
 title: 進化条件の一覧
 permalink: /reborn/evolutions/
+description: "ポケモンリボーンの進化条件の一覧。レベル・道具・なつき度・場所など、進化に必要な条件をポケモンごとにまとめています。"
 ---
 
 <p id="title-text">進化条件の一覧</p>

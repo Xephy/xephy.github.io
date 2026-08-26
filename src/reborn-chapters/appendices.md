@@ -1,6 +1,7 @@
 ---
 title: "付録"
 permalink: /reborn/appendices/
+description: "ポケモンリボーンの付録。ものひろいで拾えるどうぐ、採掘の当たり確率、パスワードの一覧をまとめています。"
 ---
 
 <nav class="chapter-nav">

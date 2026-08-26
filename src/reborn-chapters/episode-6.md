@@ -1,6 +1,7 @@
 ---
-title: "エピソード6"
+title: "エピソード6: 血に毒を"
 permalink: /reborn/episode-6/
+description: "『ポケモンリボーン』「エピソード6: 血に毒を」の攻略。進行手順、拾えるどうぐ（隠しアイテムを含む）、出現するポケモン、トレーナーの手持ちと対策をまとめています。"
 ---
 
 <nav class="chapter-nav">

@@ -1,6 +1,7 @@
 ---
 title: どうぐの買える店
 permalink: /reborn/shops/
+description: "ポケモンリボーンでどうぐを買える店の一覧。店ごとの品揃えと値段、開くようになる時期をまとめています。"
 ---
 
 <p id="title-text">どうぐの買える店</p>

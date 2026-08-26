@@ -217,6 +217,7 @@ module MonPage
       layout: default
       title: "#{name}"
       permalink: #{href(game, species)}
+      description: "『ポケモンリボーン』の#{name}。出現場所、覚えるわざ、進化条件、タイプ相性、手持ちにしているトレーナーをまとめています。"
       ---
 
       <p id="title-text">#{esc(name)}</p>

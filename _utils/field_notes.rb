@@ -376,6 +376,7 @@ module FieldNotes
       ---
       title: #{title}
       permalink: /#{game}/fields/
+      description: "ポケモンリボーンのフィールド効果の一覧。効果の内容、発生と変化の条件、戦う場面をまとめています。"
       ---
 
       <p id="title-text">#{title}</p>

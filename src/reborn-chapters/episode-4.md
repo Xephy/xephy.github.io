@@ -1,6 +1,7 @@
 ---
-title: "エピソード4"
+title: "エピソード4: 余震"
 permalink: /reborn/episode-4/
+description: "『ポケモンリボーン』「エピソード4: 余震」の攻略。進行手順、拾えるどうぐ（隠しアイテムを含む）、出現するポケモン、トレーナーの手持ちと対策をまとめています。"
 ---
 
 <nav class="chapter-nav">

@@ -1,6 +1,7 @@
 ---
-title: "クリア後 エピソード3"
+title: "クリア後 エピソード3: 影の一件"
 permalink: /reborn/postgame-episode-3/
+description: "『ポケモンリボーン』「クリア後 エピソード3: 影の一件」の攻略。進行手順、拾えるどうぐ（隠しアイテムを含む）、出現するポケモン、トレーナーの手持ちと対策をまとめています。"
 ---
 
 <nav class="chapter-nav">

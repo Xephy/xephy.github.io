@@ -161,8 +161,14 @@ module JaNames
     # 日本語版ではサイト名 (_config.yml の title) が既に作品名を含むので、
     # <title> が「ポケモンリボーン エピソード1 | ポケモンリボーン 日本語攻略」と
     # 重複しないよう、作品名は付けない。
+    # ページの <title> になる。検索結果に出る一行なので、番号だけの
+    # 「エピソード1」ではなく見出しそのまま「エピソード1: リボーン、廃墟の街」を
+    # 使う。副題のほうが検索語として引かれる。
     def page_title(long_name, slug, chapter_title)
       return "#{long_name.capitalize} #{chapter_title}" unless enabled?
+
+      title = chapter_title.to_s.strip
+      return title unless title.empty?
 
       case slug
       when 'appendices' then '付録'
@@ -172,6 +178,22 @@ module JaNames
       when /\Aepisode-(\d+)\z/ then "エピソード#{Regexp.last_match(1)}"
       when /\Achapter-(\d+)\z/ then "第#{Regexp.last_match(1)}章"
       else chapter_title
+      end
+    end
+
+    # 検索結果のスニペットになる一行。無いと 848ページ全部が
+    # _config.yml の同じ説明文を共有してしまうので、章ごとに書き分ける。
+    def page_description(slug, chapter_title)
+      return nil unless enabled?
+
+      title = chapter_title.to_s.strip
+      label = title.empty? ? slug : title
+      case slug
+      when 'appendices'
+        'ポケモンリボーンの付録。ものひろいで拾えるどうぐ、採掘の当たり確率、パスワードの一覧をまとめています。'
+      else
+        "『ポケモンリボーン』「#{label}」の攻略。進行手順、拾えるどうぐ（隠しアイテムを含む）、" \
+          '出現するポケモン、トレーナーの手持ちと対策をまとめています。'
       end
     end
 

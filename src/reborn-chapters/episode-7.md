@@ -1,6 +1,7 @@
 ---
-title: "エピソード7"
+title: "エピソード7: 地に毒を"
 permalink: /reborn/episode-7/
+description: "『ポケモンリボーン』「エピソード7: 地に毒を」の攻略。進行手順、拾えるどうぐ（隠しアイテムを含む）、出現するポケモン、トレーナーの手持ちと対策をまとめています。"
 ---
 
 <nav class="chapter-nav">

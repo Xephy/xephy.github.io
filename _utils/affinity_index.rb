@@ -291,6 +291,7 @@ module AffinityIndex
       ---
       title: 好感度まとめ
       permalink: /#{game}/affinity/
+      description: "ポケモンリボーンの好感度まとめ。誰の好感度がどの選択肢で上下するかを、場面ごとにまとめています。"
       ---
 
       <p id="title-text">好感度まとめ</p>

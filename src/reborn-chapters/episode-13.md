@@ -1,6 +1,7 @@
 ---
-title: "エピソード13"
+title: "エピソード13: 奔流"
 permalink: /reborn/episode-13/
+description: "『ポケモンリボーン』「エピソード13: 奔流」の攻略。進行手順、拾えるどうぐ（隠しアイテムを含む）、出現するポケモン、トレーナーの手持ちと対策をまとめています。"
 ---
 
 <nav class="chapter-nav">

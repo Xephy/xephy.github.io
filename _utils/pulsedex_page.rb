@@ -92,6 +92,7 @@ module PulsedexPage
       ---
       title: #{title}
       permalink: /#{game}/pulsedex/
+      description: "ポケモンリボーンのPULSEポケモン図鑑。登場する場面、能力、対策をまとめています。"
       ---
 
       <p id="title-text">#{title}</p>

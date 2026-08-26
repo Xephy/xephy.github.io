@@ -130,6 +130,7 @@ module MonIndexPage
       layout: default
       title: "#{title}"
       permalink: /#{game}/mon/
+      description: "ポケモンリボーンに登場する807種のポケモン図鑑。タイプや名前で絞り込めます。各ページに出現場所・覚えるわざ・進化条件があります。"
       ---
 
       <p id="title-text">#{esc(title)}</p>
