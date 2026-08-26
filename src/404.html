@@ -1,0 +1,25 @@
+---
+permalink: /404.html
+# このファイルは <!DOCTYPE html> から始まる完全な HTML 文書として書いてある。
+# layout を指定しないと jekyll-default-layout が default を当ててしまい、
+# 出力が「文書の中にもう一つ文書がある」二重入れ子になる。none で止める。
+layout: none
+# /404.html を直接開くと 200 が返る (存在しない URL 経由なら 404)。
+# 中身はトップへ飛ばすだけなので、検索結果には出さない。
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>ページが見つかりません</title>
+    <script>
+        window.location.href = '/';
+    </script>
+</head>
+<body>
+    <p>自動で移動しない場合は、<a href="/">トップページへのリンク</a>をたどってください。</p>
+</body>
+</html>
