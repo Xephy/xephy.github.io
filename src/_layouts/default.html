@@ -40,9 +40,14 @@
       AdSense の自動広告。所有者の確認は /ads.txt (src/ads.txt) 側で持っている。
       async なので描画は止めない。全ページ共通のこの layout に置くことで
       サイト全体 (848ページ) が対象になる。
+
+      404 だけ外す。中身の無いエラーページに広告を出すのはポリシー上のグレーで、
+      Google には別枠の「エラーページ向け AdSense」があるため。
     {%- endcomment -%}
+    {%- unless page.url == '/404.html' %}
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6888504966832319"
          crossorigin="anonymous"></script>
+    {%- endunless %}
   </head>
 
   <body>

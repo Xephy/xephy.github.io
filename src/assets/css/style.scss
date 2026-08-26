@@ -762,12 +762,15 @@ div#quote p {
     display: inline;
 }
 
+// --overlay-bottom は myscripts.js が入れる。画面下端に固定される広告
+// (AdSense のアンカー広告) の実測の高さで、無ければ 0 = 従来どおりの位置。
 #toTopButton {
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: calc(20px + var(--overlay-bottom, 0px));
     right: 30px;
     z-index: 99;
+    transition: bottom 0.2s ease;
     border: none;
     outline: none;
     background-color: #0090ff;

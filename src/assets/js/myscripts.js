@@ -20,6 +20,62 @@
 })();
 
 
+// 画面下端に固定表示される広告 (AdSense のアンカー広告) と、右下の「先頭へ」
+// ボタンが重なる。広告の高さは配信されるまで分からず、配信ごとにも変わるので、
+// 数字を決め打ちせず実際に置かれた要素を測って CSS 変数に入れる。
+// 使うのは #toTopButton の bottom (style.scss)。
+// 見つからなければ 0 のままで、今までと同じ位置に出る。
+(function () {
+  var last = -1;
+
+  // body 直下で「画面の下端に貼り付いている fixed 要素」の高さを返す。
+  // アンカー広告は上部に出す設定もあるので、下端のものだけを数える。
+  function overlayHeight() {
+    var vh = window.innerHeight;
+    var max = 0;
+    var kids = document.body.children;
+    for (var i = 0; i < kids.length; i++) {
+      var el = kids[i];
+      if (el.id === "toTopButton") continue;
+      var st = window.getComputedStyle(el);
+      if (st.position !== "fixed") continue;
+      if (st.display === "none" || st.visibility === "hidden") continue;
+      var r = el.getBoundingClientRect();
+      if (r.height <= 0 || r.bottom < vh - 2 || r.top > vh) continue;
+      if (r.height > max) max = r.height;
+    }
+    return Math.round(max);
+  }
+
+  function update() {
+    var h = overlayHeight();
+    if (h === last) return;
+    last = h;
+    document.documentElement.style.setProperty("--overlay-bottom", h + "px");
+  }
+
+  // scroll ごとに測ると重いので、描画の1フレームに1回までにまとめる。
+  var pending = false;
+  function schedule() {
+    if (pending) return;
+    pending = true;
+    window.requestAnimationFrame(function () {
+      pending = false;
+      update();
+    });
+  }
+
+  window.addEventListener("load", schedule);
+  window.addEventListener("resize", schedule);
+  window.addEventListener("scroll", schedule, { passive: true });
+  // 広告は読み込みのあとから差し込まれる。body 直下の増減を見て測り直す。
+  if (window.MutationObserver) {
+    new MutationObserver(schedule).observe(document.body, { childList: true });
+  }
+  schedule();
+})();
+
+
 $(document).ready(function () {
   // Enables images to open into new tab on click
   $("img.tabImage").each(function () {
