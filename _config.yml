@@ -19,9 +19,20 @@
 # in the templates via {{ site.myvariable }}.
 
 title: ポケモンリボーン 日本語攻略
+# トップページの <title> に「サイト名 | ここ」の形で足される。
+# tagline を置かないと description が丸ごと題に入って長すぎる題になる。
+tagline: "全19話＋クリア後9話の攻略と807種の図鑑"
+# 検索結果のスニペットになる。各ページに description が無いときの既定値。
+# 折り返すと改行がそのまま空白になり、日本語の文中に空白が入る。1行で書く。
+description: "『ポケモンリボーン』(Pokémon Reborn) の日本語攻略サイト。本編19エピソードとクリア後9話の攻略手順、隠しアイテム、トレーナーの手持ちと対策、807種のポケモンの出現場所・覚えるわざ・進化条件をまとめています。"
+# jekyll-seo-tag が canonical と og:url を組み立てるのに使う。
+# 設定しないと手元のビルドが http://localhost:4000 を canonical に書き、
+# その _site をそのまま配ると検索エンジンに存在しない URL を教えることになる。
+url: "https://xephy.github.io"
+# <html lang> と og:locale。既定は en-US で、日本語のページに英語を宣言していた。
+lang: ja
 email: your-email@example.com
 # baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
@@ -36,6 +47,9 @@ theme: jekyll-theme-slate
 
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+# sitemap.xml を出す。GitHub Pages では既定で有効にならないので明示する。
+# 848ページあり、トップからのリンクだけでは全部は辿ってもらえない。
+- jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

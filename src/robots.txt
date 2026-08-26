@@ -1,0 +1,5 @@
+# すべて巡回してよい。sitemap.xml は jekyll-sitemap が出す。
+User-agent: *
+Allow: /
+
+Sitemap: https://xephy.github.io/sitemap.xml
