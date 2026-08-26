@@ -5,9 +5,9 @@ description: "ポケモンリボーンの攻略目次。本編エピソード1�
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年8月26日 13:43</h5>
+<h5> 最終更新 2026年8月26日 14:08</h5>
 <h5> 対象バージョン 19.5.43</h5>
-<p><a href="/reborn/all/">全文を1ページで読む</a></p>
+<p><a href="/reborn/all/">全文を1ページで読む</a> / <a href="/patch/">日本語化パッチの導入方法</a></p>
 
 <div class="ref-filter toc-filter" hidden>
   <div class="ref-filter-line">

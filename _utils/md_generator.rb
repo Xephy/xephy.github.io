@@ -369,7 +369,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
     <p id="title-text">#{JaNames.game_title(LONGNAMES[game])} #{JaNames.ui('Walkthrough')}</p>
     <h5> #{JaNames.ui('Walkthrough last updated')} #{JaNames.timestamp(Time.now)}</h5>
     <h5> #{JaNames.ui('Based on game ver.')} #{game_version}</h5>
-    <p><a href="/#{LONGNAMES[game]}/all/">#{JaNames.ui('Single page')}</a></p>
+    <p><a href="/#{LONGNAMES[game]}/all/">#{JaNames.ui('Single page')}</a>#{JaNames.enabled? ? %( / <a href="/patch/">日本語化パッチの導入方法</a>) : ''}</p>
 
     #{generate_index_contents(game, chapters)}
   INDEX
