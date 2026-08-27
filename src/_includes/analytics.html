@@ -1,9 +1,18 @@
+{%- comment -%}
+  Google Analytics 4。全ページ共通の layout (_layouts/default.html) から
+  読まれる。
+
+  ここにあった G-38SCFZBS8T はフォーク元 (BIGJRA) のプロパティで、
+  こちらのアクセスが向こうに送られたまま、手元では1件も見えていなかった。
+  2026-08-27 にこのサイトのプロパティ G-MZ5BBNN198 に差し替えた。
+  上流を取り込むときは、この ID が戻っていないか確かめる。
+{%- endcomment -%}
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-38SCFZBS8T"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MZ5BBNN198"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-38SCFZBS8T');
+  gtag('config', 'G-MZ5BBNN198');
 </script>
