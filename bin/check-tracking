@@ -1,0 +1,161 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# 計測タグ (GA4) と広告タグ (AdSense) が「あるべき状態」から外れていないかを
+# 機械的に確かめる。期待値とその理由は TRACKING.md に書いてある。
+#
+# フォーク元の GA4 測定 ID がおよそ2年ぶん残ったままで、全ページのアクセスが
+# 向こうのプロパティへ送られていたことがある (2026-08-27 に発見)。
+# 見た目には何も起きないので目視では気づけない。デプロイ前に1コマンドで
+# 落とせるようにしておく。
+#
+#   bin/check-tracking                 # ビルド出力を見る (ネットワーク不要)
+#   bin/check-tracking --site DIR      # 別のビルド出力を見る (既定は _site)
+#   bin/check-tracking --prod          # 本番も抜き取りで叩いて確かめる
+#
+# 1項目でも外れていれば終了コード 1。
+
+require 'net/http'
+require 'optparse'
+require 'uri'
+
+GA_ID      = 'G-MZ5BBNN198'
+OLD_GA_IDS = %w[G-38SCFZBS8T].freeze # フォーク元のもの。戻っていたら落とす
+PUB_ID     = 'pub-6888504966832319'
+ADS_TXT    = "google.com, #{PUB_ID}, DIRECT, f08c47fec0942fa0"
+SITE_URL   = 'https://xephy.github.io'
+
+# タグが入らないのが正しいページ。404 は layout: none、確認ファイルは
+# front matter を持たない静的ファイル。どちらも TRACKING.md に理由がある。
+NO_TAG = %w[404.html google648e807086f5cb1a.html].freeze
+
+# 本番の抜き取り先。850ページを毎回叩くのは重いので、性質の違うものを1本ずつ。
+PROD_PAGES = ['/', '/patch/', '/reborn/', '/reborn/episode-1/', '/reborn/mon/absol/'].freeze
+
+opts = { site: File.expand_path('../_site', __dir__), prod: false }
+OptionParser.new do |o|
+  o.on('--site DIR') { |v| opts[:site] = File.expand_path(v) }
+  o.on('--prod') { opts[:prod] = true } # 本番も見る
+end.parse!
+
+$failed = 0
+
+def check(label, ok, detail = nil)
+  if ok
+    puts "  OK   #{label}"
+  else
+    $failed += 1
+    puts "  NG   #{label}#{detail ? " -- #{detail}" : ''}"
+  end
+end
+
+# --- ビルド出力 ---------------------------------------------------------
+
+unless File.directory?(opts[:site])
+  abort <<~MSG
+    ビルド出力が見つからない: #{opts[:site]}
+    先に作ってから実行する:
+      bundle exec jekyll build --source ./src --destination #{opts[:site]}
+  MSG
+end
+
+puts "ビルド出力: #{opts[:site]}"
+
+pages = Dir.glob(File.join(opts[:site], '**', '*.html')).sort
+rel = ->(p) { p.delete_prefix("#{opts[:site]}/") }
+
+with_ga = []
+with_ad = []
+with_old = []
+pages.each do |p|
+  body = File.read(p)
+  with_ga << rel.(p) if body.include?(GA_ID)
+  with_ad << rel.(p) if body.include?('adsbygoogle.js')
+  with_old << rel.(p) if OLD_GA_IDS.any? { |id| body.include?(id) }
+end
+
+expected = pages.size - NO_TAG.size
+check("ページ総数 #{pages.size}", pages.size.positive?)
+check("GA タグ #{with_ga.size}/#{pages.size}", with_ga.size == expected, "期待 #{expected}")
+check("AdSense タグ #{with_ad.size}/#{pages.size}", with_ad.size == expected, "期待 #{expected}")
+check('旧 GA 測定 ID が 0 件', with_old.empty?, with_old.first(3).join(', '))
+
+missing = (pages.map(&rel) - with_ga).sort
+check('タグが無いのは 404 と確認ファイルだけ', missing == NO_TAG.sort, missing.join(', '))
+
+# ads.txt は1行だけ。コメントや2行目が増えていないかも見る。
+ads = File.join(opts[:site], 'ads.txt')
+if File.exist?(ads)
+  lines = File.read(ads).lines.map(&:strip).reject(&:empty?)
+  check('ads.txt が期待の1行', lines == [ADS_TXT], lines.inspect)
+else
+  check('ads.txt が存在する', false, "#{ads} が無い")
+end
+
+# 404 は「文書の中にもう一つ文書がある」二重入れ子になっていたことがある。
+# .md のままだと Kramdown が <!DOCTYPE html> をエスケープするのが原因だった。
+p404 = File.join(opts[:site], '404.html')
+if File.exist?(p404)
+  b = File.read(p404)
+  check('404 の <html> が1つだけ', b.scan(/<html[\s>]/).size == 1, "#{b.scan(/<html[\s>]/).size} 個")
+  check('404 に doctype のエスケープが無い', !b.include?('&lt;!DOCTYPE'))
+  check('404 に広告タグが無い', !b.include?('adsbygoogle.js'))
+else
+  check('404.html が存在する', false)
+end
+
+smap = File.join(opts[:site], 'sitemap.xml')
+if File.exist?(smap)
+  x = File.read(smap)
+  locs = x.scan(%r{<loc>(.*?)</loc>}m).flatten
+  check("sitemap の URL #{locs.size} 件", locs.size.positive?)
+  check('sitemap に 404 が載っていない', locs.none? { |u| u.include?('404') })
+  bad = locs.reject { |u| u.start_with?(SITE_URL) }
+  check('sitemap の URL が全部このサイト', bad.empty?, bad.first(2).join(', '))
+else
+  check('sitemap.xml が存在する', false)
+end
+
+# --- 本番 ---------------------------------------------------------------
+
+if opts[:prod]
+  puts "\n本番: #{SITE_URL}"
+
+  get = lambda do |path|
+    Net::HTTP.get_response(URI("#{SITE_URL}#{path}"))
+  rescue StandardError => e
+    warn "  取得できない #{path}: #{e.class}"
+    nil
+  end
+
+  PROD_PAGES.each do |path|
+    res = get.(path)
+    next check("GET #{path}", false, '取得失敗') if res.nil?
+
+    ok = res.code == '200' && res.body.include?(GA_ID) &&
+         res.body.include?('adsbygoogle.js') &&
+         OLD_GA_IDS.none? { |id| res.body.include?(id) }
+    check("#{path} (#{res.code})", ok)
+  end
+
+  res = get.('/ads.txt')
+  check('/ads.txt', res && res.code == '200' && res.body.strip == ADS_TXT,
+        res && "#{res.code} #{res.body.strip.inspect}")
+
+  res = get.('/no-such-page/')
+  check('存在しない URL が 404', res && res.code == '404', res&.code)
+
+  res = get.('/google648e807086f5cb1a.html')
+  check('所有権確認ファイル', res && res.code == '200', res&.code)
+
+  res = get.('/sitemap.xml')
+  check('/sitemap.xml', res && res.code == '200' && res.body.include?('<loc>'), res&.code)
+end
+
+puts
+if $failed.zero?
+  puts '計測と広告の設定: 問題なし'
+else
+  puts "計測と広告の設定: #{$failed} 件が期待とちがう (TRACKING.md を参照)"
+  exit 1
+end
