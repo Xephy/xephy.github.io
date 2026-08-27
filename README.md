@@ -32,9 +32,25 @@ CI はゲームの Scripts を持てないので、出来上がった `src/` を
 | `bin/verify-chapters` | 構造・見出し・リンク・数値の照合 |
 | `bin/check-terms` | 訳語をパッチの辞書と突き合わせる |
 | `bin/check-rendered` | 公開ページに未訳の英語が出ていないか調べる |
+| `bin/check-tracking` | 計測タグ・広告タグ・ads.txt が期待どおりか照合する |
 | `bin/convert-images` | 攻略図を WebP に変換し、画素サイズ一覧を書き出す |
 | `bin/gen-mon-icons` | ゲームのシートからポケモンのアイコンを切り出す |
 | `bin/gen-favicon` | favicon を作る |
+
+## 設定と方針の記録
+
+サイトの外側（検索・計測・広告）の設定は、管理画面にしか無いと履歴も理由も残らない。
+実際に、フォーク元の Google Analytics 測定 ID がおよそ2年ぶん残ったままで、
+全ページのアクセスが向こうのプロパティへ送られていたことがある。
+あるべき状態と判断の理由をリポジトリ側に置いてある。
+
+| | |
+|---|---|
+| [`TRACKING.md`](TRACKING.md) | Google Analytics・AdSense。ID 一覧、自動広告の設定、判断の理由 |
+| [`SEO.md`](SEO.md) | Search Console・サイトマップ・noindex・`_config.yml` の勘所 |
+
+**設定を変えたら、対応する md も直すこと。** `TRACKING.md` に書いた項目のうち
+コードから確かめられるものは `bin/check-tracking` が照合する（`--prod` で本番も見る）。
 
 ---
 

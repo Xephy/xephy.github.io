@@ -1,7 +1,9 @@
 # 計測と広告の設定
 
-このサイトの Google Analytics / AdSense / Search Console まわりの「あるべき状態」と、
-そう決めた理由を1か所にまとめたもの。設定を変えたらこのファイルも直す。
+このサイトの Google Analytics と AdSense の「あるべき状態」と、そう決めた理由。
+設定を変えたらこのファイルも直す。
+
+検索まわり（Search Console・サイトマップ・noindex）は `SEO.md` にある。
 
 ビルドの `source` は `./src` なので、このファイルは公開されない。
 
