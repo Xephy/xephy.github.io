@@ -513,6 +513,14 @@ h1, h2, h3, h4, h5, h6, .fn-usage) {
    グリッドの配置指定だけで2段組にする。 */
 #main_content {
   padding-top: 40px;
+
+  /* 途中で折れない長い文字列 (URL・ファイルパス) が画面より広くなると、
+     viewport に initial-scale が無いぶんブラウザがページ全体を縮小して
+     収めにいく。本文の白い帯だけが画面幅のまま残り、右に地の黒が見える。
+     /patch/ の rebornevo.com の zip の URL (569px) がこれだった。
+     break-word は「その行に収まらないときだけ」折るので、通常の
+     和文・欧文の折り返しには影響しない (min-content 幅も変えない)。 */
+  overflow-wrap: break-word;
 }
 
 /* 2段組にするのは節目次を持つ章ページだけ。:has() を使うのは、
@@ -1128,16 +1136,31 @@ body.night-mode div#quote {
 }
 
 /* 増減値。上げ下げが一目で分かるように色を分ける。数字の桁が揃うように
-   等幅の数字を使い、折り返さない。 */
+   等幅の数字を使う。
+
+   元は white-space: nowrap だった。値が1つ (「-1 ローラ」) のうちは
+   それで良かったが、1つの選択肢で8人ぶん動く場面があり (episode-9 の
+   「+1 サファイラ、…、-2 シグムンド」)、幅 668px の1行が画面を突き破って
+   いた。ページ全体が縮小表示になり、白い本文の右に黒い帯が出る。
+
+   inline-block のまま中身の折り返しだけ許す。inline-block は行の途中で
+   割れない塊なので、「-1 ローラ」のような短い札は今までどおり丸ごと
+   次の行へ送られ、札と人物名の間で切れることがない。幅が画面に収まらない
+   ときだけ、札の中で折り返す。
+   word-break: keep-all は「サファイラ」の途中で折らないため (読点では折れる)。
+   border-radius は 999px から下げてある。1行のとき (高さ約 23px) の見た目は
+   同じで、複数行になったときだけ端が丸くなりすぎずに済む。 */
 .affinity-delta {
   display: inline-block;
+  max-width: 100%;
   margin-left: 0.35em;
   padding: 1px 8px;
-  border-radius: 999px;
+  border-radius: 12px;
   font-size: 12.5px;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
-  white-space: nowrap;
+  white-space: normal;
+  word-break: keep-all;
 }
 
 .affinity-delta.is-up    { background: #dff0e4; color: #1c6135; }
@@ -2939,7 +2962,10 @@ h1[id], h2[id], h3[id] { scroll-margin-top: 16px; }
 .md-count { margin-left: 6px; color: #687381; font-size: 12px; font-weight: normal; font-variant-numeric: tabular-nums; }
 .md-note { margin: 10px 0 0; color: #687381; font-size: 12px; line-height: 1.7; }
 .md-empty { color: #8a929c; margin: 0; }
-.md-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 12px; }
+/* minmax(320px, …) だと、本文の幅が 320px を割る画面 (iPhone SE 第1世代の
+   320px 表示など) で列のほうが広くなり、札が本文から 30px はみ出す。
+   min(320px, 100%) にすると、入らないときだけ列を縮める。 */
+.md-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 12px; }
 .md-cols .md-card { margin: 0; }
 
 /* --- とくせい --- */

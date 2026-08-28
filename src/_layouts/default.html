@@ -5,7 +5,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    {%- comment -%}
+      initial-scale=1 が無いと、幅が画面に収まらない要素が1つでもあるとき
+      ブラウザがページ全体を縮小して収めにいく (shrink-to-fit)。本文の白い帯は
+      画面幅のまま残るので、白が縮んで右に地の黒が見える。/patch/ の長い URL
+      1本で全体が 0.65 倍になっていた (2026-08-28)。
+      付けておくと、はみ出しても縮まず、そのページが横スクロールするだけになる。
+    {%- endcomment -%}
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2">
     {%- comment -%}
       以前は media="screen" が付いていて、印刷すると CSS が一切当たらず
       無装飾のまま出ていた。@media print はこのスタイルシートの中にある。
