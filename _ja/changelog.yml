@@ -1,0 +1,86 @@
+# 攻略サイトの更新履歴。
+#
+# 読む人に向けた文で書く。コミットの表題をそのまま持ってこない。
+# 「ads.txt を置く」「SEO.md に書き出す」のような、読む側から見えない
+# 変更は載せない。
+#
+# 新しいものを上に足す。日付は公開した日 (JST)、文字列で書く。
+#   kind:  new (新機能) / add (追加) / fix (修正) / imp (改善)
+#   href:  変わった場所。付けると項目からそこへ飛べる (省略可)
+#
+# 目次ページ (/reborn/) には新しいほうから数件、全部は /reborn/changelog/ に出る。
+# 何かを公開したら、bin/ja build の前にここへ1行足すこと。
+
+- date: "2026-08-29"
+  items:
+    - kind: new
+      href: /reborn/move/
+      text: わざから、それを覚えられるポケモンを引けるようにしました。レベル・わざマシン・教え技を問いません
+    - kind: imp
+      text: 図鑑でわざ名を押すと出る説明に、「このわざを覚えるポケモン」への行き先を足しました
+
+- date: "2026-08-28"
+  items:
+    - kind: fix
+      text: スマホなど狭い画面で、ページ全体が縮んで表示されることがあったのを直しました
+
+- date: "2026-08-26"
+  items:
+    - kind: add
+      href: /patch/
+      text: 日本語化パッチの導入方法のページを置きました
+    - kind: fix
+      text: 「先頭へ」ボタンが画面下の広告に隠れることがあったのを直しました
+
+- date: "2026-08-24"
+  items:
+    - kind: imp
+      text: わざの説明に、急所率・追加効果の確率・能力変化の段階など、具体的な数字を添えました
+    - kind: imp
+      href: /reborn/pokemon/
+      text: 出現ポケモンの表とトレーナーの手持ちに、タイプを出すようにしました
+    - kind: fix
+      text: 絞り込みのあるページで、見出しやわざマシンの行へ飛んだとき操作子の下に隠れていたのを直しました
+
+- date: "2026-08-23"
+  items:
+    - kind: new
+      href: /reborn/mon/
+      text: ポケモン1種につき1ページを新設しました。出現場所・覚えるわざ・進化条件・タイプ相性が1枚で見られます
+    - kind: add
+      href: /reborn/tms/
+      text: わざマシン一覧のページを追加しました。番号とわざの対応、それぞれの入手場所が引けます
+    - kind: add
+      href: /reborn/evolutions/
+      text: 進化条件の一覧ページを追加しました
+    - kind: add
+      href: /reborn/pulsedex/
+      text: PULSE図鑑のページを追加しました
+    - kind: add
+      text: 付録に、技教え人で教われるわざと、バッジ別のレベル上限を足しました
+    - kind: add
+      text: サファイラの会話フローチャートと、VRパズルの解答表を日本語で描き直しました
+
+- date: "2026-08-22"
+  items:
+    - kind: add
+      href: /reborn/pokemon/
+      text: ポケモンの出現場所ページを追加しました。種族から「どこに出るか」を逆に引けます
+    - kind: add
+      href: /reborn/shops/
+      text: どうぐの買える店のページを追加しました。どうぐから「どこで買えるか」を逆に引けます
+    - kind: add
+      href: /reborn/affinity/
+      text: 好感度まとめのページを追加しました
+    - kind: add
+      href: /reborn/fields/
+      text: フィールド効果のページを追加しました
+    - kind: imp
+      href: /reborn/
+      text: 目次を索引として引けるようにしました。地名・人物名・店名でも絞れます
+    - kind: imp
+      text: 付録のパスワード一覧・ものひろい表・採掘確率を、ゲームのデータと突き合わせて組み直しました
+    - kind: imp
+      text: 読みやすさのためにレイアウトを組み直し、ネタバレの開閉・印刷・キーボード操作を整えました
+    - kind: new
+      text: 日本語版を公開しました

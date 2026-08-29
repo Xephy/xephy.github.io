@@ -16,6 +16,7 @@ require_relative 'machine_index_page'
 require_relative 'evolution_index_page'
 require_relative 'pulsedex_page'
 require_relative 'reference_pages'
+require_relative 'changelog'
 require_relative 'trainer_index'
 require_relative 'mon_page'
 require_relative 'move_page'
@@ -373,6 +374,8 @@ def generate_md_text(game = 'reborn', scripts_dir)
     <h5> #{JaNames.ui('Based on game ver.')} #{game_version}</h5>
     <p><a href="/#{LONGNAMES[game]}/all/">#{JaNames.ui('Single page')}</a>#{JaNames.enabled? ? %( / <a href="/patch/">日本語化パッチの導入方法</a>) : ''}</p>
 
+    #{Changelog.recent_html(LONGNAMES[game])}
+
     #{generate_index_contents(game, chapters)}
   INDEX
 
@@ -396,6 +399,10 @@ def generate_md_text(game = 'reborn', scripts_dir)
   pages['fields'] = field_page if field_page
   affinity_page = AffinityIndex.build_page(chapters, LONGNAMES[game])
   pages['affinity'] = affinity_page if affinity_page
+  # 更新履歴。ゲームの資料ではないので ReferencePages (資料の並び) には入れない。
+  # 入口は目次ページの「更新情報」から。
+  changelog_page = Changelog.build_page(LONGNAMES[game])
+  pages['changelog'] = changelog_page if changelog_page
 
   # ポケモン1種につき1ページ。章の索引 (出現・教え人・マシン・トレーナー) が
   # 出そろってからでないと組めないので、資料ページの後に置く。

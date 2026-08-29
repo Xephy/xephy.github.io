@@ -31,9 +31,9 @@
 - `jekyll-sitemap` が `/sitemap.xml` を生成する。**GitHub Pages では既定で有効にならない**ので
   `_config.yml` の `plugins` に明示してある
 - `src/robots.txt` から `Sitemap: https://xephy.github.io/sitemap.xml` で参照している
-- 現在 1,539 URL（`bin/check-tracking` が件数と中身を確認する）
+- 現在 1,540 URL（`bin/check-tracking` が件数と中身を確認する）
 
-トップページからのリンクだけでは 1,542 ページ全部は辿ってもらえないので、サイトマップは要る。
+トップページからのリンクだけでは 1,543 ページ全部は辿ってもらえないので、サイトマップは要る。
 ただし**サイトマップが読めなくてもインデックス登録自体は進む。** 焦らないこと。
 
 ### 2026-08-27 の切り分け（記録）

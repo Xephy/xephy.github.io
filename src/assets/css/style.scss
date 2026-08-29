@@ -3469,3 +3469,112 @@ body.night-mode .mvi-chip.is-status { color: #c3cad2; }
   #main_content .mvi-table :is(th, td):nth-child(n+4):nth-child(-n+6) { display: none; }
   .mvi-cat { width: auto; }
 }
+
+/* --- 更新情報 (目次ページの塊と /reborn/changelog/) --- */
+
+/* 目次の上に置く。章の一覧を押し下げないよう、目次より詰めた行送りにする。 */
+.news {
+  margin: 16px 0 22px;
+  padding: 12px 16px 14px;
+  border: 1px solid #d8dde3;
+  border-radius: 8px;
+  background: #f7f9fb;
+}
+
+#main_content .news-title {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 0 0 8px;
+  padding: 0;
+  border: 0;
+  color: #2b4b6b;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.news-all { margin-left: auto; font-size: 12.5px; font-weight: normal; white-space: nowrap; }
+
+#main_content .news-list { margin: 0; padding: 0; list-style: none; }
+#main_content .news-list li {
+  display: grid;
+  grid-template-columns: 3.2em 4.6em minmax(0, 1fr);
+  align-items: baseline;
+  gap: 4px 8px;
+  margin: 0;
+  padding: 5px 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+#main_content .news-list li + li { border-top: 1px solid #e6eaef; }
+.news-list time { color: #687381; font-size: 12px; font-variant-numeric: tabular-nums; }
+
+/* 日付を出さない一覧 (/reborn/changelog/) では、その列を畳む。 */
+#main_content .news-day .news-list li { grid-template-columns: 4.6em minmax(0, 1fr); }
+
+/* 何の変更かを一目で。色は札の意味とそろえる (新機能は青、修正は橙)。 */
+.news-kind {
+  justify-self: start;
+  padding: 0 7px;
+  border: 1px solid #c7ced7;
+  border-radius: 4px;
+  color: #4a545f;
+  font-size: 11px;
+  line-height: 1.7;
+  white-space: nowrap;
+}
+
+.news-kind.is-new { border-color: #8fb0d0; color: #245b8c; }
+.news-kind.is-add { border-color: #9dc49d; color: #2c6b34; }
+.news-kind.is-imp { border-color: #b3aad4; color: #4d4185; }
+.news-kind.is-fix { border-color: #d2b184; color: #7a5320; }
+
+/* 文そのものはリンクにしない。長い文が丸ごと青くなると、どこが押せるのか
+   分からなくなる。行き先は文末の小さなリンクにまとめる。 */
+.news-go { margin-left: 4px; font-size: 12.5px; white-space: nowrap; }
+
+/* 日付の見出し。共通の h2 は 23px 用に padding-left: 12px / 帯 5px を持って
+   いる。ここは 15px と小さいので、帯を細くしたぶんだけ余白も詰める。
+   padding をまとめて 0 にすると、文字が帯に貼り付いていた。 */
+#main_content .news-day h2 {
+  margin: 30px 0 10px;
+  padding: 1px 0 1px 10px;
+  border-left-width: 3px;
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 最初の日付だけは、上の説明文との間が空きすぎないようにする。 */
+#main_content .news-day:first-of-type h2 { margin-top: 22px; }
+
+body.night-mode .news { background: #1a1d22; border-color: #333a44; }
+body.night-mode #main_content .news-title { color: #a8c3e0; }
+body.night-mode #main_content .news-list li + li { border-top-color: #2a3038; }
+body.night-mode .news-list time { color: #9aa4b0; }
+body.night-mode .news-kind { border-color: #454e5a; color: #c3cad2; }
+body.night-mode .news-kind.is-new { color: #8fc0ee; }
+body.night-mode .news-kind.is-add { color: #8fd39a; }
+body.night-mode .news-kind.is-imp { color: #b6adde; }
+body.night-mode .news-kind.is-fix { color: #e0bb84; }
+
+@media (max-width: 600px) {
+  .news { padding: 11px 13px 12px; }
+
+  /* 日付・札・本文の3列を 390px に詰めると本文が 1〜2語で折れる。
+     日付と札を1行目にまとめ、本文を丸ごと次の行に置く。 */
+  #main_content .news-list li,
+  #main_content .news-day .news-list li {
+    grid-template-columns: 3.2em minmax(0, 1fr);
+    gap: 2px 8px;
+  }
+
+  .news-text { grid-column: 1 / -1; }
+  #main_content .news-day .news-list li { grid-template-columns: minmax(0, 1fr); }
+
+  /* 目次ページの塊だけ3件に減らす。狭い画面では1件が2行になるので、5件
+     並べると章の一覧が画面の外へ出る。残りは「これまでの更新」にある。
+     履歴ページ (.news-day) は全件のままにする。 */
+  #main_content .news > .news-list li:nth-child(n+4) { display: none; }
+}

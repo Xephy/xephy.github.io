@@ -10,17 +10,23 @@ Rejuvenation と Desolation は日本語化していないため、ページを�
 ## 更新のしかた
 
 ```
-bin/ja build     # 手元のゲームの Scripts から src/reborn.md と章ページを生成
+_ja/changelog.yml に1行足す   # 読む側から見える変更を公開したとき
+bin/ja build                  # 手元のゲームの Scripts から src/reborn.md と章ページを生成
 git commit -a
-git push         # push すると Actions がビルドして公開する
+git push                      # push すると Actions がビルドして公開する
 ```
+
+`_ja/changelog.yml` は目次ページの「更新情報」と `/reborn/changelog/` になります。
+目次の「最終更新」はビルドした時刻なので、中身が変わっていない日でも動きます。
+**何が変わったのかを答えられるのは changelog だけ**なので、公開したら忘れずに
+足してください。読む側から見えない変更 (計測の設定など) は載せません。
 
 `bin/ja serve` にすると生成後にローカルサーバーが立ち上がります。
 `bin/ja en` は英語版として生成し直すので、日本語化の回帰確認に使えます。
 
-生成物 (`src/reborn.md`、`src/reborn-chapters/`、`src/reborn-mon/`、`src/reborn-move/`) を
-コミットしているのは、
-上流のワークフローが使う非公開のゲームデータリポジトリに触れないためです。
+生成物 (`src/reborn.md`、`src/reborn-chapters/`、`src/reborn-mon/`、`src/reborn-move/`)
+をコミットしているのは、上流のワークフローが使う非公開のゲームデータ
+リポジトリに触れないためです。
 CI はゲームの Scripts を持てないので、出来上がった `src/` をビルドして
 配信するだけになっています。**`bin/ja build` を忘れると原稿を直しても公開
 内容は変わりません。**
