@@ -13,6 +13,7 @@ module ReferencePages
     { slug: 'mon', label: 'ポケモン図鑑', en: 'Pokedex' },
     { slug: 'pokemon', label: 'ポケモンの出現場所', en: 'Wild Encounters' },
     { slug: 'shops', label: 'どうぐの買える店', en: 'Shop Index' },
+    { slug: 'move', label: 'わざから探す', en: 'Move Index' },
     { slug: 'tms', label: 'わざマシン一覧', en: 'TM & HM List' },
     { slug: 'evolutions', label: '進化条件の一覧', en: 'Evolution Methods' },
     { slug: 'pulsedex', label: 'PULSE図鑑', en: 'Pulse Dex' },

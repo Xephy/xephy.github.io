@@ -12,6 +12,7 @@ require_relative 'trainer_index'
 require_relative 'doc_context'
 require_relative 'field_notes'
 require_relative 'mon_index_page'
+require_relative 'move_index'
 
 # ポケモン1種につき1ページ。
 #
@@ -100,7 +101,7 @@ module MonPage
 
   # --- わざの表 -------------------------------------------------------------
 
-  def move_row(move_hash, sym, scripts_dir, lead = nil, extra = nil)
+  def move_row(game, move_hash, sym, scripts_dir, lead = nil, extra = nil)
     move = move_hash[sym]
     return '' unless move
 
@@ -116,7 +117,12 @@ module MonPage
       %(<td class="md-move">#{type_badge(move[:type], 'md-tb')}) +
       # 本文の戦闘表と同じ move-name にする。点線の下線と cursor: help が
       # 付き、マウスが無い環境でもタップで説明が出る (myscripts.js)。
-      %(<span class="move-name md-move-name" title="#{esc(move[:desc])}#{esc(facts)}">#{esc(move[:name])}</span></td>) +
+      #
+      # data-move-href を足すと、その説明のふきだしに「このわざを覚えるポケモン」
+      # への導線が出る。名前そのものをリンクにすると、タップで説明を出す動きと
+      # 取り合いになるので、ふきだしの中に置く。
+      %(<span class="move-name md-move-name" data-move-href="/#{game}/move/#{sym.to_s.downcase}/" ) +
+      %(title="#{esc(move[:desc])}#{esc(facts)}">#{esc(move[:name])}</span></td>) +
       %(<td class="md-cat">#{esc(MonData.category_label(move[:category]))}</td>) +
       %(<td class="md-num">#{power}</td><td class="md-num">#{accuracy}</td>) +
       %(<td class="md-num">#{pp}</td>) +
@@ -168,11 +174,18 @@ module MonPage
     }
   end
 
+  # 組み終えた索引。わざ側のページ (MovePage) が、マシンと教え人の入手先を
+  # 出すのに同じものを要る。章を舐め直すと本文2万行をもう一度読むことに
+  # なるので、ここで組んだものを渡す。
+  def last_context
+    @last_context
+  end
+
   def build_pages(game, scripts_dir, chapters, hashes)
     pokemon_hash = hashes[:pokemon]
     return {} if pokemon_hash.nil? || pokemon_hash.empty?
 
-    ctx = context(game, scripts_dir, chapters, hashes[:item], hashes[:move])
+    ctx = @last_context = context(game, scripts_dir, chapters, hashes[:item], hashes[:move])
     # 「同じ条件で進化するポケモンは何件あるか」。個別ページから資料ページへ
     # 送るときに、行った先の量が分かるようにする。
     ctx[:pokemon] = pokemon_hash
@@ -297,7 +310,7 @@ module MonPage
      ['match',   matchups(forms, form_key, hashes)],
      ['evo',     evolution(game, species, forms, form_key, index, hashes, ctx)],
      ['enc',     encounters(species, forms, form_key, hashes, ctx)],
-     ['moves',   moves(species, scripts_dir, forms, form_key, hashes, ctx)],
+     ['moves',   moves(species, scripts_dir, forms, form_key, index, hashes, ctx)],
      ['hm',      hidden_machines(species, scripts_dir, forms, form_key, hashes, ctx)],
      ['field',   fields(species, scripts_dir, forms, form_key, hashes, ctx)],
      ['egg',     egg_mates(game, species, forms, form_key, hashes)]]
@@ -574,7 +587,34 @@ module MonPage
       %(</section>)
   end
 
-  def moves(species, scripts_dir, forms, form_key, hashes, ctx)
+  # わざ側の索引 (/reborn/move/) に投げ込む。
+  #
+  # 逆引きを別に組むと 691わざ × 808種の総当たりになるが、ここでは既に
+  # 姿ごとの結論が出ているので判定は1回も増えない。表と索引が同じ値から
+  # 出るので、片方だけ直して食い違うということも起きない。
+  def record_moves(species, form_index, move_hash, level:, machines:, tutors:,
+                   egg:, relearner:, shadow:)
+    level.each do |lv, sym|
+      MoveIndex.record(move: sym, species: species, form_index: form_index,
+                       way: :level, level: lv.to_i) if move_hash[sym]
+    end
+    machines.each do |machine|
+      sym = move_hash.key(machine[:move])
+      next unless sym
+
+      MoveIndex.record(move: sym, species: species, form_index: form_index,
+                       way: :machine, machine: machine)
+    end
+    { tutor: tutors, egg: egg, relearner: relearner, shadow: shadow }.each do |way, syms|
+      syms.each do |sym|
+        next unless move_hash[sym]
+
+        MoveIndex.record(move: sym, species: species, form_index: form_index, way: way)
+      end
+    end
+  end
+
+  def moves(species, scripts_dir, forms, form_key, form_index, hashes, ctx)
     move_hash = hashes[:move]
     item_hash = hashes[:item]
 
@@ -589,16 +629,20 @@ module MonPage
     relearner = MonData.attr_of(forms, form_key, :RelearnerMoves) || []
     shadow = MonData.attr_of(forms, form_key, :shadowmoves) || []
 
+    record_moves(species, form_index, move_hash,
+                 level: level_moves, machines: machines, tutors: tutors,
+                 egg: egg_moves, relearner: relearner, shadow: shadow)
+
     tabs = []
     tabs << ['Level', level_moves.size, move_table(:level, level_moves.map { |level, sym|
       lead = level.to_i <= 1 ? ui('From the start') : "#{JaNames.ui('Lv.')}#{level}"
-      move_row(move_hash, sym, scripts_dir, lead)
+      move_row(ctx[:game], move_hash, sym, scripts_dir, lead)
     }.join)]
 
     tabs << ['TMs', machines.size, move_table(:machine, machines.map { |machine|
       place = machine[:places].first
       where = place ? %(<a href="#{place[:href]}">#{esc(place[:text])}</a>) : %(<span class="md-empty">—</span>)
-      move_row(move_hash, move_hash.key(machine[:move]), scripts_dir,
+      move_row(ctx[:game], move_hash, move_hash.key(machine[:move]), scripts_dir,
                %(<a class="md-tm-no" href="/#{ctx[:game]}/tms/##{machine_anchor(machine)}">#{esc(short_label(machine))}</a>),
                where)
     }.join)]
@@ -612,20 +656,20 @@ module MonPage
               else
                 %(<span class="md-empty">—</span>)
               end
-      move_row(move_hash, sym, scripts_dir, nil, where)
+      move_row(ctx[:game], move_hash, sym, scripts_dir, nil, where)
     }.join)]
 
     unless egg_moves.empty?
       tabs << ['Egg moves', egg_moves.size,
-               move_table(:plain, egg_moves.map { |sym| move_row(move_hash, sym, scripts_dir) }.join)]
+               move_table(:plain, egg_moves.map { |sym| move_row(ctx[:game], move_hash, sym, scripts_dir) }.join)]
     end
     unless relearner.empty?
       tabs << ['Relearner moves', relearner.size,
-               move_table(:plain, relearner.map { |sym| move_row(move_hash, sym, scripts_dir) }.join)]
+               move_table(:plain, relearner.map { |sym| move_row(ctx[:game], move_hash, sym, scripts_dir) }.join)]
     end
     unless shadow.empty?
       tabs << ['Shadow Moves', shadow.size,
-               move_table(:plain, shadow.map { |sym| move_row(move_hash, sym, scripts_dir) }.join)]
+               move_table(:plain, shadow.map { |sym| move_row(ctx[:game], move_hash, sym, scripts_dir) }.join)]
     end
 
     buttons = tabs.each_with_index.map { |(label, count, _), i|

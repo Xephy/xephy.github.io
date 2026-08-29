@@ -2558,6 +2558,21 @@ body.night-mode .book-toc-chapter li a:hover { color: #ffffff; border-left-color
   box-shadow: 0 6px 20px rgba(16, 24, 40, 0.25);
 }
 
+/* ふきだしの中から、わざのページ (/reborn/move/) へ。説明を読んだあとに
+   「で、ほかに誰が覚えるのか」へ続けられるようにする。 */
+#main_content .move-popup-link,
+.move-popup-link {
+  display: block;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #3c434d;
+  color: #8fc0ee;
+  font-size: 12.5px;
+  text-decoration: none;
+}
+
+.move-popup-link:hover { color: #b8d8f5; text-decoration: underline; }
+
 /* 種族アイコン。ドット絵なので拡大時もぼかさない。 */
 .mon-icon {
   flex: 0 0 auto;
@@ -3281,3 +3296,176 @@ body.night-mode .md-note a[href*="/pokemon/?"],
 body.night-mode .md-note a[href*="/evolutions/?"] { border-color: #454e5a; }
 body.night-mode .md-note a[href*="/pokemon/?"]:hover,
 body.night-mode .md-note a[href*="/evolutions/?"]:hover { border-color: #3f7fbf; color: #a8c3e0; }
+
+/* --- わざのページ (/reborn/move/) --- */
+
+/* わざの見出し。ポケモン個別ページの md-hero と同じ枠にそろえるが、
+   絵が無いぶん左が空くので、タイプの札を絵の位置に置く。 */
+.mv-hero {
+  display: flex;
+  align-items: center;
+  gap: 14px 22px;
+  flex-wrap: wrap;
+  margin: 14px 0 14px;
+  padding: 14px 18px;
+  border: 1px solid #d8dde3;
+  border-radius: 8px;
+  background: #f7f9fb;
+}
+
+.mv-hero-id { display: flex; align-items: center; gap: 12px; }
+.mv-hero-name { margin: 0; font-size: 26px; font-weight: 700; line-height: 1.3; }
+.mv-hero-name .md-en { margin-left: 10px; color: #687381; font-size: 15px; font-weight: normal; }
+.mv-hero .md-facts { margin-left: auto; }
+
+.mv-desc { margin: 0 0 8px; font-size: 16px; }
+
+/* 説明文のあとに続く実測値 (急所率・追加効果の確率・能力変化の段階)。
+   図鑑では title 属性に畳んでいるが、わざが主役のこのページでは開いて出す。 */
+.mv-facts { margin: 0 0 18px; padding: 0; list-style: none; }
+#main_content .mv-facts li {
+  display: inline-block;
+  margin: 0 6px 4px 0;
+  padding: 2px 10px;
+  border: 1px solid #c7ced7;
+  border-radius: 999px;
+  color: #4a545f;
+  font-size: 12.5px;
+}
+
+.mv-lead { margin: 0 0 12px; }
+
+/* わざマシンの番号と教え人。行き先が本文なので、リンクを目立たせる。 */
+.mv-source { display: flex; align-items: baseline; gap: 6px 14px; flex-wrap: wrap; }
+.mv-source + .mv-source { margin-top: 8px; }
+.mv-source-lead { min-width: 7.5em; font-weight: 600; }
+.mv-source-where { color: #4a545f; font-size: 14px; }
+
+/* --- 覚え方の札 --- */
+
+/* 覚え方でしか色を分けない。タイプの札と同じ大きさだと、1枚のカードに
+   同じ形の札が4つ並んで読めなくなるので、こちらは枠線だけにする。 */
+.mv-ways { display: flex; gap: 3px; flex-wrap: wrap; margin-top: 2px; }
+.mv-way {
+  display: inline-block;
+  padding: 0 6px;
+  border: 1px solid #c7ced7;
+  border-radius: 4px;
+  color: #4a545f;
+  font-size: 10.5px;
+  line-height: 1.7;
+  white-space: nowrap;
+}
+
+.mv-way.is-level { border-color: #8fb0d0; color: #245b8c; }
+.mv-way.is-machine { border-color: #9dc49d; color: #2c6b34; }
+.mv-way.is-tutor { border-color: #d2b184; color: #7a5320; }
+.mv-way.is-egg { border-color: #cfa3c4; color: #7a3d6c; }
+.mv-way.is-relearner { border-color: #b3aad4; color: #4d4185; }
+.mv-way.is-shadow { border-color: #a9a9a9; color: #45454f; }
+
+/* 基本形とちがう姿でだけ覚えるもの (アローラのサンドなど)。札の絵とタイプも
+   その姿のものを出しているので、どの姿の話か分かるように名前を添える。
+   名前と同じ行には置かない。「サンドパン アローラのすがた」で札の幅を
+   越え、末尾が「…」に切られていた。 */
+.mv-form { color: #687381; font-size: 10.5px; line-height: 1.5; }
+
+/* 覚え方の札が1行ぶん増えるので、名前が省略されないよう列を広げる。 */
+.ml-grid { grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
+
+/* 絞り込みの札。押せることが分かるよう、丸を少し大きくする。 */
+.ml-filter .mv-way,
+.mvi-filter .mvi-chip {
+  min-width: 0;
+  padding: 2px 8px;
+  font-size: 12px;
+  line-height: 1.5;
+  background: none;
+  cursor: pointer;
+}
+
+.mvi-chip.is-physical { border-color: #d09a8f; color: #8c3b2a; }
+.mvi-chip.is-special { border-color: #8fa8d0; color: #2a4a8c; }
+.mvi-chip.is-status { border-color: #b8bcc2; color: #4a545f; }
+
+/* --- わざ一覧の表 (/reborn/move/) --- */
+.mvi-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+
+/* わざ名の列に余りを全部渡す。渡さないと威力・命中・PP の列が等分に
+   広がり、数字1つのために 200px を取っていた。 */
+.mvi-name { width: 100%; }
+#main_content .mvi-table th {
+  padding: 6px 8px;
+  border-bottom: 2px solid #d8dde3;
+  color: #687381;
+  font-size: 11.5px;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+}
+
+#main_content .mvi-table td { padding: 5px 8px; border-bottom: 1px solid #eceff3; vertical-align: middle; }
+.mvi-type { width: 1%; }
+.mvi-type .type-badge { min-width: 0; padding: 0 7px; font-size: 10.5px; }
+.mvi-name a { font-weight: 600; }
+.mvi-en { margin-left: 8px; color: #687381; font-size: 11.5px; }
+.mvi-cat { width: 3.4em; color: #4a545f; font-size: 12.5px; white-space: nowrap; }
+
+/* 威力・命中・PP。わざ名の列に余りを全部渡してあるぶん、この3列は中身ぴったりまで
+   詰まる。「必中」の2文字が「必」「中」に割れて行が2倍の高さになっていた。
+   md-moves (図鑑の表) 側には同じ指定があるが、あちらは .md-moves の中限定。 */
+.mvi-table .md-num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* 覚えるポケモンの数。押す前に行った先の量が分かるようにする。 */
+.mvi-count { width: 1%; text-align: right; }
+.mvi-count span {
+  display: inline-block;
+  min-width: 3.4em;
+  padding: 0 7px;
+  border-radius: 4px;
+  background: #eef2f6;
+  color: #4a545f;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+body.night-mode .mv-hero { background: #1a1d22; border-color: #333a44; }
+body.night-mode .mv-hero-name .md-en,
+body.night-mode .mv-form,
+body.night-mode .mvi-en { color: #9aa4b0; }
+body.night-mode .mv-source-where,
+body.night-mode .mv-way,
+body.night-mode .mvi-cat { color: #c3cad2; }
+body.night-mode .mv-way { border-color: #454e5a; }
+body.night-mode #main_content .mv-facts li { border-color: #454e5a; color: #c3cad2; }
+body.night-mode #main_content .mvi-table th { border-bottom-color: #3a424e; color: #9aa4b0; }
+body.night-mode #main_content .mvi-table td { border-bottom-color: #2a3038; }
+body.night-mode .mvi-count span { background: #262b33; color: #c3cad2; }
+
+/* 夜間は枠線だけだと沈むので、文字の色で見分ける。 */
+body.night-mode .mv-way.is-level { color: #8fc0ee; }
+body.night-mode .mv-way.is-machine { color: #8fd39a; }
+body.night-mode .mv-way.is-tutor { color: #e0bb84; }
+body.night-mode .mv-way.is-egg { color: #e2a5d3; }
+body.night-mode .mv-way.is-relearner { color: #b6adde; }
+body.night-mode .mv-way.is-shadow { color: #b0b0bc; }
+body.night-mode .mvi-chip.is-physical { color: #eda694; }
+body.night-mode .mvi-chip.is-special { color: #98b6ee; }
+body.night-mode .mvi-chip.is-status { color: #c3cad2; }
+
+@media (max-width: 600px) {
+  .mv-hero { padding: 12px 13px; }
+  .mv-hero-name { font-size: 21px; }
+  .mv-hero .md-facts { margin-left: 0; }
+  .mv-source-lead { min-width: 0; }
+  .ml-grid { grid-template-columns: repeat(auto-fill, minmax(min(165px, 100%), 1fr)); }
+  .mvi-en { display: none; }
+
+  /* 威力・命中・PP を落とす。7列を 390px に詰めると「いびき」が3行に
+     割れて、名前が読めなくなっていた。横に流すこともできるが、この表で
+     いちばん見たいのは名前と覚える数なので、そこを残して数字を畳む。
+     数字はわざのページを開けば出る。 */
+  #main_content .mvi-table :is(th, td):nth-child(n+4):nth-child(-n+6) { display: none; }
+  .mvi-cat { width: auto; }
+}

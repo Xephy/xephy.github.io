@@ -18,6 +18,7 @@ require_relative 'pulsedex_page'
 require_relative 'reference_pages'
 require_relative 'trainer_index'
 require_relative 'mon_page'
+require_relative 'move_page'
 require_relative 'spoiler'
 require_relative 'function_wrapper'
 
@@ -322,6 +323,7 @@ def generate_md_text(game = 'reborn', scripts_dir)
   EncounterIndex.reset!
   ShopIndex.reset!
   TutorIndex.reset!
+  MoveIndex.reset!
   TrainerIndex.reset!
   FieldUsage.reset!
   BadgeIndex.reset!
@@ -406,11 +408,19 @@ def generate_md_text(game = 'reborn', scripts_dir)
                                   map: func_wrapper.map_hash,
                                   field: load_field_hash(game, scripts_dir))
 
+  # わざ1本につき1ページ。逆引きの中身は個別ページを組む過程で MoveIndex に
+  # 溜まるので、必ず MonPage の後に置く。
+  move_pages = MovePage.build_pages(LONGNAMES[game], scripts_dir,
+                                    { pokemon: func_wrapper.pokemon_hash,
+                                      move: func_wrapper.move_hash },
+                                    MonPage.last_context)
+
   {
     monolithic: res.strip,
     chapters: chapters,
     index: index,
     pages: pages,
-    mon_pages: mon_pages
+    mon_pages: mon_pages,
+    move_pages: move_pages
   }
 end

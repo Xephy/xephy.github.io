@@ -18,7 +18,8 @@ git push         # push すると Actions がビルドして公開する
 `bin/ja serve` にすると生成後にローカルサーバーが立ち上がります。
 `bin/ja en` は英語版として生成し直すので、日本語化の回帰確認に使えます。
 
-生成物 (`src/reborn.md`、`src/reborn-chapters/`) をコミットしているのは、
+生成物 (`src/reborn.md`、`src/reborn-chapters/`、`src/reborn-mon/`、`src/reborn-move/`) を
+コミットしているのは、
 上流のワークフローが使う非公開のゲームデータリポジトリに触れないためです。
 CI はゲームの Scripts を持てないので、出来上がった `src/` をビルドして
 配信するだけになっています。**`bin/ja build` を忘れると原稿を直しても公開

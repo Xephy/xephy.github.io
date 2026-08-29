@@ -204,6 +204,21 @@ $(document).ready(function() {
       pop.className = 'move-popup';
       pop.dataset.owner = text;
       pop.textContent = text;
+
+      // 図鑑からわざのページへ。名前そのものをリンクにすると、タップして
+      // 説明を出す動きと取り合いになるので、開いたふきだしの中に置く。
+      // data-move-href はポケモン個別ページの表だけが持っている。
+      var moveHref = el.getAttribute('data-move-href');
+      if (moveHref) {
+        var link = document.createElement('a');
+        link.className = 'move-popup-link';
+        link.href = moveHref;
+        link.textContent = 'このわざを覚えるポケモン →';
+        // ふきだしの外側の click は close() なので、そこまで上げない。
+        link.addEventListener('click', function (e) { e.stopPropagation(); });
+        pop.appendChild(link);
+      }
+
       document.body.appendChild(pop);
 
       var r = el.getBoundingClientRect();
@@ -1975,3 +1990,171 @@ function refEmpty(bar) {
 
   apply();
 })();
+
+// わざのページ2枚 (/reborn/move/ の一覧と、わざ1本ごとのページ) の絞り込み。
+//
+// 一覧は表の行691本、個別は札が最大787枚。見た目は違うが、やることは同じで
+// 「文字で絞る」「札で絞る」「件数を出す」「条件を URL に残す」の4つしかない。
+// 出現場所ページと図鑑で同じ処理を2度書いてあるので、ここは1つにまとめる。
+//
+// 札は同じ組の中では「どれか」(こおり か みず)、組をまたぐと「かつ」
+// (こおりタイプ かつ レベルで覚える) で効く。
+function refPickFilter(opts) {
+  var bar = document.querySelector(opts.bar);
+  if (!bar) return;
+  var items = [].slice.call(document.querySelectorAll(opts.items));
+  if (!items.length) return;
+
+  var input = document.getElementById(opts.input);
+  var countEl = bar.querySelector('.ref-count');
+  var resetEl = bar.querySelector('.ref-reset');
+
+  bar.hidden = false;
+
+  // ひらがなで打っても片仮名の名前に当たるようにする。
+  function norm(s) {
+    return (s || '').normalize('NFKC').toLowerCase()
+      .replace(/[ぁ-ゖ]/g, function (c) {
+        return String.fromCharCode(c.charCodeAt(0) + 0x60);
+      });
+  }
+
+  items.forEach(function (el) {
+    el._hay = norm(opts.text.map(function (attr) {
+      return el.getAttribute(attr) || '';
+    }).join(' '));
+    el._vals = {};
+    opts.groups.forEach(function (g) {
+      el._vals[g.name] = (el.getAttribute(g.attr) || '').split(' ');
+    });
+  });
+
+  var picked = {};
+  opts.groups.forEach(function (g) { picked[g.name] = []; });
+
+  function chipsOf(group) {
+    return [].slice.call(bar.querySelectorAll('.ref-chips[data-group="' + group + '"] .ref-chip'));
+  }
+
+  function apply() {
+    var terms = input ? norm(input.value.trim()) : '';
+    terms = terms ? terms.split(/\s+/) : [];
+    var shown = 0;
+    var filtering = terms.length > 0;
+
+    opts.groups.forEach(function (g) { if (picked[g.name].length) filtering = true; });
+
+    items.forEach(function (el) {
+      var ok = true;
+      for (var i = 0; ok && i < opts.groups.length; i++) {
+        var g = opts.groups[i];
+        var want = picked[g.name];
+        if (!want.length) continue;
+        ok = want.some(function (v) { return el._vals[g.name].indexOf(v) !== -1; });
+      }
+      if (ok && terms.length) {
+        ok = terms.every(function (t) { return el._hay.indexOf(t) !== -1; });
+      }
+      el.hidden = !ok;
+      if (ok) shown++;
+    });
+
+    if (countEl) {
+      countEl.textContent = shown === items.length ? '' : shown + ' / ' + items.length;
+    }
+    bar.classList.toggle('is-filtering', filtering);
+    save(filtering);
+  }
+
+  // 絞った状態を URL に残す。人に渡せるようにするため。
+  function save(filtering) {
+    if (!window.history || !history.replaceState) return;
+    var p = new URLSearchParams();
+    if (input && input.value.trim()) p.set('q', input.value.trim());
+    opts.groups.forEach(function (g) {
+      if (picked[g.name].length) p.set(g.param, picked[g.name].join(','));
+    });
+    var s = p.toString();
+    history.replaceState(null, '', (filtering && s ? '?' + s : location.pathname) + location.hash);
+  }
+
+  if (input) input.addEventListener('input', apply);
+
+  opts.groups.forEach(function (g) {
+    chipsOf(g.name).forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        var value = chip.getAttribute('data-value');
+        var at = picked[g.name].indexOf(value);
+        if (at === -1) picked[g.name].push(value); else picked[g.name].splice(at, 1);
+        chip.classList.toggle('is-on', at === -1);
+        chip.setAttribute('aria-pressed', at === -1 ? 'true' : 'false');
+        apply();
+      });
+    });
+  });
+
+  if (resetEl) {
+    resetEl.addEventListener('click', function () {
+      if (input) input.value = '';
+      opts.groups.forEach(function (g) {
+        picked[g.name] = [];
+        chipsOf(g.name).forEach(function (chip) {
+          chip.classList.remove('is-on');
+          chip.setAttribute('aria-pressed', 'false');
+        });
+      });
+      apply();
+      if (input) input.focus();
+    });
+  }
+
+  // 「/」で検索欄へ。入力中は邪魔しない。
+  if (input) {
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key !== '/' || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+      var t = ev.target;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+      ev.preventDefault();
+      input.focus();
+      input.select();
+    });
+  }
+
+  // 共有された URL の条件を復元する。
+  var p = new URLSearchParams(location.search);
+  if (input && p.get('q')) input.value = p.get('q');
+  opts.groups.forEach(function (g) {
+    var raw = p.get(g.param);
+    if (!raw) return;
+    raw.split(',').forEach(function (value) {
+      var chip = bar.querySelector('.ref-chips[data-group="' + g.name + '"] .ref-chip[data-value="' + value + '"]');
+      if (!chip) return;
+      picked[g.name].push(value);
+      chip.classList.add('is-on');
+      chip.setAttribute('aria-pressed', 'true');
+    });
+  });
+
+  apply();
+}
+
+// わざ一覧 (/reborn/move/)。名前・タイプ・分類で絞る。
+refPickFilter({
+  bar: '.mvi-filter',
+  items: '.mvi-table tbody tr',
+  input: 'mvi-q',
+  text: ['data-name', 'data-en'],
+  groups: [{ name: 'types', attr: 'data-types', param: 't' },
+           { name: 'cats', attr: 'data-cat', param: 'c' }]
+});
+
+// わざ1本のページ (/reborn/move/<英名>/)。覚えるポケモンを名前・タイプ・
+// 覚え方で絞る。「みずタイプで、レベルで覚えるのは誰か」が引けるようにする。
+refPickFilter({
+  bar: '.ml-filter',
+  items: '.ml-grid .mv-card',
+  input: 'ml-q',
+  text: ['data-name', 'data-en'],
+  groups: [{ name: 'types', attr: 'data-types', param: 't' },
+           { name: 'ways', attr: 'data-ways', param: 'w' }]
+});

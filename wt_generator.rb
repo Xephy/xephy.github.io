@@ -12,6 +12,26 @@ if ARGV.length != 3
   exit 1
 end
 
+# 生成した個別ページ (ポケモン805・わざ691) を書き出す。数が多いので .md では
+# なく .html にし、kramdown を通さずに済ませる。
+#
+# 中身が変わらないファイルは触らない。毎回 1,500 個を書き換えると、生成物を
+# コミットしているこのリポジトリが際限なく膨らむ。
+def write_generated_pages(base_dir, name, pages)
+  dir = File.join(base_dir, name)
+  FileUtils.mkdir_p(dir)
+  written = 0
+  pages.each do |slug, contents|
+    path = File.join(dir, "#{slug}.html")
+    body = "#{contents.strip}\n"
+    next if File.exist?(path) && File.read(path) == body
+
+    File.write(path, body)
+    written += 1
+  end
+  written
+end
+
 # Assign arguments to variables
 game = ARGV[0]
 scripts_dir = ARGV[1]
@@ -103,20 +123,15 @@ begin
   # kramdown を通さずに済むよう .html で書き出す。
   mon_pages = result[:mon_pages] || {}
   unless mon_pages.empty?
-    mon_dir = File.join(chapters_dir, "#{game}-mon")
-    FileUtils.mkdir_p(mon_dir)
-    written = 0
-    mon_pages.each do |slug, contents|
-      path = File.join(mon_dir, "#{slug}.html")
-      body = "#{contents.strip}\n"
-      # 中身が変わらないファイルは触らない。毎回 805 個を書き換えると、
-      # 生成物をコミットしているこのリポジトリが際限なく膨らむ。
-      next if File.exist?(path) && File.read(path) == body
+    written = write_generated_pages(chapters_dir, "#{game}-mon", mon_pages)
+    puts "Generated #{mon_pages.length} Pokemon pages in #{game}-mon (#{written} changed)"
+  end
 
-      File.write(path, body)
-      written += 1
-    end
-    puts "Generated #{mon_pages.length} Pokemon pages in #{mon_dir} (#{written} changed)"
+  # わざ個別ページ。ポケモン側と同じ扱い (691本・生の HTML)。
+  move_pages = result[:move_pages] || {}
+  unless move_pages.empty?
+    written = write_generated_pages(chapters_dir, "#{game}-move", move_pages)
+    puts "Generated #{move_pages.length} move pages in #{game}-move (#{written} changed)"
   end
 
   puts "Generated #{chapters.length} paginated chapter files in #{paginated_dir}"
