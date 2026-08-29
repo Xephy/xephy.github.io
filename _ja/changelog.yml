@@ -11,6 +11,12 @@
 # 目次ページ (/reborn/) には新しいほうから数件、全部は /reborn/changelog/ に出る。
 # 何かを公開したら、bin/ja build の前にここへ1行足すこと。
 
+- date: "2026-08-30"
+  items:
+    - kind: imp
+      href: /reborn/move/
+      text: わざ一覧の見出し（威力・命中・PP・覚える数）を押すと、その列で並べ替えられるようにしました
+
 - date: "2026-08-29"
   items:
     - kind: new

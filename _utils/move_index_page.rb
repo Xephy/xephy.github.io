@@ -33,13 +33,23 @@ module MoveIndexPage
     %(<span class="type-badge type-#{cls}">#{esc(label)}</span>)
   end
 
+  # 並べ替えに使う値。表に出るのは「—」や「必中」なので、字を読んで並べても
+  # 数の大小にならない。命中0はゲームでは「必ず当たる」なので、100 の上に置く。
+  def sort_keys(move, count)
+    { power: move[:basedamage].to_i,
+      acc: move[:accuracy].to_i.zero? ? 101 : move[:accuracy].to_i,
+      pp: move[:maxpp].to_i,
+      count: count }
+  end
+
   def row_html(game, move_sym, move, count)
     power = move[:basedamage].to_i.positive? ? move[:basedamage].to_s : '—'
     accuracy = move[:accuracy].to_i.zero? ? ui('Perfect') : "#{move[:accuracy]}%"
     en = move[:name_en] || move_sym.to_s.capitalize
+    keys = sort_keys(move, count).map { |name, value| %(data-#{name}="#{value}") }.join(' ')
 
     %(<tr data-name="#{esc(move[:name])}" data-en="#{esc(en)}" ) +
-      %(data-types="#{move[:type].to_s.downcase}" data-cat="#{move[:category]}">) +
+      %(data-types="#{move[:type].to_s.downcase}" data-cat="#{move[:category]}" #{keys}>) +
       %(<td class="mvi-type">#{type_badge(move[:type])}</td>) +
       %(<td class="mvi-name"><a href="/#{game}/move/#{move_sym.to_s.downcase}/">#{esc(move[:name])}</a>) +
       %(<span class="mvi-en">#{esc(en)}</span></td>) +
@@ -48,6 +58,28 @@ module MoveIndexPage
       %(<td class="md-num">#{accuracy}</td>) +
       %(<td class="md-num">#{esc(move[:maxpp] || '—')}</td>) +
       %(<td class="mvi-count"><span>#{count}</span></td></tr>)
+  end
+
+  # 見出しの行。数の4列は押して並べ替えられるようにする (myscripts.js の
+  # refSortTable)。押せる場所はボタンにする。th ごと押せるようにすると、
+  # キーボードでも読み上げでも「押せるもの」として辿れない。
+  #
+  # 既定は覚える数の降順で組んであるので、その列だけ最初から印を付けておく。
+  # JavaScript が動かない環境でも、表の並びと見出しの印が食い違わない。
+  def head_html(ja)
+    cells = [[nil, ui('Type')], [nil, ui('Moves')], [nil, ui('Category')],
+             ['power', ui('Power')], ['acc', ui('Accuracy')], ['pp', ui('PP')],
+             ['count', ja ? '覚える数' : 'Learners']]
+
+    cells.map { |key, label|
+      next %(<th>#{label}</th>) unless key
+
+      on = key == 'count'
+      %(<th class="mvi-sortable#{on ? ' is-on is-desc' : ''}" data-sort="#{key}" ) +
+        %(aria-sort="#{on ? 'descending' : 'none'}">) +
+        %(<button type="button" class="mvi-sort">#{label}) +
+        %(<span class="mvi-arrow" aria-hidden="true"></span></button></th>)
+    }.join
   end
 
   def filter_html(type_counts, cat_counts)
@@ -122,8 +154,7 @@ module MoveIndexPage
          "Sorted by how many Pokemon can learn it. #{comma(total_pairs)} pairs in total."]
       end
 
-    heads = [ui('Type'), ui('Moves'), ui('Category'), ui('Power'), ui('Accuracy'), ui('PP'),
-             ja ? '覚える数' : 'Learners']
+    heads = head_html(ja)
 
     <<~PAGE
       ---
@@ -144,7 +175,7 @@ module MoveIndexPage
       #{filter_html(type_counts, cat_counts)}
 
       <div class="md-scroll"><table class="mvi-table">
-      <thead><tr>#{heads.map { |h| "<th>#{h}</th>" }.join}</tr></thead>
+      <thead><tr>#{heads}</tr></thead>
       <tbody>#{rows.map { |sym, move, count| row_html(game, sym, move, count) }.join}</tbody>
       </table></div>
     PAGE

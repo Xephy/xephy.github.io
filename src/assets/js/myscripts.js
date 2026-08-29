@@ -2138,6 +2138,60 @@ function refPickFilter(opts) {
   apply();
 }
 
+// 表の並べ替え。/reborn/move/ の見出し (威力・命中・PP・覚える数) を押すと
+// その列で並び替わり、もう一度押すと昇順と降順が入れ替わる。
+//
+// 比べる値は行の data-* から取る。表に出ているのは「—」や「必中」なので、
+// 字を読んで並べても数の大小にならない。
+//
+// 絞り込みとは別々に動く。hidden は行に付いたままなので、並べ替えても
+// 隠れている行は隠れたままで、件数も変わらない。
+function refSortTable(sel) {
+  var table = document.querySelector(sel);
+  if (!table) return;
+  var body = table.tBodies[0];
+  var heads = [].slice.call(table.querySelectorAll('th[data-sort]'));
+  if (!body || !heads.length) return;
+
+  var rows = [].slice.call(body.rows);
+  // 既定の並び。同じ値の行はここで決める。覚える数が同じわざが名前順に
+  // 並んでいるので、威力で並べ替えてもその中の順は崩れない。
+  rows.forEach(function (row, i) { row._at = i; });
+
+  function sortBy(th, dir) {
+    var key = 'data-' + th.getAttribute('data-sort');
+    var sign = dir === 'desc' ? -1 : 1;
+    var sorted = rows.slice().sort(function (a, b) {
+      var d = (+a.getAttribute(key) || 0) - (+b.getAttribute(key) || 0);
+      return d ? sign * d : a._at - b._at;
+    });
+
+    // 1行ずつ動かすと691回の再描画になる。まとめて入れ替える。
+    var frag = document.createDocumentFragment();
+    sorted.forEach(function (row) { frag.appendChild(row); });
+    body.appendChild(frag);
+
+    heads.forEach(function (other) {
+      var on = other === th;
+      other.setAttribute('aria-sort', on ? (dir === 'desc' ? 'descending' : 'ascending') : 'none');
+      other.classList.toggle('is-on', on);
+      other.classList.toggle('is-desc', on && dir === 'desc');
+      other.classList.toggle('is-asc', on && dir === 'asc');
+    });
+  }
+
+  heads.forEach(function (th) {
+    var btn = th.querySelector('.mvi-sort');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      // 最初の一押しは降順。数の列なので、まず大きいほうから見たい。
+      sortBy(th, th.classList.contains('is-desc') ? 'asc' : 'desc');
+    });
+  });
+}
+
+refSortTable('.mvi-table');
+
 // わざ一覧 (/reborn/move/)。名前・タイプ・分類で絞る。
 refPickFilter({
   bar: '.mvi-filter',
