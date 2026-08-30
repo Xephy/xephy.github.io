@@ -5,13 +5,13 @@ description: "ポケモンリボーンの攻略目次。本編エピソード1�
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年8月30日 03:54</h5>
+<h5> 最終更新 2026年8月30日 18:12</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/all/">全文を1ページで読む</a> / <a href="/patch/">日本語化パッチの導入方法</a></p>
 
 <section class="news">
   <h2 class="news-title">更新情報<a class="news-all" href="/reborn/changelog/">これまでの更新 →</a></h2>
-  <ul class="news-list"><li><time datetime="2026-08-30">8/30</time><span class="news-kind is-imp">改善</span><span class="news-text">わざ一覧の見出し（威力・命中・PP・覚える数）を押すと、その列で並べ替えられるようにしました <a class="news-go" href="/reborn/move/">見る →</a></span></li><li><time datetime="2026-08-29">8/29</time><span class="news-kind is-new">新機能</span><span class="news-text">わざから、それを覚えられるポケモンを引けるようにしました。レベル・わざマシン・教え技を問いません <a class="news-go" href="/reborn/move/">見る →</a></span></li><li><time datetime="2026-08-29">8/29</time><span class="news-kind is-imp">改善</span><span class="news-text">図鑑でわざ名を押すと出る説明に、「このわざを覚えるポケモン」への行き先を足しました</span></li><li><time datetime="2026-08-28">8/28</time><span class="news-kind is-fix">修正</span><span class="news-text">スマホなど狭い画面で、ページ全体が縮んで表示されることがあったのを直しました</span></li><li><time datetime="2026-08-26">8/26</time><span class="news-kind is-add">追加</span><span class="news-text">日本語化パッチの導入方法のページを置きました <a class="news-go" href="/patch/">見る →</a></span></li></ul>
+  <ul class="news-list"><li><time datetime="2026-08-30">8/30</time><span class="news-kind is-new">新機能</span><span class="news-text">種族値ランキングのページを追加しました。HP・攻撃・防御・特攻・特防・素早さ・合計・平均のどれでも並べ替えられます <a class="news-go" href="/reborn/stats/">見る →</a></span></li><li><time datetime="2026-08-30">8/30</time><span class="news-kind is-imp">改善</span><span class="news-text">14章テラ戦の「こういった一覧」の行き先を、英語版 Bulbapedia から新しい種族値ランキングへ差し替えました</span></li><li><time datetime="2026-08-30">8/30</time><span class="news-kind is-imp">改善</span><span class="news-text">わざ一覧の見出し（威力・命中・PP・覚える数）を押すと、その列で並べ替えられるようにしました <a class="news-go" href="/reborn/move/">見る →</a></span></li><li><time datetime="2026-08-29">8/29</time><span class="news-kind is-new">新機能</span><span class="news-text">わざから、それを覚えられるポケモンを引けるようにしました。レベル・わざマシン・教え技を問いません <a class="news-go" href="/reborn/move/">見る →</a></span></li><li><time datetime="2026-08-29">8/29</time><span class="news-kind is-imp">改善</span><span class="news-text">図鑑でわざ名を押すと出る説明に、「このわざを覚えるポケモン」への行き先を足しました</span></li></ul>
 </section>
 
 
@@ -478,6 +478,7 @@ description: "ポケモンリボーンの攻略目次。本編エピソード1�
   <h3>資料</h3>
   <ul>
     <li><a href="/reborn/mon/">ポケモン図鑑</a></li>
+    <li><a href="/reborn/stats/">種族値ランキング</a></li>
     <li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li>
     <li><a href="/reborn/shops/">どうぐの買える店</a></li>
     <li><a href="/reborn/move/">わざから探す</a></li>

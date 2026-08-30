@@ -15,6 +15,7 @@ require_relative 'shop_index_page'
 require_relative 'machine_index_page'
 require_relative 'evolution_index_page'
 require_relative 'pulsedex_page'
+require_relative 'stat_index_page'
 require_relative 'reference_pages'
 require_relative 'changelog'
 require_relative 'trainer_index'
@@ -395,6 +396,8 @@ def generate_md_text(game = 'reborn', scripts_dir)
   pages['evolutions'] = evo_page if evo_page
   pulse_page = PulsedexPage.build_page(LONGNAMES[game], scripts_dir, func_wrapper.pokemon_hash)
   pages['pulsedex'] = pulse_page if pulse_page
+  stat_page = StatIndexPage.build_page(LONGNAMES[game], func_wrapper.pokemon_hash)
+  pages['stats'] = stat_page if stat_page
   field_page = FieldNotes.build_page(LONGNAMES[game], scripts_dir)
   pages['fields'] = field_page if field_page
   affinity_page = AffinityIndex.build_page(chapters, LONGNAMES[game])

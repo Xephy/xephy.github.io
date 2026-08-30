@@ -3388,6 +3388,38 @@ body.night-mode .md-note a[href*="/evolutions/?"]:hover { border-color: #3f7fbf;
 .mvi-chip.is-special { border-color: #8fa8d0; color: #2a4a8c; }
 .mvi-chip.is-status { border-color: #b8bcc2; color: #4a545f; }
 
+/* --- 押して並べ替えられる見出し (わざ一覧・種族値ランキング) --- */
+
+/* 見出しの余白はボタン側に移し、当たりをセルいっぱいに広げる。文字の端しか
+   押せないと、指では狙えない。#main_content .<表> th が (1,1,1) なので、
+   打ち消すにはこちらも表の名前まで書いて (1,2,1) にする必要がある。 */
+#main_content .mvi-table th.ref-sortable,
+#main_content .bst-table th.ref-sortable { padding: 0; }
+#main_content .mvi-table th.ref-sortable.is-on,
+#main_content .bst-table th.ref-sortable.is-on { color: #2b6cb0; }
+.ref-sort {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  width: 100%;
+  padding: 6px 8px;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.ref-sort:hover { color: #2b6cb0; }
+
+/* 並べ替えの向き。押す前は上下の矢印を薄く出して、押せることを見せる。 */
+.ref-arrow::before { content: '↕'; font-size: 10px; opacity: .4; }
+.ref-sortable.is-desc .ref-arrow::before { content: '↓'; opacity: 1; }
+.ref-sortable.is-asc .ref-arrow::before { content: '↑'; opacity: 1; }
+
+body.night-mode #main_content .mvi-table th.ref-sortable.is-on,
+body.night-mode #main_content .bst-table th.ref-sortable.is-on,
+body.night-mode .ref-sort:hover { color: #7db1e8; }
+
 /* --- わざ一覧の表 (/reborn/move/) --- */
 .mvi-table { width: 100%; border-collapse: collapse; font-size: 14px; }
 
@@ -3403,29 +3435,6 @@ body.night-mode .md-note a[href*="/evolutions/?"]:hover { border-color: #3f7fbf;
   text-align: left;
   white-space: nowrap;
 }
-
-/* 押して並べ替えられる見出し。見出しの余白はボタン側に移し、当たりを
-   セルいっぱいに広げる。文字の端しか押せないと、指では狙えない。 */
-#main_content .mvi-table th.mvi-sortable { padding: 0; }
-#main_content .mvi-table th.mvi-sortable.is-on { color: #2b6cb0; }
-.mvi-sort {
-  display: flex;
-  align-items: center;
-  gap: 3px;
-  width: 100%;
-  padding: 6px 8px;
-  border: 0;
-  background: none;
-  color: inherit;
-  font: inherit;
-  cursor: pointer;
-}
-.mvi-sort:hover { color: #2b6cb0; }
-
-/* 並べ替えの向き。押す前は上下の矢印を薄く出して、押せることを見せる。 */
-.mvi-arrow::before { content: '↕'; font-size: 10px; opacity: .4; }
-.mvi-sortable.is-desc .mvi-arrow::before { content: '↓'; opacity: 1; }
-.mvi-sortable.is-asc .mvi-arrow::before { content: '↑'; opacity: 1; }
 
 #main_content .mvi-table td { padding: 5px 8px; border-bottom: 1px solid #eceff3; vertical-align: middle; }
 .mvi-type { width: 1%; }
@@ -3463,8 +3472,6 @@ body.night-mode .mvi-cat { color: #c3cad2; }
 body.night-mode .mv-way { border-color: #454e5a; }
 body.night-mode #main_content .mv-facts li { border-color: #454e5a; color: #c3cad2; }
 body.night-mode #main_content .mvi-table th { border-bottom-color: #3a424e; color: #9aa4b0; }
-body.night-mode #main_content .mvi-table th.mvi-sortable.is-on,
-body.night-mode .mvi-sort:hover { color: #7db1e8; }
 body.night-mode #main_content .mvi-table td { border-bottom-color: #2a3038; }
 body.night-mode .mvi-count span { background: #262b33; color: #c3cad2; }
 
@@ -3493,6 +3500,106 @@ body.night-mode .mvi-chip.is-status { color: #c3cad2; }
      数字はわざのページを開けば出る。 */
   #main_content .mvi-table :is(th, td):nth-child(n+4):nth-child(-n+6) { display: none; }
   .mvi-cat { width: auto; }
+}
+
+/* --- 種族値ランキングの表 (/reborn/stats/) --- */
+
+/* 数の列が8つ並ぶ。字を1段落として横幅を稼ぎ、それでも収まらない画面では
+   md-scroll に任せて横へ流す。列を隠すと、その能力で並べ替えられなくなる。 */
+.bst-table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+
+/* 名前の列に余りを全部渡す。渡さないと数の列が等分に広がり、
+   3桁のために 100px を取る。 */
+.bst-name { width: 100%; }
+
+#main_content .bst-table th {
+  padding: 5px 6px;
+  border-bottom: 2px solid #d8dde3;
+  color: #687381;
+  font-size: 11.5px;
+  font-weight: 600;
+  text-align: right;
+  white-space: nowrap;
+}
+
+#main_content .bst-table td {
+  padding: 3px 6px;
+  border-bottom: 1px solid #eceff3;
+  text-align: right;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* タイプと名前の2列だけは左に寄せる。数字と同じ側に寄せると、
+   名前が列ごとにばらけて縦に読めない。 */
+#main_content .bst-table :is(th, td):nth-child(-n+2) { text-align: left; }
+.bst-table th:nth-child(-n+2) .ref-sort { justify-content: flex-start; }
+.bst-table .ref-sort { justify-content: flex-end; }
+
+/* 数の列。並べ替えるので、桁が縦に揃っていないと大小が読めない。 */
+.bst-table .md-num { font-variant-numeric: tabular-nums; }
+
+.bst-type { width: 1%; }
+.bst-type .type-badge { min-width: 0; padding: 0 6px; font-size: 10.5px; }
+.bst-name a { display: inline-flex; align-items: center; gap: 4px; font-weight: 600; }
+
+/* 種族アイコンは既定で 48px。897行あるので、そのままだと1行 62px になって
+   一覧として流し読みできない。書き出している width/height と同じ 32px に揃える。 */
+.bst-icon { flex: none; width: 32px; height: 32px; }
+
+/* メガフォルムなど、種族値の変わる姿。名前と同じ大きさで並べると
+   どちらが種族名か分からなくなる。 */
+.bst-form { margin-left: 6px; color: #687381; font-size: 11px; }
+
+/* 合計は行のいちばんの目印。能力ごとの数字と見分けられるようにする。 */
+.bst-total { font-weight: 700; }
+.bst-avg { color: #687381; }
+
+/* すがたの絞り込みの札。タイプの札と違って色に意味が無いので枠線だけにする。
+   .ref-chip.is-on より弱い指定にしておかないと、押した印が出ない。 */
+.bst-chip {
+  min-width: 0;
+  padding: 2px 8px;
+  border-color: #c7ced7;
+  border-radius: 4px;
+  background: none;
+  color: #4a545f;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+body.night-mode #main_content .bst-table th { border-bottom-color: #3a424e; color: #9aa4b0; }
+body.night-mode #main_content .bst-table td { border-bottom-color: #2a3038; }
+body.night-mode .bst-form,
+body.night-mode .bst-avg { color: #9aa4b0; }
+body.night-mode .bst-chip { border-color: #454e5a; color: #c3cad2; }
+
+@media (max-width: 600px) {
+  .bst-table { font-size: 12.5px; }
+  #main_content .bst-table :is(th, td) { padding-left: 4px; padding-right: 4px; }
+
+  /* 平均は合計を6で割った値なので、並ぶ順も読み取れることも合計と同じ。
+     タイプは札2つで 130px を使うが、絞り込みの札で代わりが利く。
+     能力の列はどれも並べ替えの対象なので畳まない。 */
+  #main_content .bst-table :is(th, td):nth-child(1),
+  #main_content .bst-table :is(th, td):nth-child(10) { display: none; }
+
+  /* 残りでもまだ画面には収まらないので md-scroll で横へ流す。そのとき
+     名前が流れて消えると、数字がどのポケモンのものか分からなくなる。
+     名前の列だけ左に貼り付ける (貼り付く先は md-scroll)。
+     裏が透けるので、本文と同じ地の色を敷く。 */
+  #main_content .bst-table :is(th, td):nth-child(2) {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: #ffffff;
+    box-shadow: 1px 0 0 #eceff3;
+  }
+
+  body.night-mode #main_content .bst-table :is(th, td):nth-child(2) {
+    background: #121212;
+    box-shadow: 1px 0 0 #2a3038;
+  }
 }
 
 /* --- 更新情報 (目次ページの塊と /reborn/changelog/) --- */

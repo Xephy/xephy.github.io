@@ -3,6 +3,7 @@
 require_relative 'ja_names'
 require_relative 'mon_data'
 require_relative 'move_index'
+require_relative 'sort_header'
 
 # わざの一覧ページ。個別ページ (/reborn/move/<英名>/) の入口。
 #
@@ -60,12 +61,9 @@ module MoveIndexPage
       %(<td class="mvi-count"><span>#{count}</span></td></tr>)
   end
 
-  # 見出しの行。数の4列は押して並べ替えられるようにする (myscripts.js の
-  # refSortTable)。押せる場所はボタンにする。th ごと押せるようにすると、
-  # キーボードでも読み上げでも「押せるもの」として辿れない。
+  # 見出しの行。数の4列は押して並べ替えられるようにする (SortHeader)。
   #
   # 既定は覚える数の降順で組んであるので、その列だけ最初から印を付けておく。
-  # JavaScript が動かない環境でも、表の並びと見出しの印が食い違わない。
   def head_html(ja)
     cells = [[nil, ui('Type')], [nil, ui('Moves')], [nil, ui('Category')],
              ['power', ui('Power')], ['acc', ui('Accuracy')], ['pp', ui('PP')],
@@ -74,11 +72,7 @@ module MoveIndexPage
     cells.map { |key, label|
       next %(<th>#{label}</th>) unless key
 
-      on = key == 'count'
-      %(<th class="mvi-sortable#{on ? ' is-on is-desc' : ''}" data-sort="#{key}" ) +
-        %(aria-sort="#{on ? 'descending' : 'none'}">) +
-        %(<button type="button" class="mvi-sort">#{label}) +
-        %(<span class="mvi-arrow" aria-hidden="true"></span></button></th>)
+      SortHeader.th(key, label, on: key == 'count')
     }.join
   end
 

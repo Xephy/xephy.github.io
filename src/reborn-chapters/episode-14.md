@@ -44,7 +44,7 @@ description: "『ポケモンリボーン』「エピソード14: //outlier.corr
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -5327,7 +5327,7 @@ M3G4 T3RR4 との対戦です。もうお察しのとおり *グリッチフィ�
 
 では、テラがこのフィールドをどう使うかです。2つ目の原則の好例が先発の **ニドキング** で、*ドわすれ* を使うことで硬くなり**同時に強くなり**ます。そのうえで命中率の上がった *ふぶき*、*10まんボルト*、*かえんほうしゃ* という広い特殊範囲で殴ってきます。**カバルドン** は硬く、こちらを眠らせつつ、いわ／じめんという鉄板の攻撃範囲で攻めてきますが、それ以上に重要なのは相棒である *すなかき* の **ドリュウズ** のために天候を整える点です。ドリュウズは先手を取っている限り急所率が上がります。それだけでは足りないとばかりに、混合型の **ガブリアス** もいます。*りゅうせいぐん* のとくこう低下を、とくぼうを基準にダメージを計算することで無視しつつ、物理の *じならし* と *ストーンエッジ* でも強打してきます。編成を締めくくるのは **シロデスナ** と **ヌオー** で、それぞれ *シンセティックシード* を持って弱点を完全に消し、*ドわすれ* と回復技で積んできます。しかもヌオーは *てんねん* を持つので、こちらが同種のとくぼう積み戦法を取っても台無しにされます。総じて、フィールドを最大限に活かせていなければ手ひどくやられかねない編成です。
 
-この戦いでまず勧めたいのは、[こういった一覧](https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_base_stats_(Generation_VII))を実際に使って、とくぼうが非常に高いポケモンを探すことです。このフィールドでは総じて最適だからです。*ドわすれ*、*たくわえる*、*コスモパワー* を覚えるならなお良く、ヌオーさえ越えれば全抜きに使えます。抜群を受けないよう、こちらも *シンセティックシード* を持たせるとさらに強力です。攻撃面では、こおり・みず・くさ・エスパー技が総じて最良で、特に命中90%の *ふぶき* と、ぼうぎょに当たる *サイコショック* が有力です。*だいばくはつ* は相手のぼうぎょを半減させるので、「???」タイプの受けやガブリアスへの土壇場の核として使える点も覚えておいてください。素早さが高く *リーフブレード* のような技を持つポケモンがいれば、急所率100%も狙えます。とくぼうを積んでくる面々への対処がずっと楽になります。「???」タイプのポケモンには *ほえる*、*ふきとばし*、*ドラゴンテール* を使う手もあります。特殊なタイプとぼうぎょ上昇を吹き飛ばせるので、くさ技を通しやすくなります。
+この戦いでまず勧めたいのは、[種族値ランキング](/reborn/stats/)を実際に使って、とくぼうが非常に高いポケモンを探すことです。このフィールドでは総じて最適だからです。*ドわすれ*、*たくわえる*、*コスモパワー* を覚えるならなお良く、ヌオーさえ越えれば全抜きに使えます。抜群を受けないよう、こちらも *シンセティックシード* を持たせるとさらに強力です。攻撃面では、こおり・みず・くさ・エスパー技が総じて最良で、特に命中90%の *ふぶき* と、ぼうぎょに当たる *サイコショック* が有力です。*だいばくはつ* は相手のぼうぎょを半減させるので、「???」タイプの受けやガブリアスへの土壇場の核として使える点も覚えておいてください。素早さが高く *リーフブレード* のような技を持つポケモンがいれば、急所率100%も狙えます。とくぼうを積んでくる面々への対処がずっと楽になります。「???」タイプのポケモンには *ほえる*、*ふきとばし*、*ドラゴンテール* を使う手もあります。特殊なタイプとぼうぎょ上昇を吹き飛ばせるので、くさ技を通しやすくなります。
 
 <div class="spoilerDiv">
   <div class="spoilerText" style="display:none">
@@ -5387,6 +5387,6 @@ M3G4 T3RR4 との対戦です。もうお察しのとおり *グリッチフィ�
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

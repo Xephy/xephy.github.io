@@ -13,6 +13,11 @@
 
 - date: "2026-08-30"
   items:
+    - kind: new
+      href: /reborn/stats/
+      text: 種族値ランキングのページを追加しました。HP・攻撃・防御・特攻・特防・素早さ・合計・平均のどれでも並べ替えられます
+    - kind: imp
+      text: 14章テラ戦の「こういった一覧」の行き先を、英語版 Bulbapedia から新しい種族値ランキングへ差し替えました
     - kind: imp
       href: /reborn/move/
       text: わざ一覧の見出し（威力・命中・PP・覚える数）を押すと、その列で並べ替えられるようにしました
