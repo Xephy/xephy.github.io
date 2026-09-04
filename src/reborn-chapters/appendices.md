@@ -1338,7 +1338,7 @@ description: "ポケモンリボーンの付録。ものひろいで拾えるど
 - **<span id="pw-vulpixpls">vulpixpls / vulpixplease / vulpix</span>**: 最初のパートナーとしてロコンを選べるようになります。
 - **<span id="pw-justvulpix">justvulpix</span>**: すべてがロコンになります。
 - **<span id="pw-dratiniearly">dratiniearly</span>**: タンザン深部のハガネール追跡区間で、早期にミニリュウを入手できるようになります。マップ左側の適当な壁タイルを調べてください。通路の最上部に到達してローラ／サファイラに初めて話しかけると、取り逃しになります。
-- **<span id="pw-aevianmissy">aevianmissy</span>**: アンダールートで、早期にエイヴィアン ムウマを入手できるようになります。
+- **<span id="pw-aevianmissy">aevianmissy</span>**: アンダールートで、早期にムウマ（エイビアのすがた）を入手できるようになります。
 - **<span id="pw-gen5weather">gen5weather</span>**: 天候が、上書きされるか解除されない限り無期限に持続します。
 - **<span id="pw-unrealtime">unrealtime</span>**: 時間が現実離れした速さで進み、システム時刻に連動しなくなります。
 - **<span id="pw-monowoke">monowoke / wokemono</span>**: ポリゴンで始められるようになります。下ペリドットのイベントがニャスパーに確定。マルコウスのタマゴがツチニンに確定。スラムのタマゴがスリープに確定。ロドクラインの交換がフリージオかメレシーに確定。

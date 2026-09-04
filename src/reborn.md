@@ -8,7 +8,7 @@ sitemap: false
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年8月30日 18:12</h5>
+<h5> 最終更新 2026年9月4日 12:20</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/">エピソードごとに読む</a> / <a href="/reborn/mon/">ポケモン図鑑</a> / <a href="/reborn/stats/">種族値ランキング</a> / <a href="/reborn/pokemon/">ポケモンの出現場所</a> / <a href="/reborn/shops/">どうぐの買える店</a> / <a href="/reborn/move/">わざから探す</a> / <a href="/reborn/tms/">わざマシン一覧</a> / <a href="/reborn/evolutions/">進化条件の一覧</a> / <a href="/reborn/pulsedex/">PULSE図鑑</a> / <a href="/reborn/fields/">フィールド効果</a> / <a href="/reborn/affinity/">好感度まとめ</a></p>
 <details class="page-toc" open>
@@ -178069,7 +178069,7 @@ PULSE2のメガガブリアス、*てんねん* のヌオー、硬いシロデ�
 
 ## ブレードスターへの加担 {#aiding-and-abetting-bladestar}
 
-最後に、ナイトクラブでダニエールに話しかけてクエストを受けます。オブシディア区から南のオパール区へ向かいます。ここには『Rejuvenation』のキャラクターが数人カメオ出演していて、*わたあめ* も手に入ります!
+最後に、ナイトクラブでダニエールに話しかけてクエストを受けます。オブシディア区から南のオパール区へ向かいます。ここには『Rejuvenation』のキャラクターが数人ゲスト出演していて、*わたあめ* も手に入ります!
 
 ともあれ、アゲートへ飛んでガラス工房へ向かいます。ガラスはすべて無くなっているので、奥の部屋まで簡単に行けます。ここの少女に話しかけます。どのPULSEの機械へ向かうか選べます。選ぶと、かつてそれと戦った場所へ高速移動できます。ゲームが求めてくる機械をすべて見て回りましょう。
 
@@ -179919,7 +179919,7 @@ PULSEケーシィの前でフローラに話しかけ、奥の部屋へ進みま
 
 そのあと **マギアナ** を捕まえられます!
 
-ナイトクラブへ戻ります。ここでイヴに話しかけると **エイヴィアン ムウマ** が手に入ります。『ポケモンRejuvenation』からのカメオ出演です。*リーフのいし* で **エイヴィアン ムウマージ** に進化します。
+ナイトクラブへ戻ります。ここでイヴに話しかけると **ムウマ（エイビアのすがた）** が手に入ります。『ポケモンRejuvenation』からのゲスト出演です。*リーフのいし* で **ムウマージ（エイビアのすがた）** に進化します。
 
 ## チャンピオン防衛戦 {#champion-defense}
 
@@ -209562,7 +209562,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 - **<span id="pw-vulpixpls">vulpixpls / vulpixplease / vulpix</span>**: 最初のパートナーとしてロコンを選べるようになります。
 - **<span id="pw-justvulpix">justvulpix</span>**: すべてがロコンになります。
 - **<span id="pw-dratiniearly">dratiniearly</span>**: タンザン深部のハガネール追跡区間で、早期にミニリュウを入手できるようになります。マップ左側の適当な壁タイルを調べてください。通路の最上部に到達してローラ／サファイラに初めて話しかけると、取り逃しになります。
-- **<span id="pw-aevianmissy">aevianmissy</span>**: アンダールートで、早期にエイヴィアン ムウマを入手できるようになります。
+- **<span id="pw-aevianmissy">aevianmissy</span>**: アンダールートで、早期にムウマ（エイビアのすがた）を入手できるようになります。
 - **<span id="pw-gen5weather">gen5weather</span>**: 天候が、上書きされるか解除されない限り無期限に持続します。
 - **<span id="pw-unrealtime">unrealtime</span>**: 時間が現実離れした速さで進み、システム時刻に連動しなくなります。
 - **<span id="pw-monowoke">monowoke / wokemono</span>**: ポリゴンで始められるようになります。下ペリドットのイベントがニャスパーに確定。マルコウスのタマゴがツチニンに確定。スラムのタマゴがスリープに確定。ロドクラインの交換がフリージオかメレシーに確定。
