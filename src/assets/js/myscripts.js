@@ -2184,14 +2184,20 @@ function refSortTable(sel) {
       var btn = th.querySelector('.ref-sort');
       if (!btn) return;
       btn.addEventListener('click', function () {
-        // 最初の一押しは降順。数の列なので、まず大きいほうから見たい。
-        sortBy(th, th.classList.contains('is-desc') ? 'asc' : 'desc');
+        // 押している列なら向きを入れ替える。別の列へ移るときは、その列が
+        // 決めた向きから始める。既定は降順で、数の列はまず大きいほうから
+        // 見たいため。図鑑番号だけは data-sort-first="asc" で昇順から入る。
+        if (th.classList.contains('is-on')) {
+          sortBy(th, th.classList.contains('is-desc') ? 'asc' : 'desc');
+        } else {
+          sortBy(th, th.getAttribute('data-sort-first') || 'desc');
+        }
       });
     });
   });
 }
 
-refSortTable('.mvi-table, .bst-table');
+refSortTable('.mvi-table, .bst-table, .ml-table');
 
 // わざ一覧 (/reborn/move/)。名前・タイプ・分類で絞る。
 refPickFilter({
@@ -2205,11 +2211,13 @@ refPickFilter({
 
 // わざ1本のページ (/reborn/move/<英名>/)。覚えるポケモンを名前・タイプ・
 // 覚え方で絞る。「みずタイプで、レベルで覚えるのは誰か」が引けるようにする。
+// 絞り込みと並べ替えは別々に効くので、「みずタイプに絞って、とくこうの
+// 高い順」という引き方ができる。
 refPickFilter({
   bar: '.ml-filter',
-  items: '.ml-grid .mv-card',
+  items: '.ml-table tbody tr',
   input: 'ml-q',
-  text: ['data-name', 'data-en'],
+  text: ['data-name', 'data-en', 'data-form'],
   groups: [{ name: 'types', attr: 'data-types', param: 't' },
            { name: 'ways', attr: 'data-ways', param: 'w' }]
 });

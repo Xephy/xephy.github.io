@@ -2,7 +2,7 @@
 layout: default
 title: "タマゴうみ"
 permalink: /reborn/move/softboiled/
-description: "『ポケモンリボーン』のタマゴうみ。覚えられるポケモン2種と、威力・命中・追加効果をまとめています。"
+description: "『ポケモンリボーン』のタマゴうみ。覚えられるポケモン2種を種族値つきで並べ、威力・命中・追加効果もまとめています。"
 ---
 
 <p id="title-text">タマゴうみ</p>
@@ -27,7 +27,9 @@ description: "『ポケモンリボーン』のタマゴうみ。覚えられる
 <section class="md-sec">
 <h2>覚えるポケモン <span class="md-count">2</span></h2>
 
-<p class="mv-lead">『ポケモンリボーン』でタマゴうみを覚えられるポケモンは2種です。レベル・わざマシン・教え技・タマゴ・思い出しのどれかで覚えられるものを、図鑑番号順にすべて並べています。</p>
+<p class="mv-lead">『ポケモンリボーン』でタマゴうみを覚えられるポケモンは2種です。覚え方はレベルだけで、図鑑番号順にすべて並べています。能力の見出しを押すと、その能力の高い順に並び替わります。もう一度押すと低い順になります。</p>
+
+<p class="md-note">種族値は、そのわざを覚える姿のものです。基本形が覚えないわざは、覚える姿の名前を種族名の横に添えています。「ポケモン」の見出しを押すと図鑑番号順に戻ります。</p>
 
 <div class="ref-filter ml-filter" hidden><div class="ref-filter-line">
   <input type="search" id="ml-q" class="ref-search" autocomplete="off"
@@ -36,5 +38,8 @@ description: "『ポケモンリボーン』のタマゴうみ。覚えられる
 </div>
 <div class="ref-filter-line"><button type="button" class="ref-reset">条件を外す</button></div></div>
 
-<div class="mi-grid ml-grid"><a class="mi-card mv-card" href="/reborn/mon/chansey/" data-name="ラッキー" data-en="chansey" data-types="normal" data-ways="level"><img src="/assets/images/mon/chansey_0.png" alt="" class="mon-icon mi-icon" width="32" height="32" loading="lazy"><span class="mi-body"><span class="mi-name">ラッキー</span><span class="mi-meta"><span class="mi-dex">No.113</span><span class="mi-types"><span class="type-badge type-normal">ノーマル</span></span></span><span class="mv-ways"><span class="mv-way is-level">Lv.16</span></span></span></a><a class="mi-card mv-card" href="/reborn/mon/blissey/" data-name="ハピナス" data-en="blissey" data-types="normal" data-ways="level"><img src="/assets/images/mon/blissey_0.png" alt="" class="mon-icon mi-icon" width="32" height="32" loading="lazy"><span class="mi-body"><span class="mi-name">ハピナス</span><span class="mi-meta"><span class="mi-dex">No.242</span><span class="mi-types"><span class="type-badge type-normal">ノーマル</span></span></span><span class="mv-ways"><span class="mv-way is-level">Lv.16</span></span></span></a></div>
+<div class="md-scroll"><table class="bst-table ml-table">
+<thead><tr><th>タイプ</th><th class="ref-sortable is-on is-asc" data-sort="dex" data-sort-first="asc" aria-sort="ascending"><button type="button" class="ref-sort">ポケモン<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="hp" aria-sort="none"><button type="button" class="ref-sort">HP<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="atk" aria-sort="none"><button type="button" class="ref-sort">攻撃<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="def" aria-sort="none"><button type="button" class="ref-sort">防御<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="spa" aria-sort="none"><button type="button" class="ref-sort">特攻<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="spd" aria-sort="none"><button type="button" class="ref-sort">特防<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="spe" aria-sort="none"><button type="button" class="ref-sort">素早さ<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="total" aria-sort="none"><button type="button" class="ref-sort">合計<span class="ref-arrow" aria-hidden="true"></span></button></th><th>覚え方</th></tr></thead>
+<tbody><tr data-name="ラッキー" data-en="chansey" data-form="" data-types="normal" data-ways="level" data-dex="113" data-hp="250" data-atk="5" data-def="5" data-spa="35" data-spd="105" data-spe="50" data-total="450"><td class="bst-type"><span class="type-badge type-normal">ノーマル</span></td><td class="bst-name"><a href="/reborn/mon/chansey/"><img src="/assets/images/mon/chansey_0.png" alt="" class="mon-icon bst-icon" width="32" height="32" loading="lazy"><span>ラッキー</span></a></td><td class="md-num">250</td><td class="md-num">5</td><td class="md-num">5</td><td class="md-num">35</td><td class="md-num">105</td><td class="md-num">50</td><td class="md-num bst-total">450</td><td class="ml-ways"><span class="mv-way is-level">Lv.16</span></td></tr><tr data-name="ハピナス" data-en="blissey" data-form="" data-types="normal" data-ways="level" data-dex="242" data-hp="255" data-atk="10" data-def="10" data-spa="75" data-spd="135" data-spe="55" data-total="540"><td class="bst-type"><span class="type-badge type-normal">ノーマル</span></td><td class="bst-name"><a href="/reborn/mon/blissey/"><img src="/assets/images/mon/blissey_0.png" alt="" class="mon-icon bst-icon" width="32" height="32" loading="lazy"><span>ハピナス</span></a></td><td class="md-num">255</td><td class="md-num">10</td><td class="md-num">10</td><td class="md-num">75</td><td class="md-num">135</td><td class="md-num">55</td><td class="md-num bst-total">540</td><td class="ml-ways"><span class="mv-way is-level">Lv.16</span></td></tr></tbody>
+</table></div>
 </section>

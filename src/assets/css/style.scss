@@ -3343,9 +3343,8 @@ body.night-mode .md-note a[href*="/evolutions/?"]:hover { border-color: #3f7fbf;
 
 /* --- 覚え方の札 --- */
 
-/* 覚え方でしか色を分けない。タイプの札と同じ大きさだと、1枚のカードに
-   同じ形の札が4つ並んで読めなくなるので、こちらは枠線だけにする。 */
-.mv-ways { display: flex; gap: 3px; flex-wrap: wrap; margin-top: 2px; }
+/* 覚え方でしか色を分けない。タイプの札と同じ大きさだと、同じ形の札が
+   4つ並んで読めなくなるので、こちらは枠線だけにする。 */
 .mv-way {
   display: inline-block;
   padding: 0 6px;
@@ -3363,15 +3362,6 @@ body.night-mode .md-note a[href*="/evolutions/?"]:hover { border-color: #3f7fbf;
 .mv-way.is-egg { border-color: #cfa3c4; color: #7a3d6c; }
 .mv-way.is-relearner { border-color: #b3aad4; color: #4d4185; }
 .mv-way.is-shadow { border-color: #a9a9a9; color: #45454f; }
-
-/* 基本形とちがう姿でだけ覚えるもの (アローラのサンドなど)。札の絵とタイプも
-   その姿のものを出しているので、どの姿の話か分かるように名前を添える。
-   名前と同じ行には置かない。「サンドパン アローラのすがた」で札の幅を
-   越え、末尾が「…」に切られていた。 */
-.mv-form { color: #687381; font-size: 10.5px; line-height: 1.5; }
-
-/* 覚え方の札が1行ぶん増えるので、名前が省略されないよう列を広げる。 */
-.ml-grid { grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
 
 /* 絞り込みの札。押せることが分かるよう、丸を少し大きくする。 */
 .ml-filter .mv-way,
@@ -3397,6 +3387,7 @@ body.night-mode .md-note a[href*="/evolutions/?"]:hover { border-color: #3f7fbf;
 #main_content .bst-table th.ref-sortable { padding: 0; }
 #main_content .mvi-table th.ref-sortable.is-on,
 #main_content .bst-table th.ref-sortable.is-on { color: #2b6cb0; }
+/* わざ1本のページの表は .bst-table も名乗るので、上の指定がそのまま効く。 */
 .ref-sort {
   display: flex;
   align-items: center;
@@ -3600,6 +3591,24 @@ body.night-mode .bst-chip { border-color: #454e5a; color: #c3cad2; }
     background: #121212;
     box-shadow: 1px 0 0 #2a3038;
   }
+}
+
+/* --- わざ1本のページの「覚えるポケモン」の表 (/reborn/move/<英名>/) --- */
+
+/* 種族値ランキングと同じ表を使う。列の並びも同じで、いちばん右だけ
+   「平均」ではなく「覚え方」にしてある。1〜9列目の見た目は .bst-table
+   の指定がそのまま効くので、ここは10列目の違いだけを書く。 */
+
+/* 覚え方の札は数字ではないので右に寄せない。折り返しは .bst-table td の
+   nowrap のまま止める。札が2つ以上付く行は全体の 8% しかなく (最多で3つ)、
+   折り返させるとその行だけ高くなって、数字を縦に追えなくなる。 */
+#main_content .ml-table :is(th, td):nth-child(10) { text-align: left; }
+.ml-table .ml-ways .mv-way { margin-right: 3px; }
+
+@media (max-width: 600px) {
+  /* 種族値ランキングは10列目 (平均) を畳むが、こちらの10列目は覚え方で、
+     このページの主題そのもの。畳まずに md-scroll で横へ流す。 */
+  #main_content .ml-table :is(th, td):nth-child(10) { display: table-cell; }
 }
 
 /* --- 更新情報 (目次ページの塊と /reborn/changelog/) --- */

@@ -5,6 +5,7 @@ require_relative 'mon_data'
 require_relative 'move_facts'
 require_relative 'move_index'
 require_relative 'move_index_page'
+require_relative 'sort_header'
 
 # わざ1本につき1ページ。
 #
@@ -20,6 +21,11 @@ module MovePage
   # 覚え方の札。図鑑の個別ページのタブと同じ言い方にそろえる。
   WAY_LABEL = { level: 'Level', machine: 'TMs', tutor: 'Tutor moves',
                 egg: 'Egg moves', relearner: 'Relearner moves', shadow: 'Shadow Moves' }.freeze
+
+  # 行に持たせる並べ替えの鍵。MonData::STATS と同じ並びで、種族値ランキングと
+  # 同じ名前にそろえてある。並べ替えは myscripts.js の refSortTable が
+  # data-<この名前> を見て行う。
+  STAT_KEYS = %w[hp atk def spa spd spe].freeze
 
   def esc(text)
     text.to_s.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;').gsub('"', '&quot;')
@@ -57,14 +63,14 @@ module MovePage
     %(<span class="mv-way is-#{way}">#{esc(text)}</span>)
   end
 
-  # --- ポケモンの札 ---------------------------------------------------------
+  # --- ポケモンの行 ---------------------------------------------------------
 
   # 姿によって覚えるかどうかが変わる。アローラのサンドはれいとうパンチを
   # 覚えるが、カントーのサンドは覚えない。覚えるほうの姿でアイコン・タイプ・
-  # 名前をそろえないと、じめんタイプの札の下にこおりの姿の絵が出てしまう。
+  # 種族値をそろえないと、じめんタイプの行にこおりの姿の絵と数字が出てしまう。
   #
-  # いちばん若い姿を代表にする。基本形が覚えるならそれが選ばれ、札は今までと
-  # 同じ見た目になる。基本形が覚えないときだけ、姿の名前を添える。
+  # いちばん若い姿を代表にする。基本形が覚えるならそれが選ばれ、行は種族値
+  # ランキングと同じ見た目になる。基本形が覚えないときだけ、姿の名前を添える。
   # 代表にする姿。いちばん若いもの = 基本形が覚えるなら基本形。
   def card_form(forms, slot)
     keys = MonData.form_keys(forms)
@@ -78,27 +84,55 @@ module MovePage
      MonData.attr_of(forms, form_key, :Type2)].compact
   end
 
-  def card(game, species, forms, slot)
+  # 種族値も覚えるほうの姿から取る。メガシンカやアローラのすがたは数字が
+  # 変わるので、基本形から取ると並べ替えの答えが違うものになる。
+  def card_stats(forms, slot)
+    _index, form_key = card_form(forms, slot)
+    stats = MonData.attr_of(forms, form_key, :BaseStats)
+    stats && stats.length == 6 ? stats.map(&:to_i) : nil
+  end
+
+  def row(game, species, forms, slot)
     form_index, form_key = card_form(forms, slot)
     data = MonData.base_data(forms)
     types = card_types(forms, slot)
     icon = mon_icon_src(species, form_index)
     ways = MoveIndex::WAYS.select { |w| slot[:ways].key?(w) }
     form_note = form_index.positive? ? MonData.form_label(form_key) : nil
+    stats = card_stats(forms, slot)
+    total = stats ? stats.sum : 0
+    keys = STAT_KEYS.each_with_index.map { |key, i| %(data-#{key}="#{stats ? stats[i] : 0}") }.join(' ')
 
-    %(<a class="mi-card mv-card" href="/#{game}/mon/#{MonData.slug(species)}/" ) +
-      %(data-name="#{esc(data[:name])}#{form_note ? " #{esc(form_note)}" : ''}" data-en="#{MonData.slug(species)}" ) +
+    %(<tr data-name="#{esc(data[:name])}" data-en="#{MonData.slug(species)}" ) +
+      %(data-form="#{esc(form_note)}" ) +
       %(data-types="#{types.map { |t| t.to_s.downcase }.join(' ')}" ) +
-      %(data-ways="#{ways.join(' ')}">) +
-      (icon ? %(<img src="#{icon}" alt="" class="mon-icon mi-icon" width="32" height="32" loading="lazy">) : '') +
-      %(<span class="mi-body"><span class="mi-name">#{esc(data[:name])}</span>) +
-      # 姿の名前は名前と同じ行に置かない。「サンドパン アローラのすがた」で
-      # 札の幅を越え、末尾が「…」に切られていた。
-      (form_note ? %(<span class="mv-form">#{esc(form_note)}</span>) : '') +
-      %(<span class="mi-meta"><span class="mi-dex">No.#{format('%03d', data[:dexnum].to_i)}</span>) +
-      %(<span class="mi-types">#{types.map { |t| type_badge(t) }.join}</span></span>) +
-      %(<span class="mv-ways">#{ways.map { |w| way_chip(w, slot[:ways][:level]) }.join}</span>) +
-      %(</span></a>)
+      %(data-ways="#{ways.join(' ')}" data-dex="#{data[:dexnum].to_i}" ) +
+      %(#{keys} data-total="#{total}">) +
+      %(<td class="bst-type">#{types.map { |t| type_badge(t) }.join}</td>) +
+      %(<td class="bst-name"><a href="/#{game}/mon/#{MonData.slug(species)}/">) +
+      (icon ? %(<img src="#{icon}" alt="" class="mon-icon bst-icon" width="32" height="32" loading="lazy">) : '') +
+      %(<span>#{esc(data[:name])}</span></a>) +
+      # 姿の名前は種族名と同じ大きさで並べない。「サンドパン アローラのすがた」で
+      # どちらが種族名か分からなくなる。
+      (form_note ? %(<span class="bst-form">#{esc(form_note)}</span>) : '') + '</td>' +
+      (stats ? stats.map { |value| %(<td class="md-num">#{value}</td>) }.join
+             : %(<td class="md-num">—</td>) * 6) +
+      %(<td class="md-num bst-total">#{stats ? total : '—'}</td>) +
+      %(<td class="ml-ways">#{ways.map { |w| way_chip(w, slot[:ways][:level]) }.join}</td></tr>)
+  end
+
+  # 見出しの行。6つの能力と合計で並べ替えられる。
+  #
+  # 図鑑番号順で書き出してあるので、その印は「ポケモン」の列に付ける。能力で
+  # 並べ替えたあと、ここを押せば元の並びへ戻れる。タイプと覚え方は数で比べ
+  # られないので押せる見出しにしない。
+  def head_html(ja)
+    cells = [%(<th>#{ja ? 'タイプ' : 'Type'}</th>),
+             SortHeader.th('dex', ja ? 'ポケモン' : 'Pokemon', on: true, desc: false)] +
+            STAT_KEYS.each_with_index.map { |key, i| SortHeader.th(key, esc(MonData.stat_label(i))) } +
+            [SortHeader.th('total', ja ? '合計' : 'Total'),
+             %(<th>#{ja ? '覚え方' : 'How'}</th>)]
+    cells.join
   end
 
   # --- 絞り込み -------------------------------------------------------------
@@ -215,26 +249,53 @@ module MovePage
 
     type_counts = Hash.new(0)
     way_counts = Hash.new(0)
-    cards = learners.filter_map { |species|
+    rows = learners.filter_map { |species|
       forms = pokemon_hash[species]
       next unless forms
 
       slot = MoveIndex.slot(move_sym, species)
-      # 札の数は札そのものと同じ姿から数える。基本形とちがう姿で覚える
+      # 行の数は行そのものと同じ姿から数える。基本形とちがう姿で覚える
       # ものがあるので、base_data から数えると絞り込みの件数がずれる。
       card_types(forms, slot).each { |t| type_counts[t.to_s.downcase] += 1 }
       slot[:ways].each_key { |w| way_counts[w] += 1 }
-      card(game, species, forms, slot)
+      row(game, species, forms, slot)
     }
 
     ja = JaNames.enabled?
+
+    # 覚え方は、そのわざに実際にあるものだけを挙げる。「レベル・わざマシン・
+    # 教え技・タマゴ・思い出しのどれか」と5つ並べていたので、教え技も
+    # タマゴも無いわざ (サイコキネシスなど) で、表に出ていないものまで
+    # 在るように読めていた。
+    way_names = MoveIndex::WAYS.filter_map { |w|
+      JaNames.ui(WAY_LABEL[w]) if way_counts[w].to_i.positive?
+    }
+    how =
+      if way_names.size == 1
+        ja ? "覚え方は#{way_names[0]}だけで、" : "It is learned by #{way_names[0]} only. "
+      else
+        ja ? "覚え方は#{way_names.join('・')}の#{way_names.size}通りで、" \
+           : "It is learned by #{way_names.join(', ')}. "
+      end
+
     lead =
       if ja
-        "『ポケモンリボーン』で#{move[:name]}を覚えられるポケモンは#{cards.size}種です。" \
-        'レベル・わざマシン・教え技・タマゴ・思い出しのどれかで覚えられるものを、' \
-        '図鑑番号順にすべて並べています。'
+        "『ポケモンリボーン』で#{move[:name]}を覚えられるポケモンは#{rows.size}種です。" \
+        "#{how}図鑑番号順にすべて並べています。能力の見出しを押すと、その能力の" \
+        '高い順に並び替わります。もう一度押すと低い順になります。'
       else
-        "#{cards.size} Pokemon can learn #{move[:name]} in Pokemon Reborn, by any method."
+        "#{rows.size} Pokemon can learn #{move[:name]} in Pokemon Reborn. #{how}" \
+        'Click a heading to sort by that stat, click again to reverse.'
+      end
+
+    # 種族値をどの姿から取っているかは、表を見ただけでは分からない。
+    note =
+      if ja
+        '種族値は、そのわざを覚える姿のものです。基本形が覚えないわざは、覚える姿の' \
+        '名前を種族名の横に添えています。「ポケモン」の見出しを押すと図鑑番号順に戻ります。'
+      else
+        'Stats are those of the form that learns the move; its name is shown beside the ' \
+        'species when the base form cannot learn it. Click Pokemon to return to Pokedex order.'
       end
 
     <<~PAGE
@@ -242,7 +303,7 @@ module MovePage
       layout: default
       title: "#{move[:name]}"
       permalink: #{href(game, move_sym)}
-      description: "『ポケモンリボーン』の#{move[:name]}。覚えられるポケモン#{cards.size}種と、威力・命中・追加効果をまとめています。"
+      description: "『ポケモンリボーン』の#{move[:name]}。覚えられるポケモン#{rows.size}種を種族値つきで並べ、威力・命中・追加効果もまとめています。"
       ---
 
       <p id="title-text">#{esc(move[:name])}</p>
@@ -256,13 +317,18 @@ module MovePage
       #{sources_html(game, move_sym, move, ctx)}
 
       <section class="md-sec">
-      <h2>#{ja ? '覚えるポケモン' : 'Pokemon that learn it'} <span class="md-count">#{cards.size}</span></h2>
+      <h2>#{ja ? '覚えるポケモン' : 'Pokemon that learn it'} <span class="md-count">#{rows.size}</span></h2>
 
       <p class="mv-lead">#{esc(lead)}</p>
 
-      #{filter_html(type_counts, way_counts, cards.size)}
+      <p class="md-note">#{esc(note)}</p>
 
-      <div class="mi-grid ml-grid">#{cards.join}</div>
+      #{filter_html(type_counts, way_counts, rows.size)}
+
+      <div class="md-scroll"><table class="bst-table ml-table">
+      <thead><tr>#{head_html(ja)}</tr></thead>
+      <tbody>#{rows.join}</tbody>
+      </table></div>
       </section>
     PAGE
   end

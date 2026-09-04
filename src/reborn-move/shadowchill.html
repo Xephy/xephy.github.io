@@ -2,7 +2,7 @@
 layout: default
 title: "ダークフリーズ"
 permalink: /reborn/move/shadowchill/
-description: "『ポケモンリボーン』のダークフリーズ。覚えられるポケモン2種と、威力・命中・追加効果をまとめています。"
+description: "『ポケモンリボーン』のダークフリーズ。覚えられるポケモン2種を種族値つきで並べ、威力・命中・追加効果もまとめています。"
 ---
 
 <p id="title-text">ダークフリーズ</p>
@@ -27,7 +27,9 @@ description: "『ポケモンリボーン』のダークフリーズ。覚えら
 <section class="md-sec">
 <h2>覚えるポケモン <span class="md-count">2</span></h2>
 
-<p class="mv-lead">『ポケモンリボーン』でダークフリーズを覚えられるポケモンは2種です。レベル・わざマシン・教え技・タマゴ・思い出しのどれかで覚えられるものを、図鑑番号順にすべて並べています。</p>
+<p class="mv-lead">『ポケモンリボーン』でダークフリーズを覚えられるポケモンは2種です。覚え方はシャドウわざだけで、図鑑番号順にすべて並べています。能力の見出しを押すと、その能力の高い順に並び替わります。もう一度押すと低い順になります。</p>
+
+<p class="md-note">種族値は、そのわざを覚える姿のものです。基本形が覚えないわざは、覚える姿の名前を種族名の横に添えています。「ポケモン」の見出しを押すと図鑑番号順に戻ります。</p>
 
 <div class="ref-filter ml-filter" hidden><div class="ref-filter-line">
   <input type="search" id="ml-q" class="ref-search" autocomplete="off"
@@ -36,5 +38,8 @@ description: "『ポケモンリボーン』のダークフリーズ。覚えら
 </div>
 <div class="ref-filter-line ref-chips" data-group="types"><span class="ref-chip-label">タイプ</span><button type="button" class="ref-chip type-badge type-flying" data-value="flying" aria-pressed="false">ひこう<span>1</span></button><button type="button" class="ref-chip type-badge type-psychic" data-value="psychic" aria-pressed="false">エスパー<span>1</span></button><button type="button" class="ref-chip type-badge type-ice" data-value="ice" aria-pressed="false">こおり<span>1</span></button></div><div class="ref-filter-line"><button type="button" class="ref-reset">条件を外す</button></div></div>
 
-<div class="mi-grid ml-grid"><a class="mi-card mv-card" href="/reborn/mon/articuno/" data-name="フリーザー" data-en="articuno" data-types="ice flying" data-ways="shadow"><img src="/assets/images/mon/articuno_0.png" alt="" class="mon-icon mi-icon" width="32" height="32" loading="lazy"><span class="mi-body"><span class="mi-name">フリーザー</span><span class="mi-meta"><span class="mi-dex">No.144</span><span class="mi-types"><span class="type-badge type-ice">こおり</span><span class="type-badge type-flying">ひこう</span></span></span><span class="mv-ways"><span class="mv-way is-shadow">シャドウわざ</span></span></span></a><a class="mi-card mv-card" href="/reborn/mon/mewtwo/" data-name="ミュウツー" data-en="mewtwo" data-types="psychic" data-ways="shadow"><img src="/assets/images/mon/mewtwo_0.png" alt="" class="mon-icon mi-icon" width="32" height="32" loading="lazy"><span class="mi-body"><span class="mi-name">ミュウツー</span><span class="mi-meta"><span class="mi-dex">No.150</span><span class="mi-types"><span class="type-badge type-psychic">エスパー</span></span></span><span class="mv-ways"><span class="mv-way is-shadow">シャドウわざ</span></span></span></a></div>
+<div class="md-scroll"><table class="bst-table ml-table">
+<thead><tr><th>タイプ</th><th class="ref-sortable is-on is-asc" data-sort="dex" data-sort-first="asc" aria-sort="ascending"><button type="button" class="ref-sort">ポケモン<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="hp" aria-sort="none"><button type="button" class="ref-sort">HP<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="atk" aria-sort="none"><button type="button" class="ref-sort">攻撃<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="def" aria-sort="none"><button type="button" class="ref-sort">防御<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="spa" aria-sort="none"><button type="button" class="ref-sort">特攻<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="spd" aria-sort="none"><button type="button" class="ref-sort">特防<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="spe" aria-sort="none"><button type="button" class="ref-sort">素早さ<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="total" aria-sort="none"><button type="button" class="ref-sort">合計<span class="ref-arrow" aria-hidden="true"></span></button></th><th>覚え方</th></tr></thead>
+<tbody><tr data-name="フリーザー" data-en="articuno" data-form="" data-types="ice flying" data-ways="shadow" data-dex="144" data-hp="90" data-atk="85" data-def="100" data-spa="95" data-spd="125" data-spe="85" data-total="580"><td class="bst-type"><span class="type-badge type-ice">こおり</span><span class="type-badge type-flying">ひこう</span></td><td class="bst-name"><a href="/reborn/mon/articuno/"><img src="/assets/images/mon/articuno_0.png" alt="" class="mon-icon bst-icon" width="32" height="32" loading="lazy"><span>フリーザー</span></a></td><td class="md-num">90</td><td class="md-num">85</td><td class="md-num">100</td><td class="md-num">95</td><td class="md-num">125</td><td class="md-num">85</td><td class="md-num bst-total">580</td><td class="ml-ways"><span class="mv-way is-shadow">シャドウわざ</span></td></tr><tr data-name="ミュウツー" data-en="mewtwo" data-form="" data-types="psychic" data-ways="shadow" data-dex="150" data-hp="106" data-atk="110" data-def="90" data-spa="154" data-spd="90" data-spe="130" data-total="680"><td class="bst-type"><span class="type-badge type-psychic">エスパー</span></td><td class="bst-name"><a href="/reborn/mon/mewtwo/"><img src="/assets/images/mon/mewtwo_0.png" alt="" class="mon-icon bst-icon" width="32" height="32" loading="lazy"><span>ミュウツー</span></a></td><td class="md-num">106</td><td class="md-num">110</td><td class="md-num">90</td><td class="md-num">154</td><td class="md-num">90</td><td class="md-num">130</td><td class="md-num bst-total">680</td><td class="ml-ways"><span class="mv-way is-shadow">シャドウわざ</span></td></tr></tbody>
+</table></div>
 </section>

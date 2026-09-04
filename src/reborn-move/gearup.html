@@ -2,7 +2,7 @@
 layout: default
 title: "アシストギア"
 permalink: /reborn/move/gearup/
-description: "『ポケモンリボーン』のアシストギア。覚えられるポケモン2種と、威力・命中・追加効果をまとめています。"
+description: "『ポケモンリボーン』のアシストギア。覚えられるポケモン2種を種族値つきで並べ、威力・命中・追加効果もまとめています。"
 ---
 
 <p id="title-text">アシストギア</p>
@@ -27,7 +27,9 @@ description: "『ポケモンリボーン』のアシストギア。覚えられ
 <section class="md-sec">
 <h2>覚えるポケモン <span class="md-count">2</span></h2>
 
-<p class="mv-lead">『ポケモンリボーン』でアシストギアを覚えられるポケモンは2種です。レベル・わざマシン・教え技・タマゴ・思い出しのどれかで覚えられるものを、図鑑番号順にすべて並べています。</p>
+<p class="mv-lead">『ポケモンリボーン』でアシストギアを覚えられるポケモンは2種です。覚え方はレベルだけで、図鑑番号順にすべて並べています。能力の見出しを押すと、その能力の高い順に並び替わります。もう一度押すと低い順になります。</p>
+
+<p class="md-note">種族値は、そのわざを覚える姿のものです。基本形が覚えないわざは、覚える姿の名前を種族名の横に添えています。「ポケモン」の見出しを押すと図鑑番号順に戻ります。</p>
 
 <div class="ref-filter ml-filter" hidden><div class="ref-filter-line">
   <input type="search" id="ml-q" class="ref-search" autocomplete="off"
@@ -36,5 +38,8 @@ description: "『ポケモンリボーン』のアシストギア。覚えられ
 </div>
 <div class="ref-filter-line ref-chips" data-group="types"><span class="ref-chip-label">タイプ</span><button type="button" class="ref-chip type-badge type-steel" data-value="steel" aria-pressed="false">はがね<span>2</span></button><button type="button" class="ref-chip type-badge type-fairy" data-value="fairy" aria-pressed="false">フェアリー<span>1</span></button></div><div class="ref-filter-line"><button type="button" class="ref-reset">条件を外す</button></div></div>
 
-<div class="mi-grid ml-grid"><a class="mi-card mv-card" href="/reborn/mon/klinklang/" data-name="ギギギアル" data-en="klinklang" data-types="steel" data-ways="level"><img src="/assets/images/mon/klinklang_0.png" alt="" class="mon-icon mi-icon" width="32" height="32" loading="lazy"><span class="mi-body"><span class="mi-name">ギギギアル</span><span class="mi-meta"><span class="mi-dex">No.601</span><span class="mi-types"><span class="type-badge type-steel">はがね</span></span></span><span class="mv-ways"><span class="mv-way is-level">初期</span></span></span></a><a class="mi-card mv-card" href="/reborn/mon/magearna/" data-name="マギアナ" data-en="magearna" data-types="steel fairy" data-ways="level"><img src="/assets/images/mon/magearna_0.png" alt="" class="mon-icon mi-icon" width="32" height="32" loading="lazy"><span class="mi-body"><span class="mi-name">マギアナ</span><span class="mi-meta"><span class="mi-dex">No.801</span><span class="mi-types"><span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span></span></span><span class="mv-ways"><span class="mv-way is-level">初期</span></span></span></a></div>
+<div class="md-scroll"><table class="bst-table ml-table">
+<thead><tr><th>タイプ</th><th class="ref-sortable is-on is-asc" data-sort="dex" data-sort-first="asc" aria-sort="ascending"><button type="button" class="ref-sort">ポケモン<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="hp" aria-sort="none"><button type="button" class="ref-sort">HP<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="atk" aria-sort="none"><button type="button" class="ref-sort">攻撃<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="def" aria-sort="none"><button type="button" class="ref-sort">防御<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="spa" aria-sort="none"><button type="button" class="ref-sort">特攻<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="spd" aria-sort="none"><button type="button" class="ref-sort">特防<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="spe" aria-sort="none"><button type="button" class="ref-sort">素早さ<span class="ref-arrow" aria-hidden="true"></span></button></th><th class="ref-sortable" data-sort="total" aria-sort="none"><button type="button" class="ref-sort">合計<span class="ref-arrow" aria-hidden="true"></span></button></th><th>覚え方</th></tr></thead>
+<tbody><tr data-name="ギギギアル" data-en="klinklang" data-form="" data-types="steel" data-ways="level" data-dex="601" data-hp="60" data-atk="100" data-def="115" data-spa="70" data-spd="85" data-spe="90" data-total="520"><td class="bst-type"><span class="type-badge type-steel">はがね</span></td><td class="bst-name"><a href="/reborn/mon/klinklang/"><img src="/assets/images/mon/klinklang_0.png" alt="" class="mon-icon bst-icon" width="32" height="32" loading="lazy"><span>ギギギアル</span></a></td><td class="md-num">60</td><td class="md-num">100</td><td class="md-num">115</td><td class="md-num">70</td><td class="md-num">85</td><td class="md-num">90</td><td class="md-num bst-total">520</td><td class="ml-ways"><span class="mv-way is-level">初期</span></td></tr><tr data-name="マギアナ" data-en="magearna" data-form="" data-types="steel fairy" data-ways="level" data-dex="801" data-hp="80" data-atk="95" data-def="115" data-spa="130" data-spd="115" data-spe="65" data-total="600"><td class="bst-type"><span class="type-badge type-steel">はがね</span><span class="type-badge type-fairy">フェアリー</span></td><td class="bst-name"><a href="/reborn/mon/magearna/"><img src="/assets/images/mon/magearna_0.png" alt="" class="mon-icon bst-icon" width="32" height="32" loading="lazy"><span>マギアナ</span></a></td><td class="md-num">80</td><td class="md-num">95</td><td class="md-num">115</td><td class="md-num">130</td><td class="md-num">115</td><td class="md-num">65</td><td class="md-num bst-total">600</td><td class="ml-ways"><span class="mv-way is-level">初期</span></td></tr></tbody>
+</table></div>
 </section>

@@ -15,11 +15,16 @@ module SortHeader
   #
   # on: を付けた列は、書き出した時点の並び。JavaScript が動かない環境でも
   # 表の並びと見出しの印が食い違わないようにするための指定。
+  #
+  # desc: false の列は昇順で書き出す列。図鑑番号のように小さいほうから読む
+  # ものがこれで、他の列から戻ってきたときも昇順で並べたい。最初の一押しを
+  # どちらにするかを data-sort-first で JavaScript へ伝える。
   def th(key, label, on: false, desc: true)
     dir = desc ? 'desc' : 'asc'
     aria = desc ? 'descending' : 'ascending'
 
     %(<th class="ref-sortable#{on ? " is-on is-#{dir}" : ''}" data-sort="#{key}" ) +
+      (desc ? '' : %(data-sort-first="asc" )) +
       %(aria-sort="#{on ? aria : 'none'}">) +
       %(<button type="button" class="ref-sort">#{label}) +
       %(<span class="ref-arrow" aria-hidden="true"></span></button></th>)
