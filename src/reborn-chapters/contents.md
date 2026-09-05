@@ -5,13 +5,13 @@ description: "ポケモンリボーンの攻略目次。本編エピソード1�
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年9月6日 07:34</h5>
+<h5> 最終更新 2026年9月6日 07:41</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/all/">全文を1ページで読む</a> / <a href="/patch/">日本語化パッチの導入方法</a></p>
 
 <section class="news">
   <h2 class="news-title">更新情報<a class="news-all" href="/reborn/changelog/">これまでの更新 →</a></h2>
-  <ul class="news-list"><li><time datetime="2026-09-06">9/6</time><span class="news-kind is-add">追加</span><span class="news-text">プライバシーポリシーとこのサイトについてのページを置きました <a class="news-go" href="/about/">見る →</a></span></li><li><time datetime="2026-09-04">9/4</time><span class="news-kind is-imp">改善</span><span class="news-text">わざのページの「覚えるポケモン」を種族値つきの表にしました。HP・攻撃・防御・特攻・特防・素早さ・合計の見出しを押すと、その能力の高い順に並べ替えられます。タイプや覚え方で絞ったままでも使えます <a class="news-go" href="/reborn/move/">見る →</a></span></li><li><time datetime="2026-09-04">9/4</time><span class="news-kind is-fix">修正</span><span class="news-text">「エイヴィアン ムウマ」を、日本語化パッチの訳語に合わせて「ムウマ（エイビアのすがた）」に直しました <a class="news-go" href="/reborn/appendices/">見る →</a></span></li><li><time datetime="2026-08-30">8/30</time><span class="news-kind is-new">新機能</span><span class="news-text">種族値ランキングのページを追加しました。HP・攻撃・防御・特攻・特防・素早さ・合計・平均のどれでも並べ替えられます <a class="news-go" href="/reborn/stats/">見る →</a></span></li><li><time datetime="2026-08-30">8/30</time><span class="news-kind is-imp">改善</span><span class="news-text">14章テラ戦の「こういった一覧」の行き先を、英語版 Bulbapedia から新しい種族値ランキングへ差し替えました</span></li></ul>
+  <ul class="news-list"><li><time datetime="2026-09-06">9/6</time><span class="news-kind is-add">追加</span><span class="news-text">プライバシーポリシーとこのサイトについてのページを置きました <a class="news-go" href="/about/">見る →</a></span></li><li><time datetime="2026-09-06">9/6</time><span class="news-kind is-fix">修正</span><span class="news-text">わざの説明文の誤変換を直しました <a class="news-go" href="/reborn/move/">見る →</a></span></li><li><time datetime="2026-09-04">9/4</time><span class="news-kind is-imp">改善</span><span class="news-text">わざのページの「覚えるポケモン」を種族値つきの表にしました。HP・攻撃・防御・特攻・特防・素早さ・合計の見出しを押すと、その能力の高い順に並べ替えられます。タイプや覚え方で絞ったままでも使えます <a class="news-go" href="/reborn/move/">見る →</a></span></li><li><time datetime="2026-09-04">9/4</time><span class="news-kind is-fix">修正</span><span class="news-text">「エイヴィアン ムウマ」を、日本語化パッチの訳語に合わせて「ムウマ（エイビアのすがた）」に直しました <a class="news-go" href="/reborn/appendices/">見る →</a></span></li><li><time datetime="2026-08-30">8/30</time><span class="news-kind is-new">新機能</span><span class="news-text">種族値ランキングのページを追加しました。HP・攻撃・防御・特攻・特防・素早さ・合計・平均のどれでも並べ替えられます <a class="news-go" href="/reborn/stats/">見る →</a></span></li></ul>
 </section>
 
 
