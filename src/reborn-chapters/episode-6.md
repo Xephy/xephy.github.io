@@ -3099,7 +3099,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="はげしいほのおを相手にはっしゃして攻撃する。やけど状態にすることがある。

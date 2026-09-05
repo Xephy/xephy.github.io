@@ -965,7 +965,7 @@ description: "『ポケモンリボーン』「エピソード13: 奔流」の�
 <span class="type-badge type-water">みず</span><span class="move-name" title="たいりょうのみずをはげしいいきおいで相手にはっしゃして攻撃する。">ハイドロポンプ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">110</span><span class="move-acc">80%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ

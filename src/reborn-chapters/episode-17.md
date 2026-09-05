@@ -6032,7 +6032,7 @@ $80000 を寄付してこの計画に出資します。
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="こうらのトラップをしかける。相手がぶつりわざをだすと爆発してダメージを与える。">トラップシェル</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">150</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
@@ -6178,7 +6178,7 @@ $80000 を寄付してこの計画に出資します。
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-fire">ほのお</span><span class="move-name" title="く力はきだす特別あついほのおで攻撃する。相手の特攻を下げる。
+<span class="type-badge type-fire">ほのお</span><span class="move-name" title="くちからはきだす特別あついほのおで攻撃する。相手の特攻を下げる。
 追加効果 100% / 相手のとくこう -1段階*">マジカルフレイム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
@@ -6311,7 +6311,7 @@ $80000 を寄付してこの計画に出資します。
 自分の最大HPの 1/2 を回復">はねやすめ</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="１ターンめに光をいっぱいにあつめ２ターンめに光のたばをはっしゃして攻撃する。">ソーラービーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
@@ -6894,7 +6894,7 @@ $80000 を寄付してこの計画に出資します。
 追加効果 30%">ねっとう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。
@@ -7377,7 +7377,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 追加効果 30%">ねっとう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ice">こおり</span><span class="move-name" title="こごえるビームを相手にはっしゃして攻撃する。こおり状態にすることがある。

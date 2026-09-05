@@ -286,7 +286,7 @@ description: "『ポケモンリボーン』「クリア後 エピソード9: �
 とくこう -2段階">リーフストーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">130</span><span class="move-acc">90%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="ようぶんをすいとり攻撃する。あたえたダメージの半分のＨＰを回復できる。

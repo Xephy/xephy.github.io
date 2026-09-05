@@ -178,7 +178,7 @@ description: "『ポケモンリボーン』「クリア後 エピソード6: �
 与えたダメージの 1/2 を回復">ギガドレイン</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">75</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="わざを使ったポケモンによってわざのタイプがかわる。">めざめるパワー (ほのお)</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">60</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
@@ -969,7 +969,7 @@ description: "『ポケモンリボーン』「クリア後 エピソード6: �
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="体のおくからはどうの力を相手にうちはなつ。攻撃は必ず命中する。">はどうだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
@@ -1517,7 +1517,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 追加効果 20% / 相手のとくぼう -1段階">シャドーボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">80</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: ひかえめ
@@ -1585,7 +1585,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 追加効果 30%">ヘドロばくだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: おくびょう
@@ -1644,7 +1644,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="きたないヘドロを相手になげつけて攻撃する。どく状態にすることがある。
@@ -2170,7 +2170,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="すさまじいばくおんのはか威力によって周りにいるものを攻撃する。">ばくおんぱ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">140</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
@@ -2211,7 +2211,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 追加効果 100%">でんじほう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">50%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
@@ -2258,7 +2258,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 追加効果 100%">でんじほう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">50%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-bug">むし</span><span class="move-name" title="ふしぎな光をはっしゃして攻撃する。相手を混乱させることがある。
@@ -5074,7 +5074,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 追加効果 30%">ヘドロばくだん</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: まじめ
@@ -5105,7 +5105,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 追加効果 50% / 相手のとくこう -1段階*">ミストボール</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">70</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-water">みず</span><span class="move-name" title="おおきななみで自分の周りにいるものを攻撃する。">なみのり</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 15</span></span>
@@ -5325,7 +5325,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ちょう能力であんじをかけて自分のうけている状態いじょうを相手にうつす。">サイコシフト</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="まばゆい光をときはなって攻撃する。相手の特防を下げることがある。
@@ -5577,7 +5577,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="ちょう能力であんじをかけて自分のうけている状態いじょうを相手にうつす。">サイコシフト</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="まばゆい光をときはなって攻撃する。相手の特防を下げることがある。
@@ -6543,7 +6543,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 追加効果 10%">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="しぜんからあつめたいのちの力をはっしゃする。相手の特防を下げることがある。
@@ -6609,7 +6609,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 追加効果 10%">ねっぷう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">95</span><span class="move-acc">90%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="つぎのターンに自分もしくはいれかわったポケモンのＨＰを最大ＨＰの半分回復する。">ねがいごと</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
@@ -7090,7 +7090,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="うるさくひびくおおきなしんどうを相手にあたえて攻撃する。">ハイパーボイス</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">90</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fire">ほのお</span><span class="move-name" title="あついいきを相手にふきつけて攻撃する。やけど状態にすることがある。
@@ -7179,7 +7179,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-poison">どく</span><span class="move-name" title="ヘドロのなみで自分の周りにいるものを攻撃する。どく状態にすることがある。
@@ -9300,7 +9300,7 @@ PULSEスリーパーとの再戦で、今回はチェスボードで6匹の支�
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="１ターンめに光をいっぱいにあつめ２ターンめに光のたばをはっしゃして攻撃する。">ソーラービーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。
@@ -9773,7 +9773,7 @@ PULSEスリーパーとの再戦で、今回はチェスボードで6匹の支�
 <span class="type-badge type-grass">くさ</span><span class="move-name" title="１ターンめに光をいっぱいにあつめ２ターンめに光のたばをはっしゃして攻撃する。">ソーラービーム</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">120</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-fighting">かくとう</span><span class="move-name" title="きあいをたかめてこんしんの力をほうしゅつする。相手の特防を下げることがある。

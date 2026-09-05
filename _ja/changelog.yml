@@ -16,6 +16,9 @@
     - kind: add
       href: /about/
       text: プライバシーポリシーとこのサイトについてのページを置きました
+    - kind: fix
+      href: /reborn/move/
+      text: わざの説明文の誤変換を直しました
 
 - date: "2026-09-04"
   items:

@@ -423,7 +423,7 @@ description: "『ポケモンリボーン』「クリア後 エピソード8: �
 <span class="type-badge type-psychic">エスパー</span><span class="move-name" title="光のはしらで攻撃する。攻撃と特攻をくらべてたかいほうでダメージを与える。">フォトンゲイザー</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-ghost">ゴースト</span><span class="move-name" title="あやしいこうせんをはなって攻撃する。相手の特性をむしして攻撃することができる。">シャドーレイ</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">100</span><span class="move-acc">100%</span><span class="move-pp">PP 5</span></span>
@@ -4750,7 +4750,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="戦闘ちゅうにつかってなくなった自分の持ち物をさいせいさせてつかえるようにする。">リサイクル</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 <li class="move">
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="相手の攻撃をまったくうけない。れんぞくでだすとしっぱいしやすい。">まもる</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc is-sure">必中</span><span class="move-pp">PP 10</span></span>
