@@ -102,6 +102,15 @@
         <p class="copyright">{{ site.title | default: site.github.repository_name }}（管理: <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>）</p>
         {% endif %}
         <p>原文: <a href="https://bigjra.github.io/">BIGJRA's Walkthroughs</a> ／ <a href="https://pages.github.com">GitHub Pages</a> で公開</p>
+        {%- comment -%}
+          運営者・出典・権利表記と個人情報の扱いは、どのページからも1手で
+          辿れる場所に置く。全ページ共通のフッターがその場所になる。
+        {%- endcomment -%}
+        <p class="site-nav-foot">
+          <a href="{{ '/about/' | relative_url }}">このサイトについて</a> ·
+          <a href="{{ '/privacy/' | relative_url }}">プライバシーポリシー</a> ·
+          <a href="{{ '/patch/' | relative_url }}">日本語化パッチ</a>
+        </p>
       </footer>
     </div>
   </body>
