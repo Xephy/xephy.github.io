@@ -16,27 +16,13 @@ description: "ポケモンリボーン 日本語攻略の運営者と、掲載�
 ## 運営者
 
 **Xephy**（<https://github.com/Xephy>）が個人で運営しています。
-
-<a href="/patch/">『ポケモンリボーン』日本語化パッチ</a>を作っている本人で、図鑑やわざの表は
-そのパッチの辞書から書き出したものです。攻略本文に出てくるポケモン名・わざ名・
-どうぐ名・地名も、パッチの訳と食い違っていないか検査しています。
-**パッチを当てたゲーム画面と表記をそろえて読み進められます。**
+<a href="/patch/">『ポケモンリボーン』日本語化パッチ</a>を作っている本人です。
 
 ## 掲載内容の出どころ
 
 エピソードごとの攻略本文は、**BIGJRA 氏**の英語攻略
 <a href="https://bigjra.github.io/">BIGJRA's Walkthroughs</a> を翻訳させていただいたものです。
-画像に英語が焼き込まれていて読めなかった図（サファイラの会話フローチャート、
-VRパズルの解答表）は、日本語で描き直しました。
-
-<a href="/reborn/mon/">図鑑807種</a>・<a href="/reborn/move/">わざ691件</a>・
-<a href="/reborn/pokemon/">出現場所</a>・<a href="/reborn/stats/">種族値ランキング</a>・
-<a href="/reborn/evolutions/">進化条件</a>・<a href="/reborn/tms/">わざマシン</a>・
-<a href="/reborn/fields/">フィールド効果</a>は、ゲーム本体のデータから起こしたものです。
-出現場所もわざマシンの入手先も本家シリーズとはまったく別で、フィールド効果のように
-本家に無い仕組みもあるため、本家の攻略情報はそのままでは使えません。
-
-直したところは<a href="/reborn/changelog/">更新履歴</a>に残しています。
+図鑑・わざ・出現場所などのデータは、ゲーム本体から起こしています。
 
 ## 非公式のファンサイトです
 
@@ -47,10 +33,10 @@ VRパズルの解答表）は、日本語で描き直しました。
 
 ## ご連絡
 
-誤りのご指摘、訳語のご提案、権利に関するお問い合わせは GitHub の Issues からお願いします。
-掲載内容の削除のご依頼も同じ窓口で承ります。
+誤りのご指摘、権利に関するお問い合わせ、掲載内容の削除のご依頼は、
+GitHub の Issues からお願いします。
 
-- 攻略サイトについて: <https://github.com/Xephy/xephy.github.io/issues>
-- 日本語化パッチについて: <https://github.com/Xephy/reborn-19.5.43-ja/issues>
+- 攻略サイト: <https://github.com/Xephy/xephy.github.io/issues>
+- 日本語化パッチ: <https://github.com/Xephy/reborn-19.5.43-ja/issues>
 
 個人情報の取り扱いは<a href="/privacy/">プライバシーポリシー</a>をご覧ください。
