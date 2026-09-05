@@ -2525,7 +2525,7 @@ description: "『ポケモンリボーン』「エピソード5: リボーンシ
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="ながいしっぽやつるなどをつかい相手をたたきつけて攻撃する。">たたきつける</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">80</span><span class="move-acc">75%</span><span class="move-pp">PP 20</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなく力しょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
+<span class="type-badge type-dragon">ドラゴン</span><span class="move-name" title="おおきなくちからしょうげきはをまきおこして相手を攻撃する。">りゅうのはどう</span><span class="move-meta"><span class="move-cat">特殊</span><span class="move-power">85</span><span class="move-acc">100%</span><span class="move-pp">PP 10</span></span>
 </li>
 </ul></td>
 <td>せいかく: がんばりや

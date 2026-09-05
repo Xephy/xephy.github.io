@@ -1255,7 +1255,7 @@ description: "『ポケモンリボーン』「エピソード1: リボーン、
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="相手にむかって体ぜんたいでぶつかっていき攻撃する。">たいあたり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 35</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="く力ふきだしたいとをまきつけて相手の素早さをがくっと下げる。
+<span class="type-badge type-bug">むし</span><span class="move-name" title="くちからふきだしたいとをまきつけて相手の素早さをがくっと下げる。
 相手のすばやさ -2段階*">いとをはく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">95%</span><span class="move-pp">PP 40</span></span>
 </li>
 <li class="move">
@@ -1281,7 +1281,7 @@ description: "『ポケモンリボーン』「エピソード1: リボーン、
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="相手にむかって体ぜんたいでぶつかっていき攻撃する。">たいあたり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 35</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="く力ふきだしたいとをまきつけて相手の素早さをがくっと下げる。
+<span class="type-badge type-bug">むし</span><span class="move-name" title="くちからふきだしたいとをまきつけて相手の素早さをがくっと下げる。
 相手のすばやさ -2段階*">いとをはく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">95%</span><span class="move-pp">PP 40</span></span>
 </li>
 <li class="move">
@@ -1311,7 +1311,7 @@ description: "『ポケモンリボーン』「エピソード1: リボーン、
 追加効果 30%">どくばり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">15</span><span class="move-acc">100%</span><span class="move-pp">PP 35</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="く力ふきだしたいとをまきつけて相手の素早さをがくっと下げる。
+<span class="type-badge type-bug">むし</span><span class="move-name" title="くちからふきだしたいとをまきつけて相手の素早さをがくっと下げる。
 相手のすばやさ -2段階*">いとをはく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">95%</span><span class="move-pp">PP 40</span></span>
 </li>
 <li class="move">
@@ -2435,7 +2435,7 @@ description: "『ポケモンリボーン』「エピソード1: リボーン、
 <span class="type-badge type-normal">ノーマル</span><span class="move-name" title="相手にむかって体ぜんたいでぶつかっていき攻撃する。">たいあたり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">40</span><span class="move-acc">100%</span><span class="move-pp">PP 35</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="く力ふきだしたいとをまきつけて相手の素早さをがくっと下げる。
+<span class="type-badge type-bug">むし</span><span class="move-name" title="くちからふきだしたいとをまきつけて相手の素早さをがくっと下げる。
 相手のすばやさ -2段階*">いとをはく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">95%</span><span class="move-pp">PP 40</span></span>
 </li>
 <li class="move">
@@ -2511,7 +2511,7 @@ description: "『ポケモンリボーン』「エピソード1: リボーン、
 追加効果 30%">どくばり</span><span class="move-meta"><span class="move-cat">物理</span><span class="move-power">15</span><span class="move-acc">100%</span><span class="move-pp">PP 35</span></span>
 </li>
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="く力ふきだしたいとをまきつけて相手の素早さをがくっと下げる。
+<span class="type-badge type-bug">むし</span><span class="move-name" title="くちからふきだしたいとをまきつけて相手の素早さをがくっと下げる。
 相手のすばやさ -2段階*">いとをはく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">95%</span><span class="move-pp">PP 40</span></span>
 </li>
 <li class="move">
@@ -2700,7 +2700,7 @@ description: "『ポケモンリボーン』「エピソード1: リボーン、
 </td>
 <td><ul class="move-list">
 <li class="move">
-<span class="type-badge type-bug">むし</span><span class="move-name" title="く力ふきだしたいとをまきつけて相手の素早さをがくっと下げる。
+<span class="type-badge type-bug">むし</span><span class="move-name" title="くちからふきだしたいとをまきつけて相手の素早さをがくっと下げる。
 相手のすばやさ -2段階*">いとをはく</span><span class="move-meta"><span class="move-cat">変化</span><span class="move-power">—</span><span class="move-acc">95%</span><span class="move-pp">PP 40</span></span>
 </li>
 <li class="move">
