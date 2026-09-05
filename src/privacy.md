@@ -1,7 +1,7 @@
 ---
 title: "プライバシーポリシー"
 permalink: /privacy/
-description: "ポケモンリボーン 日本語攻略における、アクセス解析と広告配信での Cookie の利用、および無効化の方法についてのご案内です。"
+description: "ポケモンリボーン 日本語攻略における、アクセス解析での Cookie の利用、および無効化の方法についてのご案内です。"
 ---
 
 # プライバシーポリシー
@@ -22,18 +22,6 @@ description: "ポケモンリボーン 日本語攻略における、アクセ�
 
 - Google アナリティクス オプトアウト アドオン: <https://tools.google.com/dlpage/gaoptout>
 - Google のプライバシーポリシー: <https://policies.google.com/privacy>
-
-## 広告配信
-
-第三者配信の広告サービス **Google AdSense** を利用しています。
-Google などの第三者配信事業者は **Cookie** を使用して、利用者が当サイトや他のサイトに
-過去にアクセスした際の情報に基づいて広告を配信することがあります。
-これらの情報に、氏名・住所・メールアドレス・電話番号は含まれません。
-
-パーソナライズ広告は、Google の広告設定ページで無効にできます。
-
-- Google 広告設定: <https://myadcenter.google.com/>
-- 広告における Cookie とデータの使用: <https://policies.google.com/technologies/ads>
 
 Cookie はブラウザの設定で無効にしたり、保存済みのものを削除したりできます。
 その場合でも、**当サイトの攻略記事・図鑑・検索や並べ替えの機能はこれまでどおりご利用いただけます。**
