@@ -95,11 +95,10 @@ module EvolutionIndexPage
 
     lead =
       if JaNames.enabled?
-        ["ゲームのデータから起こした進化条件の一覧です。#{rows.length}件。" \
+        ["進化条件の一覧です。#{rows.length}件。" \
          "種族名を押すと、その種族の頁へ飛べます。",
          "交換で進化するものが#{trade}件あります。1人で進める場合は、" \
-         "かわりにリンクストーンを使います。" \
-         "条件はゲームの Evolution.rb の判定に合わせてあります。"]
+         "かわりにリンクストーンを使います。"]
       else
         ["Evolution methods taken from the game data. #{rows.length} entries, #{trade} of them by trade. " \
          "Open a species for its own page."]
