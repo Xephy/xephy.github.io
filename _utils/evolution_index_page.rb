@@ -95,7 +95,7 @@ module EvolutionIndexPage
 
     lead =
       if JaNames.enabled?
-        ["ゲームのデータから起こした進化条件の一覧です。#{rows.length}件。" \
+        ["進化条件の一覧です。#{rows.length}件。" \
          "種族名を押すと、その種族の頁へ飛べます。",
          "交換で進化するものが#{trade}件あります。1人で進める場合は、" \
          "かわりにリンクストーンを使います。"]

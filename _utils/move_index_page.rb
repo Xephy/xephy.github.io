@@ -141,7 +141,7 @@ module MoveIndexPage
         ["覚えられるポケモンが1種以上いるわざ#{rows.length}本の一覧です。" \
          "わざの名前を押すと、そのわざを覚えられるポケモンが図鑑番号順に並びます。" \
          "レベル・わざマシン・教え技・タマゴ・思い出しのどれで覚えるかも一緒に出ます。",
-         "並びは覚えられるポケモンの多い順。のべ#{comma(total_pairs)}組をゲームのデータから起こしています。"]
+         "並びは覚えられるポケモンの多い順です。"]
       else
         ["#{rows.length} moves that at least one Pokemon can learn. " \
          "Open a move to see every Pokemon that learns it, by any method.",
