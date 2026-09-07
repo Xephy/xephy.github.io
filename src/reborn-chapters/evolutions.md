@@ -10,7 +10,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
 
 ゲームのデータから起こした進化条件の一覧です。394件。種族名を押すと、その種族の頁へ飛べます。
 
-通信交換で進化するものが26件あります。条件の読み方は Evolution.rb の判定に合わせてあり、「なつき度を上げて」は220以上を指します。
+交換で進化するものが26件あります。1人で進める場合は、かわりにリンクストーンを使います。条件はゲームの Evolution.rb の判定に合わせてあります。
 
 <div class="ref-filter ev-filter" hidden>
   <div class="ref-filter-line">
@@ -20,7 +20,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
     <button type="button" class="ref-reset">条件を外す</button>
   </div>
   <div class="ref-filter-line ref-chips" data-group="groups">
-    <span class="ref-chip-label">進化の仕方</span><button type="button" class="ref-chip ev-chip" data-value="level">レベル<span>284</span></button><button type="button" class="ref-chip ev-chip" data-value="item">どうぐ<span>44</span></button><button type="button" class="ref-chip ev-chip" data-value="trade">通信交換<span>26</span></button><button type="button" class="ref-chip ev-chip" data-value="happiness">なつき度<span>19</span></button><button type="button" class="ref-chip ev-chip" data-value="location">場所<span>6</span></button><button type="button" class="ref-chip ev-chip" data-value="other">その他<span>15</span></button>
+    <span class="ref-chip-label">進化の仕方</span><button type="button" class="ref-chip ev-chip" data-value="level">レベル<span>284</span></button><button type="button" class="ref-chip ev-chip" data-value="item">どうぐ<span>44</span></button><button type="button" class="ref-chip ev-chip" data-value="trade">リンクストーン<span>26</span></button><button type="button" class="ref-chip ev-chip" data-value="happiness">なつき度<span>19</span></button><button type="button" class="ref-chip ev-chip" data-value="location">場所<span>6</span></button><button type="button" class="ref-chip ev-chip" data-value="other">その他<span>15</span></button>
   </div>
 </div>
 

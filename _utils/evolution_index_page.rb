@@ -10,7 +10,7 @@ module EvolutionIndexPage
   module_function
 
   GROUP_LABELS = {
-    'level' => 'レベル', 'item' => 'どうぐ', 'trade' => '通信交換',
+    'level' => 'レベル', 'item' => 'どうぐ', 'trade' => 'リンクストーン',
     'happiness' => 'なつき度', 'location' => '場所', 'other' => 'その他'
   }.freeze
 
@@ -97,9 +97,9 @@ module EvolutionIndexPage
       if JaNames.enabled?
         ["ゲームのデータから起こした進化条件の一覧です。#{rows.length}件。" \
          "種族名を押すと、その種族の頁へ飛べます。",
-         "通信交換で進化するものが#{trade}件あります。" \
-         "条件の読み方は Evolution.rb の判定に合わせてあり、" \
-         "「なつき度を上げて」は220以上を指します。"]
+         "交換で進化するものが#{trade}件あります。1人で進める場合は、" \
+         "かわりにリンクストーンを使います。" \
+         "条件はゲームの Evolution.rb の判定に合わせてあります。"]
       else
         ["Evolution methods taken from the game data. #{rows.length} entries, #{trade} of them by trade. " \
          "Open a species for its own page."]
