@@ -11,6 +11,18 @@
 # 目次ページ (/reborn/) には新しいほうから数件、全部は /reborn/changelog/ に出る。
 # 何かを公開したら、bin/ja build の前にここへ1行足すこと。
 
+- date: "2026-09-07"
+  items:
+    - kind: imp
+      href: /reborn/evolutions/
+      text: 進化条件の「特定の場所でレベルアップ」を、場所の名前が分かるようにしました
+    - kind: fix
+      href: /reborn/evolutions/
+      text: 交換で進化するポケモンの条件を「リンクストーンを使う」に直しました。チョボマキとカブルモは手持ちに相方が要ります
+    - kind: imp
+      href: /reborn/evolutions/
+      text: 進化に必要ななつき度を220以上と数字で書き、ケムッソの分岐が個体ごとに決まっていることを添えました
+
 - date: "2026-09-06"
   items:
     - kind: add

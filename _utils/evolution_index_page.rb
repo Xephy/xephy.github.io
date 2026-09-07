@@ -41,7 +41,8 @@ module EvolutionIndexPage
   def row_html(row, hashes)
     # describe はエスケープ済みの HTML を返す (どうぐ名は店の索引への
     # リンクになっている)。
-    text = EvolutionIndex.describe(row, hashes[:item], hashes[:move], hashes[:mon], hashes[:map])
+    text = EvolutionIndex.describe(row, hashes[:item], hashes[:move], hashes[:mon],
+                                   hashes[:map], hashes[:map_sets])
     group = EvolutionIndex.group(row[:method])
     form_index = hashes[:mon][row[:from]].keys.select { |k| k.is_a?(String) }.index(row[:form]) || 0
 
@@ -83,11 +84,12 @@ module EvolutionIndexPage
     BAR
   end
 
-  def build_page(game, item_hash, move_hash, pokemon_hash, map_hash)
+  def build_page(game, item_hash, move_hash, pokemon_hash, map_hash, map_sets = nil)
     rows = EvolutionIndex.collect(pokemon_hash)
     return nil if rows.empty?
 
-    hashes = { item: item_hash, move: move_hash, mon: pokemon_hash, map: map_hash }
+    hashes = { item: item_hash, move: move_hash, mon: pokemon_hash, map: map_hash,
+               map_sets: map_sets }
     trade = rows.count { |r| EvolutionIndex.group(r[:method]) == 'trade' }
     title = JaNames.enabled? ? '進化条件の一覧' : 'Evolution Methods'
 

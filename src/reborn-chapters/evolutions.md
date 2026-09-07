@@ -198,7 +198,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/golbat/"><img src="/assets/images/mon/golbat_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ゴルバット</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/crobat/"><img src="/assets/images/mon/crobat_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">クロバット</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ</td>
+  <td class="ev-how">なつき度220以上でレベルアップ</td>
 </tr>
 <tr data-group="level" data-name="ナゾノクサ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/oddish/"><img src="/assets/images/mon/oddish_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ナゾノクサ</span></a></td>
@@ -246,7 +246,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/meowth/"><img src="/assets/images/mon/meowth_1.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニャース</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/persian/"><img src="/assets/images/mon/persian_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ペルシアン</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ</td>
+  <td class="ev-how">なつき度220以上でレベルアップ</td>
 </tr>
 <tr data-group="level" data-name="コダック">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/psyduck/"><img src="/assets/images/mon/psyduck_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">コダック</span></a></td>
@@ -276,7 +276,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/poliwhirl/"><img src="/assets/images/mon/poliwhirl_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニョロゾ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/politoed/"><img src="/assets/images/mon/politoed_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニョロトノ</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%8A%E3%81%86%E3%81%98%E3%82%83%E3%81%AE%E3%81%97%E3%82%8B%E3%81%97">おうじゃのしるし</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%8A%E3%81%86%E3%81%98%E3%82%83%E3%81%AE%E3%81%97%E3%82%8B%E3%81%97">おうじゃのしるし</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="item" data-name="ニョロゾ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/poliwhirl/"><img src="/assets/images/mon/poliwhirl_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニョロゾ</span></a></td>
@@ -294,7 +294,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/kadabra/"><img src="/assets/images/mon/kadabra_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ユンゲラー</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/alakazam/"><img src="/assets/images/mon/alakazam_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">フーディン</span></a></td>
-  <td class="ev-how">通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="ワンリキー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/machop/"><img src="/assets/images/mon/machop_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ワンリキー</span></a></td>
@@ -306,7 +306,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/machoke/"><img src="/assets/images/mon/machoke_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ゴーリキー</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/machamp/"><img src="/assets/images/mon/machamp_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">カイリキー</span></a></td>
-  <td class="ev-how">通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="マダツボミ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/bellsprout/"><img src="/assets/images/mon/bellsprout_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">マダツボミ</span></a></td>
@@ -336,7 +336,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/graveler/"><img src="/assets/images/mon/graveler_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ゴローン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/golem/"><img src="/assets/images/mon/golem_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ゴローニャ</span></a></td>
-  <td class="ev-how">通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="ポニータ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/ponyta/"><img src="/assets/images/mon/ponyta_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ポニータ</span></a></td>
@@ -354,7 +354,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/slowpoke/"><img src="/assets/images/mon/slowpoke_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヤドン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/slowking/"><img src="/assets/images/mon/slowking_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヤドキング</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%8A%E3%81%86%E3%81%98%E3%82%83%E3%81%AE%E3%81%97%E3%82%8B%E3%81%97">おうじゃのしるし</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%8A%E3%81%86%E3%81%98%E3%82%83%E3%81%AE%E3%81%97%E3%82%8B%E3%81%97">おうじゃのしるし</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="コイル">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/magnemite/"><img src="/assets/images/mon/magnemite_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">コイル</span></a></td>
@@ -366,7 +366,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/magneton/"><img src="/assets/images/mon/magneton_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">レアコイル</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/magnezone/"><img src="/assets/images/mon/magnezone_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ジバコイル</span></a></td>
-  <td class="ev-how">特定の場所でレベルアップ</td>
+  <td class="ev-how">ユレユ発電所でレベルアップ</td>
 </tr>
 <tr data-group="level" data-name="ドードー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/doduo/"><img src="/assets/images/mon/doduo_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ドードー</span></a></td>
@@ -402,13 +402,13 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/haunter/"><img src="/assets/images/mon/haunter_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ゴースト</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/gengar/"><img src="/assets/images/mon/gengar_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ゲンガー</span></a></td>
-  <td class="ev-how">通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="trade" data-name="イワーク">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/onix/"><img src="/assets/images/mon/onix_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イワーク</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/steelix/"><img src="/assets/images/mon/steelix_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ハガネール</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%A1%E3%82%BF%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%88">メタルコート</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%A1%E3%82%BF%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%88">メタルコート</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="スリープ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/drowzee/"><img src="/assets/images/mon/drowzee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">スリープ</span></a></td>
@@ -462,13 +462,13 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/rhydon/"><img src="/assets/images/mon/rhydon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">サイドン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/rhyperior/"><img src="/assets/images/mon/rhyperior_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ドサイドン</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%97%E3%83%AD%E3%83%86%E3%82%AF%E3%82%BF%E3%83%BC">プロテクター</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%97%E3%83%AD%E3%83%86%E3%82%AF%E3%82%BF%E3%83%BC">プロテクター</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="happiness" data-name="ラッキー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/chansey/"><img src="/assets/images/mon/chansey_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ラッキー</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/blissey/"><img src="/assets/images/mon/blissey_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ハピナス</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ</td>
+  <td class="ev-how">なつき度220以上でレベルアップ</td>
 </tr>
 <tr data-group="other" data-name="モンジャラ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/tangela/"><img src="/assets/images/mon/tangela_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">モンジャラ</span></a></td>
@@ -486,7 +486,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/seadra/"><img src="/assets/images/mon/seadra_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">シードラ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/kingdra/"><img src="/assets/images/mon/kingdra_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">キングドラ</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%8A%E3%82%85%E3%81%86%E3%81%AE%E3%82%A6%E3%83%AD%E3%82%B3">りゅうのウロコ</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%8A%E3%82%85%E3%81%86%E3%81%AE%E3%82%A6%E3%83%AD%E3%82%B3">りゅうのウロコ</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="トサキント">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/goldeen/"><img src="/assets/images/mon/goldeen_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">トサキント</span></a></td>
@@ -504,19 +504,19 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/scyther/"><img src="/assets/images/mon/scyther_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ストライク</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/scizor/"><img src="/assets/images/mon/scizor_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ハッサム</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%A1%E3%82%BF%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%88">メタルコート</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%A1%E3%82%BF%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%88">メタルコート</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="trade" data-name="エレブー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/electabuzz/"><img src="/assets/images/mon/electabuzz_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エレブー</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/electivire/"><img src="/assets/images/mon/electivire_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エレキブル</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%A8%E3%83%AC%E3%82%AD%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC">エレキブースター</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%A8%E3%83%AC%E3%82%AD%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC">エレキブースター</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="trade" data-name="ブーバー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/magmar/"><img src="/assets/images/mon/magmar_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ブーバー</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/magmortar/"><img src="/assets/images/mon/magmortar_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ブーバーン</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%9E%E3%82%B0%E3%83%9E%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC">マグマブースター</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%9E%E3%82%B0%E3%83%9E%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC">マグマブースター</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="コイキング">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/magikarp/"><img src="/assets/images/mon/magikarp_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">コイキング</span></a></td>
@@ -528,7 +528,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/eevee/"><img src="/assets/images/mon/eevee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イーブイ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/espeon/"><img src="/assets/images/mon/espeon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エーフィ</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ（昼）</td>
+  <td class="ev-how">なつき度220以上でレベルアップ（昼）</td>
 </tr>
 <tr data-group="item" data-name="イーブイ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/eevee/"><img src="/assets/images/mon/eevee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イーブイ</span></a></td>
@@ -570,13 +570,13 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/eevee/"><img src="/assets/images/mon/eevee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イーブイ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/sylveon/"><img src="/assets/images/mon/sylveon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニンフィア</span></a></td>
-  <td class="ev-how">なつき度を上げ、フェアリーのわざを覚えた状態でレベルアップ</td>
+  <td class="ev-how">なつき度220以上で、フェアリーのわざを覚えた状態でレベルアップ</td>
 </tr>
 <tr data-group="happiness" data-name="イーブイ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/eevee/"><img src="/assets/images/mon/eevee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イーブイ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/umbreon/"><img src="/assets/images/mon/umbreon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ブラッキー</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ（夜）</td>
+  <td class="ev-how">なつき度220以上でレベルアップ（夜）</td>
 </tr>
 <tr data-group="item" data-name="イーブイ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/eevee/"><img src="/assets/images/mon/eevee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">イーブイ</span></a></td>
@@ -588,7 +588,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/porygon/"><img src="/assets/images/mon/porygon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ポリゴン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/porygon2/"><img src="/assets/images/mon/porygon2_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ポリゴン2</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89">アップグレード</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89">アップグレード</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="オムナイト">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/omanyte/"><img src="/assets/images/mon/omanyte_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">オムナイト</span></a></td>
@@ -684,25 +684,25 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/pichu/"><img src="/assets/images/mon/pichu_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ピチュー</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/pikachu/"><img src="/assets/images/mon/pikachu_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ピカチュウ</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ</td>
+  <td class="ev-how">なつき度220以上でレベルアップ</td>
 </tr>
 <tr data-group="happiness" data-name="ピィ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/cleffa/"><img src="/assets/images/mon/cleffa_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ピィ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/clefairy/"><img src="/assets/images/mon/clefairy_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ピッピ</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ</td>
+  <td class="ev-how">なつき度220以上でレベルアップ</td>
 </tr>
 <tr data-group="happiness" data-name="ププリン">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/igglybuff/"><img src="/assets/images/mon/igglybuff_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ププリン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/jigglypuff/"><img src="/assets/images/mon/jigglypuff_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">プリン</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ</td>
+  <td class="ev-how">なつき度220以上でレベルアップ</td>
 </tr>
 <tr data-group="happiness" data-name="トゲピー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/togepi/"><img src="/assets/images/mon/togepi_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">トゲピー</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/togetic/"><img src="/assets/images/mon/togetic_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">トゲチック</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ</td>
+  <td class="ev-how">なつき度220以上でレベルアップ</td>
 </tr>
 <tr data-group="item" data-name="トゲチック">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/togetic/"><img src="/assets/images/mon/togetic_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">トゲチック</span></a></td>
@@ -858,7 +858,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/porygon2/"><img src="/assets/images/mon/porygon2_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ポリゴン2</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/porygonz/"><img src="/assets/images/mon/porygonz_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ポリゴンZ</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%82%E3%82%84%E3%81%97%E3%81%84%E3%83%91%E3%83%83%E3%83%81">あやしいパッチ</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%82%E3%82%84%E3%81%97%E3%81%84%E3%83%91%E3%83%83%E3%83%81">あやしいパッチ</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="バルキー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/tyrogue/"><img src="/assets/images/mon/tyrogue_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">バルキー</span></a></td>
@@ -960,13 +960,13 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/wurmple/"><img src="/assets/images/mon/wurmple_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ケムッソ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/cascoon/"><img src="/assets/images/mon/cascoon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">マユルド</span></a></td>
-  <td class="ev-how">Lv.7（個体ごとに分岐）</td>
+  <td class="ev-how">Lv.7（どちらになるかは個体ごとに決まっている）</td>
 </tr>
 <tr data-group="level" data-name="ケムッソ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/wurmple/"><img src="/assets/images/mon/wurmple_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ケムッソ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/silcoon/"><img src="/assets/images/mon/silcoon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">カラサリス</span></a></td>
-  <td class="ev-how">Lv.7（個体ごとに分岐）</td>
+  <td class="ev-how">Lv.7（どちらになるかは個体ごとに決まっている）</td>
 </tr>
 <tr data-group="level" data-name="カラサリス">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/silcoon/"><img src="/assets/images/mon/silcoon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">カラサリス</span></a></td>
@@ -1092,13 +1092,13 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/azurill/"><img src="/assets/images/mon/azurill_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ルリリ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/marill/"><img src="/assets/images/mon/marill_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">マリル</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ</td>
+  <td class="ev-how">なつき度220以上でレベルアップ</td>
 </tr>
 <tr data-group="location" data-name="ノズパス">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/nosepass/"><img src="/assets/images/mon/nosepass_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ノズパス</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/probopass/"><img src="/assets/images/mon/probopass_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ダイノーズ</span></a></td>
-  <td class="ev-how">特定の場所でレベルアップ</td>
+  <td class="ev-how">ユレユ発電所でレベルアップ</td>
 </tr>
 <tr data-group="item" data-name="エネコ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/skitty/"><img src="/assets/images/mon/skitty_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エネコ</span></a></td>
@@ -1224,7 +1224,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/feebas/"><img src="/assets/images/mon/feebas_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヒンバス</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/milotic/"><img src="/assets/images/mon/milotic_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ミロカロス</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%8D%E3%82%8C%E3%81%84%E3%81%AA%E3%82%A6%E3%83%AD%E3%82%B3">きれいなウロコ</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%8D%E3%82%8C%E3%81%84%E3%81%AA%E3%82%A6%E3%83%AD%E3%82%B3">きれいなウロコ</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="カゲボウズ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/shuppet/"><img src="/assets/images/mon/shuppet_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">カゲボウズ</span></a></td>
@@ -1242,7 +1242,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/dusclops/"><img src="/assets/images/mon/dusclops_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">サマヨール</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/dusknoir/"><img src="/assets/images/mon/dusknoir_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヨノワール</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%8C%E3%81%84%E3%81%8B%E3%81%84%E3%81%AE%E3%81%AC%E3%81%AE">れいかいのぬの</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%82%8C%E3%81%84%E3%81%8B%E3%81%84%E3%81%AE%E3%81%AC%E3%81%AE">れいかいのぬの</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="ソーナノ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/wynaut/"><img src="/assets/images/mon/wynaut_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ソーナノ</span></a></td>
@@ -1278,13 +1278,13 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/clamperl/"><img src="/assets/images/mon/clamperl_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">パールル</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/gorebyss/"><img src="/assets/images/mon/gorebyss_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">サクラビス</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%97%E3%82%93%E3%81%8B%E3%81%84%E3%81%AE%E3%82%A6%E3%83%AD%E3%82%B3">しんかいのウロコ</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%97%E3%82%93%E3%81%8B%E3%81%84%E3%81%AE%E3%82%A6%E3%83%AD%E3%82%B3">しんかいのウロコ</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="trade" data-name="パールル">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/clamperl/"><img src="/assets/images/mon/clamperl_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">パールル</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/huntail/"><img src="/assets/images/mon/huntail_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ハンテール</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%97%E3%82%93%E3%81%8B%E3%81%84%E3%81%AE%E3%82%AD%E3%83%90">しんかいのキバ</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%97%E3%82%93%E3%81%8B%E3%81%84%E3%81%AE%E3%82%AD%E3%83%90">しんかいのキバ</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="タツベイ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/bagon/"><img src="/assets/images/mon/bagon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">タツベイ</span></a></td>
@@ -1386,7 +1386,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/budew/"><img src="/assets/images/mon/budew_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">スボミー</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/roselia/"><img src="/assets/images/mon/roselia_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ロゼリア</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ（昼）</td>
+  <td class="ev-how">なつき度220以上でレベルアップ（昼）</td>
 </tr>
 <tr data-group="level" data-name="ズガイドス">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/cranidos/"><img src="/assets/images/mon/cranidos_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ズガイドス</span></a></td>
@@ -1446,7 +1446,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/buneary/"><img src="/assets/images/mon/buneary_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ミミロル</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/lopunny/"><img src="/assets/images/mon/lopunny_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ミミロップ</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ</td>
+  <td class="ev-how">なつき度220以上でレベルアップ</td>
 </tr>
 <tr data-group="level" data-name="ニャルマー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/glameow/"><img src="/assets/images/mon/glameow_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ニャルマー</span></a></td>
@@ -1458,7 +1458,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/chingling/"><img src="/assets/images/mon/chingling_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">リーシャン</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/chimecho/"><img src="/assets/images/mon/chimecho_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">チリーン</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ（夜）</td>
+  <td class="ev-how">なつき度220以上でレベルアップ（夜）</td>
 </tr>
 <tr data-group="level" data-name="スカンプー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/stunky/"><img src="/assets/images/mon/stunky_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">スカンプー</span></a></td>
@@ -1506,13 +1506,13 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/munchlax/"><img src="/assets/images/mon/munchlax_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ゴンベ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/snorlax/"><img src="/assets/images/mon/snorlax_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">カビゴン</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ</td>
+  <td class="ev-how">なつき度220以上でレベルアップ</td>
 </tr>
 <tr data-group="happiness" data-name="リオル">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/riolu/"><img src="/assets/images/mon/riolu_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">リオル</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/lucario/"><img src="/assets/images/mon/lucario_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ルカリオ</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ（昼）</td>
+  <td class="ev-how">なつき度220以上でレベルアップ（昼）</td>
 </tr>
 <tr data-group="level" data-name="ヒポポタス">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/hippopotas/"><img src="/assets/images/mon/hippopotas_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ヒポポタス</span></a></td>
@@ -1662,13 +1662,13 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/boldore/"><img src="/assets/images/mon/boldore_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ガントル</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/gigalith/"><img src="/assets/images/mon/gigalith_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ギガイアス</span></a></td>
-  <td class="ev-how">通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="happiness" data-name="コロモリ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/woobat/"><img src="/assets/images/mon/woobat_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">コロモリ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/swoobat/"><img src="/assets/images/mon/swoobat_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ココロモリ</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ</td>
+  <td class="ev-how">なつき度220以上でレベルアップ</td>
 </tr>
 <tr data-group="level" data-name="モグリュー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/drilbur/"><img src="/assets/images/mon/drilbur_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">モグリュー</span></a></td>
@@ -1686,7 +1686,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/gurdurr/"><img src="/assets/images/mon/gurdurr_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ドテッコツ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/conkeldurr/"><img src="/assets/images/mon/conkeldurr_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ローブシン</span></a></td>
-  <td class="ev-how">通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="オタマロ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/tympole/"><img src="/assets/images/mon/tympole_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">オタマロ</span></a></td>
@@ -1710,7 +1710,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/swadloon/"><img src="/assets/images/mon/swadloon_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">クルマユ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/leavanny/"><img src="/assets/images/mon/leavanny_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ハハコモリ</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ</td>
+  <td class="ev-how">なつき度220以上でレベルアップ</td>
 </tr>
 <tr data-group="level" data-name="フシデ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/venipede/"><img src="/assets/images/mon/venipede_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">フシデ</span></a></td>
@@ -1854,7 +1854,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/karrablast/"><img src="/assets/images/mon/karrablast_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">カブルモ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/escavalier/"><img src="/assets/images/mon/escavalier_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">シュバルゴ</span></a></td>
-  <td class="ev-how">通信交換</td>
+  <td class="ev-how">手持ちにチョボマキがいる状態で<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="タマゲタケ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/foongus/"><img src="/assets/images/mon/foongus_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">タマゲタケ</span></a></td>
@@ -1944,7 +1944,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/shelmet/"><img src="/assets/images/mon/shelmet_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">チョボマキ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/accelgor/"><img src="/assets/images/mon/accelgor_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">アギルダー</span></a></td>
-  <td class="ev-how">通信交換</td>
+  <td class="ev-how">手持ちにカブルモがいる状態で<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="コジョフー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/mienfoo/"><img src="/assets/images/mon/mienfoo_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">コジョフー</span></a></td>
@@ -2112,13 +2112,13 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/spritzee/"><img src="/assets/images/mon/spritzee_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">シュシュプ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/aromatisse/"><img src="/assets/images/mon/aromatisse_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">フレフワン</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%AB%E3%81%8A%E3%81%84%E3%81%B6%E3%81%8F%E3%82%8D">においぶくろ</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%81%AB%E3%81%8A%E3%81%84%E3%81%B6%E3%81%8F%E3%82%8D">においぶくろ</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="trade" data-name="ペロッパフ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/swirlix/"><img src="/assets/images/mon/swirlix_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ペロッパフ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/slurpuff/"><img src="/assets/images/mon/slurpuff_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ペロリーム</span></a></td>
-  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%9B%E3%82%A4%E3%83%83%E3%83%97%E3%83%9D%E3%83%83%E3%83%97">ホイップポップ</a>を持たせて通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%9B%E3%82%A4%E3%83%83%E3%83%97%E3%83%9D%E3%83%83%E3%83%97">ホイップポップ</a>を持たせて<a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="マーイーカ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/inkay/"><img src="/assets/images/mon/inkay_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">マーイーカ</span></a></td>
@@ -2178,13 +2178,13 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/phantump/"><img src="/assets/images/mon/phantump_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ボクレー</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/trevenant/"><img src="/assets/images/mon/trevenant_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">オーロット</span></a></td>
-  <td class="ev-how">通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="trade" data-name="バケッチャ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/pumpkaboo/"><img src="/assets/images/mon/pumpkaboo_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">バケッチャ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/gourgeist/"><img src="/assets/images/mon/gourgeist_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">パンプジン</span></a></td>
-  <td class="ev-how">通信交換</td>
+  <td class="ev-how"><a href="/reborn/shops/?q=%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3">リンクストーン</a>を使う</td>
 </tr>
 <tr data-group="level" data-name="カチコール">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/bergmite/"><img src="/assets/images/mon/bergmite_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">カチコール</span></a></td>
@@ -2262,13 +2262,13 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/charjabug/"><img src="/assets/images/mon/charjabug_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">デンヂムシ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/vikavolt/"><img src="/assets/images/mon/vikavolt_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">クワガノン</span></a></td>
-  <td class="ev-how">特定の場所でレベルアップ</td>
+  <td class="ev-how">ユレユ発電所でレベルアップ</td>
 </tr>
 <tr data-group="location" data-name="マケンカニ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/crabrawler/"><img src="/assets/images/mon/crabrawler_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">マケンカニ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/crabominable/"><img src="/assets/images/mon/crabominable_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ケケンカニ</span></a></td>
-  <td class="ev-how">特定の場所でレベルアップ</td>
+  <td class="ev-how">アメトリンシティ周辺・アメトリン山・セレスティナイン山でレベルアップ</td>
 </tr>
 <tr data-group="level" data-name="アブリー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/cutiefly/"><img src="/assets/images/mon/cutiefly_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">アブリー</span></a></td>
@@ -2352,7 +2352,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/typenull/"><img src="/assets/images/mon/typenull_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">タイプ:ヌル</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/silvally/"><img src="/assets/images/mon/silvally_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">シルヴァディ</span></a></td>
-  <td class="ev-how">なつき度を上げてレベルアップ</td>
+  <td class="ev-how">なつき度220以上でレベルアップ</td>
 </tr>
 <tr data-group="level" data-name="ジャラコ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/jangmoo/"><img src="/assets/images/mon/jangmoo_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ジャラコ</span></a></td>

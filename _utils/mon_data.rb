@@ -24,6 +24,23 @@ module MonData
     end
   end
 
+  # 「その場所でレベルアップ」で進化するもののマップ番号。
+  #
+  # Evolution.rb の :Location は2通りある。イーブイのように parameter が
+  # マップ番号そのものを指すものと、レアコイル・ノズパス・デンヂムシ・
+  # マケンカニのように parameter を無視して SystemConstants.rb の配列に
+  # 番号が入っているかを見るもの。後者はここで読む。
+  def map_sets(scripts_dir)
+    @map_sets ||= {}
+    @map_sets[scripts_dir] ||= begin
+      src = File.read(File.join(scripts_dir, 'Reborn', 'SystemConstants.rb'))
+      %w[Magnetic Crabominable].to_h do |name|
+        body = src[/^#{name} = \[(.*?)\]/m, 1].to_s
+        [name, body.scan(/\d+/).map(&:to_i)]
+      end
+    end
+  end
+
   # ほぼ全種が覚えるわざ。Pokemon.rb の SpeciesCompatible? が、
   # 種族ごとの compatiblemoves を見る前にこれを通す。
   def universal_moves(scripts_dir)
@@ -41,7 +58,7 @@ module MonData
   end
 
   def reset!
-    @tutor_moves = @universal_moves = @machine_moves = nil
+    @tutor_moves = @universal_moves = @machine_moves = @map_sets = nil
   end
 
   # --- 種族と姿 -------------------------------------------------------------

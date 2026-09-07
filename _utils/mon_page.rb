@@ -170,6 +170,8 @@ module MonPage
       encounters: EncounterIndex.by_species.group_by { |row| row[:species_key].to_s.downcase },
       trainers: TrainerIndex.by_species,
       tutor_moves: MonData.tutor_moves(scripts_dir),
+      # 「その場所でレベルアップ」の場所を名前で出すのに要る。
+      map_sets: MonData.map_sets(scripts_dir),
       hm_machines: machines.select { |m| m[:kind] == 1 }
     }
   end
@@ -484,7 +486,7 @@ module MonPage
           # リンクになっている)。ここで再びエスケープすると、読者の画面に
           # <a href=...> がそのまま出る。
           condition = EvolutionIndex.describe(child, hashes[:item], hashes[:move],
-                                              pokemon_hash, hashes[:map])
+                                              pokemon_hash, hashes[:map], ctx[:map_sets])
           %(<span class="md-evo-arrow">→<em>#{condition}</em></span>)
         elsif step[:species] == species
           %(<span class="md-evo-node is-self">#{mon_link(game, pokemon_hash, species, index, name)}</span>)
