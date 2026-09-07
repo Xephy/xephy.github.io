@@ -63,21 +63,20 @@ module EvolutionIndex
     when :AttackGreater then "Lv.#{p}（こうげき > ぼうぎょ）"
     when :DefenseGreater then "Lv.#{p}（ぼうぎょ > こうげき）"
     when :AtkDefEqual then "Lv.#{p}（こうげき = ぼうぎょ）"
-    when :Silcoon then "Lv.#{p}（個体ごとに分岐）"
-    when :Cascoon then "Lv.#{p}（個体ごとに分岐）"
+    when :Silcoon, :Cascoon then "Lv.#{p}（どちらになるかは個体ごとに決まっている）"
     when :Shedinja then "Lv.#{p}（手持ちに空きとモンスターボールが要る）"
     when :BadInfluence then "Lv.#{p}（手持ちにあくタイプがいる）"
     when :Item then "#{item_name(p, item_hash)}を使う"
     when :ItemMale then "#{item_name(p, item_hash)}を使う（♂）"
     when :ItemFemale then "#{item_name(p, item_hash)}を使う（♀）"
-    when :Trade then '通信交換'
-    when :TradeItem then "#{item_name(p, item_hash)}を持たせて通信交換"
+    when :Trade then trade_text(row, item_hash, pokemon_hash)
+    when :TradeItem then "#{item_name(p, item_hash)}を持たせて#{link_stone(item_hash)}を使う"
     when :DayHoldItem then "#{item_name(p, item_hash)}を持たせてレベルアップ（昼）"
     when :NightHoldItem then "#{item_name(p, item_hash)}を持たせてレベルアップ（夜）"
-    when :Happiness then 'なつき度を上げてレベルアップ'
-    when :HappinessDay then 'なつき度を上げてレベルアップ（昼）'
-    when :HappinessNight then 'なつき度を上げてレベルアップ（夜）'
-    when :Affection then "なつき度を上げ、#{type_name(p)}のわざを覚えた状態でレベルアップ"
+    when :Happiness then 'なつき度220以上でレベルアップ'
+    when :HappinessDay then 'なつき度220以上でレベルアップ（昼）'
+    when :HappinessNight then 'なつき度220以上でレベルアップ（夜）'
+    when :Affection then "なつき度220以上で、#{type_name(p)}のわざを覚えた状態でレベルアップ"
     when :HasMove then "#{move_name(p, move_hash)}を覚えた状態でレベルアップ"
     when :HasInParty then "手持ちに#{species_name(p, pokemon_hash)}がいる状態でレベルアップ"
     when :Location then location_text(row, map_hash, map_sets)
@@ -85,6 +84,26 @@ module EvolutionIndex
       warn "未対応の進化方法: #{m} (#{row[:from]} -> #{row[:to]})"
       m.to_s
     end
+  end
+
+  # リンクストーンで進化させるとき、手持ちに相方が要るもの。
+  # Trading.rb:254-255。交換で進化させる場合はこの条件が付かない。
+  TRADE_PARTNER = { SHELMET: :KARRABLAST, KARRABLAST: :SHELMET }.freeze
+
+  # 1人用のゲームなので通信交換の相手がいない。Trading.rb の
+  # pbTradeCheckEvolution が交換の相手として :LINKSTONE を受け取るので、
+  # リンクストーンを使えば交換したことになる。読む人が実際に取れる手は
+  # こちらなので、条件はリンクストーンの側で書く。
+  def link_stone(item_hash)
+    item_name(:LINKSTONE, item_hash)
+  end
+
+  def trade_text(row, item_hash, pokemon_hash)
+    partner = TRADE_PARTNER[row[:from]]
+    base = "#{link_stone(item_hash)}を使う"
+    return base unless partner
+
+    "手持ちに#{species_name(partner, pokemon_hash)}がいる状態で#{base}"
   end
 
   # マップ名から階層の表記を落とす。ゲームは「アメトリン山2階」のように
