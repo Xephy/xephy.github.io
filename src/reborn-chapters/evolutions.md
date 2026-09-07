@@ -366,7 +366,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/magneton/"><img src="/assets/images/mon/magneton_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">レアコイル</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/magnezone/"><img src="/assets/images/mon/magnezone_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ジバコイル</span></a></td>
-  <td class="ev-how">特定の場所でレベルアップ</td>
+  <td class="ev-how">ユレユ発電所でレベルアップ</td>
 </tr>
 <tr data-group="level" data-name="ドードー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/doduo/"><img src="/assets/images/mon/doduo_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ドードー</span></a></td>
@@ -1098,7 +1098,7 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/nosepass/"><img src="/assets/images/mon/nosepass_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ノズパス</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/probopass/"><img src="/assets/images/mon/probopass_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ダイノーズ</span></a></td>
-  <td class="ev-how">特定の場所でレベルアップ</td>
+  <td class="ev-how">ユレユ発電所でレベルアップ</td>
 </tr>
 <tr data-group="item" data-name="エネコ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/skitty/"><img src="/assets/images/mon/skitty_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">エネコ</span></a></td>
@@ -2262,13 +2262,13 @@ description: "ポケモンリボーンの進化条件の一覧。レベル・道
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/charjabug/"><img src="/assets/images/mon/charjabug_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">デンヂムシ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/vikavolt/"><img src="/assets/images/mon/vikavolt_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">クワガノン</span></a></td>
-  <td class="ev-how">特定の場所でレベルアップ</td>
+  <td class="ev-how">ユレユ発電所でレベルアップ</td>
 </tr>
 <tr data-group="location" data-name="マケンカニ">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/crabrawler/"><img src="/assets/images/mon/crabrawler_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">マケンカニ</span></a></td>
   <td class="ev-arrow">→</td>
   <td class="ev-to"><a class="mon-link" href="/reborn/mon/crabominable/"><img src="/assets/images/mon/crabominable_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">ケケンカニ</span></a></td>
-  <td class="ev-how">特定の場所でレベルアップ</td>
+  <td class="ev-how">アメトリンシティ周辺・アメトリン山・セレスティナイン山でレベルアップ</td>
 </tr>
 <tr data-group="level" data-name="アブリー">
   <td class="ev-from"><a class="mon-link" href="/reborn/mon/cutiefly/"><img src="/assets/images/mon/cutiefly_0.png" alt="" class="mon-icon ev-icon" loading="lazy" width="32" height="32"><span class="ev-name">アブリー</span></a></td>

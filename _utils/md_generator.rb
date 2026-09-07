@@ -392,7 +392,8 @@ def generate_md_text(game = 'reborn', scripts_dir)
   pages['tms'] = tm_page if tm_page
   evo_page = EvolutionIndexPage.build_page(LONGNAMES[game], func_wrapper.item_hash,
                                            func_wrapper.move_hash, func_wrapper.pokemon_hash,
-                                           func_wrapper.map_hash)
+                                           func_wrapper.map_hash,
+                                           MonData.map_sets(scripts_dir))
   pages['evolutions'] = evo_page if evo_page
   pulse_page = PulsedexPage.build_page(LONGNAMES[game], scripts_dir, func_wrapper.pokemon_hash)
   pages['pulsedex'] = pulse_page if pulse_page
