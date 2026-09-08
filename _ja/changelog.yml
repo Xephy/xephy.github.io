@@ -14,9 +14,9 @@
 #
 # 日本語化パッチを出したときもここへ足す。パッチとサイトは同じ訳語で
 # ひとそろいにしているので、読む人にはどちらの更新も知らせたい。
-# 版と何が変わったかを書き、href は Releases
-# (https://github.com/Xephy/reborn-19.5.43-ja/releases/latest) にする。
-# 読む人がまずやることは落とし直しなので、導入方法のページより近い。
+# 版と何が変わったかを書き、href はその版のタグを直に指す。
+#   https://github.com/Xephy/reborn-19.5.43-ja/releases/tag/v19.5.43-ja.13
+# latest にすると、次の版を出した時点で過去の項目まで新しい版へ飛んでしまう。
 
 - date: "2026-09-07"
   items:
@@ -39,7 +39,7 @@
       href: /reborn/move/
       text: わざの説明文の誤変換を直しました
     - kind: patch
-      href: https://github.com/Xephy/reborn-19.5.43-ja/releases/latest
+      href: https://github.com/Xephy/reborn-19.5.43-ja/releases/tag/v19.5.43-ja.13
       text: 日本語化パッチを v19.5.43-ja.13 に更新しました。図鑑とわざの説明文にあった誤変換12か所を直しています
 
 - date: "2026-09-04"
