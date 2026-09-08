@@ -23,8 +23,12 @@ module Changelog
   # あるので、日付で切ると目次が長くなりすぎる。
   RECENT = 5
 
-  KIND_JA = { 'new' => '新機能', 'add' => '追加', 'fix' => '修正', 'imp' => '改善' }.freeze
-  KIND_EN = { 'new' => 'New', 'add' => 'Added', 'fix' => 'Fixed', 'imp' => 'Improved' }.freeze
+  # patch は日本語化パッチ側の更新。サイトの変更と混ざると、どちらを
+  # 入れ直せばよいのか分からなくなるので札を分ける。
+  KIND_JA = { 'new' => '新機能', 'add' => '追加', 'fix' => '修正', 'imp' => '改善',
+              'patch' => 'パッチ' }.freeze
+  KIND_EN = { 'new' => 'New', 'add' => 'Added', 'fix' => 'Fixed', 'imp' => 'Improved',
+              'patch' => 'Patch' }.freeze
 
   def esc(text)
     text.to_s.gsub('&', '&amp;').gsub('<', '&lt;').gsub('>', '&gt;').gsub('"', '&quot;')

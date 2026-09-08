@@ -3671,6 +3671,7 @@ body.night-mode .bst-chip { border-color: #454e5a; color: #c3cad2; }
 .news-kind.is-add { border-color: #9dc49d; color: #2c6b34; }
 .news-kind.is-imp { border-color: #b3aad4; color: #4d4185; }
 .news-kind.is-fix { border-color: #d2b184; color: #7a5320; }
+.news-kind.is-patch { border-color: #8ec2c2; color: #1f6b6b; }
 
 /* 文そのものはリンクにしない。長い文が丸ごと青くなると、どこが押せるのか
    分からなくなる。行き先は文末の小さなリンクにまとめる。 */
@@ -3699,6 +3700,7 @@ body.night-mode .news-kind.is-new { color: #8fc0ee; }
 body.night-mode .news-kind.is-add { color: #8fd39a; }
 body.night-mode .news-kind.is-imp { color: #b6adde; }
 body.night-mode .news-kind.is-fix { color: #e0bb84; }
+body.night-mode .news-kind.is-patch { color: #86cfcf; }
 
 @media (max-width: 600px) {
   .news { padding: 11px 13px 12px; }
