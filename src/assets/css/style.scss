@@ -1649,18 +1649,38 @@ body.night-mode #main_content .tm-table tr { border-bottom-color: #2b3038; }
 デパートステッカー (/reborn/stickers/)
 *******************************************************************************/
 
-#main_content .stk-table { margin: 12px 0 30px; }
-#main_content .stk-table td { padding: 6px 12px; vertical-align: top; }
-#main_content .stk-table .stk-floor,
-#main_content .stk-table .stk-name { white-space: nowrap; }
-#main_content .stk-table .stk-num { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; }
-/* 本文の列は見出しが長く、放っておくと「エピソ／ード5」と語の途中で折れる。 */
-#main_content .stk-table .tm-where { min-width: 17em; }
-#main_content .stk-table .tm-meta { white-space: nowrap; }
+/* 集め方。1枚ごとに見出し・本文へのリンク・手順・(あれば) 取り逃したときの開閉。 */
+#main_content .stk-item { margin: 0 0 22px; }
+#main_content .stk-item h3 { margin: 0 0 4px; font-size: 17px; }
+#main_content .stk-no {
+  display: inline-block; min-width: 1.7em; margin-right: 6px;
+  color: #4f5a64; font-variant-numeric: tabular-nums;
+}
+#main_content .stk-where { margin: 0 0 4px; font-size: 13.5px; }
+#main_content .stk-where .tm-meta { display: inline; margin-left: 2px; }
+#main_content .stk-item p { margin: 0 0 6px; }
 
-/* 取り逃したときの代わりの入手先。表の中で本文より一段下げて読ませる。 */
-#main_content .stk-note { margin: 4px 0 0; color: #4f5a64; font-size: 12.5px; line-height: 1.6; }
-body.night-mode #main_content .stk-note { color: #a4aeb8; }
+/* 各階の品ぞろえ。閉じた状態で階・売り場・必要な枚数が1行で読めるようにする。 */
+#main_content .stk-floor { border-top: 1px solid #e3e7ec; }
+#main_content .stk-floor:last-child { border-bottom: 1px solid #e3e7ec; }
+#main_content .stk-floor summary {
+  display: flex; gap: 12px; align-items: baseline;
+  padding: 8px 4px; cursor: pointer;
+}
+#main_content .stk-floor .stk-f { min-width: 3.5em; font-weight: 700; white-space: nowrap; }
+#main_content .stk-floor .stk-sec { flex: 1; }
+#main_content .stk-floor .stk-need { color: #4f5a64; font-size: 13px; white-space: nowrap; }
+#main_content .stk-floor .stk-table { margin: 0 0 12px; }
+#main_content .stk-floor .stk-table td { padding: 4px 12px; }
+#main_content .stk-floor .stk-price { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+#main_content .stk-credit { margin-top: 28px; color: #4f5a64; font-size: 13px; }
+
+body.night-mode #main_content .stk-no,
+body.night-mode #main_content .stk-floor .stk-need,
+body.night-mode #main_content .stk-credit { color: #a4aeb8; }
+body.night-mode #main_content .stk-floor,
+body.night-mode #main_content .stk-floor:last-child { border-color: #2b3038; }
 
 /*******************************************************************************
 どうぐの買える店 (/reborn/shops/)
