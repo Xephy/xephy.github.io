@@ -198,7 +198,7 @@
 
 必要なら、スパイス用の *ちからのねっこ* と *しろいハーブ* をここで買えます。
 
-留守の間にシールを2枚手に入れていたので、デパートの新しい階に入れます。
+留守の間にステッカーを2枚手に入れていたので、デパートの新しい階に入れます。
 
 !shop("Department Store 9F (Left)", ["Fire Stone", "Water Stone", "Leaf Stone", "Thunder Stone", "Moon Stone", "Sun Stone", "Dusk Stone", "Dawn Stone", "Shiny Stone"])
 

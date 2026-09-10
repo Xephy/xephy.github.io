@@ -44,7 +44,7 @@ description: "『ポケモンリボーン』「エピソード14: //outlier.corr
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/stickers/">デパートステッカー</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -617,7 +617,7 @@ description: "『ポケモンリボーン』「エピソード14: //outlier.corr
 </tr>
 </table></div>
 
-これらの戦いは特別厳しくはありませんが、*グリッチフィールド* での戦闘に本格的に触れる最初の機会なので、ここで癖に慣れておいてください。勝つと *デパートシール: ポリゴンZ* が手に入ります。
+これらの戦いは特別厳しくはありませんが、*グリッチフィールド* での戦闘に本格的に触れる最初の機会なので、ここで癖に慣れておいてください。勝つと *デパートステッカー「ポリゴンZ」* が手に入ります。
 
 スケートリンク周辺の人々に話しかけると話が進みます。次にスケートリンクの上の建物へ入ってください。*バトルパス・グラビティ* が手に入りますが、まだ使えません。外に戻ってシェリーに話しかけます。ここにいるついでに、スケートリンクと子どもたちの障害物を抜けて下の出口まで進んでください。その先で *わざマシン95 バークアウト* が手に入ります。
 
@@ -5387,6 +5387,6 @@ M3G4 T3RR4 との対戦です。もうお察しのとおり *グリッチフィ�
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/stickers/">デパートステッカー</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

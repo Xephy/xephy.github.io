@@ -18,6 +18,14 @@
 #   https://github.com/Xephy/reborn-19.5.43-ja/releases/tag/v19.5.43-ja.13
 # latest にすると、次の版を出した時点で過去の項目まで新しい版へ飛んでしまう。
 
+- date: "2026-09-11"
+  items:
+    - kind: new
+      href: /reborn/stickers/
+      text: デパートステッカーのページを追加しました
+    - kind: fix
+      text: 本文の「デパートシール」を「デパートステッカー」に直しました
+
 - date: "2026-09-07"
   items:
     - kind: imp

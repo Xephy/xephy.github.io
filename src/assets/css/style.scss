@@ -1646,6 +1646,23 @@ body.night-mode #main_content .tm-where li.is-dim .tm-meta { color: #8b95a3; }
 body.night-mode #main_content .tm-table tr { border-bottom-color: #2b3038; }
 
 /*******************************************************************************
+デパートステッカー (/reborn/stickers/)
+*******************************************************************************/
+
+#main_content .stk-table { margin: 12px 0 30px; }
+#main_content .stk-table td { padding: 6px 12px; vertical-align: top; }
+#main_content .stk-table .stk-floor,
+#main_content .stk-table .stk-name { white-space: nowrap; }
+#main_content .stk-table .stk-num { white-space: nowrap; text-align: right; font-variant-numeric: tabular-nums; }
+/* 本文の列は見出しが長く、放っておくと「エピソ／ード5」と語の途中で折れる。 */
+#main_content .stk-table .tm-where { min-width: 17em; }
+#main_content .stk-table .tm-meta { white-space: nowrap; }
+
+/* 取り逃したときの代わりの入手先。表の中で本文より一段下げて読ませる。 */
+#main_content .stk-note { margin: 4px 0 0; color: #4f5a64; font-size: 12.5px; line-height: 1.6; }
+body.night-mode #main_content .stk-note { color: #a4aeb8; }
+
+/*******************************************************************************
 どうぐの買える店 (/reborn/shops/)
 *******************************************************************************/
 

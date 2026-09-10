@@ -214,7 +214,7 @@
 
 !enc(229, ["Headbutt"], nil, "Underground Railnet (Depths)")
 
-地下鉄道網とスラムを通って戻り、オブシディア区のポケモンセンターへ向かいます。先ほど助けた男性が *デパートシール: ココドラ* をくれます。ありがたい話です。
+地下鉄道網とスラムを通って戻り、オブシディア区のポケモンセンターへ向かいます。先ほど助けた男性が *デパートステッカー「ココドラ」* をくれます。ありがたい話です。
 
 !shop("Department Store 5F (Left)", ["Great Ball", "Super Potion", "Super Repel", "Full Heal", "Poke Doll"])
 

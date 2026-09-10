@@ -619,7 +619,7 @@
 
 アゲートシティへ戻り、ポケモンセンターの右の建物に入ります。女性に話しかけ、今見つけた白い数字のコード「139749」を伝えます。
 
-次の部屋では *ライボルトナイト* と *デパートのシール・ライボルト* が手に入ります。ハレルヤ。これが何を意味するかは、お分かりですね。
+次の部屋では *ライボルトナイト* と *デパートステッカー「ライボルト」* が手に入ります。ハレルヤ。これが何を意味するかは、お分かりですね。
 
 !shop("Department Store 11F (Left)", ["Rocky Helmet", "Shed Shell", "Expert Belt", "Safety Goggles", "Flame Orb", "Toxic Orb", "Wise Glasses", "Wide Lens", "Muscle Band", "Black Sludge"])
 

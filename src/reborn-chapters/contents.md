@@ -5,13 +5,13 @@ description: "ポケモンリボーンの攻略目次。本編エピソード1�
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年9月8日 16:07</h5>
+<h5> 最終更新 2026年9月11日 00:10</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/all/">全文を1ページで読む</a> / <a href="/patch/">日本語化パッチの導入方法</a></p>
 
 <section class="news">
   <h2 class="news-title">更新情報<a class="news-all" href="/reborn/changelog/">これまでの更新 →</a></h2>
-  <ul class="news-list"><li><time datetime="2026-09-07">9/7</time><span class="news-kind is-imp">改善</span><span class="news-text">進化条件の「特定の場所でレベルアップ」を、場所の名前が分かるようにしました <a class="news-go" href="/reborn/evolutions/">見る →</a></span></li><li><time datetime="2026-09-07">9/7</time><span class="news-kind is-fix">修正</span><span class="news-text">交換で進化するポケモンの条件を「リンクストーンを使う」に直しました。チョボマキとカブルモは手持ちに相方が要ります <a class="news-go" href="/reborn/evolutions/">見る →</a></span></li><li><time datetime="2026-09-07">9/7</time><span class="news-kind is-imp">改善</span><span class="news-text">進化に必要ななつき度を220以上と数字で書き、ケムッソの分岐が個体ごとに決まっていることを添えました <a class="news-go" href="/reborn/evolutions/">見る →</a></span></li><li><time datetime="2026-09-06">9/6</time><span class="news-kind is-add">追加</span><span class="news-text">プライバシーポリシーとこのサイトについてのページを置きました <a class="news-go" href="/about/">見る →</a></span></li><li><time datetime="2026-09-06">9/6</time><span class="news-kind is-fix">修正</span><span class="news-text">わざの説明文の誤変換を直しました <a class="news-go" href="/reborn/move/">見る →</a></span></li></ul>
+  <ul class="news-list"><li><time datetime="2026-09-11">9/11</time><span class="news-kind is-new">新機能</span><span class="news-text">デパートステッカーのページを追加しました <a class="news-go" href="/reborn/stickers/">見る →</a></span></li><li><time datetime="2026-09-11">9/11</time><span class="news-kind is-fix">修正</span><span class="news-text">本文の「デパートシール」を「デパートステッカー」に直しました</span></li><li><time datetime="2026-09-07">9/7</time><span class="news-kind is-imp">改善</span><span class="news-text">進化条件の「特定の場所でレベルアップ」を、場所の名前が分かるようにしました <a class="news-go" href="/reborn/evolutions/">見る →</a></span></li><li><time datetime="2026-09-07">9/7</time><span class="news-kind is-fix">修正</span><span class="news-text">交換で進化するポケモンの条件を「リンクストーンを使う」に直しました。チョボマキとカブルモは手持ちに相方が要ります <a class="news-go" href="/reborn/evolutions/">見る →</a></span></li><li><time datetime="2026-09-07">9/7</time><span class="news-kind is-imp">改善</span><span class="news-text">進化に必要ななつき度を220以上と数字で書き、ケムッソの分岐が個体ごとに決まっていることを添えました <a class="news-go" href="/reborn/evolutions/">見る →</a></span></li></ul>
 </section>
 
 
@@ -481,6 +481,7 @@ description: "ポケモンリボーンの攻略目次。本編エピソード1�
     <li><a href="/reborn/stats/">種族値ランキング</a></li>
     <li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li>
     <li><a href="/reborn/shops/">どうぐの買える店</a></li>
+    <li><a href="/reborn/stickers/">デパートステッカー</a></li>
     <li><a href="/reborn/move/">わざから探す</a></li>
     <li><a href="/reborn/tms/">わざマシン一覧</a></li>
     <li><a href="/reborn/evolutions/">進化条件の一覧</a></li>

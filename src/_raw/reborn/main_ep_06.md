@@ -175,7 +175,7 @@
 
 !battle(["Kacey", :NatureGirl, 0])
 
-勝ったら依頼主の少女のところへ戻ると *デパートシール: アサナン* がもらえます。
+勝ったら依頼主の少女のところへ戻ると *デパートステッカー「アサナン」* がもらえます。
 
 !shop("Department Store 6F (Left)", ["Kebia Berry", "Shuca Berry", "Coba Berry", "Haban Berry", "Kasib Berry", "Colbur Berry", "Babiri Berry", "Chilan Berry", "Roseli Berry"])
 
