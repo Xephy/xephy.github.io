@@ -1665,8 +1665,18 @@ body.night-mode #main_content .tm-table tr { border-bottom-color: #2b3038; }
 #main_content .stk-floor:last-child { border-bottom: 1px solid #e3e7ec; }
 #main_content .stk-floor summary {
   display: flex; gap: 12px; align-items: baseline;
-  padding: 8px 4px; cursor: pointer;
+  padding: 8px 4px; cursor: pointer; list-style: none;
 }
+/* flex にするとブラウザ標準の三角が消え、押せる行だと分からなくなる。
+   目次の章の開閉 (.book-toc-chapter) と同じ ▸ / ▾ を自前で描く。 */
+#main_content .stk-floor summary::-webkit-details-marker { display: none; }
+#main_content .stk-floor summary::before {
+  content: "\25B8"; flex: none; width: 1em; color: #2b6cb0;
+  font-size: 1.25em; line-height: 1;   /* 本文の大きさのままだと三角が点に見える */
+}
+#main_content .stk-floor[open] summary::before { content: "\25BE"; }
+#main_content .stk-floor summary:hover { background: #f3f6f9; }
+#main_content .stk-floor summary:focus-visible { outline: 2px solid #2b6cb0; outline-offset: -2px; }
 #main_content .stk-floor .stk-f { min-width: 3.5em; font-weight: 700; white-space: nowrap; }
 #main_content .stk-floor .stk-sec { flex: 1; }
 #main_content .stk-floor .stk-need { color: #4f5a64; font-size: 13px; white-space: nowrap; }
@@ -1676,6 +1686,8 @@ body.night-mode #main_content .tm-table tr { border-bottom-color: #2b3038; }
 
 body.night-mode #main_content .stk-no,
 body.night-mode #main_content .stk-floor .stk-need { color: #a4aeb8; }
+body.night-mode #main_content .stk-floor summary::before { color: #7db1e8; }
+body.night-mode #main_content .stk-floor summary:hover { background: #1f242b; }
 body.night-mode #main_content .stk-floor,
 body.night-mode #main_content .stk-floor:last-child { border-color: #2b3038; }
 

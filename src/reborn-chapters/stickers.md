@@ -84,6 +84,8 @@ description: "ポケモンリボーンのデパートステッカー11枚の集�
 
 ## 各階の品ぞろえ {#floors}
 
+階を押すと、その階の品目と値段が開きます。
+
 <div class="stk-floors">
 <details class="stk-floor">
   <summary><span class="stk-f">1階</span><span class="stk-sec">低ランク一般; 薬品</span><span class="stk-need">最初から</span></summary>

@@ -198,6 +198,8 @@ module StickerPage
 
       ## 各階の品ぞろえ {#floors}
 
+      階を押すと、その階の品目と値段が開きます。
+
       <div class="stk-floors">
       #{floors.each_with_index.map { |f, i|
         items = i == floors.size - 1 ? penthouse_items(item_hash) : stock[i + 1]
