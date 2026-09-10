@@ -25,6 +25,9 @@
       text: デパートステッカーのページを追加しました
     - kind: fix
       text: 本文の「デパートシール」を「デパートステッカー」に直しました
+    - kind: patch
+      href: https://github.com/Xephy/reborn-19.5.43-ja/releases/tag/v19.5.43-ja.14
+      text: 日本語化パッチを v19.5.43-ja.14 に更新しました。「デパートシール」を「デパートステッカー」に統一しています
 
 - date: "2026-09-07"
   items:
