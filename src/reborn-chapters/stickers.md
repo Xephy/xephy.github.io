@@ -135,5 +135,3 @@ description: "ポケモンリボーンのデパートステッカー11枚の集�
 </details>
 
 </div>
-
-<p class="stk-credit">参考: <a href="https://pokemon-reborn.fandom.com/wiki/Department_Store_Stickers_Sidequests">Pokémon Reborn Wiki「Department Store Stickers Sidequests」</a></p>

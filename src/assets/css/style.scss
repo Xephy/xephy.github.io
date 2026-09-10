@@ -1674,11 +1674,8 @@ body.night-mode #main_content .tm-table tr { border-bottom-color: #2b3038; }
 #main_content .stk-floor .stk-table td { padding: 4px 12px; }
 #main_content .stk-floor .stk-price { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
 
-#main_content .stk-credit { margin-top: 28px; color: #4f5a64; font-size: 13px; }
-
 body.night-mode #main_content .stk-no,
-body.night-mode #main_content .stk-floor .stk-need,
-body.night-mode #main_content .stk-credit { color: #a4aeb8; }
+body.night-mode #main_content .stk-floor .stk-need { color: #a4aeb8; }
 body.night-mode #main_content .stk-floor,
 body.night-mode #main_content .stk-floor:last-child { border-color: #2b3038; }
 

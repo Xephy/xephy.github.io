@@ -73,8 +73,6 @@ module StickerPage
     'ARON' => '大ホールで地下鉄道網の再建に全額寄付した場合も、再建作業で救われた彼から、ポケモンセンターでもらえます。'
   }.freeze
 
-  WIKI = 'https://pokemon-reborn.fandom.com/wiki/Department_Store_Stickers_Sidequests'
-
   def data
     @data ||= File.exist?(DATA_PATH) ? JSON.parse(File.read(DATA_PATH)) : nil
   end
@@ -207,7 +205,6 @@ module StickerPage
       }.join}
       </div>
 
-      <p class="stk-credit">参考: <a href="#{WIKI}">Pokémon Reborn Wiki「Department Store Stickers Sidequests」</a></p>
     PAGE
     Spoiler.apply(body)
   end
