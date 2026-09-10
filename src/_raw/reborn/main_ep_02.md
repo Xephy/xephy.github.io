@@ -403,7 +403,7 @@
 
 !shop("Department Store 1F (Right)", ["Potion", "Antidote", "Awakening", "Burn Heal", "Paralyze Heal", "Ice Heal"])
 
-従業員に話しかけると *メンバーズカード* と *デパートシール: ポリゴン* がもらえます。シールを1枚手に入れるごとに、上の階へ行けるようになります。冒険を通じて少しずつ集めていくことになります。
+従業員に話しかけると *メンバーズカード* と *デパートステッカー「ポリゴン」* がもらえます。ステッカーを1枚手に入れるごとに、上の階へ行けるようになります。冒険を通じて少しずつ集めていくことになります。
 
 !shop("Department Store 2F (Left)", ["Oran Berry", "Cheri Berry", "Pecha Berry", "Rawst Berry", "Chesto Berry", "Aspear Berry", "Persim Berry"])
 

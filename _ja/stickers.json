@@ -1,0 +1,180 @@
+{
+ "_comment": "jp_translation/tools/export_stickers.py が生成。直接編集しないこと。",
+ "_source": "Pokemon Reborn 日本語化パッチ (非公式ファン翻訳)",
+ "floors": [
+  {
+   "label_en": "1F - Low-Tier General; Medicine",
+   "label_ja": "1階 - 低ランク一般; 薬品",
+   "stickers": 1
+  },
+  {
+   "label_en": "2F - Status and Friendship Berries",
+   "label_ja": "2階 - 状態異常・なつき度きのみ",
+   "stickers": 1
+  },
+  {
+   "label_en": "3F - Niche Items I; Prolonging Items",
+   "label_ja": "3階 - ニッチどうぐI; 効果延長どうぐ",
+   "stickers": 2
+  },
+  {
+   "label_en": "4F - Consumable Items; Special I",
+   "label_ja": "4階 - 消耗どうぐ; スペシャルI",
+   "stickers": 3
+  },
+  {
+   "label_en": "5F - Mid-Tier General; Vitamins",
+   "label_ja": "5階 - 中ランク一般; 栄養ドリンク",
+   "stickers": 4
+  },
+  {
+   "label_en": "6F - Type Berries",
+   "label_ja": "6階 - タイプきのみ",
+   "stickers": 5
+  },
+  {
+   "label_en": "7F - Type Gems",
+   "label_ja": "7階 - タイプジュエル",
+   "stickers": 6
+  },
+  {
+   "label_en": "8F - Battle Items; Niche Items II",
+   "label_ja": "8階 - バトルどうぐ; ニッチどうぐII",
+   "stickers": 7
+  },
+  {
+   "label_en": "9F - Evolution Stones; Special II",
+   "label_ja": "9階 - 進化の石; スペシャルII",
+   "stickers": 8
+  },
+  {
+   "label_en": "10F - Top-Tier General; Rare Berries",
+   "label_ja": "10階 - 高ランク一般; レアきのみ",
+   "stickers": 9
+  },
+  {
+   "label_en": "11F - Utility and Evolution Items",
+   "label_ja": "11階 - 便利・進化どうぐ",
+   "stickers": 10
+  },
+  {
+   "label_en": "Penthouse",
+   "label_ja": "最上階",
+   "stickers": 11
+  }
+ ],
+ "stickers": [
+  {
+   "image": "department-pory1",
+   "switch": null,
+   "species": "PORYGON",
+   "card": true,
+   "maps": [
+    113
+   ]
+  },
+  {
+   "image": "department-tangela",
+   "switch": 1089,
+   "species": "TANGELA",
+   "card": false,
+   "maps": [
+    60,
+    537
+   ]
+  },
+  {
+   "image": "department-drifloon",
+   "switch": 481,
+   "species": "DRIFLOON",
+   "card": false,
+   "maps": [
+    169
+   ]
+  },
+  {
+   "image": "department-aron",
+   "switch": 1090,
+   "species": "ARON",
+   "card": false,
+   "maps": [
+    83
+   ]
+  },
+  {
+   "image": "department-meditite",
+   "switch": 1091,
+   "species": "MEDITITE",
+   "card": false,
+   "maps": [
+    23
+   ]
+  },
+  {
+   "image": "department-chansey",
+   "switch": 1092,
+   "species": "CHANSEY",
+   "card": false,
+   "maps": [
+    234,
+    271
+   ]
+  },
+  {
+   "image": "department-heracross",
+   "switch": 1096,
+   "species": "HERACROSS",
+   "card": false,
+   "maps": [
+    294
+   ]
+  },
+  {
+   "image": "department-clefairy",
+   "switch": 1093,
+   "species": "CLEFAIRY",
+   "card": false,
+   "maps": [
+    365
+   ]
+  },
+  {
+   "image": "department-poryz",
+   "switch": 1094,
+   "species": "PORYGONZ",
+   "card": false,
+   "maps": [
+    460
+   ]
+  },
+  {
+   "image": "department-manectric",
+   "switch": 1095,
+   "species": "MANECTRIC",
+   "card": false,
+   "maps": [
+    753
+   ]
+  },
+  {
+   "image": "department-eevee",
+   "switch": 1069,
+   "species": "EEVEE",
+   "card": false,
+   "maps": [
+    535
+   ]
+  }
+ ],
+ "penthouse_items": [
+  "EVIOLITE",
+  "LEFTOVERS",
+  "LIFEORB",
+  "FOCUSSASH",
+  "EXPSHARE",
+  "WEAKNESSPOLICY",
+  "SITRUSBERRY",
+  "LEPPABERRY",
+  "FULLRESETBAG"
+ ]
+}

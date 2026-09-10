@@ -44,7 +44,7 @@ description: "『ポケモンリボーン』「エピソード19: ポケモン�
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/stickers/">デパートステッカー</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -2767,7 +2767,7 @@ PULSEブロスターがこの戦いを一段と難しくします。彼は必ず
 
 こちらを入力すると、*リボンのくびわ* を持ったニンフィアがもらえます。
 
-ジャスパー区へ飛び、下の通りにある左から2番目の集合住宅に入ります。ここの係員に話しかけると上の階に入れるようになります。最上階まで進むと *フェアリーZ* が手に入ります。2階へ戻って2号室に入り、サーナイトに話しかけます。次に *リボンのくびわ* をロッティに渡すと、最後の1枚 *デパートのシール・イーブイ* が手に入ります。かなり切ない話ですが、報酬は立派です。
+ジャスパー区へ飛び、下の通りにある左から2番目の集合住宅に入ります。ここの係員に話しかけると上の階に入れるようになります。最上階まで進むと *フェアリーZ* が手に入ります。2階へ戻って2号室に入り、サーナイトに話しかけます。次に *リボンのくびわ* をロッティに渡すと、最後の1枚 *デパートステッカー「イーブイ」* が手に入ります。かなり切ない話ですが、報酬は立派です。
 
 <div class="shop_section"><table>
 <thead><th colspan="2" class="table-header" style="text-align: center;"><strong>ショップ: デパート最上階</strong></th></thead>
@@ -15958,6 +15958,6 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/stickers/">デパートステッカー</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

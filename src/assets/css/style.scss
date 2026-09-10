@@ -1646,6 +1646,52 @@ body.night-mode #main_content .tm-where li.is-dim .tm-meta { color: #8b95a3; }
 body.night-mode #main_content .tm-table tr { border-bottom-color: #2b3038; }
 
 /*******************************************************************************
+デパートステッカー (/reborn/stickers/)
+*******************************************************************************/
+
+/* 集め方。1枚ごとに見出し・本文へのリンク・手順・(あれば) 取り逃したときの開閉。 */
+#main_content .stk-item { margin: 0 0 22px; }
+#main_content .stk-item h3 { margin: 0 0 4px; font-size: 17px; }
+#main_content .stk-no {
+  display: inline-block; min-width: 1.7em; margin-right: 6px;
+  color: #4f5a64; font-variant-numeric: tabular-nums;
+}
+#main_content .stk-where { margin: 0 0 4px; font-size: 13.5px; }
+#main_content .stk-where .tm-meta { display: inline; margin-left: 2px; }
+#main_content .stk-item p { margin: 0 0 6px; }
+
+/* 各階の品ぞろえ。閉じた状態で階・売り場・必要な枚数が1行で読めるようにする。 */
+#main_content .stk-floor { border-top: 1px solid #e3e7ec; }
+#main_content .stk-floor:last-child { border-bottom: 1px solid #e3e7ec; }
+#main_content .stk-floor summary {
+  display: flex; gap: 12px; align-items: baseline;
+  padding: 8px 4px; cursor: pointer; list-style: none;
+}
+/* flex にするとブラウザ標準の三角が消え、押せる行だと分からなくなる。
+   目次の章の開閉 (.book-toc-chapter) と同じ ▸ / ▾ を自前で描く。 */
+#main_content .stk-floor summary::-webkit-details-marker { display: none; }
+#main_content .stk-floor summary::before {
+  content: "\25B8"; flex: none; width: 1em; color: #2b6cb0;
+  font-size: 1.25em; line-height: 1;   /* 本文の大きさのままだと三角が点に見える */
+}
+#main_content .stk-floor[open] summary::before { content: "\25BE"; }
+#main_content .stk-floor summary:hover { background: #f3f6f9; }
+#main_content .stk-floor summary:focus-visible { outline: 2px solid #2b6cb0; outline-offset: -2px; }
+#main_content .stk-floor .stk-f { min-width: 3.5em; font-weight: 700; white-space: nowrap; }
+#main_content .stk-floor .stk-sec { flex: 1; }
+#main_content .stk-floor .stk-need { color: #4f5a64; font-size: 13px; white-space: nowrap; }
+#main_content .stk-floor .stk-table { margin: 0 0 12px; }
+#main_content .stk-floor .stk-table td { padding: 4px 12px; }
+#main_content .stk-floor .stk-price { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+body.night-mode #main_content .stk-no,
+body.night-mode #main_content .stk-floor .stk-need { color: #a4aeb8; }
+body.night-mode #main_content .stk-floor summary::before { color: #7db1e8; }
+body.night-mode #main_content .stk-floor summary:hover { background: #1f242b; }
+body.night-mode #main_content .stk-floor,
+body.night-mode #main_content .stk-floor:last-child { border-color: #2b3038; }
+
+/*******************************************************************************
 どうぐの買える店 (/reborn/shops/)
 *******************************************************************************/
 

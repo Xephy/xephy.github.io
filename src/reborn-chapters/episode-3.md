@@ -44,7 +44,7 @@ description: "『ポケモンリボーン』「エピソード3: ドミノ」の
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/stickers/">デパートステッカー</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -1276,7 +1276,7 @@ description: "『ポケモンリボーン』「エピソード3: ドミノ」の
 
 外では *まひなおし* を拾い、警官2人目を救出できます。外の隠された *いいキズぐすり* と *みどりのかけら* を回収し、ここの小さな建物へ入ってください。ポケスナックを持っていて、先ほど慌てていた男性に話しかけていれば **メリープ** が手に入ります。
 
-次の区へ進む前に、ひとつ手短に済ませられることがあります。ジャスパー区を南へ抜け（メリープの建物の下に近道があります）、右へ進みます。ペリドット区で最初に見える家に入り、中の少女たちに話しかけると *デパートシール: モンジャラ* と *わざマシン88 ねごと* がもらえます。
+次の区へ進む前に、ひとつ手短に済ませられることがあります。ジャスパー区を南へ抜け（メリープの建物の下に近道があります）、右へ進みます。ペリドット区で最初に見える家に入り、中の少女たちに話しかけると *デパートステッカー「モンジャラ」* と *わざマシン88 ねごと* がもらえます。
 
 <div class="shop_section"><table>
 <thead><th colspan="2" class="table-header" style="text-align: center;"><strong>ショップ: デパート3階（左）</strong></th></thead>
@@ -3617,6 +3617,6 @@ description: "『ポケモンリボーン』「エピソード3: ドミノ」の
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/stickers/">デパートステッカー</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

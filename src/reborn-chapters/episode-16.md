@@ -44,7 +44,7 @@ description: "『ポケモンリボーン』「エピソード16: リボーン�
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/stickers/">デパートステッカー</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>
 
@@ -3141,7 +3141,7 @@ description: "『ポケモンリボーン』「エピソード16: リボーン�
 
 必要なら、スパイス用の *ちからのねっこ* と *しろいハーブ* をここで買えます。
 
-留守の間にシールを2枚手に入れていたので、デパートの新しい階に入れます。
+留守の間にステッカーを2枚手に入れていたので、デパートの新しい階に入れます。
 
 <div class="shop_section"><table>
 <thead><th colspan="2" class="table-header" style="text-align: center;"><strong>ショップ: デパート9階（左）</strong></th></thead>
@@ -14676,6 +14676,6 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
   </details>
   <div class="chapter-nav-ref">
     <span class="chapter-nav-ref-label">資料</span>
-    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
+    <ul><li><a href="/reborn/mon/">ポケモン図鑑</a></li><li><a href="/reborn/stats/">種族値ランキング</a></li><li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li><li><a href="/reborn/shops/">どうぐの買える店</a></li><li><a href="/reborn/stickers/">デパートステッカー</a></li><li><a href="/reborn/move/">わざから探す</a></li><li><a href="/reborn/tms/">わざマシン一覧</a></li><li><a href="/reborn/evolutions/">進化条件の一覧</a></li><li><a href="/reborn/pulsedex/">PULSE図鑑</a></li><li><a href="/reborn/fields/">フィールド効果</a></li><li><a href="/reborn/affinity/">好感度まとめ</a></li></ul>
   </div>
 </nav>

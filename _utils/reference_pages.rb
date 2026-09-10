@@ -14,6 +14,7 @@ module ReferencePages
     { slug: 'stats', label: '種族値ランキング', en: 'Base Stat Ranking' },
     { slug: 'pokemon', label: 'ポケモンの出現場所', en: 'Wild Encounters' },
     { slug: 'shops', label: 'どうぐの買える店', en: 'Shop Index' },
+    { slug: 'stickers', label: 'デパートステッカー', en: 'Department Store Stickers' },
     { slug: 'move', label: 'わざから探す', en: 'Move Index' },
     { slug: 'tms', label: 'わざマシン一覧', en: 'TM & HM List' },
     { slug: 'evolutions', label: '進化条件の一覧', en: 'Evolution Methods' },
