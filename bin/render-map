@@ -1,0 +1,181 @@
+#!/usr/bin/env python3
+"""ゲームのマップを1枚の画像に描く。
+
+攻略の説明に地図を添えるためのもの。第三者のスクリーンショットを使わず、
+ゲーム本体のマップデータ (Data/MapNNN.rxdata) とタイルセットから描く。
+人物やアイテムはイベントの座標どおりの位置に出るので、「この人に話しかける」
+「ここに落ちている」を正確な場所で示せる。
+
+描き方はゲーム自身の Scripts/TileDrawingHelper.rb に合わせてある。
+
+* タイル番号 384 以上 … タイルセット画像の (番号-384) 番目。横8マス
+* 48〜383 … オートタイル。番号/48-1 がオートタイルの番号、番号%48 が形。
+  形ごとに 16px の4つ切れを Autotiles 表の位置から集めて1マスにする。
+  高さ32px のオートタイルは組み立てずに1マスをそのまま使う
+* 3層を下から順に重ねる。アニメーションは先頭のコマだけ
+
+  bin/render-map 294 -o out.png                 # マップ全体
+  bin/render-map 282 --crop 20,36,40,52 -o x.png  # マス単位で切り出す
+  bin/render-map 294 --no-events -o x.png       # 人物を描かない
+
+Marshal の読み書きは日本語化パッチの rmarshal.py を使う (兄弟のリポジトリ)。
+"""
+import argparse
+import os
+import struct
+import sys
+
+try:
+    from PIL import Image
+except ImportError:
+    sys.exit('Pillow が要ります: pip install --user Pillow')
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+GAME = os.path.join(ROOT, '..', 'Reborn-19.5.0-windows')
+PATCH_TOOLS = os.path.join(ROOT, '..', 'reborn-19.5.43-ja', 'jp_translation', 'tools')
+sys.path.insert(0, PATCH_TOOLS)
+import rmarshal  # noqa: E402
+
+TILE = 32
+
+# Scripts/TileDrawingHelper.rb の Autotiles をそのまま写したもの。
+AUTOTILES = [
+    [[27, 28, 33, 34], [5, 28, 33, 34], [27, 6, 33, 34], [5, 6, 33, 34],
+     [27, 28, 33, 12], [5, 28, 33, 12], [27, 6, 33, 12], [5, 6, 33, 12]],
+    [[27, 28, 11, 34], [5, 28, 11, 34], [27, 6, 11, 34], [5, 6, 11, 34],
+     [27, 28, 11, 12], [5, 28, 11, 12], [27, 6, 11, 12], [5, 6, 11, 12]],
+    [[25, 26, 31, 32], [25, 6, 31, 32], [25, 26, 31, 12], [25, 6, 31, 12],
+     [15, 16, 21, 22], [15, 16, 21, 12], [15, 16, 11, 22], [15, 16, 11, 12]],
+    [[29, 30, 35, 36], [29, 30, 11, 36], [5, 30, 35, 36], [5, 30, 11, 36],
+     [39, 40, 45, 46], [5, 40, 45, 46], [39, 6, 45, 46], [5, 6, 45, 46]],
+    [[25, 30, 31, 36], [15, 16, 45, 46], [13, 14, 19, 20], [13, 14, 19, 12],
+     [17, 18, 23, 24], [17, 18, 11, 24], [41, 42, 47, 48], [5, 42, 47, 48]],
+    [[37, 38, 43, 44], [37, 6, 43, 44], [13, 18, 19, 24], [13, 14, 43, 44],
+     [37, 42, 43, 48], [17, 18, 47, 48], [13, 18, 43, 48], [1, 2, 7, 8]],
+]
+
+
+def table(obj):
+    """RGSS の Table (u オブジェクト) を (xsize, ysize, zsize, 値の並び) に。"""
+    raw = obj.data if hasattr(obj, 'data') else obj
+    raw = bytes(raw)
+    _dim, xs, ys, zs, n = struct.unpack('<5i', raw[:20])
+    return xs, ys, zs, struct.unpack(f'<{n}h', raw[20:20 + 2 * n])
+
+
+def graphic(kind, name):
+    """Graphics/<kind>/<name>.png。拡張子なしで保存されていることがある。"""
+    base = os.path.join(GAME, 'Graphics', kind, name)
+    for path in (base + '.png', base):
+        if os.path.isfile(path):
+            return Image.open(path).convert('RGBA')
+    return None
+
+
+class Tiles:
+    def __init__(self, tileset_id):
+        ts = rmarshal.load(os.path.join(GAME, 'Data', 'Tilesets.rxdata'))[tileset_id].data
+        self.sheet = graphic('Tilesets', ts['@tileset_name'])
+        self.autotiles = [graphic('Autotiles', n) if n else None for n in ts['@autotile_names']]
+        self.cache = {}
+
+    def get(self, tid):
+        if tid in self.cache:
+            return self.cache[tid]
+        img = None
+        if tid >= 384 and self.sheet is not None:
+            i = tid - 384
+            img = self.sheet.crop((i % 8 * TILE, i // 8 * TILE, i % 8 * TILE + TILE, i // 8 * TILE + TILE))
+        elif 0 < tid < 384:
+            src = self.autotiles[tid // 48 - 1] if tid // 48 - 1 < len(self.autotiles) else None
+            if src is not None:
+                if src.height == TILE:
+                    img = src.crop((0, 0, TILE, TILE))
+                else:
+                    img = Image.new('RGBA', (TILE, TILE), (0, 0, 0, 0))
+                    pat = tid % 48
+                    for q, pos in enumerate(AUTOTILES[pat >> 3][pat & 7]):
+                        p = pos - 1
+                        piece = src.crop((p % 6 * 16, p // 6 * 16, p % 6 * 16 + 16, p // 6 * 16 + 16))
+                        img.paste(piece, (q % 2 * 16, q // 2 * 16))
+        self.cache[tid] = img
+        return img
+
+
+def event_sprite(page):
+    """イベントの1ページ目の見た目。人物画像は 4x4 コマ (横=歩き、縦=向き)。"""
+    g = page.data['@graphic'].data
+    name = g.get('@character_name') or ''
+    if not name:
+        return None
+    sheet = graphic('Characters', name)
+    if sheet is None:
+        return None
+    w, h = sheet.width // 4, sheet.height // 4
+    row = max(0, g.get('@direction', 2) // 2 - 1)
+    col = g.get('@pattern', 0)
+    return sheet.crop((col * w, row * h, col * w + w, row * h + h))
+
+
+def render(map_id, events=True, crop=None):
+    m = rmarshal.load(os.path.join(GAME, 'Data', f'Map{map_id:03d}.rxdata')).data
+    xs, ys, zs, cells = table(m['@data'])
+    tiles = Tiles(m['@tileset_id'])
+    img = Image.new('RGBA', (xs * TILE, ys * TILE), (0, 0, 0, 255))
+    for z in range(zs):
+        for y in range(ys):
+            for x in range(xs):
+                t = tiles.get(cells[x + y * xs + z * xs * ys])
+                if t is not None:
+                    img.alpha_composite(t, (x * TILE, y * TILE))
+    if events:
+        for ev in (m['@events'] or {}).values():
+            e = ev.data
+            spr = event_sprite(e['@pages'][0])
+            if spr is None:
+                continue
+            # 足元をマスの下辺中央に合わせる (人物は1マスより背が高い)
+            px = e['@x'] * TILE + (TILE - spr.width) // 2
+            py = e['@y'] * TILE + TILE - spr.height
+            img.alpha_composite(spr, (px, py))
+    if crop:
+        x0, y0, x1, y1 = crop
+        img = img.crop((x0 * TILE, y0 * TILE, x1 * TILE, y1 * TILE))
+    return img, (xs, ys)
+
+
+def render_world(parts, crop, events=True):
+    """隣り合う地図をつないで描く。parts は [(map_id, x_offset, y_offset), ...]。
+
+    ゲームの Data/connections.dat にあるつながり方をそのまま渡す。
+    crop は全体の座標 (マス) で x0,y0,x1,y1。
+    """
+    x0, y0, x1, y1 = crop
+    out = Image.new('RGBA', ((x1 - x0) * TILE, (y1 - y0) * TILE), (0, 0, 0, 255))
+    for map_id, ox, oy in parts:
+        img, (xs, ys) = render(map_id, events=events)
+        # この地図のうち、切り出す範囲に入る部分だけを貼る
+        lx0, ly0 = max(x0 - ox, 0), max(y0 - oy, 0)
+        lx1, ly1 = min(x1 - ox, xs), min(y1 - oy, ys)
+        if lx0 >= lx1 or ly0 >= ly1:
+            continue
+        piece = img.crop((lx0 * TILE, ly0 * TILE, lx1 * TILE, ly1 * TILE))
+        out.alpha_composite(piece, ((lx0 + ox - x0) * TILE, (ly0 + oy - y0) * TILE))
+    return out
+
+
+def main():
+    ap = argparse.ArgumentParser(description='ゲームのマップを画像に描く')
+    ap.add_argument('map', type=int)
+    ap.add_argument('-o', '--output', required=True)
+    ap.add_argument('--crop', help='x0,y0,x1,y1 (マス)')
+    ap.add_argument('--no-events', action='store_true')
+    a = ap.parse_args()
+    crop = tuple(int(v) for v in a.crop.split(',')) if a.crop else None
+    img, size = render(a.map, events=not a.no_events, crop=crop)
+    img.convert('RGB').save(a.output)
+    print(f'map{a.map}: {size[0]}x{size[1]} マス -> {a.output} ({img.width}x{img.height})')
+
+
+if __name__ == '__main__':
+    main()

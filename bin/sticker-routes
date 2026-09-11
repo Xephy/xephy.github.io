@@ -1,0 +1,314 @@
+#!/usr/bin/env python3
+"""デパートステッカーのページに載せる道順の図を作る。
+
+地図は bin/render-map と同じく、ゲーム本体のマップデータから描く。
+道順は目でなぞらず、ゲームの通行判定を写した探索で求める。
+
+写してあるもの (Scripts/ の該当箇所):
+
+* Game_Character#passableEx? … 出る側のマスを d、入る側のマスを 10-d で判定し、
+  人物の見た目を持つイベントのマスには入れない
+* Game_Map#passable? / playerPassable? … 同じマスのタイル画像イベントを先に見て、
+  そのあと3層を上から。通行ビットが立っていれば不可、0x0f なら不可、優先度0なら可
+* Game_Player#move_* と Field.rb の pbLedge … 1マス進める向きで、その先が段差
+  (地形タグ1) なら2マス跳ぶ。着地するマスがふさがっていれば跳べない
+* ケンタロス騎乗中 (スイッチ291) は、向いている先が高い草むら (地形タグ10) なら進めない
+* イベントの見た目と当たり判定は、条件を満たすうち番号の一番大きいページのもの。
+  条件を満たすページが無いイベントは、見えずぶつからない (RMXP の Game_Event#refresh)
+
+南アベンチュリンの森では、段差の上に騎乗中だけ現れる透明なタイルが置いてあり、
+段差を逆向きにも飛べる。この仕掛けは上のページ評価だけで再現される。
+
+依頼の進み具合は、指定した地図のイベントが ON にするスイッチを
+すべて立てた状態 (その場所の仕掛けを解き終えた状態) として扱う。
+
+  bin/sticker-routes            # すべて作る
+  bin/sticker-routes heracross  # 1件だけ
+"""
+import collections
+import importlib.machinery
+import importlib.util
+import os
+import sys
+
+from PIL import Image, ImageDraw, ImageFont
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_loader = importlib.machinery.SourceFileLoader('render_map', os.path.join(ROOT, 'bin', 'render-map'))
+_spec = importlib.util.spec_from_loader('render_map', _loader)
+rm = importlib.util.module_from_spec(_spec)
+_loader.exec_module(rm)
+rmarshal = rm.rmarshal
+
+OUT = os.path.join(ROOT, 'src', 'assets', 'images', 'stickers')
+T = rm.TILE
+LEDGE, TALLGRASS, RIDING = 1, 10, 291
+DIRS = {2: (0, 1), 4: (-1, 0), 6: (1, 0), 8: (0, -1)}
+
+# 南アベンチュリンの森は3枚の地図が横につながっている (Data/connections.dat)。
+AVENTURINE_WOODS = [(283, -77, 0), (282, 0, 0), (284, 68, 0)]
+
+ROUTES = {
+    # テックグラス。1番道路の左から3番目の入口 (map286 の (72,39)) から入ると、
+    # 左の森 map283 の (56,6) に出る。全体の座標では (-21,6)。
+    'heracross': {
+        'parts': AVENTURINE_WOODS,
+        'solved': [282, 283, 284, 285, 286, 287],
+        'start': [(-22, 6), (-21, 6)],
+        'riding': True,
+        'goal': (31, 46),
+        # 1番道路側。この入口 (2マス幅) の真上にケンタロスとバッフロンの組がいる
+        'entrance': {'map': 286, 'at': (72.5, 39), 'crop': (58, 20, 85, 42)},
+    },
+}
+
+
+def load_map(map_id):
+    return rmarshal.load(os.path.join(rm.GAME, 'Data', f'Map{map_id:03d}.rxdata')).data
+
+
+def solved_switches(map_ids):
+    """その地図のイベントが ON にするスイッチ。騎乗のスイッチは除く (探索の状態で持つ)。"""
+    out = set()
+    for mid in map_ids:
+        for ev in load_map(mid)['@events'].values():
+            for pg in ev.data['@pages']:
+                for c in pg.data['@list']:
+                    p = c.data['@parameters']
+                    if c.data['@code'] == 121 and p[2] == 0:
+                        out.update(range(p[0], p[1] + 1))
+    out.discard(RIDING)
+    return out
+
+
+def active_page(pages, switches):
+    for pg in reversed(pages):
+        c = pg.data['@condition'].data
+        if c.get('@switch1_valid') and c['@switch1_id'] not in switches:
+            continue
+        if c.get('@switch2_valid') and c['@switch2_id'] not in switches:
+            continue
+        if c.get('@variable_valid') or c.get('@self_switch_valid'):
+            continue
+        return pg
+    return None
+
+
+class Layer:
+    def __init__(self, map_id, switches):
+        m = load_map(map_id)
+        self.xs, self.ys, self.zs, self.cells = rm.table(m['@data'])
+        ts = rmarshal.load(os.path.join(rm.GAME, 'Data', 'Tilesets.rxdata'))[m['@tileset_id']].data
+        self.pas = rm.table(ts['@passages'])[3]
+        self.pri = rm.table(ts['@priorities'])[3]
+        self.tag = rm.table(ts['@terrain_tags'])[3]
+        self.ev = {}
+        for riding in (False, True):
+            sw = set(switches) | ({RIDING} if riding else set())
+            evs = []
+            for e in (x.data for x in m['@events'].values()):
+                pg = active_page(e['@pages'], sw)
+                if pg is None:
+                    continue
+                g = pg.data['@graphic'].data
+                evs.append((e['@x'], e['@y'], g.get('@tile_id', 0), g.get('@character_name') or '',
+                            pg.data.get('@through', False)))
+            self.ev[riding] = evs
+
+    def valid(self, x, y):
+        return 0 <= x < self.xs and 0 <= y < self.ys
+
+    def tile(self, x, y, z):
+        return self.cells[x + y * self.xs + z * self.xs * self.ys]
+
+    def terrain(self, x, y):
+        for z in (2, 1, 0):
+            t = self.tag[self.tile(x, y, z)]
+            if t > 0:
+                return t
+        return 0
+
+    def passable(self, x, y, d, riding, facing_tag):
+        bit = (1 << (d // 2 - 1)) & 0x0f if d else 0
+        for (ex, ey, tid, _cn, th) in self.ev[riding]:
+            if ex == x and ey == y and not th and tid >= 0:
+                if self.pas[tid] & bit or self.pas[tid] & 0x0f == 0x0f:
+                    return False
+                if self.pri[tid] == 0:
+                    return True
+        for z in (2, 1, 0):
+            tid = self.tile(x, y, z)
+            if riding and facing_tag == TALLGRASS:
+                return False
+            if self.pas[tid] & bit or self.pas[tid] & 0x0f == 0x0f:
+                return False
+            if self.pri[tid] == 0:
+                return True
+        return True
+
+    def occupied(self, x, y, riding):
+        return any(ex == x and ey == y and not th and cn for (ex, ey, _t, cn, th) in self.ev[riding])
+
+
+class World:
+    def __init__(self, parts, switches):
+        self.parts = [(Layer(mid, switches), ox, oy) for mid, ox, oy in parts]
+
+    def at(self, X, Y):
+        for layer, ox, oy in self.parts:
+            if layer.valid(X - ox, Y - oy):
+                return layer, X - ox, Y - oy
+        return None, 0, 0
+
+    def moves(self, X, Y, riding):
+        here, x, y = self.at(X, Y)
+        for d, (dx, dy) in DIRS.items():
+            there, nx, ny = self.at(X + dx, Y + dy)
+            if there is None:
+                continue
+            ftag = there.terrain(nx, ny)
+            if not here.passable(x, y, d, riding, ftag) or not there.passable(nx, ny, 10 - d, riding, ftag):
+                continue
+            if there.occupied(nx, ny, riding):
+                continue
+            if ftag == LEDGE:
+                land, lx, ly = self.at(X + 2 * dx, Y + 2 * dy)
+                if land is not None and land.passable(lx, ly, 0, riding, None) and not land.occupied(lx, ly, riding):
+                    yield (X + 2 * dx, Y + 2 * dy), 'jump'
+                continue
+            yield (X + dx, Y + dy), 'walk'
+
+
+def search(world, starts, goal, riding):
+    """状態は (x, y, 騎乗中か)。騎乗中はいつでも降りられ、乗り直せない。
+    着いたとするのは、目標のマスの上下左右 (アイテムやイベントは隣から調べる)。"""
+    goals = {(goal[0] + dx, goal[1] + dy) for dx, dy in DIRS.values()}
+    first = [(x, y, riding) for x, y in starts]
+    prev = {s: None for s in first}
+    q = collections.deque(first)
+    while q:
+        cur = q.popleft()
+        X, Y, r = cur
+        if (X, Y) in goals:
+            path = []
+            c = (X, Y, r)
+            while c is not None:
+                path.append(c)
+                c = prev[c][0] if prev[c] else None
+            path.reverse()
+            return path, [prev[p][1] for p in path[1:]]
+        nxt = [((p[0], p[1], r), k) for p, k in world.moves(X, Y, r)]
+        if r:
+            nxt.append(((X, Y, False), 'dismount'))
+        for n, k in nxt:
+            if n not in prev:
+                prev[n] = (cur, k)
+                q.append(n)
+    return None, None
+
+
+def stages(path, kinds):
+    """段差を飛ぶところで区切る。各区切りは (始まり, 終わり) の path の番号。"""
+    cuts = [0] + [i + 1 for i, k in enumerate(kinds) if k == 'jump'] + [len(path) - 1]
+    return [(a, b) for a, b in zip(cuts, cuts[1:]) if b > a]
+
+
+def corners(points):
+    out = [points[0]]
+    for a, b, c in zip(points, points[1:], points[2:]):
+        if (b[0] - a[0], b[1] - a[1]) != (c[0] - b[0], c[1] - b[1]):
+            out.append(b)
+    out.append(points[-1])
+    return out
+
+
+def draw_route(img, origin, pts, width, color, halo=True):
+    d = ImageDraw.Draw(img, 'RGBA')
+    xy = [((p[0] - origin[0]) * T + T // 2, (p[1] - origin[1]) * T + T // 2) for p in corners(pts)]
+    if halo:
+        d.line(xy, fill=(255, 255, 255, 235), width=width + 6, joint='curve')
+    d.line(xy, fill=color, width=width, joint='curve')
+
+
+def draw_mark(img, origin, p, label, color, r=22):
+    d = ImageDraw.Draw(img, 'RGBA')
+    x, y = (p[0] - origin[0]) * T + T // 2, (p[1] - origin[1]) * T + T // 2
+    d.ellipse([x - r, y - r, x + r, y + r], fill=color, outline=(255, 255, 255, 255), width=4)
+    d.text((x, y + 1), label, fill=(255, 255, 255, 255), font=ImageFont.load_default(size=int(r * 1.35)), anchor='mm')
+
+
+BLUE, ORANGE, RED = (30, 110, 220, 255), (240, 140, 0, 255), (230, 40, 40, 255)
+# 段階の図で、ほかの段階の道を示す線。縁取りを付けず白で薄く引き、今の段階の赤と見分ける。
+FAINT = (255, 255, 255, 150)
+
+
+def box(points, margin, lo, hi):
+    xs = [p[0] for p in points]
+    ys = [p[1] for p in points]
+    return (max(lo[0], min(xs) - margin), max(lo[1], min(ys) - margin),
+            min(hi[0], max(xs) + margin + 1), min(hi[1], max(ys) + margin + 1))
+
+
+def build(name, spec):
+    sw = solved_switches(spec['solved'])
+    world = World(spec['parts'], sw)
+    path, kinds = search(world, spec['start'], spec['goal'], spec['riding'])
+    if path is None:
+        sys.exit(f'{name}: 道が見つからない')
+    pts = [(p[0], p[1]) for p in path]
+    lo = (min(ox for _m, ox, _y in spec['parts']), 0)
+    hi = (max(ox + L.xs for (L, ox, _y) in world.parts), max(oy + L.ys for (L, _x, oy) in world.parts))
+    marks = [pts[0]] + [((pts[a - 1][0] + pts[a][0]) / 2, (pts[a - 1][1] + pts[a][1]) / 2)
+                        for a, _b in stages(pts, kinds)[1:]] + [spec['goal']]
+
+    def mark_all(img, origin, only=None):
+        for i, p in enumerate(marks):
+            if only is not None and i not in only:
+                continue
+            color = BLUE if i == 0 else RED if i == len(marks) - 1 else ORANGE
+            draw_mark(img, origin, p, str(i + 1), color)
+
+    files = []
+    # 全体図
+    x0, y0, x1, y1 = box(pts + [spec['goal']], 3, lo, hi)
+    img = rm.render_world(spec['parts'], (x0, y0, x1, y1))
+    draw_route(img, (x0, y0), pts, 7, RED)
+    mark_all(img, (x0, y0))
+    files.append(save(img, f'{name}-route.webp'))
+    # 段階ごとの図。道全体を薄く、その段階だけを濃く描く
+    for n, (a, b) in enumerate(stages(pts, kinds), 1):
+        seg = pts[max(a - 1, 0):b + 1]
+        x0, y0, x1, y1 = box(seg + ([spec['goal']] if b == len(pts) - 1 else []), 4, lo, hi)
+        img = rm.render_world(spec['parts'], (x0, y0, x1, y1))
+        draw_route(img, (x0, y0), pts, 4, FAINT, halo=False)
+        draw_route(img, (x0, y0), seg, 7, RED)
+        mark_all(img, (x0, y0), only={n - 1, n})
+        files.append(save(img, f'{name}-step{n}.webp'))
+    if 'entrance' in spec:
+        e = spec['entrance']
+        x0, y0, x1, y1 = e['crop']
+        img, _ = rm.render(e['map'], crop=e['crop'])
+        draw_mark(img, (x0, y0), e['at'], '1', BLUE)
+        files.insert(0, save(img, f'{name}-entrance.webp'))
+    walk = sum(1 for k in kinds if k != 'dismount')
+    print(f'{name}: {walk}歩 段差{kinds.count("jump")}回 '
+          f'{"降りる" if "dismount" in kinds else "降りない"} / {len(files)}枚')
+    for f in files:
+        print('   ', os.path.relpath(f, ROOT))
+
+
+def save(img, filename):
+    os.makedirs(OUT, exist_ok=True)
+    path = os.path.join(OUT, filename)
+    img.convert('RGB').save(path, lossless=True, method=6)
+    return path
+
+
+def main():
+    names = sys.argv[1:] or list(ROUTES)
+    for name in names:
+        build(name, ROUTES[name])
+
+
+if __name__ == '__main__':
+    main()

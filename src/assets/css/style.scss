@@ -1660,6 +1660,32 @@ body.night-mode #main_content .tm-table tr { border-bottom-color: #2b3038; }
 #main_content .stk-where .tm-meta { display: inline; margin-left: 2px; }
 #main_content .stk-item p { margin: 0 0 6px; }
 
+/* 道順の図。11枚並ぶページなので、ふだんは閉じておく。
+   開閉の印は各階の品ぞろえと同じ ▸ / ▾。 */
+#main_content .stk-guide { margin: 6px 0 10px; }
+#main_content .stk-guide > summary {
+  display: inline-block; padding: 3px 10px 3px 6px; cursor: pointer; list-style: none;
+  border: 1px solid #c9d6e4; border-radius: 4px; color: #2b6cb0; font-size: 14px;
+}
+#main_content .stk-guide > summary::-webkit-details-marker { display: none; }
+#main_content .stk-guide > summary::before { content: "\25B8"; display: inline-block; width: 1.1em; font-size: 1.15em; }
+#main_content .stk-guide[open] > summary::before { content: "\25BE"; }
+#main_content .stk-guide > summary:hover { background: #f3f6f9; }
+#main_content .stk-guide img { display: block; max-width: 100%; height: auto; border: 1px solid #d5dde6; }
+#main_content .stk-overview { margin: 12px 0 16px; }
+#main_content .stk-overview figcaption { margin-top: 4px; color: #4f5a64; font-size: 12.5px; }
+#main_content .stk-steps { margin: 0; padding-left: 1.4em; }
+#main_content .stk-steps li { margin: 0 0 18px; }
+/* 縦長の段階図が画面を占領しないよう、高さに上限を付ける */
+#main_content .stk-steps img { max-height: 70vh; width: auto; }
+#main_content .stk-steps p { margin: 6px 0 0; }
+#main_content .stk-guide-note { color: #4f5a64; font-size: 13px; }
+body.night-mode #main_content .stk-guide > summary { border-color: #3a4552; color: #7db1e8; }
+body.night-mode #main_content .stk-guide > summary:hover { background: #1f242b; }
+body.night-mode #main_content .stk-guide img { border-color: #3a4552; }
+body.night-mode #main_content .stk-overview figcaption,
+body.night-mode #main_content .stk-guide-note { color: #a4aeb8; }
+
 /* 各階の品ぞろえ。閉じた状態で階・売り場・必要な枚数が1行で読めるようにする。 */
 #main_content .stk-floor { border-top: 1px solid #e3e7ec; }
 #main_content .stk-floor:last-child { border-bottom: 1px solid #e3e7ec; }

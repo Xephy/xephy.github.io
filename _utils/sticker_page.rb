@@ -73,6 +73,48 @@ module StickerPage
     'ARON' => '大ホールで地下鉄道網の再建に全額寄付した場合も、再建作業で救われた彼から、ポケモンセンターでもらえます。'
   }.freeze
 
+  # 道順の図。画像は bin/sticker-routes がゲームのマップデータから描き、
+  # 道はゲームの通行判定を写した探索で求めている (目でなぞっていない)。
+  # 図の番号 (1〜) と、各段階の説明の番号をそろえる。
+  #
+  # ヘラクロス: 1番道路の左から3番目の入口 (map286 (72,39)) から騎乗のまま入り、
+  # 168歩・段差3回でテックグラスに着く。高い草むらを通らないので降りない。
+  # 段差を上へ飛べるのは、段差の上に騎乗中だけ現れるタイルがあるため。
+  GUIDES = {
+    'HERACROSS' => {
+      image: 'heracross',
+      steps: [
+        ['entrance', '1番道路で暴れているバッフロンを倒すと、ケンタロスに乗れます。乗ったまま、1番道路の森の入口のうち左から3番目（1）から入ります。'],
+        ['step1', '下へまっすぐ進み、いちばん下で段差を右へ飛び越えます（2）。'],
+        ['step2', '下の通り道を右へずっと進み、突き当たりで上へ曲がって、段差を上へ飛びます（3）。'],
+        ['step3', '右へ進んでから上へ。もう一度、段差を上へ飛びます（4）。'],
+        ['step4', '右へ進み、右端で下へ。いちばん下まで下りたら左へ進むと、洞窟の入口の左に テックグラス が落ちています（5）。']
+      ],
+      note: '高い草むらを通らないので、最後までケンタロスに乗ったまま行けます。' \
+            '森の丸太は、先に1番道路と森の仕掛けで片付けておく必要があります。'
+    }
+  }.freeze
+
+  IMAGE_DIR = '/assets/images/stickers'
+
+  def guide_html(key)
+    g = GUIDES[key] or return ''
+    img = ->(suffix, alt) {
+      src = "#{IMAGE_DIR}/#{g[:image]}-#{suffix}.webp"
+      %(<a href="#{src}"><img src="#{src}" alt="#{esc(alt)}" loading="lazy"></a>)
+    }
+    steps = g[:steps].map { |suffix, text| %(<li>#{img.(suffix, text)}<p>#{esc(text)}</p></li>) }.join
+
+    <<~GUIDE
+      <details class="stk-guide">
+        <summary>道順を図で見る</summary>
+        <figure class="stk-overview">#{img.('route', '全体の道順')}<figcaption>全体の道順。図を押すと原寸で開きます。</figcaption></figure>
+        <ol class="stk-steps">#{steps}</ol>
+        <p class="stk-guide-note">#{esc(g[:note])}</p>
+      </details>
+    GUIDE
+  end
+
   def data
     @data ||= File.exist?(DATA_PATH) ? JSON.parse(File.read(DATA_PATH)) : nil
   end
@@ -141,6 +183,7 @@ module StickerPage
         <h3><span class="stk-no">#{number}</span>#{esc(name)}</h3>
         #{where.empty? ? '' : %(<p class="stk-where">#{where}</p>)}
         <p>#{esc(HOWTO[key])}</p>
+        #{guide_html(key)}
         #{spoiler}
       </section>
     ITEM

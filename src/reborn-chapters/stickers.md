@@ -18,23 +18,27 @@ description: "ポケモンリボーンのデパートステッカー11枚の集�
   <p class="stk-where"><a href="/reborn/episode-2/#obsidia-park">オブシディア公園</a> <span class="tm-meta">エピソード2</span></p>
   <p>オブシディア公園でゼルに勝つと、デパートに入れるようになります。エレベーターの横か中にいる店員に話しかけると、メンバーズカードと一緒にもらえます。</p>
   
+  
 </section>
 <section class="stk-item" id="stk-tangela">
   <h3><span class="stk-no">2</span>モンジャラ</h3>
   <p class="stk-where"><a href="/reborn/episode-3/#jasper-ward--malchous-forest-park">ジャスパー区とマルコウス森林公園</a> <span class="tm-meta">エピソード3</span></p>
   <p>マルコウス森林公園でタカと PULSE モジャンボを倒したあと、ジャスパー区の集合住宅の最上階に閉じ込められている女性を助けます。ペリドット区の家にいる彼女の友人に話しかけるともらえます。</p>
+  
   <div class="spoilerText" style="display:none"><p>女性を助けないまま進めた場合は、後半のネオリボーンシティのジャスパー区で、同じ1枚をもらえます。</p></div><a class="spoilerBtn" role="button" tabindex="0" title="クリックで表示" data-hide="隠す">取り逃したとき</a>
 </section>
 <section class="stk-item" id="stk-drifloon">
   <h3><span class="stk-no">3</span>フワンテ</h3>
   <p class="stk-where"><a href="/reborn/episode-4/#lapis-ward">ラピス区</a> <span class="tm-meta">エピソード4</span></p>
   <p>ラピス区の家で、息子がいなくなった母親の話を聞きます。廃発電所でフワンテに襲われている男の子を助け、さらにジャスパー区でペンドラーとフシデに囲まれているところも助けると、母親からもらえます。</p>
+  
   <div class="spoilerText" style="display:none"><p>リボーンシティが復興してからは、男の子を助けていなくても、母親に話しかけるだけでもらえます。</p></div><a class="spoilerBtn" role="button" tabindex="0" title="クリックで表示" data-hide="隠す">取り逃したとき</a>
 </section>
 <section class="stk-item" id="stk-aron">
   <h3><span class="stk-no">4</span>ココドラ</h3>
   <p class="stk-where"><a href="/reborn/episode-5/#smashin-at-the-slums">スラムでのいわくだき</a> <span class="tm-meta">エピソード5</span></p>
   <p>シェリーに勝って いわくだき を手に入れたら、オブシディアスラムから地下鉄道網に入り、奥で倒れている男性を見つけます。オブシディア区のポケモンセンターへ移った彼に話しかけるともらえます。</p>
+  
   <div class="spoilerText" style="display:none"><p>大ホールで地下鉄道網の再建に全額寄付した場合も、再建作業で救われた彼から、ポケモンセンターでもらえます。</p></div><a class="spoilerBtn" role="button" tabindex="0" title="クリックで表示" data-hide="隠す">取り逃したとき</a>
 </section>
 <section class="stk-item" id="stk-meditite">
@@ -42,17 +46,26 @@ description: "ポケモンリボーンのデパートステッカー11枚の集�
   <p class="stk-where"><a href="/reborn/episode-6/#apophyll-beach">アポフィルビーチ</a> <span class="tm-meta">エピソード6</span></p>
   <p>アポフィルアカデミーの寮にいる生徒が、部屋にテレビを欲しがっています。校舎にある共用のテレビを持ち出そうとすると別の生徒とのバトルになり、勝って部屋へ届けるともらえます。</p>
   
+  
 </section>
 <section class="stk-item" id="stk-chansey">
   <h3><span class="stk-no">6</span>ラッキー</h3>
   <p class="stk-where"><a href="/reborn/episode-9/#two-herbal-extracts">2つのやくそうエキス</a> <span class="tm-meta">エピソード9</span></p>
   <p>スピネルタウンのベンチに座っている女性に話しかけて離れると、テレポートで飛ばされてしまいます。クリソリアの森で足をけがしている彼女に やくそうエキス を渡すともらえます。</p>
   
+  
 </section>
 <section class="stk-item" id="stk-heracross">
   <h3><span class="stk-no">7</span>ヘラクロス</h3>
   <p class="stk-where"><a href="/reborn/episode-10/#south-aventurine-woods-exploration">南アベンチュリンの森の探索</a> <span class="tm-meta">エピソード10</span></p>
   <p>1番道路のネイチャーセンター2階に、めがねをなくした男性がいます。南アベンチュリンの森で テックグラス を見つけて渡すともらえます。</p>
+  <details class="stk-guide">
+  <summary>道順を図で見る</summary>
+  <figure class="stk-overview"><a href="/assets/images/stickers/heracross-route.webp"><img src="/assets/images/stickers/heracross-route.webp" alt="全体の道順" loading="lazy"></a><figcaption>全体の道順。図を押すと原寸で開きます。</figcaption></figure>
+  <ol class="stk-steps"><li><a href="/assets/images/stickers/heracross-entrance.webp"><img src="/assets/images/stickers/heracross-entrance.webp" alt="1番道路で暴れているバッフロンを倒すと、ケンタロスに乗れます。乗ったまま、1番道路の森の入口のうち左から3番目（1）から入ります。" loading="lazy"></a><p>1番道路で暴れているバッフロンを倒すと、ケンタロスに乗れます。乗ったまま、1番道路の森の入口のうち左から3番目（1）から入ります。</p></li><li><a href="/assets/images/stickers/heracross-step1.webp"><img src="/assets/images/stickers/heracross-step1.webp" alt="下へまっすぐ進み、いちばん下で段差を右へ飛び越えます（2）。" loading="lazy"></a><p>下へまっすぐ進み、いちばん下で段差を右へ飛び越えます（2）。</p></li><li><a href="/assets/images/stickers/heracross-step2.webp"><img src="/assets/images/stickers/heracross-step2.webp" alt="下の通り道を右へずっと進み、突き当たりで上へ曲がって、段差を上へ飛びます（3）。" loading="lazy"></a><p>下の通り道を右へずっと進み、突き当たりで上へ曲がって、段差を上へ飛びます（3）。</p></li><li><a href="/assets/images/stickers/heracross-step3.webp"><img src="/assets/images/stickers/heracross-step3.webp" alt="右へ進んでから上へ。もう一度、段差を上へ飛びます（4）。" loading="lazy"></a><p>右へ進んでから上へ。もう一度、段差を上へ飛びます（4）。</p></li><li><a href="/assets/images/stickers/heracross-step4.webp"><img src="/assets/images/stickers/heracross-step4.webp" alt="右へ進み、右端で下へ。いちばん下まで下りたら左へ進むと、洞窟の入口の左に テックグラス が落ちています（5）。" loading="lazy"></a><p>右へ進み、右端で下へ。いちばん下まで下りたら左へ進むと、洞窟の入口の左に テックグラス が落ちています（5）。</p></li></ol>
+  <p class="stk-guide-note">高い草むらを通らないので、最後までケンタロスに乗ったまま行けます。森の丸太は、先に1番道路と森の仕掛けで片付けておく必要があります。</p>
+</details>
+
   
 </section>
 <section class="stk-item" id="stk-clefairy">
@@ -60,11 +73,13 @@ description: "ポケモンリボーンのデパートステッカー11枚の集�
   <p class="stk-where"><a href="/reborn/episode-12/#agate-circus">アゲートサーカス</a> <span class="tm-meta">エピソード12</span></p>
   <p>アゲートサーカス検問所の1階に、迷子の男の子がいます。わたあめ・ふうせん・ピッピにんぎょう を順に渡すと、母親が現れて謝り、おわびにもらえます。ピッピにんぎょう はサーカスのゲームの景品です。</p>
   
+  
 </section>
 <section class="stk-item" id="stk-porygonz">
   <h3><span class="stk-no">9</span>ポリゴンZ</h3>
   <p class="stk-where"><a href="/reborn/episode-14/#ametrine-city">アメトリンシティ</a> <span class="tm-meta">エピソード14</span></p>
   <p>アメトリンシティのポケモンセンターの近くの家にいる老人の頼みで、コンピューターのウイルスとグリッチフィールドで3連戦します。勝つともらえます。</p>
+  
   
 </section>
 <section class="stk-item" id="stk-manectric">
@@ -72,11 +87,13 @@ description: "ポケモンリボーンのデパートステッカー11枚の集�
   <p class="stk-where"><a href="/reborn/episode-18/#moving-pieces-into-place">駒を所定の位置へ動かす</a> <span class="tm-meta">エピソード18</span></p>
   <p>アゲートシティのポケモンセンターの右の建物にいる女性が、前の住人のパソコンのパスワードを探しています。本文の手順で見つかる番号「139749」を伝えると隠し部屋が開き、ライボルトナイト と一緒にもらえます。</p>
   
+  
 </section>
 <section class="stk-item" id="stk-eevee">
   <h3><span class="stk-no">11</span>イーブイ</h3>
   <p class="stk-where"><a href="/reborn/episode-19/#scarborough-quest">スカーボローのクエスト</a> <span class="tm-meta">エピソード19</span></p>
   <p>ラブラドラの右下の建物で2つ目のパスワードを入力すると、リボンのくびわ を持ったニンフィアがもらえます。ジャスパー区の集合住宅の2階2号室でサーナイトの話を聞いたあと、くびわ をロッティに渡すともらえます。</p>
+  
   
 </section>
 
