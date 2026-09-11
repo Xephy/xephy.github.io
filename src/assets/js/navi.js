@@ -71,8 +71,10 @@
     if (a === b) { $('navi-msg').textContent = '出発地と目的地が同じです。'; return; }
     route = data.routes[a + '>' + b];
     if (!route) {
+      var opt = $('navi-prog').selectedOptions[0];
+      var fly = opt && +opt.getAttribute('data-badges') >= 13;   // そらをとぶはバッジ13個から
       $('navi-msg').textContent = 'この進み具合では、' + placeName(a) + 'から' + placeName(b) +
-        'へ歩いて行ける道が見つかりませんでした。';
+        'へ歩いて行ける道が見つかりませんでした。' + (fly ? 'この時点では空を飛ぶが使えます。' : '');
       return;
     }
     var names = [];

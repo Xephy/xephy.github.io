@@ -6,7 +6,7 @@ _ja/navi/states/*.json (bin/navi-state で書き出した、ある時点の進�
 
   src/assets/navi/<状態>.json      場所の一覧と、場所どうしの道
   src/assets/navi/maps/m<地図>.webp 地図 (タイルだけ。どの時点でも同じ)
-  src/assets/navi/<状態>/m<地図>.webp その時点で出ている人物や物 (透明の重ね絵)
+  src/assets/navi/over/<ハッシュ>.webp その時点で出ている人物や物 (透明の重ね絵。同じ絵は章をまたいで1枚)
 
 場所の代表地点: その場所にポケモンセンターがあれば入口の前、無ければ、ほかの場所の
 ポケモンセンターから歩いて最初に着く地点 (その場所の入口)。
@@ -19,6 +19,7 @@ _ja/navi/states/*.json (bin/navi-state で書き出した、ある時点の進�
   bin/navi-build ch14 --no-images
 """
 import collections
+import hashlib
 import heapq
 import importlib.machinery
 import importlib.util
@@ -112,11 +113,22 @@ def front_of(W, mid, dest):
     return None
 
 
+def hub(state):
+    """行ける範囲を測る起点: 大ホールの前。街が作り直されたあと (S479) はネオオパール区。"""
+    return (519, 35, 46) if 479 in state.switches else (29, 34, 46)
+
+
 def anchors(W, meta, state, plist):
-    """場所ごとの代表地点。"""
+    """場所ごとの代表地点。
+
+    同じ場所に作り直し前と後の地図があって、metatext の :Switches だけでは見分けられない
+    ものがある。起点から行ける地図がその場所にあれば、行ける地図だけを使う。"""
+    reach = {s[0] for s in ne.explore(W, ne.node(*hub(state)))}
     pcs = {}
     for p in plist:
         ms = [m for m in p['maps'] if live(meta, state, m)]
+        if any(m in reach for m in ms):
+            ms = [m for m in ms if m in reach]
         p['live'] = ms
         for m in ms:
             if 'ポケモンセンター' in ne.map_name(m):
@@ -161,7 +173,19 @@ def anchors(W, meta, state, plist):
 
 # ---------------------------------------------------------------- 道
 
-def search_all(W, start, goals, limit=None):
+def first_fail(state, path, kinds):
+    """値を持ち歩いてたどり直して、通れなくなる一歩の番号 (通れれば None)。"""
+    W = ne.World(state, exact=True)
+    cur = ne.node(*path[0])
+    for i, p in enumerate(path[1:]):
+        nxt = [n for n, k in W.moves(*cur) if n[:4] == tuple(p) and k != 'door?']
+        if not nxt:
+            return i
+        cur = nxt[0]
+    return None
+
+
+def search_all(W, start, goals, limit=None, banned=None):
     """start から、goals (状態の頭 (地図, x, y) → 場所名) すべてへの道を一度に探す。
     歩数が最短のもののうち、曲がる回数が少ない道。limit は調べる状態の数の上限。"""
     s0 = (ne.node(*start), (0, 0))
@@ -180,6 +204,8 @@ def search_all(W, start, goals, limit=None):
             found[g] = cur
         for n, k in W.moves(*nd):
             if k == 'door?':
+                continue
+            if banned and (nd[:4], n[:4]) in banned:
                 continue
             if k == 'door' or k.startswith('switch'):
                 d = (0, 0)
@@ -387,12 +413,38 @@ def build(key, images=True):
         found = search_all(W, anc[a][1], {k: v for k, v in goals.items() if v != a})
         fixed_all = {}
         retry = {}
+        failing = {}
         for b, (path, kinds) in found.items():
-            fixed = ne.verify(state, path, kinds)
-            if fixed is None:
-                retry[anc[b][1]] = b
-            else:
+            where = []
+            fixed = ne.verify(state, path, kinds, where=where)
+            if fixed is not None:
                 fixed_all[b] = fixed
+            else:
+                failing[b] = (path, kinds, where)
+        # 通れなかったものは、つなぎ直せなかった一歩を使わずに、まとめてもう一度おおまかに探す (2回まで)
+        banned = set()
+        for _ in range(2):
+            if not failing:
+                break
+            for b, (path, kinds, where) in failing.items():
+                if where:
+                    i = where[-1]
+                    banned.add((tuple(path[i]), tuple(path[i + 1])))
+            again = search_all(W, anc[a][1], {anc[b][1]: b for b in failing}, banned=banned)
+            nxt = {}
+            for b in failing:
+                if b not in again:
+                    continue
+                path, kinds = again[b]
+                where = []
+                fixed = ne.verify(state, path, kinds, where=where)
+                if fixed is not None:
+                    fixed_all[b] = fixed
+                else:
+                    nxt[b] = (path, kinds, where)
+            failing = nxt
+        for b in failing:
+            retry[anc[b][1]] = b
         if retry:
             # 切り替わる値のせいで通れない道だった。値を持ち歩いて探し直す (遅いので、この時だけ。
             # 同じ出発地のものはまとめて1回で)
@@ -410,18 +462,24 @@ def build(key, images=True):
     print(f'{key}: 道 {len(routes)} (値を持ち歩いて探し直したもの {redo}、それでも無かったもの {bad}) ({time.time() - t0:.0f}s)')
     maps_used = sorted({s['map'] for r in routes.values() for s in r['steps']})
     os.makedirs(os.path.join(OUT, 'maps'), exist_ok=True)
-    os.makedirs(os.path.join(OUT, key), exist_ok=True)
+    os.makedirs(os.path.join(OUT, 'over'), exist_ok=True)
     maps = {}
     for mid in maps_used:
         L = W.get(mid)
         base = os.path.join(OUT, 'maps', f'm{mid}.webp')
-        over = os.path.join(OUT, key, f'm{mid}.webp')
         if images and not os.path.exists(base):
             render_base(mid, base)
-        has = images and render_sprites(state, mid, over)
         maps[mid] = {'name': ne.map_name(mid), 'w': L.xs, 'h': L.ys, 'img': f'maps/m{mid}.webp'}
-        if has or (not images and os.path.exists(over)):
-            maps[mid]['over'] = f'{key}/m{mid}.webp'
+        # 人物の重ね絵は、中身の同じものを章をまたいで1枚にする (over/<中身のハッシュ>.webp)
+        tmp = os.path.join(OUT, 'over', f'.tmp-{key}-{mid}.webp')
+        if images and render_sprites(state, mid, tmp):
+            h = hashlib.sha1(open(tmp, 'rb').read()).hexdigest()[:12]
+            dst = os.path.join(OUT, 'over', f'{h}.webp')
+            if os.path.exists(dst):
+                os.remove(tmp)
+            else:
+                os.replace(tmp, dst)
+            maps[mid]['over'] = f'over/{h}.webp'
     data = {'key': key, 'label': label,
             'places': [{'id': p['en'], 'name': p['ja'], 'label': labels.get(p['en']),
                         'at': list(anc[p['en']][1]) if p['en'] in anc else None} for p in plist],

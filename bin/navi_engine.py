@@ -179,13 +179,14 @@ class Overlay:
 
 
 def _toggle_keys():
-    """移動のためのイベント (場所移動を含み、会話のないページ) が書き換えるスイッチ・変数と、
+    """移動のためのイベント (場所移動を含むか踏むと起きる、会話のないページ) が書き換えるスイッチ・変数と、
     書き換える値。物語の変数 (E# Story) と、どの条件にも出ないものは除く。"""
     os.makedirs(CACHE, exist_ok=True)
     cache = os.path.join(CACHE, 'toggles.json')
     if os.path.exists(cache):
         return {(k[0], k[1]): set(v) for k, v in json.load(open(cache))}
     keys = collections.defaultdict(set)
+    talk_sw = collections.defaultdict(set)
     refs = set()     # どこかの条件 (ページの出現条件・条件分岐) に出るもの
     for mid in INFOS:
         m = load_map(mid)
@@ -206,7 +207,19 @@ def _toggle_keys():
                 if pg['@trigger'] not in (0, 1, 2):
                     continue
                 lst = [D(c) for c in pg['@list']]
-                if not any(c['@code'] == 201 for c in lst) or any(c['@code'] == 101 for c in lst):
+                # 場所移動を含むページか、踏むと起きる (触れて起こす) ページ。どちらも会話のないもの。
+                # 調べて起こす会話つきのページ (切符の販売機など) は、スイッチの値だけ別に集めておき、
+                # 会話のないページでも書き換えられるスイッチに限って足す
+                moves_ = any(c['@code'] == 201 for c in lst) or pg['@trigger'] in (1, 2)
+                talk = any(c['@code'] in (101, 102) for c in lst)
+                if talk and pg['@trigger'] == 0:
+                    for c in lst:
+                        q = c['@parameters']
+                        if c['@code'] == 121:
+                            for i in range(q[0], q[1] + 1):
+                                talk_sw[('S', i)].add(q[2] == 0)
+                    continue
+                if not moves_ or talk:
                     continue
                 for c in lst:
                     q = c['@parameters']
@@ -217,6 +230,9 @@ def _toggle_keys():
                         for i in range(q[0], q[1] + 1):
                             if i not in STORY_VARS:
                                 keys[('V', i)].add(q[4])
+    for k, v in talk_sw.items():
+        if k in keys:
+            keys[k] |= v
     # 行き来で元に戻るものだけ: スイッチは ON にも OFF にもされるもの、変数は 0 に戻されるもの。
     # 物語やクエストの進み具合 (増えていくだけの値) を、道の途中の切り替えとして扱わないため
     keys = {k: v for k, v in keys.items()
@@ -349,6 +365,7 @@ def run_page(state, mid, eid, page, facing, surf=False):
     mark = (dict(upd), True)   # 枝の始まりの切り替えと、確かか
 
     choice = [None]      # いまの選択肢の枝の文言
+    local = {}           # このページの中で書いた変数
 
     def settle():
         """動かずに切り替えだけしたら (エレベーターの行き先ボタンなど)、その場に留まる行き先として残す。"""
@@ -377,16 +394,37 @@ def run_page(state, mid, eid, page, facing, surf=False):
             continue
         sure = None not in vals
         if code == 111:
-            stack.append([ind, cond_111(state, mid, eid, q, facing, surf)])
+            if q[0] == 1 and q[1] in local:
+                v = local[q[1]]
+                if isinstance(v, tuple):
+                    lo, hi = v[1], v[2]
+                    b = q[3] if q[2] == 0 else state.var(q[3])
+                    # 乱数: 比べる値がとりうる幅に入っていれば、その枝もありうる (起きうる行き先として辿る)
+                    possible = [any(op(a, b) for a in range(lo, hi + 1)) for op in
+                                (lambda a, b: a == b, lambda a, b: a >= b, lambda a, b: a <= b,
+                                 lambda a, b: a > b, lambda a, b: a < b, lambda a, b: a != b)][q[4]]
+                    stack.append([ind, True if possible else False])
+                else:
+                    b = q[3] if q[2] == 0 else state.var(q[3])
+                    stack.append([ind, [v == b, v >= b, v <= b, v > b, v < b, v != b][q[4]]])
+            else:
+                stack.append([ind, cond_111(state, mid, eid, q, facing, surf)])
         elif code == 115 and sure:
             break
         elif code == 121:
             for i in range(q[0], q[1] + 1):
                 if ('S', i) in TOGGLES:
                     upd[('S', i)] = q[2] == 0
-        elif code == 122 and q[2] == 0 and q[3] == 0:
+        elif code == 122 and q[2] == 0 and q[3] in (0, 1, 2):
+            # 同じページのあとの分岐は、ここで書いた値を見る (乱数なら、どの値もありうる)
             for i in range(q[0], q[1] + 1):
-                if ('V', i) in TOGGLES:
+                if q[3] == 0:
+                    local[i] = q[4]
+                elif q[3] == 1:
+                    local[i] = state.var(q[4])
+                else:
+                    local[i] = ('rand', q[4], q[5])
+                if q[3] == 0 and ('V', i) in TOGGLES:
                     upd[('V', i)] = q[4]
         elif code == 201 and q[0] == 0:
             cur = [('warp', q[1], q[2], q[3]), sure, upd, choice[0]]
@@ -487,24 +525,41 @@ class Map:
         return ((not cn and not g.get('@tile_id')) or p.get('@through', False)) and st(e['@name']) != 'HiddenItem'
 
     def _alt_pages(self, e, pg, state):
-        keys = set()
-        for p in e['@pages']:
-            c = D(D(p)['@condition'])
-            for k in ('1', '2'):
-                if c.get(f'@switch{k}_valid') and ('S', c[f'@switch{k}_id']) in TOGGLES:
-                    keys.add(('S', c[f'@switch{k}_id']))
-            if c.get('@variable_valid') and ('V', c['@variable_id']) in TOGGLES:
-                keys.add(('V', c['@variable_id']))
+        """道の途中で切り替わる値 (TOGGLES) しだいで、表に出うるほかのページ。
+
+        ページは番号の大きいほうから見て、条件を満たす最初のものが表に出る。そこで大きい
+        ほうから順に、切り替わる値でなら条件を満たせるページを拾い、切り替わる値に頼らずに
+        条件を満たすページに行き当たったら、それより下は出ないので止める。"""
         out = []
-        for k in keys:
-            for v in TOGGLES[k]:
-                ov = Overlay(state, frozenset([(k, v)]))
-                for p in reversed(e['@pages']):
-                    if page_ok(ov, self.id, e['@id'], p):
-                        p = D(p)
-                        if p is not pg and all(p is not a for a in out):
-                            out.append(p)
-                        break
+        for p in reversed(e['@pages']):
+            p = D(p)
+            c = D(p['@condition'])
+            ok, sure = True, True
+            for k in ('1', '2'):
+                if c.get(f'@switch{k}_valid'):
+                    i = c[f'@switch{k}_id']
+                    if ('S', i) in TOGGLES:
+                        sure = False
+                        if not state.switch(i) and True not in TOGGLES[('S', i)]:
+                            ok = False
+                    elif not state.switch(i):
+                        ok = False
+            if c.get('@variable_valid'):
+                i, need = c['@variable_id'], c['@variable_value']
+                if ('V', i) in TOGGLES:
+                    sure = False
+                    if state.var(i) < need and not any(v >= need for v in TOGGLES[('V', i)]):
+                        ok = False
+                elif state.var(i) < need:
+                    ok = False
+            if c.get('@self_switch_valid') and not state.selfswitch(self.id, e['@id'], st(c['@self_switch_ch'])):
+                ok = False
+            if not ok:
+                continue
+            if p is not pg:
+                out.append(p)
+            if sure:
+                break
         return out
 
     def entry_updates(self):
@@ -683,13 +738,53 @@ class World:
         return None, None, None, None
 
     def moves(self, mid, x, y, surf=False, tog=EMPTY):
-        """(行き先 (地図, x, y, 波乗り中か, 切り替え), 種類) を返す。"""
+        """(行き先 (地図, x, y, 波乗り中か, 切り替え), 種類) を返す。
+
+        値を持ち歩くとき (exact) は、行き先の地図の条件に出る値だけを残す。ほかの地図で
+        切り替えた値は、その地図に入り直すときのイベントが書き直すことが多く、持ち歩くと
+        状態の数だけが増えるため。"""
+        for n, k in self._moves(mid, x, y, surf, tog):
+            if self.exact and n[4]:
+                near = self.near_refs(n[0])
+                keep = frozenset(kv for kv in n[4] if kv[0] in near)
+                if keep != n[4]:
+                    n = (n[0], n[1], n[2], n[3], keep)
+            yield n, k
+
+    def near_refs(self, mid, hops=2):
+        """その地図と、扉やつながりで2つ先までの地図の条件に出る値。持ち歩く値はこの中だけ。"""
+        if not hasattr(self, '_near'):
+            self._near = {}
+        if mid not in self._near:
+            seen, frontier = {mid}, {mid}
+            for _ in range(hops):
+                nxt = set()
+                for m in frontier:
+                    L = self.get(m)
+                    if L is None:
+                        continue
+                    for ds in L.warps().values():
+                        nxt.update(d[0] for d in ds)
+                    nxt.update(o for o, _dx, _dy in self.conns.get(m, []))
+                nxt -= seen
+                seen |= nxt
+                frontier = nxt
+            refs = set()
+            for m in seen:
+                L = self.get(m)
+                if L is not None:
+                    refs |= L.refs
+            self._near[mid] = refs
+        return self._near[mid]
+
+    def _moves(self, mid, x, y, surf=False, tog=EMPTY):
         L = self.get(mid, tog)
         st_ = self.state
         for d, (dx, dy) in DIRS.items():
             T, tm, tx, ty = self.locate(mid, x + dx, y + dy, tog)
             if T is None:
                 continue
+            step_upd = None     # そのマスを踏むと起きる、動かない切り替え (歩きに載せる)
             if (tx, ty) in T.triggers:
                 over = T.trigger_over(tx, ty)
                 enter_ok = (L.passable(x, y, d, surf) and T.passable(tx, ty, 10 - d, surf)
@@ -716,6 +811,10 @@ class World:
                                 yield (m3, x3, y3, s2, t3), 'door' if ok else 'door?'
                         continue
                     if rest == [0, 0]:
+                        if over and enter_ok and sure and not label:
+                            # 踏むと起きる切り替え。下の歩きの一歩に載せる
+                            step_upd = tog2
+                            continue
                         # 動かずに切り替えるだけ (エレベーターのボタンなど)。値を持ち歩くときだけ意味がある
                         if self.exact and tog2 != tog:
                             # 選択肢で選んだものなら、その文言を種類に添える (案内の文に使う)
@@ -745,7 +844,7 @@ class World:
                         if U is not None and U.passable(ux, uy, 0) and not U.occupied(ux, uy):
                             yield (um, ux, uy, False, tog), 'jump'
                         continue
-                    yield (tm, tx, ty, False, tog), 'walk' if tm == mid else 'edge'
+                    yield (tm, tx, ty, False, step_upd if self.exact and step_upd else tog), 'walk' if tm == mid else 'edge'
                 elif (st_.can_surf and ftag in SURFABLE
                       and L.passable(x, y, d, True) and T.passable(tx, ty, 10 - d, True)):
                     # 水に向かって調べると波乗り (pbSurf → pbStartSurfing で1マス跳ぶ)
@@ -818,12 +917,12 @@ def explore(world, start, allow_uncertain=False):
     return prev
 
 
-def verify(state, path, kinds, repair=True, radius=4000):
+def verify(state, path, kinds, repair=True, radius=20000, where=None):
     """見つけた道を、切り替わる値を持ち歩いてもう一度たどる。
 
     通れなくなる一歩があれば、その手前から近くを正しい値で探し直して、つなぎ直す
     (エレベーターの行き先ボタンを押しに寄る、など)。つなげたら (道, 種類) を、
-    つなげなければ None を返す。"""
+    つなげなければ None を返す (where にリストを渡すと、あきらめた一歩の番号を入れる)。"""
     W = World(state, exact=True)
     cur = node(*path[0])
     out_p, out_k = [tuple(path[0])], []
@@ -837,6 +936,8 @@ def verify(state, path, kinds, repair=True, radius=4000):
                 break
         if nxt is None:
             if not repair:
+                if where is not None:
+                    where.append(i)
                 return None
             # 近くを幅優先で探して、次の地点にたどり着く道を差し込む
             prev = {cur: None}
@@ -852,6 +953,8 @@ def verify(state, path, kinds, repair=True, radius=4000):
                         prev[n] = (c, k2)
                         q.append(n)
             if hit is None:
+                if where is not None:
+                    where.append(i)
                 return None
             seg = []
             c = hit

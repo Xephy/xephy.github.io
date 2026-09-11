@@ -29,3 +29,4 @@ graphify-out/
 __pycache__/
 # ナビの道探しが作る下ごしらえ (bin/navi_engine.py)。いつでも作り直せる。
 bin/.navi-cache/
+bin/navi_derive/*.pkl

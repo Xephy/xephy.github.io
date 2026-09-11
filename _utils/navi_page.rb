@@ -28,7 +28,8 @@ module NaviPage
       key = File.basename(f, '.json')
       next unless File.exist?(File.join(DATA_DIR, "#{key}.json"))
 
-      { key: key, chapter: key[/\d+/].to_i, label: JSON.parse(File.read(f))['label'] }
+      j = JSON.parse(File.read(f))
+      { key: key, chapter: key[/\d+/].to_i, label: j['label'], badges: j['badges'] }
     }.sort_by { |s| s[:chapter] }
   end
 
@@ -36,7 +37,7 @@ module NaviPage
     by_ch = ready.to_h { |s| [s[:chapter], s] }
     (1..CHAPTERS).map { |n|
       if by_ch[n]
-        %(<option value="#{esc(by_ch[n][:key])}">#{n}章まで終えた</option>)
+        %(<option value="#{esc(by_ch[n][:key])}" data-badges="#{by_ch[n][:badges]}">#{n}章まで終えた</option>)
       else
         %(<option disabled>#{n}章まで終えた（準備中）</option>)
       end
@@ -47,7 +48,7 @@ module NaviPage
     ready = states
     return nil unless JaNames.enabled? && !ready.empty?
 
-    first = ready.first[:key]
+    first = (ready.find { |r| r[:chapter] == 14 } || ready.first)[:key]
     <<~PAGE
       ---
       title: ナビ
@@ -61,7 +62,7 @@ module NaviPage
 
       出発地と目的地を選ぶと、歩いて行く道を地図で案内します。通れる道は物語の進み具合で変わるので、何章まで進めたかも選んでください。
 
-      出発地と目的地は、その場所のポケモンセンターの前です。ポケモンセンターの無い場所は、その場所の入口にしています。空を飛ぶ・ロッククライム・かいりき・ダイビングを使う道は案内しません。
+      出発地と目的地は、その場所のポケモンセンターの前です。ポケモンセンターの無い場所は、その場所の入口にしています。空を飛ぶ・ロッククライム・かいりき・ダイビングを使う道は案内しません。14章以外の進み具合は、ゲームのデータと本文から組み立てたものです。
 
       <div class="navi" id="navi" data-base="/assets/navi/" data-default="#{esc(first)}">
       <div class="navi-panel">
