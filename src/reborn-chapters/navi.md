@@ -4,7 +4,7 @@ permalink: /reborn/navi/
 description: "ポケモンリボーンで、出発地から目的地まで歩いて行く道を地図で案内します。進み具合ごとに通れる道で探します。"
 ---
 
-<p id="title-text">ナビ</p>
+<p id="title-text">ナビ（β版）</p>
 
 <p class="ref-back"><a href="/reborn/">目次へ戻る</a></p>
 
