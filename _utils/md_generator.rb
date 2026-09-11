@@ -21,6 +21,7 @@ require_relative 'changelog'
 require_relative 'trainer_index'
 require_relative 'mon_page'
 require_relative 'sticker_page'
+require_relative 'navi_page'
 require_relative 'move_page'
 require_relative 'spoiler'
 require_relative 'function_wrapper'
@@ -407,6 +408,8 @@ def generate_md_text(game = 'reborn', scripts_dir)
   sticker_page = StickerPage.build_page(LONGNAMES[game], chapters, func_wrapper.pokemon_hash,
                                         func_wrapper.item_hash, func_wrapper.map_hash)
   pages['stickers'] = sticker_page if sticker_page
+  navi_page = NaviPage.build_page(LONGNAMES[game])
+  pages['navi'] = navi_page if navi_page
   # 更新履歴。ゲームの資料ではないので ReferencePages (資料の並び) には入れない。
   # 入口は目次ページの「更新情報」から。
   changelog_page = Changelog.build_page(LONGNAMES[game])

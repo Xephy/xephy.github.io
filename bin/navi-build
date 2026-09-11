@@ -1,0 +1,443 @@
+#!/usr/bin/env python3
+"""ナビのデータを作る。
+
+_ja/navi/states/*.json (bin/navi-state で書き出した、ある時点の進行状況) ごとに、
+地方マップの地名一覧にある場所どうしの道を探し、ページが読むデータを書き出す。
+
+  src/assets/navi/<状態>.json      場所の一覧と、場所どうしの道
+  src/assets/navi/maps/m<地図>.webp 地図 (タイルだけ。どの時点でも同じ)
+  src/assets/navi/<状態>/m<地図>.webp その時点で出ている人物や物 (透明の重ね絵)
+
+場所の代表地点: その場所にポケモンセンターがあれば入口の前、無ければ、ほかの場所の
+ポケモンセンターから歩いて最初に着く地点 (その場所の入口)。
+
+見つけた道は、道の途中で切り替わるスイッチ・変数を持ち歩いてもう一度たどり
+(navi_engine.verify)、通れなくなるものは載せない。
+
+  bin/navi-build            # すべての状態
+  bin/navi-build ch14       # 1つだけ
+  bin/navi-build ch14 --no-images
+"""
+import collections
+import heapq
+import importlib.machinery
+import importlib.util
+import itertools
+import json
+import os
+import re
+import sys
+import time
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import navi_engine as ne  # noqa: E402
+
+ROOT = ne.ROOT
+_loader = importlib.machinery.SourceFileLoader('render_map', os.path.join(ROOT, 'bin', 'render-map'))
+_spec = importlib.util.spec_from_loader('render_map', _loader)
+rm = importlib.util.module_from_spec(_spec)
+_loader.exec_module(rm)
+
+STATES = os.path.join(ROOT, '_ja', 'navi', 'states')
+OUT = os.path.join(ROOT, 'src', 'assets', 'navi')
+TOWNMAP = os.path.join(ne.GAME, 'Scripts', 'Reborn', 'townmap.rb')
+METATEXT = os.path.join(ne.GAME, 'Scripts', 'Reborn', 'metatext.rb')
+SYSCONST = os.path.join(ne.GAME, 'Scripts', 'Reborn', 'SystemConstants.rb')
+PLACE_JA = os.path.join(ne.JA, '18_place_names.jsonl')
+SCALE = 2          # 地図は 32px のマスを半分 (16px) にして載せる
+
+
+# ---------------------------------------------------------------- 場所
+
+def metadata():
+    """地図ごとの MapPosition・Outdoor・Switches (どの進行状況の版か)。"""
+    const = dict((k, int(v)) for k, v in re.findall(r'^\s*(\w+): (\d+),', open(SYSCONST, encoding='utf-8').read(), re.M))
+    meta = {}
+    # 中身の無い地図は `28 => {},` の1行で書かれている
+    for mid, body in re.findall(r'\n  (\d+) => \{(\},|.*?\n  \},)', open(METATEXT, encoding='utf-8').read(), re.S):
+        d = {}
+        m = re.search(r':MapPosition => \[(\d+), (\d+), (\d+)\]', body)
+        if m:
+            d['pos'] = tuple(int(v) for v in m.groups())
+        d['outdoor'] = ':Outdoor => true' in body
+        d['switches'] = [(const[n], v == 'true') for n, v in re.findall(r'\[:(\w+), (true|false)\]', body) if n in const]
+        meta[int(mid)] = d
+    return meta
+
+
+def places(meta):
+    src = open(TOWNMAP, encoding='utf-8').read()
+    cells, fly = {}, {}
+    for x, y, name, _poi, fd in re.findall(
+            r'\[(\d+), (\d+)\] => \{\s*:name => "([^"]*)",\s*:poi => "([^"]*)",\s*:flyData => \[([^\]]*)\]', src):
+        cells[(int(x), int(y))] = name
+        if fd.strip():
+            fly[name] = tuple(int(v) for v in fd.split(','))
+    ja = {}
+    for line in open(PLACE_JA, encoding='utf-8'):
+        r = json.loads(line)
+        ja[r['en']] = r['ja']
+    maps = collections.defaultdict(list)
+    for mid, d in meta.items():
+        if d.get('pos') and d['pos'][0] == 0 and (d['pos'][1], d['pos'][2]) in cells:
+            maps[cells[(d['pos'][1], d['pos'][2])]].append(mid)
+    # MapPosition と地方マップのマスが1つずれている場所がある (RegionMap.rb の注記)。
+    # 空を飛ぶの行き先の地図は、その場所のものとして足す
+    for name, fd in fly.items():
+        if fd[0] not in maps[name]:
+            maps[name].append(fd[0])
+    out = []
+    for name in sorted(set(cells.values()), key=lambda n: ja.get(n, n)):
+        out.append({'en': name, 'ja': ja.get(name, name), 'maps': sorted(maps.get(name, []))})
+    return out
+
+
+def live(meta, state, mid):
+    """その進行状況で使われている版の地図か (metatext の :Switches)。"""
+    return all((sw in state.switches) == v for sw, v in meta.get(mid, {}).get('switches', []))
+
+
+def front_of(W, mid, dest):
+    """地図 mid の中で、dest へ入る扉の手前のマス。"""
+    L = W.get(mid)
+    if L is None:
+        return None
+    for (x, y), ds in sorted(L.warps().items()):
+        if any(d[0] == dest and d[3] for d in ds):
+            for dx, dy in ((0, 1), (0, -1), (1, 0), (-1, 0)):
+                nx, ny = x + dx, y + dy
+                if L.valid(nx, ny) and L.passable(nx, ny, 0) and (nx, ny) not in L.triggers \
+                        and not L.occupied(nx, ny):
+                    return (mid, nx, ny)
+    return None
+
+
+def anchors(W, meta, state, plist):
+    """場所ごとの代表地点。"""
+    pcs = {}
+    for p in plist:
+        ms = [m for m in p['maps'] if live(meta, state, m)]
+        p['live'] = ms
+        for m in ms:
+            if 'ポケモンセンター' in ne.map_name(m):
+                for o in ms:
+                    if o != m and meta.get(o, {}).get('outdoor'):
+                        f = front_of(W, o, m)
+                        if f:
+                            pcs[p['en']] = f
+                            break
+            if p['en'] in pcs:
+                break
+    # ポケモンセンターの無い場所は、どこかのポケモンセンターの前から歩いて最初に着く地点。
+    # explore の結果は見つけた順 (幅優先) に並んでいるので、親の歩数 + 1 で数えられる
+    # 入口は、その場所でいちばん広い屋外の地図に着いたところを選ぶ (建物や小さな脇道ではなく)
+    first = {}
+    where = {m: p['en'] for p in plist for m in p['live']}
+    rank = {}
+    for p in plist:
+        outs = sorted((m for m in p['live'] if meta.get(m, {}).get('outdoor') and W.get(m)),
+                      key=lambda m: -W.get(m).xs * W.get(m).ys)
+        for i, m in enumerate(outs):
+            rank[m] = i
+    for src in pcs.values():
+        prev = ne.explore(W, ne.node(*src))
+        depth = {}
+        for s, pv in prev.items():
+            depth[s] = 0 if pv is None else depth[pv[0]] + 1
+            n = where.get(s[0])
+            if not n or n in pcs or s[3]:
+                continue
+            key = (rank.get(s[0], 99), depth[s])
+            if n not in first or key < first[n][0]:
+                first[n] = (key, s[:3])
+    out = {}
+    for p in plist:
+        if p['en'] in pcs:
+            out[p['en']] = ('pc', pcs[p['en']])
+        elif p['en'] in first:
+            out[p['en']] = ('entry', first[p['en']][1])
+    return out
+
+
+# ---------------------------------------------------------------- 道
+
+def search_all(W, start, goals, limit=None):
+    """start から、goals (状態の頭 (地図, x, y) → 場所名) すべてへの道を一度に探す。
+    歩数が最短のもののうち、曲がる回数が少ない道。limit は調べる状態の数の上限。"""
+    s0 = (ne.node(*start), (0, 0))
+    best = {s0: 0}
+    prev = {s0: None}
+    tie = itertools.count()
+    q = [(0, 0, s0)]
+    found = {}
+    while q and len(found) < len(goals):
+        cost, _, cur = heapq.heappop(q)
+        if cost > best[cur]:
+            continue
+        nd, cdir = cur
+        g = goals.get(nd[:3])
+        if g and g not in found and not nd[3]:
+            found[g] = cur
+        for n, k in W.moves(*nd):
+            if k == 'door?':
+                continue
+            if k == 'door' or k.startswith('switch'):
+                d = (0, 0)
+            elif n[0] == nd[0]:
+                d = (max(-1, min(1, n[1] - nd[1])), max(-1, min(1, n[2] - nd[2])))
+            else:
+                d = cdir
+            c2 = cost + ne.STEP + (ne.TURN if cdir != (0, 0) and d != (0, 0) and d != cdir else 0)
+            ns = (n, d)
+            if c2 < best.get(ns, 1 << 60):
+                best[ns] = c2
+                prev[ns] = (cur, k)
+                heapq.heappush(q, (c2, next(tie), ns))
+        if limit and len(best) > limit:
+            break
+    out = {}
+    for g, cur in found.items():
+        path, c = [], cur
+        while c is not None:
+            path.append(c)
+            c = prev[c][0] if prev[c] else None
+        path.reverse()
+        out[g] = ([p[0][:4] for p in path], [prev[p][1] for p in path[1:]])
+    return out
+
+
+DIR_JA = {(0, -1): '北', (0, 1): '南', (1, 0): '東', (-1, 0): '西'}
+MOVE_JA = {'jump': '段差を飛び降りる', 'surf': 'なみのりで水に出る', 'land': '上陸する',
+           'waterfall_up': 'たきのぼりで滝を登る', 'waterfall_down': '滝を下る',
+           'slide': '氷の上を滑る', 'script': '', 'switch': '調べて行き先を切り替える'}
+
+
+def corners(pts):
+    out = [pts[0]]
+    for a, b, c in zip(pts, pts[1:], pts[2:]):
+        if (b[0] - a[0], b[1] - a[1]) != (c[0] - b[0], c[1] - b[1]):
+            out.append(b)
+    if len(pts) > 1:
+        out.append(pts[-1])
+    return out
+
+
+def legs(pts):
+    res = []
+    for a, b in zip(pts, pts[1:]):
+        if abs(b[0] - a[0]) + abs(b[1] - a[1]) != 1:
+            continue
+        d = (b[0] - a[0], b[1] - a[1])
+        if res and res[-1][0] == d:
+            res[-1][1] += 1
+        else:
+            res.append([d, 1])
+    # 3歩に満たない折れは前後にまとめて、大まかな向きの並びにする
+    out = []
+    for d, n in res:
+        if n < 3 and out:
+            continue
+        if out and out[-1][0] == d:
+            out[-1][1] += n
+        else:
+            out.append([d, n])
+    return out
+
+
+def edge_side(L, x, y):
+    if y <= 1:
+        return '北の端'
+    if y >= L.ys - 2:
+        return '南の端'
+    if x <= 1:
+        return '西の端'
+    if x >= L.xs - 2:
+        return '東の端'
+    return None
+
+
+_TEXT_JA = {}
+
+
+def text_ja(mid, en):
+    """イベントの文言 (選択肢など) の日本語。パッチの訳から引く。無ければ英語のまま。"""
+    if mid not in _TEXT_JA:
+        d = {}
+        for f in (os.path.join(ne.JA, f'map_{mid:04d}.jsonl'), os.path.join(ne.JA, '20_map_names.jsonl'), PLACE_JA):
+            if os.path.exists(f):
+                for line in open(f, encoding='utf-8'):
+                    r = json.loads(line)
+                    d.setdefault(r['en'].strip(), r['ja'])
+        _TEXT_JA[mid] = d
+    return _TEXT_JA[mid].get(en.strip(), en)
+
+
+def move_text(mid, k):
+    if k and k.startswith('switch'):
+        label = k.split(':', 1)[1] if ':' in k else None
+        return f'調べて「{text_ja(mid, label)}」を選ぶ' if label else '調べて切り替える'
+    return MOVE_JA.get(k) or ''
+
+
+def describe(W, meta, path, kinds, a_label, b_label):
+    """地図ごとの区切りと、それぞれの説明。"""
+    segs = []
+    for p, k in zip(path, [None] + kinds):
+        if not segs or segs[-1]['map'] != p[0] or k in ('door',):
+            segs.append({'map': p[0], 'pts': [], 'moves': [], 'via': k})
+        seg = segs[-1]
+        seg['pts'].append((p[1], p[2]))
+        t = move_text(p[0], k)
+        if t and (not seg['moves'] or seg['moves'][-1] != t):
+            seg['moves'].append(t)
+    # 同じ地図のなかの場所移動 (階段など) で区切れたものは、別の手順にする
+    steps = []
+    for i, s in enumerate(segs):
+        L = W.get(s['map'])
+        name = ne.map_name(s['map'])
+        nxt = segs[i + 1] if i + 1 < len(segs) else None
+        walk = sum(1 for a, b in zip(s['pts'], s['pts'][1:]) if abs(b[0] - a[0]) + abs(b[1] - a[1]) == 1)
+        if nxt is None:
+            text = f'{b_label}に着きます'
+        else:
+            nname = ne.map_name(nxt['map'])
+            side = edge_side(L, *s['pts'][-1])
+            if nxt['map'] == s['map'] or nname == name:
+                # 同じ地図の中の移動 (階段・エレベーター) や、同じ名前の続きの地図
+                text = f'{name}を進み、先へ抜ける'
+            elif side and meta.get(s['map'], {}).get('outdoor'):
+                text = f'{name}を{side}まで進み、{nname}へ'
+            elif meta.get(nxt['map'], {}).get('outdoor') and not meta.get(s['map'], {}).get('outdoor'):
+                text = f'{name}から{nname}に出る'
+            elif not meta.get(nxt['map'], {}).get('outdoor'):
+                text = f'{name}を進み、{nname}に入る'
+            else:
+                text = f'{name}を進み、{nname}へ'
+        if i == 0:
+            text = f'{a_label}から出発。' + text
+        dirs = ' → '.join(f'{DIR_JA[d]}へ{n}歩' for d, n in legs(s['pts']))
+        steps.append({'map': s['map'], 'pts': [list(p) for p in corners(s['pts'])], 'text': text,
+                      'dirs': dirs, 'walk': walk, 'moves': s['moves']})
+    return steps
+
+
+# ---------------------------------------------------------------- 画像
+
+def render_base(mid, path):
+    img, _ = rm.render(mid, events=False)
+    img = img.resize((img.width // SCALE, img.height // SCALE), rm.Image.LANCZOS)
+    img.convert('RGB').save(path, 'WEBP', quality=80, method=6)
+
+
+def render_sprites(state, mid, path):
+    """その時点で出ている人物・物だけを、透明の上に描く。"""
+    m = ne.load_map(mid)
+    xs, ys, _zs, _c = rm.table(m['@data'])
+    img = rm.Image.new('RGBA', (xs * rm.TILE, ys * rm.TILE), (0, 0, 0, 0))
+    tiles = None
+    n = 0
+    for e in (ne.D(x) for x in (m['@events'] or {}).values()):
+        pg = None
+        for p in reversed(e['@pages']):
+            if ne.page_ok(state, mid, e['@id'], p):
+                pg = p
+                break
+        if pg is None:
+            continue
+        g = ne.D(ne.D(pg)['@graphic'])
+        spr = rm.event_sprite(pg)
+        if spr is None and g.get('@tile_id'):
+            tiles = tiles or rm.Tiles(m['@tileset_id'])
+            spr = tiles.get(g['@tile_id'])
+        if spr is None:
+            continue
+        img.alpha_composite(spr, (e['@x'] * rm.TILE + (rm.TILE - spr.width) // 2,
+                                  e['@y'] * rm.TILE + rm.TILE - spr.height))
+        n += 1
+    if not n:
+        return False
+    img = img.resize((img.width // SCALE, img.height // SCALE), rm.Image.LANCZOS)
+    img.save(path, 'WEBP', quality=80, method=6)
+    return True
+
+
+# ---------------------------------------------------------------- まとめ
+
+def build(key, images=True):
+    t0 = time.time()
+    state = ne.State.load(os.path.join(STATES, f'{key}.json'))
+    label = json.load(open(os.path.join(STATES, f'{key}.json'), encoding='utf-8'))['label']
+    W = ne.World(state)
+    meta = metadata()
+    plist = places(meta)
+    anc = anchors(W, meta, state, plist)
+    print(f'{key}: 代表地点 {len(anc)}/{len(plist)} ({time.time() - t0:.0f}s)')
+    labels = {}
+    for p in plist:
+        if p['en'] in anc:
+            kind, (m, x, y) = anc[p['en']]
+            mn = ne.map_name(m)
+            where_ = '' if mn == p['ja'] else mn + 'の'
+            labels[p['en']] = f"{p['ja']}（{where_}ポケモンセンター前）" if kind == 'pc' else f"{p['ja']}（{where_}入口）"
+    goals = {anc[n][1]: n for n in anc}
+    routes = {}
+    bad = redo = 0
+    We = ne.World(state, exact=True)
+    for a in anc:
+        found = search_all(W, anc[a][1], {k: v for k, v in goals.items() if v != a})
+        fixed_all = {}
+        retry = {}
+        for b, (path, kinds) in found.items():
+            fixed = ne.verify(state, path, kinds)
+            if fixed is None:
+                retry[anc[b][1]] = b
+            else:
+                fixed_all[b] = fixed
+        if retry:
+            # 切り替わる値のせいで通れない道だった。値を持ち歩いて探し直す (遅いので、この時だけ。
+            # 同じ出発地のものはまとめて1回で)
+            t1 = time.time()
+            again = search_all(We, anc[a][1], retry, limit=800_000)
+            redo += len(again)
+            bad += len(retry) - len(again)
+            fixed_all.update(again)
+            print(f'  {a}: 探し直し {len(again)}/{len(retry)} ({time.time() - t1:.0f}s)')
+        print(f'{key}: {a} から {len(fixed_all)} 通り ({time.time() - t0:.0f}s)')
+        for b, (path, kinds) in fixed_all.items():
+            steps = describe(W, meta, path, kinds, labels[a], labels[b])
+            routes[f'{a}>{b}'] = {'steps': steps, 'total': sum(s['walk'] for s in steps),
+                                  'doors': len(steps) - 1}
+    print(f'{key}: 道 {len(routes)} (値を持ち歩いて探し直したもの {redo}、それでも無かったもの {bad}) ({time.time() - t0:.0f}s)')
+    maps_used = sorted({s['map'] for r in routes.values() for s in r['steps']})
+    os.makedirs(os.path.join(OUT, 'maps'), exist_ok=True)
+    os.makedirs(os.path.join(OUT, key), exist_ok=True)
+    maps = {}
+    for mid in maps_used:
+        L = W.get(mid)
+        base = os.path.join(OUT, 'maps', f'm{mid}.webp')
+        over = os.path.join(OUT, key, f'm{mid}.webp')
+        if images and not os.path.exists(base):
+            render_base(mid, base)
+        has = images and render_sprites(state, mid, over)
+        maps[mid] = {'name': ne.map_name(mid), 'w': L.xs, 'h': L.ys, 'img': f'maps/m{mid}.webp'}
+        if has or (not images and os.path.exists(over)):
+            maps[mid]['over'] = f'{key}/m{mid}.webp'
+    data = {'key': key, 'label': label,
+            'places': [{'id': p['en'], 'name': p['ja'], 'label': labels.get(p['en']),
+                        'at': list(anc[p['en']][1]) if p['en'] in anc else None} for p in plist],
+            'maps': maps, 'routes': routes}
+    with open(os.path.join(OUT, f'{key}.json'), 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
+    print(f'{key}: 地図 {len(maps)} / {os.path.getsize(os.path.join(OUT, key + ".json")) // 1024}KB ({time.time() - t0:.0f}s)')
+
+
+def main():
+    sys.stdout.reconfigure(line_buffering=True)
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    keys = args or sorted(f[:-5] for f in os.listdir(STATES) if f.endswith('.json'))
+    for k in keys:
+        build(k, images='--no-images' not in sys.argv)
+
+
+if __name__ == '__main__':
+    main()
