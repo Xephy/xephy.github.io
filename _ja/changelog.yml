@@ -18,11 +18,14 @@
 #   https://github.com/Xephy/reborn-19.5.43-ja/releases/tag/v19.5.43-ja.13
 # latest にすると、次の版を出した時点で過去の項目まで新しい版へ飛んでしまう。
 
-- date: "2026-09-11"
+- date: "2026-09-12"
   items:
     - kind: new
       href: /reborn/navi/
-      text: ナビのページを追加しました。出発地と目的地を選ぶと、歩いて行く道を地図で案内します。何章まで進めたかを選べます
+      text: ナビのページを追加しました。出発地と目的地を選ぶと、歩いて行く道を地図で案内します
+
+- date: "2026-09-11"
+  items:
     - kind: imp
       href: /reborn/stickers/
       text: デパートステッカーの集め方に、道順の図を足しました
