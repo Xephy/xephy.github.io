@@ -20,7 +20,8 @@ module ReferencePages
     { slug: 'evolutions', label: '進化条件の一覧', en: 'Evolution Methods' },
     { slug: 'pulsedex', label: 'PULSE図鑑', en: 'Pulse Dex' },
     { slug: 'fields', label: 'フィールド効果', en: 'Field Effects' },
-    { slug: 'affinity', label: '好感度まとめ', en: 'Relationship Points' }
+    { slug: 'affinity', label: '好感度まとめ', en: 'Relationship Points' },
+    { slug: 'navi', label: 'ナビ（β版）', en: 'Navigation (Beta)' }
   ].freeze
 
   def all
