@@ -73,6 +73,121 @@ module StickerPage
     'ARON' => '大ホールで地下鉄道網の再建に全額寄付した場合も、再建作業で救われた彼から、ポケモンセンターでもらえます。'
   }.freeze
 
+  # 道順の図。画像は bin/sticker-routes がゲームのマップデータから描き、
+  # 道はゲームの通行判定を写した探索で求めている (目でなぞっていない)。
+  # 説明の文の (1)(2)… は図の中の番号。扉は、入る扉と出てくる位置に同じ番号が付く。
+  #
+  # ヘラクロス: 1番道路の左から3番目の入口 (map286 (72,39)) から騎乗のまま入り、
+  #   168歩・段差3回でテックグラスに着く。高い草むらを通らないので降りない。
+  #   段差を上へ飛べるのは、段差の上に騎乗中だけ現れるタイルがあるため。
+  # モンジャラ: エピソード3の時点ではジャスパー区の道がツタでふさがっていて (スイッチ85、
+  #   ジャスパー区のジムのあとで消える)、ポケモンセンターからは集合住宅へ行けない。
+  #   マルコウス森林公園の右上の出口から出るのが道。上の階へ行けるのは建物の真ん中の区画だけ。
+  # フワンテ: 依頼の進み具合は変数94。廃発電所の場面は母親に話を聞いたあと (変数94≧1) に現れる。
+  #   ジャスパー区の相手は Swarm (フシデ Lv34 ×2、ペンドラー Lv42)。
+  # ココドラ: 地下鉄道網の岩2つは、砕くとスイッチ (966, 967) が立ち、同じ場所が通路の入口に変わる。
+  # イーブイ: 受付の係員は リボンのくびわ を持っていると通してくれる。
+  GUIDES = {
+    'HERACROSS' => {
+      overview: 'heracross-route',
+      parts: [
+        { steps: [
+          ['heracross-entrance', '1番道路で暴れているバッフロンを倒すと、ケンタロスに乗れます。乗ったまま、1番道路の森の入口のうち左から3番目（1）から入ります。'],
+          ['heracross-step1', '下へまっすぐ進み、いちばん下で段差を右へ飛び越えます（2）。'],
+          ['heracross-step2', '下の通り道を右へずっと進み、突き当たりで上へ曲がって、段差を上へ飛びます（3）。'],
+          ['heracross-step3', '右へ進んでから上へ。もう一度、段差を上へ飛びます（4）。'],
+          ['heracross-step4', '右へ進み、右端で下へ。いちばん下まで下りたら左へ進むと、洞窟の入口の左に テックグラス が落ちています（5）。']
+        ] }
+      ],
+      note: '高い草むらを通らないので、最後までケンタロスに乗ったまま行けます。' \
+            '森の丸太は、先に1番道路と森の仕掛けで片付けておく必要があります。'
+    },
+    'TANGELA' => {
+      parts: [
+        { title: 'ジャスパー区の集合住宅', steps: [
+          ['tangela-jasper-1', 'マルコウス森林公園の右上の出口から出ると（1）です。右へ進み、（2）の扉から建物に入ります。'],
+          ['tangela-jasper-2', '奥の扉（3）の先のエレベーターで、最上階（4）へ上がります。'],
+          ['tangela-jasper-3', '閉じ込められている女性（5）に話しかけて助けます。']
+        ] },
+        { title: 'ペリドット区の友人の家', steps: [
+          ['tangela-peridot-1', 'ジャスパー区から階段でペリドット区へ下りると（1）です。すぐ右の家（2）に入ります。'],
+          ['tangela-peridot-2', '彼女の友人（3）に話しかけるともらえます。']
+        ] }
+      ],
+      note: 'このころのジャスパー区は道がツタでふさがっていて、ポケモンセンターからは集合住宅へ歩いて行けません。森林公園の出口から向かいます。'
+    },
+    'DRIFLOON' => {
+      parts: [
+        { title: 'ラピス区の母親', steps: [
+          ['drifloon-lapis-1', 'ラピス区のポケモンセンターを出て（1）、（2）の家に入ります。'],
+          ['drifloon-lapis-2', '母親（3）に話を聞きます。男の子を2回助けたら、ここへ戻ってステッカーをもらいます。']
+        ] },
+        { title: '廃発電所', steps: [
+          ['drifloon-plant', '男の子（1）がフワンテ（2）に襲われています。フワンテと戦うと、男の子は帰っていきます。']
+        ] },
+        { title: 'ジャスパー区', steps: [
+          ['drifloon-jasper-1', '帰り道のジャスパー区でも襲われています。ポケモンセンターを出て（1）、（2）でペンドラーとフシデとのバトルに勝ちます。']
+        ] }
+      ]
+    },
+    'ARON' => {
+      parts: [
+        { title: 'オブシディアスラム', steps: [
+          ['aron-railnet-1', '南オブシディア区からスラムの左の入口に入ると（1）です。（2）から奥へ進み、（3）で地下1階へ下ります。'],
+          ['aron-railnet-2', '地下1階は（3）→（4）→（5）と進みます。岩を いわくだき で砕いた先の（6）から地下鉄道網へ下ります。']
+        ] },
+        { title: '地下鉄道網', steps: [
+          ['aron-railnet-3', '左の岩を いわくだき で砕くと、そこ（7）が通路の入口になります。'],
+          [nil, '通路を北へ進み、突き当たりの岩も砕くと（8）に出ます。'],
+          ['aron-railnet-4', '左へ進み、（9）から奥の区画へ入ります。'],
+          ['aron-railnet-5', '倒れている男性（10）に話しかけます。']
+        ] }
+      ],
+      note: '男性はそのあとオブシディア区のポケモンセンターへ移るので、そこでもう一度話しかけるともらえます。'
+    },
+    'EEVEE' => {
+      parts: [
+        { title: 'ジャスパー区の集合住宅', steps: [
+          ['eevee-apartment-1', 'ジャスパー区のポケモンセンターを出て（1）、下の通りの集合住宅（2）に入ります。'],
+          ['eevee-apartment-2', '受付の係員は、リボンのくびわ を持っていると通してくれます。階段（3）で2階へ上がり、（4）の部屋に入ります。'],
+          ['eevee-apartment-3', 'サーナイト（5）の話を聞いたあと、ロッティ（6）に リボンのくびわ を渡すともらえます。']
+        ] }
+      ]
+    }
+  }.freeze
+
+  IMAGE_DIR = '/assets/images/stickers'
+
+  def guide_image(file, alt)
+    src = "#{IMAGE_DIR}/#{file}.webp"
+    %(<a href="#{src}"><img src="#{src}" alt="#{esc(alt)}" loading="lazy"></a>)
+  end
+
+  def guide_html(key)
+    g = GUIDES[key] or return ''
+    parts = g[:parts].map { |part|
+      steps = part[:steps].map { |file, text|
+        %(<li>#{file ? guide_image(file, text) : ''}<p>#{esc(text)}</p></li>)
+      }.join
+      (part[:title] ? %(<h4 class="stk-part">#{esc(part[:title])}</h4>) : '') + %(<ul class="stk-steps">#{steps}</ul>)
+    }.join
+    overview =
+      if g[:overview]
+        %(<figure class="stk-overview">#{guide_image(g[:overview], '全体の道順')}) +
+          %(<figcaption>全体の道順。図を押すと原寸で開きます。</figcaption></figure>)
+      else
+        ''
+      end
+    note = g[:note] ? %(<p class="stk-guide-note">#{esc(g[:note])}</p>) : ''
+
+    <<~GUIDE
+      <details class="stk-guide">
+        <summary>道順を図で見る</summary>
+        #{overview}#{parts}#{note}
+      </details>
+    GUIDE
+  end
+
   def data
     @data ||= File.exist?(DATA_PATH) ? JSON.parse(File.read(DATA_PATH)) : nil
   end
@@ -141,6 +256,7 @@ module StickerPage
         <h3><span class="stk-no">#{number}</span>#{esc(name)}</h3>
         #{where.empty? ? '' : %(<p class="stk-where">#{where}</p>)}
         <p>#{esc(HOWTO[key])}</p>
+        #{guide_html(key)}
         #{spoiler}
       </section>
     ITEM
