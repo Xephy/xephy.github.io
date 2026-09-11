@@ -51,7 +51,7 @@ module NaviPage
     first = (ready.find { |r| r[:chapter] == 14 } || ready.first)[:key]
     <<~PAGE
       ---
-      title: ナビ
+      title: ナビ（β版）
       permalink: /#{game}/navi/
       description: "ポケモンリボーンで、出発地から目的地まで歩いて行く道を地図で案内します。進み具合ごとに通れる道で探します。"
       ---

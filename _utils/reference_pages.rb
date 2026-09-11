@@ -10,7 +10,7 @@ module ReferencePages
   module_function
 
   PAGES = [
-    { slug: 'navi', label: 'ナビ', en: 'Navigation' },
+    { slug: 'navi', label: 'ナビ（β版）', en: 'Navigation (Beta)' },
     { slug: 'mon', label: 'ポケモン図鑑', en: 'Pokedex' },
     { slug: 'stats', label: '種族値ランキング', en: 'Base Stat Ranking' },
     { slug: 'pokemon', label: 'ポケモンの出現場所', en: 'Wild Encounters' },

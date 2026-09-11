@@ -5,7 +5,7 @@ description: "ポケモンリボーンの攻略目次。本編エピソード1�
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年9月12日 02:25</h5>
+<h5> 最終更新 2026年9月12日 02:29</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/all/">全文を1ページで読む</a> / <a href="/patch/">日本語化パッチの導入方法</a></p>
 
@@ -477,7 +477,7 @@ description: "ポケモンリボーンの攻略目次。本編エピソード1�
 <section class="book-toc-chapter book-toc-ref">
   <h3>資料</h3>
   <ul>
-    <li><a href="/reborn/navi/">ナビ</a></li>
+    <li><a href="/reborn/navi/">ナビ（β版）</a></li>
     <li><a href="/reborn/mon/">ポケモン図鑑</a></li>
     <li><a href="/reborn/stats/">種族値ランキング</a></li>
     <li><a href="/reborn/pokemon/">ポケモンの出現場所</a></li>
