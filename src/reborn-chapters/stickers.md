@@ -24,21 +24,33 @@ description: "ポケモンリボーンのデパートステッカー11枚の集�
   <h3><span class="stk-no">2</span>モンジャラ</h3>
   <p class="stk-where"><a href="/reborn/episode-3/#jasper-ward--malchous-forest-park">ジャスパー区とマルコウス森林公園</a> <span class="tm-meta">エピソード3</span></p>
   <p>マルコウス森林公園でタカと PULSE モジャンボを倒したあと、ジャスパー区の集合住宅の最上階に閉じ込められている女性を助けます。ペリドット区の家にいる彼女の友人に話しかけるともらえます。</p>
-  
+  <details class="stk-guide">
+  <summary>道順を図で見る</summary>
+  <h4 class="stk-part">ジャスパー区の集合住宅</h4><ul class="stk-steps"><li><a href="/assets/images/stickers/tangela-jasper-1.webp"><img src="/assets/images/stickers/tangela-jasper-1.webp" alt="マルコウス森林公園の右上の出口から出ると（1）です。右へ進み、（2）の扉から建物に入ります。" loading="lazy"></a><p>マルコウス森林公園の右上の出口から出ると（1）です。右へ進み、（2）の扉から建物に入ります。</p></li><li><a href="/assets/images/stickers/tangela-jasper-2.webp"><img src="/assets/images/stickers/tangela-jasper-2.webp" alt="奥の扉（3）の先のエレベーターで、最上階（4）へ上がります。" loading="lazy"></a><p>奥の扉（3）の先のエレベーターで、最上階（4）へ上がります。</p></li><li><a href="/assets/images/stickers/tangela-jasper-3.webp"><img src="/assets/images/stickers/tangela-jasper-3.webp" alt="閉じ込められている女性（5）に話しかけて助けます。" loading="lazy"></a><p>閉じ込められている女性（5）に話しかけて助けます。</p></li></ul><h4 class="stk-part">ペリドット区の友人の家</h4><ul class="stk-steps"><li><a href="/assets/images/stickers/tangela-peridot-1.webp"><img src="/assets/images/stickers/tangela-peridot-1.webp" alt="ジャスパー区から階段でペリドット区へ下りると（1）です。すぐ右の家（2）に入ります。" loading="lazy"></a><p>ジャスパー区から階段でペリドット区へ下りると（1）です。すぐ右の家（2）に入ります。</p></li><li><a href="/assets/images/stickers/tangela-peridot-2.webp"><img src="/assets/images/stickers/tangela-peridot-2.webp" alt="彼女の友人（3）に話しかけるともらえます。" loading="lazy"></a><p>彼女の友人（3）に話しかけるともらえます。</p></li></ul><p class="stk-guide-note">このころのジャスパー区は道がツタでふさがっていて、ポケモンセンターからは集合住宅へ歩いて行けません。森林公園の出口から向かいます。</p>
+</details>
+
   <div class="spoilerText" style="display:none"><p>女性を助けないまま進めた場合は、後半のネオリボーンシティのジャスパー区で、同じ1枚をもらえます。</p></div><a class="spoilerBtn" role="button" tabindex="0" title="クリックで表示" data-hide="隠す">取り逃したとき</a>
 </section>
 <section class="stk-item" id="stk-drifloon">
   <h3><span class="stk-no">3</span>フワンテ</h3>
   <p class="stk-where"><a href="/reborn/episode-4/#lapis-ward">ラピス区</a> <span class="tm-meta">エピソード4</span></p>
   <p>ラピス区の家で、息子がいなくなった母親の話を聞きます。廃発電所でフワンテに襲われている男の子を助け、さらにジャスパー区でペンドラーとフシデに囲まれているところも助けると、母親からもらえます。</p>
-  
+  <details class="stk-guide">
+  <summary>道順を図で見る</summary>
+  <h4 class="stk-part">ラピス区の母親</h4><ul class="stk-steps"><li><a href="/assets/images/stickers/drifloon-lapis-1.webp"><img src="/assets/images/stickers/drifloon-lapis-1.webp" alt="ラピス区のポケモンセンターを出て（1）、（2）の家に入ります。" loading="lazy"></a><p>ラピス区のポケモンセンターを出て（1）、（2）の家に入ります。</p></li><li><a href="/assets/images/stickers/drifloon-lapis-2.webp"><img src="/assets/images/stickers/drifloon-lapis-2.webp" alt="母親（3）に話を聞きます。男の子を2回助けたら、ここへ戻ってステッカーをもらいます。" loading="lazy"></a><p>母親（3）に話を聞きます。男の子を2回助けたら、ここへ戻ってステッカーをもらいます。</p></li></ul><h4 class="stk-part">廃発電所</h4><ul class="stk-steps"><li><a href="/assets/images/stickers/drifloon-plant.webp"><img src="/assets/images/stickers/drifloon-plant.webp" alt="男の子（1）がフワンテ（2）に襲われています。フワンテと戦うと、男の子は帰っていきます。" loading="lazy"></a><p>男の子（1）がフワンテ（2）に襲われています。フワンテと戦うと、男の子は帰っていきます。</p></li></ul><h4 class="stk-part">ジャスパー区</h4><ul class="stk-steps"><li><a href="/assets/images/stickers/drifloon-jasper-1.webp"><img src="/assets/images/stickers/drifloon-jasper-1.webp" alt="帰り道のジャスパー区でも襲われています。ポケモンセンターを出て（1）、（2）でペンドラーとフシデとのバトルに勝ちます。" loading="lazy"></a><p>帰り道のジャスパー区でも襲われています。ポケモンセンターを出て（1）、（2）でペンドラーとフシデとのバトルに勝ちます。</p></li></ul>
+</details>
+
   <div class="spoilerText" style="display:none"><p>リボーンシティが復興してからは、男の子を助けていなくても、母親に話しかけるだけでもらえます。</p></div><a class="spoilerBtn" role="button" tabindex="0" title="クリックで表示" data-hide="隠す">取り逃したとき</a>
 </section>
 <section class="stk-item" id="stk-aron">
   <h3><span class="stk-no">4</span>ココドラ</h3>
   <p class="stk-where"><a href="/reborn/episode-5/#smashin-at-the-slums">スラムでのいわくだき</a> <span class="tm-meta">エピソード5</span></p>
   <p>シェリーに勝って いわくだき を手に入れたら、オブシディアスラムから地下鉄道網に入り、奥で倒れている男性を見つけます。オブシディア区のポケモンセンターへ移った彼に話しかけるともらえます。</p>
-  
+  <details class="stk-guide">
+  <summary>道順を図で見る</summary>
+  <h4 class="stk-part">オブシディアスラム</h4><ul class="stk-steps"><li><a href="/assets/images/stickers/aron-railnet-1.webp"><img src="/assets/images/stickers/aron-railnet-1.webp" alt="南オブシディア区からスラムの左の入口に入ると（1）です。（2）から奥へ進み、（3）で地下1階へ下ります。" loading="lazy"></a><p>南オブシディア区からスラムの左の入口に入ると（1）です。（2）から奥へ進み、（3）で地下1階へ下ります。</p></li><li><a href="/assets/images/stickers/aron-railnet-2.webp"><img src="/assets/images/stickers/aron-railnet-2.webp" alt="地下1階は（3）→（4）→（5）と進みます。岩を いわくだき で砕いた先の（6）から地下鉄道網へ下ります。" loading="lazy"></a><p>地下1階は（3）→（4）→（5）と進みます。岩を いわくだき で砕いた先の（6）から地下鉄道網へ下ります。</p></li></ul><h4 class="stk-part">地下鉄道網</h4><ul class="stk-steps"><li><a href="/assets/images/stickers/aron-railnet-3.webp"><img src="/assets/images/stickers/aron-railnet-3.webp" alt="左の岩を いわくだき で砕くと、そこ（7）が通路の入口になります。" loading="lazy"></a><p>左の岩を いわくだき で砕くと、そこ（7）が通路の入口になります。</p></li><li><p>通路を北へ進み、突き当たりの岩も砕くと（8）に出ます。</p></li><li><a href="/assets/images/stickers/aron-railnet-4.webp"><img src="/assets/images/stickers/aron-railnet-4.webp" alt="左へ進み、（9）から奥の区画へ入ります。" loading="lazy"></a><p>左へ進み、（9）から奥の区画へ入ります。</p></li><li><a href="/assets/images/stickers/aron-railnet-5.webp"><img src="/assets/images/stickers/aron-railnet-5.webp" alt="倒れている男性（10）に話しかけます。" loading="lazy"></a><p>倒れている男性（10）に話しかけます。</p></li></ul><p class="stk-guide-note">男性はそのあとオブシディア区のポケモンセンターへ移るので、そこでもう一度話しかけるともらえます。</p>
+</details>
+
   <div class="spoilerText" style="display:none"><p>大ホールで地下鉄道網の再建に全額寄付した場合も、再建作業で救われた彼から、ポケモンセンターでもらえます。</p></div><a class="spoilerBtn" role="button" tabindex="0" title="クリックで表示" data-hide="隠す">取り逃したとき</a>
 </section>
 <section class="stk-item" id="stk-meditite">
@@ -61,9 +73,7 @@ description: "ポケモンリボーンのデパートステッカー11枚の集�
   <p>1番道路のネイチャーセンター2階に、めがねをなくした男性がいます。南アベンチュリンの森で テックグラス を見つけて渡すともらえます。</p>
   <details class="stk-guide">
   <summary>道順を図で見る</summary>
-  <figure class="stk-overview"><a href="/assets/images/stickers/heracross-route.webp"><img src="/assets/images/stickers/heracross-route.webp" alt="全体の道順" loading="lazy"></a><figcaption>全体の道順。図を押すと原寸で開きます。</figcaption></figure>
-  <ol class="stk-steps"><li><a href="/assets/images/stickers/heracross-entrance.webp"><img src="/assets/images/stickers/heracross-entrance.webp" alt="1番道路で暴れているバッフロンを倒すと、ケンタロスに乗れます。乗ったまま、1番道路の森の入口のうち左から3番目（1）から入ります。" loading="lazy"></a><p>1番道路で暴れているバッフロンを倒すと、ケンタロスに乗れます。乗ったまま、1番道路の森の入口のうち左から3番目（1）から入ります。</p></li><li><a href="/assets/images/stickers/heracross-step1.webp"><img src="/assets/images/stickers/heracross-step1.webp" alt="下へまっすぐ進み、いちばん下で段差を右へ飛び越えます（2）。" loading="lazy"></a><p>下へまっすぐ進み、いちばん下で段差を右へ飛び越えます（2）。</p></li><li><a href="/assets/images/stickers/heracross-step2.webp"><img src="/assets/images/stickers/heracross-step2.webp" alt="下の通り道を右へずっと進み、突き当たりで上へ曲がって、段差を上へ飛びます（3）。" loading="lazy"></a><p>下の通り道を右へずっと進み、突き当たりで上へ曲がって、段差を上へ飛びます（3）。</p></li><li><a href="/assets/images/stickers/heracross-step3.webp"><img src="/assets/images/stickers/heracross-step3.webp" alt="右へ進んでから上へ。もう一度、段差を上へ飛びます（4）。" loading="lazy"></a><p>右へ進んでから上へ。もう一度、段差を上へ飛びます（4）。</p></li><li><a href="/assets/images/stickers/heracross-step4.webp"><img src="/assets/images/stickers/heracross-step4.webp" alt="右へ進み、右端で下へ。いちばん下まで下りたら左へ進むと、洞窟の入口の左に テックグラス が落ちています（5）。" loading="lazy"></a><p>右へ進み、右端で下へ。いちばん下まで下りたら左へ進むと、洞窟の入口の左に テックグラス が落ちています（5）。</p></li></ol>
-  <p class="stk-guide-note">高い草むらを通らないので、最後までケンタロスに乗ったまま行けます。森の丸太は、先に1番道路と森の仕掛けで片付けておく必要があります。</p>
+  <figure class="stk-overview"><a href="/assets/images/stickers/heracross-route.webp"><img src="/assets/images/stickers/heracross-route.webp" alt="全体の道順" loading="lazy"></a><figcaption>全体の道順。図を押すと原寸で開きます。</figcaption></figure><ul class="stk-steps"><li><a href="/assets/images/stickers/heracross-entrance.webp"><img src="/assets/images/stickers/heracross-entrance.webp" alt="1番道路で暴れているバッフロンを倒すと、ケンタロスに乗れます。乗ったまま、1番道路の森の入口のうち左から3番目（1）から入ります。" loading="lazy"></a><p>1番道路で暴れているバッフロンを倒すと、ケンタロスに乗れます。乗ったまま、1番道路の森の入口のうち左から3番目（1）から入ります。</p></li><li><a href="/assets/images/stickers/heracross-step1.webp"><img src="/assets/images/stickers/heracross-step1.webp" alt="下へまっすぐ進み、いちばん下で段差を右へ飛び越えます（2）。" loading="lazy"></a><p>下へまっすぐ進み、いちばん下で段差を右へ飛び越えます（2）。</p></li><li><a href="/assets/images/stickers/heracross-step2.webp"><img src="/assets/images/stickers/heracross-step2.webp" alt="下の通り道を右へずっと進み、突き当たりで上へ曲がって、段差を上へ飛びます（3）。" loading="lazy"></a><p>下の通り道を右へずっと進み、突き当たりで上へ曲がって、段差を上へ飛びます（3）。</p></li><li><a href="/assets/images/stickers/heracross-step3.webp"><img src="/assets/images/stickers/heracross-step3.webp" alt="右へ進んでから上へ。もう一度、段差を上へ飛びます（4）。" loading="lazy"></a><p>右へ進んでから上へ。もう一度、段差を上へ飛びます（4）。</p></li><li><a href="/assets/images/stickers/heracross-step4.webp"><img src="/assets/images/stickers/heracross-step4.webp" alt="右へ進み、右端で下へ。いちばん下まで下りたら左へ進むと、洞窟の入口の左に テックグラス が落ちています（5）。" loading="lazy"></a><p>右へ進み、右端で下へ。いちばん下まで下りたら左へ進むと、洞窟の入口の左に テックグラス が落ちています（5）。</p></li></ul><p class="stk-guide-note">高い草むらを通らないので、最後までケンタロスに乗ったまま行けます。森の丸太は、先に1番道路と森の仕掛けで片付けておく必要があります。</p>
 </details>
 
   
@@ -93,7 +103,11 @@ description: "ポケモンリボーンのデパートステッカー11枚の集�
   <h3><span class="stk-no">11</span>イーブイ</h3>
   <p class="stk-where"><a href="/reborn/episode-19/#scarborough-quest">スカーボローのクエスト</a> <span class="tm-meta">エピソード19</span></p>
   <p>ラブラドラの右下の建物で2つ目のパスワードを入力すると、リボンのくびわ を持ったニンフィアがもらえます。ジャスパー区の集合住宅の2階2号室でサーナイトの話を聞いたあと、くびわ をロッティに渡すともらえます。</p>
-  
+  <details class="stk-guide">
+  <summary>道順を図で見る</summary>
+  <h4 class="stk-part">ジャスパー区の集合住宅</h4><ul class="stk-steps"><li><a href="/assets/images/stickers/eevee-apartment-1.webp"><img src="/assets/images/stickers/eevee-apartment-1.webp" alt="ジャスパー区のポケモンセンターを出て（1）、下の通りの集合住宅（2）に入ります。" loading="lazy"></a><p>ジャスパー区のポケモンセンターを出て（1）、下の通りの集合住宅（2）に入ります。</p></li><li><a href="/assets/images/stickers/eevee-apartment-2.webp"><img src="/assets/images/stickers/eevee-apartment-2.webp" alt="受付の係員は、リボンのくびわ を持っていると通してくれます。階段（3）で2階へ上がり、（4）の部屋に入ります。" loading="lazy"></a><p>受付の係員は、リボンのくびわ を持っていると通してくれます。階段（3）で2階へ上がり、（4）の部屋に入ります。</p></li><li><a href="/assets/images/stickers/eevee-apartment-3.webp"><img src="/assets/images/stickers/eevee-apartment-3.webp" alt="サーナイト（5）の話を聞いたあと、ロッティ（6）に リボンのくびわ を渡すともらえます。" loading="lazy"></a><p>サーナイト（5）の話を聞いたあと、ロッティ（6）に リボンのくびわ を渡すともらえます。</p></li></ul>
+</details>
+
   
 </section>
 

@@ -26,3 +26,4 @@ src/deso-chapters/
 src/_config.yml
 # graphify の作業用出力。どのディレクトリで走らせても掘られるので名前で外す。
 graphify-out/
+__pycache__/

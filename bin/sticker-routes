@@ -63,6 +63,47 @@ ROUTES = {
 }
 
 
+# 扉・階段・エレベーターをたどる道順。1件につき複数の区間 (leg) を持てる。
+#   maps   … 使ってよい地図
+#   solved … この地図のイベントが立てるスイッチを ON にする (依頼の時点で済んでいること)
+#   start / goal … (地図, x, y)。goal はその上下左右に着けばよい
+LEGS = {
+    # モンジャラ。エピソード3の時点では、ジャスパー区の道はツタでふさがっていて
+    # (スイッチ85 で消える。ジャスパー区のジムのあと) ポケモンセンターからは行けない。
+    # マルコウス森林公園の右上の出口 (map132 (106,14)) から出ると map130 の (9,14)。
+    # 建物の中は3つの区画が並んだ1枚の地図で、上の階へ行けるのは真ん中の区画だけ。
+    'tangela': [
+        {'id': 'jasper', 'maps': [130, 138, 139, 140], 'solved': [132, 138, 139, 140],
+         'start': (130, 9, 14), 'goal': (140, 11, 9)},
+        # ジャスパー区から階段 (map423) で下りると、ペリドット区 map57 の (42,28)。
+        {'id': 'peridot', 'maps': [57, 60], 'solved': [],
+         'start': (57, 42, 28), 'goal': (60, 10, 7)},
+    ],
+    # フワンテ。依頼の進み具合は変数94 (1=母親に話を聞いた、2〜3=廃発電所、
+    # 4〜5=ジャスパー区、6=渡した)。廃発電所の場面は変数94≧1 のときだけ現れる。
+    'drifloon': [
+        {'id': 'lapis', 'maps': [80, 169], 'solved': [],
+         'start': (80, 19, 56), 'goal': (169, 46, 7)},          # ポケモンセンターを出たところから母親まで
+        {'id': 'plant', 'spot': 146,                            # 廃発電所。男の子 (10,7) とフワンテ (12,8)
+         'marks': [(10, 7), (12, 8)]},
+        {'id': 'jasper', 'maps': [130], 'solved': [132],
+         'start': (130, 34, 15), 'goal': (130, 54, 20)},        # ジャスパー区のポケモンセンターから
+    ],
+    # ココドラ。南オブシディア区のスラムの左の入口 (map81 (54,22)) から入ると、
+    # スラム1階 map85 の (77,22)。いわくだきの岩は砕いて通るものとして扱う。
+    'aron': [
+        {'id': 'railnet', 'maps': [85, 88, 89, 90, 95, 96, 228, 229, 368, 761, 762], 'solved': [],
+         'start': (85, 77, 22), 'goal': (229, 19, 9)},
+    ],
+    # イーブイ。ネオリボーンシティのジャスパー区。ポケモンセンターを出ると map523 の (33,15)。
+    # 下の通りの左から2番目の集合住宅 (扉 (32,31)) の中が map535。
+    'eevee': [
+        {'id': 'apartment', 'maps': [523, 535], 'solved': [535],
+         'start': (523, 33, 15), 'goal': (535, 7, 101), 'then': (535, 6, 94)},
+    ],
+}
+
+
 def load_map(map_id):
     return rmarshal.load(os.path.join(rm.GAME, 'Data', f'Map{map_id:03d}.rxdata')).data
 
@@ -81,38 +122,78 @@ def solved_switches(map_ids):
     return out
 
 
-def active_page(pages, switches):
+def active_page(pages, switches, self_on=False):
+    """self_on は、セルフスイッチを ON として扱うか。岩を砕いた・アイテムを拾った・
+    トレーナーに勝った、といった「その場で済ませた」状態はセルフスイッチで表される。"""
     for pg in reversed(pages):
         c = pg.data['@condition'].data
         if c.get('@switch1_valid') and c['@switch1_id'] not in switches:
             continue
         if c.get('@switch2_valid') and c['@switch2_id'] not in switches:
             continue
-        if c.get('@variable_valid') or c.get('@self_switch_valid'):
+        if c.get('@variable_valid'):
+            continue
+        if c.get('@self_switch_valid') and not self_on:
             continue
         return pg
     return None
 
 
+def removable(page):
+    """その場で消せる障害物。いあいぎりの木 (Kernel.pbCut) といわくだきの岩
+    (Kernel.pbRockSmash)。使うと pbEraseThisEvent で一時的に消えるものと、
+    スイッチを立てて消えるもの (地下鉄道網の岩など) がある。どちらも、
+    道を探すときは消して通れるものとして扱う。"""
+    script = ' '.join(str(c.data['@parameters']) for c in page.data['@list'])
+    return 'pbCut' in script or 'pbRockSmash' in script
+
+
+def smashed_switches(map_ids):
+    """いわくだき・いあいぎりのページが立てるスイッチ。岩を砕くとスイッチが立ち、
+    同じイベントの次のページが通り道 (扉など) に変わるものがある。"""
+    out = set()
+    for mid in map_ids:
+        for ev in load_map(mid)['@events'].values():
+            for pg in ev.data['@pages']:
+                if not removable(pg):
+                    continue
+                for c in pg.data['@list']:
+                    q = c.data['@parameters']
+                    if c.data['@code'] == 121 and q[2] == 0:
+                        out.update(range(q[0], q[1] + 1))
+    return out
+
+
 class Layer:
-    def __init__(self, map_id, switches):
+    def __init__(self, map_id, switches, self_on=False):
         m = load_map(map_id)
+        self.map_id = map_id
         self.xs, self.ys, self.zs, self.cells = rm.table(m['@data'])
         ts = rmarshal.load(os.path.join(rm.GAME, 'Data', 'Tilesets.rxdata'))[m['@tileset_id']].data
         self.pas = rm.table(ts['@passages'])[3]
         self.pri = rm.table(ts['@priorities'])[3]
         self.tag = rm.table(ts['@terrain_tags'])[3]
         self.ev = {}
+        self.doors = {}   # (x, y) -> [(行き先の地図, x, y)]  騎乗していないときのもの
         for riding in (False, True):
             sw = set(switches) | ({RIDING} if riding else set())
             evs = []
             for e in (x.data for x in m['@events'].values()):
-                pg = active_page(e['@pages'], sw)
+                pg = active_page(e['@pages'], sw, self_on)
                 if pg is None:
+                    continue
+                if removable(pg):
                     continue
                 g = pg.data['@graphic'].data
                 evs.append((e['@x'], e['@y'], g.get('@tile_id', 0), g.get('@character_name') or '',
                             pg.data.get('@through', False)))
+                # 場所移動 (コマンド201、行き先を直接指定したもの)。調べる・触れるで起きるものだけ。
+                # 自動実行・並列処理は地図に入ったとたんに動く演出なので道には数えない。
+                if not riding and pg.data['@trigger'] in (0, 1, 2):
+                    for c in pg.data['@list']:
+                        q = c.data['@parameters']
+                        if c.data['@code'] == 201 and q[0] == 0:
+                            self.doors.setdefault((e['@x'], e['@y']), []).append((q[1], q[2], q[3]))
             self.ev[riding] = evs
 
     def valid(self, x, y):
@@ -207,6 +288,62 @@ def search(world, starts, goal, riding):
     return None, None
 
 
+class Atlas:
+    """扉・階段・エレベーターでつながった地図をまたいで歩く (騎乗しない)。
+
+    扉などの移動イベントは、隣のマスからそちらへ進もうとする (触れる) か、向いて
+    調べると、行き先へ飛ぶ。RMXP では通れないマスでも「触れる」は起きる。
+    使ってよい地図を maps で絞る (町じゅうの扉をたどって広がらないように)。
+    """
+    def __init__(self, maps, switches, self_on=True):
+        switches = set(switches) | smashed_switches(maps)
+        self.layers = {mid: Layer(mid, switches, self_on) for mid in maps}
+
+    def moves(self, mid, x, y):
+        L = self.layers[mid]
+        for d, (dx, dy) in DIRS.items():
+            nx, ny = x + dx, y + dy
+            if not L.valid(nx, ny):
+                continue
+            for dest in L.doors.get((nx, ny), []):
+                if dest[0] in self.layers:
+                    yield dest, 'door'
+            ftag = L.terrain(nx, ny)
+            if not L.passable(x, y, d, False, ftag) or not L.passable(nx, ny, 10 - d, False, ftag):
+                continue
+            if L.occupied(nx, ny, False):
+                continue
+            if ftag == LEDGE:
+                lx, ly = x + 2 * dx, y + 2 * dy
+                if L.valid(lx, ly) and L.passable(lx, ly, 0, False, None) and not L.occupied(lx, ly, False):
+                    yield (mid, lx, ly), 'jump'
+                continue
+            yield (mid, nx, ny), 'walk'
+
+
+def search_atlas(atlas, start, goal):
+    """start = (地図, x, y)。goal = (地図, x, y) で、その上下左右に着けばよい。"""
+    gmid, gx, gy = goal
+    goals = {(gmid, gx + dx, gy + dy) for dx, dy in DIRS.values()}
+    prev = {start: None}
+    q = collections.deque([start])
+    while q:
+        cur = q.popleft()
+        if cur in goals:
+            path = []
+            c = cur
+            while c is not None:
+                path.append(c)
+                c = prev[c][0] if prev[c] else None
+            path.reverse()
+            return path, [prev[p][1] for p in path[1:]]
+        for n, k in atlas.moves(*cur):
+            if n not in prev:
+                prev[n] = (cur, k)
+                q.append(n)
+    return None, None
+
+
 def stages(path, kinds):
     """段差を飛ぶところで区切る。各区切りは (始まり, 終わり) の path の番号。"""
     cuts = [0] + [i + 1 for i, k in enumerate(kinds) if k == 'jump'] + [len(path) - 1]
@@ -235,6 +372,17 @@ def draw_mark(img, origin, p, label, color, r=22):
     x, y = (p[0] - origin[0]) * T + T // 2, (p[1] - origin[1]) * T + T // 2
     d.ellipse([x - r, y - r, x + r, y + r], fill=color, outline=(255, 255, 255, 255), width=4)
     d.text((x, y + 1), label, fill=(255, 255, 255, 255), font=ImageFont.load_default(size=int(r * 1.35)), anchor='mm')
+
+
+def draw_target(img, origin, p, label, color):
+    """話しかける相手・拾うもの。番号の丸で隠さず、マスを枠で囲んで番号は右上に出す。
+    人物の画像は1マスより背が高いので、枠は上に半マス伸ばす。"""
+    d = ImageDraw.Draw(img, 'RGBA')
+    x, y = (p[0] - origin[0]) * T, (p[1] - origin[1]) * T
+    d.rounded_rectangle([x - 4, y - T // 2 - 4, x + T + 4, y + T + 4], radius=6,
+                        outline=(255, 255, 255, 255), width=7)
+    d.rounded_rectangle([x - 4, y - T // 2 - 4, x + T + 4, y + T + 4], radius=6, outline=color, width=4)
+    draw_mark(img, (origin[0] - 0.9, origin[1] + 0.9), p, label, color, r=17)
 
 
 BLUE, ORANGE, RED = (30, 110, 220, 255), (240, 140, 0, 255), (230, 40, 40, 255)
@@ -297,6 +445,131 @@ def build(name, spec):
         print('   ', os.path.relpath(f, ROOT))
 
 
+def split_by_door(path, kinds):
+    """扉を通るところで区切る。1枚の地図の中で別の場所へ飛ぶ扉 (建物の中の階段や
+    部屋の扉) もあるので、地図が変わるかどうかではなく扉で区切る。
+    [(地図, [(x, y), ...]), ...]"""
+    segs = [(path[0][0], [path[0][1:]])]
+    for p, kind in zip(path[1:], kinds):
+        if kind == 'door':
+            segs.append((p[0], []))
+        segs[-1][1].append(p[1:])
+    return segs
+
+
+def trim_black(img, pad=1):
+    """建物の中の地図は周りが真っ黒なことが多い。黒い余白を詰める (1マス残す)。"""
+    rgb = img.convert('RGB')
+    bbox = Image.eval(rgb, lambda v: 255 if v > 12 else 0).getbbox()
+    if not bbox:
+        return img
+    x0, y0, x1, y1 = bbox
+    x0, y0 = max(0, x0 - pad * T), max(0, y0 - pad * T)
+    x1, y1 = min(img.width, x1 + pad * T), min(img.height, y1 + pad * T)
+    return img.crop((x0, y0, x1, y1)), (x0 // T, y0 // T)
+
+
+def build_spot(name, leg):
+    """道順ではなく、場所の印だけの図。"""
+    mid, marks = leg['spot'], leg['marks']
+    m = load_map(mid)
+    x0, y0, x1, y1 = box(marks, 6, (0, 0), (m['@width'], m['@height']))
+    img, _ = rm.render(mid, crop=(x0, y0, x1, y1))
+    for i, p in enumerate(marks):
+        draw_target(img, (x0, y0), p, str(i + 1), RED if i == len(marks) - 1 else ORANGE)
+    f = save(img, f"{name}-{leg['id']}.webp")
+    print(f"{name}-{leg['id']}: 位置の図 {marks}")
+    return [f]
+
+
+def build_leg(name, leg):
+    """扉をたどる道順を、地図ごとの図にする。
+
+    番号は、出発を1、扉を1つ通るごとに1つずつ、着く先を最後にする。扉の番号は、
+    入る扉と、次の区間で出てくる位置の両方に付ける。
+
+    同じ地図の中で続いている区間 (建物の中の階段で別の場所へ飛ぶものなど) は、
+    まとめても図が大きくなりすぎなければ1枚にする。飛ぶ前と後は線をつながない。
+    数マスしか歩かない区間と、細長すぎて読めない区間は図にせず番号だけ進める
+    (説明の文で補う)。
+    """
+    atlas = Atlas(leg['maps'], solved_switches(leg['solved']), leg.get('self_on', True))
+    path, kinds = search_atlas(atlas, leg['start'], leg['goal'])
+    if path is None:
+        sys.exit(f"{name}-{leg['id']}: 道が見つからない")
+    segs = split_by_door(path, kinds)
+    targets = [leg['goal'][1:]]
+    if 'then' in leg:                       # 着いたあと、同じ場所で続けて話しかける相手
+        p2, k2 = search_atlas(atlas, path[-1], leg['then'])
+        if p2 is None or 'door' in k2:
+            sys.exit(f"{name}-{leg['id']}: then に届かない")
+        segs[-1][1].extend(q[1:] for q in p2[1:])
+        targets.append(leg['then'][1:])
+
+    # 区間ごとに、線の終わり (扉のマス、または着く先) と番号を決める
+    items, number = [], 1
+    for k, (mid, pts) in enumerate(segs):
+        L = atlas.layers[mid]
+        last = k == len(segs) - 1
+        end = None
+        if not last:
+            nmid, npts = segs[k + 1]
+            for d, (dx, dy) in DIRS.items():
+                cand = (pts[-1][0] + dx, pts[-1][1] + dy)
+                if any(t[0] == nmid and (t[1], t[2]) == npts[0] for t in L.doors.get(cand, [])):
+                    end = cand
+                    break
+        items.append({'map': mid, 'pts': pts, 'end': end or pts[-1], 'last': last,
+                      'num': number, 'first': k == 0})
+        number += 1
+
+    def dims(group):
+        xs = [p[0] for it in group for p in it['pts'] + [it['end']]]
+        ys = [p[1] for it in group for p in it['pts'] + [it['end']]]
+        return max(xs) - min(xs) + 1, max(ys) - min(ys) + 1
+
+    groups = []
+    for it in items:
+        g = groups[-1] if groups else None
+        if g and g[0]['map'] == it['map']:
+            w, h = dims(g + [it])
+            if w <= 45 and h <= 26:
+                g.append(it)
+                continue
+        groups.append([it])
+
+    files = []
+    for g in groups:
+        w, h = dims(g)
+        tiles = sum(len(it['pts']) for it in g)
+        has_last = any(it['last'] for it in g)
+        if not has_last and not g[0]['first'] and (tiles < 5 or h > 4 * max(w, 6)):
+            print(f"   map{g[0]['map']}: 図にしない ({tiles}マス, {w}x{h})  番号{g[0]['num']}→{g[-1]['num'] + 1}")
+            continue
+        mid = g[0]['map']
+        L = atlas.layers[mid]
+        allp = [p for it in g for p in it['pts'] + [it['end']]] + (targets if has_last else [])
+        x0, y0, x1, y1 = box(allp, 4, (0, 0), (L.xs, L.ys))
+        img, _ = rm.render(mid, crop=(x0, y0, x1, y1))
+        img, (tx, ty) = trim_black(img)
+        x0, y0 = x0 + tx, y0 + ty
+        for it in g:
+            draw_route(img, (x0, y0), it['pts'] + ([] if it['last'] else [it['end']]), 7, RED)
+        for it in g:
+            draw_mark(img, (x0, y0), it['pts'][0], str(it['num']), BLUE if it['first'] else ORANGE)
+            if not it['last']:
+                draw_mark(img, (x0, y0), it['end'], str(it['num'] + 1), ORANGE)
+        if has_last:
+            n = g[-1]['num'] + 1
+            for i, t in enumerate(targets):
+                draw_target(img, (x0, y0), t, str(n + i), RED)
+        files.append(save(img, f"{name}-{leg['id']}-{len(files) + 1}.webp"))
+        print(f"   map{mid}: 図{len(files)} 区間{len(g)}つ {tiles}マス  番号{g[0]['num']}→{g[-1]['num'] + 1}"
+              + (f"〜{g[-1]['num'] + len(targets)}" if has_last else ''))
+    print(f"{name}-{leg['id']}: {len(path) - 1}手 扉{kinds.count('door')}回 / {len(files)}枚")
+    return files
+
+
 def save(img, filename):
     os.makedirs(OUT, exist_ok=True)
     path = os.path.join(OUT, filename)
@@ -305,9 +578,12 @@ def save(img, filename):
 
 
 def main():
-    names = sys.argv[1:] or list(ROUTES)
+    names = sys.argv[1:] or list(ROUTES) + list(LEGS)
     for name in names:
-        build(name, ROUTES[name])
+        if name in ROUTES:
+            build(name, ROUTES[name])
+        for leg in LEGS.get(name, []):
+            (build_spot if 'spot' in leg else build_leg)(name, leg)
 
 
 if __name__ == '__main__':

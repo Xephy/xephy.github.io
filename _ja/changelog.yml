@@ -20,6 +20,9 @@
 
 - date: "2026-09-11"
   items:
+    - kind: imp
+      href: /reborn/stickers/
+      text: デパートステッカーの集め方に、道順の図を足しました
     - kind: new
       href: /reborn/stickers/
       text: デパートステッカーのページを追加しました

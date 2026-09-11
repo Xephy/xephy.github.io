@@ -1674,7 +1674,9 @@ body.night-mode #main_content .tm-table tr { border-bottom-color: #2b3038; }
 #main_content .stk-guide img { display: block; max-width: 100%; height: auto; border: 1px solid #d5dde6; }
 #main_content .stk-overview { margin: 12px 0 16px; }
 #main_content .stk-overview figcaption { margin-top: 4px; color: #4f5a64; font-size: 12.5px; }
-#main_content .stk-steps { margin: 0; padding-left: 1.4em; }
+/* 箇条に番号は振らない。説明の (1)(2)… は図の中の番号を指す。 */
+#main_content .stk-steps { margin: 0; padding-left: 0; list-style: none; }
+#main_content .stk-part { margin: 16px 0 8px; font-size: 15px; }
 #main_content .stk-steps li { margin: 0 0 18px; }
 /* 縦長の段階図が画面を占領しないよう、高さに上限を付ける */
 #main_content .stk-steps img { max-height: 70vh; width: auto; }
