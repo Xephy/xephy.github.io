@@ -269,16 +269,26 @@
     $('navi-from').value = $('navi-to').value;
     $('navi-to').value = a;
   });
-  $('navi-prog').addEventListener('change', function () { route = null; selectChapter(this.value); });
+  $('navi-prog').addEventListener('change', function () { route = null; remember(this.value); selectChapter(this.value); });
   window.addEventListener('resize', function () { if (route) fitTo(cur, false); });
 
   // ---------------------------------------------------------------- はじめ
 
+  // 進み具合は、アドレスの指定 → 前に選んだもの (このブラウザに覚えておく) → 1章 の順に決める
+  var STORE = 'navi-prog';
+  function remembered() {
+    try { return localStorage.getItem(STORE); } catch (e) { return null; }
+  }
+  function remember(v) {
+    try { localStorage.setItem(STORE, v); } catch (e) { /* 覚えられない環境では覚えない */ }
+  }
   var params = new URLSearchParams(location.search);
-  var key = params.get('p') || root.getAttribute('data-default');
   var prog = $('navi-prog');
-  if (Array.prototype.some.call(prog.options, function (o) { return o.value === key && !o.disabled; })) prog.value = key;
-  else prog.value = root.getAttribute('data-default');
+  var usable = function (k) {
+    return k && Array.prototype.some.call(prog.options, function (o) { return o.value === k && !o.disabled; });
+  };
+  var key = [params.get('p'), remembered(), root.getAttribute('data-default')].filter(usable)[0];
+  prog.value = key;
   selectChapter(prog.value).then(function () {
     var a = params.get('from'), b = params.get('to');
     if (data && a && b && data.routes[a + '>' + b]) {

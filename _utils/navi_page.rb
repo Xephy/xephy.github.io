@@ -48,7 +48,7 @@ module NaviPage
     ready = states
     return nil unless JaNames.enabled? && !ready.empty?
 
-    first = (ready.find { |r| r[:chapter] == 14 } || ready.first)[:key]
+    first = ready.first[:key]   # 初めて開いたときの進み具合 (いちばん早い章)。2回目からは前に選んだ章
     <<~PAGE
       ---
       title: ナビ（β版）
