@@ -150,7 +150,7 @@
     if (i === route.steps.length - 1) {
       svg += '<g transform="translate(' + (b[0] + 0.5) + ' ' + (b[1] + 0.5) + ')"><path d="M0 0c-.25-.7-1.1-1.3-1.1-2.2a1.1 1.1 0 0 1 2.2 0c0 .9-.85 1.5-1.1 2.2z" class="navi-pin"/><circle cy="-2.2" r=".38" fill="#fff"/></g>';
     } else {
-      svg += '<g transform="translate(' + (b[0] + 0.5) + ' ' + (b[1] + 0.5) + ')"><circle r=".85" class="navi-next-dot"/><text y=".3" font-size="' + (i + 2 >= 10 ? '.55' : '.85') + '" text-anchor="middle" fill="#fff" font-weight="700">' + (i + 2) + '</text></g>';
+      svg += '<g transform="translate(' + (b[0] + 0.5) + ' ' + (b[1] + 0.5) + ')"><circle r=".85" class="navi-next-dot"/><text class="navi-dot-num" font-size="' + (i + 2 >= 10 ? '.78' : '.95') + '">' + (i + 2) + '</text></g>';
     }
     svg += '</svg>';
     var world = $('navi-world');
