@@ -3939,3 +3939,19 @@ body.night-mode #main_content .navi-msg { color: #f28b82; }
   .navi-mapname { bottom: 62px; }
   body.night-mode .navi-form, body.night-mode .navi-summary { border-color: #2a3038; }
 }
+
+/*******************************************************************************
+操作ボタンの絵 (素材: Kenney「Input Prompts」CC0)
+*******************************************************************************/
+
+/* 本文の中に置く。素材は白い図形なので、濃い地の札に載せて昼夜どちらでも読めるようにする。
+   高さは文字に合わせ、少し下げて字の並びに揃える */
+.btn-icon {
+  display: inline-block; width: 1.35em; height: 1.35em; margin: 0 .1em;
+  vertical-align: -.3em; border-radius: .3em;
+  background: #3c4048 center / 88% no-repeat;
+}
+.btn-key-a { background-image: url("/assets/images/input/keyboard_a.svg"); }
+.btn-pad-up { background-image: url("/assets/images/input/switch_buttons_up.svg"); }
+.btn-xbox-y { background-image: url("/assets/images/input/xbox_button_y.svg"); }
+.btn-ps-triangle { background-image: url("/assets/images/input/playstation_button_triangle.svg"); }

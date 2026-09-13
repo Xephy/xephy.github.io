@@ -5,13 +5,13 @@ description: "ポケモンリボーンの攻略目次。本編エピソード1�
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年9月13日 18:59</h5>
+<h5> 最終更新 2026年9月13日 23:22</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/all/">全文を1ページで読む</a> / <a href="/patch/">日本語化パッチの導入方法</a></p>
 
 <section class="news">
   <h2 class="news-title">更新情報<a class="news-all" href="/reborn/changelog/">これまでの更新 →</a></h2>
-  <ul class="news-list"><li><time datetime="2026-09-13">9/13</time><span class="news-kind is-fix">修正</span><span class="news-text">付録の野生ポケモンの持ち物で、バスラオのすがたが分かるようにしました <a class="news-go" href="/reborn/appendices/">見る →</a></span></li><li><time datetime="2026-09-12">9/12</time><span class="news-kind is-new">新機能</span><span class="news-text">ナビのページを追加しました。出発地と目的地を選ぶと、歩いて行く道を地図で案内します <a class="news-go" href="/reborn/navi/">見る →</a></span></li><li><time datetime="2026-09-11">9/11</time><span class="news-kind is-imp">改善</span><span class="news-text">デパートステッカーの集め方に、道順の図を足しました <a class="news-go" href="/reborn/stickers/">見る →</a></span></li><li><time datetime="2026-09-11">9/11</time><span class="news-kind is-new">新機能</span><span class="news-text">デパートステッカーのページを追加しました <a class="news-go" href="/reborn/stickers/">見る →</a></span></li><li><time datetime="2026-09-11">9/11</time><span class="news-kind is-fix">修正</span><span class="news-text">本文の「デパートシール」を「デパートステッカー」に直しました</span></li></ul>
+  <ul class="news-list"><li><time datetime="2026-09-13">9/13</time><span class="news-kind is-fix">修正</span><span class="news-text">16章デボンコーポの床の仕掛けを切り替えるボタンを、キーボードとゲームパッドそれぞれの絵で示しました <a class="news-go" href="/reborn/episode-16/#devon-corporation">見る →</a></span></li><li><time datetime="2026-09-13">9/13</time><span class="news-kind is-fix">修正</span><span class="news-text">付録の野生ポケモンの持ち物で、バスラオのすがたが分かるようにしました <a class="news-go" href="/reborn/appendices/">見る →</a></span></li><li><time datetime="2026-09-12">9/12</time><span class="news-kind is-new">新機能</span><span class="news-text">ナビのページを追加しました。出発地と目的地を選ぶと、歩いて行く道を地図で案内します <a class="news-go" href="/reborn/navi/">見る →</a></span></li><li><time datetime="2026-09-11">9/11</time><span class="news-kind is-imp">改善</span><span class="news-text">デパートステッカーの集め方に、道順の図を足しました <a class="news-go" href="/reborn/stickers/">見る →</a></span></li><li><time datetime="2026-09-11">9/11</time><span class="news-kind is-new">新機能</span><span class="news-text">デパートステッカーのページを追加しました <a class="news-go" href="/reborn/stickers/">見る →</a></span></li></ul>
 </section>
 
 

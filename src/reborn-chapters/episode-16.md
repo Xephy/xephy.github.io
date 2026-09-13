@@ -9976,7 +9976,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 隅にあるメガストーンはまだ取れません。階段を上がり、扉から主要エリアへ出て、光っている場所に話しかけると *むせんき* が手に入ります。
 
-階段を上がると、電気の床マットが見えます。タイルが点灯していれば安全に歩けますが、そうでなければじめんタイプ以外のポケモンが踏んだときにダメージを受けます。Aキーで点灯パターンを3種類切り替えられます。この建物を登るのに必要な知識はそれだけです。各フロアは必ず無傷で突破できるようになっています。
+階段を上がると、電気の床マットが見えます。タイルが点灯していれば安全に歩けますが、そうでなければじめんタイプ以外のポケモンが踏んだときにダメージを受けます。<span class="btn-icon btn-key-a" role="img" aria-label="キーボードのA"></span>キー（ゲームパッドでは<span class="btn-icon btn-pad-up" role="img" aria-label="ゲームパッドの右の4つのボタンのうち上"></span>＝<span class="btn-icon btn-xbox-y" role="img" aria-label="Y"></span>／<span class="btn-icon btn-ps-triangle" role="img" aria-label="三角"></span>）で点灯パターンを3種類切り替えられます。この建物を登るのに必要な知識はそれだけです。各フロアは必ず無傷で突破できるようになっています。
 
 <div class="trainer_section"><table>
 <thead class="table-header">
@@ -11233,7 +11233,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 久しぶりに、ヴィクトリアとの再戦です。今回は多彩な6匹をそろえており、素早いポケモンが多い一方で、後衛には耐久型も控えています。この時点で工場フィールドには十分慣れているはずなので、行き詰まったらそれを活かして勝ちましょう。アンプリフィールドロック＋*トリックルーム* や、素早さ補助つきの積みエースなど、筋の通ったシングル戦略で押し切ってください。
 
-勝ったら、上の次の部屋へ進みます。このエリアでもAボタンの無線機は使えるので、点灯していないタイルへ押し出す床タイルを踏む前に思い出してください。ダンジョンのこの区画では、壁のパネルを起動して床タイルの向きを切り替える必要があります。
+勝ったら、上の次の部屋へ進みます。このエリアでも無線機（<span class="btn-icon btn-key-a" role="img" aria-label="キーボードのA"></span>／<span class="btn-icon btn-pad-up" role="img" aria-label="ゲームパッドの右の4つのボタンのうち上"></span>）は使えるので、点灯していないタイルへ押し出す床タイルを踏む前に思い出してください。ダンジョンのこの区画では、壁のパネルを起動して床タイルの向きを切り替える必要があります。
 
 <img class="tabImage" src="/assets/images/reborn/devon_001.webp" width="1760" height="1705" loading="lazy" decoding="async" alt="攻略図"/>
 

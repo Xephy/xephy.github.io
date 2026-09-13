@@ -21,6 +21,9 @@
 - date: "2026-09-13"
   items:
     - kind: fix
+      href: /reborn/episode-16/#devon-corporation
+      text: 16章デボンコーポの床の仕掛けを切り替えるボタンを、キーボードとゲームパッドそれぞれの絵で示しました
+    - kind: fix
       href: /reborn/appendices/
       text: 付録の野生ポケモンの持ち物で、バスラオのすがたが分かるようにしました
 
