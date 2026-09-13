@@ -18,6 +18,12 @@
 #   https://github.com/Xephy/reborn-19.5.43-ja/releases/tag/v19.5.43-ja.13
 # latest にすると、次の版を出した時点で過去の項目まで新しい版へ飛んでしまう。
 
+- date: "2026-09-13"
+  items:
+    - kind: fix
+      href: /reborn/appendices/
+      text: 付録の野生ポケモンの持ち物で、バスラオのすがたが分かるようにしました
+
 - date: "2026-09-12"
   items:
     - kind: new

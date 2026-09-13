@@ -8,7 +8,7 @@ sitemap: false
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年9月12日 03:12</h5>
+<h5> 最終更新 2026年9月13日 18:59</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/">エピソードごとに読む</a> / <a href="/reborn/mon/">ポケモン図鑑</a> / <a href="/reborn/stats/">種族値ランキング</a> / <a href="/reborn/pokemon/">ポケモンの出現場所</a> / <a href="/reborn/shops/">どうぐの買える店</a> / <a href="/reborn/stickers/">デパートステッカー</a> / <a href="/reborn/move/">わざから探す</a> / <a href="/reborn/tms/">わざマシン一覧</a> / <a href="/reborn/evolutions/">進化条件の一覧</a> / <a href="/reborn/pulsedex/">PULSE図鑑</a> / <a href="/reborn/fields/">フィールド効果</a> / <a href="/reborn/affinity/">好感度まとめ</a> / <a href="/reborn/navi/">ナビ（β版）</a></p>
 <details class="page-toc" open>
@@ -209124,7 +209124,7 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 <td class="held-item"><em>しんかいのウロコ</em></td>
 <td class="held-rate"><span class="held-tier held-uncommon">たまに出る 5%</span></td>
 <td class="held-mons">
-<span class="held-mon"><a href="/reborn/mon/chinchou/" class="mon-link"><img src="/assets/images/mon/chinchou_0.png" alt="" class="mon-icon held-icon" loading="lazy" width="32" height="32"><span class="held-mon-name">チョンチー</span></a></span><span class="held-mon"><a href="/reborn/mon/lanturn/" class="mon-link"><img src="/assets/images/mon/lanturn_0.png" alt="" class="mon-icon held-icon" loading="lazy" width="32" height="32"><span class="held-mon-name">ランターン</span></a></span><span class="held-mon"><a href="/reborn/mon/gorebyss/" class="mon-link"><img src="/assets/images/mon/gorebyss_0.png" alt="" class="mon-icon held-icon" loading="lazy" width="32" height="32"><span class="held-mon-name">サクラビス</span></a></span><span class="held-mon"><a href="/reborn/mon/relicanth/" class="mon-link"><img src="/assets/images/mon/relicanth_0.png" alt="" class="mon-icon held-icon" loading="lazy" width="32" height="32"><span class="held-mon-name">ジーランス</span></a></span><span class="held-mon"><a href="/reborn/mon/basculin/" class="mon-link"><img src="/assets/images/mon/basculin_1.png" alt="" class="mon-icon held-icon" loading="lazy" width="32" height="32"><span class="held-mon-name">バスラオ</span></a></span>
+<span class="held-mon"><a href="/reborn/mon/chinchou/" class="mon-link"><img src="/assets/images/mon/chinchou_0.png" alt="" class="mon-icon held-icon" loading="lazy" width="32" height="32"><span class="held-mon-name">チョンチー</span></a></span><span class="held-mon"><a href="/reborn/mon/lanturn/" class="mon-link"><img src="/assets/images/mon/lanturn_0.png" alt="" class="mon-icon held-icon" loading="lazy" width="32" height="32"><span class="held-mon-name">ランターン</span></a></span><span class="held-mon"><a href="/reborn/mon/gorebyss/" class="mon-link"><img src="/assets/images/mon/gorebyss_0.png" alt="" class="mon-icon held-icon" loading="lazy" width="32" height="32"><span class="held-mon-name">サクラビス</span></a></span><span class="held-mon"><a href="/reborn/mon/relicanth/" class="mon-link"><img src="/assets/images/mon/relicanth_0.png" alt="" class="mon-icon held-icon" loading="lazy" width="32" height="32"><span class="held-mon-name">ジーランス</span></a></span><span class="held-mon"><a href="/reborn/mon/basculin/" class="mon-link"><img src="/assets/images/mon/basculin_1.png" alt="" class="mon-icon held-icon" loading="lazy" width="32" height="32"><span class="held-mon-name">バスラオ (あおすじのすがた)</span></a></span>
 </td>
 </tr>
 <tr>
