@@ -410,7 +410,11 @@ class FunctionWrapper
     form_keys = @pokemonHash[mon].keys.select { |k| k.is_a?(String) }
     form_index = form_keys.index(form) || 0
     name = @pokemonHash[mon][form_keys[0]][:name].to_s
-    name += " (#{JaNames.tr('form_names', form)})" if form == 'Alolan Form'
+    # 最初のすがた以外は、すがたの名前を添える (アローラのすがた、バスラオのあおすじのすがた など)。
+    # メテノを除くのは本家 (BIGJRA #30) に合わせたもの。Reborn では持ち物を持つメテノはいない
+    if form != form_keys[0] && form != 'Normal Form' && mon != :MINIOR
+      name += " (#{JaNames.tr('form_names', form)})"
+    end
 
     wrap = doc.create_element('span', class: 'held-mon')
     # 飛び先はその種族で絞り込んだ状態。素の一覧に飛ばすと595行の中から
