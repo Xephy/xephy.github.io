@@ -31,7 +31,7 @@
 - `jekyll-sitemap` が `/sitemap.xml` を生成する。**GitHub Pages では既定で有効にならない**ので
   `_config.yml` の `plugins` に明示してある
 - `src/robots.txt` から `Sitemap: https://xephy.github.io/sitemap.xml` で参照している
-- 現在 1,540 URL（`bin/check-tracking` が件数と中身を確認する）
+- 現在 1,545 URL（2026-09-14 実測。`bin/check-tracking` が件数と中身を確認する）
 
 トップページからのリンクだけでは 1,543 ページ全部は辿ってもらえないので、サイトマップは要る。
 ただし**サイトマップが読めなくてもインデックス登録自体は進む。** 焦らないこと。
@@ -49,6 +49,28 @@ Search Console が「取得できませんでした」のまま動かなかっ�
 - `<lastmod>` は1つも無いが、仕様上は任意
 
 結論として Search Console 側の問題と判断し、**登録を削除して同じ URL で送信し直した。**
+
+### 2026-09-14 の状況（記録）
+
+送信し直してから18日たっても、最終読み込み日時は空欄のまま。
+
+- URL 検査の「公開 URL をテスト」は、今回も **「URL は Google に登録できます」**
+- ファイルを測り直しても健全: 200 / `application/xml` / BOM 無し / XML パース OK / 1,545 URL /
+  全部 `https://xephy.github.io` / 重複なし / noindex のページは載っていない。
+  Googlebot の UA で sitemap・トップ・ナビ・サイトマップから無作為に選んだ25ページが全部 200。
+  `robots.txt` は `Allow: /` と `Sitemap:` の行
+- 各ページの canonical は自分自身、`<meta name="robots">` も `X-Robots-Tag` も無い
+- **「ページ」レポートで Google が知っている URL は6件だけ。** 登録済み5件と、
+  未登録1件（`/privacy/`、「クロール済み - インデックス未登録」）。
+  インデックス登録を手でリクエストした範囲とほぼ同じで、**ページが見つかっていない**のが問題。
+  中身の評価で落とされているのではない
+
+同じファイルを **`sitemap.xml?v=2` として追加で送信した。** 本番で 200 / `application/xml` /
+107,690 バイト（元と同じ）を確認済み。元の `sitemap.xml` の登録は残してある。
+
+**Indexing API は使わない。** 公式ドキュメントでは対象が `JobPosting` と
+`VideoObject` に埋め込んだ `BroadcastEvent` のページだけで、送信はスパム検出にかけられ、
+乱用すると利用を止められることがある。攻略ページは対象外。
 
 ---
 
@@ -115,7 +137,10 @@ Search Console が「取得できませんでした」のまま動かなかっ�
 
 ## 次に見るとき
 
-- Search Console のサイトマップが「成功しました」に変わったか
+- Search Console のサイトマップが「成功しました」に変わったか。
+  先に見るのは 2026-09-14 に足した `sitemap.xml?v=2` の最終読み込み日時
+- 「ページ」レポートで、未登録（とくに「検出 - インデックス未登録」）の件数が増えたか。
+  増えれば URL が Google に伝わったということで、登録済みはその後から伸びる
 - 「ページ」レポートでインデックス登録済みの件数が伸びているか
 - インデックス登録を個別にリクエストしたのは6本
   （トップ、`/reborn/`、`/reborn/mon/`、`/reborn/pokemon/`、`/reborn/episode-1/`、`/patch/`）
