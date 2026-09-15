@@ -76,6 +76,16 @@
 
   // ---------------------------------------------------------------- 案内
 
+  // 道は手順の番号の並びで持っている (中身の同じ手順は data.steps に1回だけ)。
+  // 合計歩数と出入りの回数は、手順から数え直す
+  function routeOf(a, b) {
+    var ids = data.routes[a + '>' + b];
+    if (!ids) return null;
+    var steps = ids.map(function (i) { return data.steps[i]; });
+    var total = steps.reduce(function (n, s) { return n + s.walk; }, 0);
+    return { steps: steps, total: total, doors: steps.length - 1 };
+  }
+
   function placeName(id) {
     var p = data.places.filter(function (q) { return q.id === id; })[0];
     return p ? p.name : id;
@@ -87,7 +97,7 @@
     if (!data) return;
     if (!a || !b) { $('navi-msg').textContent = (a ? '目的地' : '出発地') + 'を選んでください。'; return; }
     if (a === b) { $('navi-msg').textContent = '出発地と目的地が同じです。'; return; }
-    route = data.routes[a + '>' + b];
+    route = routeOf(a, b);
     if (!route) {
       var opt = $('navi-prog').selectedOptions[0];
       var fly = opt && +opt.getAttribute('data-badges') >= 13;   // そらをとぶはバッジ13個から

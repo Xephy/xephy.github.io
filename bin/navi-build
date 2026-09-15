@@ -448,6 +448,25 @@ def route_entry(steps):
     return {'steps': steps, 'total': sum(s['walk'] for s in steps), 'doors': len(steps) - 1}
 
 
+def pack(routes):
+    """書き出す形にする。中身の同じ手順は1回だけ steps に持ち、道は手順の番号の並びにする。
+
+    同じ出発地からの道は途中まで同じなので、1章で手順はのべ約26,000個あるのに中身の違うものは
+    約650個しかない (17章で 5.9MB → 318KB)。合計歩数と出入りの回数は手順から数え直せるので載せない
+    (navi.js の routeOf)。"""
+    table, index, out = [], {}, {}
+    for k, r in routes.items():
+        ids = []
+        for s in r['steps']:
+            h = json.dumps(s, ensure_ascii=False, sort_keys=True)
+            if h not in index:
+                index[h] = len(table)
+                table.append(s)
+            ids.append(index[h])
+        out[k] = ids
+    return {'steps': table, 'routes': out}
+
+
 def join_via(state, W, meta, anc, labels, raw, routes):
     """探す数の上限までに見つからなかった道を、ほかの場所を1か所経由する2本をつないで補う。
 
@@ -571,7 +590,7 @@ def build(key, images=True):
     data = {'key': key, 'label': label,
             'places': [{'id': p['en'], 'name': p['ja'], 'label': labels.get(p['en']),
                         'at': list(anc[p['en']][1]) if p['en'] in anc else None} for p in plist],
-            'maps': maps, 'routes': routes}
+            'maps': maps, **pack(routes)}
     with open(os.path.join(OUT, f'{key}.json'), 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
     print(f'{key}: 地図 {len(maps)} / {os.path.getsize(os.path.join(OUT, key + ".json")) // 1024}KB ({time.time() - t0:.0f}s)')

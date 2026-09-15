@@ -22,6 +22,9 @@
   items:
     - kind: imp
       href: /reborn/navi/
+      text: ナビで章を切り替えたときに読み込む道のデータを、1章あたり最大約6MBから約0.3MBに減らしました
+    - kind: imp
+      href: /reborn/navi/
       text: 攻略本文の地名の見出しから、ナビでその場所への道を調べられるようにしました
     - kind: imp
       href: /reborn/navi/
