@@ -3896,6 +3896,8 @@ body.night-mode .news-kind.is-patch { color: #86cfcf; }
 .navi-arrow { width: 44px; height: 44px; color: #0b6e4f; }
 .navi-banner-text { font-size: 16px; font-weight: 700; line-height: 1.4; }
 .navi-banner-dirs { margin-top: 2px; font-size: 13px; opacity: .92; }
+/* 同じ地図が続いても、次へを押したことが分かるように何番目の手順かを出す */
+.navi-banner-count { margin-bottom: 1px; font-size: 12px; opacity: .85; }
 .navi-banner-next {
   grid-column: 1 / -1; margin: 3px -13px -11px; padding: 6px 13px; font-size: 13px;
   background: #08553d; border-radius: 0 0 12px 12px;
