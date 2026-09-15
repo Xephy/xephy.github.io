@@ -9,10 +9,12 @@ _ja/navi/states/*.json (bin/navi-state で書き出した、ある時点の進�
   src/assets/navi/over/<ハッシュ>.webp その時点で出ている人物や物 (透明の重ね絵。同じ絵は章をまたいで1枚)
 
 場所の代表地点: その場所にポケモンセンターがあれば入口の前、無ければ、ほかの場所の
-ポケモンセンターから歩いて最初に着く地点 (その場所の入口)。
+ポケモンセンターから歩いて最初に着く地点 (その場所の入口)。入口は場所の名前そのものの
+地図を優先し、同じマスにある建物や別の名前の地図は、名前の地図に行けないときだけ使う。
 
 見つけた道は、道の途中で切り替わるスイッチ・変数を持ち歩いてもう一度たどり
-(navi_engine.verify)、通れなくなるものは載せない。
+(navi_engine.verify)、通れなくなるものは載せない。探す数の上限までに見つからなかった道は、
+ほかの場所を1か所経由する2本をつないで、同じようにたどり直せたものだけ載せる (join_via)。
 
   bin/navi-build            # すべての状態
   bin/navi-build ch14       # 1つだけ
@@ -113,6 +115,26 @@ def front_of(W, mid, dest):
     return None
 
 
+def base_name(name):
+    """作り直し後の街の地図は「ネオ〜」の名前になっている。"""
+    return name[2:] if name.startswith('ネオ') else name
+
+
+def same_place(map_name, place):
+    """地図の名前が場所の名前と頭3文字以上そろう (「アメトリン山2階」と「アメトリン山」など)。
+    「クリソリア地方」は峠の手前の広い地図で、峠の一部ではないので除く。"""
+    a, b = base_name(map_name), place
+    if a == b:
+        return True
+    return not a.endswith('地方') and len(os.path.commonprefix([a, b])) >= 3
+
+
+def leaves(W, at, pcs):
+    """at から歩いて、どこかのポケモンセンターの前まで戻れるか。"""
+    goals = set(pcs.values())
+    return any(s[:3] in goals for s in ne.explore(W, ne.node(*at)))
+
+
 def hub(state):
     """行ける範囲を測る起点: 大ホールの前。街が作り直されたあと (S479) はネオオパール区。"""
     return (519, 35, 46) if 479 in state.switches else (29, 34, 46)
@@ -142,15 +164,25 @@ def anchors(W, meta, state, plist):
                 break
     # ポケモンセンターの無い場所は、どこかのポケモンセンターの前から歩いて最初に着く地点。
     # explore の結果は見つけた順 (幅優先) に並んでいるので、親の歩数 + 1 で数えられる
-    # 入口は、その場所でいちばん広い屋外の地図に着いたところを選ぶ (建物や小さな脇道ではなく)
+    # 入口は、その場所の名前そのものの地図 (無ければ屋外の地図) でいちばん広いものに
+    # 着いたところを選ぶ。同じマスに入っている別の建物や脇道 (「7番街」のマスにある自転車店など) を
+    # 代表にすると、表示が「7番街（ラピス高級自転車店の入口）」のようにちぐはぐになる
     first = {}
     where = {m: p['en'] for p in plist for m in p['live']}
-    rank = {}
+    rank, tier = {}, {}
     for p in plist:
         outs = sorted((m for m in p['live'] if meta.get(m, {}).get('outdoor') and W.get(m)),
                       key=lambda m: -W.get(m).xs * W.get(m).ys)
         for i, m in enumerate(outs):
             rank[m] = i
+        for m in p['live']:
+            exact = base_name(ne.map_name(m)) == p['ja']
+            out = bool(meta.get(m, {}).get('outdoor'))
+            tier[m] = 0 if exact and out else 1 if exact else 2 if out else 3 if same_place(ne.map_name(m), p['ja']) else 4
+    # ふだんは広さ優先で選び、選んだ地図が場所の名前の地図より格下 (建物や別の名前の地図) のときだけ、
+    # 名前の地図のうち先に着く地点に選び直す。名前の地図どうしは広さで選ばない。
+    # クリソリア峠は2枚あり、広いほうは狭いほうを抜けた先にある
+    named = {}
     for src in pcs.values():
         prev = ne.explore(W, ne.node(*src))
         depth = {}
@@ -162,13 +194,36 @@ def anchors(W, meta, state, plist):
             key = (rank.get(s[0], 99), depth[s])
             if n not in first or key < first[n][0]:
                 first[n] = (key, s[:3])
+            key = (tier[s[0]], depth[s])
+            cand = named.setdefault(n, {})
+            if s[:3] not in cand or key < cand[s[:3]]:
+                cand[s[:3]] = key
     out = {}
     for p in plist:
-        if p['en'] in pcs:
-            out[p['en']] = ('pc', pcs[p['en']])
-        elif p['en'] in first:
-            out[p['en']] = ('entry', first[p['en']][1])
+        n = p['en']
+        if n in pcs:
+            out[n] = ('pc', pcs[n])
+        elif n in first:
+            at = first[n][1]
+            # 選び直す先は、そこから歩いて出られる地点だけ。地下鉄道網の地図 (760) は
+            # ビクスビジョン荒地から入るだけで出られないので、列車の地図のままにする
+            better = sorted((k, t) for t, k in named[n].items() if k[0] < tier[at[0]])
+            for _k, t in better[:60]:
+                if leaves(W, t, pcs):
+                    at = t
+                    break
+            out[n] = ('entry', at)
     return out
+
+
+def anchor_label(p, kind, m):
+    """選択肢に出す名前。入口は、地図が場所の一部 (「テクナイト尾根」など) なら地図名を省く。"""
+    mn = ne.map_name(m)
+    if kind == 'pc':
+        where_ = '' if mn == p['ja'] else mn + 'の'
+        return f"{p['ja']}（{where_}ポケモンセンター前）"
+    where_ = '' if same_place(mn, p['ja']) else mn + 'の'
+    return f"{p['ja']}（{where_}入口）"
 
 
 # ---------------------------------------------------------------- 道
@@ -389,6 +444,36 @@ def render_sprites(state, mid, path):
 
 # ---------------------------------------------------------------- まとめ
 
+def route_entry(steps):
+    return {'steps': steps, 'total': sum(s['walk'] for s in steps), 'doors': len(steps) - 1}
+
+
+def join_via(state, W, meta, anc, labels, raw, routes):
+    """探す数の上限までに見つからなかった道を、ほかの場所を1か所経由する2本をつないで補う。
+
+    代表地点が奥にある場所 (峠を回り込むクリソリア峠など) は、遠い場所からだと値を持ち歩く
+    探し直しが上限に届いてしまう。直接見つかった道どうしを、短い組み合わせから3つまで
+    つないでみて、値を持ち歩いてたどり直せたものだけ載せる。経由地に一度寄るぶん、
+    最短より長くなることがある。raw と routes に書き足し、足した数を返す。"""
+    direct = dict(raw)
+    n = 0
+    for a in anc:
+        for b in anc:
+            if a == b or (a, b) in direct:
+                continue
+            cs = sorted((len(direct[(a, c)][0]) + len(direct[(c, b)][0]), c) for c in anc
+                        if (a, c) in direct and (c, b) in direct)
+            for _len, c in cs[:3]:
+                (p1, k1), (p2, k2) = direct[(a, c)], direct[(c, b)]
+                fixed = ne.verify(state, list(p1) + list(p2[1:]), list(k1) + list(k2))
+                if fixed is not None:
+                    raw[(a, b)] = fixed
+                    routes[f'{a}>{b}'] = route_entry(describe(W, meta, *fixed, labels[a], labels[b]))
+                    n += 1
+                    break
+    return n
+
+
 def build(key, images=True):
     t0 = time.time()
     state = ne.State.load(os.path.join(STATES, f'{key}.json'))
@@ -402,11 +487,10 @@ def build(key, images=True):
     for p in plist:
         if p['en'] in anc:
             kind, (m, x, y) = anc[p['en']]
-            mn = ne.map_name(m)
-            where_ = '' if mn == p['ja'] else mn + 'の'
-            labels[p['en']] = f"{p['ja']}（{where_}ポケモンセンター前）" if kind == 'pc' else f"{p['ja']}（{where_}入口）"
+            labels[p['en']] = anchor_label(p, kind, m)
     goals = {anc[n][1]: n for n in anc}
     routes = {}
+    raw = {}
     bad = redo = 0
     We = ne.World(state, exact=True)
     for a in anc:
@@ -449,17 +533,21 @@ def build(key, images=True):
             # 切り替わる値のせいで通れない道だった。値を持ち歩いて探し直す (遅いので、この時だけ。
             # 同じ出発地のものはまとめて1回で)
             t1 = time.time()
-            again = search_all(We, anc[a][1], retry, limit=800_000)
+            # 上限は、10章の7番街→クリソリア峠 (峠を回り込む長い道) が見つかる数 (実測 約66秒)
+            again = search_all(We, anc[a][1], retry, limit=3_000_000)
             redo += len(again)
             bad += len(retry) - len(again)
             fixed_all.update(again)
             print(f'  {a}: 探し直し {len(again)}/{len(retry)} ({time.time() - t1:.0f}s)')
         print(f'{key}: {a} から {len(fixed_all)} 通り ({time.time() - t0:.0f}s)')
         for b, (path, kinds) in fixed_all.items():
-            steps = describe(W, meta, path, kinds, labels[a], labels[b])
-            routes[f'{a}>{b}'] = {'steps': steps, 'total': sum(s['walk'] for s in steps),
-                                  'doors': len(steps) - 1}
-    print(f'{key}: 道 {len(routes)} (値を持ち歩いて探し直したもの {redo}、それでも無かったもの {bad}) ({time.time() - t0:.0f}s)')
+            raw[(a, b)] = (path, kinds)
+            routes[f'{a}>{b}'] = route_entry(describe(W, meta, path, kinds, labels[a], labels[b]))
+    t1 = time.time()
+    via = join_via(state, W, meta, anc, labels, raw, routes)
+    print(f'{key}: 経由してつないだもの {via} ({time.time() - t1:.0f}s)')
+    print(f'{key}: 道 {len(routes)} (値を持ち歩いて探し直したもの {redo}、それでも無かったもの {bad}、'
+          f'うち経由してつないだもの {via}) ({time.time() - t0:.0f}s)')
     maps_used = sorted({s['map'] for r in routes.values() for s in r['steps']})
     os.makedirs(os.path.join(OUT, 'maps'), exist_ok=True)
     os.makedirs(os.path.join(OUT, 'over'), exist_ok=True)

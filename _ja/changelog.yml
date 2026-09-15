@@ -18,6 +18,15 @@
 #   https://github.com/Xephy/reborn-19.5.43-ja/releases/tag/v19.5.43-ja.13
 # latest にすると、次の版を出した時点で過去の項目まで新しい版へ飛んでしまう。
 
+- date: "2026-09-15"
+  items:
+    - kind: imp
+      href: /reborn/navi/
+      text: ナビで、12章以降に道が見つからなかった出発地と目的地の組み合わせの一部を、案内できるようにしました
+    - kind: fix
+      href: /reborn/navi/
+      text: ナビで7番街・クリソリア峠・イオリア渓谷・北オブシディア区を選ぶと、同じ地域の中の建物や別の地図が出発地・目的地になっていたのを、その場所の入口に直しました
+
 - date: "2026-09-13"
   items:
     - kind: fix
