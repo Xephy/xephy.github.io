@@ -290,11 +290,17 @@
   var key = [params.get('p'), remembered(), root.getAttribute('data-default')].filter(usable)[0];
   prog.value = key;
   selectChapter(prog.value).then(function () {
+    if (!data) return;
     var a = params.get('from'), b = params.get('to');
-    if (data && a && b && data.routes[a + '>' + b]) {
-      $('navi-from').value = a;
-      $('navi-to').value = b;
+    var ok = function (id) { return id && data.places.some(function (p) { return p.id === id && p.at; }); };
+    // 攻略本文の見出しからは、目的地だけを決めて開く (出発地は読む人が選ぶ)
+    if (ok(b)) $('navi-to').value = b;
+    if (ok(a) && a !== b) $('navi-from').value = a;
+    if (ok(a) && ok(b) && data.routes[a + '>' + b]) {
       start();
+    } else if (ok(b) && !a) {
+      $('navi-msg').textContent = '目的地を' + placeName(b) + 'にしました。出発地を選んで「ナビ開始」を押してください。';
+      $('navi-from').focus();
     }
   });
 })();

@@ -209,6 +209,8 @@ description: "『ポケモンリボーン』「エピソード3: ドミノ」の
 
 ## ジャスパー区とマルコウス森林公園 {#jasper-ward--malchous-forest-park}
 
+<p class="navi-link">ナビで道を調べる: <a href="/reborn/navi/?p=ch2&amp;to=Jasper%20Ward">ジャスパー区</a> / <a href="/reborn/navi/?p=ch3&amp;to=Malchous%20Forest%20Park">マルコウス森林公園</a></p>
+
 この家を出て、右手のジャスパーのゲートへ向かいます。ここの警備員に話しかけ、ジャスパー区へ入ります。
 
 <div class="encounter_section"><table>
@@ -2594,6 +2596,8 @@ description: "『ポケモンリボーン』「エピソード3: ドミノ」の
 
 
 ## ベリル区とベリル墓地 {#beryl-ward--beryl-cemetery}
+
+<p class="navi-link">ナビで道を調べる: <a href="/reborn/navi/?p=ch2&amp;to=Beryl%20Ward">ベリル区</a> / <a href="/reborn/navi/?p=ch2&amp;to=Beryl%20Cemetery">ベリル墓地</a></p>
 
 これでようやくベリル区の本体を探索できます。
 

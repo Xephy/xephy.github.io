@@ -353,6 +353,8 @@ description: "『ポケモンリボーン』「エピソード1: リボーン、
 
 ## オパール区 {#opal-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch1&amp;to=Opal%20Ward">ナビでここへの道を調べる</a></p>
+
 右手にトレーナーがいます。
 
 <div class="trainer_section"><table>
@@ -840,6 +842,8 @@ description: "『ポケモンリボーン』「エピソード1: リボーン、
 オパール区でできることは一旦これで終わりなので、駅の方へ戻りましょう。
 
 ## 下ペリドット区 {#lower-peridot-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch1&amp;to=Peridot%20Ward">ナビでここへの道を調べる</a></p>
 
 下ペリドット区は、行動範囲がぐっと広がっています。左手にはトレーナーがいます。
 
@@ -1743,6 +1747,8 @@ description: "『ポケモンリボーン』「エピソード1: リボーン、
 左上の岩には *エフェクトガード* が隠されています。ここでの用が済んだら、左へ戻ってシークレストの庭を通り過ぎ、ペリドット区北部へ入りましょう。
 
 ## ペリドット区 {#peridot-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch1&amp;to=Peridot%20Ward">ナビでここへの道を調べる</a></p>
 
 <img class="tabImage" src="/assets/images/reborn/hidden006.webp" width="1930" height="1745" loading="lazy" decoding="async" alt="攻略図"/>
 

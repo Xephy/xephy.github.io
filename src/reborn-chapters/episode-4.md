@@ -222,6 +222,8 @@ description: "『ポケモンリボーン』「エピソード4: 余震」の攻
 
 ## 北オブシディア区 {#north-obsidia-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch3&amp;to=North%20Obsidia%20Ward">ナビでここへの道を調べる</a></p>
+
 これが済んだら、オパール区へ戻って橋のところから上へ進みます。北オブシディア区に入ります。
 
 <div class="trainer_section"><table>
@@ -596,6 +598,8 @@ description: "『ポケモンリボーン』「エピソード4: 余震」の攻
 
 
 ## ラピス区 {#lapis-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch3&amp;to=Lapis%20Ward">ナビでここへの道を調べる</a></p>
 
 左手の階段を上ると、市内でまだ探索していない最後の区に入れます。
 
@@ -1208,6 +1212,8 @@ description: "『ポケモンリボーン』「エピソード4: 余震」の攻
 ともあれラピスでできることは以上なので、北オブシディア区へ向かいます。
 
 ## 大階段 {#the-grand-stairway}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch4&amp;to=Grand%20Stairway">ナビでここへの道を調べる</a></p>
 
 ここでカインに話しかけると、警官の気を引いてくれるので、その隙にすり抜けられます。
 

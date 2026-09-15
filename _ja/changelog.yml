@@ -22,6 +22,9 @@
   items:
     - kind: imp
       href: /reborn/navi/
+      text: 攻略本文の地名の見出しから、ナビでその場所への道を調べられるようにしました
+    - kind: imp
+      href: /reborn/navi/
       text: ナビで、12章以降に道が見つからなかった出発地と目的地の組み合わせの一部を、案内できるようにしました
     - kind: fix
       href: /reborn/navi/

@@ -22,6 +22,7 @@ require_relative 'trainer_index'
 require_relative 'mon_page'
 require_relative 'sticker_page'
 require_relative 'navi_page'
+require_relative 'navi_links'
 require_relative 'move_page'
 require_relative 'spoiler'
 require_relative 'function_wrapper'
@@ -275,7 +276,8 @@ def generate_md_text(game = 'reborn', scripts_dir)
         res << function_result
       end
     end
-    Spoiler.apply(Affinity.apply(PasswordFilter.apply(res.join, LONGNAMES[game]), LONGNAMES[game]))
+    text = Spoiler.apply(Affinity.apply(PasswordFilter.apply(res.join, LONGNAMES[game]), LONGNAMES[game]))
+    NaviLinks.apply(text, LONGNAMES[game], type, num)
   end
 
   def generate_intelligent_slug(title, chapter_type, chapter_num)

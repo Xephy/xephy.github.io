@@ -8,7 +8,7 @@ sitemap: false
 ---
 
 <p id="title-text">ポケモンリボーン 攻略</p>
-<h5> 最終更新 2026年9月15日 17:28</h5>
+<h5> 最終更新 2026年9月15日 19:09</h5>
 <h5> 対象バージョン 19.5.43</h5>
 <p><a href="/reborn/">エピソードごとに読む</a> / <a href="/reborn/mon/">ポケモン図鑑</a> / <a href="/reborn/stats/">種族値ランキング</a> / <a href="/reborn/pokemon/">ポケモンの出現場所</a> / <a href="/reborn/shops/">どうぐの買える店</a> / <a href="/reborn/stickers/">デパートステッカー</a> / <a href="/reborn/move/">わざから探す</a> / <a href="/reborn/tms/">わざマシン一覧</a> / <a href="/reborn/evolutions/">進化条件の一覧</a> / <a href="/reborn/pulsedex/">PULSE図鑑</a> / <a href="/reborn/fields/">フィールド効果</a> / <a href="/reborn/affinity/">好感度まとめ</a> / <a href="/reborn/navi/">ナビ（β版）</a></p>
 <details class="page-toc" open>
@@ -692,6 +692,8 @@ sitemap: false
 
 ## オパール区 {#opal-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch1&amp;to=Opal%20Ward">ナビでここへの道を調べる</a></p>
+
 右手にトレーナーがいます。
 
 <div class="trainer_section"><table>
@@ -1179,6 +1181,8 @@ sitemap: false
 オパール区でできることは一旦これで終わりなので、駅の方へ戻りましょう。
 
 ## 下ペリドット区 {#lower-peridot-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch1&amp;to=Peridot%20Ward">ナビでここへの道を調べる</a></p>
 
 下ペリドット区は、行動範囲がぐっと広がっています。左手にはトレーナーがいます。
 
@@ -2082,6 +2086,8 @@ sitemap: false
 左上の岩には *エフェクトガード* が隠されています。ここでの用が済んだら、左へ戻ってシークレストの庭を通り過ぎ、ペリドット区北部へ入りましょう。
 
 ## ペリドット区 {#peridot-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch1&amp;to=Peridot%20Ward">ナビでここへの道を調べる</a></p>
 
 <img class="tabImage" src="/assets/images/reborn/hidden006.webp" width="1930" height="1745" loading="lazy" decoding="async" alt="攻略図"/>
 
@@ -5821,6 +5827,8 @@ sitemap: false
 
 ## オブシディア区 {#obsidia-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch1&amp;to=Obsidia%20Ward">ナビでここへの道を調べる</a></p>
+
 準備ができたら、オパール大橋の右側にいるヴィクトリアに話しかけます。
 
 中央オブシディア美容室に入ります。中にはなつき度チェッカーと、1500ドルでポケモンのなつき度を上げてくれるトリマーがいます。所持金に余裕があれば一度受けておきましょう。
@@ -7542,6 +7550,8 @@ sitemap: false
 
 ## コーラル区 {#coral-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch1&amp;to=Coral%20Ward">ナビでここへの道を調べる</a></p>
+
 コーラル区へようこそ。
 
 <img class="tabImage" src="/assets/images/reborn/hidden023.webp" width="1980" height="1585" loading="lazy" decoding="async" alt="攻略図"/>
@@ -9255,6 +9265,8 @@ sitemap: false
 2つ目の倉庫には *きょうせいギプス* と、箱のどれかに隠れた **バネブー** がいます。3つ目の倉庫にはチームメテオのしたっぱがいます。彼に話しかけておくと、後でポケモンを1匹入手できます。ここには **ピンプク** もいます。
 
 ## オニキス区 {#onyx-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch2&amp;to=Onyx%20Ward">ナビでここへの道を調べる</a></p>
 
 オブシディアの北東の角からオニキス区へ入ります。オニキス区はかなり狭いですが、ジムに挑む前にできることがいくつかあります。
 
@@ -12830,6 +12842,8 @@ sitemap: false
 
 ## ジャスパー区とマルコウス森林公園 {#jasper-ward--malchous-forest-park}
 
+<p class="navi-link">ナビで道を調べる: <a href="/reborn/navi/?p=ch2&amp;to=Jasper%20Ward">ジャスパー区</a> / <a href="/reborn/navi/?p=ch3&amp;to=Malchous%20Forest%20Park">マルコウス森林公園</a></p>
+
 この家を出て、右手のジャスパーのゲートへ向かいます。ここの警備員に話しかけ、ジャスパー区へ入ります。
 
 <div class="encounter_section"><table>
@@ -15216,6 +15230,8 @@ sitemap: false
 
 ## ベリル区とベリル墓地 {#beryl-ward--beryl-cemetery}
 
+<p class="navi-link">ナビで道を調べる: <a href="/reborn/navi/?p=ch2&amp;to=Beryl%20Ward">ベリル区</a> / <a href="/reborn/navi/?p=ch2&amp;to=Beryl%20Cemetery">ベリル墓地</a></p>
+
 これでようやくベリル区の本体を探索できます。
 
 <div class="encounter_section">
@@ -16353,6 +16369,8 @@ sitemap: false
 
 ## 北オブシディア区 {#north-obsidia-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch3&amp;to=North%20Obsidia%20Ward">ナビでここへの道を調べる</a></p>
+
 これが済んだら、オパール区へ戻って橋のところから上へ進みます。北オブシディア区に入ります。
 
 <div class="trainer_section"><table>
@@ -16727,6 +16745,8 @@ sitemap: false
 
 
 ## ラピス区 {#lapis-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch3&amp;to=Lapis%20Ward">ナビでここへの道を調べる</a></p>
 
 左手の階段を上ると、市内でまだ探索していない最後の区に入れます。
 
@@ -17339,6 +17359,8 @@ sitemap: false
 ともあれラピスでできることは以上なので、北オブシディア区へ向かいます。
 
 ## 大階段 {#the-grand-stairway}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch4&amp;to=Grand%20Stairway">ナビでここへの道を調べる</a></p>
 
 ここでカインに話しかけると、警官の気を引いてくれるので、その隙にすり抜けられます。
 
@@ -21724,6 +21746,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 これでカインとシェリーが養護施設へ向かいます。
 
 ## ラピス区の養護施設 {#lapis-ward-orphanage}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch4&amp;to=Lapis%20Ward">ナビでここへの道を調べる</a></p>
 
 扉が開いたらすぐ養護施設へ入ります。この時点で好感度が高いほうに応じて、カインかシェリーのどちらかと組むことになります。
 
@@ -27427,6 +27451,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## アポフィルビーチ {#apophyll-beach}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch5&amp;to=Apophyll%20Beach">ナビでここへの道を調べる</a></p>
+
 コーラル区へ向かい、左上の施錠された倉庫に入ります。中から船に乗ってアポフィルビーチへ行けます。
 
 着いたらまっすぐ左へ進み、丘の間を縫って *さざなみのおこう* を回収してください。
@@ -28841,6 +28867,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## パイロス山 {#pyrous-mountain}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch5&amp;to=Pyrous%20Mountain">ナビでここへの道を調べる</a></p>
+
 ここからストーリーに戻ります。アカデミー南の瞑想エリアへ入り、ピンク髪の女性に話しかけてください。
 
 <!-- 好感度 -->
@@ -29640,6 +29668,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 ヨットに乗ってアズリン島へ向かいます。
 
 ## アズリン島 {#azurine-island}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch6&amp;to=Azurine%20Island">ナビでここへの道を調べる</a></p>
 
 <div class="encounter_section">
 <table>
@@ -32808,6 +32838,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </table></div>
 
 ## ビクスビジョン荒地 {#byxbysion-wasteland}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch7&amp;to=Byxbysion%20Wasteland">ナビでここへの道を調べる</a></p>
 
 南オブシディア区の東側へ向かいます。カインに話しかけるとビクスビジョン荒地へ入れます。
 
@@ -36100,6 +36132,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## 地下鉄道網 東 {#underground-railnet-east}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch7&amp;to=Underground%20Railnet">ナビでここへの道を調べる</a></p>
+
 1階に戻り、東へ進んで地下鉄道網の別区画に入ります。
 
 <img class="tabImage" src="/assets/images/reborn/railnet_east.webp" width="1362" height="1815" loading="lazy" decoding="async" alt="攻略図"/>
@@ -36126,6 +36160,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 シャルロットに話しかけます。しゅっぱーつ!
 
 ## タンザン入り江 {#tanzan-cove}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch7&amp;to=Tanzan%20Cove">ナビでここへの道を調べる</a></p>
 
 新しいエリアに出ます。ここでは *むらさきのかけら*、*なんでもなおし*、*ノーマルジュエル*、*エレメンタルシード* が手に入ります。雨のとき、このマップの男性が *stablweather* というパスワードを教えてくれます。ここからは、タンザン山を通ってベルローズ邸へ先に行くか、森を抜けてスピネルタウンへ先に行くかを選べます。この攻略ではベルローズを先にしますが、この節を飛ばしてスピネルの後に戻ってきても構いません。
 
@@ -36389,6 +36425,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 
 ## クリソリアの森 {#chrysolia-forest}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch7&amp;to=Chrysolia%20Forest">ナビでここへの道を調べる</a></p>
 
 タンザン山を通って戻り、下から出ます。このマップの右下から森へ入ってください。
 
@@ -37164,6 +37202,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 上へ、そして左へ進んで周回を続けます。右上の開けた場所から、ついにスピネルタウンへ入れます。
 
 ## スピネルタウン {#spinel-town}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch7&amp;to=Spinel%20Town">ナビでここへの道を調べる</a></p>
 
 町中が混乱状態で、あらゆるものが激しくテレポートしています。左側の集合住宅に入ると、少女の家具がすべて消えてしまいます。取り戻してほしいと頼まれるので、家を出ましょう。
 
@@ -41595,6 +41635,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## タンザン山の爆発と収穫 {#tanzan-mountain-boom-and-goodies}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch9&amp;to=Tanzan%20Mountain">ナビでここへの道を調べる</a></p>
+
 タンザン山に入り、今度は左へ進みます。障壁が破壊されているので道をたどってください。隠された *キズぐすり*、*みどりのかけら*、*すごいキズぐすり* を拾ったら、上の次の部屋へ。*スペシャルアップ* を回収して上へ進むとサファイラがいます。
 
 *ルビーのゆびわ* と *アメジストのペンダント* が手に入ります。素晴らしい。
@@ -41691,6 +41733,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 タンザン深部は当面これで終わりなので、*あなをほる* か *あなぬけのヒモ* でタンザン山の本体へ戻り、サファイラから装身具をもらったエリアから上へ進みます。
 
 ## 1番道路 {#route-1}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch9&amp;to=Route%201">ナビでここへの道を調べる</a></p>
 
 とはいえ、実際に出るのは南アベンチュリンの森です。
 
@@ -47494,6 +47538,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## 7番街 {#seventh-street}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch10&amp;to=7th%20Street">ナビでここへの道を調べる</a></p>
+
 [ギャングのサイドクエスト](/reborn/episode-4/#joining-a-gang)をまだ終えていない場合は、ここで済ませる必要があります。
 
 自分のギャングの頭に話しかけると、7番街について教えてくれます。アクア団ならラピスの左上の家から、マグマ団ならラピス中央の左手にある家から行けます。
@@ -50326,6 +50372,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## イオリア渓谷 {#iolia-valley}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch10&amp;to=Iolia%20Valley">ナビでここへの道を調べる</a></p>
+
 バンハネン迷宮へ向かいます。右上の大きな木の裏にイオリア渓谷への入口が隠れています。赤い宝石に話しかけると、いわくだき用の壁ができます。その道を進んでください。
 
 <div class="encounter_section">
@@ -51285,6 +51333,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 支度ができたら、バンハネン迷宮の北にあるアゲートシティの検問所へ向かい、カインに話しかけてから最上部へ出ます。
 
 ## アゲートサーカス {#agate-circus}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch12&amp;to=Agate%20Circus">ナビでここへの道を調べる</a></p>
 
 アゲートシティでテラと初対面したあと……アゲートサーカスを探索できます。ここは次の数個のバッジを取るまでの「拠点」のような場所になります。トレーナーが各所にいて、エリア下部には回復設備もあります。マップ上のトレーナーは、おおむね時計回りに以下のとおりです。
 
@@ -53365,6 +53415,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </table></div>
 
 ## 2番道路 {#route-2}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch12&amp;to=Route%202">ナビでここへの道を調べる</a></p>
 
 エレベーターで上がって外に出ます。
 
@@ -55572,6 +55624,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## 3番道路とLCCC {#route-3--lccc}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch12&amp;to=Route%203">ナビでここへの道を調べる</a></p>
+
 <div class="encounter_section"><table>
 <thead>
 <tr><th colspan="5" class="table-header" style="text-align: center;"><strong>3番道路 出現ポケモン: くさむら</strong></th></tr>
@@ -57239,6 +57293,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## 4番道路 {#route-4}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch12&amp;to=Route%204">ナビでここへの道を調べる</a></p>
+
 <div class="encounter_section"><table>
 <thead>
 <tr><th colspan="5" class="table-header" style="text-align: center;"><strong>4番道路 出現ポケモン: くさむら</strong></th></tr>
@@ -57854,6 +57910,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 西のカルセノンシティへ入ります。
 
 ## カルセノンシティ {#calcenon-city}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch12&amp;to=Calcenon%20City">ナビでここへの道を調べる</a></p>
 
 ポケモンセンターの中では、人物が *noitems* というパスワードを教えてくれます。もう1人は交換に応じてくれます。こちらの **ハリーセン** と、相手の **ゴンベ** です。
 
@@ -67216,6 +67274,8 @@ PULSE **マルノーム** は鈍足ですが極めて硬く、しかも回復手
 
 ## タンザン入り江の水中探索 {#tanzan-cove-water-exploration}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Tanzan%20Cove">ナビでここへの道を調べる</a></p>
+
 これまで訪れた大量のエリアへ入れるようになり、しかも *なみのり*、*たきのぼり*、*ダイビング* が揃いました。最初の目的地としては奇妙に思えるかもしれませんが、まずはベルローズ邸へ飛んでタンザン入り江へ向かってください。
 
 タンザン入り江で水中に潜ります。
@@ -67459,6 +67519,8 @@ PULSE **マルノーム** は鈍足ですが極めて硬く、しかも回復手
 中で *しんじゅ* と隠された *あおいかけら* を回収したら外へ出ます。
 
 ## ネオオパール区 {#neo-opal-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Opal%20Ward">ナビでここへの道を調べる</a></p>
 
 それが済んだら、いよいよネオリボーンシティの探索です。留守の間に街全体が改修されていました。見事なものです。「ネオ」オパール区へ飛びましょう。
 
@@ -67712,6 +67774,8 @@ PULSE **マルノーム** は鈍足ですが極めて硬く、しかも回復手
 この区には *エレメンタルシード*、*めざめいし*、*メンタルハーブ*、*シルバースプレー*、*すごいキズぐすり* が隠されています。
 
 ## ネオペリドット区 {#neo-peridot-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Peridot%20Ward">ナビでここへの道を調べる</a></p>
 
 オパールで今できるのは以上なので、西のペリドットへ向かいます。
 
@@ -68304,6 +68368,8 @@ PULSE **マルノーム** は鈍足ですが極めて硬く、しかも回復手
 
 ## ネオジャスパー区とマルコウス森林公園 {#neo-jasper-ward--malchous-forest}
 
+<p class="navi-link">ナビで道を調べる: <a href="/reborn/navi/?p=ch15&amp;to=Jasper%20Ward">ジャスパー区</a> / <a href="/reborn/navi/?p=ch15&amp;to=Malchous%20Forest%20Park">マルコウス森林公園</a></p>
+
 ペリドットはこれで終わりなので、ネオジャスパー区へ入ります。
 
 <div class="encounter_section"><table>
@@ -68802,6 +68868,8 @@ PULSE **マルノーム** は鈍足ですが極めて硬く、しかも回復手
 </table></div>
 
 ## ネオベリル区 {#neo-beryl-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Beryl%20Ward">ナビでここへの道を調べる</a></p>
 
 次はベリルへ。ベリル大橋を渡って右へ進みます。発電所近くの技術者に、以前手に入れた *ユレユのカギ* を見せると *いかずちプレート* がもらえます。
 
@@ -69517,6 +69585,8 @@ PULSE **マルノーム** は鈍足ですが極めて硬く、しかも回復手
 
 ## ネオラピス区 {#neo-lapis-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Lapis%20Ward">ナビでここへの道を調べる</a></p>
+
 リボーンシティ西側でできることはこれで終わりなので、次はラピスへ飛びます。
 
 <div class="encounter_section"><table>
@@ -69756,6 +69826,8 @@ PULSE **マルノーム** は鈍足ですが極めて硬く、しかも回復手
 自分のギャングの頭に話しかけると、集めている申込書の用途が分かります。どちらのギャングでも、このクエストはまだ完了できないので、後ほど戻ります。
 
 ## ネオオブシディア区 {#neo-obsidia-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Obsidia%20Ward">ナビでここへの道を調べる</a></p>
 
 ラピスへ戻り、東の北オブシディアへ進みます。左側で隠された *なんでもなおし* が手に入ります。
 
@@ -70774,6 +70846,8 @@ PULSE **マルノーム** は鈍足ですが極めて硬く、しかも回復手
 
 ## ネオコーラル区 {#neo-coral-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Coral%20Ward">ナビでここへの道を調べる</a></p>
+
 南のコーラルへ進みます。
 
 <div class="encounter_section"><table>
@@ -71587,6 +71661,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## ネオオニキス区 {#neo-onyx-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Onyx%20Ward">ナビでここへの道を調べる</a></p>
+
 次はオニキス区へ飛びます。隠された *やけどなおし*、*ディフェンダー*、*あかいかけら* が手に入ります。左上の隅の人物も *かいふくのくすり* をくれます。
 
 屋上庭園へ上がります。
@@ -71738,6 +71814,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 これでスパイスに材料をすべて渡せるはずです。渡すと *たべのこし* が2個もらえます。
 
 ## ネオスピネルタウンとクリソリア温泉 {#neo-spinel-town--chrysolia-spring}
+
+<p class="navi-link">ナビで道を調べる: <a href="/reborn/navi/?p=ch15&amp;to=Spinel%20Town">スピネルタウン</a> / <a href="/reborn/navi/?p=ch15&amp;to=Chrysolia">クリソリア</a></p>
 
 市内でできることは今のところ以上なので、スピネルタウンへ飛びます。博物館に入ってください。
 
@@ -72228,6 +72306,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## イオリア渓谷とアベンチュリンの森の水中探索 {#iolia-valley--aventurine-woods-water-exploration}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Iolia%20Valley">ナビでここへの道を調べる</a></p>
+
 バンハネン城へ飛び、イオリア渓谷へ向かいます。
 
 <div class="encounter_section"><table>
@@ -72328,6 +72408,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 このエリアで今できるのは以上です。
 
 ## ネオアポフィルビーチ {#neo-apophyll-beach}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Apophyll%20Beach">ナビでここへの道を調べる</a></p>
 
 アポフィルアカデミーへ飛び、アカデミーに入ります。最初の部屋の少女に話しかけると *アポフィルのもうしこみしょ* がもらえます。アカデミー中央のエリアでは隠された *むらさきのかけら* が手に入ります。
 
@@ -72811,6 +72893,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </table></div>
 
 ## アズリン湖 {#azurine-lake}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Azurine%20Lake">ナビでここへの道を調べる</a></p>
 
 いよいよアズリン湖そのものを扱います。この広大なエリアでできることは山ほどあります。まずはアポフィルアカデミーからなみのりで上へ進み、岩場の洞窟 (1) に入ってください。
 
@@ -74465,6 +74549,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## ネオアズリン島 {#neo-azurine-island}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Azurine%20Island">ナビでここへの道を調べる</a></p>
+
 アズリン湖の探索を締めくくるため、次はアズリン島を見ていきます。コーラル区から西へなみのりし、行けるところで下へ進むと、再びアズリン島に着きます。
 
 <div class="encounter_section">
@@ -75170,6 +75256,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 新しく仲間になったポケモンが *せいいきのカギ* を持っていることに気づくはずです。このカギをバッグに入れたまま7番街へ戻り、サブセブン聖域を再訪します。迷路のような部屋で、左側の扉をカギで開けてください。*ダークマテリアル* と *けいけんアメXL* 3個を回収します。緑の本を読むと設定が読め、左のアルセウス像の色は後で使うので覚えておきましょう。済んだら外へ出ます。このクエストは今のところここまでです。
 
 ## アゲートサーカスの釣り {#agate-circus-fishing}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Agate%20Circus">ナビでここへの道を調べる</a></p>
 
 *すごいつりざお* が手に入ったので、サーカスとその先のエリアで新しく捕まえられるポケモンがいます。アゲートサーカスへ飛び戻ってください。ついでにエリア上部で *サーカスのもうしこみしょ* も手に入ります。網羅のため、出現データをすべて挙げておきます。
 
@@ -83759,6 +83847,8 @@ $80000 を寄付してこの計画に出資します。
 
 ## トルマリン砂漠 {#tourmaline-desert}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch16&amp;to=Tourmaline%20Desert">ナビでここへの道を調べる</a></p>
+
 下ペリドット区の駅へ向かい、列車でトルマリン砂漠へ出ます。
 
 ### レシラムルート: タカ戦 {#reshiram-route-taka-fight}
@@ -86916,6 +87006,8 @@ $80000 を寄付してこの計画に出資します。
 テクナイト山地はこれで終わりなので、トルマリン砂漠へ戻りましょう。
 
 ## 1R253廃品置き場 {#r253-scrapyard}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch16&amp;to=1R253%20Scrapyard">ナビでここへの道を調べる</a></p>
 
 タカを同行させていて、好感度や会話、無料の回復のためにもう少し一緒にいてほしいなら、このエリアは後回しにしてください。ある程度進んだところで、彼はこちらのもとを離れてしまいます。
 
@@ -90259,6 +90351,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 ここでできることは以上なので、好きな方法で山を脱出してください。
 
 ## 4番道路 上部 {#upper-route-4}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch17&amp;to=Route%204">ナビでここへの道を調べる</a></p>
 
 登れる岩のうち任意のものはこれで網羅したので、カルセノンへ飛び戻り、4番道路のハーディのいる東へ向かいます。ここの岩を登ってください。
 
@@ -94815,6 +94909,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## アゲートシティ襲撃 {#the-raid-on-agate-city}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch18&amp;to=Agate%20City">ナビでここへの道を調べる</a></p>
+
 カルセノンシティへ戻り、マップ右寄りのシェリーに話しかけます。カルセノンの「物語の建物」に入ると好感度が得られます。
 
 <!-- 好感度 -->
@@ -96953,6 +97049,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## アゲートシティ {#agate-city}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch18&amp;to=Agate%20City">ナビでここへの道を調べる</a></p>
+
 ハーディのジム戦の申し出をすぐ受けることもできますが、優れた報酬のあるサイドクエストがいくつか開放されています。結論から言うと、ハーディと戦う前に伝説以外のポケモンを1匹残らず集めることが可能で、全部集めれば実に素晴らしい報酬が待っています。では、始めましょう。
 
 アゲートシティの左側からアゲートサーカスへ入ります。
@@ -96975,6 +97073,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 そこから上へ進みます。ジムの近くで、隠された *かわらずのいし* が見つかります。下そして右へ戻り、街の北東側の岩を登って道をたどります。滝を登りながら、隠された *とくせいカプセル* を拾ってください。
 
 ## 4番道路のサイドクエスト {#route-4-sidequests}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch17&amp;to=Route%204">ナビでここへの道を調べる</a></p>
 
 一番上の滝を登ると、4番道路の新しいエリアに出ます。
 

@@ -77,6 +77,8 @@ description: "『ポケモンリボーン』「エピソード12: 一線を越�
 
 ## アゲートサーカス {#agate-circus}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch12&amp;to=Agate%20Circus">ナビでここへの道を調べる</a></p>
+
 アゲートシティでテラと初対面したあと……アゲートサーカスを探索できます。ここは次の数個のバッジを取るまでの「拠点」のような場所になります。トレーナーが各所にいて、エリア下部には回復設備もあります。マップ上のトレーナーは、おおむね時計回りに以下のとおりです。
 
 <div class="trainer_section"><table>
@@ -2156,6 +2158,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </table></div>
 
 ## 2番道路 {#route-2}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch12&amp;to=Route%202">ナビでここへの道を調べる</a></p>
 
 エレベーターで上がって外に出ます。
 

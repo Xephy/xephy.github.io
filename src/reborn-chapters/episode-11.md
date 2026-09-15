@@ -592,6 +592,8 @@ description: "『ポケモンリボーン』「エピソード11: 光の外へ�
 
 ## 7番街 {#seventh-street}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch10&amp;to=7th%20Street">ナビでここへの道を調べる</a></p>
+
 [ギャングのサイドクエスト](/reborn/episode-4/#joining-a-gang)をまだ終えていない場合は、ここで済ませる必要があります。
 
 自分のギャングの頭に話しかけると、7番街について教えてくれます。アクア団ならラピスの左上の家から、マグマ団ならラピス中央の左手にある家から行けます。
@@ -3423,6 +3425,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 勝つと *わざマシン11 にほんばれ* がもらえます。
 
 ## イオリア渓谷 {#iolia-valley}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch10&amp;to=Iolia%20Valley">ナビでここへの道を調べる</a></p>
 
 バンハネン迷宮へ向かいます。右上の大きな木の裏にイオリア渓谷への入口が隠れています。赤い宝石に話しかけると、いわくだき用の壁ができます。その道を進んでください。
 

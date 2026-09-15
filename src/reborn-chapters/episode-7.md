@@ -68,6 +68,8 @@ description: "『ポケモンリボーン』「エピソード7: 地に毒を」
 
 ## アズリン島 {#azurine-island}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch6&amp;to=Azurine%20Island">ナビでここへの道を調べる</a></p>
+
 <div class="encounter_section">
 <table>
 <thead>
@@ -3235,6 +3237,8 @@ description: "『ポケモンリボーン』「エピソード7: 地に毒を」
 </table></div>
 
 ## ビクスビジョン荒地 {#byxbysion-wasteland}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch7&amp;to=Byxbysion%20Wasteland">ナビでここへの道を調べる</a></p>
 
 南オブシディア区の東側へ向かいます。カインに話しかけるとビクスビジョン荒地へ入れます。
 

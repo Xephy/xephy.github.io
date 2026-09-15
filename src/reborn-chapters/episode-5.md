@@ -238,6 +238,8 @@ description: "『ポケモンリボーン』「エピソード5: リボーンシ
 
 ## ラピス区の養護施設 {#lapis-ward-orphanage}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch4&amp;to=Lapis%20Ward">ナビでここへの道を調べる</a></p>
+
 扉が開いたらすぐ養護施設へ入ります。この時点で好感度が高いほうに応じて、カインかシェリーのどちらかと組むことになります。
 
 <!-- 好感度 -->
