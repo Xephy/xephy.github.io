@@ -86,6 +86,14 @@
     return { steps: steps, total: total, doors: steps.length - 1 };
   }
 
+  // 同じ地図の中の出入口 (階段など) で区切れた手順は、どれも「〜を進み、先へ抜ける」になり、
+  // 次へを押しても地図も文も変わらず、押せていないように見える。次の手順も同じ地図なら言い分ける
+  function stepText(i) {
+    var s = route.steps[i], n = route.steps[i + 1];
+    if (n && n.map === s.map) return s.text.replace(/を進み、先へ抜ける$/, 'を進み、出入口から同じ地図の別の場所へ');
+    return s.text;
+  }
+
   function placeName(id) {
     var p = data.places.filter(function (q) { return q.id === id; })[0];
     return p ? p.name : id;
@@ -116,7 +124,7 @@
     $('navi-steps').innerHTML = route.steps.map(function (s, i) {
       var extra = s.moves && s.moves.length ? '<div class="navi-step-moves">' + s.moves.map(esc).join('・') + '</div>' : '';
       return '<li data-i="' + i + '"><span class="navi-n">' + (i + 1) + '</span><div>' +
-        '<div class="navi-step-text">' + esc(s.text) + '</div>' +
+        '<div class="navi-step-text">' + esc(stepText(i)) + '</div>' +
         (s.dirs ? '<div class="navi-step-dirs">' + esc(s.dirs) + '</div>' : '') + extra +
         (s.walk ? '<div class="navi-step-walk">' + s.walk + '歩</div>' : '') + '</div></li>';
     }).join('');
@@ -217,9 +225,11 @@
     var changed = shownMap !== s.map;
     var goal = i === route.steps.length - 1;
     drawMap(i);
-    $('navi-banner').innerHTML = arrow(firstDir(s), goal) + '<div><div class="navi-banner-text">' + esc(s.text) + '</div>' +
+    $('navi-banner').innerHTML = arrow(firstDir(s), goal) + '<div>' +
+      '<div class="navi-banner-count">手順 ' + (i + 1) + ' / ' + route.steps.length + '</div>' +
+      '<div class="navi-banner-text">' + esc(stepText(i)) + '</div>' +
       (s.dirs ? '<div class="navi-banner-dirs">' + esc(s.dirs) + '</div>' : '') + '</div>' +
-      (n ? '<div class="navi-banner-next">次: ' + esc(n.text) + '</div>' : '');
+      (n ? '<div class="navi-banner-next">次: ' + esc(stepText(i + 1)) + '</div>' : '');
     Array.prototype.forEach.call($('navi-steps').children, function (li, j) {
       li.classList.toggle('is-on', j === i);
     });
