@@ -3751,6 +3751,11 @@ body.night-mode .bst-chip { border-color: #454e5a; color: #c3cad2; }
    分からなくなる。行き先は文末の小さなリンクにまとめる。 */
 .news-go { margin-left: 4px; font-size: 12.5px; white-space: nowrap; }
 
+/* 攻略本文の地名の見出しの下に置く、ナビへの1行 (_utils/navi_links.rb)。
+   本文の読み進めを邪魔しないよう、見出しに寄せて小さく置く。 */
+.navi-link { margin: -6px 0 14px; font-size: 13px; color: #5f6873; }
+.navi-link::before { content: "🧭 "; }
+
 /* 日付の見出し。共通の h2 は 23px 用に padding-left: 12px / 帯 5px を持って
    いる。ここは 15px と小さいので、帯を細くしたぶんだけ余白も詰める。
    padding をまとめて 0 にすると、文字が帯に貼り付いていた。 */

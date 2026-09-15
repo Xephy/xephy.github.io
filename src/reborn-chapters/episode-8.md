@@ -2140,6 +2140,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## 地下鉄道網 東 {#underground-railnet-east}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch7&amp;to=Underground%20Railnet">ナビでここへの道を調べる</a></p>
+
 1階に戻り、東へ進んで地下鉄道網の別区画に入ります。
 
 <img class="tabImage" src="/assets/images/reborn/railnet_east.webp" width="1362" height="1815" loading="lazy" decoding="async" alt="攻略図"/>
@@ -2166,6 +2168,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 シャルロットに話しかけます。しゅっぱーつ!
 
 ## タンザン入り江 {#tanzan-cove}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch7&amp;to=Tanzan%20Cove">ナビでここへの道を調べる</a></p>
 
 新しいエリアに出ます。ここでは *むらさきのかけら*、*なんでもなおし*、*ノーマルジュエル*、*エレメンタルシード* が手に入ります。雨のとき、このマップの男性が *stablweather* というパスワードを教えてくれます。ここからは、タンザン山を通ってベルローズ邸へ先に行くか、森を抜けてスピネルタウンへ先に行くかを選べます。この攻略ではベルローズを先にしますが、この節を飛ばしてスピネルの後に戻ってきても構いません。
 
@@ -2429,6 +2433,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 
 ## クリソリアの森 {#chrysolia-forest}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch7&amp;to=Chrysolia%20Forest">ナビでここへの道を調べる</a></p>
 
 タンザン山を通って戻り、下から出ます。このマップの右下から森へ入ってください。
 
@@ -3204,6 +3210,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 上へ、そして左へ進んで周回を続けます。右上の開けた場所から、ついにスピネルタウンへ入れます。
 
 ## スピネルタウン {#spinel-town}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch7&amp;to=Spinel%20Town">ナビでここへの道を調べる</a></p>
 
 町中が混乱状態で、あらゆるものが激しくテレポートしています。左側の集合住宅に入ると、少女の家具がすべて消えてしまいます。取り戻してほしいと頼まれるので、家を出ましょう。
 

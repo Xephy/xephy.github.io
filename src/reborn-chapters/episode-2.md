@@ -291,6 +291,8 @@ description: "『ポケモンリボーン』「エピソード2: 蒔いた種は
 
 ## オブシディア区 {#obsidia-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch1&amp;to=Obsidia%20Ward">ナビでここへの道を調べる</a></p>
+
 準備ができたら、オパール大橋の右側にいるヴィクトリアに話しかけます。
 
 中央オブシディア美容室に入ります。中にはなつき度チェッカーと、1500ドルでポケモンのなつき度を上げてくれるトリマーがいます。所持金に余裕があれば一度受けておきましょう。
@@ -2012,6 +2014,8 @@ description: "『ポケモンリボーン』「エピソード2: 蒔いた種は
 
 ## コーラル区 {#coral-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch1&amp;to=Coral%20Ward">ナビでここへの道を調べる</a></p>
+
 コーラル区へようこそ。
 
 <img class="tabImage" src="/assets/images/reborn/hidden023.webp" width="1980" height="1585" loading="lazy" decoding="async" alt="攻略図"/>
@@ -3725,6 +3729,8 @@ description: "『ポケモンリボーン』「エピソード2: 蒔いた種は
 2つ目の倉庫には *きょうせいギプス* と、箱のどれかに隠れた **バネブー** がいます。3つ目の倉庫にはチームメテオのしたっぱがいます。彼に話しかけておくと、後でポケモンを1匹入手できます。ここには **ピンプク** もいます。
 
 ## オニキス区 {#onyx-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch2&amp;to=Onyx%20Ward">ナビでここへの道を調べる</a></p>
 
 オブシディアの北東の角からオニキス区へ入ります。オニキス区はかなり狭いですが、ジムに挑む前にできることがいくつかあります。
 

@@ -1293,6 +1293,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## アポフィルビーチ {#apophyll-beach}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch5&amp;to=Apophyll%20Beach">ナビでここへの道を調べる</a></p>
+
 コーラル区へ向かい、左上の施錠された倉庫に入ります。中から船に乗ってアポフィルビーチへ行けます。
 
 着いたらまっすぐ左へ進み、丘の間を縫って *さざなみのおこう* を回収してください。
@@ -2706,6 +2708,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 2階のアイテムボールには *けいけんアメL*、*みずのいし*、*フォーカスレンズ* があり、隠しアイテムは *あかいかけら*、*ピーピーエイド*、*キズぐすり*、*まひなおし*、*やけどなおし* です。
 
 ## パイロス山 {#pyrous-mountain}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch5&amp;to=Pyrous%20Mountain">ナビでここへの道を調べる</a></p>
 
 ここからストーリーに戻ります。アカデミー南の瞑想エリアへ入り、ピンク髪の女性に話しかけてください。
 

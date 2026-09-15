@@ -780,6 +780,8 @@ description: "『ポケモンリボーン』「エピソード13: 奔流」の�
 
 ## 3番道路とLCCC {#route-3--lccc}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch12&amp;to=Route%203">ナビでここへの道を調べる</a></p>
+
 <div class="encounter_section"><table>
 <thead>
 <tr><th colspan="5" class="table-header" style="text-align: center;"><strong>3番道路 出現ポケモン: くさむら</strong></th></tr>
@@ -2447,6 +2449,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## 4番道路 {#route-4}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch12&amp;to=Route%204">ナビでここへの道を調べる</a></p>
+
 <div class="encounter_section"><table>
 <thead>
 <tr><th colspan="5" class="table-header" style="text-align: center;"><strong>4番道路 出現ポケモン: くさむら</strong></th></tr>
@@ -3062,6 +3066,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 西のカルセノンシティへ入ります。
 
 ## カルセノンシティ {#calcenon-city}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch12&amp;to=Calcenon%20City">ナビでここへの道を調べる</a></p>
 
 ポケモンセンターの中では、人物が *noitems* というパスワードを教えてくれます。もう1人は交換に応じてくれます。こちらの **ハリーセン** と、相手の **ゴンベ** です。
 

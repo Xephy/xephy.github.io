@@ -93,6 +93,8 @@ description: "『ポケモンリボーン』「エピソード16: リボーン�
 
 ## タンザン入り江の水中探索 {#tanzan-cove-water-exploration}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Tanzan%20Cove">ナビでここへの道を調べる</a></p>
+
 これまで訪れた大量のエリアへ入れるようになり、しかも *なみのり*、*たきのぼり*、*ダイビング* が揃いました。最初の目的地としては奇妙に思えるかもしれませんが、まずはベルローズ邸へ飛んでタンザン入り江へ向かってください。
 
 タンザン入り江で水中に潜ります。
@@ -336,6 +338,8 @@ description: "『ポケモンリボーン』「エピソード16: リボーン�
 中で *しんじゅ* と隠された *あおいかけら* を回収したら外へ出ます。
 
 ## ネオオパール区 {#neo-opal-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Opal%20Ward">ナビでここへの道を調べる</a></p>
 
 それが済んだら、いよいよネオリボーンシティの探索です。留守の間に街全体が改修されていました。見事なものです。「ネオ」オパール区へ飛びましょう。
 
@@ -589,6 +593,8 @@ description: "『ポケモンリボーン』「エピソード16: リボーン�
 この区には *エレメンタルシード*、*めざめいし*、*メンタルハーブ*、*シルバースプレー*、*すごいキズぐすり* が隠されています。
 
 ## ネオペリドット区 {#neo-peridot-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Peridot%20Ward">ナビでここへの道を調べる</a></p>
 
 オパールで今できるのは以上なので、西のペリドットへ向かいます。
 
@@ -1181,6 +1187,8 @@ description: "『ポケモンリボーン』「エピソード16: リボーン�
 
 ## ネオジャスパー区とマルコウス森林公園 {#neo-jasper-ward--malchous-forest}
 
+<p class="navi-link">ナビで道を調べる: <a href="/reborn/navi/?p=ch15&amp;to=Jasper%20Ward">ジャスパー区</a> / <a href="/reborn/navi/?p=ch15&amp;to=Malchous%20Forest%20Park">マルコウス森林公園</a></p>
+
 ペリドットはこれで終わりなので、ネオジャスパー区へ入ります。
 
 <div class="encounter_section"><table>
@@ -1679,6 +1687,8 @@ description: "『ポケモンリボーン』「エピソード16: リボーン�
 </table></div>
 
 ## ネオベリル区 {#neo-beryl-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Beryl%20Ward">ナビでここへの道を調べる</a></p>
 
 次はベリルへ。ベリル大橋を渡って右へ進みます。発電所近くの技術者に、以前手に入れた *ユレユのカギ* を見せると *いかずちプレート* がもらえます。
 
@@ -2394,6 +2404,8 @@ description: "『ポケモンリボーン』「エピソード16: リボーン�
 
 ## ネオラピス区 {#neo-lapis-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Lapis%20Ward">ナビでここへの道を調べる</a></p>
+
 リボーンシティ西側でできることはこれで終わりなので、次はラピスへ飛びます。
 
 <div class="encounter_section"><table>
@@ -2633,6 +2645,8 @@ description: "『ポケモンリボーン』「エピソード16: リボーン�
 自分のギャングの頭に話しかけると、集めている申込書の用途が分かります。どちらのギャングでも、このクエストはまだ完了できないので、後ほど戻ります。
 
 ## ネオオブシディア区 {#neo-obsidia-ward}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Obsidia%20Ward">ナビでここへの道を調べる</a></p>
 
 ラピスへ戻り、東の北オブシディアへ進みます。左側で隠された *なんでもなおし* が手に入ります。
 
@@ -3651,6 +3665,8 @@ description: "『ポケモンリボーン』「エピソード16: リボーン�
 
 ## ネオコーラル区 {#neo-coral-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Coral%20Ward">ナビでここへの道を調べる</a></p>
+
 南のコーラルへ進みます。
 
 <div class="encounter_section"><table>
@@ -4464,6 +4480,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## ネオオニキス区 {#neo-onyx-ward}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Onyx%20Ward">ナビでここへの道を調べる</a></p>
+
 次はオニキス区へ飛びます。隠された *やけどなおし*、*ディフェンダー*、*あかいかけら* が手に入ります。左上の隅の人物も *かいふくのくすり* をくれます。
 
 屋上庭園へ上がります。
@@ -4615,6 +4633,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 これでスパイスに材料をすべて渡せるはずです。渡すと *たべのこし* が2個もらえます。
 
 ## ネオスピネルタウンとクリソリア温泉 {#neo-spinel-town--chrysolia-spring}
+
+<p class="navi-link">ナビで道を調べる: <a href="/reborn/navi/?p=ch15&amp;to=Spinel%20Town">スピネルタウン</a> / <a href="/reborn/navi/?p=ch15&amp;to=Chrysolia">クリソリア</a></p>
 
 市内でできることは今のところ以上なので、スピネルタウンへ飛びます。博物館に入ってください。
 
@@ -5105,6 +5125,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## イオリア渓谷とアベンチュリンの森の水中探索 {#iolia-valley--aventurine-woods-water-exploration}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Iolia%20Valley">ナビでここへの道を調べる</a></p>
+
 バンハネン城へ飛び、イオリア渓谷へ向かいます。
 
 <div class="encounter_section"><table>
@@ -5205,6 +5227,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 このエリアで今できるのは以上です。
 
 ## ネオアポフィルビーチ {#neo-apophyll-beach}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Apophyll%20Beach">ナビでここへの道を調べる</a></p>
 
 アポフィルアカデミーへ飛び、アカデミーに入ります。最初の部屋の少女に話しかけると *アポフィルのもうしこみしょ* がもらえます。アカデミー中央のエリアでは隠された *むらさきのかけら* が手に入ります。
 
@@ -5688,6 +5712,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 </table></div>
 
 ## アズリン湖 {#azurine-lake}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Azurine%20Lake">ナビでここへの道を調べる</a></p>
 
 いよいよアズリン湖そのものを扱います。この広大なエリアでできることは山ほどあります。まずはアポフィルアカデミーからなみのりで上へ進み、岩場の洞窟 (1) に入ってください。
 
@@ -7342,6 +7368,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 
 ## ネオアズリン島 {#neo-azurine-island}
 
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Azurine%20Island">ナビでここへの道を調べる</a></p>
+
 アズリン湖の探索を締めくくるため、次はアズリン島を見ていきます。コーラル区から西へなみのりし、行けるところで下へ進むと、再びアズリン島に着きます。
 
 <div class="encounter_section">
@@ -8047,6 +8075,8 @@ HPを全回復">ねむる</span><span class="move-meta"><span class="move-cat">�
 新しく仲間になったポケモンが *せいいきのカギ* を持っていることに気づくはずです。このカギをバッグに入れたまま7番街へ戻り、サブセブン聖域を再訪します。迷路のような部屋で、左側の扉をカギで開けてください。*ダークマテリアル* と *けいけんアメXL* 3個を回収します。緑の本を読むと設定が読め、左のアルセウス像の色は後で使うので覚えておきましょう。済んだら外へ出ます。このクエストは今のところここまでです。
 
 ## アゲートサーカスの釣り {#agate-circus-fishing}
+
+<p class="navi-link"><a href="/reborn/navi/?p=ch15&amp;to=Agate%20Circus">ナビでここへの道を調べる</a></p>
 
 *すごいつりざお* が手に入ったので、サーカスとその先のエリアで新しく捕まえられるポケモンがいます。アゲートサーカスへ飛び戻ってください。ついでにエリア上部で *サーカスのもうしこみしょ* も手に入ります。網羅のため、出現データをすべて挙げておきます。
 
