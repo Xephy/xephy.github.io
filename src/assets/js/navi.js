@@ -44,10 +44,27 @@
       sel.disabled = false;
       if (keep && data.places.some(function (p) { return p.id === keep && p.at; })) sel.value = keep;
     });
-    if ($('navi-from').value === $('navi-to').value) {
+    if (needFrom) {
+      askFrom();
+    } else if ($('navi-from').value === $('navi-to').value) {
       var other = data.places.filter(function (p) { return p.at && p.id !== $('navi-from').value; })[0];
       if (other) $('navi-to').value = other.id;
     }
+  }
+
+  // 目的地だけを決めて開いたときは、出発地を空にしておく。一覧の先頭 (1番道路) が
+  // 選ばれたままだと、こちらで出発地を決めたように見え、道の無い組み合わせにもなる
+  var needFrom = false;
+  function askFrom() {
+    var sel = $('navi-from');
+    if (!sel.querySelector('option[value=""]')) {
+      var ph = document.createElement('option');
+      ph.value = '';
+      ph.disabled = true;
+      ph.textContent = '出発地を選んでください';
+      sel.insertBefore(ph, sel.firstChild);
+    }
+    sel.value = '';
   }
 
   function selectChapter(key) {
@@ -68,6 +85,7 @@
     var a = $('navi-from').value, b = $('navi-to').value;
     $('navi-msg').textContent = '';
     if (!data) return;
+    if (!a || !b) { $('navi-msg').textContent = (a ? '目的地' : '出発地') + 'を選んでください。'; return; }
     if (a === b) { $('navi-msg').textContent = '出発地と目的地が同じです。'; return; }
     route = data.routes[a + '>' + b];
     if (!route) {
@@ -270,6 +288,12 @@
     $('navi-to').value = a;
   });
   $('navi-prog').addEventListener('change', function () { route = null; remember(this.value); selectChapter(this.value); });
+  $('navi-from').addEventListener('change', function () {
+    if (!this.value) return;
+    needFrom = false;
+    var ph = this.querySelector('option[value=""]');
+    if (ph) ph.remove();
+  });
   window.addEventListener('resize', function () { if (route) fitTo(cur, false); });
 
   // ---------------------------------------------------------------- はじめ
@@ -298,7 +322,9 @@
     if (ok(a) && a !== b) $('navi-from').value = a;
     if (ok(a) && ok(b) && data.routes[a + '>' + b]) {
       start();
-    } else if (ok(b) && !a) {
+    } else if (ok(b) && !ok(a)) {
+      needFrom = true;
+      askFrom();
       $('navi-msg').textContent = '目的地を' + placeName(b) + 'にしました。出発地を選んで「ナビ開始」を押してください。';
       $('navi-from').focus();
     }
